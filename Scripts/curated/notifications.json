@@ -1,0 +1,184 @@
+[
+  {
+    "file": "03-Notifications/ToastController__drill-and-mine.lua",
+    "title": "Toast controller with duplicate merge",
+    "game": "drill-and-mine",
+    "desc": "Colored toast notifications (Red/Green templates) that merge duplicates into \"(xN)\", pulse on repeat, pop in/out with UIScale, and preload their sounds.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/NotificationManager__needoh-escape.lua",
+    "title": "Success/Error toast manager",
+    "game": "needoh-escape",
+    "desc": "Tiny Success/Error toast module: clones a template, recolors stroke + gradient by type, fades in, plays a sound, fades out after 2s; never yields the caller.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/RewardPopUp__brainrot-lab.lua",
+    "title": "Floating reward pop-ups",
+    "game": "brainrot-lab",
+    "desc": "\"+$123\" reward pop-ups at a random spot near screen centre: pop-size + fade in, float up + fade out, with sound; driven by server RemoteEvents.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/StackingItemAlerts__bee-swarm-sim.lua",
+    "title": "Stacking item alerts",
+    "game": "bee-swarm-sim",
+    "desc": "Item alert feed that merges repeated \"+N Item\" alerts into one running total instead of spamming new rows, with optional chat system message.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/ElasticAlertFeed__bee-swarm-sim.lua",
+    "title": "Elastic alert feed",
+    "game": "bee-swarm-sim",
+    "desc": "Classic bottom-up alert feed: max N rows, elastic slide-in, older alerts pushed up, slow fade out and cleanup.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/GlobalAnnounceClient__smash-egg-for-animals.lua",
+    "title": "Global announcements + rarity spawn banners",
+    "game": "smash-egg-for-animals",
+    "desc": "Builds its own UI in code: admin announcements (avatar headshot + name + text) stacked at top of screen, rarity-gradient \"egg spawned\" announcements with a sliding gradient, plus a small redeem-code window.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/MessageDialog__big-paintball.lua",
+    "title": "Yielding message / yes-no dialog",
+    "game": "big-paintball",
+    "desc": "BIG Games framework dialog: one call shows an OK message, a Yes/No question, or a 2-option choice and yields until the player answers (with gamepad support).",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/DialogService__work-at-a-pizza-place.lua",
+    "title": "Server-or-client dialog service",
+    "game": "work-at-a-pizza-place",
+    "desc": "Shared Dialog module usable from server or client: GetChoice yields for the player's yes/no answer (per-player queue, 60s timeout), ShowMessage / ShowMessageAll for one-button messages.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/DialogBoxClient__work-at-a-pizza-place.lua",
+    "title": "Dialog box client (PC + gamepad)",
+    "game": "work-at-a-pizza-place",
+    "desc": "Client side of the pizza-place dialog: queues dialogs, fills title/message/button texts, swaps to A/B gamepad buttons on console, sends the choice back.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/CustomProximityPrompt__needoh-escape.lua",
+    "title": "Custom ProximityPrompt UI",
+    "game": "needoh-escape",
+    "desc": "Custom-style ProximityPrompt UI: billboard per prompt, shows key name on PC or tap icon on mobile, tap/click/hold all forward to InputHoldBegin/End.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/ZoneEnterBanner__smash-egg-for-animals.lua",
+    "title": "Zone enter banner",
+    "game": "smash-egg-for-animals",
+    "desc": "Area title banner: when the player enters a tagged zone part, a CanvasGroup banner (zone name, gradient, recommended speed) slides in for 3s then fades.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/DangerAlert__smash-egg-for-animals.lua",
+    "title": "Full-screen danger alert",
+    "game": "smash-egg-for-animals",
+    "desc": "Full-screen \"RUN!\" warning driven by a player attribute: red flash, pulsing gradient screen edges, heartbeat-scaled text; fades out when the attribute clears.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/NotifyBadgePulse__drill-and-mine.lua",
+    "title": "HUD badge pulse",
+    "game": "drill-and-mine",
+    "desc": "Attention badge on a HUD button: every few seconds two red rings ripple out while the badge pops and wiggles like a bell.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/TimedNotification__miami-shootout.lua",
+    "title": "Notification with timer bar",
+    "game": "miami-shootout",
+    "desc": "Notification with a filler wipe-in and a shrinking timer bar showing time left; templates per \"Mode\", callable from server via RemoteEvent.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/SlideNotificationList__uno.lua",
+    "title": "Sliding notification list",
+    "game": "uno",
+    "desc": "Good/Neutral/Bad notifications with colored side bar and sound; new ones slide in at the top and push older ones down, then slide out left. NOTE: the original has \"if true then return end\" at the top (disabled in game).",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/SpringNotifications__punching-simulator.lua",
+    "title": "Spring-animated notifications",
+    "game": "punching-simulator",
+    "desc": "Framework notification service: respects a player \"Notifications\" setting, plays optional audio, spring-animates UIScale in/out (Spr), callable from server or client.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/ModAnnouncement__casino-lvah.lua",
+    "title": "Moderator announcement banner",
+    "game": "casino-lvah",
+    "desc": "Simple moderator announcement banner: clone template, fade in title/text/name over 2s, hold 6s, fade out.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/GlobalAnnounceCommand__steal-a-brainrot.lua",
+    "title": "Cross-server announce command",
+    "game": "steal-a-brainrot",
+    "desc": "Server admin command that announces to this server and to every other server via a messaging hub, skipping its own JobId to avoid double messages.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/JoinGroupCoreNotification__animal-hospital-modded.lua",
+    "title": "Core SendNotification with button",
+    "game": "animal-hospital-modded",
+    "desc": "Uses the built-in StarterGui:SetCore(\"SendNotification\") with a Join button + BindableFunction callback to prompt group join every few minutes if not a member.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/SocialPopup__grow-a-garden-2.lua",
+    "title": "Favorite / join-group nudge",
+    "game": "grow-a-garden-2",
+    "desc": "Favorite / join-group nudge shown when using a shop prompt: native favorite dialog (AvatarEditorService) first, then a small group card; 5-minute cooldown if ignored.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/GamepassBuyButton__murderers-vs-sheriffs.lua",
+    "title": "Gamepass buy button",
+    "game": "murderers-vs-sheriffs",
+    "desc": "World SurfaceGui gamepass buy button: hover/press tweens, anti double-prompt, listens to PromptGamePassPurchaseFinished and flips to \"Purchased\".",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/CashAndErrorText__scooter-obby.lua",
+    "title": "Floating cash and error text",
+    "game": "scooter-obby",
+    "desc": "Floating \"+N coins!\" / \"+N skips!\" text with random drift and rotation, plus red error text from client (BindableEvent) or server (RemoteEvent).",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/_patterns/ToastQueue.lua",
+    "title": "Toast queue (pattern)",
+    "game": "pattern",
+    "desc": "Stacking toasts with Success/Error/Info/Warning styles, duplicate merge with (xN), max visible, auto-dismiss, optional sounds.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/_patterns/ConfirmDialog.lua",
+    "title": "Confirm dialog (pattern)",
+    "game": "pattern",
+    "desc": "Yielding modal: Ask() returns true/false, Message() and Choose(); queued, Enter/Escape and gamepad A/B, optional timeout.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/_patterns/Announcer.lua",
+    "title": "Announcer (pattern)",
+    "game": "pattern",
+    "desc": "Server-to-client announcement banners (player, server, or all servers via MessagingService) with queued display and optional avatar headshot.",
+    "category": "notifications"
+  },
+  {
+    "file": "03-Notifications/_patterns/PurchasePrompt.lua",
+    "title": "Purchase prompt wrapper (pattern)",
+    "game": "pattern",
+    "desc": "Yielding wrapper for game pass / developer product prompts with anti-double-prompt lock, timeout, pending callback and ownership cache.",
+    "category": "notifications"
+  }
+]

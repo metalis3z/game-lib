@@ -1,0 +1,163 @@
+[
+  {
+    "file": "05-Camera-Cutscene/CameraShaker__jujutsu-shenanigans.lua",
+    "title": "CameraShaker (RbxCameraShaker)",
+    "game": "jujutsu-shenanigans",
+    "desc": "Open-source camera shake engine: ShakeOnce, sustained shakes, presets, fade in/out.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/CameraShakeInstance__jujutsu-shenanigans.lua",
+    "title": "CameraShakeInstance",
+    "game": "jujutsu-shenanigans",
+    "desc": "Single shake instance used by CameraShaker (Perlin noise, fade states).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/CameraShakePresets__jujutsu-shenanigans.lua",
+    "title": "CameraShakePresets",
+    "game": "jujutsu-shenanigans",
+    "desc": "Ready-made shake presets (Explosion, Earthquake, Bump, Handheld...).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/ShakeCameraWrapper__jujutsu-shenanigans.lua",
+    "title": "ShakeCamera wrapper",
+    "game": "jujutsu-shenanigans",
+    "desc": "How a game wraps CameraShaker into one shared module (one instance, simple API).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/HumanoidOffsetShake__big-paintball.lua",
+    "title": "Shake via Humanoid.CameraOffset",
+    "game": "big-paintball",
+    "desc": "Shake without touching Camera.CFrame (uses Humanoid.CameraOffset) + controller vibration.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/CombatCameraClient__jujutsu-shenanigans.lua",
+    "title": "Combat client camera",
+    "game": "jujutsu-shenanigans",
+    "desc": "Additive decaying shake + head-follow CameraOffset + 'dead cam' offset in one LocalScript.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/FrameTableCameraCutscene__jujutsu-shenanigans.lua",
+    "title": "Frame-table camera cutscenes",
+    "game": "jujutsu-shenanigans",
+    "desc": "Data-driven cutscenes: per-frame CFrame + FOV tables played at 60 fps relative to a part.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/CameraRigCutscene__jujutsu-shenanigans.lua",
+    "title": "Animated camera rig cutscenes",
+    "game": "jujutsu-shenanigans",
+    "desc": "Animate a camera rig with normal animations; camera follows the rig's Cam part; smooth hand-back.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/CutsceneLock__smash-egg-for-animals.lua",
+    "title": "CutsceneLock",
+    "game": "smash-egg-for-animals",
+    "desc": "One-cutscene-at-a-time lock + StreamingEnabled support (load what the camera sees).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/CutsceneDefinitions__bite-by-night.lua",
+    "title": "Kill cam / intro definitions",
+    "game": "bite-by-night",
+    "desc": "Data-driven kill cams / intros / outros (rig + animation + FOV curve per cutscene).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/LockOnCamera__jujutsu-shenanigans.lua",
+    "title": "Lock-on camera",
+    "game": "jujutsu-shenanigans",
+    "desc": "Target lock-on with crosshair picking, left/right switching, line-of-sight break, shoulder offset.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/HeadFollowCameraOffset__jujutsu-shenanigans.lua",
+    "title": "Head-follow camera offset",
+    "game": "jujutsu-shenanigans",
+    "desc": "Camera follows the head during animations (CameraOffset = head relative to root).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/FirstPersonBobSway__backrooms-exploration.lua",
+    "title": "First-person bob, sway & breathing",
+    "game": "backrooms-exploration",
+    "desc": "Best head-bob/sway reference: layered sine + noise offsets with every constant exposed at the top.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/RealismBobAndBodyLook__the-rake.lua",
+    "title": "Realism mode (CloneTrooper1019)",
+    "game": "the-rake",
+    "desc": "Old but famous: body follows camera pitch + walk bobble via CameraOffset (R6).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/JumpscareController__steal-a-brainrot-sab-files.lua",
+    "title": "Jumpscare controller",
+    "game": "steal-a-brainrot-sab-files",
+    "desc": "Full jumpscare: model flies at the camera, shake, flash, color/DOF effects, auto cleanup.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/DeathJumpscareCam__the-rake.lua",
+    "title": "Death jumpscare camera",
+    "game": "the-rake",
+    "desc": "Simplest death cam: Scriptable camera at a fixed part + FOV kick (120 -> 50).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/SpectateFollowCam__needoh-escape.lua",
+    "title": "Spectate client (follow cam)",
+    "game": "needoh-escape",
+    "desc": "Clean spectate: freeze input, lerp-follow target, survive respawns, full restore.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/SpectateCycle__evade.lua",
+    "title": "Spectate next/previous",
+    "game": "evade",
+    "desc": "The simplest spectate: cycle Camera.CameraSubject through a player list.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/FovBlurHelper__steal-a-brainrot-sab-files.lua",
+    "title": "FOV / blur helper",
+    "game": "steal-a-brainrot-sab-files",
+    "desc": "Two-function helper to tween FOV and blur.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/OrbitPanCamera__work-at-a-pizza-place.lua",
+    "title": "Orbit pan camera",
+    "game": "work-at-a-pizza-place",
+    "desc": "Orbiting showcase camera with simple wall collision (repeated raycasts ignoring see-through parts).",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/_patterns/CinematicCutscene.lua",
+    "title": "CinematicCutscene (pattern)",
+    "game": "pattern",
+    "desc": "Plays a list of camera shots with letterbox bars, input freeze, skip button and a smooth hand-back.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/_patterns/FovController.lua",
+    "title": "FovController (pattern)",
+    "game": "pattern",
+    "desc": "Single owner of FieldOfView: base FOV (sprint), named offsets (aim), and spring FOV punches.",
+    "category": "camera-cutscene"
+  },
+  {
+    "file": "05-Camera-Cutscene/_patterns/DeathCam.lua",
+    "title": "DeathCam (pattern)",
+    "game": "pattern",
+    "desc": "On death, orbit the body or frame the killer, desaturate, and restore on respawn.",
+    "category": "camera-cutscene"
+  }
+]

@@ -1,0 +1,191 @@
+[
+ {
+  "file": "09-RNG-Gacha-Pets/WeightedRoll__pet-rng.lua",
+  "title": "Minimal weighted roll",
+  "game": "pet-rng",
+  "desc": "Smallest possible weighted pick: sum the weights, draw math.random()*total, walk the list until the running sum passes the draw.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetRarityTable__pet-rng.lua",
+  "title": "Pet weight table (1-in-N odds)",
+  "game": "pet-rng",
+  "desc": "Pet data table where each pet has a raw weight; the game shows odds as 1/(total/weight). Shows how RNG games go from 1/2 to 1/10,000,000+ by dividing tiny weights.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RollAnimationAutoRoll__pet-rng.lua",
+  "title": "Roll reveal UI + auto-roll (client)",
+  "game": "pet-rng",
+  "desc": "Client roll button: flashes 4 fake results then the real one in a viewport, auto-roll gamepass toggle, luck applied by multiplying rare weights. WARNING: the roll happens on the client and the server trusts the pet name.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RollServerAnnounceBadges__pet-rng.lua",
+  "title": "Rare-roll global announcement + badges",
+  "game": "pet-rng",
+  "desc": "Server side of the roll: converts weight to '1/N', awards badges at 1/100, 1/1000 ... and broadcasts very rare rolls to every server through MessagingService.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetFollowAlignPosition__pet-rng.lua",
+  "title": "Pet follow with AlignPosition",
+  "game": "pet-rng",
+  "desc": "Equips a pet model that follows the player using Attachment + AlignPosition/AlignOrientation, with a bobbing tween that changes speed while the player walks.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/EggHatchService__rcu-roller.lua",
+  "title": "Server egg hatching (Knit)",
+  "game": "rcu-roller",
+  "desc": "Full server-authoritative egg opening: rate limit, amount clamp, currency check, luck via weight^(1/luck), Golden/Toxic tier roll, stacking duplicates, index tracking, quest hooks, global luck events.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetEquipService__rcu-roller.lua",
+  "title": "Pet equip / lock / delete service",
+  "game": "rcu-roller",
+  "desc": "Server pet inventory actions: equip with slot cap from upgrades + gamepasses, unequip, delete (blocked if locked), lock toggle, nickname length cap.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetRowFormation__rcu-roller.lua",
+  "title": "Pet formation offsets (rows / arcs)",
+  "game": "rcu-roller",
+  "desc": "Pure function that lays equipped pets out in up to 3 arcs behind the player (small pets front, big pets middle, huge pets back) and returns a CFrame offset per pet.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/LuckStack__rcu-roller.lua",
+  "title": "Luck multiplier stacking",
+  "game": "rcu-roller",
+  "desc": "One function that adds every luck source together: server flag, global event, upgrades, gamepasses, potions, fruits, events and the equipped aura. Same code runs on client (for display) and server (for the roll).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/LuckChanceShift__rcu-roller.lua",
+  "title": "Luck that moves % from common to rare",
+  "game": "rcu-roller",
+  "desc": "getNewChances: multiplies the chance of 'luck-affected' pets and subtracts the same total from the common pets so the egg still sums to 100%. Also pet descriptor / rarity helpers.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/AuraRoll__rcu-roller.lua",
+  "title": "Aura dice roll + aura levels",
+  "game": "rcu-roller",
+  "desc": "Bundle of AuraService (consume a dice item, roll an aura on the server) and AuraUtils (luck redistribution with clamping, aura XP level/progress).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/ZonePoolRollMutations__slime-rng.lua",
+  "title": "RNG roll with zone pools, mutations and special rolls",
+  "game": "slime-rng",
+  "desc": "Server roll: builds a pool from zone-unlocked slimes, boosts rare tiers with amplifiers, rolls independent mutations (huge/big/shiny/inverted), auto-equips, updates the index and counts down golden/diamond/void 'every N rolls' special rolls.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RandomLuckEvents__slime-rng.lua",
+  "title": "Random timed server luck events",
+  "game": "slime-rng",
+  "desc": "Every 5-10 minutes picks a weighted luck multiplier (x2 common ... x50 rare) and turns on a 5 minute server luck event through the admin luck service.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/IndexCollectionTracking__slime-rng.lua",
+  "title": "Index / collection tracking + rewards",
+  "game": "slime-rng",
+  "desc": "Index service: migrates old saves into the index (retroactively unlocking owned slimes), tracks counts per category/mutation and hands out index milestone rewards.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RNGMachineService__steal-a-brainrot.lua",
+  "title": "Paid RNG slot machine with skill tree",
+  "game": "steal-a-brainrot",
+  "desc": "Server RNG machine: price-based reward weights, server picks the result and decoy reel entries for the client to animate, chance of a luck-multiplier result, mutation skills, timed buy offer and delivery to a free podium.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/MutationTable__steal-a-brainrot.lua",
+  "title": "Mutation data layout",
+  "game": "steal-a-brainrot",
+  "desc": "Two entries of the mutation table: each mutation has a display name, rich text, sort order, roll Weight, income Modifier, icon and colour palettes used to recolour the model.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/ServerLuckTimer__steal-a-brainrot.lua",
+  "title": "Replicated server luck timer",
+  "game": "steal-a-brainrot",
+  "desc": "Tiny service that holds a server-wide luck index and end time in a replicated channel and counts it down once per second.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/SpinWheelService__evade.lua",
+  "title": "Event spin wheel (server)",
+  "game": "evade",
+  "desc": "Server spin wheel: weighted reward with alternate reward if already owned, per-player cooldown, spin tokens given out by a UTC-scheduled event, reward applied after the client animation delay.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/LuckyBlockService__drill-and-mine.lua",
+  "title": "Lucky block opening with luck tier-up",
+  "game": "drill-and-mine",
+  "desc": "Lucky block open flow: luck gives a chance per step to climb a rarity tier (capped at +2), skips invalid ids, falls back along the rarity ladder, and holds rewards as 'pending' until the reveal animation confirms (auto-applies on timeout or leave).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PityTimerSpawns__brainrot-lab.lua",
+  "title": "Server-wide pity timers",
+  "game": "brainrot-lab",
+  "desc": "Conveyor spawner where Legendary / Mythical / Secret never roll randomly; instead a countdown per rarity guarantees one when it hits zero, with a world sign showing the time left.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/EggZoneRolls__smash-egg-for-animals.lua",
+  "title": "Egg spawn / size / pet rolls with luck event",
+  "game": "smash-egg-for-animals",
+  "desc": "Three roll helpers: luck() reads a server attribute, rollHeight() picks a size tier, pickKey() boosts every egg except the most common one during a luck event, and hatch() picks the pet and stacks event mutations.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/EggIncubateHatch__smash-egg-for-animals.lua",
+  "title": "Placed egg incubation + hatch",
+  "game": "smash-egg-for-animals",
+  "desc": "Eggs placed in the player's base incubate until ReadyAt, can randomly grow heavier while waiting, then hatch on the server (inventory cap check, roll by % table, egg weight carried into the pet).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/GlobalLuckEvent__smash-egg-for-animals.lua",
+  "title": "Cross-server luck event",
+  "game": "smash-egg-for-animals",
+  "desc": "Admin-started x4 luck event shared by all servers: end time saved in a DataStore (new servers pick it up), broadcast with MessagingService, per-server option, and a resync loop.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/WeightedTable.lua",
+  "title": "Weighted table with luck modes",
+  "game": "pattern",
+  "desc": "Weighted random table with BoostRare / Exponent / Shift luck, binary-search roll, RollMany and 1/N odds text.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/PityCounter.lua",
+  "title": "Pity counter (hard / soft / every-N)",
+  "game": "pattern",
+  "desc": "Per-player, per-banner hard and soft pity plus every-N-rolls bonus counters stored in a saveable table.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/EggHatcher.lua",
+  "title": "Server egg hatcher",
+  "game": "pattern",
+  "desc": "Server-authoritative egg hatch: argument validation, cooldown, spend-before-roll, tier and mutation rolls, index marking; plugs into any data layer.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/PetFollower.lua",
+  "title": "Client pet follower",
+  "game": "pattern",
+  "desc": "Client-side pet follow with size-based arc formation, frame-rate independent lerp and walk/idle bobbing.",
+  "category": "rng-gacha"
+ }
+]

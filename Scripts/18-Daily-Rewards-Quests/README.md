@@ -1,0 +1,41 @@
+# Daily rewards, quests, codes, playtime and offline earnings
+
+The "come back tomorrow" systems: daily login calendars with streaks, a daily reset at 00:00
+UTC, quests driven by gameplay events, promo codes (including limited-use codes counted across
+all servers), playtime and chest rewards, and offline earnings paid out when a player returns.
+`rivals-modded` (DailyService + TaskService + ClaimService) is the cleanest end-to-end set;
+`drill-and-mine` has the most polished daily calendar and offline cash. The `_patterns/`
+folder has standalone versions of the calendar, a quest tracker and a code redeemer.
+
+| File | From game | What it does | Reuse notes |
+|---|---|---|---|
+| [DailyRewardService-Streak__drill-and-mine.lua](DailyRewardService-Streak__drill-and-mine.lua) | drill-and-mine | 7-day login calendar: state resolved lazily on read (claimable / countdown / streak broken after 2 days), config-driven reward types, payload for the UI, and a paid 'skip all days' product. | Good model. The skip-all purchase uses the game's pending-callback PurchaseService; route it through your receipt handler instead. |
+| [DailyService-UTCReset__rivals-modded.lua](DailyService-UTCReset__rivals-modded.lua) | rivals-modded | Day number = os.time() // 86400; on join and every 15s it resets daily counters, refreshes the daily shop and rolls new daily tasks when the day changes (and tells TaskService if a day was missed). | Tiny and reusable: put every 'Today' field in DAILY_DEFAULTS. |
+| [TaskService-EventQuests__rivals-modded.lua](TaskService-EventQuests__rivals-modded.lua) | rivals-modded | Quests progress from events (TaskService.Record(player, 'DuelWon')), beginner sets of three until finished, then three daily Core tasks; completing a set grants rewards and keeps a daily streak. | Clean design; TaskLibrary (goals/rewards) and RewardService are game modules. See _patterns/QuestTracker.lua. |
+| [ClaimService-LoginCodesSocial__rivals-modded.lua](ClaimService-LoginCodesSocial__rivals-modded.lua) | rivals-modded | Once-per-day login reward, one-off social rewards (group checked with IsInGroup; like/favourite trusted because Roblox cannot check them), battle-pass tier claims with validation, and a case-insensitive code table saved per player. | Very readable. Rewards go through RewardService.GrantAll (game specific). |
+| [RewardService-ChestsPlaytimeAchievements__rcu-roller.lua](RewardService-ChestsPlaytimeAchievements__rcu-roller.lua) | rcu-roller | Timed chests with cooldowns and weighted loot, one-time mini chests, playtime milestones checked against session time, tiered achievements (category+tier keys), ticket shop and a weighted wheel. | Good catalogue of reward types. WARNING: claimDailyReward has no cooldown check, so it can be claimed again and again; add one before reusing. |
+| [CodesService-AtomicStock__steal-a-brainrot-sab-files.lua](CodesService-AtomicStock__steal-a-brainrot-sab-files.lua) | steal-a-brainrot-sab-files | Codes with limited stock redeemed atomically in UpdateAsync (already-redeemed / out-of-stock reasons), global codes broadcast with MessagingService and stock kept in a MemoryStore sorted map, 5s cooldown. | Best code system here. Needs an IsAdmin module for creating global codes (write your own; do not reuse the game's hard-coded ids). The per-code Users list grows forever inside one key. |
+| [CodeHandler-DataStoreCodes__uno.lua](CodeHandler-DataStoreCodes__uno.lua) | uno | Codes kept in a DataStore list with expiry timestamps and reward types, loaded into the server on start and refreshable, so new codes can be added without shutting servers down. | Nice idea for live ops. Retries forever with no cap; builds Value objects for each code. |
+| [DailyChestHandler-Simple__zombie-outbreak-survival.lua](DailyChestHandler-Simple__zombie-outbreak-survival.lua) | zombie-outbreak-survival | Standalone daily chest: its own DataStore with LastClaim/Streak, 24h cooldown, 48h streak expiry, 7-day reward table sent to the client for display, claim debounce. | Easy to read. GetAsync is not pcall'd and rewards go straight into leaderstats; good for learning, not for production. |
+| [DailyGiftUtility-Shared__punching-simulator.lua](DailyGiftUtility-Shared__punching-simulator.lua) | punching-simulator | Tiny shared module: next gift id (1..7 loop), time left and canClaim from the saved {i, t} value, used by both the UI and the server check. | Pattern worth copying: one rules module required by client and server. |
+| [OfflineEarnings-Podiums__drill-and-mine.lua](OfflineEarnings-Podiums__drill-and-mine.lua) | drill-and-mine | Offline cash = income per second x offline seconds (capped at 12h) x boosts x a 1/6 offline rate, a gamepass multiplier and auto-collect, a 'measured earning pace' fallback, a claim-all popup endpoint, and LastLogin bookkeeping on join/leave. | Excerpt from a 2000-line plot service. Note how LastLogin is read BEFORE it is overwritten on join. |
+| [OfflineEarnings-Simple__kick-a-brainrot.lua](OfflineEarnings-Simple__kick-a-brainrot.lua) | kick-a-brainrot | Minimal offline earnings: time since last save (capped at 8h) x each placed item's income x mutation/level/rebirth/VIP multipliers, shown in a popup and paid on a Claim remote. | Short and clear. Pending amount is memory-only, so it is lost if the player leaves without claiming. |
+| [_patterns/DailyRewards.lua](_patterns/DailyRewards.lua) | pattern (drill-and-mine, rivals-modded, zombie-outbreak-survival, punching-simulator) | Login calendar over a saved table: Rolling (24h + grace) or UTCDay mode, streak/best streak, loops after N days, Status() for UI countdowns, SkipWait() for a paid skip. | Give it a Grant(player, reward, day) function; works with any data module. |
+| [_patterns/QuestTracker.lua](_patterns/QuestTracker.lua) | pattern (rivals-modded, rcu-roller) | Quests advanced by Record(player, event, amount); beginner chain then seeded daily set (same on every server), auto or manual claim, daily streak, reset countdown. | State lives in your saved data; OnChanged lets you replicate it. |
+| [_patterns/CodeRedeemer.lua](_patterns/CodeRedeemer.lua) | pattern (steal-a-brainrot-sab-files, rivals-modded, uno, steal-a-brainrot) | Promo codes: normalised input, expiry, requirements, once per player in saved data, optional global use limit via UpdateAsync with roll-back, cooldown, status strings. | Keep the Codes table on the server only; ListActive() for a public list. |
+
+## Techniques seen across games
+
+- **Resolve the state when it is read** (`drill-and-mine` resolveState): store only LastClaim/Day/Streak and work out 'claimable', 'countdown' and 'streak broken' from the clock, instead of running timers.
+- **Two clocks**: rolling 24h cooldown with a 48h grace window (`drill-and-mine`, `zombie-outbreak-survival`) or a calendar day number `os.time() // 86400` reset at 00:00 UTC (`rivals-modded`), which is also how daily quests and shops roll over.
+- **Quests as events**: gameplay calls one Record(event) function and the quest system maps events to quests (`rivals-modded` TaskService), so new quests never touch combat code.
+- **Codes**: normalise the text, save redeemed codes in the profile (a server-memory list lets players redeem again after rejoining, as in `steal-a-brainrot` CodeService), and count limited uses atomically with UpdateAsync (`steal-a-brainrot-sab-files`).
+- **Offline earnings**: always cap the offline time (8-12h), pay a reduced rate, compute from LastLogin captured before it is overwritten, and pay through a Claim popup so it is visible (`drill-and-mine`, `kick-a-brainrot`).
+- **Never trust the client's 'I waited'**: check cooldowns server-side; `rcu-roller` claimDailyReward forgets to, which makes it infinitely claimable.
+
+## Things we did not copy (and why)
+
+- `bee-swarm-sim` Quests contains a Discord link/webhook reference, and `steal-a-brainrot-sab-files` CodesController mentions Discord; not copied.
+- `slime-rng` code and offline-earnings services sit in a saveinstance-decompiled game; not copied.
+- `drive-for-brainrots` GiftRewardHandler and `scooter-obby` ClaimReward keep claims in memory or have broken time checks (rewards can be claimed again); skipped.
+- `murder-mystery-2` / `murderers-vs-sheriffs` DataModules (daily rewards inside) call webhooks / outside HTTP; not copied.

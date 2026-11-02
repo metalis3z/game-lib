@@ -1,0 +1,149 @@
+[
+  {
+    "file": "13-Movement/StaminaManager__bite-by-night.lua",
+    "title": "Server stamina manager",
+    "game": "bite-by-night",
+    "desc": "Best stamina reference: server-side, attribute-based, forward-only drain, regen delay, exhaustion.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/SprintFovRun__the-rake.lua",
+    "title": "Sprint with FOV tween",
+    "game": "the-rake",
+    "desc": "Sprint key + mobile button + FOV tween, wired to a server stamina value.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/DoubleJump__punching-simulator.lua",
+    "title": "Double jump",
+    "game": "punching-simulator",
+    "desc": "The standard Roblox double-jump recipe (JumpRequest + Freefall/Landed states).",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/DashVaultFootsteps__jujutsu-shenanigans.lua",
+    "title": "Dash, vault and footsteps",
+    "game": "jujutsu-shenanigans",
+    "desc": "Small all-in-one: camera-direction dash, auto vault over low walls, sprint, footsteps by material.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/SideBackDashGating__jujutsu-shenanigans.lua",
+    "title": "Side / back dash rules (server)",
+    "game": "jujutsu-shenanigans",
+    "desc": "How a fighting game gates dashes on the server with tags, separate cooldowns and ragdoll-cancel.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/LedgeVault__jujutsu-shenanigans.lua",
+    "title": "Ledge vault",
+    "game": "jujutsu-shenanigans",
+    "desc": "Name-tagged vault parts: ray check + short velocity burst + random animation.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/CustomClimbing__retro-studio.lua",
+    "title": "Custom climbing",
+    "game": "retro-studio",
+    "desc": "Hand-made ladder/truss climbing (rung detection + velocity mover + debug rays).",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/CrouchToggle__miami-shootout.lua",
+    "title": "Crouch toggle",
+    "game": "miami-shootout",
+    "desc": "Crouch: animation speed follows movement, slower walk, no jump.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/GroundGripAirControl__smash-egg-for-animals.lua",
+    "title": "Ground grip & air control",
+    "game": "smash-egg-for-animals",
+    "desc": "Tight ground control + momentum-preserving air control by writing AssemblyLinearVelocity.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/RagdollModule__steal-a-brainrot.lua",
+    "title": "Ragdoll module (server)",
+    "game": "steal-a-brainrot",
+    "desc": "Simple, readable ragdoll / unragdoll / timed ragdoll on the server.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/RagdollClient__steal-a-brainrot.lua",
+    "title": "Ragdoll client",
+    "game": "steal-a-brainrot",
+    "desc": "Client side of a ragdoll: controls off, Physics state, camera on head, safe unlock.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/CombatRagdoll__jujutsu-shenanigans.lua",
+    "title": "Combat ragdoll handler",
+    "game": "jujutsu-shenanigans",
+    "desc": "Ragdoll for combat: timed knockdowns, collider parts, air detection, cancel, stacked-timer handling.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/EuphoriaRagdoll__gore-game.lua",
+    "title": "Euphoria-style active ragdoll",
+    "game": "gore-game",
+    "desc": "Active ragdoll: hidden animated rig + springs drive the ragdoll limbs (euphoria look).",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/buildRagdoll__miami-shootout.lua",
+    "title": "buildRagdoll (Roblox R15 ragdoll)",
+    "game": "miami-shootout",
+    "desc": "Roblox's R15 ragdoll builder (entry point).",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/buildRagdollConstraints__miami-shootout.lua",
+    "title": "Ragdoll constraint presets",
+    "game": "miami-shootout",
+    "desc": "Why each joint uses BallSocket vs Hinge and which limits (great comments).",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/buildRagdollCollisionFilters__miami-shootout.lua",
+    "title": "Ragdoll collision filters",
+    "game": "miami-shootout",
+    "desc": "Which limb pairs need NoCollisionConstraints in a ragdoll.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/LeapAbility__bite-by-night.lua",
+    "title": "Leap ability",
+    "game": "bite-by-night",
+    "desc": "Leap / pounce ability as a movement move with a landing hit.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/_patterns/SprintStamina.lua",
+    "title": "SprintStamina (pattern)",
+    "game": "pattern",
+    "desc": "Hold-to-sprint with stamina drain/regen delay/exhaustion, FOV change, attributes for UI.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/_patterns/Dash.lua",
+    "title": "Dash (pattern)",
+    "game": "pattern",
+    "desc": "Camera-relative dash with LinearVelocity (horizontal only), ease-out, cooldown, 'Dashing' attribute.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/_patterns/Slide.lua",
+    "title": "Slide (pattern)",
+    "game": "pattern",
+    "desc": "Momentum slide with friction decay, camera dip, animation, cancel on jump.",
+    "category": "movement"
+  },
+  {
+    "file": "13-Movement/_patterns/WallRun.lua",
+    "title": "WallRun (pattern)",
+    "game": "pattern",
+    "desc": "Side-wall detection while airborne, run along the wall, jump off, camera roll.",
+    "category": "movement"
+  }
+]

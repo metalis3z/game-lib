@@ -1,0 +1,142 @@
+[
+  {
+    "file": "11-Combat/HitboxHandler__jujutsu-shenanigans.lua",
+    "title": "Hitbox class (spatial query)",
+    "game": "jujutsu-shenanigans",
+    "desc": "Reusable hitbox class: box/radius query, per-frame or once, hit-once list, closest-only mode.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/DamageHandler__jujutsu-shenanigans.lua",
+    "title": "Damage pipeline",
+    "game": "jujutsu-shenanigans",
+    "desc": "Central damage function: block from the front only, counters, finishers, stun + hit animation.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/StunHandler__jujutsu-shenanigans.lua",
+    "title": "Stun handler",
+    "game": "jujutsu-shenanigans",
+    "desc": "Tag-based stun: one call blocks every action via CollectionService tags, restored when stuns expire.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/M1ComboAndBlock__jujutsu-shenanigans.lua",
+    "title": "M1 combo + perfect block",
+    "game": "jujutsu-shenanigans",
+    "desc": "Combo counter with timeout + block with a perfect-block window.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/HitboxManager__bite-by-night.lua",
+    "title": "Hitbox manager (box / radius / ray)",
+    "game": "bite-by-night",
+    "desc": "Configurable hitbox with Box/Radius/Ray modes, 'continue until found' polling and debug drawing.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/AbilityKitFighter__bite-by-night.lua",
+    "title": "Ability kit definition",
+    "game": "bite-by-night",
+    "desc": "How an ability framework declares a kit: keybind, cooldown, uses, server callback.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/SwingAbility__bite-by-night.lua",
+    "title": "Swing ability (uses parry charges)",
+    "game": "bite-by-night",
+    "desc": "Charge-scaled attack: dash + polling hitbox + stun + stacking debuffs.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/ParryAbility__bite-by-night.lua",
+    "title": "Parry ability",
+    "game": "bite-by-night",
+    "desc": "Parry window as an attribute + punishment on a whiff.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/AxeThrowAbility__bite-by-night.lua",
+    "title": "Throwable weapon with retrieval",
+    "game": "bite-by-night",
+    "desc": "Full throwable: aim, projectile, stick in the world, ProximityPrompt to retrieve, timeout return.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/ServerProjectiles__rivals-modded.lua",
+    "title": "Server-simulated projectiles",
+    "game": "rivals-modded",
+    "desc": "Server projectile simulation: spherecast sweeps, crits, pierce limit, explode on stop, afterburn.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/DamageNumbersToss__rivals-modded.lua",
+    "title": "Damage numbers (toss style)",
+    "game": "rivals-modded",
+    "desc": "Damage numbers that accumulate in place and get tossed away spinning (Rivals look).",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/DamageNumbersTopple__rivals-modded.lua",
+    "title": "Damage numbers (topple style)",
+    "game": "rivals-modded",
+    "desc": "Per-hit numbers that topple over + combo total after a pause.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/FastCastRedux__street-life.lua",
+    "title": "FastCast Redux (main module)",
+    "game": "street-life",
+    "desc": "FastCast Redux API (projectile raycasting library) as shipped inside a game.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/FastCastBulletTracer__miami-shootout.lua",
+    "title": "FastCast bullet tracers",
+    "game": "miami-shootout",
+    "desc": "Using FastCast for cosmetic bullets: fire, update the bullet on LengthChanged, handle hits.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/HitscanGunServer__murderers-vs-sheriffs.lua",
+    "title": "Hitscan gun (server)",
+    "game": "murderers-vs-sheriffs",
+    "desc": "Server hitscan with fire-rate lock and pass-through for invisible parts.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/ClassicExplosionPhysics__retro-studio.lua",
+    "title": "Classic explosion physics",
+    "game": "retro-studio",
+    "desc": "How the original Roblox explosion worked, ported to Lua with the engine code in comments.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/ClassicSword__retro-studio.lua",
+    "title": "Classic sword (slash / lunge)",
+    "game": "retro-studio",
+    "desc": "The classic Linked Sword: slash vs lunge damage, Touched hitbox, creator tag.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/_patterns/Cooldowns.lua",
+    "title": "Cooldowns (pattern)",
+    "game": "pattern",
+    "desc": "Timestamp-based cooldowns per owner/action, with charges, extend and reset.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/_patterns/MeleeCombo.lua",
+    "title": "MeleeCombo (pattern)",
+    "game": "pattern",
+    "desc": "Server M1 combo: combo steps with timeout, box hitbox, front-only block, parry window, stun, finisher knockback.",
+    "category": "combat"
+  },
+  {
+    "file": "11-Combat/_patterns/DamageIndicator.lua",
+    "title": "DamageIndicator (pattern)",
+    "game": "pattern",
+    "desc": "Floating damage numbers that stack per target, crit color, pop and fade - no UI template.",
+    "category": "combat"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "file": "17-Sound-Music/Audio__big-paintball.lua",
+    "title": "All-in-one Audio module (SFX + crossfade music)",
+    "game": "big-paintball",
+    "desc": "One module for all audio: Play() one-shot SFX on a part or at a world position (random pick from an ID list), PlayMusic() with automatic crossfade, StopMusic(), a mute toggle that caches volumes, and a garbage collector that cleans finished sounds. Server calls are forwarded to all clients.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/AudioPlay__punching-simulator.lua",
+    "title": "Promise-based sound player",
+    "game": "punching-simulator",
+    "desc": "Plays a named sound from an assets folder (clone, optional position part, pitch via PitchShiftSoundEffect), returns a Promise that resolves when it ends, and cleans up with a Trove. Server calls broadcast to clients; respects the SFX setting.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/SoundsModule__jujutsu-shenanigans.lua",
+    "title": "Positional one-shot sound helper",
+    "game": "jujutsu-shenanigans",
+    "desc": "Tiny helper: clone a Sound, put it on a part or at a world position (via a Terrain attachment), route it to a SoundGroup, set speed and start time, optionally fade it out after a delay, and auto-clean with Debris.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/MusicCrossfadeByState__brainrot-lab.lua",
+    "title": "State-driven music crossfade",
+    "game": "brainrot-lab",
+    "desc": "Two looping tracks (background and run music) that crossfade with TweenService whenever the player state changes (here: a morph model exists on the character).",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/MusicWatchdog__drill-and-mine.lua",
+    "title": "Client music loop with watchdog",
+    "game": "drill-and-mine",
+    "desc": "Client-driven background music with a watchdog: picks the song from SoundService.Music, forces Looped, and restarts it on Ended/Stopped/Paused or if a 2-second check finds it silent. Explains why music should be driven on the client.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/BackgroundPlaylist__smash-egg-for-animals.lua",
+    "title": "Minimal seasonal playlist",
+    "game": "smash-egg-for-animals",
+    "desc": "Minimal background playlist: one Sound in SoundService cycles through a list of IDs on Ended; picks a seasonal (Halloween) playlist from a Lighting attribute. Comments are in French.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/CasinoPlaylist__casino-lvah.lua",
+    "title": "Random-start looping playlist",
+    "game": "casino-lvah",
+    "desc": "Simple looping playlist: starts at a random track, waits for Loaded before playing, advances (wrapping) on Ended; includes a forward/back position helper.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/ZoneLocationMusic__work-at-a-pizza-place.lua",
+    "title": "Location and time-of-day music",
+    "game": "work-at-a-pizza-place",
+    "desc": "Location-aware music: chooses a track by season/holiday/time of day, switches to house music players or shop songs when the player enters a zone, fades out and in between tracks and resumes the outdoor song where it left off. Volume comes from a settings slider.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/ZoneAudio__street-life.lua",
+    "title": "ZonePlus area music",
+    "game": "street-life",
+    "desc": "Area music using ZonePlus: each part in workspace.AudioZones holds a Sound that fades in when the local player enters and fades out on exit; the gym and nightclub zones pick a new random track every loop.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/ReverbZones__hiroshima-expressway.lua",
+    "title": "Reverb zones (AmbientReverb)",
+    "game": "hiroshima-expressway",
+    "desc": "Turns on SoundService.AmbientReverb (ConcertHall) while the player is inside any invisible TunnelArea part, using a cheap box check on Heartbeat and only changing the property when the state flips.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/SoundFX__work-at-a-pizza-place.lua",
+    "title": "Client/server SoundFX with zone broadcast",
+    "game": "work-at-a-pizza-place",
+    "desc": "Shared client/server sound helper: on the client plays a named sound from a folder; on the server either tells one client to play it or plays it on an object; PlaySoundInsideZone sends a sound only to players standing inside a zone box.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/EventSoundSequence__brainrot-lab.lua",
+    "title": "Event sound sequence with screen flash",
+    "game": "brainrot-lab",
+    "desc": "Server-triggered event stingers: plays a sequence of named sounds one after another (waiting on Ended) and syncs a full-screen white flash to one of them, using a token so overlapping flashes cancel cleanly.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/UIClickSound__drill-and-mine.lua",
+    "title": "Global UI click sound",
+    "game": "drill-and-mine",
+    "desc": "Global UI click sound: hooks every GuiButton in PlayerGui (now and later, via DescendantAdded) plus every ProximityPrompt trigger, preloads the sound, and plays a short-lived clone.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/UIButtonSoundsAndBounce__smash-egg-for-animals.lua",
+    "title": "Button hover/click sounds and bounce",
+    "game": "smash-egg-for-animals",
+    "desc": "Auto-adds hover/press scale bounce plus hover and click sounds to every GuiButton, with random pitch and SoundService:PlayLocalSound; also plays a window-opened sound when a large Main/Window/Panel frame becomes visible. Falls back to built-in sounds if an asset fails to load. Comments are in French.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/KeycapTouchSound__escape-kitty-keyboard.lua",
+    "title": "Touch-triggered click sounds",
+    "game": "escape-kitty-keyboard",
+    "desc": "Plays a click when any character part touches a keycap part, with a per-part debounce and random pitch so repeated clicks sound natural. Uses one shared Sound in SoundService.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/MaterialFootsteps__jujutsu-shenanigans.lua",
+    "title": "Material-based footsteps",
+    "game": "jujutsu-shenanigans",
+    "desc": "Footstep sounds chosen by Humanoid.FloorMaterial (3 random variations per material, with aliases), fired from an animation marker (runfootstep) with a rate limit; also jump and land sounds from StateChanged.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/BossRoar3D__smash-egg-for-animals.lua",
+    "title": "3D boss roars with rolloff",
+    "game": "smash-egg-for-animals",
+    "desc": "3D positional roars for tagged bosses while they chase: per-boss sound config (id, volume, pitch), linear rolloff from 40 to 190 studs, random offsets so bosses do not roar in sync, fade-out before destroy, muted in safe zone and arenas. Comments are in French.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/AwakeningMusicToggle__jujutsu-shenanigans.lua",
+    "title": "Fade sound group in/out",
+    "game": "jujutsu-shenanigans",
+    "desc": "Fades a group of sounds under an attachment in or out (1 s linear tween), remembering each original volume in an attribute; honors a per-player Awakening Music setting.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/VolumeSettingsSoundGroups__smash-egg-for-animals.lua",
+    "title": "Music/SFX sliders with SoundGroup routing",
+    "game": "smash-egg-for-animals",
+    "desc": "Settings panel with Music and SFX volume sliders. Creates Music and SFX SoundGroups and auto-routes every Sound in the game into one of them (long looped sounds count as music), drag-to-set sliders in 5 percent steps for mouse and touch, saves on release, loads saved values from player attributes. Comments are in French.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/VolumeSettingsSave__smash-egg-for-animals.lua",
+    "title": "Volume settings DataStore save",
+    "game": "smash-egg-for-animals",
+    "desc": "Server half of the volume settings: loads Music/SFX volume from its own DataStore into player attributes, validates values sent by the client remote, and writes once on leave or BindToClose. Comments are in French.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/SettingsVolumeSliders__drill-and-mine.lua",
+    "title": "Volume sliders with debounced save",
+    "game": "drill-and-mine",
+    "desc": "Settings controller with Music and Sounds volume sliders (tweened fill bar and knob). Applies volume to every Sound in SoundService.Music and SoundService.Sounds, including ones added later, and debounces saves to the server (0.3 s task.delay cancelled on each new change).",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/AudioVisualizerBars__the-rake.lua",
+    "title": "PlaybackLoudness bar visualizer",
+    "game": "the-rake",
+    "desc": "Bar-graph audio visualizer driven by Sound.PlaybackLoudness: keeps a rolling buffer of loudness samples, mirrors it from the center outwards, tweens bar heights and optionally colors bars from a ColorSequence. Note: Frame:Add() is an Adonis helper; replace it with Instance.new.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/EngineSoundsRPM__hiroshima-expressway.lua",
+    "title": "RPM-driven engine sound layers",
+    "game": "hiroshima-expressway",
+    "desc": "A-Chassis engine sound plugin: four looping layers (exhaust, engine, idle, redline) whose volume, pitch, distortion and EQ are computed from RPM and throttle each time RPM changes.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/_patterns/MusicPlayer.lua",
+    "title": "MusicPlayer pattern",
+    "game": "pattern",
+    "desc": "Playlist with shuffle, crossfades, priority override layers for zones/bosses and resume of the interrupted track.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/_patterns/UISounds.lua",
+    "title": "UISounds pattern",
+    "game": "pattern",
+    "desc": "Auto hover/click sounds on every GuiButton with preload, pitch jitter and per-button attributes.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/_patterns/AmbienceZones.lua",
+    "title": "AmbienceZones pattern",
+    "game": "pattern",
+    "desc": "Tagged zone parts drive crossfaded ambience and SoundService.AmbientReverb.",
+    "category": "sound-music"
+  },
+  {
+    "file": "17-Sound-Music/_patterns/AudioSettings.lua",
+    "title": "AudioSettings pattern",
+    "game": "pattern",
+    "desc": "Music/SFX SoundGroups with auto-routing, debounced save and DataStore persistence (server + client).",
+    "category": "sound-music"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "file": "04-Loading-Screens/PosterLoadingScreen__smash-egg-for-animals.lua",
+    "title": "Poster loading screen with camera dive",
+    "game": "smash-egg-for-animals",
+    "desc": "Code-built ReplicatedFirst loading screen: game poster in a frame, timed progress bar with %, rotating tips, scrolling stud background, then a white flash while the camera dives from the sky to the player.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/AnimatedLoadingScreen__steal-a-brainrot-sab-files.lua",
+    "title": "Code-built animated loading screen",
+    "game": "steal-a-brainrot-sab-files",
+    "desc": "Fully code-built animated loading screen (gradient background, floating particles, title, progress bar driven by asset preloading) that fades out when done.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/PreloadProgressWithSkip__pet-rng.lua",
+    "title": "Preload progress bar with Skip",
+    "game": "pet-rng",
+    "desc": "Clones a prepared Loading ScreenGui, preloads every descendant of game one by one, updates a % label and tweened bar, offers a Skip button, plays a sound when finished.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/QueueLoadingAndJoinMenu__murder-mystery-2.lua",
+    "title": "RequestQueueSize loading + join menu",
+    "game": "murder-mystery-2",
+    "desc": "Classic MM2 loading flow: waits on ContentProvider.RequestQueueSize ('N objects left'), shows Skip after 7 s, waits for character and server data, picks PC/Mobile/Xbox main GUI, fades out, then shows a join-a-friend menu.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/IntroPreloadAndSkip__big-paintball.lua",
+    "title": "Intro with preload cap, ban check and Skip",
+    "game": "big-paintball",
+    "desc": "Well-commented intro: removes default screen, hides core UI, preloads logo + intro sound with a 2 s cap, logo pop-in tween, loading dots, save confirmation, ban/warning notice, skip support, then restores game GUIs.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/RetroJoinScreen__retro-studio.lua",
+    "title": "Retro Bricks/Connectors join screen",
+    "game": "retro-studio",
+    "desc": "Old-Roblox-style join screen: 'Bricks / Connectors' counter from RequestQueueSize, camera orbiting the map's visible extents while loading, timeout + exit override.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/SpinningPizzaLoader__work-at-a-pizza-place.lua",
+    "title": "Minimal spinning-icon loader",
+    "game": "work-at-a-pizza-place",
+    "desc": "Minimal ReplicatedFirst loader: parents a prepared LoadingScreen, spins pizza icons on RenderStepped, waits for game:IsLoaded(); commented-out code shows a RequestQueueSize-driven reveal and an asset-id dump helper.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/MinimalLoadingLabel__flood-escape-2.lua",
+    "title": "Smallest custom loading screen",
+    "game": "flood-escape-2",
+    "desc": "Smallest possible custom loading screen: a full-screen TextLabel created in code, default screen removed, destroyed once game.Loaded fires.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/CloneGuiAfterLoad__bee-swarm-sim.lua",
+    "title": "Clone HUD after game loaded",
+    "game": "bee-swarm-sim",
+    "desc": "Waits for game.Loaded then clones every ScreenGui from ReplicatedStorage.StarterGui into PlayerGui, so the main UI only appears after loading.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/PreloadCriticalAssets__steal-a-brainrot.lua",
+    "title": "Preload critical assets only",
+    "game": "steal-a-brainrot",
+    "desc": "Preloads only the critical assets (first 100 UI items, then ~200 meshes of the most common models) in background tasks instead of preloading everything.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/StagedBootstrap__rivals-modded.lua",
+    "title": "Staged client bootstrap with progress",
+    "game": "rivals-modded",
+    "desc": "Client entry point that drives a loading screen through stages (game loaded 30%, constants 45%, player data 75%, controllers 100%), asks the device type when ambiguous, and always tells the server LoadingScreenDone so it spawns the character.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/LoadingGateController__drill-and-mine.lua",
+    "title": "Loading finished gate controller",
+    "game": "drill-and-mine",
+    "desc": "Tiny controller exposing LoadingFinished (BindableEvent) and IsLoadingComplete() so other systems can wait for the loading screen; here it just removes the old screen and marks complete.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/StudioSplashFakeProgress__scp-tycoon.lua",
+    "title": "Studio splash + fake progress",
+    "game": "scp-tycoon",
+    "desc": "Studio splash ('X Presents' then game title) using TweenPosition, followed by a cosmetic 'Loading Assets (n/482)' counter and bar, then the whole frame slides away.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/SoftShutdownTeleportScreen__drill-and-mine.lua",
+    "title": "Soft shutdown teleport screen",
+    "game": "drill-and-mine",
+    "desc": "Soft-shutdown client: reads teleport data, shows an arriving/leaving screen, and uses TeleportService:SetTeleportGui so a custom loading screen shows during the teleport between servers.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/ArrivalCinematicWithSkip__smash-egg-for-animals.lua",
+    "title": "First-join cinematic with Skip",
+    "game": "smash-egg-for-animals",
+    "desc": "First-time-player arrival cinematic: letterbox bars, titles, fades, a boss leaping through a forest, zone fly-over; square SKIP button; hold() helper that aborts every step once skipped; sets IntroState attribute so the tutorial waits.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/AvatarIntroSequence__street-life.lua",
+    "title": "Avatar intro camera sequence",
+    "game": "street-life",
+    "desc": "ReplicatedFirst intro: loading screen + music fade-in, hides game GUIs/core UI, clones a player model wearing your avatar into an intro set, tweens the camera between shots, then restores everything after a timeout.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/IntroTeamSelectServer__prison-life.lua",
+    "title": "Intro team select (server)",
+    "game": "prison-life",
+    "desc": "Server side of a menu intro: flags new players as 'in intro', tells the client to use the intro camera, then on team pick enforces team caps, respawns the player and switches the camera back.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/LoadingSpinnerComponent__natural-disaster.lua",
+    "title": "Fusion loading spinner",
+    "game": "natural-disaster",
+    "desc": "Fusion UI component: an inline loading spinner shown while a state IsLoading is true (rotates on RenderStepped only while visible). Good for panels that fetch data.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/_patterns/LoadingScreen.client.lua",
+    "title": "Pattern: ReplicatedFirst loading screen",
+    "game": "pattern",
+    "desc": "Code-built ReplicatedFirst screen: batched preload %, tips, Skip after N s, min time, fade-out, LoadingDone signal.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/_patterns/AssetPreloader.lua",
+    "title": "Pattern: batched asset preloader",
+    "game": "pattern",
+    "desc": "Collect assets by class and preload in batches with budget, retries, timeout and progress callback.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/_patterns/IntroCameraSequence.lua",
+    "title": "Pattern: skippable intro camera sequence",
+    "game": "pattern",
+    "desc": "Letterboxed, skippable camera-shot cinematic that restores camera, HUD and core GUI afterwards.",
+    "category": "loading-screen"
+  },
+  {
+    "file": "04-Loading-Screens/_patterns/LoadingGate.lua",
+    "title": "Pattern: loading-done gate (client+server)",
+    "game": "pattern",
+    "desc": "Client marks loading done; server can hold character spawn until then; isDone/wait/onPlayerReady API.",
+    "category": "loading-screen"
+  }
+]

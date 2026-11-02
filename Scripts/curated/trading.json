@@ -1,0 +1,135 @@
+[
+  {
+    "file": "10-Trading/_patterns/TradeSession.lua",
+    "title": "Trade session state machine",
+    "game": "pattern",
+    "desc": "Server-authoritative trade flow: request, offers, READY, enforced wait, CONFIRM, atomic swap, rate-limited remote.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/_patterns/AtomicSwap.lua",
+    "title": "Atomic inventory swap",
+    "game": "pattern",
+    "desc": "All-or-nothing swap of two item sets with ownership, duplicate, lock, capacity and id-collision checks.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/_patterns/PendingDeliveryInbox.lua",
+    "title": "Pending delivery inbox",
+    "game": "pattern",
+    "desc": "DataStore mailbox to deliver items to offline or other-server players, claimed on join or ping.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradeMachineServer__smash-egg-for-animals.lua",
+    "title": "Trade machine server",
+    "game": "smash-egg-for-animals",
+    "desc": "Same-server pet trade with READY->wait->CONFIRM, edit cooldowns, request expiry and action rate limit.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradeBridgeAtomicSwap__smash-egg-for-animals.lua",
+    "title": "Trade bridge atomic swap",
+    "game": "smash-egg-for-animals",
+    "desc": "Excerpt: data-owner BindableFunction that lists tradable pets and executes an all-or-nothing swap.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradeMachineClient__smash-egg-for-animals.lua",
+    "title": "Code-built trade UI",
+    "game": "smash-egg-for-animals",
+    "desc": "Complete trade window built in code: lobby, request cards with timers, offer grids, ready/confirm countdown.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/CrossServerEscrowTrade__smash-egg-for-animals.lua",
+    "title": "Cross-server escrow trade",
+    "game": "smash-egg-for-animals",
+    "desc": "Cross-server trade that escrows pets per server then delivers through a DataStore inbox with offer signatures.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/ToolTradeServer__brainrot-lab.lua",
+    "title": "Tool trade server",
+    "game": "brainrot-lab",
+    "desc": "Clean trade module for Tool items with InTrade lock, request timeout and final re-validation.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/ToolTradeClient__brainrot-lab.lua",
+    "title": "Tool trade client",
+    "game": "brainrot-lab",
+    "desc": "Client for tool trades: request toasts with countdown, player list, viewport item previews.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/CrossServerTradeService__trade-system.lua",
+    "title": "Cross-server trade service",
+    "game": "trade-system",
+    "desc": "Trades across servers using MemoryStore sessions, a presence map for search, and MessagingService sync.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/CrossServerTradeClient__trade-system.lua",
+    "title": "Cross-server trade client",
+    "game": "trade-system",
+    "desc": "Client with live cross-server player search, request popup and offer grids.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/PodiumTradeService__steal-a-brainrot.lua",
+    "title": "Podium trade service",
+    "game": "steal-a-brainrot",
+    "desc": "Production trade service for base animals: invites, local and cross-server handshake, ready delay, steal checks.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/KnitTradeService__rcu-roller.lua",
+    "title": "Knit trade service",
+    "game": "rcu-roller",
+    "desc": "Knit trade of stackable items plus currency tokens with separate ready and confirm stages.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradingPlazaBooths__rcu-roller.lua",
+    "title": "Trading plaza booths",
+    "game": "rcu-roller",
+    "desc": "Booth marketplace with escrowed listings and token purchases (has known bugs, see README).",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradeClass__punching-simulator.lua",
+    "title": "OOP trade class",
+    "game": "punching-simulator",
+    "desc": "Trade object with Trove cleanup, state tracker and attribute-replicated state; unreadies on data change.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradeRequest__punching-simulator.lua",
+    "title": "OOP trade request",
+    "game": "punching-simulator",
+    "desc": "Trade request object decided by the target via RemoteFunction, then creates the Trade.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/TradeUtility__punching-simulator.lua",
+    "title": "Trade eligibility check",
+    "game": "punching-simulator",
+    "desc": "canOccur gate: both loaded, target allows trades, neither already trading.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/InstanceTradeHandler__uno.lua",
+    "title": "Instance-based trade handler",
+    "game": "uno",
+    "desc": "Trade state as a cloned Folder of Value objects, confirm then accept, save lock while swapping.",
+    "category": "trading"
+  },
+  {
+    "file": "10-Trading/NpcRecipeTrader__steal-a-brainrot.lua",
+    "title": "NPC recipe trader",
+    "game": "steal-a-brainrot",
+    "desc": "Rotating NPC offers that consume a recipe of brainrots; contains an insecure update remote to remove.",
+    "category": "trading"
+  }
+]

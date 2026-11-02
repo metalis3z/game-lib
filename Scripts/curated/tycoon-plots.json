@@ -1,0 +1,156 @@
+[
+ {
+  "file": "14-Tycoon-Plots/StealService__evade.lua",
+  "title": "Steal start / cancel / complete service",
+  "game": "evade",
+  "desc": "Server side of a Steal-a-Brainrot style steal: StartSteal marks the victim's podium as being stolen, welds the animal model in front of the thief, slows them to 75% speed and plays a carry...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PlotService__evade.lua",
+  "title": "Steal-game plot service (assign, lock, steal remote, income)",
+  "game": "evade",
+  "desc": "Full plot/base service for a steal game: hands out free plots, syncs the podium list to a per-plot replicated channel, 30s spawn grace lock, LockBase (timed laser lock that grows with rebirths and...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/StealRemoteValidation__steal-a-brainrot.lua",
+  "title": "Steal remote validation + stale flag janitor",
+  "game": "steal-a-brainrot",
+  "desc": "The server's Steal remote handler (type-checks args, rejects if already stealing, confirms the thief's HumanoidRootPart is inside the victim plot's StealHitbox with GetPartBoundsInBox) plus a...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/StealGuards__steal-a-brainrot-sab-files.lua",
+  "title": "Steal guard rails (locks, cooldown, join protection)",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "The guard rails a later Steal-a-Brainrot build added around StartSteal: a per-podium steal lock so two thieves can't grab the same item, a 1s steal cooldown, no stealing from players who are...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BaseManagerService__steal-a-brainrot.lua",
+  "title": "Switch to another free base",
+  "game": "steal-a-brainrot",
+  "desc": "Lets a player move to a different free base: a RemoteFunction lists free plots, a RemoteEvent requests the move, with a 3s per-player cooldown and a server-side re-check that the target plot is...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BaseTiers__steal-a-brainrot.lua",
+  "title": "Base tier data (rebirth -> model, max podiums)",
+  "game": "steal-a-brainrot",
+  "desc": "Data table mapping rebirth level to base model (first/second/third floor template) and MaxAnimals (podium count)",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PlotManager__brainrot-lab.lua",
+  "title": "Fixed-plot manager with floor upgrades",
+  "game": "brainrot-lab",
+  "desc": "Simple, readable plot system: 8 fixed plots, first free index goes to the joining player, extra floors are shown/hidden as the player buys base upgrades (price + rebirth requirement per level),...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/SlotManager__brainrot-lab.lua",
+  "title": "Podium slots: place, collect, upgrade",
+  "game": "brainrot-lab",
+  "desc": "Podium/slot logic for a brainrot tycoon: place the held tool on an empty slot, swap or pick up from an occupied one, slots accumulate money over time, touch a collect pad to cash out, and level up...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BrainrotConveyor__brainrot-lab.lua",
+  "title": "Conveyor belt spawner with pity and delivery to base",
+  "game": "brainrot-lab",
+  "desc": "Server conveyor belt: spawns a weighted-random brainrot every few seconds at point A, lerps it to point B, players press E in range to buy it, then it walks to the buyer's base (stealable in...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/CarrySystem__drive-for-brainrots.lua",
+  "title": "Head-stack carry system with collection zone",
+  "game": "drive-for-brainrots",
+  "desc": "Carry stack: picked-up items are kept as data and shown as massless, non-colliding models welded in a stack above the player's head; walking into the CollectionZone (checked every 0.2s with a...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PlotService__drill-and-mine.lua",
+  "title": "Minimal plot assigner",
+  "game": "drill-and-mine",
+  "desc": "The smallest clean plot assigner in the set (~100 lines): sorts plots by number, gives the first one with OwnerUserId == 0, teleports the player there on every spawn, and runs registered reset...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BaseUpgradeService__drill-and-mine.lua",
+  "title": "Base floor upgrades from templates",
+  "game": "drill-and-mine",
+  "desc": "Buy-the-next-floor base upgrades: keeps floor/podium templates out of the world, clones the unlocked ones into the player's plot per level, charges a per-level cost, throttles requests with a 1s...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/Core_Plots__steal-an-egg.lua",
+  "title": "Plot slots with revisioned owner snapshots",
+  "game": "steal-an-egg",
+  "desc": "Plot slots with a revision number: assigns numbered plots, sets the sign (name + headshot), replicates owner-by-slot snapshots to clients, teleports to the plot on spawn, exposes plot capacity,...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/EggCarryAndPlacement__steal-an-egg.lua",
+  "title": "Egg carry, claim and validated placement",
+  "game": "steal-an-egg",
+  "desc": "Carry-and-deliver plus validated placement: pick up an egg (distance <= 28 studs, one at a time, ownership check), drop/reset it, guards knock it out of your hands, crossing a separation line...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PurchaseHandler__advanced-warfare-tycoon.lua",
+  "title": "Classic tycoon kit purchase handler",
+  "game": "advanced-warfare-tycoon",
+  "desc": "Classic berezaa tycoon kit purchase handler: collector part turns 'Cash' drops into stored cash, a giver pad pays it out to the owner, and every button clones its purchase into the tycoon when bought",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/TycoonKitParts__advanced-warfare-tycoon.lua",
+  "title": "Classic tycoon kit parts (regen, gate, dropper, upgrader, conveyor)",
+  "game": "advanced-warfare-tycoon",
+  "desc": "The remaining pieces of the classic tycoon kit: CoreScript (backs up each tycoon and regenerates it when the owner leaves), the claim gate, a dropper (spawns a Part with a Cash IntValue every few...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/TycoonKit__scp-tycoon.lua",
+  "title": "Hand-made tycoon (claim, buy pads, droppers, collector, laser)",
+  "game": "scp-tycoon",
+  "desc": "A small hand-made tycoon: claim via RemoteEvent, buy pads that reveal a dropper/upgrade and enable it, droppers that clone a Drop on a cooldown, an upgrader that doubles each drop once, a...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/FurniturePlacement__work-at-a-pizza-place.lua",
+  "title": "House furniture placement in local space",
+  "game": "work-at-a-pizza-place",
+  "desc": "Server side of placing furniture in a player house: enforces a per-upgrade furniture cap, removes one from inventory, and stores the CFrame relative to the house's Marker part (ToObjectSpace) so...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/PlotManager.lua",
+  "title": "Plot manager pattern",
+  "game": "pattern",
+  "desc": "Assign/release plots, teleport on spawn, signals and move-to-free-plot.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/TycoonKit.lua",
+  "title": "Data-driven tycoon kit pattern",
+  "game": "pattern",
+  "desc": "Buttons with dependencies, Heartbeat droppers, upgraders, conveyors, collector and save/load of purchases.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/StealSystem.lua",
+  "title": "Server-authoritative steal system pattern",
+  "game": "pattern",
+  "desc": "Zone-checked steals with slot locks, carry weld, delivery, timeouts and server-enforced base locks.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/PlacementGrid.lua",
+  "title": "Plot placement grid pattern",
+  "game": "pattern",
+  "desc": "Shared grid snapping, rotation, bounds/overlap checks and plot-local CFrame save format with server validation.",
+  "category": "tycoon-plots"
+ }
+]

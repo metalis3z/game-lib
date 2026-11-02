@@ -1,0 +1,107 @@
+[
+  {
+    "file": "07-Data-Saving/DataService-LeaseLock__aura-ascension.lua",
+    "title": "Lease session lock in UpdateAsync",
+    "game": "aura-ascension",
+    "desc": "Full data service: session lease stored inside the save and taken/checked in one UpdateAsync, dirty flags, retries, save slots, parallel shutdown flush with deadline.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/ProfileTemplate__aura-ascension.lua",
+    "title": "Grouped profile template with _Meta",
+    "game": "aura-ascension",
+    "desc": "Data template grouped by purpose (Stats, Progression, Inventory, Monetization, Cooldowns, Admin audit trail) with a _Meta block holding version and session lease.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/DataService-SessionLock__steal-a-brainrot.lua",
+    "title": "DataService with separate lock store",
+    "game": "steal-a-brainrot",
+    "desc": "GetAsync/SetAsync with 2^n backoff, a separate SESSION-LOCK store claimed with UpdateAsync, reconcile against DefaultStats, 60s autosave and parallel BindToClose that waits for saves.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/PlayerDataService-ProfileStore__rivals-modded.lua",
+    "title": "ProfileStore session + legacy import",
+    "game": "rivals-modded",
+    "desc": "ProfileStore usage: StartSessionAsync with Cancel, OnSessionEnd kick, OnSave hook that encodes data, one-time import from an older plain DataStore, server-validated settings remotes.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/DataTemplate__rivals-modded.lua",
+    "title": "Template built by functions + reconcile",
+    "game": "rivals-modded",
+    "desc": "Data template as a New() function (fresh tables every call), per-season record ensured on load, and a shallow Reconcile for fields added later.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/PlayerDataService-ProfileService__drill-and-mine.lua",
+    "title": "ProfileService service with migration sweep",
+    "game": "drill-and-mine",
+    "desc": "ProfileService load/release, leaderstats mirror, migration sweep that drops items no longer in config, debounced ScheduleSave, and an admin data wipe (WipeProfileAsync).",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/DataManager-ProfileService-Minimal__pet-rng.lua",
+    "title": "Minimal ProfileService setup",
+    "game": "pet-rng",
+    "desc": "The shortest correct ProfileService setup: LoadProfileAsync, AddUserId, Reconcile, ListenToRelease kick, release on leave, handle players already in game.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/DataService-Knit-Replica__rcu-roller.lua",
+    "title": "Knit DataService with big template",
+    "game": "rcu-roller",
+    "desc": "Knit service with a very large commented default template, deep reconcile, path-based Set/Increment through a Replica, 5-minute autosave, and a 1-second boost countdown.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/PlayerData-DirtyAutosave__steal-an-egg.lua",
+    "title": "Dirty-only autosave + mirrors",
+    "game": "steal-an-egg",
+    "desc": "Small data core: deep reconcile, value sanitising on load, Update(changes, removals) that marks dirty and mirrors to attributes/leaderstats, autosave only for dirty players.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/DatastoreWrapper__big-paintball.lua",
+    "title": "BIG Games DataStore wrapper",
+    "game": "big-paintball",
+    "desc": "BIG Games framework wrapper: Get/Set/Update with retries, refuses nil writes, caches DataStore objects by name/scope.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/Saving-PlayingSessionFlag__big-paintball.lua",
+    "title": "Save loop with PlayingSession flag",
+    "game": "big-paintball",
+    "desc": "BIG Games saving: a PlayingSession flag in the save acts as a simple session lock (retry until the old server cleared it), new-stat backfill, staggered save loop, change-diff replication.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/DataHandler-SessionStore__uno.lua",
+    "title": "Session store + trade save-lock",
+    "game": "uno",
+    "desc": "Separate SessionStore with a heartbeat-style timestamp (90s timeout), plus a SaveLocked flag used to freeze saves during trades so items cannot be duplicated.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/PlayerDataStore-Stravant__retro-studio.lua",
+    "title": "Stravant's PlayerDataStore (classic)",
+    "game": "retro-studio",
+    "desc": "The classic community PlayerDataStore module (by Stravant): cached SaveData objects, passive saves, Flush, and atomic multi-key Update meant for dev product purchases.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/_patterns/SessionStore.lua",
+    "title": "SessionStore (lease lock + migrations)",
+    "game": "pattern",
+    "desc": "Standalone player data store: lease-based session lock inside the save, numbered migrations, template reconcile, dirty autosave that renews the lease, parallel BindToClose, Studio memory mode.",
+    "category": "data-saving"
+  },
+  {
+    "file": "07-Data-Saving/_patterns/SafeDataStore.lua",
+    "title": "SafeDataStore (retry wrapper)",
+    "game": "pattern",
+    "desc": "Retrying wrapper for Get/Set/Update/Remove with exponential backoff, request-budget waiting, one call per key at a time, and (success, value) returns.",
+    "category": "data-saving"
+  }
+]

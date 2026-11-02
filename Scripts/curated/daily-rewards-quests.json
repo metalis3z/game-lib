@@ -1,0 +1,100 @@
+[
+  {
+    "file": "18-Daily-Rewards-Quests/DailyRewardService-Streak__drill-and-mine.lua",
+    "title": "7-day calendar with streak reset",
+    "game": "drill-and-mine",
+    "desc": "7-day login calendar: state resolved lazily on read (claimable / countdown / streak broken after 2 days), config-driven reward types, payload for the UI, and a paid 'skip all days' product.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/DailyService-UTCReset__rivals-modded.lua",
+    "title": "Daily reset at 00:00 UTC",
+    "game": "rivals-modded",
+    "desc": "Day number = os.time() // 86400; on join and every 15s it resets daily counters, refreshes the daily shop and rolls new daily tasks when the day changes (and tells TaskService if a day was missed).",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/TaskService-EventQuests__rivals-modded.lua",
+    "title": "Event-driven quests (beginner + daily)",
+    "game": "rivals-modded",
+    "desc": "Quests progress from events (TaskService.Record(player, 'DuelWon')), beginner sets of three until finished, then three daily Core tasks; completing a set grants rewards and keeps a daily streak.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/ClaimService-LoginCodesSocial__rivals-modded.lua",
+    "title": "Login reward, codes, group/like rewards",
+    "game": "rivals-modded",
+    "desc": "Once-per-day login reward, one-off social rewards (group checked with IsInGroup; like/favourite trusted because Roblox cannot check them), battle-pass tier claims with validation, and a case-insensitive code table saved per player.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/RewardService-ChestsPlaytimeAchievements__rcu-roller.lua",
+    "title": "Chests, playtime and achievement claims",
+    "game": "rcu-roller",
+    "desc": "Timed chests with cooldowns and weighted loot, one-time mini chests, playtime milestones checked against session time, tiered achievements (category+tier keys), ticket shop and a weighted wheel.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/CodesService-AtomicStock__steal-a-brainrot-sab-files.lua",
+    "title": "Limited-stock codes (UpdateAsync + MemoryStore)",
+    "game": "steal-a-brainrot-sab-files",
+    "desc": "Codes with limited stock redeemed atomically in UpdateAsync (already-redeemed / out-of-stock reasons), global codes broadcast with MessagingService and stock kept in a MemoryStore sorted map, 5s cooldown.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/CodeHandler-DataStoreCodes__uno.lua",
+    "title": "Codes stored in a DataStore (add without updating)",
+    "game": "uno",
+    "desc": "Codes kept in a DataStore list with expiry timestamps and reward types, loaded into the server on start and refreshable, so new codes can be added without shutting servers down.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/DailyChestHandler-Simple__zombie-outbreak-survival.lua",
+    "title": "Simple daily chest (beginner)",
+    "game": "zombie-outbreak-survival",
+    "desc": "Standalone daily chest: its own DataStore with LastClaim/Streak, 24h cooldown, 48h streak expiry, 7-day reward table sent to the client for display, claim debounce.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/DailyGiftUtility-Shared__punching-simulator.lua",
+    "title": "Shared daily-gift rules (client + server)",
+    "game": "punching-simulator",
+    "desc": "Tiny shared module: next gift id (1..7 loop), time left and canClaim from the saved {i, t} value, used by both the UI and the server check.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/OfflineEarnings-Podiums__drill-and-mine.lua",
+    "title": "Offline earnings (capped, rate-based)",
+    "game": "drill-and-mine",
+    "desc": "Offline cash = income per second x offline seconds (capped at 12h) x boosts x a 1/6 offline rate, a gamepass multiplier and auto-collect, a 'measured earning pace' fallback, a claim-all popup endpoint, and LastLogin bookkeeping on join/leave.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/OfflineEarnings-Simple__kick-a-brainrot.lua",
+    "title": "Offline earnings (simple)",
+    "game": "kick-a-brainrot",
+    "desc": "Minimal offline earnings: time since last save (capped at 8h) x each placed item's income x mutation/level/rebirth/VIP multipliers, shown in a popup and paid on a Claim remote.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/_patterns/DailyRewards.lua",
+    "title": "DailyRewards (streak calendar)",
+    "game": "pattern",
+    "desc": "Login calendar over a saved table: Rolling (24h + grace) or UTCDay mode, streak/best streak, loops after N days, Status() for UI countdowns, SkipWait() for a paid skip.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/_patterns/QuestTracker.lua",
+    "title": "QuestTracker (event-driven quests)",
+    "game": "pattern",
+    "desc": "Quests advanced by Record(player, event, amount); beginner chain then seeded daily set (same on every server), auto or manual claim, daily streak, reset countdown.",
+    "category": "daily-rewards-quests"
+  },
+  {
+    "file": "18-Daily-Rewards-Quests/_patterns/CodeRedeemer.lua",
+    "title": "CodeRedeemer (promo codes)",
+    "game": "pattern",
+    "desc": "Promo codes: normalised input, expiry, requirements, once per player in saved data, optional global use limit via UpdateAsync with roll-back, cooldown, status strings.",
+    "category": "daily-rewards-quests"
+  }
+]

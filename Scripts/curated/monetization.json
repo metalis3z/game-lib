@@ -1,0 +1,100 @@
+[
+  {
+    "file": "08-Monetization/Core_Purchases__steal-an-egg.lua",
+    "title": "Idempotent receipts + server test",
+    "game": "steal-an-egg",
+    "desc": "Product name routing by pattern (Money_500, Trail_X...), PurchaseId saved in the profile (ProcessedReceipts) plus an in-flight lock, a server pre-check before prompting, prompt cooldown, server-wide luck boost, gamepass sync on load.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/ReceiptService__aura-ascension.lua",
+    "title": "Receipt service with product maps",
+    "game": "aura-ascension",
+    "desc": "Small receipt service: waits for the profile, asks each owner service (boosts, rebirth packs, poses, packs) to grant by product id, returns NotProcessedYet when a grant fails, exposes an entitlements query.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/GamepassService-Attributes__drill-and-mine.lua",
+    "title": "Gamepass ownership as attributes",
+    "game": "drill-and-mine",
+    "desc": "Checks each configured pass on join, mirrors ownership to OwnsGamepass_<key> player attributes, updates on purchase, and registers pass-based boost percents with a boost aggregator.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/PurchaseService-PromptContext__drill-and-mine.lua",
+    "title": "Prompt with context + announcements",
+    "game": "drill-and-mine",
+    "desc": "Server-side prompt that remembers a pending purchase and context string, routes the grant by context, checks the client context against the configured product id, logs Robux spent and posts a rich-text 'X bought Y' message with verified/premium glyphs.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/StoreService-StarterPackTimer__drill-and-mine.lua",
+    "title": "Starter pack with playtime countdown",
+    "game": "drill-and-mine",
+    "desc": "One-time packs with reward lists, a starter pack that expires after N seconds of playtime (ticks only while online), pack status query for the UI, and cash packs scaled to the player's income.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/RobloxPlusService-Premium__drill-and-mine.lua",
+    "title": "Premium membership perk",
+    "game": "drill-and-mine",
+    "desc": "Gives Roblox Premium members a cash boost: checks MembershipType, listens to PlayerMembershipChanged and PromptPremiumPurchaseFinished, lets the client open PromptPremiumPurchase.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/CashBoostService-Sources__drill-and-mine.lua",
+    "title": "Boost aggregator (pass/premium/rebirth sources)",
+    "game": "drill-and-mine",
+    "desc": "Registry of named boost sources (gamepass, premium, index, rebirths...) summed into one multiplier, with a per-source breakdown pushed to the client HUD.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/Purchases-CallbackTable__punching-simulator.lua",
+    "title": "Products/passes as callback tables",
+    "game": "punching-simulator",
+    "desc": "Per-player Purchases object: products and passes are database entries with a callback, pass ownership checked with Promises on join, PurchaseId cache in ProcessReceipt.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/Products-ProcessReceipt__big-paintball.lua",
+    "title": "BIG Games ProcessReceipt",
+    "game": "big-paintball",
+    "desc": "BIG Games framework receipt: looks the product up in a directory with a Callback, retries finding the player for a few seconds, pcall's the callback, fires analytics/client events, logs failures loudly.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/MonetizationController-ConfigRouted__survive-lava-for-brainrot.lua",
+    "title": "Config-routed receipt (beginner friendly)",
+    "game": "survive-lava-for-brainrot",
+    "desc": "Readable receipt controller: product name from a config module, then reward tables for speed, items, carry upgrades and cash, with lazy-required systems and a client notification.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/ProcessReceipt-PurchaseHistory__work-at-a-pizza-place.lua",
+    "title": "Classic PurchaseHistory DataStore",
+    "game": "work-at-a-pizza-place",
+    "desc": "The classic pattern: a PurchaseHistory DataStore keyed 'userId:purchaseId' checked before granting, a handler table keyed by product id, pcall'd handlers, and the purchase recorded after success.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/_patterns/ReceiptRouter.lua",
+    "title": "ReceiptRouter (idempotent receipts + gifting)",
+    "game": "pattern",
+    "desc": "One ProcessReceipt: product table with grant/canBuy functions, PurchaseIds remembered in the buyer's data, in-flight lock, gift products with a server-validated target, prompt helper with cooldown.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/_patterns/PassesAndPremium.lua",
+    "title": "PassesAndPremium (ownership + perks)",
+    "game": "pattern",
+    "desc": "Game pass ownership checked on join and on purchase, mirrored to Pass_<Name> attributes, OnOwned perk callbacks, Premium attribute kept in sync.",
+    "category": "monetization"
+  },
+  {
+    "file": "08-Monetization/_patterns/TimedBoosts.lua",
+    "title": "TimedBoosts (stackable potions)",
+    "game": "pattern",
+    "desc": "Pure functions for stackable timed boosts stored in player data, in real-time (expiry timestamp) or playtime (counts down only while online) mode.",
+    "category": "monetization"
+  }
+]

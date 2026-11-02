@@ -1,0 +1,776 @@
+[
+ {
+  "name": "LoadingScreen",
+  "path": "ReplicatedFirst .Root.LoadingScreen.LoadingScreen",
+  "kind": "ScreenGui",
+  "descendants": 38
+ },
+ {
+  "name": "DuelInterface",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.DuelInterface",
+  "kind": "Frame",
+  "descendants": 357
+ },
+ {
+  "name": "MobileButton",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.MobileButton",
+  "kind": "ImageButton",
+  "descendants": 16
+ },
+ {
+  "name": "FighterInterface",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.FighterInterface",
+  "kind": "Frame",
+  "descendants": 89
+ },
+ {
+  "name": "BowCharge",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.BowCharge",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "VideoAdRewardSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.VideoAdRewardSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "SettingHotkeySlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.SettingHotkeySlot",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "ScoreboardPlayerSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ScoreboardPlayerSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "ItemInterface",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ItemInterface",
+  "kind": "Frame",
+  "descendants": 30
+ },
+ {
+  "name": "TeammateSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.TeammateSlot",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "MapSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.MapSlot",
+  "kind": "Frame",
+  "descendants": 31
+ },
+ {
+  "name": "StoredStreakSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.StoredStreakSlot",
+  "kind": "Frame",
+  "descendants": 20
+ },
+ {
+  "name": "PartyInviteSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PartyInviteSlot",
+  "kind": "Frame",
+  "descendants": 53
+ },
+ {
+  "name": "EliminatedCard",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.EliminatedCard",
+  "kind": "CanvasGroup",
+  "descendants": 15
+ },
+ {
+  "name": "PartyMemberBigSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PartyMemberBigSlot",
+  "kind": "Frame",
+  "descendants": 30
+ },
+ {
+  "name": "LeaderboardPlayerSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.LeaderboardPlayerSlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "VideoAdRewards",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.VideoAdRewards",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "PaintballSplatGui",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PaintballSplatGui",
+  "kind": "ScreenGui",
+  "descendants": 1
+ },
+ {
+  "name": "ESPGui",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ESPGui",
+  "kind": "ScreenGui",
+  "descendants": 4
+ },
+ {
+  "name": "DuelScoresTeamScoreNeededSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.DuelScoresTeamScoreNeededSlot",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "SideTaskSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.SideTaskSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "LocalQueuePlayerSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.LocalQueuePlayerSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "SettingInputHotkeysSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.SettingInputHotkeysSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "Crosshair",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Crosshair",
+  "kind": "Frame",
+  "descendants": 40
+ },
+ {
+  "name": "LobbyButtonSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.LobbyButtonSlot",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "BattlePassRewardSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.BattlePassRewardSlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "CosmeticSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.CosmeticSlot",
+  "kind": "Frame",
+  "descendants": 25
+ },
+ {
+  "name": "DuelHistorySlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.DuelHistorySlot",
+  "kind": "ImageButton",
+  "descendants": 20
+ },
+ {
+  "name": "TaskSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.TaskSlot",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "RewardSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.RewardSlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "NotificationSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.NotificationSlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "ELOBar",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ELOBar",
+  "kind": "Frame",
+  "descendants": 18
+ },
+ {
+  "name": "FinalResultsPlayerSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.FinalResultsPlayerSlot",
+  "kind": "Frame",
+  "descendants": 49
+ },
+ {
+  "name": "WeaponSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.WeaponSlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "ShopSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ShopSlot",
+  "kind": "Frame",
+  "descendants": 42
+ },
+ {
+  "name": "ShopBigSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ShopBigSlot",
+  "kind": "Frame",
+  "descendants": 53
+ },
+ {
+  "name": "WarningCard",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.WarningCard",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "PatchNotesSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PatchNotesSlot",
+  "kind": "Frame",
+  "descendants": 23
+ },
+ {
+  "name": "MatchmakingQueueSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.MatchmakingQueueSlot",
+  "kind": "Frame",
+  "descendants": 17
+ },
+ {
+  "name": "EliminationFeedSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.EliminationFeedSlot",
+  "kind": "Frame",
+  "descendants": 23
+ },
+ {
+  "name": "CurrencySlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.CurrencySlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "ShopEntryBuyButton",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.ShopEntryBuyButton",
+  "kind": "ImageButton",
+  "descendants": 16
+ },
+ {
+  "name": "PrivateServerPlayerSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PrivateServerPlayerSlot",
+  "kind": "Frame",
+  "descendants": 26
+ },
+ {
+  "name": "TaskContainer",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.TaskContainer",
+  "kind": "Frame",
+  "descendants": 32
+ },
+ {
+  "name": "SettingFrame",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.SettingFrame",
+  "kind": "Frame",
+  "descendants": 123
+ },
+ {
+  "name": "InspectBackpackReward",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.InspectBackpackReward",
+  "kind": "Frame",
+  "descendants": 49
+ },
+ {
+  "name": "InspectShopEntry",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.InspectShopEntry",
+  "kind": "Frame",
+  "descendants": 52
+ },
+ {
+  "name": "ViewRankedDetails",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.ViewRankedDetails",
+  "kind": "Frame",
+  "descendants": 45
+ },
+ {
+  "name": "ViewPlayerData",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.ViewPlayerData",
+  "kind": "Frame",
+  "descendants": 57
+ },
+ {
+  "name": "Pardon",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.Pardon",
+  "kind": "Frame",
+  "descendants": 18
+ },
+ {
+  "name": "Ban",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.Ban",
+  "kind": "Frame",
+  "descendants": 55
+ },
+ {
+  "name": "Unban",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.Unban",
+  "kind": "Frame",
+  "descendants": 18
+ },
+ {
+  "name": "Kick",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.Kick",
+  "kind": "Frame",
+  "descendants": 28
+ },
+ {
+  "name": "SendOfflineGiftRewards",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.SendOfflineGiftRewards",
+  "kind": "Frame",
+  "descendants": 63
+ },
+ {
+  "name": "InspectConceptor",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.InspectConceptor",
+  "kind": "Frame",
+  "descendants": 17
+ },
+ {
+  "name": "InspectBundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.InspectBundle",
+  "kind": "Frame",
+  "descendants": 30
+ },
+ {
+  "name": "SendBugRewards",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.SendBugRewards",
+  "kind": "Frame",
+  "descendants": 49
+ },
+ {
+  "name": "ViewPermissionsRoles",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.ViewPermissionsRoles",
+  "kind": "Frame",
+  "descendants": 18
+ },
+ {
+  "name": "InternalViewRewardSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.InternalViewRewardSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "Warn",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.Warn",
+  "kind": "Frame",
+  "descendants": 28
+ },
+ {
+  "name": "Restrict",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Prompts.Restrict",
+  "kind": "Frame",
+  "descendants": 27
+ },
+ {
+  "name": "TeleportingGui",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.TeleportingGui",
+  "kind": "ScreenGui",
+  "descendants": 11
+ },
+ {
+  "name": "Shutdown",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Shutdown",
+  "kind": "ScreenGui",
+  "descendants": 4
+ },
+ {
+  "name": "InsetGui",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.InsetGui",
+  "kind": "ScreenGui",
+  "descendants": 24
+ },
+ {
+  "name": "CustomFreecam",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.CustomFreecam",
+  "kind": "ScreenGui",
+  "descendants": 2
+ },
+ {
+  "name": "MainGui",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.MainGui",
+  "kind": "ScreenGui",
+  "descendants": 698
+ },
+ {
+  "name": "FlashbangGui",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.FlashbangGui",
+  "kind": "ScreenGui",
+  "descendants": 14
+ },
+ {
+  "name": "EquipmentClassSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.EquipmentClassSlot",
+  "kind": "Frame",
+  "descendants": 18
+ },
+ {
+  "name": "PlayerListSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PlayerListSlot",
+  "kind": "Frame",
+  "descendants": 20
+ },
+ {
+  "name": "UGCSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.UGCSlot",
+  "kind": "Frame",
+  "descendants": 39
+ },
+ {
+  "name": "RequestPartySlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.RequestPartySlot",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "RequestChallengeSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.RequestChallengeSlot",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "PermissionsPlayerSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PermissionsPlayerSlot",
+  "kind": "Frame",
+  "descendants": 16
+ },
+ {
+  "name": "PermissionsPlayersCard",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.PermissionsPlayersCard",
+  "kind": "Frame",
+  "descendants": 31
+ },
+ {
+  "name": "EquippedDisplay",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.EquippedDisplay",
+  "kind": "Frame",
+  "descendants": 18
+ },
+ {
+  "name": "LootboxChanceSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.LootboxChanceSlot",
+  "kind": "Frame",
+  "descendants": 17
+ },
+ {
+  "name": "LoginRewardSlot",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.LoginRewardSlot",
+  "kind": "Frame",
+  "descendants": 15
+ },
+ {
+  "name": "classic_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.classic_bundle",
+  "kind": "Frame",
+  "descendants": 35
+ },
+ {
+  "name": "energy_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.energy_bundle",
+  "kind": "Frame",
+  "descendants": 35
+ },
+ {
+  "name": "exogun_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.exogun_bundle",
+  "kind": "Frame",
+  "descendants": 35
+ },
+ {
+  "name": "heavyduty_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.heavyduty_bundle",
+  "kind": "Frame",
+  "descendants": 35
+ },
+ {
+  "name": "medkit_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.medkit_bundle",
+  "kind": "Frame",
+  "descendants": 35
+ },
+ {
+  "name": "rpg_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.rpg_bundle",
+  "kind": "Frame",
+  "descendants": 29
+ },
+ {
+  "name": "standardweapons_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.standardweapons_bundle",
+  "kind": "Frame",
+  "descendants": 31
+ },
+ {
+  "name": "starter_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.starter_bundle",
+  "kind": "Frame",
+  "descendants": 29
+ },
+ {
+  "name": "superstarter_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.superstarter_bundle",
+  "kind": "Frame",
+  "descendants": 40
+ },
+ {
+  "name": "keybundle_5",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.keybundle_5",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "keybundle_4",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.keybundle_4",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "keybundle_3",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.keybundle_3",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "keybundle_2",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.keybundle_2",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "keybundle_1",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.keybundle_1",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "eventcurrencybundle_5",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.eventcurrencybundle_5",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "eventcurrencybundle_4",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.eventcurrencybundle_4",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "eventcurrencybundle_3",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.eventcurrencybundle_3",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "eventcurrencybundle_2",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.eventcurrencybundle_2",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "eventcurrencybundle_1",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.eventcurrencybundle_1",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "contrabandseason_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.contrabandseason_bundle",
+  "kind": "Frame",
+  "descendants": 36
+ },
+ {
+  "name": "primeseason_bundle",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Bundles.primeseason_bundle",
+  "kind": "Frame",
+  "descendants": 34
+ },
+ {
+  "name": "Shop",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Shop",
+  "kind": "Frame",
+  "descendants": 788
+ },
+ {
+  "name": "EventOverview",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.EventOverview",
+  "kind": "Frame",
+  "descendants": 65
+ },
+ {
+  "name": "Settings",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Settings",
+  "kind": "Frame",
+  "descendants": 136
+ },
+ {
+  "name": "Collection",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Collection",
+  "kind": "Frame",
+  "descendants": 53
+ },
+ {
+  "name": "Backpack",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Backpack",
+  "kind": "Frame",
+  "descendants": 22
+ },
+ {
+  "name": "Tasks",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Tasks",
+  "kind": "Frame",
+  "descendants": 53
+ },
+ {
+  "name": "FreeRewards",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.FreeRewards",
+  "kind": "Frame",
+  "descendants": 29
+ },
+ {
+  "name": "ViewProfile",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.ViewProfile",
+  "kind": "Frame",
+  "descendants": 111
+ },
+ {
+  "name": "Matchmaking",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Matchmaking",
+  "kind": "Frame",
+  "descendants": 162
+ },
+ {
+  "name": "EditQueuePad",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.EditQueuePad",
+  "kind": "Frame",
+  "descendants": 19
+ },
+ {
+  "name": "Ranked",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Ranked",
+  "kind": "Frame",
+  "descendants": 132
+ },
+ {
+  "name": "BattlePass",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.BattlePass",
+  "kind": "Frame",
+  "descendants": 122
+ },
+ {
+  "name": "MobileDuels",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.MobileDuels",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "Credits",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Credits",
+  "kind": "Frame",
+  "descendants": 58
+ },
+ {
+  "name": "PatchNotes",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.PatchNotes",
+  "kind": "Frame",
+  "descendants": 17
+ },
+ {
+  "name": "Inbox",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Inbox",
+  "kind": "Frame",
+  "descendants": 20
+ },
+ {
+  "name": "PickWeapons",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.PickWeapons",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "PickWeaponsList",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.PickWeaponsList",
+  "kind": "Frame",
+  "descendants": 22
+ },
+ {
+  "name": "Rewards",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Rewards",
+  "kind": "Frame",
+  "descendants": 197
+ },
+ {
+  "name": "DuelHistory",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.DuelHistory",
+  "kind": "Frame",
+  "descendants": 17
+ },
+ {
+  "name": "Maps",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Maps",
+  "kind": "Frame",
+  "descendants": 62
+ },
+ {
+  "name": "PrivateServerControls",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.PrivateServerControls",
+  "kind": "Frame",
+  "descendants": 36
+ },
+ {
+  "name": "UGCShop",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.UGCShop",
+  "kind": "Frame",
+  "descendants": 47
+ },
+ {
+  "name": "Party",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Party",
+  "kind": "Frame",
+  "descendants": 42
+ },
+ {
+  "name": "Gifting",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.Gifting",
+  "kind": "Frame",
+  "descendants": 157
+ },
+ {
+  "name": "PickEmote",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.PickEmote",
+  "kind": "Frame",
+  "descendants": 33
+ },
+ {
+  "name": "LeaveDuel",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.LeaveDuel",
+  "kind": "Frame",
+  "descendants": 24
+ },
+ {
+  "name": "WelcomeBack",
+  "path": "StarterPlayer.StarterPlayerScripts.UserInterface.Pages.WelcomeBack",
+  "kind": "Frame",
+  "descendants": 21
+ },
+ {
+  "name": "Gui",
+  "path": "StarterPlayer.StarterPlayerScripts.Modules.TableViewer.Gui",
+  "kind": "ScreenGui",
+  "descendants": 9
+ },
+ {
+  "name": "StudioGui",
+  "path": "StarterGui.StudioGui",
+  "kind": "ScreenGui",
+  "descendants": 1
+ },
+ {
+  "name": "LoadingScreenGui_testrival_Backup",
+  "path": "ServerStorage.LoadingScreenGui_testrival_Backup",
+  "kind": "ScreenGui",
+  "descendants": 49
+ }
+]

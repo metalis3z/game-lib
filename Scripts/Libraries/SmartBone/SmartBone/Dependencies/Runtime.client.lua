@@ -1,0 +1,179 @@
+--██   ██  █████   ██████ ██  ██  ███████ ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██   ██
+--███████ ███████ ██      ████    █████   ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██  ██ 
+--██   ██ ██   ██  ██████ ██  ██  ███████ ██   ██
+--
+--██████  ███████  ██████  █████  ██   ██ ██████  ███ ██      ███████ ██████ 
+--██   ██ ██      ██      ██   ██ ███ ███ ██   ██ ██  ██      ██      ██   ██
+--██   ██ █████   ██      ██   ██ ██ █ ██ ██████  ██  ██      █████   ██████ 
+--██   ██ ██      ██      ██   ██ ██   ██ ██      ██  ██      ██      ██  ██ 
+--██████  ███████  ██████  █████  ██   ██ ██      ███ ███████ ███████ ██   ██
+--[[
+Hacker Decompiler 
+Hacker Uncopylocked Discord Link : https://discord.gg/T7BXynvdMb
+Owner of Hacker Decompiler: HackerKing
+Owner of Hacker Uncopylocked: HackerKing
+--]]
+
+
+-- Bytecode (Base64):
+-- CQNJBXRhYmxlBmluc2VydAFjCkRpc2Nvbm5lY3QHY2xlYW51cAdyZXF1aXJlBUJlZ2luBEZpcmUDRW5kBFRleHQFRGVidWcMR2V0QXR0cmlidXRlCEJhc2VQYXJ0A0lzQQtDb2xsaWRlcktleQh0b3N0cmluZwtHZXRDb2xsaWRlcg9Mb2FkUmF3Q29sbGlkZXIGc2hhcmVkDEZyYW1lQ291bnRlcgZQYXJlbnQNU3RlcEJvbmVUcmVlcw1TaG91bGREZXN0cm95B0Rlc3Ryb3kEdGFzawtzeW5jaHJvbml6ZQ5EUkFXX0NPTExJREVSUwNnZXQNRFJBV19DT05UQUNUUxJEUkFXX1BIWVNJQ0FMX0JPTkUJRFJBV19CT05FEERSQVdfQVhJU19MSU1JVFMORFJBV19ST09UX1BBUlQTRFJBV19GSUxMX0NPTExJREVSUxdEUkFXX0NPTExJREVSX0lORkxVRU5DRRNEUkFXX0NPTExJREVSX0FXQUtFGERSQVdfQ09MTElERVJfQlJPQURQSEFTRRFEUkFXX0JPVU5ESU5HX0JPWBREUkFXX1JPVEFUSU9OX0xJTUlUUxZEUkFXX0FDQ0VMRVJBVElPTl9JTkZPCURyYXdEZWJ1ZwtEcmF3T3ZlcmxheQZzY3JpcHQFU2V0dXANQmluZFRvTWVzc2FnZQR3YWl0BGdhbWURQ29sbGVjdGlvblNlcnZpY2UKR2V0U2VydmljZQpSdW5TZXJ2aWNlA25ldwxEZXBlbmRlbmNpZXMHRGVidWdVaQZDb25maWcJVXRpbGl0aWVzCElzU3R1ZGlvFUFMTE9XX0xJVkVfR0FNRV9ERUJVRwxPdmVybGF5RXZlbnQMV2FpdEZvckNoaWxkBElyaXMHSGFzSW5pdARJbml0ByUqIC0gJSoETmFtZQJJRAZmb3JtYXQKTG9hZE9iamVjdAVTdGF0ZQdDb25uZWN0DVNtYXJ0Q29sbGlkZXIWR2V0SW5zdGFuY2VBZGRlZFNpZ25hbAlIZWFydGJlYXQPQ29ubmVjdFBhcmFsbGVsAAsEAQEAAAYDAAAFAQcI+wIAAJ40AgQAAAAAUgMAAKQBAgAABACAnwEDAYIAAQADAwEDAgQABACAAAsDARgAAAAAAAAAAQwAAAAABwABAAAACvsAAADGAQAAxgIAAGQAAwC8BQQa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
+
+-- https://lua.expert/
+local v1 = script.Parent
+local v2 = nil
+local v3 = nil
+local v4 = nil
+local v5 = nil
+local v6 = false
+local t = {}
+
+local function c(p1) --[[ c | Line: 11 | Upvalues: t (copy) ]]
+	table.insert(t, p1)
+end
+
+local function cleanup() --[[ cleanup | Line: 15 | Upvalues: t (copy) ]]
+	for v1, v2 in t do
+		v2:Disconnect()
+	end
+end
+
+local v7 = nil
+
+v7 = v1:BindToMessage("Setup", function(p1, p2, p3) --[[ Line: 22 | Upvalues: v2 (ref), v3 (ref), v4 (ref), v5 (ref), v6 (ref), v7 (ref) ]]
+	v2 = p1
+	v3 = p2
+	v4 = p3
+	v5 = require(p3)
+	v6 = true
+	v7:Disconnect()
+end)
+
+repeat
+	task.wait()
+until v6
+
+local CollectionService = game:GetService("CollectionService")
+local RunService = game:GetService("RunService")
+local v8 = v5.new()
+local Dependencies = v4.Dependencies
+local DebugUi = require(Dependencies.Debug.DebugUi)
+local v9 = nil
+local Config = require(Dependencies.Config)
+local Utilities = require(Dependencies.Utilities)
+local v10 = RunService:IsStudio() or Config.ALLOW_LIVE_GAME_DEBUG
+local OverlayEvent = v4:WaitForChild("OverlayEvent")
+local v11 = false
+local t2 = {
+	Begin = function(...) --[[ Begin | Line: 52 | Upvalues: OverlayEvent (copy) ]]
+		OverlayEvent:Fire("Begin", ...)
+	end,
+	End = function(...) --[[ End | Line: 55 | Upvalues: OverlayEvent (copy) ]]
+		OverlayEvent:Fire("End", ...)
+	end,
+	Text = function(...) --[[ Text | Line: 58 | Upvalues: OverlayEvent (copy) ]]
+		OverlayEvent:Fire("Text", ...)
+	end
+}
+
+shared.FrameCounter = 0
+
+if v10 then
+	v9 = require(Dependencies.Iris)
+
+	if not v9.HasInit() then
+		v9 = v9.Init()
+	end
+end
+
+v1.Name = ("%* - %*"):format(v2.Name, v8.ID)
+v8:LoadObject(v2)
+
+for v12, v13 in v3 do
+	v8:LoadRawCollider(v13[1], v13[2])
+end
+
+local v14 = if v10 then {
+	DRAW_BONE = v9.State(false),
+	DRAW_PHYSICAL_BONE = v9.State(false),
+	DRAW_ROOT_PART = v9.State(false),
+	DRAW_BOUNDING_BOX = v9.State(false),
+	DRAW_AXIS_LIMITS = v9.State(false),
+	DRAW_COLLIDERS = v9.State(false),
+	DRAW_COLLIDER_INFLUENCE = v9.State(false),
+	DRAW_COLLIDER_AWAKE = v9.State(false),
+	DRAW_COLLIDER_BROADPHASE = v9.State(false),
+	DRAW_FILL_COLLIDERS = v9.State(false),
+	DRAW_CONTACTS = v9.State(false),
+	DRAW_ROTATION_LIMITS = v9.State(false),
+	DRAW_ACCELERATION_INFO = v9.State(false)
+} else nil
+
+if v10 then
+	v9:Connect(function() --[[ Line: 104 | Upvalues: v2 (ref), DebugUi (copy), v9 (ref), v8 (copy), v14 (ref) ]]
+		if v2:GetAttribute("Debug") == nil then
+			return
+		end
+
+		DebugUi(v9, v8, v14)
+	end)
+end
+
+local v15 = CollectionService:GetInstanceAddedSignal("SmartCollider"):Connect(function(p1) --[[ Line: 111 | Upvalues: v2 (ref), Utilities (copy), v8 (copy) ]]
+	if not p1:IsA("BasePart") then
+		return
+	end
+
+	local v1 = p1:GetAttribute("ColliderKey")
+	local v22 = v2:GetAttribute("ColliderKey")
+
+	if tostring(v1) == tostring(v22) then
+		v8:LoadRawCollider(Utilities.GetCollider(p1), p1)
+	end
+end)
+
+table.insert(t, v15)
+
+local v16 = v1:BindToMessage("Destroy", function() --[[ Line: 128 | Upvalues: v11 (ref) ]]
+	v11 = true
+end)
+
+table.insert(t, v16)
+
+local v17 = RunService.Heartbeat:ConnectParallel(function(p1) --[[ Line: 132 | Upvalues: v2 (ref), v11 (ref), v8 (copy), t (copy), v1 (copy), v10 (copy), v14 (ref), t2 (copy) ]]
+	local v12 = shared
+
+	v12.FrameCounter = v12.FrameCounter + 1
+
+	if shared.FrameCounter > 131072 then
+		shared.FrameCounter = 0
+	end
+
+	if not (v2 and v2.Parent) then
+		v11 = true
+	end
+
+	v8:StepBoneTrees(p1)
+
+	if v8.ShouldDestroy or v11 then
+		v8:Destroy()
+		task.synchronize()
+
+		for v22, v3 in t do
+			v3:Disconnect()
+		end
+
+		v1:Destroy()
+	else
+		if not v10 or v2:GetAttribute("Debug") == nil then
+			return
+		end
+
+		task.synchronize()
+		v8:DrawDebug(v14.DRAW_COLLIDERS:get(), v14.DRAW_CONTACTS:get(), v14.DRAW_PHYSICAL_BONE:get(), v14.DRAW_BONE:get(), v14.DRAW_AXIS_LIMITS:get(), v14.DRAW_ROOT_PART:get(), v14.DRAW_FILL_COLLIDERS:get(), v14.DRAW_COLLIDER_INFLUENCE:get(), v14.DRAW_COLLIDER_AWAKE:get(), v14.DRAW_COLLIDER_BROADPHASE:get(), v14.DRAW_BOUNDING_BOX:get(), v14.DRAW_ROTATION_LIMITS:get(), v14.DRAW_ACCELERATION_INFO:get())
+		v8:DrawOverlay(t2)
+	end
+end)
+
+table.insert(t, v17)

@@ -1,0 +1,331 @@
+[
+  {
+    "file": "01-UI-Animation/_patterns/ButtonFX.lua",
+    "title": "Button hover/press FX",
+    "game": "pattern",
+    "desc": "Hover grow / press squash / Back-out release on a UIScale, pitch-jittered sounds, touch fallback, autoBind for a whole PlayerGui.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/PopIn.lua",
+    "title": "Window pop-in / pop-out",
+    "game": "pattern",
+    "desc": "Open from 80% with Back-out, close with Quad-in, optional CanvasGroup fade, blur and FOV, exclusive window groups.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/Shimmer.lua",
+    "title": "Shine sweep",
+    "game": "pattern",
+    "desc": "Looping or one-shot diagonal shine: gradient band whose Offset tweens -1 -> 1; colour-band mode for text.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/RotatingGradient.lua",
+    "title": "Rotating gradients + sunbursts",
+    "game": "pattern",
+    "desc": "One shared Heartbeat (throttled to 30 Hz) spins UIGradients and ray images and pans gradients; tag binding; rainbow builder.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/Typewriter.lua",
+    "title": "Typewriter text",
+    "game": "pattern",
+    "desc": "MaxVisibleGraphemes reveal with rich-text support, punctuation pauses, pitch-jittered blips, skip / cancel / erase.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/CountUp.lua",
+    "title": "Number count-up",
+    "game": "pattern",
+    "desc": "Counter object with \"ease\" (cubic out) or \"lerp\" (exponential chase) modes, pop on increase, abbreviate() and commas().",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/SpringScale.lua",
+    "title": "Spring animator",
+    "game": "pattern",
+    "desc": "Exact damped-spring solver + controllers for UIScale or any number property, springy button binding, snap/kick.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/SlideNotification.lua",
+    "title": "Slide-in toasts",
+    "game": "pattern",
+    "desc": "Code-built toasts that slide in from a corner, stack, merge duplicates \"(x3)\", drain a timer bar, slide out and collapse the gap.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/TabUnderline.lua",
+    "title": "Tab underline slide",
+    "game": "pattern",
+    "desc": "Bar glides under the selected tab (optional stretchy two-phase motion), tints labels, pops the tab, follows resizes.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/ProgressFill.lua",
+    "title": "Progress bar fill",
+    "game": "pattern",
+    "desc": "Fill tween with skip-tiny-changes, ghost trail bar (damage drop / gain preview), percent label, onFull callback, X or Y axis.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/RollReveal.lua",
+    "title": "Roll / reveal / wheel",
+    "game": "pattern",
+    "desc": "Slowing roll schedule with no-repeat rules, onTick/onReveal callbacks, spinWheelTo(slice), revealPop (slam + rays + flash), nudge.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/FloatBob.lua",
+    "title": "Floating / bobbing icons",
+    "game": "pattern",
+    "desc": "Sine bob + rock + breathe for many icons from one RenderStepped, random phase per icon, tag binding with attributes.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/PulseAttention.lua",
+    "title": "Attention pulse / ripple",
+    "game": "pattern",
+    "desc": "Breathing UIScale loop, expanding UIStroke ripple rings, bell wiggle, pop, and a combined loop that pauses while hidden.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/ScreenFade.lua",
+    "title": "Screen transitions / flash",
+    "game": "pattern",
+    "desc": "Fade to colour, run code while covered (pcall-protected), typewriter title, fade back; quick colour flash.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/_patterns/ClickBurst.lua",
+    "title": "2D click sparkles / float text",
+    "game": "pattern",
+    "desc": "Frame-based radial sparkle bursts at any screen point, sparkles on every click, \"+$N\" text that pops then floats away.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/UniversalButtonFX_TagEffects__brainrot-lab.lua",
+    "title": "Universal button FX + tag-driven effects",
+    "game": "brainrot-lab",
+    "desc": "Auto-hooks every GuiButton with hover/press UIScale tweens + sounds, and drives CollectionService-tagged effects (sunburst spin, rotating/panning UIGradient, random shine sparkles, looping UIScale pulse).",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/HoverController_GroupedUIScale__drill-and-mine.lua",
+    "title": "Grouped hover controller",
+    "game": "drill-and-mine",
+    "desc": "Button hover/press/bounce via a per-button UIScale with tween cancelling, hover groups (several buttons react as one), icon tilt, pooled hover sound and a throttled 30 Hz sunburst/gradient spinner.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/AnimatedText_PerCharBezier__drill-and-mine.lua",
+    "title": "Per-character animated text",
+    "game": "drill-and-mine",
+    "desc": "Per-character text animation: only changed characters drop/scale in with CSS cubic-bezier easing, CanvasGroup layers per glyph, value-increase pop via UIScale (AnimatedText.Pop). Advanced.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/FrameAnimator_WindowOpenBlurFov__drill-and-mine.lua",
+    "title": "Window open/close manager with blur + FOV",
+    "game": "drill-and-mine",
+    "desc": "Window manager: Back-eased open / Quad-in close, blur + camera FOV tween, HUD groups slide off-screen while a window is open, cached fade tweens, open-by-button or by standing on a part.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/NotificationsController_PopToast__drill-and-mine.lua",
+    "title": "Pop-in toast notifications",
+    "game": "drill-and-mine",
+    "desc": "Toast notifications that pop in on a UIScale (0 -> 1, Quart out) while fading every descendant, merge duplicates into \"(xN)\" with an overshoot pulse, and pop out with Back-in.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/NotifyBadgePulse_RippleWiggle__drill-and-mine.lua",
+    "title": "Badge ripple + wiggle",
+    "game": "drill-and-mine",
+    "desc": "Notification badge attention loop: two expanding UIStroke rings that fade out, a small UIScale pop, and a bell-style rotation wiggle every 2.6 s.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/UIScaleBreathingPulse__drill-and-mine.lua",
+    "title": "UIScale breathing pulse",
+    "game": "drill-and-mine",
+    "desc": "Minimal infinite \"breathing\" pulse: UIScale tween 1 -> 1.10, Sine InOut, repeat -1, reverses. Comment explains why UIScale beats Size tweening.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/RebirthRingsFX_RainbowRings__drill-and-mine.lua",
+    "title": "Rainbow ripple rings",
+    "game": "drill-and-mine",
+    "desc": "Train of expanding rainbow UIStroke rings on a BillboardGui around the player (rotating UIGradient per ring, fade as they grow).",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/LevelBarFill_PopHold__drill-and-mine.lua",
+    "title": "Progress bar fill + pop-hold",
+    "game": "drill-and-mine",
+    "desc": "XP progress-bar fill tween (skips tiny changes), level text, and a \"pop and hold\" UIScale on stat gain that rests inflated while gains keep coming; coalesces refreshes per frame.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/ClickSparkleBurst__drill-and-mine.lua",
+    "title": "Click sparkle burst",
+    "game": "drill-and-mine",
+    "desc": "Pure 2D click/tap feedback: spawns radial dots and streak frames at the cursor that fly outward, shrink and fade.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/HUDSlideController_EdgeSlide__drill-and-mine.lua",
+    "title": "HUD edge slide in/out",
+    "game": "drill-and-mine",
+    "desc": "Slides HUD groups off the top/left/bottom edges (Quart in/out, scale-only offscreen targets) and back in based on player location.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/ConfettiFX_ScreenConfetti__drill-and-mine.lua",
+    "title": "2D confetti celebration",
+    "game": "drill-and-mine",
+    "desc": "Screen-space confetti burst built fully in code (image templates flung and fading) plus an optional world firework emitter burst.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/IconRockWiggle__drill-and-mine.lua",
+    "title": "Idle icon rock",
+    "game": "drill-and-mine",
+    "desc": "Endless Sine InOut rotation rock (+10 / -20 degrees) for an idle shop icon.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/CashCountUpLerp__drill-and-mine.lua",
+    "title": "Cash count-up lerp",
+    "game": "drill-and-mine",
+    "desc": "Count-up currency display: exponential lerp of the displayed value toward the real value each frame (only rewriting Text when it changes) plus a Size pulse on change.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/UITweening_ButtonAndWindowToggle__animal-hospital-modded.lua",
+    "title": "Button + window toggle tweening",
+    "game": "animal-hospital-modded",
+    "desc": "Button hover/press size tweens (original size stored as an attribute), keyboard-key press feedback, and a window toggle that grows from 5% with Back-out plus a camera FOV punch.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/ButtonFX_UIScaleSounds__smash-egg-for-animals.lua",
+    "title": "Compact button FX with sounds",
+    "game": "smash-egg-for-animals",
+    "desc": "Compact global button FX: UIScale grow on hover, squash on press, Back-eased return, pitch-randomised sounds, mobile tap fallback, and a sound when big windows open. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/WindowOpenFx_AutoPopIn__smash-egg-for-animals.lua",
+    "title": "Auto pop-in for windows",
+    "game": "smash-egg-for-animals",
+    "desc": "Automatically pops every big window in from 80% scale (0.18 s Back out) when it becomes Visible, preserving any existing UIScale value. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/MoneyCounter_CountUpGainPopup__smash-egg-for-animals.lua",
+    "title": "Money count-up + gain popup",
+    "game": "smash-egg-for-animals",
+    "desc": "Money counter with cubic ease-out count-up on RenderStepped, a \"+$N\" label that bursts out then rises and fades, batching of simultaneous gains, and a pop on spend. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/HatchReel_SlowingRoll__smash-egg-for-animals.lua",
+    "title": "Slowing roll + reveal",
+    "game": "smash-egg-for-animals",
+    "desc": "Egg hatch reel that cycles silhouettes fast then slows (quadratic slot lengths), never repeats the result just before landing, then reveals with name tag pop, rays spin and highlight fade. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/ZoneBanner_CanvasGroupFade__smash-egg-for-animals.lua",
+    "title": "Zone entry banner",
+    "game": "smash-egg-for-animals",
+    "desc": "Area-entry banner built in code: CanvasGroup fades in (GroupTransparency) while sliding down with Back-out, gradient title, auto-hides after 3 s. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/RunAlert_ScreenEdgePulse__smash-egg-for-animals.lua",
+    "title": "Screen-edge danger pulse",
+    "game": "smash-egg-for-animals",
+    "desc": "Danger alert: big \"RUN!\" text slams in from 2.4x scale, full-screen red flash, four gradient screen edges and the text heartbeat-pulse via sin() on RenderStepped. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/GradientPolish_SunRays__smash-egg-for-animals.lua",
+    "title": "Gradient polish + sun rays",
+    "game": "smash-egg-for-animals",
+    "desc": "Upgrades every 2-colour UIGradient into a 4-stop \"glossy\" gradient and spins sun-ray images behind chosen icons. Needs the game PetPortrait.rays helper. Comments in French.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/PopUpController_RewardFloat__brainrot-lab.lua",
+    "title": "Floating reward popups",
+    "game": "brainrot-lab",
+    "desc": "\"+$amount\" reward popups at a random spot near screen centre: size pop with Back-out, content fade-in, then float up and fade out.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/AlertStack_MergingToasts__bee-swarm-sim.lua",
+    "title": "Merging alert stack",
+    "game": "bee-swarm-sim",
+    "desc": "Stacked alerts that grow from 0 size with Back-out, merge repeated item alerts by summing amounts, and shrink away after a lifetime.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/ButtonHoverPressSize__pet-rng.lua",
+    "title": "Simple hover/press module",
+    "game": "pet-rng",
+    "desc": "Simple Size-based hover (1.1x) / press (0.8x) module with hover+click sounds, random icon tilt on hover, and keyboard-key press animation.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/TransitionTypewriterFade__pet-rng.lua",
+    "title": "Screen transition + typewriter title",
+    "game": "pet-rng",
+    "desc": "Teleport transition: fades a full-screen frame in, tweens MaxVisibleGraphemes for a typewriter title, moves the character, then fades everything out.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/RollHandler_RNGReveal__pet-rng.lua",
+    "title": "RNG roll reveal",
+    "game": "pet-rng",
+    "desc": "RNG roll display: flashes 4 random results with a tiny shake, then the real one with rarity colour, \"1/N\" chance and an expanding ring; auto-roll loop.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/ShimmerSweep__punching-simulator.lua",
+    "title": "Gradient shine sweep",
+    "game": "punching-simulator",
+    "desc": "The classic shine sweep: tween a UIGradient Offset from (-1,0) to (1,0) every 2 s, then snap back.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/RainbowGradientSweep__punching-simulator.lua",
+    "title": "Rainbow gradient sweep",
+    "game": "punching-simulator",
+    "desc": "Endless rainbow sweep across a label: Offset sweep while rotating through a 15-colour HSV palette, flipping Rotation 0/180 each pass.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/SprSpringLibrary__punching-simulator.lua",
+    "title": "spr spring animator library",
+    "game": "punching-simulator",
+    "desc": "The open-source \"spr\" spring library (MIT, Fraktality): spr.Target(instance, dampingRatio, frequency, {props}) animates any property with a critically/under-damped spring.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/SpinWheel_SprWindow__punching-simulator.lua",
+    "title": "Spin wheel + spring window",
+    "game": "punching-simulator",
+    "desc": "Reward wheel spin landing on a slot (5 full turns + slot offset, Quint out, 5 s) and window open/close driven by spr springs on Position, camera FOV and Blur.",
+    "category": "ui-animation"
+  },
+  {
+    "file": "01-UI-Animation/SpringClass_Quenty__doors.lua",
+    "title": "Analytic spring class",
+    "game": "doors",
+    "desc": "Classic analytic spring class (Quenty style): set .Target, read .Position each frame; works with numbers or Vector3. Good base for springy UI scale/offset.",
+    "category": "ui-animation"
+  }
+]

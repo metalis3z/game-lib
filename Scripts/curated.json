@@ -1,0 +1,2858 @@
+[
+ {
+  "file": "16-Admin/AdminService-AuditRateLimit__aura-ascension.lua",
+  "title": "Admin service with whitelist, rate limit, audit",
+  "game": "aura-ascension",
+  "desc": "Admin check by UserIds or group rank (from a config module), per-admin rate limit, an AllowedCommands whitelist, structured payloads, and an audit log of who ran what.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/AdminCommandsService-Console__drill-and-mine.lua",
+  "title": "Text console with owner-only wipes",
+  "game": "drill-and-mine",
+  "desc": "F2 text console backend: tokenizer, partial-name player lookup, give-anything commands that reuse the real grant paths, aliases, help text, owner-only data wipe, cross-server shutdown via MessagingService.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/AdminConsoleClient-F2Console__drill-and-mine.lua",
+  "title": "F2 console UI (client)",
+  "game": "drill-and-mine",
+  "desc": "Client side of the console: asks the server if you are an admin, builds a small F2 text box UI, sends the raw line with RunCommand and prints the reply.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/CmdrServer-CommandParser__catalogue-avatar-creator.lua",
+  "title": "Command string parser (me/all selectors)",
+  "game": "catalogue-avatar-creator",
+  "desc": "Server handler for a command bar: one RemoteFunction, admin check through a server-set IsAdministrator attribute, me/all/partial-name selectors, kick/ban/teleport/bring/god and more, pcall'd handlers.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/AdminPanelServer-Moderation__escape-kitty-keyboard.lua",
+  "title": "Panel server: kick/ban/freeze/troll",
+  "game": "escape-kitty-keyboard",
+  "desc": "Remote functions for an admin panel: player list, kick, DataStore ban/unban checked on join, freeze that survives respawn, fun actions (ragdoll, spin, invisible, spectate), per-admin cooldown.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/CommandManager-RankedModules__forsaken.lua",
+  "title": "Commands as ModuleScripts with required ranks",
+  "game": "forsaken",
+  "desc": "Each command is a ModuleScript (title, parameters, RequiredRank, AllowedInVIP, Executed); the server sends only the commands your rank allows and re-checks the rank on execute; private-server owners get VIP-safe commands.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/CommandsService-ConchLoader__evade.lua",
+  "title": "Conch console: one module per command",
+  "game": "evade",
+  "desc": "Loads every ModuleScript in a Commands folder into the Conch console, gives the super-user role to permitted players and sends them the command list.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/ConsolePermissions__evade.lua",
+  "title": "Permission check: user ids or group rank",
+  "game": "evade",
+  "desc": "hasPermission(player): true if the UserId is in Config.AllowedUserIds or the player's rank in Config.GroupId is at least MinGroupRank.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/AdminHandler-PanelRemotes__brainrot-lab.lua",
+  "title": "Panel server: one handler per remote",
+  "game": "brainrot-lab",
+  "desc": "Admin panel backend with one function per remote (spawn items, start/end events locally or globally, announcements, private-server tools, youtuber tags), each starting with an isAdmin check, plus player resolving by id or name.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/_patterns/AdminPermissions.lua",
+  "title": "AdminPermissions (levels from owner/group/ids)",
+  "game": "pattern",
+  "desc": "Resolves Player/VIP/Moderator/Admin/Owner from game owner, group ranks, your own UserId list and private-server ownership; caches it and mirrors an AdminLevel attribute.",
+  "category": "admin"
+ },
+ {
+  "file": "16-Admin/_patterns/AdminCommands.lua",
+  "title": "AdminCommands (safe text commands)",
+  "game": "pattern",
+  "desc": "Command registry with levels, typed args (player/players/number/string), me/all/others selectors, rate limit, admin-only audit log, built-in help/kick/ban/unban/announce using the Roblox Ban API.",
+  "category": "admin"
+ },
+ {
+  "file": "05-Camera-Cutscene/CameraShaker__jujutsu-shenanigans.lua",
+  "title": "CameraShaker (RbxCameraShaker)",
+  "game": "jujutsu-shenanigans",
+  "desc": "Open-source camera shake engine: ShakeOnce, sustained shakes, presets, fade in/out.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/CameraShakeInstance__jujutsu-shenanigans.lua",
+  "title": "CameraShakeInstance",
+  "game": "jujutsu-shenanigans",
+  "desc": "Single shake instance used by CameraShaker (Perlin noise, fade states).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/CameraShakePresets__jujutsu-shenanigans.lua",
+  "title": "CameraShakePresets",
+  "game": "jujutsu-shenanigans",
+  "desc": "Ready-made shake presets (Explosion, Earthquake, Bump, Handheld...).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/ShakeCameraWrapper__jujutsu-shenanigans.lua",
+  "title": "ShakeCamera wrapper",
+  "game": "jujutsu-shenanigans",
+  "desc": "How a game wraps CameraShaker into one shared module (one instance, simple API).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/HumanoidOffsetShake__big-paintball.lua",
+  "title": "Shake via Humanoid.CameraOffset",
+  "game": "big-paintball",
+  "desc": "Shake without touching Camera.CFrame (uses Humanoid.CameraOffset) + controller vibration.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/CombatCameraClient__jujutsu-shenanigans.lua",
+  "title": "Combat client camera",
+  "game": "jujutsu-shenanigans",
+  "desc": "Additive decaying shake + head-follow CameraOffset + 'dead cam' offset in one LocalScript.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/FrameTableCameraCutscene__jujutsu-shenanigans.lua",
+  "title": "Frame-table camera cutscenes",
+  "game": "jujutsu-shenanigans",
+  "desc": "Data-driven cutscenes: per-frame CFrame + FOV tables played at 60 fps relative to a part.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/CameraRigCutscene__jujutsu-shenanigans.lua",
+  "title": "Animated camera rig cutscenes",
+  "game": "jujutsu-shenanigans",
+  "desc": "Animate a camera rig with normal animations; camera follows the rig's Cam part; smooth hand-back.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/CutsceneLock__smash-egg-for-animals.lua",
+  "title": "CutsceneLock",
+  "game": "smash-egg-for-animals",
+  "desc": "One-cutscene-at-a-time lock + StreamingEnabled support (load what the camera sees).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/CutsceneDefinitions__bite-by-night.lua",
+  "title": "Kill cam / intro definitions",
+  "game": "bite-by-night",
+  "desc": "Data-driven kill cams / intros / outros (rig + animation + FOV curve per cutscene).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/LockOnCamera__jujutsu-shenanigans.lua",
+  "title": "Lock-on camera",
+  "game": "jujutsu-shenanigans",
+  "desc": "Target lock-on with crosshair picking, left/right switching, line-of-sight break, shoulder offset.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/HeadFollowCameraOffset__jujutsu-shenanigans.lua",
+  "title": "Head-follow camera offset",
+  "game": "jujutsu-shenanigans",
+  "desc": "Camera follows the head during animations (CameraOffset = head relative to root).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/FirstPersonBobSway__backrooms-exploration.lua",
+  "title": "First-person bob, sway & breathing",
+  "game": "backrooms-exploration",
+  "desc": "Best head-bob/sway reference: layered sine + noise offsets with every constant exposed at the top.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/RealismBobAndBodyLook__the-rake.lua",
+  "title": "Realism mode (CloneTrooper1019)",
+  "game": "the-rake",
+  "desc": "Old but famous: body follows camera pitch + walk bobble via CameraOffset (R6).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/JumpscareController__steal-a-brainrot-sab-files.lua",
+  "title": "Jumpscare controller",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "Full jumpscare: model flies at the camera, shake, flash, color/DOF effects, auto cleanup.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/DeathJumpscareCam__the-rake.lua",
+  "title": "Death jumpscare camera",
+  "game": "the-rake",
+  "desc": "Simplest death cam: Scriptable camera at a fixed part + FOV kick (120 -> 50).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/SpectateFollowCam__needoh-escape.lua",
+  "title": "Spectate client (follow cam)",
+  "game": "needoh-escape",
+  "desc": "Clean spectate: freeze input, lerp-follow target, survive respawns, full restore.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/SpectateCycle__evade.lua",
+  "title": "Spectate next/previous",
+  "game": "evade",
+  "desc": "The simplest spectate: cycle Camera.CameraSubject through a player list.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/FovBlurHelper__steal-a-brainrot-sab-files.lua",
+  "title": "FOV / blur helper",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "Two-function helper to tween FOV and blur.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/OrbitPanCamera__work-at-a-pizza-place.lua",
+  "title": "Orbit pan camera",
+  "game": "work-at-a-pizza-place",
+  "desc": "Orbiting showcase camera with simple wall collision (repeated raycasts ignoring see-through parts).",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/_patterns/CinematicCutscene.lua",
+  "title": "CinematicCutscene (pattern)",
+  "game": "pattern",
+  "desc": "Plays a list of camera shots with letterbox bars, input freeze, skip button and a smooth hand-back.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/_patterns/FovController.lua",
+  "title": "FovController (pattern)",
+  "game": "pattern",
+  "desc": "Single owner of FieldOfView: base FOV (sprint), named offsets (aim), and spring FOV punches.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "05-Camera-Cutscene/_patterns/DeathCam.lua",
+  "title": "DeathCam (pattern)",
+  "game": "pattern",
+  "desc": "On death, orbit the body or frame the killer, desaturate, and restore on respawn.",
+  "category": "camera-cutscene"
+ },
+ {
+  "file": "11-Combat/HitboxHandler__jujutsu-shenanigans.lua",
+  "title": "Hitbox class (spatial query)",
+  "game": "jujutsu-shenanigans",
+  "desc": "Reusable hitbox class: box/radius query, per-frame or once, hit-once list, closest-only mode.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/DamageHandler__jujutsu-shenanigans.lua",
+  "title": "Damage pipeline",
+  "game": "jujutsu-shenanigans",
+  "desc": "Central damage function: block from the front only, counters, finishers, stun + hit animation.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/StunHandler__jujutsu-shenanigans.lua",
+  "title": "Stun handler",
+  "game": "jujutsu-shenanigans",
+  "desc": "Tag-based stun: one call blocks every action via CollectionService tags, restored when stuns expire.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/M1ComboAndBlock__jujutsu-shenanigans.lua",
+  "title": "M1 combo + perfect block",
+  "game": "jujutsu-shenanigans",
+  "desc": "Combo counter with timeout + block with a perfect-block window.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/HitboxManager__bite-by-night.lua",
+  "title": "Hitbox manager (box / radius / ray)",
+  "game": "bite-by-night",
+  "desc": "Configurable hitbox with Box/Radius/Ray modes, 'continue until found' polling and debug drawing.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/AbilityKitFighter__bite-by-night.lua",
+  "title": "Ability kit definition",
+  "game": "bite-by-night",
+  "desc": "How an ability framework declares a kit: keybind, cooldown, uses, server callback.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/SwingAbility__bite-by-night.lua",
+  "title": "Swing ability (uses parry charges)",
+  "game": "bite-by-night",
+  "desc": "Charge-scaled attack: dash + polling hitbox + stun + stacking debuffs.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/ParryAbility__bite-by-night.lua",
+  "title": "Parry ability",
+  "game": "bite-by-night",
+  "desc": "Parry window as an attribute + punishment on a whiff.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/AxeThrowAbility__bite-by-night.lua",
+  "title": "Throwable weapon with retrieval",
+  "game": "bite-by-night",
+  "desc": "Full throwable: aim, projectile, stick in the world, ProximityPrompt to retrieve, timeout return.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/ServerProjectiles__rivals-modded.lua",
+  "title": "Server-simulated projectiles",
+  "game": "rivals-modded",
+  "desc": "Server projectile simulation: spherecast sweeps, crits, pierce limit, explode on stop, afterburn.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/DamageNumbersToss__rivals-modded.lua",
+  "title": "Damage numbers (toss style)",
+  "game": "rivals-modded",
+  "desc": "Damage numbers that accumulate in place and get tossed away spinning (Rivals look).",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/DamageNumbersTopple__rivals-modded.lua",
+  "title": "Damage numbers (topple style)",
+  "game": "rivals-modded",
+  "desc": "Per-hit numbers that topple over + combo total after a pause.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/FastCastRedux__street-life.lua",
+  "title": "FastCast Redux (main module)",
+  "game": "street-life",
+  "desc": "FastCast Redux API (projectile raycasting library) as shipped inside a game.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/FastCastBulletTracer__miami-shootout.lua",
+  "title": "FastCast bullet tracers",
+  "game": "miami-shootout",
+  "desc": "Using FastCast for cosmetic bullets: fire, update the bullet on LengthChanged, handle hits.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/HitscanGunServer__murderers-vs-sheriffs.lua",
+  "title": "Hitscan gun (server)",
+  "game": "murderers-vs-sheriffs",
+  "desc": "Server hitscan with fire-rate lock and pass-through for invisible parts.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/ClassicExplosionPhysics__retro-studio.lua",
+  "title": "Classic explosion physics",
+  "game": "retro-studio",
+  "desc": "How the original Roblox explosion worked, ported to Lua with the engine code in comments.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/ClassicSword__retro-studio.lua",
+  "title": "Classic sword (slash / lunge)",
+  "game": "retro-studio",
+  "desc": "The classic Linked Sword: slash vs lunge damage, Touched hitbox, creator tag.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/_patterns/Cooldowns.lua",
+  "title": "Cooldowns (pattern)",
+  "game": "pattern",
+  "desc": "Timestamp-based cooldowns per owner/action, with charges, extend and reset.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/_patterns/MeleeCombo.lua",
+  "title": "MeleeCombo (pattern)",
+  "game": "pattern",
+  "desc": "Server M1 combo: combo steps with timeout, box hitbox, front-only block, parry window, stun, finisher knockback.",
+  "category": "combat"
+ },
+ {
+  "file": "11-Combat/_patterns/DamageIndicator.lua",
+  "title": "DamageIndicator (pattern)",
+  "game": "pattern",
+  "desc": "Floating damage numbers that stack per target, crit color, pop and fade - no UI template.",
+  "category": "combat"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/DailyRewardService-Streak__drill-and-mine.lua",
+  "title": "7-day calendar with streak reset",
+  "game": "drill-and-mine",
+  "desc": "7-day login calendar: state resolved lazily on read (claimable / countdown / streak broken after 2 days), config-driven reward types, payload for the UI, and a paid 'skip all days' product.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/DailyService-UTCReset__rivals-modded.lua",
+  "title": "Daily reset at 00:00 UTC",
+  "game": "rivals-modded",
+  "desc": "Day number = os.time() // 86400; on join and every 15s it resets daily counters, refreshes the daily shop and rolls new daily tasks when the day changes (and tells TaskService if a day was missed).",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/TaskService-EventQuests__rivals-modded.lua",
+  "title": "Event-driven quests (beginner + daily)",
+  "game": "rivals-modded",
+  "desc": "Quests progress from events (TaskService.Record(player, 'DuelWon')), beginner sets of three until finished, then three daily Core tasks; completing a set grants rewards and keeps a daily streak.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/ClaimService-LoginCodesSocial__rivals-modded.lua",
+  "title": "Login reward, codes, group/like rewards",
+  "game": "rivals-modded",
+  "desc": "Once-per-day login reward, one-off social rewards (group checked with IsInGroup; like/favourite trusted because Roblox cannot check them), battle-pass tier claims with validation, and a case-insensitive code table saved per player.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/RewardService-ChestsPlaytimeAchievements__rcu-roller.lua",
+  "title": "Chests, playtime and achievement claims",
+  "game": "rcu-roller",
+  "desc": "Timed chests with cooldowns and weighted loot, one-time mini chests, playtime milestones checked against session time, tiered achievements (category+tier keys), ticket shop and a weighted wheel.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/CodesService-AtomicStock__steal-a-brainrot-sab-files.lua",
+  "title": "Limited-stock codes (UpdateAsync + MemoryStore)",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "Codes with limited stock redeemed atomically in UpdateAsync (already-redeemed / out-of-stock reasons), global codes broadcast with MessagingService and stock kept in a MemoryStore sorted map, 5s cooldown.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/CodeHandler-DataStoreCodes__uno.lua",
+  "title": "Codes stored in a DataStore (add without updating)",
+  "game": "uno",
+  "desc": "Codes kept in a DataStore list with expiry timestamps and reward types, loaded into the server on start and refreshable, so new codes can be added without shutting servers down.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/DailyChestHandler-Simple__zombie-outbreak-survival.lua",
+  "title": "Simple daily chest (beginner)",
+  "game": "zombie-outbreak-survival",
+  "desc": "Standalone daily chest: its own DataStore with LastClaim/Streak, 24h cooldown, 48h streak expiry, 7-day reward table sent to the client for display, claim debounce.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/DailyGiftUtility-Shared__punching-simulator.lua",
+  "title": "Shared daily-gift rules (client + server)",
+  "game": "punching-simulator",
+  "desc": "Tiny shared module: next gift id (1..7 loop), time left and canClaim from the saved {i, t} value, used by both the UI and the server check.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/OfflineEarnings-Podiums__drill-and-mine.lua",
+  "title": "Offline earnings (capped, rate-based)",
+  "game": "drill-and-mine",
+  "desc": "Offline cash = income per second x offline seconds (capped at 12h) x boosts x a 1/6 offline rate, a gamepass multiplier and auto-collect, a 'measured earning pace' fallback, a claim-all popup endpoint, and LastLogin bookkeeping on join/leave.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/OfflineEarnings-Simple__kick-a-brainrot.lua",
+  "title": "Offline earnings (simple)",
+  "game": "kick-a-brainrot",
+  "desc": "Minimal offline earnings: time since last save (capped at 8h) x each placed item's income x mutation/level/rebirth/VIP multipliers, shown in a popup and paid on a Claim remote.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/_patterns/DailyRewards.lua",
+  "title": "DailyRewards (streak calendar)",
+  "game": "pattern",
+  "desc": "Login calendar over a saved table: Rolling (24h + grace) or UTCDay mode, streak/best streak, loops after N days, Status() for UI countdowns, SkipWait() for a paid skip.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/_patterns/QuestTracker.lua",
+  "title": "QuestTracker (event-driven quests)",
+  "game": "pattern",
+  "desc": "Quests advanced by Record(player, event, amount); beginner chain then seeded daily set (same on every server), auto or manual claim, daily streak, reset countdown.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "18-Daily-Rewards-Quests/_patterns/CodeRedeemer.lua",
+  "title": "CodeRedeemer (promo codes)",
+  "game": "pattern",
+  "desc": "Promo codes: normalised input, expiry, requirements, once per player in saved data, optional global use limit via UpdateAsync with roll-back, cooldown, status strings.",
+  "category": "daily-rewards-quests"
+ },
+ {
+  "file": "07-Data-Saving/DataService-LeaseLock__aura-ascension.lua",
+  "title": "Lease session lock in UpdateAsync",
+  "game": "aura-ascension",
+  "desc": "Full data service: session lease stored inside the save and taken/checked in one UpdateAsync, dirty flags, retries, save slots, parallel shutdown flush with deadline.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/ProfileTemplate__aura-ascension.lua",
+  "title": "Grouped profile template with _Meta",
+  "game": "aura-ascension",
+  "desc": "Data template grouped by purpose (Stats, Progression, Inventory, Monetization, Cooldowns, Admin audit trail) with a _Meta block holding version and session lease.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/DataService-SessionLock__steal-a-brainrot.lua",
+  "title": "DataService with separate lock store",
+  "game": "steal-a-brainrot",
+  "desc": "GetAsync/SetAsync with 2^n backoff, a separate SESSION-LOCK store claimed with UpdateAsync, reconcile against DefaultStats, 60s autosave and parallel BindToClose that waits for saves.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/PlayerDataService-ProfileStore__rivals-modded.lua",
+  "title": "ProfileStore session + legacy import",
+  "game": "rivals-modded",
+  "desc": "ProfileStore usage: StartSessionAsync with Cancel, OnSessionEnd kick, OnSave hook that encodes data, one-time import from an older plain DataStore, server-validated settings remotes.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/DataTemplate__rivals-modded.lua",
+  "title": "Template built by functions + reconcile",
+  "game": "rivals-modded",
+  "desc": "Data template as a New() function (fresh tables every call), per-season record ensured on load, and a shallow Reconcile for fields added later.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/PlayerDataService-ProfileService__drill-and-mine.lua",
+  "title": "ProfileService service with migration sweep",
+  "game": "drill-and-mine",
+  "desc": "ProfileService load/release, leaderstats mirror, migration sweep that drops items no longer in config, debounced ScheduleSave, and an admin data wipe (WipeProfileAsync).",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/DataManager-ProfileService-Minimal__pet-rng.lua",
+  "title": "Minimal ProfileService setup",
+  "game": "pet-rng",
+  "desc": "The shortest correct ProfileService setup: LoadProfileAsync, AddUserId, Reconcile, ListenToRelease kick, release on leave, handle players already in game.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/DataService-Knit-Replica__rcu-roller.lua",
+  "title": "Knit DataService with big template",
+  "game": "rcu-roller",
+  "desc": "Knit service with a very large commented default template, deep reconcile, path-based Set/Increment through a Replica, 5-minute autosave, and a 1-second boost countdown.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/PlayerData-DirtyAutosave__steal-an-egg.lua",
+  "title": "Dirty-only autosave + mirrors",
+  "game": "steal-an-egg",
+  "desc": "Small data core: deep reconcile, value sanitising on load, Update(changes, removals) that marks dirty and mirrors to attributes/leaderstats, autosave only for dirty players.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/DatastoreWrapper__big-paintball.lua",
+  "title": "BIG Games DataStore wrapper",
+  "game": "big-paintball",
+  "desc": "BIG Games framework wrapper: Get/Set/Update with retries, refuses nil writes, caches DataStore objects by name/scope.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/Saving-PlayingSessionFlag__big-paintball.lua",
+  "title": "Save loop with PlayingSession flag",
+  "game": "big-paintball",
+  "desc": "BIG Games saving: a PlayingSession flag in the save acts as a simple session lock (retry until the old server cleared it), new-stat backfill, staggered save loop, change-diff replication.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/DataHandler-SessionStore__uno.lua",
+  "title": "Session store + trade save-lock",
+  "game": "uno",
+  "desc": "Separate SessionStore with a heartbeat-style timestamp (90s timeout), plus a SaveLocked flag used to freeze saves during trades so items cannot be duplicated.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/PlayerDataStore-Stravant__retro-studio.lua",
+  "title": "Stravant's PlayerDataStore (classic)",
+  "game": "retro-studio",
+  "desc": "The classic community PlayerDataStore module (by Stravant): cached SaveData objects, passive saves, Flush, and atomic multi-key Update meant for dev product purchases.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/_patterns/SessionStore.lua",
+  "title": "SessionStore (lease lock + migrations)",
+  "game": "pattern",
+  "desc": "Standalone player data store: lease-based session lock inside the save, numbered migrations, template reconcile, dirty autosave that renews the lease, parallel BindToClose, Studio memory mode.",
+  "category": "data-saving"
+ },
+ {
+  "file": "07-Data-Saving/_patterns/SafeDataStore.lua",
+  "title": "SafeDataStore (retry wrapper)",
+  "game": "pattern",
+  "desc": "Retrying wrapper for Get/Set/Update/Remove with exponential backoff, request-budget waiting, one call per key at a time, and (success, value) returns.",
+  "category": "data-saving"
+ },
+ {
+  "file": "15-Leaderboards/LeaderboardService-PodiumAndTags__drill-and-mine.lua",
+  "title": "Boards + #1 podium + rank tags",
+  "game": "drill-and-mine",
+  "desc": "Config list of boards (store, value getter, formatter), SurfaceGui rows with headshots, a #1 podium dummy wearing the top player's avatar (rig scale kept), per-board rank attributes and a '[#3 Cash]' chat tag, playtime counter.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/LeaderboardService-LiveMerge__rivals-modded.lua",
+  "title": "Live merge + write-on-change",
+  "game": "rivals-modded",
+  "desc": "Reads each board's top every minute, merges everyone in the server at their live value so a new win shows instantly, writes only values that changed, request cooldown and name validation on the client remote.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/LeaderboardService-LogScale-Friends-Country__steal-a-brainrot.lua",
+  "title": "Log-scaled values, friends and country boards",
+  "game": "steal-a-brainrot",
+  "desc": "Stores huge values as log(value)/log(1.0000001) so they fit an ordered store, a 12s read cache, a friends board (GetFriendsAsync + GetAsync per friend), a country board (LocalizationService) with an opt-out toggle.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/LeaderboardService-SanitizeMerge__aura-ascension.lua",
+  "title": "Sanitise, publish-on-change, merge (excerpt)",
+  "game": "aura-ascension",
+  "desc": "Clamps values (NaN/inf/negative/too big) before writing, publishes only changed values on an interval, formats durations and big numbers, and merges cached global entries with live players before sorting.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/LeaderboardController-FastestTime__needoh-escape.lua",
+  "title": "Fastest-time board (inverted ms)",
+  "game": "needoh-escape",
+  "desc": "Several boards from one config, including a best-time board that stores MAX_MS - timeMs so a descending sort shows the fastest run first, plus mm:ss.mmm and 1h 2m 3s formatters.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/LeaderboardService-Knit__rcu-roller.lua",
+  "title": "Config-driven Knit board service",
+  "game": "rcu-roller",
+  "desc": "Knit service that, for each board in a shared config, uploads online players, reads the top 100, attaches cached user infos (display name, verified badge) and fires one signal to clients.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/GlobalLeaderboard-Basic__uno.lua",
+  "title": "Basic ordered store board",
+  "game": "uno",
+  "desc": "The beginner version: GetSortedAsync top 50 into a SurfaceGui scroller with GetNameFromUserIdAsync, and SetAsync helpers with retry.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/TimePlayedClass-RenanMSV__steal-a-brainrot.lua",
+  "title": "Time-played board (RenanMSV toolbox model)",
+  "game": "steal-a-brainrot",
+  "desc": "Self-contained 'most time played' board class from RenanMSV's public model: settings module, score update and board refresh timers, username/thumbnail caches, optional dancing #1 rig.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/DataHandler-OrderedStoreBackfill__escape-kitty-keyboard.lua",
+  "title": "Ordered stores fed from the save + backfill",
+  "game": "escape-kitty-keyboard",
+  "desc": "Writes Wins/XP/Rebirths to ordered stores on every save (math.floor to avoid ValueNotNumeric), a faster ordered-store-only update, and a one-time backfill of known players' saved data.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/Leaderstats-Abbreviated__aura-ascension.lua",
+  "title": "Abbreviated leaderstats (excerpt)",
+  "game": "aura-ascension",
+  "desc": "Creates leaderstats with StringValue columns and fills them with FormatNumber text (1.2M) from the profile.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/LeaderStats-Mirror__forsaken.lua",
+  "title": "Leaderstats mirrored from data values",
+  "game": "forsaken",
+  "desc": "Clones a leaderstats template and mirrors Money/KillerChance from the player's data folder with GetPropertyChangedSignal.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/leaderstats-Playtime__natural-disaster.lua",
+  "title": "Simplest saved playtime stat",
+  "game": "natural-disaster",
+  "desc": "Tutorial-style leaderstats Time counter that saves on leave and BindToClose.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/_patterns/GlobalLeaderboard.lua",
+  "title": "GlobalLeaderboard (ordered store board)",
+  "game": "pattern",
+  "desc": "One ordered-store board: write-on-change with interval, keep-best UpdateAsync, ascending boards, log-encoded big numbers, daily/weekly period stores, live merge, batched names, OnUpdated callback, Abbreviate helper.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "15-Leaderboards/_patterns/LeaderstatsMirror.lua",
+  "title": "LeaderstatsMirror (player list columns)",
+  "game": "pattern",
+  "desc": "Builds leaderstats from getter functions and keeps it synced; numeric columns or abbreviated StringValue columns.",
+  "category": "leaderboards"
+ },
+ {
+  "file": "04-Loading-Screens/PosterLoadingScreen__smash-egg-for-animals.lua",
+  "title": "Poster loading screen with camera dive",
+  "game": "smash-egg-for-animals",
+  "desc": "Code-built ReplicatedFirst loading screen: game poster in a frame, timed progress bar with %, rotating tips, scrolling stud background, then a white flash while the camera dives from the sky to the player.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/AnimatedLoadingScreen__steal-a-brainrot-sab-files.lua",
+  "title": "Code-built animated loading screen",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "Fully code-built animated loading screen (gradient background, floating particles, title, progress bar driven by asset preloading) that fades out when done.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/PreloadProgressWithSkip__pet-rng.lua",
+  "title": "Preload progress bar with Skip",
+  "game": "pet-rng",
+  "desc": "Clones a prepared Loading ScreenGui, preloads every descendant of game one by one, updates a % label and tweened bar, offers a Skip button, plays a sound when finished.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/QueueLoadingAndJoinMenu__murder-mystery-2.lua",
+  "title": "RequestQueueSize loading + join menu",
+  "game": "murder-mystery-2",
+  "desc": "Classic MM2 loading flow: waits on ContentProvider.RequestQueueSize ('N objects left'), shows Skip after 7 s, waits for character and server data, picks PC/Mobile/Xbox main GUI, fades out, then shows a join-a-friend menu.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/IntroPreloadAndSkip__big-paintball.lua",
+  "title": "Intro with preload cap, ban check and Skip",
+  "game": "big-paintball",
+  "desc": "Well-commented intro: removes default screen, hides core UI, preloads logo + intro sound with a 2 s cap, logo pop-in tween, loading dots, save confirmation, ban/warning notice, skip support, then restores game GUIs.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/RetroJoinScreen__retro-studio.lua",
+  "title": "Retro Bricks/Connectors join screen",
+  "game": "retro-studio",
+  "desc": "Old-Roblox-style join screen: 'Bricks / Connectors' counter from RequestQueueSize, camera orbiting the map's visible extents while loading, timeout + exit override.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/SpinningPizzaLoader__work-at-a-pizza-place.lua",
+  "title": "Minimal spinning-icon loader",
+  "game": "work-at-a-pizza-place",
+  "desc": "Minimal ReplicatedFirst loader: parents a prepared LoadingScreen, spins pizza icons on RenderStepped, waits for game:IsLoaded(); commented-out code shows a RequestQueueSize-driven reveal and an asset-id dump helper.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/MinimalLoadingLabel__flood-escape-2.lua",
+  "title": "Smallest custom loading screen",
+  "game": "flood-escape-2",
+  "desc": "Smallest possible custom loading screen: a full-screen TextLabel created in code, default screen removed, destroyed once game.Loaded fires.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/CloneGuiAfterLoad__bee-swarm-sim.lua",
+  "title": "Clone HUD after game loaded",
+  "game": "bee-swarm-sim",
+  "desc": "Waits for game.Loaded then clones every ScreenGui from ReplicatedStorage.StarterGui into PlayerGui, so the main UI only appears after loading.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/PreloadCriticalAssets__steal-a-brainrot.lua",
+  "title": "Preload critical assets only",
+  "game": "steal-a-brainrot",
+  "desc": "Preloads only the critical assets (first 100 UI items, then ~200 meshes of the most common models) in background tasks instead of preloading everything.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/StagedBootstrap__rivals-modded.lua",
+  "title": "Staged client bootstrap with progress",
+  "game": "rivals-modded",
+  "desc": "Client entry point that drives a loading screen through stages (game loaded 30%, constants 45%, player data 75%, controllers 100%), asks the device type when ambiguous, and always tells the server LoadingScreenDone so it spawns the character.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/LoadingGateController__drill-and-mine.lua",
+  "title": "Loading finished gate controller",
+  "game": "drill-and-mine",
+  "desc": "Tiny controller exposing LoadingFinished (BindableEvent) and IsLoadingComplete() so other systems can wait for the loading screen; here it just removes the old screen and marks complete.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/StudioSplashFakeProgress__scp-tycoon.lua",
+  "title": "Studio splash + fake progress",
+  "game": "scp-tycoon",
+  "desc": "Studio splash ('X Presents' then game title) using TweenPosition, followed by a cosmetic 'Loading Assets (n/482)' counter and bar, then the whole frame slides away.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/SoftShutdownTeleportScreen__drill-and-mine.lua",
+  "title": "Soft shutdown teleport screen",
+  "game": "drill-and-mine",
+  "desc": "Soft-shutdown client: reads teleport data, shows an arriving/leaving screen, and uses TeleportService:SetTeleportGui so a custom loading screen shows during the teleport between servers.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/ArrivalCinematicWithSkip__smash-egg-for-animals.lua",
+  "title": "First-join cinematic with Skip",
+  "game": "smash-egg-for-animals",
+  "desc": "First-time-player arrival cinematic: letterbox bars, titles, fades, a boss leaping through a forest, zone fly-over; square SKIP button; hold() helper that aborts every step once skipped; sets IntroState attribute so the tutorial waits.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/AvatarIntroSequence__street-life.lua",
+  "title": "Avatar intro camera sequence",
+  "game": "street-life",
+  "desc": "ReplicatedFirst intro: loading screen + music fade-in, hides game GUIs/core UI, clones a player model wearing your avatar into an intro set, tweens the camera between shots, then restores everything after a timeout.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/IntroTeamSelectServer__prison-life.lua",
+  "title": "Intro team select (server)",
+  "game": "prison-life",
+  "desc": "Server side of a menu intro: flags new players as 'in intro', tells the client to use the intro camera, then on team pick enforces team caps, respawns the player and switches the camera back.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/LoadingSpinnerComponent__natural-disaster.lua",
+  "title": "Fusion loading spinner",
+  "game": "natural-disaster",
+  "desc": "Fusion UI component: an inline loading spinner shown while a state IsLoading is true (rotates on RenderStepped only while visible). Good for panels that fetch data.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/_patterns/LoadingScreen.client.lua",
+  "title": "Pattern: ReplicatedFirst loading screen",
+  "game": "pattern",
+  "desc": "Code-built ReplicatedFirst screen: batched preload %, tips, Skip after N s, min time, fade-out, LoadingDone signal.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/_patterns/AssetPreloader.lua",
+  "title": "Pattern: batched asset preloader",
+  "game": "pattern",
+  "desc": "Collect assets by class and preload in batches with budget, retries, timeout and progress callback.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/_patterns/IntroCameraSequence.lua",
+  "title": "Pattern: skippable intro camera sequence",
+  "game": "pattern",
+  "desc": "Letterboxed, skippable camera-shot cinematic that restores camera, HUD and core GUI afterwards.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "04-Loading-Screens/_patterns/LoadingGate.lua",
+  "title": "Pattern: loading-done gate (client+server)",
+  "game": "pattern",
+  "desc": "Client marks loading done; server can hold character spawn until then; isDone/wait/onPlayerReady API.",
+  "category": "loading-screen"
+ },
+ {
+  "file": "08-Monetization/Core_Purchases__steal-an-egg.lua",
+  "title": "Idempotent receipts + server test",
+  "game": "steal-an-egg",
+  "desc": "Product name routing by pattern (Money_500, Trail_X...), PurchaseId saved in the profile (ProcessedReceipts) plus an in-flight lock, a server pre-check before prompting, prompt cooldown, server-wide luck boost, gamepass sync on load.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/ReceiptService__aura-ascension.lua",
+  "title": "Receipt service with product maps",
+  "game": "aura-ascension",
+  "desc": "Small receipt service: waits for the profile, asks each owner service (boosts, rebirth packs, poses, packs) to grant by product id, returns NotProcessedYet when a grant fails, exposes an entitlements query.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/GamepassService-Attributes__drill-and-mine.lua",
+  "title": "Gamepass ownership as attributes",
+  "game": "drill-and-mine",
+  "desc": "Checks each configured pass on join, mirrors ownership to OwnsGamepass_<key> player attributes, updates on purchase, and registers pass-based boost percents with a boost aggregator.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/PurchaseService-PromptContext__drill-and-mine.lua",
+  "title": "Prompt with context + announcements",
+  "game": "drill-and-mine",
+  "desc": "Server-side prompt that remembers a pending purchase and context string, routes the grant by context, checks the client context against the configured product id, logs Robux spent and posts a rich-text 'X bought Y' message with verified/premium glyphs.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/StoreService-StarterPackTimer__drill-and-mine.lua",
+  "title": "Starter pack with playtime countdown",
+  "game": "drill-and-mine",
+  "desc": "One-time packs with reward lists, a starter pack that expires after N seconds of playtime (ticks only while online), pack status query for the UI, and cash packs scaled to the player's income.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/RobloxPlusService-Premium__drill-and-mine.lua",
+  "title": "Premium membership perk",
+  "game": "drill-and-mine",
+  "desc": "Gives Roblox Premium members a cash boost: checks MembershipType, listens to PlayerMembershipChanged and PromptPremiumPurchaseFinished, lets the client open PromptPremiumPurchase.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/CashBoostService-Sources__drill-and-mine.lua",
+  "title": "Boost aggregator (pass/premium/rebirth sources)",
+  "game": "drill-and-mine",
+  "desc": "Registry of named boost sources (gamepass, premium, index, rebirths...) summed into one multiplier, with a per-source breakdown pushed to the client HUD.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/Purchases-CallbackTable__punching-simulator.lua",
+  "title": "Products/passes as callback tables",
+  "game": "punching-simulator",
+  "desc": "Per-player Purchases object: products and passes are database entries with a callback, pass ownership checked with Promises on join, PurchaseId cache in ProcessReceipt.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/Products-ProcessReceipt__big-paintball.lua",
+  "title": "BIG Games ProcessReceipt",
+  "game": "big-paintball",
+  "desc": "BIG Games framework receipt: looks the product up in a directory with a Callback, retries finding the player for a few seconds, pcall's the callback, fires analytics/client events, logs failures loudly.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/MonetizationController-ConfigRouted__survive-lava-for-brainrot.lua",
+  "title": "Config-routed receipt (beginner friendly)",
+  "game": "survive-lava-for-brainrot",
+  "desc": "Readable receipt controller: product name from a config module, then reward tables for speed, items, carry upgrades and cash, with lazy-required systems and a client notification.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/ProcessReceipt-PurchaseHistory__work-at-a-pizza-place.lua",
+  "title": "Classic PurchaseHistory DataStore",
+  "game": "work-at-a-pizza-place",
+  "desc": "The classic pattern: a PurchaseHistory DataStore keyed 'userId:purchaseId' checked before granting, a handler table keyed by product id, pcall'd handlers, and the purchase recorded after success.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/_patterns/ReceiptRouter.lua",
+  "title": "ReceiptRouter (idempotent receipts + gifting)",
+  "game": "pattern",
+  "desc": "One ProcessReceipt: product table with grant/canBuy functions, PurchaseIds remembered in the buyer's data, in-flight lock, gift products with a server-validated target, prompt helper with cooldown.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/_patterns/PassesAndPremium.lua",
+  "title": "PassesAndPremium (ownership + perks)",
+  "game": "pattern",
+  "desc": "Game pass ownership checked on join and on purchase, mirrored to Pass_<Name> attributes, OnOwned perk callbacks, Premium attribute kept in sync.",
+  "category": "monetization"
+ },
+ {
+  "file": "08-Monetization/_patterns/TimedBoosts.lua",
+  "title": "TimedBoosts (stackable potions)",
+  "game": "pattern",
+  "desc": "Pure functions for stackable timed boosts stored in player data, in real-time (expiry timestamp) or playtime (counts down only while online) mode.",
+  "category": "monetization"
+ },
+ {
+  "file": "13-Movement/StaminaManager__bite-by-night.lua",
+  "title": "Server stamina manager",
+  "game": "bite-by-night",
+  "desc": "Best stamina reference: server-side, attribute-based, forward-only drain, regen delay, exhaustion.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/SprintFovRun__the-rake.lua",
+  "title": "Sprint with FOV tween",
+  "game": "the-rake",
+  "desc": "Sprint key + mobile button + FOV tween, wired to a server stamina value.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/DoubleJump__punching-simulator.lua",
+  "title": "Double jump",
+  "game": "punching-simulator",
+  "desc": "The standard Roblox double-jump recipe (JumpRequest + Freefall/Landed states).",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/DashVaultFootsteps__jujutsu-shenanigans.lua",
+  "title": "Dash, vault and footsteps",
+  "game": "jujutsu-shenanigans",
+  "desc": "Small all-in-one: camera-direction dash, auto vault over low walls, sprint, footsteps by material.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/SideBackDashGating__jujutsu-shenanigans.lua",
+  "title": "Side / back dash rules (server)",
+  "game": "jujutsu-shenanigans",
+  "desc": "How a fighting game gates dashes on the server with tags, separate cooldowns and ragdoll-cancel.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/LedgeVault__jujutsu-shenanigans.lua",
+  "title": "Ledge vault",
+  "game": "jujutsu-shenanigans",
+  "desc": "Name-tagged vault parts: ray check + short velocity burst + random animation.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/CustomClimbing__retro-studio.lua",
+  "title": "Custom climbing",
+  "game": "retro-studio",
+  "desc": "Hand-made ladder/truss climbing (rung detection + velocity mover + debug rays).",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/CrouchToggle__miami-shootout.lua",
+  "title": "Crouch toggle",
+  "game": "miami-shootout",
+  "desc": "Crouch: animation speed follows movement, slower walk, no jump.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/GroundGripAirControl__smash-egg-for-animals.lua",
+  "title": "Ground grip & air control",
+  "game": "smash-egg-for-animals",
+  "desc": "Tight ground control + momentum-preserving air control by writing AssemblyLinearVelocity.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/RagdollModule__steal-a-brainrot.lua",
+  "title": "Ragdoll module (server)",
+  "game": "steal-a-brainrot",
+  "desc": "Simple, readable ragdoll / unragdoll / timed ragdoll on the server.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/RagdollClient__steal-a-brainrot.lua",
+  "title": "Ragdoll client",
+  "game": "steal-a-brainrot",
+  "desc": "Client side of a ragdoll: controls off, Physics state, camera on head, safe unlock.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/CombatRagdoll__jujutsu-shenanigans.lua",
+  "title": "Combat ragdoll handler",
+  "game": "jujutsu-shenanigans",
+  "desc": "Ragdoll for combat: timed knockdowns, collider parts, air detection, cancel, stacked-timer handling.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/EuphoriaRagdoll__gore-game.lua",
+  "title": "Euphoria-style active ragdoll",
+  "game": "gore-game",
+  "desc": "Active ragdoll: hidden animated rig + springs drive the ragdoll limbs (euphoria look).",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/buildRagdoll__miami-shootout.lua",
+  "title": "buildRagdoll (Roblox R15 ragdoll)",
+  "game": "miami-shootout",
+  "desc": "Roblox's R15 ragdoll builder (entry point).",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/buildRagdollConstraints__miami-shootout.lua",
+  "title": "Ragdoll constraint presets",
+  "game": "miami-shootout",
+  "desc": "Why each joint uses BallSocket vs Hinge and which limits (great comments).",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/buildRagdollCollisionFilters__miami-shootout.lua",
+  "title": "Ragdoll collision filters",
+  "game": "miami-shootout",
+  "desc": "Which limb pairs need NoCollisionConstraints in a ragdoll.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/LeapAbility__bite-by-night.lua",
+  "title": "Leap ability",
+  "game": "bite-by-night",
+  "desc": "Leap / pounce ability as a movement move with a landing hit.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/_patterns/SprintStamina.lua",
+  "title": "SprintStamina (pattern)",
+  "game": "pattern",
+  "desc": "Hold-to-sprint with stamina drain/regen delay/exhaustion, FOV change, attributes for UI.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/_patterns/Dash.lua",
+  "title": "Dash (pattern)",
+  "game": "pattern",
+  "desc": "Camera-relative dash with LinearVelocity (horizontal only), ease-out, cooldown, 'Dashing' attribute.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/_patterns/Slide.lua",
+  "title": "Slide (pattern)",
+  "game": "pattern",
+  "desc": "Momentum slide with friction decay, camera dip, animation, cancel on jump.",
+  "category": "movement"
+ },
+ {
+  "file": "13-Movement/_patterns/WallRun.lua",
+  "title": "WallRun (pattern)",
+  "game": "pattern",
+  "desc": "Side-wall detection while airborne, run along the wall, jump off, camera roll.",
+  "category": "movement"
+ },
+ {
+  "file": "03-Notifications/ToastController__drill-and-mine.lua",
+  "title": "Toast controller with duplicate merge",
+  "game": "drill-and-mine",
+  "desc": "Colored toast notifications (Red/Green templates) that merge duplicates into \"(xN)\", pulse on repeat, pop in/out with UIScale, and preload their sounds.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/NotificationManager__needoh-escape.lua",
+  "title": "Success/Error toast manager",
+  "game": "needoh-escape",
+  "desc": "Tiny Success/Error toast module: clones a template, recolors stroke + gradient by type, fades in, plays a sound, fades out after 2s; never yields the caller.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/RewardPopUp__brainrot-lab.lua",
+  "title": "Floating reward pop-ups",
+  "game": "brainrot-lab",
+  "desc": "\"+$123\" reward pop-ups at a random spot near screen centre: pop-size + fade in, float up + fade out, with sound; driven by server RemoteEvents.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/StackingItemAlerts__bee-swarm-sim.lua",
+  "title": "Stacking item alerts",
+  "game": "bee-swarm-sim",
+  "desc": "Item alert feed that merges repeated \"+N Item\" alerts into one running total instead of spamming new rows, with optional chat system message.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/ElasticAlertFeed__bee-swarm-sim.lua",
+  "title": "Elastic alert feed",
+  "game": "bee-swarm-sim",
+  "desc": "Classic bottom-up alert feed: max N rows, elastic slide-in, older alerts pushed up, slow fade out and cleanup.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/GlobalAnnounceClient__smash-egg-for-animals.lua",
+  "title": "Global announcements + rarity spawn banners",
+  "game": "smash-egg-for-animals",
+  "desc": "Builds its own UI in code: admin announcements (avatar headshot + name + text) stacked at top of screen, rarity-gradient \"egg spawned\" announcements with a sliding gradient, plus a small redeem-code window.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/MessageDialog__big-paintball.lua",
+  "title": "Yielding message / yes-no dialog",
+  "game": "big-paintball",
+  "desc": "BIG Games framework dialog: one call shows an OK message, a Yes/No question, or a 2-option choice and yields until the player answers (with gamepad support).",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/DialogService__work-at-a-pizza-place.lua",
+  "title": "Server-or-client dialog service",
+  "game": "work-at-a-pizza-place",
+  "desc": "Shared Dialog module usable from server or client: GetChoice yields for the player's yes/no answer (per-player queue, 60s timeout), ShowMessage / ShowMessageAll for one-button messages.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/DialogBoxClient__work-at-a-pizza-place.lua",
+  "title": "Dialog box client (PC + gamepad)",
+  "game": "work-at-a-pizza-place",
+  "desc": "Client side of the pizza-place dialog: queues dialogs, fills title/message/button texts, swaps to A/B gamepad buttons on console, sends the choice back.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/CustomProximityPrompt__needoh-escape.lua",
+  "title": "Custom ProximityPrompt UI",
+  "game": "needoh-escape",
+  "desc": "Custom-style ProximityPrompt UI: billboard per prompt, shows key name on PC or tap icon on mobile, tap/click/hold all forward to InputHoldBegin/End.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/ZoneEnterBanner__smash-egg-for-animals.lua",
+  "title": "Zone enter banner",
+  "game": "smash-egg-for-animals",
+  "desc": "Area title banner: when the player enters a tagged zone part, a CanvasGroup banner (zone name, gradient, recommended speed) slides in for 3s then fades.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/DangerAlert__smash-egg-for-animals.lua",
+  "title": "Full-screen danger alert",
+  "game": "smash-egg-for-animals",
+  "desc": "Full-screen \"RUN!\" warning driven by a player attribute: red flash, pulsing gradient screen edges, heartbeat-scaled text; fades out when the attribute clears.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/NotifyBadgePulse__drill-and-mine.lua",
+  "title": "HUD badge pulse",
+  "game": "drill-and-mine",
+  "desc": "Attention badge on a HUD button: every few seconds two red rings ripple out while the badge pops and wiggles like a bell.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/TimedNotification__miami-shootout.lua",
+  "title": "Notification with timer bar",
+  "game": "miami-shootout",
+  "desc": "Notification with a filler wipe-in and a shrinking timer bar showing time left; templates per \"Mode\", callable from server via RemoteEvent.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/SlideNotificationList__uno.lua",
+  "title": "Sliding notification list",
+  "game": "uno",
+  "desc": "Good/Neutral/Bad notifications with colored side bar and sound; new ones slide in at the top and push older ones down, then slide out left. NOTE: the original has \"if true then return end\" at the top (disabled in game).",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/SpringNotifications__punching-simulator.lua",
+  "title": "Spring-animated notifications",
+  "game": "punching-simulator",
+  "desc": "Framework notification service: respects a player \"Notifications\" setting, plays optional audio, spring-animates UIScale in/out (Spr), callable from server or client.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/ModAnnouncement__casino-lvah.lua",
+  "title": "Moderator announcement banner",
+  "game": "casino-lvah",
+  "desc": "Simple moderator announcement banner: clone template, fade in title/text/name over 2s, hold 6s, fade out.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/GlobalAnnounceCommand__steal-a-brainrot.lua",
+  "title": "Cross-server announce command",
+  "game": "steal-a-brainrot",
+  "desc": "Server admin command that announces to this server and to every other server via a messaging hub, skipping its own JobId to avoid double messages.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/JoinGroupCoreNotification__animal-hospital-modded.lua",
+  "title": "Core SendNotification with button",
+  "game": "animal-hospital-modded",
+  "desc": "Uses the built-in StarterGui:SetCore(\"SendNotification\") with a Join button + BindableFunction callback to prompt group join every few minutes if not a member.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/SocialPopup__grow-a-garden-2.lua",
+  "title": "Favorite / join-group nudge",
+  "game": "grow-a-garden-2",
+  "desc": "Favorite / join-group nudge shown when using a shop prompt: native favorite dialog (AvatarEditorService) first, then a small group card; 5-minute cooldown if ignored.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/GamepassBuyButton__murderers-vs-sheriffs.lua",
+  "title": "Gamepass buy button",
+  "game": "murderers-vs-sheriffs",
+  "desc": "World SurfaceGui gamepass buy button: hover/press tweens, anti double-prompt, listens to PromptGamePassPurchaseFinished and flips to \"Purchased\".",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/CashAndErrorText__scooter-obby.lua",
+  "title": "Floating cash and error text",
+  "game": "scooter-obby",
+  "desc": "Floating \"+N coins!\" / \"+N skips!\" text with random drift and rotation, plus red error text from client (BindableEvent) or server (RemoteEvent).",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/_patterns/ToastQueue.lua",
+  "title": "Toast queue (pattern)",
+  "game": "pattern",
+  "desc": "Stacking toasts with Success/Error/Info/Warning styles, duplicate merge with (xN), max visible, auto-dismiss, optional sounds.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/_patterns/ConfirmDialog.lua",
+  "title": "Confirm dialog (pattern)",
+  "game": "pattern",
+  "desc": "Yielding modal: Ask() returns true/false, Message() and Choose(); queued, Enter/Escape and gamepad A/B, optional timeout.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/_patterns/Announcer.lua",
+  "title": "Announcer (pattern)",
+  "game": "pattern",
+  "desc": "Server-to-client announcement banners (player, server, or all servers via MessagingService) with queued display and optional avatar headshot.",
+  "category": "notifications"
+ },
+ {
+  "file": "03-Notifications/_patterns/PurchasePrompt.lua",
+  "title": "Purchase prompt wrapper (pattern)",
+  "game": "pattern",
+  "desc": "Yielding wrapper for game pass / developer product prompts with anti-double-prompt lock, timeout, pending callback and ownership cache.",
+  "category": "notifications"
+ },
+ {
+  "file": "12-NPC-AI/StalkerChaseStateMachine__backrooms-exploration.lua",
+  "title": "Stalker monster state machine",
+  "game": "backrooms-exploration",
+  "desc": "Backrooms entity with IDLE/STALK/FLEE/CHASE states: hears players in a radius, hides behind cover found by raycast sampling, peeks, flees when looked at (dot-product + raycast), sometimes snaps into a chase and plays a jumpscare kill.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/NpcPathfindingChase__steal-a-brainrot-sab-files.lua",
+  "title": "Anchored-NPC pathfinding module",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "Reusable module that moves anchored (non-Humanoid) NPC models along PathfindingService waypoints with ground-snapping raycasts, smooth turning, and a chase() loop that re-paths on a timer or when the target moves.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/ZombieChaserWander__zombie-outbreak-survival.lua",
+  "title": "Zombie chase / wander AI",
+  "game": "zombie-outbreak-survival",
+  "desc": "Classic per-zombie Script: finds the nearest player on the 'Alive' team, pathfinds toward them, wanders randomly when no one is near, and deals touch damage with a per-victim cooldown.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/ZombieWaveRound__zombie-outbreak-survival.lua",
+  "title": "Wave-based zombie round loop",
+  "game": "zombie-outbreak-survival",
+  "desc": "Wave spawner: zombies per wave = base * wave * multiplier, a timed spawn loop over tagged Spawner parts, and a round loop that advances the wave when all zombies die, ends in victory on the last wave or defeat when no players are alive.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/ZombieManager__zombie-outbreak-survival.lua",
+  "title": "Alive-enemy registry",
+  "game": "zombie-outbreak-survival",
+  "desc": "Small module that registers / unregisters spawned zombies, prunes destroyed ones and pushes the 'enemies left' count to clients.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/FigureHearingHunter__doors.lua",
+  "title": "Blind 'Figure' hunter (hears movement)",
+  "game": "doors",
+  "desc": "DOORS-style Figure: patrols a Nodes folder, but while 'blind' only targets players moving faster than a speed threshold (hearing); uses direct movement when it has line of sight and pathfinding otherwise; grab-and-kill on touch; crucifix check.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/RushRoomRunner__doors.lua",
+  "title": "Rush entity room sweep",
+  "game": "doors",
+  "desc": "DOORS-style Rush: flickers lights, spawns a few rooms behind the players, then lerps the entity through each room's RoomStart->RoomEnd pathfinding waypoints at a fixed speed and awards a survival badge; supports crucifix cancel.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/RoomPathNodes__doors.lua",
+  "title": "Room path-node generator",
+  "game": "doors",
+  "desc": "Computes a path from a room's RoomStart to RoomEnd once and stores the waypoints as numbered invisible parts (PathNodes) so entities can follow them later.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/PatrolSwarmBotBrain__the-rake.lua",
+  "title": "Configurable patrol / attack bot",
+  "game": "the-rake",
+  "desc": "Admin-system bot brain driven by a props table (Target, Swarm, PatrolZone, PatrolDist, Damage, team friendliness) set through a BindableEvent; patrols random points, targets the nearest valid model, walks straight when it can see the goal and pathfinds otherwise, with a forward-ray jump check.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/PerceptionGunnerAI__scp-tycoon.lua",
+  "title": "Soldier AI with perception meter",
+  "game": "scp-tycoon",
+  "desc": "ACS-gun enemy soldier: patrol / chase / memory modes, a perception value that fills while the player is visible before it starts shooting, memory that decays when sight is lost, walk speeds per state, spread, and armour-aware damage. (Same script is reused for CQC/HMG/Sniper with different settings.)",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/ZoneGuardianBoss__smash-egg-for-animals.lua",
+  "title": "Zone guardian boss (steal-and-run chaser)",
+  "game": "smash-egg-for-animals",
+  "desc": "Giant guardian per egg zone: wanders its zone, chases any player carrying an egg from it with a wind-up, target-leading (aims where the player will be), speed matched to the zone's recommended speed, safe-zone wall, leash/give-up rules, knock-back on hit and fast return home. Physics driven by LinearVelocity + AlignOrientation. Comments are in French.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/BossArenaPhases__smash-egg-for-animals.lua",
+  "title": "Two-phase arena boss with minions",
+  "game": "smash-egg-for-animals",
+  "desc": "Server-authoritative boss fight: HP pool, timed ground-slam shockwave you must jump, teleports, and below 50% HP a phase 2 that spawns exploding dog minions that chase the nearest player on a fuse timer. Visuals are driven by attributes / a client FX remote. Comments are in French.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/WanderSwarmEvent__evade.lua",
+  "title": "Wandering swarm event",
+  "game": "evade",
+  "desc": "Timed event that spawns 20-30 small NPCs at wander points, moves each with SimplePath (path Costs avoid water/lava), picks a new random point after Reached, swaps idle/walk animations from Humanoid.Running, and scans a box around each NPC to apply a trait to nearby targets.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/RandomWanderRuntime__murderers-vs-sheriffs.lua",
+  "title": "Lightweight wander runtime",
+  "game": "murderers-vs-sheriffs",
+  "desc": "Tiny module that registers rigs and, every 5 seconds per rig, MoveTo's a random point 10-20 studs away; one Heartbeat connection per rig with Disconnect / DisconnectAll.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/NPCDialogModule__steal-a-brainrot.lua",
+  "title": "NPC dialogue module (typewriter + choices)",
+  "game": "steal-a-brainrot",
+  "desc": "Client OOP dialogue: list of {text, responses} where a response can jump to another entry (next) or close with an exit quip; typewriter text with tick sound, NPC turns to face the player, optional camera part lock, 1/2 keyboard shortcuts, hides other players, closes when you walk away.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/CustomerNPCDialog__work-at-a-pizza-place.lua",
+  "title": "Clickable-bubble NPC conversation (client)",
+  "game": "work-at-a-pizza-place",
+  "desc": "Speech bubbles over NPC heads that start a server-driven conversation; server sends choices, client shows up to 5 response buttons, ends the chat if the player walks more than 30 studs away or another player is already talking to that NPC; gamepad support.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/PatientQueueNPCs__animal-hospital-horror.lua",
+  "title": "Visitor / customer queue NPCs",
+  "game": "animal-hospital-horror",
+  "desc": "Service that spawns visitor NPCs (unique or generic), walks them through the front door to a counter with pathfinding + MoveTo timeouts, uses a collision group so they pass through doors, seats them in a waiting room (claim chair, sit pose), then leaves and despawns. Comments are in Spanish.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/AmbientSeatNPCs__casino-lvah.lua",
+  "title": "Ambient NPCs that fill seats",
+  "game": "casino-lvah",
+  "desc": "Keeps a global NPC count under a limit by picking random free stools at casino games (priority games first), spawning an avatar NPC on the seat with sit animation, nametag and a per-NPC play script.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/LookAtPlayerIdleNPC__smash-egg-for-animals.lua",
+  "title": "Idle NPC that looks at and waves to you",
+  "game": "smash-egg-for-animals",
+  "desc": "Client script for NPCs tagged 'LookAtNpc': breathing idle via Motor6D C0 offsets, head + waist turn toward the local player (clamped yaw/pitch, smoothed), one wave when you come close, re-greets after you leave. Comments are in French.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/BuddyFollower__flood-escape-2.lua",
+  "title": "Companion follower",
+  "game": "flood-escape-2",
+  "desc": "Buddy NPC that MoveTo's just behind its owner when further than 3.4 studs, teleports behind them past 21.5 studs, jumps when the owner jumps (remote) and cleans itself up when the owner dies or leaves.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/_patterns/PathFollower.lua",
+  "title": "Humanoid path follower",
+  "game": "pattern",
+  "desc": "Clean module: follows PathfindingService waypoints with timeouts, stuck detection, Blocked re-path, line-of-sight check and a Chase() that re-paths on interval or target movement.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/_patterns/ChaserBrain.lua",
+  "title": "Monster chaser brain",
+  "game": "pattern",
+  "desc": "Clean PATROL/CHASE/SEARCH/RETURN state machine with sight cone, hearing of fast-moving players, perception meter, memory, leash and melee attack.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/_patterns/WaveSpawner.lua",
+  "title": "Enemy wave spawner",
+  "game": "pattern",
+  "desc": "Clean server wave runner: per-wave enemy budget, batched spawns at tagged points, max-alive cap, signals for wave start / enemy died / wave cleared.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "12-NPC-AI/_patterns/DialogueTree.lua",
+  "title": "Server-side NPC dialogue tree",
+  "game": "pattern",
+  "desc": "Clean data-driven dialogue: nodes with choices, conditions, server actions and next jumps; validates the client's choice index and distance.",
+  "category": "npc-ai"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/WeightedRoll__pet-rng.lua",
+  "title": "Minimal weighted roll",
+  "game": "pet-rng",
+  "desc": "Smallest possible weighted pick: sum the weights, draw math.random()*total, walk the list until the running sum passes the draw.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetRarityTable__pet-rng.lua",
+  "title": "Pet weight table (1-in-N odds)",
+  "game": "pet-rng",
+  "desc": "Pet data table where each pet has a raw weight; the game shows odds as 1/(total/weight). Shows how RNG games go from 1/2 to 1/10,000,000+ by dividing tiny weights.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RollAnimationAutoRoll__pet-rng.lua",
+  "title": "Roll reveal UI + auto-roll (client)",
+  "game": "pet-rng",
+  "desc": "Client roll button: flashes 4 fake results then the real one in a viewport, auto-roll gamepass toggle, luck applied by multiplying rare weights. WARNING: the roll happens on the client and the server trusts the pet name.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RollServerAnnounceBadges__pet-rng.lua",
+  "title": "Rare-roll global announcement + badges",
+  "game": "pet-rng",
+  "desc": "Server side of the roll: converts weight to '1/N', awards badges at 1/100, 1/1000 ... and broadcasts very rare rolls to every server through MessagingService.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetFollowAlignPosition__pet-rng.lua",
+  "title": "Pet follow with AlignPosition",
+  "game": "pet-rng",
+  "desc": "Equips a pet model that follows the player using Attachment + AlignPosition/AlignOrientation, with a bobbing tween that changes speed while the player walks.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/EggHatchService__rcu-roller.lua",
+  "title": "Server egg hatching (Knit)",
+  "game": "rcu-roller",
+  "desc": "Full server-authoritative egg opening: rate limit, amount clamp, currency check, luck via weight^(1/luck), Golden/Toxic tier roll, stacking duplicates, index tracking, quest hooks, global luck events.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetEquipService__rcu-roller.lua",
+  "title": "Pet equip / lock / delete service",
+  "game": "rcu-roller",
+  "desc": "Server pet inventory actions: equip with slot cap from upgrades + gamepasses, unequip, delete (blocked if locked), lock toggle, nickname length cap.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PetRowFormation__rcu-roller.lua",
+  "title": "Pet formation offsets (rows / arcs)",
+  "game": "rcu-roller",
+  "desc": "Pure function that lays equipped pets out in up to 3 arcs behind the player (small pets front, big pets middle, huge pets back) and returns a CFrame offset per pet.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/LuckStack__rcu-roller.lua",
+  "title": "Luck multiplier stacking",
+  "game": "rcu-roller",
+  "desc": "One function that adds every luck source together: server flag, global event, upgrades, gamepasses, potions, fruits, events and the equipped aura. Same code runs on client (for display) and server (for the roll).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/LuckChanceShift__rcu-roller.lua",
+  "title": "Luck that moves % from common to rare",
+  "game": "rcu-roller",
+  "desc": "getNewChances: multiplies the chance of 'luck-affected' pets and subtracts the same total from the common pets so the egg still sums to 100%. Also pet descriptor / rarity helpers.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/AuraRoll__rcu-roller.lua",
+  "title": "Aura dice roll + aura levels",
+  "game": "rcu-roller",
+  "desc": "Bundle of AuraService (consume a dice item, roll an aura on the server) and AuraUtils (luck redistribution with clamping, aura XP level/progress).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/ZonePoolRollMutations__slime-rng.lua",
+  "title": "RNG roll with zone pools, mutations and special rolls",
+  "game": "slime-rng",
+  "desc": "Server roll: builds a pool from zone-unlocked slimes, boosts rare tiers with amplifiers, rolls independent mutations (huge/big/shiny/inverted), auto-equips, updates the index and counts down golden/diamond/void 'every N rolls' special rolls.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RandomLuckEvents__slime-rng.lua",
+  "title": "Random timed server luck events",
+  "game": "slime-rng",
+  "desc": "Every 5-10 minutes picks a weighted luck multiplier (x2 common ... x50 rare) and turns on a 5 minute server luck event through the admin luck service.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/IndexCollectionTracking__slime-rng.lua",
+  "title": "Index / collection tracking + rewards",
+  "game": "slime-rng",
+  "desc": "Index service: migrates old saves into the index (retroactively unlocking owned slimes), tracks counts per category/mutation and hands out index milestone rewards.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/RNGMachineService__steal-a-brainrot.lua",
+  "title": "Paid RNG slot machine with skill tree",
+  "game": "steal-a-brainrot",
+  "desc": "Server RNG machine: price-based reward weights, server picks the result and decoy reel entries for the client to animate, chance of a luck-multiplier result, mutation skills, timed buy offer and delivery to a free podium.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/MutationTable__steal-a-brainrot.lua",
+  "title": "Mutation data layout",
+  "game": "steal-a-brainrot",
+  "desc": "Two entries of the mutation table: each mutation has a display name, rich text, sort order, roll Weight, income Modifier, icon and colour palettes used to recolour the model.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/ServerLuckTimer__steal-a-brainrot.lua",
+  "title": "Replicated server luck timer",
+  "game": "steal-a-brainrot",
+  "desc": "Tiny service that holds a server-wide luck index and end time in a replicated channel and counts it down once per second.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/SpinWheelService__evade.lua",
+  "title": "Event spin wheel (server)",
+  "game": "evade",
+  "desc": "Server spin wheel: weighted reward with alternate reward if already owned, per-player cooldown, spin tokens given out by a UTC-scheduled event, reward applied after the client animation delay.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/LuckyBlockService__drill-and-mine.lua",
+  "title": "Lucky block opening with luck tier-up",
+  "game": "drill-and-mine",
+  "desc": "Lucky block open flow: luck gives a chance per step to climb a rarity tier (capped at +2), skips invalid ids, falls back along the rarity ladder, and holds rewards as 'pending' until the reveal animation confirms (auto-applies on timeout or leave).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/PityTimerSpawns__brainrot-lab.lua",
+  "title": "Server-wide pity timers",
+  "game": "brainrot-lab",
+  "desc": "Conveyor spawner where Legendary / Mythical / Secret never roll randomly; instead a countdown per rarity guarantees one when it hits zero, with a world sign showing the time left.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/EggZoneRolls__smash-egg-for-animals.lua",
+  "title": "Egg spawn / size / pet rolls with luck event",
+  "game": "smash-egg-for-animals",
+  "desc": "Three roll helpers: luck() reads a server attribute, rollHeight() picks a size tier, pickKey() boosts every egg except the most common one during a luck event, and hatch() picks the pet and stacks event mutations.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/EggIncubateHatch__smash-egg-for-animals.lua",
+  "title": "Placed egg incubation + hatch",
+  "game": "smash-egg-for-animals",
+  "desc": "Eggs placed in the player's base incubate until ReadyAt, can randomly grow heavier while waiting, then hatch on the server (inventory cap check, roll by % table, egg weight carried into the pet).",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/GlobalLuckEvent__smash-egg-for-animals.lua",
+  "title": "Cross-server luck event",
+  "game": "smash-egg-for-animals",
+  "desc": "Admin-started x4 luck event shared by all servers: end time saved in a DataStore (new servers pick it up), broadcast with MessagingService, per-server option, and a resync loop.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/WeightedTable.lua",
+  "title": "Weighted table with luck modes",
+  "game": "pattern",
+  "desc": "Weighted random table with BoostRare / Exponent / Shift luck, binary-search roll, RollMany and 1/N odds text.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/PityCounter.lua",
+  "title": "Pity counter (hard / soft / every-N)",
+  "game": "pattern",
+  "desc": "Per-player, per-banner hard and soft pity plus every-N-rolls bonus counters stored in a saveable table.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/EggHatcher.lua",
+  "title": "Server egg hatcher",
+  "game": "pattern",
+  "desc": "Server-authoritative egg hatch: argument validation, cooldown, spend-before-roll, tier and mutation rolls, index marking; plugs into any data layer.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "09-RNG-Gacha-Pets/_patterns/PetFollower.lua",
+  "title": "Client pet follower",
+  "game": "pattern",
+  "desc": "Client-side pet follow with size-based arc formation, frame-rate independent lerp and walk/idle bobbing.",
+  "category": "rng-gacha"
+ },
+ {
+  "file": "17-Sound-Music/Audio__big-paintball.lua",
+  "title": "All-in-one Audio module (SFX + crossfade music)",
+  "game": "big-paintball",
+  "desc": "One module for all audio: Play() one-shot SFX on a part or at a world position (random pick from an ID list), PlayMusic() with automatic crossfade, StopMusic(), a mute toggle that caches volumes, and a garbage collector that cleans finished sounds. Server calls are forwarded to all clients.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/AudioPlay__punching-simulator.lua",
+  "title": "Promise-based sound player",
+  "game": "punching-simulator",
+  "desc": "Plays a named sound from an assets folder (clone, optional position part, pitch via PitchShiftSoundEffect), returns a Promise that resolves when it ends, and cleans up with a Trove. Server calls broadcast to clients; respects the SFX setting.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/SoundsModule__jujutsu-shenanigans.lua",
+  "title": "Positional one-shot sound helper",
+  "game": "jujutsu-shenanigans",
+  "desc": "Tiny helper: clone a Sound, put it on a part or at a world position (via a Terrain attachment), route it to a SoundGroup, set speed and start time, optionally fade it out after a delay, and auto-clean with Debris.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/MusicCrossfadeByState__brainrot-lab.lua",
+  "title": "State-driven music crossfade",
+  "game": "brainrot-lab",
+  "desc": "Two looping tracks (background and run music) that crossfade with TweenService whenever the player state changes (here: a morph model exists on the character).",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/MusicWatchdog__drill-and-mine.lua",
+  "title": "Client music loop with watchdog",
+  "game": "drill-and-mine",
+  "desc": "Client-driven background music with a watchdog: picks the song from SoundService.Music, forces Looped, and restarts it on Ended/Stopped/Paused or if a 2-second check finds it silent. Explains why music should be driven on the client.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/BackgroundPlaylist__smash-egg-for-animals.lua",
+  "title": "Minimal seasonal playlist",
+  "game": "smash-egg-for-animals",
+  "desc": "Minimal background playlist: one Sound in SoundService cycles through a list of IDs on Ended; picks a seasonal (Halloween) playlist from a Lighting attribute. Comments are in French.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/CasinoPlaylist__casino-lvah.lua",
+  "title": "Random-start looping playlist",
+  "game": "casino-lvah",
+  "desc": "Simple looping playlist: starts at a random track, waits for Loaded before playing, advances (wrapping) on Ended; includes a forward/back position helper.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/ZoneLocationMusic__work-at-a-pizza-place.lua",
+  "title": "Location and time-of-day music",
+  "game": "work-at-a-pizza-place",
+  "desc": "Location-aware music: chooses a track by season/holiday/time of day, switches to house music players or shop songs when the player enters a zone, fades out and in between tracks and resumes the outdoor song where it left off. Volume comes from a settings slider.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/ZoneAudio__street-life.lua",
+  "title": "ZonePlus area music",
+  "game": "street-life",
+  "desc": "Area music using ZonePlus: each part in workspace.AudioZones holds a Sound that fades in when the local player enters and fades out on exit; the gym and nightclub zones pick a new random track every loop.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/ReverbZones__hiroshima-expressway.lua",
+  "title": "Reverb zones (AmbientReverb)",
+  "game": "hiroshima-expressway",
+  "desc": "Turns on SoundService.AmbientReverb (ConcertHall) while the player is inside any invisible TunnelArea part, using a cheap box check on Heartbeat and only changing the property when the state flips.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/SoundFX__work-at-a-pizza-place.lua",
+  "title": "Client/server SoundFX with zone broadcast",
+  "game": "work-at-a-pizza-place",
+  "desc": "Shared client/server sound helper: on the client plays a named sound from a folder; on the server either tells one client to play it or plays it on an object; PlaySoundInsideZone sends a sound only to players standing inside a zone box.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/EventSoundSequence__brainrot-lab.lua",
+  "title": "Event sound sequence with screen flash",
+  "game": "brainrot-lab",
+  "desc": "Server-triggered event stingers: plays a sequence of named sounds one after another (waiting on Ended) and syncs a full-screen white flash to one of them, using a token so overlapping flashes cancel cleanly.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/UIClickSound__drill-and-mine.lua",
+  "title": "Global UI click sound",
+  "game": "drill-and-mine",
+  "desc": "Global UI click sound: hooks every GuiButton in PlayerGui (now and later, via DescendantAdded) plus every ProximityPrompt trigger, preloads the sound, and plays a short-lived clone.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/UIButtonSoundsAndBounce__smash-egg-for-animals.lua",
+  "title": "Button hover/click sounds and bounce",
+  "game": "smash-egg-for-animals",
+  "desc": "Auto-adds hover/press scale bounce plus hover and click sounds to every GuiButton, with random pitch and SoundService:PlayLocalSound; also plays a window-opened sound when a large Main/Window/Panel frame becomes visible. Falls back to built-in sounds if an asset fails to load. Comments are in French.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/KeycapTouchSound__escape-kitty-keyboard.lua",
+  "title": "Touch-triggered click sounds",
+  "game": "escape-kitty-keyboard",
+  "desc": "Plays a click when any character part touches a keycap part, with a per-part debounce and random pitch so repeated clicks sound natural. Uses one shared Sound in SoundService.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/MaterialFootsteps__jujutsu-shenanigans.lua",
+  "title": "Material-based footsteps",
+  "game": "jujutsu-shenanigans",
+  "desc": "Footstep sounds chosen by Humanoid.FloorMaterial (3 random variations per material, with aliases), fired from an animation marker (runfootstep) with a rate limit; also jump and land sounds from StateChanged.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/BossRoar3D__smash-egg-for-animals.lua",
+  "title": "3D boss roars with rolloff",
+  "game": "smash-egg-for-animals",
+  "desc": "3D positional roars for tagged bosses while they chase: per-boss sound config (id, volume, pitch), linear rolloff from 40 to 190 studs, random offsets so bosses do not roar in sync, fade-out before destroy, muted in safe zone and arenas. Comments are in French.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/AwakeningMusicToggle__jujutsu-shenanigans.lua",
+  "title": "Fade sound group in/out",
+  "game": "jujutsu-shenanigans",
+  "desc": "Fades a group of sounds under an attachment in or out (1 s linear tween), remembering each original volume in an attribute; honors a per-player Awakening Music setting.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/VolumeSettingsSoundGroups__smash-egg-for-animals.lua",
+  "title": "Music/SFX sliders with SoundGroup routing",
+  "game": "smash-egg-for-animals",
+  "desc": "Settings panel with Music and SFX volume sliders. Creates Music and SFX SoundGroups and auto-routes every Sound in the game into one of them (long looped sounds count as music), drag-to-set sliders in 5 percent steps for mouse and touch, saves on release, loads saved values from player attributes. Comments are in French.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/VolumeSettingsSave__smash-egg-for-animals.lua",
+  "title": "Volume settings DataStore save",
+  "game": "smash-egg-for-animals",
+  "desc": "Server half of the volume settings: loads Music/SFX volume from its own DataStore into player attributes, validates values sent by the client remote, and writes once on leave or BindToClose. Comments are in French.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/SettingsVolumeSliders__drill-and-mine.lua",
+  "title": "Volume sliders with debounced save",
+  "game": "drill-and-mine",
+  "desc": "Settings controller with Music and Sounds volume sliders (tweened fill bar and knob). Applies volume to every Sound in SoundService.Music and SoundService.Sounds, including ones added later, and debounces saves to the server (0.3 s task.delay cancelled on each new change).",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/AudioVisualizerBars__the-rake.lua",
+  "title": "PlaybackLoudness bar visualizer",
+  "game": "the-rake",
+  "desc": "Bar-graph audio visualizer driven by Sound.PlaybackLoudness: keeps a rolling buffer of loudness samples, mirrors it from the center outwards, tweens bar heights and optionally colors bars from a ColorSequence. Note: Frame:Add() is an Adonis helper; replace it with Instance.new.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/EngineSoundsRPM__hiroshima-expressway.lua",
+  "title": "RPM-driven engine sound layers",
+  "game": "hiroshima-expressway",
+  "desc": "A-Chassis engine sound plugin: four looping layers (exhaust, engine, idle, redline) whose volume, pitch, distortion and EQ are computed from RPM and throttle each time RPM changes.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/_patterns/MusicPlayer.lua",
+  "title": "MusicPlayer pattern",
+  "game": "pattern",
+  "desc": "Playlist with shuffle, crossfades, priority override layers for zones/bosses and resume of the interrupted track.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/_patterns/UISounds.lua",
+  "title": "UISounds pattern",
+  "game": "pattern",
+  "desc": "Auto hover/click sounds on every GuiButton with preload, pitch jitter and per-button attributes.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/_patterns/AmbienceZones.lua",
+  "title": "AmbienceZones pattern",
+  "game": "pattern",
+  "desc": "Tagged zone parts drive crossfaded ambience and SoundService.AmbientReverb.",
+  "category": "sound-music"
+ },
+ {
+  "file": "17-Sound-Music/_patterns/AudioSettings.lua",
+  "title": "AudioSettings pattern",
+  "game": "pattern",
+  "desc": "Music/SFX SoundGroups with auto-routing, debounced save and DataStore persistence (server + client).",
+  "category": "sound-music"
+ },
+ {
+  "file": "10-Trading/_patterns/TradeSession.lua",
+  "title": "Trade session state machine",
+  "game": "pattern",
+  "desc": "Server-authoritative trade flow: request, offers, READY, enforced wait, CONFIRM, atomic swap, rate-limited remote.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/_patterns/AtomicSwap.lua",
+  "title": "Atomic inventory swap",
+  "game": "pattern",
+  "desc": "All-or-nothing swap of two item sets with ownership, duplicate, lock, capacity and id-collision checks.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/_patterns/PendingDeliveryInbox.lua",
+  "title": "Pending delivery inbox",
+  "game": "pattern",
+  "desc": "DataStore mailbox to deliver items to offline or other-server players, claimed on join or ping.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradeMachineServer__smash-egg-for-animals.lua",
+  "title": "Trade machine server",
+  "game": "smash-egg-for-animals",
+  "desc": "Same-server pet trade with READY->wait->CONFIRM, edit cooldowns, request expiry and action rate limit.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradeBridgeAtomicSwap__smash-egg-for-animals.lua",
+  "title": "Trade bridge atomic swap",
+  "game": "smash-egg-for-animals",
+  "desc": "Excerpt: data-owner BindableFunction that lists tradable pets and executes an all-or-nothing swap.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradeMachineClient__smash-egg-for-animals.lua",
+  "title": "Code-built trade UI",
+  "game": "smash-egg-for-animals",
+  "desc": "Complete trade window built in code: lobby, request cards with timers, offer grids, ready/confirm countdown.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/CrossServerEscrowTrade__smash-egg-for-animals.lua",
+  "title": "Cross-server escrow trade",
+  "game": "smash-egg-for-animals",
+  "desc": "Cross-server trade that escrows pets per server then delivers through a DataStore inbox with offer signatures.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/ToolTradeServer__brainrot-lab.lua",
+  "title": "Tool trade server",
+  "game": "brainrot-lab",
+  "desc": "Clean trade module for Tool items with InTrade lock, request timeout and final re-validation.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/ToolTradeClient__brainrot-lab.lua",
+  "title": "Tool trade client",
+  "game": "brainrot-lab",
+  "desc": "Client for tool trades: request toasts with countdown, player list, viewport item previews.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/CrossServerTradeService__trade-system.lua",
+  "title": "Cross-server trade service",
+  "game": "trade-system",
+  "desc": "Trades across servers using MemoryStore sessions, a presence map for search, and MessagingService sync.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/CrossServerTradeClient__trade-system.lua",
+  "title": "Cross-server trade client",
+  "game": "trade-system",
+  "desc": "Client with live cross-server player search, request popup and offer grids.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/PodiumTradeService__steal-a-brainrot.lua",
+  "title": "Podium trade service",
+  "game": "steal-a-brainrot",
+  "desc": "Production trade service for base animals: invites, local and cross-server handshake, ready delay, steal checks.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/KnitTradeService__rcu-roller.lua",
+  "title": "Knit trade service",
+  "game": "rcu-roller",
+  "desc": "Knit trade of stackable items plus currency tokens with separate ready and confirm stages.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradingPlazaBooths__rcu-roller.lua",
+  "title": "Trading plaza booths",
+  "game": "rcu-roller",
+  "desc": "Booth marketplace with escrowed listings and token purchases (has known bugs, see README).",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradeClass__punching-simulator.lua",
+  "title": "OOP trade class",
+  "game": "punching-simulator",
+  "desc": "Trade object with Trove cleanup, state tracker and attribute-replicated state; unreadies on data change.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradeRequest__punching-simulator.lua",
+  "title": "OOP trade request",
+  "game": "punching-simulator",
+  "desc": "Trade request object decided by the target via RemoteFunction, then creates the Trade.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/TradeUtility__punching-simulator.lua",
+  "title": "Trade eligibility check",
+  "game": "punching-simulator",
+  "desc": "canOccur gate: both loaded, target allows trades, neither already trading.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/InstanceTradeHandler__uno.lua",
+  "title": "Instance-based trade handler",
+  "game": "uno",
+  "desc": "Trade state as a cloned Folder of Value objects, confirm then accept, save lock while swapping.",
+  "category": "trading"
+ },
+ {
+  "file": "10-Trading/NpcRecipeTrader__steal-a-brainrot.lua",
+  "title": "NPC recipe trader",
+  "game": "steal-a-brainrot",
+  "desc": "Rotating NPC offers that consume a recipe of brainrots; contains an insecure update remote to remove.",
+  "category": "trading"
+ },
+ {
+  "file": "14-Tycoon-Plots/StealService__evade.lua",
+  "title": "Steal start / cancel / complete service",
+  "game": "evade",
+  "desc": "Server side of a Steal-a-Brainrot style steal: StartSteal marks the victim's podium as being stolen, welds the animal model in front of the thief, slows them to 75% speed and plays a carry...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PlotService__evade.lua",
+  "title": "Steal-game plot service (assign, lock, steal remote, income)",
+  "game": "evade",
+  "desc": "Full plot/base service for a steal game: hands out free plots, syncs the podium list to a per-plot replicated channel, 30s spawn grace lock, LockBase (timed laser lock that grows with rebirths and...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/StealRemoteValidation__steal-a-brainrot.lua",
+  "title": "Steal remote validation + stale flag janitor",
+  "game": "steal-a-brainrot",
+  "desc": "The server's Steal remote handler (type-checks args, rejects if already stealing, confirms the thief's HumanoidRootPart is inside the victim plot's StealHitbox with GetPartBoundsInBox) plus a...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/StealGuards__steal-a-brainrot-sab-files.lua",
+  "title": "Steal guard rails (locks, cooldown, join protection)",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "The guard rails a later Steal-a-Brainrot build added around StartSteal: a per-podium steal lock so two thieves can't grab the same item, a 1s steal cooldown, no stealing from players who are...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BaseManagerService__steal-a-brainrot.lua",
+  "title": "Switch to another free base",
+  "game": "steal-a-brainrot",
+  "desc": "Lets a player move to a different free base: a RemoteFunction lists free plots, a RemoteEvent requests the move, with a 3s per-player cooldown and a server-side re-check that the target plot is...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BaseTiers__steal-a-brainrot.lua",
+  "title": "Base tier data (rebirth -> model, max podiums)",
+  "game": "steal-a-brainrot",
+  "desc": "Data table mapping rebirth level to base model (first/second/third floor template) and MaxAnimals (podium count)",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PlotManager__brainrot-lab.lua",
+  "title": "Fixed-plot manager with floor upgrades",
+  "game": "brainrot-lab",
+  "desc": "Simple, readable plot system: 8 fixed plots, first free index goes to the joining player, extra floors are shown/hidden as the player buys base upgrades (price + rebirth requirement per level),...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/SlotManager__brainrot-lab.lua",
+  "title": "Podium slots: place, collect, upgrade",
+  "game": "brainrot-lab",
+  "desc": "Podium/slot logic for a brainrot tycoon: place the held tool on an empty slot, swap or pick up from an occupied one, slots accumulate money over time, touch a collect pad to cash out, and level up...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BrainrotConveyor__brainrot-lab.lua",
+  "title": "Conveyor belt spawner with pity and delivery to base",
+  "game": "brainrot-lab",
+  "desc": "Server conveyor belt: spawns a weighted-random brainrot every few seconds at point A, lerps it to point B, players press E in range to buy it, then it walks to the buyer's base (stealable in...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/CarrySystem__drive-for-brainrots.lua",
+  "title": "Head-stack carry system with collection zone",
+  "game": "drive-for-brainrots",
+  "desc": "Carry stack: picked-up items are kept as data and shown as massless, non-colliding models welded in a stack above the player's head; walking into the CollectionZone (checked every 0.2s with a...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PlotService__drill-and-mine.lua",
+  "title": "Minimal plot assigner",
+  "game": "drill-and-mine",
+  "desc": "The smallest clean plot assigner in the set (~100 lines): sorts plots by number, gives the first one with OwnerUserId == 0, teleports the player there on every spawn, and runs registered reset...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/BaseUpgradeService__drill-and-mine.lua",
+  "title": "Base floor upgrades from templates",
+  "game": "drill-and-mine",
+  "desc": "Buy-the-next-floor base upgrades: keeps floor/podium templates out of the world, clones the unlocked ones into the player's plot per level, charges a per-level cost, throttles requests with a 1s...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/Core_Plots__steal-an-egg.lua",
+  "title": "Plot slots with revisioned owner snapshots",
+  "game": "steal-an-egg",
+  "desc": "Plot slots with a revision number: assigns numbered plots, sets the sign (name + headshot), replicates owner-by-slot snapshots to clients, teleports to the plot on spawn, exposes plot capacity,...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/EggCarryAndPlacement__steal-an-egg.lua",
+  "title": "Egg carry, claim and validated placement",
+  "game": "steal-an-egg",
+  "desc": "Carry-and-deliver plus validated placement: pick up an egg (distance <= 28 studs, one at a time, ownership check), drop/reset it, guards knock it out of your hands, crossing a separation line...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/PurchaseHandler__advanced-warfare-tycoon.lua",
+  "title": "Classic tycoon kit purchase handler",
+  "game": "advanced-warfare-tycoon",
+  "desc": "Classic berezaa tycoon kit purchase handler: collector part turns 'Cash' drops into stored cash, a giver pad pays it out to the owner, and every button clones its purchase into the tycoon when bought",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/TycoonKitParts__advanced-warfare-tycoon.lua",
+  "title": "Classic tycoon kit parts (regen, gate, dropper, upgrader, conveyor)",
+  "game": "advanced-warfare-tycoon",
+  "desc": "The remaining pieces of the classic tycoon kit: CoreScript (backs up each tycoon and regenerates it when the owner leaves), the claim gate, a dropper (spawns a Part with a Cash IntValue every few...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/TycoonKit__scp-tycoon.lua",
+  "title": "Hand-made tycoon (claim, buy pads, droppers, collector, laser)",
+  "game": "scp-tycoon",
+  "desc": "A small hand-made tycoon: claim via RemoteEvent, buy pads that reveal a dropper/upgrade and enable it, droppers that clone a Drop on a cooldown, an upgrader that doubles each drop once, a...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/FurniturePlacement__work-at-a-pizza-place.lua",
+  "title": "House furniture placement in local space",
+  "game": "work-at-a-pizza-place",
+  "desc": "Server side of placing furniture in a player house: enforces a per-upgrade furniture cap, removes one from inventory, and stores the CFrame relative to the house's Marker part (ToObjectSpace) so...",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/PlotManager.lua",
+  "title": "Plot manager pattern",
+  "game": "pattern",
+  "desc": "Assign/release plots, teleport on spawn, signals and move-to-free-plot.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/TycoonKit.lua",
+  "title": "Data-driven tycoon kit pattern",
+  "game": "pattern",
+  "desc": "Buttons with dependencies, Heartbeat droppers, upgraders, conveyors, collector and save/load of purchases.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/StealSystem.lua",
+  "title": "Server-authoritative steal system pattern",
+  "game": "pattern",
+  "desc": "Zone-checked steals with slot locks, carry weld, delivery, timeouts and server-enforced base locks.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "14-Tycoon-Plots/_patterns/PlacementGrid.lua",
+  "title": "Plot placement grid pattern",
+  "game": "pattern",
+  "desc": "Shared grid snapping, rotation, bounds/overlap checks and plot-local CFrame save format with server validation.",
+  "category": "tycoon-plots"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/ButtonFX.lua",
+  "title": "Button hover/press FX",
+  "game": "pattern",
+  "desc": "Hover grow / press squash / Back-out release on a UIScale, pitch-jittered sounds, touch fallback, autoBind for a whole PlayerGui.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/PopIn.lua",
+  "title": "Window pop-in / pop-out",
+  "game": "pattern",
+  "desc": "Open from 80% with Back-out, close with Quad-in, optional CanvasGroup fade, blur and FOV, exclusive window groups.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/Shimmer.lua",
+  "title": "Shine sweep",
+  "game": "pattern",
+  "desc": "Looping or one-shot diagonal shine: gradient band whose Offset tweens -1 -> 1; colour-band mode for text.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/RotatingGradient.lua",
+  "title": "Rotating gradients + sunbursts",
+  "game": "pattern",
+  "desc": "One shared Heartbeat (throttled to 30 Hz) spins UIGradients and ray images and pans gradients; tag binding; rainbow builder.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/Typewriter.lua",
+  "title": "Typewriter text",
+  "game": "pattern",
+  "desc": "MaxVisibleGraphemes reveal with rich-text support, punctuation pauses, pitch-jittered blips, skip / cancel / erase.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/CountUp.lua",
+  "title": "Number count-up",
+  "game": "pattern",
+  "desc": "Counter object with \"ease\" (cubic out) or \"lerp\" (exponential chase) modes, pop on increase, abbreviate() and commas().",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/SpringScale.lua",
+  "title": "Spring animator",
+  "game": "pattern",
+  "desc": "Exact damped-spring solver + controllers for UIScale or any number property, springy button binding, snap/kick.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/SlideNotification.lua",
+  "title": "Slide-in toasts",
+  "game": "pattern",
+  "desc": "Code-built toasts that slide in from a corner, stack, merge duplicates \"(x3)\", drain a timer bar, slide out and collapse the gap.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/TabUnderline.lua",
+  "title": "Tab underline slide",
+  "game": "pattern",
+  "desc": "Bar glides under the selected tab (optional stretchy two-phase motion), tints labels, pops the tab, follows resizes.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/ProgressFill.lua",
+  "title": "Progress bar fill",
+  "game": "pattern",
+  "desc": "Fill tween with skip-tiny-changes, ghost trail bar (damage drop / gain preview), percent label, onFull callback, X or Y axis.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/RollReveal.lua",
+  "title": "Roll / reveal / wheel",
+  "game": "pattern",
+  "desc": "Slowing roll schedule with no-repeat rules, onTick/onReveal callbacks, spinWheelTo(slice), revealPop (slam + rays + flash), nudge.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/FloatBob.lua",
+  "title": "Floating / bobbing icons",
+  "game": "pattern",
+  "desc": "Sine bob + rock + breathe for many icons from one RenderStepped, random phase per icon, tag binding with attributes.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/PulseAttention.lua",
+  "title": "Attention pulse / ripple",
+  "game": "pattern",
+  "desc": "Breathing UIScale loop, expanding UIStroke ripple rings, bell wiggle, pop, and a combined loop that pauses while hidden.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/ScreenFade.lua",
+  "title": "Screen transitions / flash",
+  "game": "pattern",
+  "desc": "Fade to colour, run code while covered (pcall-protected), typewriter title, fade back; quick colour flash.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/_patterns/ClickBurst.lua",
+  "title": "2D click sparkles / float text",
+  "game": "pattern",
+  "desc": "Frame-based radial sparkle bursts at any screen point, sparkles on every click, \"+$N\" text that pops then floats away.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/UniversalButtonFX_TagEffects__brainrot-lab.lua",
+  "title": "Universal button FX + tag-driven effects",
+  "game": "brainrot-lab",
+  "desc": "Auto-hooks every GuiButton with hover/press UIScale tweens + sounds, and drives CollectionService-tagged effects (sunburst spin, rotating/panning UIGradient, random shine sparkles, looping UIScale pulse).",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/HoverController_GroupedUIScale__drill-and-mine.lua",
+  "title": "Grouped hover controller",
+  "game": "drill-and-mine",
+  "desc": "Button hover/press/bounce via a per-button UIScale with tween cancelling, hover groups (several buttons react as one), icon tilt, pooled hover sound and a throttled 30 Hz sunburst/gradient spinner.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/AnimatedText_PerCharBezier__drill-and-mine.lua",
+  "title": "Per-character animated text",
+  "game": "drill-and-mine",
+  "desc": "Per-character text animation: only changed characters drop/scale in with CSS cubic-bezier easing, CanvasGroup layers per glyph, value-increase pop via UIScale (AnimatedText.Pop). Advanced.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/FrameAnimator_WindowOpenBlurFov__drill-and-mine.lua",
+  "title": "Window open/close manager with blur + FOV",
+  "game": "drill-and-mine",
+  "desc": "Window manager: Back-eased open / Quad-in close, blur + camera FOV tween, HUD groups slide off-screen while a window is open, cached fade tweens, open-by-button or by standing on a part.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/NotificationsController_PopToast__drill-and-mine.lua",
+  "title": "Pop-in toast notifications",
+  "game": "drill-and-mine",
+  "desc": "Toast notifications that pop in on a UIScale (0 -> 1, Quart out) while fading every descendant, merge duplicates into \"(xN)\" with an overshoot pulse, and pop out with Back-in.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/NotifyBadgePulse_RippleWiggle__drill-and-mine.lua",
+  "title": "Badge ripple + wiggle",
+  "game": "drill-and-mine",
+  "desc": "Notification badge attention loop: two expanding UIStroke rings that fade out, a small UIScale pop, and a bell-style rotation wiggle every 2.6 s.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/UIScaleBreathingPulse__drill-and-mine.lua",
+  "title": "UIScale breathing pulse",
+  "game": "drill-and-mine",
+  "desc": "Minimal infinite \"breathing\" pulse: UIScale tween 1 -> 1.10, Sine InOut, repeat -1, reverses. Comment explains why UIScale beats Size tweening.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/RebirthRingsFX_RainbowRings__drill-and-mine.lua",
+  "title": "Rainbow ripple rings",
+  "game": "drill-and-mine",
+  "desc": "Train of expanding rainbow UIStroke rings on a BillboardGui around the player (rotating UIGradient per ring, fade as they grow).",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/LevelBarFill_PopHold__drill-and-mine.lua",
+  "title": "Progress bar fill + pop-hold",
+  "game": "drill-and-mine",
+  "desc": "XP progress-bar fill tween (skips tiny changes), level text, and a \"pop and hold\" UIScale on stat gain that rests inflated while gains keep coming; coalesces refreshes per frame.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/ClickSparkleBurst__drill-and-mine.lua",
+  "title": "Click sparkle burst",
+  "game": "drill-and-mine",
+  "desc": "Pure 2D click/tap feedback: spawns radial dots and streak frames at the cursor that fly outward, shrink and fade.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/HUDSlideController_EdgeSlide__drill-and-mine.lua",
+  "title": "HUD edge slide in/out",
+  "game": "drill-and-mine",
+  "desc": "Slides HUD groups off the top/left/bottom edges (Quart in/out, scale-only offscreen targets) and back in based on player location.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/ConfettiFX_ScreenConfetti__drill-and-mine.lua",
+  "title": "2D confetti celebration",
+  "game": "drill-and-mine",
+  "desc": "Screen-space confetti burst built fully in code (image templates flung and fading) plus an optional world firework emitter burst.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/IconRockWiggle__drill-and-mine.lua",
+  "title": "Idle icon rock",
+  "game": "drill-and-mine",
+  "desc": "Endless Sine InOut rotation rock (+10 / -20 degrees) for an idle shop icon.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/CashCountUpLerp__drill-and-mine.lua",
+  "title": "Cash count-up lerp",
+  "game": "drill-and-mine",
+  "desc": "Count-up currency display: exponential lerp of the displayed value toward the real value each frame (only rewriting Text when it changes) plus a Size pulse on change.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/UITweening_ButtonAndWindowToggle__animal-hospital-modded.lua",
+  "title": "Button + window toggle tweening",
+  "game": "animal-hospital-modded",
+  "desc": "Button hover/press size tweens (original size stored as an attribute), keyboard-key press feedback, and a window toggle that grows from 5% with Back-out plus a camera FOV punch.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/ButtonFX_UIScaleSounds__smash-egg-for-animals.lua",
+  "title": "Compact button FX with sounds",
+  "game": "smash-egg-for-animals",
+  "desc": "Compact global button FX: UIScale grow on hover, squash on press, Back-eased return, pitch-randomised sounds, mobile tap fallback, and a sound when big windows open. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/WindowOpenFx_AutoPopIn__smash-egg-for-animals.lua",
+  "title": "Auto pop-in for windows",
+  "game": "smash-egg-for-animals",
+  "desc": "Automatically pops every big window in from 80% scale (0.18 s Back out) when it becomes Visible, preserving any existing UIScale value. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/MoneyCounter_CountUpGainPopup__smash-egg-for-animals.lua",
+  "title": "Money count-up + gain popup",
+  "game": "smash-egg-for-animals",
+  "desc": "Money counter with cubic ease-out count-up on RenderStepped, a \"+$N\" label that bursts out then rises and fades, batching of simultaneous gains, and a pop on spend. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/HatchReel_SlowingRoll__smash-egg-for-animals.lua",
+  "title": "Slowing roll + reveal",
+  "game": "smash-egg-for-animals",
+  "desc": "Egg hatch reel that cycles silhouettes fast then slows (quadratic slot lengths), never repeats the result just before landing, then reveals with name tag pop, rays spin and highlight fade. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/ZoneBanner_CanvasGroupFade__smash-egg-for-animals.lua",
+  "title": "Zone entry banner",
+  "game": "smash-egg-for-animals",
+  "desc": "Area-entry banner built in code: CanvasGroup fades in (GroupTransparency) while sliding down with Back-out, gradient title, auto-hides after 3 s. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/RunAlert_ScreenEdgePulse__smash-egg-for-animals.lua",
+  "title": "Screen-edge danger pulse",
+  "game": "smash-egg-for-animals",
+  "desc": "Danger alert: big \"RUN!\" text slams in from 2.4x scale, full-screen red flash, four gradient screen edges and the text heartbeat-pulse via sin() on RenderStepped. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/GradientPolish_SunRays__smash-egg-for-animals.lua",
+  "title": "Gradient polish + sun rays",
+  "game": "smash-egg-for-animals",
+  "desc": "Upgrades every 2-colour UIGradient into a 4-stop \"glossy\" gradient and spins sun-ray images behind chosen icons. Needs the game PetPortrait.rays helper. Comments in French.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/PopUpController_RewardFloat__brainrot-lab.lua",
+  "title": "Floating reward popups",
+  "game": "brainrot-lab",
+  "desc": "\"+$amount\" reward popups at a random spot near screen centre: size pop with Back-out, content fade-in, then float up and fade out.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/AlertStack_MergingToasts__bee-swarm-sim.lua",
+  "title": "Merging alert stack",
+  "game": "bee-swarm-sim",
+  "desc": "Stacked alerts that grow from 0 size with Back-out, merge repeated item alerts by summing amounts, and shrink away after a lifetime.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/ButtonHoverPressSize__pet-rng.lua",
+  "title": "Simple hover/press module",
+  "game": "pet-rng",
+  "desc": "Simple Size-based hover (1.1x) / press (0.8x) module with hover+click sounds, random icon tilt on hover, and keyboard-key press animation.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/TransitionTypewriterFade__pet-rng.lua",
+  "title": "Screen transition + typewriter title",
+  "game": "pet-rng",
+  "desc": "Teleport transition: fades a full-screen frame in, tweens MaxVisibleGraphemes for a typewriter title, moves the character, then fades everything out.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/RollHandler_RNGReveal__pet-rng.lua",
+  "title": "RNG roll reveal",
+  "game": "pet-rng",
+  "desc": "RNG roll display: flashes 4 random results with a tiny shake, then the real one with rarity colour, \"1/N\" chance and an expanding ring; auto-roll loop.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/ShimmerSweep__punching-simulator.lua",
+  "title": "Gradient shine sweep",
+  "game": "punching-simulator",
+  "desc": "The classic shine sweep: tween a UIGradient Offset from (-1,0) to (1,0) every 2 s, then snap back.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/RainbowGradientSweep__punching-simulator.lua",
+  "title": "Rainbow gradient sweep",
+  "game": "punching-simulator",
+  "desc": "Endless rainbow sweep across a label: Offset sweep while rotating through a 15-colour HSV palette, flipping Rotation 0/180 each pass.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/SprSpringLibrary__punching-simulator.lua",
+  "title": "spr spring animator library",
+  "game": "punching-simulator",
+  "desc": "The open-source \"spr\" spring library (MIT, Fraktality): spr.Target(instance, dampingRatio, frequency, {props}) animates any property with a critically/under-damped spring.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/SpinWheel_SprWindow__punching-simulator.lua",
+  "title": "Spin wheel + spring window",
+  "game": "punching-simulator",
+  "desc": "Reward wheel spin landing on a slot (5 full turns + slot offset, Quint out, 5 s) and window open/close driven by spr springs on Position, camera FOV and Blur.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "01-UI-Animation/SpringClass_Quenty__doors.lua",
+  "title": "Analytic spring class",
+  "game": "doors",
+  "desc": "Classic analytic spring class (Quenty style): set .Target, read .Position each frame; works with numbers or Vector3. Good base for springy UI scale/offset.",
+  "category": "ui-animation"
+ },
+ {
+  "file": "02-UI-Framework/FrameManager__brainrot-lab.lua",
+  "title": "FrameManager (one frame at a time)",
+  "game": "brainrot-lab",
+  "desc": "Opens one frame at a time with a slide-up tween; buttons wired as Open/Close/Toggle.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/UIInitializer__brainrot-lab.lua",
+  "title": "UI initializer with name-based button binding",
+  "game": "brainrot-lab",
+  "desc": "Hides frames on boot, binds HUD buttons to frames by name, hover/press animations, opens menus from pads or by distance.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/HUDController__brainrot-lab.lua",
+  "title": "HUD stats controller",
+  "game": "brainrot-lab",
+  "desc": "Syncs HUD labels with leaderstats and wires product, random-item and invite buttons with button animations.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/HUDButtonController__needoh-escape.lua",
+  "title": "HUD panel pop (UIScale)",
+  "game": "needoh-escape",
+  "desc": "HUD buttons pop panels open/closed by tweening a UIScale, one panel at a time, reset on respawn.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/SingleOpenGuiHandler__zombie-outbreak-survival.lua",
+  "title": "Single open ScreenGui handler",
+  "game": "zombie-outbreak-survival",
+  "desc": "Disables the other listed ScreenGuis whenever one becomes enabled.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/WindowOpenFx__smash-egg-for-animals.lua",
+  "title": "Global window pop-in effect",
+  "game": "smash-egg-for-animals",
+  "desc": "Watches every Main/Window/Panel frame and pops it in from 80% scale when shown.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/UIRouter__punching-simulator.lua",
+  "title": "UI router (module per screen)",
+  "game": "punching-simulator",
+  "desc": "Loads every UI module, runs init/start, and opens/closes screens by name with one open at a time.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/FrameAnimator__drill-and-mine.lua",
+  "title": "FrameAnimator (blur, FOV, HUD slide)",
+  "game": "drill-and-mine",
+  "desc": "Full frame manager with size/fade tweens, blur, FOV zoom, HUD sliding off-screen and button/part triggers.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/HUDSlideController__drill-and-mine.lua",
+  "title": "HUD slide off-screen by area",
+  "game": "drill-and-mine",
+  "desc": "Slides HUD edge groups off-screen when the player leaves home, using a manual Heartbeat lerp.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/UiStrokeScaler__drill-and-mine.lua",
+  "title": "UIStroke screen scaler",
+  "game": "drill-and-mine",
+  "desc": "Scales every UIStroke thickness by screen width relative to 1920 px.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/GuiHelpers__please-donate.lua",
+  "title": "GUI helpers (open frame + FOV)",
+  "game": "please-donate",
+  "desc": "Open a frame with slide and FOV tween while closing others, loading overlay, text popups, alert.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/HudHideShow__pet-rng.lua",
+  "title": "Hide/show HUD groups",
+  "game": "pet-rng",
+  "desc": "Slides the left, right and bottom HUD groups off-screen and back.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/SideButtonsAndFrames__pet-rng.lua",
+  "title": "Side buttons toggle frames",
+  "game": "pet-rng",
+  "desc": "Side buttons slide on hover and toggle the same-named frame; close buttons wired on every frame.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/GuiIndexer__big-paintball.lua",
+  "title": "GUI indexer + mouse unlock",
+  "game": "big-paintball",
+  "desc": "Indexes every ScreenGui child by name and provides a Modal button to free the mouse in first person.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/GuiManager__work-at-a-pizza-place.lua",
+  "title": "GuiManager widget framework",
+  "game": "work-at-a-pizza-place",
+  "desc": "Registers windows and widgets (tabs, sliders, toggles, dropdowns, lists, radial menu) and closes all windows.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/Window__work-at-a-pizza-place.lua",
+  "title": "Gamepad-aware Window class",
+  "game": "work-at-a-pizza-place",
+  "desc": "Tweened show/hide, blur, cancel/B to close, per-window gamepad actions and selection focus.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/TabGroup__work-at-a-pizza-place.lua",
+  "title": "TabGroup class",
+  "game": "work-at-a-pizza-place",
+  "desc": "Keeps one tab pressed, fires TabChanged, cycles tabs with L1/R1.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/Tab__work-at-a-pizza-place.lua",
+  "title": "Tab button class",
+  "game": "work-at-a-pizza-place",
+  "desc": "Single tab button used by TabGroup with pressed/unpressed styles.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/DropdownMenu__work-at-a-pizza-place.lua",
+  "title": "Dropdown menu widget",
+  "game": "work-at-a-pizza-place",
+  "desc": "Expandable option list that fires opened/selected events.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/RadialMenu__work-at-a-pizza-place.lua",
+  "title": "Gamepad radial menu",
+  "game": "work-at-a-pizza-place",
+  "desc": "Picks one of six wedges from the thumbstick angle.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/Slider__work-at-a-pizza-place.lua",
+  "title": "Slider widget",
+  "game": "work-at-a-pizza-place",
+  "desc": "Draggable 0-1 slider for mouse, touch and gamepad.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/_patterns/WindowManager.lua",
+  "title": "WindowManager (pattern)",
+  "game": "pattern",
+  "desc": "One-open-at-a-time windows with optional stack/Back, UIScale pop, blur, HUD hiding, gamepad B close, auto-binding.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/_patterns/DeviceScaler.lua",
+  "title": "DeviceScaler (pattern)",
+  "game": "pattern",
+  "desc": "UIScale per ScreenGui by screen size plus PC/Touch/Gamepad detection with a change event.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/_patterns/TabGroup.lua",
+  "title": "TabGroup (pattern)",
+  "game": "pattern",
+  "desc": "Tab buttons and pages matched by name, one selected, Changed event, L1/R1 cycling.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "02-UI-Framework/_patterns/InputBinder.lua",
+  "title": "InputBinder (pattern)",
+  "game": "pattern",
+  "desc": "Keyboard/gamepad keys bound to UI actions with conditions, typing guard, per-device key hints and touch buttons.",
+  "category": "ui-framework"
+ },
+ {
+  "file": "19-Utility/NumberFormatter-Adaptive__needoh-escape.lua",
+  "title": "Number abbreviation (adaptive decimals)",
+  "game": "needoh-escape",
+  "desc": "Abbreviates numbers with a 100+ entry suffix list (k, M, B ... Ce), 2/1/0 decimals depending on size, trailing zeros stripped, %.2e fallback past the list.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/FormatUtils-CommasTimeAbbrev__drill-and-mine.lua",
+  "title": "Commas, clock time, abbreviation",
+  "game": "drill-and-mine",
+  "desc": "Three helpers: FormatNumber adds thousands commas, FormatTime gives mm:ss or h:mm:ss, Abbreviate gives 1.5M style text with a long suffix list.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/Suffixes-Truncating__rcu-roller.lua",
+  "title": "Truncating suffix formatter",
+  "game": "rcu-roller",
+  "desc": "One-function abbreviator that FLOORS to N decimals instead of rounding, so 1999 shows 1.99K and never more money than the player has.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/NumberUtility-TimersRoman__punching-simulator.lua",
+  "title": "Number + timer formats, roman numerals",
+  "game": "punching-simulator",
+  "desc": "short() suffix formatter, decimal(), commas() via reverse+gsub, colon/short/long timer formats with auto unit choice, and roman numeral to/from (for tiers like 'Rebirth IV').",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/NameCache__drill-and-mine.lua",
+  "title": "UserId -> name cache",
+  "game": "drill-and-mine",
+  "desc": "Tiny function that caches GetNameFromUserIdAsync results so boards and UIs do not call the web API repeatedly.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/TableUtility-Functional__punching-simulator.lua",
+  "title": "Table helpers (map/filter/deep get/set)",
+  "game": "punching-simulator",
+  "desc": "Functional table helpers: all, once, filter, max/min by mapper, entries, match, length, map, sort, and deep set/get by path, deep compare and deep copy.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/TableUtil-Small__aura-ascension.lua",
+  "title": "Minimal table helpers",
+  "game": "aura-ascension",
+  "desc": "DeepCopy (keys too), ShallowCopy, ArrayToSet, SetToArray (sorted) and SanitizeKey.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/RandomUtility-Weighted__punching-simulator.lua",
+  "title": "Weighted random pick",
+  "game": "punching-simulator",
+  "desc": "chance(d) picks a key from a {key = weight} dictionary with a cumulative-weight roll.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/Pool-Simple__punching-simulator.lua",
+  "title": "Simple object pool",
+  "game": "punching-simulator",
+  "desc": "Minimal object pool: get() reuses a returned instance or clones the template, back() puts one back.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/Network-Multiplexed__punching-simulator.lua",
+  "title": "One remote, many named channels",
+  "game": "punching-simulator",
+  "desc": "Network module that sends every call through ONE RemoteEvent/RemoteFunction with a name, plus the same API for bindables; Fired/Invoked return a disconnect function.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/Core_Network-SafeBind__steal-an-egg.lua",
+  "title": "Remote binder with xpcall",
+  "game": "steal-an-egg",
+  "desc": "Creates remotes on demand in one folder (asserting the class), wraps every handler in xpcall with a traceback, and returns a friendly error from failed RemoteFunctions instead of throwing to the client.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/RemoteBinder-PerService__aura-ascension.lua",
+  "title": "Remotes grouped per service",
+  "game": "aura-ascension",
+  "desc": "Creates RF/RE folders per service on demand (Knit-style layout) and binds functions / fires events by service + name.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/RateLimiter-PerKey__aura-ascension.lua",
+  "title": "Per-player per-key cooldown limiter",
+  "game": "aura-ascension",
+  "desc": "Allow(player, key, cooldown) returns false (and the time left) until the cooldown for that key has passed; Forget(player) on leave.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/RemoteFallbacks-DevTool__rivals-modded.lua",
+  "title": "Fallback handlers + remote logger (dev tool)",
+  "game": "rivals-modded",
+  "desc": "Gives every RemoteFunction that has no handler one that returns nil (so clients never hang forever) and logs the first calls to each remote with argument types.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/_patterns/Format.lua",
+  "title": "Format (numbers, time, odds, parsing)",
+  "game": "pattern",
+  "desc": "Abbreviate (rounding or truncating, carry 999.95K -> 1M), Commas, Clock, Short/Long durations, Ago, Percent, Odds ('1 in 2.5K'), Parse('2.5M'), Ordinal.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/_patterns/Net.lua",
+  "title": "Net (validated, rate-limited remotes)",
+  "game": "pattern",
+  "desc": "Remote wrapper: server-created remotes in one folder, per-handler argument type schema (rejects NaN/inf/huge strings), token-bucket rate limit per player, pcall'd handlers, (ok, ...) replies.",
+  "category": "utility"
+ },
+ {
+  "file": "19-Utility/_patterns/Toolkit.lua",
+  "title": "Toolkit (weighted random, cooldown, pool)",
+  "game": "pattern",
+  "desc": "WeightedPicker with luck multiplier for rare entries and seeds, Cooldown/Debounce keyed by anything, and an object Pool with prewarm and max size.",
+  "category": "utility"
+ },
+ {
+  "file": "06-VFX/EffectUtility__bite-by-night.lua",
+  "title": "EffectUtility",
+  "game": "bite-by-night",
+  "desc": "Attribute-driven emit helper + Beam transparency tween (keypoint by keypoint).",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/VFXLibrary__steal-a-brainrot-sab-files.lua",
+  "title": "VFX library",
+  "game": "steal-a-brainrot-sab-files",
+  "desc": "Compact VFX library: copy-to-position, follow, rescale, emit by attributes, tag-driven emit loops.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/ParticleHelpers__jujutsu-shenanigans.lua",
+  "title": "Particle helpers",
+  "game": "jujutsu-shenanigans",
+  "desc": "Highest-lifetime lookup, emit all, toggle, scale lifetime, tween model scale.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/FxController__smash-egg-for-animals.lua",
+  "title": "Fx controller (burst / attach / aura / mesh / projectile / light)",
+  "game": "smash-egg-for-animals",
+  "desc": "Most complete VFX controller: burst, attach-to-part, full-body aura, growing mesh shockwave, projectile, light flash.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/LimbTrails__jujutsu-shenanigans.lua",
+  "title": "Limb trails",
+  "game": "jujutsu-shenanigans",
+  "desc": "Attach a trail or particle part to a limb for N seconds, then let it fade in place.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/ReversalRedAbility__jujutsu-shenanigans.lua",
+  "title": "Ability: charge, projectile, explosion",
+  "game": "jujutsu-shenanigans",
+  "desc": "Reference ability timeline: charge-up tweens -> projectile -> multi-emitter explosion -> knockback.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/BarrageArmsBezier__jujutsu-shenanigans.lua",
+  "title": "Barrage arms + shockwaves",
+  "game": "jujutsu-shenanigans",
+  "desc": "Bezier-curve ghost arms + tiny shockwave rings for a barrage / rapid punch.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/BlackHolePortal__smash-egg-for-animals.lua",
+  "title": "Black hole portal",
+  "game": "smash-egg-for-animals",
+  "desc": "Procedural layered portal (open / close / flare / suck) animated every frame.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/BossAuraCulling__smash-egg-for-animals.lua",
+  "title": "Boss aura with distance culling",
+  "game": "smash-egg-for-animals",
+  "desc": "Client aura manager: idle/run emitter rates, pulsing glow, flickering arcs, distance culling at 8 Hz.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/HeadshotScreenFX__street-life.lua",
+  "title": "Headshot screen effect",
+  "game": "street-life",
+  "desc": "Hit-confirm screen punch: blur + color correction + small FOV dip.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/FlashbangScreen__miami-shootout.lua",
+  "title": "Flashbang screen",
+  "game": "miami-shootout",
+  "desc": "Flashbang: white frame in 0.15 s, hold, fade out 3 s, ear ringing.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/BulletImpactAndBloodFX__miami-shootout.lua",
+  "title": "Bullet impact & blood FX",
+  "game": "miami-shootout",
+  "desc": "Per-material bullet impacts oriented to the surface normal, tinted to the hit part, plus blood.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/FireworkBurst__drill-and-mine.lua",
+  "title": "Firework burst",
+  "game": "drill-and-mine",
+  "desc": "Ring of firework bursts with staged emits and safe sound cleanup.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/ConfettiFX__drill-and-mine.lua",
+  "title": "Confetti FX",
+  "game": "drill-and-mine",
+  "desc": "Self-contained UI confetti + world burst for rewards / celebrations.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/LightningDeathEffect__murder-mystery-2.lua",
+  "title": "Death effect module",
+  "game": "murder-mystery-2",
+  "desc": "Cosmetic death effect as a function(char) module (how MM2 stores death effects).",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/LightningFade__natural-disaster.lua",
+  "title": "Lightning fade",
+  "game": "natural-disaster",
+  "desc": "Tiny classic: fade a bolt model out frame by frame.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/_patterns/EffectPlayer.lua",
+  "title": "EffectPlayer (pattern)",
+  "game": "pattern",
+  "desc": "Clone any effect template to a position or onto a part, emit by attributes, auto cleanup, Stop() for loops.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/_patterns/ScreenEffects.lua",
+  "title": "ScreenEffects (pattern)",
+  "game": "pattern",
+  "desc": "Flash, color tint pulse, blur pulse and desaturate, safe to call repeatedly.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/_patterns/Lightning.lua",
+  "title": "Lightning (pattern)",
+  "game": "pattern",
+  "desc": "Procedural jagged lightning bolts with branches, light flash and flicker; crackling arcs between parts.",
+  "category": "vfx"
+ },
+ {
+  "file": "06-VFX/_patterns/Shockwave.lua",
+  "title": "Shockwave (pattern)",
+  "game": "pattern",
+  "desc": "Expanding ground ring, expanding sphere, and a crater of rocks that copy the ground's material.",
+  "category": "vfx"
+ }
+]

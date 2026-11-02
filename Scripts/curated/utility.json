@@ -1,0 +1,121 @@
+[
+  {
+    "file": "19-Utility/NumberFormatter-Adaptive__needoh-escape.lua",
+    "title": "Number abbreviation (adaptive decimals)",
+    "game": "needoh-escape",
+    "desc": "Abbreviates numbers with a 100+ entry suffix list (k, M, B ... Ce), 2/1/0 decimals depending on size, trailing zeros stripped, %.2e fallback past the list.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/FormatUtils-CommasTimeAbbrev__drill-and-mine.lua",
+    "title": "Commas, clock time, abbreviation",
+    "game": "drill-and-mine",
+    "desc": "Three helpers: FormatNumber adds thousands commas, FormatTime gives mm:ss or h:mm:ss, Abbreviate gives 1.5M style text with a long suffix list.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/Suffixes-Truncating__rcu-roller.lua",
+    "title": "Truncating suffix formatter",
+    "game": "rcu-roller",
+    "desc": "One-function abbreviator that FLOORS to N decimals instead of rounding, so 1999 shows 1.99K and never more money than the player has.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/NumberUtility-TimersRoman__punching-simulator.lua",
+    "title": "Number + timer formats, roman numerals",
+    "game": "punching-simulator",
+    "desc": "short() suffix formatter, decimal(), commas() via reverse+gsub, colon/short/long timer formats with auto unit choice, and roman numeral to/from (for tiers like 'Rebirth IV').",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/NameCache__drill-and-mine.lua",
+    "title": "UserId -> name cache",
+    "game": "drill-and-mine",
+    "desc": "Tiny function that caches GetNameFromUserIdAsync results so boards and UIs do not call the web API repeatedly.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/TableUtility-Functional__punching-simulator.lua",
+    "title": "Table helpers (map/filter/deep get/set)",
+    "game": "punching-simulator",
+    "desc": "Functional table helpers: all, once, filter, max/min by mapper, entries, match, length, map, sort, and deep set/get by path, deep compare and deep copy.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/TableUtil-Small__aura-ascension.lua",
+    "title": "Minimal table helpers",
+    "game": "aura-ascension",
+    "desc": "DeepCopy (keys too), ShallowCopy, ArrayToSet, SetToArray (sorted) and SanitizeKey.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/RandomUtility-Weighted__punching-simulator.lua",
+    "title": "Weighted random pick",
+    "game": "punching-simulator",
+    "desc": "chance(d) picks a key from a {key = weight} dictionary with a cumulative-weight roll.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/Pool-Simple__punching-simulator.lua",
+    "title": "Simple object pool",
+    "game": "punching-simulator",
+    "desc": "Minimal object pool: get() reuses a returned instance or clones the template, back() puts one back.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/Network-Multiplexed__punching-simulator.lua",
+    "title": "One remote, many named channels",
+    "game": "punching-simulator",
+    "desc": "Network module that sends every call through ONE RemoteEvent/RemoteFunction with a name, plus the same API for bindables; Fired/Invoked return a disconnect function.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/Core_Network-SafeBind__steal-an-egg.lua",
+    "title": "Remote binder with xpcall",
+    "game": "steal-an-egg",
+    "desc": "Creates remotes on demand in one folder (asserting the class), wraps every handler in xpcall with a traceback, and returns a friendly error from failed RemoteFunctions instead of throwing to the client.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/RemoteBinder-PerService__aura-ascension.lua",
+    "title": "Remotes grouped per service",
+    "game": "aura-ascension",
+    "desc": "Creates RF/RE folders per service on demand (Knit-style layout) and binds functions / fires events by service + name.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/RateLimiter-PerKey__aura-ascension.lua",
+    "title": "Per-player per-key cooldown limiter",
+    "game": "aura-ascension",
+    "desc": "Allow(player, key, cooldown) returns false (and the time left) until the cooldown for that key has passed; Forget(player) on leave.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/RemoteFallbacks-DevTool__rivals-modded.lua",
+    "title": "Fallback handlers + remote logger (dev tool)",
+    "game": "rivals-modded",
+    "desc": "Gives every RemoteFunction that has no handler one that returns nil (so clients never hang forever) and logs the first calls to each remote with argument types.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/_patterns/Format.lua",
+    "title": "Format (numbers, time, odds, parsing)",
+    "game": "pattern",
+    "desc": "Abbreviate (rounding or truncating, carry 999.95K -> 1M), Commas, Clock, Short/Long durations, Ago, Percent, Odds ('1 in 2.5K'), Parse('2.5M'), Ordinal.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/_patterns/Net.lua",
+    "title": "Net (validated, rate-limited remotes)",
+    "game": "pattern",
+    "desc": "Remote wrapper: server-created remotes in one folder, per-handler argument type schema (rejects NaN/inf/huge strings), token-bucket rate limit per player, pcall'd handlers, (ok, ...) replies.",
+    "category": "utility"
+  },
+  {
+    "file": "19-Utility/_patterns/Toolkit.lua",
+    "title": "Toolkit (weighted random, cooldown, pool)",
+    "game": "pattern",
+    "desc": "WeightedPicker with luck multiplier for rare entries and seeds, Cooldown/Debounce keyed by anything, and an object Pool with prewarm and max size.",
+    "category": "utility"
+  }
+]

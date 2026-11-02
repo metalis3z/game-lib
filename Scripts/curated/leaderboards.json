@@ -1,0 +1,100 @@
+[
+  {
+    "file": "15-Leaderboards/LeaderboardService-PodiumAndTags__drill-and-mine.lua",
+    "title": "Boards + #1 podium + rank tags",
+    "game": "drill-and-mine",
+    "desc": "Config list of boards (store, value getter, formatter), SurfaceGui rows with headshots, a #1 podium dummy wearing the top player's avatar (rig scale kept), per-board rank attributes and a '[#3 Cash]' chat tag, playtime counter.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/LeaderboardService-LiveMerge__rivals-modded.lua",
+    "title": "Live merge + write-on-change",
+    "game": "rivals-modded",
+    "desc": "Reads each board's top every minute, merges everyone in the server at their live value so a new win shows instantly, writes only values that changed, request cooldown and name validation on the client remote.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/LeaderboardService-LogScale-Friends-Country__steal-a-brainrot.lua",
+    "title": "Log-scaled values, friends and country boards",
+    "game": "steal-a-brainrot",
+    "desc": "Stores huge values as log(value)/log(1.0000001) so they fit an ordered store, a 12s read cache, a friends board (GetFriendsAsync + GetAsync per friend), a country board (LocalizationService) with an opt-out toggle.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/LeaderboardService-SanitizeMerge__aura-ascension.lua",
+    "title": "Sanitise, publish-on-change, merge (excerpt)",
+    "game": "aura-ascension",
+    "desc": "Clamps values (NaN/inf/negative/too big) before writing, publishes only changed values on an interval, formats durations and big numbers, and merges cached global entries with live players before sorting.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/LeaderboardController-FastestTime__needoh-escape.lua",
+    "title": "Fastest-time board (inverted ms)",
+    "game": "needoh-escape",
+    "desc": "Several boards from one config, including a best-time board that stores MAX_MS - timeMs so a descending sort shows the fastest run first, plus mm:ss.mmm and 1h 2m 3s formatters.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/LeaderboardService-Knit__rcu-roller.lua",
+    "title": "Config-driven Knit board service",
+    "game": "rcu-roller",
+    "desc": "Knit service that, for each board in a shared config, uploads online players, reads the top 100, attaches cached user infos (display name, verified badge) and fires one signal to clients.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/GlobalLeaderboard-Basic__uno.lua",
+    "title": "Basic ordered store board",
+    "game": "uno",
+    "desc": "The beginner version: GetSortedAsync top 50 into a SurfaceGui scroller with GetNameFromUserIdAsync, and SetAsync helpers with retry.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/TimePlayedClass-RenanMSV__steal-a-brainrot.lua",
+    "title": "Time-played board (RenanMSV toolbox model)",
+    "game": "steal-a-brainrot",
+    "desc": "Self-contained 'most time played' board class from RenanMSV's public model: settings module, score update and board refresh timers, username/thumbnail caches, optional dancing #1 rig.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/DataHandler-OrderedStoreBackfill__escape-kitty-keyboard.lua",
+    "title": "Ordered stores fed from the save + backfill",
+    "game": "escape-kitty-keyboard",
+    "desc": "Writes Wins/XP/Rebirths to ordered stores on every save (math.floor to avoid ValueNotNumeric), a faster ordered-store-only update, and a one-time backfill of known players' saved data.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/Leaderstats-Abbreviated__aura-ascension.lua",
+    "title": "Abbreviated leaderstats (excerpt)",
+    "game": "aura-ascension",
+    "desc": "Creates leaderstats with StringValue columns and fills them with FormatNumber text (1.2M) from the profile.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/LeaderStats-Mirror__forsaken.lua",
+    "title": "Leaderstats mirrored from data values",
+    "game": "forsaken",
+    "desc": "Clones a leaderstats template and mirrors Money/KillerChance from the player's data folder with GetPropertyChangedSignal.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/leaderstats-Playtime__natural-disaster.lua",
+    "title": "Simplest saved playtime stat",
+    "game": "natural-disaster",
+    "desc": "Tutorial-style leaderstats Time counter that saves on leave and BindToClose.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/_patterns/GlobalLeaderboard.lua",
+    "title": "GlobalLeaderboard (ordered store board)",
+    "game": "pattern",
+    "desc": "One ordered-store board: write-on-change with interval, keep-best UpdateAsync, ascending boards, log-encoded big numbers, daily/weekly period stores, live merge, batched names, OnUpdated callback, Abbreviate helper.",
+    "category": "leaderboards"
+  },
+  {
+    "file": "15-Leaderboards/_patterns/LeaderstatsMirror.lua",
+    "title": "LeaderstatsMirror (player list columns)",
+    "game": "pattern",
+    "desc": "Builds leaderstats from getter functions and keeps it synced; numeric columns or abbreviated StringValue columns.",
+    "category": "leaderboards"
+  }
+]

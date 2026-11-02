@@ -1,0 +1,79 @@
+[
+  {
+    "file": "16-Admin/AdminService-AuditRateLimit__aura-ascension.lua",
+    "title": "Admin service with whitelist, rate limit, audit",
+    "game": "aura-ascension",
+    "desc": "Admin check by UserIds or group rank (from a config module), per-admin rate limit, an AllowedCommands whitelist, structured payloads, and an audit log of who ran what.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/AdminCommandsService-Console__drill-and-mine.lua",
+    "title": "Text console with owner-only wipes",
+    "game": "drill-and-mine",
+    "desc": "F2 text console backend: tokenizer, partial-name player lookup, give-anything commands that reuse the real grant paths, aliases, help text, owner-only data wipe, cross-server shutdown via MessagingService.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/AdminConsoleClient-F2Console__drill-and-mine.lua",
+    "title": "F2 console UI (client)",
+    "game": "drill-and-mine",
+    "desc": "Client side of the console: asks the server if you are an admin, builds a small F2 text box UI, sends the raw line with RunCommand and prints the reply.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/CmdrServer-CommandParser__catalogue-avatar-creator.lua",
+    "title": "Command string parser (me/all selectors)",
+    "game": "catalogue-avatar-creator",
+    "desc": "Server handler for a command bar: one RemoteFunction, admin check through a server-set IsAdministrator attribute, me/all/partial-name selectors, kick/ban/teleport/bring/god and more, pcall'd handlers.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/AdminPanelServer-Moderation__escape-kitty-keyboard.lua",
+    "title": "Panel server: kick/ban/freeze/troll",
+    "game": "escape-kitty-keyboard",
+    "desc": "Remote functions for an admin panel: player list, kick, DataStore ban/unban checked on join, freeze that survives respawn, fun actions (ragdoll, spin, invisible, spectate), per-admin cooldown.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/CommandManager-RankedModules__forsaken.lua",
+    "title": "Commands as ModuleScripts with required ranks",
+    "game": "forsaken",
+    "desc": "Each command is a ModuleScript (title, parameters, RequiredRank, AllowedInVIP, Executed); the server sends only the commands your rank allows and re-checks the rank on execute; private-server owners get VIP-safe commands.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/CommandsService-ConchLoader__evade.lua",
+    "title": "Conch console: one module per command",
+    "game": "evade",
+    "desc": "Loads every ModuleScript in a Commands folder into the Conch console, gives the super-user role to permitted players and sends them the command list.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/ConsolePermissions__evade.lua",
+    "title": "Permission check: user ids or group rank",
+    "game": "evade",
+    "desc": "hasPermission(player): true if the UserId is in Config.AllowedUserIds or the player's rank in Config.GroupId is at least MinGroupRank.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/AdminHandler-PanelRemotes__brainrot-lab.lua",
+    "title": "Panel server: one handler per remote",
+    "game": "brainrot-lab",
+    "desc": "Admin panel backend with one function per remote (spawn items, start/end events locally or globally, announcements, private-server tools, youtuber tags), each starting with an isAdmin check, plus player resolving by id or name.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/_patterns/AdminPermissions.lua",
+    "title": "AdminPermissions (levels from owner/group/ids)",
+    "game": "pattern",
+    "desc": "Resolves Player/VIP/Moderator/Admin/Owner from game owner, group ranks, your own UserId list and private-server ownership; caches it and mirrors an AdminLevel attribute.",
+    "category": "admin"
+  },
+  {
+    "file": "16-Admin/_patterns/AdminCommands.lua",
+    "title": "AdminCommands (safe text commands)",
+    "game": "pattern",
+    "desc": "Command registry with levels, typed args (player/players/number/string), me/all/others selectors, rate limit, admin-only audit log, built-in help/kick/ban/unban/announce using the Roblox Ban API.",
+    "category": "admin"
+  }
+]

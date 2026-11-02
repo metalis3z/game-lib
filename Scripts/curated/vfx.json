@@ -1,0 +1,142 @@
+[
+  {
+    "file": "06-VFX/EffectUtility__bite-by-night.lua",
+    "title": "EffectUtility",
+    "game": "bite-by-night",
+    "desc": "Attribute-driven emit helper + Beam transparency tween (keypoint by keypoint).",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/VFXLibrary__steal-a-brainrot-sab-files.lua",
+    "title": "VFX library",
+    "game": "steal-a-brainrot-sab-files",
+    "desc": "Compact VFX library: copy-to-position, follow, rescale, emit by attributes, tag-driven emit loops.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/ParticleHelpers__jujutsu-shenanigans.lua",
+    "title": "Particle helpers",
+    "game": "jujutsu-shenanigans",
+    "desc": "Highest-lifetime lookup, emit all, toggle, scale lifetime, tween model scale.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/FxController__smash-egg-for-animals.lua",
+    "title": "Fx controller (burst / attach / aura / mesh / projectile / light)",
+    "game": "smash-egg-for-animals",
+    "desc": "Most complete VFX controller: burst, attach-to-part, full-body aura, growing mesh shockwave, projectile, light flash.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/LimbTrails__jujutsu-shenanigans.lua",
+    "title": "Limb trails",
+    "game": "jujutsu-shenanigans",
+    "desc": "Attach a trail or particle part to a limb for N seconds, then let it fade in place.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/ReversalRedAbility__jujutsu-shenanigans.lua",
+    "title": "Ability: charge, projectile, explosion",
+    "game": "jujutsu-shenanigans",
+    "desc": "Reference ability timeline: charge-up tweens -> projectile -> multi-emitter explosion -> knockback.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/BarrageArmsBezier__jujutsu-shenanigans.lua",
+    "title": "Barrage arms + shockwaves",
+    "game": "jujutsu-shenanigans",
+    "desc": "Bezier-curve ghost arms + tiny shockwave rings for a barrage / rapid punch.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/BlackHolePortal__smash-egg-for-animals.lua",
+    "title": "Black hole portal",
+    "game": "smash-egg-for-animals",
+    "desc": "Procedural layered portal (open / close / flare / suck) animated every frame.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/BossAuraCulling__smash-egg-for-animals.lua",
+    "title": "Boss aura with distance culling",
+    "game": "smash-egg-for-animals",
+    "desc": "Client aura manager: idle/run emitter rates, pulsing glow, flickering arcs, distance culling at 8 Hz.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/HeadshotScreenFX__street-life.lua",
+    "title": "Headshot screen effect",
+    "game": "street-life",
+    "desc": "Hit-confirm screen punch: blur + color correction + small FOV dip.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/FlashbangScreen__miami-shootout.lua",
+    "title": "Flashbang screen",
+    "game": "miami-shootout",
+    "desc": "Flashbang: white frame in 0.15 s, hold, fade out 3 s, ear ringing.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/BulletImpactAndBloodFX__miami-shootout.lua",
+    "title": "Bullet impact & blood FX",
+    "game": "miami-shootout",
+    "desc": "Per-material bullet impacts oriented to the surface normal, tinted to the hit part, plus blood.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/FireworkBurst__drill-and-mine.lua",
+    "title": "Firework burst",
+    "game": "drill-and-mine",
+    "desc": "Ring of firework bursts with staged emits and safe sound cleanup.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/ConfettiFX__drill-and-mine.lua",
+    "title": "Confetti FX",
+    "game": "drill-and-mine",
+    "desc": "Self-contained UI confetti + world burst for rewards / celebrations.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/LightningDeathEffect__murder-mystery-2.lua",
+    "title": "Death effect module",
+    "game": "murder-mystery-2",
+    "desc": "Cosmetic death effect as a function(char) module (how MM2 stores death effects).",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/LightningFade__natural-disaster.lua",
+    "title": "Lightning fade",
+    "game": "natural-disaster",
+    "desc": "Tiny classic: fade a bolt model out frame by frame.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/_patterns/EffectPlayer.lua",
+    "title": "EffectPlayer (pattern)",
+    "game": "pattern",
+    "desc": "Clone any effect template to a position or onto a part, emit by attributes, auto cleanup, Stop() for loops.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/_patterns/ScreenEffects.lua",
+    "title": "ScreenEffects (pattern)",
+    "game": "pattern",
+    "desc": "Flash, color tint pulse, blur pulse and desaturate, safe to call repeatedly.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/_patterns/Lightning.lua",
+    "title": "Lightning (pattern)",
+    "game": "pattern",
+    "desc": "Procedural jagged lightning bolts with branches, light flash and flicker; crackling arcs between parts.",
+    "category": "vfx"
+  },
+  {
+    "file": "06-VFX/_patterns/Shockwave.lua",
+    "title": "Shockwave (pattern)",
+    "game": "pattern",
+    "desc": "Expanding ground ring, expanding sphere, and a crater of rocks that copy the ground's material.",
+    "category": "vfx"
+  }
+]
