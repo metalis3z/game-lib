@@ -1,0 +1,10 @@
+local ts = game:GetService("TweenService")
+
+script.Parent.MouseButton1Click:Connect(function()
+	ts:Create(script.Parent, TweenInfo.new(0.2), {Size = UDim2.fromScale(0.162 * 0.8, 0.075 * 0.8)}):Play()
+	task.wait(0.2)
+	ts:Create(script.Parent, TweenInfo.new(0.15), {Size = UDim2.fromScale(0.162 * 1.1, 0.075 * 1.1)}):Play()
+	task.wait(0.15)
+	ts:Create(script.Parent, TweenInfo.new(0.1), {Size = UDim2.fromScale(0.162, 0.075)}):Play()
+	task.wait(0.1)
+end)

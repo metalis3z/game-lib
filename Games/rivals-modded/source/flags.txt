@@ -1,0 +1,71 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ReplicatedFirst/LocalScript3.client.lua lines 73
+       very long line (139352 chars, possible obfuscation)
+[MED] scripts/ReplicatedFirst/Root.client.lua lines 6133
+       very long line (182904 chars, possible obfuscation)
+[MED] scripts/ServerScriptService/ServerPackages/_Index/lm-loleris_profilestore@1.0.3/profilestore.lua lines 617,1282,1731,2017
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/ObfuscatedOriginals/ClientFighter.lua lines 2295
+       very long line (191147 chars, possible obfuscation)
+[MED] scripts/ServerStorage/ObfuscatedOriginals/ClientItem.lua lines 172
+       very long line (141615 chars, possible obfuscation)
+[MED] scripts/ServerStorage/ObfuscatedOriginals/MiscellaneousController.lua lines 1318
+       very long line (108122 chars, possible obfuscation)
+[MED] scripts/ServerStorage/ObfuscatedOriginals/ReplicatedController.lua lines 819
+       very long line (110300 chars, possible obfuscation)
+[MED] scripts/StarterPlayer/StarterPlayerScripts/Modules/CameraSecurity.lua lines 460
+       very long line (160063 chars, possible obfuscation)
+[INFO] scripts/ReplicatedStorage/Modules/ItemLibrary.lua lines 40,56
+       exploit-executor API (getgenv / hookfunction / syn.*)
+
+Instances with suspicious names:
+  MaterialVariant MaterialService.Wraps.VirusMat
+  Folder StarterPlayer.StarterPlayerScripts.Assets.WrapTextures.Virus2
+  Folder StarterPlayer.StarterPlayerScripts.Assets.WrapTextures.Virus1
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1162134376  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890371681  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890371901  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890372130  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890372364  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890372574  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890372831  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890374722  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890374959  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890375172  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890375405  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1890375611  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1892544195  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  1892544449  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2154618268  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319690506  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319692001  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319692175  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319763472  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319763545  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319763627  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319763722  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2319763802  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  2661338143  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  3251887720  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  3251887824  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  3277561206  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  3407614262  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  3407615047  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  3407624520  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  837904767  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  838087219  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  838160059  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  838198043  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  838203071  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  839491390  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+  977061826  in scripts/ReplicatedStorage/Modules/MonetizationLibrary.lua
+
+Outside URLs in code:
+  https://assetdelivery.roblox.com/v1/asset/?id=16673245747  in scripts/StarterPlayer/StarterPlayerScripts/Modules/ClientReplicatedClasses/ClientFighter/ClientFighterCharacter/Avatar.lua
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/ServerScriptService/ServerPackages/_Index/lm-loleris_profilestore@1.0.3/profilestore.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedFirst/LocalScript3.client.lua, scripts/ReplicatedFirst/Root.client.lua, scripts/ReplicatedFirst/Root/LoadingScreen.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/ServerScriptService/ServerPackages/_Index/lm-loleris_profilestore@1.0.3/profilestore.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId=%s&width=420&height=420&format=png  in scripts/ReplicatedStorage/Modules/CONSTANTS.lua

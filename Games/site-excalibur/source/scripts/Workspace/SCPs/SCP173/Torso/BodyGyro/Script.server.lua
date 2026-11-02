@@ -1,0 +1,1 @@
+script.Parent.maxTorque = Vector3.new(4e+009, 0, 4e+009)

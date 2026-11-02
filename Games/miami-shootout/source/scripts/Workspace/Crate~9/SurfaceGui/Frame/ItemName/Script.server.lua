@@ -1,0 +1,1 @@
+script.Parent.Text = script.Parent.Parent.Parent.Parent.Item.Value.Name

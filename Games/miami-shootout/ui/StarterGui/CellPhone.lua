@@ -1,0 +1,140 @@
+-- Generated from ui/StarterGui/CellPhone.rbxm by _tools/rbxm2lua.luau
+-- UI builder: local gui = require(this)(); gui.Parent = game.Players.LocalPlayer.PlayerGui (or StarterGui)
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local function build()
+	local I = {}
+	I[1] = new("ScreenGui", nil, "CellPhone", { Enabled = false, ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets })
+		I[2] = new("Frame", I[1], "Frame", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(54, 54, 54), BorderSizePixel = 6, Position = UDim2.fromScale(0.6464, 0.3983313), Size = UDim2.fromScale(0.3392, 0.5791411) })
+			I[3] = new("ImageLabel", I[2], "phone", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://2683970547"), Position = UDim2.fromScale(-0.0013684, 0), Size = UDim2.fromScale(0.9811321, 0.9978815) })
+			I[4] = new("ImageLabel", I[2], "wallpaper", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), ImageContent = Content.fromUri("rbxassetid://6378287182"), Position = UDim2.fromScale(0.2877358, 0.1122881), Size = UDim2.fromScale(0.4268868, 0.7372882) })
+			I[5] = new("TextLabel", I[2], "scphone", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.287736, 0.1122881), Size = UDim2.fromScale(0.4268868, 0.0444915), Text = "RoPhone Max", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+				I[6] = new("UITextSizeConstraint", I[5], "UITextSizeConstraint", { MaxTextSize = 20 })
+			I[7] = new("TextLabel", I[2], "tuesday", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.3183964, 0.1694915), Size = UDim2.fromScale(0.3632075, 0.0444915), Text = "Tuesday, 11:00", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+				I[8] = new("UITextSizeConstraint", I[7], "UITextSizeConstraint", { MaxTextSize = 20 })
+			I[9] = new("TextLabel", I[2], "date", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.3349058, 0.213983), Size = UDim2.fromScale(0.3325472, 0.0402542), Text = "01/12", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+				I[10] = new("UITextSizeConstraint", I[9], "UITextSizeConstraint", { MaxTextSize = 18 })
+			I[11] = new("Frame", I[2], "apps", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromScale(0.2877358, 0.2542373), Size = UDim2.fromScale(0.4245283, 0.595339) })
+				I[12] = new("ImageButton", I[11], "cam", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://6125281125"), Position = UDim2.fromScale(0.0722222, 0.0391459), Size = UDim2.fromScale(0.4055555, 0.2597865) })
+				I[13] = new("ImageButton", I[11], "settings", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://6125287994"), Position = UDim2.fromScale(0.5222222, 0.0391459), Size = UDim2.fromScale(0.4055555, 0.2597865) })
+				I[14] = new("ImageButton", I[11], "messages", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("http://www.roblox.com/asset/?id=6125296434"), Position = UDim2.fromScale(0.0666667, 0.3309609), Size = UDim2.fromScale(0.4055555, 0.2597865) })
+				I[15] = new("ImageButton", I[11], "calculator", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("http://www.roblox.com/asset/?id=6125292577"), Position = UDim2.fromScale(0.5222222, 0.3309609), Size = UDim2.fromScale(0.4055555, 0.2597865) })
+				I[16] = new("ImageButton", I[11], "calls", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://837701510"), Position = UDim2.fromScale(0.0666667, 0.6156584), Size = UDim2.fromScale(0.4055555, 0.2597865) })
+				I[17] = new("ImageButton", I[11], "slidebread", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://11712692359"), Position = UDim2.fromScale(0.5222222, 0.6141541), Size = UDim2.fromScale(0.4055555, 0.2597865) })
+			I[18] = new("Frame", I[2], "running", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromScale(0.2877358, 0.1122881), Size = UDim2.fromScale(0.4268868, 0.7372882) })
+				I[19] = new("Frame", I[18], "cam", { BackgroundColor3 = Color3.fromRGB(97, 97, 97), Size = UDim2.fromScale(1, 1), Visible = false })
+					I[20] = new("ImageButton", I[19], "cam", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://6125281125"), Position = UDim2.fromScale(0.2600674, 0.0247781), Size = UDim2.fromScale(0.4718539, 0.2224302) })
+					I[21] = new("TextLabel", I[19], "Camera", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1054155, 0.2674605), Size = UDim2.fromScale(0.7853127, 0.0818478), Text = "Camera", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[22] = new("UITextSizeConstraint", I[21], "UITextSizeConstraint", { MaxTextSize = 28 })
+					I[23] = new("TextLabel", I[19], "description", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1054155, 0.3766559), Size = UDim2.fromScale(0.7853127, 0.0818478), Text = "Click to take photos!", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[24] = new("UITextSizeConstraint", I[23], "UITextSizeConstraint", { MaxTextSize = 21 })
+				I[25] = new("Frame", I[18], "phone", { BackgroundColor3 = Color3.fromRGB(97, 97, 97), Size = UDim2.fromScale(1, 1), Visible = false })
+					I[26] = new("TextLabel", I[25], "Camera", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1054155, 0.2674605), Size = UDim2.fromScale(0.7853127, 0.0818478), Text = "Phone", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[27] = new("UITextSizeConstraint", I[26], "UITextSizeConstraint", { MaxTextSize = 28 })
+					I[28] = new("ImageButton", I[25], "calls", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://837701510"), Position = UDim2.fromScale(0.2821365, 0.0351986), Size = UDim2.fromScale(0.4454598, 0.2150205) })
+					I[29] = new("Frame", I[25], "police", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromScale(0.0641431, 0.3533372), Size = UDim2.fromScale(0.8926586, 0.61615), Visible = false })
+						I[30] = new("TextBox", I[29], "callInfo", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), PlaceholderColor3 = Color3.fromRGB(178, 178, 178), Position = UDim2.fromScale(0.0178501, 0.3315707), Size = UDim2.fromScale(0.9735759, 0.1802698), Text = "", TextColor3 = Color3.fromRGB(0, 0, 0), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[31] = new("UITextSizeConstraint", I[30], "UITextSizeConstraint", { MaxTextSize = 38 })
+						I[32] = new("TextButton", I[29], "call", { BackgroundColor3 = Color3.fromRGB(0, 85, 127), BorderSizePixel = 5, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1239443, 0.6036866), Size = UDim2.fromScale(0.7489045, 0.1386691), Text = "CALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[33] = new("UITextSizeConstraint", I[32], "UITextSizeConstraint", { MaxTextSize = 29 })
+						I[34] = new("TextButton", I[29], "back", { BackgroundColor3 = Color3.fromRGB(109, 0, 0), BorderSizePixel = 5, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1239443, 0.8150617), Size = UDim2.fromScale(0.7489045, 0.1386691), Text = "BACK", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[35] = new("UITextSizeConstraint", I[34], "UITextSizeConstraint", { MaxTextSize = 29 })
+						I[36] = new("TextLabel", I[29], "description", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.0557948, 0.0407178), Size = UDim2.fromScale(0.8870872, 0.1316572), Text = "#: 911", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[37] = new("UITextSizeConstraint", I[36], "UITextSizeConstraint", { MaxTextSize = 27 })
+						I[38] = new("TextLabel", I[29], "sit", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.0620355, 0.2117431), Size = UDim2.fromScale(0.8870872, 0.1316572), Text = "Situation/Location:", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[39] = new("UITextSizeConstraint", I[38], "UITextSizeConstraint", { MaxTextSize = 24 })
+					I[40] = new("Frame", I[25], "normal", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromScale(0.0481073, 0.3474969), Size = UDim2.fromScale(0.8980038, 0.6249104) })
+						I[41] = new("TextLabel", I[40], "description", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.0557948, 0.0407178), Size = UDim2.fromScale(0.8870872, 0.1316572), Text = "#: None", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[42] = new("UITextSizeConstraint", I[41], "UITextSizeConstraint", { MaxTextSize = 28 })
+						I[43] = new("TextButton", I[40], "call", { BackgroundColor3 = Color3.fromRGB(0, 85, 127), BorderSizePixel = 5, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1358491, 0.8420043), Size = UDim2.fromScale(0.7489045, 0.1386691), Text = "CALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[44] = new("UITextSizeConstraint", I[43], "UITextSizeConstraint", { MaxTextSize = 29 })
+						I[45] = new("ScrollingFrame", I[40], "ScrollingFrame", { Active = true, BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, CanvasSize = UDim2.new(0, 0, 2, 200), Position = UDim2.fromScale(0.1309524, 0.1682243), ScrollBarImageColor3 = Color3.fromRGB(0, 0, 0), Size = UDim2.fromScale(0.75, 0.6121495) })
+							I[46] = new("UIListLayout", I[45], "UIListLayout", { SortOrder = Enum.SortOrder.LayoutOrder })
+							I[47] = new("TextButton", I[45], "911", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 0.85, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Size = UDim2.fromScale(0.888889, 0.0433364), Text = "911 (POLICE)", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[48] = new("TextButton", I[45], "911EMS", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 0.85, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Size = UDim2.fromScale(0.888889, 0.0433364), Text = "911 (EMS)", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[49] = new("ObjectValue", I[40], "SELECTED")
+					I[50] = new("Frame", I[25], "ems", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, Position = UDim2.fromScale(0.0641431, 0.3533372), Size = UDim2.fromScale(0.8926586, 0.61615), Visible = false })
+						I[51] = new("TextBox", I[50], "callInfo", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), PlaceholderColor3 = Color3.fromRGB(178, 178, 178), Position = UDim2.fromScale(0.0178501, 0.3315707), Size = UDim2.fromScale(0.9735759, 0.1802698), Text = "", TextColor3 = Color3.fromRGB(0, 0, 0), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[52] = new("UITextSizeConstraint", I[51], "UITextSizeConstraint", { MaxTextSize = 38 })
+						I[53] = new("TextButton", I[50], "call", { BackgroundColor3 = Color3.fromRGB(0, 85, 127), BorderSizePixel = 5, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1239443, 0.6036866), Size = UDim2.fromScale(0.7489045, 0.1386691), Text = "CALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[54] = new("UITextSizeConstraint", I[53], "UITextSizeConstraint", { MaxTextSize = 29 })
+						I[55] = new("TextButton", I[50], "back", { BackgroundColor3 = Color3.fromRGB(109, 0, 0), BorderSizePixel = 5, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1239443, 0.8150617), Size = UDim2.fromScale(0.7489045, 0.1386691), Text = "BACK", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[56] = new("UITextSizeConstraint", I[55], "UITextSizeConstraint", { MaxTextSize = 29 })
+						I[57] = new("TextLabel", I[50], "description", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.0557948, 0.0407178), Size = UDim2.fromScale(0.8870872, 0.1316572), Text = "#: 911 (EMS)", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[58] = new("UITextSizeConstraint", I[57], "UITextSizeConstraint", { MaxTextSize = 27 })
+						I[59] = new("TextLabel", I[50], "sit", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.0620355, 0.2117431), Size = UDim2.fromScale(0.8870872, 0.1316572), Text = "Situation/Location:", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+							I[60] = new("UITextSizeConstraint", I[59], "UITextSizeConstraint", { MaxTextSize = 24 })
+				I[61] = new("Frame", I[18], "phoneCall", { BackgroundColor3 = Color3.fromRGB(97, 97, 97), Size = UDim2.fromScale(1, 1), Visible = false })
+					I[62] = new("ImageLabel", I[61], "wallpaper", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), ImageContent = Content.fromUri("rbxassetid://6378287182"), Position = UDim2.fromScale(0.0000007, 0), Size = UDim2.fromScale(0.9999996, 0.9999999) })
+					I[63] = new("ImageLabel", I[61], "blur", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("http://www.roblox.com/asset/?id=143854825"), Position = UDim2.fromScale(0.0000007, 0), Size = UDim2.fromScale(0.9999996, 0.9999999) })
+					I[64] = new("ImageButton", I[61], "callIcon", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://837701510"), Position = UDim2.fromScale(0.2821365, 0.0351986), Size = UDim2.fromScale(0.4454598, 0.2150205) })
+						I[65] = new("UICorner", I[64], "UICorner")
+					I[66] = new("TextButton", I[61], "decline", { BackgroundColor3 = Color3.fromRGB(170, 0, 0), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1818797, 0.6687125), Size = UDim2.fromScale(0.6419282, 0.0876043), Text = "Decline", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[67] = new("UICorner", I[66], "UICorner")
+						I[68] = new("UITextSizeConstraint", I[66], "UITextSizeConstraint", { MaxTextSize = 30 })
+					I[69] = new("TextLabel", I[61], "callerName", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1765302, 0.2744934), Size = UDim2.fromScale(0.6579764, 0.0876043), Text = "USERNAME", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[70] = new("UITextSizeConstraint", I[69], "UITextSizeConstraint", { MaxTextSize = 30 })
+					I[71] = new("TextLabel", I[61], "isCalling", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.2642606, 0.3679379), Size = UDim2.fromScale(0.4814461, 0.0642431), Text = "is calling...", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[72] = new("UITextSizeConstraint", I[71], "UITextSizeConstraint", { MaxTextSize = 22 })
+					I[73] = new("TextButton", I[61], "accept", { BackgroundColor3 = Color3.fromRGB(0, 255, 0), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1818797, 0.5519068), Size = UDim2.fromScale(0.6419282, 0.0876043), Text = "Accept", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[74] = new("UICorner", I[73], "UICorner")
+						I[75] = new("UITextSizeConstraint", I[73], "UITextSizeConstraint", { MaxTextSize = 30 })
+				I[76] = new("Frame", I[18], "settings", { BackgroundColor3 = Color3.fromRGB(97, 97, 97), Size = UDim2.fromScale(1, 1), Visible = false })
+					I[77] = new("ImageButton", I[76], "cam", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://6125287994"), Position = UDim2.fromScale(0.2600674, 0.0247781), Size = UDim2.fromScale(0.4718539, 0.2224302) })
+					I[78] = new("TextLabel", I[76], "Settings", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1054155, 0.2674605), Size = UDim2.fromScale(0.7853127, 0.0818478), Text = "Settings", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[79] = new("UITextSizeConstraint", I[78], "UITextSizeConstraint", { MaxTextSize = 28 })
+					I[80] = new("TextLabel", I[76], "General", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1054155, 0.3766559), Size = UDim2.fromScale(0.7853127, 0.0818478), Text = "General", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[81] = new("UITextSizeConstraint", I[80], "UITextSizeConstraint", { MaxTextSize = 28 })
+					I[82] = new("TextButton", I[76], "calls", { BackgroundColor3 = Color3.fromRGB(85, 255, 0), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1123374, 0.5110249), Size = UDim2.fromScale(0.7810127, 0.1051251), Text = "Calls: ON", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[83] = new("UICorner", I[82], "UICorner")
+						I[84] = new("UITextSizeConstraint", I[82], "UITextSizeConstraint", { MaxTextSize = 36 })
+				I[85] = new("Frame", I[18], "slidebread", { BackgroundColor3 = Color3.fromRGB(97, 97, 97), Size = UDim2.fromScale(1, 1), Visible = false })
+					I[86] = new("TextLabel", I[85], "breadName", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/Nunito.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1054155, 0.2674605), Size = UDim2.fromScale(0.7853127, 0.0818478), Text = "Slide Bread", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[87] = new("UITextSizeConstraint", I[86], "UITextSizeConstraint", { MaxTextSize = 28 })
+					I[88] = new("ImageButton", I[85], "bread", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, ImageContent = Content.fromUri("rbxassetid://11712692359"), Position = UDim2.fromScale(0.2821365, 0.0351986), Size = UDim2.fromScale(0.4454598, 0.2150205) })
+					I[89] = new("TextBox", I[85], "amount", { BackgroundColor3 = Color3.fromRGB(145, 145, 145), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), PlaceholderColor3 = Color3.fromRGB(178, 178, 178), Position = UDim2.fromScale(0.1242476, 0.432181), Size = UDim2.fromScale(0.7610145, 0.1051251), Text = "", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[90] = new("UICorner", I[89], "UICorner")
+						I[91] = new("UITextSizeConstraint", I[89], "UITextSizeConstraint", { MaxTextSize = 36 })
+					I[92] = new("TextLabel", I[85], "Amount", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.2642606, 0.3679379), Size = UDim2.fromScale(0.4814461, 0.0642431), Text = "Amount:", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[93] = new("UITextSizeConstraint", I[92], "UITextSizeConstraint", { MaxTextSize = 22 })
+					I[94] = new("TextBox", I[85], "playername", { BackgroundColor3 = Color3.fromRGB(145, 145, 145), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), PlaceholderColor3 = Color3.fromRGB(178, 178, 178), Position = UDim2.fromScale(0.1190706, 0.6278306), Size = UDim2.fromScale(0.7610145, 0.1051251), Text = "", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[95] = new("UICorner", I[94], "UICorner")
+						I[96] = new("UITextSizeConstraint", I[94], "UITextSizeConstraint", { MaxTextSize = 36 })
+					I[97] = new("TextLabel", I[85], "PlayerName", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.2590836, 0.5635874), Size = UDim2.fromScale(0.4814461, 0.0642431), Text = "Player Name (short names allowed):", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[98] = new("UITextSizeConstraint", I[97], "UITextSizeConstraint", { MaxTextSize = 22 })
+					I[99] = new("TextButton", I[85], "sendTo", { BackgroundColor3 = Color3.fromRGB(0, 255, 0), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1818797, 0.7650772), Size = UDim2.fromScale(0.6419282, 0.0876043), Text = "Send", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[100] = new("UICorner", I[99], "UICorner")
+						I[101] = new("UITextSizeConstraint", I[99], "UITextSizeConstraint", { MaxTextSize = 30 })
+					I[102] = new("TextButton", I[85], "drop", { BackgroundColor3 = Color3.fromRGB(0, 170, 255), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.1818797, 0.8760425), Size = UDim2.fromScale(0.6419282, 0.0876043), Text = "Drop Amount", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+						I[103] = new("UICorner", I[102], "UICorner")
+						I[104] = new("UITextSizeConstraint", I[102], "UITextSizeConstraint", { MaxTextSize = 27 })
+			I[105] = new("TextButton", I[2], "home", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 0.99, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.4170597, 0.8771187), Size = UDim2.fromScale(0.1745283, 0.065678), Text = "", TextColor3 = Color3.fromRGB(0, 0, 0), TextScaled = true, TextSize = 14, TextTransparency = 1, TextWrapped = true })
+				I[106] = new("UITextSizeConstraint", I[105], "UITextSizeConstraint", { MaxTextSize = 14 })
+		I[107] = new("UIAspectRatioConstraint", I[1], "UIAspectRatioConstraint", { AspectRatio = 1.6633416 })
+	return I[1]
+end
+
+return build

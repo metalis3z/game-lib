@@ -1,0 +1,127 @@
+125 scripts, 15454 lines
+kind     lines  enabled  path
+client     260  yes      scripts/ReplicatedFirst/JoinScript.client.lua
+client     310  yes      scripts/ReplicatedFirst/JoinScript/UI/Backpack/Backpack.client.lua
+client     188  yes      scripts/ReplicatedFirst/JoinScript/UI/Chat/Chat.client.lua
+module      84  yes      scripts/ReplicatedFirst/JoinScript/UI/Chat/Utility/LinkedList.lua
+module     101  yes      scripts/ReplicatedFirst/JoinScript/UI/Chat/Utility/RobloxChatMount.lua
+client      37  yes      scripts/ReplicatedFirst/JoinScript/UI/ConsoleTweaks.client.lua
+client      34  yes      scripts/ReplicatedFirst/JoinScript/UI/Health/Health.client.lua
+client      92  yes      scripts/ReplicatedFirst/JoinScript/UI/Messages.client.lua
+client     309  yes      scripts/ReplicatedFirst/JoinScript/UI/Mouse/ClickToMove.client.lua
+client     134  yes      scripts/ReplicatedFirst/JoinScript/UI/Mouse/Mouse.client.lua
+client     666  yes      scripts/ReplicatedFirst/JoinScript/UI/PlayerList/PlayerList.client.lua
+client     198  yes      scripts/ReplicatedFirst/JoinScript/UI/SafeChat/SafeChat.client.lua
+module      56  yes      scripts/ReplicatedFirst/JoinScript/UI/Topbar/Config.lua
+client     191  yes      scripts/ReplicatedFirst/JoinScript/UI/Topbar/Topbar.client.lua
+client     123  yes      scripts/ReplicatedFirst/JoinScript/UI/ZoomControls/ZoomControls.client.lua
+module      90  yes      scripts/ReplicatedStorage/AssetUtil.lua
+module      35  yes      scripts/ReplicatedStorage/BrickColors.lua
+module     195  yes      scripts/ReplicatedStorage/ItemData/Face.lua
+module     609  yes      scripts/ReplicatedStorage/ItemData/Hat.lua
+module      94  yes      scripts/ReplicatedStorage/ItemData/Pants.lua
+module      95  yes      scripts/ReplicatedStorage/ItemData/Shirt.lua
+module      64  yes      scripts/ReplicatedStorage/PlaceData.lua
+module      38  yes      scripts/ReplicatedStorage/SafeChat.lua
+server     224  yes      scripts/ServerScriptService/Badges.server.lua
+server     480  yes      scripts/ServerScriptService/Bevels.server.lua
+server     132  yes      scripts/ServerScriptService/Bootup.server.lua
+server     243  yes      scripts/ServerScriptService/BuildTools.server.lua
+client     250  NO       scripts/ServerScriptService/BuildTools/Dragger.client.lua
+server     338  yes      scripts/ServerScriptService/CaptureTheFlag.server.lua
+server     229  yes      scripts/ServerScriptService/Characters.server.lua
+server      69  yes      scripts/ServerScriptService/Chat.server.lua
+server      76  yes      scripts/ServerScriptService/Cylinders.server.lua
+server     186  yes      scripts/ServerScriptService/Explosions.server.lua
+server      60  yes      scripts/ServerScriptService/ForceFields.server.lua
+server      23  yes      scripts/ServerScriptService/ForceR6InStudio.server.lua
+server      67  yes      scripts/ServerScriptService/HatGranter.server.lua
+server      27  yes      scripts/ServerScriptService/Heads.server.lua
+server     194  yes      scripts/ServerScriptService/Leaderboard.server.lua
+server      21  yes      scripts/ServerScriptService/LoadTools.server.lua
+server     282  yes      scripts/ServerScriptService/Parts.server.lua
+server      98  yes      scripts/ServerScriptService/Regeneration.server.lua
+server      53  yes      scripts/ServerScriptService/SessionTracker.server.lua
+server      10  yes      scripts/ServerScriptService/Time.server.lua
+client     194  yes      scripts/ServerStorage/InputGateway/Client.client.lua
+server      50  yes      scripts/ServerStorage/InputGateway/Server.server.lua
+module     831  yes      scripts/ServerStorage/PlayerDataStore.lua
+server     158  yes      scripts/ServerStorage/StandardTools/GravityHammer/SwordScript.server.lua   (same source as scripts/StarterPack/GravityHammer/SwordScript.server.lua)
+server      76  yes      scripts/ServerStorage/StandardTools/JetBoots/Jetboots.server.lua   (same source as scripts/StarterPack/JetBoots/Jetboots.server.lua)
+server      71  NO       scripts/ServerStorage/StandardTools/Multirocket/RocketScript.server.lua   (same source as scripts/StarterPack/Multirocket/RocketScript.server.lua)
+server      94  yes      scripts/ServerStorage/StandardTools/Multirocket/ServerLauncher.server.lua   (same source as scripts/StarterPack/Multirocket/ServerLauncher.server.lua)
+server       2  NO       scripts/ServerStorage/StandardTools/PaintballGun/BrickCleanup.server.lua   (same source as scripts/StarterPack/PaintballGun/BrickCleanup.server.lua)
+server      83  NO       scripts/ServerStorage/StandardTools/PaintballGun/Paintball.server.lua   (same source as scripts/StarterPack/PaintballGun/Paintball.server.lua)
+server      81  yes      scripts/ServerStorage/StandardTools/PaintballGun/PaintballShooter.server.lua   (same source as scripts/StarterPack/PaintballGun/PaintballShooter.server.lua)
+module      37  yes      scripts/ServerStorage/StandardTools/Plane/ControlScheme.lua   (same source as scripts/StarterPack/Plane/ControlScheme.lua)
+server     311  yes      scripts/ServerStorage/StandardTools/Plane/PlaneTool.server.lua   (same source as scripts/StarterPack/Plane/PlaneTool.server.lua)
+server      19  NO       scripts/ServerStorage/StandardTools/Plane/PlaneTool/FlyScript.server.lua   (same source as scripts/StarterPack/Plane/PlaneTool/FlyScript.server.lua)
+server      95  NO       scripts/ServerStorage/StandardTools/Plane/Rocket/RocketScript.server.lua   (same source as scripts/StarterPack/Plane/Rocket/RocketScript.server.lua)
+server      13  yes      scripts/ServerStorage/StandardTools/Reset/Reset.server.lua   (same source as scripts/StarterPack/Reset/Reset.server.lua)
+server      91  NO       scripts/ServerStorage/StandardTools/RocketLauncher/RocketScript.server.lua   (same source as scripts/StarterPack/RocketLauncher/RocketScript.server.lua)
+server      94  yes      scripts/ServerStorage/StandardTools/RocketLauncher/ServerLauncher.server.lua   (same source as scripts/StarterPack/RocketLauncher/ServerLauncher.server.lua)
+server      63  NO       scripts/ServerStorage/StandardTools/Slingshot/PelletScript.server.lua   (same source as scripts/StarterPack/Slingshot/PelletScript.server.lua)
+server     138  yes      scripts/ServerStorage/StandardTools/Slingshot/Slingshot.server.lua   (same source as scripts/StarterPack/Slingshot/Slingshot.server.lua)
+server      79  NO       scripts/ServerStorage/StandardTools/Superball/CannonBall.server.lua   (same source as scripts/StarterPack/Superball/CannonBall.server.lua)
+server      65  yes      scripts/ServerStorage/StandardTools/Superball/CannonScript.server.lua   (same source as scripts/StarterPack/Superball/CannonScript.server.lua)
+server     181  yes      scripts/ServerStorage/StandardTools/Sword/SwordScript.server.lua   (same source as scripts/StarterPack/Sword/SwordScript.server.lua)
+server      83  NO       scripts/ServerStorage/StandardTools/Timebomb/Bomb.server.lua   (same source as scripts/StarterPack/Timebomb/Bomb.server.lua)
+server      69  yes      scripts/ServerStorage/StandardTools/Timebomb/PlantBomb.server.lua   (same source as scripts/StarterPack/Timebomb/PlantBomb.server.lua)
+server       5  NO       scripts/ServerStorage/StandardTools/Trowel/TrowelBrick.server.lua   (same source as scripts/StarterPack/Trowel/TrowelBrick.server.lua)
+server     101  yes      scripts/ServerStorage/StandardTools/Trowel/WallMaker.server.lua   (same source as scripts/StarterPack/Trowel/WallMaker.server.lua)
+server     158  yes      scripts/StarterPack/GravityHammer/SwordScript.server.lua
+server      76  yes      scripts/StarterPack/JetBoots/Jetboots.server.lua
+server      71  NO       scripts/StarterPack/Multirocket/RocketScript.server.lua
+server      94  yes      scripts/StarterPack/Multirocket/ServerLauncher.server.lua
+server       2  NO       scripts/StarterPack/PaintballGun/BrickCleanup.server.lua
+server      83  NO       scripts/StarterPack/PaintballGun/Paintball.server.lua
+server      81  yes      scripts/StarterPack/PaintballGun/PaintballShooter.server.lua
+module      37  yes      scripts/StarterPack/Plane/ControlScheme.lua
+server     311  yes      scripts/StarterPack/Plane/PlaneTool.server.lua
+server      19  NO       scripts/StarterPack/Plane/PlaneTool/FlyScript.server.lua
+server      95  NO       scripts/StarterPack/Plane/Rocket/RocketScript.server.lua
+server      13  yes      scripts/StarterPack/Reset/Reset.server.lua
+server      91  NO       scripts/StarterPack/RocketLauncher/RocketScript.server.lua
+server      94  yes      scripts/StarterPack/RocketLauncher/ServerLauncher.server.lua
+server      63  NO       scripts/StarterPack/Slingshot/PelletScript.server.lua
+server     138  yes      scripts/StarterPack/Slingshot/Slingshot.server.lua
+server      79  NO       scripts/StarterPack/Superball/CannonBall.server.lua
+server      65  yes      scripts/StarterPack/Superball/CannonScript.server.lua
+server     181  yes      scripts/StarterPack/Sword/SwordScript.server.lua
+server      83  NO       scripts/StarterPack/Timebomb/Bomb.server.lua
+server      69  yes      scripts/StarterPack/Timebomb/PlantBomb.server.lua
+server       5  NO       scripts/StarterPack/Trowel/TrowelBrick.server.lua
+server     101  yes      scripts/StarterPack/Trowel/WallMaker.server.lua
+server      26  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.server.lua
+server      21  yes      scripts/StarterPlayer/StarterCharacterScripts/Bounciness.server.lua
+server      47  yes      scripts/StarterPlayer/StarterCharacterScripts/DropHats.server.lua
+server      34  NO       scripts/StarterPlayer/StarterCharacterScripts/DropHats/HatPickup.server.lua
+client      15  yes      scripts/StarterPlayer/StarterCharacterScripts/DropHats/LocalDropHat.client.lua
+client      45  yes      scripts/StarterPlayer/StarterCharacterScripts/EdgeWalking.client.lua
+client      61  yes      scripts/StarterPlayer/StarterCharacterScripts/FloorDrag.client.lua
+server      26  yes      scripts/StarterPlayer/StarterCharacterScripts/GoofyBalance.server.lua
+client      72  yes      scripts/StarterPlayer/StarterCharacterScripts/GoofyMotion.client.lua
+server      18  yes      scripts/StarterPlayer/StarterCharacterScripts/InputGateway.server.lua
+client      12  yes      scripts/StarterPlayer/StarterCharacterScripts/JumpLimiter.client.lua
+client     239  yes      scripts/StarterPlayer/StarterCharacterScripts/RetroClimbing.client.lua
+server      35  yes      scripts/StarterPlayer/StarterCharacterScripts/TeamColors.server.lua
+server      43  yes      scripts/StarterPlayer/StarterCharacterScripts/ToolSoundGlitch.server.lua
+server      17  yes      scripts/StarterPlayer/StarterCharacterScripts/ToolStuckPatch.server.lua
+client     276  yes      scripts/StarterPlayer/StarterPlayerScripts/Animator.client.lua
+client      51  yes      scripts/StarterPlayer/StarterPlayerScripts/Camera.client.lua
+module    1042  yes      scripts/StarterPlayer/StarterPlayerScripts/Camera/Main.lua
+module     176  yes      scripts/StarterPlayer/StarterPlayerScripts/Camera/Opacity.lua
+module     135  yes      scripts/StarterPlayer/StarterPlayerScripts/Camera/Popper.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/CharacterBevels.client.lua
+client      58  yes      scripts/StarterPlayer/StarterPlayerScripts/Explosions.client.lua
+client      67  yes      scripts/StarterPlayer/StarterPlayerScripts/ForceFields.client.lua
+client      14  yes      scripts/StarterPlayer/StarterPlayerScripts/FpsCap.client.lua
+client      29  yes      scripts/StarterPlayer/StarterPlayerScripts/GamepadPatch.client.lua
+client     134  yes      scripts/StarterPlayer/StarterPlayerScripts/HumanoidLabels.client.lua
+client     142  yes      scripts/StarterPlayer/StarterPlayerScripts/HumanoidSound.client.lua
+client     138  yes      scripts/StarterPlayer/StarterPlayerScripts/LensFlare.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/Moon.client.lua
+client       6  yes      scripts/StarterPlayer/StarterPlayerScripts/Music.client.lua
+client     179  yes      scripts/StarterPlayer/StarterPlayerScripts/Sky.client.lua
+client      80  yes      scripts/StarterPlayer/StarterPlayerScripts/SunRays.client.lua
+client      12  yes      scripts/StarterPlayer/StarterPlayerScripts/ToolSoundGlitch.client.lua

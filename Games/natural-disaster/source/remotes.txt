@@ -1,0 +1,76 @@
+75 remotes / bindables
+RemoteEvent            StarterPack.RedApple.Event
+RemoteEvent            ReplicatedStorage.Event
+RemoteEvent            ReplicatedStorage.FreePowerUpEvent
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrieveData
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.Notice
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.Error
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ShowPage
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ChangeStat
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.InsertStat
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RemoveStat
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ActivateClientCommand
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ExecuteAlert
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ReplicationEffectClientCommand
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ExecuteClientCommand
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RequestCommand
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ChangeSetting
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RestoreDefaultSettings
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrieveServerRanks
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ShowWarning
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.Message
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.Hint
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.DeactivateClientCommand
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.SetCameraSubject
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.Clear
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.SetCoreGuiEnabled
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ReplyToPrivateMessage
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.CreateLog
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.CreateBanMenu
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.GetLocalDate
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrieveBanland
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ShowBannedUser
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrieveRanksInfo
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RemovePermRank
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.CreateCommandMenu
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrieveBroadcastData
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ExecuteBroadcast
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.GlobalAnnouncement
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RankChanged
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.CreateAlert
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.CreatePollMenu
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrievePollData
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ExecutePoll
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.CreateMenu
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.RetrieveAlertData
+BindableEvent          ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.EndDisco
+BindableEvent          ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.Initialized
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.FadeInIcon
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.GetPing
+BindableEvent          ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.PlayerChatted
+BindableEvent          ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.PlayerChattedIgnoreCommands
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ChangeMainVariable
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Client.Signals.ReplicateEffect
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.GettingUp.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Died.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.FreeFalling.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Jumping.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Landing.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Splash.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Running.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Swimming.CharacterSoundEvent
+RemoteEvent            ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.RigR15.Head.Climbing.CharacterSoundEvent
+BindableFunction       ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.BuildingTools.Building Tools.SyncAPI
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.BuildingTools.Building Tools.SyncAPI.ServerEndpoint
+BindableFunction       ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.BuildingTools.Building Tools.AutomaticUpdating.MainModule.Building Tools.SyncAPI
+RemoteFunction         ServerScriptService.HD Admin Classic.Settings.Loader.MainModule.Server.Assets.BuildingTools.Building Tools.AutomaticUpdating.MainModule.Building Tools.SyncAPI.ServerEndpoint
+BindableFunction       ServerScriptService.HD Admin Classic.CustomFeatures.Server.Morphs.Ben.Animate.PlayEmote
+RemoteEvent            ServerScriptService.HD Admin Classic.CustomFeatures.Client.Signals.ExampleRemoteEvent
+BindableEvent          ServerScriptService.HD Admin Classic.CustomFeatures.Client.Signals.ExampleBindableEvent
+RemoteFunction         ServerScriptService.HD Admin Classic.CustomFeatures.Client.Signals.ExampleRemoteFunction
+BindableFunction       ServerScriptService.HD Admin Classic.CustomFeatures.Client.Signals.ExampleBindableFunction
+RemoteEvent            ServerScriptService.LegacyChatLoader.Remotes.DisplaySystemMessage
+RemoteEvent            ServerScriptService.LegacyChatLoader.Remotes.RunChatCommand
+RemoteFunction         ServerScriptService.LegacyChatLoader.Remotes.GetWhisperChannel
+RemoteEvent            ServerScriptService.LegacyChatLoader.Remotes.TypedInChatBar
+RemoteEvent            ServerScriptService.LegacyChatLoader.Remotes.StoppedTypingInChatBar

@@ -1,0 +1,1258 @@
+1256 scripts, 151206 lines
+kind     lines  enabled  path
+client     794  yes      scripts/Chat/BubbleChat.client.lua
+module      64  yes      scripts/Chat/ChatModules/ChatCommandsTeller.lua
+module     105  yes      scripts/Chat/ChatModules/ChatFloodDetector.lua
+module      99  yes      scripts/Chat/ChatModules/ChatMessageValidator.lua
+module     188  yes      scripts/Chat/ChatModules/ExtraDataInitializer.lua
+module      68  yes      scripts/Chat/ChatModules/FriendJoinNotifier.lua
+module      25  yes      scripts/Chat/ChatModules/MeCommand.lua
+module      14  yes      scripts/Chat/ChatModules/MurderMysteryChat.lua
+module     164  yes      scripts/Chat/ChatModules/MuteSpeaker.lua
+module      64  yes      scripts/Chat/ChatModules/PrivateMessaging.lua
+module     139  yes      scripts/Chat/ChatModules/TeamChat.lua
+module       7  yes      scripts/Chat/ChatModules/UnboxNotification.lua
+module      83  yes      scripts/Chat/ChatModules/Utility/DisplayNameHelpers.lua
+client     157  yes      scripts/Chat/ChatScript.client.lua
+module    1098  yes      scripts/Chat/ChatScript/ChatMain.lua
+module     400  yes      scripts/Chat/ChatScript/ChatMain/ChannelsBar.lua
+module     310  yes      scripts/Chat/ChatScript/ChatMain/ChannelsTab.lua
+module     609  yes      scripts/Chat/ChatScript/ChatMain/ChatBar.lua
+module     178  yes      scripts/Chat/ChatScript/ChatMain/ChatChannel.lua
+module     672  yes      scripts/Chat/ChatScript/ChatMain/ChatWindow.lua
+module      70  yes      scripts/Chat/ChatScript/ChatMain/CommandProcessor.lua
+module      78  yes      scripts/Chat/ChatScript/ChatMain/CurveUtil.lua
+module     133  yes      scripts/Chat/ChatScript/ChatMain/MessageLabelCreator.lua
+module     305  yes      scripts/Chat/ChatScript/ChatMain/MessageLogDisplay.lua
+module      87  yes      scripts/Chat/ChatScript/ChatMain/MessageSender.lua
+module      50  yes      scripts/Chat/ChatScript/ChatMain/ObjectPool.lua
+server     451  yes      scripts/Chat/ChatServiceRunner.server.lua
+module     661  yes      scripts/Chat/ChatServiceRunner/ChatChannel.lua
+module     491  yes      scripts/Chat/ChatServiceRunner/ChatService.lua
+module     417  yes      scripts/Chat/ChatServiceRunner/Speaker.lua
+module     110  yes      scripts/Chat/ChatServiceRunner/Util.lua
+module      28  yes      scripts/Chat/ClientChatModules/ChatConstants.lua
+module     125  yes      scripts/Chat/ClientChatModules/ChatLocalization.lua
+module     111  yes      scripts/Chat/ClientChatModules/ChatSettings.lua
+module      21  yes      scripts/Chat/ClientChatModules/CommandModules/ClearMessages.lua
+module      26  yes      scripts/Chat/ClientChatModules/CommandModules/DeveloperConsole.lua
+module      25  yes      scripts/Chat/ClientChatModules/CommandModules/GetVersion.lua
+module     172  yes      scripts/Chat/ClientChatModules/CommandModules/PlayEmote.lua
+module      34  yes      scripts/Chat/ClientChatModules/CommandModules/SwallowGuestChat.lua
+module      54  yes      scripts/Chat/ClientChatModules/CommandModules/SwitchChannel.lua
+module     130  yes      scripts/Chat/ClientChatModules/CommandModules/Team.lua
+module      64  yes      scripts/Chat/ClientChatModules/CommandModules/Util.lua
+module     225  yes      scripts/Chat/ClientChatModules/CommandModules/Whisper.lua
+module     166  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/DefaultChatMessage.lua
+module      73  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/MeCommandMessage.lua
+module      45  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SetCoreMessage.lua
+module      76  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SystemMessage.lua
+module      19  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/UnknownMessage.lua
+module     375  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/Util.lua
+module      71  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WelcomeMessage.lua
+module     113  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WhisperMessage.lua
+client     118  yes      scripts/Lighting/GameplayAnimations.client.lua
+client      17  NO       scripts/Lighting/GameplayAnimations/Victory/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations/Victory/LocalScript.client.lua)
+module      27  yes      scripts/Lighting/MainModule.lua
+client     515  yes      scripts/ReplicatedFirst/Loading.client.lua
+module       6  yes      scripts/ReplicatedStorage/BonusRoundIcons.lua
+module       6  yes      scripts/ReplicatedStorage/BonusRoundIconsBW.lua
+module      30  yes      scripts/ReplicatedStorage/CodeImages.lua
+client       9  yes      scripts/ReplicatedStorage/GUI/MainMobile/GameFolder/Emotes.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainMobile/Menu/Emotes.client.lua)
+client      31  yes      scripts/ReplicatedStorage/GUI/MainMobile/GameFolder/Equip.client.lua
+client      70  yes      scripts/ReplicatedStorage/GUI/MainMobile/GameFolder/MusicController.client.lua
+client     236  yes      scripts/ReplicatedStorage/GUI/MainMobile/GameFolder/RoleSelect.client.lua
+client      21  yes      scripts/ReplicatedStorage/GUI/MainMobile/GameFolder/TrapClient.client.lua
+client     822  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Crafting_Data.client.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/EliteSurface.client.lua
+client      33  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Emotes.client.lua
+client     505  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Examine_Data.client.lua
+client       3  NO       scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Examine_Data/ItemGridLayout/SortEventItems.client.lua
+client       8  NO       scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Examine_Data/ItemGridLayout/SortItems.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data/ItemGridLayout/Framing.client.lua)
+client      51  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Examine_GUI.client.lua
+client    1053  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Inventory_Data.client.lua
+client     172  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Inventory_GUI.client.lua
+client      53  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem.client.lua
+module      67  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Assassin.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Assassin.lua)
+module      37  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/FakeGun.lua
+module      48  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Footsteps.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Footsteps.lua)
+module      35  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Ghost.lua
+module       3  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Haste.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Haste.lua)
+module       3  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Ninja.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Ninja.lua)
+module       3  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Sleight.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Sleight.lua)
+module      37  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Sprint.lua
+module      37  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Trap.lua
+module      59  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkSystem/Xray.lua
+client     266  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Radio.client.lua
+client      10  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/RadioSurface.client.lua
+client       3  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Comment.client.lua
+client      67  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Leaderboard/GiftsLeaderboard.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Leaderboard/GiftsLeaderboard.client.lua)
+client      67  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Leaderboard/TokensLeaderboard.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Leaderboard/TokensLeaderboard.client.lua)
+client      22  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      43  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/Radio/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/Unlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      43  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Christmas2021/Frames/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Inventory/Main/Weapons/Items/Container/Holiday/ResizingScript.client.lua
+client      50  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Inventory/Main/Weapons/Items/InventoryScript.client.lua
+client      61  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Shop/Main/Packs/Client.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/Packs/Client.client.lua)
+client       3  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Comment.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/ItemPack/MoreInfo/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua)
+client     106  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Leaderboard/Leaderboard.client.lua
+client      70  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Leaderboard/Leaderboard2.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Leaderboard/Leaderboard2.client.lua)
+client      22  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      22  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Summer/Main/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Summer/Main/Traveller/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Summer/Main/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/Radio/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/Unlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Summer2023/Frames/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      79  NO       scripts/ReplicatedStorage/GUI/MainMobile/Menu/Chat.client.lua
+client     360  NO       scripts/ReplicatedStorage/GUI/MainMobile/Menu/Christmas.client.lua
+module      38  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Christmas/EnterLeave.lua   (same source as scripts/ServerStorage/Christmas/EnterLeave.lua)
+client     131  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/CrateOpen.client.lua
+client      88  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Dock.client.lua
+client       9  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Emotes.client.lua
+client     447  NO       scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Christmas2021.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Christmas2021/OpenCrate.lua   (same source as scripts/ServerStorage/EventScript_Halloween2021/OpenCrate.lua)
+client     424  NO       scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Halloween2021.client.lua
+module     222  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Halloween2021/OpenCrate.lua
+client       4  NO       scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Halloween2021/OpenCrate/LocalScript.client.lua
+client     485  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Summer2023.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/EventScript_Summer2023/OpenCrate.lua   (same source as scripts/ServerStorage/EventScript_Halloween2021/OpenCrate.lua)
+client      43  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Leaderbar.client.lua
+client     147  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Leaderboard.client.lua
+client     214  NO       scripts/ReplicatedStorage/GUI/MainMobile/Menu/MM2LBScript.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/PlayerImageHandler.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Misc/PlayerImageHandler.client.lua)
+client      93  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Scoreboard.client.lua
+client     170  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Spectate.client.lua
+client     598  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/TradePhone.client.lua
+client      28  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu_GUI.client.lua
+client      71  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shiftlock/ImageButton/ShiftGUI.client.lua
+client     120  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shiftlock/Script.client.lua
+client      21  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shop/LobbySurface.client.lua
+client    1034  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shop/Shop_Data.client.lua
+client       8  NO       scripts/ReplicatedStorage/GUI/MainMobile/Shop/Shop_Data/ItemGridLayout/Framing.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data/ItemGridLayout/Framing.client.lua)
+module     212  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shop/Shop_Data/OpenCrate.lua
+client      89  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shop/Shop_Data/OpenCrate/Item/Tags/Chroma/BG/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data/OpenCrate/Item/Tags/Chroma/BG/LocalScript.client.lua)
+client     198  yes      scripts/ReplicatedStorage/GUI/MainMobile/Shop/Shop_GUI.client.lua
+client      51  NO       scripts/ReplicatedStorage/GUI/MainPC/CONTROLLER.client.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainPC/EliteSurface.client.lua
+client      31  yes      scripts/ReplicatedStorage/GUI/MainPC/Equip.client.lua
+client       3  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Comment.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/ItemPack/MoreInfo/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      67  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Leaderboard/GiftsLeaderboard.client.lua
+client      67  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Leaderboard/TokensLeaderboard.client.lua
+client      22  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/Radio/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/Unlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2021/Frames/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua)
+client       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Comment.client.lua
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/Completed/1/TextAnimate.client.lua
+client      22  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      45  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Leaderboard/LeaderboardSystem.client.lua
+client      22  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/Radio/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/Unlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      43  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/CodeFrame/Close/LocalScript.client.lua   (same source as scripts/StarterGui/SpawnFade/CodeFrame/Close/LocalScript.client.lua)
+client       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Emotes/LocalScript.client.lua
+client       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/GiverUI/Close/LocalScript.client.lua
+client      96  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/GiverUI/GiverClient.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Close/Button/LocalScript.client.lua
+client       6  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Main/Radios/Equipped/ViewSongs/ActionButton/Manager.client.lua
+client       6  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Main/Radios/Equipped/ViewSongs/View/Manager.client.lua
+client      59  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Main/Weapons/Items/InventoryScript.client.lua
+client      12  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/NikScytheChance/Main.client.lua
+client       1  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/OInventory/InventoryScript.client.lua
+client      33  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/OInventory/InventoryScript/Example.client.lua
+client       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Santa/Close/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua)
+client      27  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Settings/Giver/LocalScript.client.lua
+client      61  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/Packs/Client.client.lua
+client       4  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/ViewCrate/Container/BuyFrame/GetKeys/Amount/LocalScript.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Title/Close/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Close/Button/LocalScript.client.lua)
+client       3  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Comment.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/ItemPack/MoreInfo/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/ItemPack/MoreInfo/ViewportFrame/WorldModel/_/Animate.client.lua
+client      72  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Leaderboard/Friends.client.lua
+client      77  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Leaderboard/Leaderboard.client.lua
+client      70  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Leaderboard/Leaderboard2.client.lua
+client      22  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua
+client      22  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Summer/Main/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Summer/Main/Traveller/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Summer/Main/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/Completed/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/Radio/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      26  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/Unlocked/1/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Traveller/NotUnlocked/1/TextAnimate.client.lua)
+client      22  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/ViewportFrame/TextLabel/TextAnimate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Christmas2022/Frames/Menu/Container/ViewportFrame/TextLabel/TextAnimate.client.lua)
+client      47  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/ViewportFrame/TextLabel/TextChange.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/TextLabel/TextChange.client.lua)
+client     811  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Traveller/ViewportFrame/WorldModel/_/Animate.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Summer2023/Frames/Menu/Container/ViewportFrame/WorldModel/_/Animate.client.lua)
+client       1  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/TabletCashBag/LocalScript.client.lua
+client       0  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/Valentines2023/Comment.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/ViewProfile/Close/Button/LocalScript.client.lua
+client      59  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/ViewProfile/Main/Weapons/Items/InventoryScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Main/Weapons/Items/InventoryScript.client.lua)
+client      12  yes      scripts/ReplicatedStorage/GUI/MainPC/Game_ActionText.client.lua
+client     246  NO       scripts/ReplicatedStorage/GUI/MainPC/Game_Chat.client.lua
+client      21  yes      scripts/ReplicatedStorage/GUI/MainPC/Game_Music.client.lua
+client      46  yes      scripts/ReplicatedStorage/GUI/MainPC/Game_Names.client.lua
+client     251  yes      scripts/ReplicatedStorage/GUI/MainPC/Game_RoleSelector.client.lua
+client      45  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Crafting.client.lua
+client     577  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Examine_Data.client.lua
+client      39  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Examine_GUI.client.lua
+client     806  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Inventory_Data.client.lua
+client     171  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Inventory_GUI.client.lua
+client     895  NO       scripts/ReplicatedStorage/GUI/MainPC/InventoryOld.client.lua
+client      37  NO       scripts/ReplicatedStorage/GUI/MainPC/JumpDelay.client.lua
+client      46  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_Badges.client.lua
+client     122  NO       scripts/ReplicatedStorage/GUI/MainPC/Menu_Examine.client.lua
+client     483  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_GUI.client.lua
+client     135  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_GameMode.client.lua
+client     376  NO       scripts/ReplicatedStorage/GUI/MainPC/Menu_Index.client.lua
+client     320  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_Leaderboard.client.lua
+client      70  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_Mute.client.lua
+client     603  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_Trade.client.lua
+client     101  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_VIPServer.client.lua
+client     224  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/BonusRounds.client.lua
+client       9  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/Emotes.client.lua
+client      96  NO       scripts/ReplicatedStorage/GUI/MainPC/Misc/Emotes2.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/Emotes.client.lua)
+client      75  NO       scripts/ReplicatedStorage/GUI/MainPC/Misc/EmotesOld.client.lua
+client     447  NO       scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Christmas2021.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Christmas2021/OpenCrate.lua   (same source as scripts/ServerStorage/EventScript_Halloween2021/OpenCrate.lua)
+client     383  NO       scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Christmas2022.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Christmas2022/OpenCrate.lua   (same source as scripts/ServerStorage/EventScript_Halloween2021/OpenCrate.lua)
+client     429  NO       scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Halloween2021.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Halloween2021/OpenCrate.lua
+client     488  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Summer2023.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/EventScript_Summer2023/OpenCrate.lua   (same source as scripts/ServerStorage/EventScript_Halloween2021/OpenCrate.lua)
+client      51  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem.client.lua
+module      67  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Assassin.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Assassin.lua)
+module      37  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/FakeGun.lua
+module      48  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Footsteps.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Footsteps.lua)
+module      40  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Footsteps/Footstepsold.lua
+module      37  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Ghost.lua
+module       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Haste.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Haste.lua)
+module       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Ninja.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Ninja.lua)
+module       3  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Sleight.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Sleight.lua)
+module      37  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Sprint.lua
+module      37  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Trap.lua
+module      59  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkSystem/Xray.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PlayerImageHandler.client.lua
+client     266  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/Radio.client.lua
+client     161  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/Spectate.client.lua
+client     154  NO       scripts/ReplicatedStorage/GUI/MainPC/OldSpectate.client.lua
+client      50  yes      scripts/ReplicatedStorage/GUI/MainPC/Preloader.client.lua
+client      10  yes      scripts/ReplicatedStorage/GUI/MainPC/RadioSurface.client.lua
+client    1110  yes      scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data.client.lua
+client       8  NO       scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data/ItemGridLayout/Framing.client.lua
+module     212  yes      scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data/OpenCrate.lua
+client      89  yes      scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_Data/OpenCrate/Item/Tags/Chroma/BG/LocalScript.client.lua
+client     209  yes      scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop_GUI.client.lua
+client      21  yes      scripts/ReplicatedStorage/GUI/MainPC/TrapClient.client.lua
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/UnboxingFix.client.lua
+client     147  yes      scripts/ReplicatedStorage/GUI/MainXbox/Core/Chat.client.lua
+client     288  yes      scripts/ReplicatedStorage/GUI/MainXbox/Core/Dock.client.lua
+client     226  yes      scripts/ReplicatedStorage/GUI/MainXbox/Core/Leaderboard.client.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/EliteSurface.client.lua
+client      96  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/Emotes.client.lua
+client      54  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/Equip.client.lua
+client      66  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem.client.lua
+module      67  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Assassin.lua
+module      30  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/FakeGun.lua
+module      48  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Footsteps.lua
+module      30  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Ghost.lua
+module       3  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Haste.lua
+module       3  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Ninja.lua
+module       3  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Sleight.lua
+module      59  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkSystem/Xray.lua
+client     188  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/RoleSelector.client.lua
+client     303  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/Scoreboard.client.lua
+client     359  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Examine_Data.client.lua
+client     908  NO       scripts/ReplicatedStorage/GUI/MainXbox/Menu/Inventory_Data.client.lua
+client     803  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Shop_Data.client.lua
+module     227  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Shop_Data/OpenCrate.lua
+client     557  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Trade.client.lua
+client      68  yes      scripts/ReplicatedStorage/GiftTool/GiftScript.client.lua
+module    4206  yes      scripts/ReplicatedStorage/LoadLibrary/RbxGui.lua
+module    2195  yes      scripts/ReplicatedStorage/LoadLibrary/RbxStamper.lua
+module    1108  yes      scripts/ReplicatedStorage/LoadLibrary/RbxUtility.lua
+module     448  yes      scripts/ReplicatedStorage/Module3D.lua
+module     280  yes      scripts/ReplicatedStorage/Modules/BoxModule.lua
+module     510  yes      scripts/ReplicatedStorage/Modules/Christmas2021.lua
+module     357  yes      scripts/ReplicatedStorage/Modules/Christmas2022.lua
+module     469  yes      scripts/ReplicatedStorage/Modules/CraftModule.lua
+module     154  yes      scripts/ReplicatedStorage/Modules/EmoteModule.lua
+module      68  yes      scripts/ReplicatedStorage/Modules/FadeModule.lua
+module     192  yes      scripts/ReplicatedStorage/Modules/GridCreator.lua
+module     271  yes      scripts/ReplicatedStorage/Modules/Halloween2021.lua
+module     204  yes      scripts/ReplicatedStorage/Modules/InventoryModule.lua
+module      19  yes      scripts/ReplicatedStorage/Modules/ItemAnimationModule.lua
+module     138  yes      scripts/ReplicatedStorage/Modules/ItemModule.lua
+module      38  yes      scripts/ReplicatedStorage/Modules/LevelModule.lua
+module     318  yes      scripts/ReplicatedStorage/Modules/ShopModule.lua
+module     510  yes      scripts/ReplicatedStorage/Modules/SummerModule.lua
+module     274  yes      scripts/ReplicatedStorage/Modules/Valentines2023.lua
+module      17  yes      scripts/ReplicatedStorage/Modules/XboxModule.lua
+module      29  yes      scripts/ReplicatedStorage/RankIcons.lua
+module      29  yes      scripts/ReplicatedStorage/RankIconsEmpty.lua
+module      78  yes      scripts/ReplicatedStorage/RecycleRewards.lua   (same source as scripts/ServerScriptService/GameScript/Sync/RecycleRewards.lua)
+module     230  yes      scripts/ReplicatedStorage/ReplicatedTweening.lua
+server       9  yes      scripts/ReplicatedStorage/Script.server.lua
+server      65  yes      scripts/ServerScriptService/(NoLag).server.lua
+server      43  yes      scripts/ServerScriptService/(NoLag)/Check.server.lua
+server      31  yes      scripts/ServerScriptService/(NoLag)/LoadTime.server.lua
+server     177  yes      scripts/ServerScriptService/AdminCommands.server.lua
+module     180  yes      scripts/ServerScriptService/Adonis_Loader/Config/API.lua
+module      17  yes      scripts/ServerScriptService/Adonis_Loader/Config/Plugins/Client_ Example Plugin.lua
+module     102  yes      scripts/ServerScriptService/Adonis_Loader/Config/Plugins/Server_ Adonis Discord Logging.lua
+module      71  yes      scripts/ServerScriptService/Adonis_Loader/Config/Plugins/Server_ KillLogs.lua
+module     462  yes      scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+module      98  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/Hint/Config/Code.lua
+module     158  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/Message/Config/Code.lua
+module      24  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/Notif/Config/Code.lua
+module     103  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/Notify/Config/Code.lua
+module      36  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/Output/Config/Code.lua
+module      49  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/TopBar/Config/Code.lua
+module    1584  yes      scripts/ServerScriptService/Adonis_Loader/Config/Themes/Window/Config/Code.lua
+server       9  yes      scripts/ServerScriptService/Adonis_Loader/Loader/Dropper.server.lua
+server     122  NO       scripts/ServerScriptService/Adonis_Loader/Loader/Loader.server.lua
+server      33  yes      scripts/ServerScriptService/Badges/ChampGiver.server.lua
+server      33  yes      scripts/ServerScriptService/Badges/JadenGiver.server.lua
+server      33  yes      scripts/ServerScriptService/Badges/JayGiver.server.lua
+server       9  yes      scripts/ServerScriptService/Badges/JoinedBadge.server.lua
+server      30  yes      scripts/ServerScriptService/Badges/LeafBadge.server.lua
+server      33  yes      scripts/ServerScriptService/Badges/MattGiver.server.lua
+server      20  yes      scripts/ServerScriptService/Badges/OwnerBadge.server.lua
+server      33  yes      scripts/ServerScriptService/Badges/RhaviGiver.server.lua
+server      44  yes      scripts/ServerScriptService/BotsDeny.server.lua
+server      94  yes      scripts/ServerScriptService/Chat.server.lua
+server     112  yes      scripts/ServerScriptService/CodeGenerator.server.lua
+server      66  NO       scripts/ServerScriptService/CodeGenerator/CG_Old.server.lua
+client      11  yes      scripts/ServerScriptService/CodeGenerator/Generator.client.lua
+server       9  yes      scripts/ServerScriptService/ControlPlayerChat.server.lua
+server      32  yes      scripts/ServerScriptService/DisplayNameBlacklist.server.lua
+module   16526  yes      scripts/ServerScriptService/DisplayNameBlacklist/SimilarCharacters.lua
+server     622  yes      scripts/ServerScriptService/GameScript.server.lua
+module    4523  yes      scripts/ServerScriptService/GameScript/DataModule.lua
+module      27  yes      scripts/ServerScriptService/GameScript/DataModule/LBRewards/Summer_V1.lua
+module      27  yes      scripts/ServerScriptService/GameScript/DataModule/LBRewards/Summer_V2.lua
+module      82  yes      scripts/ServerScriptService/GameScript/DataModule/ModuleScript.lua
+module      26  yes      scripts/ServerScriptService/GameScript/DataModule/Weld.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Pets/Weld.lua)
+module      15  yes      scripts/ServerScriptService/GameScript/GameConstants/Bags.lua
+module      21  yes      scripts/ServerScriptService/GameScript/GameConstants/Products.lua
+module      97  yes      scripts/ServerScriptService/GameScript/GameFunctions/Chance.lua
+module     243  yes      scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded.lua
+client     594  NO       scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded/Animate.client.lua
+module      26  yes      scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded/Weld.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Pets/Weld.lua)
+module      13  yes      scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded/WeldHat.lua
+module      84  yes      scripts/ServerScriptService/GameScript/GameFunctions/Chat.lua
+module     177  yes      scripts/ServerScriptService/GameScript/GameFunctions/Coins.lua
+module      48  yes      scripts/ServerScriptService/GameScript/GameFunctions/CountVotes.lua
+module      47  yes      scripts/ServerScriptService/GameScript/GameFunctions/GameConnections.lua
+module      57  yes      scripts/ServerScriptService/GameScript/GameFunctions/GiveWeapon.lua
+module     102  yes      scripts/ServerScriptService/GameScript/GameFunctions/GunDrop.lua
+module      30  yes      scripts/ServerScriptService/GameScript/GameFunctions/Music.lua
+module     188  yes      scripts/ServerScriptService/GameScript/GameFunctions/StandardFunctions.lua
+module     114  yes      scripts/ServerScriptService/GameScript/GameFunctions/VoteForMap.lua
+module     319  yes      scripts/ServerScriptService/GameScript/GameModes/Assassin.lua
+module     476  yes      scripts/ServerScriptService/GameScript/GameModes/Classic.lua
+module      75  yes      scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter.lua
+module      18  yes      scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter/WeldHat.lua
+module     275  yes      scripts/ServerScriptService/GameScript/GameModes/Dodgeball.lua
+module      72  yes      scripts/ServerScriptService/GameScript/GameModes/Dodgeball/MakeCharacter.lua
+module      18  yes      scripts/ServerScriptService/GameScript/GameModes/Dodgeball/MakeCharacter/WeldHat.lua   (same source as scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter/WeldHat.lua)
+module     398  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion.lua
+module      17  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion/MakeSheriff.lua
+module      18  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion/MakeSheriff/WeldHat.lua   (same source as scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter/WeldHat.lua)
+module     114  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion/Ragdoll.lua
+module      20  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion/SheriffColors.lua
+module      18  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion/WeldHat.lua   (same source as scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter/WeldHat.lua)
+module      10  yes      scripts/ServerScriptService/GameScript/GameModes/ElfInvasion/ZombieColors.lua
+server      81  NO       scripts/ServerScriptService/GameScript/Script.server.lua
+module     105  yes      scripts/ServerScriptService/GameScript/Sync.lua
+module      15  yes      scripts/ServerScriptService/GameScript/Sync/Badge.lua
+module      47  yes      scripts/ServerScriptService/GameScript/Sync/Banned.lua
+module    1084  yes      scripts/ServerScriptService/GameScript/Sync/Bundles.lua
+module     128  yes      scripts/ServerScriptService/GameScript/Sync/Christmas2021Pass.lua
+module      26  yes      scripts/ServerScriptService/GameScript/Sync/Christmas2022Pass.lua
+module     908  yes      scripts/ServerScriptService/GameScript/Sync/ChristmasShop.lua
+module     503  yes      scripts/ServerScriptService/GameScript/Sync/Codes.lua
+module       1  yes      scripts/ServerScriptService/GameScript/Sync/CurrentShirtCode.lua
+module     141  yes      scripts/ServerScriptService/GameScript/Sync/Drops.lua
+module     683  yes      scripts/ServerScriptService/GameScript/Sync/Effects.lua
+module      22  yes      scripts/ServerScriptService/GameScript/Sync/EliteRewards.lua
+module      11  yes      scripts/ServerScriptService/GameScript/Sync/Emojis.lua
+module     335  yes      scripts/ServerScriptService/GameScript/Sync/Emotes.lua
+module      17  yes      scripts/ServerScriptService/GameScript/Sync/Featured.lua
+module      13  yes      scripts/ServerScriptService/GameScript/Sync/Gamepasses.lua
+module     250  yes      scripts/ServerScriptService/GameScript/Sync/Halloween2021Pass.lua
+module   15597  yes      scripts/ServerScriptService/GameScript/Sync/Item.lua
+module     621  yes      scripts/ServerScriptService/GameScript/Sync/ItemPacks.lua
+module     444  yes      scripts/ServerScriptService/GameScript/Sync/Map.lua
+module     325  yes      scripts/ServerScriptService/GameScript/Sync/Materials.lua
+module       8  yes      scripts/ServerScriptService/GameScript/Sync/MerchCodes.lua
+module    1754  yes      scripts/ServerScriptService/GameScript/Sync/MysteryBox.lua
+module      22  yes      scripts/ServerScriptService/GameScript/Sync/MythicalRewards.lua   (same source as scripts/ServerScriptService/GameScript/Sync/EliteRewards.lua)
+module     123  yes      scripts/ServerScriptService/GameScript/Sync/NameTags.lua
+module     129  yes      scripts/ServerScriptService/GameScript/Sync/OldRecipe.lua
+module     920  yes      scripts/ServerScriptService/GameScript/Sync/Outfits.lua
+module     102  yes      scripts/ServerScriptService/GameScript/Sync/Perks.lua
+module     483  yes      scripts/ServerScriptService/GameScript/Sync/Pets.lua
+module     273  yes      scripts/ServerScriptService/GameScript/Sync/Radios.lua
+module      71  yes      scripts/ServerScriptService/GameScript/Sync/Rarity.lua
+module     412  yes      scripts/ServerScriptService/GameScript/Sync/Recipes.lua
+module      77  yes      scripts/ServerScriptService/GameScript/Sync/Recyclable.lua
+module      78  yes      scripts/ServerScriptService/GameScript/Sync/RecycleRewards.lua
+module     804  yes      scripts/ServerScriptService/GameScript/Sync/SalvageRewards.lua
+module      35  yes      scripts/ServerScriptService/GameScript/Sync/SlotInfo.lua
+module     128  yes      scripts/ServerScriptService/GameScript/Sync/Summer2023Pass.lua
+module     187  yes      scripts/ServerScriptService/GameScript/Sync/Toys.lua
+module     189  yes      scripts/ServerScriptService/GameScript/Sync/Valentines2023Pass.lua
+module       8  yes      scripts/ServerScriptService/GameScript/Sync/XboxFeatured.lua
+module      87  yes      scripts/ServerScriptService/GameScript/Sync/XboxHalloween.lua
+server      43  NO       scripts/ServerScriptService/GamepassController.server.lua
+server    1096  yes      scripts/ServerScriptService/Giver.server.lua
+client       4  yes      scripts/ServerScriptService/Giver/BanGui/BanMainFrame/Close/LocalScript.client.lua
+client      12  yes      scripts/ServerScriptService/Giver/BanGui/BanMainFrame/Main.client.lua
+client      55  yes      scripts/ServerScriptService/Giver/GiftGUI/MainFrame/LocalScript.client.lua
+client      11  yes      scripts/ServerScriptService/Giver/GiverGui/Frame/Left/LocalScript.client.lua
+client      64  yes      scripts/ServerScriptService/Giver/GiverGui/Frame/MainFrame/LocalScript.client.lua   (same source as scripts/ServerScriptService/Giver/GiverGui/Frame/MainFrame2/LocalScript.client.lua)
+client      64  yes      scripts/ServerScriptService/Giver/GiverGui/Frame/MainFrame2/LocalScript.client.lua
+client      11  yes      scripts/ServerScriptService/Giver/GiverGui/Frame/Right/LocalScript.client.lua
+client      16  yes      scripts/ServerScriptService/Giver/LeaderboardGUI/MainFrame/LocalScript.client.lua
+client      55  yes      scripts/ServerScriptService/Giver/QuantityGUI/MainFrame/LocalScript.client.lua
+client      22  yes      scripts/ServerScriptService/Giver/SpecialGUI/MainFrame/LocalScript.client.lua
+server      55  yes      scripts/ServerScriptService/GiverServer.server.lua
+module      78  yes      scripts/ServerScriptService/Insight.lua
+module       1  yes      scripts/ServerScriptService/Insight/APIKey.lua
+module     769  yes      scripts/ServerScriptService/Insight/SupportLibrary.lua   (same source as scripts/ServerScriptService/Insight_ Session Reporting/SupportLibrary.lua)
+server      62  yes      scripts/ServerScriptService/Insight_ Session Reporting.server.lua
+module     769  yes      scripts/ServerScriptService/Insight_ Session Reporting/SupportLibrary.lua
+server      12  yes      scripts/ServerScriptService/Leaderboards/Christmas2021/GiftsLeaderboard.server.lua
+server      12  yes      scripts/ServerScriptService/Leaderboards/Christmas2021/TokensLeaderboard.server.lua
+server      19  yes      scripts/ServerScriptService/Leaderboards/ChristmasLeaderboard.server.lua
+server      12  yes      scripts/ServerScriptService/Leaderboards/HW2021LB.server.lua
+server      19  NO       scripts/ServerScriptService/Leaderboards/ReaverLeaderboard.server.lua
+module      40  yes      scripts/ServerScriptService/Optimizer.lua
+client     193  yes      scripts/ServerScriptService/Optimizer/Main.client.lua
+server       3  yes      scripts/ServerScriptService/OutfitManager/OutfitsManager.server.lua
+server      38  yes      scripts/ServerScriptService/OutfitsManager.server.lua
+server      31  yes      scripts/ServerScriptService/RagdollScript.server.lua
+server     186  NO       scripts/ServerScriptService/RagdollScript/Ragdoll.server.lua
+module      12  yes      scripts/ServerScriptService/RagdollScript/Ragdoll/WeldHat.lua
+server      19  yes      scripts/ServerScriptService/ReaverLeaderboard.server.lua
+server      72  yes      scripts/ServerScriptService/Remover.server.lua
+client      22  yes      scripts/ServerScriptService/Remover/GiverGui/MainFrame/LocalScript.client.lua
+server      73  yes      scripts/ServerScriptService/Remover2.server.lua
+client      22  yes      scripts/ServerScriptService/Remover2/GiverGui/MainFrame/LocalScript.client.lua
+server     174  yes      scripts/ServerScriptService/ServerControl.server.lua
+server      69  yes      scripts/ServerScriptService/ServerLeaders.server.lua
+server      12  NO       scripts/ServerScriptService/ServerLog.server.lua
+client     195  NO       scripts/ServerScriptService/ServerLog/Console.client.lua
+module      24  yes      scripts/ServerScriptService/ServerLog/Console/ConvertTimeStamp.lua
+client     205  NO       scripts/ServerScriptService/ServerLog/ConsoleRepfirst.client.lua
+module      24  yes      scripts/ServerScriptService/ServerLog/ConsoleRepfirst/ConvertTimeStamp.lua   (same source as scripts/ServerScriptService/ServerLog/Console/ConvertTimeStamp.lua)
+server      38  yes      scripts/ServerScriptService/SoftShutdown.server.lua
+client       1  yes      scripts/ServerScriptService/SoftShutdown/UpdateScreen/LocalScript.client.lua
+server      12  yes      scripts/ServerScriptService/Summer2023Leaderboard/Gifting.server.lua
+server      12  yes      scripts/ServerScriptService/Summer2023Leaderboard/TokensLeaderboard.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Admin.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Community.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Creator.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Dev R.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Dev Tag - Toooher.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Head-Admin.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Moderator.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Senior-Admin.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/Senior-Moderator.server.lua
+server      13  yes      scripts/ServerScriptService/Tags/uhh.server.lua
+server      17  yes      scripts/ServerScriptService/TrapServer.server.lua
+server     179  yes      scripts/ServerScriptService/WheelScript.server.lua
+server      12  yes      scripts/ServerScriptService/Xmas2021Leaderboard/GiftsLeaderboard.server.lua
+server      12  yes      scripts/ServerScriptService/Xmas2021Leaderboard/TokensLeaderboard.server.lua
+server      15  NO       scripts/ServerScriptService/oldlog.server.lua
+server       7  yes      scripts/ServerScriptService/oldlog/WorkspaceCleaner.server.lua
+server      20  yes      scripts/ServerStorage/BadgeAwarder/Platform/BadgeAwarderScript.server.lua   LinkedSource=http://www.roblox.com/asset/?id=13326026
+client     355  NO       scripts/ServerStorage/Christmas.client.lua
+module      38  yes      scripts/ServerStorage/Christmas/EnterLeave.lua
+module      30  yes      scripts/ServerStorage/CodeNames.lua
+module      27  yes      scripts/ServerStorage/Colors.lua
+module       9  yes      scripts/ServerStorage/EffectsDatabase/AlienifyKnifeModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/VampireKnifeModule.lua)
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Arctic.lua
+module       8  yes      scripts/ServerStorage/EffectsDatabase/Balloons.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Bats.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Biohazard.lua
+module      16  yes      scripts/ServerStorage/EffectsDatabase/BitsplosionKnifeModule.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Blaze.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/Blizzard.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/BlueF.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/BlueFlamingKnifeModule.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/BlueOrnamentsKnifeModule.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/Candies.lua
+module       8  yes      scripts/ServerStorage/EffectsDatabase/CandyKnifeModule.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Comet.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/DarkFireKnifeModule.lua
+module      24  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/AlienifyDeathModule.lua
+module     262  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/BitsplosionDeathModule.lua
+module      21  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/BlueFDeathModule.lua
+module      20  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/BlueFlamingDeathModule.lua
+module      25  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/CandyDeathModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/DeathModules/GingerbreadDeathModule.lua)
+module      20  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/DarkFireDeathModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/DeathModules/PinkFlamingDeathModule.lua)
+module       2  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/DeathModule.lua
+module      26  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/DogeDeathModule.lua
+module      16  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/ElectricDeathModule.lua
+module      34  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/ElitefiedDeathModule.lua
+module      29  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/EliteifyDeathModule.lua
+module      31  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/FlamingDeathEffect.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/FlowDeathModule.lua
+module      97  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/GearstormDeathModule.lua
+module      21  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/GhostifyDeathModule.lua
+module      25  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/GingerbreadDeathModule.lua
+module      16  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/GingerbreadManDeathModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/DeathModules/ElectricDeathModule.lua)
+module      33  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/GreenFlamingKnifeDeathModule.lua
+module      32  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/GrimaceShakeDeathModule.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/HeartifyDeathModule.lua
+module      36  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/LightningDeathModule.lua
+module      18  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/MonifyDeathModule.lua
+module      20  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/PinkFlamingDeathModule.lua
+module      17  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/RadioactiveDeathModule.lua
+module      17  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/RadioactiveDeathModule2.lua   (same source as scripts/ServerStorage/EffectsDatabase/DeathModules/RadioactiveDeathModule.lua)
+module       8  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/RainbowDeathModule.lua
+module      35  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/RainbowFireDeathModule.lua
+server      48  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/RainbowFireDeathModule/god.server.lua
+module      18  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/SandDeathModule.lua
+module      21  yes      scripts/ServerStorage/EffectsDatabase/DeathModules/SunshineDeathModule.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Desire.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Disco.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Doge.lua
+module      30  yes      scripts/ServerStorage/EffectsDatabase/DualWield.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/EggCellent.lua
+module      12  yes      scripts/ServerStorage/EffectsDatabase/Electric.lua
+server      17  yes      scripts/ServerStorage/EffectsDatabase/Electric/Electric/Script.server.lua
+module       8  yes      scripts/ServerStorage/EffectsDatabase/Elitified.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Elitify.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Emoji.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Fireworks.lua   (same source as scripts/ServerStorage/EffectsDatabase/Comet.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/FlamingKnifeModule.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/FlowKnifeModule.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Galactic.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/Gamma.lua
+module      14  yes      scripts/ServerStorage/EffectsDatabase/GearstormKnifeModule.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Ghostify.lua
+module       9  yes      scripts/ServerStorage/EffectsDatabase/GhostlyKnifeModule.lua
+module       8  yes      scripts/ServerStorage/EffectsDatabase/GingerbreadKnifeModule.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/GingerbreadManKnifeModule.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Glitch.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/GreenFlamingKnife.lua   (same source as scripts/ServerStorage/EffectsDatabase/BlueFlamingKnifeModule.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/GrimaceShake.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Heartify.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Holo.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Honeycomb.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Horizon.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Icecream.lua   (same source as scripts/ServerStorage/EffectsDatabase/Elitify.lua)
+module       8  yes      scripts/ServerStorage/EffectsDatabase/JingleKnifeModule.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Jumpy.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Knifeception.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/LightningKnifeModule.lua
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Limited.lua
+module       8  yes      scripts/ServerStorage/EffectsDatabase/Love.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/MagicKnifeModule.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Money.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/MusicalKnife.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Night.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Nova.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Nuclear.lua   (same source as scripts/ServerStorage/EffectsDatabase/Night.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Oof.lua   (same source as scripts/ServerStorage/EffectsDatabase/Elitify.lua)
+module       7  yes      scripts/ServerStorage/EffectsDatabase/Paint.lua   (same source as scripts/ServerStorage/EffectsDatabase/Disco.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/PinkFlamingKnifeModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/BlueFlamingKnifeModule.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Pizza.lua   (same source as scripts/ServerStorage/EffectsDatabase/Elitify.lua)
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Plasma.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Pumpkin.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/RadioactiveGun.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/RadioactiveKnife.lua
+module       6  yes      scripts/ServerStorage/EffectsDatabase/Rainbow.lua
+module       9  yes      scripts/ServerStorage/EffectsDatabase/RainbowFireKnifeModule.lua
+server      48  yes      scripts/ServerStorage/EffectsDatabase/RainbowFireKnifeModule/Script.server.lua   (same source as scripts/ServerStorage/EffectsDatabase/DeathModules/RainbowFireDeathModule/god.server.lua)
+module       8  yes      scripts/ServerStorage/EffectsDatabase/RainbowKnifeModule.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/SandKnifeModule.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/SandWrappedKnifeModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/WrappedKnifeModule.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Shine.lua
+module       3  yes      scripts/ServerStorage/EffectsDatabase/Snowflake2017.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/Starpower.lua
+module       5  yes      scripts/ServerStorage/EffectsDatabase/Sunshine.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Toxic.lua
+module       9  yes      scripts/ServerStorage/EffectsDatabase/VampireKnifeModule.lua
+module       4  yes      scripts/ServerStorage/EffectsDatabase/Venom.lua   (same source as scripts/ServerStorage/EffectsDatabase/Toxic.lua)
+module       8  yes      scripts/ServerStorage/EffectsDatabase/Volt.lua   (same source as scripts/ServerStorage/EffectsDatabase/Love.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/WaterKnifeModule.lua   (same source as scripts/ServerStorage/EffectsDatabase/Heartify.lua)
+module       3  yes      scripts/ServerStorage/EffectsDatabase/WrappedKnifeModule.lua
+client     389  NO       scripts/ServerStorage/EventScript_Halloween2021.client.lua
+module     212  yes      scripts/ServerStorage/EventScript_Halloween2021/OpenCrate.lua
+module      19  yes      scripts/ServerStorage/Faces.lua
+client     329  NO       scripts/ServerStorage/Game_3DSpawn.client.lua
+client     533  NO       scripts/ServerStorage/GunScripts/KnifeLocal.client.lua
+server     534  NO       scripts/ServerStorage/GunScripts/KnifeServer.server.lua
+module      73  yes      scripts/ServerStorage/GunScripts/Maid.lua
+server     560  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Animation.server.lua
+server       5  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Bleeding.server.lua
+server      28  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/BloodSplat.server.lua
+server      17  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/FallDamage.server.lua
+server      55  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Move.server.lua
+server      16  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Respawn.server.lua
+server      24  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/RunAwayScript.server.lua
+server      51  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/RunAwayScript/NPC Targeting Attack Script.server.lua
+server      40  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Script.server.lua
+server     560  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/Animation.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Animation.server.lua)
+server       5  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/Bleeding.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Bleeding.server.lua)
+server      28  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/BloodSplat.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/BloodSplat.server.lua)
+server      17  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/FallDamage.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/FallDamage.server.lua)
+server      55  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/Move.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Move.server.lua)
+server      16  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/Respawn.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Respawn.server.lua)
+server      24  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/RunAwayScript.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/RunAwayScript.server.lua)
+server      51  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/RunAwayScript/NPC Targeting Attack Script.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/RunAwayScript/NPC Targeting Attack Script.server.lua)
+server      40  yes      scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle~2/E/Script.server.lua   (same source as scripts/ServerStorage/Jadens map/Jadens Map/Model/Map/Background Stuff/Pond Turtle/E/Script.server.lua)
+client     278  NO       scripts/ServerStorage/KnifeScripts/KnifeLocal.client.lua
+module      20  yes      scripts/ServerStorage/KnifeScripts/KnifeLocal/CheckTapPosition.lua
+server     376  NO       scripts/ServerStorage/KnifeScripts/KnifeServer.server.lua
+server     238  NO       scripts/ServerStorage/KnifeScripts/KnifeServer/ThrowingKinfeHandlerScript.server.lua
+module      73  yes      scripts/ServerStorage/KnifeScripts/Maid.lua   (same source as scripts/ServerStorage/GunScripts/Maid.lua)
+module      21  yes      scripts/ServerStorage/KnifeScripts/MakeFlyingHandle.lua
+module      16  yes      scripts/ServerStorage/KnifeScripts/MakeFlyingHandleClone.lua
+client       3  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua)
+server      16  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script.server.lua   (same source as scripts/Workspace/FixPart/Script.server.lua)
+client       5  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/OpenShop.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/OpenShop.client.lua)
+client       3  NO       scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua)
+client       5  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/ImageButton/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/ImageButton/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua)
+client       9  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua)
+client       8  yes      scripts/ServerStorage/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right3/LocalScript.client.lua   (same source as scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right3/LocalScript.client.lua)
+server      19  yes      scripts/ServerStorage/Lobby/MainLobby/_/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)
+server       6  yes      scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+client      30  yes      scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Part/LocalScript.client.lua   (same source as scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Rocks~2/LocalScript.client.lua)
+client      30  yes      scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Part~3/LocalScript.client.lua   (same source as scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Rocks~2/LocalScript.client.lua)
+client      30  yes      scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Part~5/LocalScript.client.lua   (same source as scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Rocks~2/LocalScript.client.lua)
+client      30  yes      scripts/ServerStorage/Lobby/Workspace/Model/GamepassBoard3/Rocks~2/LocalScript.client.lua
+server      52  yes      scripts/ServerStorage/Lobby/Workspace/Model/Handle/Script.server.lua
+server      76  yes      scripts/ServerStorage/Lobby/Workspace/VotePadsb/Script.server.lua   (same source as scripts/Workspace/VotePads/Script.server.lua)
+server      19  yes      scripts/ServerStorage/Lobby/Workspace/_/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Bank/Interactable/Metal Detector1~2/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Bank/Interactable/Metal Detector1~3/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Bank/Interactable/Metal Detector1~4/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      62  yes      scripts/ServerStorage/Maps/Bank/Bank/Interactable/Vault Door/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Vault Door/Sensor/Script.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua
+server      35  yes      scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1~2/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1~3/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      35  yes      scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1~4/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      62  yes      scripts/ServerStorage/Maps/Bank/Interactable/Vault Door/Sensor/Script.server.lua
+server      35  yes      scripts/ServerStorage/Maps/Bank2/Interactive/MetalDetector/Sensor/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank/Interactable/Metal Detector1/Sensor/Script.server.lua)
+server      62  yes      scripts/ServerStorage/Maps/Bank2/Interactive/VaultSystem/Sensor/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture~2/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture/Part~3/SurfaceGui/ImageLabel/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture~3/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture/Part~3/SurfaceGui/ImageLabel/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture~4/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture/Part~3/SurfaceGui/ImageLabel/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Bank2/Parts/Basement/Furnishing/Alarm/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture/Part~3/SurfaceGui/ImageLabel/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Bank2/Parts/Basement/Furnishing/Alarm~2/Script.server.lua   (same source as scripts/ServerStorage/Maps/Bank2/Parts/1stFloor/Furnishing/Picture/Part~3/SurfaceGui/ImageLabel/Script.server.lua)
+server      16  yes      scripts/ServerStorage/Maps/BioLab/Map_BioLab/Part~573/SurfaceLight/Script.server.lua
+server      72  NO       scripts/ServerStorage/Maps/BioLab/Map_BioLab/_~4/SnowmanHat/HatHelperGuideGiverScript.server.lua
+server      12  yes      scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag1/Bright blue/Script.server.lua   (same source as scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag2/Bright blue/Script.server.lua)
+server      12  yes      scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag1/Bright red/Script.server.lua   (same source as scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag2/Bright red/Script.server.lua)
+server      12  yes      scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag2/Bright blue/Script.server.lua
+server      12  yes      scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag2/Bright red/Script.server.lua
+server      12  yes      scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag3/Bright blue/Script.server.lua   (same source as scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag2/Bright blue/Script.server.lua)
+server      12  yes      scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag3/Bright red/Script.server.lua   (same source as scripts/ServerStorage/Maps/Club/Map/Club/Flags/Flag2/Bright red/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~110/Model~3/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~110/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~130/Model~3/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~130/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~63/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~94/Model~3/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server      29  yes      scripts/ServerStorage/Maps/Construction/Map/Model~94/Turbo Hard Hat Giver/Script.server.lua   (same source as scripts/ServerStorage/Maps/Construction/Map/Model~63/Model~2/Turbo Hard Hat Giver/Script.server.lua)
+server       6  NO       scripts/ServerStorage/Maps/DodgeballArena/Map/KnifeThru/KillScript.server.lua
+server      27  yes      scripts/ServerStorage/Maps/Dredge/Map/Part~231/Script.server.lua
+server      27  yes      scripts/ServerStorage/Maps/Dredge/Map/Part~387/Script.server.lua   (same source as scripts/ServerStorage/Maps/Dredge/Map/Part~231/Script.server.lua)
+server      18  yes      scripts/ServerStorage/Maps/Factory/LorryDoor/ClickDetector.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Factory/LorryDoor/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/Factory/LorryDoor/InteractiveBox/InteractiveScriptTemplate.server.lua
+server      18  yes      scripts/ServerStorage/Maps/Factory/LorryDoor~2/ClickDetector.server.lua   (same source as scripts/ServerStorage/Maps/Factory/LorryDoor/ClickDetector.server.lua)
+server       0  yes      scripts/ServerStorage/Maps/Factory/LorryDoor~2/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/Factory/LorryDoor~2/InteractiveBox/InteractiveScriptTemplate.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Factory/Map/Model~101/Model/Union~2/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Factory/Map/Model~96/Model/Union~2/Script.server.lua
+server       5  yes      scripts/ServerStorage/Maps/Factory/Map/Part~1042/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Factory/Map/Union~25/Script.server.lua
+server       7  yes      scripts/ServerStorage/Maps/Factory/Map/_/RedSparkletimeFedora/READ ME.server.lua
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~10/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~11/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~12/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~13/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~14/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~2/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~3/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~4/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~5/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~6/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~7/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~8/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick~9/Script.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/Model~44/KillBrick/Script.server.lua)
+server      44  yes      scripts/ServerStorage/Maps/Hospital2/Map/_/Loader.server.lua
+server      44  yes      scripts/ServerStorage/Maps/Hospital2/Map/_~2/Loader.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/_/Loader.server.lua)
+server      44  yes      scripts/ServerStorage/Maps/Hospital2/Map/_~4/Loader.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/_/Loader.server.lua)
+server      44  yes      scripts/ServerStorage/Maps/Hospital2/Map/_~5/Loader.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/_/Loader.server.lua)
+server      44  yes      scripts/ServerStorage/Maps/Hospital2/Map/_~6/Loader.server.lua   (same source as scripts/ServerStorage/Maps/Hospital2/Map/_/Loader.server.lua)
+server       0  yes      scripts/ServerStorage/Maps/Hospital3/Map/Parts/Floor1/Staffroom/Thexz/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Hospital3/Map/Parts/Floor1/Staffroom/Zyleak/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Hospital3/Map/Parts/Floor1/Staffroom/didi1147/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Hospital3/Map/Parts/Floor2/OfficeRoom/Nikilis/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+module       3  yes      scripts/ServerStorage/Maps/House2/GameModes/Classic.lua
+server      10  yes      scripts/ServerStorage/Maps/House2/Map/Lightbulb/PointLight/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/House2/Map/Model~14/Part/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/House2/Map/Model~15/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/House2/Map/Model~29/Part/SurfaceGui/ImageLabel/Script.server.lua
+server       7  yes      scripts/ServerStorage/Maps/House2/Map/Part~589/Script.server.lua
+server       6  yes      scripts/ServerStorage/Maps/House2/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Barrel~3/Part/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Barrel~3/Part/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Bl0x/Buildings/Cone/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Bl0x/Polls/Model~2/Cone/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Bl0x/Polls/Model~3/Cone/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Bl0x/Polls/Model~4/Cone/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Bl0x/Polls/Model~5/Cone/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Karachi/Map/Bl0x/Polls/Model~6/Cone/Light/Script.server.lua   (same source as scripts/ServerStorage/Maps/Karachi/Map/Barrel/Part/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/Lab2/Script.server.lua   (same source as scripts/ServerStorage/Maps/House2/Script.server.lua)
+module       3  yes      scripts/ServerStorage/Maps/Mansion/GameModes/Classic.lua   (same source as scripts/ServerStorage/Maps/House2/GameModes/Classic.lua)
+server       6  yes      scripts/ServerStorage/Maps/Mansion/Script.server.lua   (same source as scripts/ServerStorage/Maps/House2/Script.server.lua)
+server       0  yes      scripts/ServerStorage/Maps/Mansion2/GlitchProof/KillBrick/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/Mansion2/Map/Model~53/Script.server.lua
+server      37  yes      scripts/ServerStorage/Maps/MilBase/Map_MilitaryBase/Door/Script.server.lua
+server       7  yes      scripts/ServerStorage/Maps/MilBase/Map_MilitaryBase/Model~2/Part~3/PointLight/Script.server.lua
+server       7  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~12/Part/Script.server.lua
+server      11  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~13/Part~3/PointLight/Script.server.lua
+server      11  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~18/Part~3/PointLight/Script.server.lua   (same source as scripts/ServerStorage/Maps/Mineshaft/Map/Model~13/Part~3/PointLight/Script.server.lua)
+server       7  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~21/Part/Script.server.lua   (same source as scripts/ServerStorage/Maps/Mineshaft/Map/Model~12/Part/Script.server.lua)
+server       7  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~25/Part/Script.server.lua   (same source as scripts/ServerStorage/Maps/Mineshaft/Map/Model~12/Part/Script.server.lua)
+server       7  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~27/Part/Script.server.lua   (same source as scripts/ServerStorage/Maps/Mineshaft/Map/Model~12/Part/Script.server.lua)
+server      11  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~29/Part~3/PointLight/Script.server.lua   (same source as scripts/ServerStorage/Maps/Mineshaft/Map/Model~13/Part~3/PointLight/Script.server.lua)
+server       7  yes      scripts/ServerStorage/Maps/Mineshaft/Map/Model~30/Part/Script.server.lua   (same source as scripts/ServerStorage/Maps/Mineshaft/Map/Model~12/Part/Script.server.lua)
+server       9  yes      scripts/ServerStorage/Maps/MurderSimulator/Map/Underground/Part~69/SurfaceGui/TextLabel/Script.server.lua
+server      32  yes      scripts/ServerStorage/Maps/Nuclear Plant/Map/ControlPanel/Handle/Script.server.lua
+server      15  yes      scripts/ServerStorage/Maps/Nuclear Plant/Map/ControlPanel/Panel/SurfaceGui/Frame/Script.server.lua
+server       4  yes      scripts/ServerStorage/Maps/Office3/Map/Knife/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Office3/Map/Model~27/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Office3/Map/Model~28/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Office3/Map/Model~37/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Office3/Map/Model~40/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerStorage/Maps/House2/Map/Model~29/Part/SurfaceGui/ImageLabel/Script.server.lua)
+server       1  yes      scripts/ServerStorage/Maps/Office3/Map/Model~52/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Maps/Office3/Map/Model~82/Part~3/SurfaceGui/ImageLabel/Script.server.lua
+server      10  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/In.server.lua
+server      13  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/InteractiveBox/InteractiveScriptTemplate.server.lua
+server      12  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/InteractiveBoxInside/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/InteractiveBoxInside/InteractiveScriptTemplate.server.lua
+server      12  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/Out.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/AccessibleTestTube/Script.server.lua
+server      44  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScriptTemplate.server.lua
+server      47  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/DoorLockdown1/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/DoorLockdown1/InteractiveBox/InteractiveScriptTemplate.server.lua
+server      47  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/DoorLockdown2/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/DoorLockdown2/InteractiveBox/InteractiveScriptTemplate.server.lua
+server      39  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/GarageSystem/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/GarageSystem/InteractiveBox/InteractiveScriptTemplate.server.lua
+server      42  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/GarageSystem/InteractiveBox~2/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/GarageSystem/InteractiveBox~2/InteractiveScriptTemplate.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/LightKillSwitch/Generator/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/LightKillSwitch/Generator/InteractiveBox/InteractiveScriptTemplate.server.lua
+server     105  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/TeleportBox/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/Teleporter.server.lua
+module       1  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/Teleporter/CreateParticleTween.lua
+server     109  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP2/TeleportBox/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP2/Teleporter.server.lua
+module       1  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP2/Teleporter/CreateParticleTween.lua   (same source as scripts/ServerStorage/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/Teleporter/CreateParticleTween.lua)
+server      79  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/ScanSystem/Scanner/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/ScanSystem/Scanner/InteractiveBox/InteractiveScriptTemplate.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/ScanSystem/Siren/Script.server.lua
+server      43  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/InteractiveBox/InteractiveScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/InteractiveBox/InteractiveScriptTemplate.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~10/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~11/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~12/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~13/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~14/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~15/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~16/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~17/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~2/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~3/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~4/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~5/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~6/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~7/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~8/Script.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Interactive/SirenSystem/Siren~9/Script.server.lua
+server      49  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua
+server      49  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/LockedTestTube~2/Dylan/Loader.server.lua   (same source as scripts/ServerStorage/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/Monitor/Joven'sScreen/Gif/GifScript.server.lua
+server       0  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/Monitor~2/Joven'sScreen/Gif/GifScript.server.lua
+server      55  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/SlidingDoors/Operate.server.lua
+server      55  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/SlidingDoors~2/Operate.server.lua   (same source as scripts/ServerStorage/Maps/ResearchFacility/Parts/SlidingDoors/Operate.server.lua)
+server      49  yes      scripts/ServerStorage/Maps/ResearchFacility/Parts/Zyleak/Loader.server.lua   (same source as scripts/ServerStorage/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server      49  yes      scripts/ServerStorage/Maps/ResearchFacility/Thexz/Loader.server.lua   (same source as scripts/ServerStorage/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server     115  yes      scripts/ServerStorage/Maps/Workshop/Interactive/Elf_Uniform/Button/Script.server.lua
+server      15  yes      scripts/ServerStorage/Maps/Workshop/Interactive/Machine_Stop/Script.server.lua
+server      33  yes      scripts/ServerStorage/Maps/Workshop/Interactive/Trap_Door/Script.server.lua
+client     112  yes      scripts/ServerStorage/Menu_Crate.client.lua
+client     840  yes      scripts/ServerStorage/OldInventory/Crafting_Data.client.lua
+client     327  yes      scripts/ServerStorage/OldInventory/Examine_Data.client.lua
+client      41  yes      scripts/ServerStorage/OldInventory/Examine_GUI.client.lua
+client     561  yes      scripts/ServerStorage/OldInventory/Inventory_Data.client.lua
+client     176  yes      scripts/ServerStorage/OldInventory/Inventory_GUI.client.lua
+module       3  yes      scripts/ServerStorage/OldMaps/Office2/GameModes/Classic.lua   (same source as scripts/ServerStorage/Maps/House2/GameModes/Classic.lua)
+module       3  yes      scripts/ServerStorage/OldMaps/Office2/GameModes/WildWest.lua   (same source as scripts/ServerStorage/Maps/House2/GameModes/Classic.lua)
+server       6  yes      scripts/ServerStorage/OldMaps/Office2/Script.server.lua   (same source as scripts/ServerStorage/Maps/House2/Script.server.lua)
+server      51  yes      scripts/ServerStorage/Pet/Floating.server.lua
+server      59  NO       scripts/ServerStorage/Pet/Walking.server.lua
+server      23  yes      scripts/ServerStorage/Radios/ChromaRadio/Chroma/Script.server.lua
+client      76  yes      scripts/ServerStorage/Shirt/LS.client.lua
+server     127  yes      scripts/ServerStorage/ToysDatabase/Toys/BeachBall/BounceBallScript.server.lua
+server      47  yes      scripts/ServerStorage/ToysDatabase/Toys/ChocolateMilk/BloxyColaScript.server.lua
+client      67  yes      scripts/ServerStorage/ToysDatabase/Toys/Clover/Equip _ Idle Animation Tool.client.lua
+client      44  yes      scripts/ServerStorage/ToysDatabase/Toys/FakeBomb/LocalScript.client.lua
+server      74  yes      scripts/ServerStorage/ToysDatabase/Toys/FakeBomb/ServerScript.server.lua
+server      91  NO       scripts/ServerStorage/ToysDatabase/Toys/FakeBomb/ServerScript/Script.server.lua
+client      33  yes      scripts/ServerStorage/ToysDatabase/Toys/Fireflies/AnimationScript.client.lua
+server      66  yes      scripts/ServerStorage/ToysDatabase/Toys/Fireflies/FirefliesScript.server.lua
+client     104  yes      scripts/ServerStorage/ToysDatabase/Toys/IceCream/IceCreamCone LS.client.lua
+server      38  yes      scripts/ServerStorage/ToysDatabase/Toys/IceCream/IceCreamCone LS/IceCreamSpeedScript.server.lua
+client      31  yes      scripts/ServerStorage/ToysDatabase/Toys/IceCream/Local Gui.client.lua
+server      24  NO       scripts/ServerStorage/ToysDatabase/Toys/KeyToy/Handle/ChromaScript.server.lua
+server      97  yes      scripts/ServerStorage/ToysDatabase/Toys/KeyToy/KeyScript.server.lua
+server      48  yes      scripts/ServerStorage/ToysDatabase/Toys/Pizza/SandwichScript.server.lua
+client      67  yes      scripts/ServerStorage/ToysDatabase/Toys/SprayPaint/LocalScript.client.lua
+server     109  yes      scripts/ServerStorage/ToysDatabase/Toys/SprayPaint/Script.server.lua
+server      69  yes      scripts/ServerStorage/ToysDatabase/Toys/Teddy/TeddyScript.server.lua
+server     136  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/ChromaScript.server.lua
+server       8  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/FireScript.server.lua
+server     136  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2020/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2020/Handle/ChromaScript.server.lua   (same source as scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/ChromaScript.server.lua)
+server       8  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2020/Handle/FireScript.server.lua   (same source as scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/FireScript.server.lua)
+server     136  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2021/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2021/Handle/ChromaScript.server.lua   (same source as scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/ChromaScript.server.lua)
+server       8  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2021/Handle/FireScript.server.lua   (same source as scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/FireScript.server.lua)
+server     112  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2022/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2022/Handle/ChromaScript.server.lua   (same source as scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/ChromaScript.server.lua)
+server       8  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2022/Handle/FireScript.server.lua   (same source as scripts/ServerStorage/ToysDatabase/Toys/ToyCandy2019/Handle/FireScript.server.lua)
+server      27  yes      scripts/ServerStorage/ToysDatabase/Toys/ToyCandyGalaxy/Handle/Script.server.lua
+client      43  yes      scripts/ServerStorage/ToysDatabase/Toys/TreatBucket/LocalScript.client.lua
+server     240  yes      scripts/ServerStorage/ToysDatabase/Toys/TreatBucket/qPerfectionWeld.server.lua   (same source as scripts/Workspace/KarambitBox/Uncommon/Karambit/qPerfectionWeld.server.lua)
+client      40  yes      scripts/ServerStorage/ToysDatabase/Toys/ZombieFriend/Local Gui.client.lua
+server     145  yes      scripts/ServerStorage/ToysDatabase/Toys/ZombieFriend/ZombieFriendScript.server.lua
+server      34  yes      scripts/ServerStorage/Trap/TrapScript.server.lua
+client      69  yes      scripts/ServerStorage/nLogs_Mobile.client.lua
+client      65  yes      scripts/ServerStorage/nLogs_PC.client.lua
+client      65  yes      scripts/ServerStorage/nLogs_PC~2.client.lua   (same source as scripts/ServerStorage/nLogs_PC.client.lua)
+module     139  yes      scripts/StarterGui/HighGraphics/ConfettiModule.lua   (same source as scripts/StarterGui/LowGraphics/ConfettiModule.lua)
+client      12  yes      scripts/StarterGui/HighGraphics/Main/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/HighGraphics/Main2/LocalScript.client.lua
+module     139  yes      scripts/StarterGui/Inviter/ConfettiModule.lua   (same source as scripts/StarterGui/LowGraphics/ConfettiModule.lua)
+client       5  yes      scripts/StarterGui/Inviter/IconButton/ConfettiMain.client.lua
+client      38  NO       scripts/StarterGui/Inviter/IconButton/LocalScript.client.lua
+client      35  yes      scripts/StarterGui/Inviter/IconButton/LocalScriptExtra.client.lua
+client      12  yes      scripts/StarterGui/Inviter/IconButton/MenuOpened.client.lua
+module     139  yes      scripts/StarterGui/LowGraphics/ConfettiModule.lua
+client      26  yes      scripts/StarterGui/LowGraphics/Main/LocalScript.client.lua
+client      26  yes      scripts/StarterGui/LowGraphics/Main2/LocalScript.client.lua
+client       6  NO       scripts/StarterGui/Shop/OpenShop.client.lua
+client       3  yes      scripts/StarterGui/Shop/Shop/Close/LocalScript.client.lua
+client       1  NO       scripts/StarterGui/Shop/Shop/Comment.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Left/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack1/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack2/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack3/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack4/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack5/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main/ItemPack6/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack1/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack2/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack3/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack4/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack5/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Shop/Shop/Main2/ItemPack6/Buy/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Main2/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/StarterGui/Shop/Shop/Right/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/SpawnFade/CodeFrame/Close/LocalScript.client.lua
+client       4  yes      scripts/StarterGui/SpawnFade/Fade/LocalScript.client.lua
+client     815  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+client       6  yes      scripts/StarterPlayer/StarterCharacterScripts/FadeModule.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/FadeModule.client.lua)
+client       2  yes      scripts/StarterPlayer/StarterCharacterScripts/LoadOutfit.client.lua
+client       4  yes      scripts/StarterPlayer/StarterCharacterScripts/OutfitChanger.client.lua
+server     153  yes      scripts/StarterPlayer/StarterCharacterScripts/Sound.server.lua
+client     142  yes      scripts/StarterPlayer/StarterCharacterScripts/Sound/LocalSound.client.lua
+server      14  yes      scripts/StarterPlayer/StarterCharacterScripts/SpeedTrail.server.lua
+client       8  yes      scripts/StarterPlayer/StarterCharacterScripts/Unfade.client.lua
+client      82  yes      scripts/StarterPlayer/StarterPlayerScripts/AdminController.client.lua
+client       9  yes      scripts/StarterPlayer/StarterPlayerScripts/BoxController.client.lua
+client       1  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientTween.client.lua
+client      80  yes      scripts/StarterPlayer/StarterPlayerScripts/CoinVisualizer.client.lua
+module      26  yes      scripts/StarterPlayer/StarterPlayerScripts/CoinVisualizer/Weld.lua
+client     126  yes      scripts/StarterPlayer/StarterPlayerScripts/EmoteController.client.lua
+client       3  NO       scripts/StarterPlayer/StarterPlayerScripts/EmoteController/Emotes/D.client.lua
+client       6  yes      scripts/StarterPlayer/StarterPlayerScripts/FadeModule.client.lua
+client     126  yes      scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations.client.lua
+client      17  NO       scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations/Victory/LocalScript.client.lua
+client      53  yes      scripts/StarterPlayer/StarterPlayerScripts/GetRayIgnoreList/Handler.client.lua
+client       8  yes      scripts/StarterPlayer/StarterPlayerScripts/LevelMessage.client.lua
+client     123  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalScript.client.lua
+client       1  yes      scripts/StarterPlayer/StarterPlayerScripts/OutfitDeadTeam.client.lua
+client     123  yes      scripts/StarterPlayer/StarterPlayerScripts/Pets.client.lua
+module      25  yes      scripts/StarterPlayer/StarterPlayerScripts/Pets/DecalChroma.lua
+module      25  yes      scripts/StarterPlayer/StarterPlayerScripts/Pets/FireChroma.lua
+module      26  yes      scripts/StarterPlayer/StarterPlayerScripts/Pets/Weld.lua
+client      44  yes      scripts/StarterPlayer/StarterPlayerScripts/Preloader.client.lua
+client     406  yes      scripts/StarterPlayer/StarterPlayerScripts/Scoreboard.client.lua
+client       5  yes      scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard/Assassin/Container/Title/Close/Close/LocalScript.client.lua
+client       5  yes      scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard/Assassin/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard/ScaryMode/Container/Title/Close/Close/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard_Phone/ScaryMode/Container/VersusFrame/Title/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard_Phone/Classic/Container/VersusFrame/Title/Close/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard_Phone/ScaryMode/Container/VersusFrame/Title/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterPlayer/StarterPlayerScripts/Scoreboard/Scoreboard_Phone/ScaryMode/Container/VersusFrame/Title/Close/LocalScript.client.lua
+client      85  yes      scripts/StarterPlayer/StarterPlayerScripts/StatUpdater.client.lua
+module     163  yes      scripts/StarterPlayer/StarterPlayerScripts/StatUpdater/Gamepad.lua
+client      15  yes      scripts/StarterPlayer/StarterPlayerScripts/ThrowingKnifeVisuals.client.lua
+client       1  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/GunBeams.client.lua
+module      81  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/GunBeams/CreateBeam.lua
+module      20  yes      scripts/VoiceChatService/WhiteListService.lua
+server      51  yes      scripts/VoiceChatService/WhiteListService/Manager.server.lua
+client      16  yes      scripts/VoiceChatService/WhiteListService/Manager/Camera Blocker.client.lua
+client       3  yes      scripts/Workspace/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua
+server      16  yes      scripts/Workspace/FixPart/Script.server.lua
+client       5  NO       scripts/Workspace/FixPart/Script/ScreenGui/OpenShop.client.lua
+client       3  NO       scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua
+client       5  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/ImageButton/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua
+client       6  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua
+client       9  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua
+client       8  yes      scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right3/LocalScript.client.lua
+server       3  yes      scripts/Workspace/Handle/Script.server.lua
+server      85  yes      scripts/Workspace/Handle~3/Eye/FloatAnimation.server.lua
+module     636  yes      scripts/Workspace/Handle~3/Eye/FloatAnimation/Janitor.lua
+module      47  yes      scripts/Workspace/Handle~3/Eye/FloatAnimation/Janitor/GetPromiseLibrary.lua
+module      38  yes      scripts/Workspace/Handle~3/Eye/FloatAnimation/Janitor/RbxScriptConnection.lua
+module      12  yes      scripts/Workspace/Handle~3/Eye/FloatAnimation/Janitor/Symbol.lua
+module      34  yes      scripts/Workspace/JaysRandomStuff/Dual/MainModule.lua
+client      35  yes      scripts/Workspace/JaysRandomStuff/Folder/LocalScript.client.lua
+server     240  yes      scripts/Workspace/KarambitBox/Uncommon/Karambit/qPerfectionWeld.server.lua
+server     240  yes      scripts/Workspace/KarambitBox/Uncommon/Karambit~2/qPerfectionWeld.server.lua   (same source as scripts/Workspace/KarambitBox/Uncommon/Karambit/qPerfectionWeld.server.lua)
+client       3  yes      scripts/Workspace/Lobby/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua)
+server      16  yes      scripts/Workspace/Lobby/FixPart/Script.server.lua
+client       5  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/OpenShop.client.lua
+client       5  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Close/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/ImageButton/LocalScript.client.lua)
+client       3  NO       scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua)
+client       9  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/FixPart/Script/ScreenGui/Seasonal/Right3/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right3/LocalScript.client.lua)
+client       3  yes      scripts/Workspace/Lobby/MainLobby/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/ScreenGui/ComingSoon/Close/LocalScript.client.lua)
+server      16  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script.server.lua   (same source as scripts/Workspace/FixPart/Script.server.lua)
+client       5  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/OpenShop.client.lua
+client       3  NO       scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Comment.client.lua)
+client       5  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/ImageButton/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/ImageButton/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left2/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Left3/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Buy/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main2/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack1/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack1/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack2/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack2/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack3/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack3/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack4/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack4/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack5/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack5/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Back/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main/ItemPack6/Back/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/ItemPack6/Buy/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack1/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack2/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack3/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack4/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack5/Container/Button/LocalScript.client.lua)
+client       6  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Main4/Menu/List/Pack6/Container/Button/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right/LocalScript.client.lua)
+client       9  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua   (same source as scripts/Workspace/FixPart/Script/ScreenGui/Seasonal/Right2/LocalScript.client.lua)
+client       8  yes      scripts/Workspace/Lobby/MainLobby/FixPart/Script/ScreenGui/Seasonal/Right3/LocalScript.client.lua
+server      19  yes      scripts/Workspace/Lobby/MainLobby/_/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)
+server       0  yes      scripts/Workspace/Lobby/ServerStatus/Screen/Script.server.lua
+server      13  yes      scripts/Workspace/MM2Events/Event.server.lua
+module      19  yes      scripts/Workspace/MM2Events/Event/Christmas2021.lua
+module      19  yes      scripts/Workspace/MM2Events/Event/Halloween2021.lua
+server       6  yes      scripts/Workspace/Model~10/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Model~3/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Model~5/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Model~9/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+client     578  yes      scripts/Workspace/Npcs/Rig/Animate.client.lua
+server      19  yes      scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua
+client     583  yes      scripts/Workspace/Npcs/Rig~2/Animate.client.lua
+server      19  yes      scripts/Workspace/Npcs/Rig~2/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)
+server       5  yes      scripts/Workspace/Npcs/_/Animation Script.server.lua
+server      19  yes      scripts/Workspace/Npcs/_/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)
+server       5  yes      scripts/Workspace/Part~7/Attachment/Script.server.lua
+client      20  yes      scripts/Workspace/Premium/LocalScript.client.lua
+client     741  yes      scripts/Workspace/Premium/_/Animate.client.lua
+server      20  yes      scripts/Workspace/Premium/_/Health.server.lua
+server       4  yes      scripts/Workspace/Premium/_/Humanoid/SetToIdle.server.lua
+server      19  yes      scripts/Workspace/Premium/_/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)
+server      85  yes      scripts/Workspace/Premium/_/Sound.server.lua
+client     398  yes      scripts/Workspace/Premium/_/Sound/LocalSound.client.lua
+server       6  yes      scripts/Workspace/Robux/Bundle/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Robux/Bundle~2/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Robux/Bundle~3/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Robux/Bundle~4/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server      29  yes      scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua
+server       6  yes      scripts/Workspace/Robux/Doom/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server      52  yes      scripts/Workspace/Robux/Doom/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Title/RainbowText.server.lua
+server      52  yes      scripts/Workspace/Robux/Doom/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Txt/RainbowText.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Title/RainbowText.server.lua)
+server       6  yes      scripts/Workspace/Robux/Doom~2/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server      52  yes      scripts/Workspace/Robux/Doom~2/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Title/RainbowText.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Title/RainbowText.server.lua)
+server      52  yes      scripts/Workspace/Robux/Doom~2/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Txt/RainbowText.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Title/RainbowText.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle/MeshPart~3/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle/MeshPart~4/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle/MeshPart~5/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle/MeshPart~6/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle/MeshPart~7/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle/MeshPart~8/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle~2/MeshPart~3/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle~2/MeshPart~4/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle~2/MeshPart~5/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle~2/MeshPart~6/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle~2/MeshPart~7/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server      29  yes      scripts/Workspace/Robux/Model/Handle~2/MeshPart~8/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server       6  yes      scripts/Workspace/Robux/Model/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Robux/Model~2/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Robux/Model~3/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server       6  yes      scripts/Workspace/Robux/Pack/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+client      17  yes      scripts/Workspace/Robux/Pack~2/Model/GamepassBoard3/Screen/SurfaceGui/Frame/Buy/LocalScript.client.lua
+server       6  yes      scripts/Workspace/Robux/Sabers/Model/Model/Model/Model/GamepassBoard3/Buy/Gamepass script.server.lua
+server      19  yes      scripts/Workspace/Server Age/GamepassDisplay/SurfaceGui/Frame/List/Text/Tick.server.lua
+server       7  yes      scripts/Workspace/Server Age/GamepassDisplay/SurfaceGui/Script.server.lua
+server      94  yes      scripts/Workspace/SoftShutdown2 v1.21.server.lua
+server      76  yes      scripts/Workspace/VotePads/Script.server.lua
+server      35  yes      scripts/Workspace/Weapon Models/Handle~9/Blade/Rainbow.server.lua
+server      35  yes      scripts/Workspace/Weapon Models/Handle~9/MainEff/Rainbow.server.lua   (same source as scripts/Workspace/Weapon Models/Handle~9/Blade/Rainbow.server.lua)
+client     804  yes      scripts/Workspace/Weapon Models/Test/Animate.client.lua
+server      29  yes      scripts/Workspace/Weapon Models/Test/MeshPart/Script.server.lua   (same source as scripts/Workspace/Robux/Doom/Model/Model/Model/Cooler Star/Script.server.lua)
+server       7  yes      scripts/Workspace/Weapon Models/Test/PlayAnimation.server.lua
+server       5  yes      scripts/Workspace/_/Animation Script.server.lua   (same source as scripts/Workspace/Npcs/_/Animation Script.server.lua)
+server      19  yes      scripts/Workspace/_/LoadCharacter.server.lua   (same source as scripts/Workspace/Npcs/Rig/LoadCharacter.server.lua)

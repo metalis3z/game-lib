@@ -1,0 +1,51 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.HUD  (19 descendants)
+ScreenGui "HUD"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "BottomLeft"  size={0.25,0},{0.3,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  z=-1
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+    Frame "FriendsBoost"  size={0.9,0},{0.0962,0}  pos={0,0},{0.513,0}  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8.9
+      TextLabel "FriendsLabel"  size={0.812,0},{1,0}  pos={0.0526,0},{-28,0}  anchor=(0,0.5)  nobg  text="REDEEM CODE:"  font=GothamSSm/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0.08  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=36  MinTextSize=1
+      TextLabel "FriendsLabel"  size={0.585,0},{0.967,0}  pos={0.0526,0},{-26.7,0}  anchor=(0,0.5)  nobg  text=""RELEASE""  font=GothamSSm/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0.08  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=36  MinTextSize=1
+      TextLabel "FriendsLabel"  size={0.585,0},{0.967,0}  pos={0.0526,0},{-25.7,0}  anchor=(0,0.5)  nobg  text=""BOOST100""  font=GothamSSm/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0.08  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=36  MinTextSize=1
+      TextLabel "FriendsLabel"  size={1.1,0},{1.78,0}  pos={0.0479,0},{-29.4,0}  anchor=(0,0.5)  nobg  text="SLIME RNG / MODDED"  font=GothamSSm/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0.08  Color=#000000  Transparency=0.86  ApplyStrokeMode=0
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=36  MinTextSize=1
+      TextLabel "FriendsLabel"  size={0.585,0},{0.967,0}  pos={0.0526,0},{-24.7,0}  anchor=(0,0.5)  nobg  text=""SLIMETIME""  font=GothamSSm/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0.08  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=36  MinTextSize=1
+
+==== ReplicatedStorage.Assets.Misc.HealthBarBillboardGui  (5 descendants)
+BillboardGui "HealthBarBillboardGui"  size={4.86,0},{1.64,0}  Enabled=True  Size={4.86,0},{1.64,0}  StudsOffset=(0,0,0)  MaxDistance=70  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "BackGround"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://72277591984863
+  ImageLabel "Bar"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://74161036246531
+    UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+  TextLabel "Hp"  size={0.75,0},{0.45,0}  pos={0.5,0},{0.16,0}  anchor=(0.5,0)  nobg  z=3  text="20/100"  font=16658221428/800  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=0.15  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Assets.VFX.CoinPickup.Billboard  (7 descendants)
+BillboardGui "Billboard"  size={7.2,0},{1.6,0}  Enabled=True  Size={7.2,0},{1.6,0}  StudsOffset=(0,0,0)  MaxDistance=150  AlwaysOnTop=True  Adornee=nil
+  Frame "CounterRow"  size={1,0},{1,0}  pos={0.35,0},{0,0}  nobg
+    UIListLayout "UIListLayout"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+    ImageLabel "CoinIcon"  size={0.8,0},{0.8,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://103275559073812
+    Frame "Amount"  size={0.8,0},{0.9,0}  pos={0,0},{0,0}  nobg  z=2
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="0"  font=BuilderSans/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "DropShadow"  size={1,0},{1,0}  pos={0.5,0},{0.6,0}  anchor=(0.5,0.5)  nobg  z=0  text="0"  font=BuilderSans/800  scaled  tc=#000000
+
+==== ReplicatedStorage.Assets.VFX.GoopPickup.Billboard  (7 descendants)
+BillboardGui "Billboard"  size={7.2,0},{1.6,0}  Enabled=True  Size={7.2,0},{1.6,0}  StudsOffset=(0,0,0)  MaxDistance=150  AlwaysOnTop=True  Adornee=nil
+  Frame "CounterRow"  size={1,0},{1,0}  pos={0.35,0},{0,0}  nobg
+    UIListLayout "UIListLayout"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+    ImageLabel "Icon"  size={0.8,0},{0.8,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://114367663524453
+    Frame "Amount"  size={0.8,0},{0.9,0}  pos={0,0},{0,0}  nobg  z=2
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="0"  font=BuilderSans/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "DropShadow"  size={1,0},{1,0}  pos={0.5,0},{0.6,0}  anchor=(0.5,0.5)  nobg  z=0  text="0"  font=BuilderSans/800  scaled  tc=#000000

@@ -1,0 +1,767 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.TestGui  (8 descendants)
+ScreenGui "TestGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  TextButton "TextButton"  size={0,20},{0,20}  pos={0,0},{1,-20}  bg=#000000@0.44  text="[?]"  font=SourceSansPro/400  ts=18  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/TestGui/TextButton/LocalScript.client.lua
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    TextLabel "age"  size={0,300},{0,25}  pos={0,0},{1,-105}  bg=#000000@0.44  text="Memory Use:"  font=SourceSansPro/400  ts=24  tc=#ffffff
+    TextLabel "client"  size={0,300},{0,25}  pos={0,0},{1,-55}  bg=#000000@0.44  text="Memory Use:"  font=SourceSansPro/400  ts=24  tc=#ffffff
+    TextLabel "server"  size={0,300},{0,25}  pos={0,0},{1,-80}  bg=#000000@0.44  text="Memory Use:"  font=SourceSansPro/400  ts=24  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/TestGui/Frame/LocalScript.client.lua
+    TextLabel "title"  size={0,300},{0,25}  pos={0,0},{1,-135}  bg=#000000@0.44  text="Debug stats"  font=SourceSansPro/700  ts=24  tc=#ffffff
+
+==== StarterGui.Home  (186 descendants)
+ScreenGui "Home"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "fadeFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000  z=9
+  Frame "intro"  size={1,0},{0.65,0}  pos={0,0},{0.175,0}  HIDDEN  nobg
+    Frame "Content"  size={1,0},{0.7,0}  pos={0,0},{0.2,0}  bg=#192632
+      Frame "Buttons"  size={0.4,0},{1,0}  pos={0.5,-570},{0,0}  nobg  z=2
+        ImageButton "premium"  size={1,0},{0.09,0}  pos={0,0},{0.22,0}  bg=#ffe44b  img=rbxassetid://267232285  imgT=0.6
+          TextLabel "TextLabel"  size={1,0},{0.95,0}  pos={0,0},{0.025,0}  nobg  text="Premium"  font=SourceSansPro/700  scaled  tc=#ffffff
+        ImageButton "help"  size={1,0},{0.09,0}  pos={0,0},{0.11,0}  bg=#25394b  img=rbxassetid://267232285  imgT=0.6
+          TextLabel "TextLabel"  size={1,0},{0.95,0}  pos={0,0},{0.025,0}  nobg  text="Help"  font=SourceSansPro/700  scaled  tc=#ffffff
+          TextLabel "TextLabel"  size={0.5,0},{0.55,0}  pos={0.475,0},{0.025,0}  nobg  z=2  text="New!"  font=SourceSansPro/700  scaled  tc=#ff3737
+        ImageButton "teamsGui"  size={1,0},{0.09,0}  pos={0,0},{0,0}  bg=#25394b  img=rbxassetid://267232285  imgT=0.6
+          TextLabel "TextLabel"  size={1,0},{0.95,0}  pos={0,0},{0.025,0}  nobg  text="Join"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Folder "menus"
+        Frame "teamsGui"  size={1.75,0},{1,0}  pos={0.465,-376},{0,0}  nobg  z=2
+          ImageLabel "Guards"  size={0.5,0},{1,0}  pos={0,0},{0,0}  bg=#1e1e1e  z=2  img=rbxgameasset://Images/gallery_g_1
+            ImageButton "Button"  size={0.55,0},{0.15,0}  pos={0.225,0},{0.82,0}  bg=#006eff  z=4  img=rbxassetid://267229948  imgT=0.8
+              TextLabel "TextLabel"  size={1,0},{0.58,0}  pos={0,0},{0.21,0}  nobg  z=4  text="Join Guards"  font=SourceSansPro/700  scaled  tc=#ffffff
+              LocalScript "LocalScript"  -> scripts/StarterGui/Home/intro/Content/menus/teamsGui/Guards/Button/LocalScript.client.lua
+            TextLabel "Title"  size={1,0},{0.125,0}  pos={0,0},{0,0}  bg=#000000@0.3  z=4  text="GUARDS"  font=SourceSansPro/700  scaled  tc=#ffffff
+            TextLabel "Desc"  size={1,0},{0.4,0}  pos={0,0},{0.2,0}  nobg  z=4  text="You are a guard at the prison. Do your job correctly and kee..."  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Interrupt"  Value=False
+              BoolValue "IsFading"  Value=False
+          ImageLabel "Prisoners"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  bg=#1e1e1e  z=2
+            ImageButton "Button"  size={0.55,0},{0.15,0}  pos={0.225,0},{0.82,0}  bg=#ff8c00  z=4  img=rbxassetid://267229948  imgT=0.8
+              TextLabel "TextLabel"  size={1,0},{0.58,0}  pos={0,0},{0.21,0}  nobg  z=4  text="Join Prisoners"  font=SourceSansPro/700  scaled  tc=#ffffff
+              LocalScript "LocalScript"  -> scripts/StarterGui/Home/intro/Content/menus/teamsGui/Prisoners/Button/LocalScript.client.lua
+            TextLabel "Desc"  size={1,-5},{0.4,0}  pos={0,2},{0.2,0}  nobg  z=4  text="You are a prisoner at the prison. As an innocent person serv..."  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Interrupt"  Value=False
+              BoolValue "IsFading"  Value=False
+            TextLabel "Title"  size={1,0},{0.125,0}  pos={0,0},{0,0}  bg=#000000@0.3  z=4  text="PRISONERS"  font=SourceSansPro/700  scaled  tc=#ffffff
+        Frame "premium"  size={1.75,0},{1,0}  pos={0.465,-376},{0,0}  HIDDEN  nobg  z=2
+          TextLabel "title"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg  text="Game passes"  font=SourceSansPro/700  scaled  tc=#ffffff
+          TextLabel "TextLabel"  size={0.4,0},{0.5,0}  pos={0.27,0},{0.15,0}  bg=#00ba5a  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={0.9,0},{0.9,0}  pos={0.05,0},{0.05,0}  nobg  text="More Coming Soon!"  font=SourceSansPro/400  scaled  tc=#ffffff
+          ImageButton "riot"  size={0.4,0},{0.4,0}  pos={0,0},{0.15,0}  bg=#434343@0.5  img=rbxassetid://156239211
+            TextLabel "TextLabel"  size={1,0},{0.25,0}  pos={0,0},{1.05,0}  bg=#000000@0.5  text="Riot Police"  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "help"  size={1.75,0},{1,0}  pos={0.465,-376},{0,0}  HIDDEN  nobg  z=2
+          TextLabel "title"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg  z=2  text="Help"  font=SourceSansPro/700  scaled  tc=#ffffff
+          Frame "help"  size={0.45,0},{0.55,0}  pos={0,0},{0.15,0}  bg=#192632
+            TextLabel "title"  size={1,0},{0.15,0}  pos={0.025,0},{0,0}  nobg  z=2  text="Controls"  font=SourceSansPro/400  scaled  tc=#969696
+          Frame "Frame"  size={1,0},{0.08,0}  pos={0.025,0},{0.5,0}  nobg  z=2
+            TextLabel "TextLabel"  size={0.08,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text="C"  font=SourceSansPro/700  scaled  tc=#1b2a35
+            TextLabel "TextLabel"  size={0.5,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  text="Crawl"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "Frame"  size={1,0},{0.08,0}  pos={0.025,0},{0.3,0}  nobg  z=2
+            TextLabel "TextLabel"  size={0.5,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  text="Fight"  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={0.08,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text="F"  font=SourceSansPro/700  scaled  tc=#1b2a35
+          Frame "help2"  size={0.45,0},{0.55,0}  pos={0.55,0},{0.15,0}  bg=#192632
+            TextLabel "title"  size={1,0},{0.15,0}  pos={0.025,0},{0,0}  nobg  z=2  text="Interacting"  font=SourceSansPro/400  scaled  tc=#969696
+            TextLabel "content"  size={0.95,0},{0.75,0}  pos={0.025,0},{0.2,0}  nobg  z=2  text="In the prison, there are various items that you can interact..."  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "NoticeFrame"  size={0.587,0},{0.2,0}  pos={0.401,0},{0.41,0}  HIDDEN  bg=#091924  z=5
+      Frame "Frame"  size={1,0},{0.05,0}  pos={0,0},{0,0}  bg=#00aaff  z=5
+      TextLabel "body"  size={0.95,0},{0.4,0}  pos={0.025,0},{0.15,0}  nobg  z=5  text="That team is full. Try joining another team."  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextButton "tb1"  size={0.3,0},{0.3,0}  pos={0.175,0},{0.65,0}  bg=#006293  z=5  text=""  font=SourceSansPro/700  ts=24  tc=#ffffff
+        TextLabel "tl"  size={1,0},{0.5,0}  pos={0,0},{0.25,0}  nobg  z=5  text="OK."  font=SourceSansPro/700  scaled  tc=#ffffff
+        Script "Script"  -> scripts/StarterGui/Home/intro/NoticeFrame/tb1/Script.server.lua
+      TextButton "tb2"  size={0.3,0},{0.3,0}  pos={0.525,0},{0.65,0}  bg=#006293  z=5  text=""  font=SourceSansPro/700  ts=24  tc=#ffffff
+        TextLabel "tl"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="Kick a random player"  font=SourceSansPro/700  scaled  tc=#ffffff
+        Script "Script"  -> scripts/StarterGui/Home/intro/NoticeFrame/tb2/Script.server.lua
+    Frame "Title"  size={1,0},{0.15,0}  pos={0,0},{0,0}  bg=#192632  z=2
+      ImageLabel "title"  size={6.8,0},{0.95,0}  pos={0.5,-270},{0,0}  nobg  z=3  img=rbxassetid://468611172
+      TextLabel "etc"  size={0.5,0},{0.3,0}  pos={0.5,285},{0.7,0}  nobg  z=3  text="Created by Aesthectical"  font=SourceSansPro/400  scaled  tc=#787878
+      TextLabel "version"  size={0.5,0},{0.3,0}  pos={0.5,285},{0.45,0}  nobg  z=3  text="Version 3.0"  font=SourceSansPro/400  scaled  tc=#787878
+      LocalScript "GuiResizeScript"  -> scripts/StarterGui/Home/intro/Title/GuiResizeScript.client.lua
+    LocalScript "GuiResizeScript"  -> scripts/StarterGui/Home/intro/GuiResizeScript.client.lua
+    Frame "okFrame"  size={0.589,0},{0.2,0}  pos={0.401,0},{0.41,0}  HIDDEN  bg=#091924  z=5
+      Frame "Frame"  size={1,0},{0.05,0}  pos={0,0},{0,0}  bg=#00aaff  z=5
+      TextLabel "body"  size={0.95,0},{0.4,0}  pos={0.025,0},{0.15,0}  nobg  z=5  text="You are not allowed to join the guards team."  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextButton "tb1"  size={0.3,0},{0.3,0}  pos={0.35,0},{0.65,0}  bg=#006293  z=5  text=""  font=SourceSansPro/700  ts=24  tc=#ffffff
+        TextLabel "tl"  size={1,0},{0.5,0}  pos={0,0},{0.25,0}  nobg  z=5  text="OK."  font=SourceSansPro/700  scaled  tc=#ffffff
+        LocalScript "LocalScript"  -> scripts/StarterGui/Home/intro/okFrame/tb1/LocalScript.client.lua
+    LocalScript "cameraintro"  -> scripts/StarterGui/Home/intro/cameraintro.client.lua
+  Frame "hud"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "ClockFrame"  size={0.15,0},{0.04,0}  pos={0.863,0},{0.716,0}  bg=#00304f@0.2
+      TextLabel "tl"  size={0.92,0},{0.9,0}  pos={0,0},{0.05,0}  nobg  z=5  text="7:07 am"  font=SourceSansPro/700  scaled  tc=#ffffff
+      LocalScript "ClockScript"  -> scripts/StarterGui/Home/hud/ClockFrame/ClockScript.client.lua
+    Frame "Topbar"  size={1,0},{0.015,0}  pos={0,0},{0,0}  nobg  z=2
+      Frame "Pulldownmenu"  size={0.3,0},{0,0}  pos={0.35,0},{1.2,0}  bg=#1b2a35@0.3
+        LocalScript "LocalScript"  -> scripts/StarterGui/Home/hud/Topbar/Pulldownmenu/LocalScript.client.lua
+        TextButton "tb"  size={1,0},{0.06,0}  pos={0,0},{1,0}  bg=#00304f@0.2  z=2  text="Click to open"  font=SourceSansPro/400  ts=18  tc=#ffffff
+        Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          TextLabel "Description"  size={0.96,0},{0.25,0}  pos={0.02,0},{0.01,0}  nobg  text="Breakfast time. Get you mandatory breakfast in the cafeteria..."  font=SourceSansPro/400  ts=24  tc=#ffffff
+      Frame "titleBar"  size={0.3,0},{1.2,0}  pos={0.35,0},{0,0}  bg=#e5801b  z=2
+        TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="Breakfast"  font=SourceSansPro/700  scaled  tc=#ffffff
+      LocalScript "GuiScript"  -> scripts/StarterGui/Home/hud/Topbar/GuiScript.client.lua
+    Frame "CraftingFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      Frame "Window"  size={0,700},{0,400}  pos={0.5,-350},{0.5,-200}  bg=#ffffff
+        TextLabel "Title"  size={1,0},{0,25}  pos={0,0},{0,0}  bg=#323232  z=2  text="Crafting"  font=SourceSansPro/700  ts=24  tc=#ffffff
+        LocalScript "CraftingScript"  -> scripts/StarterGui/Home/hud/CraftingFrame/Window/CraftingScript.client.lua  [disabled]
+        ScrollingFrame "Container"  size={0,500},{1,-45}  pos={0,0},{0,25}  bg=#ffffff
+          Frame "template"  size={0,500},{0,120}  pos={0,0},{0,0}  bg=#f0f0f0
+            TextLabel "desc"  size={0,200},{0,70}  pos={0,90},{0,40}  nobg  text="A primitive knife made from less-than ideal materials."  font=SourceSansPro/400  ts=18  tc=#353535
+            TextLabel "Name"  size={0,150},{0,30}  pos={0,90},{0,5}  nobg  text="Shank"  font=SourceSansPro/700  ts=24  tc=#353535
+            TextLabel "TextLabel"  size={0,50},{0,30}  pos={0,300},{0,10}  nobg  text="Needs:"  font=SourceSansPro/400  ts=18  tc=#353535
+            ImageButton "button"  size={0,180},{0,28}  pos={1,-200},{1,-40}  bg=#334f64  z=2  img=rbxassetid://267229948  imgT=0.7
+              TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="Craft"  font=SourceSansPro/700  ts=24  tc=#ffffff
+            Frame ""  size={1,0},{0,2}  pos={0,0},{1,-5}  bg=#c8c8c8
+            ImageLabel "icon_item"  size={0,80},{0,80}  pos={0,5},{0,5}  nobg  z=2  img=rbxgameasset://Images/SHANK2 (1)
+            Frame "Requirements"  size={0,120},{0,40}  pos={0,350},{0,5}  nobg
+              ImageLabel "icon_crafting"  size={0,40},{0,40}  pos={0,45},{0,0}  bg=#ffffff  z=2  img=rbxgameasset://Images/mirror
+                TextLabel "Tooltip"  size={0,100},{0,25}  pos={0.5,-50},{1,5}  HIDDEN  bg=#000000@0.3  text="Bedsheets"  font=Arial/400  ts=18  tc=#ffffff
+              ImageLabel "icon_crafting"  size={0,40},{0,40}  pos={0,0},{0,0}  bg=#ffffff  z=2  img=rbxgameasset://Images/stick
+                TextLabel "Tooltip"  size={0,100},{0,25}  pos={0.5,-50},{1,5}  HIDDEN  bg=#000000@0.3  text="Bedsheets"  font=Arial/400  ts=18  tc=#ffffff
+        TextLabel "Footer"  size={1,0},{0,20}  pos={0,0},{1,-20}  bg=#ffffff  z=2  text="Stuck in first person? Press the 'O' key on your keyboard to..."  font=SourceSansPro/700  ts=14  tc=#646464
+        Frame "Inventory"  size={0,185},{0,345}  pos={1,-192},{0,30}  bg=#e6e6e6
+          TextLabel "TextLabel"  size={1,0},{0,20}  pos={0,0},{0,0}  nobg  text="Current items:"  font=SourceSansPro/700  ts=18  tc=#1b2a35
+          ImageLabel "icon"  size={0,50},{0,50}  pos={0,7},{0,20}  HIDDEN  bg=#f0f0f0  z=2  img=rbxgameasset://Images/bed sheets (1)
+          ImageLabel "icon_crafting"  size={0,50},{0,50}  pos={0,67},{0,20}  HIDDEN  bg=#f0f0f0  z=2  img=rbxgameasset://Images/metal
+          ImageLabel "icon_crafting"  size={0,50},{0,50}  pos={0,127},{0,20}  HIDDEN  bg=#f0f0f0  z=2  img=rbxgameasset://Images/rock
+          ImageLabel "icon_crafting"  size={0,50},{0,50}  pos={0,7},{0,80}  HIDDEN  bg=#f0f0f0  z=2  img=rbxgameasset://Images/duckt tape
+          ImageLabel "icon_crafting"  size={0,50},{0,50}  pos={0,67},{0,80}  HIDDEN  bg=#f0f0f0  z=2  img=rbxgameasset://Images/pipe2
+          ImageLabel "icon_crafting"  size={0,50},{0,50}  pos={0,127},{0,80}  HIDDEN  bg=#f0f0f0  z=2  img=rbxgameasset://Images/mirror
+    Frame "votekickFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=6
+      Frame "Frame"  size={0,300},{0,350}  pos={0.5,-150},{0.5,-175}  bg=#ffffff  z=6
+        Frame "Frame"  size={0.9,0},{0,2}  pos={0.05,0},{0,40}  bg=#1b2a35  z=6
+        TextLabel "Desc"  size={1,0},{0,40}  pos={0,0},{0,45}  nobg  z=6  text="Click on a player's name to initiate a vote kick. Player mus..."  font=SourceSansPro/400  ts=18  tc=#1b2a35
+        ScrollingFrame "Container"  size={0.9,0},{0,200}  pos={0.05,0},{0,90}  bg=#f0f0f0  z=6
+          TextButton "Template"  size={0,250},{0,20}  pos={0,2},{0,2}  HIDDEN  bg=#f0f0f0  z=6  text="QQQQQQQQQQQQQQQQQQQQ"  font=SourceSansPro/400  ts=18  tc=#1b2a35
+          TextButton "player"  size={0,250},{0,20}  pos={0,2},{0,2}  bg=#f0f0f0  z=6  text="Noob_gamer9017"  font=SourceSansPro/400  ts=18  tc=#1b2a35
+          TextButton "player"  size={0,250},{0,20}  pos={0,2},{0,27}  bg=#f0f0f0  z=6  text="Natalitus63"  font=SourceSansPro/400  ts=18  tc=#1b2a35
+          TextButton "player"  size={0,250},{0,20}  pos={0,2},{0,52}  bg=#f0f0f0  z=6  text="fetandumb"  font=SourceSansPro/400  ts=18  tc=#1b2a35
+          TextButton "player"  size={0,250},{0,20}  pos={0,2},{0,77}  bg=#f0f0f0  z=6  text="Mastermk34"  font=SourceSansPro/400  ts=18  tc=#1b2a35
+          ... +4 more TextButton "player"
+        LocalScript "LocalScript"  -> scripts/StarterGui/Home/hud/votekickFrame/Frame/LocalScript.client.lua
+        TextLabel "Title"  size={1,0},{0,40}  pos={0,0},{0,0}  nobg  z=6  text="Vote kicker"  font=SourceSansPro/700  ts=36  tc=#1b2a35
+        Frame "Confirmation"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#808080@0.3  z=7
+          Frame "Frame"  size={0,270},{0,110}  pos={0.5,-135},{0.5,-50}  bg=#ffffff  z=7
+            TextLabel "TextLabel"  size={1,0},{0,50}  pos={0,0},{0,5}  nobg  z=7  text="Are you sure you want to vote kick this player?"  font=SourceSansPro/400  ts=24  tc=#353535
+            ImageButton "yes"  size={0,100},{0,35}  pos={0.5,-110},{1,-45}  bg=#00aaff  z=7  img=rbxassetid://267229948  imgT=0.7
+              TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,5}  nobg  z=7  text="Yes"  font=SourceSansPro/400  ts=24  tc=#ffffff
+            ImageButton "no"  size={0,100},{0,35}  pos={0.5,10},{1,-45}  bg=#00aaff  z=7  img=rbxassetid://267229948  imgT=0.7
+              TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,5}  nobg  z=7  text="No"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageButton "refresh"  size={0,60},{0,40}  pos={1,-80},{1,-50}  bg=#00aaff  z=6  img=rbxassetid://267229948  imgT=0.8
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=6  text="Refresh"  font=SourceSansPro/400  ts=18  tc=#ffffff
+        ImageButton "cancel"  size={0,60},{0,40}  pos={1,-150},{1,-50}  bg=#969696  z=6  img=rbxassetid://267229948  imgT=0.8
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=6  text="Cancel"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "KickGui"  size={0,300},{0,130}  pos={0,2},{0.5,-65}  HIDDEN  bg=#f0f0f0  z=7
+        TextLabel "owner"  size={1,-2},{0,20}  pos={0,0},{0,0}  nobg  z=7  text="Vote by Aesthetical"  font=SourceSansPro/400  ts=18  tc=#8c8c8c
+        ImageButton "yes"  size={0,100},{0,30}  pos={0.5,-110},{1,-40}  bg=#00aaff  z=7  img=rbxassetid://267229948  imgT=0.7
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=7  text="Yes"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageButton "no"  size={0,100},{0,30}  pos={0.5,10},{1,-40}  bg=#00aaff  z=7  img=rbxassetid://267229948  imgT=0.7
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=7  text="No"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        TextLabel "suspect"  size={0,280},{0,50}  pos={0,10},{0,25}  nobg  z=7  text="Remove Aesthetical from the game?"  font=SourceSansPro/700  ts=24  tc=#3c3c3c
+    Frame "AddedGui"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      LocalScript "GuiResizeScript"  -> scripts/StarterGui/Home/hud/AddedGui/GuiResizeScript.client.lua
+      Frame "mousehover"  size={0,245},{0,34}  pos={0,1278},{0,308}  HIDDEN  bg=#004576@0.2
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+        TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.125,0}  nobg  text="Finieie"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Frame "tooltip"  size={0,441},{0,34}  pos={0,739},{0,686}  HIDDEN  bg=#004576@0.2
+        TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.125,0}  nobg  text="Added Screwdriver to inventory"  font=SourceSansPro/700  scaled  tc=#ffffff
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+    ScrollingFrame "diaryOfNamapo"  size={0.3,0},{0.7,0}  pos={0.35,0},{0.15,0}  HIDDEN  bg=#ffffff
+      TextButton "TextButton"  size={0,30},{0,30}  pos={1,-48},{0,5}  bg=#a53939  text="x"  font=Arial/700  ts=36  tc=#ffffff
+        LocalScript "LocalScript"  -> scripts/StarterGui/Home/hud/diaryOfNamapo/TextButton/LocalScript.client.lua
+      TextLabel "Title"  size={1,-12},{0.04,0}  pos={0,0},{0.94,0}  nobg  text="/u/namapo, 7/2/2014"  font=Arial/400  scaled  tc=#1b2a35
+      TextLabel "TextLabel"  size={1,-12},{0.135,0}  pos={0,2},{0.78,0}  nobg  text="Day 42: I was tazed again for the first time in ages. The gu..."  font=Arial/400  scaled  tc=#1b2a35
+      TextLabel "TextLabel"  size={1,-12},{0.1,0}  pos={0,2},{0.65,0}  nobg  text="Day 18: Like a certain Patrick Bateman, I got away scot free..."  font=Arial/400  scaled  tc=#1b2a35
+      TextLabel "TextLabel"  size={1,-12},{0.22,0}  pos={0,2},{0.4,0}  nobg  text="Day 18: A line of prisoners tried to make a ladder to get up..."  font=Arial/400  scaled  tc=#1b2a35
+      TextLabel "TextLabel"  size={1,-12},{0.13,0}  pos={0,2},{0.24,0}  nobg  text="Day 6: Same guard that tazed the others went for me next. Fo..."  font=Arial/400  scaled  tc=#1b2a35
+      TextLabel "Title"  size={1,-12},{0.05,0}  pos={0,0},{0.03,0}  nobg  text="Diary of namapo"  font=Arial/700  scaled  tc=#1b2a35
+      TextLabel "TextLabel"  size={1,-12},{0.1,0}  pos={0,2},{0.1,0}  nobg  text="Day 1: Alright, I showed up to the prison today, got fitted ..."  font=Arial/400  scaled  tc=#1b2a35
+    Frame "CameraFrame"  size={1,0},{0.2,0}  pos={0,0},{1,0}  bg=#0070b1@0.2
+      TextLabel "desc"  size={1,0},{0.5,0}  pos={0,0},{0.3,0}  nobg  z=3  text=""  font=SourceSansPro/700  ts=36  tc=#ffffff
+      Frame "Frame"  size={1,0},{0.25,0}  pos={0,0},{0,0}  bg=#00304f@0.1  z=2
+        TextLabel "TextLabel"  size={1,0},{0.8,0}  pos={0,0},{0.1,0}  nobg  z=3  text="Press [Q] or [E] to switch cameras. Press spacebar  to exit."  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "StaminaFrame"  size={1,0},{0,5}  pos={0,0},{0.993,0}  bg=#55aaff
+    Frame "GunFrame"  size={0.29,0},{0.13,0}  pos={0.763,0},{0.768,0}  HIDDEN  bg=#00304f@0.2
+      TextLabel "Label"  size={0.9,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="M4A1"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "Magazine"  size={0.9,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="30/30"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Frame "Frame"  size={0.05,0},{1,0}  pos={0.95,0},{0,0}  bg=#0083d4@0.2
+        TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.5,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+      Frame "Frame"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        LocalScript "LocalScript"  -> scripts/StarterGui/Home/hud/GunFrame/TextButton/LocalScript.client.lua
+    TextButton "MenuButton"  size={0.15,0},{0.04,0}  pos={0.863,0},{0.651,0}  bg=#004a78@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      TextLabel "tl"  size={1,0},{0.9,0}  pos={0,0},{0.05,0}  nobg  z=5  text="Menu"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Frame "MenuFrame"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#00304f@0.7  z=6
+        TextButton "respawn"  size={0.333,0},{1,0}  pos={0.666,0},{0,0}  bg=#00304f@0.2  z=6  text="Switch Team"  font=SourceSansPro/400  ts=18  tc=#ff0000
+          LocalScript "LocalScript"  -> scripts/StarterGui/Home/hud/MenuButton/MenuFrame/respawn/LocalScript.client.lua
+        TextButton "votekick"  size={0.333,0},{1,0}  pos={0.333,0},{0,0}  bg=#00304f@0.2  z=6  text=""  font=SourceSansPro/400  ts=18  tc=#f5f5f5
+        TextButton "gamepasses"  size={0.333,0},{1,0}  pos={0,0},{0,0}  bg=#00304f@0.2  z=6  text=""  font=SourceSansPro/400  ts=18  tc=#f5f5f5
+      BoolValue "isOpen"  Value=False
+      LocalScript "LocalScript"  -> scripts/StarterGui/Home/hud/MenuButton/LocalScript.client.lua
+    LocalScript "ControlScript"  -> scripts/StarterGui/Home/hud/ControlScript.client.lua
+
+==== StarterGui.youAlredyHaveThat  (3 descendants)
+ScreenGui "youAlredyHaveThat"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0,305},{0,23}  pos={0,530},{0,475}  HIDDEN  bg=#004576@0.2
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={-0.00406,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+    TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={-0.00406,0},{0.125,0}  nobg  text="You alredy have that!"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== StarterGui.USM Exchange  (35 descendants)
+ScreenGui "USM Exchange"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Folder "PlayerInfo"
+    StringValue "CoverOnly"  Value=""
+    StringValue "Paygrade"  Value=""
+    StringValue "Type"  Value=""
+    StringValue "Branch"  Value=""
+  LocalScript "MainUIScript - EDIT FOR TEAM/GROUP ONLY"  -> scripts/StarterGui/USM Exchange/MainUIScript - EDIT FOR TEAM_GROUP ONLY.client.lua
+  Frame "Mainframe"  size={0.5,0},{0.6,0}  pos={0.25,0},{1.3,0}  bg=#cfcfcf
+    Frame "Branch"  size={1,0},{0.91,0}  pos={0,0},{0,0}  bg=#ffffff
+      ImageButton "CoastGuard"  size={0.2,0},{0.3,0}  pos={0.4,0},{0.5,0}  bg=#ffffff  img=rbxassetid://3624043544
+      ImageButton "Navy"  size={0.2,0},{0.3,0}  pos={0.4,0},{0.15,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=4307308602
+      ImageButton "Marines"  size={0.2,0},{0.3,0}  pos={0.7,0},{0.15,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=4307307731
+      ImageButton "Army"  size={0.2,0},{0.3,0}  pos={0.1,0},{0.15,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=4307306972
+      ImageButton "AirForce"  size={0.2,0},{0.3,0}  pos={0.1,0},{0.5,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=4307314465
+      ImageButton "SpaceForce"  size={0.2,0},{0.3,0}  pos={0.7,0},{0.5,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=6433509565
+    TextLabel "Credits (Please Keep)"  size={0.2,0},{0.075,0}  pos={0.75,0},{0.915,0}  nobg  text="Made by devTools"  font=SourceSansPro/400  scaled  tc=#ffffff
+    ScrollingFrame "Ranks"  size={1,0},{0.81,0}  pos={0,0},{0.1,0}  HIDDEN  bg=#ffffff
+      ImageButton "Template"  size={0.8,0},{0.05,0}  pos={0.1,0},{0.005,0}  HIDDEN  nobg  img=rbxassetid://1285673399  imgcol=#004887
+        LocalScript "LocalScript"  -> scripts/StarterGui/USM Exchange/Mainframe/Ranks/Template/LocalScript.client.lua
+        TextLabel "TextLabel"  size={1,0},{0.8,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text=""  font=Arial/700  ts=14  tc=#ffffff
+    TextLabel "Selection"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#ffffff  z=2  text=""  font=SourceSansPro/400  ts=25  tc=#8d0000
+    ScrollingFrame "Uniform"  size={1,0},{0.81,0}  pos={0,0},{0.1,0}  HIDDEN  bg=#ffffff
+      ImageButton "Template"  size={0.8,0},{0.05,0}  pos={0.1,0},{0.005,0}  HIDDEN  nobg  img=rbxassetid://1285673399  imgcol=#004887
+        LocalScript "LocalScript"  -> scripts/StarterGui/USM Exchange/Mainframe/Uniform/Template/LocalScript.client.lua
+        TextLabel "TextLabel"  size={1,0},{0.8,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text=""  font=Arial/700  ts=14  tc=#ffffff
+    Frame "CoverOnly"  size={1,0},{0.91,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff
+      ImageButton "Cover"  size={0.8,0},{0.1,0}  pos={0.1,0},{0.45,0}  nobg  img=rbxassetid://1285673399  imgcol=#004887  imgT=1
+        LocalScript "LocalScript"  -> scripts/StarterGui/USM Exchange/Mainframe/CoverOnly/Cover/LocalScript.client.lua
+        TextLabel "TextLabel"  size={1,0},{0.8,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Only Cover"  font=Arial/700  ts=14  tc=#ffffff
+      ImageButton "Full"  size={0.8,0},{0.1,0}  pos={0.1,0},{0.25,0}  nobg  img=rbxassetid://1285673399  imgcol=#004887  imgT=1
+        LocalScript "LocalScript"  -> scripts/StarterGui/USM Exchange/Mainframe/CoverOnly/Full/LocalScript.client.lua
+        TextLabel "TextLabel"  size={1,0},{0.8,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Full Uniform"  font=Arial/700  ts=14  tc=#ffffff
+    ImageButton "Close"  size={0.2,0},{0.05,0}  pos={0.4,0},{0.93,0}  nobg  img=rbxassetid://1283904632  imgcol=#002f5d
+      TextLabel "TextLabel"  size={1,0},{0.8,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Close Exchange"  font=SourceSansPro/700  ts=14  tc=#ffffff
+    ImageLabel "Header"  size={1,0},{0.325,0}  pos={0,0},{-0.325,0}  nobg  img=rbxassetid://1290178207
+  ImageButton "OpenButton"  size={0.03,0},{0.05,0}  pos={0,0},{0.94,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=4332713285
+
+==== Workspace.sign.Model.part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "AW"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Bulletin Board"  font=Arial/700  ts=42  tc=#1b2a35
+
+==== Workspace.Floor.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Press [F] to turn on the siren"  font=SourceSansPro/700  ts=48  tc=#ffffff
+
+==== Workspace.Safe zone gui pop up.ScreenGui  (3 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,526},{0,87}  pos={0.129,0},{0.0514,0}  bg=#ffffff
+    UICorner "UICorner"  CornerRadius={0.075,0}
+    TextLabel "TextLabel"  size={0,495},{0,50}  pos={0.0323,0},{0.207,0}  bg=#ffffff  text="This is the safe zone!, please wait some minutes and we will..."  font=SourceSansPro/400  scaled  tc=#000000
+
+==== Workspace.Prison_ITEMS.giver.Remington 870.BillboardGui  (4 descendants)
+BillboardGui "BillboardGui"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={0,169},{0,23}  pos={0.45,0},{0.44,0}  HIDDEN  bg=#004576@0.2  z=0
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+    TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.125,0}  nobg  text="Object - item name"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Script "Script"  -> scripts/Workspace/Prison_ITEMS/giver/Remington 870/BillboardGui/Frame/TextLabel/Script.server.lua
+
+==== Workspace.Prison_ITEMS.giver.M9.BillboardGui  (4 descendants)
+BillboardGui "BillboardGui"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={0,169},{0,23}  pos={0.45,0},{0.44,0}  HIDDEN  bg=#004576@0.2  z=0
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+    TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.125,0}  nobg  text="Object - item name"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Script "Script"  -> scripts/Workspace/Prison_ITEMS/giver/M9/BillboardGui/Frame/TextLabel/Script.server.lua
+
+==== Workspace.CarContainer.Squad.Body.VehicleSeat.Screen  (7 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 Modified"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  ObjectValue "CarSeat"  Value=Workspace.CarContainer.Squad.Body.VehicleSeat
+  LocalScript "GuiScript"  -> scripts/Workspace/CarContainer/Squad/Body/VehicleSeat/Screen/GuiScript.client.lua
+  LocalScript "OtherControlsScript"  -> scripts/Workspace/CarContainer/Squad/Body/VehicleSeat/Screen/OtherControlsScript.client.lua
+  LocalScript "SoundScript"  -> scripts/Workspace/CarContainer/Squad/Body/VehicleSeat/Screen/SoundScript.client.lua
+
+==== ReplicatedFirst.outoforder.part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "AW"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="OUT OF ORDER"  font=SourceSansPro/400  ts=48  tc=#ff0000
+
+==== ReplicatedFirst.outoforder.part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "AW"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="OUT OF ORDER"  font=SourceSansPro/400  ts=48  tc=#ff0000
+
+==== ReplicatedStorage.gooeys.camGui  (5 descendants)
+ScreenGui "camGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0.7,0}  bg=#272727
+    TextLabel "TextLabel"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg  text="Press [Q] or [E] to switch cameras. Press spacebar or desele..."  font=SourceSansPro/400  ts=24  tc=#ffffff
+    TextLabel "desc"  size={1,0},{0.6,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/700  ts=36  tc=#ffffff
+    Frame "Frame"  size={1,0},{0.2,0}  pos={0,0},{0,0}  bg=#272727
+    LocalScript "LocalScript"  -> scripts/ReplicatedStorage/gooeys/camGui/Frame/LocalScript.client.lua
+
+==== ReplicatedStorage.gooeys.promptGui  (6 descendants)
+ScreenGui "promptGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{-1,0}  bg=#7d7d7d@0.5
+    Frame "Frame"  size={0,450},{0,200}  pos={0.5,-225},{0.5,-100}  bg=#ffffff
+      TextLabel "title"  size={1,0},{0,40}  pos={0,0},{0,0}  nobg  z=5  text="Header"  font=SourceSansPro/700  ts=36  tc=#1b2a35
+      Frame "Frame"  size={0.9,0},{0,2}  pos={0.05,0},{0.2,0}  bg=#1b2a35  z=5
+      TextLabel "body"  size={1,0},{0,105}  pos={0,0},{0.2,0}  nobg  z=5  text="Body text: Lorem ipsum dolor sit amet, sea eu nobis iisque s..."  font=SourceSansPro/400  ts=18  tc=#1b2a35
+      TextButton "TextButton"  size={0,150},{0,50}  pos={0.5,-75},{1,-55}  bg=#7cff4c  z=5  text="OK"  font=SourceSansPro/700  ts=24  tc=#1b2a35
+
+==== ReplicatedStorage.gooeys.WarnGui  (5 descendants)
+ScreenGui "WarnGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0.25,0},{0.2,0}  pos={-0.25,0},{0.37,0}  bg=#091924
+    Frame "Frame"  size={1,0},{0.05,0}  pos={0,0},{0,0}  bg=#dc322f
+    TextLabel "title"  size={1,0},{0.2,0}  pos={0,0},{0.06,0}  nobg  text="WARNING"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "desc"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.2,0}  nobg  text="Do not kill innocent people! You will be arrested and jailed..."  font=SourceSansPro/400  scaled  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/ReplicatedStorage/gooeys/WarnGui/Frame/LocalScript.client.lua  [disabled]
+
+==== ReplicatedStorage.Car.PrisonLifePoliceCar.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.Car.PrisonLifePoliceCar2.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar2/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar2/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar2/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar2/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar2/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifePoliceCar2/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.Car.PrisonLifeCar.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.Car.PrisonLifeCar2.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar2/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar2/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar2/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar2/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar2/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar2/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.Car.PrisonLifeCar3.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar3/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar3/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar3/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar3/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar3/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar3/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.Car.PrisonLifeCar4.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar4/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar4/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar4/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar4/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar4/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar4/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.Car.PrisonLifeCar5.Body.VehicleSeat.Screen  (10 descendants)
+ScreenGui "Screen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "CarSeat"  Value=nil
+  Frame "HUB"  size={0,140},{0,30}  pos={0,5},{0,350}  bg=#747474@0.5
+    TextButton "Limiter"  size={0,140},{0,30}  pos={0,0},{0,0}  bg=#555555  text="SS3.34 modified by tristan_62"  font=Arial/700  ts=14  tc=#ffffff
+  BoolValue "F"  Value=False
+  LocalScript "OtherControlsScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar5/Body/VehicleSeat/Screen/OtherControlsScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar5/Body/VehicleSeat/Screen/OtherControlsScript/TheFix.server.lua
+  LocalScript "SoundScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar5/Body/VehicleSeat/Screen/SoundScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar5/Body/VehicleSeat/Screen/SoundScript/TheFix.server.lua
+  LocalScript "GuiScript"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar5/Body/VehicleSeat/Screen/GuiScript.client.lua  [disabled]
+    Script "TheFix"  -> scripts/ReplicatedStorage/Car/PrisonLifeCar5/Body/VehicleSeat/Screen/GuiScript/TheFix.server.lua
+
+==== ReplicatedStorage.NukeConfig.BlackHawk.BoundingBox.MoneyBillboard  (3 descendants)
+BillboardGui "MoneyBillboard"  size={3,0},{3,0}  Enabled=False  Size={3,0},{3,0}  StudsOffset=(0,5.5,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "ImageLabel"  size={0.9,0},{0.9,0}  pos={0.05,0},{0,0}  nobg  z=2  img=rbxassetid://723277512
+    TextLabel "TextLabel"  size={1,0},{0.3,0}  pos={0,0},{0.7,0}  nobg  z=3  text="$1,000,000"  font=SourceSansPro/700  scaled  tc=#52ee6f
+
+==== ReplicatedStorage.Debris.keycard.BillboardGui  (3 descendants)
+BillboardGui "BillboardGui"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={0,169},{0,23}  pos={0.45,0},{0.44,0}  HIDDEN  bg=#004576@0.2  z=0
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+    TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.125,0}  nobg  text="Item - Key Card"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Debris.M9.BillboardGui  (3 descendants)
+BillboardGui "BillboardGui"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={0,169},{0,23}  pos={0.45,0},{0.44,0}  HIDDEN  bg=#004576@0.2  z=0
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://267232285  imgT=0.8
+    TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.125,0}  nobg  text="Item - M9"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ReplicatedStorage.PipBoyConfig.PipBoy.UI.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.01,800},{0.01,590}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=336823606  imgcol=#00ff08
+    Script "Script"  -> scripts/ReplicatedStorage/PipBoyConfig/PipBoy/UI/SurfaceGui/ImageLabel/Script.server.lua
+
+==== ReplicatedStorage.ExchangeServerScript.UniformGui  (7 descendants)
+ScreenGui "UniformGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0.06,0},{0.15,0}  pos={0.94,0},{0.775,0}  nobg
+    TextButton "Toggle"  size={0.75,0},{0.2,0}  pos={0.125,0},{0,0}  HIDDEN  bg=#ffffff  text="Toggle Cover"  font=SourceSansPro/400  scaled  tc=#000000
+    TextButton "RemoveUniform"  size={0.75,0},{0.2,0}  pos={0.125,0},{0,0}  HIDDEN  bg=#ffffff  text="Remove Uniform"  font=SourceSansPro/400  scaled  tc=#000000
+    LocalScript "UniformScript"  -> scripts/ReplicatedStorage/ExchangeServerScript/UniformGui/Frame/UniformScript.client.lua
+    TextButton "RemoveHats"  size={0.75,0},{0.2,0}  pos={0.125,0},{0,0}  HIDDEN  bg=#ffffff  text="Remove Hats"  font=SourceSansPro/400  scaled  tc=#000000
+    TextButton "RemoveTShirt"  size={0.75,0},{0.2,0}  pos={0.125,0},{0,0}  HIDDEN  bg=#ffffff  text="Remove T-Shirt"  font=SourceSansPro/400  scaled  tc=#000000
+    TextButton "OpenButton"  size={1,0},{0.225,0}  pos={0,0},{0,0}  bg=#ffffff  text="Uniform Controls"  font=Arial/700  scaled  tc=#000000
+
+==== ServerScriptService.Tadashy.TadashyScript.TadashyPanel  (14 descendants)
+ScreenGui "TadashyPanel"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0.876,0},{0.82,0}  pos={0.0692,0},{0.09,0}  HIDDEN  bg=#ffffff
+    ScrollingFrame "ScrollingFrame"  size={0,363},{0,398}  pos={0.0931,0},{0.123,0}  bg=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+    TextButton "refresh"  size={0,200},{0,50}  pos={0.435,0},{0.422,0}  bg=#ffffff  text="Refresh"  font=SourceSansPro/400  ts=14  tc=#000000
+      Script "Script"  -> scripts/ServerScriptService/Tadashy/TadashyScript/TadashyPanel/Frame/refresh/Script.server.lua
+    TextButton "add"  size={0,200},{0,50}  pos={0.435,0},{0.312,0}  bg=#ffffff  text="add"  font=SourceSansPro/400  ts=14  tc=#000000
+      LocalScript "LocalScript"  -> scripts/ServerScriptService/Tadashy/TadashyScript/TadashyPanel/Frame/add/LocalScript.client.lua
+    TextBox "TextBox"  size={0,200},{0,50}  pos={0.633,0},{0.312,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+    TextButton "close"  size={0,50},{0,50}  pos={0.957,0},{0,0}  bg=#ffffff  text="X"  font=SourceSansPro/400  scaled  tc=#000000
+      LocalScript "LocalScript"  -> scripts/ServerScriptService/Tadashy/TadashyScript/TadashyPanel/Frame/close/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.03
+  TextButton "open"  size={0.148,0},{0.0703,0}  pos={0.00223,0},{0.464,0}  bg=#ffffff  text="Open"  font=SourceSansPro/400  ts=14  tc=#000000
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/Tadashy/TadashyScript/TadashyPanel/open/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+
+==== ServerScriptService.PipBoySystem.WatchGui  (102 descendants)
+ScreenGui "WatchGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Spawner"  size={0.568,0},{0.512,0}  pos={0.201,0},{0.211,0}  HIDDEN  bg=#ffffff
+    TextButton "Next"  size={0.0504,0},{0.0971,0}  pos={0.95,0},{0.903,0}  bg=#ffffff  text=">"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.12
+    TextButton "Back"  size={0.0504,0},{0.0971,0}  pos={0,0},{0.903,0}  bg=#ffffff  text="<"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.12
+    TextLabel "CS"  size={0.725,0},{0.474,0}  pos={0.137,0},{0.262,0}  bg=#ffffff  text="Comming Soon!"  font=SourceSansPro/400  scaled  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.3
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/PipBoySystem/WatchGui/Spawner/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.16
+  Frame "Settings"  size={0.568,0},{0.512,0}  pos={0.216,0},{0.245,0}  HIDDEN  bg=#ffffff
+    TextButton "Back"  size={0.0504,0},{0.0971,0}  pos={0,0},{0.901,0}  bg=#ffffff  text="<"  font=SourceSansPro/400  ts=14  tc=#000000
+    TextButton "Next"  size={0.0504,0},{0.0971,0}  pos={0.95,0},{0.901,0}  bg=#ffffff  text=">"  font=SourceSansPro/400  ts=14  tc=#000000
+    TextLabel "ShowingEnabled"  size={0.18,0},{0.0971,0}  pos={0.0495,0},{0.245,0}  bg=#ffffff  text="Showing : "  font=SourceSansPro/400  ts=14  tc=#000000
+      TextButton "TextButton"  size={0.33,0},{1,0}  pos={0.995,0},{0,0}  bg=#ffffff  text="Yes"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+    TextLabel "Enabled"  size={0.18,0},{0.0971,0}  pos={0.0495,0},{0.342,0}  bg=#ffffff  text="Enabled : "  font=SourceSansPro/400  ts=14  tc=#000000
+      TextButton "TextButton"  size={0.33,0},{1,0}  pos={0.995,0},{0,0}  bg=#ffffff  text="Yes"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+    TextLabel "AntikillEnabled"  size={0.18,0},{0.0971,0}  pos={0.0495,0},{0.439,0}  bg=#ffffff  text="AntiKill : "  font=SourceSansPro/400  ts=14  tc=#000000
+      TextButton "TextButton"  size={0.33,0},{1,0}  pos={0.995,0},{0,0}  bg=#ffffff  text="Yes"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+    TextLabel "ThemesSelected"  size={0.18,0},{0.0971,0}  pos={0.551,0},{0.243,0}  bg=#ffffff  text="Theme :"  font=SourceSansPro/400  ts=14  tc=#000000
+    ScrollingFrame "Colors"  size={0.329,0},{0.505,0}  pos={0.551,0},{0.363,0}  bg=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      TextButton "Yellow"  size={0,200},{0,50}  pos={0,0},{0,0}  bg=#ffffff  text="Yellow"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+      TextButton "Green"  size={0,200},{0,50}  pos={0,0},{0,0}  bg=#ffffff  text="Green"  font=SourceSansPro/400  ts=14  tc=#000000
+      TextButton "Red"  size={0,200},{0,50}  pos={0,0},{0,0}  bg=#ffffff  text="Red"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+      TextButton "Blue"  size={0,200},{0,50}  pos={0,0},{0,0}  bg=#ffffff  text="Blue"  font=SourceSansPro/400  ts=14  tc=#000000
+    TextLabel "TextLabel"  size={0.18,0},{0.0971,0}  pos={0.409,0},{0,0}  bg=#ffffff  text="Settings"  font=SourceSansPro/400  ts=14  tc=#000000
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/PipBoySystem/WatchGui/Settings/LocalScript.client.lua
+    Frame "Warn"  size={0.451,0},{0.398,0}  pos={0.288,0},{1,0}  HIDDEN  bg=#ffffff
+      TextLabel "Warn"  size={1,0},{0.185,0}  pos={0,0},{0,0}  bg=#ffffff  text="Warning : If you want disable the Pip-Boy, you can no longer..."  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=38  MinTextSize=1
+      TextLabel "AYS"  size={1,0},{0.185,0}  pos={0,0},{0.185,0}  bg=#ffffff  text="Are you sure?"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+      TextButton "Yes"  size={0.399,0},{0.244,0}  pos={0.601,0},{0.751,0}  bg=#ffffff  text="Yes"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+      TextButton "No"  size={0.399,0},{0.244,0}  pos={0,0},{0.751,0}  bg=#ffffff  text="No"  font=SourceSansPro/400  scaled  tc=#000000
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+  Frame "AntiKill"  size={0.408,0},{0.523,0}  pos={0.334,0},{0.281,0}  HIDDEN  bg=#000000@0.15
+    ImageLabel "CharEnemi"  size={0.63,0},{0.864,0}  pos={0.0123,0},{0.134,0}  nobg  img=rbxassetid://10055884369
+    TextButton "Return"  size={0.247,0},{0.0897,0}  pos={0.712,0},{0.433,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      UIGradient "UIGradient"  Color=[0:#bf0000 0.436:#e30000 1:#ff4c4c]  Rotation=0  Transparency=[0:0 1:0]
+      TextLabel "TextLabel"  size={1.28,0},{0.795,0}  pos={-0.283,0},{0.0774,0}  nobg  text="Return"  font=SourceSansPro/700  scaled  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.239,0},{0.923,0}  pos={0.71,0},{0.00967,0}  nobg  img=rbxassetid://10106722119
+    TextButton "Accept"  size={0.247,0},{0.0828,0}  pos={0.71,0},{0.324,0}  HIDDEN  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      UIGradient "UIGradient"  Color=[0:#1dda00 0.476:#44ff00 1:#6eff4e]  Rotation=0  Transparency=[0:0 1:0]
+      TextLabel "TextLabel"  size={1.28,0},{0.861,0}  pos={-0.284,0},{0.0689,0}  nobg  text="Accept"  font=SourceSansPro/700  scaled  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.326,0},{1.11,0}  pos={0.668,0},{-0.0667,0}  nobg  img=http://www.roblox.com/asset/?id=168702841
+    Folder "Names"
+      TextLabel "Name3"  size={0.485,0},{0.092,0}  pos={0.601,0},{0.664,0}  HIDDEN  nobg  text="Name :"  font=SourceSansPro/700  ts=14  tc=#ffffff
+      TextLabel "Name2"  size={0.481,0},{0.101,0}  pos={0.601,0},{0.718,0}  HIDDEN  nobg  text="Name :"  font=SourceSansPro/700  ts=14  tc=#ffffff
+      TextLabel "Name1"  size={0.479,0},{0.0966,0}  pos={0.601,0},{0.783,0}  HIDDEN  nobg  text="Name :"  font=SourceSansPro/700  ts=14  tc=#ffffff
+      StringValue "DisplayName"  Value=""
+    TextButton "Torso"  size={0.109,0},{0.115,0}  pos={0.271,0},{0.459,0}  bg=#ff5500@0.5  text="Torso"  font=SourceSansPro/700  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "Legs"  size={0.109,0},{0.115,0}  pos={0.335,0},{0.706,0}  bg=#ff5500@0.5  text="Leg"  font=SourceSansPro/700  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "Arms2"  size={0.109,0},{0.115,0}  pos={0.445,0},{0.507,0}  bg=#ff5500@0.5  text="Arm"  font=SourceSansPro/700  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "Head"  size={0.109,0},{0.115,0}  pos={0.273,0},{0.229,0}  bg=#ff5500@0.5  text="Head"  font=SourceSansPro/700  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+    UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "Legs2"  size={0.109,0},{0.115,0}  pos={0.197,0},{0.664,0}  bg=#ff5500@0.5  text="Leg"  font=SourceSansPro/700  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "Arms"  size={0.109,0},{0.115,0}  pos={0.133,0},{0.419,0}  bg=#ff5500@0.5  text="Arm"  font=SourceSansPro/700  ts=14  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/PipBoySystem/WatchGui/AntiKill/LocalScript.client.lua
+    Sound "Select"
+    Sound "PowerOut"
+  LocalScript "Open/Close"  -> scripts/ServerScriptService/PipBoySystem/WatchGui/Open_Close.client.lua
+  Frame "Stats"  size={0.568,0},{0.512,0}  pos={0.201,0},{0.211,0}  HIDDEN  bg=#ffffff
+    ImageLabel "Character"  size={0.34,0},{0.641,0}  pos={0.329,0},{0.179,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.15
+    TextLabel "Health"  size={0.18,0},{0.0971,0}  pos={0.0963,0},{0.0505,0}  bg=#ffffff  text="Healths : 0"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    TextLabel "DisplayName"  size={0.18,0},{0.0971,0}  pos={0.778,0},{0.194,0}  bg=#ffffff  text="Display Name : dummy"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    TextLabel "Name"  size={0.18,0},{0.0971,0}  pos={0.778,0},{0.0505,0}  bg=#ffffff  text="Name : dummy"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    TextButton "Next"  size={0.0504,0},{0.0971,0}  pos={0.95,0},{0.903,0}  bg=#ffffff  text=">"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.12
+    TextButton "Back"  size={0.0504,0},{0.0971,0}  pos={0,0},{0.903,0}  bg=#ffffff  text="<"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.12
+    TextLabel "armingLaser"  size={0.18,0},{0.0971,0}  pos={0.0963,0},{0.179,0}  bg=#ffffff  text="Arming laser : 0s"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    TextLabel "Time"  size={0.18,0},{0.0971,0}  pos={0.0963,0},{0.722,0}  bg=#ffffff  text="Time : 0:0:0"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/PipBoySystem/WatchGui/Stats/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.16
+  Frame "Warn"  size={0.292,0},{0.202,0}  pos={0.352,0},{0.396,0}  HIDDEN  bg=#ffffff
+    TextButton "No"  size={0.345,0},{0.246,0}  pos={0,0},{0.754,0}  bg=#ffffff  text="No"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    TextButton "Yes"  size={0.345,0},{0.246,0}  pos={0.653,0},{0.754,0}  bg=#ffffff  text="Yes"  font=SourceSansPro/400  ts=14  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    TextLabel "TItle"  size={0.998,0},{0.754,0}  pos={0,0},{0,0}  bg=#ffffff  text="do you want to reactivate the pip-boy?"  font=SourceSansPro/400  scaled  tc=#000000
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.78
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.85
+
+==== ServerScriptService.ForPlayers.TypingBubble.TypingBubble  (2 descendants)
+BillboardGui "TypingBubble"  size={2,0},{2,0}  Enabled=False  Size={2,0},{2,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "TypingBubble"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://5127647902
+    Script "Tween"  -> scripts/ServerScriptService/ForPlayers/TypingBubble/TypingBubble/TypingBubble/Tween.server.lua
+
+==== ServerScriptService.ForPlayers.PrisonnerInnocent.WarnGui  (5 descendants)
+ScreenGui "WarnGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0.25,0},{0.2,0}  pos={-0,0},{0.37,0}  bg=#091924
+    Frame "Frame"  size={1,0},{0.05,0}  pos={0,0},{0,0}  bg=#dc322f
+    TextLabel "title"  size={1,0},{0.2,0}  pos={0,0},{0.06,0}  nobg  text="WARNING"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "desc"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.2,0}  nobg  text="Do not kill innocent people! You will be arrested and jailed..."  font=SourceSansPro/400  scaled  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/ForPlayers/PrisonnerInnocent/WarnGui/Frame/LocalScript.client.lua  [disabled]
+
+==== ServerScriptService.SoftShutdown.UpdateUI  (12 descendants)
+ScreenGui "UpdateUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0.428,0},{0.46,0}  pos={0.511,0},{0.528,0}  anchor=(0.5,0.5)  nobg  z=200
+    ImageLabel "round"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://2790382281  imgcol=#00aaff
+    TextLabel "t"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.05,0}  anchor=(0.5,0)  nobg  text=""  font=ComicNeueAngular/400  scaled  tc=#ffffff
+      ImageLabel "round"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://2790382281
+      TextLabel "tex"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Prison life 3 update!"  font=ComicNeueAngular/400  scaled  tc=#008dd3
+    TextLabel "d"  size={0.9,0},{0.432,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0)  nobg  text="The game will shutdown to update in two minutes. To avoid pr..."  font=ComicNeueAngular/400  scaled  tc=#ffffff
+    TextLabel "tim"  size={0.3,0},{0.2,0}  pos={0.5,0},{1.01,0}  anchor=(0.5,0)  nobg  text=""  font=ComicNeueAngular/400  scaled  tc=#ffffff
+      ImageLabel "round"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://2790382281  imgcol=#00e880
+      TextLabel "tex"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="(10)"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+  LocalScript "_do"  -> scripts/ServerScriptService/SoftShutdown/UpdateUI/_do.client.lua
+    Sound "s"
+    Sound "ti"
+
+==== ServerStorage.Donation Gamepass.VIP/Gamepass Buy Sign.Part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "SIGN"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Donate To Poor"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.M4A1.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="30/30"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="M4A1"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.M9.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="M9"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="15/15"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== ServerStorage.Remington 870.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="Remington 870"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="6/6"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== ServerStorage.nil.Config.ClientGui.AmmoGui  (8 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2  z=2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="2/2"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  z=2  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2  z=2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  z=2  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2  z=2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="nil"  font=SourceSansPro/700  scaled  tc=#ffffff
+  ImageLabel "SniperScope"  size={0,4096},{0,4096}  pos={0.492,-2048},{0.5,-2068}  HIDDEN  nobg  img=rbxassetid://1937362014
+
+==== ServerStorage.MP5.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="40/40"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="MP5"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.FAL.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="20/20"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="FAL"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.TommyGun.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="30/30"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="TommyGun"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.SPAS 12.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="SPAS 12"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="9/9"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== ServerStorage.MiniGun.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="150/150"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="Minigun"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.AK-47.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="30/30"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="AK-47"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerStorage.ADMIN FUG.LocalScript.AmmoDisplay  (18 descendants)
+ScreenGui "AmmoDisplay"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0,250},{0,125}  pos={1,-275},{1,-150}  nobg
+    Frame "Ammo"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      TextLabel "MagCounter"  size={0,75},{0,50}  pos={0,75},{0,70}  bg=#385488@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,10},{0,40}  pos={0,-10},{0,10}  bg=#385488@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "CounterPart"  size={1,-16},{0,40}  pos={0,5},{0,5}  nobg  z=4  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPartFx"  size={1,-16},{0,40}  pos={0,5},{0,5}  nobg  z=3  text="000"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPart"  size={0,10},{0,40}  pos={1,0},{0,0}  bg=#385488@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      TextLabel "AmmoCounter"  size={0,55},{0,40}  pos={0,10},{0,70}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,40},{0,5}  pos={0,0},{0,-5}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,10},{0,10}  pos={1,0},{0,0}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "CounterPart"  size={1,0},{0,30}  pos={0,-10},{0,3}  nobg  z=4  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPartFx"  size={1,0},{0,30}  pos={0,-10},{0,3}  nobg  z=3  text="000"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPart"  size={0,10},{0,33}  pos={0,-10},{0,0}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,12},{0,2}  pos={0,-13},{0,-3}  bg=#333c4b@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        ... +3 more TextLabel "GuiPart"
+    TextLabel "CurrentWeapon"  size={0,225},{0,40}  pos={0,80},{0,30}  nobg  z=3  text="minigun"  font=SourceSansPro/700  scaled  tc=#d7ebff
+
+==== ServerStorage.admin gun 2.Config.ClientGui.AmmoGui  (8 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2  z=2
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="2/2"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  z=2  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2  z=2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  z=2  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2  z=2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="nil"  font=SourceSansPro/700  scaled  tc=#ffffff
+  ImageLabel "SniperScope"  size={0,4096},{0,4096}  pos={0.492,-2048},{0.5,-2068}  HIDDEN  nobg  img=rbxassetid://1937362014
+
+==== ServerStorage.Baller Gun.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="Baller"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="inf/inf"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== Teams.Guards.Handcuffs.Activation.ArrestGui  (7 descendants)
+ScreenGui "ArrestGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="Handcuffs"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="Click to arrest"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Information"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== Teams.Guards.Taser.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="Taser"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="1/1"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== Teams.Guards.M9.Config.ClientGui.AmmoGui  (7 descendants)
+ScreenGui "AmmoGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Backpack"  size={0.15,0},{0.07,0}  pos={0.8,0},{0.8,0}  bg=#00304f@0.2
+    TextLabel "Label"  size={0.95,0},{0.3,0}  pos={0,0},{0,0}  nobg  z=2  text="M9"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "Magazine"  size={0.95,0},{0.6,0}  pos={0,0},{0.4,0}  nobg  z=2  text="15/15"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{-0.2,0}  nobg  text="Current Ammo"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Frame"  size={0.1,0},{1,0}  pos={1,0},{0,0}  bg=#0083d4@0.2
+      TextLabel "TextLabel"  size={9,0},{0.1,0}  pos={-4,0},{0.4,0}  nobg  rot=90  text="huehuehue"  font=SourceSansPro/400  scaled  tc=#0070ac
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#091924@0.2
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 33 copies
+BillboardGui "BillboardGui" under Workspace: 174 copies
+SurfaceGui "SurfaceGui" under ReplicatedFirst: 3 copies

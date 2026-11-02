@@ -1,0 +1,23 @@
+--local region = game.Workspace.NoBackpackRegion
+--local plr = game. Players.LocalPlayer
+--local char = plr.Character
+
+--while wait(1) do
+--	local NoBackpackRegion = Region3.new(region.Position - (region. Size/2), region.Position + (region.Size/2))
+---	local partsInRegion = game.Workspace:FindPartsInRegion3WithWhiteList (NoBackpackRegion, char:GetDescendants())
+--	local isInRegion = false
+--
+--	for i, part in pairs (partsInRegion) do
+--		if part: FindFirstAncestor(plr.Name) then 
+--			isInRegion = true
+--		end
+--	end
+
+--	if isInRegion == true then
+--		game.StarterGui: SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, false)
+--
+--	else
+--		game.StarterGui:SetCoreGuiEnabled (Enum.CoreGuiType.Backpack, true)
+--
+--	end 	
+--end

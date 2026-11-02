@@ -1,0 +1,33 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ReplicatedStorage/Weapons/304720496/Script/ZombieScript.lua lines 8
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ReplicatedStorage/Questions.lua lines 8
+       very long line (70870 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Settings/Songs.lua lines 8
+       very long line (7566 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Weapons.lua lines 33
+       InsertService:LoadAsset (pulls models at runtime)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1909851020  in scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+  1909851618  in scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+  1909852270  in scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+  1909852919  in scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+  1909853652  in scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+  1909854221  in scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+  2659681036  in scripts/StarterGui/Gui/Auras/Windows/Orig/Auras.client.lua
+  51638939  in scripts/StarterGui/Gui/Custom/L_Money.client.lua, scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+  51639006  in scripts/StarterGui/Gui/Custom/L_Money.client.lua, scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+  51639120  in scripts/StarterGui/Gui/Custom/L_Money.client.lua, scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+  51639194  in scripts/StarterGui/Gui/Custom/L_Money.client.lua, scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+  51639309  in scripts/StarterGui/Gui/Custom/L_Money.client.lua, scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+  51639382  in scripts/StarterGui/Gui/Custom/L_Money.client.lua, scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+  687675648  in scripts/StarterGui/Client/L_Pass.client.lua
+  687678420  in scripts/StarterGui/Client/L_Pass.client.lua
+
+Outside URLs in code:
+  https://discord.gg/brNTY8nX8t  in scripts/ReplicatedStorage/GLib.lua, scripts/ReplicatedStorage/GLib/FastSpawn.lua, scripts/ReplicatedStorage/GLib/FullMeta.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/GLib.lua, scripts/ReplicatedStorage/GLib/FastSpawn.lua, scripts/ReplicatedStorage/GLib/FullMeta.lua
+  https://discord.gg/wx4ThpAsmw.  in scripts/ServerStorage/README.server.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId=  in scripts/StarterGui/Gui/Friends/L_Friends.client.lua, scripts/StarterGui/Gui/Like/L_Friends.client.lua

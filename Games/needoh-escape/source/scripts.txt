@@ -1,0 +1,90 @@
+88 scripts, 14049 lines
+kind     lines  enabled  path
+module      21  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Framework/Game/Modules/SquishSoundSets.lua
+module      23  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/CarConfigurations.lua
+module     103  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/EffectsSystem.lua
+module      94  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/Fireworks.lua
+module      90  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/FrameManager.lua
+module     893  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/HitboxClass.lua
+client      66  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/HitboxClass/HitboxClassLocal.client.lua
+module     429  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/HitboxClass/Signal.lua
+module     103  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/HitboxClass/Timer.lua
+module      97  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/HitboxClass/Types.lua
+module      41  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/Maid.lua
+module      34  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/MonetizationSystem.lua
+module      98  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/NotificationManager.lua
+module      55  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/NumberFormatter.lua
+module      28  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/ProductConfigurations.lua
+module      41  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/SettingConfiguration.lua
+module      74  yes      scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/TrailConfigurations.lua
+module     110  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/CarController.lua
+module     288  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/LeaderboardController.lua
+module     893  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/PlayerController.lua
+module     283  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/SpeedRunController.lua
+module      86  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/TrailVisualsController.lua
+module     311  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/TreadmillController.lua
+module      74  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/UpgradeController.lua
+module      94  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Controllers/WinButtonController.lua
+module      75  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Modules/Bootstrap.lua
+module      22  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Modules/Bootstrap/Extensions.lua
+module      41  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Modules/DataAccessor.lua
+module    2241  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Modules/ProfileStore.lua
+module      15  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Modules/Utils.lua
+server      16  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Obby/ASMR/MakeKeysClick.server.lua
+server      64  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Obby/Stage4/Timer.server.lua
+server     101  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Obby/Stage7/Ball.server.lua
+server      66  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Obby/Stage8/Stage8.server.lua
+server     220  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Server/SpectateHandler.server.lua
+server     212  yes      scripts/+1 Speed V1 Kit/ServerScriptService/Server/SpeedRunReplayController.server.lua
+server      17  yes      scripts/+1 Speed V1 Kit/ServerScriptService/ServerMain.server.lua
+client     359  yes      scripts/+1 Speed V1 Kit/StarterCharacterScripts/UIEffects.client.lua
+client    1830  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/ASMR/Cubes.client.lua
+client      24  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/ASMR/KeySoundHandler.client.lua
+client     158  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/ASMR/Keyboard.client.lua
+client       0  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/CarShopSystem.client.lua
+client      15  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/ClientNotificationListener.client.lua
+client     126  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/HUDButtonController.client.lua
+client     206  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/HUDSystem.client.lua
+client       7  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/JoinEvent.client.lua
+client      28  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/JoinEventPrompt.client.lua
+client       0  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/Obbys/Stage4.client.lua
+client      92  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/Obbys/Stage5.client.lua
+client     129  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/PromptController.client.lua
+client     182  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/RebirthSystem.client.lua
+client      90  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/ReviveController.client.lua
+client     226  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/SettingsController.client.lua
+client     269  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/SpectateClient.client.lua
+client     132  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/SpeedRunController.client.lua
+client     119  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/SpeedRunRecorder.client.lua
+client     476  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/SpeedRunReplayClient.client.lua
+client     209  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/SpeedSystem.client.lua
+client     197  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/TrailShopSystem.client.lua
+client     216  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/UIInitializer.client.lua
+client     100  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/UpgradeVisuals.client.lua
+client     139  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController.client.lua
+module     154  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindLines.lua
+module     316  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake.lua
+module     276  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake/Octree.lua
+module     178  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake/Octree/OctreeNode.lua
+module      74  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake/Octree/OctreeRegionUtils.lua
+module      51  yes      scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake/Settings.lua
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/EventPrompt/ProximityPrompt/Script.server.lua
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/ObbyStuff/Stage8/Kill/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Kill/Part/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Kill/Part~2/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Kill/Part~3/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Kill/Part~4/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~3/Part/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~4/Part/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~5/Part/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~6/Part/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part~11/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part~13/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part~2/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part~24/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part~5/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       8  yes      scripts/+1 Speed V1 Kit/Workspace/Map/Other/Part~9/Script.server.lua   (same source as scripts/+1 Speed V1 Kit/Workspace/Map/Other/Model~2/Part/Script.server.lua)
+server       4  yes      scripts/+1 Speed V1 Kit/Workspace/TeleportPads/TP1/Script.server.lua
+server       4  yes      scripts/+1 Speed V1 Kit/Workspace/TeleportPads/TP2/Script.server.lua

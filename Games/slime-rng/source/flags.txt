@@ -1,0 +1,15 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ReplicatedStorage/Packages/_Index/csqrl_sift@0.0.11/sift/Array.lua lines 40
+       require() with a computed / hidden argument
+[MED] scripts/ReplicatedStorage/Packages/_Index/lm-loleris_profilestore@1.0.3/profilestore.lua lines 383,927,1482,1751
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  117501901079852  in scripts/ReplicatedStorage/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/VERSION.lua
+
+Outside URLs in code:
+  https://devforum.roblox.com/t/topbarplus/1017485`  in scripts/ReplicatedStorage/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Attribute.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/CustomPackages/Explosion.lua, scripts/ReplicatedStorage/CustomPackages/Explosion/CustomLerp.lua, scripts/ReplicatedStorage/CustomPackages/Explosion/FastCastRedux.lua
+  https://github.com/UpliftGames/wally-index  in scripts/ReplicatedStorage/Packages/_Index/littensy_charm@0.10.0/charm/wally.lua, scripts/ReplicatedStorage/Packages/_Index/sleitnick_signal@2.0.3/signal/wally.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId={  in scripts/ReplicatedStorage/Source/Core/UI/GetPlayerPortraitImageId.lua

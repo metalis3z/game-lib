@@ -1,0 +1,88 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/brNTY8nX8t)
+-- Decompiled on 2026-02-17 20:44:05
+-- Luau version 6, Types version 3
+-- Time taken: 0.003124 seconds
+
+local Parent_upvr = script.Parent
+local Remote_upvr = Parent_upvr:WaitForChild("Remote")
+local tbl_upvr = {}
+local UserInputType_upvr = Enum.UserInputType
+local var5_upvw
+local var6_upvw
+function playAnimation(arg1, ...) -- Line 11
+	--[[ Upvalues[2]:
+		[1]: tbl_upvr (readonly)
+		[2]: Parent_upvr (readonly)
+	]]
+	if tbl_upvr[arg1] then
+		tbl_upvr[arg1]:Play()
+	else
+		local SOME = Parent_upvr:FindFirstChild(arg1)
+		if SOME and Parent_upvr.Parent and Parent_upvr.Parent:FindFirstChild("Humanoid") then
+			tbl_upvr[arg1] = Parent_upvr.Parent.Humanoid:LoadAnimation(SOME)
+			playAnimation(arg1, ...)
+		end
+	end
+end
+function stopAnimation(arg1) -- Line 23
+	--[[ Upvalues[1]:
+		[1]: tbl_upvr (readonly)
+	]]
+	if tbl_upvr[arg1] then
+		tbl_upvr[arg1]:Stop()
+	end
+end
+function inputBegan(arg1) -- Line 29
+	--[[ Upvalues[2]:
+		[1]: UserInputType_upvr (readonly)
+		[2]: Remote_upvr (readonly)
+	]]
+	if arg1.UserInputType == UserInputType_upvr.MouseButton1 or arg1.UserInputType == UserInputType_upvr.Touch or arg1.KeyCode == Enum.KeyCode.ButtonR2 then
+		Remote_upvr:FireServer("LeftDown")
+	end
+end
+function inputEnded(arg1) -- Line 35
+	--[[ Upvalues[2]:
+		[1]: UserInputType_upvr (readonly)
+		[2]: Remote_upvr (readonly)
+	]]
+	if arg1.UserInputType == UserInputType_upvr.MouseButton1 or arg1.UserInputType == UserInputType_upvr.Touch or arg1.KeyCode == Enum.KeyCode.ButtonR2 then
+		Remote_upvr:FireServer("LeftUp")
+	end
+end
+function onRemote(arg1, ...) -- Line 41
+	if arg1 == "PlayAnimation" then
+		playAnimation(...)
+	elseif arg1 == "StopAnimation" then
+		stopAnimation(...)
+	end
+end
+local UserInputService_upvr = game:GetService("UserInputService")
+function onEquip() -- Line 49
+	--[[ Upvalues[3]:
+		[1]: var5_upvw (read and write)
+		[2]: UserInputService_upvr (readonly)
+		[3]: var6_upvw (read and write)
+	]]
+	var5_upvw = UserInputService_upvr.InputBegan:connect(inputBegan)
+	var6_upvw = UserInputService_upvr.InputEnded:connect(inputEnded)
+end
+function onUnequip() -- Line 54
+	--[[ Upvalues[2]:
+		[1]: var5_upvw (read and write)
+		[2]: var6_upvw (read and write)
+	]]
+	if var5_upvw then
+		var5_upvw:disconnect()
+		var5_upvw = nil
+	end
+	if var6_upvw then
+		var6_upvw:disconnect()
+		var6_upvw = nil
+	end
+end
+Parent_upvr.Equipped:connect(onEquip)
+Parent_upvr.Unequipped:connect(onUnequip)
+Remote_upvr.OnClientEvent:connect(onRemote)

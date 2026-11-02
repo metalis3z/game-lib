@@ -1,0 +1,782 @@
+780 scripts, 51504 lines
+kind     lines  enabled  path
+client     794  yes      scripts/Chat/BubbleChat.client.lua
+module      64  yes      scripts/Chat/ChatModules/ChatCommandsTeller.lua
+module     105  yes      scripts/Chat/ChatModules/ChatFloodDetector.lua
+module      99  yes      scripts/Chat/ChatModules/ChatMessageValidator.lua
+module     181  yes      scripts/Chat/ChatModules/ExtraDataInitializer.lua
+module      68  yes      scripts/Chat/ChatModules/FriendJoinNotifier.lua
+module      25  yes      scripts/Chat/ChatModules/MeCommand.lua
+module     164  yes      scripts/Chat/ChatModules/MuteSpeaker.lua
+module     218  yes      scripts/Chat/ChatModules/PrivateMessaging.lua
+module     189  yes      scripts/Chat/ChatModules/TeamChat.lua
+module      83  yes      scripts/Chat/ChatModules/Utility/DisplayNameHelpers.lua
+client     157  yes      scripts/Chat/ChatScript.client.lua
+module    1092  yes      scripts/Chat/ChatScript/ChatMain.lua
+module     400  yes      scripts/Chat/ChatScript/ChatMain/ChannelsBar.lua
+module     310  yes      scripts/Chat/ChatScript/ChatMain/ChannelsTab.lua
+module     609  yes      scripts/Chat/ChatScript/ChatMain/ChatBar.lua
+module     166  yes      scripts/Chat/ChatScript/ChatMain/ChatChannel.lua
+module     672  yes      scripts/Chat/ChatScript/ChatMain/ChatWindow.lua
+module      70  yes      scripts/Chat/ChatScript/ChatMain/CommandProcessor.lua
+module      78  yes      scripts/Chat/ChatScript/ChatMain/CurveUtil.lua
+module     133  yes      scripts/Chat/ChatScript/ChatMain/MessageLabelCreator.lua
+module     305  yes      scripts/Chat/ChatScript/ChatMain/MessageLogDisplay.lua
+module      33  yes      scripts/Chat/ChatScript/ChatMain/MessageSender.lua
+module      50  yes      scripts/Chat/ChatScript/ChatMain/ObjectPool.lua
+server     451  yes      scripts/Chat/ChatServiceRunner.server.lua
+module     661  yes      scripts/Chat/ChatServiceRunner/ChatChannel.lua
+module     485  yes      scripts/Chat/ChatServiceRunner/ChatService.lua
+module     378  yes      scripts/Chat/ChatServiceRunner/Speaker.lua
+module     110  yes      scripts/Chat/ChatServiceRunner/Util.lua
+module      28  yes      scripts/Chat/ClientChatModules/ChatConstants.lua
+module     114  yes      scripts/Chat/ClientChatModules/ChatLocalization.lua
+module     115  yes      scripts/Chat/ClientChatModules/ChatSettings.lua
+module      21  yes      scripts/Chat/ClientChatModules/CommandModules/ClearMessages.lua
+module      26  yes      scripts/Chat/ClientChatModules/CommandModules/DeveloperConsole.lua
+module      25  yes      scripts/Chat/ClientChatModules/CommandModules/GetVersion.lua
+module     154  yes      scripts/Chat/ClientChatModules/CommandModules/PlayEmote.lua
+module      34  yes      scripts/Chat/ClientChatModules/CommandModules/SwallowGuestChat.lua
+module      54  yes      scripts/Chat/ClientChatModules/CommandModules/SwitchChannel.lua
+module     130  yes      scripts/Chat/ClientChatModules/CommandModules/Team.lua
+module      63  yes      scripts/Chat/ClientChatModules/CommandModules/Util.lua
+module     222  yes      scripts/Chat/ClientChatModules/CommandModules/Whisper.lua
+module     120  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/DefaultChatMessage.lua
+module      72  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/MeCommandMessage.lua
+module      45  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SetCoreMessage.lua
+module      76  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SystemMessage.lua
+module      19  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/UnknownMessage.lua
+module     375  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/Util.lua
+module      71  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WelcomeMessage.lua
+module     112  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WhisperMessage.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Alpha-1/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Analyst/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Beta-7/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Coalition High Command/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Coalition Recruit/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Epsilon-11/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/Task Force Recruit/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/GRU-P HR/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/GRU-P LR/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/GRU-P MR/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/IA OPERATIVE/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/Nu-7/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/IA RECRUIT/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Liquidators/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/MP SENIOR CONSTABLE/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Max Damage/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/Steelheads/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Nu-7/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/O5-1/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Omega-1/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/MP COMMANDING OFFICER/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Resh-1/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/Task Force Command/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SCD HC/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SCD HC~2/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SD Guard/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SD MC/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/SD Guard/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SD Private/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/SD Guard/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SD Sentinel/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/SD Guard/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/SD Trainee/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/SD Guard/morphConfiguration.lua)
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Steelheads/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Task Force Command/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Task Force Recruit/morphConfiguration.lua
+module      20  yes      scripts/ReplicatedStorage/Assets/Morphs/Tau-51/morphConfiguration.lua   (same source as scripts/ReplicatedStorage/Assets/Morphs/Nu-7/morphConfiguration.lua)
+module      95  yes      scripts/ReplicatedStorage/Assets/WeaponModules/ACR.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/AK5D.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/AUG A2.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/AUG HBAR.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/GK5D.lua
+module      95  yes      scripts/ReplicatedStorage/Assets/WeaponModules/Glock-17.lua
+module      95  yes      scripts/ReplicatedStorage/Assets/WeaponModules/Glock-18.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/HK-416.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/M16 DMR.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/M4 Carbine.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/M4A1.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/MP5SD.lua
+module      97  yes      scripts/ReplicatedStorage/Assets/WeaponModules/REMINGTON 870.lua
+module      94  yes      scripts/ReplicatedStorage/Assets/WeaponModules/UMP-45.lua
+module      95  yes      scripts/ReplicatedStorage/Assets/WeaponModules/USP.45.lua
+module       7  yes      scripts/ReplicatedStorage/InteractionKeys/lockerTag.lua
+module     141  yes      scripts/ReplicatedStorage/InteractionKeys/lockerTag/wearCloths.lua
+module       7  yes      scripts/ReplicatedStorage/InteractionKeys/morphTag.lua   (same source as scripts/ReplicatedStorage/InteractionKeys/lockerTag.lua)
+module     107  yes      scripts/ReplicatedStorage/InteractionKeys/morphTag/toggleMorph.lua
+module      46  yes      scripts/ReplicatedStorage/Modules/accessModule.lua
+module     102  yes      scripts/ReplicatedStorage/Modules/characterModule.lua
+module      80  yes      scripts/ReplicatedStorage/Modules/groupModule.lua
+module     153  yes      scripts/ReplicatedStorage/Modules/morphModule.lua
+module      41  yes      scripts/ReplicatedStorage/Modules/teamModule.lua
+module     134  yes      scripts/ReplicatedStorage/Modules/tweenModule.lua
+server      31  yes      scripts/ReplicatedStorage/ToolStorage/ACR/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+client      19  yes      scripts/ReplicatedStorage/ToolStorage/CL-3/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+server      31  yes      scripts/ReplicatedStorage/ToolStorage/Glock-17/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server    1018  yes      scripts/ServerScriptService/Accessories/Handler.server.lua
+server       8  yes      scripts/ServerScriptService/Announcements.server.lua
+server      57  yes      scripts/ServerScriptService/Backend/interactionServer.server.lua
+server      21  yes      scripts/ServerScriptService/Day & Night.server.lua
+server      13  yes      scripts/ServerScriptService/Death Gui.server.lua
+client      52  yes      scripts/ServerScriptService/Death Gui/DeathGui/Frame~2/TextLabel/LocalScript.client.lua
+client       7  yes      scripts/ServerScriptService/Death Gui/DeathGui/Frame~2/TextLabel~2/LocalScript.client.lua
+server      45  yes      scripts/ServerScriptService/Detain.server.lua
+server       5  yes      scripts/ServerScriptService/Force Field Disabled.server.lua
+server      34  yes      scripts/ServerScriptService/GiveUI.server.lua
+client      19  yes      scripts/ServerScriptService/GiveUI/AnnouncementUI/Button/Main/ShoutSystem/ShoutButton/LocalScript.client.lua
+client      25  yes      scripts/ServerScriptService/GiveUI/AnnouncementUI/Button/Show_Hide.client.lua
+server      80  yes      scripts/ServerScriptService/InfectionHandler/610Infectionhandler.server.lua
+server      49  yes      scripts/ServerScriptService/Keycard Giver.server.lua
+server      96  yes      scripts/ServerScriptService/MainServerNVG (Put in server script sevice).server.lua
+client     295  yes      scripts/ServerScriptService/MainServerNVG (Put in server script sevice)/MainNVG.client.lua
+server      76  yes      scripts/ServerScriptService/NewWeapons/WeaponHandler.server.lua
+server      11  yes      scripts/ServerScriptService/R15Ragdoll.server.lua
+client     124  yes      scripts/ServerScriptService/R15Ragdoll/RagdollClient.client.lua
+server     242  yes      scripts/ServerScriptService/RadioService.server.lua
+client     105  yes      scripts/ServerScriptService/RadioService/Assets/ClientController.client.lua
+module      37  yes      scripts/ServerScriptService/RadioService/Channels.lua
+module     185  yes      scripts/ServerScriptService/RadioService/Commands.lua
+module      14  yes      scripts/ServerScriptService/RadioService/Tags.lua
+server      81  yes      scripts/ServerScriptService/RankGuiHandler.server.lua
+server       5  yes      scripts/ServerScriptService/Script.server.lua
+server      10  yes      scripts/ServerScriptService/Scripts/ACRPURCHASE.server.lua
+server      10  yes      scripts/ServerScriptService/Scripts/CL-3PURCHASE.server.lua
+server      20  yes      scripts/ServerScriptService/Scripts/Datastore.server.lua
+server      10  yes      scripts/ServerScriptService/Scripts/G17PURCHASE.server.lua
+server      12  yes      scripts/ServerScriptService/Scripts/MainGain.server.lua
+server      87  NO       scripts/ServerScriptService/Scripts/WeaponHandler.server.lua
+server     107  yes      scripts/ServerScriptService/Scripts/WeaponHandler~2.server.lua
+server      20  yes      scripts/ServerScriptService/Script~2.server.lua
+module      67  yes      scripts/ServerScriptService/Settings.lua
+module      67  yes      scripts/ServerScriptService/Settings~2.lua   (same source as scripts/ServerScriptService/Settings.lua)
+module      67  yes      scripts/ServerScriptService/Settings~3.lua   (same source as scripts/ServerScriptService/Settings.lua)
+module      67  yes      scripts/ServerScriptService/Settings~4.lua   (same source as scripts/ServerScriptService/Settings.lua)
+server      44  yes      scripts/ServerScriptService/SolitaryHandler.server.lua
+server      17  yes      scripts/ServerScriptService/TeamItem Giver.server.lua
+server       8  yes      scripts/ServerScriptService/TextFilterScript.server.lua
+server      19  yes      scripts/ServerScriptService/processor.server.lua
+server     542  yes      scripts/ServerStorage/610s/SCP-610-1/Animate1.server.lua
+server      54  yes      scripts/ServerStorage/610s/SCP-610-1/Script.server.lua
+server      23  yes      scripts/ServerStorage/610s/SCP-610-1/SoundScript.server.lua
+server     542  yes      scripts/ServerStorage/610s/SCP-610-2/Animate1.server.lua   (same source as scripts/ServerStorage/610s/SCP-610-1/Animate1.server.lua)
+server      54  yes      scripts/ServerStorage/610s/SCP-610-2/Script.server.lua
+server      23  yes      scripts/ServerStorage/610s/SCP-610-2/SoundScript.server.lua   (same source as scripts/ServerStorage/610s/SCP-610-1/SoundScript.server.lua)
+server      31  yes      scripts/ServerStorage/ACR/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/AK5D/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      32  yes      scripts/ServerStorage/AUG A2/Weld.server.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/AUG A2/Weld.server.lua)
+server      32  yes      scripts/ServerStorage/AUG HBAR/Weld.server.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/AUG A2/Weld.server.lua)
+client      19  yes      scripts/ServerStorage/CL-0/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-1/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-2/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-3/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-4/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-5/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-D/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/CL-Omni/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+module       8  yes      scripts/ServerStorage/Framework/InteractionModule.lua
+server      31  yes      scripts/ServerStorage/GK5D/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/Glock-17/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/Glock-18/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+client      24  yes      scripts/ServerStorage/GunFramework.client.lua
+module      58  yes      scripts/ServerStorage/GunFramework/Classes/AnimationClass.lua
+module      95  yes      scripts/ServerStorage/GunFramework/Classes/SpringClass.lua
+module     236  yes      scripts/ServerStorage/GunFramework/Classes/VisualizerClass.lua
+module      49  yes      scripts/ServerStorage/GunFramework/Classes/VisualizerClass/Signal.lua
+module      11  yes      scripts/ServerStorage/GunFramework/Main/ClientInitializer.lua
+module      71  yes      scripts/ServerStorage/GunFramework/PhysicalHandler/WeaponInitializer.lua
+module      46  yes      scripts/ServerStorage/GunFramework/SubModules/Animation.lua
+module      24  yes      scripts/ServerStorage/GunFramework/SubModules/Audio.lua
+module     203  yes      scripts/ServerStorage/GunFramework/SubModules/Camera.lua
+module     922  yes      scripts/ServerStorage/GunFramework/SubModules/Character.lua
+module    1086  yes      scripts/ServerStorage/GunFramework/SubModules/Combat.lua
+module      20  yes      scripts/ServerStorage/GunFramework/SubModules/Effects.lua
+module      43  yes      scripts/ServerStorage/GunFramework/SubModules/Event.lua
+module     110  yes      scripts/ServerStorage/GunFramework/SubModules/Input.lua
+module     115  yes      scripts/ServerStorage/GunFramework/SubModules/Physics.lua
+module      19  yes      scripts/ServerStorage/GunFramework/SubModules/Settings.lua
+server      32  yes      scripts/ServerStorage/HK-416/WeldScript.server.lua
+server      32  yes      scripts/ServerStorage/HK-416~2/WeldScript.server.lua   (same source as scripts/ServerStorage/HK-416/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/M16 DMR/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server       2  NO       scripts/ServerStorage/M4 Carbine/Handle/hit/Script.server.lua
+server      32  yes      scripts/ServerStorage/M4A1/Weld.server.lua
+server      31  yes      scripts/ServerStorage/MP5SD/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/REMINGTON 870/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/UMP-45/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/ServerStorage/USP.45/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+client       7  yes      scripts/StarterGui/AnnouncementShowUI/Main/LocalScript.client.lua
+client     157  yes      scripts/StarterGui/ChatScript.client.lua   (same source as scripts/Chat/ChatScript.client.lua)
+module    1124  yes      scripts/StarterGui/ChatScript/ChatMain.lua
+module     400  yes      scripts/StarterGui/ChatScript/ChatMain/ChannelsBar.lua   (same source as scripts/Chat/ChatScript/ChatMain/ChannelsBar.lua)
+module     310  yes      scripts/StarterGui/ChatScript/ChatMain/ChannelsTab.lua   (same source as scripts/Chat/ChatScript/ChatMain/ChannelsTab.lua)
+module     609  yes      scripts/StarterGui/ChatScript/ChatMain/ChatBar.lua
+module     166  yes      scripts/StarterGui/ChatScript/ChatMain/ChatChannel.lua   (same source as scripts/Chat/ChatScript/ChatMain/ChatChannel.lua)
+module     689  yes      scripts/StarterGui/ChatScript/ChatMain/ChatWindow.lua
+module      70  yes      scripts/StarterGui/ChatScript/ChatMain/CommandProcessor.lua   (same source as scripts/Chat/ChatScript/ChatMain/CommandProcessor.lua)
+module      78  yes      scripts/StarterGui/ChatScript/ChatMain/CurveUtil.lua   (same source as scripts/Chat/ChatScript/ChatMain/CurveUtil.lua)
+module     133  yes      scripts/StarterGui/ChatScript/ChatMain/MessageLabelCreator.lua   (same source as scripts/Chat/ChatScript/ChatMain/MessageLabelCreator.lua)
+module     277  yes      scripts/StarterGui/ChatScript/ChatMain/MessageLogDisplay.lua
+module      33  yes      scripts/StarterGui/ChatScript/ChatMain/MessageSender.lua   (same source as scripts/Chat/ChatScript/ChatMain/MessageSender.lua)
+module      50  yes      scripts/StarterGui/ChatScript/ChatMain/ObjectPool.lua   (same source as scripts/Chat/ChatScript/ChatMain/ObjectPool.lua)
+client       8  NO       scripts/StarterGui/ConsoleDisable.client.lua
+server      66  yes      scripts/StarterGui/ConsoleDisable/CameraMain.server.lua
+client     803  yes      scripts/StarterGui/ConsoleDisable/CameraMain/CameraClient.client.lua
+client     131  yes      scripts/StarterGui/DetainUI/LocalScript.client.lua
+client       5  yes      scripts/StarterGui/GunShop/Frame/Frame2/ScrollingFrame/ACRFrame/TextButton/LocalScript.client.lua
+client       5  yes      scripts/StarterGui/GunShop/Frame/Frame2/ScrollingFrame/CL3Frame/TextButton/LocalScript.client.lua
+client       5  yes      scripts/StarterGui/GunShop/Frame/Frame2/ScrollingFrame/G17Frame/TextButton/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/GunShop/Frame/ImageButton/LocalScript.client.lua
+client       5  yes      scripts/StarterGui/GunShop/LocalScript.client.lua
+client      15  yes      scripts/StarterGui/HUD/Reload/Title/Image/Animation.client.lua
+client       1  yes      scripts/StarterGui/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/ResetOff.client.lua
+client       1  yes      scripts/StarterGui/ScreenGui/LocalScript.client.lua
+module      13  yes      scripts/StarterGui/ScreenGui/Settings.lua
+client      14  yes      scripts/StarterGui/Synapse X Anti Script.client.lua
+module      27  yes      scripts/StarterPack/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~16/Configuration/Authorize.lua)
+client       8  yes      scripts/StarterPlayer/StarterCharacterScripts/Fall damage.client.lua
+server       7  yes      scripts/StarterPlayer/StarterCharacterScripts/Fall damage/Script.server.lua
+client      99  yes      scripts/StarterPlayer/StarterCharacterScripts/SolitaryHandler.client.lua
+client      63  yes      scripts/StarterPlayer/StarterPlayerScripts/610BlurScreen.client.lua
+client      30  yes      scripts/StarterPlayer/StarterPlayerScripts/610Camera.client.lua
+client      34  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework.client.lua
+module      12  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser.lua
+module      39  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser/ArmoredDoor.lua
+module      32  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser/ArmoredFireGate.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser/ArmoredGate.lua)
+module      32  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser/ArmoredGate.lua
+module      32  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser/CellDoor.lua
+module      34  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Classes/ObjectVisualiser/OfficeDoor.lua
+module      14  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Core/ClientMain.lua
+module      99  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientFramework/Handlers/InteractionHandler.lua
+client    2817  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientGunHandler.client.lua
+client      25  yes      scripts/StarterPlayer/StarterPlayerScripts/DoorsMain.client.lua
+client      81  yes      scripts/StarterPlayer/StarterPlayerScripts/GuiController.client.lua
+client     344  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua
+client     193  yes      scripts/StarterPlayer/StarterPlayerScripts/interactionClient.client.lua
+server      31  yes      scripts/Teams/Department of External Affairs/USP.45/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Teams/Dev team/ACR/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+client      19  yes      scripts/Teams/Dev team/CL-3/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+server      31  yes      scripts/Teams/Dev team/Glock-18/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server       2  NO       scripts/Teams/Dev team/M4 Carbine/Handle/hit/Script.server.lua   (same source as scripts/ServerStorage/M4 Carbine/Handle/hit/Script.server.lua)
+client       7  yes      scripts/Teams/Dev team/Medkit/Animation.client.lua   (same source as scripts/Teams/Medical Department/Medkit/Animation.client.lua)
+server      11  yes      scripts/Teams/Dev team/Medkit/MainScript.server.lua   (same source as scripts/Teams/Medical Department/Medkit/MainScript.server.lua)
+server      31  yes      scripts/Teams/Dev team/USP.45/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Teams/Ethics Committee/USP.45/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+client      19  yes      scripts/Teams/GRU-P/CL-3/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+server       2  NO       scripts/Teams/GRU-P/M4 Carbine/Handle/hit/Script.server.lua   (same source as scripts/ServerStorage/M4 Carbine/Handle/hit/Script.server.lua)
+server      31  yes      scripts/Teams/GRU-P/USP.45/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Teams/Global Occult Coalition/ACR/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Teams/Global Occult Coalition/Glock-18/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      32  yes      scripts/Teams/Intelligence Agency/AUG A2/Weld.server.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/AUG A2/Weld.server.lua)
+client      19  yes      scripts/Teams/Intelligence Agency/CL-4/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+server      31  yes      scripts/Teams/Intelligence Agency/Glock-18/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+client       7  yes      scripts/Teams/Medical Department/Medkit/Animation.client.lua
+server      11  yes      scripts/Teams/Medical Department/Medkit/MainScript.server.lua
+server      31  yes      scripts/Teams/Mobile Task Forces/Glock-18/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server       2  NO       scripts/Teams/Mobile Task Forces/M4 Carbine/Handle/hit/Script.server.lua   (same source as scripts/ServerStorage/M4 Carbine/Handle/hit/Script.server.lua)
+server      31  yes      scripts/Teams/Security Department/Glock-17/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      32  yes      scripts/Teams/Security Department/M4A1/Weld.server.lua   (same source as scripts/ServerStorage/M4A1/Weld.server.lua)
+module     180  yes      scripts/Workspace/Adonis  Admin [USM]/Config/API.lua
+module      17  yes      scripts/Workspace/Adonis  Admin [USM]/Config/Plugins/Client_ Example Plugin.lua
+module      42  yes      scripts/Workspace/Adonis  Admin [USM]/Config/Plugins/Server_ Example Plugin.lua
+module     460  yes      scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+server       9  yes      scripts/Workspace/Adonis  Admin [USM]/Loader/Dropper.server.lua
+server     122  NO       scripts/Workspace/Adonis  Admin [USM]/Loader/Loader.server.lua
+server       6  yes      scripts/Workspace/Anti Lag.server.lua
+server       4  yes      scripts/Workspace/CDC TP/ProximityPrompt/Script.server.lua
+server       5  yes      scripts/Workspace/Entrance TP/ProximityPrompt/Script.server.lua
+server      78  yes      scripts/Workspace/Events/Control.server.lua
+server      31  yes      scripts/Workspace/GK5D/WeldScript.server.lua
+server      13  yes      scripts/Workspace/GunShop/GunShopModel/Script.server.lua
+server       4  yes      scripts/Workspace/GunShop/Model/Script.server.lua
+module      26  yes      scripts/Workspace/Interactions/Model/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~10/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~10/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~11/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~5/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~11/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~12/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~12/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~13/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~13/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~14/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~14/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~15/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~15/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      27  yes      scripts/Workspace/Interactions/Model~16/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~16/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      27  yes      scripts/Workspace/Interactions/Model~17/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~16/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~17/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~18/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~5/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~18/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~19/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~5/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~19/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~2/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~20/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~5/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~20/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~21/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~22/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~22/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~23/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~23/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~24/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~24/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~25/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~25/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~26/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~26/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~27/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~7/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~27/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~28/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~28/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~29/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~29/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~3/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~3/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~30/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~30/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~31/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~31/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~32/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~32/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~33/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~33/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~34/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~34/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~35/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~35/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~36/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~36/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~37/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~37/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~38/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~38/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~39/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~10/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~39/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~4/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~40/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~40/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~41/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~10/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~41/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~42/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~42/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~43/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~43/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~44/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~10/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~44/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~45/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~10/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~45/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~46/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~46/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~47/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~7/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~47/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~48/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~48/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~49/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~7/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~49/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~5/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~5/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~50/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~7/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~50/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~51/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~51/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~52/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~52/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~53/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~7/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~53/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~54/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~8/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~54/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~55/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~8/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~55/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~56/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~8/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~56/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~57/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~8/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~57/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~58/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~8/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~58/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~59/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~59/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~6/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~5/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~6/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~60/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~59/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~60/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~61/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~59/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~61/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~62/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~59/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~62/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~63/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~63/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~64/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~2/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~64/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~65/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~65/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~66/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~59/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~66/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~67/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~67/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~68/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~68/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~69/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~15/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~69/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~7/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~7/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~70/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~15/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~70/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~71/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~71/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~72/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~72/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~73/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~73/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~74/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~74/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~75/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~15/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~75/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~76/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~76/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~77/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~77/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~78/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~78/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~79/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~79/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~8/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~8/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~80/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~80/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~81/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~81/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~82/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~82/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~83/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~83/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~84/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~84/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~85/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~85/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~86/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~86/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~87/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~87/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~88/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~88/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~89/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~89/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~9/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~9/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~90/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~90/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~91/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~4/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~91/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~92/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Interactions/Model~92/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~93/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~24/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~93/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Interactions/Model~94/Configuration/Authorize.lua   (same source as scripts/Workspace/Interactions/Model~24/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Interactions/Model~94/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Model~113/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Model~113/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Model~16/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Model~16/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Model~45/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Model~45/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Model~81/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Model~81/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+module      26  yes      scripts/Workspace/Model~9/Configuration/Authorize.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua)
+module      61  yes      scripts/Workspace/Model~9/Configuration/InteractMain.lua   (same source as scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua)
+server       5  yes      scripts/Workspace/No Lag Script.server.lua
+server      31  yes      scripts/Workspace/REMINGTON 870/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server     525  yes      scripts/Workspace/SCP000/Animate.server.lua
+server      48  yes      scripts/Workspace/SCP000/AttackScript.server.lua
+server      20  yes      scripts/Workspace/SCP000/HeadSoundScript.server.lua   (same source as scripts/Workspace/SCPs/SCP049/HeadSoundScript.server.lua)
+server     240  yes      scripts/Workspace/SCP000/LowerTorso/qPerfectionWeld.server.lua   (same source as scripts/Workspace/SCPs/SCP049/LowerTorso/qPerfectionWeld.server.lua)
+server      18  yes      scripts/Workspace/SCP000/Respawn.server.lua   (same source as scripts/Workspace/SCPs/SCP049/Respawn.server.lua)
+server      37  yes      scripts/Workspace/SCP000/Script.server.lua
+server      62  yes      scripts/Workspace/SCP1139/SCP1139/SCP1139/WeirdWords/Words.server.lua
+server      93  yes      scripts/Workspace/SCPs/Object-Case/Detector/MakingStatic.server.lua
+server      40  yes      scripts/Workspace/SCPs/Object-Case/Detector/R15-ColorChange.server.lua
+server       9  yes      scripts/Workspace/SCPs/Object-Case/Detector/Script.server.lua
+server     542  yes      scripts/Workspace/SCPs/SCP-076-2/Animate.server.lua
+server      25  yes      scripts/Workspace/SCPs/SCP-076-2/LaughTimer.server.lua
+server      20  yes      scripts/Workspace/SCPs/SCP-076-2/Respawn.server.lua
+server      62  yes      scripts/Workspace/SCPs/SCP-076-2/Script.server.lua
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~10/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~10/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~11/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~11/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~12/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~12/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~13/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~13/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~14/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~14/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~15/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~15/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~16/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~16/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~17/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~17/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~18/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~18/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~19/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~19/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~2/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~2/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~20/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~20/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~21/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~21/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~22/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~22/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~3/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~3/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~4/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~4/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~5/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~5/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~6/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~6/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~7/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~7/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~8/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~8/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~9/Freeze.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Freeze.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part~9/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-409/Folder/Crystal Part/Script.server.lua)
+server     542  yes      scripts/Workspace/SCPs/SCP-457/Animate.server.lua
+server       7  yes      scripts/Workspace/SCPs/SCP-457/LowerTorso/Damage Script.server.lua
+server      37  yes      scripts/Workspace/SCPs/SCP-457/NPCHandler.server.lua
+server      15  yes      scripts/Workspace/SCPs/SCP-457/NPCHandler/SoundHandler.server.lua
+server       7  yes      scripts/Workspace/SCPs/SCP-457/UpperTorso/Damage Script.server.lua   (same source as scripts/Workspace/SCPs/SCP-457/LowerTorso/Damage Script.server.lua)
+server      17  yes      scripts/Workspace/SCPs/SCP-498/Model/Alarm.server.lua
+server      14  yes      scripts/Workspace/SCPs/SCP-500/Object/SCP500/Union/CD/Detect.server.lua
+server       8  yes      scripts/Workspace/SCPs/SCP-500/Object/SCP500/Union/CD/SCP-500-01/Activated.server.lua
+server      60  yes      scripts/Workspace/SCPs/SCP-988/CD/Script.server.lua
+server      54  NO       scripts/Workspace/SCPs/SCP-988/CD/Script/AdvanceToolGiver/Frame/TextButton/Script.server.lua
+server      10  NO       scripts/Workspace/SCPs/SCP-988/CD/Script/AdvanceToolGiver/Frame/TextButton/Script/Template/Script2.server.lua
+server      31  yes      scripts/Workspace/SCPs/SCP-988/TOOLS/ACR/Weld.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Workspace/SCPs/SCP-988/TOOLS/AK5D/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      32  yes      scripts/Workspace/SCPs/SCP-988/TOOLS/AUG A2/Weld.server.lua
+client      19  yes      scripts/Workspace/SCPs/SCP-988/TOOLS/CL-2/LocalScript.client.lua   (same source as scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua)
+client      19  yes      scripts/Workspace/SCPs/SCP-988/TOOLS/CL-3/LocalScript.client.lua
+server     276  yes      scripts/Workspace/SCPs/SCP025 (DISABLED)/AI.server.lua
+server       4  yes      scripts/Workspace/SCPs/SCP025 (DISABLED)/Animate.server.lua
+server       8  yes      scripts/Workspace/SCPs/SCP025 (DISABLED)/Head/Kill.server.lua
+server      65  yes      scripts/Workspace/SCPs/SCP025 (DISABLED)/Respawn.server.lua
+server      37  yes      scripts/Workspace/SCPs/SCP025 (DISABLED)/Script.server.lua
+server     541  yes      scripts/Workspace/SCPs/SCP049/Animate.server.lua
+server      48  yes      scripts/Workspace/SCPs/SCP049/AttackScript.server.lua
+server       4  yes      scripts/Workspace/SCPs/SCP049/Head/Sing.server.lua
+server     240  yes      scripts/Workspace/SCPs/SCP049/Head/qPerfectionWeld.server.lua   (same source as scripts/Workspace/SCPs/SCP049/LowerTorso/qPerfectionWeld.server.lua)
+server      20  yes      scripts/Workspace/SCPs/SCP049/HeadSoundScript.server.lua
+server     240  yes      scripts/Workspace/SCPs/SCP049/LowerTorso/qPerfectionWeld.server.lua
+server      18  yes      scripts/Workspace/SCPs/SCP049/Respawn.server.lua
+server      37  yes      scripts/Workspace/SCPs/SCP049/Script.server.lua   (same source as scripts/Workspace/SCPs/SCP025 (DISABLED)/Script.server.lua)
+server      17  yes      scripts/Workspace/SCPs/SCP123/Part/Script.server.lua
+server       1  yes      scripts/Workspace/SCPs/SCP173/Torso/BodyGyro/Script.server.lua
+server      14  yes      scripts/Workspace/SCPs/SCP173/Torso/Closer.server.lua
+server       3  yes      scripts/Workspace/SCPs/SCP173/Torso/Face/_.server.lua
+server       8  yes      scripts/Workspace/SCPs/SCP173/Torso/Music/Dread.server.lua
+server       2  yes      scripts/Workspace/SCPs/SCP173/Torso/Music/Dread~2.server.lua
+server     162  yes      scripts/Workspace/SCPs/SCP173/Torso/Script.server.lua
+server      54  yes      scripts/Workspace/SCPs/SCP_1025/MainControl.server.lua
+server       1  yes      scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ NORTH PACIFIC OCEAN, CANADA/NAMEWALL/Script.server.lua   (same source as scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE ENTRANCE ZONE/NAMEWALL/Script.server.lua)
+server       1  yes      scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE CLASS D CONTAINMENT ZONE/NAMEWALL/Script.server.lua   (same source as scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE ENTRANCE ZONE/NAMEWALL/Script.server.lua)
+server       1  yes      scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE DOCK ZONE/NAMEWALL/Script.server.lua   (same source as scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE ENTRANCE ZONE/NAMEWALL/Script.server.lua)
+server       1  yes      scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE ENTRANCE ZONE/NAMEWALL/Script.server.lua
+server       1  yes      scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE LIGHT CONTAINMENT ZONE/NAMEWALL/Script.server.lua   (same source as scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE ENTRANCE ZONE/NAMEWALL/Script.server.lua)
+server       1  yes      scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE LIGHT CONTAINMENT ZONE~2/NAMEWALL/Script.server.lua   (same source as scripts/Workspace/Site/AreaPopUp/NOW ENTERING_ THE ENTRANCE ZONE/NAMEWALL/Script.server.lua)
+module      26  yes      scripts/Workspace/Site/Dock Zone/Model~287/Configuration/Authorize.lua
+module      61  yes      scripts/Workspace/Site/Dock Zone/Model~287/Configuration/InteractMain.lua
+server      50  yes      scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua
+server      50  yes      scripts/Workspace/Site/Entrance Zone/CoffeeMaker~2/CoffeeMakerScript.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/CoffeeMaker~3/CoffeeMakerScript.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/CoffeeMaker~4/CoffeeMakerScript.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/CoffeeMaker~5/CoffeeMakerScript.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/CoffeeMaker~6/CoffeeMakerScript.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/Cup of lollipop/ClickDetector/Script.server.lua
+server      50  yes      scripts/Workspace/Site/Entrance Zone/Cup of lollipop~2/ClickDetector/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Cup of lollipop/ClickDetector/Script.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/Cup of lollipop~3/ClickDetector/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Cup of lollipop/ClickDetector/Script.server.lua)
+server      50  yes      scripts/Workspace/Site/Entrance Zone/Cup of lollipop~4/ClickDetector/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Cup of lollipop/ClickDetector/Script.server.lua)
+server      24  yes      scripts/Workspace/Site/Entrance Zone/Laptop~35/Part~9/Decal/Decal Changer.server.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~10/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~9/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~11/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~12/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~11/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~13/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~14/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~13/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~15/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~16/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~15/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~17/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~11/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~18/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~19/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~2/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~20/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~21/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~22/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~23/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~24/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~22/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~25/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~2/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~26/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~23/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~27/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~28/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~29/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~4/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~3/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~30/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~31/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~3/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~32/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~28/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~33/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~34/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~35/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~36/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~37/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~38/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~36/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~39/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~37/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~4/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~40/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~41/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~42/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~43/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~42/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~44/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~45/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~35/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~46/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~47/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~46/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~48/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~49/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~48/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~5/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~50/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~44/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~51/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~52/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~51/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~6/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~5/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~7/objectSecurity.lua
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~8/objectSecurity.lua   (same source as scripts/Workspace/Site/Entrance Zone/Locker~7/objectSecurity.lua)
+module      18  yes      scripts/Workspace/Site/Entrance Zone/Locker~9/objectSecurity.lua
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set/Heart Monitor/Screen/Script.server.lua
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Content/Script.server.lua
+server       3  yes      scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua
+server      69  yes      scripts/Workspace/Site/Entrance Zone/Medical Set/MedicalBed/Seat/Manager.server.lua
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~2/Heart Monitor/Screen/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/Heart Monitor/Screen/Script.server.lua)
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~2/IV Bag/Content/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Content/Script.server.lua)
+server       3  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~2/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua)
+server      69  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~2/MedicalBed/Seat/Manager.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/MedicalBed/Seat/Manager.server.lua)
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~3/Heart Monitor/Screen/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/Heart Monitor/Screen/Script.server.lua)
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~3/IV Bag/Content/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Content/Script.server.lua)
+server       3  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~3/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua)
+server      69  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~3/MedicalBed/Seat/Manager.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/MedicalBed/Seat/Manager.server.lua)
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~4/Heart Monitor/Screen/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/Heart Monitor/Screen/Script.server.lua)
+server      16  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~4/IV Bag/Content/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Content/Script.server.lua)
+server       3  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~4/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua)
+server      69  yes      scripts/Workspace/Site/Entrance Zone/Medical Set~4/MedicalBed/Seat/Manager.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Medical Set/MedicalBed/Seat/Manager.server.lua)
+server       7  NO       scripts/Workspace/Site/Entrance Zone/Model~326/VentFan~3/Fan/FanBlades/fanKill.server.lua
+server       6  yes      scripts/Workspace/Site/Entrance Zone/Model~327/Medkit/Script.server.lua
+server       7  NO       scripts/Workspace/Site/Entrance Zone/Model~506/VentFan~2/Fan/FanBlades/fanKill.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Model~326/VentFan~3/Fan/FanBlades/fanKill.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~10/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      32  yes      scripts/Workspace/Site/Entrance Zone/PC~11/Computer Monitor/Screen/Main.server.lua
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~12/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~13/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~14/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~15/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~2/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~3/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~4/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~5/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~6/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~7/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~8/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server      31  yes      scripts/Workspace/Site/Entrance Zone/PC~9/Computer Monitor/Screen/Main.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/PC/Computer Monitor/Screen/Main.server.lua)
+server       9  yes      scripts/Workspace/Site/Entrance Zone/Tube Rack/Tube/Chance.server.lua
+server       9  yes      scripts/Workspace/Site/Entrance Zone/Tube Rack/Tube~2/Chance.server.lua   (same source as scripts/Workspace/Site/Entrance Zone/Tube Rack/Tube/Chance.server.lua)
+server       9  yes      scripts/Workspace/Site/Entrance Zone/Tube Rack/Tube~3/Chance.server.lua
+module      10  yes      scripts/Workspace/SolitaryCell/ModuleScript.lua
+module      10  yes      scripts/Workspace/SolitaryCell~2/ModuleScript.lua
+server      39  yes      scripts/Workspace/Spill/Spill/Script.server.lua
+server      16  yes      scripts/Workspace/Spill/proximity/Mopping.server.lua
+server      39  yes      scripts/Workspace/Spill~2/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~2/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      39  yes      scripts/Workspace/Spill~3/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~3/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      39  yes      scripts/Workspace/Spill~4/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~4/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      39  yes      scripts/Workspace/Spill~5/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~5/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      39  yes      scripts/Workspace/Spill~6/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~6/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      39  yes      scripts/Workspace/Spill~7/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~7/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      39  yes      scripts/Workspace/Spill~8/Spill/Script.server.lua   (same source as scripts/Workspace/Spill/Spill/Script.server.lua)
+server      16  yes      scripts/Workspace/Spill~8/proximity/Mopping.server.lua   (same source as scripts/Workspace/Spill/proximity/Mopping.server.lua)
+server      29  yes      scripts/Workspace/Uniforms/Class D Personnel.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Department of External Affairs.server.lua
+server      29  yes      scripts/Workspace/Uniforms/EAT.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Ethics Committee.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Foundation Healthcare.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Foundation Personnel.server.lua
+server      29  yes      scripts/Workspace/Uniforms/GRU-P.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Global Occult Coaliton.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Intelligence Agency.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Mobile Task Forces.server.lua
+server      29  yes      scripts/Workspace/Uniforms/SCD Personnel.server.lua
+server      29  yes      scripts/Workspace/Uniforms/Security Department.server.lua
+server     180  yes      scripts/Workspace/Zodiac/Body/Main_Model/BoatScriptServer.server.lua
+server      13  NO       scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/CONTROLS.server.lua
+client     197  yes      scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/LocalMain.client.lua
+client      18  yes      scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/SPEED INDICATOR/LocalScript.client.lua
+server      40  yes      scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/InitializeBoatScripts.server.lua
+server     240  yes      scripts/Workspace/Zodiac/Body/qPerfectionWeld.server.lua
+server     180  yes      scripts/Workspace/Zodiac~2/Body/Main_Model/BoatScriptServer.server.lua   (same source as scripts/Workspace/Zodiac/Body/Main_Model/BoatScriptServer.server.lua)
+server      13  NO       scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/HelmGUI/CONTROLS.server.lua   (same source as scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/CONTROLS.server.lua)
+client     197  yes      scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/HelmGUI/LocalMain.client.lua   (same source as scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/LocalMain.client.lua)
+client      18  yes      scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/HelmGUI/SPEED INDICATOR/LocalScript.client.lua   (same source as scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/SPEED INDICATOR/LocalScript.client.lua)
+server      40  yes      scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/InitializeBoatScripts.server.lua   (same source as scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/InitializeBoatScripts.server.lua)
+server     240  yes      scripts/Workspace/Zodiac~2/Body/qPerfectionWeld.server.lua   (same source as scripts/Workspace/Zodiac/Body/qPerfectionWeld.server.lua)
+server      31  yes      scripts/Workspace/gun/GK5D/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Workspace/gun/GK5D~2/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Workspace/gun/GK5D~3/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Workspace/gun/GK5D~4/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Workspace/gun/GK5D~5/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      31  yes      scripts/Workspace/gun/GK5D~6/WeldScript.server.lua   (same source as scripts/Workspace/GK5D/WeldScript.server.lua)
+server      11  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua
+server      11  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua
+server      11  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua
+server      13  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua
+server      11  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/LightD/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/LightN/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua)
+server      13  yes      scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower/Bottom Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower/Bottom Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower/Bottom Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower/Bottom Lights/L-810 SIDELIGHT MARKER~2/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower/Bottom Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower/Bottom Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)
+server      11  yes      scripts/Workspace/radio tower/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower/L-865 WHITE ONLY/Model/Union/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua)
+server      13  yes      scripts/Workspace/radio tower/L-865 WHITE ONLY/Model/Union/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua
+server       9  yes      scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua
+server      12  yes      scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua
+server       7  yes      scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua)
+server      13  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/LightD/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/LightN/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua)
+server      13  yes      scripts/Workspace/radio tower~2/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower~2/Bottom Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower~2/Bottom Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower~2/Bottom Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower~2/Bottom Lights/L-810 SIDELIGHT MARKER~2/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower~2/Bottom Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower~2/Bottom Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua)
+server      11  yes      scripts/Workspace/radio tower~2/L-865 WHITE ONLY/Model/Union/Script.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script.server.lua)
+server      13  yes      scripts/Workspace/radio tower~2/L-865 WHITE ONLY/Model/Union/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower~2/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower~2/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower~2/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)
+server       7  yes      scripts/Workspace/radio tower~2/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Light/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua)
+server       9  yes      scripts/Workspace/radio tower~2/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script.server.lua)
+server      12  yes      scripts/Workspace/radio tower~2/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Script~2.server.lua   (same source as scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Script~2.server.lua)

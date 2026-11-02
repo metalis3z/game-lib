@@ -1,0 +1,396 @@
+Workspace "Workspace"
+  Camera "Camera"
+  Part "Part"
+  Terrain "Terrain"
+TimerService "TimerService"
+CollectionService "CollectionService"
+SoundService "Soundscape"
+VideoCaptureService "VideoCaptureService"
+NonReplicatedCSGDictionaryService "NonReplicatedCSGDictionaryService"
+CSGDictionaryService "CSGDictionaryService"
+Chat "Chat"
+Players "Players"
+ReplicatedFirst "ReplicatedFirst"  (94 descendants)
+  LocalScript "JoinScript"  -> scripts/ReplicatedFirst/JoinScript.client.lua
+    ScreenGui "UI"  (92 descendants)
+      Frame "Backpack"
+        Frame "Backdrop"
+        LocalScript "Backpack"  -> scripts/ReplicatedFirst/JoinScript/UI/Backpack/Backpack.client.lua
+        Frame "Slots"
+          UIListLayout "ListSlots"
+          TextButton "Template"
+            TextLabel "Index"
+            Frame "TextHover"
+            ImageLabel "ToolIcon"
+            TextLabel "ToolName"
+            ImageLabel "SelectionOutline"
+        UIScale "UIScale"
+      Frame "Chat"
+        LocalScript "Chat"  -> scripts/ReplicatedFirst/JoinScript/UI/Chat/Chat.client.lua
+        TextBox "ChatBar"
+          Frame "FocusBackdrop"
+        Frame "ChatOutput"
+          UIListLayout "Stream"
+        Frame "MainBackdrop"
+        Folder "Utility"
+          ModuleScript "LinkedList"  -> scripts/ReplicatedFirst/JoinScript/UI/Chat/Utility/LinkedList.lua
+          Frame "MessageTemplate"
+            TextLabel "Message"
+            TextLabel "PlayerName"
+            UIListLayout "AutoLayout"
+          ModuleScript "RobloxChatMount"  -> scripts/ReplicatedFirst/JoinScript/UI/Chat/Utility/RobloxChatMount.lua
+      UIPadding "ChatPadding"
+      LocalScript "ConsoleTweaks"  -> scripts/ReplicatedFirst/JoinScript/UI/ConsoleTweaks.client.lua
+      Frame "GameJoin"
+        TextLabel "Message"
+        UIAspectRatioConstraint "UIAspectRatioConstraint"
+        TextLabel "ExitOverride"
+      Frame "Health"
+        LocalScript "Health"  -> scripts/ReplicatedFirst/JoinScript/UI/Health/Health.client.lua
+        Frame "HealthBar"
+          Frame "HealthGauge"
+        TextLabel "HealthLabel"
+      ImageLabel "HelpWindow"
+        ImageLabel "Help"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"
+        TextLabel "Title"
+          TextLabel "Stroke"
+        ImageButton "Close"
+        UIAspectRatioConstraint "UIAspectRatioConstraint"
+      LocalScript "Messages"  -> scripts/ReplicatedFirst/JoinScript/UI/Messages.client.lua
+        TextLabel "Hint"
+        TextLabel "Message"
+        TextLabel "Player"
+      ImageLabel "Mouse"
+        LocalScript "ClickToMove"  -> scripts/ReplicatedFirst/JoinScript/UI/Mouse/ClickToMove.client.lua
+        LocalScript "Mouse"  -> scripts/ReplicatedFirst/JoinScript/UI/Mouse/Mouse.client.lua
+      Frame "PlayerList"
+        Frame "Backdrop"
+        Frame "Container"
+          UIAspectRatioConstraint "AspectRatio"
+        LocalScript "PlayerList"  -> scripts/ReplicatedFirst/JoinScript/UI/PlayerList/PlayerList.client.lua
+        ScreenGui "Templates"
+          Frame "BaseGroup"
+            Frame "Footer"
+            Frame "Header"
+              TextLabel "Title"
+              Frame "Stats"
+              Frame "TeamUnderline"
+            UIListLayout "ListLayout"
+          Frame "BasePlayerLbl"
+            TextLabel "PlayerName"
+            Frame "Stats"
+          TextLabel "BaseStat"
+      Frame "SafeChat"
+        UIAspectRatioConstraint "AspectRatio"
+        ImageButton "ChatButton"
+          Sound "Click"
+          ImageLabel "Hint"
+        LocalScript "SafeChat"  -> scripts/ReplicatedFirst/JoinScript/UI/SafeChat/SafeChat.client.lua
+        Folder "Templates"
+          Frame "TempBranch"
+            UIListLayout "UIListLayout"
+          TextButton "TempButton"
+      Frame "Topbar"
+        UIListLayout "ButtonLayout"
+        UIScale "ButtonScale"
+        ModuleScript "Config"  -> scripts/ReplicatedFirst/JoinScript/UI/Topbar/Config.lua
+        LocalScript "Topbar"  -> scripts/ReplicatedFirst/JoinScript/UI/Topbar/Topbar.client.lua
+      Frame "ZoomControls"
+        ImageLabel "FirstPersonIndicator"
+        ImageButton "RotateDown"
+        ImageButton "RotateUp"
+        LocalScript "ZoomControls"  -> scripts/ReplicatedFirst/JoinScript/UI/ZoomControls/ZoomControls.client.lua
+        ImageButton "ZoomIn"
+          Frame "Lock"
+        ImageButton "ZoomOut"
+          Frame "Lock"
+TweenService "TweenService"
+MaterialService "MaterialService"
+TextChatService "TextChatService"
+  ChatWindowConfiguration "ChatWindowConfiguration"
+  ChatInputBarConfiguration "ChatInputBarConfiguration"
+  BubbleChatConfiguration "BubbleChatConfiguration"
+  ChannelTabsConfiguration "ChannelTabsConfiguration"
+PermissionsService "PermissionsService"
+PlayerEmulatorService "PlayerEmulatorService"
+StudioData "StudioData"
+StarterPlayer "StarterPlayer"  (54 descendants)
+  StarterPlayerScripts "StarterPlayerScripts"  (36 descendants)
+    LocalScript "Animator"  -> scripts/StarterPlayer/StarterPlayerScripts/Animator.client.lua
+    LocalScript "Camera"  -> scripts/StarterPlayer/StarterPlayerScripts/Camera.client.lua
+      ModuleScript "Main"  -> scripts/StarterPlayer/StarterPlayerScripts/Camera/Main.lua
+      ModuleScript "Opacity"  -> scripts/StarterPlayer/StarterPlayerScripts/Camera/Opacity.lua
+      ModuleScript "Popper"  -> scripts/StarterPlayer/StarterPlayerScripts/Camera/Popper.lua
+    LocalScript "CharacterBevels"  -> scripts/StarterPlayer/StarterPlayerScripts/CharacterBevels.client.lua
+    LocalScript "Explosions"  -> scripts/StarterPlayer/StarterPlayerScripts/Explosions.client.lua
+      ParticleEmitter "Particle"
+    LocalScript "ForceFields"  -> scripts/StarterPlayer/StarterPlayerScripts/ForceFields.client.lua
+    LocalScript "FpsCap"  -> scripts/StarterPlayer/StarterPlayerScripts/FpsCap.client.lua
+    LocalScript "GamepadPatch"  -> scripts/StarterPlayer/StarterPlayerScripts/GamepadPatch.client.lua
+    LocalScript "HumanoidLabels"  -> scripts/StarterPlayer/StarterPlayerScripts/HumanoidLabels.client.lua
+      BillboardGui "Health"
+        TextLabel "PlayerName"
+        Frame "RedBar"
+          Frame "GreenBar"
+    LocalScript "HumanoidSound"  -> scripts/StarterPlayer/StarterPlayerScripts/HumanoidSound.client.lua
+    LocalScript "LensFlare"  -> scripts/StarterPlayer/StarterPlayerScripts/LensFlare.client.lua
+    LocalScript "Moon"  -> scripts/StarterPlayer/StarterPlayerScripts/Moon.client.lua
+      Part "Moon"
+        SurfaceGui "MoonGui"
+          ImageLabel "MoonImage"
+    LocalScript "Music"  -> scripts/StarterPlayer/StarterPlayerScripts/Music.client.lua
+    LocalScript "Sky"  -> scripts/StarterPlayer/StarterPlayerScripts/Sky.client.lua
+      Part "SkyAdorn"
+        BillboardGui "Night"
+          Frame "NightFrame"
+      BillboardGui "Star"
+        Frame "Star"
+    LocalScript "SunRays"  -> scripts/StarterPlayer/StarterPlayerScripts/SunRays.client.lua
+      Part "Rays"
+        Attachment "Ray0"
+        Attachment "Ray1"
+        Beam "SunRays"
+    LocalScript "ToolSoundGlitch"  -> scripts/StarterPlayer/StarterPlayerScripts/ToolSoundGlitch.client.lua
+    BindableEvent "PassCameraEvent"
+  StarterCharacterScripts "StarterCharacterScripts"
+    Script "Animate"  -> scripts/StarterPlayer/StarterCharacterScripts/Animate.server.lua
+    Script "Bounciness"  -> scripts/StarterPlayer/StarterCharacterScripts/Bounciness.server.lua
+    Script "DropHats"  -> scripts/StarterPlayer/StarterCharacterScripts/DropHats.server.lua
+      RemoteEvent "DropHat"
+      Script "HatPickup"  -> scripts/StarterPlayer/StarterCharacterScripts/DropHats/HatPickup.server.lua  [disabled]
+      LocalScript "LocalDropHat"  -> scripts/StarterPlayer/StarterCharacterScripts/DropHats/LocalDropHat.client.lua
+    Script "GoofyBalance"  -> scripts/StarterPlayer/StarterCharacterScripts/GoofyBalance.server.lua
+    Script "InputGateway"  -> scripts/StarterPlayer/StarterCharacterScripts/InputGateway.server.lua
+    Script "TeamColors"  -> scripts/StarterPlayer/StarterCharacterScripts/TeamColors.server.lua
+    Script "ToolSoundGlitch"  -> scripts/StarterPlayer/StarterCharacterScripts/ToolSoundGlitch.server.lua
+    Script "ToolStuckPatch"  -> scripts/StarterPlayer/StarterCharacterScripts/ToolStuckPatch.server.lua
+    LocalScript "EdgeWalking"  -> scripts/StarterPlayer/StarterCharacterScripts/EdgeWalking.client.lua
+    LocalScript "FloorDrag"  -> scripts/StarterPlayer/StarterCharacterScripts/FloorDrag.client.lua
+    LocalScript "GoofyMotion"  -> scripts/StarterPlayer/StarterCharacterScripts/GoofyMotion.client.lua
+    LocalScript "JumpLimiter"  -> scripts/StarterPlayer/StarterCharacterScripts/JumpLimiter.client.lua
+    LocalScript "RetroClimbing"  -> scripts/StarterPlayer/StarterCharacterScripts/RetroClimbing.client.lua
+StarterPack "StarterPack"  (66 descendants)
+  Tool "Trowel"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Sound "BuildSound"
+    Script "TrowelBrick"  -> scripts/StarterPack/Trowel/TrowelBrick.server.lua  [disabled]
+    Script "WallMaker"  -> scripts/StarterPack/Trowel/WallMaker.server.lua
+  Tool "Timebomb"
+    Script "Bomb"  -> scripts/StarterPack/Timebomb/Bomb.server.lua  [disabled]
+    Part "Handle"
+      SpecialMesh "Mesh"
+    Script "PlantBomb"  -> scripts/StarterPack/Timebomb/PlantBomb.server.lua
+  Tool "Sword"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    Script "SwordScript"  -> scripts/StarterPack/Sword/SwordScript.server.lua
+  Tool "Superball"
+    Script "CannonBall"  -> scripts/StarterPack/Superball/CannonBall.server.lua  [disabled]
+    Script "CannonScript"  -> scripts/StarterPack/Superball/CannonScript.server.lua
+    Part "Handle"
+      Sound "Boing"
+  Tool "Slingshot"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Sound "SlingshotSound"
+    Script "PelletScript"  -> scripts/StarterPack/Slingshot/PelletScript.server.lua  [disabled]
+    Script "Slingshot"  -> scripts/StarterPack/Slingshot/Slingshot.server.lua
+  Tool "RocketLauncher"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    Script "RocketScript"  -> scripts/StarterPack/RocketLauncher/RocketScript.server.lua  [disabled]
+    Script "ServerLauncher"  -> scripts/StarterPack/RocketLauncher/ServerLauncher.server.lua
+    Folder "Sounds"
+      Sound "Explosion"
+      Sound "Swoosh"
+  Tool "Reset"
+    StringValue "IconOverride"
+    Script "Reset"  -> scripts/StarterPack/Reset/Reset.server.lua
+  Tool "Plane"
+    ModuleScript "ControlScheme"  -> scripts/StarterPack/Plane/ControlScheme.lua
+    StringValue "IconOverride"
+    Script "PlaneTool"  -> scripts/StarterPack/Plane/PlaneTool.server.lua
+      Script "FlyScript"  -> scripts/StarterPack/Plane/PlaneTool/FlyScript.server.lua  [disabled]
+    Part "Rocket"
+      Sound "Explosion"
+      ObjectValue "Owner"
+      Script "RocketScript"  -> scripts/StarterPack/Plane/Rocket/RocketScript.server.lua  [disabled]
+      Sound "Swoosh"
+  Tool "PaintballGun"
+    Script "BrickCleanup"  -> scripts/StarterPack/PaintballGun/BrickCleanup.server.lua  [disabled]
+    Part "Handle"
+      SpecialMesh "Mesh"
+    Script "Paintball"  -> scripts/StarterPack/PaintballGun/Paintball.server.lua  [disabled]
+    Script "PaintballShooter"  -> scripts/StarterPack/PaintballGun/PaintballShooter.server.lua
+  Tool "Multirocket"
+    Script "RocketScript"  -> scripts/StarterPack/Multirocket/RocketScript.server.lua  [disabled]
+    Script "ServerLauncher"  -> scripts/StarterPack/Multirocket/ServerLauncher.server.lua
+    Folder "Sounds"
+      Sound "Explosion"
+      Sound "Swoosh"
+  Tool "JetBoots"
+    Script "Jetboots"  -> scripts/StarterPack/JetBoots/Jetboots.server.lua
+  Tool "GravityHammer"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Sound "Sound"
+    Script "SwordScript"  -> scripts/StarterPack/GravityHammer/SwordScript.server.lua
+StarterGui "StarterGui"
+LocalizationService "LocalizationService"
+TeleportService "Teleport Service"
+PhysicsService "PhysicsService"
+InsertService "InsertService"
+  StringValue "InsertionHash"
+GamePassService "GamePassService"
+Debris "Debris"
+CookiesService "CookiesService"
+Selection "Selection"
+VRService "VRService"
+ContextActionService "ContextActionService"
+ScriptService "ScriptService"
+AssetService "AssetService"
+TouchInputService "TouchInputService"
+AvatarSettings "AvatarSettings"
+Packages "Packages"
+GuidRegistryService "GuidRegistryService"
+LuaWebService "LuaWebService"
+ProcessInstancePhysicsService "ProcessInstancePhysicsService"
+ReplicatedStorage "ReplicatedStorage"
+  Folder "ItemData"
+    ModuleScript "Face"  -> scripts/ReplicatedStorage/ItemData/Face.lua
+    ModuleScript "Hat"  -> scripts/ReplicatedStorage/ItemData/Hat.lua
+    ModuleScript "Pants"  -> scripts/ReplicatedStorage/ItemData/Pants.lua
+    ModuleScript "Shirt"  -> scripts/ReplicatedStorage/ItemData/Shirt.lua
+  ModuleScript "AssetUtil"  -> scripts/ReplicatedStorage/AssetUtil.lua
+  ModuleScript "BrickColors"  -> scripts/ReplicatedStorage/BrickColors.lua
+  ModuleScript "PlaceData"  -> scripts/ReplicatedStorage/PlaceData.lua
+  ModuleScript "SafeChat"  -> scripts/ReplicatedStorage/SafeChat.lua
+    StringValue "RawTreeData"
+ServerScriptService "ServerScriptService"  (23 descendants)
+  Script "Badges"  -> scripts/ServerScriptService/Badges.server.lua
+  Script "Bevels"  -> scripts/ServerScriptService/Bevels.server.lua
+  Script "Bootup"  -> scripts/ServerScriptService/Bootup.server.lua
+  Script "BuildTools"  -> scripts/ServerScriptService/BuildTools.server.lua
+    LocalScript "Dragger"  -> scripts/ServerScriptService/BuildTools/Dragger.client.lua  [disabled]
+  Script "CaptureTheFlag"  -> scripts/ServerScriptService/CaptureTheFlag.server.lua
+  Script "Characters"  -> scripts/ServerScriptService/Characters.server.lua
+  Script "Chat"  -> scripts/ServerScriptService/Chat.server.lua
+  Script "Cylinders"  -> scripts/ServerScriptService/Cylinders.server.lua
+    SurfaceGui "CylinderSurface"
+      Frame "Frame"
+      Frame "Frame"
+  Script "Explosions"  -> scripts/ServerScriptService/Explosions.server.lua
+  Script "ForceFields"  -> scripts/ServerScriptService/ForceFields.server.lua
+  Script "ForceR6InStudio"  -> scripts/ServerScriptService/ForceR6InStudio.server.lua
+  Script "HatGranter"  -> scripts/ServerScriptService/HatGranter.server.lua
+  Script "Heads"  -> scripts/ServerScriptService/Heads.server.lua
+  Script "Leaderboard"  -> scripts/ServerScriptService/Leaderboard.server.lua
+  Script "LoadTools"  -> scripts/ServerScriptService/LoadTools.server.lua
+  Script "Parts"  -> scripts/ServerScriptService/Parts.server.lua
+  Script "Regeneration"  -> scripts/ServerScriptService/Regeneration.server.lua
+  Script "SessionTracker"  -> scripts/ServerScriptService/SessionTracker.server.lua
+  Script "Time"  -> scripts/ServerScriptService/Time.server.lua
+ServerStorage "ServerStorage"  (85 descendants)
+  Folder "CharacterAssets"
+    BodyColors "BodyColors"
+    Pants "Pants"
+    Shirt "Shirt"
+    ShirtGraphic "ShirtGraphic"
+    CharacterMesh "CL_LeftArm"
+    CharacterMesh "CL_LeftLeg"
+    CharacterMesh "CL_RightArm"
+    CharacterMesh "CL_RightLeg"
+    CharacterMesh "CL_Torso"
+  Folder "InputGateway"
+    LocalScript "Client"  -> scripts/ServerStorage/InputGateway/Client.client.lua
+    RemoteEvent "Gateway"
+    Script "Server"  -> scripts/ServerStorage/InputGateway/Server.server.lua
+  Folder "StandardTools"  (66 descendants)
+    Tool "GravityHammer"
+      Part "Handle"
+        SpecialMesh "Mesh"
+        Sound "Sound"
+      Script "SwordScript"  -> scripts/ServerStorage/StandardTools/GravityHammer/SwordScript.server.lua
+    Tool "JetBoots"
+      Script "Jetboots"  -> scripts/ServerStorage/StandardTools/JetBoots/Jetboots.server.lua
+    Tool "Multirocket"
+      Script "RocketScript"  -> scripts/ServerStorage/StandardTools/Multirocket/RocketScript.server.lua  [disabled]
+      Script "ServerLauncher"  -> scripts/ServerStorage/StandardTools/Multirocket/ServerLauncher.server.lua
+      Folder "Sounds"
+        Sound "Explosion"
+        Sound "Swoosh"
+    Tool "PaintballGun"
+      Script "BrickCleanup"  -> scripts/ServerStorage/StandardTools/PaintballGun/BrickCleanup.server.lua  [disabled]
+      Part "Handle"
+        SpecialMesh "Mesh"
+      Script "Paintball"  -> scripts/ServerStorage/StandardTools/PaintballGun/Paintball.server.lua  [disabled]
+      Script "PaintballShooter"  -> scripts/ServerStorage/StandardTools/PaintballGun/PaintballShooter.server.lua
+    Tool "Plane"
+      ModuleScript "ControlScheme"  -> scripts/ServerStorage/StandardTools/Plane/ControlScheme.lua
+      StringValue "IconOverride"
+      Script "PlaneTool"  -> scripts/ServerStorage/StandardTools/Plane/PlaneTool.server.lua
+        Script "FlyScript"  -> scripts/ServerStorage/StandardTools/Plane/PlaneTool/FlyScript.server.lua  [disabled]
+      Part "Rocket"
+        Sound "Explosion"
+        ObjectValue "Owner"
+        Script "RocketScript"  -> scripts/ServerStorage/StandardTools/Plane/Rocket/RocketScript.server.lua  [disabled]
+        Sound "Swoosh"
+    Tool "Reset"
+      StringValue "IconOverride"
+      Script "Reset"  -> scripts/ServerStorage/StandardTools/Reset/Reset.server.lua
+    Tool "RocketLauncher"
+      Part "Handle"
+        SpecialMesh "Mesh"
+      Script "RocketScript"  -> scripts/ServerStorage/StandardTools/RocketLauncher/RocketScript.server.lua  [disabled]
+      Script "ServerLauncher"  -> scripts/ServerStorage/StandardTools/RocketLauncher/ServerLauncher.server.lua
+      Folder "Sounds"
+        Sound "Explosion"
+        Sound "Swoosh"
+    Tool "Slingshot"
+      Part "Handle"
+        SpecialMesh "Mesh"
+        Sound "SlingshotSound"
+      Script "PelletScript"  -> scripts/ServerStorage/StandardTools/Slingshot/PelletScript.server.lua  [disabled]
+      Script "Slingshot"  -> scripts/ServerStorage/StandardTools/Slingshot/Slingshot.server.lua
+    Tool "Superball"
+      Script "CannonBall"  -> scripts/ServerStorage/StandardTools/Superball/CannonBall.server.lua  [disabled]
+      Script "CannonScript"  -> scripts/ServerStorage/StandardTools/Superball/CannonScript.server.lua
+      Part "Handle"
+        Sound "Boing"
+    Tool "Sword"
+      Part "Handle"
+        SpecialMesh "Mesh"
+      Script "SwordScript"  -> scripts/ServerStorage/StandardTools/Sword/SwordScript.server.lua
+    Tool "Timebomb"
+      Script "Bomb"  -> scripts/ServerStorage/StandardTools/Timebomb/Bomb.server.lua  [disabled]
+      Part "Handle"
+        SpecialMesh "Mesh"
+      Script "PlantBomb"  -> scripts/ServerStorage/StandardTools/Timebomb/PlantBomb.server.lua
+    Tool "Trowel"
+      Part "Handle"
+        SpecialMesh "Mesh"
+        Sound "BuildSound"
+      Script "TrowelBrick"  -> scripts/ServerStorage/StandardTools/Trowel/TrowelBrick.server.lua  [disabled]
+      Script "WallMaker"  -> scripts/ServerStorage/StandardTools/Trowel/WallMaker.server.lua
+  BoolValue "EnableBevels"
+  StringValue "LoadTools"
+  ModuleScript "PlayerDataStore"  -> scripts/ServerStorage/PlayerDataStore.lua
+  Frame "Frame"
+ServiceVisibilityService "ServiceVisibilityService"
+HttpService "HttpService"
+Lighting "Lighting"
+  ColorGradingEffect "ColorGrading"
+  BloomEffect "Bloom"
+LodDataService "LodDataService"
+ProximityPromptService "ProximityPromptService"
+Teams "Teams"
+UGCAvatarService "UGCAvatarService"
+VirtualInputManager "VirtualInputManager"
+VideoService "VideoService"
+Instance "FilteredSelection"
+Instance "FilteredSelection"
+Instance "FilteredSelection"
+Instance "FilteredSelection"
+TestService "TestService"

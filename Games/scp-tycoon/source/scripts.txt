@@ -1,0 +1,204 @@
+202 scripts, 24639 lines
+kind     lines  enabled  path
+client      95  NO       scripts/ReplicatedStorage/ACS_Engine/Essential/TeamTag.client.lua
+client      44  NO       scripts/ReplicatedStorage/ACS_Engine/GunMods/HoloMod.client.lua
+client     144  NO       scripts/ReplicatedStorage/ACS_Engine/HUD/GPShud/GPS.client.lua
+client      82  NO       scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/FomeSede.client.lua
+client      19  NO       scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/InteractionMenu/LocalScript.client.lua
+client     651  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Main.client.lua
+client      87  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/BandagesAberto/MedicateHandler.client.lua
+client      87  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/MedicineAberto/MedicateHandler.client.lua
+client      66  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Medkit/Itens Handler.client.lua
+client      41  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Menu/Base/DiagnoseHandler.client.lua
+client      91  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Menu/MenuHandler.client.lua
+client      40  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/OtherAberto/MedicateHandler.client.lua
+client     147  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Overhaul/GeneralConditions.client.lua
+client      79  NO       scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/SistemaMedica.client.lua
+client     622  yes      scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Stances.client.lua
+module     882  yes      scripts/ReplicatedStorage/ACS_Engine/Modulos/Hitmarker.lua
+module     134  yes      scripts/ReplicatedStorage/ACS_Engine/Modulos/Ragdoll.lua
+module      67  yes      scripts/ReplicatedStorage/ACS_Engine/Modulos/SetupModule.lua
+module     108  yes      scripts/ReplicatedStorage/ACS_Engine/Modulos/Spring.lua
+module      45  yes      scripts/ReplicatedStorage/ACS_Engine/Modulos/Utilities.lua
+module      71  yes      scripts/ReplicatedStorage/ACS_Engine/ServerConfigs/Config.lua
+server     606  yes      scripts/ReplicatedStorage/EnemyContainer/Enemy_CQC/AI.server.lua
+server     606  yes      scripts/ReplicatedStorage/EnemyContainer/Enemy_Gunner/AI.server.lua
+server     606  yes      scripts/ReplicatedStorage/EnemyContainer/Enemy_HMG/AI.server.lua
+server     606  yes      scripts/ReplicatedStorage/EnemyContainer/Enemy_Sniper/AI.server.lua
+server     507  yes      scripts/ReplicatedStorage/EnemyContainer/Enemy_Unarmed/AI.server.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/AK74M/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     209  yes      scripts/ReplicatedStorage/Weapons/AK74M/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/AK74M/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/AKM/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     209  yes      scripts/ReplicatedStorage/Weapons/AKM/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/AK74M/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/AKM/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/AKS74U/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     209  yes      scripts/ReplicatedStorage/Weapons/AKS74U/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/AK74M/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/AKS74U/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/AUG A3/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/AUG A3/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/AUG A3/ACS_Modulo/Variaveis/Settings.lua
+client      65  yes      scripts/ReplicatedStorage/Weapons/AmmoBox/Client.client.lua
+server      59  NO       scripts/ReplicatedStorage/Weapons/AmmoBox/Handle/Organizar/Server.server.lua
+server      76  yes      scripts/ReplicatedStorage/Weapons/AmmoBox/Server.server.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/Binoculars/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module      97  yes      scripts/ReplicatedStorage/Weapons/Binoculars/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/Binoculars/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/Desert Eagle/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     206  yes      scripts/ReplicatedStorage/Weapons/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/Desert Eagle/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/FAL/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/FAL/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/FAL/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/G17/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     206  yes      scripts/ReplicatedStorage/Weapons/G17/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/G17/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/G36C/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/G36C/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/G36C/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/HK416 Mod/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/HK416 Mod/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/HK416 Mod/ACS_Modulo/Variaveis/Settings.lua   (same source as scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Settings.lua)
+module       3  yes      scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/HK416C/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/HK416C/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/HK416C/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/IA2/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/IA2/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/IA2/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/L85A2/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     208  yes      scripts/ReplicatedStorage/Weapons/L85A2/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/L85A2/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/M40A5/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     263  yes      scripts/ReplicatedStorage/Weapons/M40A5/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/M40A5/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/M4A1 ACOG/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/M4A1 ACOG/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/M4A1 ACOG/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/M4A1/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/M4A1/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/HK416/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/M4A1/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/M870/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     198  yes      scripts/ReplicatedStorage/Weapons/M870/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/M870/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/MP5/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/MP5/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/MP5/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/MP5K/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/MP5K/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/MP5/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/MP5K/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/MP9/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     206  yes      scripts/ReplicatedStorage/Weapons/MP9/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/MP9/ACS_Modulo/Variaveis/Settings.lua
+client      10  yes      scripts/ReplicatedStorage/Weapons/Medkit/Local Gui.client.lua
+server      36  NO       scripts/ReplicatedStorage/Weapons/Medkit/PelletScript.server.lua
+server     123  yes      scripts/ReplicatedStorage/Weapons/Medkit/Slingshot.server.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/Micro UZI/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     206  yes      scripts/ReplicatedStorage/Weapons/Micro UZI/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/Micro UZI/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/P2000/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     206  yes      scripts/ReplicatedStorage/Weapons/P2000/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/P2000/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/RPK/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     209  yes      scripts/ReplicatedStorage/Weapons/RPK/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/ReplicatedStorage/Weapons/AK74M/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/RPK/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/Shield/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module      97  yes      scripts/ReplicatedStorage/Weapons/Shield/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/Shield/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/The Little Friend/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     224  yes      scripts/ReplicatedStorage/Weapons/The Little Friend/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/The Little Friend/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/UMP45/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     205  yes      scripts/ReplicatedStorage/Weapons/UMP45/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/ReplicatedStorage/Weapons/UMP45/ACS_Modulo/Variaveis/Settings.lua
+module       3  yes      scripts/ReplicatedStorage/Weapons/USP/ACS_Modulo/ACS_Setup.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua)
+module     206  yes      scripts/ReplicatedStorage/Weapons/USP/ACS_Modulo/Variaveis/Animations.lua   (same source as scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua)
+module     151  yes      scripts/ReplicatedStorage/Weapons/USP/ACS_Modulo/Variaveis/Settings.lua
+server    1465  yes      scripts/ServerScriptService/ACS_Server.server.lua
+server      40  yes      scripts/ServerScriptService/EventsHandler.server.lua
+server     109  yes      scripts/ServerScriptService/GameEventsHandler.server.lua
+server      83  yes      scripts/ServerScriptService/MainServerNVG (Put in server script sevice).server.lua
+client     248  yes      scripts/ServerScriptService/MainServerNVG (Put in server script sevice)/MainNVG.client.lua
+server      26  yes      scripts/ServerScriptService/PlayerAddedHandler.server.lua
+client       3  yes      scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client       3  yes      scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton~2/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client       3  yes      scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton~3/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client       3  yes      scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton~4/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client       3  yes      scripts/StarterGui/InterfaceGUI/BuyCashFrame/CloseButton/LocalScript.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/NoButton/LocalScript.client.lua)
+client       3  yes      scripts/StarterGui/InterfaceGUI/BuyCashFrame/CloseButton/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client       5  yes      scripts/StarterGui/InterfaceGUI/CashLabelFrame/CashLabel/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/CashLabelFrame/GetMoreButton/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/InterfaceGUI/CashLabelFrame/GetMoreButton/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client       3  yes      scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/NoButton/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/NoButton/SoundEffectHandler.client.lua   (same source as scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua)
+client      23  yes      scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/PopUp.client.lua
+client       4  yes      scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua
+client       8  yes      scripts/StarterGui/InterfaceGUI/GameTextHolderLabel/JoinEventButton/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/InterfaceGUI/GameTextHolderLabel/LocalScript.client.lua
+client      35  yes      scripts/StarterGui/InterfaceGUI/GuideFrame/Handler.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/SideButtonsHolder/OpenGunShopButtonHolder/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/SideButtonsHolder/OpenGunShopButtonHolder/TextButton/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~2/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~3/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~4/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~5/LocalScript.client.lua
+client      37  yes      scripts/StarterGui/LoadingGUI/Frame/LoadHandler.client.lua
+module       3  yes      scripts/StarterPack/Desert Eagle/ACS_Modulo/ACS_Setup.lua
+module     206  yes      scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Animations.lua
+module     151  yes      scripts/StarterPack/Desert Eagle/ACS_Modulo/Variaveis/Settings.lua
+client      61  yes      scripts/StarterPlayer/StarterCharacterScripts/BeamCreator.client.lua
+client    3167  yes      scripts/StarterPlayer/StarterCharacterScripts/Saude/ACS_Client.client.lua
+server      98  yes      scripts/StarterPlayer/StarterCharacterScripts/Saude/MedSys_Client.server.lua
+client     201  yes      scripts/StarterPlayer/StarterCharacterScripts/Saude/MedSys_FX.client.lua
+client       7  yes      scripts/StarterPlayer/StarterPlayerScripts/ChatHandler.client.lua
+client     344  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua
+server      20  yes      scripts/Workspace/Boards/AssetLoader.server.lua
+module      67  yes      scripts/Workspace/Boards/Products.lua
+server       1  yes      scripts/Workspace/Boards/R15Loader/For_The_NameTag/AnchorScript.server.lua   (same source as scripts/Workspace/Boards/R15Loader/HumanoidRootPart/AnchorScript.server.lua)
+server       1  yes      scripts/Workspace/Boards/R15Loader/HumanoidRootPart/AnchorScript.server.lua
+server      22  yes      scripts/Workspace/Boards/R15Loader/Loader.server.lua
+module       7  yes      scripts/Workspace/Boards/R15Loader/Loader/MainModule.lua
+server      20  yes      scripts/Workspace/Boards/R15Loader/PlayAnimation.server.lua
+server     280  NO       scripts/Workspace/Boards/R15Loader/PlayAnimation/List.server.lua
+server      13  yes      scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua
+server      21  NO       scripts/Workspace/Boards/README.server.lua
+server       1  yes      scripts/Workspace/Boards/Script.server.lua
+server      42  yes      scripts/Workspace/Buildings/Appartment w_abandonned car/Flickering lightbulb/Smooth Block Model/PointLight/Script.server.lua
+server      40  yes      scripts/Workspace/Buildings/Appartment w_abandonned car/Flickering lightbulb/Smooth Block Model/Script.server.lua
+server       8  yes      scripts/Workspace/Giver/ProximityPrompt/Script.server.lua
+server      30  yes      scripts/Workspace/Initializer.server.lua
+server      49  NO       scripts/Workspace/Initializer/BloodS.server.lua
+client     107  yes      scripts/Workspace/RainHandler.client.lua
+server       1  yes      scripts/Workspace/RainHandler/RainParticles/Splashes/Script.server.lua
+server      33  yes      scripts/Workspace/Tycoons/1/BuyPads/1/BuyHandler.server.lua
+server      37  yes      scripts/Workspace/Tycoons/1/BuyPads/10/BuyHandler.server.lua
+server      33  yes      scripts/Workspace/Tycoons/1/BuyPads/2/BuyHandler.server.lua   (same source as scripts/Workspace/Tycoons/1/BuyPads/1/BuyHandler.server.lua)
+server      33  yes      scripts/Workspace/Tycoons/1/BuyPads/3/BuyHandler.server.lua   (same source as scripts/Workspace/Tycoons/1/BuyPads/1/BuyHandler.server.lua)
+server      34  yes      scripts/Workspace/Tycoons/1/BuyPads/3~2/BuyHandler.server.lua
+server      34  yes      scripts/Workspace/Tycoons/1/BuyPads/4/BuyHandler.server.lua
+server      34  yes      scripts/Workspace/Tycoons/1/BuyPads/5/BuyHandler.server.lua
+server      30  yes      scripts/Workspace/Tycoons/1/BuyPads/6/BuyHandler.server.lua
+server      30  yes      scripts/Workspace/Tycoons/1/BuyPads/7/BuyHandler.server.lua   (same source as scripts/Workspace/Tycoons/1/BuyPads/6/BuyHandler.server.lua)
+server      31  yes      scripts/Workspace/Tycoons/1/BuyPads/8/BuyHandler.server.lua
+server      36  yes      scripts/Workspace/Tycoons/1/BuyPads/9/BuyHandler.server.lua
+server      16  yes      scripts/Workspace/Tycoons/1/CollectionPart/CollectionHandler.server.lua
+server      11  yes      scripts/Workspace/Tycoons/1/Door/LazerHandler.server.lua
+server      15  yes      scripts/Workspace/Tycoons/1/Droppers/1/DropHandler.server.lua
+server       5  yes      scripts/Workspace/Tycoons/1/Droppers/1/DropHandler/Drop/AutoDeleteScript.server.lua
+server      15  yes      scripts/Workspace/Tycoons/1/Droppers/2/DropHandler.server.lua   (same source as scripts/Workspace/Tycoons/1/Droppers/1/DropHandler.server.lua)
+server       5  yes      scripts/Workspace/Tycoons/1/Droppers/2/DropHandler/Drop/AutoDeleteScript.server.lua   (same source as scripts/Workspace/Tycoons/1/Droppers/1/DropHandler/Drop/AutoDeleteScript.server.lua)
+server      15  yes      scripts/Workspace/Tycoons/1/Droppers/3/DropHandler.server.lua   (same source as scripts/Workspace/Tycoons/1/Droppers/1/DropHandler.server.lua)
+server       5  yes      scripts/Workspace/Tycoons/1/Droppers/3/DropHandler/Drop/AutoDeleteScript.server.lua   (same source as scripts/Workspace/Tycoons/1/Droppers/1/DropHandler/Drop/AutoDeleteScript.server.lua)
+server      15  yes      scripts/Workspace/Tycoons/1/Droppers/4/DropHandler.server.lua   (same source as scripts/Workspace/Tycoons/1/Droppers/1/DropHandler.server.lua)
+server       5  yes      scripts/Workspace/Tycoons/1/Droppers/4/DropHandler/Drop/AutoDeleteScript.server.lua   (same source as scripts/Workspace/Tycoons/1/Droppers/1/DropHandler/Drop/AutoDeleteScript.server.lua)
+server      25  yes      scripts/Workspace/Tycoons/1/Extras/DoorLazer/Script.server.lua
+server      37  yes      scripts/Workspace/Tycoons/1/ResetHandler.server.lua
+server      16  yes      scripts/Workspace/Tycoons/1/Upgrades/1/UpgradePart/Script.server.lua
+server      29  yes      scripts/Workspace/Tycoons/1/Walls/1/HideScript.server.lua   (same source as scripts/Workspace/Tycoons/1/Walls/2/HideScript.server.lua)
+server      29  yes      scripts/Workspace/Tycoons/1/Walls/2/HideScript.server.lua
+server      29  yes      scripts/Workspace/Tycoons/1/Walls/3/HideScript.server.lua   (same source as scripts/Workspace/Tycoons/1/Walls/2/HideScript.server.lua)
+server      29  yes      scripts/Workspace/Tycoons/1/Walls/4/HideScript.server.lua   (same source as scripts/Workspace/Tycoons/1/Walls/2/HideScript.server.lua)

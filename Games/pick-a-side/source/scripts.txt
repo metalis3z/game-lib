@@ -1,0 +1,442 @@
+440 scripts, 23548 lines
+kind     lines  enabled  path
+module      75  yes      scripts/ReplicatedStorage/GLib.lua
+module      24  yes      scripts/ReplicatedStorage/GLib/FastSpawn.lua
+module      20  yes      scripts/ReplicatedStorage/GLib/FullMeta.lua
+module       8  yes      scripts/ReplicatedStorage/GLib/GetCharacter.lua
+module      26  yes      scripts/ReplicatedStorage/GLib/GetCharacterFromPart.lua
+module      22  yes      scripts/ReplicatedStorage/GLib/GetDescendants.lua
+module      18  yes      scripts/ReplicatedStorage/GLib/GetHumanoid.lua
+module      44  yes      scripts/ReplicatedStorage/GLib/GetPlayerFromPart.lua
+module      14  yes      scripts/ReplicatedStorage/GLib/IsProtected.lua
+module      36  yes      scripts/ReplicatedStorage/GLib/IsTeammate.lua
+module      81  yes      scripts/ReplicatedStorage/GLib/SetButtonCooldown.lua
+module      28  yes      scripts/ReplicatedStorage/GLib/TagHumanoid.lua
+module      16  yes      scripts/ReplicatedStorage/Modules/AurasByRarity.lua
+module     178  yes      scripts/ReplicatedStorage/Modules/CameraShaker.lua
+module     174  yes      scripts/ReplicatedStorage/Modules/CameraShaker/CameraShakeInstance.lua
+module      85  yes      scripts/ReplicatedStorage/Modules/CameraShaker/CameraShakePresets.lua
+module     186  yes      scripts/ReplicatedStorage/Modules/ChinaPolicyService.lua
+module      18  yes      scripts/ReplicatedStorage/Modules/GetModelMass.lua
+module      62  yes      scripts/ReplicatedStorage/Modules/GetPlatform.lua
+module     143  yes      scripts/ReplicatedStorage/Modules/GoodSignal.lua
+module      17  yes      scripts/ReplicatedStorage/Modules/GoodSignalsClient.lua
+module      28  yes      scripts/ReplicatedStorage/Modules/Knockback.lua
+module      28  yes      scripts/ReplicatedStorage/Modules/Pick.lua
+module      35  yes      scripts/ReplicatedStorage/Modules/RaycastForward.lua
+module     126  yes      scripts/ReplicatedStorage/Modules/ToolHold.lua
+module      17  yes      scripts/ReplicatedStorage/Modules/WeldBetween.lua
+module       8  yes      scripts/ReplicatedStorage/Questions.lua
+module     490  yes      scripts/ReplicatedStorage/Settings/Auras.lua
+module      12  yes      scripts/ReplicatedStorage/Settings/Quests.lua
+module      20  yes      scripts/ReplicatedStorage/Settings/Rarity.lua
+module       8  yes      scripts/ReplicatedStorage/Settings/Songs.lua
+module      80  yes      scripts/ReplicatedStorage/Weapons.lua
+client      36  yes      scripts/ReplicatedStorage/Weapons/10/Local.client.lua   (same source as scripts/ReplicatedStorage/Weapons/9/Local.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/10/Mouse.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/10/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      33  yes      scripts/ReplicatedStorage/Weapons/103359953/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/103359953/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/103359953/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      32  yes      scripts/ReplicatedStorage/Weapons/10758456/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11885154/Local Gui.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/10758456/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      32  yes      scripts/ReplicatedStorage/Weapons/10831489/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11885154/Local Gui.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/10831489/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      32  yes      scripts/ReplicatedStorage/Weapons/11452821/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11885154/Local Gui.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/11452821/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/11453385/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      32  yes      scripts/ReplicatedStorage/Weapons/11885154/Local Gui.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/11885154/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     206  yes      scripts/ReplicatedStorage/Weapons/120749528/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/120749528/MotorizeRightGrip.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/120749528/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/120749528/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/120749528/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      59  yes      scripts/ReplicatedStorage/Weapons/127506105/AnimationScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/127506105/Handle/Effect/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/127506105/KorbloxStaffScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      57  yes      scripts/ReplicatedStorage/Weapons/127506105/MouseIcon.client.lua
+client      45  yes      scripts/ReplicatedStorage/Weapons/139578136/SoSGui/SoSGuiScript.client.lua
+client     123  yes      scripts/ReplicatedStorage/Weapons/139578136/SoSLocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/139578136/SoSScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      32  yes      scripts/ReplicatedStorage/Weapons/14131296/Local Gui.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/14131296/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      28  yes      scripts/ReplicatedStorage/Weapons/147143848/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/147143848/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/147143848/Script/DamageScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/147143848/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/147143848/SpecialHandler.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      32  yes      scripts/ReplicatedStorage/Weapons/14719505/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/14131296/Local Gui.client.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/14719505/Old.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/14719505/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      23  yes      scripts/ReplicatedStorage/Weapons/155661985/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/155661985/MouseIcon.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/155661985/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/155661985/SoundManager.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/155661985/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      57  yes      scripts/ReplicatedStorage/Weapons/160189476/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/127506105/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/160189476/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/168140516/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     304  yes      scripts/ReplicatedStorage/Weapons/168140516/Script/b.lua
+module     429  yes      scripts/ReplicatedStorage/Weapons/168140516/Script/e.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/168140516/Script/fireDeath.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/172246669/LauncherFiltered.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      25  yes      scripts/ReplicatedStorage/Weapons/172246669/LocalGuiFiltered.client.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/172246669/ProjectileScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/172246669/WeldArm.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/172246669/WeldScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/172246669/Welding.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     137  yes      scripts/ReplicatedStorage/Weapons/181550181/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/181550181/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/181550181/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/181550181/Script/DeathEffect.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      36  yes      scripts/ReplicatedStorage/Weapons/20/Local.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/20/Mouse.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/20/Projectile.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/20/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     164  yes      scripts/ReplicatedStorage/Weapons/204485737/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/204485737/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/204485737/Script/Goldify.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/204485737/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      90  yes      scripts/ReplicatedStorage/Weapons/208659586/Client.client.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/208659586/Projectile.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/208659586/Server.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     115  yes      scripts/ReplicatedStorage/Weapons/208659734/Client.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/208659734/Server.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      88  yes      scripts/ReplicatedStorage/Weapons/218631128/Client.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/218631128/Server.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      98  yes      scripts/ReplicatedStorage/Weapons/221173389/Client.client.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/221173389/Projectile.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/221173389/Server.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     207  yes      scripts/ReplicatedStorage/Weapons/221181437/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/221181437/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/221181437/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     217  yes      scripts/ReplicatedStorage/Weapons/226205948/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/226205948/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/226205948/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/226205948/Script/FlowerScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/226205948/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      94  yes      scripts/ReplicatedStorage/Weapons/228589017/Client.client.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/228589017/Projectile.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/228589017/Server.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      16  yes      scripts/ReplicatedStorage/Weapons/23/Local.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/23/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     233  yes      scripts/ReplicatedStorage/Weapons/233520425/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/233520425/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/233520425/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/233520425/Script/DamageScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     208  yes      scripts/ReplicatedStorage/Weapons/241017568/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/241511828/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/241017568/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/241017568/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/241017568/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     208  yes      scripts/ReplicatedStorage/Weapons/241511828/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/241511828/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/241511828/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      89  NO       scripts/ReplicatedStorage/Weapons/243007180/CastLaser.client.lua
+client     479  yes      scripts/ReplicatedStorage/Weapons/243007180/LocalScript.client.lua
+module     130  yes      scripts/ReplicatedStorage/Weapons/243007180/Modules/Functions.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/243007180/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     102  yes      scripts/ReplicatedStorage/Weapons/244081145/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/244081145/MotorizeGrip.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/244081145/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/244081145/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     256  yes      scripts/ReplicatedStorage/Weapons/254608905/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/254608905/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/254608905/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      32  NO       scripts/ReplicatedStorage/Weapons/254608905/Script/StunScript.client.lua
+client     251  yes      scripts/ReplicatedStorage/Weapons/255800146/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/255800146/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/255800146/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      33  NO       scripts/ReplicatedStorage/Weapons/255800146/Script/StunScript.client.lua
+client     196  yes      scripts/ReplicatedStorage/Weapons/280662667/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/280662667/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/280662667/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/280662903/Handle/ParticleFix.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     196  yes      scripts/ReplicatedStorage/Weapons/280662903/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/280662667/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/280662903/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/280662903/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     139  NO       scripts/ReplicatedStorage/Weapons/280662903/Script/BlizzardGui/LocalScript.client.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/280662903/Script/BlizzardGui/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/280662903/Script/FreezeScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     581  yes      scripts/ReplicatedStorage/Weapons/283756680/LocalScript.client.lua
+client     139  NO       scripts/ReplicatedStorage/Weapons/283756680/LocalScript/ScopeGui/ScopeManager.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/283756680/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/283756680/Script/CameraFixer.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      17  NO       scripts/ReplicatedStorage/Weapons/283756680/Script/CameraFixer/CameraFixScript.client.lua
+module     106  yes      scripts/ReplicatedStorage/Weapons/283756680/Script/Functions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/283756680/Script/Sparks/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/286526176/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/286526176/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     277  yes      scripts/ReplicatedStorage/Weapons/287425246/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/287425246/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/287425246/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/287425246/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     281  yes      scripts/ReplicatedStorage/Weapons/295460073/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/295460073/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/295460073/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/295460073/Script/ProjectileScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/295461517/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/295461517/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     234  yes      scripts/ReplicatedStorage/Weapons/304720496/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/304720496/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/304720496/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/304720496/Script/DeathWarning/GuiManager.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/304720496/Script/PermenantPoisonScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/304720496/Script/PoisonScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module      29  yes      scripts/ReplicatedStorage/Weapons/304720496/Script/ZombieScript.lua
+client      86  yes      scripts/ReplicatedStorage/Weapons/304720496/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     219  yes      scripts/ReplicatedStorage/Weapons/306971294/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/306971294/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/306971294/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/306971294/Script/BatManagement.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     118  yes      scripts/ReplicatedStorage/Weapons/306971294/Script/BatManagement/Functions.lua   (same source as scripts/ReplicatedStorage/Weapons/306971294/Script/Functions.lua)
+module     118  yes      scripts/ReplicatedStorage/Weapons/306971294/Script/Functions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/306971294/Script/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/306971294/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     206  yes      scripts/ReplicatedStorage/Weapons/315617026/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/315617026/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/315617026/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     221  yes      scripts/ReplicatedStorage/Weapons/315617026/Script/Functions.lua
+client      86  yes      scripts/ReplicatedStorage/Weapons/315617026/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     215  yes      scripts/ReplicatedStorage/Weapons/336370943/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/542755101/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/336370943/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/336370943/Script2.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     106  yes      scripts/ReplicatedStorage/Weapons/336370943/Script2/Functions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/336370943/Script2/Sparks/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/341110180/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/341110180/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     239  yes      scripts/ReplicatedStorage/Weapons/343586214/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365642352/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/343586214/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/343586214/Script3.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     125  yes      scripts/ReplicatedStorage/Weapons/343586214/Script3/Functions.lua   (same source as scripts/ReplicatedStorage/Weapons/365642352/Script4/Functions.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/343586214/Script3/Sparks/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     328  yes      scripts/ReplicatedStorage/Weapons/346686597/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/346686597/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/346686597/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     210  yes      scripts/ReplicatedStorage/Weapons/356212933/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/356212933/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/356212933/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     109  yes      scripts/ReplicatedStorage/Weapons/356213216/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/356213216/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/356213216/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/361950297/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/361950297/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/361950297/Script/DeathEffect.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     239  yes      scripts/ReplicatedStorage/Weapons/365642352/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/365642352/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/365642352/Script4.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     125  yes      scripts/ReplicatedStorage/Weapons/365642352/Script4/Functions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/365642352/Script4/Sparks/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     124  yes      scripts/ReplicatedStorage/Weapons/365674685/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/365674685/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/365674685/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/365674685/Script/HitScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua
+client     223  yes      scripts/ReplicatedStorage/Weapons/380204314/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/380204314/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/380204314/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/380204314/Script/HitScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     141  yes      scripts/ReplicatedStorage/Weapons/380204314/Script/HitScript/Functions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/380204314/Script/Throw.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/380204314/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     250  yes      scripts/ReplicatedStorage/Weapons/395205750/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/395205750/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/395205750/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/395205750/Script/HitScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     144  yes      scripts/ReplicatedStorage/Weapons/395205750/Script/HitScript/Functions.lua
+client     124  yes      scripts/ReplicatedStorage/Weapons/402304782/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/402304782/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/402304782/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/402304782/Script/DeathEffect.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     124  yes      scripts/ReplicatedStorage/Weapons/409745306/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/409745306/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/409745306/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/409745306/Script/HitScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/409745306/Script/HitScript/FirePoison.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/409745306/Script/OrbExplosion.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     102  yes      scripts/ReplicatedStorage/Weapons/409745306/Script/OrbExplosion/Functions.lua
+client      86  yes      scripts/ReplicatedStorage/Weapons/409745306/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/46846024/KatanaScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      43  yes      scripts/ReplicatedStorage/Weapons/46846024/Local Gui.client.lua
+client     222  yes      scripts/ReplicatedStorage/Weapons/46846024/LocalKatanaScript.client.lua
+client      44  yes      scripts/ReplicatedStorage/Weapons/49052686/Local Gui.client.lua
+client      41  yes      scripts/ReplicatedStorage/Weapons/49052686/PistolScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/49052686/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/49052686/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      23  yes      scripts/ReplicatedStorage/Weapons/5/Local.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/5/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      57  yes      scripts/ReplicatedStorage/Weapons/503957396/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/503957396/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/503957396/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     210  yes      scripts/ReplicatedStorage/Weapons/503957396/Script/LightningFunctions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/503957396/Script/LightningFunctions/LightningModelRemoval.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/503957396/Script/StunScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/51346471/AnimateScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/51346471/KodachiScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      41  yes      scripts/ReplicatedStorage/Weapons/51346471/Local Gui.client.lua
+client      47  yes      scripts/ReplicatedStorage/Weapons/51346471/LocalScript.client.lua
+client      86  yes      scripts/ReplicatedStorage/Weapons/51346471/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client     127  yes      scripts/ReplicatedStorage/Weapons/517827255/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/517827255/MotorizeGrip.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/517827255/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/517827255/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     125  yes      scripts/ReplicatedStorage/Weapons/522587921/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/522587921/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/522587921/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      72  NO       scripts/ReplicatedStorage/Weapons/522587921/Script/StunScript.client.lua
+client     124  yes      scripts/ReplicatedStorage/Weapons/532254782/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/532254782/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/532254782/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/532254782/Script/DeathEffect.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/532254782/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      44  yes      scripts/ReplicatedStorage/Weapons/54130559/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/49052686/Local Gui.client.lua)
+client     172  yes      scripts/ReplicatedStorage/Weapons/54130559/LocalTridentScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/54130559/Quake.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      31  NO       scripts/ReplicatedStorage/Weapons/54130559/Quake/QuakeScript.client.lua
+client      16  yes      scripts/ReplicatedStorage/Weapons/54130559/QuakeEnabler.client.lua
+client      56  yes      scripts/ReplicatedStorage/Weapons/54130559/SpecialGui/SpecialGuiScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/54130559/TridentScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     215  yes      scripts/ReplicatedStorage/Weapons/542755101/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/542755101/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/542755101/Script6.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     106  yes      scripts/ReplicatedStorage/Weapons/542755101/Script6/Functions.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/542755101/Script6/Sparks/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     124  yes      scripts/ReplicatedStorage/Weapons/629893424/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/629893424/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     215  yes      scripts/ReplicatedStorage/Weapons/639345143/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/542755101/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/639345143/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/639345143/Script5.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     107  yes      scripts/ReplicatedStorage/Weapons/639345143/Script5/Functions.lua
+client     138  yes      scripts/ReplicatedStorage/Weapons/64220933/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/72069888/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/64220933/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/64220933/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/64220933/SwordScript/DecimateScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/66416616/AnimateScript.client.lua
+client      41  yes      scripts/ReplicatedStorage/Weapons/66416616/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/51346471/Local Gui.client.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/66416616/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/66416616/ThunderScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      29  yes      scripts/ReplicatedStorage/Weapons/68603324/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/77443704/LocalScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/68603324/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     362  yes      scripts/ReplicatedStorage/Weapons/68603324/Sword.lua
+client      45  yes      scripts/ReplicatedStorage/Weapons/69210321/AnimateScript.client.lua
+client      44  yes      scripts/ReplicatedStorage/Weapons/69210321/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/49052686/Local Gui.client.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/69210321/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/69210321/StaffScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      40  NO       scripts/ReplicatedStorage/Weapons/69210321/StaffScript/DarknessScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/69947367/AxeScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      48  yes      scripts/ReplicatedStorage/Weapons/69947367/Local Gui.client.lua
+client      86  yes      scripts/ReplicatedStorage/Weapons/69947367/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/69947367/ThrowAxeScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      23  yes      scripts/ReplicatedStorage/Weapons/7/Local.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/7/Mouse.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/7/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     138  yes      scripts/ReplicatedStorage/Weapons/72069888/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/72069888/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/72069888/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/72069888/SwordScript/DecimateScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      44  yes      scripts/ReplicatedStorage/Weapons/72644629/Local Gui.client.lua   (same source as scripts/ReplicatedStorage/Weapons/49052686/Local Gui.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/72644629/OrbScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      29  yes      scripts/ReplicatedStorage/Weapons/77443704/LocalScript.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/77443704/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module     213  yes      scripts/ReplicatedStorage/Weapons/77443704/Sword.lua
+client      57  yes      scripts/ReplicatedStorage/Weapons/83704154/AnimateScript.client.lua
+client      42  yes      scripts/ReplicatedStorage/Weapons/83704154/Local Gui.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/83704154/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     136  yes      scripts/ReplicatedStorage/Weapons/86494893/LocalScript.client.lua
+client      35  yes      scripts/ReplicatedStorage/Weapons/86494893/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/11453385/MouseIcon.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/86494893/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/86494893/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+client      36  yes      scripts/ReplicatedStorage/Weapons/9/Local.client.lua
+server       3  yes      scripts/ReplicatedStorage/Weapons/9/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+client     138  yes      scripts/ReplicatedStorage/Weapons/93136746/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/72069888/LocalScript.client.lua)
+client      35  yes      scripts/ReplicatedStorage/Weapons/93136746/MouseIcon.client.lua   (same source as scripts/ReplicatedStorage/Weapons/629893424/MouseIcon.client.lua)
+client      86  yes      scripts/ReplicatedStorage/Weapons/93136746/SpecialGui/SpecialGuiScript.client.lua   (same source as scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Weapons/93136746/SwordScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module      54  yes      scripts/ReplicatedStorage/Weapons/93136746/SwordScript/FlyCheckScript.lua
+server       3  NO       scripts/ReplicatedStorage/Weapons/93136746/SwordScript/ParticleScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/93136746/SwordScript/TelaPwnedScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/93136746/SwordScript/TelaThornScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Weapons/93136746/SwordScript/UnwingScript.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+module      12  yes      scripts/ReplicatedStorage/XP.lua
+server      38  yes      scripts/ServerStorage/README.server.lua
+client      41  yes      scripts/StarterGui/Client/L_Data.client.lua
+client      74  yes      scripts/StarterGui/Client/L_Display.client.lua
+client      17  yes      scripts/StarterGui/Client/L_Init.client.lua
+client      16  NO       scripts/StarterGui/Client/L_Monocyte.client.lua
+client      28  yes      scripts/StarterGui/Client/L_Pass.client.lua
+client     158  NO       scripts/StarterGui/Gui/Auras/L_Weapons.client.lua   (same source as scripts/StarterGui/Gui/Weapons/L_Weapons.client.lua)
+client     173  yes      scripts/StarterGui/Gui/Auras/Windows/Orig/Auras.client.lua
+client      80  yes      scripts/StarterGui/Gui/Chat/M_Chat.client.lua
+client     206  yes      scripts/StarterGui/Gui/Custom/L_Custom.client.lua
+client      59  yes      scripts/StarterGui/Gui/Custom/L_Money.client.lua
+client     107  yes      scripts/StarterGui/Gui/Friends/L_Friends.client.lua
+client     165  yes      scripts/StarterGui/Gui/L_Master.client.lua
+client      49  yes      scripts/StarterGui/Gui/Level/L_Level.client.lua
+client     107  NO       scripts/StarterGui/Gui/Like/L_Friends.client.lua   (same source as scripts/StarterGui/Gui/Friends/L_Friends.client.lua)
+client      44  yes      scripts/StarterGui/Gui/Like/Like.client.lua
+client     100  yes      scripts/StarterGui/Gui/Messages/L_Messages.client.lua
+client     135  yes      scripts/StarterGui/Gui/Quests/Windows/Orig/Quests.client.lua
+client      89  yes      scripts/StarterGui/Gui/Radio/L_Radio.client.lua
+client      57  yes      scripts/StarterGui/Gui/Report/L_Report.client.lua
+client      75  yes      scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+client      52  yes      scripts/StarterGui/Gui/Status/L_Status.client.lua
+client      70  yes      scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+client     158  yes      scripts/StarterGui/Gui/Weapons/L_Weapons.client.lua
+client      58  yes      scripts/StarterGui/MobileShiftLock/L_MobileShiftLock.client.lua
+client     195  yes      scripts/StarterGui/Popups/Rolling/Rolling.client.lua
+client      15  yes      scripts/StarterGui/Topbar/Holder/Like/Like.client.lua
+client      15  yes      scripts/StarterGui/Topbar/Holder/Quests/Quests.client.lua
+client      17  NO       scripts/StarterGui/Topbar/Topbar.client.lua
+client      42  yes      scripts/StarterPlayer/StarterPlayerScripts/Death.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/L_Camera.client.lua
+client      39  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalScript.client.lua
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseOcclusion.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraInput.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraToggleStateController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUI.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUtils.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ClassicCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Invisicam.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/LegacyCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/MouseLockController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/OrbitalCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Poppercam.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/TransparencyController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRBaseCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRVehicleCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraConfig.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraCore.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController/Popper.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/CameraWrapper.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/CameraWrapper.spec.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/CharacterUtil.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/ConnectionUtil.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/ConnectionUtil.spec.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/FlagUtil.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/BaseCharacterController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveDisplay.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/DynamicThumbstick.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Gamepad.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Keyboard.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/PathDisplay.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchJump.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchThumbstick.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VRNavigation.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VehicleController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+client       1  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerScriptsLoader.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+client       1  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds/AtomicBinding.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+server       3  yes      scripts/Workspace/Lava/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/Workspace/Passes/Screen/Gui/Script.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/Workspace/Portals/Portals.server.lua   (same source as scripts/Workspace/Scoreboard/Screen/Script.server.lua)
+server       3  yes      scripts/Workspace/Scoreboard/Screen/Script.server.lua

@@ -1,0 +1,173 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.MainGui  (14 descendants)
+ScreenGui "MainGui"
+  TextLabel "Background"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#cba26f@0.1  text=""  tc=#1b2a35
+  TextButton "MoneyGiver"  size={0.15,0},{0.065,0}  pos={0.255,0},{0.02,0}  bg=#b69163@0.1  z=10  text="Money Giver"  tc=#ffcd7c
+    LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/MoneyGiver/LocalScript.client.lua
+  Frame "Money"  size={0.15,0},{0.065,0}  pos={0.055,0},{0.02,0}  bg=#b69163@0.1  z=10
+    TextLabel "Value"  size={0.95,0},{1,0}  pos={0,0},{0,0}  nobg  z=10  text="0"  scaled  tc=#ffcd7c
+      Script "Script"  -> scripts/StarterGui/MainGui/Money/Value/Script.server.lua
+    TextLabel "Sign"  size={0.9,0},{1,0}  pos={0.05,0},{0,0}  nobg  z=10  text="$"  scaled  tc=#ffcd7c
+  TextButton "Music"  size={0.15,0},{0.065,0}  pos={0.655,0},{0.02,0}  bg=#b69163@0.1  z=10  text="Turn Music Off"  tc=#ffcd7c
+    LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Music/LocalScript.client.lua
+    StringValue "Status"  Value="On"
+    LocalScript "MusicScript"  -> scripts/StarterGui/MainGui/Music/MusicScript.client.lua  [disabled]
+      Sound "Music"
+  TextButton "Spawn"  size={0.15,0},{0.065,0}  pos={0.455,0},{0.02,0}  bg=#b69163@0.1  z=10  text="Set Spawn"  tc=#ffcd7c
+    LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Spawn/LocalScript.client.lua
+
+==== StarterGui.Stamina  (6 descendants)
+ScreenGui "Stamina"
+  Frame "Frame"  size={0.15,0},{0.075,0}  pos={0.1,0},{0.85,0}  bg=#336d2f@0.2
+    Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#4ea849@0.3  z=2
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Stamina"  scaled  tc=#191919
+    NumberValue "Value"  Value=100
+      Script "Script"  -> scripts/StarterGui/Stamina/Frame/Value/Script.server.lua
+    Script "Script"  -> scripts/StarterGui/Stamina/Frame/Script.server.lua
+
+==== Workspace.PlayerAddedStuff.StarterScript.WeaponGui  (6 descendants)
+ScreenGui "WeaponGui"
+  Frame "Background"  size={0.5,0},{0.6,0}  pos={0.3,0},{0.2,0}  bg=#8b7747@0.1
+    TextLabel "ChooseWeapon"  size={1,0},{0.2,0}  pos={0,0},{0.1,0}  nobg  text="Choose Your Weapon"  tc=#232323
+    TextButton "Sword"  size={0.4,0},{0.5,0}  pos={0.08,0},{0.4,0}  bg=#7a683e@0.2  text="Sword"  tc=#0f0f0f
+      Script "Script"  -> scripts/Workspace/PlayerAddedStuff/StarterScript/WeaponGui/Background/Sword/Script.server.lua
+    TextButton "Gun"  size={0.4,0},{0.5,0}  pos={0.52,0},{0.4,0}  bg=#7a683e@0.2  text="Gun"  tc=#0f0f0f
+      Script "Script"  -> scripts/Workspace/PlayerAddedStuff/StarterScript/WeaponGui/Background/Gun/Script.server.lua
+
+==== Workspace.PlayerAddedStuff.PrisonScript.PrisonScript.JailTime  (5 descendants)
+ScreenGui "JailTime"
+  IntValue "TimeValue"  Value=0
+  ImageLabel "Background"  size={0.15,0},{0.2,0}  pos={0.7,0},{0.7,0}  bg=#cba26f@0.1
+    TextLabel "TimeLeft"  size={1,0},{0.1,0}  pos={0,0},{0.2,0}  nobg  text="Time Remaining..."  tc=#796a2e
+    TextLabel "Value"  size={1,0},{0.2,0}  pos={0,0},{0.6,0}  nobg  text="60"  tc=#796a2e
+      Script "Script"  -> scripts/Workspace/PlayerAddedStuff/PrisonScript/PrisonScript/JailTime/Background/Value/Script.server.lua  [disabled]
+
+==== Lighting.VenomVenom.VenomGui  (1 descendants)
+ScreenGui "VenomGui"
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#5c3cff@0.3
+
+==== Lighting.AlreadyMastered  (2 descendants)
+ScreenGui "AlreadyMastered"
+  Frame "Background"  size={0.5,0},{0.4,0}  pos={0.3,0},{0.35,0}  bg=#acacac  z=5
+    TextLabel "Warning"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="You have already mastered this"  tc=#1f1f1f
+
+==== Lighting.HakiGui  (22 descendants)
+ScreenGui "HakiGui"
+  ImageLabel "Background"  size={0.5,0},{0.6,0}  pos={0.3,0},{0.2,0}  bg=#acacac@0.1
+    ImageLabel "Kenbunshoku"  size={0.25,0},{0.35,0}  pos={0.175,0},{0.35,0}  nobg  z=3  img=rbxassetid://189357258
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Kenbunshoku - $10000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/HakiGui/Background/Kenbunshoku/TextButton/Script.server.lua
+    ImageLabel "Busoshoku"  size={0.25,0},{0.35,0}  pos={0.575,0},{0.35,0}  nobg  z=3  img=rbxassetid://189357318
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Busoshoku - $10000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/HakiGui/Background/Busoshoku/TextButton/Script.server.lua
+    ImageLabel "Title"  size={1,0},{0.15,0}  pos={0,0},{0.04,0}  nobg  z=3
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Haki"  tc=#191919
+    ImageLabel "Exit"  size={0.05,0},{0.075,0}  pos={0.01,0},{0.01,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=138680039  imgT=0.2
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/HakiGui/Background/Exit/TextButton/Script.server.lua
+
+==== Lighting.HaoGui  (2 descendants)
+ScreenGui "HaoGui"
+  Frame "Background"  size={0.5,0},{0.4,0}  pos={0.3,0},{0.35,0}  bg=#acacac  z=5
+    TextLabel "Warning"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="You have the ability to use Haoshoku Haki, use it wisely."  tc=#1f1f1f
+
+==== Lighting.MoneyGiver  (9 descendants)
+ScreenGui "MoneyGiver"
+  Frame "MainGui"  size={0.3,0},{0.5,0}  pos={0.35,0},{0.3,0}  bg=#cba26f@0.1
+    TextLabel "Title"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg  text="Money Giver"  tc=#f5c55b
+    Frame "Line"  size={0.6,0},{0.01,0}  pos={0.2,0},{0.225,0}  bg=#7e652f@0.1
+    TextBox "TextBox"  size={0.8,0},{0.3,0}  pos={0.1,0},{0.35,0}  bg=#cba26f@0.1  text="Type Amount Here"  tc=#f5c55b
+    TextButton "Finish"  size={0.4,0},{0.2,0}  pos={0.3,0},{0.72,0}  bg=#9e7b55@0.1  text="Finish"  tc=#c69f4a
+      LocalScript "LocalScript"  -> scripts/Lighting/MoneyGiver/MainGui/Finish/LocalScript.client.lua
+    ImageLabel "Exit"  size={0.075,0},{0.075,0}  pos={0.01,0},{0.01,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=138680039  imgT=0.2
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/MoneyGiver/MainGui/Exit/TextButton/Script.server.lua
+
+==== Lighting.NotEnoughMoney  (2 descendants)
+ScreenGui "NotEnoughMoney"
+  Frame "Background"  size={0.5,0},{0.4,0}  pos={0.3,0},{0.35,0}  bg=#acacac  z=5
+    TextLabel "Warning"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="You do not have enough money"  tc=#1f1f1f
+
+==== Lighting.RokushikiGui  (54 descendants)
+ScreenGui "RokushikiGui"
+  ImageLabel "Background"  size={0.5,0},{0.6,0}  pos={0.3,0},{0.2,0}  bg=#acacac@0.1
+    ImageLabel "Geppo"  size={0.15,0},{0.2,0}  pos={0.175,0},{0.25,0}  nobg  z=3  img=rbxassetid://188951749
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Geppo - $5000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Geppo/TextButton/Script.server.lua
+    ImageLabel "Tekkai"  size={0.15,0},{0.2,0}  pos={0.425,0},{0.25,0}  nobg  z=3  img=rbxassetid://188951788
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Tekkai - $5000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Tekkai/TextButton/Script.server.lua
+    ImageLabel "Rankyaku"  size={0.15,0},{0.2,0}  pos={0.175,0},{0.6,0}  nobg  z=3  img=rbxassetid://188951842
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Rankyaku - $5000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Rankyaku/TextButton/Script.server.lua
+    ImageLabel "Soru"  size={0.15,0},{0.2,0}  pos={0.425,0},{0.6,0}  nobg  z=3  img=rbxassetid://188951868
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Soru - $5000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Soru/TextButton/Script.server.lua
+    ImageLabel "Shigan"  size={0.15,0},{0.2,0}  pos={0.675,0},{0.25,0}  nobg  z=3  img=rbxassetid://188951823
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#cba26f@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Shigan - $5000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Shigan/TextButton/Script.server.lua
+    ImageLabel "Title"  size={1,0},{0.15,0}  pos={0,0},{0.04,0}  nobg  z=3
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Rokushiki"  tc=#191919
+    ImageLabel "Exit"  size={0.05,0},{0.075,0}  pos={0.01,0},{0.01,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=138680039  imgT=0.2
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Exit/TextButton/Script.server.lua
+    ImageLabel "Kamie"  size={0.15,0},{0.2,0}  pos={0.675,0},{0.6,0}  nobg  z=3  img=rbxassetid://188951893
+      ImageLabel "ImageLabel"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.5  z=3
+        TextLabel "BoatName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Kamie - $5000"  tc=#191919
+      ImageLabel "Border"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Picture"  size={1,0},{1,0}  pos={0,0},{-0.01,0}  bg=#acacac@0.5  z=3
+      ImageLabel "Border2"  size={1,0},{0.3,0}  pos={0,0},{1.02,0}  bg=#acacac@0.4  z=3
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  tc=#1b2a35
+        Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Kamie/TextButton/Script.server.lua
+
+==== Lighting.SavingLocation  (2 descendants)
+ScreenGui "SavingLocation"
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#383838  z=5
+    TextLabel "Warning"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="Saving your current location..."  tc=#cbcbcb
+
+==== Lighting.SwordGui  (8 descendants)
+ScreenGui "SwordGui"
+  Frame "Background"  size={0.5,0},{0.6,0}  pos={0.3,0},{0.2,0}  bg=#8b7747@0.1
+    TextLabel "TypeofSword"  size={1,0},{0.2,0}  pos={0,0},{0.1,0}  nobg  text="What Type of Sword?"  tc=#232323
+    TextButton "Cutlass"  size={0.27,0},{0.5,0}  pos={0.05,0},{0.4,0}  bg=#7a683e@0.2  text="Cutlass"  tc=#0f0f0f
+      Script "Script"  -> scripts/Lighting/SwordGui/Background/Cutlass/Script.server.lua
+    TextButton "Sabre"  size={0.27,0},{0.5,0}  pos={0.68,0},{0.4,0}  bg=#7a683e@0.2  text="Sabre"  tc=#0f0f0f
+      Script "Script"  -> scripts/Lighting/SwordGui/Background/Sabre/Script.server.lua
+    TextButton "Katana"  size={0.27,0},{0.5,0}  pos={0.365,0},{0.4,0}  bg=#7a683e@0.2  text="Katana"  tc=#0f0f0f
+      Script "Script"  -> scripts/Lighting/SwordGui/Background/Katana/Script.server.lua

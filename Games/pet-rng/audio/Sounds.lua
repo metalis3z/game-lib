@@ -1,0 +1,60 @@
+-- pet-rng: Every Sound in the place: { name, path, id, volume, looped, speed }.
+-- Generated from audio/sounds.json by _tools/json2lua.py
+return {
+	{
+		name = "Confirm",
+		path = "SoundService.Main.Interface.Confirm",
+		id = "rbxassetid://1293433423",
+		volume = 0.5,
+		looped = false,
+		speed = 1.0,
+	},
+	{
+		name = "LoadingSound",
+		path = "SoundService.Main.Interface.LoadingSound",
+		id = "rbxassetid://6228337171",
+		volume = 0.5,
+		looped = false,
+		speed = 1.0,
+	},
+	{
+		name = "UiEnter",
+		path = "SoundService.Main.Interface.UiEnter",
+		id = "rbxassetid://424002310",
+		volume = 0.5,
+		looped = false,
+		speed = 1.0,
+	},
+	{
+		name = "Notification",
+		path = "SoundService.Main.Interface.Notification",
+		id = "rbxassetid://203785584",
+		volume = 0.5,
+		looped = false,
+		speed = 1.0,
+	},
+	{
+		name = "UiClick",
+		path = "SoundService.Main.Interface.UiClick",
+		id = "rbxassetid://5852470908",
+		volume = 0.5,
+		looped = false,
+		speed = 1.0,
+	},
+	{
+		name = "Error",
+		path = "SoundService.Main.Interface.Error",
+		id = "rbxassetid://180185084",
+		volume = 0.5,
+		looped = false,
+		speed = 1.0,
+	},
+	{
+		name = "Song3",
+		path = "SoundService.Main.Music.Song3",
+		id = "rbxassetid://1838662400",
+		volume = 0.185,
+		looped = true,
+		speed = 1.0,
+	},
+}

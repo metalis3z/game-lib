@@ -1,0 +1,201 @@
+199 scripts, 23133 lines
+kind     lines  enabled  path
+client      60  yes      scripts/ReplicatedFirst/LoadingClient.client.lua
+module      14  yes      scripts/ReplicatedStorage/DataModules/Codes.lua
+module      16  yes      scripts/ReplicatedStorage/DataModules/Craft.lua
+module      42  yes      scripts/ReplicatedStorage/DataModules/Gifts.lua
+module      28  yes      scripts/ReplicatedStorage/DataModules/Items.lua
+module      59  yes      scripts/ReplicatedStorage/DataModules/Pets.lua
+module      36  yes      scripts/ReplicatedStorage/DataModules/Rarities.lua
+module      25  yes      scripts/ReplicatedStorage/DataModules/TutorialStages.lua
+module       7  yes      scripts/ReplicatedStorage/DataModules/Worlds.lua
+module      95  yes      scripts/ReplicatedStorage/Engine/Modules/Abbreviate2.lua
+module      68  yes      scripts/ReplicatedStorage/Engine/Modules/AbbreviateModule.lua
+module      18  yes      scripts/ReplicatedStorage/Engine/Modules/Assistance.lua
+module      66  yes      scripts/ReplicatedStorage/Engine/Modules/ChestModule.lua
+module     363  yes      scripts/ReplicatedStorage/Engine/Modules/CraftSystem.lua
+module     364  yes      scripts/ReplicatedStorage/Engine/Modules/Luck.lua
+module      44  yes      scripts/ReplicatedStorage/Engine/Modules/NotificationModule.lua
+module     169  yes      scripts/ReplicatedStorage/Engine/Modules/PetSystem.lua
+module      23  yes      scripts/ReplicatedStorage/Engine/Modules/Roll.lua
+module      29  yes      scripts/ReplicatedStorage/Engine/Modules/ToggleUI.lua
+module      35  yes      scripts/ReplicatedStorage/Engine/Modules/Transition.lua
+module     100  yes      scripts/ReplicatedStorage/Engine/Modules/UiModule.lua
+server       4  yes      scripts/ReplicatedStorage/Pets/Demonic Hourglass/Meshes_Best thing i made so far_Cube.009/Script.server.lua
+server       7  yes      scripts/ServerScriptService/Engine/Scripts/Badges[Finish].server.lua
+server       8  yes      scripts/ServerScriptService/Engine/Scripts/CraftSystem.server.lua
+server      28  yes      scripts/ServerScriptService/Engine/Scripts/Data.server.lua
+module      61  yes      scripts/ServerScriptService/Engine/Scripts/Data/DataManager.lua
+module      63  yes      scripts/ServerScriptService/Engine/Scripts/Data/DataManager/ChangeData.lua
+module      34  yes      scripts/ServerScriptService/Engine/Scripts/Data/DataManager/DataTemplate.lua
+module      19  yes      scripts/ServerScriptService/Engine/Scripts/Data/DataManager/Leaderstats.lua
+module    2417  yes      scripts/ServerScriptService/Engine/Scripts/Data/DataManager/ProfileService.lua
+server      19  yes      scripts/ServerScriptService/Engine/Scripts/EpicChest.server.lua
+server      81  yes      scripts/ServerScriptService/Engine/Scripts/LeaderboardHandler.server.lua
+module      46  yes      scripts/ServerScriptService/Engine/Scripts/LeaderboardHandler/Handler.lua
+server      17  yes      scripts/ServerScriptService/Engine/Scripts/MessageHandler.server.lua
+server     190  yes      scripts/ServerScriptService/Engine/Scripts/PetEquip.server.lua
+server      28  yes      scripts/ServerScriptService/Engine/Scripts/PlayerCollisions.server.lua
+server     111  NO       scripts/ServerScriptService/Engine/Scripts/RaceHander.server.lua
+server      75  yes      scripts/ServerScriptService/Engine/Scripts/RollHandler.server.lua
+server     106  yes      scripts/ServerScriptService/Engine/Scripts/TeleportHandler.server.lua
+server      60  yes      scripts/ServerScriptService/QuentySoftShutdown.server.lua
+client      15  yes      scripts/ServerScriptService/QuentySoftShutdown/ClientScript.client.lua
+module     215  yes      scripts/ServerScriptService/QuentySoftShutdown/src/Client/SoftShutdownServiceClient.lua
+module      22  yes      scripts/ServerScriptService/QuentySoftShutdown/src/Client/SoftShutdownTranslator.lua
+module     247  yes      scripts/ServerScriptService/QuentySoftShutdown/src/Client/SoftShutdownUI.lua
+module      37  yes      scripts/ServerScriptService/QuentySoftShutdown/src/Client/SoftShutdownUI.story.lua
+module     164  yes      scripts/ServerScriptService/QuentySoftShutdown/src/Server/SoftShutdownService.lua
+module      12  yes      scripts/ServerScriptService/QuentySoftShutdown/src/Shared/SoftShutdownConstants.lua
+module     117  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/Shared/AttributeUtils.lua
+module     101  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/Shared/AttributeValue.lua
+module      43  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/Shared/RxAttributeUtils.lua
+module     137  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader.lua
+module      17  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/BounceTemplate.lua
+module      66  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/BounceTemplateUtils.lua
+module     167  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/GroupInfoUtils.lua
+module     131  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/LegacyLoader.lua
+module      54  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/Loader.lua
+module      12  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/LoaderConstants.lua
+module     242  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/LoaderUtils.lua
+module     228  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/PackageInfoUtils.lua
+module      81  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/Queue.lua
+module     155  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/ScriptInfoUtils.lua
+module     195  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/StaticLegacyLoader.lua
+module     114  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/Utils.lua
+module     217  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/maid/Shared/Maid.lua
+module      75  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/maid/Shared/MaidTaskUtils.lua
+module     167  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Observable.lua
+module     116  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/ObservableSubscriptionTable.lua
+module    1419  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+module      53  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.spec.lua
+module     217  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Subscription.lua
+module      39  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/cancellabledelay/Shared/cancellableDelay.lua
+module      85  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/Shared/CancelToken.lua
+module     554  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Promise.lua
+module     150  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/PromiseUtils.lua
+module      35  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/PendingPromiseTracker.lua
+module      36  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/PromiseInstanceUtils.lua
+module      35  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/promiseChild.lua
+module      37  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/promisePropertyValue.lua
+module      17  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/promiseWait.lua
+module       9  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/node_modules/@quenty/deferred/Shared/deferred.lua
+module     155  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/signal/Shared/Signal.lua
+module      31  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/signal/Shared/SignalUtils.lua
+module      34  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/symbol/Shared/Symbol.lua
+module     136  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/table/Shared/Set.lua
+module     322  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/table/Shared/Table.lua
+module     103  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/throttle/Shared/ThrottledFunction.lua
+module      32  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/throttle/Shared/throttle.lua
+module      37  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/baseobject/Shared/BaseObject.lua
+module     152  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/basicpane/Client/BasicPane.lua
+module      75  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/basicpane/Client/BasicPaneUtils.lua
+module     907  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Blend/Blend.lua
+module     131  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Blend/BlendDefaultProps.lua
+module     260  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Blend/SpringObject.lua
+module     105  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendChildren.story.lua
+module      50  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendComputePairs.story.lua
+module     124  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendPromise.story.lua
+module      45  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendSingle.story.lua
+module      54  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendSpring.story.lua
+module      54  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendTextbox.story.lua
+module     160  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/acceltween/Shared/AccelTween.lua
+module     293  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/Brio.lua
+module     272  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/BrioUtils.lua
+module      75  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/BrioUtils.spec.lua
+module     715  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/RxBrioUtils.lua
+module     116  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/RxBrioUtils.spec.lua
+module      39  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/contentproviderutils/Client/ContentProviderUtils.lua
+module     344  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/instanceutils/Shared/RxInstanceUtils.lua
+module      23  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/instanceutils/Shared/RxInstanceUtils.spec.lua
+module      98  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/playerthumbnailutils/Shared/PlayerThumbnailUtils.lua
+module     145  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/LinearValue.lua
+module     271  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/Spring.lua
+module      99  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/SpringUtils.lua
+module     175  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/steputils/Shared/StepUtils.lua
+module      37  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/steputils/Shared/onRenderStepFrame.lua
+module      25  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/steputils/Shared/onSteppedFrame.lua
+module     201  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/string/Shared/String.lua
+module      62  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valuebaseutils/Shared/RxValueBaseUtils.lua
+module      92  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valuebaseutils/Shared/ValueBaseUtils.lua
+module     134  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valueobject/Shared/ValueObject.lua
+module      86  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valueobject/Shared/ValueObjectUtils.lua
+module     243  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/clienttranslator/Client/JSONTranslator.lua
+module      64  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/clienttranslator/Client/LocalizationServiceUtils.lua
+module     138  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/clienttranslator/Shared/JsonToLocalizationTable.lua
+module     127  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/clienttranslator/node_modules/@quenty/pseudolocalize/Shared/PseudoLocalize.lua
+module     223  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/DataStore.lua
+module      11  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/Modules/DataStoreDeleteToken.lua
+module     334  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/Modules/DataStoreStage.lua
+module      85  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/Modules/DataStoreWriter.lua
+module     172  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/PlayerDataStoreManager.lua
+module     124  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/PlayerDataStoreService.lua
+module     154  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/datastore/Server/Utility/DataStorePromises.lua
+module     111  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/math/Shared/Math.lua
+module      85  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/GetRemoteEvent.lua
+module      88  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/GetRemoteFunction.lua
+module      48  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseGetRemoteEvent.lua
+module      49  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseGetRemoteFunction.lua
+module      58  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseRemoteEventMixin.lua
+module      59  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseRemoteFunctionMixin.lua
+module      14  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/remoting/Shared/ResourceConstants.lua
+module     275  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/servicebag/Shared/ServiceBag.lua
+module      59  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/teleportserviceutils/Server/TeleportServiceUtils.lua
+module      18  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/uiobjectutils/Client/PlayerGuiUtils.lua
+module      67  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/uiobjectutils/Client/UICornerUtils.lua
+module      36  yes      scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/uiobjectutils/Client/UIPaddingUtils.lua
+client      18  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/Scripts/AntiAfk.client.lua
+client       9  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/Scripts/Controlls.client.lua
+client      17  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/Scripts/VerifySpin.client.lua
+client       9  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/Scripts/chest.client.lua
+client     102  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/ButtonAnimations.client.lua
+client      61  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Codes.client.lua
+client       3  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/DisplayMessage.client.lua
+client     126  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Gift.client.lua
+client      18  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Luck.client.lua
+client      49  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/PetSystem.client.lua
+client     275  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/RollHandler.client.lua
+client     155  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Settings.client.lua
+client      43  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Shop.client.lua
+client      55  yes      scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Tutorial.client.lua
+server      20  yes      scripts/Workspace/Boards/AssetLoader.server.lua
+module      89  yes      scripts/Workspace/Boards/Products.lua
+server     280  NO       scripts/Workspace/Boards/R15Loader/Animation/List of Animations.server.lua
+server      10  yes      scripts/Workspace/Boards/R15Loader/AnimationLoader.server.lua
+server       1  yes      scripts/Workspace/Boards/R15Loader/For_The_NameTag/AnchorScript.server.lua   (same source as scripts/Workspace/Boards/R15Loader/HumanoidRootPart/AnchorScript.server.lua)
+server       1  yes      scripts/Workspace/Boards/R15Loader/HumanoidRootPart/AnchorScript.server.lua
+server      22  yes      scripts/Workspace/Boards/R15Loader/Loader.server.lua
+module       7  yes      scripts/Workspace/Boards/R15Loader/Loader/MainModule.lua
+server      13  yes      scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua
+server      21  NO       scripts/Workspace/Boards/README.server.lua
+server      20  yes      scripts/Workspace/Boards~2/AssetLoader.server.lua   (same source as scripts/Workspace/Boards/AssetLoader.server.lua)
+module      89  yes      scripts/Workspace/Boards~2/Products.lua   (same source as scripts/Workspace/Boards/Products.lua)
+server     280  NO       scripts/Workspace/Boards~2/R15Loader/Animation/List of Animations.server.lua   (same source as scripts/Workspace/Boards/R15Loader/Animation/List of Animations.server.lua)
+server      10  yes      scripts/Workspace/Boards~2/R15Loader/AnimationLoader.server.lua   (same source as scripts/Workspace/Boards/R15Loader/AnimationLoader.server.lua)
+server       1  yes      scripts/Workspace/Boards~2/R15Loader/For_The_NameTag/AnchorScript.server.lua   (same source as scripts/Workspace/Boards/R15Loader/HumanoidRootPart/AnchorScript.server.lua)
+server       1  yes      scripts/Workspace/Boards~2/R15Loader/HumanoidRootPart/AnchorScript.server.lua   (same source as scripts/Workspace/Boards/R15Loader/HumanoidRootPart/AnchorScript.server.lua)
+server      22  yes      scripts/Workspace/Boards~2/R15Loader/Loader.server.lua   (same source as scripts/Workspace/Boards/R15Loader/Loader.server.lua)
+module       7  yes      scripts/Workspace/Boards~2/R15Loader/Loader/MainModule.lua   (same source as scripts/Workspace/Boards/R15Loader/Loader/MainModule.lua)
+server      13  yes      scripts/Workspace/Boards~2/R15Loader/Tags/Container/pName/Script.server.lua   (same source as scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua)
+server      21  NO       scripts/Workspace/Boards~2/README.server.lua   (same source as scripts/Workspace/Boards/README.server.lua)
+server      27  yes      scripts/Workspace/Main Map/Index/Index/Hitbox/Interactions.server.lua
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~10/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~11/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~12/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~13/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~14/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~15/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~2/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~3/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~4/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~5/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~6/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~7/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~8/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      23  yes      scripts/Workspace/Main Map/Miscellaneous/Water~9/Meshes_olo grubas (1)/Script.server.lua   (same source as scripts/Workspace/Main Map/Miscellaneous/Water/Meshes_olo grubas (1)/Script.server.lua)
+server      17  yes      scripts/Workspace/Part~191/Script.server.lua
+server      17  yes      scripts/Workspace/Part~21/Script.server.lua
+server      17  yes      scripts/Workspace/Part~3/Script.server.lua
+server     259  yes      scripts/Workspace/R6/Animate.server.lua
+client     804  yes      scripts/Workspace/Rig/Animate.client.lua

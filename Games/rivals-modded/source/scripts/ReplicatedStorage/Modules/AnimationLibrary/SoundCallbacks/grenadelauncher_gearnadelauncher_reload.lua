@@ -1,0 +1,24 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiled with Potassium's decompiler.
+
+return function(p1, p2, p3) -- Line: 1
+    if not p1:_AnimationWait(script.Name, p3, 0.45 / p2) then
+        return;
+    end;
+
+    p1:CreateSound("rbxassetid://132649078390815", 0.75, 1, true, 10);
+
+    if not p1:_AnimationWait(script.Name, p3, 1.3 / p2) then
+        return;
+    end;
+
+    p1:CreateSound("rbxassetid://17274798406", 0.75, 1, true, 10);
+    p1:CreateSound("rbxassetid://78941078184430", 0.75, 1, true, 10);
+
+    if not p1:_AnimationWait(script.Name, p3, 0.6 / p2) then
+        return;
+    end;
+
+    p1:CreateSound("rbxassetid://130327989934666", 1.25, 1, true, 10);
+end;

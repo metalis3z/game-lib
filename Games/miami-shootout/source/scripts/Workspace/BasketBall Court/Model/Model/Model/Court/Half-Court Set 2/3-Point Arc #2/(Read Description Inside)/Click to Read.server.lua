@@ -1,0 +1,2 @@
+--This is the inner 3-point arc paint that some NBA courts may have.
+--Remove if it is not needed, otherwise, change the transparency to "0" to make it visible.

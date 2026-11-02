@@ -1,0 +1,358 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.Main  (22 descendants)
+ScreenGui "Main"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  ImageLabel "CD"  size={0.0451,0},{0.0419,0}  pos={0.346,0},{0.009,0}  HIDDEN  nobg  img=rbxassetid://3570695787  imgcol=#2b2b2b  imgT=0.3
+    TextLabel "TextLabel"  size={0.421,0},{0.647,0}  pos={0.438,0},{0.167,0}  nobg  text="3"  font=GothamSSm/700  scaled  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/Main/CD/TextLabel/LocalScript.client.lua
+      UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=20  MinTextSize=1
+    ImageButton "alarm"  size={0.338,0},{0.727,0}  pos={0.1,0},{0.088,0}  nobg  z=2  img=rbxassetid://3926307971
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.24
+  TextLabel "PlayersRemain"  size={0.0272,0},{0.0269,0}  pos={0.634,0},{0.015,0}  HIDDEN  nobg  z=3  text="111"  font=GothamSSm/700  scaled  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/Main/PlayersRemain/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.09
+    UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=20  MinTextSize=1
+  ImageLabel "Frame"  size={0.221,0},{0.041,0}  pos={0.394,0},{0.00978,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2b2d29  imgT=0.3
+    TextLabel "TextLabel"  size={0.934,0},{0.848,0}  pos={0.0327,0},{0.0698,0}  nobg  z=3  text="THE DROP WILL START SOON!"  font=GothamSSm/700  scaled  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/Main/Frame/TextLabel/LocalScript.client.lua
+      UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=20  MinTextSize=1
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=11.2
+  ImageLabel "PL"  size={0.0451,0},{0.0419,0}  pos={0.617,0},{0.009,0}  HIDDEN  nobg  img=rbxassetid://3570695787  imgcol=#2b2b2b  imgT=0.3
+    ImageButton "person"  size={0.337,0},{0.762,0}  pos={0.1,0},{0.087,0}  nobg  z=2  img=rbxassetid://3926307971
+      UICorner "UICorner"  CornerRadius={0,60}
+    TextLabel "TextLabel"  size={0.835,0},{0.962,0}  pos={-0.00759,0},{-3.82e-08,0}  nobg  text=""  font=GothamSSm/700  scaled  tc=#000000
+      LocalScript "LocalScript"  -> scripts/StarterGui/Main/PL/TextLabel/LocalScript.client.lua
+      UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=14  MinTextSize=1
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.24
+
+==== StarterGui.LocalRankHandler  (0 descendants)
+LocalScript "LocalRankHandler"  -> scripts/StarterGui/LocalRankHandler.client.lua
+
+==== StarterGui.SettingsBar  (104 descendants)
+ScreenGui "SettingsBar"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  LocalScript "SoundManager"  -> scripts/StarterGui/SettingsBar/SoundManager.client.lua
+  LocalScript "SoundManager"  -> scripts/StarterGui/SettingsBar/SoundManager~2.client.lua
+  Frame "Bar"  size={0.0454,0},{0.218,0}  pos={0.0293,0},{0.666,0}  anchor=(0.5,0.5)  nobg
+    UIStroke "UIStroke"  Thickness=0  Color=#797979  Transparency=0  ApplyStrokeMode=1
+    UIStroke "UIStroke"  Thickness=2  Color=#191919  Transparency=0  ApplyStrokeMode=0
+    UICorner "UICorner"  CornerRadius={0.05,8}
+    TextButton "SpectateButton"  size={0.845,0},{0.31,0}  pos={0.1,0},{-0.05,0}  bg=#212121  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=3  Color=#a3a3a3  Transparency=0  ApplyStrokeMode=0
+      UICorner "UICorner"  CornerRadius={0.05,8}
+      UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+      TextButton "TextButton"  size={1.08,0},{0.368,0}  pos={-0.01,0},{0.982,0}  nobg  text="SPECTATE"  font=FredokaOne/400  scaled  tc=#b7b7b7
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "EyeIcon"  size={0.909,0},{1.09,0}  pos={0.5,0},{0.504,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://299432427
+      LocalScript "TweenThings"  -> scripts/StarterGui/SettingsBar/Bar/SpectateButton/TweenThings.client.lua
+    TextButton "SettingsButton"  size={0.845,0},{0.31,0}  pos={0.1,0},{-0.5,0}  anchor=(0.025,0.025)  bg=#212121  text=""  font=FredokaOne/400  ts=14  tc=#feffff
+      UICorner "UICorner"  CornerRadius={0.05,8}
+      UIStroke "UIStroke"  Thickness=3  Color=#a3a3a3  Transparency=0  ApplyStrokeMode=0
+      UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+      ImageLabel "ImageLabel"  size={0.82,0},{-0.824,0}  pos={0.12,0},{0.875,0}  anchor=(0.025,0.025)  bg=#212121  img=http://www.roblox.com/asset/?id=14843657409  imgcol=#e8e8e8  imgT=0.3
+        UICorner "UICorner"  CornerRadius={0.05,8}
+      TextButton "TextButton"  size={1.08,0},{0.368,0}  pos={-0.00994,0},{1,0}  nobg  text="SETTINGS"  font=FredokaOne/400  scaled  tc=#b7b7b7
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      LocalScript "TweenThings"  -> scripts/StarterGui/SettingsBar/Bar/SettingsButton/TweenThings.client.lua
+    Frame "SpectateMain"  size={4.66,0},{0.335,0}  pos={8.5,0},{2.5,0}  bg=#212121
+      UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "PlayerName"  size={1,0},{0.987,0}  pos={0,0},{0,0}  nobg  text="Nobody"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=1  Color=#a1a1a1  Transparency=0  ApplyStrokeMode=0
+      TextButton "Previous"  size={0.291,0},{1,0}  pos={-0.332,0},{0,0}  bg=#212121  text="<"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UICorner "UICorner"  CornerRadius={0.05,8}
+        UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+      TextButton "Next"  size={0.291,0},{1,0}  pos={1.04,0},{0,0}  bg=#212121  text=">"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UICorner "UICorner"  CornerRadius={0.05,8}
+    LocalScript "SpectateHandler"  -> scripts/StarterGui/SettingsBar/Bar/SpectateHandler.client.lua
+  Frame "MainFrame"  size={0.479,0},{0.396,0}  pos={0.5,0},{-1.03,0}  anchor=(0.5,0.5)  bg=#212121  z=3
+    Frame "Settings"  size={0.418,0},{0.251,0}  pos={0.31,0},{-0.27,0}  nobg
+      TextButton "TextButton"  size={0.76,0},{0.584,0}  pos={0.098,0},{0.45,0}  bg=#212121  text="Settings"  font=Balthazar/400  scaled  tc=#feffff
+        UICorner "UICorner"  CornerRadius={0.3,8}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+    UICorner "UICorner"  CornerRadius={0.05,8}
+    Frame "MuteMusic"  size={0.391,0},{0.22,0}  pos={0.041,0},{0.064,0}  bg=#282828
+      TextButton "TextButton"  size={0.58,0},{0.61,0}  pos={0.02,0},{0.195,0}  nobg  text="Mute Music"  font=Balthazar/400  ts=25  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      UICorner "UICorner"  CornerRadius={0.3,8}
+      TextButton "On-Off"  size={0.388,0},{0.605,0}  pos={0.57,0},{0.2,0}  bg=#212121  text="Off"  font=Balthazar/400  ts=35  tc=#ffffff
+        LocalScript "LocalScript"  -> scripts/StarterGui/SettingsBar/MainFrame/MuteMusic/On-Off/LocalScript.client.lua
+        UICorner "UICorner"  CornerRadius={0.02,8}
+    Frame "HidePlayers"  size={0.391,0},{0.22,0}  pos={0.567,0},{0.368,0}  bg=#282828
+      UICorner "UICorner"  CornerRadius={0.3,8}
+      ImageButton "ImageButton"  size={-0.442,0},{0.921,0}  pos={1,0},{-4.02e-07,0}  nobg  img=rbxassetid://7992557358  imgcol=#fdfdfd  imgT=1
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      TextButton "TextButton"  size={0.538,0},{0.605,0}  pos={0.02,0},{0.2,0}  nobg  text="Hide Players"  font=Balthazar/400  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      TextButton "On-Off"  size={0.388,0},{0.605,0}  pos={0.57,0},{0.2,0}  bg=#212121  text="Off"  font=Balthazar/400  ts=35  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+        LocalScript "LocalScript"  -> scripts/StarterGui/SettingsBar/MainFrame/HidePlayers/On-Off/LocalScript.client.lua
+    Frame "LowPerformance"  size={0.391,0},{0.22,0}  pos={0.567,0},{0.063,0}  bg=#282828
+      UICorner "UICorner"  CornerRadius={0.3,8}
+      TextButton "TextButton"  size={0.538,0},{0.605,0}  pos={0.02,0},{0.2,0}  nobg  text="LPM"  font=Balthazar/400  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      TextButton "On-Off"  size={0.388,0},{0.605,0}  pos={0.57,0},{0.2,0}  bg=#212121  text="Off"  font=Balthazar/400  ts=35  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+        LocalScript "LocalScript"  -> scripts/StarterGui/SettingsBar/MainFrame/LowPerformance/On-Off/LocalScript.client.lua
+    Frame "MuteBoomboxes"  size={0.391,0},{0.22,0}  pos={0.041,0},{0.368,0}  bg=#282828
+      UICorner "UICorner"  CornerRadius={0.3,8}
+      TextButton "TextButton"  size={0.538,0},{0.605,0}  pos={0.02,0},{0.2,0}  nobg  text="Mute BoomBoxes"  font=Balthazar/400  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      TextButton "On-Off"  size={0.388,0},{0.605,0}  pos={0.57,0},{0.2,0}  bg=#212121  text="Off"  font=Balthazar/400  ts=35  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+        LocalScript "MuteBoomBoxGuiScript"  -> scripts/StarterGui/SettingsBar/MainFrame/MuteBoomboxes/On-Off/MuteBoomBoxGuiScript.client.lua
+    Frame "Split-Bar"  size={0.0157,0},{0.939,0}  pos={0.49,0},{0.031,0}  bg=#464646
+      UICorner "UICorner"  CornerRadius={0,8}
+    ImageLabel "Fade"  size={1,0},{0.405,0}  pos={0.5,0},{0.797,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14840801383  imgcol=#141414  imgT=0.5
+      UICorner "UICorner"  CornerRadius={0.11,8}
+    ImageLabel "Pattern"  size={1,0},{0.4,0}  pos={0.495,0},{0.6,0}  anchor=(0.5,0)  nobg  img=rbxassetid://14841319882  imgcol=#000000  imgT=0.25
+    Frame "Day/Night"  size={0.391,0},{0.22,0}  pos={0.567,0},{0.675,0}  bg=#282828
+      UICorner "UICorner"  CornerRadius={0.3,8}
+      ImageButton "ImageButton"  size={-0.442,0},{0.921,0}  pos={1,0},{-4.02e-07,0}  nobg  img=rbxassetid://7992557358  imgcol=#fdfdfd  imgT=1
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      TextButton "TextButton"  size={0.538,0},{0.605,0}  pos={0.02,0},{0.2,0}  nobg  text="Time"  font=Balthazar/400  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+      TextButton "On-Off"  size={0.388,0},{0.605,0}  pos={0.57,0},{0.2,0}  bg=#212121  text="Day"  font=Balthazar/400  ts=35  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.02,8}
+        LocalScript "LocalScript"  -> scripts/StarterGui/SettingsBar/MainFrame/Day_Night/On-Off/LocalScript.client.lua
+    Frame "FOV"  size={0.391,0},{0.22,0}  pos={0.041,0},{0.675,0}  bg=#282828
+      TextLabel "Text"  size={0.347,0},{0.516,0}  pos={0.0355,0},{0.238,0}  nobg  z=2  text="FOV"  font=GothamSSm/400  scaled  tc=#ffffff
+      Frame "WhiteBar"  size={0.00544,0},{0.706,0}  pos={0.39,0},{0.142,0}  bg=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:1 0.2:0 0.8:0 1:1]
+      Frame "FOVConfig"  size={0.518,0},{0.813,0}  pos={0.455,0},{0.0906,0}  bg=#1e1e1e
+        UICorner "UICorner"  CornerRadius={0.2,8}
+        Frame "SetFOV"  size={0.726,0},{0.364,0}  pos={-0.275,0},{1.22,0}  bg=#2a2a2a  z=2
+          UICorner "UICorner"  CornerRadius={0.25,0}
+          TextButton "Button"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=" "  font=SourceSansPro/300  scaled  tc=#000000
+            LocalScript "Animations"  -> scripts/StarterGui/SettingsBar/MainFrame/FOV/FOVConfig/SetFOV/Button/Animations.client.lua
+            LocalScript "LocalScript"  -> scripts/StarterGui/SettingsBar/MainFrame/FOV/FOVConfig/SetFOV/Button/LocalScript.client.lua
+          TextLabel "Text"  size={0.717,0},{0.542,0}  pos={0.14,0},{0.225,0}  nobg  text="Set FOV"  font=GothamSSm/300  scaled  tc=#ffffff
+          UIGradient "UIGradient"  rot=-90  Color=[0:#cfcfcf 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0]
+          LocalScript "Animations"  -> scripts/StarterGui/SettingsBar/MainFrame/FOV/FOVConfig/SetFOV/Animations.client.lua
+            ImageLabel "Sample"  size={0,0},{0,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=4560909609  imgT=0.6
+        TextBox "FOVSet"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0.3,8}
+
+==== StarterGui.Death  (8 descendants)
+ScreenGui "Death"  Enabled=False  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.3
+    TextLabel "TextLabel"  size={0.147,0},{0.0614,0}  pos={0.427,0},{0.278,0}  nobg  text="KIA"  font=GothamSSm/700  ts=50  tc=#ffffff
+    TextLabel "Random"  size={0.702,0},{0.0356,0}  pos={0.149,0},{0.339,0}  nobg  text="haha death - ed"  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Time"  size={0.147,0},{0.0958,0}  pos={0.427,0},{0.544,0}  nobg  text="20"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "TextLabel"  size={0.147,0},{0.0233,0}  pos={0.427,0},{0.529,0}  nobg  text="RESPAWNING IN"  font=GothamSSm/700  scaled  tc=#ffffff
+  Sound "SoundOld"
+  LocalScript "DeathHandler"  -> scripts/StarterGui/Death/DeathHandler.client.lua
+  Sound "Sound"
+
+==== Workspace.Nihal's Credits Board.SurfaceGui  (26 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    TextLabel "Title"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  text="credits"  font=RobotoMono/400  scaled  tc=#ffffff
+    ScrollingFrame "Credits"  size={1,0},{0.8,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+      Frame "credit1"  size={0.9,0},{0.09,0}  pos={0,0},{0,0}  bg=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.56
+        UIGradient "UIGradient"  rot=90  Color=[0:#000946 1:#080b1d]  Rotation=90  Transparency=[0:0 1:0]
+        UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Player"  size={0.179,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+        Script "Script"  -> scripts/Workspace/Nihal's Credits Board/SurfaceGui/Frame/Credits/credit1/Script.server.lua
+        TextLabel "Info"  size={0.815,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  text="Label"  font=RobotoMono/400  scaled  tc=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.007,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      UIPadding "UIPadding"  PaddingTop={0.007,0}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+      Frame "credit2"  size={0.9,0},{0.09,0}  pos={0,0},{0,0}  bg=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.56
+        UIGradient "UIGradient"  rot=90  Color=[0:#000946 1:#080b1d]  Rotation=90  Transparency=[0:0 1:0]
+        UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Player"  size={0.179,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+        Script "Script"  -> scripts/Workspace/Nihal's Credits Board/SurfaceGui/Frame/Credits/credit2/Script.server.lua
+        TextLabel "Info"  size={0.815,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  text="Label"  font=RobotoMono/400  scaled  tc=#ffffff
+      Frame "credit3"  size={0.9,0},{0.09,0}  pos={0,0},{0,0}  bg=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.56
+        UIGradient "UIGradient"  rot=90  Color=[0:#000946 1:#080b1d]  Rotation=90  Transparency=[0:0 1:0]
+        UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Player"  size={0.179,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+        Script "Script"  -> scripts/Workspace/Nihal's Credits Board/SurfaceGui/Frame/Credits/credit3/Script.server.lua
+        TextLabel "Info"  size={0.815,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  text="Label"  font=RobotoMono/400  scaled  tc=#ffffff
+
+==== Workspace.Park's Donation Board.Boards.DonoLeaderboard.SurfaceGui  (13 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Header"  size={1,0},{0.15,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Title"  size={0.875,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  text="Top Donators"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    Frame "Line"  size={0.95,0},{0.05,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ffffff
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:1 0.25:0 0.75:0 1:1]
+  ScrollingFrame "Scroll"  size={1,0},{0.8,0}  pos={0,0},{0.15,0}  nobg  attrs={"Color": true}
+    UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,5}  PaddingLeft={0,10}  PaddingRight={0,10}
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,5}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+  TextLabel "Update"  size={1,0},{0.045,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="Updating in 1s"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+    UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+  ScrollingFrame "Live"  size={1,0},{0.85,0}  pos={0,0},{0.15,0}  HIDDEN  nobg  attrs={"Color": true}
+    UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,5}  PaddingLeft={0,10}  PaddingRight={0,10}
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,5}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+
+==== Workspace.Park's Donation Board.DonationGui  (101 descendants)
+ScreenGui "DonationGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Announcements"  size={0.293,0},{0.983,0}  pos={0.5,0},{0.017,0}  anchor=(0.5,0)  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      CanvasGroup "CustomTemplate"  size={1,0},{0.226,0}  pos={0.5,0},{0.13,0}  anchor=(0.5,0.5)  bg=#323232  attrs={"MainColor": true}
+        UICorner "UICorner"  CornerRadius={0,16}
+        UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+          UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+        ImageLabel "Avatar"  size={0.188,0},{0.421,0}  pos={0.0375,0},{0.0899,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+          UICorner "UICorner"  CornerRadius={0,8}
+        TextLabel "Message"  size={0.692,0},{0.421,0}  pos={0.27,0},{0.0843,0}  nobg  text="OnlyTwentyCharacters  donated 100 robux!"  font=GothamSSm/900  scaled  tc=#ffffff
+          UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+        TextLabel "CustomMessage"  size={0.925,0},{0.32,0}  pos={0.0375,0},{0.596,0}  nobg  text="hi chat"  font=GothamSSm/900  scaled  tc=#ffffff
+          UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+      CanvasGroup "Template"  size={1,0},{0.133,0}  pos={0.5,0},{0.0842,0}  anchor=(0.5,0.5)  bg=#323232  attrs={"MainColor": true}
+        UICorner "UICorner"  CornerRadius={0,16}
+        UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+          UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+        ImageLabel "Avatar"  size={0.188,0},{0.714,0}  pos={0.0375,0},{0.138,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+          UICorner "UICorner"  CornerRadius={0,8}
+        TextLabel "Message"  size={0.692,0},{0.714,0}  pos={0.27,0},{0.132,0}  nobg  text="OnlyTwentyCharacters  donated 100 robux!"  font=GothamSSm/900  scaled  tc=#ffffff
+          UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.508
+  CanvasGroup "Blacklisted"  size={0.296,0},{0.312,0}  pos={0.5,0},{0.489,0}  anchor=(0.5,0.5)  HIDDEN  bg=#323232  z=999  attrs={"MainColor": true}
+    UICorner "UICorner"  CornerRadius={0,16}
+    UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Title"  size={0.925,0},{0.245,0}  pos={0.0375,0},{0.0273,0}  nobg  text="Blacklist"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Info"  size={0.925,0},{0.539,0}  pos={0.0375,0},{0.272,0}  nobg  z=10101010  text="You are blacklisted, if you think this is a mistake, please ..."  font=GothamSSm/500  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextButton "Close"  size={0.925,0},{0.103,0}  pos={0.0375,0},{0.854,0}  bg=#232323  z=2134345  text=""  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Label"  size={0.405,0},{0.8,0}  pos={0.295,0},{0.1,0}  nobg  text="Close"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.6
+  CanvasGroup "GetBoard"  size={0.296,0},{0.312,0}  pos={0.5,0},{0.489,0}  anchor=(0.5,0.5)  HIDDEN  bg=#323232  z=999  attrs={"MainColor": true}
+    UICorner "UICorner"  CornerRadius={0,16}
+    UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Title"  size={0.925,0},{0.245,0}  pos={0.0375,0},{0.0273,0}  nobg  text="Get Board"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Info"  size={0.925,0},{0.323,0}  pos={0.0375,0},{0.272,0}  nobg  z=10101010  text="If you don't get prompted to get the board, use the url belo..."  font=GothamSSm/500  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextBox "Url"  size={0.925,0},{0.179,0}  pos={0.0375,0},{0.638,0}  bg=#232323  z=1289387  text="https://www.roblox.com/library/14833693547/Parks-Donation-Bo..."  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true, "SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,5}  PaddingLeft={0,5}  PaddingRight={0,5}
+    TextButton "Close"  size={0.925,0},{0.103,0}  pos={0.0375,0},{0.854,0}  bg=#232323  z=2134345  text=""  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Label"  size={0.405,0},{0.8,0}  pos={0.295,0},{0.1,0}  nobg  text="Close"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.6
+  CanvasGroup "PremiumFeatures"  size={0.296,0},{0.312,0}  pos={0.5,0},{0.489,0}  anchor=(0.5,0.5)  HIDDEN  bg=#323232  z=999  attrs={"MainColor": true}
+    UICorner "UICorner"  CornerRadius={0,16}
+    UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Title"  size={0.925,0},{0.189,0}  pos={0.0375,0},{0.0273,0}  nobg  text="Premium Features"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextButton "Close"  size={0.925,0},{0.103,0}  pos={0.0375,0},{0.854,0}  bg=#232323  z=2134345  text=""  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Label"  size={0.405,0},{0.8,0}  pos={0.295,0},{0.1,0}  nobg  text="Close"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.6
+    TextButton "Buy"  size={0.925,0},{0.179,0}  pos={0.0375,0},{0.638,0}  bg=#232323  z=2134345  text=""  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Label"  size={0.405,0},{0.8,0}  pos={0.295,0},{0.1,0}  nobg  text="Buy"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextBox "Info"  size={0.925,0},{0.366,0}  pos={0.0375,0},{0.24,0}  nobg  z=10101010  text="Buying this gamepass will allow you to use premium features ..."  font=GothamSSm/500  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+  Frame "CustomMessage"  size={0.293,0},{0.686,0}  pos={0.5,0},{0.625,0}  anchor=(0.5,0.5)  HIDDEN  bg=#323232  z=999  attrs={"MainColor": true}
+    UICorner "UICorner"  CornerRadius={0,16}
+    UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Title"  size={0.925,0},{0.0909,0}  pos={0.0375,0},{0.0273,0}  nobg  text="Custom Message"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextLabel "Info"  size={0.688,0},{0.6,0}  pos={0.155,0},{0.145,0}  nobg  z=10101010  text="THIS IDEA IS ORIGINAL BY KINQEROS\n\nYou are about to donate..."  font=GothamSSm/500  scaled  tc=#ffffff  attrs={"Font": true}
+      UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextBox "Message"  size={0.925,0},{0.0909,0}  pos={0.0375,0},{0.773,0}  bg=#232323  text=""  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true, "SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,5}  PaddingLeft={0,5}  PaddingRight={0,5}
+    TextButton "Done"  size={0.925,0},{0.0909,0}  pos={0.0375,0},{0.882,0}  bg=#232323  text=""  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"SecondaryColor": true}
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Label"  size={0.405,0},{0.8,0}  pos={0.295,0},{0.1,0}  nobg  text="Done"  font=GothamSSm/900  scaled  tc=#ffffff  attrs={"Font": true}
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.727
+    Frame "Template"  size={1,0},{0.191,0}  pos={0.5,0},{-0.289,0}  anchor=(0.5,0.5)  bg=#323232  z=1000  attrs={"MainColor": true}
+      UICorner "UICorner"  CornerRadius={0,16}
+      UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+      ImageLabel "Avatar"  size={0.188,0},{0.714,0}  pos={0.0375,0},{0.138,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+        UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Message"  size={0.692,0},{0.714,0}  pos={0.27,0},{0.132,0}  nobg  text="OnlyTwentyCharacters  donated 100 robux!"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    Frame "CustomTemplate"  size={1,0},{0.324,0}  pos={0.5,0},{-0.224,0}  anchor=(0.5,0.5)  HIDDEN  bg=#323232  z=1000  attrs={"MainColor": true}
+      UICorner "UICorner"  CornerRadius={0,16}
+      UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+      ImageLabel "Avatar"  size={0.188,0},{0.421,0}  pos={0.0375,0},{0.0899,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+        UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "Message"  size={0.692,0},{0.421,0}  pos={0.27,0},{0.0843,0}  nobg  text="OnlyTwentyCharacters  donated 100 robux!"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+      TextLabel "CustomMessage"  size={0.925,0},{0.32,0}  pos={0.0375,0},{0.596,0}  nobg  text="hi chat"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "Theme"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+
+==== ServerScriptService.Overhead.PlayerDisplay  (10 descendants)
+BillboardGui "PlayerDisplay"  size={5,0},{1.75,0}  Enabled=True  Size={5,0},{1.75,0}  StudsOffset=(0,2,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    TextLabel "RankDisplay"  size={1,0},{0.35,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  text="Unknown Rank"  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "Badges"  size={1,0},{0.3,0}  pos={0.5,0},{0.0001,0}  anchor=(0.5,1)  nobg
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageLabel "Booster"  size={0.12,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=6455437156
+      ImageLabel "DevForum"  size={0.12,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=6455451490
+      ImageLabel "Developer"  size={0.12,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=6455502439
+      ImageLabel "Admin"  size={0.12,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=6455511791
+    TextLabel "NameDisplay"  size={1,0},{0.35,0}  pos={0.5,0},{0.65,0}  anchor=(0.5,1)  nobg  text="Unknown User"  font=SourceSansPro/700  scaled  tc=#ffffff
+    TextLabel "VIPDisplay"  size={1,0},{0.3,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  HIDDEN  nobg  text="VIP | SUPER | MEGA | ULTRA"  font=SourceSansPro/600  scaled  tc=#ffffff
+
+==== ServerScriptService.HelpSystem.HelpRequests  (43 descendants)
+ScreenGui "HelpRequests"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+    Frame "Buttons"  size={0.0733,0},{0.371,0}  pos={0.004,0},{0.992,0}  anchor=(0,1)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      TextButton "Help"  size={1,0},{0.111,0}  pos={0.5,0},{0.805,0}  anchor=(0.5,0.5)  bg=#282828  text=""  font=SourceSansPro/600  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={1,0}
+        TextButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.35,0}  anchor=(0.5,0.5)  bg=#414141  text="HELP"  font=GothamSSm/700  scaled  tc=#ffffff
+          UICorner "UICorner"  CornerRadius={1,0}
+          UIPadding "UIPadding"  PaddingTop={0.175,0}  PaddingBottom={0.175,0}  PaddingLeft={0.175,0}  PaddingRight={0.175,0}
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.429
+    Frame "Container"  size={0.465,0},{0.543,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      UICorner "UICorner"  CornerRadius={0.075,0}
+      Frame "Header"  size={1,0},{0.323,0}  pos={0.5,0},{0.16,0}  anchor=(0.5,0.5)  nobg  z=2
+        UICorner "UICorner"  CornerRadius={0.25,0}
+        Frame "Frame"  size={1,0},{0.384,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+        TextLabel "TextLabel"  size={0.808,0},{0.33,0}  pos={0.452,0},{0.39,0}  anchor=(0.5,0.5)  nobg  text="SUBMIT A HELP REQUEST"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "Title"  size={0.808,0},{0.225,0}  pos={0.452,0},{0.653,0}  anchor=(0.5,0.5)  nobg  text="Need assistance? Submit a request here!"  font=SourceSansPro/600  scaled  tc=#ffffff
+      Frame "Screens"  size={1,0},{0.678,0}  pos={0.5,0},{0.661,0}  anchor=(0.5,0.5)  nobg  z=2
+        Frame "Submission"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          TextBox "TextBox"  size={0.93,0},{0.611,0}  pos={0.5,0},{0.381,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0.075,0}
+            UIPadding "UIPadding"  PaddingTop={0.1,0}  PaddingBottom={0.1,0}  PaddingLeft={0.05,0}  PaddingRight={0.05,0}
+          TextButton "Submit"  size={0.451,0},{0.143,0}  pos={0.259,0},{0.848,0}  anchor=(0.5,0.5)  nobg  text="SUBMIT"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={1,0}
+          TextButton "Cancel"  size={0.451,0},{0.143,0}  pos={0.738,0},{0.848,0}  anchor=(0.5,0.5)  nobg  text="CANCEL"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={1,0}
+        Frame "Success"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg  z=2
+          TextButton "Cancel"  size={0.928,0},{0.143,0}  pos={0.499,0},{0.848,0}  anchor=(0.5,0.5)  nobg  text="CLOSE"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={1,0}
+          TextLabel "TextLabel"  size={0.93,0},{0.611,0}  pos={0.5,0},{0.381,0}  anchor=(0.5,0.5)  nobg  text="<b><font color='#03dac6'>SUCCESS!</font></b> \nYour help req..."  font=SourceSansPro/400  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0.075,0}
+            UIPadding "UIPadding"  PaddingTop={0.1,0}  PaddingBottom={0.1,0}  PaddingLeft={0.05,0}  PaddingRight={0.05,0}
+          UICorner "UICorner"  CornerRadius={0.11,0}
+        Frame "Error"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg  z=2
+          TextButton "Cancel"  size={0.928,0},{0.143,0}  pos={0.499,0},{0.848,0}  anchor=(0.5,0.5)  nobg  text="CLOSE"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={1,0}
+          TextLabel "TextLabel"  size={0.93,0},{0.611,0}  pos={0.5,0},{0.381,0}  anchor=(0.5,0.5)  nobg  text="You are currently on cooldown!"  font=SourceSansPro/400  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0.075,0}
+            UIPadding "UIPadding"  PaddingTop={0.1,0}  PaddingBottom={0.1,0}  PaddingLeft={0.05,0}  PaddingRight={0.05,0}
+          UICorner "UICorner"  CornerRadius={0.11,0}
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.86
+  LocalScript "Core"  -> scripts/ServerScriptService/HelpSystem/HelpRequests/Core.client.lua
+  Folder "Modules"
+    ModuleScript "Tween"  -> scripts/ServerScriptService/HelpSystem/HelpRequests/Modules/Tween.lua
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 4 copies

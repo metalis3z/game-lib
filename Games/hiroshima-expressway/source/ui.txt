@@ -1,0 +1,2666 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.SpectateGui  (6 descendants)
+ScreenGui "SpectateGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Bar"  size={0,200},{0,50}  pos={-1,-100},{0.88,-50}  bg=#000000@0.2
+    TextButton "Previous"  size={0.25,0},{1,0}  pos={0,0},{0,0}  bg=#868686  text="<"  font=SourceSansPro/400  ts=48  tc=#ffffff
+    TextButton "Next"  size={-0.25,0},{1,0}  pos={1,0},{0,0}  bg=#868686  text=">"  font=SourceSansPro/400  ts=48  tc=#ffffff
+    TextLabel "Title"  size={0.45,0},{1,0}  pos={0.275,0},{0,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+  ImageButton "Button"  size={0,50},{0,50}  pos={0,0},{0.5,-25}  bg=#ffffff@0.3  img=http://www.roblox.com/asset/?id=176106970
+  LocalScript "LocalScript"  -> scripts/StarterGui/SpectateGui/LocalScript.client.lua
+
+==== StarterGui.SpawnerGui  (59 descendants)
+ScreenGui "SpawnerGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  LocalScript "SpawnerClient"  -> scripts/StarterGui/SpawnerGui/SpawnerClient.client.lua
+    ModuleScript "MouseOverModule"  -> scripts/StarterGui/SpawnerGui/SpawnerClient/MouseOverModule.lua
+  Frame "Window"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000
+    UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#ffffff]  Rotation=60  Transparency=[0:0 0.401:0.113 0.737:0.188 1:0.219]
+    UICorner "UICorner"
+    TextLabel "Title"  size={0.25,0},{0,50}  pos={0,50},{0,25}  nobg  text="SPAWNER"  font=GothamSSm/700  scaled  tc=#ffffff
+      UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=40  MinTextSize=10
+    ScrollingFrame "List"  size={1,0},{1,-100}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  nobg
+      TextButton "Template"  size={0.95,0},{0,125}  pos={0.5,0},{0,0}  anchor=(0.5,0)  HIDDEN  bg=#323232  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ViewportFrame "ViewportFrame"  size={0,200},{1,0}  pos={0,25},{0,0}  nobg  Ambient=#ffffff  LightColor=#000000
+        TextLabel "VehicleName"  size={1,-300},{0.5,0}  pos={1,-25},{0.5,0}  anchor=(1,0.5)  nobg  text="1999 AQBCAS (FD154)"  font=GothamSSm/700  scaled  tc=#ffffff
+          UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=50  MinTextSize=1
+        UICorner "UICorner"
+        Frame "Border"  size={0,1},{0.9,0}  pos={0,250},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#7d7d7d]  Rotation=90  Transparency=[0:0 1:0]
+      Frame "CategoryHeader"  size={1,0},{0,75}  pos={0,0},{0,0}  HIDDEN  nobg
+        TextLabel "TextLabel"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  text="CATEGORY_NAME"  font=GothamSSm/700  ts=25  tc=#ffffff
+        Frame "RightBorder"  size={0.2,0},{0,1}  pos={0.95,0},{0.5,0}  anchor=(1,0.5)  bg=#ffffff
+        Frame "LeftBorder"  size={0.2,0},{0,1}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+    Frame "Cooldown"  size={0.1,0},{0,50}  pos={0.25,50},{0.0746,0}  anchor=(0,0.5)  HIDDEN  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "Flash"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ff7f00  z=0
+        UICorner "UICorner"
+      ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://9901920982
+      Frame "Frame2"  size={0.5,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg
+        ImageLabel "ImageLabel"  size={2,0},{1,0}  pos={-1,0},{0,0}  nobg  img=rbxassetid://3587367081
+          UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 0.5:0 0.501:1 1:1]
+      Frame "Frame1"  size={0.5,0},{1,0}  pos={0,0},{0,0}  nobg
+        ImageLabel "ImageLabel"  size={2,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://3587367081
+          UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 0.5:0 0.501:1 1:1]
+    ImageLabel "FortuneLogo"  size={0,50},{0,50}  pos={1,-50},{0,25}  anchor=(1,0)  nobg  img=rbxassetid://8037604757
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ScrollingFrame "Grid"  size={1,0},{1,-100}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  nobg
+      TextButton "Template"  size={0.25,-100},{0,150}  pos={0,50},{0,0}  HIDDEN  bg=#323232  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ViewportFrame "ViewportFrame"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  Ambient=#ffffff  LightColor=#000000
+        TextLabel "VehicleName"  size={0.75,0},{0.15,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,1)  nobg  text="1999 AQBCAS (FD154)"  font=GothamSSm/700  scaled  tc=#ffffff
+          UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=50  MinTextSize=1
+        Frame "Border"  size={0.9,0},{0,1}  pos={0.5,0},{0.8,0}  anchor=(0.5,1)  bg=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#7d7d7d]  Rotation=90  Transparency=[0:0 1:0]
+        UICorner "UICorner"
+      Frame "CategoryHeader"  size={1,0},{0,75}  pos={0,0},{0,0}  HIDDEN  nobg
+        TextLabel "TextLabel"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  text="CATEGORY_NAME"  font=GothamSSm/700  ts=25  tc=#ffffff
+        Frame "RightBorder"  size={0.2,0},{0,1}  pos={0.95,0},{0.5,0}  anchor=(1,0.5)  bg=#ffffff
+        Frame "LeftBorder"  size={0.2,0},{0,1}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+    Frame "Sort"  size={0,100},{0,50}  pos={1,-150},{0,25}  anchor=(1,0)  nobg
+      Frame "Grid"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  nobg
+        TextButton "Button"  size={2,0},{1,0}  pos={-1,0},{0,0}  bg=#323232  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          UICorner "UICorner"
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#7d7d7d]  Rotation=90  Transparency=[0:0 1:0]
+          ImageLabel "ImageLabel"  size={0.5,0},{0.65,0}  pos={0.75,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://89587005204514
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "List"  size={0.5,0},{1,0}  pos={0,0},{0,0}  nobg
+        TextButton "Button"  size={2,0},{1,0}  pos={0,0},{0,0}  bg=#323232  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#7d7d7d]  Rotation=90  Transparency=[0:0 1:0]
+          ImageLabel "ImageLabel"  size={0.5,0},{0.7,0}  pos={0.25,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://112755708545769
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          UICorner "UICorner"
+    TextLabel "AccessDenied"  size={0.5,0},{0,50}  pos={0.5,0},{0,100}  anchor=(0.5,0)  HIDDEN  bg=#c80000  text="ACCESS DENIED"  font=GothamSSm/700  ts=20  tc=#ffffff
+      UICorner "UICorner"
+
+==== StarterGui.ShadowToggleGUI  (2 descendants)
+ScreenGui "ShadowToggleGUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "ToggleScript"  -> scripts/StarterGui/ShadowToggleGUI/ToggleScript.client.lua
+  TextButton "ToggleButton"  size={0,160},{0,40}  pos={0,0},{0.971,-25}  nobg  text="Shadows: ON"  font=GothamSSm/700  ts=16  tc=#ffffff
+
+==== Workspace.Hiroshima Expressway.!LIGHTS.yesshadowspotlightbright yellow.LIGHT_BRIGHT_YELLOW.001_16_0_32_5.Particle  (1 descendants)
+BillboardGui "Particle"  size={20,10},{20,10}  Enabled=True  Size={20,10},{20,10}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://2038571567  imgcol=#ffbf66
+
+==== Workspace.Hiroshima Expressway.!LIGHTS.yesshadowspotlightbright yellow.LIGHT_BRIGHT_YELLOW.002_16_0_32_5.Particle  (1 descendants)
+BillboardGui "Particle"  size={20,10},{20,10}  Enabled=True  Size={20,10},{20,10}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://2038571567  imgcol=#ffbf66
+
+==== ServerStorage.Vehicles.AE86 (Takumi) (Spec I).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Takumi) (Spec I)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Takumi) (Spec I).A-Chassis Tune.Plugins.CORSA Tire System.STATREMOTE.STATREADER  (17 descendants)
+BillboardGui "STATREADER"  size={20,0},{20,0}  Enabled=False  Size={20,0},{20,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Frame"  size={0.4,0},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#0f0f0f@0.3
+    TextLabel "N"  size={1,0},{0.07,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=3  text="Name: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    ImageLabel "Logo2"  size={0.1,0},{0.08,0}  pos={1,0},{1,0}  anchor=(1,1)  nobg  z=3  img=rbxassetid://1112860376
+    TextLabel "HP"  size={1,0},{0.07,0}  pos={0.5,0},{0.07,0}  anchor=(0.5,0)  nobg  z=3  text="N/A Power: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "FI"  size={1,0},{0.07,0}  pos={0.5,0},{0.14,0}  anchor=(0.5,0)  nobg  z=3  text="Forced Induction: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "PSI"  size={1,0},{0.07,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  z=3  text="Turbo Psi: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "TS"  size={1,0},{0.07,0}  pos={0.5,0},{0.28,0}  anchor=(0.5,0)  nobg  z=3  text="Turbo Size: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "C"  size={1,0},{0.07,0}  pos={0.5,0},{0.35,0}  anchor=(0.5,0)  nobg  z=3  text="Compression: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "W"  size={1,0},{0.07,0}  pos={0.5,0},{0.56,0}  anchor=(0.5,0)  nobg  z=3  text="Weight: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "P2W"  size={1,0},{0.07,0}  pos={0.5,0},{0.49,0}  anchor=(0.5,0)  nobg  z=3  text="P/W Ratio: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "Tires"  size={1,0},{0.07,0}  pos={0.5,0},{0.77,0}  anchor=(0.5,0)  nobg  z=3  text="Tires: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "FD"  size={1,0},{0.07,0}  pos={0.5,0},{0.63,0}  anchor=(0.5,0)  nobg  z=3  text="FDMultiplier: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "IC"  size={1,0},{0.07,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0)  nobg  z=3  text="InclineComp: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "HPB"  size={1,0},{0.07,0}  pos={0.5,0},{0.42,0}  anchor=(0.5,0)  nobg  z=3  text="Boosted Power: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    ImageLabel "Logo1"  size={1,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://1112860376  imgT=0.97
+  LocalScript "statreaderscript"  -> scripts/ServerStorage/Vehicles/AE86 (Takumi) (Spec I)/A-Chassis Tune/Plugins/CORSA Tire System/STATREMOTE/STATREADER/statreaderscript.client.lua  [disabled]
+    ObjectValue "V"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Takumi) (Spec II).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Takumi) (Spec II)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Takumi) (Spec II).A-Chassis Tune.Plugins.CORSA Tire System.STATREMOTE.STATREADER  (17 descendants)
+BillboardGui "STATREADER"  size={20,0},{20,0}  Enabled=False  Size={20,0},{20,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Frame"  size={0.4,0},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#0f0f0f@0.3
+    TextLabel "N"  size={1,0},{0.07,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=3  text="Name: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    ImageLabel "Logo2"  size={0.1,0},{0.08,0}  pos={1,0},{1,0}  anchor=(1,1)  nobg  z=3  img=rbxassetid://1112860376
+    TextLabel "HP"  size={1,0},{0.07,0}  pos={0.5,0},{0.07,0}  anchor=(0.5,0)  nobg  z=3  text="N/A Power: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "FI"  size={1,0},{0.07,0}  pos={0.5,0},{0.14,0}  anchor=(0.5,0)  nobg  z=3  text="Forced Induction: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "PSI"  size={1,0},{0.07,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  z=3  text="Turbo Psi: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "TS"  size={1,0},{0.07,0}  pos={0.5,0},{0.28,0}  anchor=(0.5,0)  nobg  z=3  text="Turbo Size: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "C"  size={1,0},{0.07,0}  pos={0.5,0},{0.35,0}  anchor=(0.5,0)  nobg  z=3  text="Compression: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "W"  size={1,0},{0.07,0}  pos={0.5,0},{0.56,0}  anchor=(0.5,0)  nobg  z=3  text="Weight: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "P2W"  size={1,0},{0.07,0}  pos={0.5,0},{0.49,0}  anchor=(0.5,0)  nobg  z=3  text="P/W Ratio: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "Tires"  size={1,0},{0.07,0}  pos={0.5,0},{0.77,0}  anchor=(0.5,0)  nobg  z=3  text="Tires: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "FD"  size={1,0},{0.07,0}  pos={0.5,0},{0.63,0}  anchor=(0.5,0)  nobg  z=3  text="FDMultiplier: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "IC"  size={1,0},{0.07,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0)  nobg  z=3  text="InclineComp: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    TextLabel "HPB"  size={1,0},{0.07,0}  pos={0.5,0},{0.42,0}  anchor=(0.5,0)  nobg  z=3  text="Boosted Power: Empty"  font=Zekton/400  scaled  tc=#ffffff
+    ImageLabel "Logo1"  size={1,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://1112860376  imgT=0.97
+  LocalScript "statreaderscript"  -> scripts/ServerStorage/Vehicles/AE86 (Takumi) (Spec II)/A-Chassis Tune/Plugins/CORSA Tire System/STATREMOTE/STATREADER/statreaderscript.client.lua  [disabled]
+    ObjectValue "V"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Wataru) (Spec I).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Wataru) (Spec I)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Wataru) (Spec II).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Wataru) (Spec II)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Rally).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Rally)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Shinji).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Shinji)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE86 (Keiichi Tsuchiya).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE86 (Keiichi Tsuchiya)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AE85 (Itsuki).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AE85 (Itsuki)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.ST205 (Miki).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/ST205 (Miki)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.SW20 (Kai).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/SW20 (Kai)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.SXE10 (Nobuhiko).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/SXE10 (Nobuhiko)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.ZZW30 (Kai).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/ZZW30 (Kai)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FC3S (Ryosuke) (Spec I).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FC3S (Ryosuke) (Spec I)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FC3S (Ryosuke) (Spec II).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FC3S (Ryosuke) (Spec II)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FC3S (UnoriginalProtogen).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FC3S (UnoriginalProtogen)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Keisuke) (Spec I).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Keisuke) (Spec I)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Keisuke) (Spec II).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Keisuke) (Spec II)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Keisuke) (Spec III).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Keisuke) (Spec III)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Keisuke) (Spec IV).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Keisuke) (Spec IV)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Kyoko).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Kyoko)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Motsu).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Motsu)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (Pizzamancoming).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (Pizzamancoming)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (R Magic).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (R Magic)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.FD3S (k_boshi).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (k_boshi)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.Fujita Engineering RX-7 Demon King.A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/Fujita Engineering RX-7 Demon King/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.NA6CE (Toru).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/NA6CE (Toru)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.NB6C (Satoshi).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/NB6C (Satoshi)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.25GT Turbo (Atsuro).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/25GT Turbo (Atsuro)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.BNR32 (Rin).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/BNR32 (Rin)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.BNR32 (Takeshi).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/BNR32 (Takeshi)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.BNR34 (Kozo).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/BNR34 (Kozo)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.JZA80 (Hideo).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/JZA80 (Hideo)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.JZA80 (Mochii).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/JZA80 (Mochii)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.RPS13 (Kenji).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/RPS13 (Kenji)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.S13 (Iketani).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/S13 (Iketani)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.S14 (Kenta).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/S14 (Kenta)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.S15 (Hiroya).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/S15 (Hiroya)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.S15 (Two Guys From Tokyo).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/S15 (Two Guys From Tokyo)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.Sileighty (Mako).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/Sileighty (Mako)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.Z33 (Ryuji).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/Z33 (Ryuji)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.AP1 (Toshiya).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/AP1 (Toshiya)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.DC2 (Sakai).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/DC2 (Sakai)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.EG6 (Shingo).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/EG6 (Shingo)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.EK9 (Daiki).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/EK9 (Daiki)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.EK9 (Tomoyuki).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/EK9 (Tomoyuki)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.EK9 (xxxAkioxxx).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/EK9 (xxxAkioxxx)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.J's Racing S2000 Demon King.A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/J's Racing S2000 Demon King/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.NA1 (Gou).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/NA1 (Gou)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.NA1 (focus).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/NA1 (focus)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.CE9A (Kyoichi).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/CE9A (Kyoichi)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.CN9A (Seiji).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/CN9A (Seiji)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.CP9A5 (Aikawa).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/CP9A5 (Aikawa)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.CP9A6 (Ichijo).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/CP9A6 (Ichijo)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.CT9A (Kobayakawa).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/CT9A (Kobayakawa)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.GC8 (Bunta).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/GC8 (Bunta)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.EA11R (sakamoto).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/EA11R (sakamoto)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.Saleen S7 (xxxakioxxx).A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/Saleen S7 (xxxakioxxx)/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+  Folder "Values"
+    NumberValue "TqTurbo"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "Boost"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Throttle"  Value=0
+    NumberValue "TCSAmt"  Value=0
+    BoolValue "TCSActive"  Value=False
+    BoolValue "TCS"  Value=False
+    NumberValue "SteerT"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "RPM"  Value=0
+    BoolValue "PBrake"  Value=False
+    BoolValue "MouseSteerOn"  Value=False
+    Vector3Value "Velocity"  Value=(0,0,0)
+    NumberValue "Clutch"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Gear"  Value=0
+    NumberValue "Brake"  Value=0
+    BoolValue "ABSActive"  Value=False
+    BoolValue "ABS"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "Chassis"  Value=15
+    NumberValue "LastMajorUpdate"  Value=2.1
+  BoolValue "ControlsOpen"  Value=False
+  BoolValue "IsOn"  Value=False
+  ObjectValue "Car"  Value=nil
+
+==== ServerStorage.Vehicles.Amemiya µ Boost up 7.A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "Car"  Value=nil
+  BoolValue "IsOn"  Value=False
+  BoolValue "ControlsOpen"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "LastMajorUpdate"  Value=2.1
+    NumberValue "Chassis"  Value=15
+  Folder "Values"
+    BoolValue "ABS"  Value=False
+    BoolValue "ABSActive"  Value=False
+    NumberValue "Brake"  Value=0
+    NumberValue "Gear"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Clutch"  Value=0
+    Vector3Value "Velocity"  Value=(0,0,0)
+    BoolValue "MouseSteerOn"  Value=False
+    BoolValue "PBrake"  Value=False
+    NumberValue "RPM"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "SteerT"  Value=0
+    BoolValue "TCS"  Value=False
+    BoolValue "TCSActive"  Value=False
+    NumberValue "TCSAmt"  Value=0
+    NumberValue "Throttle"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Boost"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqTurbo"  Value=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/Amemiya µ Boost up 7/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+
+==== ServerStorage.Vehicles.FD3S (k_boshi) [HQ].A-Chassis Tune.A-Chassis Interface  (40 descendants)
+ScreenGui "A-Chassis Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ObjectValue "Car"  Value=nil
+  BoolValue "IsOn"  Value=False
+  BoolValue "ControlsOpen"  Value=False
+  NumberValue "Version"  Value=2
+    NumberValue "LastMajorUpdate"  Value=2.1
+    NumberValue "Chassis"  Value=15
+  Folder "Values"
+    BoolValue "ABS"  Value=False
+    BoolValue "ABSActive"  Value=False
+    NumberValue "Brake"  Value=0
+    NumberValue "Gear"  Value=0
+    BoolValue "AutoClutch"  Value=True
+    NumberValue "Clutch"  Value=0
+    Vector3Value "Velocity"  Value=(0,0,0)
+    BoolValue "MouseSteerOn"  Value=False
+    BoolValue "PBrake"  Value=False
+    NumberValue "RPM"  Value=0
+    NumberValue "SteerC"  Value=0
+    NumberValue "SteerT"  Value=0
+    BoolValue "TCS"  Value=False
+    BoolValue "TCSActive"  Value=False
+    NumberValue "TCSAmt"  Value=0
+    NumberValue "Throttle"  Value=0
+    StringValue "TransmissionMode"  Value=""
+    NumberValue "Boost"  Value=0
+    NumberValue "BoostSuper"  Value=0
+    NumberValue "BoostTurbo"  Value=0
+    NumberValue "Horsepower"  Value=0
+    NumberValue "HpBoosted"  Value=0
+    NumberValue "HpElectric"  Value=0
+    NumberValue "HpNatural"  Value=0
+    NumberValue "HpSuper"  Value=0
+    NumberValue "HpTurbo"  Value=0
+    NumberValue "Torque"  Value=0
+    NumberValue "TqBoosted"  Value=0
+    NumberValue "TqElectric"  Value=0
+    NumberValue "TqNatural"  Value=0
+    NumberValue "TqSuper"  Value=0
+    NumberValue "TqTurbo"  Value=0
+  LocalScript "Drive"  -> scripts/ServerStorage/Vehicles/FD3S (k_boshi) [HQ]/A-Chassis Tune/A-Chassis Interface/Drive.client.lua
+
+==== repeated world GUIs (only the first two were printed)
+BillboardGui "Particle" under Workspace: 3328 copies
+BillboardGui "STATREADER" under ServerStorage: 59 copies

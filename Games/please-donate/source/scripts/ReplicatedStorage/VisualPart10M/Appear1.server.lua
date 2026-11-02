@@ -1,0 +1,11 @@
+local VisualPart = script.Parent
+VisualPart.BillboardGuiAnimation.Frame.RobuxLogo.Size = UDim2.fromScale(0,0)
+VisualPart.BillboardGuiAnimation.Frame.RobuxLogo.Rotation = -180
+VisualPart.BillboardGuiAnimation.Frame.Star.Size = UDim2.fromScale(0,0)
+VisualPart.BillboardGuiAnimation.Frame.Star.Rotation = 0
+VisualPart.BillboardGuiAnimation.Frame.Star.ImageTransparency = 0.7
+VisualPart.BillboardGuiAnimation.Frame.Star.ImageColor3 = Color3.fromRGB(255,255,255)
+VisualPart.BillboardGuiAnimation.Frame.MiddleText.Size = UDim2.fromScale(0,0)
+VisualPart.BillboardGuiAnimation.Frame.TopText.Size = UDim2.fromScale(0,0)
+VisualPart.BillboardGuiAnimation.Frame.BottomText.Size = UDim2.fromScale(0,0)
+VisualPart.BillboardGuiAnimation.Size = UDim2.fromScale(40,40)

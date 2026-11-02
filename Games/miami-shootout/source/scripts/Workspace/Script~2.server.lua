@@ -1,0 +1,1 @@
+game.StarterPlayer.UserEmotesEnabled = false

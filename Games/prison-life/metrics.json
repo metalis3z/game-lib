@@ -1,0 +1,393 @@
+{
+ "slug": "prison-life",
+ "title": "Prison Life",
+ "genre": "roleplay (cops vs prisoners)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 242,
+  "screen_guis": 15,
+  "classes": {
+   "TextLabel": 92,
+   "Frame": 67,
+   "LocalScript": 48,
+   "TextButton": 33,
+   "ImageButton": 25,
+   "Script": 24,
+   "ImageLabel": 20,
+   "ScreenGui": 15,
+   "BoolValue": 12,
+   "ObjectValue": 7,
+   "ScrollingFrame": 5,
+   "StringValue": 4,
+   "SurfaceGui": 4,
+   "BillboardGui": 3,
+   "Folder": 2
+  },
+  "fonts": {
+   "SourceSansPro Regular": 59,
+   "SourceSansPro Bold": 44,
+   "Arial Bold": 14,
+   "Arial Regular": 8
+  },
+  "background_colors": {
+   "#ffffff": 27,
+   "#f0f0f0": 18,
+   "#000000": 11,
+   "#00304f": 8,
+   "#00aaff": 7,
+   "#747474": 7,
+   "#555555": 7,
+   "#004576": 5,
+   "#192632": 4,
+   "#091924": 4,
+   "#006293": 3,
+   "#1b2a35": 3,
+   "#25394b": 2,
+   "#1e1e1e": 2,
+   "#272727": 2,
+   "#ffe44b": 1
+  },
+  "text_colors": {
+   "#ffffff": 73,
+   "#1b2a35": 26,
+   "#000000": 5,
+   "#353535": 4,
+   "#ff0000": 4,
+   "#969696": 2,
+   "#787878": 2,
+   "#f5f5f5": 2,
+   "#ff3737": 1,
+   "#646464": 1
+  },
+  "stroke_colors": {},
+  "image_tints": {
+   "#004887": 4,
+   "#002f5d": 1,
+   "#00ff08": 1
+  },
+  "corner_radius": {},
+  "stroke_thickness": {},
+  "text_size_px": {
+   "18": 24,
+   "24": 19,
+   "14": 15,
+   "36": 5,
+   "48": 3,
+   "25": 1
+  },
+  "text_scaled_share": 0.46,
+  "size_mode": {
+   "offset": 65,
+   "scale": 153,
+   "mixed": 24
+  },
+  "unique_images": 16,
+  "per_100_objects": {
+   "UICorner": 0.0,
+   "UIStroke": 0.0,
+   "UIGradient": 0.0,
+   "UIAspectRatioConstraint": 0.0,
+   "UIListLayout": 0.0,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 8.3,
+   "ImageButton": 10.3,
+   "TextButton": 13.6
+  }
+ },
+ "map": {
+  "instances": 24167,
+  "parts": 9568,
+  "meshparts": 450,
+  "unions": 179,
+  "anchored_share": 0.98,
+  "textures_decals": 293,
+  "surface_appearances": 0,
+  "lights": 239,
+  "emitters": 16,
+  "beams_trails": 0,
+  "sounds": 39,
+  "prompts": 0,
+  "world_guis": 207,
+  "humanoids": 3,
+  "materials": {
+   "Plastic": 2342,
+   "SmoothPlastic": 2295,
+   "Metal": 1780,
+   "Concrete": 828,
+   "Wood": 636,
+   "Slate": 548,
+   "Grass": 498,
+   "DiamondPlate": 279,
+   "WoodPlanks": 166,
+   "Brick": 94,
+   "Foil": 29,
+   "Fabric": 14
+  },
+  "part_colors": {
+   "#a3a2a5": 1946,
+   "#1b2a35": 1281,
+   "#635f62": 832,
+   "#f8f8f8": 545,
+   "#e5e4df": 505,
+   "#c4281c": 481,
+   "#4b974b": 463,
+   "#cdcdcd": 322,
+   "#27462d": 293,
+   "#cacbd1": 273,
+   "#f2f3f3": 225,
+   "#6c584b": 193,
+   "#694028": 178,
+   "#111111": 136
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Prison_spawn",
+    "parts": 64,
+    "instances": 106,
+    "meshparts": 0,
+    "emitters": 0,
+    "lights": 0,
+    "guis": 0,
+    "sounds": 0,
+    "size": [
+     232,
+     17,
+     292
+    ]
+   }
+  ],
+  "extent_studs": [
+   2126,
+   161,
+   1978
+  ],
+  "extent_all_studs": [
+   4957,
+   529,
+   3399
+  ],
+  "top_classes": {
+   "Part": 7446,
+   "ObjectValue": 6949,
+   "SpecialMesh": 1505,
+   "WedgePart": 1263,
+   "Model": 1144,
+   "Script": 968,
+   "BlockMesh": 853,
+   "Weld": 540,
+   "MeshPart": 450,
+   "Vector3Value": 422,
+   "CylinderMesh": 246,
+   "TextLabel": 212,
+   "ClickDetector": 187,
+   "UnionOperation": 179,
+   "ImageLabel": 175
+  }
+ },
+ "lighting": {
+  "Ambient": "#6d6d6d",
+  "Brightness": 2.9801,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#87b8d6",
+  "FogEnd": 1400.0,
+  "FogStart": 800.0,
+  "GeographicLatitude": 40.0,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#dedede",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "Voxel",
+  "TimeOfDay": "12:00:00",
+  "@attributes": {
+   "RBX_BackupBrightness": 1.5,
+   "RBX_BackupExposureCompensation": 0.0,
+   "RBX_LightingCompatibilityMigrated": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=150553096",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=150553062",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=150553119",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=150553049",
+    "SkyboxRt": "http://www.roblox.com/asset/?id=150553079",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=150553131",
+    "StarCount": 1334,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "ColorGradingEffect",
+   "name": "ColorGrading",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorGrading",
+    "TonemapperPreset": 1
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 0.95
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": false,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 15,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "model": 445,
+  "model-set": 23,
+  "animations": 5,
+  "audio": 3,
+  "other": 6
+ },
+ "coverage": {
+  "instances": 32728,
+  "packed": 32629,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 42,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 58,
+ "sound_ids": 193,
+ "files": 427,
+ "kb": 5784,
+ "category": "Roleplay",
+ "source_file": "prisonlife.rbxl"
+}

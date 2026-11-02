@@ -1,0 +1,15 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/Boards/AssetLoader.server.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Boards/R15Loader/Loader.server.lua lines 8
+       require() of an asset id: loads code from the Creator Store at runtime
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1363345447  in scripts/Workspace/Boards/Products.lua
+  1363345448  in scripts/Workspace/Boards/Products.lua
+  1363345450  in scripts/Workspace/Boards/Products.lua
+  1363345452  in scripts/Workspace/Boards/Products.lua
+
+Outside URLs in code:
+  http://en.wikipedia.org/wiki/Trajectory_of_a_projectile  in scripts/ReplicatedStorage/Weapons/Medkit/Slingshot.server.lua

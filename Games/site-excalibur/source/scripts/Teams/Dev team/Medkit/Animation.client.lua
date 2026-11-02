@@ -1,0 +1,7 @@
+script.Parent.Equipped:Connect(function(Mouse)
+	Mouse.Button1Down:Connect(function()
+		local animation = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(script.Parent.Heal)
+		animation:Play()
+		animation:AdjustSpeed(0.4)
+	end)
+end)

@@ -1,0 +1,8 @@
+-- before using this plz read this
+-- 1. put any audio ID in
+-- 2. do not delete workscript if you do delete it it wont work
+-- 3. you can put the sound in workspace for everyone to here it
+-- 4. its going to have weld to it so it can stick or delete the weld and put smooth, smooth without outlines, glue, weld, stud, inlet, universal, hing, and moter
+-- now you are allowed to delete ReadMePlease
+-- thanks for reading this ;)
+-- gamdude123

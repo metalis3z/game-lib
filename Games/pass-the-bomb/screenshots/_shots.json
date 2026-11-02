@@ -1,0 +1,71 @@
+{
+ "viewport": "1215.19995, 708.799988",
+ "slug": "pass-the-bomb",
+ "shots": [
+  {
+   "panel": "Blacklisted",
+   "file": "01_DonationGui__Blacklisted",
+   "gui": "DonationGui"
+  },
+  {
+   "panel": "GetBoard",
+   "file": "02_DonationGui__GetBoard",
+   "gui": "DonationGui"
+  },
+  {
+   "panel": "PremiumFeatures",
+   "file": "03_DonationGui__PremiumFeatures",
+   "gui": "DonationGui"
+  },
+  {
+   "panel": "CustomMessage",
+   "file": "04_DonationGui__CustomMessage",
+   "gui": "DonationGui"
+  },
+  {
+   "panel": "",
+   "file": "05_Main",
+   "template": false,
+   "gui": "Main"
+  },
+  {
+   "panel": "",
+   "file": "06_SettingsBar",
+   "template": false,
+   "gui": "SettingsBar"
+  },
+  {
+   "panel": "MainFrame",
+   "file": "07_SettingsBar__MainFrame",
+   "gui": "SettingsBar"
+  },
+  {
+   "panel": "",
+   "file": "08_Death",
+   "template": false,
+   "gui": "Death"
+  },
+  {
+   "panel": "",
+   "file": "09_RequestsFrame",
+   "template": true,
+   "gui": "RequestsFrame"
+  },
+  {
+   "panel": "",
+   "file": "10_HelpRequests",
+   "template": false,
+   "gui": "HelpRequests"
+  },
+  {
+   "panel": "Frame.Container.Header",
+   "file": "11_HelpRequests__Header",
+   "gui": "HelpRequests"
+  },
+  {
+   "panel": "Frame.Container.Screens",
+   "file": "12_HelpRequests__Screens",
+   "gui": "HelpRequests"
+  }
+ ]
+}

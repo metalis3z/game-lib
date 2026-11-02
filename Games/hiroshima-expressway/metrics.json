@@ -1,0 +1,349 @@
+{
+ "slug": "hiroshima-expressway",
+ "title": "Hiroshima Expressway",
+ "genre": "map / driving (Japanese expressway)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 42,
+  "screen_guis": 3,
+  "classes": {
+   "Frame": 17,
+   "TextButton": 7,
+   "TextLabel": 7,
+   "UIGradient": 7,
+   "UICorner": 7,
+   "ImageLabel": 6,
+   "UIAspectRatioConstraint": 4,
+   "ScreenGui": 3,
+   "LocalScript": 3,
+   "UITextSizeConstraint": 3,
+   "ScrollingFrame": 2,
+   "ViewportFrame": 2,
+   "ImageButton": 1,
+   "ModuleScript": 1
+  },
+  "fonts": {
+   "SourceSansPro Regular": 7,
+   "GothamSSm Bold": 7
+  },
+  "background_colors": {
+   "#ffffff": 7,
+   "#323232": 4,
+   "#000000": 2,
+   "#868686": 2,
+   "#ff7f00": 1,
+   "#c80000": 1
+  },
+  "text_colors": {
+   "#ffffff": 10,
+   "#000000": 4
+  },
+  "stroke_colors": {},
+  "image_tints": {},
+  "corner_radius": {
+   "{0.0,8}": 7
+  },
+  "stroke_thickness": {},
+  "text_size_px": {
+   "14": 4,
+   "48": 2,
+   "25": 2,
+   "20": 1,
+   "16": 1
+  },
+  "text_scaled_share": 0.29,
+  "size_mode": {
+   "offset": 5,
+   "scale": 20,
+   "mixed": 17
+  },
+  "unique_images": 6,
+  "per_100_objects": {
+   "UICorner": 16.7,
+   "UIStroke": 0.0,
+   "UIGradient": 16.7,
+   "UIAspectRatioConstraint": 9.5,
+   "UIListLayout": 0.0,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 7.1,
+   "ImageLabel": 14.3,
+   "ImageButton": 2.4,
+   "TextButton": 16.7
+  }
+ },
+ "map": {
+  "instances": 345740,
+  "parts": 327955,
+  "meshparts": 5235,
+  "unions": 0,
+  "anchored_share": 1.0,
+  "textures_decals": 26,
+  "surface_appearances": 1890,
+  "lights": 3390,
+  "emitters": 0,
+  "beams_trails": 1819,
+  "sounds": 7,
+  "prompts": 0,
+  "world_guis": 3328,
+  "humanoids": 0,
+  "materials": {
+   "Ground": 258491,
+   "Concrete": 64190,
+   "Plastic": 5204,
+   "Neon": 37,
+   "ForceField": 24,
+   "Fabric": 6,
+   "Glass": 2,
+   "Metal": 1
+  },
+  "part_colors": {
+   "#a3a2a5": 327882,
+   "#404040": 41,
+   "#ffffff": 10,
+   "#ffa220": 8,
+   "#002060": 8,
+   "#635f62": 4,
+   "#a50000": 2
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   8932,
+   134,
+   11768
+  ],
+  "extent_all_studs": [
+   16442,
+   2088,
+   17443
+  ],
+  "top_classes": {
+   "WedgePart": 322308,
+   "MeshPart": 5235,
+   "Attachment": 3638,
+   "BillboardGui": 3328,
+   "ImageLabel": 3328,
+   "SpotLight": 2667,
+   "SurfaceAppearance": 1890,
+   "Beam": 1819,
+   "SurfaceLight": 506,
+   "Part": 411,
+   "Model": 321,
+   "PointLight": 217,
+   "SpecialMesh": 30,
+   "Texture": 22,
+   "Sound": 7
+  }
+ },
+ "lighting": {
+  "Ambient": "#4f5261",
+  "Brightness": 0.1,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#353741",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 25.0,
+  "GlobalShadows": false,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#4f5261",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.0,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "12:00:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Sky",
+   "name": "Zaibatsu_Night",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 0.0,
+    "MoonTextureId": "",
+    "Name": "Zaibatsu_Night",
+    "SkyboxBk": "rbxassetid://4932314971",
+    "SkyboxDn": "rbxassetid://4932328466",
+    "SkyboxFt": "rbxassetid://4932330866",
+    "SkyboxLf": "rbxassetid://4932332041",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://4932345845",
+    "SkyboxUp": "rbxassetid://4932346224",
+    "StarCount": 0,
+    "SunAngularSize": 7.0,
+    "SunTextureId": "rbxassetid://106593226257469"
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#ffffff",
+    "Decay": "#5a6571",
+    "DefinesCapabilities": false,
+    "Density": 0.0,
+    "Glare": 10.0,
+    "Haze": 1.0,
+    "Name": "Atmosphere",
+    "Offset": 0.0
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 555.0,
+    "Threshold": 1.9
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "\u0001\u0000\u0000\u0000\u0015\u0000\u0000\u0000\u0002\u0000\u0000\u0000o~>\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000XYV \u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000���0\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000�aIP\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000�˧\u0010\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000��l\u0010\u0002\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000cdf�\u0003\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000���\u0010\u0006\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000���0\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000�|_�\u0003\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000ypb@\u0005\u0000\u0000\u0000\u0000\u0000\u0000\r\u0000\u0000\u0000KJJ\u0014\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000��hP\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000�\u0018C$\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000PTT`\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0011\u0000\u0000\u0000��vp\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0012\u0000\u0000\u0000���\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000j�@\u0004\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0014\u0000\u0000\u0000���p\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0000\u0000���4\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0016\u0000\u0000\u0000���D\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 4,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "model": 133,
+  "model-set": 6,
+  "audio": 3,
+  "other": 4
+ },
+ "coverage": {
+  "instances": 385285,
+  "packed": 385195,
+  "services": 57,
+  "code_or_empty_folders_not_packed": 30,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 4,
+ "sound_ids": 1303,
+ "files": 153,
+ "kb": 59999,
+ "category": "Driving",
+ "source_file": "Hiroshima-Expressway.rbxl"
+}

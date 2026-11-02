@@ -1,0 +1,782 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.Client  (5 descendants)
+ScreenGui "Client"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "L_Display"  -> scripts/StarterGui/Client/L_Display.client.lua
+  LocalScript "L_Data"  -> scripts/StarterGui/Client/L_Data.client.lua
+  LocalScript "L_Init"  -> scripts/StarterGui/Client/L_Init.client.lua
+  LocalScript "L_Pass"  -> scripts/StarterGui/Client/L_Pass.client.lua
+  LocalScript "L_Monocyte"  -> scripts/StarterGui/Client/L_Monocyte.client.lua  [disabled]
+
+==== StarterGui.Gui  (405 descendants)
+ScreenGui "Gui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "L_Master"  -> scripts/StarterGui/Gui/L_Master.client.lua
+    Frame "CHECK"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+  Frame "Status"  size={0,160},{0,60}  pos={0.5,-80},{0,10}  nobg
+    LocalScript "L_Status"  -> scripts/StarterGui/Gui/Status/L_Status.client.lua
+    TextLabel "Timer"  size={1,0},{0,24}  pos={0,0},{0,24}  nobg  z=2  text=""  font=SourceSansPro/700  ts=28  tc=#ffff00
+      TextLabel "Shadow"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/700  ts=28  tc=#000000
+    TextLabel "Title"  size={1,0},{0,20}  pos={0,0},{0,4}  nobg  z=2  text="< 2 Players"  font=Arial/700  ts=22  tc=#ffffff
+      TextLabel "Shadow"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text="< 2 Players"  font=Arial/700  ts=22  tc=#000000
+    TextLabel "Mode"  size={1,0},{0,24}  pos={0,0},{0,24}  nobg  z=2  text=""  font=SourceSansPro/700  ts=22  tc=#00ff00
+      TextLabel "Shadow"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/700  ts=22  tc=#000000
+  Frame "Weapons"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Weapons"  -> scripts/StarterGui/Gui/Weapons/L_Weapons.client.lua
+    Sound "Cant"
+    Sound "Kaching"
+    LocalScript "L_Money"  -> scripts/StarterGui/Gui/Weapons/L_Money.client.lua
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Money"  size={0,324},{0,293}  pos={0.5,-155},{0.5,-146}  HIDDEN  bg=#000000  z=2
+        ScrollingFrame "List"  size={1,-20},{1,-60}  pos={0,9},{0,50}  nobg  z=2
+          TextButton "10"  size={0,93},{0,110}  pos={0,2},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="$100"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="10 R$"  font=Arial/700  ts=14  tc=#00ff00
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://1705905425
+          TextButton "50"  size={0,93},{0,110}  pos={0,106},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="$500"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="50 R$"  font=Arial/700  ts=14  tc=#00ff00
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://1705905425
+          TextButton "250"  size={0,94},{0,110}  pos={0,210},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="$2,800"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="250 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="280 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,40},{0,1}  pos={0,30},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="12% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://1705905425
+          TextButton "625"  size={0,93},{0,110}  pos={0,2},{0,122}  bg=#005012  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="$8,750"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="625 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="875 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,40},{0,1}  pos={0,30},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="40% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://1705905425
+          TextButton "1000"  size={0,93},{0,110}  pos={0,106},{0,122}  bg=#005012  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="$15,000"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="1,000 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="1,500 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,50},{0,1}  pos={0,25},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="50% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://1705905425
+          TextButton "2000"  size={0,93},{0,110}  pos={0,210},{0,122}  bg=#530093  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="$32,000"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="2,000 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="3,200 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,50},{0,1}  pos={0,25},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="60% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://1705905425
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Money"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+      Frame "Orig"  size={0,420},{0,332}  pos={0.5,-210},{0.5,-166}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Weapons"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        Frame "Categories"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+          TextButton "Money"  size={0,32},{0,32}  pos={1,-160},{0,7}  bg=#000000  z=3  text="+"  font=Arial/700  ts=24  tc=#ffffff
+        Frame "Amount"  size={0,110},{0,32}  pos={1,-160},{0,8}  bg=#2a2a2a  z=2
+          TextLabel "Title"  size={0,32},{0,32}  pos={1,-40},{0,0}  nobg  z=3  text="$0"  font=Arial/700  ts=18  tc=#ffff00
+        Frame "Pages"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+          TextButton "Prev"  size={0,48},{0,32}  pos={0.5,-72},{1,-40}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+            TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="<"  font=Arial/700  ts=18  tc=#ffffff
+          TextButton "Next"  size={0,48},{0,32}  pos={0.5,24},{1,-40}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+            TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text=">"  font=Arial/700  ts=18  tc=#ffffff
+          TextLabel "Page"  size={0,32},{0,32}  pos={0.5,-16},{1,-40}  bg=#000000  z=4  text="1"  font=Arial/700  ts=18  tc=#ffffff
+        TextButton "Reward"  size={0,93},{0,110}  pos={0,2},{0,1}  HIDDEN  bg=#505050  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+          TextLabel "Title"  size={1,-20},{0,24}  pos={0.5,0},{0,2}  anchor=(0.5,0)  nobg  z=2  text="100$"  font=Arial/700  ts=16  tc=#ffffff
+          ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596067
+          TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="10 R$"  font=Arial/700  ts=14  tc=#ffff00
+        Frame "List"  size={1,-20},{1,-100}  pos={0,9},{0,50}  nobg  z=2
+      Frame "Confirm"  size={0,300},{0,120}  pos={0.5,-150},{0.5,-60}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,-30},{0,64}  pos={0,15},{0,8}  nobg  z=2  text="Are you sure you want to buy Trident for $100?"  font=Arial/700  ts=20  tc=#ffffff
+        Frame "Pages"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+          TextButton "No"  size={0.5,-15},{0,32}  pos={0,10},{1,-40}  bg=#ffec1a  z=4  text="No"  font=Arial/700  ts=20  tc=#ffffff
+          TextButton "Yes"  size={0.5,-15},{0,32}  pos={0.5,5},{1,-40}  bg=#ffec1a  z=4  text="Yes"  font=Arial/700  ts=20  tc=#ffffff
+    TextButton "Button"  size={0,48},{0,48}  pos={0,8},{0.5,-140}  bg=#000000@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      ImageLabel "icon"  size={0,36},{0,36}  pos={0,6},{0,6}  nobg  img=rbxassetid://1705860717  imgT=0.1
+  Frame "Messages"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Messages"  -> scripts/StarterGui/Gui/Messages/L_Messages.client.lua
+    Frame "List"  size={0,250},{0,20}  pos={0.5,-125},{0.95,-10}  nobg
+    Frame "Message"  size={1,0},{0,18}  pos={0,0},{0,0}  nobg
+      TextLabel "Reward"  size={1,0},{0,18}  pos={0,0},{0,0}  nobg  z=2  text=""  font=SourceSansPro/700  ts=22  tc=#ffffff
+        TextLabel "Shadow"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/700  ts=22  tc=#000000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0.5,-10},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://1705860717
+        ImageLabel "s"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  img=rbxassetid://1705860717  imgcol=#000000
+        ImageLabel "s"  size={1,0},{1,0}  pos={0,-1},{0,-1}  nobg  img=rbxassetid://1705860717  imgcol=#000000
+        ImageLabel "s"  size={1,0},{1,0}  pos={0,1},{0,-1}  nobg  img=rbxassetid://1705860717  imgcol=#000000
+        ImageLabel "s"  size={1,0},{1,0}  pos={0,-1},{0,1}  nobg  img=rbxassetid://1705860717  imgcol=#000000
+      TextLabel "2"  size={0.5,0},{0,18}  pos={0.5,16},{0,0}  nobg  z=2  text=""  font=SourceSansPro/700  ts=22  tc=#66b3ff
+        TextLabel "Shadow"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/700  ts=22  tc=#000000
+      TextLabel "1"  size={0.5,0},{0,18}  pos={0,-16},{0,0}  nobg  z=2  text=""  font=SourceSansPro/700  ts=22  tc=#ff6666
+        TextLabel "Shadow"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/700  ts=22  tc=#000000
+  Frame "Level"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Level"  -> scripts/StarterGui/Gui/Level/L_Level.client.lua
+    Sound "Ding"
+    Sound "Ding2"
+    Frame "Level"  size={0,70},{0,70}  pos={1,-80},{1,-80}  bg=#000000@0.4
+      TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,-2}  nobg  z=2  text="1"  font=SourceSansPro/700  ts=32  tc=#ffffff
+      Frame "Exp"  size={0,0},{0,4}  pos={0,0},{1,-4}  bg=#00f3ff
+  Frame "Custom"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Custom"  -> scripts/StarterGui/Gui/Custom/L_Custom.client.lua
+    LocalScript "L_Money"  -> scripts/StarterGui/Gui/Custom/L_Money.client.lua
+    Sound "Kaching"
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Custom1"  size={0,324},{0,293}  pos={0.5,-155},{0.5,-146}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Custom Sides"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextButton "Add"  size={0,90},{0,32}  pos={1,-100},{1,-42}  HIDDEN  bg=#b390ff  z=4  text="Suggest"  font=Arial/700  ts=16  tc=#000000
+          TextLabel "Amount"  size={1,0},{0,25}  pos={-1,-15},{0.5,-13}  nobg  z=4  text="$100"  font=Arial/700  ts=18  tc=#ffff00
+        Frame "Amount"  size={0,110},{0,32}  pos={1,-160},{0,8}  bg=#2a2a2a  z=2
+          TextLabel "Title"  size={0,32},{0,32}  pos={1,-40},{0,0}  nobg  z=3  text="$0"  font=Arial/700  ts=18  tc=#ffff00
+        Frame "Categories"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+          TextButton "Money"  size={0,32},{0,32}  pos={1,-160},{0,7}  bg=#000000  z=3  text="+"  font=Arial/700  ts=24  tc=#ffffff
+        Frame "Search"  size={1,-20},{0,32}  pos={0,10},{0,48}  bg=#4c4c4c  z=2
+          TextBox "Field"  size={1,-20},{1,0}  pos={0,10},{0,0}  nobg  z=4  text=""  font=Arial/400  ts=17  tc=#ffffff
+            TextLabel "Placeholder"  size={0,200},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="Search keyword ..."  font=Arial/400  ts=18  tc=#8f8f8f
+          ImageButton "icon"  size={0.9,0},{0.9,0}  pos={0.9,0},{0.05,-4}  nobg  z=2  img=rbxassetid://311226835  imgcol=#d0d0d0
+        Frame "Side"  size={1,0},{0,130}  pos={0,0},{0,102}  nobg  z=3
+          Frame "Red"  size={0.46,0},{1,0}  pos={0.54,-10},{0,0}  bg=#ff4e51  z=2
+            TextLabel "Label"  size={0.84,0},{0.9,0}  pos={0.1,0},{0.05,0}  nobg  z=2  text=""  font=Arial/700  ts=16  tc=#ffffff
+          Frame "Blue"  size={0.46,0},{1,0}  pos={0,10},{0,0}  bg=#40acff  z=2
+            TextLabel "Label"  size={0.84,0},{0.9,0}  pos={0.06,0},{0.05,0}  nobg  z=2  text=""  font=Arial/700  ts=16  tc=#ffffff
+          TextLabel "or"  size={0,20},{0,20}  pos={0.5,-10},{0.5,-10}  bg=#000000  z=2  text="OR"  font=SourceSansPro/700  ts=18  tc=#ffffff
+        Frame "Pages"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2
+          TextLabel "Num"  size={0,28},{0,28}  pos={0,70},{1,-40}  nobg  z=3  text="1 (1)"  font=Arial/700  ts=18  tc=#ffffff
+          ImageButton "Prev"  size={0,28},{0,28}  pos={0,20},{1,-40}  nobg  z=2  img=rbxassetid://153287191
+          ImageButton "Next"  size={0,28},{0,28}  pos={0,120},{1,-40}  nobg  z=2  img=http://www.roblox.com/asset/?id=153287088
+      Frame "Money"  size={0,324},{0,293}  pos={0.5,-155},{0.5,-146}  HIDDEN  bg=#000000  z=2
+        ScrollingFrame "List"  size={1,-20},{1,-60}  pos={0,9},{0,50}  nobg  z=2
+          TextButton "10"  size={0,93},{0,110}  pos={0,2},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=2  text="$100"  font=Arial/700  ts=20  tc=#ffffff
+            ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596067
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="10 R$"  font=Arial/700  ts=14  tc=#00ff00
+          TextButton "1000"  size={0,93},{0,110}  pos={0,106},{0,122}  bg=#005012  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=2  text="$15,000"  font=Arial/700  ts=20  tc=#ffffff
+            ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596059
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="1,000 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=2  text="1,500 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,50},{0,1}  pos={0,25},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=2  text="50% free!"  font=Arial/700  ts=11  tc=#ff7243
+          TextButton "2000"  size={0,93},{0,110}  pos={0,210},{0,122}  bg=#530093  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=2  text="$32,000"  font=Arial/700  ts=20  tc=#ffffff
+            ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596068
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="2,000 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=2  text="3,200 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,50},{0,1}  pos={0,25},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=2  text="60% free!"  font=Arial/700  ts=11  tc=#ff7243
+          TextButton "250"  size={0,94},{0,110}  pos={0,210},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=2  text="$2,800"  font=Arial/700  ts=20  tc=#ffffff
+            ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596065
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="250 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=2  text="280 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,40},{0,1}  pos={0,30},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=2  text="12% free!"  font=Arial/700  ts=11  tc=#ff7243
+          TextButton "50"  size={0,93},{0,110}  pos={0,106},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=2  text="$500"  font=Arial/700  ts=20  tc=#ffffff
+            ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596066
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="50 R$"  font=Arial/700  ts=14  tc=#00ff00
+          TextButton "625"  size={0,93},{0,110}  pos={0,2},{0,122}  bg=#005012  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=2  text="$8,750"  font=Arial/700  ts=20  tc=#ffffff
+            ImageLabel "Img"  size={0,70},{0,70}  pos={0,10},{0,22}  nobg  z=2  img=rbxassetid://585596064
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="625 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=2  text="875 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,40},{0,1}  pos={0,30},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=2  text="40% free!"  font=Arial/700  ts=11  tc=#ff7243
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Money"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+      Frame "Custom2"  size={0,324},{0,293}  pos={0.5,-155},{0.5,-146}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Custom Sides"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Reward"  size={0,90},{0,110}  pos={0,1},{0,1}  HIDDEN  bg=#505050  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+          TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,0}  nobg  z=2  text="Rat"  font=Arial/400  ts=16  tc=#ffffff
+          ImageLabel "Img"  size={0,80},{0,80}  pos={0,5},{0,20}  nobg  z=2
+          TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="10 $"  font=Arial/400  ts=14  tc=#ffff00
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextButton "Add"  size={0,90},{0,32}  pos={0.5,-45},{1,-42}  bg=#b390ff  z=4  text=""  font=Arial/700  ts=18  tc=#000000
+          TextLabel "Amount"  size={1,0},{0,25}  pos={0,0},{0.5,-13}  nobg  z=4  text="$100"  font=Arial/700  ts=18  tc=#ffff00
+        TextLabel "Error"  size={1,0},{0,30}  pos={0,0},{1,-75}  nobg  z=2  text=""  font=Arial/400  ts=14  tc=#ff0004
+        Frame "Amount"  size={0,110},{0,32}  pos={1,-160},{0,8}  bg=#2a2a2a  z=2
+          TextLabel "Title"  size={0,32},{0,32}  pos={1,-40},{0,0}  nobg  z=3  text="$0"  font=Arial/700  ts=18  tc=#ffff00
+        Frame "Categories"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+          TextButton "Money"  size={0,32},{0,32}  pos={1,-160},{0,7}  bg=#000000  z=3  text="+"  font=Arial/700  ts=24  tc=#ffffff
+        Frame "Red"  size={1,-20},{0,70}  pos={0,10},{0,50}  bg=#4c4c4c  z=2
+          TextBox "Field"  size={1,-20},{1,-10}  pos={0,10},{0,10}  nobg  z=4  text=""  font=Arial/400  ts=17  tc=#ffffff
+            TextLabel "Placeholder"  size={0,200},{0,50}  pos={0,0},{0,0}  nobg  z=2  text="Red side"  font=Arial/400  ts=18  tc=#8f8f8f
+        Frame "Blue"  size={1,-20},{0,70}  pos={0,10},{0,130}  bg=#4c4c4c  z=2
+          TextBox "Field"  size={1,-20},{1,-10}  pos={0,10},{0,10}  nobg  z=4  text=""  font=Arial/400  ts=17  tc=#ffffff
+            TextLabel "Placeholder"  size={0,200},{0,50}  pos={0,0},{0,0}  nobg  z=2  text="Blue side"  font=Arial/400  ts=18  tc=#8f8f8f
+      Frame "Orig"  size={0,240},{0,126}  pos={0.5,-120},{0.5,-63}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,-60},{0,20}  pos={0,15},{0,14}  nobg  z=2  text="Custom Sides"  font=Arial/700  scaled  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextButton "Add"  size={0,90},{0,32}  pos={1,-100},{1,-42}  HIDDEN  bg=#b390ff  z=4  text="Suggest"  font=Arial/700  ts=16  tc=#000000
+          TextLabel "Amount"  size={1,0},{0,25}  pos={-1,-15},{0.5,-13}  nobg  z=4  text="$100"  font=Arial/700  ts=18  tc=#ffff00
+        Frame "Categories"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+          TextButton "Custom2"  size={1,-20},{0,32}  pos={0,10},{0,44}  bg=#000000  z=3  text="Write your own"  font=Arial/700  ts=18  tc=#ffffff
+          TextButton "Custom1"  size={1,-20},{0,32}  pos={0,10},{0,84}  bg=#000000  z=3  text="Search"  font=Arial/700  ts=18  tc=#ffffff
+        Frame "Pages"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2
+          TextLabel "Num"  size={0,28},{0,28}  pos={0,70},{1,-40}  nobg  z=3  text="1 (1)"  font=Arial/700  ts=18  tc=#ffffff
+          ImageButton "Prev"  size={0,28},{0,28}  pos={0,20},{1,-40}  nobg  z=2  img=rbxassetid://153287191
+          ImageButton "Next"  size={0,28},{0,28}  pos={0,120},{1,-40}  nobg  z=2  img=http://www.roblox.com/asset/?id=153287088
+    TextButton "Button"  size={0,48},{0,48}  pos={0,8},{0.5,-28}  bg=#000000@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      ImageLabel "icon"  size={0,36},{0,36}  pos={0,6},{0,6}  nobg  img=rbxassetid://1705875530  imgT=0.1
+  Frame "Friends"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Friends"  -> scripts/StarterGui/Gui/Friends/L_Friends.client.lua
+    Sound "Kaching"
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,324},{0,300}  pos={0.5,-155},{0.5,-145}  HIDDEN  bg=#000000  z=2
+        ScrollingFrame "List"  size={1,-20},{1,-55}  pos={0,10},{0,45}  HIDDEN  nobg  z=2
+        TextLabel "Placeholder"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  z=3  text="PICK 5 MORE SIDES TO SEE WHO YOU HAVE THE MOST IN COMMON WIT..."  font=SourceSansPro/700  ts=24  tc=#ffffff
+        Frame "Reward"  size={1,-20},{0,60}  pos={0,1},{0,1}  HIDDEN  bg=#505050  z=2
+          ImageLabel "Img"  size={1,-10},{1,-10}  pos={0,5},{0,5}  nobg  z=2  img=https://www.roblox.com/headshot-thumbnail/image?userId=89190622&width=...
+          TextLabel "Cost"  size={1,0},{0,24}  pos={0,76},{0,28}  nobg  z=3  text="100% Similarity (5/5)"  font=Arial/700  ts=16  tc=#00ff00
+            TextLabel "Shadow"  size={1,0},{0,24}  pos={0,1},{0,1}  nobg  z=2  text=""  font=Arial/700  ts=16  tc=#000000
+          TextLabel "Title"  size={1,0},{0,24}  pos={0,76},{0,7}  nobg  z=3  text="Voraxium"  font=Arial/700  ts=18  tc=#ffffff
+            TextLabel "Shadow"  size={1,0},{0,24}  pos={0,1},{0,1}  nobg  z=2  text=""  font=Arial/700  ts=18  tc=#000000
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  HIDDEN  nobg  z=2  text="Players You Might Like"  font=Arial/700  ts=20  tc=#ffffff
+    TextButton "Frame"  size={0,80},{0,48}  pos={0,66},{0.5,-24}  HIDDEN  bg=#000000@0.3  text="0$"  font=Zekton/400  ts=19  tc=#ffffff
+    TextButton "Button"  size={0,48},{0,48}  pos={0,8},{0.5,28}  bg=#000000@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      ImageLabel "icon"  size={0,36},{0,36}  pos={0,6},{0,6}  nobg  img=rbxassetid://677659429  imgT=0.1
+    TextLabel "Amount"  size={0,48},{0,32}  pos={0,66},{0.5,-72}  nobg  text=""  font=Arial/400  ts=18  tc=#ffffff
+  Frame "Radio"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Radio"  -> scripts/StarterGui/Gui/Radio/L_Radio.client.lua
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,250},{0,146}  pos={0.5,-125},{0.5,-65}  HIDDEN  bg=#000000  z=2
+        TextButton "Close"  size={0,30},{0,30}  pos={1,-40},{0,10}  nobg  z=2  text="X"  font=Zekton/400  ts=24  tc=#ffffff
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Radio"  font=Arial/700  ts=20  tc=#ffffff
+        Frame "Box"  size={1,-20},{0,40}  pos={0,10},{0,50}  bg=#4c4c4c  z=2
+          TextBox "Field"  size={1,-20},{1,-10}  pos={0,10},{0,10}  nobg  z=4  text=""  font=Arial/400  ts=17  tc=#ffffff
+            TextLabel "Placeholder"  size={0,200},{0,50}  pos={0,0},{0,0}  nobg  z=2  text="Audio ID"  font=Arial/400  ts=18  tc=#8f8f8f
+        TextButton "Confirm"  size={0,90},{0,32}  pos={0.5,-45},{1,-42}  bg=#b390ff  z=4  text=""  font=Arial/700  ts=18  tc=#000000
+          TextLabel "Amount"  size={1,0},{0,25}  pos={0,0},{0.5,-13}  nobg  z=4  text="PLAY"  font=Arial/700  ts=18  tc=#ffffff
+    TextButton "Button"  size={0,48},{0,48}  pos={0,8},{0.5,28}  HIDDEN  bg=#000000@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      ImageLabel "icon"  size={0,36},{0,36}  pos={0,6},{0,6}  nobg  img=rbxassetid://595996604  imgT=0.1
+    TextButton "Mute"  size={0,38},{0,38}  pos={1,-128},{1,-45}  bg=#000000  text=""  font=Arial/700  ts=14  tc=#fefffd
+      ImageLabel "arrow"  size={2,0},{2,0}  pos={-0.5,0},{-0.5,0}  nobg  img=rbxassetid://90821298  imgcol=#000000
+      TextLabel "C"  size={1,0},{1,0}  pos={0,0},{0,-4}  HIDDEN  nobg  text="x"  font=ComicNeueAngular/400  ts=50  tc=#fc0006
+  Frame "Chat"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+    LocalScript "M_Chat"  -> scripts/StarterGui/Gui/Chat/M_Chat.client.lua
+    ScrollingFrame "Messages"  size={0.2,100},{0,200}  pos={0,64},{0,14}  nobg
+    TextLabel "Messager"  size={1,0},{0,36}  pos={0,0},{0.75,0}  nobg  text=""  font=Arial/700  ts=15  tc=#ff2828
+      TextLabel "Message"  size={0,200},{0,14}  pos={0,81},{0,0}  nobg  text=""  font=Arial/700  ts=15  tc=#ffffff
+  Frame "Report"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Report"  -> scripts/StarterGui/Gui/Report/L_Report.client.lua
+    TextButton "Button"  size={0,90},{0,38}  pos={1,-226},{1,-45}  HIDDEN  bg=#000000  text="REPORT"  font=Arial/700  ts=14  tc=#fefffd
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,324},{0,290}  pos={0.5,-155},{0.5,-126}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Report"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextButton "Add"  size={0,90},{0,32}  pos={0.5,-45},{1,-42}  HIDDEN  bg=#b390ff  z=4  text="Report"  font=Arial/700  ts=16  tc=#000000
+        Frame "Side"  size={1,0},{0,130}  pos={0,0},{0,68}  nobg  z=3
+          Frame "Red"  size={0.46,0},{1,0}  pos={0.54,-10},{0,0}  bg=#ff4e51  z=2
+            TextLabel "Label"  size={0.84,0},{0.9,0}  pos={0.1,0},{0.05,0}  nobg  z=2  text=""  font=Arial/700  ts=16  tc=#ffffff
+          Frame "Blue"  size={0.46,0},{1,0}  pos={0,10},{0,0}  bg=#40acff  z=2
+            TextLabel "Label"  size={0.84,0},{0.9,0}  pos={0.06,0},{0.05,0}  nobg  z=2  text=""  font=Arial/700  ts=16  tc=#ffffff
+          TextLabel "or"  size={0,20},{0,20}  pos={0.5,-10},{0.5,-10}  bg=#000000  z=2  text="OR"  font=SourceSansPro/700  ts=18  tc=#ffffff
+        TextLabel "Plr"  size={1,0},{0,18}  pos={0,15},{0,44}  nobg  z=2  text="Added by: SirMing"  font=Arial/700  ts=16  tc=#ffffff
+        TextButton "Confirm"  size={0,24},{0,24}  pos={0,16},{1,-78}  bg=#000000  z=2  text=""  font=Arial/700  ts=16  tc=#000000
+          TextLabel "Label"  size={0,100},{0,24}  pos={0,32},{0,0}  nobg  z=2  text="I think this question is inappropriate"  font=Arial/400  ts=17  tc=#ffffff
+          ImageLabel "Check"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=61153606  imgcol=#fc0041
+      Frame "Msg"  size={0,300},{0,150}  pos={0.5,-130},{0.5,-75}  HIDDEN  bg=#000000  z=2
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Reported"  font=Arial/700  ts=20  tc=#ffffff
+        TextLabel "Plr"  size={1,-30},{0,88}  pos={0,15},{0,38}  nobg  z=2  text="A report has been sent to the moderators for review. Thank y..."  font=Arial/400  ts=16  tc=#ffffff
+        TextButton "Close"  size={0,100},{0,32}  pos={0.5,-50},{1,-42}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="OK"  font=Arial/700  ts=14  tc=#ffffff
+  Frame "Like"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Friends"  -> scripts/StarterGui/Gui/Like/L_Friends.client.lua  [disabled]
+    LocalScript "Like"  -> scripts/StarterGui/Gui/Like/Like.client.lua
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,324},{0,180}  pos={0.5,-155},{0.5,0}  anchor=(0,0.5)  HIDDEN  bg=#000000  z=2
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Like Reward"  font=Arial/700  ts=20  tc=#ffffff
+        TextLabel "Placeholder"  size={0.8,0},{0.2,0}  pos={0.1,0},{0.3,0}  nobg  z=3  text="- Like & Favorite the Game"  font=SourceSansPro/700  ts=24  tc=#ffffff
+        TextButton "Claim"  size={1,-20},{0,32}  pos={0.5,0},{1,-42}  anchor=(0.5,0)  bg=#b390ff  z=4  text="Claim"  font=Arial/700  ts=16  tc=#000000
+        TextLabel "Placeholder"  size={0.8,0},{0.2,0}  pos={0.1,0},{0.45,0}  nobg  z=3  text="- Join the Roblox Group"  font=SourceSansPro/700  ts=24  tc=#ffffff
+  Frame "Quests"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,540},{0,286}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000  z=2
+        LocalScript "Quests"  -> scripts/StarterGui/Gui/Quests/Windows/Orig/Quests.client.lua
+        Frame "Overlay"  size={10,0},{10,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.6  z=0
+        TextLabel "Description"  size={1,-32},{0,16}  pos={0.5,0},{1,-16}  anchor=(0.5,1)  nobg  z=5  text="24:00:00"  font=Arial/700  scaled  tc=#ffffff
+        Frame "List"  size={1,-20},{1,-98}  pos={0,10},{0,50}  nobg
+          Frame "Deal"  size={1,0},{0,56}  pos={0,0},{0,0}  bg=#505050  z=5
+            TextLabel "Title"  size={0,220},{0,18}  pos={0,56},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Arial/700  scaled  tc=#ffffff
+            Frame "Progress"  size={0,120},{0,18}  pos={1,-10},{0.5,0}  anchor=(1,0.5)  bg=#000000  z=6
+              TextLabel "Title"  size={1,0},{0,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=12  text="0 / 1"  font=GothamSSm/500  scaled  tc=#ffffff
+              Frame "Bar"  size={0.6,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff  z=10
+                UIGradient "UIGradient"  Color=[0:#e40c78 1:#6645dd]  Rotation=0  Transparency=[0:0 1:0]
+            TextButton "Claim"  size={0,120},{0,36}  pos={1,-10},{1,-10}  anchor=(1,1)  bg=#ffffff  z=10  text="Claim"  font=Arial/700  ts=20  tc=#ffffff  attrs={"Animation": "Click"}
+            TextLabel "Reward"  size={0,100},{0,18}  pos={1,-146},{0.5,0}  anchor=(1,0.5)  nobg  z=5  text="0"  font=Arial/700  ts=18  tc=#ffff00
+            ImageLabel "Icon"  size={0,36},{0,36}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  z=5  img=rbxassetid://15998855217
+            ImageLabel "Checkmark"  size={0,32},{0,32}  pos={1,-70},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=9  img=http://www.roblox.com/asset/?id=4550289552  imgcol=#4caf50
+          Frame "Login"  size={1,0},{0,56}  pos={0,0},{0,0}  bg=#505050  z=5
+            TextLabel "Title"  size={0,220},{0,18}  pos={0,56},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Arial/700  scaled  tc=#ffffff
+            Frame "Progress"  size={0,120},{0,18}  pos={1,-10},{0.5,0}  anchor=(1,0.5)  bg=#000000  z=6
+              TextLabel "Title"  size={1,0},{0,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=12  text="0 / 1"  font=GothamSSm/500  scaled  tc=#ffffff
+              Frame "Bar"  size={0.6,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff  z=10
+                UIGradient "UIGradient"  Color=[0:#e40c78 1:#6645dd]  Rotation=0  Transparency=[0:0 1:0]
+            TextButton "Claim"  size={0,120},{0,36}  pos={1,-10},{1,-10}  anchor=(1,1)  HIDDEN  nobg  z=10  text="Claim"  font=Arial/700  ts=20  tc=#ffffff  attrs={"Animation": "Click"}
+            TextLabel "Reward"  size={0,100},{0,18}  pos={1,-146},{0.5,0}  anchor=(1,0.5)  nobg  z=5  text="0"  font=Arial/700  ts=18  tc=#ffff00
+            ImageLabel "Icon"  size={0,36},{0,36}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  z=5  img=http://www.roblox.com/asset/?id=18956240557
+            ImageLabel "Checkmark"  size={0,32},{0,32}  pos={1,-70},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=9  img=http://www.roblox.com/asset/?id=4550289552  imgcol=#4caf50
+          Frame "Win"  size={1,0},{0,56}  pos={0,0},{0,0}  bg=#505050  z=5
+            TextLabel "Title"  size={0,220},{0,18}  pos={0,56},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Arial/700  scaled  tc=#ffffff
+            Frame "Progress"  size={0,120},{0,18}  pos={1,-10},{0.5,0}  anchor=(1,0.5)  bg=#000000  z=6
+              TextLabel "Title"  size={1,0},{0,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=12  text="0 / 1"  font=GothamSSm/500  scaled  tc=#ffffff
+              Frame "Bar"  size={0.6,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff  z=10
+                UIGradient "UIGradient"  Color=[0:#e40c78 1:#6645dd]  Rotation=0  Transparency=[0:0 1:0]
+            TextButton "Claim"  size={0,120},{0,36}  pos={1,-10},{1,-10}  anchor=(1,1)  bg=#ffffff  z=10  text="Claim"  font=Arial/700  ts=20  tc=#ffffff  attrs={"Animation": "Click"}
+            TextLabel "Reward"  size={0,100},{0,18}  pos={1,-146},{0.5,0}  anchor=(1,0.5)  nobg  z=5  text="0"  font=Arial/700  ts=18  tc=#ffff00
+            ImageLabel "Icon"  size={0,36},{0,36}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  z=5  img=http://www.roblox.com/asset/?id=18956243014
+            ImageLabel "Checkmark"  size={0,32},{0,32}  pos={1,-70},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=9  img=http://www.roblox.com/asset/?id=4550289552  imgcol=#4caf50
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,10}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Daily Quests"  font=Arial/700  ts=20  tc=#ffffff
+  Frame "Revives"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Sound "Cant"
+    LocalScript "L_Revives"  -> scripts/StarterGui/Gui/Revives/L_Revives.client.lua
+    Sound "Resurrect"
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,324},{0,293}  pos={0.5,-155},{0.5,-146}  HIDDEN  bg=#000000  z=2
+        ScrollingFrame "List"  size={1,-20},{1,-60}  pos={0,9},{0,50}  nobg  z=2
+          TextButton "1"  size={0,93},{0,110}  pos={0,2},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="x1"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="29 R$"  font=Arial/700  ts=14  tc=#00ff00
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://18967797980
+          TextButton "3"  size={0,93},{0,110}  pos={0,106},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="x3"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="79 R$"  font=Arial/700  ts=14  tc=#00ff00
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://18967797980
+          TextButton "5"  size={0,94},{0,110}  pos={0,210},{0,1}  bg=#8c6e02  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="x5"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="119 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="145 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,40},{0,1}  pos={0,30},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="10% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://18967797980
+          TextButton "10"  size={0,93},{0,110}  pos={0,2},{0,122}  bg=#005012  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="x10"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="199 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="290 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,40},{0,1}  pos={0,30},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="20% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://18967797980
+          TextButton "25"  size={0,93},{0,110}  pos={0,106},{0,122}  bg=#005012  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="x25"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=2  text="399 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="725 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,50},{0,1}  pos={0,25},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="45% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://18967797980
+          TextButton "50"  size={0,93},{0,110}  pos={0,210},{0,122}  bg=#530093  z=2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+            TextLabel "Title"  size={1,0},{0,24}  pos={0,0},{0,2}  nobg  z=3  text="x50"  font=Arial/700  ts=20  tc=#ffffff
+            TextLabel "Cost"  size={1,0},{0,24}  pos={0,0},{1,-24}  nobg  z=3  text="699 R$"  font=Arial/700  ts=14  tc=#00ff00
+            TextLabel "old"  size={1,0},{0,24}  pos={0,0},{1,-37}  nobg  z=3  text="1,450 R$"  font=Arial/400  ts=11  tc=#00ff00
+              Frame "Frame"  size={0,50},{0,1}  pos={0,25},{0.5,0}  bg=#ff0000  z=3
+            TextLabel "free"  size={1,0},{0,24}  pos={0,10},{0,18}  nobg  z=3  text="105% free!"  font=Arial/700  ts=11  tc=#ff7243
+            ImageLabel "Img"  size={0,60},{0,60}  pos={0,15},{0,27}  nobg  z=2  img=rbxassetid://18967797980
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Revives"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+    Frame "Revives"  size={0,0},{0,36}  pos={0,44},{1,-10}  anchor=(0,1)  nobg  z=2
+      TextLabel "Title"  size={0,140},{1,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="0"  font=GothamSSm/700  ts=20  tc=#bdbdbd
+        ImageLabel "Icon"  size={0,22},{0,22}  pos={0,-4},{0.5,0}  anchor=(1,0.5)  nobg  z=5  img=http://www.roblox.com/asset/?id=18967797187
+        ImageLabel "Background"  size={1,32},{1,0}  pos={0,-32},{0.5,0}  anchor=(0,0.5)  nobg  z=2  img=rbxassetid://16071033599  imgcol=#000000  imgT=0.4
+        TextButton "Buttons"  size={1,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  z=10  text=""  font=GothamSSm/900  ts=20  tc=#00830c
+          TextLabel "Title"  size={1,-12},{1,-14}  pos={1,-6},{0.5,-1}  anchor=(1,0.5)  nobg  z=8  text="+"  font=GothamSSm/700  ts=24  tc=#00830c
+          ImageLabel "Background9"  size={1,-12},{1,-14}  pos={1,-6},{0.5,-1}  anchor=(1,0.5)  nobg  z=4  img=rbxassetid://16071033599  imgcol=#00cf00
+          ImageLabel "Background10"  size={1,-12},{1,-14}  pos={1,-6},{0.5,1}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://16071033599  imgcol=#00a700
+  Frame "Auras"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "L_Weapons"  -> scripts/StarterGui/Gui/Auras/L_Weapons.client.lua  [disabled]
+    Sound "Cant"
+    Sound "Kaching"
+    Frame "Windows"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Orig"  size={0,420},{0,332}  pos={0.5,-210},{0.5,-166}  HIDDEN  bg=#000000  z=2
+        LocalScript "Auras"  -> scripts/StarterGui/Gui/Auras/Windows/Orig/Auras.client.lua
+        TextLabel "Title"  size={1,0},{0,32}  pos={0,15},{0,8}  nobg  z=2  text="Auras"  font=Arial/700  ts=20  tc=#ffffff
+        TextButton "Close"  size={0,32},{0,32}  pos={1,-40},{0,8}  bg=#ffec1a  z=4  text=""  font=Arial/700  ts=60  tc=#ffffff
+          TextLabel "Text"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  bg=#000000  z=4  text="X"  font=Arial/700  ts=18  tc=#ffffff
+        ScrollingFrame "List"  size={1,-20},{1,-60}  pos={0.5,0},{0,50}  anchor=(0.5,0)  nobg  z=9
+          UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,10}
+          UIGridLayout "UIGridLayout"  CellSize={0,110},{0,110}  CellPadding={0,10},{0,10}  FillDirectionMaxCells=6
+        TextButton "Element"  size={0,200},{0,50}  pos={0,0},{0,0}  HIDDEN  nobg  z=10  text=""  font=GothamSSm/500  ts=86  tc=#757575  attrs={"Animation": "Color"}
+          ImageLabel "Background"  size={1,-2},{1,-2}  pos={0.5,0},{0.5,-1}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://16071033599
+            UIGradient "UIGradient"  rot=-90  Color=[0:#e0e0e0 1:#757575]  Rotation=-90  Transparency=[0:0 1:0]
+          ImageLabel "Checkmark"  size={0,32},{0,32}  pos={0.94,0},{0.06,0}  anchor=(1,0)  HIDDEN  nobg  z=7  img=rbxassetid://16071033599  imgcol=#9c27b0
+            ImageLabel "Icon"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=8  img=http://www.roblox.com/asset/?id=4550289552
+          TextLabel "Title"  size={1,-20},{1,-20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextButton "Button"  size={0,48},{0,48}  pos={0,8},{0.5,-84}  bg=#000000@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      ImageLabel "icon"  size={0,36},{0,36}  pos={0,6},{0,6}  nobg  img=rbxassetid://14502433595  imgT=0.1
+
+==== StarterGui.MobileShiftLock  (3 descendants)
+ScreenGui "MobileShiftLock"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  LocalScript "L_MobileShiftLock"  -> scripts/StarterGui/MobileShiftLock/L_MobileShiftLock.client.lua
+  ImageButton "Button"  size={0,48},{0,48}  pos={0,10},{1,-10}  anchor=(0,1)  HIDDEN  nobg  img=rbxasset://textures/ui/mouseLock_off.png
+  UIScale "UIScale"  Scale=1
+
+==== StarterGui.Topbar  (14 descendants)
+ScreenGui "Topbar"  Enabled=True  DisplayOrder=10  ResetOnSpawn=False  ZIndexBehavior=1
+  LocalScript "Topbar"  -> scripts/StarterGui/Topbar/Topbar.client.lua  [disabled]
+  Frame "Holder"  size={1,0},{1,-1}  pos={0,12},{0,0}  nobg
+    UIListLayout "UIListLayout"  FillDirection=0  Padding={0,12}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+    TextButton "Like"  size={0,44},{0,44}  pos={1,-10},{0.5,105}  anchor=(1,0.5)  nobg  z=9  text=""  font=Guru/400  ts=54  tc=#ffffff  attrs={"Animation": "Rotate"}
+      LocalScript "Like"  -> scripts/StarterGui/Topbar/Holder/Like/Like.client.lua
+      ImageLabel "Icon"  size={0.5,4},{0.5,4}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=http://www.roblox.com/asset/?id=18502453055
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16071033599  imgcol=#000000  imgT=0.4
+    TextButton "Quests"  size={0,44},{0,44}  pos={1,-10},{0.5,105}  anchor=(1,0.5)  nobg  z=10  text=""  font=Guru/400  ts=54  tc=#ffffff  attrs={"Animation": "Rotate"}
+      LocalScript "Quests"  -> scripts/StarterGui/Topbar/Holder/Quests/Quests.client.lua
+      ImageLabel "Icon"  size={0.5,4},{0.5,4}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=http://www.roblox.com/asset/?id=18955910528
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16071033599  imgcol=#000000  imgT=0.4
+      Frame "Notification"  size={0,18},{0,18}  pos={1,3},{0,-3}  anchor=(1,0)  HIDDEN  bg=#f44336  z=3
+        UICorner "UICorner"  CornerRadius={1,0}
+        ImageLabel "Shadow"  size={1.12,0},{1.12,0}  pos={0.5,0},{-0.0312,0}  anchor=(0.5,0)  nobg  z=0  img=rbxassetid://16071034841  imgcol=#000000
+
+==== StarterGui.Popups  (26 descendants)
+ScreenGui "Popups"  Enabled=True  DisplayOrder=5  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Rolling"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "Rolling"  -> scripts/StarterGui/Popups/Rolling/Rolling.client.lua
+    Frame "Preview"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      TextLabel "Title"  size={0,500},{0,80}  pos={0.5,0},{0.5,0}  anchor=(0.5,0)  nobg  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+      TextLabel "Rarity"  size={0,500},{0,40}  pos={0.5,0},{0.5,0}  anchor=(0.5,0)  nobg  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    TextButton "Skip"  size={0,200},{0,50}  pos={0.5,10},{1,-120}  anchor=(0,0.5)  HIDDEN  nobg  z=9  text=""  font=Guru/400  ts=54  tc=#ffffff  attrs={"Animation": "Color"}
+      TextLabel "Title"  size={1,-20},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=9  text="Skip"  font=Balthazar/400  scaled  tc=#ef5350
+      Frame "Ring"  size={1,-8},{1,-8}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+        UICorner "UICorner"  CornerRadius={1,0}
+        UIStroke "UIStroke"  Thickness=1  Color=#616161  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16071033599  imgcol=#000000  imgT=0.4
+    Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=7
+    ImageLabel "Vignette"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=9  img=rbxassetid://12293645094  imgT=1
+      UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    ImageLabel "Sparkle"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=8  img=http://www.roblox.com/asset/?id=16798555954
+      UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    TextButton "Equip"  size={0,200},{0,50}  pos={0.5,-10},{1,-120}  anchor=(1,0.5)  HIDDEN  nobg  z=9  text=""  font=Guru/400  ts=54  tc=#ffffff  attrs={"Animation": "Color"}
+      TextLabel "Title"  size={1,-20},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=9  text="Equip"  font=Balthazar/400  scaled  tc=#42a5f5
+      Frame "Ring"  size={1,-8},{1,-8}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+        UICorner "UICorner"  CornerRadius={1,0}
+        UIStroke "UIStroke"  Thickness=1  Color=#616161  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16071033599  imgcol=#000000  imgT=0.4
+
+==== Workspace.Red.Detect.Gui  (1 descendants)
+SurfaceGui "Gui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={0.8,0},{0.4,0}  pos={0.1,0},{0.3,0}  nobg  z=2  text=""  font=Arial/700  scaled  tc=#ffffff
+
+==== Workspace.Red.Screen.Gui  (1 descendants)
+SurfaceGui "Gui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  z=2  text=""  font=Arial/700  scaled  tc=#ffffff
+
+==== Workspace.Auras.Premium.Box.Gui2  (9 descendants)
+BillboardGui "Gui2"  size={10,0},{6,0}  Enabled=False  Size={10,0},{6,0}  StudsOffset=(0,7,0)  MaxDistance=1e+03  AlwaysOnTop=True  Adornee=nil
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    UICorner "UICorner"  CornerRadius={0,12}
+  Frame "List"  size={1,0},{0.9,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.04,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Common - 0%"  font=FredokaOne/400  scaled  tc=#9e9e9e
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Rare - 90%"  font=FredokaOne/400  scaled  tc=#81c784
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Epic - 10%"  font=FredokaOne/400  scaled  tc=#9575cd
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Legendary - 0.08%"  font=FredokaOne/400  scaled  tc=#ff8a65
+  TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  HIDDEN  nobg  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+
+==== Workspace.Auras.Premium.Box.Gui  (4 descendants)
+BillboardGui "Gui"  size={10,0},{2,0}  Enabled=True  Size={10,0},{2,0}  StudsOffset=(0,5,0)  MaxDistance=1e+03  AlwaysOnTop=True  Adornee=nil
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    UICorner "UICorner"  CornerRadius={0,12}
+  TextLabel "Title"  size={0.9,0},{0.55,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="PREMIUM CRATE"  font=FredokaOne/400  scaled  tc=#ffffff
+    UIGradient "UIGradient"  Color=[0:#fe0a00 0.16:#ff9d00 0.32:#ffff00 0.48:#00ff00 0.64:#00aaff 0.8:#ff55ff 1:#aa00ff]  Rotation=0  Transparency=[0:0 1:0]
+
+==== Workspace.Auras.Premium.Box.Gui3  (3 descendants)
+BillboardGui "Gui3"  size={10,0},{3,0}  Enabled=False  Size={10,0},{3,0}  StudsOffset=(0,12,0)  MaxDistance=1e+03  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={0.9,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="All rolls have a standard predetermined order to comply with..."  font=FredokaOne/400  scaled  tc=#ffffff
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    UICorner "UICorner"  CornerRadius={0,12}
+
+==== Workspace.Auras.Normal.Box.Gui2  (9 descendants)
+BillboardGui "Gui2"  size={10,0},{6,0}  Enabled=False  Size={10,0},{6,0}  StudsOffset=(0,7,0)  MaxDistance=1e+03  AlwaysOnTop=True  Adornee=nil
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    UICorner "UICorner"  CornerRadius={0,12}
+  Frame "List"  size={1,0},{0.9,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.04,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Common - 89%"  font=FredokaOne/400  scaled  tc=#9e9e9e
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Rare - 10%"  font=FredokaOne/400  scaled  tc=#81c784
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Epic - 1%"  font=FredokaOne/400  scaled  tc=#9575cd
+    TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  nobg  text="Legendary - 0.02%"  font=FredokaOne/400  scaled  tc=#ff8a65
+  TextLabel "Element"  size={1,0},{0.2,0}  pos={0.33,0},{0.54,0}  HIDDEN  nobg  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+
+==== Workspace.Auras.Normal.Box.Gui  (3 descendants)
+BillboardGui "Gui"  size={10,0},{2,0}  Enabled=True  Size={10,0},{2,0}  StudsOffset=(0,5,0)  MaxDistance=1e+03  AlwaysOnTop=True  Adornee=nil
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    UICorner "UICorner"  CornerRadius={0,12}
+  TextLabel "Title"  size={0.9,0},{0.55,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="NORMAL CRATE"  font=FredokaOne/400  scaled  tc=#ffffff
+
+==== Workspace.Auras.Normal.Box.Gui3  (3 descendants)
+BillboardGui "Gui3"  size={10,0},{3,0}  Enabled=False  Size={10,0},{3,0}  StudsOffset=(0,12,0)  MaxDistance=1e+03  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={0.9,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="All rolls have a standard predetermined order to comply with..."  font=FredokaOne/400  scaled  tc=#ffffff
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    UICorner "UICorner"  CornerRadius={0,12}
+
+==== ReplicatedStorage.Weapons.365674685.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/365674685/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.380204314.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/380204314/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.49052686.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/49052686/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.283756680.LocalScript.ScopeGui  (13 descendants)
+ScreenGui "ScopeGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "ScopeManager"  -> scripts/ReplicatedStorage/Weapons/283756680/LocalScript/ScopeGui/ScopeManager.client.lua  [disabled]
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "Crosshair"  size={0,0},{0,0}  pos={0.5,0},{0.5,-18}  nobg  z=4
+      Frame "TopFrame"  size={0,2},{0,15}  pos={0.5,-1},{0,-15}  bg=#ffffff  z=4
+      Frame "BottomFrame"  size={0,2},{0,15}  pos={0.5,-1},{1,0}  bg=#ffffff  z=4
+      Frame "LeftFrame"  size={0,15},{0,2}  pos={0,-15},{0.5,-1}  bg=#ffffff  z=4
+      Frame "RightFrame"  size={0,15},{0,2}  pos={1,0},{0.5,-1}  bg=#ffffff  z=4
+    Frame "LeftFrame"  size={0,214},{1,30}  pos={0,-10},{0,-10}  bg=#000000  z=2
+    Frame "RightFrame"  size={0,214},{1,30}  pos={1,-194},{0,-10}  bg=#000000  z=2
+    Frame "TopBarCover"  size={1,0},{0,36}  pos={0,0},{0,-36}  bg=#000000  z=2
+    ImageLabel "Scope"  size={0,559},{0,569}  pos={0.5,-280},{0,-10}  nobg  img=http://www.roblox.com/asset/?id=72002022
+    TextLabel "ZoomPercentLabel"  size={0,100},{0,25}  pos={0.775,50},{0.5,-100}  nobg  z=4  text="Zoom : 0%"  font=Arial/700  ts=18  tc=#ffffff
+      TextLabel "Bar"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=4  text="__________"  font=Arial/700  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.155661985.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/155661985/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.287425246.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/287425246/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.103359953.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/103359953/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.204485737.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/204485737/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.86494893.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/86494893/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.304720496.Script.DeathWarning  (4 descendants)
+BillboardGui "DeathWarning"  size={0.7,0},{0.7,0}  Enabled=False  Size={0.7,0},{0.7,0}  StudsOffset=(0,1,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Script "GuiManager"  -> scripts/ReplicatedStorage/Weapons/304720496/Script/DeathWarning/GuiManager.server.lua  [disabled]
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+  IntConstrainedValue "Count"
+  ImageLabel "Image"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=304504284  imgcol=#32ff32  imgT=0.375
+
+==== ReplicatedStorage.Weapons.304720496.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/304720496/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.147143848.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/147143848/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.51346471.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/51346471/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.315617026.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/315617026/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.69210321.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/69210321/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.226205948.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/226205948/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.280662903.Script.BlizzardGui  (4 descendants)
+ScreenGui "BlizzardGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "LocalScript"  -> scripts/ReplicatedStorage/Weapons/280662903/Script/BlizzardGui/LocalScript.client.lua  [disabled]
+  Script "Script"  -> scripts/ReplicatedStorage/Weapons/280662903/Script/BlizzardGui/Script.server.lua  [disabled]
+  Frame "Frame"  size={0,1260},{0,517}  pos={0,0},{0,0}  HIDDEN  bg=#00aaff@0.8  z=2
+  NumberValue "Timer"  Value=0
+
+==== ReplicatedStorage.Weapons.72069888.SwordScript.HelpGui  (2 descendants)
+ScreenGui "HelpGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0,260},{0,30}  pos={0.5,-130},{1,-130}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=10  text="Unleash the power of the heart!"  font=LegacyArial/400  ts=10  tc=#ff7f00
+
+==== ReplicatedStorage.Weapons.139578136.SoSGui  (6 descendants)
+ScreenGui "SoSGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SoSGuiScript"  -> scripts/ReplicatedStorage/Weapons/139578136/SoSGui/SoSGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    ImageButton "BtnSmash"  size={0,50},{0,50}  pos={0,3},{0,0}  nobg  z=2  img=http://www.roblox.com/asset/?id=138767141
+    ImageButton "BtnSpin"  size={0,50},{0,50}  pos={0,58},{0,0}  nobg  z=2  img=http://www.roblox.com/asset/?id=138767141
+    TextLabel "cdSmash"  size={0,44},{0,44}  pos={0,6},{0,2}  bg=#ffffff@0.25  text="Q"  font=SourceSansPro/400  ts=36  tc=#1b2a35
+    TextLabel "cdSpin"  size={0,44},{0,44}  pos={0,61},{0,2}  bg=#ffffff@0.25  text="E"  font=SourceSansPro/400  ts=36  tc=#1b2a35
+
+==== ReplicatedStorage.Weapons.69947367.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/69947367/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.120749528.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/120749528/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.532254782.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/532254782/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.306971294.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/306971294/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.64220933.SwordScript.HelpGui  (2 descendants)
+ScreenGui "HelpGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0,260},{0,30}  pos={0.5,-130},{1,-130}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=10  text="Unleash the power of the heart!"  font=LegacyArial/400  ts=10  tc=#ff7f00
+
+==== ReplicatedStorage.Weapons.241017568.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/241017568/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.243007180.LocalScript.AmmoDisplay  (18 descendants)
+ScreenGui "AmmoDisplay"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0,250},{0,125}  pos={1,-275},{1,-150}  nobg
+    Frame "Ammo"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      TextLabel "MagCounter"  size={0,75},{0,50}  pos={0,75},{0,70}  bg=#385488@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,10},{0,40}  pos={0,-10},{0,10}  bg=#385488@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "CounterPart"  size={1,-16},{0,40}  pos={0,5},{0,5}  nobg  z=4  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPartFx"  size={1,-16},{0,40}  pos={0,5},{0,5}  nobg  z=3  text="000"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPart"  size={0,10},{0,40}  pos={1,0},{0,0}  bg=#385488@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      TextLabel "AmmoCounter"  size={0,55},{0,40}  pos={0,10},{0,70}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,40},{0,5}  pos={0,0},{0,-5}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,10},{0,10}  pos={1,0},{0,0}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "CounterPart"  size={1,0},{0,30}  pos={0,-10},{0,3}  nobg  z=4  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPartFx"  size={1,0},{0,30}  pos={0,-10},{0,3}  nobg  z=3  text="000"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextLabel "GuiPart"  size={0,10},{0,33}  pos={0,-10},{0,0}  bg=#5e81af@0.4  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "GuiPart"  size={0,12},{0,2}  pos={0,-13},{0,-3}  bg=#333c4b@0.3  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        ... +3 more TextLabel "GuiPart"
+    TextLabel "CurrentWeapon"  size={0,225},{0,40}  pos={0,80},{0,30}  nobg  z=3  text="Hex Spitter"  font=SourceSansPro/700  scaled  tc=#d7ebff
+
+==== ReplicatedStorage.Weapons.93136746.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/93136746/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.66416616.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/66416616/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.409745306.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/409745306/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.54130559.SpecialGui  (4 descendants)
+ScreenGui "SpecialGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "SpecialGuiScript"  -> scripts/ReplicatedStorage/Weapons/54130559/SpecialGui/SpecialGuiScript.client.lua
+  Frame "Frame"  size={0,110},{0,50}  pos={0.5,-55},{0.8,0}  nobg
+    TextButton "Button"  size={0,50},{0,50}  pos={0.5,-60},{0,0}  anchor=(0.5,0)  bg=#ffffff  text="Q"  font=GothamSSm/900  ts=28  tc=#000000
+      TextLabel "TextLabel"  size={0,0},{0,50}  pos={1,20},{0.5,0}  anchor=(0,0.5)  nobg  text="Special Ability"  font=GothamSSm/900  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Death  (3 descendants)
+BillboardGui "Death"  size={8,0},{4,0}  Enabled=True  Size={8,0},{4,0}  StudsOffset=(0,3.2,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Info"  size={1,120},{0.18,2}  pos={0,-60},{0.34,0}  nobg
+    TextLabel "Label"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="Killed by SirMing"  font=Arial/700  scaled  tc=#00ffff
+      TextLabel "Shadow"  size={1,0},{1,0}  pos={0,1},{0,1}  nobg  text="Killed by SirMing"  font=Arial/700  scaled  tc=#000000
+
+==== ReplicatedStorage.Auras.Lightning.ProfileGui  (5 descendants)
+BillboardGui "ProfileGui"  size={8,80},{1.2,12}  Enabled=True  Size={8,80},{1.2,12}  StudsOffset=(0,0,0)  MaxDistance=50  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={1,0},{0.65,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=2  text="Lightning"  font=SourceSansPro/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+  TextLabel "Description"  size={1,0},{0.35,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=2  text="1 in 497,664"  font=GothamSSm/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Auras.Dimension.ProfileGui  (5 descendants)
+BillboardGui "ProfileGui"  size={8,80},{1.2,12}  Enabled=True  Size={8,80},{1.2,12}  StudsOffset=(0,0,0)  MaxDistance=50  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={1,0},{0.65,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=2  text="Dimension"  font=SourceSansPro/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+  TextLabel "Description"  size={1,0},{0.35,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=2  text="1 in 98,304"  font=GothamSSm/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "Gui" under Workspace: 16 copies
+BillboardGui "Gui" under Workspace: 4 copies
+BillboardGui "ProfileGui" under ReplicatedStorage: 37 copies

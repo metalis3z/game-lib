@@ -1,0 +1,119 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== ReplicatedFirst.JoinScript.UI  (92 descendants)
+ScreenGui "UI"  Enabled=True  DisplayOrder=10000  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Backpack"  size={1,0},{1,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+    Frame "Backdrop"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#b4b4b4@0.5  z=0
+    LocalScript "Backpack"  -> scripts/ReplicatedFirst/JoinScript/UI/Backpack/Backpack.client.lua
+    Frame "Slots"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      UIListLayout "ListSlots"  FillDirection=0  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      TextButton "Template"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "Index"  size={0.2,0},{0.2,0}  pos={0.03,2},{0.97,-2}  anchor=(0,1)  bg=#aaaaaa  text="1"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+        Frame "TextHover"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        ImageLabel "ToolIcon"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg
+        TextLabel "ToolName"  size={2,0},{0.17,0}  pos={0.1,0},{0.475,0}  anchor=(0,0.5)  nobg  text="Tool"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+        ImageLabel "SelectionOutline"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://4331165254
+    UIScale "UIScale"  Scale=0.133
+  Frame "Chat"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    LocalScript "Chat"  -> scripts/ReplicatedFirst/JoinScript/UI/Chat/Chat.client.lua
+    TextBox "ChatBar"  size={1,-3},{0,15}  pos={1,0},{1,0}  anchor=(1,0)  nobg  z=3  text=""  font=SourceSansPro/700  ts=15  tc=#000000
+      Frame "FocusBackdrop"  size={1,3},{0,3}  pos={0,-3},{1,3}  HIDDEN  bg=#404040  z=2
+    Frame "ChatOutput"  size={1,0},{0,96}  pos={0,23},{0,29}  nobg
+      UIListLayout "Stream"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+    Frame "MainBackdrop"  size={1,0},{0,20}  pos={0,0},{1,0}  bg=#404040
+    Folder "Utility"
+      ModuleScript "LinkedList"  -> scripts/ReplicatedFirst/JoinScript/UI/Chat/Utility/LinkedList.lua
+      Frame "MessageTemplate"  size={0,0},{0,16}  pos={0,0},{0,0}  bg=#999999@0.6
+        TextLabel "Message"  size={0,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=ComicNeueAngular/400  ts=16  tc=#ffffff
+        TextLabel "PlayerName"  size={0,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=ComicNeueAngular/400  ts=16  tc=#000000
+        UIListLayout "AutoLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      ModuleScript "RobloxChatMount"  -> scripts/ReplicatedFirst/JoinScript/UI/Chat/Utility/RobloxChatMount.lua
+  UIPadding "ChatPadding"  PaddingTop={0,0}  PaddingBottom={0,20}  PaddingLeft={0,0}  PaddingRight={0,0}
+  LocalScript "ConsoleTweaks"  -> scripts/ReplicatedFirst/JoinScript/UI/ConsoleTweaks.client.lua
+  Frame "GameJoin"  size={0.6,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#b4b4b4@0.5
+    TextLabel "Message"  size={1,0},{0.125,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Connecting to server..."  font=ComicNeueAngular/400  scaled  tc=#ffffff
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+    TextLabel "ExitOverride"  size={1,0},{0.25,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  text="You are now being returned to the main menu.\nPlease hold..."  font=ComicNeueAngular/400  scaled  tc=#ffffff
+  Frame "Health"  size={0,66},{0,137}  pos={1,-31},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg
+    LocalScript "Health"  -> scripts/ReplicatedFirst/JoinScript/UI/Health/Health.client.lua
+    Frame "HealthBar"  size={0,12},{0,112}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ff0000
+      Frame "HealthGauge"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#81c516
+    TextLabel "HealthLabel"  size={1,0},{0,24}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  text="Health"  font=ComicNeueAngular/400  scaled  tc=#0000ff
+  ImageLabel "HelpWindow"  size={0.8,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=5  img=rbxassetid://1041546985
+    ImageLabel "Help"  size={1,-8},{1,-36}  pos={0,4},{0,31}  bg=#ffffff  img=rbxassetid://1041647615
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.75
+    TextLabel "Title"  size={0.9,-10},{0,30}  pos={0,7},{0,2}  nobg  z=2  text="ROBLOX Help"  font=Arial/700  ts=14  tc=#000000
+      TextLabel "Stroke"  size={1,0},{1,0}  pos={0,-1},{0,-1}  nobg  z=-1000  text="ROBLOX Help"  font=Arial/700  ts=14  tc=#ffffff
+    ImageButton "Close"  size={0,22},{0,22}  pos={1,-5},{0,5}  anchor=(1,0)  nobg  img=rbxassetid://1041651899
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+  LocalScript "Messages"  -> scripts/ReplicatedFirst/JoinScript/UI/Messages.client.lua
+    TextLabel "Hint"  size={1,0},{0,20}  pos={0,0},{1,0}  anchor=(0,1)  bg=#000000  text=""  font=ComicNeueAngular/400  ts=16  tc=#e1e1e1
+    TextLabel "Message"  size={1,0},{1,36}  pos={0,0},{0,-36}  HIDDEN  bg=#999999@0.5  text=""  font=ComicNeueAngular/400  ts=18  tc=#ffffff
+    TextLabel "Player"  size={0.25,0},{0.25,0}  pos={0,30},{0,40}  bg=#999999@0.5  z=10  text="Test"  font=ComicNeueAngular/400  ts=18  tc=#ffffff
+  ImageLabel "Mouse"  size={0,80},{0,80}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=100  img=rbxassetid://334630296
+    LocalScript "ClickToMove"  -> scripts/ReplicatedFirst/JoinScript/UI/Mouse/ClickToMove.client.lua
+    LocalScript "Mouse"  -> scripts/ReplicatedFirst/JoinScript/UI/Mouse/Mouse.client.lua
+  Frame "PlayerList"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Backdrop"  size={0,10},{0,10}  pos={1,-10},{0,10}  anchor=(1,0)  bg=#999999@0.4
+    Frame "Container"  size={0.165,0},{1,0}  pos={1,-10},{0,10}  nobg
+      UIAspectRatioConstraint "AspectRatio"  AspectRatio=3
+    LocalScript "PlayerList"  -> scripts/ReplicatedFirst/JoinScript/UI/PlayerList/PlayerList.client.lua
+    ScreenGui "Templates"  Enabled=False  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+      Frame "BaseGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        Frame "Footer"  size={1,0},{0.165,0}  pos={0,0},{0,0}  HIDDEN  nobg
+        Frame "Header"  size={1,0},{0.333,0}  pos={0,0},{0,0}  nobg
+          TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,0}  anchor=(1,0)  nobg  z=2  text="Player List"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+          Frame "Stats"  size={0.75,0},{1,0}  pos={0,0},{0,0}  nobg
+          Frame "TeamUnderline"  size={1,-4},{0,1}  pos={-1,2},{0.875,0}  HIDDEN  bg=#ffffff  z=2
+        UIListLayout "ListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      Frame "BasePlayerLbl"  size={1,0},{0.333,0}  pos={0,0},{0,0}  nobg
+        TextLabel "PlayerName"  size={1,0},{1,0}  pos={0,0},{0,0}  anchor=(1,0)  nobg  z=2  text="OnlyTwentyCharacters"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+        Frame "Stats"  size={0.75,0},{1,0}  pos={0,0},{0,0}  nobg
+      TextLabel "BaseStat"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="0"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+  Frame "SafeChat"  size={1,0},{1,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+    UIAspectRatioConstraint "AspectRatio"  AspectRatio=1.33
+    ImageButton "ChatButton"  size={0,32},{0,32}  pos={0.0202,0},{0.778,0}  anchor=(0,1)  nobg  img=rbxassetid://991182833
+      Sound "Click"
+      ImageLabel "Hint"  size={0.75,0},{0.75,0}  pos={1,5},{0,0}  anchor=(0.5,0.75)  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Help/XButtonDark@2x.png
+    LocalScript "SafeChat"  -> scripts/ReplicatedFirst/JoinScript/UI/SafeChat/SafeChat.client.lua
+    Folder "Templates"
+      Frame "TempBranch"  size={0,140},{0,24}  pos={1,5},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=2
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,5}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+      TextButton "TempButton"  size={0,140},{0,24}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff  z=2  text="ROOT"  font=ComicNeueAngular/400  ts=12  tc=#000000
+  Frame "Topbar"  size={0,100},{0,20}  pos={0,80},{0,0}  nobg
+    UIListLayout "ButtonLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+    UIScale "ButtonScale"  Scale=1.44
+    ModuleScript "Config"  -> scripts/ReplicatedFirst/JoinScript/UI/Topbar/Config.lua
+    LocalScript "Topbar"  -> scripts/ReplicatedFirst/JoinScript/UI/Topbar/Topbar.client.lua
+  Frame "ZoomControls"  size={0,70},{0,70}  pos={1,0},{1,0}  anchor=(1,1)  nobg
+    ImageLabel "FirstPersonIndicator"  size={0,168},{0,42}  pos={1,0},{0,-97}  anchor=(1,0)  HIDDEN  nobg  z=2  img=rbxassetid://598702035
+    ImageButton "RotateDown"  size={0,35},{0,35}  pos={0,0},{0,35}  nobg  z=2  rot=-180  img=rbxassetid://598662248
+    ImageButton "RotateUp"  size={0,35},{0,35}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://598662248
+    LocalScript "ZoomControls"  -> scripts/ReplicatedFirst/JoinScript/UI/ZoomControls/ZoomControls.client.lua
+    ImageButton "ZoomIn"  size={0,35},{0,35}  pos={0,35},{0,0}  nobg  z=2  img=rbxassetid://598663795
+      Frame "Lock"  size={0,35},{0,35}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff@0.5  z=3
+    ImageButton "ZoomOut"  size={0,35},{0,35}  pos={0,35},{0,35}  nobg  z=2  img=rbxassetid://598665130
+      Frame "Lock"  size={0,35},{0,35}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff@0.5  z=3
+
+==== StarterPlayer.StarterPlayerScripts.HumanoidLabels.Health  (3 descendants)
+BillboardGui "Health"  size={0,96},{0,24}  Enabled=True  Size={0,96},{0,24}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "PlayerName"  size={10,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0.75)  nobg  text="CloneTrooper1019"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+  Frame "RedBar"  size={0.6,0},{0.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ff0000
+    Frame "GreenBar"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#81c516
+
+==== StarterPlayer.StarterPlayerScripts.Moon.Moon.MoonGui  (1 descendants)
+SurfaceGui "MoonGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "MoonImage"  size={2,0},{2,0}  pos={-0.5,0},{-0.5,0}  nobg  img=rbxassetid://599112257
+
+==== StarterPlayer.StarterPlayerScripts.Sky.SkyAdorn.Night  (1 descendants)
+BillboardGui "Night"  size={0,3000},{0,3000}  Enabled=True  Size={0,3000},{0,3000}  StudsOffset=(0,0,-3e+03)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "NightFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== StarterPlayer.StarterPlayerScripts.Sky.Star  (1 descendants)
+BillboardGui "Star"  size={0,3},{0,3}  Enabled=True  Size={0,3},{0,3}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Star"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+
+==== ServerScriptService.Cylinders.CylinderSurface  (2 descendants)
+SurfaceGui "CylinderSurface"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={0,20},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#535353
+  Frame "Frame"  size={0.7,0},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#535353

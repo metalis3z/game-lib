@@ -1,0 +1,968 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.GUI  (834 descendants)
+ScreenGui "GUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Bottom"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageButton "roll"  size={0.0764,0},{0.136,0}  pos={0.5,0},{0.98,0}  anchor=(0.5,0.98)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662610657
+      TextLabel "TextLabel"  size={0.8,0},{0.3,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=2  text="Roll"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "multi"  size={0.8,0},{0.3,0}  pos={0.5,0},{-0.155,0}  anchor=(0.5,0.5)  nobg  z=2  text="x2 Luck"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=27  MinTextSize=1
+    ImageButton "autoRoll"  size={0.061,0},{0.11,0}  pos={0.425,0},{0.98,0}  anchor=(0.425,0.98)  nobg  img=rbxassetid://14875105527  imgcol=#60ff7a
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662610657
+      TextLabel "TextLabel"  size={0.8,0},{0.3,0}  pos={0.511,0},{0.911,0}  anchor=(0.5,0.5)  nobg  z=2  text="Auto"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "Lock"  size={0.923,0},{1,0}  pos={0.4,0},{0.85,0}  anchor=(0.4,0.85)  HIDDEN  bg=#424242@0.1
+        ImageLabel "ImageLabel"  size={1.02,0},{0.883,0}  pos={0.35,0},{0.15,0}  anchor=(0.35,0.15)  nobg  img=rbxassetid://16707843040
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.06
+        UICorner "UICorner"  CornerRadius={0,15}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.923
+  Frame "Left"  size={0.0752,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageButton "Items"  size={0.81,0},{0.108,0}  pos={0.15,0},{0.446,0}  anchor=(0.15,0.52)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662610657
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+    ImageButton "Shop"  size={0.81,0},{0.108,0}  pos={0.15,0},{0.706,0}  anchor=(0.15,0.78)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662721226
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+    ImageButton "Inventory"  size={0.801,0},{0.112,0}  pos={0.15,0},{0.182,0}  anchor=(0.15,0.256)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662535211
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+    ImageButton "Craft"  size={0.81,0},{0.108,0}  pos={0.15,0},{0.316,0}  anchor=(0.15,0.39)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662718386
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+    ImageButton "Gifts"  size={0.81,0},{0.108,0}  pos={0.15,0},{0.575,0}  anchor=(0.15,0.65)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.683,0},{0.722,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16744114043
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+      Frame "Notice"  size={0.266,0},{0.27,0}  pos={0.746,0},{-0.00295,0}  bg=#ff0000
+        UICorner "UICorner"  CornerRadius={1,0}
+        TextLabel "Amount"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="1"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Tutorial"  size={0.81,0},{0.108,0}  pos={0.15,0},{0.836,0}  anchor=(0.15,0.91)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.746,0},{0.789,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662709252
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+  Frame "RollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000@0.5
+    Frame "Info"  size={0.25,0},{0.6,0}  pos={0.5,0},{-0.3,0}  anchor=(0.5,0.5)  nobg
+      TextLabel "Chance"  size={1.14,0},{0.109,0}  pos={0.498,0},{0.8,0}  anchor=(0.5,0.5)  nobg  text="1 in 100"  font=FredokaOne/400  scaled  tc=#737373
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "PetName"  size={0.573,0},{0.109,0}  pos={0.498,0},{0.556,0}  anchor=(0.5,0.5)  nobg  text="PetName"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "Title"  size={1.14,0},{0.109,0}  pos={0.498,0},{0.678,0}  anchor=(0.5,0.5)  nobg  text="Title"  font=FredokaOne/400  scaled  tc=#00aaff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ViewportFrame "Pet"  size={0.742,0},{0.568,0}  pos={0.5,0},{0.189,0}  anchor=(0.5,0.5)  nobg  z=0  Ambient=#c8c8c8  LightColor=#8c8c8c
+        ImageLabel "ring"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662988865
+  ImageButton "Stop"  size={0.0535,0},{0.0989,0}  pos={0.5,0},{0.779,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ImageLabel "ImageLabel"  size={0.678,0},{0.717,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16675568251
+  Frame "BottomLeft"  size={0.31,0},{0.0589,0}  pos={0.176,0},{0.92,0}  anchor=(0.5,0.5)  nobg
+    UIGridLayout "UIGridLayout"  CellSize={0.2,0},{1,0}  CellPadding={-0.09,0},{0.1,0}  FillDirectionMaxCells=0
+    ImageButton "PremiumBoost"  size={0.173,0},{0.81,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14874756830
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "TextLabel"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="x2"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "WorldBoost"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16713445176
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Text1"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1x"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Luck Boost I"  size={0.173,0},{0.81,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16692795042
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Time"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1h"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Luck Boost II"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16693437253
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Time"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1h"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Luck Boost III"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16693462602
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Time"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1h"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Rainbow Dice"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16709349641
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Time"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1h"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Golden Dice"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16709315987
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Time"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1h"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Diamond Dice"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16709335818
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Time"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text="1h"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Luck Aura"  size={0.2,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16715859004
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UIScale "UIScale"  Scale=1
+    ImageButton "Electro Bubble"  size={0.103,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16759488138
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Burst Aura"  size={0.103,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16759462844
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Shining Star"  size={0.103,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16759468828
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Foggy Aura"  size={0.103,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16759481218
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Bubble Burst"  size={0.103,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16759456037
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Recharged Aura"  size={0.103,0},{1,0}  pos={0.286,0},{0.595,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://16759492769
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Aura"  size={0.922,0},{0.348,0}  pos={0.5,0},{0.893,0}  anchor=(0.5,0.5)  nobg  z=2  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  Folder "Frames"
+    ImageLabel "Inventory"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Inventory
+      ImageButton "Equip"  size={0.24,0},{0.144,0}  pos={0.494,0},{0.953,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#85ff02
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel1"  size={0.838,0},{0.491,0}  pos={0.499,0},{0.497,0}  anchor=(0.5,0.5)  nobg  text="Equip"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextLabel "TextLabel"  size={0.838,0},{0.491,0}  pos={0.499,0},{0.467,0}  anchor=(0.5,0.5)  nobg  z=2  text="Equip"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "PetsHolder"  size={0.775,0},{0.669,0}  pos={0.107,0},{0.172,0}  bg=#b5b5b5@0.7
+        UICorner "UICorner"  CornerRadius={0.05,0}
+        ScrollingFrame "HolderScroll"  size={0.657,0},{0.955,0}  pos={0.35,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIGridLayout "UIGridLayout"  CellSize={0.27,0},{0.325,0}  CellPadding={0.06,0},{0.1,0}  FillDirectionMaxCells=0
+          ImageButton "PetTemplate"  size={0.27,0},{0.325,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1  attrs={"amount": 0.0}
+            UIScale "UIScale"  Scale=1
+            UICorner "UICorner"  CornerRadius={1,0}
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            ImageLabel "Equipped"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  img=rbxassetid://14952288106
+            ViewportFrame "SelectPet"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+          UIPadding "UIPadding"  PaddingTop={0.01,0}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+        Frame "InfoFrame"  size={0.276,0},{0.94,0}  pos={0.706,0},{0.032,0}  bg=#b5b5b5
+          UICorner "UICorner"  CornerRadius={0.1,0}
+          TextLabel "rarityShadow"  size={0.527,0},{0.164,0}  pos={0.488,0},{0.609,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#aaff00
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Rarity"  size={0.527,0},{0.164,0}  pos={0.493,0},{0.613,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "PetName"  size={0.862,0},{0.176,0}  pos={0.488,0},{0.455,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "PetNameShadow"  size={0.862,0},{0.176,0}  pos={0.502,0},{0.454,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Increase2"  size={0.475,0},{0.159,0}  pos={0.673,0},{0.782,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Increase"  size={0.475,0},{0.159,0}  pos={0.669,0},{0.776,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffaa7f
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Burger"  size={0.35,0},{0.188,0}  pos={0.0615,0},{0.686,0}  nobg  img=rbxassetid://16662610657
+          ViewportFrame "PetPreview"  size={0.797,0},{0.398,0}  pos={0.095,0},{0.0174,0}  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+          TextLabel "Amount2"  size={0.862,0},{0.134,0}  pos={0.517,0},{0.928,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.862,0},{0.134,0}  pos={0.502,0},{0.923,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#747474
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Inventory"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Inventory"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Shop"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      Frame "Frame"  size={0.115,0},{0.665,0}  pos={0.00143,0},{0.206,0}  nobg
+        ImageButton "Gamepasses"  size={0.962,0},{0.25,0}  pos={0.0625,0},{0.797,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "Placeholder"  size={0.769,0},{0.796,0}  pos={0.489,0},{0.485,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875195232
+        ImageButton "Boosts"  size={0.962,0},{0.25,0}  pos={0.0625,0},{0.797,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "Placeholder"  size={0.917,0},{0.734,0}  pos={0.5,0},{0.456,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662610657
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.03,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Shop
+      Frame "ShopHolder"  size={0.763,0},{0.686,0}  pos={0.132,0},{0.189,0}  nobg
+        ScrollingFrame "ShopScroll"  size={1.02,0},{1,0}  pos={0.00315,0},{0,0}  nobg
+          TextLabel "GamepassesLabel"  size={0.589,0},{0.145,0}  pos={0.184,0},{-0.00806,0}  nobg  text="Gamepasses"  font=FredokaOne/400  scaled  tc=#a2a2a2
+          Frame "Gamepasses"  size={0.959,0},{2.43,0}  pos={0,0},{0.17,0}  nobg
+            UIGridLayout "UIGridLayout"  CellSize={0.49,0},{0.24,0}  CellPadding={0.01,0},{0.015,0}  FillDirectionMaxCells=0
+            ImageLabel "Lucky"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#ffaa00
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="199"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.471,0},{0.33,0}  pos={0.705,0},{0.464,0}  anchor=(0.5,0.5)  nobg  text="Increases Rolling Luck"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.645,0},{0.196,0}  pos={0.602,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Lucky"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0791,0},{0.123,0}  nobg  z=2  img=rbxassetid://16691298283
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.113,0},{0,0}  nobg  img=rbxassetid://14875445894
+              StringValue "Item"  Value=""
+            ImageLabel "Longer Potions"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#ffaa00
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.0761,0},{0,0}  nobg  img=rbxassetid://14875445894
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="199"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.479,0},{0.299,0}  pos={0.705,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="Increases Potions Duriation"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.645,0},{0.196,0}  pos={0.602,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Longer Potions"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0865,0},{0.123,0}  nobg  z=2  img=rbxassetid://16691301301
+              StringValue "Item"  Value=""
+            ImageLabel "Auto Roll"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#ffaa00
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.0761,0},{0,0}  nobg  img=rbxassetid://14875445894
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="29"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.426,0},{0.318,0}  pos={0.699,0},{0.457,0}  anchor=(0.5,0.5)  nobg  text="Automatic Rolls"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.718,0},{0.196,0}  pos={0.565,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Auto Roll"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0865,0},{0.123,0}  nobg  z=2  img=rbxassetid://16691304270
+              StringValue "Item"  Value=""
+            ImageLabel "Quicker Roll"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#ffaa00
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.0761,0},{0,0}  nobg  img=rbxassetid://14875445894
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="149"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.426,0},{0.318,0}  pos={0.699,0},{0.457,0}  anchor=(0.5,0.5)  nobg  text="Dice roll 2x faster"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.718,0},{0.196,0}  pos={0.565,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Faster Rolls"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0865,0},{0.123,0}  nobg  z=2  img=rbxassetid://16736256541
+              StringValue "Item"  Value=""
+          TextLabel "GamepassesLabel"  size={0.589,0},{0.145,0}  pos={0.201,0},{1.4,0}  nobg  text="Dice"  font=FredokaOne/400  scaled  tc=#a2a2a2
+          Frame "Dice"  size={0.959,0},{2.43,0}  pos={0,0},{1.6,0}  nobg
+            UIGridLayout "UIGridLayout"  CellSize={0.49,0},{0.24,0}  CellPadding={0.01,0},{0.015,0}  FillDirectionMaxCells=0
+            ImageLabel "Rainbow Dice"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#ff2afb
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.0761,0},{0,0}  nobg  img=rbxassetid://14875445894
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="349"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.479,0},{0.299,0}  pos={0.654,0},{0.46,0}  anchor=(0.5,0.5)  nobg  text="More luck [+10] for the next 150 rolls"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.645,0},{0.196,0}  pos={0.602,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Rainbow Dice"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0865,0},{0.123,0}  nobg  z=2  img=rbxassetid://16691493012
+              StringValue "Item"  Value=""
+            ImageLabel "Diamond Dice"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#00aaff
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.0761,0},{0,0}  nobg  img=rbxassetid://14875445894
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="199"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.479,0},{0.299,0}  pos={0.705,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="More luck [+5] for the next 150 rolls"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.645,0},{0.196,0}  pos={0.602,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Diamond Dice"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0865,0},{0.123,0}  nobg  z=2  img=rbxassetid://16691493910
+              StringValue "Item"  Value=""
+            ImageLabel "Golden Dice"  size={0.49,0},{0.24,0}  pos={0.005,0},{0,0}  anchor=(0.5,0.5)  bg=#ffffff  img=rbxassetid://14875094421  imgcol=#ffaa00
+              ImageLabel "ImageLabel"  size={0.729,0},{1,0}  pos={-0.0761,0},{0,0}  nobg  img=rbxassetid://14875445894
+              ImageButton "Purchase"  size={0.474,0},{0.325,0}  pos={0.706,0},{0.882,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875552936  imgcol=#00ddff
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+                ImageLabel "Placeholder"  size={0.36,0},{0.633,0}  pos={0.269,0},{0.491,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875576419
+                TextLabel "TextLabel"  size={0.412,0},{0.612,0}  pos={0.655,0},{0.479,0}  anchor=(0.5,0.5)  nobg  text="99"  font=FredokaOne/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.426,0},{0.318,0}  pos={0.699,0},{0.457,0}  anchor=(0.5,0.5)  nobg  text="More luck [+2] for the next 50 rolls"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "TextLabel"  size={0.718,0},{0.196,0}  pos={0.565,0},{0.153,0}  anchor=(0.5,0.5)  nobg  text="Golden Dice"  font=FredokaOne/400  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "ImageLabel"  size={0.35,0},{0.736,0}  pos={0.0865,0},{0.123,0}  nobg  z=2  img=rbxassetid://16692744989
+              StringValue "Item"  Value=""
+          TextLabel "GamepassesLabel"  size={0.589,0},{0.145,0}  pos={0.477,0},{3,0}  anchor=(0.5,1)  nobg  text="⚠️Leave and Re-Join the game to claim benefits! ⚠️"  font=FredokaOne/400  scaled  tc=#ff5e00
+            UIStroke "UIStroke"  Thickness=2.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.458,0}  anchor=(0.5,0.5)  nobg  z=2  text="Exclusive Shop"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextLabel "TextLabel"  size={0.872,0},{0.556,0}  pos={0.5,0},{0.439,0}  anchor=(0.5,0.5)  nobg  z=2  text="Exclusive Shop"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+    ImageLabel "Craft"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Craft
+      Frame "Holder"  size={0.775,0},{0.669,0}  pos={0.107,0},{0.172,0}  bg=#b5b5b5@0.7
+        UICorner "UICorner"  CornerRadius={0.05,0}
+        Frame "InfoFrame"  size={0.379,0},{1,0}  pos={0.653,0},{-0.000989,0}  bg=#b5b5b5
+          UICorner "UICorner"  CornerRadius={0.1,0}
+          TextLabel "ItemName"  size={0.862,0},{0.176,0}  pos={0.506,0},{0.107,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "ItemName Shadow"  size={0.862,0},{0.176,0}  pos={0.51,0},{0.11,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Icon"  size={0.228,0},{0.185,0}  pos={0.0393,0},{0.194,0}  nobg  img=rbxassetid://16662610657
+          ViewportFrame "PetPreview"  size={0.797,0},{0.398,0}  pos={0.095,0},{0.0174,0}  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+          ImageButton "Craft"  size={0.787,0},{0.207,0}  pos={0.514,0},{0.894,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#85ff02
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+            TextLabel "TextLabel1"  size={0.838,0},{0.491,0}  pos={0.499,0},{0.497,0}  anchor=(0.5,0.5)  nobg  text="Craft"  font=FredokaOne/400  scaled  tc=#000000
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            TextLabel "TextLabel"  size={0.838,0},{0.491,0}  pos={0.499,0},{0.467,0}  anchor=(0.5,0.5)  nobg  z=2  text="Craft"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Description Shadow"  size={0.655,0},{0.208,0}  pos={0.612,0},{0.298,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Description"  size={0.655,0},{0.208,0}  pos={0.623,0},{0.298,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ScrollingFrame "HolderScroll"  size={0.631,0},{0.955,0}  pos={0.337,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIGridLayout "UIGridLayout"  CellSize={0.27,0},{0.325,0}  CellPadding={0.06,0},{0.1,0}  FillDirectionMaxCells=0
+          ImageButton "ItemTemplate"  size={0.27,0},{0.325,0}  pos={0.512,0},{0.196,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1  attrs={"amount": 0.0}
+            UIScale "UIScale"  Scale=1
+            UICorner "UICorner"  CornerRadius={0.1,0}
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            ImageLabel "SelectItem"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "ItemName"  size={0.906,0},{0.46,0}  pos={0.5,0},{0.77,0}  anchor=(0.5,0.5)  nobg  text="Item name"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            ImageLabel "Equipped"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  img=rbxassetid://14952288106
+          UIPadding "UIPadding"  PaddingTop={0.01,0}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Craft"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Craft"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "Requirments"  size={0.268,0},{0.26,0}  pos={0.627,0},{0.44,0}  bg=#5f5f5f@0.25
+        ScrollingFrame "ScrollingFrame"  size={0.98,0},{0.977,0}  pos={0.89,0},{0.5,0}  anchor=(0.89,0.5)  nobg
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          Frame "template"  size={1,0},{0.337,0}  pos={0,0},{-2.51e-07,0}  HIDDEN  nobg
+            TextLabel "Number"  size={0.138,0},{0.2,0}  pos={0.815,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="0/0"  font=FredokaOne/400  scaled  tc=#ff4b4b
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            TextLabel "Rarity"  size={0.476,0},{0.2,0}  pos={0.466,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Rarity"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            ViewportFrame "Icon"  size={0.196,0},{0.761,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+        UICorner "UICorner"  CornerRadius={0,15}
+    ImageLabel "Items"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Items
+      Frame "Holder"  size={0.775,0},{0.669,0}  pos={0.107,0},{0.172,0}  bg=#b5b5b5@0.7
+        UICorner "UICorner"  CornerRadius={0.05,0}
+        Frame "InfoFrame"  size={0.379,0},{1,0}  pos={0.653,0},{-0.000989,0}  bg=#b5b5b5
+          UICorner "UICorner"  CornerRadius={0.1,0}
+          TextLabel "Title Shadow"  size={0.862,0},{0.176,0}  pos={0.506,0},{0.0863,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIPadding "UIPadding"  PaddingTop={0.125,0}  PaddingBottom={0.125,0}  PaddingLeft={0.00189,0}  PaddingRight={0.00189,0}
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.22
+          TextLabel "Title"  size={0.862,0},{0.176,0}  pos={0.51,0},{0.089,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIPadding "UIPadding"  PaddingTop={0.125,0}  PaddingBottom={0.125,0}  PaddingLeft={0.00189,0}  PaddingRight={0.00189,0}
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.22
+          ImageLabel "Icon"  size={0.47,0},{0.386,0}  pos={0.53,0},{0.2,0}  anchor=(0.53,0.2)  nobg  img=rbxassetid://16662610657
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.801
+          ViewportFrame "PetPreview"  size={0.797,0},{0.398,0}  pos={0.095,0},{0.0174,0}  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+          ImageButton "Use"  size={0.787,0},{0.207,0}  pos={0.514,0},{0.894,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#85ff02
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+            TextLabel "TextLabel1"  size={0.838,0},{0.491,0}  pos={0.499,0},{0.497,0}  anchor=(0.5,0.5)  nobg  text="Use"  font=FredokaOne/400  scaled  tc=#000000
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            TextLabel "TextLabel"  size={0.838,0},{0.491,0}  pos={0.499,0},{0.467,0}  anchor=(0.5,0.5)  nobg  z=2  text="Use"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Description Shadow"  size={0.893,0},{0.208,0}  pos={0.505,0},{0.523,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIPadding "UIPadding"  PaddingTop={0.305,0}  PaddingBottom={0.305,0}  PaddingLeft={0.0047,0}  PaddingRight={0.0047,0}
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.82
+          TextLabel "Description"  size={0.893,0},{0.208,0}  pos={0.519,0},{0.523,0}  anchor=(0.5,0.5)  nobg  z=2  text="???"  font=FredokaOne/400  scaled  tc=#000000
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIPadding "UIPadding"  PaddingTop={0.305,0}  PaddingBottom={0.305,0}  PaddingLeft={0.0047,0}  PaddingRight={0.0047,0}
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.82
+          TextLabel "You Have"  size={0.902,0},{0.208,0}  pos={0.498,0},{0.685,0}  anchor=(0.5,0.5)  nobg  z=3  text="???"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ScrollingFrame "HolderScroll"  size={0.631,0},{0.955,0}  pos={0.337,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIGridLayout "UIGridLayout"  CellSize={0.27,0},{0.325,0}  CellPadding={0.06,0},{0.1,0}  FillDirectionMaxCells=0
+          ImageButton "ItemTemplate"  size={0.27,0},{0.325,0}  pos={0.512,0},{0.196,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1  attrs={"amount": 0.0}
+            UIScale "UIScale"  Scale=1
+            UICorner "UICorner"  CornerRadius={0.1,0}
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            ImageLabel "SelectItem"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "ItemName"  size={0.906,0},{0.32,0}  pos={0.5,0},{0.197,0}  anchor=(0.5,0.5)  nobg  text="Item name"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            TextLabel "Amount"  size={0.899,0},{0.32,0}  pos={0.497,0},{0.811,0}  anchor=(0.5,0.5)  nobg  text="x1"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIPadding "UIPadding"  PaddingTop={0.01,0}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Items"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Items"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Tutorial"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Tutorial
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Tutorial"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Tutorial"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageButton "Arrow Right"  size={0.315,0},{0.175,0}  pos={0.762,0},{0.826,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#85ff02
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        ImageLabel "ImageLabel"  size={0.225,0},{0.563,0}  pos={0.386,0},{0.207,0}  nobg  img=rbxassetid://16708366980
+      ImageButton "Arrow Left"  size={0.291,0},{0.175,0}  pos={0.24,0},{0.826,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#85ff02
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        ImageLabel "ImageLabel"  size={0.225,0},{0.563,0}  pos={0.386,0},{0.207,0}  nobg  img=rbxassetid://16708373279
+      TextLabel "Description"  size={0.655,0},{0.208,0}  pos={0.499,0},{0.634,0}  anchor=(0.5,0.5)  nobg  z=2  text="Description"  font=FredokaOne/400  scaled  tc=#000000
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "Description Shadow"  size={0.655,0},{0.208,0}  pos={0.498,0},{0.632,0}  anchor=(0.5,0.5)  nobg  z=3  text="Description"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Img"  size={0.531,0},{0.353,0}  pos={0.232,0},{0.177,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+    ImageLabel "Index"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Index
+      Frame "PetsHolder"  size={0.775,0},{0.669,0}  pos={0.107,0},{0.172,0}  bg=#b5b5b5@0.7
+        UICorner "UICorner"  CornerRadius={0.05,0}
+        ScrollingFrame "HolderScroll"  size={0.968,0},{0.955,0}  pos={0.506,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          ImageButton "PetTemplate"  size={0.27,0},{0.325,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1  attrs={"amount": 0.0}
+            UIScale "UIScale"  Scale=1
+            UICorner "UICorner"  CornerRadius={1,0}
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            ImageLabel "Owns"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://16717450005
+            ViewportFrame "SelectPet"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+            TextLabel "Rarity"  size={1,0},{0.3,0}  pos={0,0},{0.7,0}  nobg  z=5  text="1/100"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIPadding "UIPadding"  PaddingTop={0.01,0}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+          Frame "Basic"  size={1,0},{5.04,0}  pos={0.5,0},{-1.85,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "Title"  size={1,0},{0.0377,0}  pos={0.00928,0},{-0.0115,0}  nobg  text="Basic"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Container"  size={1,0},{0.95,0}  pos={0,0},{0.05,0}  nobg
+              UIGridLayout "UIGridLayout"  CellSize={0.187,0},{0.0685,0}  CellPadding={0.03,0},{0.015,0}  FillDirectionMaxCells=0
+          Frame "Desert"  size={1,0},{0.614,0}  pos={0.5,0},{0.535,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "Title"  size={1,0},{0.255,0}  pos={0,0},{0.0789,0}  nobg  text="Desert"  font=FredokaOne/400  scaled  tc=#ffaa7f
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Container"  size={1,0},{0.521,0}  pos={0,0},{0.4,0}  nobg
+              UIGridLayout "UIGridLayout"  CellSize={0.187,0},{1,0}  CellPadding={0.03,0},{0.015,0}  FillDirectionMaxCells=0
+          Frame "Snow"  size={1,0},{0.614,0}  pos={0.5,0},{0.535,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "Title"  size={1,0},{0.255,0}  pos={0,0},{0.0789,0}  nobg  text="Snow"  font=FredokaOne/400  scaled  tc=#b4b4b4
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Container"  size={1,0},{0.521,0}  pos={0,0},{0.4,0}  nobg
+              UIGridLayout "UIGridLayout"  CellSize={0.187,0},{1,0}  CellPadding={0.03,0},{0.015,0}  FillDirectionMaxCells=0
+          Frame "Cave"  size={1,0},{0.614,0}  pos={0.5,0},{0.535,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "Title"  size={1,0},{0.255,0}  pos={0,0},{0.0789,0}  nobg  text="Cave"  font=FredokaOne/400  scaled  tc=#303030
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Container"  size={1,0},{0.521,0}  pos={0,0},{0.4,0}  nobg
+              UIGridLayout "UIGridLayout"  CellSize={0.187,0},{1,0}  CellPadding={0.03,0},{0.015,0}  FillDirectionMaxCells=0
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Index"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Index"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Gifts"  size={0.563,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageLabel "Title"  size={0.338,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "Rewards"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Free Gifts"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "Rewards"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Free Gifts"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageButton "Close"  size={0.109,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.Gifts
+      ImageButton "UnlockAllPrompt"  size={0.304,0},{0.168,0}  pos={0.712,0},{0.0331,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#85ff02
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        ImageLabel "ImageLabel"  size={0.292,0},{0.592,0}  pos={0.212,0},{0.474,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662610657
+        TextLabel "TextLabel"  size={0.61,0},{0.374,0}  pos={0.618,0},{0.454,0}  anchor=(0.5,0.5)  nobg  z=2  text="Buy All"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextLabel "TextLabel"  size={0.61,0},{0.374,0}  pos={0.618,0},{0.477,0}  anchor=(0.5,0.5)  nobg  text="Buy All"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "GiftsHolder"  size={0.803,0},{0.704,0}  pos={0.5,0},{0.521,0}  anchor=(0.5,0.5)  bg=#ffffff
+        UIGridLayout "UIGridLayout"  CellSize={0.233,0},{0.33,0}  CellPadding={0.01,0},{0.02,0}  FillDirectionMaxCells=0
+        ImageButton "Gift1"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="0:45"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.397,0},{0.322,0}  pos={0.488,0},{0.319,0}  nobg  z=3  text="+150"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.109,0},{0.18,0}  nobg  img=rbxassetid://14873954418
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+        ImageButton "Gift2"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="1:30"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.397,0},{0.322,0}  pos={0.429,0},{0.318,0}  nobg  z=3  text="+1"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.143,0},{0.18,0}  nobg  img=rbxassetid://14875195232
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+        ImageButton "Gift3"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="4:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.314,0},{0.322,0}  pos={0.495,0},{0.303,0}  nobg  z=3  text="+1k"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.121,0},{0.18,0}  nobg  img=rbxassetid://14873954418
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+        ImageButton "Gift4"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="9:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.397,0},{0.322,0}  pos={0.441,0},{0.303,0}  nobg  z=3  text="+1"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.453,0},{0.598,0}  pos={0.0768,0},{0.164,0}  nobg  img=rbxassetid://14874003467
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.915
+        ImageButton "Gift5"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="14:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.322,0},{0.322,0}  pos={0.488,0},{0.336,0}  nobg  z=3  text="x28"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.509,0},{0.657,0}  pos={0.0588,0},{0.108,0}  nobg  img=rbxassetid://14942730268
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.936
+        ImageButton "Gift6"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="19:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.397,0},{0.322,0}  pos={0.501,0},{0.303,0}  nobg  z=3  text="+60k"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.143,0},{0.161,0}  nobg  img=rbxassetid://14873954418
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+        ImageButton "Gift7"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="29:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.397,0},{0.322,0}  pos={0.465,0},{0.31,0}  nobg  z=3  text="+3"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.397,0},{0.522,0}  pos={0.172,0},{0.195,0}  nobg  img=rbxassetid://14875195232
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.919
+        ImageButton "Gift8"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="44:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.343,0},{0.421,0}  pos={0.493,0},{0.287,0}  nobg  z=3  text="+1 Equip"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.122,0},{0.195,0}  nobg  img=rbxassetid://14930903179
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+        ImageButton "Gift9"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="59:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.397,0},{0.322,0}  pos={0.483,0},{0.303,0}  nobg  z=3  text="+2"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.446,0},{0.53,0}  pos={0.109,0},{0.191,0}  nobg  img=rbxassetid://14874003467
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.02
+        ImageButton "Gift10"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="1:14:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.347,0},{0.322,0}  pos={0.52,0},{0.318,0}  nobg  z=3  text="+10"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.143,0},{0.195,0}  nobg  img=rbxassetid://14875195232
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+        ImageButton "Gift11"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="1:29:29"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.342,0},{0.322,0}  pos={0.495,0},{0.303,0}  nobg  z=3  text="x45"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.509,0},{0.724,0}  pos={0.0259,0},{0.0769,0}  nobg  img=rbxassetid://14942805158
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.849
+        ImageButton "Gift12"  size={0,100},{0,100}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874992611  imgcol=#e3e3e3
+          UIScale "UIScale"  Scale=1
+          TextLabel "Countdown"  size={1,0},{0.279,0}  pos={0,0},{0.77,0}  nobg  text="1:44:59"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Amount"  size={0.345,0},{0.322,0}  pos={0.493,0},{0.303,0}  nobg  z=3  text="+1m"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#181818  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "image"  size={0.39,0},{0.522,0}  pos={0.122,0},{0.195,0}  nobg  img=rbxassetid://14873954418
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.903
+    ImageLabel "SpinFrame"  size={0.515,0},{0.634,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageLabel "Title"  size={0.311,0},{0.187,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Wheel"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Wheel"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=StarterGui.GUI.Frames.SpinFrame
+      Frame "PurchaseSpins"  size={0.333,0},{0.588,0}  pos={0.583,0},{0.225,0}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={-0.03,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        ImageButton "3"  size={0.964,0},{0.347,0}  pos={0.42,0},{0.713,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  attrs={"isOpened": false}
+          TextLabel "Amount"  size={0.437,0},{0.388,0}  pos={0.644,0},{-0.00532,0}  nobg  z=9  rot=15  text="+25"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIScale "UIScale"  Scale=1
+          TextLabel "Price"  size={0.635,0},{0.575,0}  pos={0.498,0},{0.504,0}  anchor=(0.5,0.5)  nobg  text="299"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageButton "2"  size={0.964,0},{0.347,0}  pos={0.42,0},{0.396,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  attrs={"isOpened": false}
+          TextLabel "Amount"  size={0.437,0},{0.388,0}  pos={0.662,0},{0.0154,0}  nobg  z=9  rot=15  text="+7"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIScale "UIScale"  Scale=1
+          TextLabel "Price"  size={0.635,0},{0.575,0}  pos={0.498,0},{0.504,0}  anchor=(0.5,0.5)  nobg  text="109"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageButton "1"  size={0.964,0},{0.347,0}  pos={0.42,0},{0.0787,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  attrs={"isOpened": false}
+          TextLabel "Amount"  size={0.437,0},{0.388,0}  pos={0.662,0},{-0.00532,0}  nobg  z=9  rot=15  text="+2"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIScale "UIScale"  Scale=1
+          TextLabel "Price"  size={0.635,0},{0.575,0}  pos={0.498,0},{0.504,0}  anchor=(0.5,0.5)  nobg  text="19"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageButton "4"  size={0.964,0},{0.347,0}  pos={0.42,0},{1.03,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  attrs={"isOpened": false}
+          TextLabel "Amount"  size={0.437,0},{0.388,0}  pos={0.644,0},{-0.00532,0}  nobg  z=9  rot=15  text="+100"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIScale "UIScale"  Scale=1
+          TextLabel "Price"  size={0.635,0},{0.575,0}  pos={0.498,0},{0.504,0}  anchor=(0.5,0.5)  nobg  text="999"  font=FredokaOne/400  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "SpinHolder"  size={0.415,0},{0.619,0}  pos={0.33,0},{0.517,0}  anchor=(0.5,0.5)  bg=#282828
+        UICorner "UICorner"  CornerRadius={1,0}
+        UIStroke "UIStroke"  Thickness=5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Arrow"  size={0.213,0},{0.214,0}  pos={0.488,0},{9.62e-05,0}  anchor=(0.5,0.5)  nobg  z=10  rot=-180  img=rbxassetid://13548126854
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Center"  size={0.935,0},{0.827,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6
+          Frame "5"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  rot=72
+            ImageLabel "BackgroundImage"  size={0.5,0},{0.5,0}  pos={0.5,-2},{0.5,-2}  anchor=(1,1)  nobg  z=7  img=rbxassetid://14569244400  imgcol=#ff4242
+              UIGradient "SpecialGradient"  Color=[0:#ff0004 0.0675:#ff00dd 0.313:#00f2ff 0.478:#00ff2a 0.644:#ffff00 0.919:#ff6a00 1:#ff0004]  Rotation=0  Transparency=[0:0 1:0]
+            ImageLabel "PrizeImage"  size={0.313,0},{0.483,0}  pos={0.248,0},{0.3,0}  anchor=(0.5,0.5)  nobg  z=8  rot=-50  img=rbxassetid://14875195232
+            TextLabel "PrizeAmount"  size={0.162,0},{0.115,0}  pos={0.0385,0},{0.282,0}  nobg  z=9  rot=-75  text="x3"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          Frame "4"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  rot=144
+            ImageLabel "BackgroundImage"  size={0.5,0},{0.5,0}  pos={0.5,-2},{0.5,-2}  anchor=(1,1)  nobg  z=7  img=rbxassetid://14569244400  imgcol=#ffff00
+              UIGradient "SpecialGradient"  Color=[0:#ff0004 0.0675:#ff00dd 0.313:#00f2ff 0.478:#00ff2a 0.644:#ffff00 0.919:#ff6a00 1:#ff0004]  Rotation=0  Transparency=[0:0 1:0]
+            ImageLabel "PrizeImage"  size={0.309,0},{0.447,0}  pos={0.239,0},{0.285,0}  anchor=(0.5,0.5)  nobg  z=8  rot=-50  img=rbxassetid://14873954418
+            TextLabel "PrizeAmount"  size={0.185,0},{0.122,0}  pos={0.0198,0},{0.269,0}  nobg  z=9  rot=-75  text="+???"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          Frame "2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  rot=216
+            ImageLabel "BackgroundImage"  size={0.5,0},{0.5,0}  pos={0.5,-2},{0.5,-2}  anchor=(1,1)  nobg  z=7  img=rbxassetid://14569244400  imgcol=#00aaff
+              UIGradient "SpecialGradient"  Color=[0:#ff0004 0.0675:#ff00dd 0.313:#00f2ff 0.478:#00ff2a 0.644:#ffff00 0.919:#ff6a00 1:#ff0004]  Rotation=0  Transparency=[0:0 1:0]
+            ImageLabel "PrizeImage"  size={0.343,0},{0.438,0}  pos={0.259,0},{0.297,0}  anchor=(0.5,0.5)  nobg  z=8  rot=-50  img=rbxassetid://14874003467
+            TextLabel "PrizeAmount"  size={0.185,0},{0.122,0}  pos={0.0303,0},{0.274,0}  nobg  z=9  rot=-75  text="+1"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          Frame "1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  rot=288
+            ImageLabel "BackgroundImage"  size={0.5,0},{0.5,0}  pos={0.5,-2},{0.5,-2}  anchor=(1,1)  nobg  z=7  img=rbxassetid://14569244400  imgcol=#99f800
+              UIGradient "SpecialGradient"  Color=[0:#ff0004 0.0675:#ff00dd 0.313:#00f2ff 0.478:#00ff2a 0.644:#ffff00 0.919:#ff6a00 1:#ff0004]  Rotation=0  Transparency=[0:0 1:0]
+            ImageLabel "PrizeImage"  size={0.317,0},{0.437,0}  pos={0.227,0},{0.286,0}  anchor=(0.5,0.5)  nobg  z=8  rot=-50  img=rbxassetid://14936542392
+            TextLabel "PrizeAmount"  size={0.185,0},{0.122,0}  pos={0.0228,0},{0.266,0}  nobg  z=9  rot=-75  text="FREE"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          Frame "3"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  rot=360
+            ImageLabel "BackgroundImage"  size={0.5,0},{0.5,0}  pos={0.5,-2},{0.5,-2}  anchor=(1,1)  nobg  z=7  img=rbxassetid://14569244400
+              UIGradient "SpecialGradient"  Color=[0:#ff0004 0.0675:#ff00dd 0.313:#00f2ff 0.478:#00ff2a 0.644:#ffff00 0.919:#ff6a00 1:#ff0004]  Rotation=0  Transparency=[0:0 1:0]
+            ImageLabel "PrizeImage"  size={0.349,0},{0.427,0}  pos={0.244,0},{0.28,0}  anchor=(0.5,0.5)  nobg  z=8  rot=-50  img=rbxassetid://14941689691
+            TextLabel "PrizeAmount"  size={0.185,0},{0.122,0}  pos={0.0197,0},{0.253,0}  nobg  z=9  rot=-75  text="x???"  font=FredokaOne/400  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageButton "Spin"  size={0.316,0},{0.161,0}  pos={0.331,0},{0.951,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  attrs={"isOpened": false}
+        UIScale "UIScale"  Scale=1
+        TextLabel "Price"  size={0.635,0},{0.575,0}  pos={0.498,0},{0.504,0}  anchor=(0.5,0.5)  nobg  text="Spin (0)"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Codes"  size={0.441,0},{0.529,0}  pos={0.5,0},{0.499,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageLabel "Title"  size={0.345,0},{0.207,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Codes"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel2"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Codes"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageButton "Redeem"  size={0.409,0},{0.205,0}  pos={0.501,0},{0.788,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.479,0}  anchor=(0.5,0.5)  nobg  z=4  text="Redeem"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.462,0}  anchor=(0.5,0.5)  nobg  z=4  text="Redeem"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "DescriptionShadow"  size={0.732,0},{0.275,0}  pos={0.501,0},{0.318,0}  anchor=(0.5,0.5)  nobg  z=2  text="Join our Community server to stay updated on our newest Code..."  font=FredokaOne/400  scaled  tc=#000000
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "Description"  size={0.732,0},{0.275,0}  pos={0.5,0},{0.312,0}  anchor=(0.5,0.5)  nobg  z=3  text="Join our Community server to stay updated on our newest Code..."  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextBox "RedeemCode"  size={0.765,0},{0.151,0}  pos={0.119,0},{0.497,0}  bg=#2b2b2b@0.5  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.2,0}
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=30  MinTextSize=1
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=nil
+    ImageLabel "Settings"  size={0.43,0},{0.529,0}  pos={0.5,0},{0.499,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageLabel "Title"  size={0.345,0},{0.207,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Settings"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+        TextLabel "TextLabel2"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Settings"  font=FredokaOne/400  scaled  tc=#000000
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ImageButton "SFXToggle"  size={0.321,0},{0.161,0}  pos={0.748,0},{0.285,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.479,0}  anchor=(0.5,0.5)  nobg  z=4  text="On"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "SFXShadow"  size={0.453,0},{0.16,0}  pos={0.336,0},{0.286,0}  anchor=(0.5,0.5)  nobg  z=2  text="Sound Effects"  font=FredokaOne/400  scaled  tc=#000000
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.124,0}  PaddingBottom={0.124,0}  PaddingLeft={0.00303,0}  PaddingRight={0.00303,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.25
+      TextLabel "SFX"  size={0.453,0},{0.16,0}  pos={0.335,0},{0.28,0}  anchor=(0.5,0.5)  nobg  z=3  text="Sound Effects"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.124,0}  PaddingBottom={0.124,0}  PaddingLeft={0.00303,0}  PaddingRight={0.00303,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.25
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIPadding "UIPadding"  PaddingTop={0.00565,0}  PaddingBottom={0.00565,0}  PaddingLeft={0.194,0}  PaddingRight={0.194,0}
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+        ObjectValue "Value"  Value=nil
+      ImageButton "HidePetsToggle"  size={0.321,0},{0.161,0}  pos={0.748,0},{0.484,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356  imgcol=#ff0000
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.479,0}  anchor=(0.5,0.5)  nobg  z=4  text="Off"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "MusicShadow"  size={0.409,0},{0.13,0}  pos={0.207,0},{0.671,0}  anchor=(0.5,0.5)  nobg  z=2  text="Music"  font=FredokaOne/400  scaled  tc=#000000
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.00143,0}  PaddingBottom={0.00143,0}  PaddingLeft={0.261,0}  PaddingRight={0.261,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.7
+      TextLabel "Music"  size={0.396,0},{0.131,0}  pos={0.207,0},{0.67,0}  anchor=(0.5,0.5)  nobg  z=3  text="Music"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.00422,0}  PaddingBottom={0.00422,0}  PaddingLeft={0.253,0}  PaddingRight={0.253,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.53
+      ImageButton "MusicToggle"  size={0.321,0},{0.161,0}  pos={0.746,0},{0.694,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.462,0}  anchor=(0.5,0.5)  nobg  z=4  text="On"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "HidePets"  size={0.396,0},{0.131,0}  pos={0.27,0},{0.482,0}  anchor=(0.5,0.5)  nobg  z=3  text="Hide Pets"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.00422,0}  PaddingBottom={0.00422,0}  PaddingLeft={0.0947,0}  PaddingRight={0.0947,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.53
+      TextLabel "HidePetsShadow"  size={0.402,0},{0.124,0}  pos={0.267,0},{0.487,0}  anchor=(0.5,0.5)  nobg  z=2  text="Hide Pets"  font=FredokaOne/400  scaled  tc=#000000
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.0052,0}  PaddingBottom={0.0052,0}  PaddingLeft={0.115,0}  PaddingRight={0.115,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.86
+  Frame "Dice Counter Button"  size={0.0603,0},{0.111,0}  pos={0.934,0},{0.877,0}  HIDDEN  nobg
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.976
+    ImageButton "Craft"  size={0.917,0},{0.895,0}  pos={0.7,0},{0.45,0}  anchor=(0.7,0.45)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageLabel "ImageLabel"  size={0.447,0},{0.465,0}  pos={0.488,0},{0.175,0}  anchor=(0.5,0.2)  nobg  img=rbxassetid://16709579685
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.962
+      TextLabel "Text1"  size={0.784,0},{0.248,0}  pos={0.486,0},{0.706,0}  anchor=(0.5,0.5)  nobg  z=2  text="1"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.0228,0}  PaddingBottom={0.0228,0}  PaddingLeft={0.444,0}  PaddingRight={0.444,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.16
+      TextLabel "Text2"  size={0.784,0},{0.248,0}  pos={0.486,0},{0.711,0}  anchor=(0.5,0.5)  nobg  z=2  text="1"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.0228,0}  PaddingBottom={0.0228,0}  PaddingLeft={0.444,0}  PaddingRight={0.444,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.16
+  Frame "Right"  size={0.0752,0},{1,0}  pos={0.925,0},{0,0}  nobg
+    ImageButton "Codes"  size={0.79,0},{0.108,0}  pos={0.25,0},{0.575,0}  anchor=(0.15,0.65)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.683,0},{0.722,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16755231094
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+    ImageButton "Settings"  size={0.79,0},{0.108,0}  pos={0.25,0},{0.446,0}  anchor=(0.15,0.52)  nobg  img=rbxassetid://14875105527  imgcol=#00ddff
+      ImageLabel "ImageLabel"  size={0.7,0},{0.789,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16755234179
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.01
+  Folder "Race UI"
+    ImageLabel "RaceTrack"  size={0.523,0},{0.0633,0}  pos={0.5,0},{0.98,0}  anchor=(0.5,0.98)  HIDDEN  nobg  img=rbxassetid://16764023400
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=15.2
+    ImageLabel "PlayerIcon"  size={0.0598,0},{0.11,0}  pos={0.218,0},{0.87,0}  HIDDEN  nobg  img=rbxassetid://16764050215
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ImageLabel "Arrow"  size={0.035,0},{0.0645,0}  pos={0.23,0},{0.847,0}  HIDDEN  nobg  img=rbxassetid://16764058195
+      TextLabel "Description"  size={2.67,0},{0.833,0}  pos={0.491,0},{-0.275,0}  anchor=(0.5,0.5)  nobg  z=3  text="You"  font=FredokaOne/400  scaled  tc=#ffd200
+        UIStroke "UIStroke"  Thickness=3.2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.00365,0}  PaddingBottom={0.00365,0}  PaddingLeft={0.27,0}  PaddingRight={0.27,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.21
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ImageLabel "Flag"  size={0.0387,0},{0.0645,0}  pos={0.77,0},{0.9,0}  anchor=(0.77,0.9)  HIDDEN  nobg  img=rbxassetid://16764085647
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ImageButton "End"  size={0.12,0},{0.113,0}  pos={0.843,0},{0.0323,0}  HIDDEN  nobg  img=rbxassetid://16764100167
+      TextLabel "Description"  size={2.27,0},{0.708,0}  pos={0.496,0},{0.492,0}  anchor=(0.5,0.5)  nobg  z=3  text="END"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3.9  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.00332,0}  PaddingBottom={0.00332,0}  PaddingLeft={0.363,0}  PaddingRight={0.363,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6.28
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.96
+    TextLabel "Stop-Watch"  size={0.228,0},{0.0827,0}  pos={0.499,0},{0.0727,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  text="Stop-Watch"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=4.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIPadding "UIPadding"  PaddingTop={0.00488,0}  PaddingBottom={0.00488,0}  PaddingLeft={0.0364,0}  PaddingRight={0.0364,0}
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.08
+    TextLabel "Timer"  size={0.19,0},{0.069,0}  pos={0.499,0},{0.148,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  text="0:00"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=4.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIPadding "UIPadding"  PaddingTop={0.00584,0}  PaddingBottom={0.00584,0}  PaddingLeft={0.332,0}  PaddingRight={0.332,0}
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.08
+    ImageLabel "RaceNoti"  size={0.305,0},{0.365,0}  pos={0.5,0},{0.204,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14875094421
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.5
+      UIScale "UIScale"  Scale=1
+      ImageLabel "Title"  size={0.345,0},{0.207,0}  pos={0.0203,0},{-0.0357,0}  nobg  img=rbxassetid://14874844571  imgcol=#01e6ff
+        TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Pet Race!"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+      ImageButton "Play"  size={0.441,0},{0.221,0}  pos={0.499,0},{0.766,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14874860356
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.479,0}  anchor=(0.5,0.5)  nobg  z=4  text="Play"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextLabel "TextLabel"  size={0.768,0},{0.686,0}  pos={0.5,0},{0.462,0}  anchor=(0.5,0.5)  nobg  z=4  text="Play"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3.4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIPadding "UIPadding"  PaddingTop={0.00643,0}  PaddingBottom={0.00643,0}  PaddingLeft={0.239,0}  PaddingRight={0.239,0}
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.36
+      TextLabel "Description"  size={0.732,0},{0.444,0}  pos={0.498,0},{0.392,0}  anchor=(0.5,0.5)  nobg  z=3  text="A pet race is starting! Press Play if you would like to part..."  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2.8  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIPadding "UIPadding"  PaddingTop={0.0103,0}  PaddingBottom={0.0103,0}  PaddingLeft={0.0345,0}  PaddingRight={0.0345,0}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.47
+      ImageButton "Close"  size={0.0979,0},{0.147,0}  pos={0.917,0},{0.0591,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14875119424
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.856,0},{0.845,0}  pos={0.494,0},{0.481,0}  anchor=(0.5,0.5)  nobg  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ObjectValue "Value"  Value=nil
+  Frame "Transition"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=10
+    TextLabel "Title"  size={1,0},{0.1,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  text="World display name"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=1  ApplyStrokeMode=0
+    ImageLabel "Loading"  size={0.4,0},{0.4,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16785161152  imgT=1
+    TextLabel "Bonus"  size={1,0},{0.1,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  nobg  text="+5 luck"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=1  ApplyStrokeMode=0
+
+==== StarterGui.Selection Lock  (0 descendants)
+ImageLabel "Selection Lock"  size={0.0716,0},{0.132,0}  pos={0,0},{0,0}  bg=#ffffff  img=rbxassetid://16708337411
+
+==== StarterGui.Notifications  (3 descendants)
+ScreenGui "Notifications"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "List"  size={0.328,0},{0.561,0}  pos={0.494,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.06
+
+==== StarterGui.ScreenGui  (0 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+
+==== Workspace.Main Map.Leaderboards.rarestRolls.Gui  (7 descendants)
+SurfaceGui "Gui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ScrollingFrame "scroll"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "template"  size={0.97,0},{0.01,0}  pos={0,0},{0,0}  HIDDEN  bg=#a7901c
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "rank"  size={0.25,0},{1,0}  pos={0,0},{0,0}  nobg  text="#1"  font=FredokaOne/400  scaled  tc=#000000
+      TextLabel "player"  size={0.5,0},{1,0}  pos={0.25,0},{0,0}  nobg  text="CaelmDev"  font=FredokaOne/400  scaled  tc=#000000
+      TextLabel "points"  size={0.25,0},{1,0}  pos={0.75,0},{0,0}  nobg  text="1M"  font=FredokaOne/400  scaled  tc=#000000
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,8}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+
+==== Workspace.Main Map.Leaderboards.mostRolled.Gui  (7 descendants)
+SurfaceGui "Gui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ScrollingFrame "scroll"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "template"  size={0.97,0},{0.01,0}  pos={0,0},{0,0}  HIDDEN  bg=#a7901c
+      UICorner "UICorner"  CornerRadius={0,8}
+      TextLabel "rank"  size={0.25,0},{1,0}  pos={0,0},{0,0}  nobg  text="#1"  font=FredokaOne/400  scaled  tc=#000000
+      TextLabel "player"  size={0.5,0},{1,0}  pos={0.25,0},{0,0}  nobg  text="CaelmDev"  font=FredokaOne/400  scaled  tc=#000000
+      TextLabel "points"  size={0.25,0},{1,0}  pos={0.75,0},{0,0}  nobg  text="1M"  font=FredokaOne/400  scaled  tc=#000000
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,8}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+
+==== Workspace.Main Map.Beams.Beams.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{0.4,0}  pos={0,0},{0.62,0}  bg=#ffffff
+    UIGradient "UIGradient"  rot=-90  Color=[0:#ffff00 1:#ffff00]  Rotation=-90  Transparency=[0:0.35 0.596:1 1:1]
+
+==== Workspace.Main Map.Beams.Beams.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{0.4,0}  pos={0,0},{0.62,0}  bg=#ffffff
+    UIGradient "UIGradient"  rot=-90  Color=[0:#ffff00 1:#ffff00]  Rotation=-90  Transparency=[0:0.35 0.596:1 1:1]
+
+==== Workspace.Main Map.Index.Index.Hitbox.ChestGui  (4 descendants)
+BillboardGui "ChestGui"  size={13.5,0},{7.5,0}  Enabled=True  Size={13.5,0},{7.5,0}  StudsOffset=(0,0,0)  MaxDistance=55  AlwaysOnTop=False  Adornee=nil
+  Frame "Text"  size={1,0},{0.3,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Amount"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Index"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  UIListLayout "ListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+
+==== Workspace.Main Map.Interactions.Epic Chest.Meshes/Reward Chest.BillboardGui  (4 descendants)
+BillboardGui "BillboardGui"  size={15,0},{5,0}  Enabled=True  Size={15,0},{5,0}  StudsOffset=(0,6.21,0)  MaxDistance=50  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="GROUP CHEST"  font=FredokaOne/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=100  MinTextSize=1
+    UIGradient "UIGradient"  rot=90  Color=[0:#ffff00 1:#ff7700]  Rotation=90  Transparency=[0:0 1:0]
+
+==== Workspace.Main Map.Interactions.Epic Chest.Hitbox.ChestGui  (7 descendants)
+BillboardGui "ChestGui"  size={13.5,0},{7.5,0}  Enabled=True  Size={13.5,0},{7.5,0}  StudsOffset=(0,0,0)  MaxDistance=55  AlwaysOnTop=False  Adornee=nil
+  Frame "Text"  size={1,0},{0.3,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Amount"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="👍Like + Join  Group"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  UIListLayout "ListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+  Frame "Count_Down"  size={1,0},{0.3,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Amount"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="24:00:00"  font=FredokaOne/400  scaled  tc=#00ff51
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.Boards.R15Loader.Tags  (5 descendants)
+BillboardGui "Tags"  size={5,0},{1.5,0}  Enabled=True  Size={5,0},{1.5,0}  StudsOffset=(0,2.1,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=Workspace.Boards.R15Loader.For_The_NameTag
+  Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Extra"  size={1,0},{0.333,0}  pos={0,0},{0.333,0}  nobg  text="💸 TOP DONATOR 💸"  font=SourceSansPro/700  scaled  tc=#f0ff89
+    TextLabel "pName"  size={1,0},{0.333,0}  pos={0,0},{0.667,0}  nobg  text="Loading.."  font=SourceSansPro/700  scaled  tc=#ffffff
+      Script "Script"  -> scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua
+      UIGradient "UIGradient"  Color=[0:#ff0000 0.181:#ff8c00 0.379:#fff701 0.549:#12ff02 0.714:#00b3ff 0.897:#d500ff 1:#ff0000]  Rotation=0  Transparency=[0:0 1:0]
+
+==== Workspace.Boards.R15Loader.Tags  (5 descendants)
+BillboardGui "Tags"  size={4.31,0},{1.29,0}  Enabled=True  Size={4.31,0},{1.29,0}  StudsOffset=(0,1.81,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=Workspace.Boards.R15Loader.For_The_NameTag
+  Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Extra"  size={1,0},{0.333,0}  pos={0,0},{0.333,0}  nobg  text="💸 TOP DONATOR 💸"  font=SourceSansPro/700  scaled  tc=#f0ff89
+    TextLabel "pName"  size={1,0},{0.333,0}  pos={0,0},{0.667,0}  nobg  text="Loading.."  font=SourceSansPro/700  scaled  tc=#ffffff
+      Script "Script"  -> scripts/Workspace/Boards~2/R15Loader/Tags/Container/pName/Script.server.lua
+      UIGradient "UIGradient"  Color=[0:#ff0000 0.181:#ff8c00 0.379:#fff701 0.549:#12ff02 0.714:#00b3ff 0.897:#d500ff 1:#ff0000]  Rotation=0  Transparency=[0:0 1:0]
+
+==== Workspace.Pet Race Map.RaceSpawn.Part.BillboardGui  (2 descendants)
+BillboardGui "BillboardGui"  size={50,0},{10,0}  Enabled=True  Size={50,0},{10,0}  StudsOffset=(0,5,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Race Starting in ???"  font=FredokaOne/400  scaled  tc=#ffff00
+    UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedFirst.LoadingClient.Loading  (23 descendants)
+ScreenGui "Loading"  Enabled=True  DisplayOrder=5  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "LoadingFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1f1f1f
+    ImageLabel "Pattern"  size={5,0},{5,0}  pos={0.5,0},{0.499,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16662610657  imgcol=#000000  imgT=0.85
+    Frame "LoadingBar"  size={0.405,0},{0.0582,0}  pos={0.5,0},{0.877,0}  anchor=(0.5,0.5)  bg=#545454
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "Bar"  size={0.261,0},{1,0}  pos={0.000529,0},{-0.00404,0}  bg=#55ff00
+        UICorner "UICorner"  CornerRadius={1,0}
+      TextLabel "Percentage"  size={0.951,0},{0.745,0}  pos={0.0244,0},{0.109,0}  nobg  z=5  text="100/100%"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Title"  size={0.192,0},{0.0492,0}  pos={0.402,0},{0.783,0}  nobg  z=5  text="Loading Assets..."  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Icon"  size={0.177,0},{0.326,0}  pos={0.5,0},{0.451,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16715549234
+      UICorner "UICorner"  CornerRadius={0.1,0}
+      UIStroke "UIStroke"  Thickness=5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    TextLabel "Title"  size={1,0},{0.058,0}  pos={0,0},{0.05,0}  nobg  z=5  text="Tip: Craft Extra Pets For Boosts!"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageButton "Skip"  size={0.0914,0},{0.0675,0}  pos={0.454,0},{0.922,0}  nobg  img=rbxassetid://14874844571  imgcol=#55ff00
+      TextLabel "TextLabel"  size={0.872,0},{0.517,0}  pos={0.491,0},{0.468,0}  anchor=(0.5,0.5)  nobg  z=3  text="Skip"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.5
+      TextLabel "TextLabel2"  size={0.872,0},{0.517,0}  pos={0.499,0},{0.488,0}  anchor=(0.5,0.5)  nobg  z=2  text="Skip"  font=FredokaOne/400  scaled  tc=#000000
+        UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ServerScriptService.Engine.Scripts.PetEquip.Title  (4 descendants)
+BillboardGui "Title"  size={3.5,0},{2,0}  Enabled=True  Size={3.5,0},{2,0}  StudsOffset=(0,2,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "petName"  size={0.9,0},{0.5,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  text="Pet Name"  font=FredokaOne/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  TextLabel "rarity"  size={1,0},{0.5,0}  pos={0,0},{0.5,0}  nobg  text="0/???"  font=FredokaOne/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ServerScriptService.Engine.Scripts.TeleportHandler.CostDisplay  (3 descendants)
+BillboardGui "CostDisplay"  size={20,0},{5,0}  Enabled=True  Size={20,0},{5,0}  StudsOffset=(0,0,0)  MaxDistance=200  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Cost"  size={0.75,0},{1,0}  pos={0.26,0},{0,0}  nobg  text="?k Rolls"  font=FredokaOne/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  ImageLabel "ImageLabel"  size={0.25,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://16799984084
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "Gui" under Workspace: 10 copies
+SurfaceGui "SurfaceGui" under Workspace: 20 copies

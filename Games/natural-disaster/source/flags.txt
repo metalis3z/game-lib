@@ -1,0 +1,150 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/AutoUpdate/AutomaticUpdating.server.lua lines 39
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List.lua lines 19
+       require() with a computed / hidden argument
+[HIGH] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/reverse.spec.lua lines 2
+       require() with a computed / hidden argument
+[MED] scripts/ServerScriptService/BloxbizSDK/Ad3DClient/CharacterAd/Character/DefaultCharacter.lua lines 1
+       very long line (18015 chars, possible obfuscation)
+[MED] scripts/ServerScriptService/BloxbizSDK/AdFilter/AdBalancer.lua lines 85
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/AdFilter/InferredPlayerData.lua lines 47
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/BatchHTTP.lua lines 48,157
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/CatalogServer.lua lines 167
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/BloxbizSDK/CatalogServer/AvatarPreview.lua lines 64
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/BloxbizSDK/CatalogServer/CategoryClass.lua lines 126
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/CatalogServer/OutfitFeed.lua lines 574
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/CatalogServer/SearchModule.lua lines 80
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/PopfeedServer.lua lines 132,164,194,270,306,346,380,413 ...
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/PopfeedServer/Donations.lua lines 30
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/PromoCodes/Http.lua lines 28
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/BloxbizSDK/Utils/RBLXSerialize/Properties/SuperClassDataStatic/Data1.lua lines 1
+       very long line (199279 chars, possible obfuscation)
+[MED] scripts/ServerScriptService/BloxbizSDK/Utils/RBLXSerialize/Properties/SuperClassDataStatic/Data2.lua lines 1
+       very long line (194647 chars, possible obfuscation)
+[MED] scripts/ServerScriptService/BloxbizSDK/Utils/RBLXSerialize/Properties/SuperClassDataStatic/Data3.lua lines 1
+       very long line (159301 chars, possible obfuscation)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core.lua lines 1,176,361,401,1046
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Debug.lua lines 67
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/SupportLibrary.lua lines 441
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/SyncModule.lua lines 1589,1621,1647,1661
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Core.lua lines 179,199,287,743
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Dock/ToolInformation/[Component].client.lua lines 19
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Dock/[Component].client.lua lines 19
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Cheer@0.0.1.lua lines 264,385
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Cheer@0.0.1/SupportLibrary.lua lines 454
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_SupportLibrary@1.0.0.lua lines 454
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Try@1.0.0/SupportLibrary.lua lines 454
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SupportLibrary.lua lines 454
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule.lua lines 1358,1390,1418,1432
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule/LoadLibrary/RbxStamper.lua lines 679,685
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/Commands.lua lines 2632,2856
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/MainScript.server.lua lines 230
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1128442562  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminGUIs/MainFrame/Pages/Home/Banner/LocalScript.client.lua
+  118764786  in scripts/ServerScriptService/MainScript.server.lua
+  142785488  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating.server.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/AutoUpdate/AutomaticUpdating.server.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Core.lua
+  184766955  in scripts/ServerScriptService/MainScript.server.lua
+  2000000  in scripts/ServerScriptService/MainScript.server.lua
+  3324422106  in scripts/ServerScriptService/MainScript.server.lua, scripts/ServerScriptService/UniversalPowerUpWeatherMachine.server.lua, scripts/StarterGui/Button/Play/PutInGuiButton.client.lua, scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  454956782  in scripts/ServerScriptService/MainScript.server.lua
+  454956889  in scripts/ServerScriptService/MainScript.server.lua
+  454957071  in scripts/ServerScriptService/MainScript.server.lua
+  454957253  in scripts/ServerScriptService/MainScript.server.lua
+  454957314  in scripts/ServerScriptService/MainScript.server.lua
+  454957377  in scripts/ServerScriptService/MainScript.server.lua
+  581328195  in scripts/ServerScriptService/MainScript.server.lua
+  591522296  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522297  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522299  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522300  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522302  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522304  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522306  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522307  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522309  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522310  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522313  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522315  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522316  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522318  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  591522321  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  634643698  in scripts/ServerScriptService/MainScript.server.lua
+  66670555  in scripts/ServerScriptService/MainScript.server.lua
+  855766176  in scripts/ServerScriptService/BloxbizSDK/CatalogClient/Classes/AvatarHandler.lua, scripts/ServerScriptService/BloxbizSDK/CatalogClient/Controllers/OutfitFeedController.lua
+  855781078  in scripts/ServerScriptService/BloxbizSDK/CatalogClient/Classes/AvatarHandler.lua, scripts/ServerScriptService/BloxbizSDK/CatalogClient/Controllers/OutfitFeedController.lua
+  857927023  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageAbout.lua
+
+Outside URLs in code:
+  http://127.0.0.1:8081/popfeed/  in scripts/ServerScriptService/BloxbizSDK/PopfeedServer.lua
+  http://f3xteam.com/bt/export  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/SyncModule.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule.lua
+  http://f3xteam.com/bt/getDecalImageID/  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/SyncModule.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule.lua
+  http://f3xteam.com/bt/getFirstMeshData/  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/SyncModule.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule.lua
+  http://google.com  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule.lua
+  http://www.chipmunkav.com  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule/LoadLibrary/RbxUtility.lua
+  http://www.roblox.com/Thumbs/Avatar.ashx?x=100&y=100&Format=Png&username=  in scripts/StarterGui/MainGui/LocalGuiScript.client.lua
+  http://www.roblox.com/item.aspx?id=227509468  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Region.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Region by AxisAngle.lua
+  https://analytics-api-{GAME_ID}-{GUID}.superbiz.gg  in scripts/ServerScriptService/BloxbizSDK/InternalConfig.lua
+  https://anaminus.github.io/rbx/json/api/latest.json  in scripts/ServerScriptService/BloxbizSDK/Utils/RBLXSerialize/Properties.lua
+  https://api.styngr.com/api  in scripts/ServerScriptService/BloxbizSDK/Styngr/ServerScriptService/Modules/CloudService.lua
+  https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid=  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageSpecial.lua
+  https://blog.elttob.uk/2022/11/07/sets-efficient-topological-search.html  in scripts/ServerScriptService/BloxbizSDK/Utils/Fusion/Dependencies/updateAll.lua
+  https://bottosson.github.io/posts/oklab/  in scripts/ServerScriptService/BloxbizSDK/Utils/Fusion/Colour/Oklab.lua
+  https://create.roblox.com/store/asset/857927023/HD-Admin  in scripts/ServerScriptService/HD Admin Classic/READ_ME.lua
+  https://developer.roblox.com/en-us/api-reference/enum/AssetType  in scripts/ServerScriptService/BloxbizSDK/TrackMonetization.lua
+  https://developer.roblox.com/en-us/api-reference/enum/InfoType  in scripts/ServerScriptService/BloxbizSDK/TrackMonetization.lua
+  https://devforum.roblox.com/t/1597785/  in scripts/ServerScriptService/BloxbizSDK/CatalogClient/Classes/Slider.lua
+  https://devforum.roblox.com/t/2451549  in scripts/StarterPlayer/StarterPlayerScripts/Satchel.client.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel.lua
+  https://devforum.roblox.com/t/HD/216819  in scripts/ServerScriptService/HD Admin Classic/About.server.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ServerScriptService/BloxbizSDK/Utils/Icon.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel/Packages/_Index/legitatx_topbarplus@3.0.5/topbarplus.lua
+  https://devforum.roblox.com/t/how-do-you-find-the-side-of-a-part-using-raycasting/655452/2  in scripts/ServerScriptService/BloxbizSDK/BillboardClient.lua
+  https://devforum.roblox.com/t/how-to-check-if-were-in-daylight-savings-time/  in scripts/ServerScriptService/BloxbizSDK/AdFilter/FrequencyCapper.lua
+  https://devforum.roblox.com/t/open-source-hashlib/416732/1  in scripts/ServerScriptService/BloxbizSDK/HashLib.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ServerScriptService/BloxbizSDK/Utils/Icon.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel/Packages/_Index/legitatx_topbarplus@3.0.5/topbarplus.lua
+  https://docs.superbiz.gg/sdk-setup-updates  in scripts/ServerScriptService/BloxbizSDK/BatchHTTP/ApiKey.lua
+  https://docs.superbiz.gg/topbarplus  in scripts/ServerScriptService/BloxbizSDK/ClientInit.client.lua
+  https://eryn.io/gist/3db84579866c099cdd5bb2ff37947cec  in scripts/ServerScriptService/BloxbizSDK/Utils/Promise.lua
+  https://gist.github.com/Reselim/40d62b17d138cc74335a1b0709e19ce2  in scripts/ServerScriptService/BloxbizSDK/HashLib/Base64.lua
+  https://github.com/Egor-Skriptunoff/pure_lua_SHA/blob/master/sha2.lua  in scripts/ServerScriptService/BloxbizSDK/HashLib.lua
+  https://github.com/F3XTeam/RBX-Try-Library/blob/master/README.md  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Try.lua
+  https://github.com/RoStrap/Helper#make  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Make.lua
+  https://github.com/Roblox/roact/issues/259  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createContext.spec.lua
+  https://google.com  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/SyncModule.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ServerScriptService/BloxbizSDK/Utils/Icon/Utility.lua, scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Utility.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel/Packages/_Index/legitatx_topbarplus@3.0.5/topbarplus/Utility.lua
+  https://reactjs.org/docs/composition-vs-inheritance.html  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.lua
+  https://rostrap.github.io/Libraries/Debug/  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Debug.lua
+  https://twitter.com/sleitnick/status/1475522069198745601  in scripts/ServerScriptService/BloxbizSDK/BillboardClient/TrackInteraction.lua
+  https://www.notion.so/Bloxbiz-Developer-Docs-962006ae5c0f49a99e7cbbb46c60354e  in scripts/ServerScriptService/BloxbizSDK/ServerInit.server.lua
+  https://www.reddit.com/r/learnprogramming/comments/8sbb3v/understanding_base91_encoding/e0y85ot/  in scripts/ServerScriptService/BloxbizSDK/Utils/RBLXSerialize/base92.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId=  in scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/ClientCoreFunctions.lua
+  https://www.w3schools.com/python/ref_dictionary_update.asp  in scripts/ServerScriptService/BloxbizSDK/AdFilter/FilterUtils.lua
+  https://www.w3schools.com/python/ref_random_choices.asp  in scripts/ServerScriptService/BloxbizSDK/AdFilter/FilterUtils.lua

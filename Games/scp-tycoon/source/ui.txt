@@ -1,0 +1,540 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.InterfaceGUI  (128 descendants)
+ScreenGui "InterfaceGUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "ClaimTycoonFrame"  size={0.365,0},{0.247,0}  pos={0.317,0},{0.376,0}  HIDDEN  bg=#393939  z=500
+    UICorner "UICorner"  CornerRadius={0,25}
+    UIStroke "UIStroke"  Thickness=5  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0.892,0},{0.469,0}  pos={0.0542,0},{0.0617,0}  nobg  z=500  text="Are you sure you want to claim this tycoon?"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0.892,0},{0.157,0}  pos={0.0542,0},{0.589,0}  nobg  z=500  text="This can be changed later!"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextButton "YesButton"  size={0.188,0},{0.299,0}  pos={0.298,0},{0.886,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=5  Color=#136a30  Transparency=0  ApplyStrokeMode=1
+      UICorner "UICorner"  CornerRadius={0,25}
+      UIGradient "UIGradient"  rot=90  Color=[0:#2df871 1:#1eaa4d]  Rotation=90  Transparency=[0:0 1:0]
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="Yes"  font=FredokaOne/400  scaled  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/LocalScript.client.lua
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/YesButton/SoundEffectHandler.client.lua
+    TextButton "NoButton"  size={0.188,0},{0.299,0}  pos={0.513,0},{0.886,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,25}
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="No"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#ff4b4e 1:#be383a]  Rotation=90  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=5  Color=#6f2022  Transparency=0  ApplyStrokeMode=1
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/NoButton/LocalScript.client.lua
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/NoButton/SoundEffectHandler.client.lua
+    NumberValue "TycoonNumber"  Value=1
+    LocalScript "PopUp"  -> scripts/StarterGui/InterfaceGUI/ClaimTycoonFrame/PopUp.client.lua
+  Frame "CashLabelFrame"  size={0.156,0},{0.0967,0}  pos={0.826,0},{0.45,0}  bg=#313131  z=500
+    UICorner "UICorner"  CornerRadius={0,25}
+    UIStroke "UIStroke"  Thickness=5  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextLabel "CashLabel"  size={0.923,0},{0.755,0}  pos={0.0484,0},{0.113,0}  nobg  z=500  text="Cash: 0"  font=Fondamento/700  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#212121  Transparency=0  ApplyStrokeMode=0
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/CashLabelFrame/CashLabel/LocalScript.client.lua
+    TextButton "GetMoreButton"  size={0.238,0},{0.817,0}  pos={-0.313,0},{0.0757,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=5  Color=#212121  Transparency=0  ApplyStrokeMode=1
+      UICorner "UICorner"  CornerRadius={0,25}
+      UIGradient "UIGradient"  rot=90  Color=[0:#393939 1:#2d2d2d]  Rotation=90  Transparency=[0:0 1:0]
+      TextLabel "TextLabel"  size={0.811,0},{0.853,0}  pos={0.09,0},{0.05,0}  nobg  text="+"  font=FredokaOne/400  scaled  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/CashLabelFrame/GetMoreButton/LocalScript.client.lua
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/CashLabelFrame/GetMoreButton/SoundEffectHandler.client.lua
+  Frame "BuyCashFrame"  size={0.365,0},{0.537,0}  pos={0.317,0},{0.23,0}  HIDDEN  bg=#303030  z=500
+    UICorner "UICorner"  CornerRadius={0,25}
+    UIStroke "UIStroke"  Thickness=5  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0.892,0},{0.18,0}  pos={0.0542,0},{0.0501,0}  nobg  z=500  text="Buy more Cash"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextButton "CloseButton"  size={0.405,0},{0.172,0}  pos={0.297,0},{0.912,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,25}
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="Close"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#ff4b4e 1:#be383a]  Rotation=90  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=5  Color=#6f2022  Transparency=0  ApplyStrokeMode=1
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/BuyCashFrame/CloseButton/LocalScript.client.lua
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/BuyCashFrame/CloseButton/SoundEffectHandler.client.lua
+    NumberValue "TycoonNumber"  Value=1
+    TextButton "CashButton"  size={0.281,0},{0.172,0}  pos={0.202,0},{0.343,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,25}
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="+1K"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#d4d4d4 1:#8a8a8a]  Rotation=90  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=5  Color=#6f6f6f  Transparency=0  ApplyStrokeMode=1
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton/SoundEffectHandler.client.lua
+    TextButton "CashButton"  size={0.281,0},{0.172,0}  pos={0.2,0},{0.583,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,25}
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="+100K"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#d4d4d4 1:#8a8a8a]  Rotation=90  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=5  Color=#6f6f6f  Transparency=0  ApplyStrokeMode=1
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton~2/SoundEffectHandler.client.lua
+    TextButton "CashButton"  size={0.281,0},{0.172,0}  pos={0.513,0},{0.343,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,25}
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="+10K"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#d4d4d4 1:#8a8a8a]  Rotation=90  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=5  Color=#6f6f6f  Transparency=0  ApplyStrokeMode=1
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton~3/SoundEffectHandler.client.lua
+    TextButton "CashButton"  size={0.281,0},{0.172,0}  pos={0.511,0},{0.583,0}  bg=#ffffff  z=500  text=""  font=FredokaOne/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,25}
+      TextLabel "TextLabel"  size={0.811,0},{0.82,0}  pos={0.09,0},{0.08,0}  nobg  text="+1M"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#d4d4d4 1:#8a8a8a]  Rotation=90  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=5  Color=#6f6f6f  Transparency=0  ApplyStrokeMode=1
+      LocalScript "SoundEffectHandler"  -> scripts/StarterGui/InterfaceGUI/BuyCashFrame/CashButton~4/SoundEffectHandler.client.lua
+  Frame "GuideFrame"  size={0.301,0},{0.536,0}  pos={0.349,0},{0.232,0}  HIDDEN  bg=#303030
+    UICorner "UICorner"  CornerRadius={0,15}
+    UIStroke "UIStroke"  Thickness=7.8  Color=#191919  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0.481,0},{0.151,0}  pos={0.26,0},{0.0574,0}  nobg  text="Guide"  font=Fondamento/700  scaled  tc=#ffffff
+    TextButton "NextButton"  size={0.135,0},{0.151,0}  pos={0.512,0},{0.813,0}  bg=#383838  text=">"  font=SourceSansPro/700  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "BackButton"  size={0.135,0},{0.151,0}  pos={0.351,0},{0.813,0}  bg=#383838  text="<"  font=SourceSansPro/700  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,8}
+    LocalScript "Handler"  -> scripts/StarterGui/InterfaceGUI/GuideFrame/Handler.client.lua
+    Folder "Frames"
+      Frame "1"  size={0.934,0},{0.566,0}  pos={0.0385,0},{0.208,0}  nobg
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.501,0}  nobg  text="1. Claim a tycoon"  font=Fondamento/700  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.106,0}  nobg  text="This game is a simple fps tycoon shooter"  font=Fondamento/400  scaled  tc=#ffffff
+      Frame "2"  size={0.934,0},{0.566,0}  pos={0.0385,0},{0.208,0}  HIDDEN  nobg
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.501,0}  nobg  text="2. Build up your tycoon"  font=Fondamento/700  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.106,0}  nobg  text="This game is a simple fps tycoon shooter"  font=Fondamento/400  scaled  tc=#ffffff
+      Frame "3"  size={0.934,0},{0.566,0}  pos={0.0385,0},{0.208,0}  HIDDEN  nobg
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.501,0}  nobg  text="3. Upgrade your weapons"  font=Fondamento/700  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.106,0}  nobg  text="This game is a simple fps tycoon shooter"  font=Fondamento/400  scaled  tc=#ffffff
+      Frame "4"  size={0.934,0},{0.566,0}  pos={0.0385,0},{0.208,0}  HIDDEN  nobg
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.501,0}  nobg  text="4. BATTLE!"  font=Fondamento/700  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={0.84,0},{0.243,0}  pos={0.0721,0},{0.106,0}  nobg  text="This game is a simple fps tycoon shooter"  font=Fondamento/400  scaled  tc=#ffffff
+  TextLabel "GameTextHolderLabel"  size={0.588,0},{0.0908,0}  pos={0.206,0},{0.0162,0}  nobg  text="Weclome to SCP Tycoon"  font=Fondamento/700  scaled  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/GameTextHolderLabel/LocalScript.client.lua
+    TextButton "JoinEventButton"  size={0.24,0},{0.893,0}  pos={0.38,0},{1.18,0}  HIDDEN  bg=#343434  text="Join Event"  font=Fondamento/400  scaled  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,8}
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/GameTextHolderLabel/JoinEventButton/LocalScript.client.lua
+  Frame "SideButtonsHolder"  size={0.0684,0},{0.776,0}  pos={0.00793,0},{0.112,0}  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,20}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+    Frame "OpenGunShopButtonHolder"  size={0.785,0},{0.166,0}  pos={0.107,0},{0.394,0}  bg=#313131  z=2
+      UICorner "UICorner"  CornerRadius={0,15}
+      UIStroke "UIStroke"  Thickness=5  Color=#212121  Transparency=0  ApplyStrokeMode=0
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/SideButtonsHolder/OpenGunShopButtonHolder/TextButton/LocalScript.client.lua
+      ImageLabel "ImageLabel"  size={0.785,0},{0.785,0}  pos={0.2,0},{0.101,0}  nobg  rot=-30  img=http://www.roblox.com/asset/?id=12304322040
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/SideButtonsHolder/OpenGunShopButtonHolder/LocalScript.client.lua
+  Frame "WeaponShopFrame"  size={0.341,0},{0.564,0}  pos={0.329,0},{0.217,0}  HIDDEN  bg=#313131
+    UICorner "UICorner"  CornerRadius={0,25}
+    UIStroke "UIStroke"  Thickness=7  Color=#212121  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0.552,0},{0.138,0}  pos={0.224,0},{0.0603,0}  nobg  text="Firearms Shop"  font=Fondamento/400  scaled  tc=#ffffff
+    TextButton "TextButton"  size={0.486,0},{0.0997,0}  pos={0.256,0},{0.239,0}  bg=#ffffff  text="GunName | $1500"  font=Fondamento/400  scaled  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton/LocalScript.client.lua
+    TextButton "TextButton"  size={0.486,0},{0.0997,0}  pos={0.256,0},{0.825,0}  bg=#ffffff  text="GunName | $1500"  font=Fondamento/400  scaled  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~2/LocalScript.client.lua
+    TextButton "TextButton"  size={0.486,0},{0.0997,0}  pos={0.256,0},{0.681,0}  bg=#ffffff  text="GunName | $1500"  font=Fondamento/400  scaled  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~3/LocalScript.client.lua
+    TextButton "TextButton"  size={0.486,0},{0.0997,0}  pos={0.256,0},{0.534,0}  bg=#ffffff  text="GunName | $1500"  font=Fondamento/400  scaled  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~4/LocalScript.client.lua
+    TextButton "TextButton"  size={0.486,0},{0.0997,0}  pos={0.256,0},{0.382,0}  bg=#ffffff  text="GunName | $1500"  font=Fondamento/400  scaled  tc=#000000
+      UICorner "UICorner"  CornerRadius={0,8}
+      LocalScript "LocalScript"  -> scripts/StarterGui/InterfaceGUI/WeaponShopFrame/TextButton~5/LocalScript.client.lua
+
+==== StarterGui.LoadingGUI  (9 descendants)
+ScreenGui "LoadingGUI"  Enabled=False  DisplayOrder=999999999  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#222222
+    Frame "IntroTextFrameHolder"  size={0.315,0},{0.149,0}  pos={0.342,0},{0.425,0}  nobg
+      TextLabel "TextLabel"  size={1,0},{0.885,0}  pos={-0.00171,0},{0.0514,0}  nobg  text="SCP Tycoon"  font=Fondamento/700  scaled  tc=#ffffff
+    LocalScript "LoadHandler"  -> scripts/StarterGui/LoadingGUI/Frame/LoadHandler.client.lua
+    Frame "LoadBarHolder"  size={0.249,0},{0.0403,0}  pos={0.376,0},{0.5,0}  bg=#313131
+      UICorner "UICorner"  CornerRadius={0,33333}
+      Frame "LoadBar"  size={0,0},{1,0}  pos={-0.0014,0},{0,0}  bg=#636363
+        UICorner "UICorner"  CornerRadius={0,33333}
+      TextLabel "LoadingLabel"  size={0.779,0},{1.12,0}  pos={0.109,0},{1.54,0}  nobg  text="Loading Assets (0/100)"  font=Fondamento/400  scaled  tc=#ffffff
+
+==== StarterGui.Sounds  (1 descendants)
+Folder "Sounds"
+  Sound "UI_Btn_Click"
+
+==== Workspace.Tycoons.1.Door.GUipart.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={7,0},{3,0}  Enabled=True  Size={7,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=100  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Touch to Claim"  font=FredokaOne/400  scaled  tc=#ffffff
+
+==== Workspace.Tycoons.1.BuyPads.1.BillboardGui  (4 descendants)
+BillboardGui "BillboardGui"  size={5,0},{4,0}  Enabled=True  Size={5,0},{4,0}  StudsOffset=(0,2.8,0)  MaxDistance=50  AlwaysOnTop=False  Adornee=nil
+  TextLabel "NameLabel"  size={1,0},{0.5,0}  pos={0,0},{0.5,0}  nobg  text="Dropper 2"  font=FredokaOne/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  TextLabel "PriceLabel"  size={1,0},{0.4,0}  pos={0,0},{0.2,0}  nobg  text="$0"  font=FredokaOne/400  scaled  tc=#13ff1b
+    UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.Buildings.Appartment w/abandonned car.2005 Chevrolet Impala SS.Body.Dash.Tac.Interface  (16 descendants)
+SurfaceGui "Interface"  Enabled=False  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=90
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=-90  text="4"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=150
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=-150  text="6"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=60
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=-60  text="3"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=180
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=180  text="7"  font=SourceSansPro/400  ts=24  tc=#ff0000
+  ... +4 more Frame "Orientation"
+
+==== Workspace.Buildings.Appartment w/abandonned car.2005 Chevrolet Impala SS.Body.Dash.Tac.G  (5 descendants)
+SurfaceGui "G"  Enabled=True  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Needle"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=4  rot=-30  img=rbxassetid://386771233  imgT=1
+    Frame "Frame"  size={0.01,0},{0.02,0}  pos={0.495,0},{0.49,0}  nobg  z=4  rot=90
+      Frame "Frame"  size={1,0},{0,110}  pos={0,0},{0,0}  bg=#ffffff  z=4
+  Frame "Indicator"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  rot=90
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.3,0},{0.45,0}  nobg  rot=-90  text=">"  font=SourceSansPro/700  ts=24  tc=#00ff00
+
+==== Workspace.Buildings.Appartment w/abandonned car.2005 Chevrolet Impala SS.Body.Dash.DashSc.G  (31 descendants)
+SurfaceGui "G"  Enabled=False  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://183229491  imgcol=#00aaff
+  TextButton "Unit"  size={0,0},{0,0}  pos={0.5,0},{0.3,20}  nobg  z=9  text="Welcome"  font=SourceSansPro/400  ts=25  tc=#ffffff
+  Frame "Frame"  size={1,0},{0,2}  pos={0,0},{0,-5}  bg=#ffffff
+  Frame "Select"  size={0,20},{0,2}  pos={0,0},{0,-5}  bg=#39b3ff  z=2
+  ImageLabel "Speed"  size={0,20},{0,20}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://932505086  imgT=1
+  ImageLabel "Info1"  size={0,20},{0,20}  pos={0,25},{0,0}  nobg  z=2  img=rbxassetid://930970524  imgT=1
+  ImageLabel "Car"  size={0,20},{0,20}  pos={0,50},{0,0}  nobg  z=2  img=rbxassetid://471244740  imgT=1
+  ImageLabel "Gas"  size={0,21},{0,20}  pos={0,75},{0,0}  nobg  z=2  img=rbxassetid://235221935  imgT=1
+  Frame "Modes"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Stats"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      TextButton "Version"  size={1,0},{0,0}  pos={0,0},{0.2,20}  nobg  z=9  text="Version: 2.1"  font=SourceSansPro/400  ts=19  tc=#ffffff
+      ImageLabel "PBrake"  size={0,20},{0,20}  pos={0.2,-10},{0.3,42}  HIDDEN  nobg  z=2  img=rbxassetid://123454312
+      TextButton "FE"  size={1,0},{0,0}  pos={0,0},{0.4,20}  nobg  z=9  text="FE: bool"  font=SourceSansPro/400  ts=19  tc=#ffffff
+      TextButton "MaxSPD"  size={1,0},{0,0}  pos={0,0},{0.6,20}  nobg  z=9  text="BMW"  font=SourceSansPro/400  ts=19  tc=#ffffff
+    Frame "MPG"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      TextButton "NOW"  size={1,0},{0,0}  pos={0,0},{0.2,20}  nobg  z=9  text="Trip OD"  font=SourceSansPro/400  ts=19  tc=#ffffff
+      ImageLabel "PBrake"  size={0,20},{0,20}  pos={0.2,-10},{0.3,42}  HIDDEN  nobg  z=2  img=rbxassetid://123454312
+      TextButton "MPGCounter"  size={1,0},{0.2,0}  pos={0,0},{0.3,20}  nobg  z=9  text="n/a"  font=SourceSansPro/400  ts=44  tc=#ffffff
+      TextButton "MaxSPD"  size={1,0},{0.1,0}  pos={0,0},{0.56,20}  nobg  z=9  text="Miles"  font=SourceSansPro/700  ts=26  tc=#ffffff
+    Frame "Info"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      TextButton "Unit"  size={1.1,0},{0,0}  pos={0,-6},{0.4,20}  nobg  z=9  text="No Information"  font=SourceSansPro/400  ts=19  tc=#ffffff
+      ImageLabel "PBrake"  size={0,20},{0,20}  pos={0.2,-10},{0.3,42}  HIDDEN  nobg  z=2  img=rbxassetid://123454312
+      TextLabel "Gear"  size={1,1},{0,1}  pos={0,0},{0.6,20}  nobg  z=9  text="N"  font=SourceSansPro/700  ts=48  tc=#ffffff
+      TextLabel "Time"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="16:20:00"  font=SourceSansPro/400  ts=28  tc=#ffffff
+      TextButton "FE"  size={1,0},{0,0}  pos={0,0},{0.2,20}  nobg  z=9  text="FE: bool"  font=SourceSansPro/400  ts=19  tc=#ffffff
+    Frame "SpeedStats"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      TextButton "Speed"  size={1,0},{0,0}  pos={0,0},{0.4,-10}  nobg  z=9  text="0"  font=Zekton/400  ts=45  tc=#ffffff
+      TextButton "Unit"  size={1,0},{0,0}  pos={0,0},{0.4,20}  nobg  z=9  text="MPH"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      ImageLabel "PBrake"  size={0,20},{0,20}  pos={0.2,-10},{0.3,42}  HIDDEN  nobg  z=2  img=rbxassetid://123454312
+      TextLabel "Gear"  size={1,1},{0,1}  pos={0,0},{0.6,20}  nobg  z=9  text="N"  font=SourceSansPro/700  ts=48  tc=#ffffff
+      TextLabel "Time"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="16:20:00"  font=SourceSansPro/400  ts=28  tc=#ffffff
+
+==== Workspace.Buildings.Appartment w/abandonned car.2005 Chevrolet Impala SS.Body.Dash.Spd.Interface  (18 descendants)
+SurfaceGui "Interface"  Enabled=False  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=-30
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=30  text="0"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  text="20"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=30
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=-30  text="40"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Orientation"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=60
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.05,0},{0.45,0}  nobg  rot=-60  text="60"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  ... +5 more Frame "Orientation"
+
+==== Workspace.Boards.R15Loader.Tags  (5 descendants)
+BillboardGui "Tags"  size={5,0},{1.5,0}  Enabled=True  Size={5,0},{1.5,0}  StudsOffset=(0,2.1,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=Workspace.Boards.R15Loader.For_The_NameTag
+  Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Extra"  size={1,0},{0.333,0}  pos={0,0},{0.333,0}  nobg  text="💸 TOP DONATOR 💸"  font=SourceSansPro/700  scaled  tc=#f0ff89
+    TextLabel "pName"  size={1,0},{0.333,0}  pos={0,0},{0.667,0}  nobg  text="Loading.."  font=SourceSansPro/700  scaled  tc=#ffffff
+      Script "Script"  -> scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua
+      UIGradient "UIGradient"  Color=[0:#ff0000 0.181:#ff8c00 0.379:#fff701 0.549:#12ff02 0.714:#00b3ff 0.897:#d500ff 1:#ff0000]  Rotation=0  Transparency=[0:0 1:0]
+
+==== ReplicatedStorage.Weapons.AmmoBox.Handle.GUI  (6 descendants)
+SurfaceGui "GUI"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Type"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg  text="Universal"  font=Arial/700  ts=36  tc=#ffffff
+    Frame "Line"  size={0.5,0},{0,3}  pos={0.25,0},{0.5,12}  bg=#000000
+    Frame "Bar"  size={0,10},{1,0}  pos={0.1,0},{0,0}  bg=#000000@0.5  z=2
+    Frame "Bar"  size={0,10},{1,0}  pos={0.9,-10},{0,0}  bg=#000000@0.5  z=2
+    TextLabel "Amount"  size={1,0},{0.5,0}  pos={0,0},{0.5,0}  nobg  text="300 Bullets"  font=Arial/700  ts=36  tc=#ffffff
+
+==== ReplicatedStorage.Weapons.AmmoBox.Handle.Bars  (3 descendants)
+SurfaceGui "Bars"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Bar"  size={0,10},{1,0}  pos={0.1,0},{0,0}  bg=#000000@0.5  z=2
+    Frame "Bar"  size={0,10},{1,0}  pos={0.9,-10},{0,0}  bg=#000000@0.5  z=2
+
+==== ReplicatedStorage.Weapons.AmmoBox.Handle.Bars  (3 descendants)
+SurfaceGui "Bars"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Bar"  size={0,10},{1,0}  pos={0.1,0},{0,0}  bg=#000000@0.5  z=2
+    Frame "Bar"  size={0,10},{1,0}  pos={0.9,-10},{0,0}  bg=#000000@0.5  z=2
+
+==== ReplicatedStorage.Weapons.AmmoBox.Handle.Interface  (6 descendants)
+BillboardGui "Interface"  size={1.5,0},{1.5,0}  Enabled=False  Size={1.5,0},{1.5,0}  StudsOffset=(0,0,0)  MaxDistance=10  AlwaysOnTop=False  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+    TextLabel "Type"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg  text="Universal"  font=Arial/700  scaled  tc=#ffffff
+    Frame "Line"  size={0.75,0},{0.025,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0)  bg=#000000
+    Frame "Barra"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.8,0}  anchor=(0,0.5)  bg=#414141
+      Frame "Valor"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+      TextLabel "Amount"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="300 / 300"  font=Arial/700  scaled  tc=#ffffff
+
+==== ReplicatedStorage.ACS_Engine.HUD.TeamTag  (2 descendants)
+BillboardGui "TeamTag"  size={0,5},{0,5}  Enabled=False  Size={0,5},{0,5}  StudsOffset=(0,1.5,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=45
+    ImageLabel "Frame"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://1746829167
+
+==== ReplicatedStorage.ACS_Engine.HUD.DoorTag  (2 descendants)
+BillboardGui "DoorTag"  size={0,50},{0,50}  Enabled=True  Size={0,50},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=4245800353
+
+==== ReplicatedStorage.ACS_Engine.HUD.BreachTag  (2 descendants)
+BillboardGui "BreachTag"  size={0,50},{0,50}  Enabled=True  Size={0,50},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=4253841626
+
+==== ReplicatedStorage.ACS_Engine.HUD.GPShud  (16 descendants)
+ScreenGui "GPShud"  Enabled=True  DisplayOrder=2  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "GPS"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/GPShud/GPS.client.lua  [disabled]
+  ImageLabel "Frame"  size={0.1,0},{0.1,0}  pos={0.02,0},{0.875,0}  anchor=(0,0.5)  nobg  img=rbxassetid://2319391988  imgcol=#000000
+    ImageLabel "FriendBlip"  size={0.12,0},{0.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://3513778112  imgcol=#0055ff
+    Folder "Players"
+    ImageLabel "FoeBlip"  size={0.11,0},{0.11,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://502107146  imgcol=#aa0000  imgT=1
+    Frame "RosaDosVentos"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      TextLabel "E"  size={0,0},{0,0}  pos={1,0},{0.5,0}  nobg  rot=90  text="E"  font=Arial/700  ts=14  tc=#ffffff
+      TextLabel "N"  size={0,0},{0,0}  pos={0.5,0},{0,0}  nobg  text="N"  font=Arial/700  ts=14  tc=#ffffff
+      TextLabel "S"  size={0,0},{0,0}  pos={0.5,0},{1,0}  nobg  rot=180  text="S"  font=Arial/700  ts=14  tc=#ffffff
+      TextLabel "W"  size={0,0},{0,0}  pos={0,0},{0.5,0}  nobg  rot=-90  text="W"  font=Arial/700  ts=14  tc=#ffffff
+    ImageLabel "MinhaVisao"  size={0.15,0},{0.15,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://3513778112
+  Frame "Squad"  size={0.125,0},{0.125,0}  pos={0.01,0},{0.85,0}  anchor=(0,0.5)  nobg
+    TextLabel "Esquadrao"  size={1,0},{0.15,0}  pos={0,0},{-0.05,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "Membros"  size={1.25,0},{0.975,0}  pos={0.95,0},{0,0}  nobg
+      UIGridLayout "UIGridLayout"  CellSize={0.5,0},{0.15,0}  CellPadding={0,0},{0.025,0}  FillDirectionMaxCells=0
+    TextLabel "Exemplo"  size={1,0},{0.15,0}  pos={0,0},{0,0}  HIDDEN  nobg  text="00Scopion00"  font=SourceSansPro/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.ACS_Engine.HUD.StatusUI  (224 descendants)
+ScreenGui "StatusUI"  Enabled=True  DisplayOrder=1  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Stances"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Stances.client.lua
+  Frame "Supressao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+  TextLabel "OmbroTexto"  size={0.1,0},{0.15,0}  pos={0.5,0},{0.85,0}  anchor=(0.5,0.5)  nobg  text="Alguem tocou no seu ombro!"  font=SourceSansPro/400  scaled  tc=#ffffff
+  Frame "InteractionMenu"  size={0,250},{0,250}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+    ImageLabel "CirculoDeFundo"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://347277910  imgcol=#000000  imgT=1
+    Frame "Porta"  size={0,80},{0,80}  pos={0.925,0},{0.75,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Door"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,-25},{0.5,-25}  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      ImageLabel "Imagem"  size={0,40},{0,40}  pos={0.45,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=4245800353
+      TextButton "Lock"  size={1,0},{1,0}  pos={1,0},{0.5,0}  HIDDEN  nobg  text="Lock door"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Breach"  size={1,0},{1,0}  pos={0,0},{1,0}  HIDDEN  nobg  text="Breach"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,40},{0,40}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=4253841626
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Abrir"  size={1,0},{1,0}  pos={1,0},{-0.5,0}  HIDDEN  nobg  text="Open/Close"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Lockpick"  size={1,0},{1,0}  pos={1,0},{-1.5,0}  HIDDEN  nobg  text="Lockpick"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+    Frame "Ombro"  size={0,80},{0,80}  pos={0.5,0},{0,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Tap shoulder"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,-25},{0.5,-25}  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+    Frame "Tratar"  size={0,80},{0,80}  pos={0.925,0},{0.25,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://23151450
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Medic"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "SeTratar"  size={1,0},{1,0}  pos={1,0},{-0.525,0}  HIDDEN  nobg  text="Self"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://23151450
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "OutroTratar"  size={1,0},{1,0}  pos={1,0},{0.512,0}  HIDDEN  nobg  text="Player"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://23151450
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+    Frame "Interagir"  size={0,80},{0,80}  pos={0.075,0},{0.75,0}  anchor=(0.5,0.5)  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Interact"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+      TextButton "Liberar"  size={1,0},{1,0}  pos={-1,0},{0.5,0}  HIDDEN  nobg  text="Release"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "SeRender"  size={1,0},{1,0}  pos={-1,0},{-0.5,0}  HIDDEN  nobg  text="Surrender"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Revistar"  size={1,0},{1,0}  pos={0,0},{1,0}  HIDDEN  nobg  text="Revistar"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+    Frame "Arrastar"  size={0,80},{0,80}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Drag"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,-25},{0.5,-25}  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+    LocalScript "LocalScript"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/InteractionMenu/LocalScript.client.lua  [disabled]
+    TextButton "FLM"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+    ImageButton "Fechar"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  rot=45  img=rbxassetid://23151450  imgcol=#ff8080
+    Frame "Equipes"  size={0,80},{0,80}  pos={0.075,0},{0.25,0}  anchor=(0.5,0.5)  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Team"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,-25},{0.5,-25}  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+      TextButton "Vermelho"  size={1,0},{1,0}  pos={-1,0},{-1.5,0}  HIDDEN  nobg  text="Red"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146  imgcol=#ff0000
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Verde"  size={1,0},{1,0}  pos={-1.5,0},{-0.5,0}  HIDDEN  nobg  text="Green"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146  imgcol=#00ff00
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Sair"  size={1,0},{1,0}  pos={0,0},{-2,0}  HIDDEN  nobg  text="Leave"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Azul"  size={1,0},{1,0}  pos={-1.75,0},{0.5,0}  HIDDEN  nobg  text="Blue"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146  imgcol=#0000ff
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      TextButton "Amarelo"  size={1,0},{1,0}  pos={-1.5,0},{1.5,0}  HIDDEN  nobg  text="Yellow"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146  imgcol=#ffff00
+        ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+    Frame "Breach"  size={0,80},{0,80}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Breach"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,-25},{0.5,-25}  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      ImageLabel "Imagem"  size={0,40},{0,40}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=4253841626
+    Frame "Fortify"  size={0,80},{0,80}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Fortify"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,-25},{0.5,-25}  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+      ImageLabel "Imagem"  size={0,35},{0,35}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=4298701802
+    Frame "Rappel"  size={0,80},{0,80}  pos={-0.15,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      TextButton "Botao"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Attach Rappel"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "Imagem"  size={0,20},{0,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://502107146
+      ImageLabel "CirculoSelecao"  size={0,50},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://536824510  imgcol=#ff0000
+  Frame "MainFrame"  size={0.0962,0},{0.198,0}  pos={1,0},{0.8,0}  anchor=(1,0)  nobg
+    ImageLabel "Vest"  size={0.4,0},{0.4,0}  pos={0.6,0},{-0.8,0}  HIDDEN  nobg  img=rbxassetid://3481839700  imgT=0.125
+      TextBox "TextBox"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text="100"  font=SourceSansPro/400  scaled  tc=#c8c8c8
+    ImageLabel "Helm"  size={0.4,0},{0.4,0}  pos={0.6,0},{-1.15,0}  HIDDEN  nobg  img=rbxassetid://3481840141  imgT=0.125
+      TextBox "TextBox"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text="100"  font=SourceSansPro/400  scaled  tc=#c8c8c8
+    Frame "Status"  size={1,0},{0.2,0}  pos={0,0},{1,0}  HIDDEN  bg=#ffffff
+      Frame "Barra"  size={1,0},{0.5,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#000000
+        Frame "Stamina"  size={1,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+    Frame "Poses"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      ImageLabel "Levantado"  size={0.85,0},{0.86,0}  pos={0.15,0},{0.1,0}  nobg  img=rbxassetid://147441244  imgT=0.125
+      ImageLabel "Deitado"  size={0.85,0},{0.86,0}  pos={0.15,0},{0.1,0}  HIDDEN  nobg  img=rbxassetid://147441790  imgT=0.125
+      ImageLabel "Agaixado"  size={0.85,0},{0.86,0}  pos={0.15,0},{0.1,0}  HIDDEN  nobg  img=rbxassetid://147441854  imgT=0.125
+      ImageLabel "Bleeding"  size={0.24,0},{0.24,0}  pos={0.65,0},{-0.35,0}  anchor=(1,0)  HIDDEN  nobg  img=rbxassetid://340808991  imgT=0.125
+      ImageLabel "Steady"  size={0.24,0},{0.24,0}  pos={1,0},{-0.35,0}  anchor=(1,0)  HIDDEN  nobg  img=rbxassetid://3575766791  imgT=0.125
+      ImageLabel "Esg_Left"  size={0.24,0},{0.24,0}  pos={0.25,0},{0,0}  anchor=(1,0)  HIDDEN  nobg  rot=180  img=rbxassetid://71659683  imgT=0.125
+      ImageLabel "Esg_Right"  size={0.24,0},{0.24,0}  pos={0.25,0},{0,0}  anchor=(1,0)  HIDDEN  nobg  img=rbxassetid://71659683  imgT=0.125
+      ImageLabel "Energy"  size={0.24,0},{0.24,0}  pos={0.25,0},{-0.35,0}  anchor=(1,0)  HIDDEN  nobg  img=rbxassetid://542310892
+  LocalScript "SistemaMedica"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/SistemaMedica.client.lua  [disabled]
+  Frame "Sistema"  size={0.35,0},{0.35,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  HIDDEN  bg=#394b36
+    Frame "Medkit"  size={1,0},{0.85,0}  pos={0.5,0},{1.02,0}  anchor=(0.5,0)  bg=#000000
+      Frame "Painkiller"  size={0.2,0},{0.4,0}  pos={0.725,0},{0.075,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949344
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="PainKiller"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Bandage"  size={0.2,0},{0.4,0}  pos={0.05,0},{0.075,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949287
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Bandage"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Energy"  size={0.2,0},{0.4,0}  pos={0.5,0},{0.525,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949344  imgcol=#02d1ff
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Energetic"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Epinefrina"  size={0.2,0},{0.4,0}  pos={0.5,0},{0.075,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949497
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Epinephrine"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Morfina"  size={0.2,0},{0.4,0}  pos={0.275,0},{0.075,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949440
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Morphine"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "BloodBag"  size={0.2,0},{0.4,0}  pos={0.275,0},{0.525,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949547
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Bloodbag"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      LocalScript "Itens Handler"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Medkit/Itens Handler.client.lua
+      UIGridLayout "UIGridLayout"  CellSize={0.15,0},{0.475,0}  CellPadding={0,5},{0,5}  FillDirectionMaxCells=0
+      Frame "Splint"  size={0.2,0},{0.4,0}  pos={0.05,0},{0.075,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949287  imgcol=#ffff00
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Splint"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="10"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Tourniquet"  size={0.2,0},{0.4,0}  pos={0.05,0},{0.075,0}  bg=#000000@0.5
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://535949287  imgcol=#ff0000
+        TextButton "Nome"  size={1,0},{0.2,0}  pos={0,0},{0.75,0}  nobg  text="Tourniquet"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Quantidade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="1"  font=SourceSansPro/400  ts=18  tc=#ffffff
+    TextButton "FLM"  size={0,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+    TextButton "Texto"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#000000  z=2  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "Timer"  size={1,0},{0.1,0}  pos={0,0},{1,0}  anchor=(0,1)  bg=#000000
+      Frame "Barra"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#646464
+    Frame "Menu"  size={0.5,0},{0.9,0}  pos={0,0},{0,0}  bg=#000000
+      TextButton "Bandages"  size={1,0},{0.15,0}  pos={0,0},{0.15,0}  bg=#000000  z=2  text="Bandages"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextButton "Medicines"  size={1,0},{0.15,0}  pos={0,0},{0.3,0}  bg=#000000  z=2  text="Medicines"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextButton "Others"  size={1,0},{0.15,0}  pos={0,0},{0.45,0}  bg=#000000  z=2  text="Others"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "MenuHandler"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Menu/MenuHandler.client.lua
+      Frame "Base"  size={1,0},{1,0}  pos={2.25,0},{0,0}  nobg
+        Frame "VidaBar"  size={0.34,0},{0.43,0}  pos={0,0},{0.6,0}  bg=#ffffff  z=2
+          Frame "Sangue"  size={1,0},{-1,0}  pos={0,0},{1,0}  bg=#00ff00  z=2
+          ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://1075575058
+        Frame "SangueBar"  size={0.34,0},{0.43,0}  pos={0,0},{0.05,0}  bg=#ffffff  z=2
+          Frame "Sangue"  size={1,0},{-1,0}  pos={0,0},{1,0}  bg=#ff0000  z=2
+          ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://1075618843
+        LocalScript "DiagnoseHandler"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Menu/Base/DiagnoseHandler.client.lua
+    Frame "Overhaul"  size={0.5,0},{0.9,0}  pos={0.5,0},{0,0}  bg=#000000
+      TextLabel "GC"  size={1,0},{0.15,0}  pos={0,0},{0.1,0}  nobg  text="General Condition"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Consciente"  size={1,0},{0.15,0}  pos={0,0},{0.4,0}  nobg  text="Conscious"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Dor"  size={1,0},{0.15,0}  pos={0,0},{0.55,0}  nobg  text="No pain"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Ferido"  size={1,0},{0.15,0}  pos={0,0},{0.7,0}  nobg  text="Injured"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Sangrando"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  nobg  text="Bleeding"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Vida"  size={1,0},{0.15,0}  pos={0,0},{0.25,0}  nobg  text="Healthy"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "GeneralConditions"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/Overhaul/GeneralConditions.client.lua
+    Frame "BandagesAberto"  size={0.5,0},{0.05,0}  pos={-0.55,0},{0,0}  HIDDEN  bg=#000000
+      Frame "TratarFeridasAberto"  size={1,0},{19,0}  pos={0,0},{1,0}  bg=#000000  z=0
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        TextButton "Comprimir"  size={1,0},{0.142,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff  text="Compress"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Bandagem"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="Bandage"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Splint"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="Splint"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Tourniquet"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="Tourniquet"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{2,0}  pos={0,0},{-0.25,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "MedicateHandler"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/BandagesAberto/MedicateHandler.client.lua
+    TextButton "Reset"  size={0.07,0},{0.15,0}  pos={0.94,0},{-0.02,0}  HIDDEN  bg=#000000  z=2  text="X"  font=SourceSansPro/400  scaled  tc=#ff0000
+    Frame "MedicineAberto"  size={0.5,0},{0.05,0}  pos={-0.55,0},{0,0}  HIDDEN  bg=#000000
+      Frame "TratarFeridasAberto"  size={1,0},{19,0}  pos={0,0},{1,0}  bg=#000000  z=0
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        TextButton "PainKiller"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="PainKiller"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Energy"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="Energy Drink"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Morphine"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="Morphine"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Epinephrine"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="Epinephrine"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{2,0}  pos={0,0},{-0.25,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "MedicateHandler"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/MedicineAberto/MedicateHandler.client.lua
+    Frame "OtherAberto"  size={0.5,0},{0.05,0}  pos={-0.55,0},{0,0}  HIDDEN  bg=#000000
+      Frame "TratarFeridasAberto"  size={1,0},{19,0}  pos={0,0},{1,0}  bg=#000000  z=0
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        TextButton "BloodBag"  size={1,0},{0.142,0}  pos={0,0},{0,0}  bg=#ffffff  text="BloodBag"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{2,0}  pos={0,0},{-0.25,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "MedicateHandler"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Sistema/OtherAberto/MedicateHandler.client.lua
+  LocalScript "FomeSede"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/FomeSede.client.lua  [disabled]
+  Frame "Frame"  size={0.0325,0},{0.064,0}  pos={0.005,0},{0.525,0}  nobg
+    ImageLabel "Fome"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://3486729018  imgT=1
+    ImageLabel "Sede"  size={1,0},{1,0}  pos={0.5,0},{1.75,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://3486694547  imgT=1
+    ImageLabel "Oxygen"  size={1.2,0},{1.2,0}  pos={0.5,0},{-0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://3554606974
+  Frame "Efeitos"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "Oxigen"  size={1.1,0},{1.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.505,0.55)  nobg  z=-4  img=rbxassetid://3552746365  imgcol=#000000  imgT=1
+    ImageLabel "Aim"  size={2.5,0},{2.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://3552746365  imgcol=#000000  imgT=1
+    ImageLabel "Health"  size={1,0},{1.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.55)  nobg  z=-1  img=rbxassetid://34854607  imgcol=#aa0000  imgT=1
+    ImageLabel "Suppress"  size={1,0},{1.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.55)  nobg  z=-2  img=rbxassetid://34854607  imgcol=#000000  imgT=1
+  Frame "InteractionMouse"  size={0,10},{0,10}  pos={0.5,0},{0.5,0}  nobg  z=10
+    ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://502107146
+    Frame "Fundo"  size={6,0},{4,0}  pos={0,0},{6,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextLabel "Username"  size={1,0},{0.5,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  text="Player"  font=SourceSansPro/700  scaled  tc=#ffffff
+  LocalScript "Main"  -> scripts/ReplicatedStorage/ACS_Engine/HUD/StatusUI/Main.client.lua
+  Frame "GunHUD"  size={0.096,0},{0.198,0}  pos={1,0},{0.8,0}  anchor=(1,0)  HIDDEN  nobg
+    Frame "Deletable"  size={1.25,0},{0.025,0}  pos={0,0},{0.75,0}  anchor=(1,0.5)  bg=#000000@0.123
+    ImageLabel "Magazines"  size={0.25,0},{0.25,0}  pos={-0.25,0},{0.45,0}  nobg  img=rbxassetid://541673156  imgT=0.123
+    ImageLabel "A"  size={0,10},{0,10}  pos={-1.25,0},{0.4,0}  nobg  img=rbxassetid://2797970846  imgcol=#00ff00
+    ImageLabel "E"  size={0,10},{0,10}  pos={-1.42,0},{0.6,0}  nobg  img=rbxassetid://2797970846
+    TextLabel "ZeText"  size={0.441,0},{0.15,0}  pos={-1.25,0},{0.775,0}  nobg  z=2  text="0 m"  font=Inconsolata/400  scaled  tc=#ffffff
+    TextLabel "Sens"  size={0.48,0},{0.2,0}  pos={-0.4,0},{0.225,0}  nobg  z=2  text="1"  font=Inconsolata/400  ts=10  tc=#ffffff
+    TextLabel "SAText"  size={0.356,0},{0.2,0}  pos={-0.606,0},{0.5,0}  nobg  z=2  text="0"  font=Inconsolata/400  scaled  tc=#ffffff
+    TextLabel "NText"  size={0.565,0},{0.15,0}  pos={-1.5,0},{0.375,0}  HIDDEN  nobg  z=2  text="M4A1 SOPMOD"  font=Inconsolata/400  scaled  tc=#ffffff
+    TextLabel "BText"  size={0.75,0},{0.2,0}  pos={0,0},{0.775,0}  anchor=(1,0)  nobg  z=2  text="5.56x45mm"  font=Inconsolata/400  scaled  tc=#ffffff
+    TextLabel "FText"  size={0.704,0},{0.2,0}  pos={-1.25,0},{0.5,0}  nobg  z=2  text="Auto"  font=Inconsolata/400  scaled  tc=#ffffff
+    TextLabel "CMText"  size={1.25,0},{0.25,0}  pos={0,0},{0,0}  anchor=(1,0)  nobg  z=2  text="Almost empty"  font=Inconsolata/400  scaled  tc=#ffffff
+    Frame "Ammo"  size={0.55,0},{0.25,0}  pos={-1.25,0},{0,0}  anchor=(1,0.1)  HIDDEN  nobg
+      TextLabel "AText"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="30|30"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "B"  size={1.25,0},{0.025,0}  pos={0,0},{0.75,0}  anchor=(1,0.5)  bg=#ffffff
+    ImageLabel "Silencer"  size={0.25,0},{0.25,0}  pos={-1.65,0},{0.75,0}  nobg  img=http://www.roblox.com/asset/?id=4163755066  imgT=0.123
+    ImageLabel "Laser"  size={0.25,0},{0.25,0}  pos={-1.85,0},{0.75,0}  nobg  img=http://www.roblox.com/asset/?id=4163773609  imgT=0.123
+    ImageLabel "Flash"  size={0.25,0},{0.25,0}  pos={-2.08,0},{0.75,0}  nobg  img=http://www.roblox.com/asset/?id=4163786888  imgT=0.123
+    ImageLabel "Bipod"  size={0,20},{0,20}  pos={-1.42,0},{0.425,0}  nobg  img=http://www.roblox.com/asset/?id=4697506460  imgcol=#ff0000
+
+==== ReplicatedStorage.ACS_Engine.GunModels.Client.M4A1 ACOG.ProjectorSight.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "ClippingFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "Reticle"  size={0,4000},{0,4000}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=126126922
+
+==== ReplicatedStorage.ACS_Engine.GunModels.Client.M40A5.ProjectorSight.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "ClippingFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "Reticle"  size={0,17500},{0,17500}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://237153981  imgcol=#000000
+
+==== repeated world GUIs (only the first two were printed)
+BillboardGui "BillboardGui" under Workspace: 12 copies
+SurfaceGui "G" under Workspace: 4 copies
+SurfaceGui "Bars" under ReplicatedStorage: 3 copies
+SurfaceGui "SurfaceGui" under ReplicatedStorage: 3 copies

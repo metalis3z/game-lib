@@ -1,0 +1,186 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/DiscordEvent.server.lua lines 21,67,96,133,182,191,200,209 ...
+       Discord webhook URL (data sent outside Roblox)
+[HIGH] scripts/Workspace/Terrain/Converter.server.lua lines 148
+       code hidden far right of the line (whitespace padding)
+[MED] scripts/ServerScriptService/AkabenAnti.server.lua lines 19
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Anti Lag Script.server.lua
+       suspicious script name "Anti Lag Script"
+[MED] scripts/ServerScriptService/AntiLag.server.lua
+       suspicious script name "AntiLag"
+[MED] scripts/ServerScriptService/Backdoor Remover.server.lua
+       suspicious script name "Backdoor Remover"
+[MED] scripts/ServerScriptService/DirtbikeGamepass/Honda 85/Tuner/Initialize.server.lua lines 39
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerStorage/Cars/ATV/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Camaro/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Charger/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Claren/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Coupe/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Durango/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Hellcat/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Lamborghini Huracan/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Police Explorer/2018 Ford Police Interceptor Utility ECOBoost/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Police Impala/Impala/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Rolls Royce/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Scat/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Scooter/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/TrackHawk/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Urus/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Van/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/StarterPlayer/StarterCharacterScripts/Change Face on Death.server.lua lines 9
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/ATM/ATM Sign/SurfaceGui/TextBox/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/ATM/ATM Sign/SurfaceGui/TextBox/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/ATM~2/ATM Sign/SurfaceGui/TextBox/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/ATM~2/ATM Sign/SurfaceGui/TextBox/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/ATM~3/ATM Sign/SurfaceGui/TextBox/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/ATM~3/ATM Sign/SurfaceGui/TextBox/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/BankItems/Gold/Gold~18/Model/GoldIngot~16/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/BankItems/Gold/Gold~18/Model/GoldIngot~16/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/BankItems/Gold/Gold~33/Model/GoldIngot~15/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/BankItems/Gold/Gold~33/Model/GoldIngot~15/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/E to Open Door~15/Door/Base/SpringAttachment1/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/E to Open Door~15/Door/Base/SpringAttachment1/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Folder~2/_/AnimSaves/Imported Animation Clip/Keyframe~98/Hat_Att/eximitymainmodule/eximity/ImageLabel/inner/Executor/Frame/exe/CLIENT/SERVER/Loadstring.lua lines 28,31,33
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Folder~2/_/AnimSaves/Imported Animation Clip/Keyframe~98/Hat_Att/eximitymainmodule/eximity/ImageLabel/inner/Executor/Frame/exe/CLIENT/SERVER/Loadstring/LBI.lua lines 383
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Folder~2/_/AnimSaves/Imported Animation Clip/Keyframe~98/Hat_Att/eximitymainmodule/eximity/ImageLabel/inner/Executor/Frame/exe/CLIENT/SERVER/Loadstring/LuaY.lua lines 407
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/GUNS/.9mm/Model~2/Model/Part~4/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/GUNS/.9mm/Model~2/Model/Part~4/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/MafiaMember/AnimSaves/Automatic Save/Keyframe/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/MafiaMember/AnimSaves/Automatic Save/Keyframe/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/PoliceDoor~5/Primary~3/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/PoliceDoor~5/Primary~3/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Price~20/Sign/SurfaceGui/Settings.server.lua lines 1
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/Price~20/Sign/SurfaceGui/Settings.server.lua lines 1
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Terrain/Converter.server.lua lines 148
+       very long line (138933 chars, possible obfuscation)
+
+Instances with suspicious names:
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor (1)
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor.002 (1)
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor.003 (1)
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor.004 (1)
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor.006 (1)
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor.007 (1)
+  MeshPart ServerStorage.Cars.Rolls Royce.Body.Model.Meshes/untitled_BackDoor.001 (1)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  104391994  in scripts/ServerScriptService/Bank Stuff/Bank.server.lua
+  107203007  in scripts/ServerScriptService/SafeInventory.server.lua
+  107212490  in scripts/ServerScriptService/GunHolders.server.lua
+  10787168177  in scripts/Workspace/_/GunShopPART/GunShop.server.lua
+  125054  in scripts/Workspace/Terrain/Converter.server.lua
+  135444698  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/DONT TOUCH/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/DONT TOUCH/Guns/(name)Spawners.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/DONT TOUCH~2/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/DONT TOUCH~2/Guns/(name)Spawners.server.lua
+  1840186917  in scripts/ServerScriptService/WeaponSpawners/Spawns.server.lua
+  271275066  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/GlockDrumSwitch/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/GlockDrumSwitch/Guns/(name)Spawners.server.lua, scripts/StarterGui/ScreenGui/Frame/TextButton~3/LocalScript.client.lua
+  271377202  in scripts/ServerStorage/Baggy/stealprompt/LootScript.server.lua, scripts/StarterGui/ScreenGui/Frame/TextButton~2/LocalScript.client.lua
+  271378374  in scripts/ServerScriptService/Guns/Halloween22Drum Spawner.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/Halloween22Drum/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/Halloween22Drum/Guns/(name)Spawners.server.lua, scripts/StarterGui/ScreenGui/TextButton~2/LocalScript.client.lua
+  271379253  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/BrassKnuckles/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/BrassKnuckles/Guns/(name)Spawners.server.lua
+  271390711  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/HallowARP/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/HallowARP/Guns/(name)Spawners.server.lua
+  271396842  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/Machete/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/Machete/Guns/(name)Spawners.server.lua
+  3114222947  in scripts/ServerScriptService/WeaponSpawners/Spawns.server.lua
+  629360640  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/Uzi/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/Uzi/Guns/(name)Spawners.server.lua
+  629674693  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/SpringField/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/SpringField/Guns/(name)Spawners.server.lua
+  629815653  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/AR-15/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/AR-15/Guns/(name)Spawners.server.lua
+  629847637  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/BerettaEXT/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/BerettaEXT/Guns/(name)Spawners.server.lua
+  633145124  in scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/GoldDracoD/GamePass.server.lua, scripts/ServerScriptService/WeaponSpawners/Gamepass Spawns/GoldDracoD/Guns/(name)Spawners.server.lua
+
+Teleport place ids in code:
+  12982974948  in scripts/ServerScriptService/VC Server.server.lua
+
+Outside URLs in code:
+  http://prntscr.com/b9xljn  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  http://prntscr.com/b9xm53  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  http://prntscr.com/b9xngo  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  http://prntscr.com/b9xswk  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  http://trello.com  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  http://www.roblox.com/Asset?ID=  in scripts/StarterPlayer/StarterCharacterScripts/nottibop.client.lua
+  http://www.roblox.com/Asset?ID=11246184890  in scripts/StarterPlayer/StarterCharacterScripts/nottibop.client.lua
+  http://www.roblox.com/Asset?ID=12689400081  in scripts/ServerStorage/Juice/Cup.server.lua
+  http://www.roblox.com/Asset?ID=15049260771  in scripts/StarterPlayer/StarterCharacterScripts/nottibop.client.lua
+  http://www.roblox.com/Asset?ID=15058933946  in scripts/ServerStorage/DoubleCup/Animation Tool.client.lua
+  http://www.roblox.com/Asset?ID=431926970  in scripts/StarterPlayer/StarterCharacterScripts/Gang Signs.client.lua, scripts/StarterPlayer/StarterCharacterScripts/emotes1.client.lua
+  http://www.roblox.com/Asset?ID=9584388618  in scripts/ServerStorage/Juice/Lid.server.lua
+  http://www.roblox.com/My/Groups.aspx?gid=xxxxxxxx  in scripts/Workspace/PoliceDoor/door/Rank lock.server.lua, scripts/Workspace/PoliceDoor~2/door/Rank lock.server.lua, scripts/Workspace/PoliceDoor~3/door/Rank lock.server.lua
+  https://1foreverhd.github.io/TopbarPlus/api/icon/#events  in scripts/ReplicatedStorage/Icon.lua
+  https://1foreverhd.github.io/TopbarPlus/api/icon/#set  in scripts/ReplicatedStorage/Icon.lua
+  https://1foreverhd.github.io/TopbarPlus/features/#themes  in scripts/ReplicatedStorage/Icon.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/CameraShaker.lua
+  https://blox.link/_next/image?url=https%3A%2F%2Fwww.roblox.com%2Fheadshot-thumbnail%2Fimage%3FuserId%3D  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://cdn.discordapp.com/emojis/1069889652544245770.webp?size=96&quality=lossless  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://developer.roblox.com/en-us/api-reference/enum/KeyCode  in scripts/ReplicatedStorage/Icon.lua, scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  https://devforum.roblox.com/t/ProfileService/667805  in scripts/ServerScriptService/ProfileCache/ProfileService.lua
+  https://devforum.roblox.com/t/numberspinner-module/1105961  in scripts/ReplicatedStorage/Icon.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://gfycat.com/GrotesqueFirsthandBluebottlejellyfish  in scripts/ReplicatedStorage/buildRagdoll/buildConstraints.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildConstraints.lua
+  https://github.com/1ForeverHD/TopbarPlus/blob/main/src/Icon/Themes/Default.lua  in scripts/ReplicatedStorage/Icon.lua
+  https://github.com/Quenty/NevermoreEngine/blob/8ef4242a880c645b2f82a706e8074e74f23aab06/Modules/Shared/Events/Maid.lua  in scripts/ReplicatedStorage/Icon/Maid.lua
+  https://github.com/Quenty/NevermoreEngine/blob/version2/LICENSE.md  in scripts/ReplicatedStorage/Icon/Maid.lua
+  https://github.com/Sceleratis/Adonis/wiki  in scripts/Workspace/Adonis_Loader/Config/API.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/CameraShaker.lua
+  https://github.com/XanTheDragon/FastCastAPIDocs/wiki  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCast.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCast.lua
+  https://github.com/XanTheDragon/FastCastAPIDocs/wiki/Changelist  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCast.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCast.lua
+  https://i.imgur.com/0oUu1ra.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/471ffsb.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/Ck5j34M.jpg  in scripts/ReplicatedStorage/buildRagdoll/buildConstraints.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildConstraints.lua
+  https://i.imgur.com/F2lo4Te.jpg  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/fRpkSdS.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/je4GEas.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/k07QVWR.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua, scripts/Workspace/RagdollLoader/buildRagdoll/buildCollisionFilters.lua
+  https://madstudioroblox.github.io/ProfileService/  in scripts/ServerScriptService/ProfileCache/ProfileService.lua
+  https://media.discordapp.net/attachments/1044021540456513546/1044791300806950962/unknown.png  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://media.discordapp.net/attachments/1044021540456513555/1044452185154531398/Png_22.png  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://media.discordapp.net/attachments/1044066423703609455/1051191152826663004/bronx3.png  in scripts/ServerScriptService/DiscordEvent.server.lua
+  https://robxprxy.herokuapp.com/  in scripts/ServerScriptService/DiscordEvent/Discord/Webhook.lua
+  https://trello.com/1/connect?name=Trello_API_Module&response_type=token&expires=never&scope=read,write&key=YOUR_APP_KEY_HERE  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  https://trello.com/app-key  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  https://www.desmos.com/calculator/2uo3hqwdhf  in scripts/ServerStorage/Cars/ATV/A-Chassis Tune.lua, scripts/ServerStorage/Cars/ATV/A-Chassis Tune/README.lua, scripts/ServerStorage/Cars/AmbulanceVan/A-Chassis Tune.lua

@@ -1,0 +1,34 @@
+-- Saved by UniversalSynSaveInstance https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMhBGdhbWUMVHdlZW5TZXJ2aWNlCkdldFNlcnZpY2UGRGVicmlzBnNjcmlwdAZQYXJlbnQHSmFja3BvdAxHZXRBdHRyaWJ1dGUFU3BlZWQFWXV1a2kISHVtYW5vaWQJQW5pbWF0aW9uDUxvYWRBbmltYXRpb24EUGxheQxUaW1lUG9zaXRpb24EdGFzawR3YWl0BURvb3IxCVR3ZWVuSW5mbwNuZXcLT3JpZW50YXRpb24GQ3JlYXRlBURvb3IyCEluc3RhbmNlCUhpZ2hsaWdodAZDb2xvcjMJRmlsbENvbG9yEEZpbGxUcmFuc3BhcmVuY3kTT3V0bGluZVRyYW5zcGFyZW5jeQRFbnVtEkhpZ2hsaWdodERlcHRoTW9kZQhPY2NsdWRlZAlEZXB0aE1vZGUAARAAAAECAKUBowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAqQBAQAAAABAbwMEALwBARYDAAAAnwEDAqQDBgAAAFBATQIDJAcAAABvBAgAvAICEgkAAACfAgMCpAQGAAAAUEBNAwQkBwAAAG8FCgC8AwMSCQAAAJ8DAwKkBgYAAABQQE0FBiQHAAAATQQFrAsAAABNBQQBDAAAAKQIBgAAAFBATQcIMw0AAAC8BQWUDgAAAJ8FAwKMCAAAxgkAAFIKAwC8BgXuDwAAAJ8GBQEqAnEAAAAAgIwGBwAwBgXGEAAAAKQGEwAASBCB2AcUA58GAgGkCgYAAABQQE0JCiQHAAAATQgJVBUAAACkCRgAAFxggYwKAQCfCQIC4goaAKQPBgAAAFBATQ4PJAcAAABNDQ5UFQAAAE0MDVwZAAAAbw0bAEMLDA0wCwpcGQAAALwGAJYcAAAAnwYFArwGBu4PAAAAnwYCAaQKBgAAAFBATQkKJAcAAABNCAmlHQAAAKQJGAAAXGCBjAoBAJ8JAgLiChoApA8GAAAAUEBNDg8kBwAAAE0NDlQVAAAATQwNXBkAAABvDR4AQwsMDTALClwZAAAAvAYAlhwAAACfBgUCvAYG7g8AAACfBgIBpAYTAABIEIHYBx8DnwYCAaQGIQAAXACCbwciAJ8GAgKkByQAAFwwgowIAACMCQAAjAoAAJ8HBAIwBwaAJQAAAIwHAQAwBwYWJgAAAIwHAQAwBwaiJwAAAKQHKwAqpIDCMAcGMywAAACkCAYAAABQQE0HCCQHAAAAMAcGJAcAAABSCQYApAoYAABcYIHYCx8DnwoCAuILLQBvDC4AMAwLFiYAAAC8BwCWHAAAAJ8HBQK8BwfuDwAAAJ8HAgGCAAEALwMBBAAAAEADAgMDAwQDBQQAAFBAAwYDBwMIAwkDCgMLAwwDDQMOAw8DEAMRBABIEIECAAAAAAAACEADEgMTAxQEAFxggQMVBQEZBwAAAAAAALTCAAAAAAAAAAADFgMXBwAAAAAAALRCAAAAAAAAAAACAAAAAAAA8D8DGAQAXACCAxkDGgQAXDCCAxsDHAMdAx4DHwMgBCqkgMIDIQUBJgIAAAAAAADgPwABAAEYAAAAAAAAAAEAAAAAAAIAAAAAAAAAAQAAAAAAAAABAAAAAAACAAAAAAAAAAABAAAAAAABAAEAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAABAAAAAAAAAAEAAAAAAAEAAAABAAAAAAABAAAAAAAAAAAAAAAAAAABAQAAAAAA
+
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2024-09-21 04:45:21
+-- Luau version 6, Types version 3
+-- Time taken: 0.000765 seconds
+
+local TweenService = game:GetService("TweenService")
+local Speed = script.Parent:GetAttribute("Speed")
+local any_LoadAnimation_result1 = script.Parent.Yuuki.Humanoid:LoadAnimation(script.Animation)
+any_LoadAnimation_result1:Play(0, nil, Speed)
+if script.Parent:GetAttribute("Jackpot") == false then
+	any_LoadAnimation_result1.TimePosition = 7
+	task.wait(3 / Speed)
+	TweenService:Create(script.Parent.Door1, TweenInfo.new(1), {
+		Orientation = script.Parent.Door1.Orientation + Vector3.new(0, -90, 0);
+	}):Play()
+	TweenService:Create(script.Parent.Door2, TweenInfo.new(1), {
+		Orientation = script.Parent.Door1.Orientation + Vector3.new(0, 90, 0);
+	}):Play()
+	task.wait(1 / Speed)
+	local Highlight = Instance.new("Highlight")
+	Highlight.FillColor = Color3.new(0, 0, 0)
+	Highlight.FillTransparency = 1
+	Highlight.OutlineTransparency = 1
+	Highlight.DepthMode = Enum.HighlightDepthMode.Occluded
+	Highlight.Parent = script.Parent
+	TweenService:Create(Highlight, TweenInfo.new(1 / Speed), {
+		FillTransparency = 0.5;
+	}):Play()
+end

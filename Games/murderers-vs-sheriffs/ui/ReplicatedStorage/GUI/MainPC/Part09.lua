@@ -1,0 +1,9 @@
+-- Part 9 of 9 of MainPC (see init.lua)
+
+return function(I, new)
+				I[4409] = new("TextLabel", I[4406], "GameMode", { AnchorPoint = Vector2.new(1, 0), BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.new(0.7, -3, 0, 0), Size = UDim2.fromScale(0.125, 1), Text = "Standard", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 18, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Right })
+				I[4410] = new("Frame", I[4406], "Frame", { BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 0.7, BorderSizePixel = 0, Position = UDim2.fromScale(0, 1), Size = UDim2.new(1, 0, 0, 1) })
+				I[4411] = new("TextButton", I[4406], "Join", { AnchorPoint = Vector2.new(1, 0), BackgroundColor3 = Color3.fromRGB(255, 255, 255), FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), Position = UDim2.fromScale(1, 0), Size = UDim2.fromScale(0.15, 1), Style = Enum.ButtonStyle.RobloxRoundDefaultButton, Text = "Join", TextColor3 = Color3.fromRGB(255, 255, 255), TextSize = 24, TextStrokeTransparency = 0.7, TextWrapped = true })
+				I[4412] = new("TextLabel", I[4406], "IsInServer", { AnchorPoint = Vector2.new(1, 0), AutoLocalize = false, BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/SourceSansPro.json", Enum.FontWeight.Regular, Enum.FontStyle.Italic), Position = UDim2.new(1, -6, 0, 0), Size = UDim2.new(0.5, 10, 1, 0), Text = "Joined", TextColor3 = Color3.fromRGB(222, 222, 222), TextSize = 24, TextXAlignment = Enum.TextXAlignment.Right, Visible = false })
+		I[4413] = new("UIPadding", I[1], "UIPadding", { PaddingTop = UDim.new(0, 10) })
+end

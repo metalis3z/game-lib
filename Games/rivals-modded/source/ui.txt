@@ -1,0 +1,1550 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.StudioGui  (1 descendants)
+ScreenGui "StudioGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  LocalScript "LocalScript"  -> scripts/StarterGui/StudioGui/LocalScript.client.lua
+
+==== Workspace .Lobby.ShootingRange.Extra.Green Screen.Part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#00ff00
+
+==== Workspace .Lobby.ShootingRange.Extra.Green Screen.Part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#00ff00
+
+==== Workspace .Lobby.Hub.Important.Center.DuelsSign.Screen.Duels  (2 descendants)
+SurfaceGui "Duels"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://80370960369204
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://80370960369204
+
+==== Workspace .Lobby.Hub.Important.Center.DuelsSign.Screen.Play  (2 descendants)
+SurfaceGui "Play"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://91611814756850
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://91611814756850
+
+==== Workspace .ShootingRangeEntities.DPS Dummy.HumanoidRootPart.DPSGui  (8 descendants)
+BillboardGui "DPSGui"  size={10,0},{10,0}  Enabled=False  Size={10,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=150  AlwaysOnTop=False  Adornee=nil
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Bar"  size={0.25,0},{0.01,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg
+      Frame "Bar"  size={0.75,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        UICorner "UICorner"
+    TextLabel "DPS"  size={1,0},{0.1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=2  text="DPS: 72.4"  font=12187365977/700  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+    TextLabel "Total"  size={1,0},{0.025,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Total Damage: 6,430.2"  font=12187365977/500  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+
+==== Workspace .ShootingRangeEntities.Target.HumanoidRootPart.BillboardGui  (3 descendants)
+BillboardGui "BillboardGui"  size={2.25,0},{2.25,0}  Enabled=True  Size={2.25,0},{2.25,0}  StudsOffset=(0,0,0)  MaxDistance=300  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://14580701813
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ff3232
+    UICorner "UICorner"
+
+==== Workspace .ShootingRangeEntities.Target.HumanoidRootPart.BillboardGui  (3 descendants)
+BillboardGui "BillboardGui"  size={2.25,0},{2.25,0}  Enabled=True  Size={2.25,0},{2.25,0}  StudsOffset=(0,0,0)  MaxDistance=300  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://14580701813
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ff3232
+    UICorner "UICorner"
+
+==== Workspace .ShootingRangeEntities.DPS Dummy.HumanoidRootPart.DPSGui  (8 descendants)
+BillboardGui "DPSGui"  size={10,0},{10,0}  Enabled=False  Size={10,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=150  AlwaysOnTop=False  Adornee=nil
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Bar"  size={0.25,0},{0.01,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg
+      Frame "Bar"  size={0.75,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        UICorner "UICorner"
+    TextLabel "DPS"  size={1,0},{0.1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=2  text="DPS: 72.4"  font=12187365977/700  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+    TextLabel "Total"  size={1,0},{0.025,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Total Damage: 6,430.2"  font=12187365977/500  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+
+==== ReplicatedFirst .Root.LoadingScreen.LoadingScreen  (38 descendants)
+ScreenGui "LoadingScreen"  Enabled=True  DisplayOrder=101  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Logo"  size={1,0},{0.55,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+      Frame "N"  size={1,0},{1,0}  pos={-1,0},{0.5,0}  anchor=(0.7,0.5)  nobg
+        Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{0.463,0}  anchor=(0.5,0.5)  nobg
+          Frame "Black"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+            ImageLabel "Icon"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  img=rbxassetid://13854780042  imgcol=#000000
+          Frame "White"  size={1,0},{0,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+            ImageLabel "Icon"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  img=rbxassetid://13854780042
+      Frame "G"  size={1,0},{1,0}  pos={2,0},{0.5,0}  anchor=(0.3,0.5)  nobg
+        Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg
+          Frame "Black"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+            ImageLabel "Icon"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  img=rbxassetid://13854780213  imgcol=#000000
+          Frame "White"  size={1,0},{0,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+            ImageLabel "Icon"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  img=rbxassetid://13854780213
+    Frame "Device"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextLabel "Title"  size={1,0},{0.084,20}  pos={0.5,0},{0.334,0}  anchor=(0.5,1)  nobg  text="Choose your controls"  font=12187365977/700  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 0.629:#f3f3f3 1:#cacaca]  Rotation=90  Transparency=[0:0 1:0]
+      Frame "Controls"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.1,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        TextButton "Console"  size={0.24,0},{0.24,0}  pos={0.55,0},{0.5,0}  anchor=(0,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Title"  size={2,0},{0.125,15}  pos={0.5,0},{1.1,0}  anchor=(0.5,0)  nobg  text="Controller"  font=12187365977/700  scaled  tc=#ffffff
+          ImageLabel "Icon"  size={0.75,-4},{0.75,-4}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=http://www.roblox.com/asset/?id=7789294551
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#000000
+          ImageLabel "Chosen"  size={1.1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=-1  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#3ce21f
+        TextButton "Desktop"  size={0.24,0},{0.24,0}  pos={0.45,0},{0.5,0}  anchor=(1,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Title"  size={2,0},{0.125,15}  pos={0.5,0},{1.1,0}  anchor=(0.5,0)  nobg  text="Mouse & Keyboard"  font=12187365977/700  scaled  tc=#ffffff
+          ImageLabel "Icon"  size={0.75,-4},{0.75,-4}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=http://www.roblox.com/asset/?id=7789294916
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#000000
+          ImageLabel "Chosen"  size={1.1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=-1  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#3ce21f
+        TextButton "Mobile"  size={0.24,0},{0.24,0}  pos={0.55,0},{0.5,0}  anchor=(0,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Title"  size={2,0},{0.125,15}  pos={0.5,0},{1.1,0}  anchor=(0.5,0)  nobg  text="Touch Screen"  font=12187365977/700  scaled  tc=#ffffff
+          ImageLabel "Icon"  size={0.75,-4},{0.75,-4}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=http://www.roblox.com/asset/?id=7789295310
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#000000
+          ImageLabel "Chosen"  size={1.1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=-1  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#3ce21f
+      TextButton "Confirm"  size={0.25,0},{0.1,0}  pos={0.5,0},{0.85,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ImageLabel "Icon"  size={0.75,-4},{1,-4}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://16778988726
+        ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=http://www.roblox.com/asset/?id=7730822940  imgcol=#3ce21f
+    ImageLabel "GameLogo"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=10  img=rbxassetid://85313933907097
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.DuelsBoardGui  (19 descendants)
+SurfaceGui "DuelsBoardGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ScrollingFrame "List"  size={0.87,0},{0.55,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  nobg
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      UIListLayout "Layout"  FillDirection=1  Padding={0,8}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+  ImageLabel "LiveBackground"  size={0.2,0},{0.15,0}  pos={0.95,0},{0.075,0}  anchor=(1,0.5)  nobg  z=0  img=rbxassetid://13970862697  imgcol=#ff0000
+  TextLabel "Live"  size={0.4,0},{0.1,0}  pos={0.925,0},{0.075,0}  anchor=(1,0.5)  nobg  text="• LIVE"  font=12187365977/800  scaled  tc=#ffffff
+  Frame "Empty"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "ImageLabel"  size={0.75,0},{0.45,0}  pos={0.5,0},{0.475,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18224589414  imgcol=#728cff
+    TextLabel "Empty"  size={0.75,0},{0.1,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  nobg  text="No duels found"  font=12187365977/600  scaled  tc=#728cff
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  z=-1
+    Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab
+      UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+    Frame "BottomBar"  size={1,0},{0.1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+      UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+    Frame "TopBar"  size={1,0},{0.15,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+      UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+  TextLabel "Title"  size={0.9,0},{0.125,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=4  text="Duels"  font=12187365977/700  scaled  tc=#728cff
+  Frame "Hover"  size={0.9,0},{0.6,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  nobg  z=3
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=15  Color=#728cff  Transparency=0  ApplyStrokeMode=0
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.PaintballSplatGui  (1 descendants)
+ScreenGui "PaintballSplatGui"  Enabled=True  DisplayOrder=-2  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Splat"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8896402113
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ESPGui  (4 descendants)
+ScreenGui "ESPGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=999
+    Frame "FOV"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=0
+      UICorner "UICorner"
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ZombieTowerLadderGui  (2 descendants)
+BillboardGui "ZombieTowerLadderGui"  size={7.5,75},{7.5,75}  Enabled=True  Size={7.5,75},{7.5,75}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "ImageLabel"  size={0.707,0},{0.707,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  rot=45  img=rbxassetid://14801518504
+  ImageLabel "ImageLabel"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://104071612583800
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.TeammateLabel  (11 descendants)
+BillboardGui "TeammateLabel"  size={15,100},{15,100}  Enabled=True  Size={15,100},{15,100}  StudsOffset=(0,0,0)  MaxDistance=500  AlwaysOnTop=True  Adornee=nil
+  Frame "Health"  size={0.2,0},{0.01,0}  pos={0.5,0},{0.54,0}  anchor=(0.5,0.5)  bg=#4b7f32@0.5  z=10
+    Frame "Bar"  size={0.75,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#64ff32
+      UICorner "UICorner"
+      UIStroke "UIStroke"  Thickness=2  Color=#64ff32  Transparency=0  ApplyStrokeMode=0
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.25  ApplyStrokeMode=0
+  Frame "Player"  size={0.2,0},{0.2,0}  pos={0.5,0},{0.545,0}  anchor=(0.5,1)  bg=#ffd700
+    UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:1 0.25:1 1:0]
+    ImageLabel "Headshot"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=https://www.roblox.com/headshot-thumbnail/image?userId=15941965&width=...
+      UICorner "UICorner"
+    UICorner "UICorner"
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ScopeGlareGui2  (1 descendants)
+BillboardGui "ScopeGlareGui2"  size={20,0},{5,0}  Enabled=True  Size={20,0},{5,0}  StudsOffset=(0,0,1)  MaxDistance=500  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17671318013
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ScopeGlareGui1  (1 descendants)
+BillboardGui "ScopeGlareGui1"  size={20,0},{5,0}  Enabled=True  Size={20,0},{5,0}  StudsOffset=(0,0,-1)  MaxDistance=500  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://12994687832
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.PortalKeybindGui  (2 descendants)
+BillboardGui "PortalKeybindGui"  size={0.25,50},{0.25,50}  Enabled=True  Size={0.25,50},{0.25,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  CanvasGroup "CanvasGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Keybind"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.PlayerInteractionGui  (5 descendants)
+BillboardGui "PlayerInteractionGui"  size={5,100},{5,100}  Enabled=True  Size={5,100},{5,100}  StudsOffset=(0,0,0)  MaxDistance=500  AlwaysOnTop=True  Adornee=nil
+  Frame "Container"  size={0.9,0},{0.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff@0.5
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=4  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Title"  size={1,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Double tap to view profile"  font=12187365977/700  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.NametagGui  (32 descendants)
+BillboardGui "NametagGui"  size={25,100},{5,20}  Enabled=True  Size={25,100},{5,20}  StudsOffset=(0,0,0)  MaxDistance=32  AlwaysOnTop=True  Adornee=nil
+  Frame "Elements"  size={1,0},{1,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg
+    Frame "NameDisplay"  size={0.8,0},{1,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg
+      UIListLayout "Layout"  FillDirection=1  Padding={-0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      TextLabel "DisplayName"  size={5,0},{0.125,0}  pos={0.5,0},{0.85,0}  anchor=(0.5,0.5)  nobg  z=2  text="SenseiWarrior"  font=12187365977/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+      TextLabel "Username"  size={5,0},{0.047,0}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  nobg  z=2  text="@OnlyTwentyCharacters"  font=12187365977/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+    UIListLayout "Layout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+    Frame "Controls"  size={0.2,0},{0.2,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Icon"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17093743118
+    Frame "Data"  size={0.2,0},{0.2,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg
+      Frame "Rank"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Level"  size={0.625,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://81461991645938
+        UIGradient "UIGradient"  rot=980  Color=[0:#0059ff 0.342:#02adfd 1:#97faff]  Rotation=980  Transparency=[0:0 1:0]
+        TextLabel "Title"  size={10,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="32"  font=12187365977/900  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=0.05  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+            UIGradient "UIGradient"  rot=980  Color=[0:#0043bf 0.342:#0282be 1:#71bbbf]  Rotation=980  Transparency=[0:0 1:0]
+      ImageLabel "Streak"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.65)  nobg  img=rbxassetid://17094014569
+        UIGradient "UIGradient"  rot=980  Color=[0:#ff0000 1:#ff9d00]  Rotation=980  Transparency=[0:0 1:0]
+        TextLabel "Value"  size={10,0},{0.75,0}  pos={0.5,0},{0.65,0}  anchor=(0.5,0.5)  nobg  z=2  text="27"  font=12187365977/900  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=0.075  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+            UIGradient "UIGradient"  rot=980  Color=[0:#ff0000 1:#ff9d00]  Rotation=980  Transparency=[0:0 1:0]
+  Frame "Matchmaking"  size={1,0},{1,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg
+    Frame "Container"  size={0.2,0},{0.2,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg
+      CanvasGroup "Scroller"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=0
+        UICorner "UICorner"
+        ImageLabel "Icon1"  size={1.5,0},{1,0}  pos={0.2,0},{0,0}  nobg  img=rbxassetid://131578423611939
+        ImageLabel "Icon2"  size={1.5,0},{1,0}  pos={-1.3,0},{0,0}  nobg  img=rbxassetid://131578423611939
+      ImageLabel "ImageLabel"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.44,0.44)  nobg  img=rbxassetid://138558684155020
+      Frame "Outline"  size={0.909,0},{0.909,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIStroke "UIStroke"  Thickness=0.075  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+        UICorner "UICorner"
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.DamageGui  (4 descendants)
+BillboardGui "DamageGui"  size={15,250},{15,250}  Enabled=True  Size={15,250},{15,250}  StudsOffset=(0,0,0)  MaxDistance=400  AlwaysOnTop=True  Adornee=nil
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    TextLabel "Value"  size={1,0},{0.075,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="40"  font=12187365977/700  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=1.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Absorbed"  size={0.075,0},{0.075,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://118920750856778  imgcol=#4b4b4b
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.DPSGui  (8 descendants)
+BillboardGui "DPSGui"  size={10,0},{10,0}  Enabled=True  Size={10,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=150  AlwaysOnTop=False  Adornee=nil
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Bar"  size={0.25,0},{0.01,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg
+      Frame "Bar"  size={0.75,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        UICorner "UICorner"
+    TextLabel "DPS"  size={1,0},{0.1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=2  text="DPS: 72.4"  font=12187365977/700  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+    TextLabel "Total"  size={1,0},{0.025,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Total Damage: 6,430.2"  font=12187365977/500  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0.875  ApplyStrokeMode=0
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.BlindedGui  (1 descendants)
+BillboardGui "BlindedGui"  size={4,0},{2,0}  Enabled=True  Size={4,0},{2,0}  StudsOffset=(0,0,1)  MaxDistance=500  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16965088429  imgcol=#dcb973
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ProximityPrompts.Ranked  (13 descendants)
+BillboardGui "Ranked"  size={100,0},{20,0}  Enabled=True  Size={100,0},{20,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageButton "Button"  size={0.5,0},{0.2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,1)  nobg  z=10
+    Frame "Inputs"  size={1,0},{1,0}  pos={-1e+03,0},{0,0}  anchor=(0.5,0.5)  nobg  z=2
+      Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        TextLabel "KeyText"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Q"  font=12187365977/900  scaled  tc=#ffffff
+      Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+        ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.0975,0},{0.525,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18214330364
+      Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+        TextLabel "KeyText"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  text="Q"  font=12187365977/900  scaled  tc=#ffffff
+    ImageLabel "Arrow"  size={0.125,0},{0.125,0}  pos={0.5,0},{1,-2}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+    TextLabel "ActionText"  size={0.8,0},{0.25,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  nobg  z=2  text="COMING SOON"  font=12187365977/500  scaled  tc=#000000
+    TextLabel "ObjectText"  size={0.8,0},{0.3,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=2  text="RANKED"  font=12187365977/800  scaled  tc=#000000
+    TextLabel "TextLabel"  size={0.8,0},{0.2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="• • • • • • • • • • • • • • • • •"  font=12187365977/500  scaled  tc=#000000
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ProximityPrompts.Default  (13 descendants)
+BillboardGui "Default"  size={100,0},{10,0}  Enabled=True  Size={100,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageButton "Button"  size={1,0},{0.2,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,1)  nobg  z=10
+    ImageLabel "Arrow"  size={0.5,0},{0.5,0}  pos={0.5,0},{1,-2}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+    ImageLabel "KeyBackground"  size={0.75,0},{0.75,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#000000
+    TextLabel "ActionText"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.65,0}  anchor=(0.5,0.5)  nobg  z=2  text="Claim"  font=12187365977/700  scaled  tc=#000000
+    TextLabel "ObjectText"  size={0.6,0},{0.35,0}  pos={0.5,0},{0.3,0}  anchor=(0.5,0.5)  nobg  z=2  text="Free Rewards"  font=12187365977/500  scaled  tc=#000000
+    Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+      Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        TextLabel "KeyText"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Q"  font=12187365977/900  scaled  tc=#ffffff
+      Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+        ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.0975,0},{0.525,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18214330364
+      Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+        Frame "Container"  size={0.6,0},{0.6,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ProximityPrompts.Snowball  (13 descendants)
+BillboardGui "Snowball"  size={100,0},{10,0}  Enabled=True  Size={100,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageButton "Button"  size={1,0},{0.2,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,1)  nobg  z=10
+    ImageLabel "Arrow"  size={0.5,0},{0.5,0}  pos={0.5,0},{1,-2}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+    ImageLabel "Background"  size={0.2,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+    ImageLabel "KeyBackground"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#000000
+    TextLabel "ActionText"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.65,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  text="Claim"  font=12187365977/700  scaled  tc=#000000
+    TextLabel "ObjectText"  size={0.6,0},{0.35,0}  pos={0.5,0},{0.3,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  text="Free Rewards"  font=12187365977/500  scaled  tc=#000000
+    Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+      Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        TextLabel "KeyText"  size={0.625,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Q"  font=12187365977/900  scaled  tc=#ffffff
+      Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+        ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.493,0},{0.525,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18214330364
+      Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+        Frame "Container"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.TeleportingGui  (11 descendants)
+ScreenGui "TeleportingGui"  Enabled=True  DisplayOrder=998  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Teleporting"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=90
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      ImageButton "Mask"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      Frame "Waiting"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Dots"  size={0.375,0},{0.375,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+          UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+          ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.Shutdown  (4 descendants)
+ScreenGui "Shutdown"  Enabled=True  DisplayOrder=1000000001  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      ImageButton "Mask"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Icon"  size={1,0},{0.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://13854569361
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.InsetGui  (24 descendants)
+ScreenGui "InsetGui"  Enabled=True  DisplayOrder=999  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={1,0},{0,58}  pos={0,0},{0,0}  nobg  z=3
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "RightButtons"  size={1,0},{1,0}  pos={0,-12},{1,0}  anchor=(0,1)  nobg
+        UIListLayout "Layout"  FillDirection=0  Padding={0,12}  HorizontalAlignment=2  VerticalAlignment=0  SortOrder=2
+        Frame "Details"  size={1.25,206},{1,0}  pos={0,0},{0,0}  nobg
+          Frame "Container"  size={1,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg
+            Frame "ServerRegion"  size={0.5,0},{0.5,0}  pos={1,0},{0.1,0}  anchor=(1,0)  nobg
+              TextLabel "Title"  size={10,0},{0.5,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="NORTH AMERICA"  font=12187365977/500  scaled  tc=#ffffff
+              ImageLabel "Icon"  size={1,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://135846354277966  imgT=0.5
+            Frame "Connection"  size={0.5,0},{0.5,0}  pos={1,0},{0.4,0}  anchor=(1,0)  nobg
+              ImageLabel "Behind"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://132057677369850  imgcol=#000000  imgT=0.875
+              ImageLabel "Icon"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://132057677369850  imgT=0.5
+              TextLabel "Title"  size={10,0},{0.5,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="90ms"  font=12187365977/500  scaled  tc=#ffffff
+      Frame "LeftButtons"  size={1,0},{1,0}  pos={0,12},{1,0}  anchor=(0,1)  nobg
+        UIListLayout "Layout"  FillDirection=0  Padding={0,12}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+        Frame "Details"  size={1.25,206},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+          Frame "Container"  size={1,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+            Frame "ServerRegion"  size={0.5,0},{0.5,0}  pos={0,0},{0.1,0}  nobg
+              TextLabel "Title"  size={10,0},{0.5,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="NORTH AMERICA"  font=12187365977/500  scaled  tc=#ffffff
+              ImageLabel "Icon"  size={1,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://135846354277966  imgT=0.5
+            Frame "Connection"  size={0.5,0},{0.5,0}  pos={0,0},{0.4,0}  nobg
+              ImageLabel "Behind"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://132057677369850  imgcol=#000000  imgT=0.875
+              ImageLabel "Icon"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://132057677369850  imgT=0.5
+              TextLabel "Title"  size={10,0},{0.5,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="90ms"  font=12187365977/500  scaled  tc=#ffffff
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.StarterBundleGui  (33 descendants)
+SurfaceGui "StarterBundleGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "StarterBundle"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      ImageButton "Button"  size={0.3,0},{0.2,0}  pos={0.75,0},{0.875,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+          UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+        ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.5
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+        TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="• • •"  font=12187365977/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+      TextLabel "Title"  size={0.875,0},{0.15,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  z=3  text="Starter Bundle"  font=12187365977/800  scaled  tc=#728cff
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.75  ApplyStrokeMode=0
+      ImageLabel "Owned"  size={0.35,0},{0.225,0}  pos={0.75,0},{0.875,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  img=rbxassetid://17735659456  imgcol=#000000  imgT=0.875
+        ImageLabel "Completed"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://17588806026  imgcol=#64ff32
+      Frame "Rewards"  size={0.8,0},{0.25,0}  pos={0.5,0},{0.35,0}  anchor=(0.5,0.5)  nobg
+        UIGridLayout "Layout"  CellSize={0.2,0},{1,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+      ImageLabel "Icon"  size={0.5,0},{0.5,0}  pos={0.25,0},{0.725,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://18125838260  imgcol=#c8c8c8
+        UICorner "UICorner"
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.25,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+  Frame "VideoAdRewards"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.35,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.3,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ShootingRangeGui  (7 descendants)
+SurfaceGui "ShootingRangeGui"  Enabled=True  Face=3  PixelsPerStud=20  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={0.5,0},{0.1,0}  pos={0.5,0},{0.375,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text="SHOOTING RANGE"  font=12187365977/900  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14824249410
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14824249410
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://14824249410
+  Frame "Players"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.8,0}  anchor=(0.5,0)  nobg  z=2
+    UIGridLayout "Layout"  CellSize={0.133,0},{0.133,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.CustomFreecam  (2 descendants)
+ScreenGui "CustomFreecam"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "LocalScript"  -> scripts/StarterPlayer/StarterPlayerScripts/UserInterface/CustomFreecam/LocalScript.client.lua  [disabled]
+    BindableEvent "Toggle"
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.LobbyVisuals.Default.QueuePadBoardGui  (14 descendants)
+SurfaceGui "QueuePadBoardGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Warning"  size={0.7,0},{0.025,0}  pos={0.03,0},{0.99,0}  anchor=(0,1)  nobg  z=4  text="WARNING! — POTENTIAL LOSS OF STREAK"  font=12187365977/700  scaled  tc=#b9cfff
+    Frame "TeamSlotContainer"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+      Frame "BottomBar"  size={1,0},{0.1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "Outline"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  nobg  z=3
+        UICorner "UICorner"
+        UIStroke "UIStroke"  Thickness=15  Color=#728cff  Transparency=0  ApplyStrokeMode=0
+      Frame "TopBar"  size={1,0},{0.15,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+      ImageLabel "BGTxt"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://96968939344136  imgT=0.95
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.LobbyVisuals.Festive.QueuePadBoardGui  (14 descendants)
+SurfaceGui "QueuePadBoardGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Warning"  size={0.85,0},{0.05,0}  pos={0.5,0},{0.925,0}  anchor=(0.5,1)  nobg  z=4  text="WARNING! — POTENTIAL LOSS OF STREAK"  font=Merriweather/900  scaled  tc=#000000
+    Frame "TeamSlotContainer"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+      Frame "BottomBar"  size={1,0},{0.1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  HIDDEN  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "Outline"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  nobg  z=3
+        UIStroke "UIStroke"  Thickness=15  Color=#000000  Transparency=0.9  ApplyStrokeMode=0
+        UICorner "UICorner"
+      Frame "TopBar"  size={1,0},{0.15,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  HIDDEN  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+      ImageLabel "BGTxt"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxassetid://96968939344136  imgT=0.95
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ababab  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.LeaderboardGui  (20 descendants)
+SurfaceGui "LeaderboardGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ScrollingFrame "List"  size={0.855,0},{0.613,0}  pos={0.5,0},{0.463,0}  anchor=(0.5,0.5)  nobg
+    Frame "Container"  size={1,-20},{1,-20}  pos={0,0},{0,0}  nobg
+      UIListLayout "Layout"  FillDirection=1  Padding={0,20}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      Frame "BottomBuffer"  size={1,0},{0.01,0}  pos={0,0},{0,0}  nobg
+  ImageLabel "LiveBackground"  size={0.26,0},{0.085,0}  pos={0.925,0},{0.05,0}  anchor=(1,0.5)  nobg  z=0  img=rbxassetid://13970862697  imgcol=#ff0000
+  Frame "Buttons"  size={1,0},{0.1,0}  pos={0.5,0},{0.913,0}  anchor=(0.5,0.5)  nobg
+    UIListLayout "Layout"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+  TextLabel "Title"  size={1,0},{0.08,0}  pos={0.5,0},{0.05,0}  anchor=(0.5,0.5)  nobg  text="Win Streaks                   "  font=12187365977/700  scaled  tc=#728cff
+  TextLabel "Live"  size={1,0},{0.065,0}  pos={0.895,0},{0.05,0}  anchor=(1,0.5)  nobg  text="• LIVE"  font=12187365977/800  scaled  tc=#ffffff
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+    Frame "BottomBar"  size={1,0},{0.175,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+      UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+    Frame "TopBar"  size={1,0},{0.1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+      UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+    ImageLabel "BGTxt"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://96968939344136  imgT=0.95
+    Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab  z=0
+      UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+    Frame "Outline"  size={0.875,0},{0.625,0}  pos={0.5,0},{0.463,0}  anchor=(0.5,0.5)  nobg  z=3
+      UICorner "UICorner"
+      UIStroke "UIStroke"  Thickness=15  Color=#728cff  Transparency=0  ApplyStrokeMode=0
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.LikeBoardGui  (70 descendants)
+SurfaceGui "LikeBoardGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "Progress"  size={1,0},{0.125,0}  pos={0.5,0},{0.785,0}  anchor=(0.5,0.5)  nobg
+      Frame "Bar"  size={0.7,0},{0.45,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#005f7f@0.5
+        Frame "Bar"  size={0.75,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#00beff
+          UICorner "UICorner"
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#989898]  Rotation=90  Transparency=[0:0 1:0]
+        UICorner "UICorner"
+        UIStroke "UIStroke"  Thickness=2  Color=#001d27  Transparency=0.25  ApplyStrokeMode=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#989898]  Rotation=-90  Transparency=[0:0 1:0]
+      TextLabel "NextReward"  size={0.375,0},{0.5,0}  pos={0.763,0},{1.62,0}  anchor=(1,0.5)  nobg  z=2  text="Next reward:"  font=12187365977/500  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+      Frame "Reward"  size={1,0},{1,0}  pos={0.85,0},{1.62,0}  anchor=(1,0.5)  nobg
+        Frame "FakeKeys"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          ImageButton "Reward"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            ImageLabel "Icon"  size={1.25,0},{1.25,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17860400428
+            TextLabel "Title"  size={0.9,0},{0.4,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  nobg  z=2  text="x???"  font=12187365977/500  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.75  ApplyStrokeMode=0
+      TextLabel "Current"  size={0.2,0},{0.375,0}  pos={0.16,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="15,174"  font=12187365977/800  scaled  tc=#000000
+      TextLabel "Goal"  size={0.2,0},{0.375,0}  pos={0.84,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="20,000"  font=12187365977/800  scaled  tc=#000000
+      TextLabel "Percent"  size={0.15,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  text="62%"  font=12187365977/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#001d27  Transparency=0.5  ApplyStrokeMode=0
+    Frame "Reward"  size={0.375,0},{0.375,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  nobg
+    TextLabel "Code"  size={0.75,0},{0.135,0}  pos={0.45,0},{0.275,0}  anchor=(0,0.5)  nobg  text="LIKES99"  font=12187365977/900  scaled  tc=#728cff
+    TextLabel "Description"  size={0.75,0},{0.075,0}  pos={0.425,0},{0.275,0}  anchor=(1,0.5)  nobg  text="Use code"  font=12187365977/600  scaled  tc=#b9cfff
+    TextLabel "Title"  size={0.75,0},{0.125,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  text="👍   Like the game!   👍"  font=12187365977/800  scaled  tc=#728cff
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.15,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+  Frame "Waiting"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "Dots"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627  imgcol=#728cff
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627  imgcol=#728cff
+      ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627  imgcol=#728cff
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.15,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+  Frame "StarterBundle"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      ImageButton "Button"  size={0.3,0},{0.2,0}  pos={0.75,0},{0.875,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+          UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+        ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.5
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+        TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="• • •"  font=12187365977/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0.5  ApplyStrokeMode=0
+      TextLabel "Title"  size={0.875,0},{0.15,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  z=3  text="Starter Bundle"  font=12187365977/800  scaled  tc=#728cff
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.75  ApplyStrokeMode=0
+      ImageLabel "Owned"  size={0.35,0},{0.225,0}  pos={0.75,0},{0.875,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  img=rbxassetid://17735659456  imgcol=#000000  imgT=0.875
+        ImageLabel "Completed"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://17588806026  imgcol=#64ff32
+      Frame "Rewards"  size={0.8,0},{0.25,0}  pos={0.5,0},{0.35,0}  anchor=(0.5,0.5)  nobg
+        UIGridLayout "Layout"  CellSize={0.2,0},{1,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+      ImageLabel "Icon"  size={0.5,0},{0.5,0}  pos={0.25,0},{0.725,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://18125838260  imgcol=#c8c8c8
+        UICorner "UICorner"
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.25,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.EliminationBoardGui  (6 descendants)
+SurfaceGui "EliminationBoardGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={1,0},{0.12,0}  pos={0.5,0},{0.0875,0}  anchor=(0.5,0.5)  nobg  text="Eliminations     • LIVE"  font=12187365977/800  scaled  tc=#ffffff
+  ImageLabel "Hover"  size={0.9,0},{0.75,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14801518504
+  ScrollingFrame "List"  size={0.84,0},{0.66,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg
+    Frame "Container"  size={1,-20},{1,-20}  pos={0,0},{0,0}  nobg
+      UIGridLayout "Layout"  CellSize={0.5,-4},{0.1,0}  CellPadding={0,8},{0,8}  FillDirectionMaxCells=0
+  ImageLabel "LiveBackground"  size={0.27,0},{0.16,0}  pos={0.76,0},{0.0875,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://13970862697  imgcol=#ff0000
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.MainGui  (698 descendants)
+ScreenGui "MainGui"  Enabled=True  DisplayOrder=1  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    Frame "ItemInterfaces"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+    Frame "PingEffect"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+    Frame "Pages"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=13
+      Frame "SideParty"  size={0.875,0},{0.875,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+        Frame "Container"  size={0.06,0},{0.06,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  nobg
+          UIListLayout "Layout"  FillDirection=1  Padding={0.1,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+    Frame "DuelInterfaces"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5
+    Frame "FighterInterfaces"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2
+    Frame "EliminatedEffect"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15
+    Frame "BottomStack"  size={1,0},{1,0}  pos={0.5,0},{1,-10}  anchor=(0.5,1)  nobg  z=3
+      UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+      Frame "EliminationSlots"  size={0.04,0},{0.04,0}  pos={0.5,0},{0.9,-50}  anchor=(0.5,0)  nobg
+      Frame "Spectate"  size={0.04,20},{0.08,40}  pos={0.5,0},{0.9,-60}  anchor=(0.5,1)  nobg  z=99
+        Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+          ImageButton "Last"  size={1.25,0},{0.875,0}  pos={-3.25,0},{0.5,0}  anchor=(1,0.5)  nobg
+            Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                Frame "Keybind"  size={0.75,0},{0.75,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SpectateLast"}
+              Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+              Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+                Frame "Keybind"  size={0.75,0},{0.75,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SpectateLast"}
+            ImageLabel "Icon"  size={0.4,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  rot=180  img=rbxassetid://113844621753627
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+              UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          ImageButton "Next"  size={1.25,0},{0.875,0}  pos={4.25,0},{0.5,0}  anchor=(0,0.5)  nobg
+            Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                Frame "Keybind"  size={0.75,0},{0.75,0}  pos={1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SpectateNext"}
+              Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+              Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+                Frame "Keybind"  size={0.75,0},{0.75,0}  pos={1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SpectateNext"}
+            ImageLabel "Icon"  size={0.4,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+              UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+          ImageLabel "Background"  size={7,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+            UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+          ImageButton "Exit"  size={1.75,0},{1,-10}  pos={0.5,0},{-0.5,-5}  anchor=(0.5,0.5)  nobg
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#ff3232
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#404040]  Rotation=90  Transparency=[0:0 1:0]
+            Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                Frame "Keybind"  size={0.75,0},{0.75,0}  pos={1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SpectateExit"}
+              Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+              Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+                Frame "Keybind"  size={0.75,0},{0.75,0}  pos={1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SpectateExit"}
+            ImageLabel "Icon"  size={1,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17498605048
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          ImageButton "Freecam"  size={1.75,0},{1,-10}  pos={-2.12,0},{-0.5,-5}  anchor=(0.5,0.5)  nobg
+            ImageLabel "Icon"  size={1,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17548980857
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+              UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+          ImageButton "ExitFreecam"  size={4.5,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+            TextLabel "Title"  size={0.9,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Exit Freecam"  font=12187365977/600  scaled  tc=#ffffff
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#ff3232
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#404040]  Rotation=90  Transparency=[0:0 1:0]
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          TextLabel "Username"  size={6.6,0},{0.3,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  nobg  text="@OnlyTwentyCharacters"  font=12187365977/600  scaled  tc=#ffffff
+          TextLabel "Player"  size={6.6,0},{0.6,0}  pos={0.5,0},{0.35,0}  anchor=(0.5,0.5)  nobg  text="OnlyTwentyCharacters"  font=12187365977/600  scaled  tc=#ffffff
+          ImageButton "Join"  size={1.75,0},{1,-10}  pos={3.12,0},{-0.5,-5}  anchor=(0.5,0.5)  nobg
+            Frame "Off"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#bfbfbf
+                UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#757575]  Rotation=90  Transparency=[0:0 1:0]
+              ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+                UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+              TextLabel "Title"  size={0.9,0},{0.575,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="15"  font=12187365977/700  scaled  tc=#ffffff
+                UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+            Frame "On"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+              ImageLabel "Icon"  size={1,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://78808392612328
+              ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+              Frame "Bubble"  size={2,0},{0.75,0}  pos={0.5,0},{-0.25,0}  anchor=(0.5,1)  nobg
+                ImageLabel "Arrow"  size={0.5,0},{0.5,0}  pos={0.5,0},{1,-2}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+                ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                TextLabel "Title"  size={0.75,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Join this game!"  font=12187365977/500  scaled  tc=#000000
+      Frame "EliminationSlotsBuffer"  size={1,0},{0.01,0}  pos={0.5,0},{0.9,-50}  anchor=(0.5,0)  nobg
+      Frame "SpectateBuffer"  size={1,0},{0.2,0}  pos={0.5,0},{0.9,-50}  anchor=(0.5,0)  nobg
+      Frame "SwitchCameraPOV"  size={0.225,112},{0.04,20}  pos={0.5,0},{0.82,-100}  anchor=(0.5,0.5)  HIDDEN  nobg  z=-1
+        Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          Frame "Keybind"  size={0.2,0},{0.65,0}  pos={0.875,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "SwitchCameraPOV"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+            UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+          ImageLabel "Camera"  size={0.2,0},{0.65,0}  pos={0.125,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17548980857
+          TextLabel "Title"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.525)  nobg  z=2  text="Switch POV"  font=12187365977/800  scaled  tc=#ffffff
+    Frame "Lobby"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=12
+      Frame "Buttons"  size={1,0},{1,0}  pos={0.5,0},{1,-20}  anchor=(0.5,1)  nobg  z=3
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Container"  size={0.075,40},{0.075,40}  pos={0.5,0},{0.95,-20}  anchor=(0.5,0.5)  nobg
+          Frame "List"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            UIListLayout "Layout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+          ImageLabel "Background"  size={0.25,637},{0.5,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=-1  img=rbxassetid://13188153054  imgcol=#000000  imgT=0.25
+            UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+      Frame "Currency"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Container"  size={0.075,40},{0.075,40}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+          UIListLayout "Layout"  FillDirection=0  Padding={0.75,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      Frame "Play"  size={0.04,20},{0.04,20}  pos={0.5,0},{0.9,-50}  anchor=(0.5,1)  nobg  z=2
+        ImageButton "Hub"  size={3.5,0},{1,0}  pos={-3.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#ff3232
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#989898]  Rotation=90  Transparency=[0:0 1:0]
+          ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          TextLabel "Title"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="To Hub"  font=12187365977/700  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+          Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+            Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+            Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+              Frame "Keybind"  size={0.141,0},{0.5,0}  pos={0.85,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "UITertiaryAction"}
+        ImageButton "Rematch"  size={3.5,0},{1,0}  pos={4.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+            UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+          ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          TextLabel "Count"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.725,0}  anchor=(0.5,0.5)  nobg  text="0 / 4"  font=12187365977/600  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+          TextLabel "Title"  size={0.9,0},{0.475,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  text="Rematch"  font=12187365977/700  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+          Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+            Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+            Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+              Frame "Keybind"  size={0.141,0},{0.5,0}  pos={0.85,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "UIQuaternaryAction"}
+        ImageButton "Play"  size={3.5,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          Frame "Off"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#bfbfbf
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#757575]  Rotation=90  Transparency=[0:0 1:0]
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+            TextLabel "Title"  size={0.9,0},{0.575,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Join"  font=12187365977/700  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+          Frame "Join"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+              UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+            TextLabel "Title"  size={0.9,0},{0.575,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Play"  font=12187365977/700  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+            Frame "Bubble"  size={2.25,0},{0.75,0}  pos={0.5,0},{-0.2,0}  anchor=(0.5,1)  nobg
+              ImageLabel "Arrow"  size={0.5,0},{0.5,0}  pos={0.5,0},{1,-2}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+              TextLabel "Title"  size={10,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Join the queue to start playing!"  font=12187365977/500  scaled  tc=#000000
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+          Frame "Inputs"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+            Frame "MouseKeyboard"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            Frame "Touch"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+            Frame "Gamepad"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+              Frame "Keybind"  size={0.176,0},{0.625,0}  pos={0.85,0},{0.5,0}  anchor=(0.5,0.5)  nobg  attrs={"InputName": "UIPrimaryAction"}
+      Frame "Party"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        Frame "BottomDisplay"  size={0.04,20},{0.04,20}  pos={0.5,0},{0.9,-50}  anchor=(0.5,1)  nobg  z=2
+          Frame "Container"  size={1,0},{1,0}  pos={2.75,0},{0,0}  nobg
+            UIListLayout "Layout"  FillDirection=0  Padding={0.1,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      Frame "Requests"  size={1,0},{1,0}  pos={1,-10},{0,10}  anchor=(1,0)  nobg
+        Frame "Container"  size={0,320},{0,320}  pos={1,0},{0,0}  anchor=(1,0)  nobg
+          UIListLayout "Layout"  FillDirection=1  Padding={0,4}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+          Frame "PlayerListBuffer"  size={1,0},{0,44}  pos={1,0},{0,0}  anchor=(1,0)  nobg
+      Frame "Matchmaking"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Container"  size={0.35,175},{0.05,25}  pos={0.5,0},{0.075,40}  anchor=(0.5,0)  nobg
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+            UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+          TextLabel "Title"  size={0.7,0},{0.3,0}  pos={0.175,0},{0.3,0}  anchor=(0,0.5)  nobg  z=2  text="Searching for players..."  font=12187365977/500  scaled  tc=#ffffff
+          TextLabel "Queue"  size={0.5,0},{0.4,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=2  text="1v1"  font=12187365977/800  scaled  tc=#ffffff
+          TextLabel "Timer"  size={0.175,0},{0.4,0}  pos={0.75,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="0:01"  font=12187365977/800  scaled  tc=#ffffff
+          ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.0875,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18523763487
+          ImageButton "Leave"  size={0.125,0},{0.625,0}  pos={0.913,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+            ImageLabel "Icon"  size={0.875,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17838290166
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#ff3232
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#989898]  Rotation=90  Transparency=[0:0 1:0]
+          Frame "Leaving"  size={0.125,0},{0.625,0}  pos={0.913,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            Frame "Dots"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+              UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+              ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+              ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+    Frame "Notifications"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=14
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "Container"  size={0.75,0},{0.1,0}  pos={0.5,0},{0.15,0}  anchor=(0.5,0.5)  nobg
+        UIListLayout "Layout"  FillDirection=1  Padding={0.03,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+    Frame "Spotlight"  size={3,0},{3,0}  pos={-1,0},{-1,0}  nobg  z=998
+      Frame "Frame"  size={1,0},{100,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg
+      Frame "Frame"  size={1,0},{100,0}  pos={0.5,0},{0,0}  anchor=(0.5,1)  nobg
+      Frame "Frame"  size={100,0},{100,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg
+      Frame "Frame"  size={100,0},{100,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg
+      ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={1,0},{0,0}  anchor=(1,0)  nobg  img=rbxassetid://17899937066  imgcol=#000000  imgT=1
+      ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,0},{0,0}  nobg  img=rbxassetid://17899937163  imgcol=#000000  imgT=1
+      ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={1,0},{1,0}  anchor=(1,1)  nobg  img=rbxassetid://17899937279  imgcol=#000000  imgT=1
+      ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,0},{1,0}  anchor=(0,1)  nobg  img=rbxassetid://17899937515  imgcol=#000000  imgT=1
+    ImageButton "JoystickModal"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=-999999999
+    Frame "BossHealth"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=4
+      Frame "Container"  size={0.175,58},{0.07,20}  pos={0.5,0},{0.125,30}  anchor=(0.5,0.5)  nobg
+        UIListLayout "Layout"  FillDirection=1  Padding={0.125,4}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    Frame "MainGlowyBackground"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-100
+    Frame "SideTasks"  size={1,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "Container"  size={0.25,90},{0.208,75}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg
+        Frame "Slots"  size={1,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+          Frame "ContractsCompleted"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg
+            TextLabel "Title"  size={0.7,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Congratulations! You've completed every Assault Rifle contra..."  font=12187365977/700  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+            ImageLabel "Icon"  size={0.125,0},{0.125,0}  pos={0.075,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17772690718  imgcol=#64ff32
+          Frame "ButtonsBuffer"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg
+          Frame "ToDuels"  size={1,0},{0.175,0}  pos={0,0},{0,0}  nobg
+            ImageButton "Button"  size={0.55,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+              ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+              TextLabel "Title"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="To Duels"  font=12187365977/600  scaled  tc=#ffffff
+                ImageLabel "ImageLabel"  size={1,0},{0.875,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://17735783844
+                ImageLabel "ImageLabel"  size={1,0},{0.875,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://17735783844
+          Frame "ToShootingRange"  size={1,0},{0.175,0}  pos={0,0},{0,0}  nobg
+            ImageButton "Button"  size={0.875,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              TextLabel "Title"  size={0.725,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="To Shooting Range"  font=12187365977/600  scaled  tc=#ffffff
+                ImageLabel "ImageLabel"  size={1.25,0},{0.875,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://17735783844
+                ImageLabel "ImageLabel"  size={1.25,0},{0.875,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://17735783844
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+              ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          Frame "Header"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg
+            TextLabel "Title"  size={1,0},{0.556,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Beginner Tasks"  font=12187365977/800  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+              ImageLabel "Icon"  size={2,0},{1.5,0}  pos={-0.075,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17653923757
+          Frame "BackgroundEnd"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+        Frame "Background"  size={1,0},{0.375,0}  pos={0,0},{0.0469,0}  bg=#000000@0.25  z=-10
+          UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:1]
+          UICorner "UICorner"
+    Frame "Equipment"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=11
+      Frame "Left"  size={0.25,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+        ScrollingFrame "List"  size={0.7,0},{1,0}  pos={0.025,0},{0.5,0}  anchor=(0,0.5)  nobg
+          Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            UIListLayout "Layout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+            Frame "TopBuffer"  size={1,0},{0,575}  pos={0,0},{0,0}  nobg
+            Frame "BottomBuffer"  size={1,0},{0.025,0}  pos={0,0},{0,0}  nobg
+        ImageLabel "Background"  size={0.7,0},{0.5,8}  pos={0.025,0},{1,8}  anchor=(0,1)  HIDDEN  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+          UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0.5]
+      Frame "Right"  size={0.25,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg
+        ScrollingFrame "List"  size={0.9,0},{1,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg
+          Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            UIListLayout "Layout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+            Frame "TopBuffer"  size={1,0},{0,575}  pos={0,0},{0,0}  nobg
+            Frame "Details"  size={1,0},{0.295,0}  pos={0.5,0},{1.52,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 1:0.5]
+              Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                ImageLabel "Icon"  size={0.5,0},{0.5,0}  pos={0.075,0},{0.063,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17160682738
+                TextLabel "Title"  size={0.75,0},{0.1,0}  pos={0.125,0},{0.063,0}  anchor=(0,0.5)  nobg  z=3  text="Assault Rifle"  font=12187365977/800  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                Frame "Descriptions"  size={1,0},{1,0}  pos={0.15,0},{0.113,0}  nobg  z=2
+                  UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+                ImageLabel "Headshot"  size={0.2,0},{0.2,0}  pos={0.15,0},{0,0}  anchor=(0.5,0.5)  nobg
+                  UICorner "UICorner"
+                  UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:1]
+                Frame "Favorited"  size={0.1,0},{0.1,0}  pos={0.938,0},{0.063,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Empty"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://17588415222
+                    ImageLabel "Filled"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://99607072419616
+            Frame "LockedActions"  size={1,0},{0.95,0}  pos={0.5,0},{2.12,0}  anchor=(0.5,0.5)  nobg  z=2
+              Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                Frame "SpecialOffer"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=2
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    Frame "Unlocked"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="VIEW"  font=12187365977/900  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                    Frame "Locked"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-2
+                      ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://17229230506
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#bfbfbf
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#757575]  Rotation=90  Transparency=[0:0 1:0]
+                  TextLabel "Description"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Early access!"  font=12187365977/700  scaled  tc=#ffffff
+                  ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://71823401853501  imgT=0.125
+                  TextLabel "Countdown"  size={0.525,0},{0.3,0}  pos={0.7,0},{0.65,0}  anchor=(1,0.5)  nobg  z=3  text="in 5d 59m 59s"  font=12187365977/500  scaled  tc=#ffffff
+                Frame "TryWeapon"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  TextLabel "Description"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Try out for free!"  font=12187365977/700  scaled  tc=#ffffff
+                  ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17738770088  imgT=0.125
+                Frame "Buy"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=0
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    Frame "Free"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=0
+                      TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="FREE"  font=12187365977/900  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffff00 0.464:#fbf304 1:#ebc015]  Rotation=90  Transparency=[0:0 1:0]
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    Frame "Keys"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=0
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffff00 0.464:#fbf304 1:#ebc015]  Rotation=90  Transparency=[0:0 1:0]
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      TextLabel "Price"  size={0.525,0},{0.6,0}  pos={0.375,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="1"  font=12187365977/900  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                        ImageLabel "Icon"  size={1.25,0},{1,0}  pos={0.5,13},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://17495953350  imgcol=#000000  imgT=0.875
+                          ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17495953455
+                    Frame "Locked"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-2
+                      ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://17229230506
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#bfbfbf
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#757575]  Rotation=90  Transparency=[0:0 1:0]
+                  ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18129688386  imgT=0.125
+                  TextLabel "Countdown"  size={0.525,0},{0.3,0}  pos={0.7,0},{0.65,0}  anchor=(1,0.5)  nobg  z=3  text="in 6d 59m 59s"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Description"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Coming soon!"  font=12187365977/700  scaled  tc=#ffffff
+                UIListLayout "Layout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+                Frame "TopBuffer"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+                Frame "BottomBuffer"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+                Frame "Scavenger"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=2
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    Frame "Unlocked"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="VIEW"  font=12187365977/900  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                    Frame "Locked"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-2
+                      ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://17229230506
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#bfbfbf
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#757575]  Rotation=90  Transparency=[0:0 1:0]
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Jump Shards"  font=12187365977/700  scaled  tc=#ffffff
+                  ImageLabel "Icon"  size={0.875,0},{0.875,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://110601089716497  imgT=0.125
+                  TextLabel "Progress"  size={0.525,0},{0.3,0}  pos={0.7,0},{0.65,0}  anchor=(1,0.5)  nobg  z=3  text="0 / 6 found"  font=12187365977/500  scaled  tc=#ffffff
+                Frame "FreeTrial"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=0
+                  ImageLabel "Icon"  size={0.55,0},{0.55,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://139712386938208  imgT=0.125
+                  TextLabel "Countdown"  size={0.525,0},{0.3,0}  pos={0.7,0},{0.65,0}  anchor=(1,0.5)  nobg  z=3  text="Play for 1 duel"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Description"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Free Trial"  font=12187365977/700  scaled  tc=#ffffff
+                  Frame "Ready"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ffffff@0.875
+                    UICorner "UICorner"
+                    ImageLabel "Equipped"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17588806026
+                    UIStroke "UIStroke"  Thickness=0.05  Color=#ffffff  Transparency=0.5  ApplyStrokeMode=0
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+                    UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0.5]
+                  Frame "NotReady"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+                      TextLabel "Title"  size={0.5,0},{0.575,0}  pos={0.5,16},{0.5,0}  anchor=(0.5,0.5)  nobg  text="0 <font size="8">/ 1</font>"  font=12187365977/700  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                        ImageLabel "Icon"  size={1.25,0},{0.75,0}  pos={0.5,-24},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://139712386938208
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    Frame "Waiting"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+                      Frame "Dots"  size={1.16,0},{1.16,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                        ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+                        UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+                        ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+                        ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+                      UICorner "UICorner"
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0.5]
+                      UIStroke "UIStroke"  Thickness=0.05  Color=#ffffff  Transparency=0.5  ApplyStrokeMode=0
+                        UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+                    ImageButton "Unavailable"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                      TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Retry"  font=12187365977/700  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 1:0.5]
+            Frame "PrimaryActions"  size={1,0},{1.5,0}  pos={0.5,0},{2.55,0}  anchor=(0.5,0.5)  nobg  z=2
+              Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                Frame "Contracts"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://79230958890161  imgT=0.125
+                  TextLabel "Description"  size={0.45,0},{0.3,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=3  text="Earn free rewards"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Contracts"  font=12187365977/700  scaled  tc=#ffffff
+                UIListLayout "Layout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+                Frame "TopBuffer"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+                Frame "BottomBuffer"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+                Frame "DuelHistory"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  ImageLabel "Icon"  size={0.7,0},{0.7,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18525954682  imgT=0.125
+                  TextLabel "Description"  size={0.45,0},{0.3,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=3  text="View recent duels"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Duel History"  font=12187365977/700  scaled  tc=#ffffff
+                Frame "Maps"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://106278925643260  imgT=0.125
+                  TextLabel "Description"  size={0.45,0},{0.3,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=3  text="Learn about maps"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Map Catalog"  font=12187365977/700  scaled  tc=#ffffff
+                Frame "Collection"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  ImageLabel "Icon"  size={0.625,0},{0.625,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://71823401853501  imgT=0.125
+                  TextLabel "Description"  size={0.45,0},{0.3,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=3  text="Skins, wraps, & more"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Collection"  font=12187365977/700  scaled  tc=#ffffff
+                Frame "Career"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=https://www.roblox.com/headshot-thumbnail/image?userId=15941965&width=...  imgT=0.125
+                    UICorner "UICorner"
+                  TextLabel "Description"  size={0.45,0},{0.3,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=3  text="Inspect your profile"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Career"  font=12187365977/700  scaled  tc=#ffffff
+                Frame "Weapon"  size={1,0},{0.16,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg
+                  ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                      UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+                    ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                    ImageLabel "Icon"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://113844621753627
+                  ImageLabel "Icon"  size={2.25,0},{2.25,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17250453814  imgT=0.125
+                  TextLabel "Description"  size={0.45,0},{0.3,0}  pos={0.175,0},{0.65,0}  anchor=(0,0.5)  nobg  z=3  text="Back to weapon"  font=12187365977/500  scaled  tc=#ffffff
+                  TextLabel "Title"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.35,0}  anchor=(0,0.5)  nobg  z=3  text="Grenade Launcher"  font=12187365977/700  scaled  tc=#ffffff
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 1:0.5]
+            Frame "Level"  size={1,0},{0.491,0}  pos={0.5,0},{1.52,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 1:0.5]
+              Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                Frame "Bar"  size={0.925,0},{0.05,0}  pos={0.5,0},{0.0625,0}  anchor=(0.5,0.5)  bg=#005f7f@0.5
+                  Frame "Container"  size={0.75,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+                    Frame "Bar"  size={18.5,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#00beff
+                      UICorner "UICorner"
+                      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#989898]  Rotation=90  Transparency=[0:0 1:0]
+                  UICorner "UICorner"
+                  UIStroke "UIStroke"  Thickness=2  Color=#001d27  Transparency=0.25  ApplyStrokeMode=0
+                  UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#989898]  Rotation=-90  Transparency=[0:0 1:0]
+                  TextLabel "Progress"  size={0.15,0},{1,0}  pos={0.01,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="99,999"  font=12187365977/800  scaled  tc=#000000
+                  TextLabel "Goal"  size={0.15,0},{1,0}  pos={0.99,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="99,999"  font=12187365977/800  scaled  tc=#000000
+                  TextLabel "Level"  size={0.375,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="9,999"  font=12187365977/800  scaled  tc=#ffffff
+                    UIStroke "UIStroke"  Thickness=2  Color=#001d27  Transparency=0.5  ApplyStrokeMode=0
+                Frame "Components"  size={1,0},{1,0}  pos={0,0},{0.125,0}  nobg
+                  UIListLayout "Layout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+                  Frame "NextReward"  size={1,0},{0.16,0}  pos={0.5,0},{0.2,0}  anchor=(0.5,0.5)  nobg
+                    Frame "Container"  size={1.12,0},{1.12,0}  pos={0.904,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                    TextLabel "Title"  size={0.6,0},{0.4,0}  pos={0.175,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Reward at Level 999"  font=12187365977/700  scaled  tc=#ffffff
+                    ImageLabel "Icon"  size={0.5,0},{0.5,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://81461991645938  imgT=0.125
+                  Frame "LevelUp"  size={1,0},{0.16,0}  pos={0.5,0},{0.385,0}  anchor=(0.5,0.5)  nobg
+                    TextLabel "Description"  size={0.45,0},{0.4,0}  pos={0.175,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Level up now!"  font=12187365977/700  scaled  tc=#ffffff
+                    ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://130039904821729  imgT=0.125
+                    ImageButton "Button"  size={0.333,0},{1,0}  pos={0.812,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffff00 0.464:#fbf304 1:#ebc015]  Rotation=90  Transparency=[0:0 1:0]
+                      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                      TextLabel "Price"  size={0.525,0},{0.6,0}  pos={0.338,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="10"  font=12187365977/900  scaled  tc=#ffffff
+                        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+                        ImageLabel "Icon"  size={1.75,0},{1,0}  pos={0.5,13},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://17495953350  imgcol=#000000  imgT=0.875
+                          ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17495953455
+            Frame "BottomBuffer"  size={1,0},{0.025,0}  pos={0,0},{0,0}  nobg
+            Frame "SecondaryActions"  size={1,0},{1.5,0}  pos={0.5,0},{2.55,0}  anchor=(0.5,0.5)  nobg  z=2
+              Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                UIListLayout "Layout"  FillDirection=1  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+                Frame "TopBuffer"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+                Frame "BottomBuffer"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg
+              ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 1:0.5]
+      Frame "Center"  size={0.5,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      Frame "CameraFade"  size={1,0},{3,0}  pos={0.5,0},{-2.5,0}  anchor=(0.5,0.5)  bg=#000000  z=999999999
+        Frame "Bottom"  size={1,0},{0.333,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  bg=#000000
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:1]
+        Frame "Top"  size={1,0},{0.333,0}  pos={0.5,0},{0,0}  anchor=(0.5,1)  bg=#000000
+          UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:1]
+      Frame "Customize"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=12
+        Frame "Bottom"  size={0.8,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=12
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+          Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{1,-20}  anchor=(0.5,1)  nobg
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=10
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+              UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+            ScrollingFrame "List"  size={1,0},{1,15}  pos={0,0},{0,0}  nobg
+              Frame "Container"  size={1,-5},{1,-5}  pos={0,0},{0,0}  nobg
+                UIGridLayout "Layout"  CellSize={1,0},{1,0}  CellPadding={-0.1,0},{0,0}  FillDirectionMaxCells=0
+            Frame "Options"  size={1,0},{0.375,0}  pos={0.5,0},{-0.375,-10}  anchor=(0.5,1)  nobg
+              Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                Frame "OnlyUseFavorites"  size={0.25,0},{1,0}  pos={1,0},{1.18,-10}  anchor=(1,1)  nobg
+                  Frame "Container"  size={1,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg
+                    ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                      ImageLabel "Empty"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://17588415222
+                      ImageLabel "Filled"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17588415498
+                    TextLabel "Title"  size={10,0},{0.625,0}  pos={-0.1,0},{0.5,0}  anchor=(1,0.5)  nobg  text="Only Use Favorites"  font=12187365977/800  scaled  tc=#ffffff
+                Frame "Inverted"  size={0.15,0},{1,0}  pos={0.763,0},{1.18,-10}  anchor=(1,1)  nobg
+                  Frame "Container"  size={1,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg
+                    TextLabel "Title"  size={10,0},{0.625,0}  pos={-0.1,0},{0.5,0}  anchor=(1,0.5)  nobg  text="Inverted"  font=12187365977/800  scaled  tc=#ffffff
+                    ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                      ImageLabel "Empty"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://17588415222
+                      ImageLabel "Filled"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17588415498
+                Frame "Favorited"  size={0.162,0},{1,0}  pos={0.625,0},{1.18,-10}  anchor=(1,1)  nobg
+                  Frame "Container"  size={1,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg
+                    ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                      ImageLabel "Empty"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://17588415222
+                      ImageLabel "Filled"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://99607072419616
+                    TextLabel "Title"  size={10,0},{0.625,0}  pos={-0.1,0},{0.5,0}  anchor=(1,0.5)  nobg  text="Favorited"  font=12187365977/800  scaled  tc=#ffffff
+                UIListLayout "Layout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=2  VerticalAlignment=0  SortOrder=2
+              ImageLabel "Background"  size={0,826},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 1:1]
+            Frame "Actions"  size={1,0},{0.375,0}  pos={0.5,0},{0,-5}  anchor=(0.5,1)  nobg
+              Frame "Search"  size={0.875,-5},{1,0}  pos={0.125,5},{0.5,0}  anchor=(0,0.5)  nobg
+                ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+                  UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0.5]
+                TextBox "Box"  size={0.975,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=12187365977/600  scaled  tc=#ffffff
+              ImageButton "Emote"  size={0.125,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2
+                Frame "Equip"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+                  ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+                    UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+                  ImageLabel "Icon"  size={0.25,0},{0.6,0}  pos={0.2,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://82983645557125
+                  ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+                    UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                  TextLabel "Title"  size={0.5,0},{0.625,0}  pos={0.35,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Equip"  font=12187365977/800  scaled  tc=#ffffff
+                Frame "Unequip"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                  ImageLabel "Icon"  size={0.15,0},{0.6,0}  pos={0.175,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17562770037
+                  TextLabel "Title"  size={0.65,0},{0.55,0}  pos={0.275,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Unequip"  font=12187365977/800  scaled  tc=#ffffff
+                  ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+                    UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                  ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#ff3232
+                    UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#989898]  Rotation=90  Transparency=[0:0 1:0]
+              ImageButton "Back"  size={0.125,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2
+                ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692  imgcol=#ff3232
+                  UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#989898]  Rotation=90  Transparency=[0:0 1:0]
+                ImageLabel "Icon"  size={0.25,0},{0.6,0}  pos={0.2,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17562685319
+                ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.75
+                  UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+                TextLabel "Title"  size={0.5,0},{0.625,0}  pos={0.35,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Back"  font=12187365977/800  scaled  tc=#ffffff
+        Frame "Top"  size={0.8,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2
+          Frame "NameDisplay"  size={1,0},{0.1,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg
+            Frame "Elements"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              Frame "TitleContainer"  size={0,441},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                TextLabel "Title"  size={20,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Pumpkin Launcher"  font=12187365977/700  scaled  tc=#ffffff
+              UIListLayout "Layout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+              Frame "Slot"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+                Frame "Container"  size={1,0},{1,0}  pos={-0.125,0},{0,0}  nobg
+            ImageLabel "Background"  size={0,541},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+              UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+          Frame "Description"  size={1,0},{0.0625,0}  pos={0.5,0},{0.125,0}  anchor=(0.5,0)  nobg  z=2
+            TextLabel "Title"  size={0.95,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Earned by eliminating @SenseiWarrior"  font=12187365977/500  scaled  tc=#000000
+            ImageLabel "Background"  size={0,706},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+            ImageLabel "Arrow"  size={0.375,0},{0.375,0}  pos={0.5,0},{0,2}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+    Frame "Queue"  size={0.1,30},{0.1,30}  pos={0.5,0},{0.99,0}  anchor=(0.5,1)  nobg  z=3
+      UIScale "UIScale"  Scale=1
+      Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg
+        Frame "Countdown"  size={1,0},{1,0}  pos={0.5,0},{-0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+          TextLabel "Value"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="5"  font=12187365977/900  scaled  tc=#ffffff
+          ImageLabel "Glow"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://16810775940  imgcol=#000000  imgT=0.25
+        Frame "Details"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIListLayout "Layout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        Frame "Waiting"  size={5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+          TextLabel "Title"  size={0.75,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.525)  nobg  text="Waiting for server host to start..."  font=12187365977/800  scaled  tc=#ffffff
+          ImageLabel "Background"  size={0,144},{0,144}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0.5 0.5:0 1:0.5]
+        ImageButton "Start"  size={1.75,0},{0.75,0}  pos={0.5,0},{-1,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+          ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+            UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+          TextLabel "Price"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="START"  font=12187365977/900  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+        ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+          UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+        ImageButton "Ready"  size={1.75,0},{0.75,0}  pos={0.5,0},{-1,0}  anchor=(0.5,0.5)  nobg
+          ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+            UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+          TextLabel "Price"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="READY"  font=12187365977/900  scaled  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+          TextLabel "Title"  size={0.6,0},{0.225,0}  pos={0.5,0},{-0.25,0}  anchor=(0.5,0.5)  nobg  text="Unfair Teams"  font=12187365977/800  scaled  tc=#000000
+            ImageLabel "ImageLabel"  size={1.25,0},{1,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://17333887359  imgcol=#000000  imgT=0.5
+            ImageLabel "ImageLabel"  size={1.25,0},{1,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://17333887359  imgcol=#000000  imgT=0.5
+        Frame "Invite"  size={3.38,0},{0.375,0}  pos={0.5,0},{-0.125,0}  anchor=(0.5,1)  nobg
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.25
+            UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0.5]
+          ImageButton "Button"  size={0.225,0},{0.8,0}  pos={0.878,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            TextLabel "Price"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Invite"  font=12187365977/800  scaled  tc=#ffffff
+              UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+            ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.25
+              UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+              UIGradient "UIGradient"  rot=-90  Color=[0:#0059ff 0.18:#0673f9 1:#00d0ff]  Rotation=-90  Transparency=[0:0 1:0]
+          TextLabel "Title"  size={0.6,0},{0.5,0}  pos={0.138,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Challenge your friends"  font=12187365977/600  scaled  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0.1,0},{0.75,0}  pos={0.075,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18525954682
+  Frame "MobileInputs"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=20
+    ImageButton "Modal"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+    ImageLabel "JoystickArea"  size={0.4,0},{0.6,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  nobg  z=-999  img=rbxassetid://98733034699805  imgcol=#000000  imgT=0.875
+      TextLabel "Title"  size={0.75,0},{0.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Joystick"  font=12187365977/600  scaled  tc=#000000
+    ImageLabel "DoubleTapArea"  size={0.5,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  z=-999  img=rbxassetid://98733034699805  imgcol=#000000  imgT=0.875
+      TextLabel "Title"  size={0.75,0},{0.05,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Double Tap To Attack"  font=12187365977/600  scaled  tc=#000000
+    Frame "Buttons"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+  Frame "PurchasePrompt"  size={2,100},{2,100}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=999
+  Frame "Teleporting"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=90
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+      ImageButton "Mask"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      TextLabel "Description"  size={0.75,0},{0.035,0}  pos={0.5,0},{0.66,0}  anchor=(0.5,0.5)  nobg  text="Did you know: RIVALS is really cool"  font=12187365977/500  scaled  tc=#ffffff
+      Frame "Dots"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+        ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+      TextLabel "Title"  size={1,0},{0.05,0}  pos={0.5,0},{0.62,0}  anchor=(0.5,0.5)  nobg  text="TELEPORTING"  font=12187365977/800  scaled  tc=#ffffff
+  Frame "PlayerList"  size={0,320},{0.5,0}  pos={1,-10},{0,10}  anchor=(1,0)  nobg  z=999
+    Frame "Container"  size={1,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg
+      Frame "Elements"  size={1,0},{0,44}  pos={0,0},{0,0}  nobg
+        Frame "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#121215@0.08  z=-1
+          UICorner "UICorner"
+        Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          Frame "Top"  size={1,0},{0,36}  pos={0,0},{0,0}  nobg
+            Frame "Leaderstat"  size={0.2,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg
+              ImageLabel "Icon"  size={1,0},{0.475,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://17094014569  imgcol=#f7f7f8
+              ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+              Frame "Bubble"  size={1.75,0},{0.625,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg
+                ImageLabel "Arrow"  size={0.375,0},{0.375,0}  pos={1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-3  rot=45  img=rbxassetid://17277885692
+                TextLabel "Title"  size={1,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Tap to switch"  font=12187365977/500  scaled  tc=#000000
+                ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+            ImageButton "Close"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+              TextLabel "Title"  size={0.75,0},{0.75,0}  pos={0.375,0},{0.375,0}  anchor=(0.5,0.5)  nobg  text="×"  font=12187365977/300  scaled  tc=#f7f7f8
+          Frame "Middle"  size={1,0},{0,0}  pos={0,0},{0.112,0}  nobg
+            ScrollingFrame "List"  size={1,8},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+              Frame "Container"  size={1,-2},{1,-2}  pos={0,0},{0,0}  nobg
+                UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+          UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+          Frame "Bottom"  size={1,0},{0,8}  pos={0,0},{0,0}  nobg
+            Frame "Line"  size={1,0},{0,1}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#f7f7f8@0.875
+      Frame "Inspect"  size={0.95,0},{5,0}  pos={0,-4},{0,0}  anchor=(1,0.5)  nobg  z=-1
+        Frame "Container"  size={1,0},{0.458,0}  pos={0,0},{0.5,0}  nobg
+          Frame "Player"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "Headshot"  size={0.425,0},{1.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  img=https://www.roblox.com/headshot-thumbnail/image?userId=15941965&width=...
+            TextLabel "DisplayName"  size={0.6,0},{0.25,0}  pos={0.35,0},{0.4,0}  anchor=(0,0.5)  nobg  z=2  text="OnlyTwentyCharacters "  font=12187365977/700  scaled  tc=#f7f7f8
+            TextLabel "Username"  size={0.6,0},{0.2,0}  pos={0.35,0},{0.65,0}  anchor=(0,0.5)  nobg  z=2  text="@OnlyTwentyCharacters"  font=12187365977/400  scaled  tc=#f7f7f8
+            Frame "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1
+              Frame "Frame"  size={1,0},{2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#121215@0.08  z=-1
+                UICorner "UICorner"
+              Frame "Frame"  size={1,0},{2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#121215@0.08  z=-1
+                UICorner "UICorner"
+                UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 0.5:1 1:1]
+          Frame "Bottom"  size={1,0},{0,8}  pos={0,0},{0.5,0}  nobg
+            Frame "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1
+              Frame "Frame"  size={1,0},{2,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#121215@0.08  z=-1
+                UICorner "UICorner"
+          Frame "Top"  size={1,0},{0,8}  pos={0,0},{0.5,0}  nobg
+            Frame "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#121215@0.08  z=-1
+          UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+  Frame "MatchmakingCountdown"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30
+    Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      ImageButton "Mask"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "Waiting"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Dots"  size={0.375,0},{0.375,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+          UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+          ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627
+      Frame "Countdown"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+        TextLabel "Value"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="5"  font=12187365977/900  scaled  tc=#ffffff
+        ImageLabel "Glow"  size={3,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://16810775940  imgT=0.25
+  Frame "WarningMessages"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=9999
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.FlashbangGui  (14 descendants)
+ScreenGui "FlashbangGui"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Rays1"  size={2.67,0},{2.67,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14796588510  imgcol=#dcd7cc
+  ImageLabel "Rays2"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  rot=15  img=rbxassetid://14796588510  imgcol=#dcd7cc
+  ImageLabel "Rays3"  size={3,0},{3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://14796588510  imgcol=#dcd7cc
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff  z=0
+  CanvasGroup "Polaroid"  size={0.575,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ddd6c8
+    Frame "Picture"  size={0.884,0},{0.748,0}  pos={0.5,0},{0.05,0}  anchor=(0.5,0)  bg=#918a23
+      UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#bcbcbc]  Rotation=90  Transparency=[0:0 1:0]
+      ViewportFrame "ViewportFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#ffffff  LightColor=#ffffff
+        WorldModel "WorldModel"
+    TextLabel "Title"  size={0.9,0},{0.1,0}  pos={0.5,0},{0.899,0}  anchor=(0.5,0.5)  nobg  z=3  text="Look away next time!   :)"  font=IndieFlower/700  scaled  tc=#000000
+  Frame "Center"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+    Frame "Skullbang"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Eye"  size={0.15,0},{0.2,0}  pos={0.375,0},{0.375,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://135813200507249  imgcol=#ff3232
+      ImageLabel "Eye"  size={0.15,0},{0.2,0}  pos={0.625,0},{0.375,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://135813200507249  imgcol=#ff3232
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.ImmuneGui  (2 descendants)
+BillboardGui "ImmuneGui"  size={15,250},{15,250}  Enabled=True  Size={15,250},{15,250}  StudsOffset=(0,0,0)  MaxDistance=400  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Value"  size={1,0},{0.05,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="IMMUNE"  font=12187365977/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.875  ApplyStrokeMode=0
+
+==== StarterPlayer.StarterPlayerScripts.UserInterface.BillboardVideoAdsGui  (58 descendants)
+SurfaceGui "BillboardVideoAdsGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Reward"  size={0.875,0},{0.875,0}  pos={0.7,0},{0.525,0}  anchor=(0.5,0.5)  nobg
+    TextLabel "Title"  size={0.9,0},{0.125,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  text="Watch now to claim:"  font=12187365977/800  scaled  tc=#728cff
+      UIStroke "UIStroke"  Thickness=0.05  Color=#132936  Transparency=0.5  ApplyStrokeMode=0
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.15,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+      CanvasGroup "CanvasGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=999
+        ImageLabel "Wraps"  size={2,0},{2,0}  pos={0.7,0},{0.475,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://5538771868  imgcol=#ff3232  imgT=0.25
+          ImageLabel "ImageLabel"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18105480698  imgcol=#000000
+        ImageLabel "Keys"  size={2,0},{2,0}  pos={0.7,0},{0.475,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://5538771868  imgcol=#ffc039  imgT=0.25
+          ImageLabel "ImageLabel"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18105480698  imgcol=#ffe218
+    Frame "Play"  size={0.375,0},{0.375,0}  pos={0.25,0},{0.45,0}  anchor=(0.5,0.5)  bg=#000000@0.5
+      UICorner "UICorner"
+      ImageLabel "ImageLabel"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.425,0.5)  nobg  img=rbxassetid://17738769051  imgcol=#728cff
+      TextLabel "Title"  size={1,0},{0.5,0}  pos={0.95,0},{1.25,0}  anchor=(0.5,0.5)  nobg  text="0<font size="8"> /1</font>"  font=12187365977/700  scaled  tc=#728cff
+        ImageLabel "Icon"  size={1.25,0},{0.75,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://139712386938208  imgcol=#728cff
+        UIStroke "UIStroke"  Thickness=0.05  Color=#132936  Transparency=0.5  ApplyStrokeMode=0
+    ImageButton "Button"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+  Frame "KeyBundle"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.25,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+    ImageButton "Button"  size={0.3,0},{0.2,0}  pos={0.75,0},{0.875,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-2  img=rbxassetid://17277885692
+        UIGradient "UIGradient"  rot=-90  Color=[0:#74df32 0.18:#7df930 1:#c6ff0a]  Rotation=-90  Transparency=[0:0 1:0]
+      ImageLabel "Shine"  size={1,-6},{0.5,0}  pos={0.5,0},{0,3}  anchor=(0.5,0)  nobg  z=-1  img=rbxassetid://17277885692  imgT=0.5
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 0.39:0.562 0.821:1 1:1]
+      TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="• • •"  font=12187365977/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0.5  ApplyStrokeMode=0
+    ImageLabel "Icon"  size={0.5,0},{0.75,0}  pos={0.25,0},{0.725,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17860673529  imgcol=#c8c8c8
+      UICorner "UICorner"
+    TextLabel "Title"  size={0.875,0},{0.15,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  z=3  text="Mega Key Bundle"  font=12187365977/800  scaled  tc=#728cff
+      UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0.75  ApplyStrokeMode=0
+    Frame "Rewards"  size={1.2,0},{0.375,0}  pos={0.925,0},{0.225,0}  anchor=(1,0)  nobg
+      UIGridLayout "Layout"  CellSize={0.2,0},{1,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+  Frame "Waiting"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Frame "Dots"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageLabel "1"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627  imgcol=#728cff
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageLabel "2"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627  imgcol=#728cff
+      ImageLabel "3"  size={0.333,0},{0.333,0}  pos={0.5,0},{0.5,0}  nobg  img=rbxassetid://15319354627  imgcol=#728cff
+    Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+      Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ababab
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 1:#162f3f]  Rotation=-90  Transparency=[0:0 1:0]
+      Frame "BottomBar"  size={1,0},{0.15,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=-90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=-90  Transparency=[0:1 0.609:0.35 1:0.287]
+      Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+        UIGradient "UIGradient"  rot=90  Color=[0:#132936 0.943:#1c3e52 1:#2f6788]  Rotation=90  Transparency=[0:1 0.609:0.35 1:0.287]
+
+==== StarterPlayer.StarterPlayerScripts.Modules.TableViewer.Gui  (9 descendants)
+ScreenGui "Gui"  Enabled=True  DisplayOrder=999999999  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={0,1000},{0,600}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#252525
+    UIDragDetector "UIDragDetector"
+    ScrollingFrame "List"  size={1,0},{0.95,0}  pos={0,0},{0.05,0}  nobg
+      Frame "Container"  size={0,400},{0,600}  pos={0,0},{0,0}  nobg
+        UIListLayout "Layout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+    Frame "Top"  size={1,0},{0.05,0}  pos={0,0},{0,0}  bg=#161616
+      ImageButton "Button"  size={1.5,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  bg=#ff3232  z=2
+        TextLabel "Title"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="X"  font=12187365977/900  scaled  tc=#ffffff
+      TextLabel "Title"  size={1,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Table Viewer"  font=12187365977/400  scaled  tc=#ffffff
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.Portals.Default.2.Small.Outer.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=133  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://93205441324359  imgcol=#8714c1
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.Portals.Default.2.Small.Outer.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=4  PixelsPerStud=133  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://93205441324359  imgcol=#8714c1
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.Portals.Hotel Bell.2.Big.Part.SurfaceGui1  (4 descendants)
+SurfaceGui "SurfaceGui1"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={2.25,0},{2.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://10056026824  imgcol=#8d4d14  attrs={"ColorThisMultiplier": 0.5}
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#cf8e4b
+  CanvasGroup "CanvasGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+    ImageLabel "Spin"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://120115844745710  imgcol=#76451a  attrs={"ColorThisMultiplier": 0.375}
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.Portals.Hotel Bell.2.Big.Part.SurfaceGui2  (4 descendants)
+SurfaceGui "SurfaceGui2"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={2.25,0},{2.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://10056026824  imgcol=#8d4d14  attrs={"ColorThisMultiplier": 0.5}
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#cf8e4b
+  CanvasGroup "CanvasGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+    ImageLabel "Spin"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://120115844745710  imgcol=#76451a  attrs={"ColorThisMultiplier": 0.375}
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.Portals.Hotel Bell.1.Big.Part.SurfaceGui1  (4 descendants)
+SurfaceGui "SurfaceGui1"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={2.25,0},{2.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://10056026824  imgcol=#8d4d14  attrs={"ColorThisMultiplier": 0.5}
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#cf8e4b
+  CanvasGroup "CanvasGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+    ImageLabel "Spin"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://120115844745710  imgcol=#76451a  attrs={"ColorThisMultiplier": 0.375}
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.Portals.Hotel Bell.1.Big.Part.SurfaceGui2  (4 descendants)
+SurfaceGui "SurfaceGui2"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={2.25,0},{2.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://10056026824  imgcol=#8d4d14  attrs={"ColorThisMultiplier": 0.5}
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#cf8e4b
+  CanvasGroup "CanvasGroup"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3
+    ImageLabel "Spin"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://120115844745710  imgcol=#76451a  attrs={"ColorThisMultiplier": 0.375}
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.PingEffect.Bright  (2 descendants)
+BillboardGui "Bright"  size={8,50},{8,50}  Enabled=True  Size={8,50},{8,50}  StudsOffset=(0,0,0)  MaxDistance=500  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Ping"  size={0.375,0},{0.375,0}  pos={0.5,0},{0.3,0}  anchor=(0.5,1)  nobg  img=rbxassetid://17269776216
+  ImageLabel "Shadow"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17269776267  imgT=0.5
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.PingEffect.OnTop  (4 descendants)
+BillboardGui "OnTop"  size={8,50},{8,50}  Enabled=True  Size={8,50},{8,50}  StudsOffset=(0,0,0)  MaxDistance=500  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "Ping"  size={0.375,0},{0.375,0}  pos={0.5,0},{0.3,0}  anchor=(0.5,1)  nobg  img=rbxassetid://17269776216
+  ImageLabel "Shadow"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://17269776267  imgT=0.5
+  ImageLabel "Picture"  size={0.175,0},{0.175,0}  pos={0.5,0},{0.05,0}  anchor=(0.5,0.5)  nobg  img=https://www.roblox.com/headshot-thumbnail/image?userId=15941965&width=...
+    UICorner "UICorner"
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.UnboxEffect.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={10,0},{10,0}  Enabled=True  Size={10,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Container"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+
+==== StarterPlayer.StarterPlayerScripts.Assets.Misc.InvincibilityParticles.Attachment.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={10,0},{10,0}  Enabled=True  Size={10,0},{10,0}  StudsOffset=(0,0,0)  MaxDistance=400  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://93477262732302  imgcol=#00d0ff
+
+==== StarterPlayer.StarterPlayerScripts.Assets.ViewModels.Skin Case 2.Laptop.MedkitTop.Screen.UseGui  (11 descendants)
+SurfaceGui "UseGui"  Enabled=False  Face=4  PixelsPerStud=250  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000
+    TextLabel "Progress"  size={0.7,0},{0.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="30%"  font=12187365977/900  scaled  tc=#000000
+      UIStroke "UIStroke"  Thickness=1  Color=#00ff00  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0.7,0},{0.3,0}  pos={0.5,0},{0.225,0}  anchor=(0.5,0.5)  nobg  text="REFRAMING THE CFRAME MAINFRAME"  font=12187365977/900  scaled  tc=#000000
+      UIStroke "UIStroke"  Thickness=1  Color=#00ff00  Transparency=0  ApplyStrokeMode=0
+    Frame "Frame"  size={0.75,0},{0.075,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  bg=#000000@0.25
+      Frame "Bar"  size={0.3,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#00ff00
+        UIGradient "UIGradient"  Color=[0:#000000 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+      UIStroke "UIStroke"  Thickness=4  Color=#007f00  Transparency=0  ApplyStrokeMode=0
+        UIGradient "UIGradient"  Color=[0:#000000 1:#ffffff]  Rotation=0  Transparency=[0:0 1:0]
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1  img=rbxassetid://134936596399147
+
+==== StarterPlayer.StarterPlayerScripts.Assets.ViewModels.Skin Case 2.Laptop.MedkitTop.Screen.CatGui  (14 descendants)
+SurfaceGui "CatGui"  Enabled=False  Face=4  PixelsPerStud=250  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      TextLabel "TextLabel"  size={0.875,0},{0.075,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  text="For You"  font=12187365977/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.5  ApplyStrokeMode=0
+      TextLabel "TextLabel"  size={0.7,0},{0.1,0}  pos={0.075,0},{0.825,0}  nobg  text="happy happy happy happy!!"  font=12187365977/500  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.5  ApplyStrokeMode=0
+      TextLabel "TextLabel"  size={0.875,0},{0.075,0}  pos={0.025,0},{0.75,0}  nobg  text="@happy_cat"  font=12187365977/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.5  ApplyStrokeMode=0
+      ImageLabel "ImageLabel"  size={0.2,0},{0.1,0}  pos={0.875,0},{0.85,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://88556395391387
+      ImageLabel "ImageLabel"  size={0.2,0},{0.125,0}  pos={0.875,0},{0.725,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://89161061242476
+      ImageLabel "ImageLabel"  size={0.2,0},{0.1,0}  pos={0.875,0},{0.6,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://126007959010892
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.613
+      Frame "Picture"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-1
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== ReplicatedStorage .Modules.Finishers.BONK!.Flattened.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ViewportFrame "ViewportFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#ffffff
+
+==== ReplicatedStorage .Modules.Finishers.RIP.Model.Tomb.Part.Front  (2 descendants)
+SurfaceGui "Front"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  text="RIP"  font=12187365977/900  scaled  tc=#ffffff
+  TextLabel "Player"  size={0.75,0},{0.15,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="SenseiWarrior"  font=12187365977/500  scaled  tc=#ffffff
+
+==== ReplicatedStorage .Modules.Finishers.RIP.Model.Tomb.Part.Back  (2 descendants)
+SurfaceGui "Back"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  text="RIP"  font=12187365977/900  scaled  tc=#ffffff
+  TextLabel "Player"  size={0.75,0},{0.15,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="SenseiWarrior"  font=12187365977/500  scaled  tc=#ffffff
+
+==== ReplicatedStorage .Modules.Finishers.DRIP.Model.Tomb.Part.Front  (2 descendants)
+SurfaceGui "Front"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  text="RIP"  font=12187365977/900  scaled  tc=#000000
+  TextLabel "Player"  size={0.75,0},{0.15,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="SenseiWarrior"  font=12187365977/500  scaled  tc=#000000
+
+==== ReplicatedStorage .Modules.Finishers.DRIP.Model.Tomb.Part.Back  (2 descendants)
+SurfaceGui "Back"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  text="RIP"  font=12187365977/900  scaled  tc=#000000
+  TextLabel "Player"  size={0.75,0},{0.15,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="SenseiWarrior"  font=12187365977/500  scaled  tc=#000000
+
+==== ReplicatedStorage .Modules.Finishers.Jolly Judgement.BillboardGui  (2 descendants)
+BillboardGui "BillboardGui"  size={15,250},{15,250}  Enabled=True  Size={15,250},{15,250}  StudsOffset=(0,0,0)  MaxDistance=400  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Value"  size={1,0},{0.075,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="NAUGHTY."  font=12187365977/500  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=2  Color=#1f1f1f  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage .Modules.Finishers.5B Visits.Flattened.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ViewportFrame "ViewportFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#ffffff
+
+==== ReplicatedStorage .Modules.Finishers.Digitize.Model.Part.BillboardGui  (4 descendants)
+BillboardGui "BillboardGui"  size={7.5,0},{7.5,0}  Enabled=True  Size={7.5,0},{7.5,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Headshot"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=https://www.roblox.com/headshot-thumbnail/image?userId=8034104&width=4...  imgT=0.75
+    UICorner "UICorner"
+  ImageLabel "Icon"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://16802957270  imgcol=#000000  imgT=0.5
+  ImageLabel "Background"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=rbxassetid://17277885692  imgcol=#000000  imgT=0.875
+
+==== ReplicatedStorage .Modules.Finishers.Clapped.Flattened.1  (1 descendants)
+SurfaceGui "1"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ViewportFrame "ViewportFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#ffffff
+
+==== ReplicatedStorage .Modules.Finishers.Clapped.Flattened.2  (1 descendants)
+SurfaceGui "2"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ViewportFrame "ViewportFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#c8c8c8  LightColor=#ffffff
+
+==== ServerStorage.DumpLeftovers.LooseWeaponDisplays.Permafrost.Body.Gauge.SurfaceGui  (4 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=16.7  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://100344520783991  imgcol=#cff1ff
+    UICorner "UICorner"
+  ImageLabel "Ticker"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  rot=-45  img=rbxassetid://76148422441785  imgcol=#353f47
+    UICorner "UICorner"
+
+==== ServerStorage.Maps.Battleground.Extra.Model.Part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={2,0},{1,0}  pos={-1,0},{1,0}  anchor=(0,1)  nobg  z=2  img=rbxassetid://111104773104049  imgcol=#2587ff
+
+==== ServerStorage.Maps.BigMaps.Big Station.Extra.Assets.Misc..Model.Model.Part.Duels  (1 descendants)
+SurfaceGui "Duels"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://98077004918826  imgcol=#ffecbc
+
+==== ServerStorage.Maps.BigMaps.Big Station.Extra.Assets.Monitor.PCScreen.PCScreenGUI  (16 descendants)
+SurfaceGui "PCScreenGUI"  Enabled=True  Face=0  PixelsPerStud=90  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "LoginScreen"  size={0.925,0},{0.884,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ffffff
+    Frame "LoginWindow"  size={0.6,0},{0.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#161605  z=2
+      UICorner "UICorner"
+      UIStroke "UIStroke"  Thickness=5.2  Color=#eabd00  Transparency=0  ApplyStrokeMode=0
+      Frame "Login"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#eabd00
+        UICorner "UICorner"
+        TextLabel "Text"  size={0.8,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="PASSWORD"  font=12187365977/600  scaled  tc=#171e27
+    Frame "TopBar"  size={1,0},{0.2,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  bg=#ababab  z=2
+      UIGradient "UIGradient"  rot=90  Color=[0:#544200 0.349:#6b5400 1:#ffcc00]  Rotation=90  Transparency=[0:1 0.613:0.65 0.958:0.425 1:1]
+    TextLabel "TitleText"  size={0.9,0},{0.125,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  z=4  text="S&CO LOGIN"  font=12187365977/700  scaled  tc=#eabd00
+    Frame "BottomBar"  size={1,0},{0.2,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  bg=#ababab  z=2
+      UIGradient "UIGradient"  rot=90  Color=[0:#40a3d8 1:#40a3d8]  Rotation=90  Transparency=[0:1 0.798:0.65 1:0.6]
+    Frame "BG"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#090909
+    ImageLabel "BGTxt"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://130655264860314  imgT=0.98
+    TextLabel "TitleText"  size={0.9,0},{0.125,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,1)  nobg  z=4  text="TRANSPORTATION"  font=12187365977/600  scaled  tc=#40a3d8
+  Frame "PCOff"  size={0.925,0},{0.884,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#101010
+
+==== ServerStorage.Maps.BigMaps.Big Station.Extra.Assets.Monitor.PCScreen.PCScreenGUI  (1 descendants)
+SurfaceGui "PCScreenGUI"  Enabled=True  Face=0  PixelsPerStud=20  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "PCOff"  size={0.925,0},{0.884,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#101010
+
+==== ServerStorage.Maps.BigMaps.Big Station.Extra.Blockout.Model.Part.Duels  (1 descendants)
+SurfaceGui "Duels"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://121863797775963  imgcol=#ffecbc
+
+==== ServerStorage.LoadingScreenGui_testrival_Backup  (49 descendants)
+ScreenGui "LoadingScreenGui_testrival_Backup"  Enabled=True  DisplayOrder=1000  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#18181c
+    ImageLabel "GameLogo"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=5  img=rbxassetid://17803962335
+    Frame "Device"  size={0.42,0},{0.42,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#222228  z=10
+      UICorner "UICorner"
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.6
+      UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0.85  ApplyStrokeMode=0
+      TextLabel "Title"  size={0.9,0},{0.14,0}  pos={0.5,0},{0.06,0}  anchor=(0.5,0)  nobg  z=11  text="What are you playing on?"  font=GothamSSm/900  scaled  tc=#ffffff
+      Frame "Controls"  size={0.9,0},{0.46,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=11
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.04,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        ImageButton "Desktop"  size={0.28,0},{1,0}  pos={0,0},{0,0}  bg=#18181c  z=11
+          UICorner "UICorner"
+          ImageLabel "Icon"  size={0.55,0},{0.55,0}  pos={0.5,0},{0.42,0}  anchor=(0.5,0.5)  nobg  z=12  img=rbxassetid://88012714630436
+          TextLabel "Label"  size={0.9,0},{0.2,0}  pos={0.5,0},{0.95,0}  anchor=(0.5,1)  nobg  z=12  text="Computer"  font=GothamSSm/700  scaled  tc=#dcdcdc
+          Frame "Chosen"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=13
+            UICorner "UICorner"
+            UIStroke "UIStroke"  Thickness=3  Color=#3ce21f  Transparency=0  ApplyStrokeMode=0
+        ImageButton "Console"  size={0.28,0},{1,0}  pos={0,0},{0,0}  bg=#18181c  z=11
+          UICorner "UICorner"
+          ImageLabel "Icon"  size={0.55,0},{0.55,0}  pos={0.5,0},{0.42,0}  anchor=(0.5,0.5)  nobg  z=12  img=rbxassetid://110291144710849
+          TextLabel "Label"  size={0.9,0},{0.2,0}  pos={0.5,0},{0.95,0}  anchor=(0.5,1)  nobg  z=12  text="Console"  font=GothamSSm/700  scaled  tc=#dcdcdc
+          Frame "Chosen"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=13
+            UICorner "UICorner"
+            UIStroke "UIStroke"  Thickness=3  Color=#3ce21f  Transparency=0  ApplyStrokeMode=0
+        ImageButton "Mobile"  size={0.28,0},{1,0}  pos={0,0},{0,0}  bg=#18181c  z=11
+          UICorner "UICorner"
+          ImageLabel "Icon"  size={0.55,0},{0.55,0}  pos={0.5,0},{0.42,0}  anchor=(0.5,0.5)  nobg  z=12  img=rbxassetid://18214330364
+          TextLabel "Label"  size={0.9,0},{0.2,0}  pos={0.5,0},{0.95,0}  anchor=(0.5,1)  nobg  z=12  text="Mobile"  font=GothamSSm/700  scaled  tc=#dcdcdc
+          Frame "Chosen"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=13
+            UICorner "UICorner"
+            UIStroke "UIStroke"  Thickness=3  Color=#3ce21f  Transparency=0  ApplyStrokeMode=0
+      TextButton "Confirm"  size={0.36,0},{0.16,0}  pos={0.5,0},{0.94,0}  anchor=(0.5,1)  HIDDEN  bg=#3ce21f  z=11  text="Confirm"  font=GothamSSm/900  scaled  tc=#ffffff
+        UICorner "UICorner"
+        UIPadding "UIPadding"  PaddingTop={0.18,0}  PaddingBottom={0.18,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+    Frame "Logo"  size={0.75,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=4
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "N"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4
+        Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4
+          Frame "White"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          Frame "Black"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          CanvasGroup "Half"  size={0.5,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+            ImageLabel "Image"  size={2,0},{1,0}  pos={0,0},{0,0}  nobg  z=4  img=rbxassetid://140099562989635
+              UIGradient "Fill"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0]
+      Frame "G"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4
+        Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4
+          Frame "White"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          Frame "Black"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          CanvasGroup "Half"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  nobg  z=4
+            ImageLabel "Image"  size={2,0},{1,0}  pos={-1,0},{0,0}  nobg  z=4  img=rbxassetid://140099562989635
+              UIGradient "Fill"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0]
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace : 155 copies
+BillboardGui "DPSGui" under Workspace : 10 copies
+BillboardGui "BillboardGui" under Workspace : 171 copies
+SurfaceGui "SurfaceGui" under StarterPlayer: 289 copies
+SurfaceGui "SurfaceGui2" under StarterPlayer: 3 copies
+BillboardGui "BillboardGui" under StarterPlayer: 11 copies
+SurfaceGui "SurfaceGui" under ReplicatedStorage : 33 copies
+BillboardGui "BillboardGui" under ReplicatedStorage : 6 copies
+SurfaceGui "SurfaceGui" under ServerStorage: 166 copies

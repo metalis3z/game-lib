@@ -1,0 +1,505 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.HUD  (18 descendants)
+ScreenGui "HUD"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  ImageLabel "Cursor"  size={0,55},{0,55}  pos={0.5,0},{0.475,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://2786244971  imgT=1
+  Frame "ScopeFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://2030035420  imgcol=#141a0d
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "Frame"  size={10,0},{1,0}  pos={1,0},{0,0}  bg=#000000  z=2
+      Frame "Frame"  size={10,0},{1,0}  pos={0,0},{0,0}  anchor=(1,0)  bg=#000000  z=2
+      Frame "Frame"  size={10,0},{10,0}  pos={-2,0},{1,0}  bg=#000000  z=2
+      Frame "Frame"  size={10,0},{10,0}  pos={-2,0},{0,0}  anchor=(0,1)  bg=#000000  z=2
+    Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#374824@0.7
+  TextLabel "TextLabel"  size={0.172,0},{0.0513,0}  pos={0.824,0},{0.95,0}  HIDDEN  nobg  z=3  text="Press [Z] to unlock mouse"  font=GothamSSm/400  scaled  tc=#545454
+  Frame "Reload"  size={1,0},{0,20}  pos={0,0},{1,-120}  HIDDEN  nobg
+    TextLabel "Title"  size={0,170},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  text="Press          to reload"  font=SourceSansPro/700  ts=25  tc=#ffffff
+      ImageLabel "Image"  size={0,25},{0,25}  pos={0,55},{0,-2}  nobg  z=2  img=rbxassetid://1794289153
+        ImageLabel "Shadow"  size={1,0},{1,2}  pos={0,0},{0,0}  nobg  img=rbxassetid://1794289153  imgcol=#9a9a9a
+        TextLabel "Title"  size={1,-1},{1,-1}  pos={0,0},{0,-1}  nobg  z=2  text="R"  font=SourceSansPro/700  ts=25  tc=#818181
+        LocalScript "Animation"  -> scripts/StarterGui/HUD/Reload/Title/Image/Animation.client.lua
+  TextLabel "TextLabel2"  size={0.172,0},{0.0513,0}  pos={0.822,0},{0.949,0}  HIDDEN  nobg  z=3  text="Press [Z] to unlock mouse"  font=GothamSSm/400  scaled  tc=#cbcbcb
+  ImageLabel "Hitmarker"  size={0,30},{0,30}  pos={0.5,0},{0.475,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://285779644  imgT=1
+
+==== StarterGui.blackout_gui  (1 descendants)
+ScreenGui "blackout_gui"  Enabled=True  DisplayOrder=1  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "blackout"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5
+
+==== StarterGui.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  LocalScript "LocalScript"  -> scripts/StarterGui/ScreenGui/LocalScript.client.lua
+  ModuleScript "Settings"  -> scripts/StarterGui/ScreenGui/Settings.lua
+
+==== StarterGui.Overlay  (4 descendants)
+ScreenGui "Overlay"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  TextLabel "UpperText"  size={0,242},{0,31}  pos={0,0},{-0.00123,0}  nobg  text="SITE EXCALIBUR | V.16 | FILTERING ENABLED"  font=Nunito/400  ts=14  tc=#ffffff
+  TextLabel "LowerText"  size={0,95},{0,31}  pos={0,0},{0.0282,0}  nobg  text="DOUBLE PRESS "  font=Nunito/400  ts=14  tc=#ffffff
+    TextLabel "TextMiddle"  size={0,99},{0,31}  pos={0.549,0},{-0.00404,0}  nobg  text=""M""  font=Nunito/400  ts=14  tc=#aa0000
+    TextLabel "TextRight"  size={0,95},{0,31}  pos={0.997,0},{-0.00526,0}  nobg  text="TO MENU"  font=Nunito/400  ts=14  tc=#ffffff
+
+==== StarterGui.SolitaryUI  (9 descendants)
+ScreenGui "SolitaryUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Frame"  size={0.567,0},{0.567,0}  pos={0.216,0},{-1.5,0}  nobg
+    ImageLabel "ImageLabel"  size={0.269,0},{0.418,0}  pos={0.365,0},{0.00624,0}  nobg  img=rbxassetid://4833010476
+      UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 0.2:0 1:1]
+    TextLabel "TextLabel"  size={1,0},{0.15,0}  pos={0.00165,0},{0.447,0}  nobg  text="You are now in Solitary."  font=GothamSSm/500  scaled  tc=#464646
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,-3}  nobg  text="You are now in Solitary."  font=GothamSSm/500  scaled  tc=#f5f5f5
+    TextLabel "TextLabel"  size={0.628,0},{0.15,0}  pos={0.185,0},{0.576,0}  nobg  text="Please wait until the cooldown ends."  font=GothamSSm/500  scaled  tc=#460000
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,-3}  nobg  text="Please wait until the cooldown ends."  font=GothamSSm/500  scaled  tc=#f50000
+    TextLabel "Cooldown"  size={0.257,0},{0.145,0}  pos={0.364,0},{0.829,0}  nobg  text="[TIMER]"  font=GothamSSm/500  scaled  tc=#464646
+      TextLabel "Back"  size={1,0},{1,0}  pos={0,0},{0,-3}  nobg  text="[TIMER]"  font=GothamSSm/500  scaled  tc=#f5f5f5
+
+==== StarterGui.Synapse X Anti Script  (0 descendants)
+LocalScript "Synapse X Anti Script"  -> scripts/StarterGui/Synapse X Anti Script.client.lua
+
+==== StarterGui.ResetOff  (0 descendants)
+LocalScript "ResetOff"  -> scripts/StarterGui/ResetOff.client.lua
+
+==== StarterGui.AnnouncementShowUI  (6 descendants)
+ScreenGui "AnnouncementShowUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageButton "Main"  size={0.371,0},{0.16,0}  pos={0.314,0},{-0.3,0}  nobg  img=rbxassetid://2790382281  imgcol=#363636
+    ImageButton "ShoutFrame"  size={0.97,0},{0.446,0}  pos={0.0135,0},{0.469,0}  nobg  img=rbxassetid://2790382281  imgcol=#4a4a4a
+      TextLabel "Shout"  size={1,0},{0.999,0}  pos={0,0},{0,0}  nobg  text="Test"  font=Zekton/400  scaled  tc=#ffffff
+    ImageButton "Title"  size={0.97,0},{0.273,0}  pos={0.0135,0},{0.0879,0}  nobg  img=rbxassetid://2790390993  imgcol=#00aaff
+      TextLabel "TextLabel"  size={1,0},{0.75,0}  pos={0,0},{0.104,0}  nobg  text="Announcemet from hghghghv"  font=Zekton/400  scaled  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/AnnouncementShowUI/Main/LocalScript.client.lua
+
+==== StarterGui.ConsoleDisable  (7 descendants)
+LocalScript "ConsoleDisable"  -> scripts/StarterGui/ConsoleDisable.client.lua  [disabled]
+  Script "CameraMain"  -> scripts/StarterGui/ConsoleDisable/CameraMain.server.lua
+    LocalScript "CameraClient"  -> scripts/StarterGui/ConsoleDisable/CameraMain/CameraClient.client.lua
+      Sound "DeathSound"
+    RemoteEvent "RemoteEvent"
+    ScreenGui "MainGui"  Enabled=True  DisplayOrder=1  ResetOnSpawn=True  ZIndexBehavior=1
+      TextLabel "Speech"  size={1,0},{1,0}  pos={0,0},{-0.2,0}  HIDDEN  nobg  z=12  text="0.5"  font=Inconsolata/400  ts=30  tc=#ffffff
+      ImageButton "ScreenFree"  size={1,0},{1.1,0}  pos={0,0},{-0.1,0}  HIDDEN  bg=#000000  z=25
+
+==== StarterGui.DetainUI  (7 descendants)
+ScreenGui "DetainUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "LocalScript"  -> scripts/StarterGui/DetainUI/LocalScript.client.lua
+  Frame "Frame"  size={1,0},{0.45,0}  pos={0,0},{1.15,0}  nobg
+    TextLabel "TextBottom"  size={0.4,0},{0.1,0}  pos={0.3,0},{0.739,0}  nobg  z=2  text="Label"  font=GothamSSm/500  scaled  tc=#ffffff
+      TextLabel "Shadow"  size={1,0},{1,0}  pos={0,0},{0,3}  nobg  text="Label"  font=GothamSSm/500  scaled  tc=#939393
+    TextLabel "TextTop"  size={0.4,0},{0.2,0}  pos={0.3,0},{0.485,0}  nobg  z=2  text="Label"  font=GothamSSm/500  scaled  tc=#ffffff
+      TextLabel "Shadow"  size={1,0},{1,0}  pos={0,0},{0,3}  nobg  text="Label"  font=GothamSSm/500  scaled  tc=#939393
+    ImageLabel "Icon"  size={0.15,0},{0.5,0}  pos={0.425,0},{0,0}  nobg  img=rbxassetid://5087913874
+
+==== StarterGui.GunShop  (53 descendants)
+ScreenGui "GunShop"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,636},{0,379}  pos={0.169,0},{0.0907,0}  HIDDEN  bg=#4c4c4c
+    UICorner "UICorner"  CornerRadius={0,9}
+    Frame "Frame2"  size={0,616},{0,357}  pos={0.0157,0},{0.0274,0}  bg=#363636
+      UICorner "UICorner"  CornerRadius={0,8}
+      ScrollingFrame "ScrollingFrame"  size={0,617},{0,344}  pos={-0.00163,0},{0.0173,0}  nobg
+        Frame "CL3Frame"  size={0,581},{0,100}  pos={0.0292,0},{0.011,0}  bg=#4c4c4c
+          UICorner "UICorner"  CornerRadius={0,8}
+          ImageLabel "ImageLabel"  size={0,85},{0,85}  pos={0.0155,0},{0.07,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "TextLabel"  size={0,110},{0,27}  pos={0.15,0},{0.07,0}  nobg  text="CL-3"  font=GothamSSm/500  ts=30  tc=#ffffff
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.33,4}  bg=#ffffff  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "TextLabel"  size={0,539},{0,26}  pos={0.105,0},{0.35,0}  nobg  text="Clearance - 3 Keycard gives you access to most of the site."  font=GothamSSm/500  ts=12  tc=#ffffff
+          TextButton "TextButton"  size={0,446},{0,23}  pos={0.183,0},{0.68,0}  bg=#297d00  text="PURCHASE CL-3 FOR 250$"  font=GothamSSm/500  ts=21  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,6}
+            LocalScript "LocalScript"  -> scripts/StarterGui/GunShop/Frame/Frame2/ScrollingFrame/CL3Frame/TextButton/LocalScript.client.lua
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.52,4}  bg=#ffffff  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.85,4}  nobg  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+        Frame "ACRFrame"  size={0,581},{0,100}  pos={0.0296,0},{0.172,0}  bg=#4c4c4c
+          UICorner "UICorner"  CornerRadius={0,8}
+          ImageLabel "ImageLabel"  size={0,85},{0,85}  pos={0.0155,0},{0.07,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "TextLabel"  size={0,103},{0,27}  pos={0.161,0},{0.07,0}  nobg  text="ACR1"  font=GothamSSm/500  ts=30  tc=#ffffff
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.33,4}  bg=#ffffff  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "TextLabel"  size={0,539},{0,26}  pos={0.105,0},{0.35,0}  nobg  text="An assault rifle perfect for far range engagments."  font=GothamSSm/500  ts=12  tc=#ffffff
+          TextButton "TextButton"  size={0,446},{0,23}  pos={0.183,0},{0.68,0}  bg=#297d00  text="PURCHASE ACR1 FOR 300$"  font=GothamSSm/500  ts=21  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,6}
+            LocalScript "LocalScript"  -> scripts/StarterGui/GunShop/Frame/Frame2/ScrollingFrame/ACRFrame/TextButton/LocalScript.client.lua
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.52,4}  bg=#ffffff  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.85,4}  nobg  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+        Frame "G17Frame"  size={0,581},{0,100}  pos={0.0296,0},{0.333,0}  bg=#4c4c4c
+          UICorner "UICorner"  CornerRadius={0,8}
+          ImageLabel "ImageLabel"  size={0,85},{0,85}  pos={0.0155,0},{0.07,0}  bg=#ffffff  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.33,4}  bg=#ffffff  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "TextLabel"  size={0,539},{0,26}  pos={0.105,0},{0.35,0}  nobg  text="A Pistol suited for close-range incounters."  font=GothamSSm/500  ts=12  tc=#ffffff
+            TextLabel "TextLabel"  size={0,110},{0,27}  pos={0.15,0},{0.07,0}  nobg  text="MK18"  font=GothamSSm/500  ts=30  tc=#ffffff
+          TextButton "TextButton"  size={0,446},{0,23}  pos={0.183,0},{0.68,0}  bg=#297d00  text="PURCHASE G-17 FOR 350$"  font=GothamSSm/500  ts=21  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,6}
+            LocalScript "LocalScript"  -> scripts/StarterGui/GunShop/Frame/Frame2/ScrollingFrame/G17Frame/TextButton/LocalScript.client.lua
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.52,4}  bg=#ffffff  text="G-17"  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "Design"  size={0.77,0},{0.028,0}  pos={0.181,1},{0.85,4}  nobg  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+            UICorner "UICorner"  CornerRadius={0,8}
+    ImageButton "ImageButton"  size={0,18},{0,18}  pos={0.959,0},{0.0264,0}  nobg  img=http://www.roblox.com/asset/?id=7170557498  imgcol=#2c2c2c
+      LocalScript "LocalScript"  -> scripts/StarterGui/GunShop/Frame/ImageButton/LocalScript.client.lua
+  LocalScript "LocalScript"  -> scripts/StarterGui/GunShop/LocalScript.client.lua
+
+==== StarterGui.LocalScript  (0 descendants)
+LocalScript "LocalScript"  -> scripts/StarterGui/LocalScript.client.lua
+
+==== StarterGui.ChatScript  (12 descendants)
+LocalScript "ChatScript"  -> scripts/StarterGui/ChatScript.client.lua
+  ModuleScript "ChatMain"  -> scripts/StarterGui/ChatScript/ChatMain.lua
+    ModuleScript "ChannelsBar"  -> scripts/StarterGui/ChatScript/ChatMain/ChannelsBar.lua
+    ModuleScript "ChatBar"  -> scripts/StarterGui/ChatScript/ChatMain/ChatBar.lua
+    ModuleScript "ChatChannel"  -> scripts/StarterGui/ChatScript/ChatMain/ChatChannel.lua
+    ModuleScript "MessageLogDisplay"  -> scripts/StarterGui/ChatScript/ChatMain/MessageLogDisplay.lua
+    ModuleScript "ChatWindow"  -> scripts/StarterGui/ChatScript/ChatMain/ChatWindow.lua
+    ModuleScript "MessageLabelCreator"  -> scripts/StarterGui/ChatScript/ChatMain/MessageLabelCreator.lua
+    ModuleScript "CommandProcessor"  -> scripts/StarterGui/ChatScript/ChatMain/CommandProcessor.lua
+    ModuleScript "ChannelsTab"  -> scripts/StarterGui/ChatScript/ChatMain/ChannelsTab.lua
+    ModuleScript "ObjectPool"  -> scripts/StarterGui/ChatScript/ChatMain/ObjectPool.lua
+    ModuleScript "MessageSender"  -> scripts/StarterGui/ChatScript/ChatMain/MessageSender.lua
+    ModuleScript "CurveUtil"  -> scripts/StarterGui/ChatScript/ChatMain/CurveUtil.lua
+
+==== Workspace.Site.Light Containment Zone.Laptop.Part.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={0,800},{0,300}  pos={0,200},{0,100}  nobg  text="SCP FOUNDATION"  font=GothamSSm/400  ts=100  tc=#8d8d8d
+  TextLabel "TextLabel"  size={0,800},{0,300}  pos={0,200},{0,190}  nobg  text="SECURE • CONTAIN • PROTECT"  font=GothamSSm/400  ts=50  tc=#8d8d8d
+
+==== Workspace.Site.Light Containment Zone.Laptop.Part.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={0,800},{0,300}  pos={0,200},{0,100}  nobg  text="SCP FOUNDATION"  font=GothamSSm/400  ts=100  tc=#8d8d8d
+  TextLabel "TextLabel"  size={0,800},{0,300}  pos={0,200},{0,190}  nobg  text="SECURE • CONTAIN • PROTECT"  font=GothamSSm/400  ts=50  tc=#8d8d8d
+
+==== Workspace.Site.Dock Zone.Model.Center.InteractionBox  (19 descendants)
+BillboardGui "InteractionBox"  size={5,0},{1,0}  Enabled=False  Size={5,0},{1,0}  StudsOffset=(2,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "selection"  size={0,0},{0,0}  pos={0.1,0},{0.5,0}  nobg
+    Frame "aa"  size={0.3,0},{0.075,0}  pos={0,0},{0,0}  bg=#ffffff
+    Frame "ab"  size={0.075,0},{0.3,0}  pos={0,0},{0,0}  bg=#ffffff
+    Frame "ba"  size={0.3,0},{0.075,0}  pos={0.7,0},{0,0}  bg=#ffffff
+    Frame "bb"  size={0.075,0},{0.3,0}  pos={0.925,0},{0,0}  bg=#ffffff
+    Frame "ca"  size={0.075,0},{0.3,0}  pos={0,0},{0.7,0}  bg=#ffffff
+    Frame "cb"  size={0.3,0},{0.075,0}  pos={0,0},{0.925,0}  bg=#ffffff
+    Frame "db"  size={0.3,0},{0.075,0}  pos={0.7,0},{0.925,0}  bg=#ffffff
+    Frame "da"  size={0.075,0},{0.3,0}  pos={0.925,0},{0.7,0}  bg=#ffffff
+  Frame "mainDesc"  size={0,0},{0.45,0}  pos={0.25,0},{0,0}  bg=#09112e
+    Frame "Frame"  size={0.025,0},{1,0}  pos={0,0},{0,0}  bg=#f28517
+    TextLabel "header"  size={0.8,0},{0.8,0}  pos={0.175,0},{0.1,0}  nobg  text="PUSH DOOR"  font=GothamSSm/900  scaled  tc=#f28517
+    ImageLabel "keyBind"  size={0.095,0},{0.8,0}  pos={0.04,0},{0.1,0}  nobg  img=rbxassetid://3570695787  imgcol=#f28517
+      ImageLabel "Frame"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  img=rbxassetid://3570695787  imgcol=#09112e
+        TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="E"  font=GothamSSm/900  scaled  tc=#f28517
+  Frame "description"  size={0,0},{0.45,0}  pos={0.25,0},{0.55,0}  bg=#09112e
+    Frame "Frame"  size={0.025,0},{1,0}  pos={0,0},{0,0}  bg=#f28517
+    TextLabel "descriptionMain"  size={0.45,0},{0.6,0}  pos={0.51,0},{0.2,0}  nobg  text="SCI 3"  font=GothamSSm/500  scaled  tc=#ff3131
+    TextLabel "descriptionLabel"  size={0.45,0},{0.6,0}  pos={0.05,0},{0.2,0}  nobg  text="CLEARANCE:"  font=GothamSSm/700  scaled  tc=#ffffff
+
+==== Workspace.Site.Entrance Zone.Medical Set.Heart Monitor.Screen.SignGui  (3 descendants)
+SurfaceGui "SignGui"  Enabled=True  Face=0  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "PulseTitle"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg  text="Pulse"  font=Zekton/400  scaled  tc=#ffffff
+  TextLabel "PulseLabel"  size={1,0},{0.25,0}  pos={0,0},{0.75,0}  nobg  text="N/A"  font=Zekton/400  scaled  tc=#ffffff
+  TextLabel "BPM"  size={1,0},{0.25,0}  pos={0,0},{0.5,0}  nobg  text=""  font=Zekton/400  scaled  tc=#ffffff
+
+==== Workspace.Site.Entrance Zone.Medical Set.IV Bag.Screen.SignGui  (3 descendants)
+SurfaceGui "SignGui"  Enabled=True  Face=0  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg  text="Content Amount"  font=Zekton/400  scaled  tc=#ffffff
+  TextLabel "AmountLabel"  size={1,0},{0.25,0}  pos={0,0},{0.565,0}  nobg  text="200"  font=Zekton/400  scaled  tc=#ffffff
+    Script "Script"  -> scripts/Workspace/Site/Entrance Zone/Medical Set/IV Bag/Screen/SignGui/AmountLabel/Script.server.lua
+
+==== Workspace.Site.AreaPopUp.NOW ENTERING: THE ENTRANCE ZONE.NAMEWALL.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,662},{0,84}  pos={0.422,-212},{0.191,0}  nobg
+    TextLabel "TextLabel"  size={0,948},{0,131}  pos={-0.212,0},{-2.38,0}  nobg  text="NOW ENTERRING, ENTRANCE ZONE"  font=TitilliumWeb/400  ts=60  tc=#ffffff
+
+==== Workspace.Site.AreaPopUp.NOW ENTERING: THE LIGHT CONTAINMENT ZONE.NAMEWALL.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,662},{0,84}  pos={0.422,-212},{0.191,0}  nobg
+    TextLabel "TextLabel"  size={0,948},{0,131}  pos={-0.212,0},{-2.38,0}  nobg  text="NOW ENTERRING, ENTRANCE ZONE"  font=TitilliumWeb/400  ts=60  tc=#ffffff
+
+==== Workspace.Site.AreaPopUp.NOW ENTERING: THE LIGHT CONTAINMENT ZONE.NAMEWALL.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,662},{0,84}  pos={0.422,-212},{0.191,0}  nobg
+    TextLabel "TextLabel"  size={0,948},{0,131}  pos={-0.212,0},{-2.38,0}  nobg  text="NOW ENTERRING, ENTRANCE ZONE"  font=TitilliumWeb/400  ts=60  tc=#ffffff
+
+==== Workspace.Site.AreaPopUp.NOW ENTERING: THE CLASS D CONTAINMENT ZONE.NAMEWALL.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,662},{0,84}  pos={0.422,-212},{0.191,0}  nobg
+    TextLabel "TextLabel"  size={0,948},{0,131}  pos={-0.212,0},{-2.38,0}  nobg  text="NOW ENTERRING, ENTRANCE ZONE"  font=TitilliumWeb/400  ts=60  tc=#ffffff
+
+==== Workspace.Site.AreaPopUp.NOW ENTERING: THE DOCK ZONE.NAMEWALL.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,662},{0,84}  pos={0.422,-212},{0.191,0}  nobg
+    TextLabel "TextLabel"  size={0,948},{0,131}  pos={-0.212,0},{-2.38,0}  nobg  text="NOW ENTERRING, ENTRANCE ZONE"  font=TitilliumWeb/400  ts=60  tc=#ffffff
+
+==== Workspace.Site.AreaPopUp.NOW ENTERING: NORTH PACIFIC OCEAN, CANADA.NAMEWALL.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,662},{0,84}  pos={0.422,-212},{0.191,0}  nobg
+    TextLabel "TextLabel"  size={0,948},{0,131}  pos={-0.212,0},{-2.38,0}  nobg  text="NOW ENTERRING, ENTRANCE ZONE"  font=TitilliumWeb/400  ts=60  tc=#ffffff
+
+==== Workspace.Model.Center.InteractionBox  (19 descendants)
+BillboardGui "InteractionBox"  size={5,0},{1,0}  Enabled=False  Size={5,0},{1,0}  StudsOffset=(2,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "selection"  size={0,0},{0,0}  pos={0.1,0},{0.5,0}  nobg
+    Frame "aa"  size={0.3,0},{0.075,0}  pos={0,0},{0,0}  bg=#ffffff
+    Frame "ab"  size={0.075,0},{0.3,0}  pos={0,0},{0,0}  bg=#ffffff
+    Frame "ba"  size={0.3,0},{0.075,0}  pos={0.7,0},{0,0}  bg=#ffffff
+    Frame "bb"  size={0.075,0},{0.3,0}  pos={0.925,0},{0,0}  bg=#ffffff
+    Frame "ca"  size={0.075,0},{0.3,0}  pos={0,0},{0.7,0}  bg=#ffffff
+    Frame "cb"  size={0.3,0},{0.075,0}  pos={0,0},{0.925,0}  bg=#ffffff
+    Frame "db"  size={0.3,0},{0.075,0}  pos={0.7,0},{0.925,0}  bg=#ffffff
+    Frame "da"  size={0.075,0},{0.3,0}  pos={0.925,0},{0.7,0}  bg=#ffffff
+  Frame "mainDesc"  size={0,0},{0.45,0}  pos={0.25,0},{0,0}  bg=#09112e
+    Frame "Frame"  size={0.025,0},{1,0}  pos={0,0},{0,0}  bg=#f28517
+    TextLabel "header"  size={0.8,0},{0.8,0}  pos={0.175,0},{0.1,0}  nobg  text="PUSH DOOR"  font=GothamSSm/900  scaled  tc=#f28517
+    ImageLabel "keyBind"  size={0.095,0},{0.8,0}  pos={0.04,0},{0.1,0}  nobg  img=rbxassetid://3570695787  imgcol=#f28517
+      ImageLabel "Frame"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  img=rbxassetid://3570695787  imgcol=#09112e
+        TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="E"  font=GothamSSm/900  scaled  tc=#f28517
+  Frame "description"  size={0,0},{0.45,0}  pos={0.25,0},{0.55,0}  bg=#09112e
+    Frame "Frame"  size={0.025,0},{1,0}  pos={0,0},{0,0}  bg=#f28517
+    TextLabel "descriptionMain"  size={0.45,0},{0.6,0}  pos={0.51,0},{0.2,0}  nobg  text="SCI 3"  font=GothamSSm/500  scaled  tc=#ff3131
+    TextLabel "descriptionLabel"  size={0.45,0},{0.6,0}  pos={0.05,0},{0.2,0}  nobg  text="CLEARANCE:"  font=GothamSSm/700  scaled  tc=#ffffff
+
+==== Workspace.radio tower.Bottom Flashing Lights.L-865 WHITE ONLY.Model.Union.LightD  (2 descendants)
+BillboardGui "LightD"  size={8,0},{8,0}  Enabled=True  Size={8,0},{8,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={2.5,0},{2.5,0}  pos={-0.75,0},{-0.75,0}  nobg
+  Script "Script"  -> scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightD/Script.server.lua
+
+==== Workspace.radio tower.Bottom Flashing Lights.L-865 WHITE ONLY.Model.Union.LightN  (2 descendants)
+BillboardGui "LightN"  size={4,0},{4,0}  Enabled=True  Size={4,0},{4,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={2.5,0},{2.5,0}  pos={-0.75,0},{-0.75,0}  nobg
+  Script "Script"  -> scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY/Model/Union/LightN/Script.server.lua
+
+==== Workspace.radio tower.Bottom Flashing Lights.L-865 WHITE ONLY.Model.Union.LightD  (2 descendants)
+BillboardGui "LightD"  size={8,0},{8,0}  Enabled=True  Size={8,0},{8,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={2.5,0},{2.5,0}  pos={-0.75,0},{-0.75,0}  nobg
+  Script "Script"  -> scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/LightD/Script.server.lua
+
+==== Workspace.radio tower.Bottom Flashing Lights.L-865 WHITE ONLY.Model.Union.LightN  (2 descendants)
+BillboardGui "LightN"  size={4,0},{4,0}  Enabled=True  Size={4,0},{4,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={2.5,0},{2.5,0}  pos={-0.75,0},{-0.75,0}  nobg
+  Script "Script"  -> scripts/Workspace/radio tower/Bottom Flashing Lights/L-865 WHITE ONLY~2/Model/Union/LightN/Script.server.lua
+
+==== Workspace.radio tower.Top Lights.L-810 SIDELIGHT MARKER.Part.Light  (2 descendants)
+BillboardGui "Light"  size={5,0},{5,0}  Enabled=False  Size={5,0},{5,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=66988660
+  Script "Script"  -> scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER/Part~15/Light/Script.server.lua
+
+==== Workspace.radio tower.Top Lights.L-810 SIDELIGHT MARKER.Part.Light  (2 descendants)
+BillboardGui "Light"  size={5,0},{5,0}  Enabled=False  Size={5,0},{5,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Light"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=66988660
+  Script "Script"  -> scripts/Workspace/radio tower/Top Lights/L-810 SIDELIGHT MARKER~2/Part~15/Light/Script.server.lua
+
+==== Workspace.SCPs.Object-Case.Detector.Gui  (1 descendants)
+ScreenGui "Gui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  TextLabel ""  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#00aaff@0.7  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+
+==== Workspace.SCPs.SCP-988.CD.Script.AdvanceToolGiver  (12 descendants)
+ScreenGui "AdvanceToolGiver"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0.3,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.6
+    Frame "Frame"  size={1,-20},{1,-20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.25
+      ScrollingFrame "ScrollingFrame"  size={1,-20},{1,-20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UICorner "UICorner"  CornerRadius={0,8}
+    TextButton "TextButton"  size={0,200},{0,30}  pos={0.5,0},{1,10}  anchor=(0.5,0)  bg=#b34b4d@0.2  text="CLOSE"  font=JosefinSans/400  ts=20  tc=#ffffff
+      UICorner "UICorner"  CornerRadius={0,8}
+      Script "Script"  -> scripts/Workspace/SCPs/SCP-988/CD/Script/AdvanceToolGiver/Frame/TextButton/Script.server.lua  [disabled]
+        TextButton "Template"  size={0,200},{0,50}  pos={0,0},{0,0}  bg=#d2dcff@0.8  text="Button"  font=JosefinSans/400  ts=20  tc=#ffffff
+          Script "Script2"  -> scripts/Workspace/SCPs/SCP-988/CD/Script/AdvanceToolGiver/Frame/TextButton/Script/Template/Script2.server.lua  [disabled]
+          UICorner "UICorner"  CornerRadius={0,8}
+        UIGridLayout "UIGridLayout"  CellSize={0.5,-5},{0,50}  CellPadding={0,10},{0,10}  FillDirectionMaxCells=0
+    UICorner "UICorner"  CornerRadius={0,8}
+
+==== Workspace.Zodiac.Body.Main_Model.DriveSeat.AerotechCredit  (1 descendants)
+ScreenGui "AerotechCredit"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageLabel "ImageLabel"  size={0.0463,0},{0.0829,0}  pos={0.00733,0},{0.907,0}  nobg  img=rbxassetid://2907412002  imgT=0.5
+
+==== Workspace.Zodiac.Body.Main_Model.DriveSeat.HelmGUI  (38 descendants)
+ScreenGui "HelmGUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "SPEED INDICATOR"  size={0.0757,0},{0.0284,0}  pos={0.462,0},{0.922,0}  bg=#404142@0.15
+    TextLabel "TextLabel"  size={1,0},{0.921,0}  pos={-0.000398,0},{0.0208,0}  nobg  text="0 KNOTS"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    LocalScript "LocalScript"  -> scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/SPEED INDICATOR/LocalScript.client.lua
+  Frame "STEERING"  size={0.3,0},{0.0296,0}  pos={0.349,0},{0.96,0}  bg=#404142@0.15
+    Frame "Frame"  size={0.00277,0},{0.815,0}  pos={0.349,0},{0.0856,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.00277,0},{0.815,0}  pos={0.498,0},{0.0856,0}  bg=#f3f6f6
+    TextLabel "TextLabel"  size={0.237,0},{0.838,0}  pos={0,0},{0.0608,0}  nobg  text="  PORT"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={0.301,0},{0.838,0}  pos={0.697,0},{0.0608,0}  nobg  text="STARBOARD  "  font=Inconsolata/400  scaled  tc=#f3f6f6
+    Frame "Frame"  size={0.00277,0},{0.815,0}  pos={0.649,0},{0.086,0}  bg=#f3f6f6
+    Frame "SLIDER"  size={0.0129,0},{0.843,0}  pos={0.494,0},{0.0856,0}  bg=#ca0107@0.2
+  Frame "THROTTLE"  size={0.0169,0},{0.376,0}  pos={0.963,0},{0.506,0}  bg=#404142@0.15
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.954,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.811,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.709,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.607,0}  bg=#f3f6f6
+    ... +11 more Frame "Frame"
+    Frame "SLIDER"  size={0.684,0},{0.0242,0}  pos={0.173,0},{0.811,0}  bg=#ca0107@0.2
+    TextLabel "TextLabel"  size={2.07,0},{0.113,0}  pos={-2.68,0},{0.757,0}  nobg  text="HALT"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={4.72,0},{0.113,0}  pos={-5.27,0},{0.868,0}  nobg  text="FULL ASTERN"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={4.4,0},{0.113,0}  pos={-5.02,0},{0.04,0}  nobg  text="FULL AHEAD"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={1.85,0},{0.102,0}  pos={-2.4,0},{0.158,0}  nobg  text="3/4"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    ... +2 more TextLabel "TextLabel"
+  Frame "ENGINE INDICATOR"  size={0.0757,0},{0.0289,0}  pos={0.657,0},{0.961,0}  bg=#404142@0.15
+    TextLabel "TextLabel"  size={1,0},{0.921,0}  pos={-0.000398,0},{0.0208,0}  nobg  text="ENGINE"  font=Inconsolata/400  scaled  tc=#fc051f
+  Script "CONTROLS"  -> scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/CONTROLS.server.lua  [disabled]
+  LocalScript "LocalMain"  -> scripts/Workspace/Zodiac/Body/Main_Model/DriveSeat/HelmGUI/LocalMain.client.lua
+  ObjectValue "Ship"  Value=nil
+
+==== Workspace.Zodiac.Body.Main_Model.DriveSeat.AerotechCredit  (1 descendants)
+ScreenGui "AerotechCredit"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageLabel "ImageLabel"  size={0.0463,0},{0.0829,0}  pos={0.00733,0},{0.907,0}  nobg  img=rbxassetid://2907412002  imgT=0.5
+
+==== Workspace.Zodiac.Body.Main_Model.DriveSeat.HelmGUI  (38 descendants)
+ScreenGui "HelmGUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "SPEED INDICATOR"  size={0.0757,0},{0.0284,0}  pos={0.462,0},{0.922,0}  bg=#404142@0.15
+    TextLabel "TextLabel"  size={1,0},{0.921,0}  pos={-0.000398,0},{0.0208,0}  nobg  text="0 KNOTS"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    LocalScript "LocalScript"  -> scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/HelmGUI/SPEED INDICATOR/LocalScript.client.lua
+  Frame "STEERING"  size={0.3,0},{0.0296,0}  pos={0.349,0},{0.96,0}  bg=#404142@0.15
+    Frame "Frame"  size={0.00277,0},{0.815,0}  pos={0.349,0},{0.0856,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.00277,0},{0.815,0}  pos={0.498,0},{0.0856,0}  bg=#f3f6f6
+    TextLabel "TextLabel"  size={0.237,0},{0.838,0}  pos={0,0},{0.0608,0}  nobg  text="  PORT"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={0.301,0},{0.838,0}  pos={0.697,0},{0.0608,0}  nobg  text="STARBOARD  "  font=Inconsolata/400  scaled  tc=#f3f6f6
+    Frame "Frame"  size={0.00277,0},{0.815,0}  pos={0.649,0},{0.086,0}  bg=#f3f6f6
+    Frame "SLIDER"  size={0.0129,0},{0.843,0}  pos={0.494,0},{0.0856,0}  bg=#ca0107@0.2
+  Frame "THROTTLE"  size={0.0169,0},{0.376,0}  pos={0.963,0},{0.506,0}  bg=#404142@0.15
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.954,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.811,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.709,0}  bg=#f3f6f6
+    Frame "Frame"  size={0.652,0},{0.00672,0}  pos={0.173,0},{0.607,0}  bg=#f3f6f6
+    ... +11 more Frame "Frame"
+    Frame "SLIDER"  size={0.684,0},{0.0242,0}  pos={0.173,0},{0.811,0}  bg=#ca0107@0.2
+    TextLabel "TextLabel"  size={2.07,0},{0.113,0}  pos={-2.68,0},{0.757,0}  nobg  text="HALT"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={4.72,0},{0.113,0}  pos={-5.27,0},{0.868,0}  nobg  text="FULL ASTERN"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={4.4,0},{0.113,0}  pos={-5.02,0},{0.04,0}  nobg  text="FULL AHEAD"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    TextLabel "TextLabel"  size={1.85,0},{0.102,0}  pos={-2.4,0},{0.158,0}  nobg  text="3/4"  font=Inconsolata/400  scaled  tc=#f3f6f6
+    ... +2 more TextLabel "TextLabel"
+  Frame "ENGINE INDICATOR"  size={0.0757,0},{0.0289,0}  pos={0.657,0},{0.961,0}  bg=#404142@0.15
+    TextLabel "TextLabel"  size={1,0},{0.921,0}  pos={-0.000398,0},{0.0208,0}  nobg  text="ENGINE"  font=Inconsolata/400  scaled  tc=#fc051f
+  Script "CONTROLS"  -> scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/HelmGUI/CONTROLS.server.lua  [disabled]
+  LocalScript "LocalMain"  -> scripts/Workspace/Zodiac~2/Body/Main_Model/DriveSeat/HelmGUI/LocalMain.client.lua
+  ObjectValue "Ship"  Value=nil
+
+==== ServerScriptService.RankGuiHandler.Rank  (6 descendants)
+BillboardGui "Rank"  size={4,0},{1.25,0}  Enabled=True  Size={4,0},{1.25,0}  StudsOffset=(0,2,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Background"  size={0.6,0},{1,1}  pos={0.21,0},{0,0}  nobg
+    TextLabel "GangN"  size={1,0},{0.25,0}  pos={0,0},{0.2,0}  nobg  z=2  text=""  font=SourceSansPro/600  scaled  tc=#484848
+    TextLabel "UserN"  size={1,0},{0.35,0}  pos={0,0},{0.425,0}  nobg  z=2  text=""  font=Oswald/400  scaled  tc=#ffffff
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/700  scaled  tc=#666666
+    TextLabel "Rank"  size={1,0},{0.25,0}  pos={0,0},{0.75,0}  nobg  z=2  text=""  font=SourceSansPro/600  scaled  tc=#6a6a6a
+      TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,2},{0,2}  nobg  text=""  font=SourceSansPro/600  scaled  tc=#282828
+
+==== ServerScriptService.Death Gui.DeathGui  (9 descendants)
+ScreenGui "DeathGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1.1,0},{1.1,0}  pos={-0.01,0},{-0.01,0}  nobg
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://143854825  imgcol=#640007
+  Frame "Frame"  size={0.329,0},{0.233,0}  pos={0.336,0},{0.451,0}  nobg
+    TextLabel "TextLabel"  size={0.992,0},{0.114,0}  pos={-0.00766,0},{-0.0427,0}  nobg  text="Respawning..."  font=SourceSansPro/400  scaled  tc=#d8d8d8
+      Sound "Music"
+      Sound "Beep"
+      LocalScript "LocalScript"  -> scripts/ServerScriptService/Death Gui/DeathGui/Frame~2/TextLabel/LocalScript.client.lua
+    TextLabel "TextLabel"  size={0.992,0},{0.649,0}  pos={-0.00766,0},{-0.517,0}  nobg  text="YOU DIED"  font=SourceSansPro/600  scaled  tc=#d8d8d8
+      LocalScript "LocalScript"  -> scripts/ServerScriptService/Death Gui/DeathGui/Frame~2/TextLabel~2/LocalScript.client.lua
+
+==== ServerScriptService.InfectionHandler.610Infectionhandler.610Gui  (2 descendants)
+ScreenGui "610Gui"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1,0},{1,36}  pos={0,0},{0,-36}  bg=#320000@0.6
+    TextLabel "TextLabel"  size={0,200},{0,50}  pos={0.5,-100},{0.094,-65}  nobg  text="YOU ARE AN SCP-610 INSTANCE, FIND AND INFECT OTHER PLAYERS."  font=Balthazar/400  ts=30  tc=#7a0000
+
+==== ServerScriptService.GiveUI.AnnouncementUI  (13 descendants)
+ScreenGui "AnnouncementUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageButton "Button"  size={0.0405,0},{0.0669,0}  pos={0.009,0},{0.795,0}  nobg  img=rbxassetid://2790382281  imgcol=#363636
+    LocalScript "Show_Hide"  -> scripts/ServerScriptService/GiveUI/AnnouncementUI/Button/Show_Hide.client.lua
+    ImageButton "Main"  size={4.86,0},{2.84,0}  pos={-5.34,0},{0,0}  nobg  img=rbxassetid://2790382281  imgcol=#363636
+      ImageButton "TextFrame"  size={0.921,0},{0.249,0}  pos={0.0368,0},{0.0636,0}  nobg  img=rbxassetid://2790382281  imgcol=#55aaff
+        TextLabel "TextLabel"  size={0.837,0},{0.732,0}  pos={0.0793,0},{0.127,0}  nobg  text="Announcement Panel"  font=Zekton/400  scaled  tc=#ffffff
+      Folder "ShoutSystem"
+        ImageButton "ShoutFrame"  size={0.921,0},{0.203,0}  pos={0.0409,0},{0.727,0}  nobg  img=rbxassetid://2790382281  imgcol=#272727
+          TextBox "Message"  size={0.994,0},{0.955,0}  pos={3.41e-08,0},{0,0}  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+        ImageButton "ShoutButton"  size={0.433,0},{0.216,0}  pos={0.0409,0},{0.466,0}  nobg  img=rbxassetid://2790382281  imgcol=#ff0044
+          TextLabel "TextLabel"  size={0.883,0},{0.732,0}  pos={0.0506,0},{0.127,0}  nobg  text="Announce"  font=Zekton/400  scaled  tc=#ffffff
+          LocalScript "LocalScript"  -> scripts/ServerScriptService/GiveUI/AnnouncementUI/Button/Main/ShoutSystem/ShoutButton/LocalScript.client.lua
+    ImageLabel "ImageLabel"  size={0.775,0},{0.725,0}  pos={0.1,0},{0.12,0}  nobg  img=rbxassetid://3926305904
+    Sound "ClickSound"
+
+==== ServerScriptService.RadioService.Assets.Interface  (14 descendants)
+ScreenGui "Interface"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Container"  size={0.318,0},{0.275,0}  pos={0.783,0},{0.767,0}  bg=#212121@0.4
+    ScrollingFrame "Body"  size={0.949,0},{0.9,0}  pos={0,0},{0.0996,0}  nobg
+      UIListLayout "List"  FillDirection=1  Padding={0,3}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.77
+    TextLabel "TextLabel"  size={0.488,0},{0.0996,0}  pos={0.239,0},{0,0}  nobg  text="Foundation Communications"  font=SourceSansPro/400  ts=14  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8.7
+    ImageLabel "ImageLabel"  size={0.19,0},{0.342,0}  pos={0.868,0},{-0.0909,0}  nobg  img=rbxassetid://5266214115
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.987
+    ImageLabel "ImageLabel"  size={0.968,0},{0.532,0}  pos={0,0},{-0.247,0}  nobg  img=rbxassetid://8650390810
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.23
+    ImageLabel "ImageLabel"  size={0.19,0},{3.14,0}  pos={0.868,0},{-0.965,0}  nobg  img=rbxassetid://5266214115
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.108
+    ImageLabel "ImageLabel"  size={0.19,0},{3.14,0}  pos={-0.102,0},{-0.959,0}  nobg  img=rbxassetid://5266214115
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.108
+
+==== ServerStorage.MP5SD.Holo.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={0,800},{0,800}  pos={0,0},{0,0}  nobg
+    ImageLabel "Flash"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://3284311474
+
+==== ServerStorage.CL-0.Text1.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="CLEARANCE <b> 0 </b>"  font=GothamSSm/400  scaled  tc=#ffffff
+
+==== ServerStorage.610s.SCP-610-1.Script.610Gui  (2 descendants)
+ScreenGui "610Gui"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1,0},{1,36}  pos={0,0},{0,-36}  bg=#320000@0.6
+    TextLabel "TextLabel"  size={0,200},{0,50}  pos={0.5,-100},{0.094,-65}  nobg  text="YOU ARE AN SCP-610 INSTANCE, FIND AND INFECT OTHER PLAYERS."  font=Balthazar/400  ts=30  tc=#7a0000
+
+==== ServerStorage.610s.SCP-610-2.Script.610Gui  (2 descendants)
+ScreenGui "610Gui"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={1,0},{1,36}  pos={0,0},{0,-36}  bg=#320000@0.6
+    TextLabel "TextLabel"  size={0,200},{0,50}  pos={0.5,-100},{0.094,-65}  nobg  text="YOU ARE AN SCP-610 INSTANCE, FIND AND INFECT OTHER PLAYERS."  font=Balthazar/400  ts=30  tc=#7a0000
+
+==== ReplicatedStorage.Assets.Interfaces.InteractionPopup  (2 descendants)
+BillboardGui "InteractionPopup"  size={2.8,0},{1.2,0}  Enabled=True  Size={2.8,0},{1.2,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "animationFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+
+==== ReplicatedStorage.Assets.Interfaces.InteractionPopup_GUI  (8 descendants)
+SurfaceGui "InteractionPopup_GUI"  Enabled=True  Face=5  PixelsPerStud=250  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "animationFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+  Frame "interactionOptionFrame"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg
+    TextButton "optionString"  size={0.75,0},{0.5,0}  pos={0,0},{0.75,0}  nobg  text="OPEN DOOR"  font=Jura/400  scaled  tc=#191919
+      TextButton "shadowText"  size={1,0},{1,0}  pos={0,0},{-0.1,0}  nobg  z=0  text="OPEN DOOR"  font=Jura/400  scaled  tc=#c7c7c7
+    ImageLabel "keyIcon"  size={0.16,0},{0.75,0}  pos={0.425,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=4966399827
+      TextButton "keyText"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  text="E"  font=Jura/400  scaled  tc=#bdbec0
+    UIListLayout "UIListLayout"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+
+==== ReplicatedStorage.Assets.Morphs.SD Guard.UpperTorso.RearPatch.SGUI  (2 descendants)
+SurfaceGui "SGUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextBox "Identifier"  size={1,0},{0.7,0}  pos={0,0},{0.3,0}  nobg  text="GUARD"  font=LegacyArial/400  scaled  tc=#ffffff
+  TextBox "Identifier"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  text="SECURITY DEPARTMENT"  font=LegacyArial/400  ts=15  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Morphs.SD Sentinel.UpperTorso.RearPatch.SGUI  (2 descendants)
+SurfaceGui "SGUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextBox "Identifier"  size={1,0},{0.7,0}  pos={0,0},{0.3,0}  nobg  text="SENTINEL"  font=LegacyArial/400  scaled  tc=#ffffff
+  TextBox "Identifier"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  text="SECURITY DEPARTMENT"  font=LegacyArial/400  ts=15  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Morphs.Task Force Recruit.UpperTorso.Nametag.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={0.7,0},{1,0}  pos={0.3,0},{0,0}  nobg  text="RECRUIT"  font=RobotoMono/400  ts=30  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Morphs.Epsilon-11.UpperTorso.Nametag.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.3,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=10259185105  imgT=0.3
+  TextLabel "TextLabel"  size={0.7,0},{1,0}  pos={0.3,0},{0,0}  nobg  text="Epsilon-11"  font=RobotoMono/400  ts=30  tc=#ffffff
+
+==== Teams.GRU-P.CL-3.Text1.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="CLEARANCE <b> 03</b>"  font=GothamSSm/400  scaled  tc=#ffffff
+
+==== Teams.GRU-P.CL-3.Text2.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=500  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="DO NOT GIVE TO UNAUTHORIZED PERSONNEL"  font=GothamSSm/400  scaled  tc=#ffffff
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 183 copies
+BillboardGui "InteractionBox" under Workspace: 101 copies
+SurfaceGui "SignGui" under Workspace: 8 copies
+BillboardGui "LightD" under Workspace: 6 copies
+BillboardGui "LightN" under Workspace: 6 copies
+BillboardGui "Light" under Workspace: 8 copies
+SurfaceGui "SurfaceGui" under ServerStorage: 17 copies
+SurfaceGui "SGUI" under ReplicatedStorage: 11 copies
+SurfaceGui "SurfaceGui" under ReplicatedStorage: 12 copies
+SurfaceGui "SurfaceGui" under Teams: 6 copies

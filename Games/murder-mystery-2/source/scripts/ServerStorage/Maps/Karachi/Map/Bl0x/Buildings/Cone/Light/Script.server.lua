@@ -1,0 +1,1 @@
+script.Parent.Adornee = script.Parent.Parent

@@ -1,0 +1,615 @@
+{
+ "viewport": "1215.19995, 708.799988",
+ "slug": "rivals-modded",
+ "shots": [
+  {
+   "panel": "MainFrame.Logo.N",
+   "file": "01_LoadingScreen__N",
+   "gui": "LoadingScreen"
+  },
+  {
+   "panel": "MainFrame.Logo.G",
+   "file": "02_LoadingScreen__G",
+   "gui": "LoadingScreen"
+  },
+  {
+   "panel": "MainFrame.Device",
+   "file": "03_LoadingScreen__Device",
+   "gui": "LoadingScreen"
+  },
+  {
+   "panel": "",
+   "file": "04_DuelInterface",
+   "template": true,
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.Top.MatchPoint",
+   "file": "05_DuelInterface__MatchPoint",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.Top.StoryDialog.Container.LeftSpeaker",
+   "file": "06_DuelInterface__LeftSpeaker",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.Top.StoryDialog.Container.RightSpeaker",
+   "file": "07_DuelInterface__RightSpeaker",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.FinalResults.Summary",
+   "file": "08_DuelInterface__Summary",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.Voting.Maps.ArcadeMode",
+   "file": "09_DuelInterface__ArcadeMode",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.Scoreboard",
+   "file": "10_DuelInterface__Scoreboard",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.UpNext",
+   "file": "11_DuelInterface__UpNext",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.HeadHoncho",
+   "file": "12_DuelInterface__HeadHoncho",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "DuelInterface.HardcoreParkour",
+   "file": "13_DuelInterface__HardcoreParkour",
+   "gui": "DuelInterface"
+  },
+  {
+   "panel": "",
+   "file": "14_MobileButton",
+   "template": true,
+   "gui": "MobileButton"
+  },
+  {
+   "panel": "",
+   "file": "15_FighterInterface",
+   "template": true,
+   "gui": "FighterInterface"
+  },
+  {
+   "panel": "FighterInterface.WarningVignette.Container",
+   "file": "16_FighterInterface__Container",
+   "gui": "FighterInterface"
+  },
+  {
+   "panel": "",
+   "file": "17_BowCharge",
+   "template": true,
+   "gui": "BowCharge"
+  },
+  {
+   "panel": "",
+   "file": "18_SettingHotkeySlot",
+   "template": true,
+   "gui": "SettingHotkeySlot"
+  },
+  {
+   "panel": "SettingHotkeySlot.Edit.BackgroundFull",
+   "file": "19_SettingHotkeySlot__BackgroundFull",
+   "gui": "SettingHotkeySlot"
+  },
+  {
+   "panel": "",
+   "file": "20_ScoreboardPlayerSlot",
+   "template": true,
+   "gui": "ScoreboardPlayerSlot"
+  },
+  {
+   "panel": "",
+   "file": "21_ItemInterface",
+   "template": true,
+   "gui": "ItemInterface"
+  },
+  {
+   "panel": "",
+   "file": "22_TeammateSlot",
+   "template": true,
+   "gui": "TeammateSlot"
+  },
+  {
+   "panel": "TeammateSlot.Container.Streak",
+   "file": "23_TeammateSlot__Streak",
+   "gui": "TeammateSlot"
+  },
+  {
+   "panel": "TeammateSlot.Container.Level",
+   "file": "24_TeammateSlot__Level",
+   "gui": "TeammateSlot"
+  },
+  {
+   "panel": "",
+   "file": "25_MapSlot",
+   "template": true,
+   "gui": "MapSlot"
+  },
+  {
+   "panel": "MapSlot.Button.Votes",
+   "file": "26_MapSlot__Votes",
+   "gui": "MapSlot"
+  },
+  {
+   "panel": "",
+   "file": "27_StoredStreakSlot",
+   "template": true,
+   "gui": "StoredStreakSlot"
+  },
+  {
+   "panel": "",
+   "file": "28_PartyInviteSlot",
+   "template": true,
+   "gui": "PartyInviteSlot"
+  },
+  {
+   "panel": "PartyInviteSlot.Buttons.Challenge.Button.Off",
+   "file": "29_PartyInviteSlot__Off",
+   "gui": "PartyInviteSlot"
+  },
+  {
+   "panel": "PartyInviteSlot.Buttons.Invite.Button.Off",
+   "file": "30_PartyInviteSlot__Off",
+   "gui": "PartyInviteSlot"
+  },
+  {
+   "panel": "PartyInviteSlot.Buttons.InviteExternal.Button.Off",
+   "file": "31_PartyInviteSlot__Off",
+   "gui": "PartyInviteSlot"
+  },
+  {
+   "panel": "",
+   "file": "32_EliminatedCard",
+   "template": true,
+   "gui": "EliminatedCard"
+  },
+  {
+   "panel": "",
+   "file": "33_PartyMemberBigSlot",
+   "template": true,
+   "gui": "PartyMemberBigSlot"
+  },
+  {
+   "panel": "",
+   "file": "34_LeaderboardPlayerSlot",
+   "template": true,
+   "gui": "LeaderboardPlayerSlot"
+  },
+  {
+   "panel": "",
+   "file": "35_VideoAdRewards",
+   "template": true,
+   "gui": "VideoAdRewards"
+  },
+  {
+   "panel": "VideoAdRewards.Container.Unavailable",
+   "file": "36_VideoAdRewards__Unavailable",
+   "gui": "VideoAdRewards"
+  },
+  {
+   "panel": "VideoAdRewards.Container.Waiting",
+   "file": "37_VideoAdRewards__Waiting",
+   "gui": "VideoAdRewards"
+  },
+  {
+   "panel": "DuelScoresTeamScoreNeededSlot.Container.Progress",
+   "file": "38_DuelScoresTeamScoreNeededSlot__Progress",
+   "gui": "DuelScoresTeamScoreNeededSlot"
+  },
+  {
+   "panel": "",
+   "file": "39_SideTaskSlot",
+   "template": true,
+   "gui": "SideTaskSlot"
+  },
+  {
+   "panel": "",
+   "file": "40_LocalQueuePlayerSlot",
+   "template": true,
+   "gui": "LocalQueuePlayerSlot"
+  },
+  {
+   "panel": "",
+   "file": "41_SettingInputHotkeysSlot",
+   "template": true,
+   "gui": "SettingInputHotkeysSlot"
+  },
+  {
+   "panel": "",
+   "file": "42_Crosshair",
+   "template": true,
+   "gui": "Crosshair"
+  },
+  {
+   "panel": "",
+   "file": "43_LobbyButtonSlot",
+   "template": true,
+   "gui": "LobbyButtonSlot"
+  },
+  {
+   "panel": "",
+   "file": "44_BattlePassRewardSlot",
+   "template": true,
+   "gui": "BattlePassRewardSlot"
+  },
+  {
+   "panel": "BattlePassRewardSlot.Container.Claimed",
+   "file": "45_BattlePassRewardSlot__Claimed",
+   "gui": "BattlePassRewardSlot"
+  },
+  {
+   "panel": "",
+   "file": "46_CosmeticSlot",
+   "template": true,
+   "gui": "CosmeticSlot"
+  },
+  {
+   "panel": "",
+   "file": "47_DuelHistorySlot",
+   "template": true,
+   "gui": "DuelHistorySlot"
+  },
+  {
+   "panel": "DuelHistorySlot.Container.Duelers",
+   "file": "48_DuelHistorySlot__Duelers",
+   "gui": "DuelHistorySlot"
+  },
+  {
+   "panel": "",
+   "file": "49_TaskSlot",
+   "template": true,
+   "gui": "TaskSlot"
+  },
+  {
+   "panel": "TaskSlot.Unlocked",
+   "file": "50_TaskSlot__Unlocked",
+   "gui": "TaskSlot"
+  },
+  {
+   "panel": "RewardSlot.Reward",
+   "file": "51_RewardSlot__Reward",
+   "gui": "RewardSlot"
+  },
+  {
+   "panel": "",
+   "file": "52_NotificationSlot",
+   "template": true,
+   "gui": "NotificationSlot"
+  },
+  {
+   "panel": "NotificationSlot.Visuals.Container",
+   "file": "53_NotificationSlot__Container",
+   "gui": "NotificationSlot"
+  },
+  {
+   "panel": "",
+   "file": "54_ELOBar",
+   "template": true,
+   "gui": "ELOBar"
+  },
+  {
+   "panel": "",
+   "file": "55_FinalResultsPlayerSlot",
+   "template": true,
+   "gui": "FinalResultsPlayerSlot"
+  },
+  {
+   "panel": "",
+   "file": "56_WeaponSlot",
+   "template": true,
+   "gui": "WeaponSlot"
+  },
+  {
+   "panel": "WeaponSlot.Button.Banned",
+   "file": "57_WeaponSlot__Banned",
+   "gui": "WeaponSlot"
+  },
+  {
+   "panel": "ShopSlot.Details.Buy.Price",
+   "file": "58_ShopSlot__Price",
+   "gui": "ShopSlot"
+  },
+  {
+   "panel": "ShopSlot.Details.Buy.Locked",
+   "file": "59_ShopSlot__Locked",
+   "gui": "ShopSlot"
+  },
+  {
+   "panel": "ShopSlot.Details.Buy.Robux",
+   "file": "60_ShopSlot__Robux",
+   "gui": "ShopSlot"
+  },
+  {
+   "panel": "ShopSlot.Details.Buy.Limited",
+   "file": "61_ShopSlot__Limited",
+   "gui": "ShopSlot"
+  },
+  {
+   "panel": "ShopSlot.Details.Buy.Free",
+   "file": "62_ShopSlot__Free",
+   "gui": "ShopSlot"
+  },
+  {
+   "panel": "",
+   "file": "63_ShopBigSlot",
+   "template": true,
+   "gui": "ShopBigSlot"
+  },
+  {
+   "panel": "ShopBigSlot.Button.Buy.Free",
+   "file": "64_ShopBigSlot__Free",
+   "gui": "ShopBigSlot"
+  },
+  {
+   "panel": "ShopBigSlot.Button.Buy.Limited",
+   "file": "65_ShopBigSlot__Limited",
+   "gui": "ShopBigSlot"
+  },
+  {
+   "panel": "ShopBigSlot.Button.Buy.Locked",
+   "file": "66_ShopBigSlot__Locked",
+   "gui": "ShopBigSlot"
+  },
+  {
+   "panel": "ShopBigSlot.Button.Buy.Price",
+   "file": "67_ShopBigSlot__Price",
+   "gui": "ShopBigSlot"
+  },
+  {
+   "panel": "ShopBigSlot.Button.Buy.Robux",
+   "file": "68_ShopBigSlot__Robux",
+   "gui": "ShopBigSlot"
+  },
+  {
+   "panel": "",
+   "file": "69_WarningCard",
+   "template": true,
+   "gui": "WarningCard"
+  },
+  {
+   "panel": "",
+   "file": "70_PatchNotesSlot",
+   "template": true,
+   "gui": "PatchNotesSlot"
+  },
+  {
+   "panel": "",
+   "file": "71_MatchmakingQueueSlot",
+   "template": true,
+   "gui": "MatchmakingQueueSlot"
+  },
+  {
+   "panel": "",
+   "file": "72_EliminationFeedSlot",
+   "template": true,
+   "gui": "EliminationFeedSlot"
+  },
+  {
+   "panel": "",
+   "file": "73_CurrencySlot",
+   "template": true,
+   "gui": "CurrencySlot"
+  },
+  {
+   "panel": "CurrencySlot.Buy",
+   "file": "74_CurrencySlot__Buy",
+   "gui": "CurrencySlot"
+  },
+  {
+   "panel": "",
+   "file": "75_ShopEntryBuyButton",
+   "template": true,
+   "gui": "ShopEntryBuyButton"
+  },
+  {
+   "panel": "ShopEntryBuyButton.Free",
+   "file": "76_ShopEntryBuyButton__Free",
+   "gui": "ShopEntryBuyButton"
+  },
+  {
+   "panel": "",
+   "file": "77_PrivateServerPlayerSlot",
+   "template": true,
+   "gui": "PrivateServerPlayerSlot"
+  },
+  {
+   "panel": "",
+   "file": "78_TaskContainer",
+   "template": true,
+   "gui": "TaskContainer"
+  },
+  {
+   "panel": "",
+   "file": "79_SettingFrame",
+   "template": true,
+   "gui": "SettingFrame"
+  },
+  {
+   "panel": "SettingFrame.Container.Controls.Container.Dropdown",
+   "file": "80_SettingFrame__Dropdown",
+   "gui": "SettingFrame"
+  },
+  {
+   "panel": "SettingFrame.Container.Controls.Container.Toggle",
+   "file": "81_SettingFrame__Toggle",
+   "gui": "SettingFrame"
+  },
+  {
+   "panel": "SettingFrame.Container.Controls.Container.Hotkey",
+   "file": "82_SettingFrame__Hotkey",
+   "gui": "SettingFrame"
+  },
+  {
+   "panel": "SettingFrame.Container.Controls.Container.Color",
+   "file": "83_SettingFrame__Color",
+   "gui": "SettingFrame"
+  },
+  {
+   "panel": "",
+   "file": "84_InspectBackpackReward",
+   "template": true,
+   "gui": "InspectBackpackReward"
+  },
+  {
+   "panel": "",
+   "file": "85_InspectShopEntry",
+   "template": true,
+   "gui": "InspectShopEntry"
+  },
+  {
+   "panel": "",
+   "file": "86_ViewRankedDetails",
+   "template": true,
+   "gui": "ViewRankedDetails"
+  },
+  {
+   "panel": "",
+   "file": "87_ViewPlayerData",
+   "template": true,
+   "gui": "ViewPlayerData"
+  },
+  {
+   "panel": "",
+   "file": "88_Pardon",
+   "template": true,
+   "gui": "Pardon"
+  },
+  {
+   "panel": "",
+   "file": "89_Ban",
+   "template": true,
+   "gui": "Ban"
+  },
+  {
+   "panel": "",
+   "file": "90_Unban",
+   "template": true,
+   "gui": "Unban"
+  },
+  {
+   "panel": "",
+   "file": "91_Kick",
+   "template": true,
+   "gui": "Kick"
+  },
+  {
+   "panel": "",
+   "file": "92_SendOfflineGiftRewards",
+   "template": true,
+   "gui": "SendOfflineGiftRewards"
+  },
+  {
+   "panel": "",
+   "file": "93_InspectConceptor",
+   "template": true,
+   "gui": "InspectConceptor"
+  },
+  {
+   "panel": "",
+   "file": "94_InspectBundle",
+   "template": true,
+   "gui": "InspectBundle"
+  },
+  {
+   "panel": "",
+   "file": "95_SendBugRewards",
+   "template": true,
+   "gui": "SendBugRewards"
+  },
+  {
+   "panel": "",
+   "file": "96_ViewPermissionsRoles",
+   "template": true,
+   "gui": "ViewPermissionsRoles"
+  },
+  {
+   "panel": "",
+   "file": "97_InternalViewRewardSlot",
+   "template": true,
+   "gui": "InternalViewRewardSlot"
+  },
+  {
+   "panel": "",
+   "file": "98_Warn",
+   "template": true,
+   "gui": "Warn"
+  },
+  {
+   "panel": "",
+   "file": "99_Restrict",
+   "template": true,
+   "gui": "Restrict"
+  },
+  {
+   "panel": "",
+   "file": "100_TeleportingGui",
+   "template": false,
+   "gui": "TeleportingGui"
+  },
+  {
+   "panel": "",
+   "file": "101_InsetGui",
+   "template": false,
+   "gui": "InsetGui"
+  },
+  {
+   "panel": "",
+   "file": "102_MainGui",
+   "template": false,
+   "gui": "MainGui"
+  },
+  {
+   "panel": "MainFrame.Equipment.CameraFade",
+   "file": "103_MainGui__CameraFade",
+   "gui": "MainGui"
+  },
+  {
+   "panel": "MainFrame.Equipment.Customize.Bottom",
+   "file": "104_MainGui__Bottom",
+   "gui": "MainGui"
+  },
+  {
+   "panel": "MainFrame.Equipment.Customize.Top",
+   "file": "105_MainGui__Top",
+   "gui": "MainGui"
+  },
+  {
+   "panel": "MobileInputs",
+   "file": "106_MainGui__MobileInputs",
+   "gui": "MainGui"
+  },
+  {
+   "panel": "Teleporting.Container",
+   "file": "107_MainGui__Container",
+   "gui": "MainGui"
+  },
+  {
+   "panel": "",
+   "file": "108_FlashbangGui",
+   "template": false,
+   "gui": "FlashbangGui"
+  },
+  {
+   "panel": "Polaroid",
+   "file": "109_FlashbangGui__Polaroid",
+   "gui": "FlashbangGui"
+  },
+  {
+   "panel": "",
+   "file": "110_EquipmentClassSlot",
+   "template": true,
+   "gui": "EquipmentClassSlot"
+  }
+ ]
+}

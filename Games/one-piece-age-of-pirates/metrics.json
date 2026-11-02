@@ -1,0 +1,236 @@
+{
+ "slug": "one-piece-age-of-pirates",
+ "title": "One Piece: The Age Of Pirates",
+ "genre": "anime RPG",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 10,
+  "screen_guis": 2,
+  "classes": {
+   "TextLabel": 4,
+   "LocalScript": 4,
+   "TextButton": 3,
+   "Frame": 3,
+   "Script": 3,
+   "ScreenGui": 2,
+   "StringValue": 1,
+   "Sound": 1,
+   "NumberValue": 1
+  },
+  "fonts": {},
+  "background_colors": {
+   "#b69163": 4,
+   "#cba26f": 1,
+   "#336d2f": 1,
+   "#4ea849": 1
+  },
+  "text_colors": {
+   "#ffcd7c": 5,
+   "#1b2a35": 1,
+   "#191919": 1
+  },
+  "stroke_colors": {},
+  "image_tints": {},
+  "corner_radius": {},
+  "stroke_thickness": {},
+  "text_size_px": {},
+  "text_scaled_share": 0.43,
+  "size_mode": {
+   "scale": 10
+  },
+  "unique_images": 0,
+  "per_100_objects": {
+   "UICorner": 0.0,
+   "UIStroke": 0.0,
+   "UIGradient": 0.0,
+   "UIAspectRatioConstraint": 0.0,
+   "UIListLayout": 0.0,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 0.0,
+   "ImageButton": 0.0,
+   "TextButton": 30.0
+  }
+ },
+ "map": {
+  "instances": 2716,
+  "parts": 2429,
+  "meshparts": 0,
+  "unions": 0,
+  "anchored_share": 1.0,
+  "textures_decals": 0,
+  "surface_appearances": 0,
+  "lights": 0,
+  "emitters": 0,
+  "beams_trails": 0,
+  "sounds": 0,
+  "prompts": 0,
+  "world_guis": 0,
+  "humanoids": 0,
+  "materials": {
+   "Plastic": 962,
+   "Wood": 627,
+   "Brick": 361,
+   "SmoothPlastic": 264,
+   "Grass": 157,
+   "Slate": 49,
+   "Sand": 9
+  },
+  "part_colors": {},
+  "lobby_zones": [
+   {
+    "path": "Workspace.SpawnBox",
+    "parts": 105,
+    "instances": 106,
+    "meshparts": 0,
+    "emitters": 0,
+    "lights": 0,
+    "guis": 0,
+    "sounds": 0,
+    "size": [
+     22,
+     20,
+     22
+    ]
+   }
+  ],
+  "extent_studs": [
+   2604,
+   1153,
+   2472
+  ],
+  "extent_all_studs": [
+   2804,
+   1176,
+   2603
+  ],
+  "top_classes": {
+   "Part": 1966,
+   "CornerWedgePart": 228,
+   "SpecialMesh": 141,
+   "WedgePart": 135,
+   "SpawnLocation": 100,
+   "Model": 78,
+   "CylinderMesh": 31,
+   "Script": 20,
+   "TextLabel": 3,
+   "StringValue": 2,
+   "LocalScript": 2,
+   "IntValue": 2,
+   "ScreenGui": 2,
+   "TextButton": 2,
+   "Terrain": 1
+  }
+ },
+ "lighting": {
+  "Ambient": "#808080",
+  "Brightness": 0.2,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "FogColor": "#b5b5b5",
+  "FogEnd": 3000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": false,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#808080",
+  "Outlines": false,
+  "ShadowColor": "#b3b3b8",
+  "TimeOfDay": "10:00:00"
+ },
+ "post": [],
+ "terrain": {
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "BrickColor": 194,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "ClusterGridV3": "",
+  "Elasticity": 0.3,
+  "Friction": 0.5,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Material": 256,
+  "Name": "Terrain",
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 0
+ },
+ "workspace": {
+  "StreamingEnabled": false
+ },
+ "packs": {
+  "ui": 10,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 2,
+  "lighting": 1,
+  "model": 116,
+  "model-set": 1,
+  "other": 3
+ },
+ "coverage": {
+  "instances": 6198,
+  "packed": 6150,
+  "services": 44,
+  "code_or_empty_folders_not_packed": 2,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 0,
+ "sound_ids": 24,
+ "files": 134,
+ "kb": 4141,
+ "category": "Fighting",
+ "source_file": "One Piece - The Age Of Pirates.rbxl"
+}

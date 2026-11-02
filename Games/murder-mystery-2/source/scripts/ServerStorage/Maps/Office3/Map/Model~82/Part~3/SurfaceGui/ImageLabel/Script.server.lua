@@ -1,0 +1,1 @@
+script.Parent.Image = "http://www.roblox.com/thumbs/avatar.ashx?x=150&y=200&format=png&username=Thexz"

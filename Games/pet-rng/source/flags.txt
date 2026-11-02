@@ -1,0 +1,66 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/Boards/AssetLoader.server.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Boards/R15Loader/Loader.server.lua lines 8
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Boards~2/AssetLoader.server.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Boards~2/R15Loader/Loader.server.lua lines 8
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader.lua lines 39,43
+       getfenv / setfenv (environment tampering, common in backdoors)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  100000  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774360465  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361405  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361406  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361407  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361408  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361409  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361410  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361414  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361575  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1774361860  in scripts/Workspace/Boards/Products.lua, scripts/Workspace/Boards~2/Products.lua
+  1775914016  in scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/Gift.client.lua
+  739606548  in scripts/StarterPlayer/StarterPlayerScripts/Engine/UI/RollHandler.client.lua
+  739678519  in scripts/ReplicatedStorage/Engine/Modules/Luck.lua
+  739868523  in scripts/ReplicatedStorage/Engine/Modules/Luck.lua
+
+Outside URLs in code:
+  http://reactivex.io/documentation/operators/distinct.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/do.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/filter.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/from.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/just.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/map.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/start.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/using.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://developer.roblox.com/en-us/videos/5-powerful-code-patterns-behind-top-roblox-games  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/maid/Shared/Maid.lua
+  https://devforum.roblox.com/t/ProfileService/667805  in scripts/ServerScriptService/Engine/Scripts/Data/DataManager/ProfileService.lua
+  https://github.com/MerelyRBLX/ROBLOX-Lua/blob/master/SoftShutdown.lua  in scripts/ServerScriptService/QuentySoftShutdown/src/Server/SoftShutdownService.lua
+  https://github.com/Quenty/NevermoreEngine  in scripts/ServerScriptService/QuentySoftShutdown.server.lua
+  https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/finalize.ts  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://madstudioroblox.github.io/ProfileService/  in scripts/ServerScriptService/Engine/Scripts/Data/DataManager/ProfileService.lua
+  https://medium.com/js-in-action/rxjs-nosy-combinelatest-vs-selfish-withlatestfrom-a957e1af42bf  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://netbasal.com/getting-to-know-the-defer-observable-in-rxjs-a16f092d8c09  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://promisesaplus.com/  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Promise.lua
+  https://reactivex.io/documentation/operators/first.html  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/defer  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/from  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/fromEvent  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/pipe  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/debounceTime  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/finalize  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/merge  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/scan  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/startWith  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/tap  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/withLatestFrom  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/combineLatestAll  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/mapTo  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/switchAll  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/take  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://www.desmos.com/calculator/hn2i9shxbz  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/Spring.lua
+  https://www.learnrxjs.io/learn-rxjs/operators/combination/endwith  in scripts/ServerScriptService/QuentySoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua

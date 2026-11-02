@@ -1,0 +1,378 @@
+{
+ "slug": "site-excalibur",
+ "title": "Site Excalibur (Lunor)",
+ "genre": "SCP facility roleplay (detain, solitary, gun shop)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 118,
+  "screen_guis": 9,
+  "classes": {
+   "TextLabel": 48,
+   "SurfaceGui": 24,
+   "TextBox": 22,
+   "UICorner": 20,
+   "ImageLabel": 18,
+   "Frame": 18,
+   "LocalScript": 15,
+   "ModuleScript": 13,
+   "ScreenGui": 9,
+   "TextButton": 6,
+   "ImageButton": 5,
+   "UIListLayout": 3,
+   "UIAspectRatioConstraint": 1,
+   "UIGradient": 1,
+   "Script": 1,
+   "Sound": 1,
+   "RemoteEvent": 1,
+   "ScrollingFrame": 1,
+   "BillboardGui": 1
+  },
+  "fonts": {
+   "LegacyArial Regular": 22,
+   "GothamSSm Medium": 19,
+   "SourceSansPro Light": 9,
+   "RobotoMono Regular": 9,
+   "GothamSSm Regular": 4,
+   "Nunito Regular": 4,
+   "Jura Regular": 3,
+   "SourceSansPro Bold": 2,
+   "Zekton Regular": 2,
+   "Inconsolata Regular": 1,
+   "GothamSSm Bold": 1
+  },
+  "background_colors": {
+   "#ffffff": 9,
+   "#000000": 5,
+   "#4c4c4c": 4,
+   "#297d00": 3,
+   "#374824": 1,
+   "#363636": 1
+  },
+  "text_colors": {
+   "#ffffff": 60,
+   "#464646": 2,
+   "#f5f5f5": 2,
+   "#939393": 2,
+   "#545454": 1,
+   "#818181": 1,
+   "#cbcbcb": 1,
+   "#aa0000": 1,
+   "#460000": 1,
+   "#f50000": 1
+  },
+  "stroke_colors": {},
+  "image_tints": {
+   "#141a0d": 1,
+   "#9a9a9a": 1,
+   "#363636": 1,
+   "#4a4a4a": 1,
+   "#00aaff": 1,
+   "#2c2c2c": 1
+  },
+  "corner_radius": {
+   "{0.0,8}": 16,
+   "{0.0,6}": 3,
+   "{0.0,9}": 1
+  },
+  "stroke_thickness": {},
+  "text_size_px": {
+   "30": 13,
+   "15": 11,
+   "14": 4,
+   "12": 3,
+   "21": 3,
+   "25": 2
+  },
+  "text_scaled_share": 0.53,
+  "size_mode": {
+   "offset": 26,
+   "scale": 88,
+   "mixed": 4
+  },
+  "unique_images": 17,
+  "per_100_objects": {
+   "UICorner": 16.9,
+   "UIStroke": 0.0,
+   "UIGradient": 0.8,
+   "UIAspectRatioConstraint": 0.8,
+   "UIListLayout": 2.5,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 15.3,
+   "ImageButton": 4.2,
+   "TextButton": 5.1
+  }
+ },
+ "map": {
+  "instances": 181783,
+  "parts": 113897,
+  "meshparts": 11507,
+  "unions": 19442,
+  "anchored_share": 0.93,
+  "textures_decals": 26466,
+  "surface_appearances": 0,
+  "lights": 2292,
+  "emitters": 21,
+  "beams_trails": 0,
+  "sounds": 338,
+  "prompts": 12,
+  "world_guis": 312,
+  "humanoids": 9,
+  "materials": {
+   "Metal": 65962,
+   "Plastic": 17588,
+   "Concrete": 16729,
+   "Wood": 5088,
+   "SmoothPlastic": 3123,
+   "Neon": 2596,
+   "Fabric": 1914,
+   "Glass": 426,
+   "Marble": 179,
+   "Slate": 131,
+   "Grass": 67,
+   "Sand": 56
+  },
+  "part_colors": {
+   "#635f62": 20978,
+   "#868185": 13588,
+   "#a3a2a5": 12056,
+   "#302e2f": 11999,
+   "#8b8b8b": 6972,
+   "#676767": 5606,
+   "#939294": 5363,
+   "#626262": 4537,
+   "#cdcdcd": 4308,
+   "#c7ac78": 3004,
+   "#f8f8f8": 2329,
+   "#3e0000": 1920,
+   "#edeaea": 1807,
+   "#aa5500": 1745
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   1804,
+   68,
+   1401
+  ],
+  "extent_all_studs": [
+   1903,
+   261,
+   1659
+  ],
+  "top_classes": {
+   "Part": 77811,
+   "Texture": 23458,
+   "UnionOperation": 19442,
+   "Model": 13671,
+   "MeshPart": 11507,
+   "ManualWeld": 9041,
+   "WedgePart": 4688,
+   "Pose": 3991,
+   "Decal": 3008,
+   "BlockMesh": 2593,
+   "Weld": 2479,
+   "PointLight": 2060,
+   "Frame": 1385,
+   "SpecialMesh": 1133,
+   "TextLabel": 851
+  }
+ },
+ "lighting": {
+  "Ambient": "#000000",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "EnvironmentDiffuseScale": 0.222,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.4,
+  "FogColor": "#464646",
+  "FogEnd": 800.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 52.5803,
+  "GlobalShadows": true,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#414835",
+  "Outlines": false,
+  "ShadowSoftness": 0.15,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "12:00:00"
+ },
+ "post": [
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#c5c5c5"
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#d8fffa",
+    "Decay": "#5c3c0e",
+    "Density": 0.348,
+    "Glare": 0.63,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 1.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Cloudy",
+   "props": {
+    "CelestialBodiesShown": true,
+    "MoonAngularSize": 1.0,
+    "MoonTextureId": "",
+    "Name": "Cloudy",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=4495864450",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=4495864887",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=4495865458",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=4495866035",
+    "SkyboxRt": "http://www.roblox.com/asset/?id=4495866584",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=4495867486",
+    "StarCount": 3000,
+    "SunAngularSize": 1.0,
+    "SunTextureId": ""
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 2,
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": false,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#4b514f",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 45703,
+  "file": "map/terrain.rbxl"
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 19,
+  "ui-kit": 1,
+  "map": 1,
+  "terrain": 1,
+  "lighting": 1,
+  "model": 818,
+  "vfx": 7,
+  "animations": 3,
+  "audio": 42,
+  "model-set": 79,
+  "keyframes": 8,
+  "other": 8
+ },
+ "coverage": {
+  "instances": 185991,
+  "packed": 185806,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 129,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 8,
+ "animation_ids": 136,
+ "sound_ids": 655,
+ "files": 958,
+ "kb": 32992,
+ "category": "Roleplay",
+ "source_file": "BY LUNOR - site_excalibur (1).rbxl"
+}

@@ -1,0 +1,421 @@
+{
+ "slug": "punching-simulator",
+ "title": "Punching Simulator",
+ "genre": "training simulator",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 1649,
+  "screen_guis": 32,
+  "classes": {
+   "UIStroke": 790,
+   "TextLabel": 598,
+   "Frame": 406,
+   "ImageLabel": 384,
+   "UICorner": 236,
+   "ImageButton": 230,
+   "UIGradient": 183,
+   "UIAspectRatioConstraint": 161,
+   "UIScale": 76,
+   "UITextSizeConstraint": 61,
+   "UIListLayout": 56,
+   "LocalScript": 51,
+   "UIPadding": 42,
+   "ScreenGui": 32,
+   "ScrollingFrame": 24,
+   "UIGridLayout": 17,
+   "TextBox": 7,
+   "BillboardGui": 6,
+   "UIPageLayout": 3,
+   "Folder": 1,
+   "NumberValue": 1,
+   "SurfaceGui": 1
+  },
+  "fonts": {
+   "FredokaOne Regular": 385,
+   "font asset 12187370000 Bold": 201,
+   "GothamSSm Heavy": 11,
+   "FredokaOne Bold": 4,
+   "font asset 12187370000 Heavy": 2,
+   "PressStart2P Regular": 2
+  },
+  "background_colors": {
+   "#ffffff": 102,
+   "#000000": 30,
+   "#002fb6": 20,
+   "#0e286d": 15,
+   "#0050ff": 13,
+   "#009bff": 13,
+   "#fff0ff": 10,
+   "#00cdff": 8,
+   "#ffd800": 8,
+   "#ff00f7": 7,
+   "#081a64": 6,
+   "#0e2769": 5,
+   "#ffee00": 4,
+   "#002447": 4,
+   "#071551": 3,
+   "#890005": 3
+  },
+  "text_colors": {
+   "#ffffff": 503,
+   "#000000": 35,
+   "#3bfc00": 30,
+   "#e8fffd": 8,
+   "#1e1e1e": 7,
+   "#ff0000": 6,
+   "#40ff4d": 3,
+   "#ffff00": 2,
+   "#3bff00": 2,
+   "#ffea00": 1
+  },
+  "stroke_colors": {
+   "#000000": 541,
+   "#131313": 66,
+   "#17171d": 63,
+   "#045400": 30,
+   "#1e1e1e": 11,
+   "#342915": 11,
+   "#720085": 9,
+   "#732578": 8,
+   "#282828": 4,
+   "#203418": 4
+  },
+  "image_tints": {
+   "#e700ff": 21,
+   "#00ff00": 12,
+   "#1e1e1e": 11,
+   "#009bff": 5,
+   "#fecfef": 4,
+   "#424159": 4,
+   "#00ffff": 3,
+   "#00c0ff": 3,
+   "#33e200": 3,
+   "#ff0000": 3
+  },
+  "corner_radius": {
+   "{1.0,0}": 92,
+   "{0.1,0}": 52,
+   "{0.05,0}": 27,
+   "{0.3,0}": 16,
+   "{0.2,0}": 14,
+   "{0.125,0}": 13,
+   "{0.0,0}": 13,
+   "{0.0,8}": 6,
+   "{0.029,0}": 2,
+   "{0.025,0}": 1
+  },
+  "stroke_thickness": {
+   "2.0 px": 321,
+   "3.0 px": 187,
+   "1.5 px": 169,
+   "4.0 px": 44,
+   "5.0 px": 30,
+   "2.5 px": 13,
+   "1.0 px": 8,
+   "2.1 px": 6,
+   "3.1 px": 4,
+   "0.0 px": 3
+  },
+  "text_size_px": {},
+  "text_scaled_share": 1.0,
+  "size_mode": {
+   "scale": 1623,
+   "mixed": 6,
+   "offset": 20
+  },
+  "unique_images": 170,
+  "per_100_objects": {
+   "UICorner": 14.3,
+   "UIStroke": 47.9,
+   "UIGradient": 11.1,
+   "UIAspectRatioConstraint": 9.8,
+   "UIListLayout": 3.4,
+   "UIGridLayout": 1.0,
+   "UIPadding": 2.5,
+   "UIScale": 4.6,
+   "UITextSizeConstraint": 3.7,
+   "ImageLabel": 23.3,
+   "ImageButton": 13.9,
+   "TextButton": 0.0
+  }
+ },
+ "map": {
+  "instances": 5876,
+  "parts": 2489,
+  "meshparts": 1365,
+  "unions": 33,
+  "anchored_share": 1.0,
+  "textures_decals": 1253,
+  "surface_appearances": 2,
+  "lights": 106,
+  "emitters": 298,
+  "beams_trails": 44,
+  "sounds": 0,
+  "prompts": 0,
+  "world_guis": 56,
+  "humanoids": 5,
+  "materials": {
+   "Plastic": 1528,
+   "SmoothPlastic": 553,
+   "Neon": 323,
+   "Metal": 60,
+   "Concrete": 14,
+   "DiamondPlate": 8,
+   "Slate": 1,
+   "ForceField": 1,
+   "Glass": 1
+  },
+  "part_colors": {
+   "#64747c": 320,
+   "#a3a2a5": 312,
+   "#546268": 168,
+   "#515151": 120,
+   "#04afec": 115,
+   "#9b979c": 103,
+   "#00d600": 101,
+   "#ff0000": 60,
+   "#4faa17": 59,
+   "#111111": 56,
+   "#99b5ce": 54,
+   "#1b2a35": 54,
+   "#635f62": 48,
+   "#cbae6b": 45
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   1353,
+   3913,
+   11862
+  ],
+  "extent_all_studs": [
+   2461,
+   4228,
+   12034
+  ],
+  "top_classes": {
+   "MeshPart": 1365,
+   "Texture": 1249,
+   "Part": 1084,
+   "Model": 767,
+   "ParticleEmitter": 298,
+   "Attachment": 137,
+   "PointLight": 104,
+   "SpecialMesh": 86,
+   "TextLabel": 84,
+   "UIStroke": 84,
+   "ImageLabel": 68,
+   "Frame": 62,
+   "Folder": 58,
+   "UIAspectRatioConstraint": 56,
+   "UIScale": 51
+  }
+ },
+ "lighting": {
+  "Ambient": "#ffa8a5",
+  "Brightness": 1.0,
+  "ColorShift_Bottom": "#ffe5e1",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.25,
+  "EnvironmentSpecularScale": 0.25,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 8.305,
+  "GlobalShadows": false,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#c6b8ff",
+  "Outlines": true,
+  "PrioritizeLightingQuality": false,
+  "ShadowSoftness": 0.5,
+  "Technology": "Voxel",
+  "TimeOfDay": "11:31:19",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Sky",
+   "name": "Cartoon",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Cartoon",
+    "SkyboxBk": "rbxassetid://528480826",
+    "SkyboxDn": "rbxassetid://528481890",
+    "SkyboxFt": "rbxassetid://528481964",
+    "SkyboxLf": "rbxassetid://528482047",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://528482365",
+    "SkyboxUp": "rbxassetid://528484371",
+    "StarCount": 0,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.1,
+    "Contrast": 0.15,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.15,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "Blur",
+    "Size": 0.0
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": false,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 200,
+  "StreamingTargetRadius": 600
+ },
+ "packs": {
+  "ui": 64,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 2,
+  "lighting": 1,
+  "model": 409,
+  "vfx": 1,
+  "model-set": 16,
+  "animations": 2,
+  "other": 5
+ },
+ "coverage": {
+  "instances": 15843,
+  "packed": 15771,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 15,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 4,
+ "sound_ids": 33,
+ "files": 500,
+ "kb": 7573,
+ "category": "Simulator",
+ "source_file": "Punching Simulator Fully scripted.rbxl"
+}

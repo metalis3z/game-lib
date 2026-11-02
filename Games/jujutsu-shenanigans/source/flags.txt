@@ -1,0 +1,101 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/QOL/Cosmetics.server.lua lines 161
+       reversed "require" / "loadstring" / "getfenv" string
+[HIGH] scripts/ServerScriptService/QOL/Cosmetics.server.lua lines 161
+       code hidden far right of the line (whitespace padding)
+[HIGH] scripts/Workspace/Map/Map/Destructible/Model/StationControl/Handle.server.lua lines 128
+       reversed "require" / "loadstring" / "getfenv" string
+[MED] scripts/ServerScriptService/Main/Init.server.lua lines 377,383,941,942,943,1007,1335,1338 ...
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/QOL/Cosmetics.server.lua lines 161
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/ServerScriptService/QOL/Cosmetics.server.lua lines 161
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Map/Map/Destructible/Model/StationControl/Handle.server.lua lines 128
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/Map/Map/Destructible/Model/StationControl/Handle.server.lua lines 128
+       getfenv / setfenv (environment tampering, common in backdoors)
+
+Instances with suspicious names:
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.KJ.FiveSeasons.CharFX.ArmFX.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.KJ.FiveSeasons.CharFX.ArmBurst.Attachment.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.KJ.FiveSeasons.CharFX.ArmEnabled.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.KJ.FiveSeasons.CharFX.FinalArmFXMirrored.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Jun.Glimpse.GrabInitiate.Attachment.FlameSpread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Jun.Glimpse.GrabInitiate.Attachment.FlameSpread2
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Jun.Glimpse.GutPunch.Attachment.FlameSpread2
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Jun.Glimpse.GutPunch.Attachment.FlameSpread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Jun.Glimpse.Kick.quickstep.FlameSpread2
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Jun.Glimpse.Kick.quickstep.FlameSpread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.JK.FiveSeasons.CharFX.FinalArmFXMirrored.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.JK.FiveSeasons.CharFX.ArmEnabled.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.JK.FiveSeasons.CharFX.ArmBurst.Attachment.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.JK.FiveSeasons.CharFX.ArmFX.CE1Spread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Disgraced One.Brutality.Claw2.Launch.SmokeSpreadLine
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Utils.Mahito.Worms.FleshSpread
+  ParticleEmitter StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DeviceController.Utils.Heian.BloodSpread
+  ParticleEmitter ReplicatedStorage.Assets.Particles.Jun.Glimpse.GrabInitiate.Attachment.FlameSpread
+  ParticleEmitter ReplicatedStorage.Assets.Particles.Jun.Glimpse.GrabInitiate.Attachment.FlameSpread2
+  ParticleEmitter ReplicatedStorage.Assets.Particles.Jun.Glimpse.GutPunch.Attachment.FlameSpread2
+  ParticleEmitter ReplicatedStorage.Assets.Particles.Jun.Glimpse.GutPunch.Attachment.FlameSpread
+  ParticleEmitter ReplicatedStorage.Assets.Particles.Jun.Glimpse.Kick.quickstep.FlameSpread2
+  ParticleEmitter ReplicatedStorage.Assets.Particles.Jun.Glimpse.Kick.quickstep.FlameSpread
+  Model ReplicatedStorage.Resources.StoicBomb.SPREAD
+  ParticleEmitter ReplicatedStorage.Resources.DownSlam.Impact2.Part.Attachment.omgspread
+  ParticleEmitter ReplicatedStorage.Resources.Ricochet.Impact2.Part.Attachment.omgspread
+  ParticleEmitter ReplicatedStorage.Resources.SkyRuler.ThrowDown.Part.Attachment.Spread
+  ParticleEmitter ReplicatedStorage.Resources.FiveSeasonsFX.CharFX.ArmFX.CE1Spread
+  ParticleEmitter ReplicatedStorage.Resources.FiveSeasonsFX.CharFX.ArmBurst.Attachment.CE1Spread
+  ParticleEmitter ReplicatedStorage.Resources.FiveSeasonsFX.CharFX.ArmEnabled.CE1Spread
+  ParticleEmitter ReplicatedStorage.Resources.FiveSeasonsFX.CharFX.FinalArmFXMirrored.CE1Spread
+  ParticleEmitter ReplicatedStorage.Resources.Claw.Dust2.Part.Attachment.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.Claw.Dust2.Part.Attachment.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.Fang.Dust.Part.Attachment.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.Fang.Dust.Part.Attachment.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.UFW.vfx.PunchFX.Emit.Part.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.UFW.vfx.PunchFX.Emit.Part.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.UFW.vfx.PunchFX.Emit.Primary.Ground.SpreadDust
+  ParticleEmitter ReplicatedStorage.Resources.UFW.vfx.PunchFX.Emit.Primary.Ground.SpreadDust
+  ParticleEmitter ReplicatedStorage.Utils.Mahito.Worms.FleshSpread
+  ParticleEmitter ReplicatedStorage.Utils.Choso.BloodSpread
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  12343172777  in scripts/StarterPlayer/StarterPlayerScripts/Main.client.lua
+  12345678  in scripts/StarterGui/Menus/Shop/ShopClient.client.lua
+  128278127  in scripts/ReplicatedStorage/Info.lua
+  13600173502  in scripts/ServerScriptService/Main/Init.server.lua
+  136459121  in scripts/ReplicatedStorage/Info.lua
+  14684890890  in scripts/StarterGui/Gifting/GiftingHandler.client.lua
+  1556594193  in scripts/ReplicatedStorage/Info.lua
+  229966673  in scripts/ReplicatedStorage/Info.lua
+  267162259  in scripts/ReplicatedStorage/Info.lua
+  267169928  in scripts/ReplicatedStorage/Info.lua
+  793925178  in scripts/ReplicatedStorage/Info.lua
+  810906533  in scripts/ReplicatedStorage/Info.lua
+  984791665  in scripts/ServerScriptService/Main/Init.server.lua
+
+Teleport place ids in code:
+  18877818488  in scripts/ServerScriptService/Main/Init.server.lua
+
+Outside URLs in code:
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/Modules/CameraShaker.lua
+  https://design.firefox.com/photon/motion/duration-and-easing.html  in scripts/ReplicatedStorage/Modules/BoatTween/TweenFunctions.lua
+  https://developer.microsoft.com/en-us/fabric#/styles/web/motion#basic-animations  in scripts/ReplicatedStorage/Modules/BoatTween/TweenFunctions.lua
+  https://devforum.roblox.com/t/event-that-fires-when-rendering-finishes/32954/19  in scripts/ReplicatedStorage/Modules/VoxBreaker/PartCache.lua, scripts/ReplicatedStorage/Modules/VoxBreakerNew/PartCache.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Modules/Icon.lua
+  https://devforum.roblox.com/t/partcache-for-all-your-quick-part-creation-needs/246641  in scripts/ReplicatedStorage/Modules/VoxBreaker/PartCache.lua, scripts/ReplicatedStorage/Modules/VoxBreakerNew/PartCache.lua
+  https://devforum.roblox.com/t/sandboxed-table-system-add-custom-methods-to-table/391177/12?u=etithespirit  in scripts/ReplicatedStorage/Modules/VoxBreaker/PartCache/Table.lua, scripts/ReplicatedStorage/Modules/VoxBreakerNew/PartCache/Table.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Modules/Icon.lua
+  https://devforum.roblox.com/t/voxbreaker-an-oop-voxel-destruction-module/2935099  in scripts/ReplicatedStorage/Modules/VoxBreaker.lua, scripts/ReplicatedStorage/Modules/VoxBreakerNew.lua
+  https://devforum.roblox.com/t/wind-shake-high-performance-wind-effect-for-leaves-and-foliage/1039806/1  in scripts/ReplicatedStorage/Modules/WindShake.lua
+  https://devforum.roblox.com/u/zeuxcg/summary  in scripts/ReplicatedStorage/Modules/VoxBreaker/PartCache.lua, scripts/ReplicatedStorage/Modules/VoxBreakerNew/PartCache.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/Info.lua, scripts/ReplicatedStorage/Info/Attack.server.lua, scripts/ReplicatedStorage/Info/Blocking.server.lua
+  https://discord.gg/wyButjTMhM  in scripts/ReplicatedStorage/Utils/Choso/Convergence/Spin.server.lua, scripts/ReplicatedStorage/Utils/Choso/Convergence/WingKing.server.lua, scripts/ReplicatedStorage/Utils/Hakari/IdleDeath/Scenarios/IC/ScenarioPlay.server.lua
+  https://docs.microsoft.com/en-us/windows/uwp/design/motion/timing-and-easing  in scripts/ReplicatedStorage/Modules/BoatTween/TweenFunctions.lua
+  https://github.com/Quenty/NevermoreEngine/blob/8ef4242a880c645b2f82a706e8074e74f23aab06/Modules/Shared/Events/Maid.lua  in scripts/ReplicatedStorage/Modules/Icon228/Maid.lua, scripts/ReplicatedStorage/Modules/NewIcon/Maid.lua
+  https://github.com/Quenty/NevermoreEngine/blob/version2/LICENSE.md  in scripts/ReplicatedStorage/Modules/Icon228/Maid.lua, scripts/ReplicatedStorage/Modules/NewIcon/Maid.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Modules/Icon/Utility.lua
+  https://material.io/guidelines/motion/duration-easing.html#duration-easing-natural-easing-curves  in scripts/ReplicatedStorage/Modules/BoatTween/TweenFunctions.lua
+  https://www.ibm.com/design/language/elements/motion/basics  in scripts/ReplicatedStorage/Modules/BoatTween/TweenFunctions.lua
+  https://www.youtube.com/@TeletacosRobloxTutorials  in scripts/ServerScriptService/Main/Init/ConsoleOnly/LockOn/Camera.lua

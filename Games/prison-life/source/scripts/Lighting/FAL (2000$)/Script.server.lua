@@ -1,0 +1,14 @@
+Toolname = "FAL"
+
+function onclick(Player)
+	if not Player.Backpack:FindFirstChild(Toolname) then
+		if Player.leaderstats.Coins.Value > 2000 or Player.leaderstats.Coins.Value == 2000 then
+			Player.leaderstats.Coins.Value = Player.leaderstats.Coins.Value-2000
+
+			local Tool = game.ServerStorage[Toolname]:clone()
+			Tool.Parent = Player.Backpack
+		end
+	end
+end
+
+script.Parent.ClickDetector.MouseClick:Connect(onclick)

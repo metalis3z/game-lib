@@ -1,0 +1,18 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/+1 Speed V1 Kit/ServerScriptService/Modules/ProfileStore.lua lines 617,1282,1731,2017
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  3604736844  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/TrailConfigurations.lua
+  3604736902  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/TrailConfigurations.lua
+  3604736975  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/TrailConfigurations.lua
+  3604737034  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/TrailConfigurations.lua
+  3604737365  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/TrailConfigurations.lua
+
+Outside URLs in code:
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Modules/HitboxClass/Signal.lua, scripts/+1 Speed V1 Kit/ServerScriptService/Modules/ProfileStore.lua
+  https://devforum.roblox.com/t/wind-shake-high-performance-wind-effect-for-leaves-and-foliage/1039806/1  in scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController.client.lua, scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindLines.lua, scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/+1 Speed V1 Kit/ServerScriptService/Modules/ProfileStore.lua
+  https://github.com/PointCloudLibrary/pcl/blob/29f192af57a3e7bdde6ff490669b211d8148378f/octree/include/pcl/octree/impl/octree_search.hpp#L309  in scripts/+1 Speed V1 Kit/StarterPlayerScripts/WindController/WindShake/Octree/OctreeRegionUtils.lua
+  https://lua.expert/  in scripts/+1 Speed V1 Kit/ReplicatedStorage/Framework/Game/Modules/SquishSoundSets.lua

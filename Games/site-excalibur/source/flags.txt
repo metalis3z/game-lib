@@ -1,0 +1,47 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/RadioService.server.lua lines 8,9
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ServerScriptService/InfectionHandler/610Infectionhandler.server.lua
+       suspicious script name "610Infectionhandler"
+[MED] scripts/StarterGui/ScreenGui/LocalScript.client.lua lines 1
+       very long line (52172 chars, possible obfuscation)
+[MED] scripts/Workspace/Anti Lag.server.lua
+       suspicious script name "Anti Lag"
+[MED] scripts/Workspace/SCPs/SCP173/Torso/Face/_.server.lua lines 2
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/SCPs/SCP173/Torso/Face/_.server.lua lines 2
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Site/Entrance Zone/CoffeeMaker/CoffeeMakerScript.server.lua lines 48
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Site/Entrance Zone/CoffeeMaker~2/CoffeeMakerScript.server.lua lines 48
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Site/Entrance Zone/CoffeeMaker~3/CoffeeMakerScript.server.lua lines 48
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Site/Entrance Zone/CoffeeMaker~4/CoffeeMakerScript.server.lua lines 48
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Site/Entrance Zone/CoffeeMaker~5/CoffeeMakerScript.server.lua lines 48
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Site/Entrance Zone/CoffeeMaker~6/CoffeeMakerScript.server.lua lines 48
+       InsertService:LoadAsset (pulls models at runtime)
+
+Instances with suspicious names:
+  Folder Workspace.SCPs.InfectionSpreader
+  Part Workspace.SCPs.InfectionSpreader.610InfectionSpreader
+  Folder ServerScriptService.InfectionHandler
+  StringValue ServerStorage.610s.SCP-610-1.Infected
+  StringValue ServerStorage.610s.SCP-610-2.Infected
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  000000  in scripts/ServerScriptService/GiveUI.server.lua
+
+Outside URLs in code:
+  http://prntscr.com/b9xljn  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  http://prntscr.com/b9xm53  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  http://prntscr.com/b9xngo  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  http://prntscr.com/b9xswk  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  http://trello.com  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  http://wiki.roblox.com/index.php?title=API:Enum/KeyCode  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  https://trello.com/1/connect?name=Trello_API_Module&response_type=token&expires=never&scope=read,write&key=YOUR_APP_KEY_HERE  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  https://trello.com/app-key  in scripts/Workspace/Adonis  Admin [USM]/Config/Settings.lua
+  https://www.psu.dev/  in scripts/StarterGui/ScreenGui/LocalScript.client.lua

@@ -1,0 +1,97 @@
+local data = {}
+data.CombatType = "Gun"
+data.AimingEnabled = true
+data.AimingOffset = Vector3.new(1.75, 0.25, -1.5)
+data.AimKeys = {
+	Enum.UserInputType.MouseButton2,
+	Enum.KeyCode.ButtonL2,
+	Enum.KeyCode.Q
+}
+data.AimFOV = 70
+data.AimDistance = -4
+data.AimSensitivity = 0.125
+data.GamepadAimSensitivity = 0.1
+data.BulletSpeed = 50
+data.BulletType = "normal"
+data.Damage = 25
+data.HeadshotDamage = 30
+data.FiringEnabled = true
+data.AttackKeys = {
+	Enum.UserInputType.MouseButton1,
+	Enum.KeyCode.ButtonR2
+}
+data.FireMode = "Normal"
+data.FireDelay = 0.3
+data.Range = 80
+data.AccuracyMin = Vector3.new(-0.05, -0.05, 0)
+data.AccuracyMax = Vector3.new(0.11, 0.11, 0)
+data.ClipSize = 6
+data.ReloadKeys = {
+	Enum.KeyCode.R,
+	Enum.KeyCode.ButtonX
+}
+data.ReloadSpeed = 1
+data.ShotReloadSpeed = 1
+data.NumBullets = 6
+data.ShotReloadEnabled = true
+data.ReloadType = "Standard"
+data.Weight = 1.2
+data.HipfireFOV = 60
+data.CamRecoilMin = Vector3.new(-0.7, -1, -0.6)
+data.CamRecoilMax = Vector3.new(0.7, -2, 0.6)
+data.AimScopeEnabled = false
+data.AimScopeImageId = ""
+data.MinAimDistance = 3
+data.AnimationData = {
+	Equip = {
+		Id = "rbxassetid://10214185112"
+	},
+	Idle = {
+		Id = "rbxassetid://10214195446"
+	},
+	Walk = {
+		Id = "rbxassetid://10214221676"
+	},
+	Sprint = {
+		Id = "rbxassetid://10214226612"
+	},
+	Swim = {
+		Id = "rbxassetid://0"
+	},
+	Aim = {
+		Id = "rbxassetid://10214200817"
+	},
+	Fire = {
+		Id = "rbxassetid://10214190163"
+	},
+	CrouchAim = {
+		Id = "rbxassetid://10214230538"
+	},
+	Reload = {
+		Id = "rbxassetid://10214207128"
+	},
+	TacticalReload = {
+		Id = "rbxassetid://10214214809"
+	},
+	ShotReload = {
+		Id = "rbxassetid://0"
+	},
+	ShellIn = {
+		Id = "rbxassetid://0"
+	},
+	ShellInEnd = {
+		Id = "rbxassetid://0"
+	}
+}
+data.SoundData = {
+	AimIn = "rbxassetid://619576313",
+	AimOut = "rbxassetid://619576578",
+	MagIn = "rbxassetid://254833667",
+	MagOut = "rbxassetid://00000",
+	PullBack = "rbxassetid://200289834",
+	EmptyClip = "rbxassetid://240785604",
+	ShotReload = "rbxassetid://200289834",
+	ShellIn = "rbxassetid://254833667"
+}
+
+return data

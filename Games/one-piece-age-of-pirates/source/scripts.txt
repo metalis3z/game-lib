@@ -1,0 +1,547 @@
+545 scripts, 25770 lines
+kind     lines  enabled  path
+client      50  NO       scripts/Lighting/BarrierBarrier/BarrierBox.client.lua
+server      27  NO       scripts/Lighting/BarrierBarrier/BarrierBox/Firedamage.server.lua
+client      60  NO       scripts/Lighting/BarrierBarrier/BarrierCrash.client.lua
+server      27  NO       scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua
+client      60  NO       scripts/Lighting/BarrierBarrier/BarrierRain.client.lua
+server      27  NO       scripts/Lighting/BarrierBarrier/BarrierRain/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      63  NO       scripts/Lighting/BarrierBarrier/BarrierShield.client.lua
+server      27  NO       scripts/Lighting/BarrierBarrier/BarrierShield/Firedamage.server.lua
+client      31  yes      scripts/Lighting/BarrierFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua
+client      36  yes      scripts/Lighting/BarrierFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/BarrierFruit/Welding.server.lua
+server      31  yes      scripts/Lighting/BarrierFruit/Welding~2.server.lua
+client     180  yes      scripts/Lighting/BisonBison/BisonForm.client.lua
+client      54  NO       scripts/Lighting/BisonBison/Charge.client.lua
+server      27  NO       scripts/Lighting/BisonBison/Charge/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierBox/Firedamage.server.lua)
+client      31  yes      scripts/Lighting/BisonFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/BisonFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/BisonFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/BisonFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/BisonFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+server      50  yes      scripts/Lighting/Boats1/Caravel/Cannon/Union/CannonShot.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua)
+server      34  NO       scripts/Lighting/Boats1/Caravel/Cannon/Union/CannonShot/Firedamage.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/Boats1/Caravel/Cannon/Union/CannonShot/Spin.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua)
+server      50  yes      scripts/Lighting/Boats1/Caravel/Cannon~2/Union/CannonShot.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua)
+server      34  NO       scripts/Lighting/Boats1/Caravel/Cannon~2/Union/CannonShot/Firedamage.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/Boats1/Caravel/Cannon~2/Union/CannonShot/Spin.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua)
+server      50  yes      scripts/Lighting/Boats1/Caravel/Cannon~3/Union/CannonShot.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua)
+server      34  NO       scripts/Lighting/Boats1/Caravel/Cannon~3/Union/CannonShot/Firedamage.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/Boats1/Caravel/Cannon~3/Union/CannonShot/Spin.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua)
+server      50  yes      scripts/Lighting/Boats1/Caravel/Cannon~4/Union/CannonShot.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua)
+server      34  NO       scripts/Lighting/Boats1/Caravel/Cannon~4/Union/CannonShot/Firedamage.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/Boats1/Caravel/Cannon~4/Union/CannonShot/Spin.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua)
+server      50  yes      scripts/Lighting/Boats1/Caravel/Cannon~5/Union/CannonShot.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua)
+server      34  NO       scripts/Lighting/Boats1/Caravel/Cannon~5/Union/CannonShot/Firedamage.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/Boats1/Caravel/Cannon~5/Union/CannonShot/Spin.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua)
+server       8  NO       scripts/Lighting/Boats1/Caravel/Script.server.lua
+server      25  yes      scripts/Lighting/Boats1/Caravel/VehicleSeat/Script.server.lua   (same source as scripts/Lighting/Boats1/Sloop/VehicleSeat/Script.server.lua)
+server       8  NO       scripts/Lighting/Boats1/Dinghy/Script.server.lua
+server      25  yes      scripts/Lighting/Boats1/Dinghy/VehicleSeat/Script.server.lua
+server      50  yes      scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua
+server      34  NO       scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua
+server       9  yes      scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua
+server      50  yes      scripts/Lighting/Boats1/Sloop/Cannon~2/Union/CannonShot.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua)
+server      34  NO       scripts/Lighting/Boats1/Sloop/Cannon~2/Union/CannonShot/Firedamage.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/Boats1/Sloop/Cannon~2/Union/CannonShot/Spin.server.lua   (same source as scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua)
+server       8  NO       scripts/Lighting/Boats1/Sloop/Script.server.lua   (same source as scripts/Lighting/Boats1/Dinghy/Script.server.lua)
+server      25  yes      scripts/Lighting/Boats1/Sloop/VehicleSeat/Script.server.lua
+client      66  NO       scripts/Lighting/BombBomb/KickBomb.client.lua
+server      31  NO       scripts/Lighting/BombBomb/KickBomb/Firedamage.server.lua
+client      65  NO       scripts/Lighting/BombBomb/NoseFancyCannon.client.lua
+server      31  NO       scripts/Lighting/BombBomb/NoseFancyCannon/Firedamage.server.lua
+server       9  yes      scripts/Lighting/BombBomb/NoseFancyCannon/Spin.server.lua   (same source as scripts/Lighting/BombBomb/NoseFancyDoubleCannon/Spin.server.lua)
+client     100  NO       scripts/Lighting/BombBomb/NoseFancyDoubleCannon.client.lua
+server      31  NO       scripts/Lighting/BombBomb/NoseFancyDoubleCannon/Firedamage.server.lua
+server       9  yes      scripts/Lighting/BombBomb/NoseFancyDoubleCannon/Spin.server.lua
+client      87  NO       scripts/Lighting/BombBomb/SelfDestruct.client.lua
+server      31  NO       scripts/Lighting/BombBomb/SelfDestruct/Firedamage.server.lua
+client      31  yes      scripts/Lighting/BombFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/BombFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/BombFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/BombFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/BombFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      61  yes      scripts/Lighting/BubbleBubble/BubbleBlast.client.lua
+server      41  NO       scripts/Lighting/BubbleBubble/BubbleBlast/Firedamage.server.lua
+client      63  yes      scripts/Lighting/BubbleBubble/BubbleWave.client.lua
+server      41  NO       scripts/Lighting/BubbleBubble/BubbleWave/Firedamage.server.lua
+client      50  yes      scripts/Lighting/BubbleBubble/GoldenHour.client.lua
+server      37  NO       scripts/Lighting/BubbleBubble/GoldenHour/Firedamage.server.lua
+client      64  yes      scripts/Lighting/BubbleBubble/MultiBubbleBlast.client.lua
+server      41  NO       scripts/Lighting/BubbleBubble/MultiBubbleBlast/Firedamage.server.lua   (same source as scripts/Lighting/BubbleBubble/BubbleWave/Firedamage.server.lua)
+client      31  yes      scripts/Lighting/BubbleFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/BubbleFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/BubbleFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/BubbleFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/BubbleFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      55  NO       scripts/Lighting/CageCage/CageArm.client.lua
+server      41  NO       scripts/Lighting/CageCage/CageArm/Firedamage.server.lua   (same source as scripts/Lighting/CageCage/Row/Firedamage.server.lua)
+client      44  NO       scripts/Lighting/CageCage/CageRow.client.lua
+client      46  NO       scripts/Lighting/CageCage/CageTrap.client.lua
+server      41  NO       scripts/Lighting/CageCage/CageTrap/Union/Firedamage.server.lua
+client      59  NO       scripts/Lighting/CageCage/JailThrow.client.lua
+server      41  NO       scripts/Lighting/CageCage/JailThrow/Firedamage.server.lua   (same source as scripts/Lighting/BubbleBubble/BubbleBlast/Firedamage.server.lua)
+server      41  NO       scripts/Lighting/CageCage/Row/Firedamage.server.lua
+client      31  yes      scripts/Lighting/CageFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/CageFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/CageFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/CageFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/CageFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      60  yes      scripts/Lighting/ChillyChilly/IceAge.client.lua
+server      43  NO       scripts/Lighting/ChillyChilly/IceAge/Firedamage.server.lua   (same source as scripts/Lighting/ChillyChilly/IceTime/Firedamage.server.lua)
+client      58  yes      scripts/Lighting/ChillyChilly/IceTime.client.lua
+server      43  NO       scripts/Lighting/ChillyChilly/IceTime/Firedamage.server.lua
+client      13  NO       scripts/Lighting/ChillyChilly/MainLogia.client.lua
+client      17  NO       scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua
+client      31  NO       scripts/Lighting/ChillyChilly/MainLogia/LeftArmLogia.client.lua
+client      31  NO       scripts/Lighting/ChillyChilly/MainLogia/LeftLegLogia.client.lua
+client      31  NO       scripts/Lighting/ChillyChilly/MainLogia/RightArmLogia.client.lua
+client      31  NO       scripts/Lighting/ChillyChilly/MainLogia/RightLegLogia.client.lua
+client      31  NO       scripts/Lighting/ChillyChilly/MainLogia/TorsoLogia.client.lua
+client      70  yes      scripts/Lighting/ChillyChilly/Partisan.client.lua
+server      27  NO       scripts/Lighting/ChillyChilly/Partisan/Firedamage.server.lua
+client      64  yes      scripts/Lighting/ChillyChilly/PheasantBeak.client.lua
+server      27  NO       scripts/Lighting/ChillyChilly/PheasantBeak/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      31  yes      scripts/Lighting/ChillyFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/ChillyFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/ChillyFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/ChillyFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/ChillyFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      98  NO       scripts/Lighting/CustomMoves/Balloon.client.lua
+client      79  NO       scripts/Lighting/CustomMoves/LightMonkey.client.lua
+server      36  NO       scripts/Lighting/CustomMoves/LightMonkey/Firedamage.server.lua
+client      63  NO       scripts/Lighting/CustomMoves/LightRay.client.lua
+server      36  NO       scripts/Lighting/CustomMoves/LightRay/Firedamage.server.lua
+client      72  NO       scripts/Lighting/CustomMoves/MassiveEruption.client.lua
+server      34  NO       scripts/Lighting/CustomMoves/MassiveEruption/Firedamage.server.lua
+client      54  NO       scripts/Lighting/DarkDark/BlackHole.client.lua
+server      27  NO       scripts/Lighting/DarkDark/BlackHole/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/DarkDark/BlackHole/Spin.server.lua
+client      65  NO       scripts/Lighting/DarkDark/DarkSphere.client.lua
+server      27  NO       scripts/Lighting/DarkDark/DarkSphere/Firedamage.server.lua
+client      50  NO       scripts/Lighting/DarkDark/DarkWave.client.lua
+server      27  NO       scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua
+client     119  NO       scripts/Lighting/DarkDark/Liberation.client.lua
+server      27  NO       scripts/Lighting/DarkDark/Liberation/Firedamage.server.lua
+server       9  yes      scripts/Lighting/DarkDark/Liberation/Spin.server.lua
+client      31  yes      scripts/Lighting/DarkFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/DarkFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/DarkFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/DarkFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/DarkFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      49  NO       scripts/Lighting/DoorDoor/AirDoor.client.lua
+server      31  NO       scripts/Lighting/DoorDoor/AirDoor/Firedamage.server.lua
+client      50  NO       scripts/Lighting/DoorDoor/DoorDoor.client.lua
+server      34  NO       scripts/Lighting/DoorDoor/DoorDoor/Firedamage.server.lua
+client      31  yes      scripts/Lighting/DoorFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/DoorFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/DoorFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/DoorFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/DoorFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client     156  NO       scripts/Lighting/FalconFalcon/FalconForm.client.lua
+client      26  NO       scripts/Lighting/FalconFalcon/FlyDown.client.lua
+client      26  NO       scripts/Lighting/FalconFalcon/FlyUp.client.lua
+client      63  NO       scripts/Lighting/FalconFalcon/TalenAttack.client.lua
+server      27  NO       scripts/Lighting/FalconFalcon/TalenAttack/Firedamage.server.lua
+client      31  yes      scripts/Lighting/FalconFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/FalconFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/FalconFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/FalconFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/FalconFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      99  NO       scripts/Lighting/FlameFlame/FireCommandment.client.lua
+server      27  NO       scripts/Lighting/FlameFlame/FireCommandment/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkSphere/Firedamage.server.lua)
+server      41  NO       scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua
+server       9  yes      scripts/Lighting/FlameFlame/FireCommandment/Spin.server.lua
+server       9  yes      scripts/Lighting/FlameFlame/FireCommandment/Spin2.server.lua
+client     118  NO       scripts/Lighting/FlameFlame/FireFist.client.lua
+server      27  NO       scripts/Lighting/FlameFlame/FireFist/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      43  NO       scripts/Lighting/FlameFlame/FireFist/Firedamage2.server.lua
+server       9  yes      scripts/Lighting/FlameFlame/FireFist/Spin.server.lua
+server       9  yes      scripts/Lighting/FlameFlame/FireFist/Spin2.server.lua
+client      66  NO       scripts/Lighting/FlameFlame/FireflyLight.client.lua
+server      27  NO       scripts/Lighting/FlameFlame/FireflyLight/Firedamage.server.lua
+client      92  NO       scripts/Lighting/FlameFlame/HeatHaze.client.lua
+server      27  NO       scripts/Lighting/FlameFlame/HeatHaze/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+server      43  NO       scripts/Lighting/FlameFlame/HeatHaze/Firedamage2.server.lua
+server       9  yes      scripts/Lighting/FlameFlame/HeatHaze/Spin.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Spin.server.lua)
+server       9  yes      scripts/Lighting/FlameFlame/HeatHaze/Spin2.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Spin2.server.lua)
+client      13  NO       scripts/Lighting/FlameFlame/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/FlameFlame/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      21  NO       scripts/Lighting/FlameFlame/MainLogia/LeftArmLogia.client.lua
+client      21  NO       scripts/Lighting/FlameFlame/MainLogia/LeftLegLogia.client.lua
+client      21  NO       scripts/Lighting/FlameFlame/MainLogia/RightArmLogia.client.lua
+client      21  NO       scripts/Lighting/FlameFlame/MainLogia/RightLegLogia.client.lua
+client      21  NO       scripts/Lighting/FlameFlame/MainLogia/TorsoLogia.client.lua
+client      31  yes      scripts/Lighting/FlameFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/FlameFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/FlameFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/FlameFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/FlameFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      31  yes      scripts/Lighting/GasFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/GasFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/GasFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/GasFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/GasFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      54  NO       scripts/Lighting/GasGas/AirlessWorld.client.lua
+server      27  NO       scripts/Lighting/GasGas/AirlessWorld/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+client      65  NO       scripts/Lighting/GasGas/GasForm.client.lua
+client      75  NO       scripts/Lighting/GasGas/GasRobe.client.lua
+server      27  NO       scripts/Lighting/GasGas/GasRobe/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      41  NO       scripts/Lighting/GasGas/GasRobe/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua)
+client      84  NO       scripts/Lighting/GasGas/Gastanet.client.lua
+server      27  NO       scripts/Lighting/GasGas/Gastanet/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      43  NO       scripts/Lighting/GasGas/Gastanet/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/HeatHaze/Firedamage2.server.lua)
+client      13  NO       scripts/Lighting/GasGas/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/GasGas/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      35  NO       scripts/Lighting/GasGas/MainLogia/LeftArmLogia.client.lua
+client      35  NO       scripts/Lighting/GasGas/MainLogia/LeftLegLogia.client.lua
+client      35  NO       scripts/Lighting/GasGas/MainLogia/RightArmLogia.client.lua
+client      35  NO       scripts/Lighting/GasGas/MainLogia/RightLegLogia.client.lua
+client      35  NO       scripts/Lighting/GasGas/MainLogia/TorsoLogia.client.lua
+client      31  yes      scripts/Lighting/GiraffeFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/GiraffeFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/GiraffeFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/GiraffeFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/GiraffeFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      53  NO       scripts/Lighting/GiraffeGiraffe/Charge.client.lua
+server      27  NO       scripts/Lighting/GiraffeGiraffe/Charge/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierBox/Firedamage.server.lua)
+client     185  NO       scripts/Lighting/GiraffeGiraffe/GiraffeForm.client.lua
+client      31  yes      scripts/Lighting/GlintFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/GlintFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/GlintFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/GlintFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/GlintFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      62  yes      scripts/Lighting/GlintGlint/Amaterasu.client.lua
+server      32  NO       scripts/Lighting/GlintGlint/Amaterasu/Firedamage.server.lua
+client      67  yes      scripts/Lighting/GlintGlint/EightShakuCurvedJewel.client.lua
+server      32  NO       scripts/Lighting/GlintGlint/EightShakuCurvedJewel/Firedamage.server.lua
+client      30  yes      scripts/Lighting/GlintGlint/LightSword.client.lua
+client      13  NO       scripts/Lighting/GlintGlint/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/GlintGlint/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      35  NO       scripts/Lighting/GlintGlint/MainLogia/LeftArmLogia.client.lua
+client      35  NO       scripts/Lighting/GlintGlint/MainLogia/LeftLegLogia.client.lua
+client      35  NO       scripts/Lighting/GlintGlint/MainLogia/RightArmLogia.client.lua
+client      35  NO       scripts/Lighting/GlintGlint/MainLogia/RightLegLogia.client.lua
+client      35  NO       scripts/Lighting/GlintGlint/MainLogia/TorsoLogia.client.lua
+client     100  yes      scripts/Lighting/GlintGlint/Moving.client.lua
+client      31  yes      scripts/Lighting/GumFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/GumFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/GumFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/GumFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/GumFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client     104  NO       scripts/Lighting/GumGum/Bazooka.client.lua
+server      27  NO       scripts/Lighting/GumGum/Bazooka/Firedamage.server.lua
+client      73  NO       scripts/Lighting/GumGum/Gattling.client.lua
+server      27  NO       scripts/Lighting/GumGum/Gattling/Firedamage.server.lua   (same source as scripts/Lighting/FalconFalcon/TalenAttack/Firedamage.server.lua)
+client      74  NO       scripts/Lighting/GumGum/Pistol.client.lua
+server      27  NO       scripts/Lighting/GumGum/Pistol/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      66  NO       scripts/Lighting/GumGum/SecondGear.client.lua
+client      62  NO       scripts/Lighting/Haki/BusoshokuHaki.client.lua
+client      50  NO       scripts/Lighting/Haki/HaoshokuHaki.client.lua
+server      29  NO       scripts/Lighting/Haki/HaoshokuHaki/Firedamage.server.lua
+client      28  NO       scripts/Lighting/Haki/KenbunshokuHaki.client.lua
+server      25  yes      scripts/Lighting/HakiGui/Background/Busoshoku/TextButton/Script.server.lua
+server       3  yes      scripts/Lighting/HakiGui/Background/Exit/TextButton/Script.server.lua
+server      25  yes      scripts/Lighting/HakiGui/Background/Kenbunshoku/TextButton/Script.server.lua
+client      31  yes      scripts/Lighting/InvisibleFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/InvisibleFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/InvisibleFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/InvisibleFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/InvisibleFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      58  NO       scripts/Lighting/InvisibleInvisible/Invisible.client.lua
+client      58  NO       scripts/Lighting/InvisibleInvisible/Visible.client.lua
+client      31  yes      scripts/Lighting/LeopardFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/LeopardFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/LeopardFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/LeopardFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/LeopardFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      63  NO       scripts/Lighting/LeopardLeopard/Claw.client.lua
+server      27  NO       scripts/Lighting/LeopardLeopard/Claw/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client     179  NO       scripts/Lighting/LeopardLeopard/LeopardForm.client.lua
+client      26  yes      scripts/Lighting/LightSword/MouseIcon.client.lua
+server     179  yes      scripts/Lighting/LightSword/SwordScript.server.lua
+client      31  yes      scripts/Lighting/LoveFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/LoveFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/LoveFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/LoveFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/LoveFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      63  NO       scripts/Lighting/LoveLove/LoveLoveMellow.client.lua
+server      32  NO       scripts/Lighting/LoveLove/LoveLoveMellow/Firedamage.server.lua
+server      41  NO       scripts/Lighting/LoveLove/LoveLoveMellow/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua)
+client      63  NO       scripts/Lighting/LoveLove/PistolKiss.client.lua
+server      27  NO       scripts/Lighting/LoveLove/PistolKiss/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierShield/Firedamage.server.lua)
+server      41  NO       scripts/Lighting/LoveLove/PistolKiss/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua)
+client      64  NO       scripts/Lighting/LoveLove/SlaveArrow.client.lua
+server      27  NO       scripts/Lighting/LoveLove/SlaveArrow/Firedamage.server.lua
+client      31  yes      scripts/Lighting/MagmaFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/MagmaFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/MagmaFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/MagmaFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/MagmaFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      66  NO       scripts/Lighting/MagmaMagma/GreatEruption.client.lua
+server      27  NO       scripts/Lighting/MagmaMagma/GreatEruption/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+client      60  NO       scripts/Lighting/MagmaMagma/MagmaPool.client.lua
+server      27  NO       scripts/Lighting/MagmaMagma/MagmaPool/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      73  NO       scripts/Lighting/MagmaMagma/MagmaRain.client.lua
+server      27  NO       scripts/Lighting/MagmaMagma/MagmaRain/Firedamage.server.lua
+client      13  NO       scripts/Lighting/MagmaMagma/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/MagmaMagma/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      35  NO       scripts/Lighting/MagmaMagma/MainLogia/LeftArmLogia.client.lua
+client      35  NO       scripts/Lighting/MagmaMagma/MainLogia/LeftLegLogia.client.lua
+client      35  NO       scripts/Lighting/MagmaMagma/MainLogia/RightArmLogia.client.lua
+client      35  NO       scripts/Lighting/MagmaMagma/MainLogia/RightLegLogia.client.lua
+client      35  NO       scripts/Lighting/MagmaMagma/MainLogia/TorsoLogia.client.lua
+client      72  NO       scripts/Lighting/MagmaMagma/MultipleEruption.client.lua
+server      27  NO       scripts/Lighting/MagmaMagma/MultipleEruption/Firedamage.server.lua   (same source as scripts/Lighting/LoveLove/SlaveArrow/Firedamage.server.lua)
+client       4  yes      scripts/Lighting/MoneyBag/LocalScript.client.lua
+server       3  yes      scripts/Lighting/MoneyGiver/MainGui/Exit/TextButton/Script.server.lua
+client      12  yes      scripts/Lighting/MoneyGiver/MainGui/Finish/LocalScript.client.lua
+client      31  yes      scripts/Lighting/OpFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/OpFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/OpFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/OpFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/OpFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      53  NO       scripts/Lighting/OpOp/Boom.client.lua
+server      31  NO       scripts/Lighting/OpOp/Boom/Firedamage.server.lua
+server       9  yes      scripts/Lighting/OpOp/Boom/Spin.server.lua   (same source as scripts/Lighting/OpOp/Teleport/Spin.server.lua)
+server       7  yes      scripts/Lighting/OpOp/Heart/Heart/Animate.server.lua
+client      37  yes      scripts/Lighting/OpOp/Heart/Local Gui.client.lua
+server      31  yes      scripts/Lighting/OpOp/Heart/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      56  NO       scripts/Lighting/OpOp/Mes.client.lua
+server      17  NO       scripts/Lighting/OpOp/Mes/Firedamage.server.lua
+server      14  NO       scripts/Lighting/OpOp/Mes/Touch.server.lua
+client      53  NO       scripts/Lighting/OpOp/Takt.client.lua
+server      27  NO       scripts/Lighting/OpOp/Takt/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/OpOp/Takt/Spin.server.lua   (same source as scripts/Lighting/OpOp/Teleport/Spin.server.lua)
+client      47  NO       scripts/Lighting/OpOp/Teleport.client.lua
+server       9  yes      scripts/Lighting/OpOp/Teleport/Spin.server.lua
+client      31  yes      scripts/Lighting/PawFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/PawFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/PawFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/PawFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/PawFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+server      34  yes      scripts/Lighting/PawPaw/DamagePaw/Firedamage.server.lua
+client      50  NO       scripts/Lighting/PawPaw/DamageTransfer.client.lua
+server      44  NO       scripts/Lighting/PawPaw/DamageTransfer/Firedamage.server.lua
+client      50  NO       scripts/Lighting/PawPaw/Fly.client.lua
+server      55  NO       scripts/Lighting/PawPaw/Fly/Firedamage.server.lua
+client      53  NO       scripts/Lighting/PawPaw/PadCannon.client.lua
+server      27  NO       scripts/Lighting/PawPaw/PadCannon/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      11  NO       scripts/Lighting/PawPaw/Paws.client.lua
+client      54  NO       scripts/Lighting/PawPaw/ThrustPadCannon.client.lua
+server      27  NO       scripts/Lighting/PawPaw/ThrustPadCannon/Firedamage.server.lua
+client      65  NO       scripts/Lighting/PawPaw/UrsaShock.client.lua
+server      27  NO       scripts/Lighting/PawPaw/UrsaShock/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierShield/Firedamage.server.lua)
+client      31  yes      scripts/Lighting/PhoenixFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/PhoenixFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/PhoenixFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/PhoenixFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/PhoenixFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      26  NO       scripts/Lighting/PhoenixPhoenix/FlyDown.client.lua   (same source as scripts/Lighting/FalconFalcon/FlyDown.client.lua)
+client      26  NO       scripts/Lighting/PhoenixPhoenix/FlyUp.client.lua   (same source as scripts/Lighting/FalconFalcon/FlyUp.client.lua)
+client     158  NO       scripts/Lighting/PhoenixPhoenix/PhoenixForm.client.lua
+client       4  NO       scripts/Lighting/PhoenixPhoenix/Regen.client.lua
+client      31  yes      scripts/Lighting/ReviveFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/ReviveFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/ReviveFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/ReviveFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/ReviveFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      55  NO       scripts/Lighting/ReviveRevive/Revive.client.lua
+client      32  NO       scripts/Lighting/Rokushiki/Geppo.client.lua
+client      28  NO       scripts/Lighting/Rokushiki/Kamie.client.lua
+client      68  NO       scripts/Lighting/Rokushiki/Rankyaku.client.lua
+server      27  NO       scripts/Lighting/Rokushiki/Rankyaku/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      75  NO       scripts/Lighting/Rokushiki/Shigan.client.lua
+server      27  NO       scripts/Lighting/Rokushiki/Shigan/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierShield/Firedamage.server.lua)
+client      53  NO       scripts/Lighting/Rokushiki/Soru.client.lua
+client      25  NO       scripts/Lighting/Rokushiki/Tekkai.client.lua
+server       3  yes      scripts/Lighting/RokushikiGui/Background/Exit/TextButton/Script.server.lua   (same source as scripts/Lighting/MoneyGiver/MainGui/Exit/TextButton/Script.server.lua)
+server      27  yes      scripts/Lighting/RokushikiGui/Background/Geppo/TextButton/Script.server.lua
+server      27  yes      scripts/Lighting/RokushikiGui/Background/Kamie/TextButton/Script.server.lua
+server      27  yes      scripts/Lighting/RokushikiGui/Background/Rankyaku/TextButton/Script.server.lua
+server      27  yes      scripts/Lighting/RokushikiGui/Background/Shigan/TextButton/Script.server.lua
+server      27  yes      scripts/Lighting/RokushikiGui/Background/Soru/TextButton/Script.server.lua
+server      27  yes      scripts/Lighting/RokushikiGui/Background/Tekkai/TextButton/Script.server.lua
+client      31  yes      scripts/Lighting/RumbleFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/RumbleFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/RumbleFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/RumbleFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/RumbleFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      52  yes      scripts/Lighting/RumbleRumble/ElThor.client.lua
+server      27  NO       scripts/Lighting/RumbleRumble/ElThor/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/RumbleRumble/ElThor/Spin.server.lua
+client      66  yes      scripts/Lighting/RumbleRumble/Kiten.client.lua
+server      27  NO       scripts/Lighting/RumbleRumble/Kiten/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      41  NO       scripts/Lighting/RumbleRumble/Kiten/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua)
+client      13  NO       scripts/Lighting/RumbleRumble/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/RumbleRumble/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      35  NO       scripts/Lighting/RumbleRumble/MainLogia/LeftArmLogia.client.lua
+client      35  NO       scripts/Lighting/RumbleRumble/MainLogia/LeftLegLogia.client.lua
+client      35  NO       scripts/Lighting/RumbleRumble/MainLogia/RightArmLogia.client.lua
+client      35  NO       scripts/Lighting/RumbleRumble/MainLogia/RightLegLogia.client.lua
+client      35  NO       scripts/Lighting/RumbleRumble/MainLogia/TorsoLogia.client.lua
+client     119  yes      scripts/Lighting/RumbleRumble/SangoSmash.client.lua
+server      27  NO       scripts/Lighting/RumbleRumble/SangoSmash/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      43  NO       scripts/Lighting/RumbleRumble/SangoSmash/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/FireFist/Firedamage2.server.lua)
+server       9  yes      scripts/Lighting/RumbleRumble/SangoSmash/Spin.server.lua
+server       9  yes      scripts/Lighting/RumbleRumble/SangoSmash/Spin2.server.lua
+client      93  yes      scripts/Lighting/RumbleRumble/Teleport.client.lua
+client      64  yes      scripts/Lighting/SMILE/Local Gui.client.lua
+client      31  yes      scripts/Lighting/SandFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/SandFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/SandFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/SandFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/SandFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      69  NO       scripts/Lighting/SandSand/DesertGrandeEspada.client.lua
+server      27  NO       scripts/Lighting/SandSand/DesertGrandeEspada/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/SandSand/DesertGrandeEspada/Spin.server.lua   (same source as scripts/Lighting/SandSand/DesertSpada/Spin.server.lua)
+client      51  NO       scripts/Lighting/SandSand/DesertPrison.client.lua
+server      76  NO       scripts/Lighting/SandSand/DesertPrison/Firedamage.server.lua
+client      97  NO       scripts/Lighting/SandSand/DesertSpada.client.lua
+server      27  NO       scripts/Lighting/SandSand/DesertSpada/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/SandSand/DesertSpada/Spin.server.lua
+client      13  NO       scripts/Lighting/SandSand/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/SandSand/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      31  NO       scripts/Lighting/SandSand/MainLogia/LeftArmLogia.client.lua
+client      31  NO       scripts/Lighting/SandSand/MainLogia/LeftLegLogia.client.lua
+client      31  NO       scripts/Lighting/SandSand/MainLogia/RightArmLogia.client.lua
+client      31  NO       scripts/Lighting/SandSand/MainLogia/RightLegLogia.client.lua
+client      31  NO       scripts/Lighting/SandSand/MainLogia/TorsoLogia.client.lua
+client      76  NO       scripts/Lighting/SandSand/Sandstorm.client.lua
+server      27  NO       scripts/Lighting/SandSand/Sandstorm/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server       9  yes      scripts/Lighting/SandSand/Sandstorm/Spin.server.lua
+client      31  yes      scripts/Lighting/SmokeFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      31  yes      scripts/Lighting/SmokeFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      36  yes      scripts/Lighting/SmokeFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/SmokeFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/SmokeFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      13  NO       scripts/Lighting/SmokeSmoke/MainLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia.client.lua)
+client      17  NO       scripts/Lighting/SmokeSmoke/MainLogia/HeadLogia.client.lua   (same source as scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua)
+client      35  NO       scripts/Lighting/SmokeSmoke/MainLogia/LeftArmLogia.client.lua
+client      35  NO       scripts/Lighting/SmokeSmoke/MainLogia/LeftLegLogia.client.lua
+client      35  NO       scripts/Lighting/SmokeSmoke/MainLogia/RightArmLogia.client.lua
+client      35  NO       scripts/Lighting/SmokeSmoke/MainLogia/RightLegLogia.client.lua
+client      35  NO       scripts/Lighting/SmokeSmoke/MainLogia/TorsoLogia.client.lua
+client      93  NO       scripts/Lighting/SmokeSmoke/WhiteBlow.client.lua
+server      27  NO       scripts/Lighting/SmokeSmoke/WhiteBlow/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      34  NO       scripts/Lighting/SmokeSmoke/WhiteBlow/Firedamage2.server.lua   (same source as scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage2.server.lua)
+client     158  NO       scripts/Lighting/SmokeSmoke/WhiteLauncher.client.lua
+server      33  NO       scripts/Lighting/SmokeSmoke/WhiteLauncher/Firedamage.server.lua
+client      66  NO       scripts/Lighting/SmokeSmoke/WhiteOut.client.lua
+server      32  NO       scripts/Lighting/SmokeSmoke/WhiteOut/Firedamage.server.lua
+server      41  NO       scripts/Lighting/SmokeSmoke/WhiteOut/Firedamage2.server.lua   (same source as scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua)
+client     104  NO       scripts/Lighting/SmokeSmoke/WhiteVine.client.lua
+server      27  NO       scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      34  NO       scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage2.server.lua
+client      31  yes      scripts/Lighting/SnakeFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/SnakeFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/SnakeFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/SnakeFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/SnakeFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client     165  NO       scripts/Lighting/SnakeSnake/SnakeForm.client.lua
+client      60  NO       scripts/Lighting/SnakeSnake/VenomPuddle.client.lua
+server      27  NO       scripts/Lighting/SnakeSnake/VenomPuddle/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      63  NO       scripts/Lighting/SnakeSnake/VenomShot.client.lua
+server      27  NO       scripts/Lighting/SnakeSnake/VenomShot/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client      31  yes      scripts/Lighting/SpringFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/SpringFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/SpringFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/SpringFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/SpringFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      86  NO       scripts/Lighting/SpringSpring/SpringDeathKnock.client.lua
+server      27  NO       scripts/Lighting/SpringSpring/SpringDeathKnock/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua)
+client     151  NO       scripts/Lighting/SpringSpring/SpringForward.client.lua
+server      27  NO       scripts/Lighting/SpringSpring/SpringForward/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client     152  NO       scripts/Lighting/SpringSpring/SpringSnipe.client.lua
+server      27  NO       scripts/Lighting/SpringSpring/SpringSnipe/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkSphere/Firedamage.server.lua)
+server       7  yes      scripts/Lighting/SwordGui/Background/Cutlass/Script.server.lua
+server       7  yes      scripts/Lighting/SwordGui/Background/Katana/Script.server.lua
+server       7  yes      scripts/Lighting/SwordGui/Background/Sabre/Script.server.lua
+client      31  yes      scripts/Lighting/TremorFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/TremorFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/TremorFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/TremorFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/TremorFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client     102  NO       scripts/Lighting/TremorTremor/Earthquake.client.lua
+server      27  NO       scripts/Lighting/TremorTremor/Earthquake/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+server      34  NO       scripts/Lighting/TremorTremor/Earthquake/Firedamage2.server.lua   (same source as scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage2.server.lua)
+client      59  NO       scripts/Lighting/TremorTremor/HelmetBreak.client.lua
+server      27  NO       scripts/Lighting/TremorTremor/HelmetBreak/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierShield/Firedamage.server.lua)
+client      87  NO       scripts/Lighting/TremorTremor/Seaquake.client.lua
+server      27  NO       scripts/Lighting/TremorTremor/Seaquake/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkSphere/Firedamage.server.lua)
+client      71  NO       scripts/Lighting/TremorTremor/TremorSphere.client.lua
+server      27  NO       scripts/Lighting/TremorTremor/TremorSphere/Firedamage.server.lua   (same source as scripts/Lighting/DarkDark/DarkSphere/Firedamage.server.lua)
+client      31  yes      scripts/Lighting/TurtleFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/TurtleFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/TurtleFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/TurtleFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/TurtleFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      90  NO       scripts/Lighting/TurtleTurtle/ShellBlock.client.lua
+client     172  NO       scripts/Lighting/TurtleTurtle/TurtleForm.client.lua
+client      31  yes      scripts/Lighting/VenomFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      31  yes      scripts/Lighting/VenomFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      36  yes      scripts/Lighting/VenomFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/VenomFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/VenomFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      60  NO       scripts/Lighting/VenomVenom/ChloroformBall.client.lua
+server      36  NO       scripts/Lighting/VenomVenom/ChloroformBall/Firedamage.server.lua
+client      86  NO       scripts/Lighting/VenomVenom/Hydra.client.lua
+server      36  NO       scripts/Lighting/VenomVenom/Hydra/Firedamage.server.lua
+server      34  NO       scripts/Lighting/VenomVenom/Hydra/Firedamage2.server.lua   (same source as scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage2.server.lua)
+client      51  NO       scripts/Lighting/VenomVenom/VenomCloud.client.lua
+server      36  NO       scripts/Lighting/VenomVenom/VenomCloud/Firedamage.server.lua   (same source as scripts/Lighting/VenomVenom/Hydra/Firedamage.server.lua)
+server      28  NO       scripts/Lighting/VenomVenom/VenomDemon/LeftArm/Part/Firedamage.server.lua   (same source as scripts/Lighting/VenomVenom/VenomDemon/Torso/Part/Firedamage.server.lua)
+server      28  NO       scripts/Lighting/VenomVenom/VenomDemon/RightArm/Part/Firedamage.server.lua   (same source as scripts/Lighting/VenomVenom/VenomDemon/Torso/Part/Firedamage.server.lua)
+server      28  NO       scripts/Lighting/VenomVenom/VenomDemon/Torso/Part/Firedamage.server.lua
+client      68  NO       scripts/Lighting/VenomVenom/VenomDemonScript.client.lua
+client      26  yes      scripts/Lighting/Weapons/Cutlass/MouseIcon.client.lua   (same source as scripts/Lighting/LightSword/MouseIcon.client.lua)
+server     190  yes      scripts/Lighting/Weapons/Cutlass/SwordScript.server.lua
+client      42  yes      scripts/Lighting/Weapons/Cutlass/WeldToBackScript.client.lua
+client      26  yes      scripts/Lighting/Weapons/Katana/MouseIcon.client.lua   (same source as scripts/Lighting/LightSword/MouseIcon.client.lua)
+server     190  yes      scripts/Lighting/Weapons/Katana/SwordScript.server.lua   (same source as scripts/Lighting/Weapons/Cutlass/SwordScript.server.lua)
+client      42  yes      scripts/Lighting/Weapons/Katana/WeldToBackScript.client.lua
+client      26  yes      scripts/Lighting/Weapons/Sabre/MouseIcon.client.lua   (same source as scripts/Lighting/LightSword/MouseIcon.client.lua)
+server     190  yes      scripts/Lighting/Weapons/Sabre/SwordScript.server.lua   (same source as scripts/Lighting/Weapons/Cutlass/SwordScript.server.lua)
+client      42  yes      scripts/Lighting/Weapons/Sabre/WeldToBackScript.client.lua   (same source as scripts/Lighting/Weapons/Cutlass/WeldToBackScript.client.lua)
+client      31  yes      scripts/Lighting/WolfFruit/BackupWeld.client.lua   (same source as scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua)
+client      31  yes      scripts/Lighting/WolfFruit/BackupWeld~2.client.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+client      36  yes      scripts/Lighting/WolfFruit/Local Gui.client.lua
+server      31  yes      scripts/Lighting/WolfFruit/Welding.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding.server.lua)
+server      31  yes      scripts/Lighting/WolfFruit/Welding~2.server.lua   (same source as scripts/Lighting/BarrierFruit/Welding~2.server.lua)
+client      63  NO       scripts/Lighting/WolfWolf/Claw.client.lua   (same source as scripts/Lighting/LeopardLeopard/Claw.client.lua)
+server      27  NO       scripts/Lighting/WolfWolf/Claw/Firedamage.server.lua   (same source as scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua)
+client     193  NO       scripts/Lighting/WolfWolf/WolfForm.client.lua
+server      10  yes      scripts/StarterGui/MainGui/Money/Value/Script.server.lua
+client       4  yes      scripts/StarterGui/MainGui/MoneyGiver/LocalScript.client.lua
+client      20  yes      scripts/StarterGui/MainGui/Music/LocalScript.client.lua
+client     125  NO       scripts/StarterGui/MainGui/Music/MusicScript.client.lua   (same source as scripts/StarterPack/MusicScript.client.lua)
+client      11  yes      scripts/StarterGui/MainGui/Spawn/LocalScript.client.lua
+server       9  yes      scripts/StarterGui/Stamina/Frame/Script.server.lua
+server      10  yes      scripts/StarterGui/Stamina/Frame/Value/Script.server.lua
+client     125  yes      scripts/StarterPack/MusicScript.client.lua
+client      45  yes      scripts/StarterPack/Run.client.lua
+client      45  yes      scripts/StarterPack/SwimScript.client.lua
+server     540  yes      scripts/Workspace/DataPersistence.server.lua
+server     107  yes      scripts/Workspace/Day_Night.server.lua
+server      59  yes      scripts/Workspace/KillManager.server.lua
+server    2466  yes      scripts/Workspace/Kohl's Admin Commands V2.server.lua
+client       2  NO       scripts/Workspace/Kohl's Admin Commands V2/LocalScriptBase.client.lua   (same source as scripts/Workspace/Kohl's Admin Commands V2/ScriptBase.server.lua)
+server       2  NO       scripts/Workspace/Kohl's Admin Commands V2/ScriptBase.server.lua
+server       0  NO       scripts/Workspace/PlayerAddedStuff.server.lua
+server      35  yes      scripts/Workspace/PlayerAddedStuff/CustomMoves.server.lua
+server     465  yes      scripts/Workspace/PlayerAddedStuff/DevilFruitGiver.server.lua
+server      27  yes      scripts/Workspace/PlayerAddedStuff/HakiGiver.server.lua
+server      23  yes      scripts/Workspace/PlayerAddedStuff/Leaderboard.server.lua
+server      73  yes      scripts/Workspace/PlayerAddedStuff/MarineRanks.server.lua
+server      65  yes      scripts/Workspace/PlayerAddedStuff/MarineUniform.server.lua
+server      11  yes      scripts/Workspace/PlayerAddedStuff/PrisonScript.server.lua
+client     445  yes      scripts/Workspace/PlayerAddedStuff/PrisonScript/PrisonScript.client.lua
+server       6  NO       scripts/Workspace/PlayerAddedStuff/PrisonScript/PrisonScript/JailTime/Background/Value/Script.server.lua
+server      43  yes      scripts/Workspace/PlayerAddedStuff/RokushikiGiver.server.lua
+server      24  yes      scripts/Workspace/PlayerAddedStuff/Spawn.server.lua
+server      26  yes      scripts/Workspace/PlayerAddedStuff/StarterScript.server.lua
+server      13  yes      scripts/Workspace/PlayerAddedStuff/StarterScript/WeaponGui/Background/Gun/Script.server.lua
+server      13  yes      scripts/Workspace/PlayerAddedStuff/StarterScript/WeaponGui/Background/Sword/Script.server.lua
+server      24  yes      scripts/Workspace/PlayerAddedStuff/WeaponGiver.server.lua

@@ -1,0 +1,628 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.GUI  (495 descendants)
+ScreenGui "GUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  Frame "HUD"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Left"  size={0.25,0},{0.25,0}  pos={0.08,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      Frame "Buttons"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIGridLayout "Grid"  CellSize={0.475,0},{0.475,0}  CellPadding={0.05,0},{0.05,0}  FillDirectionMaxCells=0
+        TextButton "Index"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Text"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=5  text="Index"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://138787751104353
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+          Frame "Design"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=2
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextButton "Rebirth"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Text"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=5  text="Rebirth"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://127981244153803
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+          Frame "Design"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=2
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          Frame "Notification"  size={0.4,0},{0.4,0}  pos={1,0},{0,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ffffff  z=20
+            UIStroke "Stroke"  Thickness=3  Color=#640000  Transparency=0  ApplyStrokeMode=0
+            UIGradient "Gradient"  rot=-90  Color=[0:#ff0000 1:#ff557f]  Rotation=-90  Transparency=[0:0 1:0]
+            TextLabel "Text"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=21  text="!"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#640000  Transparency=0  ApplyStrokeMode=0
+        TextButton "Invite"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Text"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=5  text="Invite"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://72230557461051
+          Frame "Design"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=2
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+        TextButton "Shop"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+          TextLabel "Text"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=5  text="Shop"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://97493315422791
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+          Frame "Design"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=2
+            UIStroke "Stroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+              UIGradient "Gradient"  Color=[0:#007eff 0.0833:#00fdff 0.167:#00ff81 0.25:#00ff02 0.333:#7eff00 0.417:#fdff00 0.5:#ff8100 0.583:#ff0200 0.667:#ff007e 0.75:#ff00fd 0.833:#8100ff 0.917:#0200ff 1:#007eff]  Rotation=0  Transparency=[0:0 1:0]
+          Frame "Notification"  size={0.4,0},{0.4,0}  pos={1,0},{0,0}  anchor=(0.5,0.5)  HIDDEN  bg=#ffffff  z=4
+            UIStroke "Stroke"  Thickness=3  Color=#640000  Transparency=0  ApplyStrokeMode=0
+            UIGradient "Gradient"  rot=-90  Color=[0:#ff0000 1:#ff557f]  Rotation=-90  Transparency=[0:0 1:0]
+            TextLabel "Text"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="!"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#640000  Transparency=0  ApplyStrokeMode=0
+      UIListLayout "List"  FillDirection=1  Padding={0.06,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    Frame "Labels"  size={0.24,0},{0.06,0}  pos={0.17,0},{0.95,0}  anchor=(0.5,0.5)  nobg
+      UIListLayout "List"  FillDirection=1  Padding={0.1,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      TextLabel "Speed"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="$1.24K"  font=GothamSSm/900  scaled  tc=#ffffff
+        ImageLabel "Image"  size={1.2,0},{1.2,0}  pos={-0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://119928024915098
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+        UIStroke "Stroke"  Thickness=3  Color=#003550  Transparency=0  ApplyStrokeMode=0
+        UIGradient "Gradient"  rot=-90  Color=[0:#00aaff 1:#64ffff]  Rotation=-90  Transparency=[0:0 1:0]
+      TextLabel "Power"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="$1.24K"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIStroke "Stroke"  Thickness=3  Color=#503500  Transparency=0  ApplyStrokeMode=0
+        UIGradient "Gradient"  rot=-90  Color=[0:#ff5500 0.5:#ffaa00 1:#ffff7f]  Rotation=-90  Transparency=[0:0 1:0]
+        ImageLabel "Image"  size={1.2,0},{1.2,0}  pos={-0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://91373897074863
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+      TextLabel "Money"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="$1.24K"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+        UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Image"  size={1.2,0},{1.2,0}  pos={-0.1,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://93178507289113
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    TextButton "Drop"  size={0.125,0},{0.125,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+      TextLabel "Text"  size={0.9,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Trash"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "Ratio"  AspectRatio=3
+      ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://92958786684902  attrs={"Id": "rbxassetid://87326447332057"}
+    Frame "Right"  size={0.175,0},{0.175,0}  pos={0.93,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIListLayout "List"  FillDirection=1  Padding={0.2,0}  HorizontalAlignment=2  VerticalAlignment=0  SortOrder=2
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    TextButton "Kick"  size={0.125,0},{0.125,0}  pos={0.5,0},{0.75,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+      TextLabel "Text"  size={0.9,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Kick"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "Ratio"  AspectRatio=3
+      ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://70653920584026  attrs={"Id": "rbxassetid://87326447332057"}
+    Frame "PowerBar"  size={0.03,0},{0.5,0}  pos={0.8,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "Bar"  size={1,0},{0,0}  pos={0,0},{1,0}  bg=#ffffff
+        UIGradient "Gradient"  rot=-90  Color=[0:#ffff00 1:#ff0000]  Rotation=-90  Transparency=[0:0 1:0]
+      TextLabel "Text"  size={5,0},{0.1,0}  pos={0.5,0},{1.05,0}  anchor=(0.5,0.5)  nobg  z=4  text="Tap to Kick!"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    Frame "Top"  size={0.5,0},{0.04,0}  pos={0.5,0},{0.04,0}  anchor=(0.5,0.5)  nobg
+      Frame "Bar"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=2
+        UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  Frame "Frames"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Upgrades"  size={0.4,0},{0.4,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      ScrollingFrame "Scrolling"  size={1,0},{0.8,0}  pos={0.5,0},{0.6,0}  anchor=(0.5,0.5)  nobg  z=4
+        UIListLayout "List"  FillDirection=1  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      Frame "Title"  size={1,0},{0.24,0}  pos={0.5,0},{0.05,0}  anchor=(0.5,0.5)  nobg  z=2
+        TextLabel "Shop"  size={0.4,0},{0.6,0}  pos={0.22,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Upgrades"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Background"  size={1,0},{1.14,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://100627035489276  attrs={"Id": "rbxassetid://131343092776040"}
+        ImageButton "Close"  size={0.8,0},{0.8,0}  pos={0.94,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+          TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "Ratio"  AspectRatio=2
+    Frame "Notifications"  size={1,0},{0.1,0}  pos={0.5,0},{0.125,0}  anchor=(0.5,0.5)  nobg
+      UIListLayout "List"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      TextLabel "Instructions"  size={1,0},{0.4,0}  pos={0.5,0},{0.76,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=4  text="Hi."  font=GothamSSm/900  scaled  tc=#ffffff
+        UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    Frame "Weights"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      ScrollingFrame "Scrolling"  size={0.98,0},{0.9,0}  pos={0.51,0},{0.55,0}  anchor=(0.5,0.5)  nobg  z=2
+        UIListLayout "List"  FillDirection=0  Padding={0.0025,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1.2
+      Frame "Title"  size={1,0},{0.14,0}  pos={0.5,0},{0,0}  anchor=(0.5,0.5)  nobg  z=2
+        TextLabel "Shop"  size={0.4,0},{0.6,0}  pos={0.22,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Weights"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageButton "Close"  size={0.8,0},{0.8,0}  pos={0.94,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+          TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+        ImageLabel "Background"  size={1,0},{1.14,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://131343092776040  attrs={"Id": "rbxassetid://131343092776040"}
+    Frame "Rebirth"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1.6
+      TextButton "Rebirth"  size={0.325,0},{0.325,0}  pos={0.325,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=6  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+        TextLabel "Text"  size={0.9,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="Rebirth"  font=GothamSSm/900  scaled  tc=#ffffff
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "Ratio"  AspectRatio=4
+        ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://87326447332057"}
+      Frame "Frame"  size={1,0},{0.92,0}  pos={0.5,0},{0.54,0}  anchor=(0.5,0.5)  nobg  z=2
+        Frame "Bar"  size={0.8,0},{0.1,0}  pos={0.5,0},{0.712,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=5
+          Frame "Progress"  size={0.5,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  z=6
+            UIStroke "Stroke"  Thickness=3  Color=#503500  Transparency=0  ApplyStrokeMode=0
+            UIGradient "Gradient"  rot=-90  Color=[0:#ff5500 0.5:#ffaa00 1:#ffff7f]  Rotation=-90  Transparency=[0:0 1:0]
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Text"  size={0.975,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  text="Power 1/25"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        Frame "Stats"  size={1,0},{0.4,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=4
+          UIListLayout "List"  FillDirection=0  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          Frame "Before"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+            UIListLayout "List"  FillDirection=1  Padding={0.1,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+            TextLabel "Text"  size={1,0},{0.2,0}  pos={0.5,0},{-0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Before"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Money"  size={1,0},{0.4,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  z=4
+              TextLabel "Text"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="x1"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://93178507289113  imgT=0.5
+                UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://87326447332057"}
+            Frame "Power"  size={1,0},{0.4,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  z=4
+              TextLabel "Text"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="x1"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://91373897074863  imgT=0.5
+                UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://82312491077959  attrs={"Id": "rbxassetid://87326447332057"}
+          Frame "Arrows"  size={0.1,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+            ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://88353043959572
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+            UIListLayout "List"  FillDirection=1  Padding={0.15,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          Frame "After"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+            UIListLayout "List"  FillDirection=1  Padding={0.1,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+            Frame "Money"  size={1,0},{0.4,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  z=4
+              TextLabel "Text"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="x2"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://93178507289113  imgT=0.5
+                UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://87326447332057"}
+            TextLabel "Text"  size={1,0},{0.2,0}  pos={0.5,0},{-0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="After"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Power"  size={1,0},{0.4,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  z=4
+              TextLabel "Text"  size={0.8,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="x2"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://91373897074863  imgT=0.5
+                UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://82312491077959  attrs={"Id": "rbxassetid://87326447332057"}
+        TextLabel "RebirthBoost"  size={0.9,0},{0.07,0}  pos={0.5,0},{0.575,0}  anchor=(0.5,0.5)  nobg  z=4  text="Rebirth resets your speed upgrades!"  font=GothamSSm/900  scaled  tc=#ffffff
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextButton "Skip"  size={0.325,0},{0.325,0}  pos={0.675,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=6  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+        TextLabel "Text"  size={0.9,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="Skip"  font=GothamSSm/900  scaled  tc=#ffffff
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "Ratio"  AspectRatio=4
+        ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://70653920584026  attrs={"Id": "rbxassetid://87326447332057"}
+      Frame "Title"  size={1,0},{0.14,0}  pos={0.5,0},{0,0}  anchor=(0.5,0.5)  nobg  z=2
+        TextLabel "Shop"  size={0.4,0},{0.6,0}  pos={0.22,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Rebirth"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Background"  size={1,0},{1.14,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://120692375639753  attrs={"Id": "rbxassetid://131343092776040"}
+        ImageButton "Close"  size={0.8,0},{0.8,0}  pos={0.94,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+          TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    Frame "Index"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      ScrollingFrame "Scrolling"  size={1,0},{0.92,0}  pos={0.5,0},{0.54,0}  anchor=(0.5,0.5)  nobg  z=2
+        UIGridLayout "Grid"  CellSize={0.3,0},{0.42,0}  CellPadding={0.025,0},{0,0}  FillDirectionMaxCells=0
+      Frame "Buttons"  size={0.29,0},{0.5,0}  pos={-0.17,0},{0.35,0}  anchor=(0.5,0.5)  nobg
+        UIListLayout "List"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=2  VerticalAlignment=0  SortOrder=2
+        TextButton "Normal"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Normal"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=2.5
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://110828187234554  attrs={"Id": "rbxassetid://110828187234554"}
+        TextButton "Golden"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Golden"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=2.5
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://115624555582768  attrs={"Id": "rbxassetid://110828187234554"}
+        TextButton "Diamond"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Diamond"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=2.5
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://131798641019550  attrs={"Id": "rbxassetid://110828187234554"}
+        TextButton "Neon"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Neon"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=2.5
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://138835265990110  attrs={"Id": "rbxassetid://110828187234554"}
+        TextButton "Ruby"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Ruby"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=2.5
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://110859788740064  attrs={"Id": "rbxassetid://110828187234554"}
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1.2
+      Frame "Title"  size={1,0},{0.14,0}  pos={0.5,0},{0,0}  anchor=(0.5,0.5)  nobg  z=2
+        TextLabel "Shop"  size={0.4,0},{0.6,0}  pos={0.22,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Index"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Background"  size={1,0},{1.14,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://100627035489276  attrs={"Id": "rbxassetid://131343092776040"}
+        ImageButton "Close"  size={0.8,0},{0.8,0}  pos={0.94,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+          TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    Frame "Wheel"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+      Frame "Buttons"  size={0.6,0},{0.1,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,0.5)  nobg
+        UIListLayout "List"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        TextButton "RobuxButton1"  size={0.6,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Price"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="39"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Text"  size={1,0},{0.4,0}  pos={0.5,0},{1.3,0}  anchor=(0.5,0.5)  nobg  z=3  text="+3 Spins"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://131798641019550  attrs={"Id": "rbxassetid://87326447332057"}
+        TextButton "RobuxButton2"  size={0.6,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Price"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="99"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Text"  size={1,0},{0.4,0}  pos={0.5,0},{1.3,0}  anchor=(0.5,0.5)  nobg  z=3  text="+9 Spins"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Description"  size={1,0},{0.4,0}  pos={0.5,0},{-0.3,0}  anchor=(0.5,0.5)  nobg  z=3  text="MEGA DEAL"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://70653920584026  attrs={"Id": "rbxassetid://87326447332057"}
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1
+      ImageLabel "RedArrow"  size={0.08,0},{0.12,0}  pos={0.5,0},{0.03,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://94539448210782
+      ImageButton "Close"  size={0.125,0},{0.125,0}  pos={1,0},{0,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+        ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+        TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    Frame "Offline"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1.2
+      Frame "Title"  size={1,0},{0.14,0}  pos={0.5,0},{0,0}  anchor=(0.5,0.5)  nobg  z=2
+        TextLabel "Shop"  size={0.4,0},{0.6,0}  pos={0.22,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Offline"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Background"  size={1,0},{1.14,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://131343092776040  attrs={"Id": "rbxassetid://131343092776040"}
+        ImageButton "Close"  size={0.8,0},{0.8,0}  pos={0.94,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+          TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "Buttons"  size={0.8,0},{0.16,0}  pos={0.5,0},{0.8,0}  anchor=(0.5,0.5)  nobg  z=2
+        UIListLayout "List"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        TextButton "Double"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="X2"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Price"  size={1,0},{0.4,0}  pos={0.5,0},{1.3,0}  anchor=(0.5,0.5)  nobg  z=3  text="Only 99!"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://70653920584026  attrs={"Id": "rbxassetid://87326447332057"}
+          UIAspectRatioConstraint "Ratio"  AspectRatio=3.5
+        TextButton "Claim"  size={0.8,0},{0.8,0}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  nobg  z=4  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+          TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Claim"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://87326447332057"}
+          UIAspectRatioConstraint "Ratio"  AspectRatio=3.5
+      ImageLabel "Image"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://73317530779210
+        UIAspectRatioConstraint "Ratio"  AspectRatio=1
+        TextLabel "Text"  size={1.8,0},{0.2,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  z=4  text="While offline you earned!"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        TextLabel "Amount"  size={1.6,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=4  text="$1.24K"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIGradient "Gradient"  rot=-90  Color=[0:#ff5500 0.5:#ffaa00 1:#ffff7f]  Rotation=-90  Transparency=[0:0 1:0]
+          UIStroke "Stroke"  Thickness=3  Color=#503500  Transparency=0  ApplyStrokeMode=0
+    Frame "Shop"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.5
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1.6
+      ScrollingFrame "Scrolling"  size={1,0},{0.9,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg  z=4
+        UIListLayout "List"  FillDirection=1  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        Frame "VIP"  size={0.95,0},{0.5,0}  pos={0,0},{0,0}  nobg  z=5
+          TextLabel "Name"  size={0.5,0},{0.25,0}  pos={0.6,0},{0.2,0}  anchor=(0.5,0.5)  nobg  z=7  text="V.I.P Member"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Text"  size={0.3,0},{0.125,0}  pos={0.5,0},{0.425,0}  anchor=(0.5,0.5)  nobg  z=7  text="+25% Income"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+            UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://120342677944790  attrs={"Id": "rbxassetid://95001819963555"}
+            UIGradient "Gradient"  rot=90  Color=[0:#ffff00 1:#ff5500]  Rotation=90  Transparency=[0:0 1:0]
+          TextButton "Buy"  size={0.3,0},{0.3,0}  pos={0.8,0},{0.74,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+            TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIAspectRatioConstraint "Ratio"  AspectRatio=3
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+          ImageLabel "Crown"  size={1,0},{1,0}  pos={0.175,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://79726277781384
+            ImageLabel "SunBurst"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://101335357428300  attrs={"Id": "rbxassetid://101335357428300"}
+            UIAspectRatioConstraint "Ratio"  AspectRatio=1
+          TextLabel "Text"  size={0.3,0},{0.125,0}  pos={0.5,0},{0.575,0}  anchor=(0.5,0.5)  nobg  z=7  text="Chat Tags"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#646464  Transparency=0  ApplyStrokeMode=0
+              UIGradient "Gradient"  Color=[0:#379bff 0.1:#37ffff 0.2:#37ff9b 0.3:#37ff37 0.4:#9bff37 0.5:#ffff37 0.6:#ff9b37 0.7:#ff3737 0.8:#ff379b 0.9:#ff37ff 1:#bc37ff]  Rotation=0  Transparency=[0:0 1:0]
+            UIGradient "Gradient"  Color=[0:#379bff 0.1:#37ffff 0.2:#37ff9b 0.3:#37ff37 0.4:#9bff37 0.5:#ffff37 0.6:#ff9b37 0.7:#ff3737 0.8:#ff379b 0.9:#ff37ff 1:#bc37ff]  Rotation=0  Transparency=[0:0 1:0]
+          TextLabel "Text"  size={0.3,0},{0.125,0}  pos={0.5,0},{0.725,0}  anchor=(0.5,0.5)  nobg  z=7  text="Much More!"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        Frame "CashOnly"  size={0.95,0},{0.77,0}  pos={0,0},{0,0}  nobg  z=5
+          Frame "Recive"  size={0.8,0},{0.66,0}  pos={0.5,0},{0.41,0}  anchor=(0.5,0.5)  nobg  z=5
+            Frame "Cash1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Image"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://119496692548587
+              TextLabel "Amount"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=7  text="+$100K"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextButton "Buy"  size={1,0},{1,0}  pos={0.5,0},{1.18,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+                TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+                  UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                UIAspectRatioConstraint "Ratio"  AspectRatio=4
+                ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://139418228897608  attrs={"Id": "rbxassetid://139418228897608"}
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIListLayout "List"  FillDirection=0  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+            Frame "Cash2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Image"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://119496692548587
+              TextLabel "Amount"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=7  text="+$1M"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextButton "Buy"  size={1,0},{1,0}  pos={0.5,0},{1.18,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+                TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+                  UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                UIAspectRatioConstraint "Ratio"  AspectRatio=4
+                ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://139418228897608  attrs={"Id": "rbxassetid://139418228897608"}
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            Frame "Cash3"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Image"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://119496692548587
+                ImageLabel "SunBurst"  size={1.75,0},{1.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://101335357428300  attrs={"Id": "rbxassetid://101335357428300"}
+              TextLabel "Amount"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=7  text="+$10M"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextButton "Buy"  size={1,0},{1,0}  pos={0.5,0},{1.18,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+                UIAspectRatioConstraint "Ratio"  AspectRatio=4
+                TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+                  UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://139418228897608  attrs={"Id": "rbxassetid://139418228897608"}
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          Frame "Design"  size={1,0},{0.95,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff  z=5
+            UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://120342677944790  attrs={"Id": "rbxassetid://95001819963555"}
+            UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+        Frame "ItemsOnly"  size={0.95,0},{0.77,0}  pos={0,0},{0,0}  nobg  z=5
+          Frame "Recive"  size={0.8,0},{0.66,0}  pos={0.5,0},{0.41,0}  anchor=(0.5,0.5)  nobg  z=5
+            Frame "Item1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              UIStroke "Stroke"  Thickness=3  Color=#003550  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://130412104971687
+              TextLabel "Name"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextButton "Buy"  size={1,0},{1,0}  pos={0.5,0},{1.18,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+                TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+                  UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                UIAspectRatioConstraint "Ratio"  AspectRatio=4
+                ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+            UIListLayout "List"  FillDirection=0  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+            Frame "Item2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              UIStroke "Stroke"  Thickness=3  Color=#003550  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://130412104971687
+              TextLabel "Name"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextButton "Buy"  size={1,0},{1,0}  pos={0.5,0},{1.18,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+                TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+                  UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                UIAspectRatioConstraint "Ratio"  AspectRatio=4
+                ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+            Frame "Item3"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              UIStroke "Stroke"  Thickness=3  Color=#003550  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://130412104971687
+                ImageLabel "SunBurst"  size={1.75,0},{1.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://101335357428300  attrs={"Id": "rbxassetid://101335357428300"}
+              TextLabel "Name"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextButton "Buy"  size={1,0},{1,0}  pos={0.5,0},{1.18,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+                TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+                  UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                UIAspectRatioConstraint "Ratio"  AspectRatio=4
+                ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://120342677944790  attrs={"Id": "rbxassetid://95001819963555"}
+            UIGradient "Gradient"  rot=-90  Color=[0:#aa55ff 0.5:#2fd2ff 1:#ffaaff]  Rotation=-90  Transparency=[0:0 1:0]
+        Frame "ProPack"  size={0.95,0},{0.44,0}  pos={0,0},{0,0}  nobg  z=5
+          TextLabel "Name"  size={0.25,0},{0.25,0}  pos={0.85,0},{0.2,0}  anchor=(0.5,0.5)  nobg  z=7  text="Pro Pack"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Text"  size={0.25,0},{0.125,0}  pos={0.85,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=7  text="Limited Time"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+            UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+          Frame "Recive"  size={0.6,0},{0.8,0}  pos={0.35,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5
+            Frame "Item1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://130412104971687
+              TextLabel "Name"  size={0.95,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+            Frame "Item2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://130412104971687
+                ImageLabel "SunBurst"  size={1.75,0},{1.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://101335357428300  attrs={"Id": "rbxassetid://101335357428300"}
+              TextLabel "Name"  size={0.95,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+            Frame "Cash1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://119496692548587
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=7  text="+$10M"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIListLayout "List"  FillDirection=0  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://120342677944790  attrs={"Id": "rbxassetid://95001819963555"}
+            UIGradient "Gradient"  rot=10  Color=[0:#379bff 0.1:#37ffff 0.2:#37ff9b 0.3:#37ff37 0.4:#9bff37 0.5:#ffff37 0.6:#ff9b37 0.7:#ff3737 0.8:#ff379b 0.9:#ff37ff 1:#bc37ff]  Rotation=10  Transparency=[0:0 1:0]
+          TextButton "Buy"  size={0.34,0},{0.34,0}  pos={0.85,0},{0.74,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+            TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="49"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIAspectRatioConstraint "Ratio"  AspectRatio=3
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+        Frame "StarterPack"  size={0.95,0},{0.44,0}  pos={0,0},{0,0}  nobg  z=5
+          TextLabel "Name"  size={0.25,0},{0.25,0}  pos={0.85,0},{0.2,0}  anchor=(0.5,0.5)  nobg  z=7  text="Starter Pack"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          TextLabel "Text"  size={0.25,0},{0.125,0}  pos={0.85,0},{0.4,0}  anchor=(0.5,0.5)  nobg  z=7  text="Limited Time"  font=GothamSSm/900  scaled  tc=#ffffff
+            UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+            UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+          Frame "Recive"  size={0.6,0},{0.8,0}  pos={0.35,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5
+            Frame "Item1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://130412104971687
+              TextLabel "Name"  size={0.95,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+            Frame "Item2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://130412104971687
+                ImageLabel "SunBurst"  size={1.75,0},{1.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://101335357428300  attrs={"Id": "rbxassetid://101335357428300"}
+              TextLabel "Name"  size={0.95,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=7  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              TextLabel "Income"  size={1,0},{0.15,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0.5)  nobg  z=7  text="+?/s"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+                UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+            Frame "Cash1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=6
+              UIAspectRatioConstraint "Ratio"  AspectRatio=1
+              ImageLabel "Image"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://119496692548587
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0.5,0},{0.875,0}  anchor=(0.5,0.5)  nobg  z=7  text="+$100K"  font=GothamSSm/900  scaled  tc=#ffffff
+                UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIListLayout "List"  FillDirection=0  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://120342677944790  attrs={"Id": "rbxassetid://95001819963555"}
+            UIGradient "Gradient"  rot=-90  Color=[0:#aa00ff 0.5:#ff9bff 1:#aa00ff]  Rotation=-90  Transparency=[0:0 1:0]
+          TextButton "Buy"  size={0.34,0},{0.34,0}  pos={0.85,0},{0.74,0}  anchor=(0.5,0.5)  nobg  z=11  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+            TextLabel "Text"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="19"  font=GothamSSm/900  scaled  tc=#ffffff
+              UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+            UIAspectRatioConstraint "Ratio"  AspectRatio=3
+            ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "Title"  size={1,0},{0.14,0}  pos={0.5,0},{0,0}  anchor=(0.5,0.5)  nobg  z=2
+        TextLabel "Shop"  size={0.4,0},{0.6,0}  pos={0.22,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Shop"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_491"}
+          UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "Background"  size={1,0},{1.14,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://131343092776040  attrs={"Id": "rbxassetid://131343092776040"}
+        ImageButton "Close"  size={0.8,0},{0.8,0}  pos={0.95,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=7  attrs={"Id": "3_486"}
+          ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://86216771097425  attrs={"Id": "rbxassetid://86216771097425"}
+          TextLabel "X"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text="X"  font=11702779517/900  scaled  tc=#ffffff  attrs={"Id": "3_490"}
+            UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIAspectRatioConstraint "Ratio"  AspectRatio=1
+  Frame "Effect"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+    ImageLabel "Image1"  size={1,0},{0.2,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=100  img=rbxassetid://131708002708097
+    ImageLabel "Image2"  size={1,0},{0.2,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  nobg  z=100  rot=180  img=rbxassetid://131708002708097
+    ImageLabel "Image3"  size={1,0},{0.2,0}  pos={0.05,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=100  rot=90  img=rbxassetid://131708002708097
+    ImageLabel "Image4"  size={1,0},{0.2,0}  pos={0.95,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=100  rot=-90  img=rbxassetid://131708002708097
+
+==== StarterGui.PlotUpgradeGUI  (12 descendants)
+SurfaceGui "PlotUpgradeGUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextButton "UpgradeButton"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.6,0}  anchor=(0.5,0.5)  nobg  z=6  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+    TextLabel "Price"  size={0.5,0},{0.5,0}  pos={0.6,0},{0.3,0}  anchor=(0.5,0.5)  nobg  z=5  text="$1K"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UIAspectRatioConstraint "Ratio"  AspectRatio=4
+    ImageLabel "Image"  size={0.8,0},{0.8,0}  pos={0.15,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://136911260143012
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    TextLabel "Levels"  size={0.5,0},{0.3,0}  pos={0.6,0},{0.7,0}  anchor=(0.5,0.5)  nobg  z=5  text="0/3"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Gradient"  rot=-90  Color=[0:#00aaff 1:#aaffff]  Rotation=-90  Transparency=[0:0 1:0]
+    TextLabel "Name"  size={0.9,0},{0.7,0}  pos={0.5,0},{-0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="Base Upgrade"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Background"  size={1,0},{1.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://82312491077959  attrs={"Id": "rbxassetid://82312491077959"}
+
+==== Workspace.Upgrades.GUI  (4 descendants)
+BillboardGui "GUI"  size={6,0},{1.5,0}  Enabled=True  Size={6,0},{1.5,0}  StudsOffset=(0,0,0)  MaxDistance=128  AlwaysOnTop=False  Adornee=nil
+  TextLabel "Text"  size={1,0},{1,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=5  text="Upgrades"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIStroke "Stroke"  Thickness=3  Color=#003550  Transparency=0  ApplyStrokeMode=0
+    UIGradient "Gradient"  rot=-90  Color=[0:#00aaff 1:#64ffff]  Rotation=-90  Transparency=[0:0 1:0]
+  UIListLayout "List"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+
+==== Workspace.Sell.GUI  (4 descendants)
+BillboardGui "GUI"  size={6,0},{1.5,0}  Enabled=True  Size={6,0},{1.5,0}  StudsOffset=(0,0,0)  MaxDistance=128  AlwaysOnTop=False  Adornee=nil
+  TextLabel "Text"  size={1,0},{1,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=5  text="Sell"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+    UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+  UIListLayout "List"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+
+==== Workspace.Leaderboards.RebirthsLeaderboard.Leaderboard.Board.SurfaceGui  (3 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ScrollingFrame "ScrollingFrame"  size={0.92,0},{1,0}  pos={0.52,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    UIGridLayout "UIGridLayout"  CellSize={0.96,0},{0.018,0}  CellPadding={0,0},{0.002,0}  FillDirectionMaxCells=0
+    UIPadding "UIPadding"  PaddingTop={0.003,0}  PaddingBottom={0,0}  PaddingLeft={0.02,0}  PaddingRight={0,0}
+
+==== Workspace.Leaderboards.RebirthsLeaderboard.Leaderboard.Board.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=60  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TitleLabel"  size={0.7,0},{0.4,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Most Rebirths"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIStroke "Stroke"  Thickness=6  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.SellNPC.SellGUI  (13 descendants)
+BillboardGui "SellGUI"  size={0,400},{0,250}  Enabled=False  Size={0,400},{0,250}  StudsOffset=(0,0,0)  MaxDistance=32  AlwaysOnTop=True  Adornee=nil
+  ImageButton "SellEquipped"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://84377490592431  imgT=0.75
+    TextLabel "Text"  size={0.8,0},{0.46,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="1. Sell equipped!"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIGradient "Gradient"  rot=-90  Color=[0:#ff5500 0.5:#ffaa00 1:#ffff7f]  Rotation=-90  Transparency=[0:0 1:0]
+      UIStroke "Stroke"  Thickness=3  Color=#503500  Transparency=0  ApplyStrokeMode=0
+  UIListLayout "List"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+  ImageButton "SellInventory"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://84377490592431  imgT=0.75
+    TextLabel "Text"  size={0.8,0},{0.46,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="2. Sell your inventory!"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+  ImageButton "Close"  size={1,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://84377490592431  imgT=0.75
+    TextLabel "Text"  size={0.8,0},{0.46,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="3. Never mind."  font=GothamSSm/900  scaled  tc=#ffffff
+      UIGradient "Gradient"  rot=-90  Color=[0:#ff0000 1:#ff557f]  Rotation=-90  Transparency=[0:0 1:0]
+      UIStroke "Stroke"  Thickness=3  Color=#640000  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.Map.FloorPart.SafeGUI  (6 descendants)
+SurfaceGui "SafeGUI"  Enabled=True  Face=1  PixelsPerStud=7  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={0.25,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    UIListLayout "List"  FillDirection=0  Padding={0.025,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+    ImageLabel "Image"  size={0.7,0},{0.7,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://70809210140115
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    TextLabel "Text"  size={0.5,0},{0.8,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  text="Safe Zone"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0  attrs={"ThicknessUDim": [0.0, 4]}
+
+==== ReplicatedStorage.Templates.UpgradeGUI  (10 descendants)
+SurfaceGui "UpgradeGUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextButton "UpgradeButton"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  text=""  font=SourceSansPro/400  ts=14  tc=#000000  attrs={"Target": "Inventory"}
+    TextLabel "Price"  size={0.5,0},{0.5,0}  pos={0.6,0},{0.3,0}  anchor=(0.5,0.5)  nobg  z=5  text="$1K"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UIAspectRatioConstraint "Ratio"  AspectRatio=4
+    ImageLabel "Image"  size={0.8,0},{0.8,0}  pos={0.15,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  rot=-90  img=rbxassetid://119732550432850
+      UIAspectRatioConstraint "Ratio"  AspectRatio=1
+    TextLabel "Levels"  size={0.5,0},{0.3,0}  pos={0.6,0},{0.7,0}  anchor=(0.5,0.5)  nobg  z=5  text="Level 1 > Level 2"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Gradient"  rot=-90  Color=[0:#00aaff 1:#aaffff]  Rotation=-90  Transparency=[0:0 1:0]
+    ImageLabel "Background"  size={1,0},{1.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://82312491077959  attrs={"Id": "rbxassetid://82312491077959"}
+
+==== ReplicatedStorage.Templates.CollectGUI  (5 descendants)
+SurfaceGui "CollectGUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "CollectFrame"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff
+    UIAspectRatioConstraint "Ratio"  AspectRatio=4
+    TextLabel "Price"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="$1K"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Background"  size={1,0},{1.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://87326447332057  attrs={"Id": "rbxassetid://82312491077959"}
+
+==== ReplicatedStorage.Templates.InfoGUI  (13 descendants)
+BillboardGui "InfoGUI"  size={7,0},{6,0}  Enabled=True  Size={7,0},{6,0}  StudsOffset=(0,0,0)  MaxDistance=128  AlwaysOnTop=False  Adornee=nil
+  Frame "TextLabels"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    UIListLayout "List"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+    TextLabel "Name"  size={0.9,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Name"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Earnings"  size={0.9,0},{0.175,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="+1/s"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIStroke "Stroke"  Thickness=3  Color=#194b00  Transparency=0  ApplyStrokeMode=0
+      UIGradient "Gradient"  rot=-90  Color=[0:#55ff00 1:#ffff00]  Rotation=-90  Transparency=[0:0 1:0]
+    TextLabel "Rarity"  size={0.9,0},{0.175,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Rarity"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIGradient "Gradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0]
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Mutation"  size={0.9,0},{0.15,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Mutation"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIGradient "Gradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0]
+      UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Templates.Plot.Spawn.PlotGUI  (3 descendants)
+BillboardGui "PlotGUI"  size={0,100},{0,40}  Enabled=False  Size={0,100},{0,40}  StudsOffset=(0,10,0)  MaxDistance=4.1e+03  AlwaysOnTop=False  Adornee=nil
+  TextLabel "Text"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg  text="Your Plot"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  ImageLabel "Arrow"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0)  nobg  img=http://www.roblox.com/asset/?id=278544479
+
+==== ReplicatedStorage.Tsunamis.Extra Fast.GUI  (5 descendants)
+BillboardGui "GUI"  size={40,0},{15,0}  Enabled=True  Size={40,0},{15,0}  StudsOffset=(0,0,0)  MaxDistance=256  AlwaysOnTop=True  Adornee=nil
+  UIListLayout "List"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+  TextLabel "Text"  size={1,0},{0.5,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=5  text="Extra Fast"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  ImageLabel "Image"  size={0.5,0},{0.5,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://73681662564916
+    UIAspectRatioConstraint "Ratio"  AspectRatio=1
+
+==== ReplicatedStorage.Tsunamis.Very Fast.GUI  (5 descendants)
+BillboardGui "GUI"  size={40,0},{15,0}  Enabled=True  Size={40,0},{15,0}  StudsOffset=(0,0,0)  MaxDistance=256  AlwaysOnTop=True  Adornee=nil
+  UIListLayout "List"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+  TextLabel "Text"  size={1,0},{0.5,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=5  text="Very Fast"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIStroke "Stroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+  ImageLabel "Image"  size={0.5,0},{0.5,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://132515351123532
+    UIAspectRatioConstraint "Ratio"  AspectRatio=1
+
+==== repeated world GUIs (only the first two were printed)
+BillboardGui "GUI" under Workspace: 5 copies
+SurfaceGui "SurfaceGui" under Workspace: 4 copies
+BillboardGui "GUI" under ReplicatedStorage: 4 copies

@@ -1,0 +1,454 @@
+452 scripts, 53843 lines
+kind     lines  enabled  path
+client     796  yes      scripts/Chat/BubbleChat.client.lua
+module      66  yes      scripts/Chat/ChatModules/ChatCommandsTeller.lua
+module     107  yes      scripts/Chat/ChatModules/ChatFloodDetector.lua
+module     101  yes      scripts/Chat/ChatModules/ChatMessageValidator.lua
+module     182  yes      scripts/Chat/ChatModules/ExtraDataInitializer.lua
+module      82  yes      scripts/Chat/ChatModules/FriendJoinNotifier.lua
+module      25  yes      scripts/Chat/ChatModules/MeCommand.lua
+module     166  yes      scripts/Chat/ChatModules/MuteSpeaker.lua
+module     220  yes      scripts/Chat/ChatModules/PrivateMessaging.lua
+module     191  yes      scripts/Chat/ChatModules/TeamChat.lua
+module      84  yes      scripts/Chat/ChatModules/Utility/DisplayNameHelpers.lua
+client     165  yes      scripts/Chat/ChatScript.client.lua
+module    1140  yes      scripts/Chat/ChatScript/ChatMain.lua
+module     401  yes      scripts/Chat/ChatScript/ChatMain/ChannelsBar.lua
+module     311  yes      scripts/Chat/ChatScript/ChatMain/ChannelsTab.lua
+module     611  yes      scripts/Chat/ChatScript/ChatMain/ChatBar.lua
+module     179  yes      scripts/Chat/ChatScript/ChatMain/ChatChannel.lua
+module     673  yes      scripts/Chat/ChatScript/ChatMain/ChatWindow.lua
+module      71  yes      scripts/Chat/ChatScript/ChatMain/CommandProcessor.lua
+module      79  yes      scripts/Chat/ChatScript/ChatMain/CurveUtil.lua
+module     134  yes      scripts/Chat/ChatScript/ChatMain/MessageLabelCreator.lua
+module     306  yes      scripts/Chat/ChatScript/ChatMain/MessageLogDisplay.lua
+module      33  yes      scripts/Chat/ChatScript/ChatMain/MessageSender.lua
+module      50  yes      scripts/Chat/ChatScript/ChatMain/ObjectPool.lua
+server     452  yes      scripts/Chat/ChatServiceRunner.server.lua
+module     663  yes      scripts/Chat/ChatServiceRunner/ChatChannel.lua
+module     487  yes      scripts/Chat/ChatServiceRunner/ChatService.lua
+module     379  yes      scripts/Chat/ChatServiceRunner/Speaker.lua
+module     111  yes      scripts/Chat/ChatServiceRunner/Util.lua
+module      28  yes      scripts/Chat/ClientChatModules/ChatConstants.lua
+module     125  yes      scripts/Chat/ClientChatModules/ChatLocalization.lua
+module     118  yes      scripts/Chat/ClientChatModules/ChatSettings.lua
+module      22  yes      scripts/Chat/ClientChatModules/CommandModules/ClearMessages.lua
+module      27  yes      scripts/Chat/ClientChatModules/CommandModules/DeveloperConsole.lua
+module      26  yes      scripts/Chat/ClientChatModules/CommandModules/GetVersion.lua
+module     174  yes      scripts/Chat/ClientChatModules/CommandModules/PlayEmote.lua
+module      36  yes      scripts/Chat/ClientChatModules/CommandModules/SwallowGuestChat.lua
+module      56  yes      scripts/Chat/ClientChatModules/CommandModules/SwitchChannel.lua
+module     131  yes      scripts/Chat/ClientChatModules/CommandModules/Team.lua
+module      64  yes      scripts/Chat/ClientChatModules/CommandModules/Util.lua
+module     227  yes      scripts/Chat/ClientChatModules/CommandModules/Whisper.lua
+module     122  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/DefaultChatMessage.lua
+module      74  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/MeCommandMessage.lua
+module      46  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SetCoreMessage.lua
+module      78  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SystemMessage.lua
+module      20  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/UnknownMessage.lua
+module     376  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/Util.lua
+module      72  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WelcomeMessage.lua
+module     115  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WhisperMessage.lua
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv.server.lua
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~2.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~3.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~4.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~5.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~6.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~7.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+server       1  yes      scripts/HttpService/SMPro/ScriptMateEnv~8.server.lua   (same source as scripts/HttpService/SMPro/ScriptMateEnv.server.lua)
+module      37  yes      scripts/ReplicatedStorage/Common/AnyTween.lua
+module      30  yes      scripts/ReplicatedStorage/Common/NumberHelpers.lua   (same source as scripts/StarterGui/ScreenGui/Cashbux/Balance/LocalScript/NumberHelpers.lua)
+module      49  yes      scripts/ReplicatedStorage/Common/Roact.lua
+module     155  yes      scripts/ReplicatedStorage/Common/Roact/Binding.lua
+module     269  yes      scripts/ReplicatedStorage/Common/Roact/Binding.spec.lua
+module     512  yes      scripts/ReplicatedStorage/Common/Roact/Component.lua
+module     290  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/context.spec.lua
+module     125  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/defaultProps.spec.lua
+module      35  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/didMount.spec.lua
+module      91  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/didUpdate.spec.lua
+module      29  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/extend.spec.lua
+module     286  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/getDerivedStateFromProps.spec.lua
+module      67  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/getElementTraceback.spec.lua
+module      41  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/init.spec.lua
+module     203  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/legacyContext.spec.lua
+module     150  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/render.spec.lua
+module     600  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/setState.spec.lua
+module     175  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/shouldUpdate.spec.lua
+module     269  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/validateProps.spec.lua
+module      36  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/willUnmount.spec.lua
+module      93  yes      scripts/ReplicatedStorage/Common/Roact/Component.spec/willUpdate.spec.lua
+module      19  yes      scripts/ReplicatedStorage/Common/Roact/ComponentLifecyclePhase.lua
+module     115  yes      scripts/ReplicatedStorage/Common/Roact/Config.lua
+module      52  yes      scripts/ReplicatedStorage/Common/Roact/Config.spec.lua
+module      51  yes      scripts/ReplicatedStorage/Common/Roact/ElementKind.lua
+module      53  yes      scripts/ReplicatedStorage/Common/Roact/ElementKind.spec.lua
+module     102  yes      scripts/ReplicatedStorage/Common/Roact/ElementUtils.lua
+module      95  yes      scripts/ReplicatedStorage/Common/Roact/ElementUtils.spec.lua
+module       7  yes      scripts/ReplicatedStorage/Common/Roact/GlobalConfig.lua
+module       9  yes      scripts/ReplicatedStorage/Common/Roact/GlobalConfig.spec.lua
+module     159  yes      scripts/ReplicatedStorage/Common/Roact/Logging.lua
+module       7  yes      scripts/ReplicatedStorage/Common/Roact/None.lua
+module      22  yes      scripts/ReplicatedStorage/Common/Roact/NoopRenderer.lua
+module       5  yes      scripts/ReplicatedStorage/Common/Roact/Portal.lua
+module      38  yes      scripts/ReplicatedStorage/Common/Roact/PropMarkers/Change.lua
+module      19  yes      scripts/ReplicatedStorage/Common/Roact/PropMarkers/Change.spec.lua
+module       5  yes      scripts/ReplicatedStorage/Common/Roact/PropMarkers/Children.lua
+module      41  yes      scripts/ReplicatedStorage/Common/Roact/PropMarkers/Event.lua
+module      19  yes      scripts/ReplicatedStorage/Common/Roact/PropMarkers/Event.spec.lua
+module       5  yes      scripts/ReplicatedStorage/Common/Roact/PropMarkers/Ref.lua
+module      41  yes      scripts/ReplicatedStorage/Common/Roact/PureComponent.lua
+module      75  yes      scripts/ReplicatedStorage/Common/Roact/PureComponent.spec.lua
+module     282  yes      scripts/ReplicatedStorage/Common/Roact/RobloxRenderer.lua
+module    1339  yes      scripts/ReplicatedStorage/Common/Roact/RobloxRenderer.spec.lua
+module     145  yes      scripts/ReplicatedStorage/Common/Roact/SingleEventManager.lua
+module     239  yes      scripts/ReplicatedStorage/Common/Roact/SingleEventManager.spec.lua
+module      31  yes      scripts/ReplicatedStorage/Common/Roact/Symbol.lua
+module      25  yes      scripts/ReplicatedStorage/Common/Roact/Symbol.spec.lua
+module      48  yes      scripts/ReplicatedStorage/Common/Roact/Type.lua
+module      24  yes      scripts/ReplicatedStorage/Common/Roact/Type.spec.lua
+module      69  yes      scripts/ReplicatedStorage/Common/Roact/assertDeepEqual.lua
+module     103  yes      scripts/ReplicatedStorage/Common/Roact/assertDeepEqual.spec.lua
+module      27  yes      scripts/ReplicatedStorage/Common/Roact/assign.lua
+module      68  yes      scripts/ReplicatedStorage/Common/Roact/assign.spec.lua
+module     152  yes      scripts/ReplicatedStorage/Common/Roact/createContext.lua
+module     405  yes      scripts/ReplicatedStorage/Common/Roact/createContext.spec.lua
+module      74  yes      scripts/ReplicatedStorage/Common/Roact/createElement.lua
+module     109  yes      scripts/ReplicatedStorage/Common/Roact/createElement.spec.lua
+module      12  yes      scripts/ReplicatedStorage/Common/Roact/createFragment.lua
+module      21  yes      scripts/ReplicatedStorage/Common/Roact/createFragment.spec.lua
+module     501  yes      scripts/ReplicatedStorage/Common/Roact/createReconciler.lua
+module     328  yes      scripts/ReplicatedStorage/Common/Roact/createReconciler.spec.lua
+module      47  yes      scripts/ReplicatedStorage/Common/Roact/createReconcilerCompat.lua
+module      82  yes      scripts/ReplicatedStorage/Common/Roact/createReconcilerCompat.spec.lua
+module      38  yes      scripts/ReplicatedStorage/Common/Roact/createRef.lua
+module      55  yes      scripts/ReplicatedStorage/Common/Roact/createRef.spec.lua
+module      68  yes      scripts/ReplicatedStorage/Common/Roact/createSignal.lua
+module     154  yes      scripts/ReplicatedStorage/Common/Roact/createSignal.spec.lua
+module      78  yes      scripts/ReplicatedStorage/Common/Roact/createSpy.lua
+module      90  yes      scripts/ReplicatedStorage/Common/Roact/createSpy.spec.lua
+module      28  yes      scripts/ReplicatedStorage/Common/Roact/forwardRef.lua
+module     344  yes      scripts/ReplicatedStorage/Common/Roact/forwardRef.spec.lua
+module      54  yes      scripts/ReplicatedStorage/Common/Roact/getDefaultInstanceProperty.lua
+module      33  yes      scripts/ReplicatedStorage/Common/Roact/getDefaultInstanceProperty.spec.lua
+module      65  yes      scripts/ReplicatedStorage/Common/Roact/init.spec.lua
+module       7  yes      scripts/ReplicatedStorage/Common/Roact/internalAssert.lua
+module      38  yes      scripts/ReplicatedStorage/Common/Roact/invalidSetStateMessages.lua
+module      28  yes      scripts/ReplicatedStorage/Common/Roact/oneChild.lua
+module      35  yes      scripts/ReplicatedStorage/Common/Roact/oneChild.spec.lua
+module      22  yes      scripts/ReplicatedStorage/Common/Roact/strict.lua
+module      25  yes      scripts/ReplicatedStorage/Common/Roact/strict.spec.lua
+module     247  yes      scripts/ReplicatedStorage/GiftInbox/Gift.lua
+module      26  yes      scripts/ReplicatedStorage/GiftInbox/GiftInbox.lua
+module     167  yes      scripts/ReplicatedStorage/GiftInbox/OldGift.lua
+module     105  yes      scripts/ReplicatedStorage/Modules/Abbreviate.lua
+module      92  yes      scripts/ReplicatedStorage/Modules/Guis.lua
+module      63  yes      scripts/ReplicatedStorage/Modules/ItemIcons.lua
+module      72  yes      scripts/ReplicatedStorage/Packages/Fusion.lua
+module     217  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/Spring.lua
+module      92  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/SpringScheduler.lua
+module     135  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/Tween.lua
+module      74  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/TweenScheduler.lua
+module      42  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/getTweenRatio.lua
+module     161  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/lerpType.lua
+module      98  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/packType.lua
+module      84  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/springCoefficients.lua
+module      88  yes      scripts/ReplicatedStorage/Packages/Fusion/Animation/unpackType.lua
+module      53  yes      scripts/ReplicatedStorage/Packages/Fusion/Colour/Oklab.lua
+module      55  yes      scripts/ReplicatedStorage/Packages/Fusion/Dependencies/captureDependencies.lua
+module      28  yes      scripts/ReplicatedStorage/Packages/Fusion/Dependencies/initDependency.lua
+module      23  yes      scripts/ReplicatedStorage/Packages/Fusion/Dependencies/sharedState.lua
+module      59  yes      scripts/ReplicatedStorage/Packages/Fusion/Dependencies/updateAll.lua
+module      29  yes      scripts/ReplicatedStorage/Packages/Fusion/Dependencies/useDependency.lua
+module     148  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/Children.lua
+module      20  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/Cleanup.lua
+module      19  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/Hydrate.lua
+module      35  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/New.lua
+module      34  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/OnChange.lua
+module      36  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/OnEvent.lua
+module      42  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/Out.lua
+module      29  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/Ref.lua
+module     126  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/applyInstanceProps.lua
+module     109  yes      scripts/ReplicatedStorage/Packages/Fusion/Instances/defaultProps.lua
+module      32  yes      scripts/ReplicatedStorage/Packages/Fusion/Logging/logError.lua
+module      34  yes      scripts/ReplicatedStorage/Packages/Fusion/Logging/logErrorNonFatal.lua
+module      23  yes      scripts/ReplicatedStorage/Packages/Fusion/Logging/logWarn.lua
+module      45  yes      scripts/ReplicatedStorage/Packages/Fusion/Logging/messages.lua
+module      22  yes      scripts/ReplicatedStorage/Packages/Fusion/Logging/parseError.lua
+module     146  yes      scripts/ReplicatedStorage/Packages/Fusion/PubTypes.lua
+module     113  yes      scripts/ReplicatedStorage/Packages/Fusion/State/Computed.lua
+module     248  yes      scripts/ReplicatedStorage/Packages/Fusion/State/ForKeys.lua
+module     309  yes      scripts/ReplicatedStorage/Packages/Fusion/State/ForPairs.lua
+module     246  yes      scripts/ReplicatedStorage/Packages/Fusion/State/ForValues.lua
+module      83  yes      scripts/ReplicatedStorage/Packages/Fusion/State/Observer.lua
+module      62  yes      scripts/ReplicatedStorage/Packages/Fusion/State/Value.lua
+module      15  yes      scripts/ReplicatedStorage/Packages/Fusion/State/unwrap.lua
+module     146  yes      scripts/ReplicatedStorage/Packages/Fusion/Types.lua
+module      13  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/None.lua
+module      53  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/cleanup.lua
+module      10  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/doNothing.lua
+module      17  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/isSimilar.lua
+module      12  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/needsDestruction.lua
+module      28  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/restrictRead.lua
+module      19  yes      scripts/ReplicatedStorage/Packages/Fusion/Utility/xtypeof.lua
+server       1  yes      scripts/ReplicatedStorage/RobuxNuke/NukeScript.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server       1  NO       scripts/ReplicatedStorage/RobuxNuke/NukeScript/Objects/ConfettiBox/AnimateConfetti.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server       1  yes      scripts/ReplicatedStorage/RobuxNuke/NukeScript/Scripts/SpawnFireworks.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server       1  NO       scripts/ReplicatedStorage/RobuxNuke/NukeScript/Scripts/SpawnFireworks/FireworksRocket/FireworksScript.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server       1  NO       scripts/ReplicatedStorage/RobuxNuke/NukeScript/Scripts/SpawnFireworks/FireworksRocket/FireworksScript/FlareScript.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server      42  yes      scripts/ReplicatedStorage/Templates/AdBlimp/Script.server.lua
+server      92  yes      scripts/ReplicatedStorage/Templates/Blimp/Script.server.lua
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/Fusion.lua
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/HashLib.lua
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/HashLib~2.lua   (same source as scripts/ReplicatedStorage/Templates/Packages/HashLib.lua)
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/Janitor.lua
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/Promise.lua
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/RoactHooks.lua
+module    1355  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/boatbomber_hashlib@1.0.0/hashlib.lua
+module     134  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/boatbomber_hashlib@1.0.0/hashlib/Base64.lua
+module      35  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/boatbomber_hashlib@1.0.0/hashlib/HashLib.spec.lua
+module      25  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion.lua
+module     219  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/Spring.lua
+module     134  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/SpringScheduler.lua
+module      94  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/Tween.lua
+module      74  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/TweenScheduler.lua
+module      40  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/getTweenRatio.lua
+module     139  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/lerpType.lua
+module      90  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/packType.lua
+module     116  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/springCoefficients.lua
+module      78  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Animation/unpackType.lua
+module      51  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Colour/Oklab.lua
+module      65  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Dependencies/captureDependencies.lua
+module      26  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Dependencies/initDependency.lua
+module      24  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Dependencies/sharedState.lua
+module     120  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Dependencies/updateAll.lua
+module      27  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Dependencies/useDependency.lua
+module       9  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Instances/Children.lua
+module     345  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Instances/New.lua
+module      14  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Instances/OnChange.lua
+module      14  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Instances/OnEvent.lua
+module      82  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Instances/Scheduler.lua
+module     107  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Instances/defaultProps.lua
+module      27  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Logging/logError.lua
+module      29  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Logging/logErrorNonFatal.lua
+module      19  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Logging/logWarn.lua
+module      20  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Logging/messages.lua
+module      17  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Logging/parseError.lua
+module      73  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/State/Compat.lua
+module      94  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/State/Computed.lua
+module     219  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/State/ComputedPairs.lua
+module      62  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/State/State.lua
+module      51  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Types.lua
+module       8  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Utility/None.lua
+module      53  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Utility/cleanup.lua
+module     118  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Utility/cleanupOnDestroy.lua
+module     115  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Utility/cleanupOnDestroy_smart.lua
+module      23  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Utility/restrictRead.lua
+module    2068  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/Oldpromise.lua
+module    1844  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/Oldpromise/init.spec.lua
+module    2068  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/promise.lua   (same source as scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/Oldpromise.lua)
+module    1844  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/promise/init.spec.lua   (same source as scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/Oldpromise/init.spec.lua)
+module     257  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/howmanysmall_janitor@1.14.1/janitor.lua
+module      45  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/howmanysmall_janitor@1.14.1/janitor/GetPromiseLibrary.lua
+module      21  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/howmanysmall_janitor@1.14.1/janitor/RbxScriptConnection.lua
+module       9  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/howmanysmall_janitor@1.14.1/janitor/Symbol.lua
+module     142  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks.lua
+module       9  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseBinding.lua
+module      12  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseCallback.lua
+module      47  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseContext.lua
+module      19  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseEffect.lua
+module      26  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseMemo.lua
+module      14  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseReducer.lua
+module      75  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseState.lua
+module      18  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/createUseValue.lua
+module      23  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/kampfkarren_roact-hooks@0.5.0/roact-hooks/dependenciesDifferent.lua
+module     567  yes      scripts/ReplicatedStorage/Templates/Packages/_Index/osyrisrblx_t@3.0.0/t.lua
+module       3  yes      scripts/ReplicatedStorage/Templates/Packages/t.lua
+server      92  yes      scripts/ReplicatedStorage/Templates/PromotionBlimp/Script.server.lua
+client      45  yes      scripts/ReplicatedStorage/Templates/UnclaimedTemplateNew/Animation.client.lua
+client      11  yes      scripts/ReplicatedStorage/VisualPart10M/Appear1.server.lua
+client      48  NO       scripts/ReplicatedStorage/VisualPart10M/Appear2.server.lua
+server       3  yes      scripts/ReplicatedStorage/VisualPart10M/BillboardGuiAnimation/Frame/RobuxLogo/Rotation.server.lua
+server       3  yes      scripts/ReplicatedStorage/VisualPart10M/BillboardGuiAnimation/Frame/Star/Script.server.lua
+server      36  yes      scripts/ServerScriptService/Backpack.server.lua
+server       8  yes      scripts/ServerScriptService/Badge.server.lua
+server     254  yes      scripts/ServerScriptService/Booths/BoothEvents.server.lua
+server     123  yes      scripts/ServerScriptService/Booths/BoothLoader.server.lua
+server     103  yes      scripts/ServerScriptService/Donation/Effects.server.lua
+server     226  yes      scripts/ServerScriptService/Donation/Purchases.server.lua
+server      52  yes      scripts/ServerScriptService/Players/Codes.server.lua
+server      49  yes      scripts/ServerScriptService/Players/HeadTag.server.lua
+server      67  yes      scripts/ServerScriptService/Players/PlayerEvents.server.lua
+module      54  yes      scripts/ServerScriptService/Services/Booth.lua
+server      88  yes      scripts/ServerScriptService/leaderboard/Donated.server.lua
+server      87  yes      scripts/ServerScriptService/leaderboard/Raised.server.lua
+server       1  NO       scripts/ServerStorage/BoothModels/CatalogAvatarCreatorBooth/HatsForBooth/HatEquipper.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server      11  yes      scripts/ServerStorage/BoothModels/CoolBooth/Animation.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/CoolBooth/Animation.server.lua)
+server      11  NO       scripts/ServerStorage/BoothModels/EpicBooth/Booth/Animation.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/EpicBooth/Booth/Animation.server.lua)
+server      36  NO       scripts/ServerStorage/BoothModels/HotBalloonBooth/TweenPart/Animation.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/HotBalloonBooth/TweenPart/Animation.server.lua)
+server      19  NO       scripts/ServerStorage/BoothModels/SoupBooth/Meshes_Booth18_Soup5/Animation.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/SoupBooth/Meshes_Booth18_Soup5/Animation.server.lua)
+server       8  NO       scripts/ServerStorage/BoothModels/StandGrillBooth/Meshes_Booth31_Meat2/Animation.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/StandGrillBooth/Meshes_Booth31_Meat2/Animation.server.lua)
+server       1  NO       scripts/ServerStorage/BoothModels/ThroneBooth/Meshes_Booth34_Crown/Animation.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server      30  yes      scripts/ServerStorage/BoothModels/valkbooth/Model/Black Valk/Script.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Black Valk/Script.server.lua)
+server      30  yes      scripts/ServerStorage/BoothModels/valkbooth/Model/Ice valk hat/Script.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Ice valk hat/Script.server.lua)
+server      33  yes      scripts/ServerStorage/BoothModels/valkbooth/Model/RedValk Giver/Handle/Script.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/RedValk Giver/Handle/Script.server.lua)
+server      31  yes      scripts/ServerStorage/BoothModels/valkbooth/Model/Sparkle Valk/Script.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Sparkle Valk/Script.server.lua)
+server      30  yes      scripts/ServerStorage/BoothModels/valkbooth/Model/Valkyrie Helm/Script.server.lua   (same source as scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Valkyrie Helm/Script.server.lua)
+module    1111  yes      scripts/ServerStorage/Booths.lua
+module      44  yes      scripts/ServerStorage/CustomBooths.lua
+client      45  yes      scripts/ServerStorage/ExampleGifts/New/Animation.client.lua
+server      25  NO       scripts/ServerStorage/FireworkOld/Animate.server.lua
+client      14  yes      scripts/ServerStorage/Tools/Boombox/Atlas_Client.client.lua
+server      19  yes      scripts/ServerStorage/Tools/Boombox/Atlas_Server.server.lua
+server     185  yes      scripts/ServerStorage/Tools/BoosterHammer/MainToolFunction.server.lua
+server       8  yes      scripts/ServerStorage/Tools/BugHammer/Handle/Script.server.lua
+server     162  yes      scripts/ServerStorage/Tools/BugHammer/MainToolFunction.server.lua
+server     198  yes      scripts/ServerStorage/Tools/ChromaHammer/MainToolFunction.server.lua
+client       5  yes      scripts/ServerStorage/Tools/DonateSign/LocalScript.client.lua
+server      14  yes      scripts/ServerStorage/Tools/DonateSign/Script.server.lua
+server     159  yes      scripts/ServerStorage/Tools/PurpleHammer/MainToolFunction.server.lua
+server     159  yes      scripts/ServerStorage/Tools/SmiteHammer/MainToolFunction.server.lua   (same source as scripts/ServerStorage/Tools/PurpleHammer/MainToolFunction.server.lua)
+client       5  yes      scripts/ServerStorage/Tools/hugesign/LocalScript.client.lua   (same source as scripts/ServerStorage/Tools/DonateSign/LocalScript.client.lua)
+server      14  yes      scripts/ServerStorage/Tools/hugesign/Script.server.lua   (same source as scripts/ServerStorage/Tools/DonateSign/Script.server.lua)
+client      53  yes      scripts/ServerStorage/lol/Frame/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/ChatCustomizer.client.lua
+client      25  yes      scripts/StarterGui/ExclusiveBooths/Badges/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/ScreenGui/Cashbux/Balance/LocalScript.client.lua
+module      30  yes      scripts/StarterGui/ScreenGui/Cashbux/Balance/LocalScript/NumberHelpers.lua
+client       4  yes      scripts/StarterGui/ScreenGui/TextButton/LocalScript.client.lua
+client      45  yes      scripts/StarterGui/ScreenGui/Tutorial/LocalScript.client.lua
+client     480  yes      scripts/StarterGui/ScreenGui/main.client.lua
+server       1  NO       scripts/StarterGui/ScreenGui/main/BoothModels/CatalogAvatarCreatorBooth/HatsForBooth/HatEquipper.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server      11  yes      scripts/StarterGui/ScreenGui/main/BoothModels/CoolBooth/Animation.server.lua
+server      11  NO       scripts/StarterGui/ScreenGui/main/BoothModels/EpicBooth/Booth/Animation.server.lua
+server      36  NO       scripts/StarterGui/ScreenGui/main/BoothModels/HotBalloonBooth/TweenPart/Animation.server.lua
+server      19  NO       scripts/StarterGui/ScreenGui/main/BoothModels/SoupBooth/Meshes_Booth18_Soup5/Animation.server.lua
+server       8  NO       scripts/StarterGui/ScreenGui/main/BoothModels/StandGrillBooth/Meshes_Booth31_Meat2/Animation.server.lua
+server       1  NO       scripts/StarterGui/ScreenGui/main/BoothModels/ThroneBooth/Meshes_Booth34_Crown/Animation.server.lua   (same source as scripts/Workspace/Map/Part~2/Script.server.lua)
+server      30  yes      scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Black Valk/Script.server.lua
+server      30  yes      scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Ice valk hat/Script.server.lua
+server      33  yes      scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/RedValk Giver/Handle/Script.server.lua
+server      31  yes      scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Sparkle Valk/Script.server.lua
+server      30  yes      scripts/StarterGui/ScreenGui/main/BoothModels/valkbooth/Model/Valkyrie Helm/Script.server.lua
+client     303  yes      scripts/StarterGui/ScreenGui/nuke.client.lua
+module     208  yes      scripts/StarterGui/ScreenGui/nuke/CameraShaker.lua
+module     168  yes      scripts/StarterGui/ScreenGui/nuke/CameraShaker/CameraShakeInstance.lua
+module     105  yes      scripts/StarterGui/ScreenGui/nuke/CameraShaker/CameraShakePresets.lua
+client     109  NO       scripts/StarterGui/ScreenGui/nuke/Scripts/SpawnFireworks.client.lua
+client     626  yes      scripts/StarterGui/ScreenGui/smiteasf.client.lua
+module     208  yes      scripts/StarterGui/ScreenGui/smiteasf/CameraShaker.lua   (same source as scripts/StarterGui/ScreenGui/nuke/CameraShaker.lua)
+module     168  yes      scripts/StarterGui/ScreenGui/smiteasf/CameraShaker/CameraShakeInstance.lua   (same source as scripts/StarterGui/ScreenGui/nuke/CameraShaker/CameraShakeInstance.lua)
+module     105  yes      scripts/StarterGui/ScreenGui/smiteasf/CameraShaker/CameraShakePresets.lua   (same source as scripts/StarterGui/ScreenGui/nuke/CameraShaker/CameraShakePresets.lua)
+client      72  yes      scripts/StarterGui/Shutdown/Framework.client.lua
+server      39  yes      scripts/StarterPlayer/StarterCharacterScripts/CharacterNoCollide.server.lua
+client      51  yes      scripts/StarterPlayer/StarterCharacterScripts/MainTrampolineScript.client.lua
+client      15  yes      scripts/StarterPlayer/StarterCharacterScripts/Skyboxes.client.lua
+client      89  yes      scripts/StarterPlayer/StarterPlayerScripts/Client.client.lua
+client     152  yes      scripts/StarterPlayer/StarterPlayerScripts/CoinDonation.client.lua
+client     499  yes      scripts/StarterPlayer/StarterPlayerScripts/ProximityPromptScript.client.lua
+client      46  yes      scripts/StarterPlayer/StarterPlayerScripts/ServerMessages.client.lua
+client      58  yes      scripts/StarterPlayer/StarterPlayerScripts/SpeedScriptRunner.client.lua
+server      91  yes      scripts/Workspace/Anonymous/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      23  yes      scripts/Workspace/Avatar scripts/Headless.server.lua
+server      16  yes      scripts/Workspace/Avatar scripts/Korblox.server.lua
+server     177  yes      scripts/Workspace/Avatar scripts/Valk.server.lua
+server      91  yes      scripts/Workspace/Avatar scripts/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      17  yes      scripts/Workspace/Avatar scripts/dominus.server.lua
+server      17  yes      scripts/Workspace/Avatar scripts/fedora.server.lua
+server      17  yes      scripts/Workspace/Avatar scripts/smitehammer.server.lua
+server      91  yes      scripts/Workspace/Bench/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Bench~2/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Bloxikins/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Boomboxes/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Booth/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/BoothInteractions/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Club/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/DiamondHammer/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/FakeRobuxNuke/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/FeatureShop/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Folder/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      59  yes      scripts/Workspace/ForwardPortal/AdPortalEffectsDistributor.server.lua
+client      74  NO       scripts/Workspace/ForwardPortal/AdPortalEffectsDistributor/LocalAdPortalEffectsController.client.lua
+server      91  yes      scripts/Workspace/ForwardPortal/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      59  yes      scripts/Workspace/ForwardPortal~2/AdPortalEffectsDistributor.server.lua   (same source as scripts/Workspace/ForwardPortal/AdPortalEffectsDistributor.server.lua)
+client      74  NO       scripts/Workspace/ForwardPortal~2/AdPortalEffectsDistributor/LocalAdPortalEffectsController.client.lua   (same source as scripts/Workspace/ForwardPortal/AdPortalEffectsDistributor/LocalAdPortalEffectsController.client.lua)
+server      91  yes      scripts/Workspace/ForwardPortal~2/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/GiantCFrame/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+module      42  yes      scripts/Workspace/HD Admin/CustomFeatures/Client/Modules/ClientCommands.lua
+module      31  yes      scripts/Workspace/HD Admin/CustomFeatures/Client/SharedModules/Events.lua
+module     257  yes      scripts/Workspace/HD Admin/Settings.lua
+server       4  yes      scripts/Workspace/HD Admin/Settings/Loader.server.lua
+server      91  yes      scripts/Workspace/HD Admin/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server       7  yes      scripts/Workspace/HD Admin~2/About.server.lua
+module      42  yes      scripts/Workspace/HD Admin~2/CustomFeatures/Client/Modules/ClientCommands.lua   (same source as scripts/Workspace/HD Admin/CustomFeatures/Client/Modules/ClientCommands.lua)
+module      31  yes      scripts/Workspace/HD Admin~2/CustomFeatures/Client/SharedModules/Events.lua   (same source as scripts/Workspace/HD Admin/CustomFeatures/Client/SharedModules/Events.lua)
+module      71  yes      scripts/Workspace/HD Admin~2/CustomFeatures/Server/Modules/Commands.lua
+module     226  yes      scripts/Workspace/HD Admin~2/Settings.lua
+server      14  yes      scripts/Workspace/HD Admin~2/Settings/Loader.server.lua
+server      91  yes      scripts/Workspace/HD Admin~2/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server       1  yes      scripts/Workspace/Map/Part~2/Script.server.lua
+server      91  yes      scripts/Workspace/Model/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      14  yes      scripts/Workspace/NukePlatform/Door/Script.server.lua
+server      57  NO       scripts/Workspace/OminousCountdown/BillboardGui/TextLabel/EventTest.server.lua
+server      11  yes      scripts/Workspace/OminousCountdown/BillboardGui/TextLabel/boom/Script.server.lua
+server       0  yes      scripts/Workspace/Orb/Script.server.lua
+server      16  yes      scripts/Workspace/Orb/Script~2.server.lua
+server      91  yes      scripts/Workspace/Part/_/_.server.lua
+server      10  yes      scripts/Workspace/Part1/Script.server.lua
+server      91  yes      scripts/Workspace/Part1/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      10  yes      scripts/Workspace/Part2/Script.server.lua
+server      91  yes      scripts/Workspace/Part2/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~10/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~11/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~12/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~13/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~14/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~15/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~16/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~17/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~18/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~19/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~2/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~20/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~21/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~22/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~23/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~24/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~25/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~26/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~27/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~28/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~29/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~3/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~30/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~31/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~32/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~33/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~34/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~35/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~36/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~37/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~38/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~39/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~4/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~40/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~41/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~42/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~43/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~44/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~45/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~46/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~47/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~48/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~49/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~5/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~50/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~6/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~7/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~8/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Part~9/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Sign/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Sign~2/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/TeleportA/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/TeleportB/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)
+server      91  yes      scripts/Workspace/Terrain/_/_.server.lua   (same source as scripts/Workspace/Part/_/_.server.lua)

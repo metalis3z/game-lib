@@ -1,0 +1,1 @@
+script.Parent.Parent.TextLabel.Text = "Item - "..script.Parent.Parent.Parent.Parent.Parent.Name..""

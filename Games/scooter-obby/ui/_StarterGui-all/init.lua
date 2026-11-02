@@ -1,0 +1,207 @@
+-- Generated from ui/_StarterGui-all.rbxm by _tools/rbxm2lua.luau
+-- UI builder: local gui = require(this)(); gui.Parent = game.Players.LocalPlayer.PlayerGui (or StarterGui)
+-- Large pack: split into ModuleScript children (Rojo layout). In Studio make init.lua a ModuleScript
+-- and put each PartNN.lua inside it as a ModuleScript named PartNN.
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local parts = { script.Part01, script.Part02, script.Part03, script.Part04, script.Part05 }
+
+local function build()
+	local I = {}
+	for _, part in parts do
+		require(part)(I, new)
+	end
+	I[3526].PrimaryPart = I[3534]
+	I[3530].Part0 = I[3529]
+	I[3530].Part1 = I[3534]
+	I[3533].Part0 = I[3531]
+	I[3533].Part1 = I[3534]
+	I[3541].Part0 = I[3534]
+	I[3541].Part1 = I[3651]
+	I[3542].Part0 = I[3534]
+	I[3542].Part1 = I[3643]
+	I[3543].Part0 = I[3534]
+	I[3543].Part1 = I[3645]
+	I[3544].Part0 = I[3534]
+	I[3544].Part1 = I[3649]
+	I[3545].Part0 = I[3534]
+	I[3545].Part1 = I[3650]
+	I[3546].Part0 = I[3534]
+	I[3546].Part1 = I[3653]
+	I[3547].Part0 = I[3534]
+	I[3547].Part1 = I[3646]
+	I[3548].Part0 = I[3534]
+	I[3548].Part1 = I[3647]
+	I[3549].Part0 = I[3534]
+	I[3549].Part1 = I[3644]
+	I[3550].Part0 = I[3534]
+	I[3550].Part1 = I[3652]
+	I[3551].Part0 = I[3534]
+	I[3551].Part1 = I[3648]
+	I[3552].Part0 = I[3534]
+	I[3552].Part1 = I[3654]
+	I[3553].Part0 = I[3534]
+	I[3553].Part1 = I[3685]
+	I[3554].Part0 = I[3534]
+	I[3554].Part1 = I[3668]
+	I[3555].Part0 = I[3534]
+	I[3555].Part1 = I[3667]
+	I[3556].Part0 = I[3534]
+	I[3556].Part1 = I[3660]
+	I[3557].Part0 = I[3534]
+	I[3557].Part1 = I[3695]
+	I[3558].Part0 = I[3534]
+	I[3558].Part1 = I[3690]
+	I[3559].Part0 = I[3534]
+	I[3559].Part1 = I[3707]
+	I[3560].Part0 = I[3534]
+	I[3560].Part1 = I[3694]
+	I[3561].Part0 = I[3534]
+	I[3561].Part1 = I[3688]
+	I[3562].Part0 = I[3534]
+	I[3562].Part1 = I[3715]
+	I[3563].Part0 = I[3534]
+	I[3563].Part1 = I[3709]
+	I[3564].Part0 = I[3534]
+	I[3564].Part1 = I[3693]
+	I[3565].Part0 = I[3534]
+	I[3565].Part1 = I[3711]
+	I[3566].Part0 = I[3534]
+	I[3566].Part1 = I[3691]
+	I[3567].Part0 = I[3534]
+	I[3567].Part1 = I[3692]
+	I[3568].Part0 = I[3534]
+	I[3568].Part1 = I[3683]
+	I[3569].Part0 = I[3534]
+	I[3569].Part1 = I[3684]
+	I[3570].Part0 = I[3534]
+	I[3570].Part1 = I[3686]
+	I[3571].Part0 = I[3534]
+	I[3571].Part1 = I[3662]
+	I[3572].Part0 = I[3534]
+	I[3572].Part1 = I[3696]
+	I[3573].Part0 = I[3534]
+	I[3573].Part1 = I[3671]
+	I[3574].Part0 = I[3534]
+	I[3574].Part1 = I[3661]
+	I[3575].Part0 = I[3534]
+	I[3575].Part1 = I[3714]
+	I[3576].Part0 = I[3534]
+	I[3576].Part1 = I[3664]
+	I[3577].Part0 = I[3534]
+	I[3577].Part1 = I[3672]
+	I[3578].Part0 = I[3534]
+	I[3578].Part1 = I[3663]
+	I[3579].Part0 = I[3534]
+	I[3579].Part1 = I[3710]
+	I[3580].Part0 = I[3534]
+	I[3580].Part1 = I[3713]
+	I[3581].Part0 = I[3534]
+	I[3581].Part1 = I[3670]
+	I[3582].Part0 = I[3534]
+	I[3582].Part1 = I[3689]
+	I[3583].Part0 = I[3534]
+	I[3583].Part1 = I[3687]
+	I[3584].Part0 = I[3534]
+	I[3584].Part1 = I[3699]
+	I[3585].Part0 = I[3534]
+	I[3585].Part1 = I[3665]
+	I[3586].Part0 = I[3534]
+	I[3586].Part1 = I[3669]
+	I[3587].Part0 = I[3534]
+	I[3587].Part1 = I[3705]
+	I[3588].Part0 = I[3534]
+	I[3588].Part1 = I[3702]
+	I[3589].Part0 = I[3534]
+	I[3589].Part1 = I[3701]
+	I[3590].Part0 = I[3534]
+	I[3590].Part1 = I[3706]
+	I[3591].Part0 = I[3534]
+	I[3591].Part1 = I[3704]
+	I[3592].Part0 = I[3534]
+	I[3592].Part1 = I[3703]
+	I[3593].Part0 = I[3534]
+	I[3593].Part1 = I[3679]
+	I[3594].Part0 = I[3534]
+	I[3594].Part1 = I[3681]
+	I[3595].Part0 = I[3534]
+	I[3595].Part1 = I[3680]
+	I[3596].Part0 = I[3534]
+	I[3596].Part1 = I[3676]
+	I[3597].Part0 = I[3534]
+	I[3597].Part1 = I[3675]
+	I[3598].Part0 = I[3534]
+	I[3598].Part1 = I[3677]
+	I[3599].Part0 = I[3534]
+	I[3599].Part1 = I[3674]
+	I[3600].Part0 = I[3534]
+	I[3600].Part1 = I[3678]
+	I[3601].Part0 = I[3534]
+	I[3601].Part1 = I[3682]
+	I[3603].Part0 = I[3602]
+	I[3603].Part1 = I[3534]
+	I[3605].Part0 = I[3604]
+	I[3605].Part1 = I[3534]
+	I[3607].Part0 = I[3606]
+	I[3607].Part1 = I[3534]
+	I[3609].Part0 = I[3608]
+	I[3609].Part1 = I[3534]
+	I[3611].Part0 = I[3610]
+	I[3611].Part1 = I[3534]
+	I[3613].Part0 = I[3612]
+	I[3613].Part1 = I[3534]
+	I[3615].Part0 = I[3614]
+	I[3615].Part1 = I[3534]
+	I[3617].Part0 = I[3616]
+	I[3617].Part1 = I[3534]
+	I[3619].Part0 = I[3618]
+	I[3619].Part1 = I[3534]
+	I[3621].Part0 = I[3620]
+	I[3621].Part1 = I[3534]
+	I[3623].Part0 = I[3622]
+	I[3623].Part1 = I[3534]
+	I[3625].Part0 = I[3624]
+	I[3625].Part1 = I[3534]
+	I[3627].Part0 = I[3626]
+	I[3627].Part1 = I[3534]
+	I[3629].Part0 = I[3628]
+	I[3629].Part1 = I[3534]
+	I[3631].Part0 = I[3630]
+	I[3631].Part1 = I[3534]
+	I[3633].Part0 = I[3632]
+	I[3633].Part1 = I[3534]
+	I[3635].Part0 = I[3634]
+	I[3635].Part1 = I[3534]
+	I[3637].Part0 = I[3636]
+	I[3637].Part1 = I[3534]
+	I[3639].Part0 = I[3638]
+	I[3639].Part1 = I[3527]
+	I[3641].Part0 = I[3640]
+	I[3641].Part1 = I[3528]
+	return { I[1], I[14], I[16], I[20], I[86], I[99], I[103], I[119], I[321], I[348], I[356], I[361], I[376], I[391], I[401] }
+end
+
+return build

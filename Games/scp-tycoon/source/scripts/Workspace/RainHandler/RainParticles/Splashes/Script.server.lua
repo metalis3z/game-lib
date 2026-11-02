@@ -1,0 +1,1 @@
+script.Parent.Position = Vector3.new(-10.983, 0.285, -12.975)

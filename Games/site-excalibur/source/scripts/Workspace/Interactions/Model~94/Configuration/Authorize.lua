@@ -1,0 +1,26 @@
+return {
+	Tools = {
+		["CL-Omni"] = true,
+		["CL-5"] = true, -- [tool name] = true
+		["CL-4"] = true,
+		["CL-3"] = true,
+		["CL-2"] = false,
+		["CL-1"] = false,
+		["CL-0"] = false,
+	},
+
+	GroupRank = {
+		[0000000] = 0, -- [group id] = minimum rank
+		[0000010] = 0
+	},
+
+	Teams = {
+		["Security Department"] = true, -- [team name] true
+		["Ethics Committee"] = true,
+		["Department of External Affairs"] = false,
+		["Foundation Healthcare"] = true,
+		["Foundation Personnel"] = false,
+		["Scientific Department"] = true,
+		["Class D"] = false,
+	}
+}

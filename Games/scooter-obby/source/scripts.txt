@@ -1,0 +1,836 @@
+834 scripts, 25343 lines
+kind     lines  enabled  path
+client     221  yes      scripts/ReplicatedStorage/CollectionServiceScripts/CheckpointHandler.server.lua
+client      20  yes      scripts/ReplicatedStorage/InventoryAssets/CrateFrame/Button/Script.server.lua
+module     556  yes      scripts/ReplicatedStorage/Module/Scooter.lua
+module     613  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2.lua
+module      15  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/Constants.lua
+module      10  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/DataStoreServiceRetriever.lua
+module       8  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/IsPlayer.lua
+module    1390  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/Promise.lua
+module       4  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/SavingMethods.lua
+module      73  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/SavingMethods/OrderedBackups.lua
+module      33  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/SavingMethods/Standard.lua
+module       7  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/Settings.lua
+module      17  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/TableUtil.lua
+module      80  yes      scripts/ReplicatedStorage/ModuleScripts/DataStore2/Verifier.lua
+module      63  yes      scripts/ReplicatedStorage/ModuleScripts/HoveringModule.lua
+module     174  yes      scripts/ReplicatedStorage/ModuleScripts/Numerics.lua
+client      87  NO       scripts/ReplicatedStorage/Old/CheckpointHandler.server.lua
+client       6  yes      scripts/ReplicatedStorage/Playlist/Script.server.lua
+module      36  yes      scripts/ReplicatedStorage/Shared/Spring.lua
+client      21  yes      scripts/ReplicatedStorage/SpecialFX/ConfettiBlockTracing.server.lua
+server     224  yes      scripts/ServerScriptService/ClaimReward.server.lua
+server      84  yes      scripts/ServerScriptService/Coins + Inv Save.server.lua
+server      28  yes      scripts/ServerScriptService/ColorShift.server.lua
+server     136  yes      scripts/ServerScriptService/CoreScripts/MapGeneration.server.lua
+server     185  yes      scripts/ServerScriptService/CurrencyPurchases.server.lua
+server      23  yes      scripts/ServerScriptService/DataHandler.server.lua
+server      24  yes      scripts/ServerScriptService/GamepassHandler (Coils).server.lua
+server      41  yes      scripts/ServerScriptService/GigaBundleRewarder.server.lua
+server      30  yes      scripts/ServerScriptService/HighestStageSave.server.lua
+module     345  yes      scripts/ServerScriptService/InventoryHandler.lua
+server      39  yes      scripts/ServerScriptService/LBScriptTimer.server.lua
+server      70  yes      scripts/ServerScriptService/Nuke.server.lua
+server      29  NO       scripts/ServerScriptService/Old/HighestStageSave.server.lua
+module     202  yes      scripts/ServerScriptService/Old/InventoryHandler.lua
+module      45  yes      scripts/ServerScriptService/Old/RebirthHandler.lua
+module      34  yes      scripts/ServerScriptService/Old/SkipHandler.lua
+server      31  NO       scripts/ServerScriptService/Old/StageSave.server.lua
+server      60  NO       scripts/ServerScriptService/Old/StageUpdater.server.lua
+module      41  yes      scripts/ServerScriptService/RebirthHandler.lua
+server     123  yes      scripts/ServerScriptService/RequestHandler.server.lua
+server      33  yes      scripts/ServerScriptService/Reset.server.lua
+server      36  yes      scripts/ServerScriptService/Sanity/TeleportDetection.server.lua
+server     431  yes      scripts/ServerScriptService/Server.server.lua
+module      54  yes      scripts/ServerScriptService/SkipHandler.lua
+server      78  NO       scripts/ServerScriptService/Skips/ProductHandler.server.lua
+server      94  yes      scripts/ServerScriptService/SoftShutdown2.server.lua
+server     151  yes      scripts/ServerScriptService/SpinScript.server.lua
+server      31  yes      scripts/ServerScriptService/StageSave.server.lua
+server     102  yes      scripts/ServerScriptService/StageUpdater.server.lua
+server       9  yes      scripts/ServerScriptService/ThrusterScooterAwarder.server.lua
+module      26  yes      scripts/ServerScriptService/UGCHandler.lua
+server      30  yes      scripts/ServerScriptService/VIPHandler.server.lua
+server       4  yes      scripts/ServerScriptService/WaitPrompt.server.lua
+server       9  yes      scripts/ServerScriptService/WelcomeBadge.server.lua
+module       8  yes      scripts/ServerScriptService/WinsHandler.lua
+server      60  yes      scripts/ServerStorage/DailyRewardPhysical/Part/Script.server.lua
+server      47  yes      scripts/ServerStorage/EndTile/Build/Portal 6/Union/Code.server.lua
+client      21  yes      scripts/ServerStorage/Exclusive/Inside/Buy/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/ServerStorage/Exclusive/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/ServerStorage/Exclusive/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client      24  yes      scripts/ServerStorage/GravCoil/GravityCoilVisualizer.server.lua
+client      34  yes      scripts/ServerStorage/OldUi/AnimeZoom/Frame/Script.server.lua   (same source as scripts/StarterGui/AnimeZoom/Frame/Script.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/Confirmation/BoxConfirmation/Main/Inside/Content/No/Back/Button/Script.server.lua   (same source as scripts/StarterGui/Confirmation/BoxConfirmation/Main/Inside/Content/No/Back/Button/Script.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/Confirmation/BoxConfirmation/Main/Inside/Content/Yes/Back/Button/Script.server.lua   (same source as scripts/StarterGui/Confirmation/BoxConfirmation/Main/Inside/Content/Yes/Back/Button/Script.server.lua)
+client       6  yes      scripts/ServerStorage/OldUi/DisableResetButton.client.lua   (same source as scripts/StarterGui/DisableResetButton.client.lua)
+client      69  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/CashNotificationHandler.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/CashNotificationHandler.client.lua)
+client      96  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/InventoryFrame/InventoryFunctions.server.lua
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/InventoryFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client      11  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/InventoryFrame/Main/Inside/Content/LeftSide/EquipButton/Back/Button/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/InventoryFrame/Main/Inside/Content/LeftSide/EquipButton/Back/Button/Script.server.lua)
+client      21  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Menu/Inventory/Back/Button/OpenScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Inventory/Back/Button/OpenScript.server.lua)
+client      21  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Menu/Rebirth/Back/Button/OpenScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Reset/Back/Button/OpenScript.server.lua)
+client      21  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Menu/Settings/Back/Button/OpenScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Setting/Back/Button/OpenScript.server.lua)
+client      61  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Menu/Shop/Back/Button/OpenScript.server.lua
+client      21  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Menu/SkipStage/Back/Button/OpenScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Skip/Back/Button/OpenScript.server.lua)
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Pop-ups/Main/Inside/Content/No/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/No/Back/Button/CloseScript.server.lua)
+client      47  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Back/Button/Initialize.server.lua
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/No/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/No/Back/Button/CloseScript.server.lua)
+client      17  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/Yes/Back/Button/CloseScript.server.lua
+client      11  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ResetGUI/No/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ResetGUI/XButton/Script.server.lua)
+client      11  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ResetGUI/XButton/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ResetGUI/XButton/Script.server.lua)
+client      12  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ResetGUI/Yes/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ResetGUI/Yes/Script.server.lua)
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SettingsFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       8  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SettingsFrame/Main/Inside/Content/CodesFrame/Redeem/Back/Button/CodeButton.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/CodesFrame/Redeem/Back/Button/CodeButton.client.lua)
+client      32  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SettingsFrame/Main/Inside/Content/Holder/Music/Switch/Inside/Button/LocalScript.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/Holder/Music/Switch/Inside/Button/LocalScript.client.lua)
+client       8  NO       scripts/ServerStorage/OldUi/GameGUI/Frame/SettingsFrame/Main/Inside/Content/SettingHint/Handler.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/SettingHint/Handler.client.lua)
+client      11  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SettingsGUI/XButton/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ResetGUI/XButton/Script.server.lua)
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Currency/Back/Button/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Currency/Back/Button/Script.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Gamepasses/Back/Button/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Gamepasses/Back/Button/Script.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Scooters/Back/Button/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Scooters/Back/Button/Script.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Skips/Back/Button/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Skips/Back/Button/Script.server.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox1/BuyCoins/Back/Button/Button.client.lua)
+client     149  NO       scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/BuyCoins/Back/Button/CrateSystem.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox1/BuyCoins/Back/Button/CrateSystem.server.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/100k Coins/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/100k Coins/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/10k Coins/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/10k Coins/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/250k Coins/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/250k Coins/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/25k Coins/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/25k Coins/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/50k Coins/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/50k Coins/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/2x Coins/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/2x Coins/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Disable Pop-Ups/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Disable Pop-Ups/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Fast Scooter/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Fast Scooter/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Gravity Coil/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Gravity Coil/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/MVP/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/WorldTeleport/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/VIP/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/VIP/Inside/Buy/Back/Button/Button.client.lua)
+client      10  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Script.server.lua
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/1 Skip/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/1 Skip/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/10 Skips/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/10 Skips/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/25  Skips/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/5 Skips/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/5 Skips/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/50 Skips/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/50 Skips/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/50 Skips/Inside/Buy/Back/Button/Button.client.lua)
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SkipStageFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       9  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SkipStageFrame/Main/Inside/Content/No/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/No/Back/Button/CloseScript.server.lua)
+client      21  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/SkipStageFrame/Main/Inside/Content/Yes/Back/Button/Initialize.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/SkipStageFrame/Main/Inside/Content/Yes/Back/Button/Initialize.server.lua)
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/CoinsStat/Add/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Add/Button/Button.client.lua)
+client      13  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/CoinsStat/Top/Label/Script.server.lua
+client      42  NO       scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/Handler.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Stat/Handler.client.lua)
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/NukeAll/KillAllScript.server.lua
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/NukeAllServer/KillAllScript.server.lua
+client       3  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/SkipsStat/Top/Add/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Add/Back/Button/Button.client.lua)
+client       5  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/Stat/SkipsStat/Top/Label/Initialize.server.lua   (same source as scripts/StarterGui/Progession/Frame~2/Progress/Top/Label/SkipsAmount.server.lua)
+client       2  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/TopBar/StageBar/Flag/ImageLabel/RotationTween.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/TopBar/StageBar/Flag/ImageLabel/RotationTween.server.lua)
+client      17  yes      scripts/ServerStorage/OldUi/GameGUI/Frame/TopBar/StageBar/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/TopBar/StageBar/Script.server.lua)
+client      70  yes      scripts/ServerStorage/OldUi/LoadingScreen/LocalScript.client.lua   (same source as scripts/StarterGui/LoadingScreen/LocalScript.client.lua)
+client     117  yes      scripts/ServerStorage/OldUi/SpeedrunTimerGUI/MainScript.client.lua   (same source as scripts/StarterGui/SpeedrunTimerGUI/MainScript.client.lua)
+client      25  yes      scripts/ServerStorage/OutOfRotation/Acid/Build/BouncePad/Script.server.lua
+client      25  yes      scripts/ServerStorage/OutOfRotation/Acid/Build/BouncePad~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/BouncePad/Script.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Acid/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Acid/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads/Script.server.lua
+client      22  yes      scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua
+client      36  yes      scripts/ServerStorage/OutOfRotation/Chunk2/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/OutOfRotation/Chunk3/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Chunk5/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Chunk5/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Chunk5/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      25  yes      scripts/ServerStorage/OutOfRotation/Cubes/Build/BouncePads/Script.server.lua
+client      36  yes      scripts/ServerStorage/OutOfRotation/Cubes/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Cubes/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Cubes/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Cubes/Build/KillBrick~4/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Cubes/Build/KillBrick~5/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      25  yes      scripts/ServerStorage/OutOfRotation/First/Build/BouncePads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Cubes/Build/BouncePads/Script.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/First/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/OutOfRotation/First/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads/Script.server.lua)
+client      22  yes      scripts/ServerStorage/OutOfRotation/First/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads/Script.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~4/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~5/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~6/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~7/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/OutOfRotation/Up/Build/KillBrick~8/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/OutOfRotation/Up/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads/Script.server.lua)
+client      22  yes      scripts/ServerStorage/OutOfRotation/Up/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Skibidi Toilet Scooter/Bathroom Toilet/Handle/Script.server.lua
+client      24  yes      scripts/ServerStorage/SpeedCoil/GravityCoilVisualizer.server.lua
+client      38  yes      scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Code.server.lua
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Script.server.lua
+client      38  yes      scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad~2/Moving Pad/Code.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad~2/Moving Pad/Script.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Script.server.lua)
+client      38  yes      scripts/ServerStorage/StagesInRotation/Chunk11/Build/MovingPad/Moving Pad/Code.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk11/Build/MovingPad/Moving Pad/Script.server.lua
+client      38  yes      scripts/ServerStorage/StagesInRotation/Chunk11/Build/MovingPad~2/Moving Pad/Code.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk11/Build/MovingPad~2/Moving Pad/Script.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk11/Build/MovingPad/Moving Pad/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk12/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk12/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk12/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk14/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk15/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk16/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk18/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk2/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      33  yes      scripts/ServerStorage/StagesInRotation/Chunk20/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk20/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk21/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk23/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk24/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk25/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk26/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk28/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk28/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk29/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk3/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      33  yes      scripts/ServerStorage/StagesInRotation/Chunk30/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk30/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      33  yes      scripts/ServerStorage/StagesInRotation/Chunk31/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk31/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      33  yes      scripts/ServerStorage/StagesInRotation/Chunk33/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk33/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk34/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      38  yes      scripts/ServerStorage/StagesInRotation/Chunk35/Build/MovingPad/MovingPad/Code.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk35/Build/MovingPad/MovingPad/Script.server.lua
+client      38  yes      scripts/ServerStorage/StagesInRotation/Chunk35/Build/MovingPad~2/MovingPad/Code.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk10/Build/MovingPad/Moving Pad/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk35/Build/MovingPad~2/MovingPad/Script.server.lua   (same source as scripts/ServerStorage/StagesInRotation/Chunk35/Build/MovingPad/MovingPad/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick~4/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick~5/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick~6/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk36/Build/KillBrick~7/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk37/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk39/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk40/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk42/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk42/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk43/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk44/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk46/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk48/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk48/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk48/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      33  yes      scripts/ServerStorage/StagesInRotation/Chunk49/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk49/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk5/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk5/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk5/Build/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk50/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      39  yes      scripts/ServerStorage/StagesInRotation/Chunk6/Build/Model/RotatingPad/HB/Code.server.lua
+client       6  yes      scripts/ServerStorage/StagesInRotation/Chunk6/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/StagesInRotation/Chunk7/Build/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk8/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk9/Build/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/ServerStorage/StagesInRotation/Chunk9/Build/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk1/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk1/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk1/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk1/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk1/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk1/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk11/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk11/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk11/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua
+client      32  yes      scripts/ServerStorage/World2/Chunk12/Build/KillBrick~2/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk12/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk12/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk13/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk13/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk13/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk16/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk16/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk16/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk16/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk16/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk20/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk20/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk23/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk23/Build/KillBrick~2/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk23/Build/KillBrick~3/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk23/Build/KillBrick~4/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk24/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk24/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk24/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk25/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk25/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk25/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk25/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk25/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk25/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk26/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk26/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk26/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk26/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk26/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk26/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      33  yes      scripts/ServerStorage/World2/Chunk27/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/World2/Chunk27/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk28/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~7/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk3/Build/SpeedPads~8/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk3/Build/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk30/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk30/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk30/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk30/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk30/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk30/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk31/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk31/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk31/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk32/Build/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk33/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk33/Build/KillBrick~2/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk33/Build/KillBrick~3/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk33/Build/KillBrick~4/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk34/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk34/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk34/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk34/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk34/Build/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk36/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk36/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk36/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk36/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk37/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk38/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      33  yes      scripts/ServerStorage/World2/Chunk39/Build/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/ServerStorage/World2/Chunk39/Build/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk4/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk4/Build/KillBrick~2/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk4/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk4/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk40/Build/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~10/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~11/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~12/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~13/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~14/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~15/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~16/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~17/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~18/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~19/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~20/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~21/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~22/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~23/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~24/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~25/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~26/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~27/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~7/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~8/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk5/Build/SpeedPads~9/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk6/Build/KillBrick/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk6/Build/KillBrick~2/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk6/Build/KillBrick~3/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      32  yes      scripts/ServerStorage/World2/Chunk6/Build/KillBrick~4/Code.server.lua   (same source as scripts/ServerStorage/World2/Chunk12/Build/KillBrick/Code.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk7/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk7/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk7/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/ServerStorage/World2/Chunk7/Build/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~2/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~3/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~4/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~5/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~6/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~7/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~8/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      22  yes      scripts/ServerStorage/World2/Chunk9/Build/SpeedPads~9/Script.server.lua   (same source as scripts/ServerStorage/OutOfRotation/Acid/Build/SpeedPads~2/Script.server.lua)
+client      10  yes      scripts/ServerStorage/Worlds/Portal 2/Union/SurfaceGui/Frame/Cost/Script.server.lua
+server      46  yes      scripts/ServerStorage/Worlds/Portal 2/Union/WorldTPCode.server.lua
+client      34  yes      scripts/StarterGui/AnimeZoom/Frame/Script.server.lua
+client       3  yes      scripts/StarterGui/Confirmation/BoxConfirmation/Main/Inside/Close/Back/Button/Script.server.lua
+client       3  yes      scripts/StarterGui/Confirmation/BoxConfirmation/Main/Inside/Content/No/Back/Button/Script.server.lua
+client       3  yes      scripts/StarterGui/Confirmation/BoxConfirmation/Main/Inside/Content/Yes/Back/Button/Script.server.lua
+client      19  yes      scripts/StarterGui/Countdown/Frame/TextLabel/CountdownCode.client.lua
+client      11  yes      scripts/StarterGui/Countdown/Frame/TextLabel~2/Visiblity.client.lua
+client       6  yes      scripts/StarterGui/DisableResetButton.client.lua
+client      69  yes      scripts/StarterGui/GameGUI/Frame/CashNotificationHandler.client.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/GigaBundleFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client      34  yes      scripts/StarterGui/GameGUI/Frame/GigaBundleFrame/Main/Inside/Close/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/GigaBundleFrame/Main/Inside/Content/LeftSide/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/GigaBundleFrame/Main/Inside/Content/LeftSide/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client     100  yes      scripts/StarterGui/GameGUI/Frame/InventoryFrame/InventoryFunctions.server.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/InventoryFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client      11  yes      scripts/StarterGui/GameGUI/Frame/InventoryFrame/Main/Inside/Content/LeftSide/EquipButton/Back/Button/Script.server.lua
+client      33  yes      scripts/StarterGui/GameGUI/Frame/Menu/Gifts/Top/ClaimButton/ClaimIn.client.lua
+client      21  yes      scripts/StarterGui/GameGUI/Frame/Menu/Gifts/Top/ClaimButton/OpenScript.server.lua
+client      22  yes      scripts/StarterGui/GameGUI/Frame/Menu/Gifts/Top/ImageHolder/GiftCounter/Back/Top/Label/ClaimIn.client.lua
+client      21  yes      scripts/StarterGui/GameGUI/Frame/Menu/Inventory/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Menu/Inventory/Back/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client      21  yes      scripts/StarterGui/GameGUI/Frame/Menu/Reset/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Menu/Reset/Back/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client      21  yes      scripts/StarterGui/GameGUI/Frame/Menu/Setting/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Menu/Setting/Back/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client      61  yes      scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client       7  yes      scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua
+client      21  yes      scripts/StarterGui/GameGUI/Frame/Menu/Skip/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Menu/Skip/Back/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client      24  yes      scripts/StarterGui/GameGUI/Frame/Menu/Spin/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Menu/Spin/Back/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client      14  yes      scripts/StarterGui/GameGUI/Frame/Menu/Spin/Back/Top/ImageLabel/UiRotating.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/ClaimAll/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward1/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward1/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward10/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward10/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward11/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward11/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward12/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward12/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward2/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward2/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward3/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward3/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward4/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward4/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward5/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward5/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward6/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward6/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward7/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward7/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward8/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward8/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      58  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward9/Inside/Claim/Back/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Content/Inside/Reward9/Inside/Claim/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/PlayTimeRewards/Main/Inside/Top/Top/TextButton/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/No/Back/Button/CloseScript.server.lua
+client       6  yes      scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/PassName/UIStroke/UIGradient/Script.server.lua
+client      22  yes      scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua
+client      56  yes      scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Back/Button/Initialize.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua
+client       6  yes      scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/UIStroke/UIGradient/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/PassName/UIStroke/UIGradient/Script.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/No/Back/Button/CloseScript.server.lua
+client      13  yes      scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/Yes/Back/Button/CloseScript.server.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/ResetMain/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/ResetMain/Inside/Content/No/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/No/Back/Button/CloseScript.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/ResetMain/Inside/Content/Yes/Back/Button/CloseScript.server.lua
+client      11  yes      scripts/StarterGui/GameGUI/Frame/ResetGUI/No/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ResetGUI/XButton/Script.server.lua)
+client      11  yes      scripts/StarterGui/GameGUI/Frame/ResetGUI/XButton/Script.server.lua
+client      12  yes      scripts/StarterGui/GameGUI/Frame/ResetGUI/Yes/Script.server.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       8  yes      scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/CodesFrame/Redeem/Back/Button/CodeButton.client.lua
+client      32  yes      scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/Holder/Music/Switch/Inside/Button/LocalScript.client.lua
+client       8  NO       scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/SettingHint/Handler.client.lua
+client      11  yes      scripts/StarterGui/GameGUI/Frame/SettingsGUI/XButton/Script.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ResetGUI/XButton/Script.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Close/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client       3  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Currency/Back/Button/Script.server.lua
+client      40  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Currency/Tweens.server.lua
+client       3  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Gamepasses/Back/Button/Script.server.lua
+client      40  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Gamepasses/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Scooters/Tweens.server.lua)
+client       3  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Scooters/Back/Button/Script.server.lua
+client      40  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Scooters/Tweens.server.lua
+client       3  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Skips/Back/Button/Script.server.lua
+client      40  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Skips/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/LeftSide/Inside/Currency/Tweens.server.lua)
+client     266  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/ClassicBox1/BuyCoins/Back/Button/CrateSystem.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/ClassicBox1/BuyCoins/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      40  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/Neon Box1/BuyCoins/Back/Button/CrateSystem.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/Neon Box1/BuyCoins/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox1/BuyCoins/Back/Button/Button.client.lua
+client     149  NO       scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox1/BuyCoins/Back/Button/CrateSystem.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox1/BuyCoins/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox2/BuyCoins/Back/Button/Button.client.lua
+client     149  NO       scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox2/BuyCoins/Back/Button/CrateSystem.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox1/BuyCoins/Back/Button/CrateSystem.server.lua)
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/SuperBox2/BuyCoins/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/CrateFrame/UGCBox/BuyCoins/Back/Button/Button.client.lua
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/100k Coins/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/100k Coins/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/100k Coins/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/10k Coins/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/10k Coins/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/10k Coins/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/250k Coins/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/250k Coins/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/250k Coins/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/25k Coins/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/25k Coins/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/25k Coins/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/50k Coins/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/50k Coins/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Currency/Inside/50k Coins/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Exclusive/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client      11  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured1/Inside/Buy/Back/Button/Open_Close_Script.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured1/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured1/Tweens.server.lua
+client      11  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured2/Inside/Buy/Back/Button/Open_Close_Script.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured2/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured2/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured1/Tweens.server.lua)
+client      11  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured3/Inside/Buy/Back/Button/Open_Close_Script.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured3/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured3/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured1/Tweens.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/2x Rebirth/Inside/Buy/Back/Button/Button.client.lua
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/GigaBundle/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/WorldTeleport/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/2x Coins/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/2x Coins/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/2x Coins/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Disable Pop-Ups/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Disable Pop-Ups/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Disable Pop-Ups/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Fast Scooter/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Fast Scooter/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Fast Scooter/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Gravity Coil/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Gravity Coil/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Gravity Coil/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Speed Coil/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Speed Coil/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/Speed Coil/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/VIP/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/VIP/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Inside/VIP/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/Super Coil/Inside/Buy/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/WorldTeleport/Inside/Buy/Back/Button/Button.client.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Gamepasses/WorldTeleport/Inside/Buy/Back/Button/Button.client.lua
+client      17  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Script.server.lua
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/1 Skip/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/1 Skip/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/1 Skip/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/10 Skips/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/10 Skips/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/10 Skips/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/25  Skips/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/25  Skips/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/25  Skips/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/5 Skips/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/5 Skips/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/5 Skips/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/50 Skips/Inside/Buy/Back/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/50 Skips/Inside/Buy/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/Yes/Tweens.server.lua)
+client      22  yes      scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Skips/Inside/50 Skips/TweensNoAc.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/Pop-ups/Main/Inside/Content/TweensNoAc.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/SkipStageFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       9  yes      scripts/StarterGui/GameGUI/Frame/SkipStageFrame/Main/Inside/Content/No/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Content/No/Back/Button/CloseScript.server.lua)
+client      21  yes      scripts/StarterGui/GameGUI/Frame/SkipStageFrame/Main/Inside/Content/Yes/Back/Button/Initialize.server.lua
+client       3  yes      scripts/StarterGui/GameGUI/Frame/SkipStageFrame/SkipsStat/Top/Add/Back/Button/Button.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Add/Back/Button/Button.client.lua)
+client       6  yes      scripts/StarterGui/GameGUI/Frame/SkipStageFrame/SkipsStat/Top/Label/Initialize.server.lua
+client      42  NO       scripts/StarterGui/GameGUI/Frame/Stat/Handler.client.lua
+client       3  yes      scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Add/Back/Button/Button.client.lua
+client       3  yes      scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Add/Button/Button.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Add/Button/Tweens.server.lua   (same source as scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua)
+client      11  yes      scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Label/LocalScript.client.lua
+client       5  NO       scripts/StarterGui/GameGUI/Frame/Stat/SkipsStat/Top/Label/SkipsAmount.server.lua   (same source as scripts/StarterGui/Progession/Frame~2/Progress/Top/Label/SkipsAmount.server.lua)
+client       2  yes      scripts/StarterGui/GameGUI/Frame/TopBar/StageBar/Flag/ImageLabel/RotationTween.server.lua
+client      17  yes      scripts/StarterGui/GameGUI/Frame/TopBar/StageBar/Script.server.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/UGCFrame/Main/Inside/Close/Back/Button/CloseScript.server.lua   (same source as scripts/StarterGui/GameGUI/Frame/RebirthConfirmation/Main/Inside/Close/Back/Button/CloseScript.server.lua)
+client       8  NO       scripts/StarterGui/GameGUI/Frame/UGCFrame/Main/Inside/Content/SettingHint/Handler.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/SettingsFrame/Main/Inside/Content/SettingHint/Handler.client.lua)
+client      31  yes      scripts/StarterGui/GameGUI/Frame/UGCFrame/Script.server.lua
+client       9  yes      scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/Close/CloseScript.server.lua
+client      10  yes      scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/Spin1/LocalScript.client.lua
+client      42  NO       scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/Spin1/NextSpin/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/Spin1/Spins/LocalScript.client.lua
+client      21  yes      scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/UGCClaim/Back/Button/OpenScript.server.lua
+client      96  NO       scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/Wheel.client.lua
+client      83  yes      scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/WheelSpin.client.lua
+client       8  yes      scripts/StarterGui/GameGUI/Frame/WheelSpin/Container/x2Spin/Open_Close_Script.client.lua
+client      21  yes      scripts/StarterGui/GameGUI/GigaBundle/Back/Button/OpenScript.server.lua
+client      34  yes      scripts/StarterGui/GameGUI/GigaBundle/Back/Button/Tweens.server.lua
+client       7  yes      scripts/StarterGui/GameGUI/GigaBundle/Back/Top/Label~2/UIGradient/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua)
+client       7  yes      scripts/StarterGui/GameGUI/GigaBundle/Back/Top/Sparklies/UIGradient/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua)
+client       7  yes      scripts/StarterGui/GameGUI/GravityCoil/Background/Spin.client.lua
+client       7  yes      scripts/StarterGui/GameGUI/GravityCoil/Background2/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua)
+client      11  yes      scripts/StarterGui/GameGUI/GravityCoil/Open_Close_Script.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured1/Inside/Buy/Back/Button/Open_Close_Script.client.lua)
+client      34  yes      scripts/StarterGui/GameGUI/GravityCoil/Tweens.server.lua
+client       7  yes      scripts/StarterGui/GameGUI/NoPopupAds/Background/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/GravityCoil/Background/Spin.client.lua)
+client       7  yes      scripts/StarterGui/GameGUI/NoPopupAds/Background2/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua)
+client      11  yes      scripts/StarterGui/GameGUI/NoPopupAds/Open_Close_Script.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/NoPopupAds/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/GravityCoil/Tweens.server.lua)
+client       7  yes      scripts/StarterGui/GameGUI/NukeServer/Background/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/GravityCoil/Background/Spin.client.lua)
+client       7  yes      scripts/StarterGui/GameGUI/NukeServer/Background2/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua)
+client      11  yes      scripts/StarterGui/GameGUI/NukeServer/Open_Close_Script.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/ShopFrame/Main/Inside/Content/RightSide/Inside/Featured/Inside/Featured3/Inside/Buy/Back/Button/Open_Close_Script.client.lua)
+client      34  yes      scripts/StarterGui/GameGUI/NukeServer/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/GravityCoil/Tweens.server.lua)
+client       7  yes      scripts/StarterGui/GameGUI/SpeedCoil/Background/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/GravityCoil/Background/Spin.client.lua)
+client       7  yes      scripts/StarterGui/GameGUI/SpeedCoil/Background2/Spin.client.lua   (same source as scripts/StarterGui/GameGUI/Frame/Menu/Shop/Back/Top/Label~2/UIGradient/Spin.client.lua)
+client      11  yes      scripts/StarterGui/GameGUI/SpeedCoil/Open_Close_Script.client.lua
+client      34  yes      scripts/StarterGui/GameGUI/SpeedCoil/Tweens.server.lua   (same source as scripts/StarterGui/GameGUI/GravityCoil/Tweens.server.lua)
+client      70  yes      scripts/StarterGui/LoadingScreen/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/OpenSpin/OpenSpin/Button/LocalScript.client.lua
+client      34  yes      scripts/StarterGui/OpenSpin/OpenSpin/Button/Tweens.server.lua
+client       3  yes      scripts/StarterGui/OpenSpin/OpenSpin/ImageLabel/LocalScript.client.lua
+client       6  yes      scripts/StarterGui/OpenSpin/OpenSpin/TextLabel/LocalScript.client.lua
+client      48  yes      scripts/StarterGui/Progession/BarVisuals.client.lua
+client      15  yes      scripts/StarterGui/Progession/Frame~2/Progress/Top/ImageHolder/ImageLabel/LocalScript.client.lua
+client      13  yes      scripts/StarterGui/Progession/Frame~2/Progress/Top/Label/LocalScript.client.lua
+client       5  NO       scripts/StarterGui/Progession/Frame~2/Progress/Top/Label/SkipsAmount.server.lua
+client      46  yes      scripts/StarterGui/Progession/PlayerVisualiser.client.lua
+client     117  yes      scripts/StarterGui/SpeedrunTimerGUI/MainScript.client.lua
+client      17  yes      scripts/StarterPlayer/StarterCharacterScripts/CameraScript.client.lua
+client      75  yes      scripts/StarterPlayer/StarterCharacterScripts/Popups.client.lua
+client       6  yes      scripts/StarterPlayer/StarterCharacterScripts/Run.client.lua
+client      28  yes      scripts/StarterPlayer/StarterCharacterScripts/ScooterScript.client.lua
+client      18  yes      scripts/StarterPlayer/StarterPlayerScripts/GetPolicyInfo.client.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/SpeedAnnouncement.client.lua
+client       1  yes      scripts/StarterPlayer/StarterPlayerScripts/StrokeScalerScript.client.lua
+module     189  yes      scripts/StarterPlayer/StarterPlayerScripts/StrokeScalerScript/UIStrokeAdjuster.lua
+client      25  yes      scripts/StarterPlayer/StarterPlayerScripts/VIPNames.client.lua
+client       0  NO       scripts/Teams/CameraScript.client.lua
+client       0  NO       scripts/Teams/ControlScript.client.lua
+client      24  yes      scripts/Workspace/Chunk51/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk51/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk51/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk51/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk51/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk51/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Chunk51/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk53/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk53/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk53/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk53/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk53/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk53/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Chunk53/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      33  yes      scripts/Workspace/Chunk55/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/Workspace/Chunk55/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      36  yes      scripts/Workspace/Chunk57/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk58/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk58/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk60/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/Workspace/Chunk62/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk62/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk62/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk62/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk62/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk62/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Chunk62/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk65/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk65/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk65/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk65/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk65/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk65/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Chunk65/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      33  yes      scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua
+client       6  yes      scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua
+client      36  yes      scripts/Workspace/Chunk72/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      33  yes      scripts/Workspace/Chunk73/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/Workspace/Chunk73/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      36  yes      scripts/Workspace/Chunk76/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk77/KillBrick/Code.server.lua
+client      36  yes      scripts/Workspace/Chunk77/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk77/KillBrick~3/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua
+client      24  yes      scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua
+client      24  yes      scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua
+client      24  yes      scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua
+client      24  yes      scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua
+client      24  yes      scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua
+client       9  yes      scripts/Workspace/Chunk87/SwingingBall/Script.server.lua
+client      36  yes      scripts/Workspace/Chunk88/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk88/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/Workspace/Chunk93/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk93/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk93/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk93/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk93/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk93/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Chunk93/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      36  yes      scripts/Workspace/Chunk94/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk94/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk95/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk95/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk96/KillBrick/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      36  yes      scripts/Workspace/Chunk96/KillBrick~2/Code.server.lua   (same source as scripts/Workspace/Chunk77/KillBrick/Code.server.lua)
+client      24  yes      scripts/Workspace/Chunk97/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk97/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk97/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk97/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk97/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Chunk97/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Chunk97/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client       5  yes      scripts/Workspace/Lobby/BeforeLoadedWall/SurfaceGui/Frame/TextLabel/Script.server.lua
+server      20  yes      scripts/Workspace/Lobby/Main Portal Template/BasePortal/AttributesController.server.lua
+client      62  yes      scripts/Workspace/Lobby/Main Portal Template/Decorative/AdPortalEffectsController.server.lua
+server      14  yes      scripts/Workspace/Lobby/Main Portal Template/Decorative/AttributesController.server.lua
+server      63  yes      scripts/Workspace/Lobby/TopRunLeaderboard/Board/Main/Script.server.lua
+server      59  yes      scripts/Workspace/Lobby/TopWinsLeaderboard/Board/Main/Script.server.lua
+client      33  yes      scripts/Workspace/Model~2/Model/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/Workspace/Model~2/Model/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      33  yes      scripts/Workspace/Model~2/Model~4/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/Workspace/Model~2/Model~4/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      33  yes      scripts/Workspace/Model~2/Model~8/RotatingPad/HB/Code.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Code.server.lua)
+client       6  yes      scripts/Workspace/Model~2/Model~8/RotatingPad/HB/Script.server.lua   (same source as scripts/Workspace/Chunk68/Model/RotatingPad/HB/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Model~2/SwingingBall/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall~2/Hitter1/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter1/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall~2/Hitter2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter2/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall~2/Hitter3/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter3/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall~2/Hitter4/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter4/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall~2/Hitter5/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter5/Script.server.lua)
+client      24  yes      scripts/Workspace/Model~2/SwingingBall~2/Hitter6/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Hitter6/Script.server.lua)
+client       9  yes      scripts/Workspace/Model~2/SwingingBall~2/Script.server.lua   (same source as scripts/Workspace/Chunk87/SwingingBall/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~10/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~11/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~12/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~13/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~2/Script.server.lua
+client       7  yes      scripts/Workspace/Texture~3/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~4/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~5/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~6/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~7/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~8/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)
+client       7  yes      scripts/Workspace/Texture~9/Script.server.lua   (same source as scripts/Workspace/Texture~2/Script.server.lua)

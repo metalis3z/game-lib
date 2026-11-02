@@ -1,0 +1,79 @@
+77 scripts, 5265 lines
+kind     lines  enabled  path
+module      28  yes      scripts/Chat/ClientChatModules/ChatConstants.lua
+module     112  yes      scripts/Chat/ClientChatModules/ChatLocalization.lua
+module     109  yes      scripts/Chat/ClientChatModules/ChatSettings.lua
+module      21  yes      scripts/Chat/ClientChatModules/CommandModules/ClearMessages.lua
+module      26  yes      scripts/Chat/ClientChatModules/CommandModules/DeveloperConsole.lua
+module      25  yes      scripts/Chat/ClientChatModules/CommandModules/GetVersion.lua
+module     154  yes      scripts/Chat/ClientChatModules/CommandModules/PlayEmote.lua
+module      34  yes      scripts/Chat/ClientChatModules/CommandModules/SwallowGuestChat.lua
+module      54  yes      scripts/Chat/ClientChatModules/CommandModules/SwitchChannel.lua
+module     130  yes      scripts/Chat/ClientChatModules/CommandModules/Team.lua
+module      63  yes      scripts/Chat/ClientChatModules/CommandModules/Util.lua
+module     195  yes      scripts/Chat/ClientChatModules/CommandModules/Whisper.lua
+module     112  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/DefaultChatMessage.lua
+module      72  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/MeCommandMessage.lua
+module      45  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SetCoreMessage.lua
+module      76  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/SystemMessage.lua
+module      19  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/UnknownMessage.lua
+module     375  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/Util.lua
+module      69  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WelcomeMessage.lua
+module     104  yes      scripts/Chat/ClientChatModules/MessageCreatorModules/WhisperMessage.lua
+client      30  yes      scripts/ReplicatedFirst/ChatCustomize.client.lua
+client       9  yes      scripts/ReplicatedFirst/LocalScript.client.lua
+server       9  yes      scripts/ServerScriptService/Age Limit.server.lua
+server      69  yes      scripts/ServerScriptService/CustomCommands.server.lua
+server      48  yes      scripts/ServerScriptService/DeathDetect.server.lua
+server      45  yes      scripts/ServerScriptService/ExtraCheck.server.lua
+server     152  yes      scripts/ServerScriptService/HelpSystem.server.lua
+client     227  yes      scripts/ServerScriptService/HelpSystem/HelpRequests/Core.client.lua
+module      73  yes      scripts/ServerScriptService/HelpSystem/HelpRequests/Modules/Tween.lua
+client     185  yes      scripts/ServerScriptService/HelpSystem/StaffFolder/RequestsFrame/Core [Requests].client.lua
+server      43  yes      scripts/ServerScriptService/LeaveDetect.server.lua
+server      91  yes      scripts/ServerScriptService/Main.server.lua
+server     132  yes      scripts/ServerScriptService/Overhead.server.lua
+server      35  yes      scripts/ServerScriptService/SpawnTime.server.lua
+client      47  yes      scripts/StarterGui/Death/DeathHandler.client.lua
+client       5  yes      scripts/StarterGui/LocalRankHandler.client.lua
+client      11  yes      scripts/StarterGui/Main/CD/TextLabel/LocalScript.client.lua
+client      15  yes      scripts/StarterGui/Main/Frame/TextLabel/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/Main/PL/TextLabel/LocalScript.client.lua
+client       7  yes      scripts/StarterGui/Main/PlayersRemain/LocalScript.client.lua
+client      14  yes      scripts/StarterGui/SettingsBar/Bar/SettingsButton/TweenThings.client.lua
+client      28  yes      scripts/StarterGui/SettingsBar/Bar/SpectateButton/TweenThings.client.lua
+client      59  yes      scripts/StarterGui/SettingsBar/Bar/SpectateHandler.client.lua
+client      15  yes      scripts/StarterGui/SettingsBar/MainFrame/Day_Night/On-Off/LocalScript.client.lua
+client      24  yes      scripts/StarterGui/SettingsBar/MainFrame/FOV/FOVConfig/SetFOV/Animations.client.lua
+client      29  yes      scripts/StarterGui/SettingsBar/MainFrame/FOV/FOVConfig/SetFOV/Button/Animations.client.lua
+client     461  yes      scripts/StarterGui/SettingsBar/MainFrame/FOV/FOVConfig/SetFOV/Button/LocalScript.client.lua
+client      25  yes      scripts/StarterGui/SettingsBar/MainFrame/HidePlayers/On-Off/LocalScript.client.lua
+client      30  yes      scripts/StarterGui/SettingsBar/MainFrame/LowPerformance/On-Off/LocalScript.client.lua
+client      50  yes      scripts/StarterGui/SettingsBar/MainFrame/MuteBoomboxes/On-Off/MuteBoomBoxGuiScript.client.lua
+client      16  yes      scripts/StarterGui/SettingsBar/MainFrame/MuteMusic/On-Off/LocalScript.client.lua
+client      24  yes      scripts/StarterGui/SettingsBar/SoundManager.client.lua
+client      24  yes      scripts/StarterGui/SettingsBar/SoundManager~2.client.lua
+module       8  yes      scripts/Workspace/Adonis_Loader/Config/API.lua
+module      17  yes      scripts/Workspace/Adonis_Loader/Config/Plugins/Client-Example Plugin.lua
+module      37  yes      scripts/Workspace/Adonis_Loader/Config/Plugins/Server-Example Plugin.lua
+module     636  yes      scripts/Workspace/Adonis_Loader/Config/Settings.lua
+module       6  yes      scripts/Workspace/Adonis_Loader/Config/Themes/README.lua
+server     262  yes      scripts/Workspace/Adonis_Loader/Loader/Loader.server.lua
+server      32  yes      scripts/Workspace/AntiPlayerCollide.server.lua
+server      32  yes      scripts/Workspace/Leaderstats.server.lua
+server      16  NO       scripts/Workspace/Nihal's Credits Board/README.server.lua
+server       8  yes      scripts/Workspace/Nihal's Credits Board/SurfaceGui/Frame/Credits/credit1/Script.server.lua
+server       8  yes      scripts/Workspace/Nihal's Credits Board/SurfaceGui/Frame/Credits/credit2/Script.server.lua
+server       8  yes      scripts/Workspace/Nihal's Credits Board/SurfaceGui/Frame/Credits/credit3/Script.server.lua
+module      83  yes      scripts/Workspace/Park's Donation Board/Extra/Announcements.lua
+module      43  yes      scripts/Workspace/Park's Donation Board/Extra/Blacklist.lua
+module      24  yes      scripts/Workspace/Park's Donation Board/Extra/ChatTags.lua
+module      20  yes      scripts/Workspace/Park's Donation Board/Extra/Events.lua
+module      55  yes      scripts/Workspace/Park's Donation Board/Extra/FakeDonoWhitelist.lua
+module      26  yes      scripts/Workspace/Park's Donation Board/Extra/Keywords.lua
+module      10  yes      scripts/Workspace/Park's Donation Board/Extra/ProccessReceipt.lua
+server      10  yes      scripts/Workspace/Park's Donation Board/Loader.server.lua
+server      27  NO       scripts/Workspace/Park's Donation Board/READ ME.server.lua
+server      10  yes      scripts/Workspace/roof~13/Script.server.lua
+server      10  yes      scripts/Workspace/roof~38/Script.server.lua   (same source as scripts/Workspace/roof~13/Script.server.lua)
+server      11  yes      scripts/Workspace/waterblock/LavaScript.server.lua

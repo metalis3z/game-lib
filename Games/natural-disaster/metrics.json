@@ -1,0 +1,354 @@
+{
+ "slug": "natural-disaster",
+ "title": "Natural Disaster Survival (Sowiks)",
+ "genre": "survival (random disasters)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 94,
+  "screen_guis": 7,
+  "classes": {
+   "LocalScript": 41,
+   "TextButton": 40,
+   "TextLabel": 33,
+   "Animation": 31,
+   "Sound": 10,
+   "ScreenGui": 7,
+   "Frame": 7,
+   "ImageLabel": 7,
+   "UICorner": 7,
+   "ImageButton": 5,
+   "ScrollingFrame": 2,
+   "UIListLayout": 2,
+   "Folder": 1,
+   "Script": 1,
+   "Texture": 1
+  },
+  "fonts": {
+   "ComicNeueAngular Bold": 33,
+   "Arial Bold": 16,
+   "SourceSansPro Regular": 15,
+   "SourceSansPro Bold": 9
+  },
+  "background_colors": {
+   "#000000": 41,
+   "#a3a2a5": 6,
+   "#c9c8cb": 4,
+   "#ffffff": 4,
+   "#c8c8c8": 1
+  },
+  "text_colors": {
+   "#ffffff": 41,
+   "#595959": 13,
+   "#848058": 6,
+   "#afa975": 6,
+   "#4f9eff": 3,
+   "#000000": 3,
+   "#55aaff": 1
+  },
+  "stroke_colors": {},
+  "image_tints": {
+   "#de7878": 1
+  },
+  "corner_radius": {
+   "{0.0,8}": 7
+  },
+  "stroke_thickness": {},
+  "text_size_px": {
+   "48": 8,
+   "36": 1,
+   "12": 1
+  },
+  "text_scaled_share": 0.86,
+  "size_mode": {
+   "mixed": 12,
+   "scale": 24,
+   "offset": 58
+  },
+  "unique_images": 9,
+  "per_100_objects": {
+   "UICorner": 7.4,
+   "UIStroke": 0.0,
+   "UIGradient": 0.0,
+   "UIAspectRatioConstraint": 0.0,
+   "UIListLayout": 2.1,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 7.4,
+   "ImageButton": 5.3,
+   "TextButton": 42.6
+  }
+ },
+ "map": {
+  "instances": 560,
+  "parts": 453,
+  "meshparts": 0,
+  "unions": 13,
+  "anchored_share": 1.0,
+  "textures_decals": 3,
+  "surface_appearances": 0,
+  "lights": 4,
+  "emitters": 2,
+  "beams_trails": 0,
+  "sounds": 21,
+  "prompts": 0,
+  "world_guis": 3,
+  "humanoids": 0,
+  "materials": {
+   "Plastic": 377,
+   "Metal": 68,
+   "WoodPlanks": 2,
+   "Brick": 2,
+   "Foil": 1,
+   "Neon": 1,
+   "Marble": 1,
+   "Slate": 1
+  },
+  "part_colors": {
+   "#694028": 157,
+   "#a3a2a5": 52,
+   "#287f47": 49,
+   "#fef3bb": 41,
+   "#635f62": 32,
+   "#04afec": 30,
+   "#fdea8d": 27,
+   "#f8f8f8": 25,
+   "#74869d": 12,
+   "#e5e4df": 5,
+   "#f2f3f3": 5,
+   "#ffffff": 4,
+   "#f5cd30": 3,
+   "#b4d2e4": 2
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   455,
+   184,
+   525
+  ],
+  "extent_all_studs": [
+   478,
+   208,
+   544
+  ],
+  "top_classes": {
+   "Part": 409,
+   "Model": 31,
+   "Sound": 21,
+   "WedgePart": 19,
+   "UnionOperation": 13,
+   "SpawnLocation": 12,
+   "TextLabel": 10,
+   "Script": 6,
+   "ClickDetector": 4,
+   "PointLight": 4,
+   "SpecialMesh": 4,
+   "Decal": 3,
+   "Folder": 3,
+   "SurfaceGui": 3,
+   "CylinderMesh": 2
+  }
+ },
+ "lighting": {
+  "Ambient": "#808080",
+  "Brightness": 1.9812,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#abd0d9",
+  "FogEnd": 5000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 41.7333,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#808080",
+  "Outlines": false,
+  "PrioritizeLightingQuality": false,
+  "ShadowSoftness": 0.5,
+  "Technology": "Voxel",
+  "TimeOfDay": "14:00:00",
+  "@attributes": {
+   "RBX_BackupBrightness": 1.0,
+   "RBX_BackupExposureCompensation": 0.0,
+   "RBX_LightingCompatibilityMigrated": true,
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "ColorGradingEffect",
+   "name": "ColorGrading",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorGrading",
+    "TonemapperPreset": 1
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.1,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 0.95
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": false,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0d545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": 0.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 13,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "animations": 1,
+  "model": 113,
+  "parts": 1,
+  "vfx": 1,
+  "audio": 1,
+  "keyframes": 5,
+  "other": 6
+ },
+ "coverage": {
+  "instances": 45059,
+  "packed": 44412,
+  "services": 52,
+  "code_or_empty_folders_not_packed": 589,
+  "not_packed": {
+   "ServerStorage.Camera": 3,
+   "Workspace.Camera": 1,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 5,
+ "animation_ids": 104,
+ "sound_ids": 165,
+ "files": 138,
+ "kb": 3918,
+ "category": "Party",
+ "source_file": "[ CATALOG ] Natural Disaster Made By Sowiks Fully Scripted !.rbxl"
+}

@@ -1,0 +1,141 @@
+-- Generated from ui/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/OwnerPanel.rbxm by _tools/rbxm2lua.luau
+-- UI builder: local gui = require(this)(); gui.Parent = game.Players.LocalPlayer.PlayerGui (or StarterGui)
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local function build()
+	local I = {}
+	I[1] = new("Frame", nil, "OwnerPanel", { BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), Size = UDim2.fromScale(1, 1), Visible = false, ZIndex = 2 }, { ["CodexAdminPanelRevamp"] = true, ["CodexSimpleAdminPanel"] = true })
+		I[2] = new("Frame", I[1], "Container", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(28, 31, 38), ClipsDescendants = true, Position = UDim2.fromScale(0.5, 0.52), Size = UDim2.fromScale(0.94, 0.96) })
+			I[3] = new("UICorner", I[2], "UICorner", { BottomLeftRadius = UDim.new(0, 14), BottomRightRadius = UDim.new(0, 14), TopLeftRadius = UDim.new(0, 14), TopRightRadius = UDim.new(0, 14) })
+			I[4] = new("UIStroke", I[2], "UIStroke", { Color = Color3.fromRGB(110, 121, 145), Transparency = 0.25 })
+			I[5] = new("UISizeConstraint", I[2], "UISizeConstraint", { MaxSize = Vector2.new(760, 560), MinSize = Vector2.new(300, 220) })
+			I[6] = new("Frame", I[2], "Header", { BackgroundColor3 = Color3.fromRGB(36, 41, 52), ClipsDescendants = true, Size = UDim2.new(1, 0, 0, 62) })
+				I[7] = new("UIPadding", I[6], "UIPadding", { PaddingBottom = UDim.new(0, 8), PaddingLeft = UDim.new(0, 16), PaddingRight = UDim.new(0, 12), PaddingTop = UDim.new(0, 8) })
+				I[8] = new("TextLabel", I[6], "Title", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), Position = UDim2.fromOffset(0, 2), Size = UDim2.new(1, -60, 0, 28), Text = "Admin Panel", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 22, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+				I[9] = new("TextLabel", I[6], "Subtitle", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), Position = UDim2.fromOffset(1, 35), Size = UDim2.new(1, -60, 0, 18), Text = "Simple commands for testing and setup", TextColor3 = Color3.fromRGB(174, 183, 199), TextSize = 12, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+				I[10] = new("TextButton", I[6], "CloseButton", { AnchorPoint = Vector2.new(1, 0.5), BackgroundColor3 = Color3.fromRGB(220, 76, 84), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), Position = UDim2.fromScale(1, 0.5), Size = UDim2.fromOffset(44, 44), Text = "X", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 18 })
+					I[11] = new("UICorner", I[10], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+				I[12] = new("UICorner", I[6], "UICorner", { BottomLeftRadius = UDim.new(0, 14), BottomRightRadius = UDim.new(0, 14), TopLeftRadius = UDim.new(0, 14), TopRightRadius = UDim.new(0, 14) })
+			I[13] = new("ScrollingFrame", I[2], "Body", { AutomaticCanvasSize = Enum.AutomaticSize.Y, BackgroundTransparency = 1, BorderSizePixel = 0, CanvasSize = UDim2.fromScale(0, 0), Position = UDim2.fromOffset(0, 62), ScrollBarImageColor3 = Color3.fromRGB(84, 94, 116), ScrollBarThickness = 6, ScrollingDirection = Enum.ScrollingDirection.Y, Size = UDim2.new(1, 0, 1, -62) })
+				I[14] = new("UIPadding", I[13], "UIPadding", { PaddingBottom = UDim.new(0, 16), PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12), PaddingTop = UDim.new(0, 12) })
+				I[15] = new("UIListLayout", I[13], "UIListLayout", { Padding = UDim.new(0, 12), SortOrder = Enum.SortOrder.LayoutOrder })
+				I[16] = new("Frame", I[13], "PlayerDataSection", { AutomaticSize = Enum.AutomaticSize.Y, BackgroundColor3 = Color3.fromRGB(40, 45, 57), LayoutOrder = 1, Size = UDim2.new(1, 0, 0, 100) })
+					I[17] = new("UICorner", I[16], "UICorner", { BottomLeftRadius = UDim.new(0, 12), BottomRightRadius = UDim.new(0, 12), TopLeftRadius = UDim.new(0, 12), TopRightRadius = UDim.new(0, 12) })
+					I[18] = new("UIStroke", I[16], "UIStroke", { Color = Color3.fromRGB(110, 121, 145), Transparency = 0.25 })
+					I[19] = new("UIPadding", I[16], "UIPadding", { PaddingBottom = UDim.new(0, 12), PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12), PaddingTop = UDim.new(0, 12) })
+					I[20] = new("UIListLayout", I[16], "UIListLayout", { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+					I[21] = new("TextLabel", I[16], "Title", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(1, 0, 0, 24), Text = "Player Data", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 16, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+					I[22] = new("TextBox", I[16], "ItemNameBox", { BackgroundColor3 = Color3.fromRGB(24, 27, 34), ClearTextOnFocus = false, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 3, PlaceholderColor3 = Color3.fromRGB(174, 183, 199), PlaceholderText = "Item name, example: Whiteout", Size = UDim2.new(1, 0, 0, 44), Text = "", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left })
+						I[23] = new("UICorner", I[22], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+						I[24] = new("UIStroke", I[22], "UIStroke", { Color = Color3.fromRGB(84, 94, 116), Transparency = 0.28 })
+						I[25] = new("UIPadding", I[22], "UIPadding", { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) })
+					I[26] = new("Frame", I[16], "Buttons", { BackgroundTransparency = 1, LayoutOrder = 4, Size = UDim2.new(1, 0, 0, 46) })
+						I[27] = new("UIListLayout", I[26], "UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+						I[28] = new("TextButton", I[26], "GiveCoinsButton", { BackgroundColor3 = Color3.fromRGB(240, 170, 70), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(0.333, -6, 0, 46), Text = "Give Coins", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[29] = new("UICorner", I[28], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[30] = new("UIStroke", I[28], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+						I[31] = new("TextButton", I[26], "GiveGemsButton", { BackgroundColor3 = Color3.fromRGB(132, 105, 245), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 2, Size = UDim2.new(0.333, -6, 0, 46), Text = "Give Gems", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[32] = new("UICorner", I[31], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[33] = new("UIStroke", I[31], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+						I[34] = new("TextButton", I[26], "GiveItemButton", { BackgroundColor3 = Color3.fromRGB(50, 130, 255), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 3, Size = UDim2.new(0.333, -6, 0, 46), Text = "Give Item", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[35] = new("UICorner", I[34], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[36] = new("UIStroke", I[34], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+					I[37] = new("TextLabel", I[16], "StatusLabel", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 5, Size = UDim2.new(1, 0, 0, 18), Text = "", TextColor3 = Color3.fromRGB(174, 183, 199), TextSize = 12, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+					I[38] = new("Frame", I[16], "InputRow", { BackgroundTransparency = 1, LayoutOrder = 2, Size = UDim2.new(1, 0, 0, 44) })
+						I[39] = new("UIListLayout", I[38], "UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+						I[40] = new("TextBox", I[38], "PlayerNameBox", { BackgroundColor3 = Color3.fromRGB(24, 27, 34), ClearTextOnFocus = false, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 1, PlaceholderColor3 = Color3.fromRGB(174, 183, 199), PlaceholderText = "Player name", Size = UDim2.new(0.62, -4, 0, 44), Text = "", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left })
+							I[41] = new("UICorner", I[40], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[42] = new("UIStroke", I[40], "UIStroke", { Color = Color3.fromRGB(84, 94, 116), Transparency = 0.28 })
+							I[43] = new("UIPadding", I[40], "UIPadding", { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) })
+						I[44] = new("TextBox", I[38], "AmountBox", { BackgroundColor3 = Color3.fromRGB(24, 27, 34), ClearTextOnFocus = false, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 2, PlaceholderColor3 = Color3.fromRGB(174, 183, 199), PlaceholderText = "Amount", Size = UDim2.new(0.38, -4, 0, 44), Text = "", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left })
+							I[45] = new("UICorner", I[44], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[46] = new("UIStroke", I[44], "UIStroke", { Color = Color3.fromRGB(84, 94, 116), Transparency = 0.28 })
+							I[47] = new("UIPadding", I[44], "UIPadding", { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) })
+				I[48] = new("Frame", I[13], "RoundSection", { AutomaticSize = Enum.AutomaticSize.Y, BackgroundColor3 = Color3.fromRGB(40, 45, 57), LayoutOrder = 2, Size = UDim2.new(1, 0, 0, 100) })
+					I[49] = new("UICorner", I[48], "UICorner", { BottomLeftRadius = UDim.new(0, 12), BottomRightRadius = UDim.new(0, 12), TopLeftRadius = UDim.new(0, 12), TopRightRadius = UDim.new(0, 12) })
+					I[50] = new("UIStroke", I[48], "UIStroke", { Color = Color3.fromRGB(110, 121, 145), Transparency = 0.25 })
+					I[51] = new("UIPadding", I[48], "UIPadding", { PaddingBottom = UDim.new(0, 12), PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12), PaddingTop = UDim.new(0, 12) })
+					I[52] = new("UIListLayout", I[48], "UIListLayout", { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+					I[53] = new("TextLabel", I[48], "Title", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(1, 0, 0, 24), Text = "Round Tools", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 16, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+					I[54] = new("TextBox", I[48], "RoundPlayerBox", { BackgroundColor3 = Color3.fromRGB(24, 27, 34), ClearTextOnFocus = false, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 2, PlaceholderColor3 = Color3.fromRGB(174, 183, 199), PlaceholderText = "Target player name", Size = UDim2.new(1, 0, 0, 44), Text = "", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextXAlignment = Enum.TextXAlignment.Left })
+						I[55] = new("UICorner", I[54], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+						I[56] = new("UIStroke", I[54], "UIStroke", { Color = Color3.fromRGB(84, 94, 116), Transparency = 0.28 })
+						I[57] = new("UIPadding", I[54], "UIPadding", { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) })
+					I[58] = new("Frame", I[48], "Buttons1", { BackgroundTransparency = 1, LayoutOrder = 3, Size = UDim2.new(1, 0, 0, 46) })
+						I[59] = new("UIListLayout", I[58], "UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+						I[60] = new("TextButton", I[58], "GiveGunButton", { BackgroundColor3 = Color3.fromRGB(50, 130, 255), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(0.5, -4, 0, 46), Text = "Give Gun", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[61] = new("UICorner", I[60], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[62] = new("UIStroke", I[60], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+						I[63] = new("TextButton", I[58], "GiveKnifeButton", { BackgroundColor3 = Color3.fromRGB(220, 76, 84), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 2, Size = UDim2.new(0.5, -4, 0, 46), Text = "Give Knife", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[64] = new("UICorner", I[63], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[65] = new("UIStroke", I[63], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+					I[66] = new("Frame", I[48], "Buttons2", { BackgroundTransparency = 1, LayoutOrder = 4, Size = UDim2.new(1, 0, 0, 46) })
+						I[67] = new("UIListLayout", I[66], "UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+						I[68] = new("TextButton", I[66], "MurdererButton", { BackgroundColor3 = Color3.fromRGB(220, 76, 84), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(0.5, -4, 0, 46), Text = "Make Murderer", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[69] = new("UICorner", I[68], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[70] = new("UIStroke", I[68], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+						I[71] = new("TextButton", I[66], "SheriffButton", { BackgroundColor3 = Color3.fromRGB(50, 130, 255), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 2, Size = UDim2.new(0.5, -4, 0, 46), Text = "Make Sheriff", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+							I[72] = new("UICorner", I[71], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+							I[73] = new("UIStroke", I[71], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+					I[74] = new("TextButton", I[48], "EndRoundButton", { BackgroundColor3 = Color3.fromRGB(220, 76, 84), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 5, Size = UDim2.new(1, 0, 0, 46), Text = "End Round", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+						I[75] = new("UICorner", I[74], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+						I[76] = new("UIStroke", I[74], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+					I[77] = new("TextLabel", I[48], "StatusLabel", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 6, Size = UDim2.new(1, 0, 0, 18), Text = "", TextColor3 = Color3.fromRGB(174, 183, 199), TextSize = 12, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+				I[78] = new("Frame", I[13], "MapSection", { AutomaticSize = Enum.AutomaticSize.Y, BackgroundColor3 = Color3.fromRGB(40, 45, 57), LayoutOrder = 3, Size = UDim2.new(1, 0, 0, 100) })
+					I[79] = new("UICorner", I[78], "UICorner", { BottomLeftRadius = UDim.new(0, 12), BottomRightRadius = UDim.new(0, 12), TopLeftRadius = UDim.new(0, 12), TopRightRadius = UDim.new(0, 12) })
+					I[80] = new("UIStroke", I[78], "UIStroke", { Color = Color3.fromRGB(110, 121, 145), Transparency = 0.25 })
+					I[81] = new("UIPadding", I[78], "UIPadding", { PaddingBottom = UDim.new(0, 12), PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12), PaddingTop = UDim.new(0, 12) })
+					I[82] = new("UIListLayout", I[78], "UIListLayout", { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+					I[83] = new("TextLabel", I[78], "Title", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(1, 0, 0, 24), Text = "Map Control", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 16, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+					I[84] = new("TextLabel", I[78], "CurrentMapLabel", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 2, Size = UDim2.new(1, 0, 0, 20), Text = "Current map: ???", TextColor3 = Color3.fromRGB(174, 183, 199), TextSize = 13, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+					I[85] = new("ScrollingFrame", I[78], "MapList", { AutomaticCanvasSize = Enum.AutomaticSize.Y, BackgroundColor3 = Color3.fromRGB(24, 27, 34), BorderSizePixel = 0, CanvasSize = UDim2.fromScale(0, 0), LayoutOrder = 3, ScrollBarImageColor3 = Color3.fromRGB(84, 94, 116), ScrollBarThickness = 5, Size = UDim2.new(1, 0, 0, 148) })
+						I[86] = new("UICorner", I[85], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+						I[87] = new("UIPadding", I[85], "UIPadding", { PaddingBottom = UDim.new(0, 8), PaddingLeft = UDim.new(0, 8), PaddingRight = UDim.new(0, 8), PaddingTop = UDim.new(0, 8) })
+						I[88] = new("UIGridLayout", I[85], "UIGridLayout", { CellPadding = UDim2.fromOffset(8, 8), CellSize = UDim2.new(0.5, -6, 0, 44), SortOrder = Enum.SortOrder.LayoutOrder })
+				I[89] = new("Frame", I[13], "AnnouncementSection", { AutomaticSize = Enum.AutomaticSize.Y, BackgroundColor3 = Color3.fromRGB(40, 45, 57), LayoutOrder = 4, Size = UDim2.new(1, 0, 0, 100) })
+					I[90] = new("UICorner", I[89], "UICorner", { BottomLeftRadius = UDim.new(0, 12), BottomRightRadius = UDim.new(0, 12), TopLeftRadius = UDim.new(0, 12), TopRightRadius = UDim.new(0, 12) })
+					I[91] = new("UIStroke", I[89], "UIStroke", { Color = Color3.fromRGB(110, 121, 145), Transparency = 0.25 })
+					I[92] = new("UIPadding", I[89], "UIPadding", { PaddingBottom = UDim.new(0, 12), PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12), PaddingTop = UDim.new(0, 12) })
+					I[93] = new("UIListLayout", I[89], "UIListLayout", { Padding = UDim.new(0, 8), SortOrder = Enum.SortOrder.LayoutOrder })
+					I[94] = new("TextLabel", I[89], "Title", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 1, Size = UDim2.new(1, 0, 0, 24), Text = "Broadcast", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 16, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+					I[95] = new("TextBox", I[89], "MessageBox", { BackgroundColor3 = Color3.fromRGB(24, 27, 34), ClearTextOnFocus = false, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 2, PlaceholderColor3 = Color3.fromRGB(174, 183, 199), PlaceholderText = "Type an announcement", Size = UDim2.new(1, 0, 0, 52), Text = "", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left, TextYAlignment = Enum.TextYAlignment.Top })
+						I[96] = new("UICorner", I[95], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+						I[97] = new("UIStroke", I[95], "UIStroke", { Color = Color3.fromRGB(84, 94, 116), Transparency = 0.28 })
+						I[98] = new("UIPadding", I[95], "UIPadding", { PaddingLeft = UDim.new(0, 12), PaddingRight = UDim.new(0, 12) })
+					I[99] = new("TextButton", I[89], "SendAnnouncementButton", { BackgroundColor3 = Color3.fromRGB(43, 190, 129), FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), LayoutOrder = 3, Size = UDim2.new(1, 0, 0, 46), Text = "Send Announcement", TextColor3 = Color3.fromRGB(245, 247, 252), TextSize = 14, TextWrapped = true })
+						I[100] = new("UICorner", I[99], "UICorner", { BottomLeftRadius = UDim.new(0, 9), BottomRightRadius = UDim.new(0, 9), TopLeftRadius = UDim.new(0, 9), TopRightRadius = UDim.new(0, 9) })
+						I[101] = new("UIStroke", I[99], "UIStroke", { Color = Color3.fromRGB(255, 255, 255), Transparency = 0.82 })
+					I[102] = new("TextLabel", I[89], "StatusLabel", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Medium, Enum.FontStyle.Normal), LayoutOrder = 4, Size = UDim2.new(1, 0, 0, 18), Text = "", TextColor3 = Color3.fromRGB(174, 183, 199), TextSize = 12, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left })
+			I[103] = new("Frame", I[2], "AnnouncementLockOverlay", { Active = true, BackgroundColor3 = Color3.fromRGB(12, 14, 18), BackgroundTransparency = 0.12, BorderSizePixel = 0, ZIndex = 200 })
+				I[104] = new("UICorner", I[103], "UICorner", { BottomLeftRadius = UDim.new(0, 12), BottomRightRadius = UDim.new(0, 12), TopLeftRadius = UDim.new(0, 12), TopRightRadius = UDim.new(0, 12) })
+				I[105] = new("UIStroke", I[103], "UIStroke", { Color = Color3.fromRGB(110, 121, 145), Transparency = 0.25 })
+				I[106] = new("TextLabel", I[103], "LockText", { BackgroundTransparency = 1, FontFace = Font.new("rbxasset://fonts/families/GothamSSm.json", Enum.FontWeight.Bold, Enum.FontStyle.Normal), Size = UDim2.fromScale(1, 1), Text = "OWNER ONLY ACCESS", TextColor3 = Color3.fromRGB(255, 255, 255), TextSize = 18, TextWrapped = true, ZIndex = 201 })
+			I[107] = new("UIStroke", I[2], "RainbowStroke", { ApplyStrokeMode = Enum.ApplyStrokeMode.Border, Color = Color3.fromRGB(255, 65, 65), Thickness = 3 })
+				I[108] = new("UIGradient", I[107], "RainbowGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 65, 65)), ColorSequenceKeypoint.new(0.17, Color3.fromRGB(255, 190, 60)), ColorSequenceKeypoint.new(0.33, Color3.fromRGB(80, 230, 90)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(70, 210, 255)), ColorSequenceKeypoint.new(0.67, Color3.fromRGB(95, 115, 255)), ColorSequenceKeypoint.new(0.83, Color3.fromRGB(210, 80, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 65, 65)) }), Enabled = false })
+	return I[1]
+end
+
+return build

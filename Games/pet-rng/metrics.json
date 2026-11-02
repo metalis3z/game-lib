@@ -1,0 +1,408 @@
+{
+ "slug": "pet-rng",
+ "title": "Pet RNG",
+ "genre": "RNG / pet rolling",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 430,
+  "screen_guis": 4,
+  "classes": {
+   "UIStroke": 188,
+   "TextLabel": 182,
+   "UIAspectRatioConstraint": 125,
+   "ImageLabel": 109,
+   "ImageButton": 81,
+   "Frame": 44,
+   "UIScale": 33,
+   "UIPadding": 23,
+   "UICorner": 19,
+   "UIGridLayout": 11,
+   "ObjectValue": 11,
+   "ViewportFrame": 7,
+   "StringValue": 7,
+   "ScrollingFrame": 6,
+   "UIListLayout": 5,
+   "UIGradient": 5,
+   "ScreenGui": 4,
+   "UITextSizeConstraint": 2,
+   "Folder": 2,
+   "TextBox": 1
+  },
+  "fonts": {
+   "FredokaOne Regular": 183
+  },
+  "background_colors": {
+   "#ffffff": 10,
+   "#b5b5b5": 7,
+   "#424242": 1,
+   "#ff0000": 1,
+   "#000000": 1,
+   "#5f5f5f": 1,
+   "#282828": 1,
+   "#2b2b2b": 1,
+   "#1f1f1f": 1,
+   "#545454": 1,
+   "#55ff00": 1
+  },
+  "text_colors": {
+   "#ffffff": 143,
+   "#000000": 27,
+   "#ffaa7f": 2,
+   "#a2a2a2": 2,
+   "#737373": 1,
+   "#00aaff": 1,
+   "#aaff00": 1,
+   "#747474": 1,
+   "#ff5e00": 1,
+   "#ff4b4b": 1
+  },
+  "stroke_colors": {
+   "#000000": 164,
+   "#181818": 24
+  },
+  "image_tints": {
+   "#00ddff": 20,
+   "#e3e3e3": 12,
+   "#01e6ff": 11,
+   "#85ff02": 6,
+   "#ffaa00": 5,
+   "#00aaff": 2,
+   "#60ff7a": 1,
+   "#ff2afb": 1,
+   "#ff4242": 1,
+   "#ffff00": 1
+  },
+  "corner_radius": {
+   "{1.0,0}": 6,
+   "{0.1,0}": 6,
+   "{0.05,0}": 4,
+   "{0.0,15}": 2,
+   "{0.2,0}": 1
+  },
+  "stroke_thickness": {
+   "3.0 px": 88,
+   "4.0 px": 54,
+   "2.0 px": 26,
+   "3.4 px": 8,
+   "2.5 px": 3,
+   "5.0 px": 3,
+   "4.4 px": 2,
+   "2.4 px": 1,
+   "3.2 px": 1,
+   "3.9 px": 1
+  },
+  "text_size_px": {},
+  "text_scaled_share": 1.0,
+  "size_mode": {
+   "scale": 417,
+   "zero": 1,
+   "offset": 12
+  },
+  "unique_images": 65,
+  "per_100_objects": {
+   "UICorner": 4.4,
+   "UIStroke": 43.7,
+   "UIGradient": 1.2,
+   "UIAspectRatioConstraint": 29.1,
+   "UIListLayout": 1.2,
+   "UIGridLayout": 2.6,
+   "UIPadding": 5.3,
+   "UIScale": 7.7,
+   "UITextSizeConstraint": 0.5,
+   "ImageLabel": 25.3,
+   "ImageButton": 18.8,
+   "TextButton": 0.0
+  }
+ },
+ "map": {
+  "instances": 43381,
+  "parts": 22494,
+  "meshparts": 16882,
+  "unions": 129,
+  "anchored_share": 1.0,
+  "textures_decals": 13342,
+  "surface_appearances": 16,
+  "lights": 172,
+  "emitters": 93,
+  "beams_trails": 21,
+  "sounds": 0,
+  "prompts": 0,
+  "world_guis": 36,
+  "humanoids": 4,
+  "materials": {
+   "Plastic": 15445,
+   "SmoothPlastic": 2895,
+   "Neon": 2585,
+   "Glass": 1363,
+   "Metal": 188,
+   "Slate": 8,
+   "Sand": 7,
+   "ForceField": 3
+  },
+  "part_colors": {
+   "#27462d": 3096,
+   "#a3a2a5": 1954,
+   "#408c29": 1719,
+   "#f8f8f8": 1303,
+   "#635f62": 1045,
+   "#a58a2a": 960,
+   "#5b5d69": 714,
+   "#ff9494": 602,
+   "#845e29": 595,
+   "#0989cf": 572,
+   "#348e40": 558,
+   "#c4281c": 551,
+   "#cacbd1": 510,
+   "#aa00aa": 455
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   2334,
+   841,
+   3471
+  ],
+  "extent_all_studs": [
+   8455,
+   4835,
+   8753
+  ],
+  "top_classes": {
+   "MeshPart": 16882,
+   "Texture": 13119,
+   "Model": 5623,
+   "Part": 4399,
+   "CornerWedgePart": 1072,
+   "SpecialMesh": 377,
+   "Vector3Value": 294,
+   "Decal": 223,
+   "BoolValue": 197,
+   "Attachment": 168,
+   "Weld": 146,
+   "UnionOperation": 129,
+   "ParticleEmitter": 93,
+   "SpotLight": 87,
+   "PointLight": 85
+  }
+ },
+ "lighting": {
+  "Ambient": "#a91eff",
+  "Brightness": 2.0,
+  "ColorShift_Bottom": "#ffffff",
+  "ColorShift_Top": "#ad936c",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.2,
+  "EnvironmentSpecularScale": 0.25,
+  "ExposureCompensation": 0.1,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#9b99b1",
+  "Outlines": false,
+  "ShadowSoftness": 1.0,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "13:00:00"
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#2ffcff",
+    "Decay": "#e4f6ff",
+    "DefinesCapabilities": false,
+    "Density": 0.263,
+    "Glare": 0.45,
+    "Haze": 1.0,
+    "Name": "Atmosphere",
+    "Offset": 0.3
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sunny",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sunny",
+    "SkyboxBk": "rbxassetid://6723457641",
+    "SkyboxDn": "rbxassetid://6723459185",
+    "SkyboxFt": "rbxassetid://6723466949",
+    "SkyboxLf": "rbxassetid://6723467797",
+    "SkyboxRt": "rbxassetid://6723468355",
+    "SkyboxUp": "rbxassetid://6723477494",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.95,
+    "Name": "Bloom",
+    "Size": 35.0,
+    "Threshold": 2.064
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.2,
+    "Contrast": 0.2,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.7,
+    "TintColor": "#fff3eb"
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.04,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 2097088,
+  "StreamingTargetRadius": 2097088
+ },
+ "packs": {
+  "ui": 8,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 1,
+  "lighting": 1,
+  "model": 491,
+  "model-set": 60,
+  "other": 5
+ },
+ "coverage": {
+  "instances": 46950,
+  "packed": 46837,
+  "services": 55,
+  "code_or_empty_folders_not_packed": 55,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 29,
+ "sound_ids": 7,
+ "files": 567,
+ "kb": 20777,
+ "category": "RNG",
+ "source_file": "Pet_RNG_Uncopylocked (2).rbxl"
+}

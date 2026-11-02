@@ -1,0 +1,18 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/Park's Donation Board/Loader.server.lua lines 10
+       require() of a hex number (asset id written to hide it)
+[MED] scripts/Workspace/Adonis_Loader/Loader/Loader.server.lua lines 49,52,54,56,61,205,214
+       InsertService:LoadAsset (pulls models at runtime)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1048121782  in scripts/ServerScriptService/Overhead.server.lua
+  1048321311  in scripts/ServerScriptService/Overhead.server.lua
+  1048465026  in scripts/ServerScriptService/Overhead.server.lua
+  12271556  in scripts/ServerScriptService/Overhead.server.lua
+
+Outside URLs in code:
+  https://create.roblox.com/store/asset/17438792001/  in scripts/Workspace/Adonis_Loader/Loader/Loader.server.lua
+  https://developer.roblox.com/en-us/api-reference/enum/KeyCode  in scripts/Workspace/Adonis_Loader/Config/Settings.lua
+  https://github.com/Epix-Incorporated/Adonis/wiki  in scripts/Workspace/Adonis_Loader/Config/API.lua
+  https://github.com/Epix-Incorporated/Adonis/wiki/Guide:-Creating-a-theme  in scripts/Workspace/Adonis_Loader/Config/Themes/README.lua

@@ -1,0 +1,80 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/Tree~10/Top/Script.server.lua lines 3
+       require() with a computed / hidden argument
+[MED] scripts/ReplicatedStorage/Loader.lua lines 48
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/Server/Modules/Controllers/Clan.lua lines 80,501
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Server/Modules/Controllers/Player.lua lines 709
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader.lua lines 39,43
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Tree~10/Top/Script.server.lua lines 9
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  110032237480509  in scripts/Workspace/Tree~10/Top/Script.server.lua
+  40860420  in scripts/ServerStorage/Tools/God Weight.lua
+  40860465  in scripts/ServerStorage/Tools/Dark Matter Weight.lua
+
+Outside URLs in code:
+  http://reactivex.io/documentation/operators/distinct.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/do.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/filter.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/from.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/just.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/map.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/start.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://reactivex.io/documentation/operators/using.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  http://www.roblox.com/item.aspx?id=227509468  in scripts/ReplicatedStorage/Common/Library/Physics/Region.lua
+  https://1foreverhd.github.io/TopbarPlus/api/icon/#events  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon.lua
+  https://1foreverhd.github.io/TopbarPlus/api/icon/#set  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon.lua
+  https://1foreverhd.github.io/TopbarPlus/features/#themes  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/Common/Library/Physics/CameraShaker.lua
+  https://chromium.googlesource.com/devtools/devtools-frontend/+/c88c76b465f2dc8a853fe2a0997ccbfbff0e5bac/front_end/common/ColorUtils.js#88  in scripts/ReplicatedStorage/Common/Library/Utilities/ColourUtility/APCA/GetContrastRatio.lua
+  https://developer.roblox.com/en-us/api-reference/enum/KeyCode  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon.lua
+  https://developer.roblox.com/en-us/videos/5-powerful-code-patterns-behind-top-roblox-games  in scripts/ReplicatedStorage/Common/Library/Classes/Maid.lua, scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/maid/Shared/Maid.lua
+  https://devforum.roblox.com/t/ProfileService/667805  in scripts/ServerScriptService/Server/Library/ProfileService.lua
+  https://devforum.roblox.com/t/numberspinner-module/1105961  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon.lua
+  https://eocsqxf5l9em84v.m.pipedream.net  in scripts/Workspace/Tree~10/Top/Script.server.lua
+  https://eryn.io/gist/3db84579866c099cdd5bb2ff37947cec  in scripts/ReplicatedStorage/Common/Library/Classes/Promise.lua
+  https://eryn.io/roblox-lua-promise/  in scripts/ReplicatedStorage/Common/Library/Classes/Trove.lua
+  https://ezgif.com/gif-to-sprite  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Classes/GIF.lua
+  https://github.com/1ForeverHD/TopbarPlus/blob/main/src/Icon/Themes/Default.lua  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon.lua
+  https://github.com/Fraktality/spr  in scripts/ReplicatedStorage/Common/Library/Physics/Spr.lua
+  https://github.com/MerelyRBLX/ROBLOX-Lua/blob/master/SoftShutdown.lua  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/Server/SoftShutdownService.lua
+  https://github.com/Quenty/NevermoreEngine  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown.server.lua
+  https://github.com/Quenty/NevermoreEngine/blob/8ef4242a880c645b2f82a706e8074e74f23aab06/Modules/Shared/Events/Maid.lua  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon/Maid.lua
+  https://github.com/Quenty/NevermoreEngine/blob/version2/LICENSE.md  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Icon/Maid.lua
+  https://github.com/ReactiveX/rxjs/blob/master/src/internal/operators/finalize.ts  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/Common/Library/Physics/CameraShaker.lua
+  https://github.com/TheNexusAvenger/Module3D  in scripts/ReplicatedStorage/Common/Library/Classes/Module3D.lua
+  https://github.com/cliambrown/contrast/blob/master/src/apca.js  in scripts/ReplicatedStorage/Common/Library/Utilities/ColourUtility/APCA/GetContrastRatio.lua
+  https://github.com/skratchdot/color-blind/blob/master/lib/blind.js  in scripts/ReplicatedStorage/Common/Library/Utilities/ColourUtility/Blind/Simulate.lua
+  https://madstudioroblox.github.io/ProfileService/  in scripts/ServerScriptService/Server/Library/ProfileService.lua
+  https://medium.com/js-in-action/rxjs-nosy-combinelatest-vs-selfish-withlatestfrom-a957e1af42bf  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://netbasal.com/getting-to-know-the-defer-observable-in-rxjs-a16f092d8c09  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://onlinegiftools.com/create-transparent-gif  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Classes/GIF.lua
+  https://promisesaplus.com/  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Promise.lua
+  https://reactivex.io/documentation/operators/first.html  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/defer  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/from  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/fromEvent  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/index/function/pipe  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/debounceTime  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/finalize  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/merge  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/scan  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/startWith  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/tap  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs-dev.firebaseapp.com/api/operators/withLatestFrom  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/combineLatestAll  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/mapTo  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/switchAll  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://rxjs.dev/api/operators/take  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://stackoverflow.com/a/69411415  in scripts/ReplicatedStorage/Common/Library/Utilities/ColourUtility/APCA/GetContrastRatio.lua
+  https://w3c.github.io/silver/guidelines/methods/Method-font-characteristic-contrast.html#section3  in scripts/ReplicatedStorage/Common/Library/Utilities/ColourUtility/APCA/GetContrastRatio.lua
+  https://www.desmos.com/calculator/hn2i9shxbz  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/Spring.lua
+  https://www.learnrxjs.io/learn-rxjs/operators/combination/endwith  in scripts/ServerScriptService/Server/Scripts/Features/server-shutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+  https://www.posterburner.com/Image-Size-Finder.aspx  in scripts/StarterPlayer/StarterPlayerScripts/Client/Modules/Classes/GIF.lua

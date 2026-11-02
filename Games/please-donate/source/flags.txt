@@ -1,0 +1,187 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/HD Admin/Settings/Loader.server.lua lines 2
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/HD Admin~2/Settings/Loader.server.lua lines 12
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ServerScriptService/Booths/BoothEvents.server.lua lines 46
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/Anonymous/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Avatar scripts/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Bench/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Bench~2/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Bloxikins/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Boomboxes/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Booth/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/BoothInteractions/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Club/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/DiamondHammer/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/FakeRobuxNuke/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/FeatureShop/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Folder/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/ForwardPortal/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/ForwardPortal~2/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/GiantCFrame/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/HD Admin/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/HD Admin~2/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Model/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part1/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part2/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~10/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~11/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~12/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~13/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~14/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~15/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~16/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~17/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~18/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~19/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~2/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~20/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~21/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~22/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~23/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~24/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~25/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~26/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~27/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~28/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~29/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~3/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~30/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~31/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~32/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~33/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~34/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~35/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~36/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~37/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~38/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~39/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~4/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~40/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~41/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~42/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~43/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~44/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~45/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~46/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~47/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~48/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~49/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~5/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~50/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~6/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~7/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~8/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Part~9/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Sign/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Sign~2/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/TeleportA/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/TeleportB/_/_.server.lua
+       suspicious script name ""
+[MED] scripts/Workspace/Terrain/_/_.server.lua
+       suspicious script name ""
+
+Instances with suspicious names:
+  NumberValue StarterGui.ScreenGui.nuke.Scripts.SpawnFireworks.SpreadDistance
+  NumberValue ReplicatedStorage.RobuxNuke.NukeScript.Scripts.SpawnFireworks.SpreadDistance
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  16890049  in scripts/Workspace/HD Admin/Settings.lua
+  76913331  in scripts/ServerStorage/Tools/Boombox/Atlas_Server.server.lua
+
+Outside URLs in code:
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/StarterGui/ScreenGui/nuke/CameraShaker.lua, scripts/StarterGui/ScreenGui/smiteasf/CameraShaker.lua
+  https://blog.elttob.uk/2022/11/07/sets-efficient-topological-search.html  in scripts/ReplicatedStorage/Packages/Fusion/Dependencies/updateAll.lua
+  https://bottosson.github.io/posts/oklab/  in scripts/ReplicatedStorage/Packages/Fusion/Colour/Oklab.lua, scripts/ReplicatedStorage/Templates/Packages/_Index/elttob_fusion@0.1.1-beta/fusion/Colour/Oklab.lua
+  https://devforum.roblox.com/t/HD/216819  in scripts/Workspace/HD Admin~2/About.server.lua
+  https://devforum.roblox.com/t/open-source-hashlib/416732/1  in scripts/ReplicatedStorage/Templates/Packages/_Index/boatbomber_hashlib@1.0.0/hashlib.lua
+  https://eryn.io/gist/3db84579866c099cdd5bb2ff37947cec  in scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/Oldpromise.lua, scripts/ReplicatedStorage/Templates/Packages/_Index/evaera_promise@4.0.0/promise.lua
+  https://games.roproxy.com/v1/games/{universeId}/game-passes?limit=50`  in scripts/ServerScriptService/Booths/BoothEvents.server.lua
+  https://games.roproxy.com/v2/users/{userId}/games?limit=50&cursor={cursor}`  in scripts/ServerScriptService/Booths/BoothEvents.server.lua
+  https://gist.github.com/Reselim/40d62b17d138cc74335a1b0709e19ce2  in scripts/ReplicatedStorage/Templates/Packages/_Index/boatbomber_hashlib@1.0.0/hashlib/Base64.lua
+  https://github.com/Egor-Skriptunoff/pure_lua_SHA/blob/master/sha2.lua  in scripts/ReplicatedStorage/Templates/Packages/_Index/boatbomber_hashlib@1.0.0/hashlib.lua
+  https://github.com/Roblox/roact/issues/259  in scripts/ReplicatedStorage/Common/Roact/createContext.spec.lua
+  https://github.com/Roblox/roact/issues/319  in scripts/ReplicatedStorage/Common/Roact/createContext.spec.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/StarterGui/ScreenGui/nuke/CameraShaker.lua, scripts/StarterGui/ScreenGui/smiteasf/CameraShaker.lua
+  https://github.com/facebook/react/blob/v17.0.1/packages/react/src/__tests__/forwardRef-test.internal.js  in scripts/ReplicatedStorage/Common/Roact/forwardRef.spec.lua
+  https://github.com/facebook/react/blob/v17.0.1/packages/react/src/__tests__/forwardRef-test.js  in scripts/ReplicatedStorage/Common/Roact/forwardRef.spec.lua
+  https://github.com/facebook/react/pull/22114  in scripts/ReplicatedStorage/Common/Roact/Component.lua
+  https://reactjs.org/docs/composition-vs-inheritance.html  in scripts/ReplicatedStorage/Common/Roact/Component.lua

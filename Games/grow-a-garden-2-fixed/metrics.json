@@ -1,0 +1,571 @@
+{
+ "slug": "grow-a-garden-2-fixed",
+ "title": "Grow a Garden 2 (GAG2, fixed build)",
+ "genre": "farming / garden simulator",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 4009,
+  "screen_guis": 76,
+  "classes": {
+   "UIStroke": 1590,
+   "ImageLabel": 1442,
+   "TextLabel": 1368,
+   "UIGradient": 828,
+   "Frame": 801,
+   "UIAspectRatioConstraint": 519,
+   "BillboardGui": 367,
+   "TextButton": 276,
+   "UIListLayout": 231,
+   "UICorner": 131,
+   "UIPadding": 117,
+   "LocalScript": 84,
+   "SurfaceGui": 82,
+   "ScreenGui": 76,
+   "ImageButton": 56,
+   "UISizeConstraint": 41,
+   "Part": 40,
+   "WeldConstraint": 33,
+   "UIScale": 32,
+   "ScrollingFrame": 30,
+   "TextBox": 27,
+   "NumberValue": 27,
+   "Decal": 24,
+   "StringValue": 10,
+   "BoolValue": 10,
+   "ViewportFrame": 8,
+   "UIGridLayout": 6,
+   "Folder": 5,
+   "UIFlexItem": 2,
+   "UITextSizeConstraint": 2
+  },
+  "fonts": {
+   "ComicNeueAngular Bold": 938,
+   "SourceSansPro Bold": 320,
+   "SourceSansPro Regular": 259,
+   "ComicNeueAngular Regular": 94,
+   "ComicNeueAngular SemiBold": 21,
+   "LegacyArial Regular": 13,
+   "FredokaOne Regular": 8,
+   "Inconsolata Regular": 6,
+   "ComicNeueAngular Heavy": 4,
+   "font asset 16658237174 Bold": 3,
+   "rbxasset://LuaPackages/Packages/_Index/BuilderIcons/BuilderIcons/BuilderIcons.json Regular": 2,
+   "SourceSansPro Light": 1
+  },
+  "background_colors": {
+   "#000000": 433,
+   "#eee4da": 216,
+   "#ffffff": 144,
+   "#9c9c9c": 70,
+   "#27140b": 55,
+   "#a3a2a5": 32,
+   "#00aaff": 31,
+   "#ff0000": 25,
+   "#00aa00": 24,
+   "#fbfcff": 10,
+   "#4bc100": 10,
+   "#242424": 9,
+   "#553105": 5,
+   "#1a5600": 5,
+   "#402816": 5,
+   "#003d04": 4
+  },
+  "text_colors": {
+   "#ffffff": 1047,
+   "#000000": 515,
+   "#143000": 16,
+   "#1b2a35": 11,
+   "#281601": 10,
+   "#7dff4e": 8,
+   "#ffee00": 7,
+   "#ffe282": 7,
+   "#ff0000": 7,
+   "#a8a8a8": 4
+  },
+  "stroke_colors": {
+   "#000000": 377,
+   "#281b00": 262,
+   "#143000": 180,
+   "#3f0000": 126,
+   "#3e2202": 111,
+   "#160900": 59,
+   "#281935": 52,
+   "#0f3200": 38,
+   "#271a00": 38,
+   "#00325e": 35
+  },
+  "image_tints": {
+   "#000000": 126,
+   "#4c2715": 35,
+   "#191919": 12,
+   "#31591e": 9,
+   "#fffcd8": 2,
+   "#ffaa00": 2,
+   "#61122e": 2,
+   "#d2d2d2": 2,
+   "#47da00": 2,
+   "#fff459": 2
+  },
+  "corner_radius": {
+   "{1.0,0}": 80,
+   "{0.0,8}": 22,
+   "{0.1,0}": 10,
+   "{0.05,0}": 8,
+   "{0.5,0}": 4,
+   "{0.2,0}": 3,
+   "{0.3,0}": 2,
+   "{0.03,0}": 1,
+   "{0.28,0}": 1
+  },
+  "stroke_thickness": {
+   "0.05 scaled": 853,
+   "2.0 px": 146,
+   "0.06 scaled": 119,
+   "0.04 scaled": 113,
+   "0.02 scaled": 96,
+   "3.0 px": 75,
+   "0.03 scaled": 65,
+   "0.07 scaled": 40,
+   "0.01 scaled": 24,
+   "0.08 scaled": 11
+  },
+  "text_size_px": {
+   "52": 21,
+   "14": 13,
+   "8": 7,
+   "16": 6,
+   "24": 2,
+   "18": 1,
+   "20": 1,
+   "15": 1,
+   "19": 1
+  },
+  "text_scaled_share": 0.97,
+  "size_mode": {
+   "scale": 3893,
+   "offset": 46,
+   "mixed": 51,
+   "zero": 19
+  },
+  "unique_images": 147,
+  "per_100_objects": {
+   "UICorner": 3.3,
+   "UIStroke": 39.7,
+   "UIGradient": 20.7,
+   "UIAspectRatioConstraint": 12.9,
+   "UIListLayout": 5.8,
+   "UIGridLayout": 0.1,
+   "UIPadding": 2.9,
+   "UIScale": 0.8,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 36.0,
+   "ImageButton": 1.4,
+   "TextButton": 6.9
+  }
+ },
+ "map": {
+  "instances": 32946,
+  "parts": 2863,
+  "meshparts": 29,
+  "unions": 0,
+  "anchored_share": 0.96,
+  "textures_decals": 27,
+  "surface_appearances": 2,
+  "lights": 0,
+  "emitters": 26,
+  "beams_trails": 4,
+  "sounds": 0,
+  "prompts": 42,
+  "world_guis": 38,
+  "humanoids": 12,
+  "materials": {
+   "Plastic": 2311,
+   "Neon": 344,
+   "Glacier": 202,
+   "Concrete": 4,
+   "SmoothPlastic": 2
+  },
+  "part_colors": {
+   "#785740": 1072,
+   "#ff0000": 752,
+   "#c3ff00": 344,
+   "#a3a2a5": 130,
+   "#6a3909": 119,
+   "#6c6e75": 88,
+   "#6c584b": 87,
+   "#a34b4b": 32,
+   "#eab892": 30,
+   "#9fa1ac": 28,
+   "#80838b": 24,
+   "#cdcdcd": 20,
+   "#834d2b": 16,
+   "#5b9a4c": 16
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   1091,
+   180,
+   371
+  ],
+  "extent_all_studs": [
+   2439,
+   5513,
+   2048
+  ],
+  "top_classes": {
+   "Pose": 22228,
+   "Keyframe": 4236,
+   "Part": 2834,
+   "IntValue": 1521,
+   "Model": 833,
+   "Attachment": 267,
+   "Motor6D": 76,
+   "Folder": 74,
+   "BodyPartDescription": 72,
+   "UIStroke": 67,
+   "Frame": 57,
+   "UICorner": 56,
+   "ImageLabel": 53,
+   "ProximityPrompt": 42,
+   "WeldConstraint": 40
+  }
+ },
+ "lighting": {
+  "Ambient": "#8a8a8a",
+  "Brightness": 2.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 29.475,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#808080",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "08:04:19",
+  "@attributes": {
+   "ActiveWeatherEffects": 218.0,
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Intensity": 0.25,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.75,
+    "FocusDistance": 0.05,
+    "InFocusRadius": 250.0,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.75
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "Blur",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 1.0,
+    "Threshold": 4.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "FlameEffect",
+   "props": {
+    "Brightness": 0.1,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "FlameEffect",
+    "Saturation": 0.1,
+    "TintColor": "#fff6c5"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "RainEffect",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "RainEffect",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "LightningEffect",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "LightningEffect",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "RainbowEffect",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "RainbowEffect",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "StarEffect",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "StarEffect",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "rbxassetid://528480826",
+    "SkyboxDn": "rbxassetid://528481890",
+    "SkyboxFt": "rbxassetid://528481964",
+    "SkyboxLf": "rbxassetid://528482047",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://528482365",
+    "SkyboxUp": "rbxassetid://528484371",
+    "StarCount": 0,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "ActivePhase": "Day",
+   "ActiveWeather": "Day",
+   "CycleOffset": 366.0,
+   "InstantPurchasesEnabled": true,
+   "PhaseDuration": 1781339850.2612,
+   "RemoteDeveloperProducts": "[[\"Seed:Carrot:1\",3,3603721221],[\"Seed:Carrot:1:Gift\",3,3603721222],[\"Seed:Carrot:3\",9,3603721225],[\"Seed:Carrot:3:Gift\",9,3603721229],[\"Seed:Carrot:10\",30,3603721232],[\"Seed:Carrot:10:Gift\",30,3603721235],[\"Restock:Gears:1\",39,3603721848],[\"Gear:Super Watering Can:1\",340,3603721981],[\"Gear:Super Watering Can:1:Gift\",340,3603721983],[\"Gear:Super Watering Can:3\",1020,3603721985],[\"Gear:Super Watering Can:3:Gift\",1020,3603721990],[\"Gear:Super Watering Can:10\",3400,3603721994],[\"Gear:Super Watering Can:10:Gift\",3400,3603721998],[\"Seed:Sunflower:1\",599,3603721615],[\"Seed:Sunflower:1:Gift\",599,3603721621],[\"Seed:Sunflower:3\",1797,3603721626],[\"Seed:Sunflower:3:Gift\",1797,3603721628],[\"Seed:Sunflower:10\",5990,3603721634],[\"Seed:Sunflower:10:Gift\",5990,3603721637],[\"Seed:Tomato:1\",15,3603721261],[\"Seed:Tomato:1:Gift\",15,3603721264],[\"Seed:Tomato:3\",45,3603721269],[\"Seed:Tomato:3:Gift\",45,3603721271],[\"Seed:Tomato:10\",150,3603721275],[\"Seed:Tomato:10:Gift\",150,3603721277],[\"Crate:Sign Crate:1\",49,3603722268],[\"Crate:Sign Crate:1:Gift\",49,3603722272],[\"Crate:Sign Crate:3\",147,3603722273],[\"Crate:Sign Crate:3:Gift\",147,3603722277],[\"Crate:Sign Crate:10\",490,3603722279],[\"Crate:Sign Crate:10:Gift\",490,3603722283],[\"Seed:Pineapple:1\",99,3603721405],[\"Seed:Pineapple:1:Gift\",99,3603721410],[\"Seed:Pineapple:3\",297,3603721413],[\"Seed:Pineapple:3:Gift\",297,3603721415],[\"Seed:Pineapple:10\",990,3603721419],[\"Seed:Pineapple:10:Gift\",990,3603721424],[\"Seed:Strawberry:1\",7,3603721242],[\"Seed:Strawberry:1:Gift\",7,3603721245],[\"Seed:Strawberry:3\",21,3603721248],[\"Seed:Strawberry:3:Gift\",21,3603721251],[\"Seed:Strawberry:10\",70,3603721254],[\"Seed:Strawberry:10:Gift\",70,3603721257],[\"Crate:Fence Crate:1\",299,3603722445],[\"Crate:Fence Crate:1:Gift\",299,3603722447],[\"Crate:Fence Crate:3\",897,3603722451],[\"Crate:Fence Crate:3:Gift\",897,3603722454],[\"Crate:Fence Crate:10\",2990,3603722456],[\"Crate:Fence Crate:10:Gift\",2990,3603722459],[\"Seed:Dragon's Breath:1\",1499,3603721764],[\"Seed:Dragon's Breath:1:Gift\",1499,3603721767],[\"Seed:Dragon's Breath:3\",4497,3603721769],[\"Seed:Dragon's Breath:3:Gift\",4497,3603721772],[\"Seed:Dragon's Breath:10\",14990,3603721776],[\"Seed:Dragon's Breath:10:Gift\",14990,3603721780],[\"Gear:Shrink Mushroom:1\",70,3603722118],[\"Gear:Shrink Mushroom:1:Gift\",70,3603722119],[\"Gear:Shrink Mushroom:3\",210,3603722123],[\"Gear:Shrink Mushroom:3:Gift\",210,3603722126],[\"Gear:Shrink Mushroom:10\",700,3603722128],[\"Gear:Shrink Mushroom:10:Gift\",700,3603722133],[\"Seed:Tulip:1\",4,3603721783],[\"Seed:Tulip:1:Gift\",4,3603721785],[\"Seed:Tulip:3\",12,3603721788],[\"Seed:Tulip:3:Gift\",12,3603721792],[\"Seed:Tulip:10\",40,3603721795],[\"Seed:Tulip:10:Gift\",40,3603721797],[\"SkillUpgrade:Shovel Power:1\",39,3603722616],[\"SkillUpgrade:Shovel Power:3\",139,3603722622],[\"SkillUpgrade:Shovel Power:2\",89,3603722625],[\"SkillUpgrade:Shovel Power:5\",239,3603722628],[\"SkillUpgrade:Shovel Power:4\",189,3603722632],[\"SkillUpgrade:Shovel Power:7\",339,3603722634],[\"SkillUpgrade:Shovel Power:6\",289,3603722637],[\"SkillUpgrade:Shovel Power:9\",439,3603722641],[\"SkillUpgrade:Shovel Power:8\",389,3603722643],[\"SkillUpgrade:Shovel Power:10\",489,3603722646],[\"Gift:Freeze Ray:1\",749,3603901476],[\"ExclusiveGear:Super Watering Can:1\",129,3603722544],[\"RefundPoints:Refund Points:1\",79,3603722555],[\"RefundPoints:Refund Points:1:Gift\",79,3603722558],[\"Restock:Seeds:1\",39,3603721839],[\"Gear:Speed Mushroom:1\",32,3603722025],[\"Gear:Speed Mushroom:1:Gift\",32,3603722030],[\"Gear:Speed Mushroom:3\",96,3603722034],[\"Gear:Speed Mushroom:3:Gift\",96,3603722037],[\"Gear:Speed Mushroom:10\",320,3603722039],[\"Gear:Speed Mushroom:10:Gift\",320,3603722040],[\"SeedPack:Ghost Pepper Pack:1\",99,3603722493],[\"SeedPack:Ghost Pepper Pack:1:Gift\",99,3603722501],[\"SeedPack:Ghost Pepper Pack:50\",4499,3603722503],[\"SeedPack:Ghost Pepper Pack:50:Gift\",4499,3603722505],[\"SeedPack:Ghost Pepper Pack:3\",249,3603722507],[\"SeedPack:Ghost Pepper Pack:3:Gift\",249,3603722512],[\"SeedPack:Ghost Pepper Pack:10\",799,3603722514],[\"SeedPack:Ghost Pepper Pack:10:Gift\",799,3603722516],[\"Gear:Gnome:1\",95,3603722098],[\"Gear:Gnome:1:Gift\",95,3603722101],[\"Gear:Gnome:3\",285,3603722104],[\"Gear:Gnome:3:Gift\",285,3603722106],[\"Gear:Gnome:10\",950,3603722111],[\"Gear:Gnome:10:Gift\",950,3603722115],[\"Crate:Teleporter Pad Crate:1\",499,3603722461],[\"Crate:Teleporter Pad Crate:1:Gift\",499,3603722463],[\"Crate:Teleporter Pad Crate:3\",1497,3603722465],[\"Crate:Teleporter Pad Crate:3:Gift\",1497,3603722467],[\"Crate:Teleporter Pad Crate:10\",4990,3603722469],[\"Crate:Teleporter Pad Crate:10:Gift\",4990,3603722473],[\"Crate:Bench Crate:1\",23,3603722228],[\"Crate:Bench Crate:1:Gift\",23,3603722231],[\"Crate:Bench Crate:3\",69,3603722235],[\"Crate:Bench Crate:3:Gift\",69,3603722239],[\"Crate:Bench Crate:10\",230,3603722241],[\"Crate:Bench Crate:10:Gift\",230,3603722245],[\"Currency:Sheckles:25000\",50,3603721806],[\"Currency:Sheckles:25000:Gift\",50,3603721808],[\"Currency:Sheckles:10000\",20,3603721811],[\"Currency:Sheckles:10000:Gift\",20,3603721814],[\"Currency:Sheckles:50000\",100,3603721818],[\"Currency:Sheckles:50000:Gift\",100,3603721821],[\"Currency:Sheckles:100000\",200,3603721823],[\"Currency:Sheckles:100000:Gift\",200,3603721827],[\"Currency:Sheckles:5000\",10,3603721833],[\"Currency:Sheckles:5000:Gift\",10,3603721835],[\"Seed:Coconut:1\",149,3603721514],[\"Seed:Coconut:1:Gift\",149,3603721516],[\"Seed:Coconut:3\",447,3603721519],[\"Seed:Coconut:3:Gift\",447,3603721521],[\"Seed:Coconut:10\",1490,3603721525],[\"Seed:Coconut:10:Gift\",1490,3603721527],[\"Gear:Trowel:1\",30,3603722001],[\"Gear:Trowel:1:Gift\",30,3603722005],[\"Gear:Trowel:3\",90,3603722009],[\"Gear:Trowel:3:Gift\",90,3603722012],[\"Gear:Trowel:10\",300,3603722015],[\"Gear:Trowel:10:Gift\",300,3603722020],[\"Gear:Legendary Sprinkler:1\",220,3603721916],[\"Gear:Legendary Sprinkler:1:Gift\",220,3603721919],[\"Gear:Legendary Sprinkler:3\",660,3603721921],[\"Gear:Legendary Sprinkler:3:Gift\",660,3603721926],[\"Gear:Legendary Sprinkler:10\",2200,3603721928],[\"Gear:Legendary Sprinkler:10:Gift\",2200,3603721933],[\"Gear:Flashbang:1\",59,3603722077],[\"Gear:Flashbang:1:Gift\",59,3603722081],[\"Gear:Flashbang:3\",177,3603722083],[\"Gear:Flashbang:3:Gift\",177,3603722087],[\"Gear:Flashbang:10\",590,3603722090],[\"Gear:Flashbang:10:Gift\",590,3603722092],[\"Gear:Super Sprinkler:1\",399,3603721938],[\"Gear:Super Sprinkler:1:Gift\",399,3603721940],[\"Gear:Super Sprinkler:3\",1197,3603721944],[\"Gear:Super Sprinkler:3:Gift\",1197,3603721946],[\"Gear:Super Sprinkler:10\",3990,3603721950],[\"Gear:Super Sprinkler:10:Gift\",3990,3603721954],[\"Gear:Teleporter:1\",260,3603722183],[\"Gear:Teleporter:1:Gift\",260,3603722185],[\"Gear:Teleporter:3\",780,3603722190],[\"Gear:Teleporter:3:Gift\",780,3603722192],[\"Gear:Teleporter:10\",2600,3603722195],[\"Gear:Teleporter:10:Gift\",2600,3603722198],[\"Gear:Sign:1\",49,3603722201],[\"Crate:Conveyor Crate:1\",79,3603722329],[\"Crate:Conveyor Crate:1:Gift\",79,3603722332],[\"Crate:Conveyor Crate:3\",237,3603722336],[\"Crate:Conveyor Crate:3:Gift\",237,3603722337],[\"Crate:Conveyor Crate:10\",790,3603722340],[\"Crate:Conveyor Crate:10:Gift\",790,3603722344],[\"Standalone:Skip Cooldown:1\",3,3603722531],[\"Gear:Common Watering Can:1\",4,3603721957],[\"Gear:Common Watering Can:1:Gift\",4,3603721962],[\"Gear:Common Watering Can:3\",12,3603721965],[\"Gear:Common Watering Can:3:Gift\",12,3603721969],[\"Gear:Common Watering Can:10\",40,3603721973],[\"Gear:Common Watering Can:10:Gift\",40,3603721978],[\"Seed:Moon Bloom:1\",1349,3603721743],[\"Seed:Moon Bloom:1:Gift\",1349,3603721745],[\"Seed:Moon Bloom:3\",4047,3603721747],[\"Seed:Moon Bloom:3:Gift\",4047,3603721751],[\"Seed:Moon Bloom:10\",13490,3603721757],[\"Seed:Moon Bloom:10:Gift\",13490,3603721761],[\"Seed:Poison Apple:1\",1299,3603721724],[\"Seed:Poison Apple:1:Gift\",1299,3603721727],[\"Seed:Poison Apple:3\",3897,3603721729],[\"Seed:Poison Apple:3:Gift\",3897,3603721736],[\"Seed:Poison Apple:10\",12990,3603721737],[\"Seed:Poison Apple:10:Gift\",12990,3603721740],[\"ExclusiveGear:Jump Mushroom:1\",29,3603722540],[\"Seed:Corn:1\",69,3603721358],[\"Seed:Corn:1:Gift\",69,3603721363],[\"Seed:Corn:3\",207,3603721366],[\"Seed:Corn:3:Gift\",207,3603721370],[\"Seed:Corn:10\",690,3603721376],[\"Seed:Corn:10:Gift\",690,3603721379],[\"Seed:Banana:1\",119,3603721467],[\"Seed:Banana:1:Gift\",119,3603721470],[\"Seed:Banana:3\",357,3603721474],[\"Seed:Banana:3:Gift\",357,3603721480],[\"Seed:Banana:10\",1190,3603721484],[\"Seed:Banana:10:Gift\",1190,3603721487],[\"Standalone:StarterPack:1\",149,3603722517],[\"Gift:Vine Wrapper:1\",499,3603901485],[\"Gear:Lantern:1\",99,3603722205],[\"Seed:Thorn Rose:1\",229,3603721551],[\"Seed:Thorn Rose:1:Gift\",229,3603721555],[\"Seed:Thorn Rose:3\",687,3603721557],[\"Seed:Thorn Rose:3:Gift\",687,3603721559],[\"Seed:Thorn Rose:10\",2290,3603721565],[\"Seed:Thorn Rose:10:Gift\",2290,3603721568],[\"Gear:Wheelbarrow:1\",129,3603722211],[\"Gear:Invisibility Mushroom:1\",240,3603722159],[\"Gear:Invisibility Mushroom:1:Gift\",240,3603722162],[\"Gear:Invisibility Mushroom:3\",720,3603722167],[\"Gear:Invisibility Mushroom:3:Gift\",720,3603722173],[\"Gear:Invisibility Mushroom:10\",2400,3603722176],[\"Gear:Invisibility Mushroom:10:Gift\",2400,3603722180],[\"Crate:Arch Crate:1\",59,3603722286],[\"Crate:Arch Crate:1:Gift\",59,3603722288],[\"Crate:Arch Crate:3\",177,3603722291],[\"Crate:Arch Crate:3:Gift\",177,3603722294],[\"Crate:Arch Crate:10\",590,3603722298],[\"Crate:Arch Crate:10:Gift\",590,3603722301],[\"Gift:Power Hose:1\",299,3603901480],[\"Gift:Rainbow Carpet:1\",599,3603901471],[\"Gear:Basic Pot:1\",179,3603722065],[\"Gear:Basic Pot:1:Gift\",179,3603722068],[\"Gear:Basic Pot:3\",537,3603722069],[\"Gear:Basic Pot:3:Gift\",537,3603722071],[\"Gear:Basic Pot:10\",1790,3603722073],[\"Gear:Basic Pot:10:Gift\",1790,3603722075],[\"Guild:Guild Creation:1\",99,3603722785],[\"Seed:Lotus:1\",899,3603721662],[\"Seed:Lotus:1:Gift\",899,3603721669],[\"Seed:Lotus:3\",2697,3603721672],[\"Seed:Lotus:3:Gift\",2697,3603721673],[\"Seed:Lotus:10\",8990,3603721678],[\"Seed:Lotus:10:Gift\",8990,3603721681],[\"Seed:Apple:1\",29,3603721300],[\"Seed:Apple:1:Gift\",29,3603721303],[\"Seed:Apple:3\",87,3603721305],[\"Seed:Apple:3:Gift\",87,3603721309],[\"Seed:Apple:10\",290,3603721314],[\"Seed:Apple:10:Gift\",290,3603721321],[\"SkillUpgrade:Backpack Space:37\",999,3603722650],[\"SkillUpgrade:Backpack Space:35\",949,3603722654],[\"SkillUpgrade:Backpack Space:29\",799,3603722655],[\"SkillUpgrade:Backpack Space:1\",79,3603722658],[\"SkillUpgrade:Backpack Space:3\",159,3603722660],[\"SkillUpgrade:Backpack Space:2\",129,3603722663],[\"SkillUpgrade:Backpack Space:5\",199,3603722667],[\"SkillUpgrade:Backpack Space:4\",179,3603722670],[\"SkillUpgrade:Backpack Space:7\",249,3603722671],[\"SkillUpgrade:Backpack Space:6\",219,3603722673],[\"SkillUpgrade:Backpack Space:9\",299,3603722676],[\"SkillUpgrade:Backpack Space:8\",279,3603722685],[\"SkillUpgrade:Backpack Space:27\",749,3603722687],[\"SkillUpgrade:Backpack Space:17\",499,3603722690],[\"SkillUpgrade:Backpack Space:13\",399,3603722691],[\"SkillUpgrade:Backpack Space:21\",599,3603722693],[\"SkillUpgrade:Backpack Space:11\",349,3603722697],[\"SkillUpgrade:Backpack Space:23\",649,3603722700],[\"SkillUpgrade:Backpack Space:36\",979,3603722703],[\"SkillUpgrade:Backpack Space:34\",919,3603722705],[\"SkillUpgrade:Backpack Space:28\",779,3603722708],[\"SkillUpgrade:Backpack Space:33\",899,3603722714],[\"SkillUpgrade:Backpack Space:32\",879,3603722720],[\"SkillUpgrade:Backpack Space:31\",849,3603722721],[\"SkillUpgrade:Backpack Space:30\",819,3603722722],[\"SkillUpgrade:Backpack Space:19\",549,3603722726],[\"SkillUpgrade:Backpack Space:18\",519,3603722732],[\"SkillUpgrade:Backpack Space:25\",699,3603722737],[\"SkillUpgrade:Backpack Space:15\",449,3603722741],[\"SkillUpgrade:Backpack Space:14\",419,3603722743],[\"SkillUpgrade:Backpack Space:24\",679,3603722745],[\"SkillUpgrade:Backpack Space:16\",479,3603722747],[\"SkillUpgrade:Backpack Space:26\",719,3603722749],[\"SkillUpgrade:Backpack Space:20\",579,3603722752],[\"SkillUpgrade:Backpack Space:12\",379,3603722758],[\"SkillUpgrade:Backpack Space:22\",619,3603722760],[\"SkillUpgrade:Backpack Space:10\",319,3603722762],[\"Seed:Venus Fly Trap:1\",799,3603721639],[\"Seed:Venus Fly Trap:1:Gift\",799,3603721642],[\"Seed:Venus Fly Trap:3\",2397,3603721647],[\"Seed:Venus Fly Trap:3:Gift\",2397,3603721651],[\"Seed:Venus Fly Trap:10\",7990,3603721656],[\"Seed:Venus Fly Trap:10:Gift\",7990,3603721659],[\"Seed:Cherry:1\",479,3603721598],[\"Seed:Cherry:1:Gift\",479,3603721599],[\"Seed:Cherry:3\",1437,3603721600],[\"Seed:Cherry:3:Gift\",1437,3603721603],[\"Seed:Cherry:10\",4790,3603721607],[\"Seed:Cherry:10:Gift\",4790,3603721610],[\"Seed:Green Bean:1\",99,3603721445],[\"Seed:Green Bean:1:Gift\",99,3603721447],[\"Seed:Green Bean:3\",297,3603721453],[\"Seed:Green Bean:3:Gift\",297,3603721456],[\"Seed:Green Bean:10\",990,3603721459],[\"Seed:Green Bean:10:Gift\",990,3603721465],[\"SkillUpgrade:Base Jump:1\",39,3603722588],[\"SkillUpgrade:Base Jump:3\",139,3603722592],[\"SkillUpgrade:Base Jump:2\",89,3603722594],[\"SkillUpgrade:Base Jump:5\",239,3603722597],[\"SkillUpgrade:Base Jump:4\",189,3603722601],[\"SkillUpgrade:Base Jump:7\",339,3603722603],[\"SkillUpgrade:Base Jump:6\",289,3603722606],[\"SkillUpgrade:Base Jump:9\",439,3603722608],[\"SkillUpgrade:Base Jump:8\",389,3603722611],[\"SkillUpgrade:Base Jump:10\",489,3603722613],[\"Seed:Grape:1\",139,3603721490],[\"Seed:Grape:1:Gift\",139,3603721493],[\"Seed:Grape:3\",417,3603721496],[\"Seed:Grape:3:Gift\",417,3603721502],[\"Seed:Grape:10\",1390,3603721507],[\"Seed:Grape:10:Gift\",1390,3603721512],[\"Standalone:Inventory Upgrade:1\",19,3603722528],[\"Seed:Blueberry:1\",12,3603721325],[\"Seed:Blueberry:1:Gift\",12,3603721327],[\"Seed:Blueberry:3\",36,3603721331],[\"Seed:Blueberry:3:Gift\",36,3603721332],[\"Seed:Blueberry:10\",120,3603721334],[\"Seed:Blueberry:10:Gift\",120,3603721339],[\"Crate:Bear Trap Crate:1\",169,3603722429],[\"Crate:Bear Trap Crate:1:Gift\",169,3603722430],[\"Crate:Bear Trap Crate:3\",507,3603722433],[\"Crate:Bear Trap Crate:3:Gift\",507,3603722435],[\"Crate:Bear Trap Crate:10\",1690,3603722438],[\"Crate:Bear Trap Crate:10:Gift\",1690,3603722442],[\"Standalone:Grow Plant:1\",39,3603722525],[\"Gear:Common Sprinkler:1\",7,3603721851],[\"Gear:Common Sprinkler:1:Gift\",7,3603721854],[\"Gear:Common Sprinkler:3\",21,3603721862],[\"Gear:Common Sprinkler:3:Gift\",21,3603721866],[\"Gear:Common Sprinkler:10\",70,3603721872],[\"Gear:Common Sprinkler:10:Gift\",70,3603721875],[\"Seed:Dragon Fruit:1\",239,3604088959],[\"Seed:Dragon Fruit:1:Gift\",239,3604088969],[\"Seed:Dragon Fruit:3\",717,3604088979],[\"Seed:Dragon Fruit:3:Gift\",717,3604088986],[\"Seed:Dragon Fruit:10\",2390,3604088989],[\"Seed:Dragon Fruit:10:Gift\",2390,3604089001],[\"Gear:Rare Sprinkler:1\",49,3603721893],[\"Gear:Rare Sprinkler:1:Gift\",49,3603721899],[\"Gear:Rare Sprinkler:3\",147,3603721901],[\"Gear:Rare Sprinkler:3:Gift\",147,3603721904],[\"Gear:Rare Sprinkler:10\",490,3603721909],[\"Gear:Rare Sprinkler:10:Gift\",490,3603721912],[\"Gear:Jump Mushroom:1\",32,3603722044],[\"Gear:Jump Mushroom:1:Gift\",32,3603722047],[\"Gear:Jump Mushroom:3\",96,3603722050],[\"Gear:Jump Mushroom:3:Gift\",96,3603722057],[\"Gear:Jump Mushroom:10\",320,3603722061],[\"Gear:Jump Mushroom:10:Gift\",320,3603722063],[\"Seed:Test:1\",1,3603721801],[\"Crate:Owner Door Crate:1\",179,3603722410],[\"Crate:Owner Door Crate:1:Gift\",179,3603722414],[\"Crate:Owner Door Crate:3\",537,3603722415],[\"Crate:Owner Door Crate:3:Gift\",537,3603722416],[\"Crate:Owner Door Crate:10\",1790,3603722423],[\"Crate:Owner Door Crate:10:Gift\",1790,3603722426],[\"Seed:Cactus:1\",79,3603721383],[\"Seed:Cactus:1:Gift\",79,3603721389],[\"Seed:Cactus:3\",237,3603721392],[\"Seed:Cactus:3:Gift\",237,3603721395],[\"Seed:Cactus:10\",790,3603721401],[\"Seed:Cactus:10:Gift\",790,3603721403],[\"Restock:Props:1\",39,3603721845],[\"Crate:Spring Crate:1\",99,3603722370],[\"Crate:Spring Crate:1:Gift\",99,3603722373],[\"Crate:Spring Crate:3\",297,3603722375],[\"Crate:Spring Crate:3:Gift\",297,3603722379],[\"Crate:Spring Crate:10\",990,3603722381],[\"Crate:Spring Crate:10:Gift\",990,3603722382],[\"Seed:Beanstalk:1\",1199,3603721701],[\"Seed:Beanstalk:1:Gift\",1199,3603721704],[\"Seed:Beanstalk:3\",3597,3603721706],[\"Seed:Beanstalk:3:Gift\",3597,3603721713],[\"Seed:Beanstalk:10\",11990,3603721717],[\"Seed:Beanstalk:10:Gift\",11990,3603721719],[\"Crate:Roleplay Crate:1\",63,3603722307],[\"Crate:Roleplay Crate:1:Gift\",63,3603722311],[\"Crate:Roleplay Crate:3\",189,3603722313],[\"Crate:Roleplay Crate:3:Gift\",189,3603722315],[\"Crate:Roleplay Crate:10\",630,3603722318],[\"Crate:Roleplay Crate:10:Gift\",630,3603722325],[\"Crate:Bridge Crate:1\",89,3603722346],[\"Crate:Bridge Crate:1:Gift\",89,3603722351],[\"Crate:Bridge Crate:3\",267,3603722354],[\"Crate:Bridge Crate:3:Gift\",267,3603722360],[\"Crate:Bridge Crate:10\",890,3603722362],[\"Crate:Bridge Crate:10:Gift\",890,3603722368],[\"Guild:Guild Slots:25\",37,3603722768],[\"Guild:Guild Slots:40\",279,3603722771],[\"Guild:Guild Slots:50\",499,3603722776],[\"Guild:Guild Slots:30\",79,3603722779],[\"Guild:Guild Slots:45\",399,3603722780],[\"Guild:Guild Slots:35\",189,3603722781],[\"Seed:Acorn:1\",379,3603721573],[\"Seed:Acorn:1:Gift\",379,3603721579],[\"Seed:Acorn:3\",1137,3603721581],[\"Seed:Acorn:3:Gift\",1137,3603721587],[\"Seed:Acorn:10\",3790,3603721591],[\"Seed:Acorn:10:Gift\",3790,3603721593],[\"Seed:Pomegranate:1\",999,3603721684],[\"Seed:Pomegranate:1:Gift\",999,3603721686],[\"Seed:Pomegranate:3\",2997,3603721688],[\"Seed:Pomegranate:3:Gift\",2997,3603721693],[\"Seed:Pomegranate:10\",9990,3603721695],[\"Seed:Pomegranate:10:Gift\",9990,3603721700],[\"Crate:Ladder Crate:1\",19,3603722213],[\"Crate:Ladder Crate:1:Gift\",19,3603722215],[\"Crate:Ladder Crate:3\",57,3603722216],[\"Crate:Ladder Crate:3:Gift\",57,3603722218],[\"Crate:Ladder Crate:10\",190,3603722221],[\"Crate:Ladder Crate:10:Gift\",190,3603722224],[\"Seed:Mango:1\",199,3603721533],[\"Seed:Mango:1:Gift\",199,3603721538],[\"Seed:Mango:3\",597,3603721542],[\"Seed:Mango:3:Gift\",597,3603721546],[\"Seed:Mango:10\",1990,3603721547],[\"Seed:Mango:10:Gift\",1990,3603721548],[\"Standalone:Grow All:1\",299,3603722519],[\"Gear:Supersize Mushroom:1\",70,3603722137],[\"Gear:Supersize Mushroom:1:Gift\",70,3603722140],[\"Gear:Supersize Mushroom:3\",210,3603722145],[\"Gear:Supersize Mushroom:3:Gift\",210,3603722147],[\"Gear:Supersize Mushroom:10\",700,3603722149],[\"Gear:Supersize Mushroom:10:Gift\",700,3603722153],[\"Gear:Uncommon Sprinkler:1\",25,3603721882],[\"Gear:Uncommon Sprinkler:1:Gift\",25,3603721884],[\"Gear:Uncommon Sprinkler:3\",75,3603721885],[\"Gear:Uncommon Sprinkler:3:Gift\",75,3603721888],[\"Gear:Uncommon Sprinkler:10\",250,3603721889],[\"Gear:Uncommon Sprinkler:10:Gift\",250,3603721891],[\"Crate:Light Crate:1\",39,3603722250],[\"Crate:Light Crate:1:Gift\",39,3603722254],[\"Crate:Light Crate:3\",117,3603722256],[\"Crate:Light Crate:3:Gift\",117,3603722258],[\"Crate:Light Crate:10\",390,3603722259],[\"Crate:Light Crate:10:Gift\",390,3603722261],[\"Seed:Pumpkin:1\",34,3603721340],[\"Seed:Pumpkin:1:Gift\",34,3603721342],[\"Seed:Pumpkin:3\",102,3603721345],[\"Seed:Pumpkin:3:Gift\",102,3603721349],[\"Seed:Pumpkin:10\",340,3603721351],[\"Seed:Pumpkin:10:Gift\",340,3603721356],[\"SkillUpgrade:Base Speed:1\",39,3603722561],[\"SkillUpgrade:Base Speed:3\",139,3603722564],[\"SkillUpgrade:Base Speed:2\",89,3603722566],[\"SkillUpgrade:Base Speed:5\",239,3603722569],[\"SkillUpgrade:Base Speed:4\",189,3603722572],[\"SkillUpgrade:Base Speed:7\",339,3603722573],[\"SkillUpgrade:Base Speed:6\",289,3603722575],[\"SkillUpgrade:Base Speed:9\",439,3603722578],[\"SkillUpgrade:Base Speed:8\",389,3603722582],[\"SkillUpgrade:Base Speed:10\",489,3603722583],[\"ExclusiveGear:Common Seed Pack:1\",129,3603722548],[\"ExclusiveGear:Teleporter:1\",79,3603722534],[\"Seed:Mushroom:1\",69,3603721428],[\"Seed:Mushroom:1:Gift\",69,3603721431],[\"Seed:Mushroom:3\",207,3603721434],[\"Seed:Mushroom:3:Gift\",207,3603721435],[\"Seed:Mushroom:10\",690,3603721438],[\"Seed:Mushroom:10:Gift\",690,3603721439],[\"Crate:Seesaw Crate:1\",149,3603722388],[\"Crate:Seesaw Crate:1:Gift\",149,3603722392],[\"Crate:Seesaw Crate:3\",447,3603722393],[\"Crate:Seesaw Crate:3:Gift\",447,3603722396],[\"Crate:Seesaw Crate:10\",1490,3603722402],[\"Crate:Seesaw Crate:10:Gift\",1490,3603722406],[\"Seed:Bamboo:1\",17,3603721281],[\"Seed:Bamboo:1:Gift\",17,3603721283],[\"Seed:Bamboo:3\",51,3603721286],[\"Seed:Bamboo:3:Gift\",51,3603721288],[\"Seed:Bamboo:10\",170,3603721290],[\"Seed:Bamboo:10:Gift\",170,3603721297]]",
+   "RemoteGamepasses": "[[\"Gamepass:RainbowCarpet:1\",1871636418,\"Rainbow Carpet\",\"rbxassetid://81568908694561\"],[\"Gamepass:FreezeRay:1\",1867851150,\"Freeze Ray\",\"rbxassetid://106117717561001\"],[\"Gamepass:PowerHose:1\",1870188748,\"Power Hose\",\"rbxassetid://109454165112630\"],[\"Gamepass:VineWrapper:1\",1872278644,\"Vine Wrapper\",\"rbxassetid://93226922521003\"]]",
+   "ServicesLoaded": 2.177,
+   "SkillPointsOn": false
+  }
+ },
+ "packs": {
+  "ui": 109,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 1,
+  "materials": 1,
+  "lighting": 1,
+  "model": 469,
+  "parts": 46,
+  "vfx": 30,
+  "animations": 5,
+  "model-set": 1,
+  "keyframes": 51,
+  "other": 8
+ },
+ "coverage": {
+  "instances": 137007,
+  "packed": 136592,
+  "services": 53,
+  "code_or_empty_folders_not_packed": 359,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 51,
+ "animation_ids": 165,
+ "sound_ids": 189,
+ "files": 641,
+ "kb": 13717,
+ "category": "Simulator",
+ "source_file": "FIXED! GAG2 credit - quartz games studio.rbxl"
+}

@@ -1,0 +1,40 @@
+function onTouch(part) 
+local human = part.Parent:findFirstChild("Humanoid") 
+if human ~= nil then
+local R1 = part.Parent:findFirstChild("LeftFoot")
+local R2 = part.Parent:findFirstChild("LeftHand")
+local R3 = part.Parent:findFirstChild("LeftLowerArm")
+local R4 = part.Parent:findFirstChild("LeftLowerLeg")
+local R5 = part.Parent:findFirstChild("LeftUpperArm")
+local R6 = part.Parent:findFirstChild("LeftUpperLeg")
+local R7 = part.Parent:findFirstChild("LowerTorso")
+local R8 = part.Parent:findFirstChild("RightFoot")
+local R9 = part.Parent:findFirstChild("RightHand")
+local R10 = part.Parent:findFirstChild("RightLowerArm")
+local R11 = part.Parent:findFirstChild("RightLowerLeg")
+local R12 = part.Parent:findFirstChild("RightUpperArm")
+local R13 = part.Parent:findFirstChild("RightUpperLeg")
+local R14 = part.Parent:findFirstChild("UpperTorso")
+local R15 = part.Parent:findFirstChild("Head")
+
+
+
+R1.BrickColor = BrickColor.new(11)
+R2.BrickColor = BrickColor.new(11)
+R3.BrickColor = BrickColor.new(11)
+R4.BrickColor = BrickColor.new(11)
+R5.BrickColor = BrickColor.new(11)
+R6.BrickColor = BrickColor.new(11)
+R7.BrickColor = BrickColor.new(11)
+R8.BrickColor = BrickColor.new(11)
+R9.BrickColor = BrickColor.new(11)
+R10.BrickColor = BrickColor.new(11)
+R11.BrickColor = BrickColor.new(11)
+R12.BrickColor = BrickColor.new(11)
+R13.BrickColor = BrickColor.new(11)
+R14.BrickColor = BrickColor.new(11)
+R15.BrickColor = BrickColor.new(11)
+
+end 
+end 
+script.Parent.Touched:connect(onTouch) 

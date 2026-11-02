@@ -1,0 +1,45 @@
+-- TUTORIAL [Made By Vicious - VICIOUSVAULT]
+--
+-- gamepass ids
+-- ReplicatedStorage.Constants
+-- lines 53-60
+-- change only:
+--   Line 54: Gamepasses.AdminMenu = admin panel gamepass id
+--   Line 59: Gamepasses.ItemPacks.BanHammer = ban hammer gamepass id
+-- for tools change the gamepass ids in 
+--   ServerScriptService.toolpasses
+--
+-- product ids
+-- ReplicatedStorage.Constants
+-- Lines 75-78
+-- change only:
+--   Line 76: Gamepasses.Gameplay.Murderer = murderer role product id
+--   Line 77: Gamepasses.Gameplay.Sheriff = sheriff role product id
+-- do not edit the role selector button scripts they read these ids from constans.
+--
+-- admin panel user ids
+-- add/remove owner user ids in all active admin panel permission lists:
+--   ServerScriptService.AdminPanelServer
+--     Lines 11: ADMIN_OWNER_IDS
+--   StarterPlayer.StarterPlayerScripts.AdminPanelAccessClient
+--     Lines 13-15: ADMIN_OWNER_IDS
+--   ServerScriptService.GameScript.DataModule
+--     Around line 2804: ADMIN_OWNER_IDS
+--   StarterGui.CrossPlatform.OwnerPanel.AdminSettings
+--     Lines 7-10: ANNOUNCEMENT_OWNERS
+--   ServerScriptService.GlobalAnnouncementServer
+--     Lines 7-11: ANNOUNCEMENT_OWNERS
+--
+-- f2 cmdr user ids
+-- ServerScriptService.CmdrServer.Hooks.BeforeRun
+-- Lines 1-4
+-- add user ids inside the local id table.
+--
+-- code board group id
+-- StarterGui.SpawnFade.CodeBoardGroupReveal
+-- change only the group id used by this script:
+--   Script Attribute in Properties: gr = group id
+--   Current attribute value: 599488580
+-- If the gr attribute is missing, use source line 5 instead:
+--   local groupId = tonumber(script:GetAttribute("gr")) or 599488580
+--   replace only 599488580 with the new group id.

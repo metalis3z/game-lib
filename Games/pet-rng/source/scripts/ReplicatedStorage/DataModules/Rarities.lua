@@ -1,0 +1,36 @@
+local Rarities = {
+	["Common"] = { color = Color3.fromRGB(124, 124, 124), rank = 0 },
+	["Uncommon"] = { color = Color3.fromRGB(0, 161, 19), rank = 0 },
+	["Rare"] = { color = Color3.fromRGB(0, 170, 255), rank = 0 },
+	["Epic"] = { color = Color3.fromRGB(170, 85, 255), rank = 0 },
+	["Legendary"] = { color = Color3.fromRGB(255, 213, 0), rank = 0 },
+	["Mythic"] = { color = Color3.fromRGB(200, 0, 0), rank = 0 },
+	["Exceptional"] = { color = Color3.fromRGB(255, 0, 212), rank = 0 },
+	["Phenomenal"] = { color = Color3.fromRGB(0, 115, 255), rank = 0 },
+	["Miraculous"] = { color = Color3.fromRGB(255, 170, 0), rank = 0 },
+	["Mysterious"] = { color = Color3.fromRGB(89, 89, 89), rank = 0 },
+	["Immaterial"] = { color = Color3.fromRGB(255, 85, 127), rank = 0 },
+	["Universal"] = { color = Color3.fromRGB(58, 173, 0), rank = 0 },
+	["Transcendental"] = { color = Color3.fromRGB(170, 255, 255), rank = 0 },
+	["Intergalactic"] = { color = Color3.fromRGB(0, 0, 127), rank = 0 },
+	["Ethereal"] = { color = Color3.fromRGB(255, 0, 127), rank = 0 },
+	["Demonic"] = { color = Color3.fromRGB(100, 0, 0), rank = 0 },
+	["Galactic"] = { color = Color3.fromRGB(170, 85, 255), rank = 0 },
+	["Unreal"] = { color = Color3.fromRGB(0, 170, 255), rank = 0 },
+	["Legend"] = { color = Color3.fromRGB(255, 255, 0), rank = 0 },
+	["Mystical"] = { color = Color3.fromRGB(85, 85, 255), rank = 0 },
+	["Champion"] = { color = Color3.fromRGB(255, 170, 0), rank = 0 },
+	["Stellar"] = { color = Color3.fromRGB(255, 170, 255), rank = 0 },
+	["Infernal"] = { color = Color3.fromRGB(255, 85, 0), rank = 0 },
+	["Sweet"] = { color = Color3.fromRGB(170, 0, 127), rank = 0 },
+	["Exotic"] = { color = Color3.fromRGB(0, 255, 255), rank = 0 },
+	["Subsonic"] = {color = Color3.fromRGB(255, 0, 0), rank = 0 },
+	["Prismatic"] = {color = Color3.fromRGB(0, 0, 255), rank = 0 },
+	["Supersonic"] = {color = Color3.fromRGB(85, 0, 127), rank = 0 },
+	["Cave"] = {color = Color3.fromRGB(47, 47, 47), rank = 0 },
+	["Desert"] = {color = Color3.fromRGB(255, 170, 127), rank = 0 },
+	["Snow"] = {color = Color3.fromRGB(255, 255, 255), rank = 0 }
+}
+
+
+return Rarities

@@ -1,0 +1,59 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerStorage/builderman/Script.server.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/HD Admin/About/Settings/Loader.server.lua lines 12
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Script.server.lua lines 2
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ReplicatedStorage/ExchangeServerScript.server.lua lines 181,186,190,194
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ReplicatedStorage/LoadLibrary/RbxStamper.lua lines 679,685
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/Tadashy/TadashyAntiCheat.server.lua lines 37,101,181,208,223
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/AK-47/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Baller Gun/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/FAL/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/M4A1/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/M9/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/MP5/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/MiniGun/Config/Client.client.lua lines 3
+       very long line (35204 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Remington 870/Config/Client~2.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/SPAS 12/Config/Client.client.lua lines 3
+       very long line (38228 chars, possible obfuscation)
+[MED] scripts/ServerStorage/TommyGun/Config/Client.client.lua lines 3
+       very long line (46213 chars, possible obfuscation)
+[MED] scripts/ServerStorage/admin gun 2/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/ServerStorage/nil/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/Teams/Guards/M9/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+[MED] scripts/Teams/Guards/Taser/Config/Client.client.lua lines 3
+       very long line (34320 chars, possible obfuscation)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  102417947  in scripts/Lighting/Spas12/Script.server.lua, scripts/StarterGui/Home/intro/GuiResizeScript.client.lua, scripts/Workspace/Prison_ITEMS/clothes/Riot Police/vest/Script.server.lua, scripts/Workspace/Prison_ITEMS/giver/M4A1/ITEMPICKUP/Script~4.server.lua ...
+  18330994  in scripts/Workspace/VIPTagChat.server.lua
+  5922537  in scripts/Workspace/HD Admin/About/Settings.lua
+  76717080  in scripts/Lighting/MiniGuns/Script.server.lua
+  76718911  in scripts/ServerScriptService/PipBoySystem.server.lua
+
+Outside URLs in code:
+  http://en.wikipedia.org/wiki/Trajectory_of_a_projectile  in scripts/ServerStorage/ClassicSlingshot/Slingshot.server.lua
+  http://www.chipmunkav.com  in scripts/ReplicatedStorage/LoadLibrary/RbxUtility.lua
+  http://www.roblox.com/Asset?ID=111880514  in scripts/ServerStorage/ModdedRageTable/Script.server.lua, scripts/ServerStorage/RageTable/Script.server.lua
+  http://www.roblox.com/Asset?ID=111898513  in scripts/ServerStorage/ModdedRageTable/Script.server.lua, scripts/ServerStorage/RageTable/Script.server.lua
+  http://www.roblox.com/Asset?ID=111898867  in scripts/ServerStorage/ModdedRageTable/Script.server.lua, scripts/ServerStorage/RageTable/Script.server.lua
+  https://devforum.roblox.com/t/HD/216819  in scripts/Workspace/HD Admin/About.server.lua
+  https://media.guilded.gg/webhooks/REDACTED  in scripts/ServerScriptService/Tadashy/TadashyAntiCheat.server.lua
+  https://www.roblox.com/Thumbs/Avatar.ashx?x=500&y=500&Format=Png&userId=  in scripts/ServerScriptService/Tadashy/TadashyAntiCheat.server.lua

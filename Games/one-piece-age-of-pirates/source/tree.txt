@@ -1,0 +1,1725 @@
+Workspace "Workspace"  (2717 descendants)
+  Terrain "Terrain"
+  Camera "Camera"
+  Part "Ocean"
+    BlockMesh "Mesh"
+  Script "DataPersistence"  -> scripts/Workspace/DataPersistence.server.lua
+  Script "Day/Night"  -> scripts/Workspace/Day_Night.server.lua
+  Script "KillManager"  -> scripts/Workspace/KillManager.server.lua
+  Script "Kohl's Admin Commands V2"  -> scripts/Workspace/Kohl's Admin Commands V2.server.lua
+    Script "ScriptBase"  -> scripts/Workspace/Kohl's Admin Commands V2/ScriptBase.server.lua  [disabled]
+      StringValue "Code"
+    LocalScript "LocalScriptBase"  -> scripts/Workspace/Kohl's Admin Commands V2/LocalScriptBase.client.lua  [disabled]
+      StringValue "Code"
+    IntValue "Version"
+  Script "PlayerAddedStuff"  -> scripts/Workspace/PlayerAddedStuff.server.lua  [disabled]
+    Script "MarineRanks"  -> scripts/Workspace/PlayerAddedStuff/MarineRanks.server.lua
+    Script "Leaderboard"  -> scripts/Workspace/PlayerAddedStuff/Leaderboard.server.lua
+    Script "HakiGiver"  -> scripts/Workspace/PlayerAddedStuff/HakiGiver.server.lua
+    Script "Spawn"  -> scripts/Workspace/PlayerAddedStuff/Spawn.server.lua
+    Script "StarterScript"  -> scripts/Workspace/PlayerAddedStuff/StarterScript.server.lua
+      ScreenGui "WeaponGui"
+        Frame "Background"
+          TextLabel "ChooseWeapon"
+          TextButton "Sword"
+            Script "Script"  -> scripts/Workspace/PlayerAddedStuff/StarterScript/WeaponGui/Background/Sword/Script.server.lua
+          TextButton "Gun"
+            Script "Script"  -> scripts/Workspace/PlayerAddedStuff/StarterScript/WeaponGui/Background/Gun/Script.server.lua
+    Script "PrisonScript"  -> scripts/Workspace/PlayerAddedStuff/PrisonScript.server.lua
+      LocalScript "PrisonScript"  -> scripts/Workspace/PlayerAddedStuff/PrisonScript/PrisonScript.client.lua
+        ScreenGui "JailTime"
+          IntValue "TimeValue"
+          ImageLabel "Background"
+            TextLabel "TimeLeft"
+            TextLabel "Value"
+              Script "Script"  -> scripts/Workspace/PlayerAddedStuff/PrisonScript/PrisonScript/JailTime/Background/Value/Script.server.lua  [disabled]
+    Script "CustomMoves"  -> scripts/Workspace/PlayerAddedStuff/CustomMoves.server.lua
+    Script "MarineUniform"  -> scripts/Workspace/PlayerAddedStuff/MarineUniform.server.lua
+    Script "DevilFruitGiver"  -> scripts/Workspace/PlayerAddedStuff/DevilFruitGiver.server.lua
+    Script "WeaponGiver"  -> scripts/Workspace/PlayerAddedStuff/WeaponGiver.server.lua
+    Script "RokushikiGiver"  -> scripts/Workspace/PlayerAddedStuff/RokushikiGiver.server.lua
+  Model "Model"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+    Part "Part"
+    Part "Part"
+      CylinderMesh "Mesh"
+  Model "Model"  (22 descendants)
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+    Part "Part"
+    ... +14 more Part "Part"
+  Part "Part"
+  Part "Part"
+  Model "Model"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+    Part "Part"
+    Part "Part"
+      CylinderMesh "Mesh"
+  ... +74 more Model "Model"
+  Part "Part"
+  ... +116 more Part "Part"
+  WedgePart "Wedge"
+  WedgePart "Wedge"
+  Model "SpawnBox"  (105 descendants)
+    Part "Part"
+    SpawnLocation "SpawnLocation"
+    SpawnLocation "SpawnLocation"
+    SpawnLocation "SpawnLocation"
+    ... +97 more SpawnLocation "SpawnLocation"
+    Part "Part"
+    Part "Part"
+    ... +2 more Part "Part"
+  WedgePart "Wedge"
+  Part "PersonSpawn2"
+  Part "PersonSpawn1"
+NonReplicatedCSGDictionaryService "NonReplicatedCSGDictionaryService"  (74 descendants)
+  BinaryStringValue "Value"
+  BinaryStringValue "Value"
+  BinaryStringValue "Value"
+  ... +71 more BinaryStringValue "Value"
+CSGDictionaryService "CSGDictionaryService"  (147 descendants)
+  BinaryStringValue "Value"
+  BinaryStringValue "Value"
+  BinaryStringValue "Value"
+  ... +144 more BinaryStringValue "Value"
+LogService "LogService"
+Players "Players"
+PointsService "PointsService"
+AdService "AdService"
+NotificationService "NotificationService"
+ReplicatedFirst "ReplicatedFirst"
+StarterPlayer "StarterPlayer"
+StarterPack "StarterPack"
+  LocalScript "MusicScript"  -> scripts/StarterPack/MusicScript.client.lua
+    Sound "Music"
+  LocalScript "Run"  -> scripts/StarterPack/Run.client.lua
+  LocalScript "SwimScript"  -> scripts/StarterPack/SwimScript.client.lua
+StarterGui "StarterGui"  (22 descendants)
+  ScreenGui "MainGui"
+    TextLabel "Background"
+    TextButton "MoneyGiver"
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/MoneyGiver/LocalScript.client.lua
+    Frame "Money"
+      TextLabel "Value"
+        Script "Script"  -> scripts/StarterGui/MainGui/Money/Value/Script.server.lua
+      TextLabel "Sign"
+    TextButton "Music"
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Music/LocalScript.client.lua
+      StringValue "Status"
+      LocalScript "MusicScript"  -> scripts/StarterGui/MainGui/Music/MusicScript.client.lua  [disabled]
+        Sound "Music"
+    TextButton "Spawn"
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Spawn/LocalScript.client.lua
+  ScreenGui "Stamina"
+    Frame "Frame"
+      Frame "Frame"
+      TextLabel "TextLabel"
+      NumberValue "Value"
+        Script "Script"  -> scripts/StarterGui/Stamina/Frame/Value/Script.server.lua
+      Script "Script"  -> scripts/StarterGui/Stamina/Frame/Script.server.lua
+SoundService "SoundService"
+  Sound "Boing"
+  Sound "Bomb"
+  Sound "Break"
+  Sound "Click"
+  Sound "Clock"
+  Sound "Slingshot"
+  Sound "Page"
+  Sound "Ping"
+  Sound "Snap"
+  Sound "Splat"
+  Sound "Step"
+  Sound "StepOn"
+  Sound "Swoosh"
+  Sound "Victory"
+CollectionService "CollectionService"
+PhysicsService "PhysicsService"
+BadgeService "BadgeService"
+Geometry "Geometry"
+RenderHooksService "RenderHooksService"
+SocialService "SocialService"
+GamePassService "GamePassService"
+Debris "Debris"
+TimerService "Instance"
+ScriptInformationProvider "Instance"
+CookiesService "CookiesService"
+TeleportService "Teleport Service"
+FWService "Instance"
+UserInputService "Instance"
+ContextActionService "ContextActionService"
+ScriptService "Instance"
+AssetService "AssetService"
+Instance "FilteredSelection"
+Selection "Selection"
+Instance "FilteredSelection"
+ServerScriptService "ServerScriptService"
+ServerStorage "ServerStorage"
+ReplicatedStorage "ReplicatedStorage"
+LuaWebService "Instance"
+ChangeHistoryService "ChangeHistoryService"
+Instance "FilteredSelection"
+HttpService "HttpService"
+Lighting "Lighting"  (3176 descendants)
+  Tool "BarrierFruit"  (174 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/BarrierFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/BarrierFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/BarrierFruit/Welding~2.server.lua
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    ... +19 more Part "Part"
+    Part "Handle"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      Weld "Weld"
+      Weld "Weld"
+    LocalScript "BackupWeld"  -> scripts/Lighting/BarrierFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/BarrierFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "BisonFruit"  (20 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/BisonFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/BisonFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/BisonFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      Weld "Weld"
+      Weld "Weld"
+      Weld "Weld"
+      Weld "Weld"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/BisonFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/BisonFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "BombFruit"  (32 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/BombFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/BombFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/BombFruit/Welding~2.server.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/BombFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/BombFruit/BackupWeld~2.client.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    ... +3 more Part "Part"
+    Part "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    StringValue "DevilFruit"
+  Tool "BubbleFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/BubbleFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/BubbleFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/BubbleFruit/Welding~2.server.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/BubbleFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/BubbleFruit/BackupWeld~2.client.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    StringValue "DevilFruit"
+  Tool "CageFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/CageFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/CageFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/CageFruit/Welding~2.server.lua
+    UnionOperation "Union"
+    UnionOperation "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/CageFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/CageFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "ChillyFruit"  (213 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/ChillyFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/ChillyFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/ChillyFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      BlockMesh "Mesh"
+    ... +20 more Part "Part"
+    UnionOperation "Union"
+    Part "Handle"  (33 descendants)
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      Weld "Weld"
+      Weld "Weld"
+      Weld "Weld"
+      ... +23 more Weld "Weld"
+    LocalScript "BackupWeld"  -> scripts/Lighting/ChillyFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/ChillyFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "DarkFruit"  (34 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/DarkFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/DarkFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/DarkFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    ... +10 more Part "Part"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    LocalScript "BackupWeld"  -> scripts/Lighting/DarkFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/DarkFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "DoorFruit"  (170 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/DoorFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/DoorFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/DoorFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    ... +18 more Part "Part"
+    Part "Handle"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/DoorFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/DoorFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "FalconFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/FalconFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/FalconFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/FalconFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/FalconFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/FalconFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "FlameFruit"  (257 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/FlameFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/FlameFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/FlameFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Handle"  (86 descendants)
+      SpecialMesh "Mesh"
+      Weld "Weld"
+      Weld "Weld"
+      Weld "Weld"
+      ... +82 more Weld "Weld"
+    ... +77 more Part "Part"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/FlameFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/FlameFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "GasFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/GasFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/GasFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/GasFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    LocalScript "BackupWeld"  -> scripts/Lighting/GasFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/GasFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "GiraffeFruit"  (170 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/GiraffeFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/GiraffeFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/GiraffeFruit/Welding~2.server.lua
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    ... +18 more Part "Part"
+    Part "Handle"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/GiraffeFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/GiraffeFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "GlintFruit"  (30 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/GlintFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/GlintFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/GlintFruit/Welding~2.server.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/GlintFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/GlintFruit/BackupWeld~2.client.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+      PointLight "PointLight"
+    Part "Part"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+      PointLight "PointLight"
+    StringValue "DevilFruit"
+  Tool "GumFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/GumFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/GumFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/GumFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/GumFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/GumFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "InvisibleFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/InvisibleFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/InvisibleFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/InvisibleFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/InvisibleFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/InvisibleFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "LeopardFruit"  (226 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/LeopardFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/LeopardFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/LeopardFruit/Welding~2.server.lua
+    Part "Part"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    Part "Part"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    Part "Part"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    ... +21 more Part "Part"
+    Part "Handle"  (33 descendants)
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+      Weld "Weld"
+      Weld "Weld"
+      Weld "Weld"
+      ... +23 more Weld "Weld"
+    LocalScript "BackupWeld"  -> scripts/Lighting/LeopardFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/LeopardFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "LightSword"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      PointLight "PointLight"
+      Sound "Sound"
+      Sound "Sound"
+      Sound "Sound"
+    LocalScript "MouseIcon"  -> scripts/Lighting/LightSword/MouseIcon.client.lua
+    Script "SwordScript"  -> scripts/Lighting/LightSword/SwordScript.server.lua
+  Tool "LoveFruit"  (174 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/LoveFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/LoveFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/LoveFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    ... +20 more Part "Part"
+    Part "Handle"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/LoveFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/LoveFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "MagmaFruit"  (29 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/MagmaFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/MagmaFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/MagmaFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      PointLight "PointLight"
+    Part "Part"
+      BlockMesh "Mesh"
+    Part "Part"
+      BlockMesh "Mesh"
+    Part "Part"
+      BlockMesh "Mesh"
+    ... +4 more Part "Part"
+    LocalScript "BackupWeld"  -> scripts/Lighting/MagmaFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/MagmaFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "MoneyBag"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    LocalScript "LocalScript"  -> scripts/Lighting/MoneyBag/LocalScript.client.lua
+    IntValue "Value"
+  Tool "OpFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/OpFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/OpFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/OpFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    LocalScript "BackupWeld"  -> scripts/Lighting/OpFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/OpFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "PawFruit"  (54 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/PawFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/PawFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/PawFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    ... +5 more Part "Part"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/PawFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/PawFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "PhoenixFruit"  (49 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/PhoenixFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/PhoenixFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/PhoenixFruit/Welding~2.server.lua
+    StringValue "DevilFruit"
+    LocalScript "BackupWeld"  -> scripts/Lighting/PhoenixFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/PhoenixFruit/BackupWeld~2.client.lua
+    Part "Part"
+      BlockMesh "Mesh"
+    UnionOperation "Union"
+    Part "Part"
+      BlockMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    UnionOperation "Union"
+    ... +16 more Part "Part"
+    UnionOperation "Union"
+    Part "Handle"
+      SpecialMesh "Mesh"
+  Tool "ReviveFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/ReviveFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/ReviveFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/ReviveFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    LocalScript "BackupWeld"  -> scripts/Lighting/ReviveFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/ReviveFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "RumbleFruit"  (23 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/RumbleFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/RumbleFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/RumbleFruit/Welding~2.server.lua
+    UnionOperation "Union"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +2 more Decal "Decal"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +2 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/RumbleFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/RumbleFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "SMILE"
+    LocalScript "Local Gui"  -> scripts/Lighting/SMILE/Local Gui.client.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+    StringValue "DevilFruit"
+  Tool "SandFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/SandFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/SandFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/SandFruit/Welding~2.server.lua
+    UnionOperation "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/SandFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/SandFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "SmokeFruit"  (120 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/SmokeFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/SmokeFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/SmokeFruit/Welding~2.server.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/SmokeFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/SmokeFruit/BackupWeld~2.client.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    ... +53 more Part "Part"
+    Part "Handle"
+      SpecialMesh "Mesh"
+    StringValue "DevilFruit"
+  Tool "SnakeFruit"  (170 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/SnakeFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/SnakeFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/SnakeFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    ... +18 more Part "Part"
+    Part "Handle"
+      BlockMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/SnakeFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/SnakeFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "SpringFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/SpringFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/SpringFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/SpringFruit/Welding~2.server.lua
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    LocalScript "BackupWeld"  -> scripts/Lighting/SpringFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/SpringFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "TremorFruit"
+    LocalScript "Local Gui"  -> scripts/Lighting/TremorFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/TremorFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/TremorFruit/Welding~2.server.lua
+    UnionOperation "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/TremorFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/TremorFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "TurtleFruit"  (26 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/TurtleFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/TurtleFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/TurtleFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Handle"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    Part "Part"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+      SpecialMesh "Mesh"
+    LocalScript "BackupWeld"  -> scripts/Lighting/TurtleFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/TurtleFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "VenomFruit"  (31 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/VenomFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/VenomFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/VenomFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    Part "Part"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    UnionOperation "Union"
+    LocalScript "BackupWeld"  -> scripts/Lighting/VenomFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/VenomFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Tool "WolfFruit"  (20 descendants)
+    LocalScript "Local Gui"  -> scripts/Lighting/WolfFruit/Local Gui.client.lua
+    Script "Welding"  -> scripts/Lighting/WolfFruit/Welding.server.lua
+    Script "Welding"  -> scripts/Lighting/WolfFruit/Welding~2.server.lua
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Part"
+      SpecialMesh "Mesh"
+    Part "Handle"
+      SpecialMesh "Mesh"
+      Decal "Decal"
+      Decal "Decal"
+      Decal "Decal"
+      ... +3 more Decal "Decal"
+    LocalScript "BackupWeld"  -> scripts/Lighting/WolfFruit/BackupWeld.client.lua
+    LocalScript "BackupWeld"  -> scripts/Lighting/WolfFruit/BackupWeld~2.client.lua
+    StringValue "DevilFruit"
+  Model "BarrierBarrier"
+    LocalScript "BarrierBox"  -> scripts/Lighting/BarrierBarrier/BarrierBox.client.lua  [disabled]
+      UnionOperation "Union"
+      Script "Firedamage"  -> scripts/Lighting/BarrierBarrier/BarrierBox/Firedamage.server.lua  [disabled]
+    LocalScript "BarrierShield"  -> scripts/Lighting/BarrierBarrier/BarrierShield.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/BarrierBarrier/BarrierShield/Firedamage.server.lua  [disabled]
+    LocalScript "BarrierCrash"  -> scripts/Lighting/BarrierBarrier/BarrierCrash.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/BarrierBarrier/BarrierCrash/Firedamage.server.lua  [disabled]
+    LocalScript "BarrierRain"  -> scripts/Lighting/BarrierBarrier/BarrierRain.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/BarrierBarrier/BarrierRain/Firedamage.server.lua  [disabled]
+  Model "Bison"
+    Model "Head"
+      Part "Part"
+        SpecialMesh "Mesh"
+      UnionOperation "Horns"
+    Model "RightArm"
+      Part "Part"
+    Model "LeftArm"
+      Part "Part"
+    Model "Torso"
+      UnionOperation "Part"
+    Model "RightLeg"
+      Part "Part"
+    Model "LeftLeg"
+      Part "Part"
+  Model "BisonBison"
+    LocalScript "BisonForm"  -> scripts/Lighting/BisonBison/BisonForm.client.lua
+    LocalScript "Charge"  -> scripts/Lighting/BisonBison/Charge.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/BisonBison/Charge/Firedamage.server.lua  [disabled]
+  Model "Boats1"  (190 descendants)
+    Model "Dinghy"
+      UnionOperation "Union"
+      UnionOperation "Union"
+      VehicleSeat "VehicleSeat"
+        Script "Script"  -> scripts/Lighting/Boats1/Dinghy/VehicleSeat/Script.server.lua
+      UnionOperation "Move"
+        BodyGyro "BodyGyro"
+        BodyPosition "BodyPosition"
+        BodyVelocity "BodyVelocity"
+      UnionOperation "Union"
+      Seat "Seat"
+      UnionOperation "Head"
+      UnionOperation "Union"
+      Humanoid "FakeHumanoid"
+      Script "Script"  -> scripts/Lighting/Boats1/Dinghy/Script.server.lua  [disabled]
+      StringValue "ShipValue"
+    Model "Sloop"  (57 descendants)
+      Part "Part"
+        CylinderMesh "Mesh"
+      Model "Cannon"
+        UnionOperation "Union"
+          ClickDetector "ClickDetector"
+          Script "CannonShot"  -> scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot.server.lua
+            Script "Firedamage"  -> scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Firedamage.server.lua  [disabled]
+            Script "Spin"  -> scripts/Lighting/Boats1/Sloop/Cannon/Union/CannonShot/Spin.server.lua
+            Sound "Sound"
+        Part "Part"
+          BlockMesh "Mesh"
+      Part "Move"
+        BlockMesh "Mesh"
+        BodyGyro "BodyGyro"
+        BodyPosition "BodyPosition"
+        BodyVelocity "BodyVelocity"
+      Model "Cannon"
+        UnionOperation "Union"
+          ClickDetector "ClickDetector"
+          Script "CannonShot"  -> scripts/Lighting/Boats1/Sloop/Cannon~2/Union/CannonShot.server.lua
+            Script "Firedamage"  -> scripts/Lighting/Boats1/Sloop/Cannon~2/Union/CannonShot/Firedamage.server.lua  [disabled]
+            Script "Spin"  -> scripts/Lighting/Boats1/Sloop/Cannon~2/Union/CannonShot/Spin.server.lua
+            Sound "Sound"
+        Part "Part"
+          BlockMesh "Mesh"
+      Part "Part"
+        BlockMesh "Mesh"
+      UnionOperation "Union"
+      VehicleSeat "VehicleSeat"
+        BlockMesh "Mesh"
+        Script "Script"  -> scripts/Lighting/Boats1/Sloop/VehicleSeat/Script.server.lua
+      Seat "Seat"
+        BlockMesh "Mesh"
+      Seat "Seat"
+        BlockMesh "Mesh"
+      UnionOperation "Union"
+      UnionOperation "Union"
+      Part "Part"
+        BlockMesh "Mesh"
+      ... +3 more Part "Part"
+      Part "OtherSails"
+        BlockMesh "Mesh"
+      Part "Flag"
+        Decal "Decal2"
+        Decal "Decal1"
+        BlockMesh "Mesh"
+      ... +2 more UnionOperation "Union"
+      UnionOperation "Head"
+      Humanoid "FakeHumanoid"
+      Script "Script"  -> scripts/Lighting/Boats1/Sloop/Script.server.lua  [disabled]
+      StringValue "ShipValue"
+    Model "Caravel"  (115 descendants)
+      Model "Cannon"
+        Part "Part"
+          BlockMesh "Mesh"
+        UnionOperation "Union"
+          ClickDetector "ClickDetector"
+          Script "CannonShot"  -> scripts/Lighting/Boats1/Caravel/Cannon/Union/CannonShot.server.lua
+            Script "Firedamage"  -> scripts/Lighting/Boats1/Caravel/Cannon/Union/CannonShot/Firedamage.server.lua  [disabled]
+            Script "Spin"  -> scripts/Lighting/Boats1/Caravel/Cannon/Union/CannonShot/Spin.server.lua
+            Sound "Sound"
+      Model "Cannon"
+        Part "Part"
+          BlockMesh "Mesh"
+        UnionOperation "Union"
+          ClickDetector "ClickDetector"
+          Script "CannonShot"  -> scripts/Lighting/Boats1/Caravel/Cannon~2/Union/CannonShot.server.lua
+            Script "Firedamage"  -> scripts/Lighting/Boats1/Caravel/Cannon~2/Union/CannonShot/Firedamage.server.lua  [disabled]
+            Script "Spin"  -> scripts/Lighting/Boats1/Caravel/Cannon~2/Union/CannonShot/Spin.server.lua
+            Sound "Sound"
+      Part "Move"
+        BlockMesh "Mesh"
+        BodyGyro "BodyGyro"
+        BodyPosition "BodyPosition"
+        BodyVelocity "BodyVelocity"
+      Part "Part"
+        BlockMesh "Mesh"
+      UnionOperation "Union"
+      VehicleSeat "VehicleSeat"
+        BlockMesh "Mesh"
+        Script "Script"  -> scripts/Lighting/Boats1/Caravel/VehicleSeat/Script.server.lua
+      UnionOperation "Union"
+      Part "Part"
+        BlockMesh "Mesh"
+      Part "Part"
+        BlockMesh "Mesh"
+      UnionOperation "Union"
+      ... +9 more UnionOperation "Union"
+      ... +10 more Part "Part"
+      Seat "Seat"
+        BlockMesh "Mesh"
+      Seat "Seat"
+        BlockMesh "Mesh"
+      Seat "Seat"
+        BlockMesh "Mesh"
+      WedgePart "Wedge"
+      WedgePart "Wedge"
+      ... +4 more Seat "Seat"
+      UnionOperation "Head"
+      Model "Cannon"
+        Part "Part"
+          BlockMesh "Mesh"
+        UnionOperation "Union"
+          ClickDetector "ClickDetector"
+          Script "CannonShot"  -> scripts/Lighting/Boats1/Caravel/Cannon~3/Union/CannonShot.server.lua
+            Script "Firedamage"  -> scripts/Lighting/Boats1/Caravel/Cannon~3/Union/CannonShot/Firedamage.server.lua  [disabled]
+            Script "Spin"  -> scripts/Lighting/Boats1/Caravel/Cannon~3/Union/CannonShot/Spin.server.lua
+            Sound "Sound"
+      ... +2 more Model "Cannon"
+      Part "Flag"
+        Decal "Decal2"
+        Decal "Decal1"
+        BlockMesh "Mesh"
+      Humanoid "FakeHumanoid"
+      Script "Script"  -> scripts/Lighting/Boats1/Caravel/Script.server.lua  [disabled]
+      StringValue "ShipValue"
+  Model "BombBomb"
+    LocalScript "NoseFancyDoubleCannon"  -> scripts/Lighting/BombBomb/NoseFancyDoubleCannon.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Spin"  -> scripts/Lighting/BombBomb/NoseFancyDoubleCannon/Spin.server.lua
+      Script "Firedamage"  -> scripts/Lighting/BombBomb/NoseFancyDoubleCannon/Firedamage.server.lua  [disabled]
+    LocalScript "NoseFancyCannon"  -> scripts/Lighting/BombBomb/NoseFancyCannon.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Spin"  -> scripts/Lighting/BombBomb/NoseFancyCannon/Spin.server.lua
+      Script "Firedamage"  -> scripts/Lighting/BombBomb/NoseFancyCannon/Firedamage.server.lua  [disabled]
+    LocalScript "KickBomb"  -> scripts/Lighting/BombBomb/KickBomb.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/BombBomb/KickBomb/Firedamage.server.lua  [disabled]
+    LocalScript "SelfDestruct"  -> scripts/Lighting/BombBomb/SelfDestruct.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/BombBomb/SelfDestruct/Firedamage.server.lua  [disabled]
+  Model "BubbleBubble"
+    Part "Part"
+      SpecialMesh "Mesh"
+    LocalScript "BubbleBlast"  -> scripts/Lighting/BubbleBubble/BubbleBlast.client.lua
+      Script "Firedamage"  -> scripts/Lighting/BubbleBubble/BubbleBlast/Firedamage.server.lua  [disabled]
+    LocalScript "BubbleWave"  -> scripts/Lighting/BubbleBubble/BubbleWave.client.lua
+      Script "Firedamage"  -> scripts/Lighting/BubbleBubble/BubbleWave/Firedamage.server.lua  [disabled]
+    LocalScript "GoldenHour"  -> scripts/Lighting/BubbleBubble/GoldenHour.client.lua
+      Script "Firedamage"  -> scripts/Lighting/BubbleBubble/GoldenHour/Firedamage.server.lua  [disabled]
+    LocalScript "MultiBubbleBlast"  -> scripts/Lighting/BubbleBubble/MultiBubbleBlast.client.lua
+      Script "Firedamage"  -> scripts/Lighting/BubbleBubble/MultiBubbleBlast/Firedamage.server.lua  [disabled]
+  Model "CageCage"
+    UnionOperation "Row"
+      Script "Firedamage"  -> scripts/Lighting/CageCage/Row/Firedamage.server.lua  [disabled]
+    LocalScript "CageArm"  -> scripts/Lighting/CageCage/CageArm.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/CageCage/CageArm/Firedamage.server.lua  [disabled]
+    LocalScript "CageRow"  -> scripts/Lighting/CageCage/CageRow.client.lua  [disabled]
+    LocalScript "CageTrap"  -> scripts/Lighting/CageCage/CageTrap.client.lua  [disabled]
+      UnionOperation "Union"
+        Script "Firedamage"  -> scripts/Lighting/CageCage/CageTrap/Union/Firedamage.server.lua  [disabled]
+    LocalScript "JailThrow"  -> scripts/Lighting/CageCage/JailThrow.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/CageCage/JailThrow/Firedamage.server.lua  [disabled]
+  Model "ChillyChilly"
+    LocalScript "PheasantBeak"  -> scripts/Lighting/ChillyChilly/PheasantBeak.client.lua
+      PointLight "PointLight"
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/ChillyChilly/PheasantBeak/Firedamage.server.lua  [disabled]
+    LocalScript "Partisan"  -> scripts/Lighting/ChillyChilly/Partisan.client.lua
+      PointLight "PointLight"
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/ChillyChilly/Partisan/Firedamage.server.lua  [disabled]
+    LocalScript "IceTime"  -> scripts/Lighting/ChillyChilly/IceTime.client.lua
+      Script "Firedamage"  -> scripts/Lighting/ChillyChilly/IceTime/Firedamage.server.lua  [disabled]
+    LocalScript "IceAge"  -> scripts/Lighting/ChillyChilly/IceAge.client.lua
+      Script "Firedamage"  -> scripts/Lighting/ChillyChilly/IceAge/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/ChillyChilly/MainLogia.client.lua  [disabled]
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/ChillyChilly/MainLogia/LeftArmLogia.client.lua  [disabled]
+      LocalScript "HeadLogia"  -> scripts/Lighting/ChillyChilly/MainLogia/HeadLogia.client.lua  [disabled]
+      LocalScript "RightArmLogia"  -> scripts/Lighting/ChillyChilly/MainLogia/RightArmLogia.client.lua  [disabled]
+      LocalScript "RightLegLogia"  -> scripts/Lighting/ChillyChilly/MainLogia/RightLegLogia.client.lua  [disabled]
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/ChillyChilly/MainLogia/LeftLegLogia.client.lua  [disabled]
+      LocalScript "TorsoLogia"  -> scripts/Lighting/ChillyChilly/MainLogia/TorsoLogia.client.lua  [disabled]
+  Model "CustomMoves"
+    LocalScript "LightRay"  -> scripts/Lighting/CustomMoves/LightRay.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/CustomMoves/LightRay/Firedamage.server.lua  [disabled]
+    LocalScript "MassiveEruption"  -> scripts/Lighting/CustomMoves/MassiveEruption.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/CustomMoves/MassiveEruption/Firedamage.server.lua  [disabled]
+      Fire "Fire"
+    LocalScript "Balloon"  -> scripts/Lighting/CustomMoves/Balloon.client.lua  [disabled]
+    LocalScript "LightMonkey"  -> scripts/Lighting/CustomMoves/LightMonkey.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/CustomMoves/LightMonkey/Firedamage.server.lua  [disabled]
+  Model "DarkDark"
+    LocalScript "BlackHole"  -> scripts/Lighting/DarkDark/BlackHole.client.lua  [disabled]
+      PointLight "PointLight"
+      Smoke "Smoke"
+      Script "Spin"  -> scripts/Lighting/DarkDark/BlackHole/Spin.server.lua
+      Script "Firedamage"  -> scripts/Lighting/DarkDark/BlackHole/Firedamage.server.lua  [disabled]
+    LocalScript "DarkSphere"  -> scripts/Lighting/DarkDark/DarkSphere.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/DarkDark/DarkSphere/Firedamage.server.lua  [disabled]
+    LocalScript "DarkWave"  -> scripts/Lighting/DarkDark/DarkWave.client.lua  [disabled]
+      UnionOperation "Wave"
+        Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/DarkDark/DarkWave/Firedamage.server.lua  [disabled]
+    LocalScript "Liberation"  -> scripts/Lighting/DarkDark/Liberation.client.lua  [disabled]
+      PointLight "PointLight"
+      Smoke "Smoke"
+      Script "Spin"  -> scripts/Lighting/DarkDark/Liberation/Spin.server.lua
+      Script "Firedamage"  -> scripts/Lighting/DarkDark/Liberation/Firedamage.server.lua  [disabled]
+  Model "DoorDoor"
+    LocalScript "DoorDoor"  -> scripts/Lighting/DoorDoor/DoorDoor.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/DoorDoor/DoorDoor/Firedamage.server.lua  [disabled]
+    LocalScript "AirDoor"  -> scripts/Lighting/DoorDoor/AirDoor.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/DoorDoor/AirDoor/Firedamage.server.lua  [disabled]
+  Model "Falcon"
+    Part "Center"
+      SpecialMesh "Mesh"
+    Part "RightWing"
+      SpecialMesh "Mesh"
+    Part "LeftWing"
+      SpecialMesh "Mesh"
+  Model "FalconFalcon"
+    LocalScript "FlyUp"  -> scripts/Lighting/FalconFalcon/FlyUp.client.lua  [disabled]
+    LocalScript "FlyDown"  -> scripts/Lighting/FalconFalcon/FlyDown.client.lua  [disabled]
+    LocalScript "FalconForm"  -> scripts/Lighting/FalconFalcon/FalconForm.client.lua  [disabled]
+    LocalScript "TalenAttack"  -> scripts/Lighting/FalconFalcon/TalenAttack.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/FalconFalcon/TalenAttack/Firedamage.server.lua  [disabled]
+  Model "FlameFlame"  (38 descendants)
+    LocalScript "FireCommandment"  -> scripts/Lighting/FlameFlame/FireCommandment.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/FlameFlame/FireCommandment/Firedamage2.server.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/FlameFlame/FireCommandment/Spin.server.lua
+      Script "Spin2"  -> scripts/Lighting/FlameFlame/FireCommandment/Spin2.server.lua
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/FlameFlame/FireCommandment/Firedamage.server.lua  [disabled]
+    LocalScript "FireFist"  -> scripts/Lighting/FlameFlame/FireFist.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/FlameFlame/FireFist/Firedamage2.server.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/FlameFlame/FireFist/Spin.server.lua
+      Script "Spin2"  -> scripts/Lighting/FlameFlame/FireFist/Spin2.server.lua
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/FlameFlame/FireFist/Firedamage.server.lua  [disabled]
+    LocalScript "FireflyLight"  -> scripts/Lighting/FlameFlame/FireflyLight.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/FlameFlame/FireflyLight/Firedamage.server.lua  [disabled]
+      Sparkles "Sparkles"
+    LocalScript "HeatHaze"  -> scripts/Lighting/FlameFlame/HeatHaze.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/FlameFlame/HeatHaze/Firedamage2.server.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/FlameFlame/HeatHaze/Spin.server.lua
+      Script "Spin2"  -> scripts/Lighting/FlameFlame/HeatHaze/Spin2.server.lua
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/FlameFlame/HeatHaze/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/FlameFlame/MainLogia.client.lua  [disabled]
+      LocalScript "HeadLogia"  -> scripts/Lighting/FlameFlame/MainLogia/HeadLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/FlameFlame/MainLogia/LeftArmLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/FlameFlame/MainLogia/LeftLegLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/FlameFlame/MainLogia/RightArmLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/FlameFlame/MainLogia/RightLegLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/FlameFlame/MainLogia/TorsoLogia.client.lua  [disabled]
+        Fire "Fire"
+  Model "GasGas"  (30 descendants)
+    LocalScript "GasForm"  -> scripts/Lighting/GasGas/GasForm.client.lua  [disabled]
+      PointLight "PointLight"
+      Smoke "Smoke"
+    LocalScript "GasRobe"  -> scripts/Lighting/GasGas/GasRobe.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/GasGas/GasRobe/Firedamage2.server.lua  [disabled]
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/GasGas/GasRobe/Firedamage.server.lua  [disabled]
+    LocalScript "Gastanet"  -> scripts/Lighting/GasGas/Gastanet.client.lua  [disabled]
+      UnionOperation "Union"
+      Script "Firedamage2"  -> scripts/Lighting/GasGas/Gastanet/Firedamage2.server.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/GasGas/Gastanet/Firedamage.server.lua  [disabled]
+    LocalScript "AirlessWorld"  -> scripts/Lighting/GasGas/AirlessWorld.client.lua  [disabled]
+      PointLight "PointLight"
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/GasGas/AirlessWorld/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/GasGas/MainLogia.client.lua  [disabled]
+      LocalScript "HeadLogia"  -> scripts/Lighting/GasGas/MainLogia/HeadLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/GasGas/MainLogia/LeftArmLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/GasGas/MainLogia/TorsoLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/GasGas/MainLogia/RightLegLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/GasGas/MainLogia/RightArmLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/GasGas/MainLogia/LeftLegLogia.client.lua  [disabled]
+        Smoke "Smoke"
+  Model "Giraffe"
+    Model "Head"
+      UnionOperation "Part"
+    Model "RightArm"
+      UnionOperation "Part"
+    Model "LeftArm"
+      UnionOperation "Part"
+    Model "Torso"
+      UnionOperation "Part"
+    Model "RightLeg"
+      UnionOperation "Part"
+    Model "LeftLeg"
+      UnionOperation "Part"
+  Model "GiraffeGiraffe"
+    LocalScript "GiraffeForm"  -> scripts/Lighting/GiraffeGiraffe/GiraffeForm.client.lua  [disabled]
+    LocalScript "Charge"  -> scripts/Lighting/GiraffeGiraffe/Charge.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/GiraffeGiraffe/Charge/Firedamage.server.lua  [disabled]
+  Model "GlintGlint"  (21 descendants)
+    LocalScript "EightShakuCurvedJewel"  -> scripts/Lighting/GlintGlint/EightShakuCurvedJewel.client.lua
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/GlintGlint/EightShakuCurvedJewel/Firedamage.server.lua  [disabled]
+    LocalScript "Amaterasu"  -> scripts/Lighting/GlintGlint/Amaterasu.client.lua
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/GlintGlint/Amaterasu/Firedamage.server.lua  [disabled]
+    LocalScript "LightSword"  -> scripts/Lighting/GlintGlint/LightSword.client.lua
+    LocalScript "Moving"  -> scripts/Lighting/GlintGlint/Moving.client.lua
+    LocalScript "MainLogia"  -> scripts/Lighting/GlintGlint/MainLogia.client.lua  [disabled]
+      LocalScript "HeadLogia"  -> scripts/Lighting/GlintGlint/MainLogia/HeadLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/GlintGlint/MainLogia/LeftArmLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/GlintGlint/MainLogia/LeftLegLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/GlintGlint/MainLogia/RightArmLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/GlintGlint/MainLogia/RightLegLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/GlintGlint/MainLogia/TorsoLogia.client.lua  [disabled]
+        PointLight "PointLight"
+  Model "GumGum"
+    LocalScript "Gattling"  -> scripts/Lighting/GumGum/Gattling.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/GumGum/Gattling/Firedamage.server.lua  [disabled]
+    LocalScript "SecondGear"  -> scripts/Lighting/GumGum/SecondGear.client.lua  [disabled]
+      Smoke "Smoke"
+      PointLight "PointLight"
+    LocalScript "Pistol"  -> scripts/Lighting/GumGum/Pistol.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/GumGum/Pistol/Firedamage.server.lua  [disabled]
+    LocalScript "Bazooka"  -> scripts/Lighting/GumGum/Bazooka.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/GumGum/Bazooka/Firedamage.server.lua  [disabled]
+  Model "Haki"
+    LocalScript "BusoshokuHaki"  -> scripts/Lighting/Haki/BusoshokuHaki.client.lua  [disabled]
+    LocalScript "KenbunshokuHaki"  -> scripts/Lighting/Haki/KenbunshokuHaki.client.lua  [disabled]
+    LocalScript "HaoshokuHaki"  -> scripts/Lighting/Haki/HaoshokuHaki.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/Haki/HaoshokuHaki/Firedamage.server.lua  [disabled]
+  Model "InvisibleInvisible"
+    LocalScript "Invisible"  -> scripts/Lighting/InvisibleInvisible/Invisible.client.lua  [disabled]
+    LocalScript "Visible"  -> scripts/Lighting/InvisibleInvisible/Visible.client.lua  [disabled]
+  Model "Leopard"
+    Model "LeftLeg"
+      UnionOperation "Part"
+    Model "RightLeg"
+      UnionOperation "Part"
+    Model "Torso"
+      UnionOperation "Part"
+      UnionOperation "Union"
+    Model "LeftArm"
+      UnionOperation "Part"
+    Model "RightArm"
+      UnionOperation "Part"
+    Model "Head"
+      Part "Part"
+        SpecialMesh "Mesh"
+  Model "LeopardLeopard"
+    LocalScript "Claw"  -> scripts/Lighting/LeopardLeopard/Claw.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/LeopardLeopard/Claw/Firedamage.server.lua  [disabled]
+    LocalScript "LeopardForm"  -> scripts/Lighting/LeopardLeopard/LeopardForm.client.lua  [disabled]
+  Model "WolfWolf"
+    LocalScript "Claw"  -> scripts/Lighting/WolfWolf/Claw.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/WolfWolf/Claw/Firedamage.server.lua  [disabled]
+    LocalScript "WolfForm"  -> scripts/Lighting/WolfWolf/WolfForm.client.lua  [disabled]
+  Model "LoveLove"
+    LocalScript "LoveLoveMellow"  -> scripts/Lighting/LoveLove/LoveLoveMellow.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/LoveLove/LoveLoveMellow/Firedamage2.server.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/LoveLove/LoveLoveMellow/Firedamage.server.lua  [disabled]
+    LocalScript "PistolKiss"  -> scripts/Lighting/LoveLove/PistolKiss.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/LoveLove/PistolKiss/Firedamage2.server.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/LoveLove/PistolKiss/Firedamage.server.lua  [disabled]
+    LocalScript "SlaveArrow"  -> scripts/Lighting/LoveLove/SlaveArrow.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/LoveLove/SlaveArrow/Firedamage.server.lua  [disabled]
+  Model "MagmaMagma"  (28 descendants)
+    LocalScript "MagmaRain"  -> scripts/Lighting/MagmaMagma/MagmaRain.client.lua  [disabled]
+      PointLight "PointLight"
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/MagmaMagma/MagmaRain/Firedamage.server.lua  [disabled]
+    LocalScript "MagmaPool"  -> scripts/Lighting/MagmaMagma/MagmaPool.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/MagmaMagma/MagmaPool/Firedamage.server.lua  [disabled]
+    LocalScript "MultipleEruption"  -> scripts/Lighting/MagmaMagma/MultipleEruption.client.lua  [disabled]
+      PointLight "PointLight"
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/MagmaMagma/MultipleEruption/Firedamage.server.lua  [disabled]
+    LocalScript "GreatEruption"  -> scripts/Lighting/MagmaMagma/GreatEruption.client.lua  [disabled]
+      PointLight "PointLight"
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/MagmaMagma/GreatEruption/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/MagmaMagma/MainLogia.client.lua  [disabled]
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/MagmaMagma/MainLogia/LeftArmLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "HeadLogia"  -> scripts/Lighting/MagmaMagma/MainLogia/HeadLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/MagmaMagma/MainLogia/RightArmLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/MagmaMagma/MainLogia/RightLegLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/MagmaMagma/MainLogia/LeftLegLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/MagmaMagma/MainLogia/TorsoLogia.client.lua  [disabled]
+        PointLight "PointLight"
+  Model "OpOp"  (32 descendants)
+    LocalScript "Teleport"  -> scripts/Lighting/OpOp/Teleport.client.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/OpOp/Teleport/Spin.server.lua
+    LocalScript "Takt"  -> scripts/Lighting/OpOp/Takt.client.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/OpOp/Takt/Spin.server.lua
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/OpOp/Takt/Firedamage.server.lua  [disabled]
+    LocalScript "Boom"  -> scripts/Lighting/OpOp/Boom.client.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/OpOp/Boom/Spin.server.lua
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/OpOp/Boom/Firedamage.server.lua  [disabled]
+    LocalScript "Mes"  -> scripts/Lighting/OpOp/Mes.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/OpOp/Mes/Firedamage.server.lua  [disabled]
+      UnionOperation "Scalpel"
+      Script "Touch"  -> scripts/Lighting/OpOp/Mes/Touch.server.lua  [disabled]
+    Tool "Heart"
+      LocalScript "Local Gui"  -> scripts/Lighting/OpOp/Heart/Local Gui.client.lua
+      Script "Welding"  -> scripts/Lighting/OpOp/Heart/Welding.server.lua
+      Part "Handle"
+        SpecialMesh "Mesh"
+        Weld "Weld"
+        Weld "Weld"
+        Weld "Weld"
+        ... +3 more Weld "Weld"
+      Part "Heart"
+        SpecialMesh "Mesh"
+        Decal "Texture"
+        Script "Animate"  -> scripts/Lighting/OpOp/Heart/Heart/Animate.server.lua
+      Part "Part"
+        BlockMesh "Mesh"
+      StringValue "Value"
+  Model "PawPaw"  (23 descendants)
+    UnionOperation "DamagePaw"
+      Script "Firedamage"  -> scripts/Lighting/PawPaw/DamagePaw/Firedamage.server.lua
+      StringValue "Value"
+      PointLight "PointLight"
+      StringValue "HealthValue"
+    UnionOperation "FlyPaw"
+    LocalScript "DamageTransfer"  -> scripts/Lighting/PawPaw/DamageTransfer.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/PawPaw/DamageTransfer/Firedamage.server.lua  [disabled]
+    LocalScript "PadCannon"  -> scripts/Lighting/PawPaw/PadCannon.client.lua  [disabled]
+      PointLight "PointLight"
+      UnionOperation "Union"
+      Script "Firedamage"  -> scripts/Lighting/PawPaw/PadCannon/Firedamage.server.lua  [disabled]
+    LocalScript "Paws"  -> scripts/Lighting/PawPaw/Paws.client.lua  [disabled]
+    LocalScript "ThrustPadCannon"  -> scripts/Lighting/PawPaw/ThrustPadCannon.client.lua  [disabled]
+      PointLight "PointLight"
+      UnionOperation "Union"
+      Script "Firedamage"  -> scripts/Lighting/PawPaw/ThrustPadCannon/Firedamage.server.lua  [disabled]
+    LocalScript "UrsaShock"  -> scripts/Lighting/PawPaw/UrsaShock.client.lua  [disabled]
+      PointLight "PointLight"
+      UnionOperation "Union"
+      Script "Firedamage"  -> scripts/Lighting/PawPaw/UrsaShock/Firedamage.server.lua  [disabled]
+    LocalScript "Fly"  -> scripts/Lighting/PawPaw/Fly.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/PawPaw/Fly/Firedamage.server.lua  [disabled]
+  Model "Phoenix"
+    Part "Center"
+      SpecialMesh "Mesh"
+      Fire "Fire"
+    Part "RightWing"
+      SpecialMesh "Mesh"
+      Fire "Fire"
+    Part "LeftWing"
+      SpecialMesh "Mesh"
+      Fire "Fire"
+  Model "PhoenixPhoenix"
+    LocalScript "FlyUp"  -> scripts/Lighting/PhoenixPhoenix/FlyUp.client.lua  [disabled]
+    LocalScript "FlyDown"  -> scripts/Lighting/PhoenixPhoenix/FlyDown.client.lua  [disabled]
+    LocalScript "PhoenixForm"  -> scripts/Lighting/PhoenixPhoenix/PhoenixForm.client.lua  [disabled]
+    LocalScript "Regen"  -> scripts/Lighting/PhoenixPhoenix/Regen.client.lua  [disabled]
+  Model "ReviveRevive"
+    LocalScript "Revive"  -> scripts/Lighting/ReviveRevive/Revive.client.lua  [disabled]
+      CharacterMesh "Skeleton Left Arm"
+      CharacterMesh "Skeleton Left Leg"
+      CharacterMesh "Skeleton Right Arm"
+      CharacterMesh "Skeleton Right Leg"
+      CharacterMesh "Skeleton Torso"
+      SpecialMesh "Mesh"
+  Model "Rokushiki"
+    LocalScript "Geppo"  -> scripts/Lighting/Rokushiki/Geppo.client.lua  [disabled]
+      Part "Part"
+        SpecialMesh "Mesh"
+    LocalScript "Tekkai"  -> scripts/Lighting/Rokushiki/Tekkai.client.lua  [disabled]
+    LocalScript "Shigan"  -> scripts/Lighting/Rokushiki/Shigan.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/Rokushiki/Shigan/Firedamage.server.lua  [disabled]
+    LocalScript "Rankyaku"  -> scripts/Lighting/Rokushiki/Rankyaku.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/Rokushiki/Rankyaku/Firedamage.server.lua  [disabled]
+    LocalScript "Soru"  -> scripts/Lighting/Rokushiki/Soru.client.lua  [disabled]
+    LocalScript "Kamie"  -> scripts/Lighting/Rokushiki/Kamie.client.lua  [disabled]
+  Model "RumbleRumble"  (33 descendants)
+    LocalScript "Kiten"  -> scripts/Lighting/RumbleRumble/Kiten.client.lua
+      Script "Firedamage2"  -> scripts/Lighting/RumbleRumble/Kiten/Firedamage2.server.lua  [disabled]
+      PointLight "PointLight"
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/RumbleRumble/Kiten/Firedamage.server.lua  [disabled]
+    LocalScript "Teleport"  -> scripts/Lighting/RumbleRumble/Teleport.client.lua
+      PointLight "PointLight"
+      Fire "Fire"
+    LocalScript "SangoSmash"  -> scripts/Lighting/RumbleRumble/SangoSmash.client.lua
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/RumbleRumble/SangoSmash/Firedamage2.server.lua  [disabled]
+      Script "Spin"  -> scripts/Lighting/RumbleRumble/SangoSmash/Spin.server.lua
+      Script "Spin2"  -> scripts/Lighting/RumbleRumble/SangoSmash/Spin2.server.lua
+      Fire "Fire"
+      Script "Firedamage"  -> scripts/Lighting/RumbleRumble/SangoSmash/Firedamage.server.lua  [disabled]
+    LocalScript "ElThor"  -> scripts/Lighting/RumbleRumble/ElThor.client.lua
+      Smoke "Smoke"
+      Script "Spin"  -> scripts/Lighting/RumbleRumble/ElThor/Spin.server.lua
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/RumbleRumble/ElThor/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/RumbleRumble/MainLogia.client.lua  [disabled]
+      LocalScript "HeadLogia"  -> scripts/Lighting/RumbleRumble/MainLogia/HeadLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/RumbleRumble/MainLogia/LeftArmLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/RumbleRumble/MainLogia/TorsoLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/RumbleRumble/MainLogia/RightLegLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/RumbleRumble/MainLogia/RightArmLogia.client.lua  [disabled]
+        Fire "Fire"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/RumbleRumble/MainLogia/LeftLegLogia.client.lua  [disabled]
+        Fire "Fire"
+  Model "SandSand"  (31 descendants)
+    LocalScript "Sandstorm"  -> scripts/Lighting/SandSand/Sandstorm.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Spin"  -> scripts/Lighting/SandSand/Sandstorm/Spin.server.lua
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/SandSand/Sandstorm/Firedamage.server.lua  [disabled]
+    LocalScript "DesertSpada"  -> scripts/Lighting/SandSand/DesertSpada.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Spin"  -> scripts/Lighting/SandSand/DesertSpada/Spin.server.lua
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/SandSand/DesertSpada/Firedamage.server.lua  [disabled]
+    LocalScript "DesertPrison"  -> scripts/Lighting/SandSand/DesertPrison.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/SandSand/DesertPrison/Firedamage.server.lua  [disabled]
+      PointLight "PointLight"
+    LocalScript "DesertGrandeEspada"  -> scripts/Lighting/SandSand/DesertGrandeEspada.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Spin"  -> scripts/Lighting/SandSand/DesertGrandeEspada/Spin.server.lua
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/SandSand/DesertGrandeEspada/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/SandSand/MainLogia.client.lua  [disabled]
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/SandSand/MainLogia/LeftArmLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "HeadLogia"  -> scripts/Lighting/SandSand/MainLogia/HeadLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/SandSand/MainLogia/RightArmLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/SandSand/MainLogia/RightLegLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/SandSand/MainLogia/LeftLegLogia.client.lua  [disabled]
+        PointLight "PointLight"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/SandSand/MainLogia/TorsoLogia.client.lua  [disabled]
+        PointLight "PointLight"
+  Model "SmokeSmoke"  (29 descendants)
+    LocalScript "WhiteVine"  -> scripts/Lighting/SmokeSmoke/WhiteVine.client.lua  [disabled]
+      Script "Firedamage2"  -> scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage2.server.lua  [disabled]
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/SmokeSmoke/WhiteVine/Firedamage.server.lua  [disabled]
+    LocalScript "WhiteLauncher"  -> scripts/Lighting/SmokeSmoke/WhiteLauncher.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/SmokeSmoke/WhiteLauncher/Firedamage.server.lua  [disabled]
+      Smoke "Smoke"
+    LocalScript "WhiteBlow"  -> scripts/Lighting/SmokeSmoke/WhiteBlow.client.lua  [disabled]
+      Script "Firedamage2"  -> scripts/Lighting/SmokeSmoke/WhiteBlow/Firedamage2.server.lua  [disabled]
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/SmokeSmoke/WhiteBlow/Firedamage.server.lua  [disabled]
+    LocalScript "WhiteOut"  -> scripts/Lighting/SmokeSmoke/WhiteOut.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage2"  -> scripts/Lighting/SmokeSmoke/WhiteOut/Firedamage2.server.lua  [disabled]
+      Smoke "Smoke"
+      Script "Firedamage"  -> scripts/Lighting/SmokeSmoke/WhiteOut/Firedamage.server.lua  [disabled]
+    LocalScript "MainLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia.client.lua  [disabled]
+      LocalScript "HeadLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia/HeadLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "LeftArmLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia/LeftArmLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "TorsoLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia/TorsoLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "RightLegLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia/RightLegLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "RightArmLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia/RightArmLogia.client.lua  [disabled]
+        Smoke "Smoke"
+      LocalScript "LeftLegLogia"  -> scripts/Lighting/SmokeSmoke/MainLogia/LeftLegLogia.client.lua  [disabled]
+        Smoke "Smoke"
+  Model "Snake"
+    Model "LeftLeg"
+      Part "Part"
+    Model "LeftArm"
+      Part "Part"
+    Model "RightLeg"
+      Part "Part"
+    Model "RightArm"
+      Part "Part"
+    Model "Torso"
+      UnionOperation "Part"
+    Model "Head"
+      Part "Part"
+        SpecialMesh "Mesh"
+  Model "SnakeSnake"
+    LocalScript "SnakeForm"  -> scripts/Lighting/SnakeSnake/SnakeForm.client.lua  [disabled]
+    LocalScript "VenomShot"  -> scripts/Lighting/SnakeSnake/VenomShot.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/SnakeSnake/VenomShot/Firedamage.server.lua  [disabled]
+    LocalScript "VenomPuddle"  -> scripts/Lighting/SnakeSnake/VenomPuddle.client.lua  [disabled]
+      PointLight "PointLight"
+      Script "Firedamage"  -> scripts/Lighting/SnakeSnake/VenomPuddle/Firedamage.server.lua  [disabled]
+  Model "SpringSpring"
+    LocalScript "SpringDeathKnock"  -> scripts/Lighting/SpringSpring/SpringDeathKnock.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/SpringSpring/SpringDeathKnock/Firedamage.server.lua  [disabled]
+    LocalScript "SpringForward"  -> scripts/Lighting/SpringSpring/SpringForward.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/SpringSpring/SpringForward/Firedamage.server.lua  [disabled]
+    LocalScript "SpringSnipe"  -> scripts/Lighting/SpringSpring/SpringSnipe.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/SpringSpring/SpringSnipe/Firedamage.server.lua  [disabled]
+  Model "TremorTremor"
+    Part "Part"
+    LocalScript "HelmetBreak"  -> scripts/Lighting/TremorTremor/HelmetBreak.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/TremorTremor/HelmetBreak/Firedamage.server.lua  [disabled]
+    LocalScript "Earthquake"  -> scripts/Lighting/TremorTremor/Earthquake.client.lua  [disabled]
+      Script "Firedamage2"  -> scripts/Lighting/TremorTremor/Earthquake/Firedamage2.server.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/TremorTremor/Earthquake/Firedamage.server.lua  [disabled]
+    LocalScript "Seaquake"  -> scripts/Lighting/TremorTremor/Seaquake.client.lua  [disabled]
+      UnionOperation "Wave"
+      Script "Firedamage"  -> scripts/Lighting/TremorTremor/Seaquake/Firedamage.server.lua  [disabled]
+    LocalScript "TremorSphere"  -> scripts/Lighting/TremorTremor/TremorSphere.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/TremorTremor/TremorSphere/Firedamage.server.lua  [disabled]
+  Model "Turtle"
+    Model "LeftArm"
+      Part "Part"
+    Model "Head"
+      Part "Part"
+        SpecialMesh "Mesh"
+    Model "RightLeg"
+      Part "Part"
+    Model "LeftLeg"
+      Part "Part"
+    Model "Torso"
+      Part "Part"
+      UnionOperation "Shell"
+    Model "RightArm"
+      Part "Part"
+  Model "TurtleTurtle"
+    LocalScript "ShellBlock"  -> scripts/Lighting/TurtleTurtle/ShellBlock.client.lua  [disabled]
+    LocalScript "TurtleForm"  -> scripts/Lighting/TurtleTurtle/TurtleForm.client.lua  [disabled]
+  Model "VenomVenom"  (23 descendants)
+    LocalScript "Hydra"  -> scripts/Lighting/VenomVenom/Hydra.client.lua  [disabled]
+      Script "Firedamage2"  -> scripts/Lighting/VenomVenom/Hydra/Firedamage2.server.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/VenomVenom/Hydra/Firedamage.server.lua  [disabled]
+    LocalScript "VenomCloud"  -> scripts/Lighting/VenomVenom/VenomCloud.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/VenomVenom/VenomCloud/Firedamage.server.lua  [disabled]
+    LocalScript "ChloroformBall"  -> scripts/Lighting/VenomVenom/ChloroformBall.client.lua  [disabled]
+      Script "Firedamage"  -> scripts/Lighting/VenomVenom/ChloroformBall/Firedamage.server.lua  [disabled]
+    ScreenGui "VenomGui"
+      Frame "Frame"
+    Model "VenomDemon"
+      Model "Torso"
+        UnionOperation "Part"
+          Script "Firedamage"  -> scripts/Lighting/VenomVenom/VenomDemon/Torso/Part/Firedamage.server.lua  [disabled]
+      Model "Head"
+        Part "Part"
+          SpecialMesh "Mesh"
+      Model "LeftArm"
+        Part "Part"
+          Script "Firedamage"  -> scripts/Lighting/VenomVenom/VenomDemon/LeftArm/Part/Firedamage.server.lua  [disabled]
+      Model "RightArm"
+        Part "Part"
+          Script "Firedamage"  -> scripts/Lighting/VenomVenom/VenomDemon/RightArm/Part/Firedamage.server.lua  [disabled]
+    LocalScript "VenomDemonScript"  -> scripts/Lighting/VenomVenom/VenomDemonScript.client.lua  [disabled]
+  Model "Weapons"  (21 descendants)
+    Tool "Cutlass"
+      Part "Handle"
+        SpecialMesh "Mesh"
+        StringValue "Value"
+      LocalScript "MouseIcon"  -> scripts/Lighting/Weapons/Cutlass/MouseIcon.client.lua
+      LocalScript "WeldToBackScript"  -> scripts/Lighting/Weapons/Cutlass/WeldToBackScript.client.lua
+      Script "SwordScript"  -> scripts/Lighting/Weapons/Cutlass/SwordScript.server.lua
+    Tool "Katana"
+      Part "Handle"
+        SpecialMesh "Mesh"
+        StringValue "Value"
+      LocalScript "MouseIcon"  -> scripts/Lighting/Weapons/Katana/MouseIcon.client.lua
+      LocalScript "WeldToBackScript"  -> scripts/Lighting/Weapons/Katana/WeldToBackScript.client.lua
+      Script "SwordScript"  -> scripts/Lighting/Weapons/Katana/SwordScript.server.lua
+    Tool "Sabre"
+      Part "Handle"
+        SpecialMesh "Mesh"
+        StringValue "Value"
+      LocalScript "MouseIcon"  -> scripts/Lighting/Weapons/Sabre/MouseIcon.client.lua
+      LocalScript "WeldToBackScript"  -> scripts/Lighting/Weapons/Sabre/WeldToBackScript.client.lua
+      Script "SwordScript"  -> scripts/Lighting/Weapons/Sabre/SwordScript.server.lua
+  Model "Wolf"
+    Model "Tail"
+      UnionOperation "Part"
+    Model "Head"
+      Part "Part"
+        SpecialMesh "Mesh"
+    Model "Torso"
+      Part "Part"
+    Model "RightArm"
+      Part "Part"
+    Model "LeftLeg"
+      Part "Part"
+    Model "RightLeg"
+      Part "Part"
+    Model "LeftArm"
+      Part "Part"
+  ScreenGui "AlreadyMastered"
+    Frame "Background"
+      TextLabel "Warning"
+  ScreenGui "HakiGui"  (22 descendants)
+    ImageLabel "Background"  (21 descendants)
+      ImageLabel "Kenbunshoku"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/HakiGui/Background/Kenbunshoku/TextButton/Script.server.lua
+      ImageLabel "Busoshoku"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/HakiGui/Background/Busoshoku/TextButton/Script.server.lua
+      ImageLabel "Title"
+        TextLabel "TextLabel"
+      ImageLabel "Exit"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/HakiGui/Background/Exit/TextButton/Script.server.lua
+  ScreenGui "HaoGui"
+    Frame "Background"
+      TextLabel "Warning"
+  ScreenGui "MoneyGiver"
+    Frame "MainGui"
+      TextLabel "Title"
+      Frame "Line"
+      TextBox "TextBox"
+      TextButton "Finish"
+        LocalScript "LocalScript"  -> scripts/Lighting/MoneyGiver/MainGui/Finish/LocalScript.client.lua
+      ImageLabel "Exit"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/MoneyGiver/MainGui/Exit/TextButton/Script.server.lua
+  ScreenGui "NotEnoughMoney"
+    Frame "Background"
+      TextLabel "Warning"
+  ScreenGui "RokushikiGui"  (54 descendants)
+    ImageLabel "Background"  (53 descendants)
+      ImageLabel "Geppo"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Geppo/TextButton/Script.server.lua
+      ImageLabel "Tekkai"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Tekkai/TextButton/Script.server.lua
+      ImageLabel "Rankyaku"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Rankyaku/TextButton/Script.server.lua
+      ImageLabel "Soru"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Soru/TextButton/Script.server.lua
+      ImageLabel "Shigan"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Border2"
+        ImageLabel "Picture"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Shigan/TextButton/Script.server.lua
+      ImageLabel "Title"
+        TextLabel "TextLabel"
+      ImageLabel "Exit"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Exit/TextButton/Script.server.lua
+      ImageLabel "Kamie"
+        ImageLabel "ImageLabel"
+          TextLabel "BoatName"
+        ImageLabel "Border"
+        ImageLabel "Picture"
+        ImageLabel "Border2"
+        TextButton "TextButton"
+          Script "Script"  -> scripts/Lighting/RokushikiGui/Background/Kamie/TextButton/Script.server.lua
+  ScreenGui "SavingLocation"
+    Frame "Background"
+      TextLabel "Warning"
+  ScreenGui "SwordGui"
+    Frame "Background"
+      TextLabel "TypeofSword"
+      TextButton "Cutlass"
+        Script "Script"  -> scripts/Lighting/SwordGui/Background/Cutlass/Script.server.lua
+      TextButton "Sabre"
+        Script "Script"  -> scripts/Lighting/SwordGui/Background/Sabre/Script.server.lua
+      TextButton "Katana"
+        Script "Script"  -> scripts/Lighting/SwordGui/Background/Katana/Script.server.lua
+Teams "Teams"
+TestService "TestService"
+Instance "FilteredSelection"

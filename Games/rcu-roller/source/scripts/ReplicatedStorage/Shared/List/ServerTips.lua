@@ -1,0 +1,10 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiler will be improved VERY SOON!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/wyButjTMhM)
+-- Decompiled on 2025-03-27 06:18:20
+-- Luau version 6, Types version 3
+-- Time taken: 0.000414 seconds
+
+local longstring1 = "<font color='#e51fff'>[Server]: </font><font color='#ffffff'>Join our Roblox group </font><font color='#ec5eff'>Powerful Studio</font><font color='#ffffff'> to get free </font><font color='#ec5eff'>Auto Hatch</font><font color='#ffffff'> and access to </font><font color='#ec5eff'>Group Chests</font><font color='#ffffff'>! 🔮</font>"
+return {"<font color='#ff2e43'>[Server]: </font><font color='#ffffff'>Join our </font><font color='#fc5364'>Community Server</font><font color='#ffffff'> for giveaways and free codes! 🎁</font>", longstring1, longstring1, "<font color='#20ed15'>[Server]: </font><font color='#ffffff'>Invite your friends and get a </font><font color='#2eff31'>Luck Boost</font><font color='#ffffff'>! 🍀</font>", "<font color='#197dff'>[Server]: </font><font color='#ffffff'>Follow us on X for free codes!</font><font color='#4f9cff'> (@StudioPowerful)</font>", "<font color='#ff1c60'>[Server]: </font><font color='#ffffff'>Enjoying the game? Leave a like to support us!  💗</font>", "<font color='#1cff51'>[Server]: </font><font color='#ffffff'>Remember to claim your</font> <font color='#5eff84'>Playtime Gifts</font><font color='#ffffff'>!  💵</font>", "<font color='#ff3838'>[Server]: </font><font color='#ffffff'>Craft your pets to get more clicks!  🔥</font>", "<font color='#ff4f1f'>[Server]: </font><font color='#ffffff'>Come back daily for <font color='#ff5d30'>Free Rewards</font><font color='#ffffff'>!</font>  🔥</font>", "<font color='#ff1c91'>[Server]: </font><font color='#ffffff'>Thanks for playing!  💞</font>", "<font color='#ffa41c'>[Server]: </font><font color='#ffffff'>Need a boost? Join our</font> <font color='#ffaf38'>Community Server</font><font color='#ffffff'> for free codes!  🤑</font>"}

@@ -1,0 +1,11 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+No script flags.
+
+Teleport place ids in code:
+  998374377  in scripts/ReplicatedFirst/JoinScript/UI/Topbar/Topbar.client.lua
+
+Outside URLs in code:
+  http://Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=420&ht=420&aid=  in scripts/ServerScriptService/Characters.server.lua
+  http://en.wikipedia.org/wiki/Trajectory_of_a_projectile  in scripts/ServerStorage/StandardTools/Slingshot/Slingshot.server.lua, scripts/StarterPack/Slingshot/Slingshot.server.lua
+  https://zeuxcg.org/2010/10/17/aabb-from-obb-with-component-wise-abs/  in scripts/ReplicatedFirst/JoinScript.client.lua

@@ -1,0 +1,1 @@
+game.ReplicatedStorage:WaitForChild("WeaponEvents"):WaitForChild("GunBeam").OnClientEvent:connect((require(script.CreateBeam)))

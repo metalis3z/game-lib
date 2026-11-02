@@ -1,0 +1,297 @@
+{
+ "slug": "needoh-escape",
+ "title": "+1 NeeDoh Escape",
+ "genre": "obby / escape (+1 speed)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 241,
+  "screen_guis": 1,
+  "classes": {
+   "UIAspectRatioConstraint": 155,
+   "UIStroke": 111,
+   "ImageLabel": 76,
+   "TextLabel": 65,
+   "Frame": 48,
+   "TextButton": 30,
+   "UITextSizeConstraint": 29,
+   "UICorner": 23,
+   "UIGradient": 18,
+   "UIListLayout": 18,
+   "TextBox": 14,
+   "ImageButton": 5,
+   "ScrollingFrame": 3,
+   "ScreenGui": 1
+  },
+  "fonts": {
+   "GothamSSm Heavy": 54,
+   "SourceSansPro Regular": 30,
+   "GothamSSm ExtraBold": 12,
+   "font asset 11702779517 Heavy": 8,
+   "FredokaOne Regular": 3,
+   "GothamSSm Bold": 2
+  },
+  "background_colors": {
+   "#ffffff": 29,
+   "#000000": 5
+  },
+  "text_colors": {
+   "#ffffff": 75,
+   "#000000": 30,
+   "#e62e49": 3,
+   "#ff5555": 1
+  },
+  "stroke_colors": {
+   "#000000": 93,
+   "#ffffff": 12,
+   "#640000": 4,
+   "#323232": 1,
+   "#003550": 1
+  },
+  "image_tints": {},
+  "corner_radius": {
+   "{0.1,0}": 7,
+   "{0.06,0}": 6,
+   "{0.05,0}": 4,
+   "{0.0,8}": 4,
+   "{0.08,0}": 1,
+   "{0.07,0}": 1
+  },
+  "stroke_thickness": {
+   "3.0 px": 73,
+   "0.06 scaled": 8,
+   "0.05 scaled": 6,
+   "0.2 scaled": 5,
+   "0.03 scaled": 4,
+   "0.04 scaled": 4,
+   "0.08 scaled": 4,
+   "0.1 scaled": 3,
+   "2.6 px": 2,
+   "0.16 scaled": 1
+  },
+  "text_size_px": {
+   "14": 19,
+   "11": 2
+  },
+  "text_scaled_share": 0.81,
+  "size_mode": {
+   "scale": 239,
+   "offset": 2
+  },
+  "unique_images": 22,
+  "per_100_objects": {
+   "UICorner": 9.5,
+   "UIStroke": 46.1,
+   "UIGradient": 7.5,
+   "UIAspectRatioConstraint": 64.3,
+   "UIListLayout": 7.5,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 12.0,
+   "ImageLabel": 31.5,
+   "ImageButton": 2.1,
+   "TextButton": 12.4
+  }
+ },
+ "map": {
+  "instances": 67091,
+  "parts": 36075,
+  "meshparts": 24805,
+  "unions": 8,
+  "anchored_share": 1.0,
+  "textures_decals": 10116,
+  "surface_appearances": 0,
+  "lights": 2,
+  "emitters": 40,
+  "beams_trails": 24,
+  "sounds": 286,
+  "prompts": 3,
+  "world_guis": 76,
+  "humanoids": 0,
+  "materials": {
+   "Glass": 14672,
+   "Plastic": 10773,
+   "SmoothPlastic": 10423,
+   "Ground": 98,
+   "Neon": 74,
+   "Fabric": 35
+  },
+  "part_colors": {
+   "#a3a2a5": 14757,
+   "#04afec": 6784,
+   "#ff66cc": 3400,
+   "#845ec2": 2302,
+   "#9b5de5": 1548,
+   "#4d96ff": 1334,
+   "#ff9770": 1318,
+   "#3a86ff": 1286,
+   "#ff70a6": 1270,
+   "#ff5c00": 1040,
+   "#fdea8d": 149,
+   "#037ca5": 111,
+   "#838ea5": 108,
+   "#635f62": 83
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   5367,
+   115,
+   852
+  ],
+  "extent_all_studs": [
+   8079,
+   555,
+   2048
+  ],
+  "top_classes": {
+   "MeshPart": 24805,
+   "Part": 11257,
+   "Decal": 10099,
+   "WeldConstraint": 10076,
+   "Model": 9708,
+   "Sound": 286,
+   "TextLabel": 161,
+   "UIStroke": 161,
+   "UIGradient": 108,
+   "UIListLayout": 84,
+   "BillboardGui": 51,
+   "Attachment": 48,
+   "ParticleEmitter": 40,
+   "Frame": 38,
+   "Folder": 25
+  }
+ },
+ "lighting": {},
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#d9fffc",
+    "Decay": "#365a66",
+    "DefinesCapabilities": false,
+    "Density": 0.0,
+    "Glare": 1.3,
+    "Haze": 0.35,
+    "Name": "Atmosphere",
+    "Offset": 0.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "rbxassetid://7643700666",
+    "SkyboxDn": "rbxassetid://7643743687",
+    "SkyboxFt": "rbxassetid://7644304186",
+    "SkyboxLf": "rbxassetid://7644288724",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://7643700819",
+    "SkyboxUp": "rbxassetid://7643757404",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.5,
+    "Name": "Bloom",
+    "Size": 50.0,
+    "Threshold": 2.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.3,
+    "Contrast": 0.3,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.2,
+    "TintColor": "#b8beed"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.0,
+    "FocusDistance": 0.0,
+    "InFocusRadius": 0.0,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.0
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.01,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "VFX",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "VFX",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  }
+ ],
+ "terrain": {},
+ "workspace": {},
+ "packs": {
+  "ui": 11,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "materials": 1,
+  "audio": 3,
+  "vfx": 1,
+  "parts": 1,
+  "model": 10201,
+  "other": 1
+ },
+ "coverage": {
+  "instances": 67992,
+  "packed": 67908,
+  "services": 11,
+  "code_or_empty_folders_not_packed": 73,
+  "not_packed": {},
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 0,
+ "sound_ids": 289,
+ "files": 10221,
+ "kb": 38099,
+ "category": "Obby",
+ "source_file": "VIP +1 NEEDOH ESCAPE BY RBU.rbxl"
+}

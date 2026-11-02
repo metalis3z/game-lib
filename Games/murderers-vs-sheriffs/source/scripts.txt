@@ -1,0 +1,1268 @@
+1266 scripts, 137480 lines
+kind     lines  enabled  path
+module     127  yes      scripts/ReplicatedFirst/ChinaPolicyService.lua
+client      51  yes      scripts/ReplicatedFirst/ImageLocalizer.client.lua
+client      16  yes      scripts/ReplicatedFirst/UISelector.client.lua
+client     466  yes      scripts/ReplicatedFirst/UISelector/Loading.client.lua
+client       5  NO       scripts/ReplicatedFirst/UISelector/LoadingS2.client.lua
+client      51  NO       scripts/ReplicatedFirst/UISelector/LoadingS2/Loading/LoadingScript.client.lua
+module      87  yes      scripts/ReplicatedStorage/ClientServices/Button.lua
+module      69  yes      scripts/ReplicatedStorage/ClientServices/Button1.lua
+module      27  yes      scripts/ReplicatedStorage/ClientServices/ChatInterfaceService.lua
+module     148  yes      scripts/ReplicatedStorage/ClientServices/CraftingService.lua
+module      66  yes      scripts/ReplicatedStorage/ClientServices/DeviceService.lua
+module      28  yes      scripts/ReplicatedStorage/ClientServices/DeviceService/KeybindImages.lua
+module      92  yes      scripts/ReplicatedStorage/ClientServices/EquipService.lua
+module      95  yes      scripts/ReplicatedStorage/ClientServices/FX/ButtonFX.lua
+module      52  yes      scripts/ReplicatedStorage/ClientServices/FX/FX_Modules/InteractSound.lua
+module      95  yes      scripts/ReplicatedStorage/ClientServices/FX/FX_Modules/Tween.lua
+module      51  yes      scripts/ReplicatedStorage/ClientServices/FX/Shimmer.lua
+module      54  yes      scripts/ReplicatedStorage/ClientServices/FX/Sparkles.lua
+module     146  yes      scripts/ReplicatedStorage/ClientServices/InventoryService.lua
+module       9  yes      scripts/ReplicatedStorage/ClientServices/ItemPopupService.lua
+module     184  yes      scripts/ReplicatedStorage/ClientServices/ItemService.lua
+module     142  yes      scripts/ReplicatedStorage/ClientServices/MysteryBoxService.lua
+module      44  yes      scripts/ReplicatedStorage/ClientServices/PerkService.lua
+module      33  yes      scripts/ReplicatedStorage/ClientServices/PolicyManager.lua
+module      67  yes      scripts/ReplicatedStorage/ClientServices/PreferredInputService.lua
+module      89  yes      scripts/ReplicatedStorage/ClientServices/WeaponService.lua
+module      30  yes      scripts/ReplicatedStorage/CodeImages.lua
+module      89  yes      scripts/ReplicatedStorage/Constants.lua
+module      92  yes      scripts/ReplicatedStorage/Database/Sync.lua
+module      14  yes      scripts/ReplicatedStorage/Database/Sync/Badge.lua
+module       8  yes      scripts/ReplicatedStorage/Database/Sync/Banned.lua
+module      78  yes      scripts/ReplicatedStorage/Database/Sync/Codes.lua
+module      23  yes      scripts/ReplicatedStorage/Database/Sync/Currencies.lua
+module      17  yes      scripts/ReplicatedStorage/Database/Sync/DevProducts.lua
+module    1107  yes      scripts/ReplicatedStorage/Database/Sync/Effects.lua
+module      24  yes      scripts/ReplicatedStorage/Database/Sync/Eggs.lua
+module      18  yes      scripts/ReplicatedStorage/Database/Sync/EliteRewards.lua
+module     114  yes      scripts/ReplicatedStorage/Database/Sync/Emotes.lua
+module      27  yes      scripts/ReplicatedStorage/Database/Sync/Featured.lua
+module      21  yes      scripts/ReplicatedStorage/Database/Sync/FollowRewards.lua
+module      82  yes      scripts/ReplicatedStorage/Database/Sync/GameModes.lua
+module     153  yes      scripts/ReplicatedStorage/Database/Sync/GamepassShop.lua
+module    9994  yes      scripts/ReplicatedStorage/Database/Sync/Item.lua
+module     146  yes      scripts/ReplicatedStorage/Database/Sync/ItemPacks.lua
+module     365  yes      scripts/ReplicatedStorage/Database/Sync/Item_CoolGameTransfer.lua
+module     163  yes      scripts/ReplicatedStorage/Database/Sync/Maps.lua
+module    1044  yes      scripts/ReplicatedStorage/Database/Sync/Materials.lua
+module     279  yes      scripts/ReplicatedStorage/Database/Sync/MysteryBox.lua
+module      28  yes      scripts/ReplicatedStorage/Database/Sync/NameTags.lua
+module     513  yes      scripts/ReplicatedStorage/Database/Sync/NewShop.lua
+module     586  yes      scripts/ReplicatedStorage/Database/Sync/Outfits.lua
+module     109  yes      scripts/ReplicatedStorage/Database/Sync/Perks.lua
+module     779  yes      scripts/ReplicatedStorage/Database/Sync/Pets.lua
+module     666  yes      scripts/ReplicatedStorage/Database/Sync/Radios.lua
+module     134  yes      scripts/ReplicatedStorage/Database/Sync/Rarities.lua
+module      17  yes      scripts/ReplicatedStorage/Database/Sync/Rarity.lua
+module      57  yes      scripts/ReplicatedStorage/Database/Sync/Recipes.lua
+module     845  yes      scripts/ReplicatedStorage/Database/Sync/SalvageRewards.lua
+module     417  yes      scripts/ReplicatedStorage/Database/Sync/Shop.lua
+module      34  yes      scripts/ReplicatedStorage/Database/Sync/SlotInfo.lua
+module      53  yes      scripts/ReplicatedStorage/Database/Sync/Summer2024Event.lua
+module      12  yes      scripts/ReplicatedStorage/Database/Sync/TimeRewards.lua
+module     365  yes      scripts/ReplicatedStorage/Database/Sync/Toys.lua
+module      29  yes      scripts/ReplicatedStorage/Database/Sync/XboxFeatured.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainMobile/Game/RoleSelector/ChancePass/Murderer/Script.server.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainMobile/Game/RoleSelector/ChancePass/Sheriff/Script.server.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/RoleSelector/ChancePass/Sheriff/Script.server.lua)
+client      11  yes      scripts/ReplicatedStorage/GUI/MainMobile/Gameplay/Emotes.client.lua
+client      36  NO       scripts/ReplicatedStorage/GUI/MainMobile/Gameplay/Equip.client.lua
+client     284  yes      scripts/ReplicatedStorage/GUI/MainMobile/Gameplay/RoleSelect.client.lua
+client      37  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Crafting.client.lua
+client     244  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/InventoryPhone.client.lua
+client     101  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Inventory_GUI.client.lua
+client      90  NO       scripts/ReplicatedStorage/GUI/MainMobile/Inventory/NewItem.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/PerkButton.client.lua
+client     226  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Radio.client.lua
+client      34  yes      scripts/ReplicatedStorage/GUI/MainMobile/Inventory/Trading_Phone.client.lua
+client       3  NO       scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Dock/CoinBag/LocalScript.client.lua
+client      60  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Dock/CoinBags/CoinBagContainerScript.client.lua
+client       7  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/EventBar/Main/Event/EventOpen.client.lua   (same source as scripts/StarterGui/GameTopbar/Container/Event/EventOpen.client.lua)
+client       9  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/LeaderBar/ServerSettings.client.lua
+client      16  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Inventory/Nav/Main/Outfits/GUIRestrictedRemove.client.lua
+client      13  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Inventory/Nav/Main/Radios/GUIPolicyRemove.client.lua
+client       9  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Shop/Main/Featured/MobileFeatured.client.lua
+client       7  yes      scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Screens/Shop/Main/Featured/Nav/Container/Radios/GUIPolicyRemove.client.lua
+client     135  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Dock.client.lua
+client     366  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Leaderboard_Phone.client.lua
+module      21  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Leaderboard_Phone/getTableFromInstance.lua
+client      29  yes      scripts/ReplicatedStorage/GUI/MainMobile/Menu/Spectate_Phone2.client.lua
+client      61  NO       scripts/ReplicatedStorage/GUI/MainMobile/Shop/ShopPhone.client.lua
+client      84  yes      scripts/ReplicatedStorage/GUI/MainNew/DeviceSwitch.client.lua
+client      37  NO       scripts/ReplicatedStorage/GUI/MainPC/EquipWeapons.client.lua
+client      63  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/CoinBags/CoinBagContainerScript.client.lua
+client       2  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Emotes/LocalScript.client.lua
+client      23  NO       scripts/ReplicatedStorage/GUI/MainPC/Game/FriendsOnline/Inviter.client.lua
+client      35  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/GameEvents/KillFeed.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Close/Button/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory2/Close/Button/LocalScript.client.lua)
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory/Nav/Radios/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory2/Nav/Radios/GUIPolicyRemove.client.lua)
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory2/Close/Button/LocalScript.client.lua
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory2/Nav/Radios/GUIPolicyRemove.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Radio/GUIPolicyRemove.client.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/RoleSelector/ChancePass/Murderer/Script.server.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/RoleSelector/ChancePass/Sheriff/Script.server.lua
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Settings/Event/EventOpen.client.lua   (same source as scripts/StarterGui/GameTopbar/Container/Event/EventOpen.client.lua)
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Settings/ModeScript.client.lua
+client      27  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Settings/MusicScript.client.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Settings/ServerSettingsScript.client.lua
+client      27  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/Featured/Offers/Container/Featured.client.lua
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/Featured/Offers/Container/Featured/EventCover/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Nav/Container/Radios/GUIPolicyRemove.client.lua)
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/Featured/Offers/Container/Featured/EventCoverHW2021/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Nav/Container/Radios/GUIPolicyRemove.client.lua)
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Main/Featured/Offers/Container/Featured/Open/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Nav/Container/Radios/GUIPolicyRemove.client.lua)
+client       7  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Nav/Container/Radios/GUIPolicyRemove.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Shop/Title/Close/LocalScript.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/ViewProfile/Close/Button/LocalScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainPC/Game/Inventory2/Close/Button/LocalScript.client.lua)
+client       9  yes      scripts/ReplicatedStorage/GUI/MainPC/Game/Waiting/HideScary.client.lua
+client      45  yes      scripts/ReplicatedStorage/GUI/MainPC/Game_Names.client.lua
+client     251  yes      scripts/ReplicatedStorage/GUI/MainPC/Game_RoleSelector.client.lua
+client      46  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Crafting.client.lua
+client     245  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Inventory.client.lua
+client     400  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Leaderboard.client.lua
+module      20  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Leaderboard/getTableFromInstance.lua
+client      93  NO       scripts/ReplicatedStorage/GUI/MainPC/Inventory/NewItem.client.lua
+client      65  yes      scripts/ReplicatedStorage/GUI/MainPC/Inventory/Trading.client.lua
+client     255  yes      scripts/ReplicatedStorage/GUI/MainPC/Menu_GUI.client.lua
+client      11  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/Emotes.client.lua
+client      24  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/PerkButton.client.lua
+client     246  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/Radio.client.lua
+client      28  yes      scripts/ReplicatedStorage/GUI/MainPC/Misc/Spectate2.client.lua
+client      31  NO       scripts/ReplicatedStorage/GUI/MainPC/Shop/Shop.client.lua
+client      26  yes      scripts/ReplicatedStorage/GUI/MainXbox/CashBag/CoinBagScript.client.lua
+client      60  yes      scripts/ReplicatedStorage/GUI/MainXbox/CoinBags/CoinBagContainerScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainMobile/Lobby/Dock/CoinBags/CoinBagContainerScript.client.lua)
+client     117  yes      scripts/ReplicatedStorage/GUI/MainXbox/Core/Chat.client.lua
+client     393  yes      scripts/ReplicatedStorage/GUI/MainXbox/Core/Dock.client.lua
+client     225  yes      scripts/ReplicatedStorage/GUI/MainXbox/Core/Leaderboard.client.lua
+client       2  yes      scripts/ReplicatedStorage/GUI/MainXbox/Emotes/LocalScript.client.lua
+module       7  yes      scripts/ReplicatedStorage/GUI/MainXbox/FeaturedItem.lua
+client       8  NO       scripts/ReplicatedStorage/GUI/MainXbox/Game/EliteSurface.client.lua
+client      50  NO       scripts/ReplicatedStorage/GUI/MainXbox/Game/Equip.client.lua
+client       5  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/PerkButton.client.lua
+client     204  yes      scripts/ReplicatedStorage/GUI/MainXbox/Game/RoleSelector.client.lua
+client      55  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Emotes.client.lua
+client     455  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Examine_Data.client.lua
+module      13  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Examine_Data/DatabaseCompatability.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Menu/Inventory_Data_Xbox/DatabaseCompatability.lua)
+client     635  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Inventory_Data_Xbox.client.lua
+module      13  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Inventory_Data_Xbox/DatabaseCompatability.lua
+client    1060  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Shop_Data_Xbox.client.lua
+module      13  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Shop_Data_Xbox/DatabaseCompatability.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Menu/Inventory_Data_Xbox/DatabaseCompatability.lua)
+module     207  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Shop_Data_Xbox/OpenCrate.lua
+client     505  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Trade.client.lua
+module      13  yes      scripts/ReplicatedStorage/GUI/MainXbox/Menu/Trade/DatabaseCompatability.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Menu/Inventory_Data_Xbox/DatabaseCompatability.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/Christmas/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/Easter/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/FeaturedItem/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/Halloween/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/Prime/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/Summer/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/Valentines/GUIPolicyRemove.client.lua   (same source as scripts/ReplicatedStorage/GUI/MainXbox/Shop/Main/Featured/Items/ScrollFrame/Container/HW/GUIPolicyRemove.client.lua)
+module      45  yes      scripts/ReplicatedStorage/Modules/AudioSearcher.lua
+module      16  yes      scripts/ReplicatedStorage/Modules/AudioService.lua
+module     135  yes      scripts/ReplicatedStorage/Modules/BattlePass.lua
+module     192  yes      scripts/ReplicatedStorage/Modules/BoxModule.lua
+module     437  yes      scripts/ReplicatedStorage/Modules/CraftModule.lua
+module      29  yes      scripts/ReplicatedStorage/Modules/CurrentRoundClient.lua
+module       1  yes      scripts/ReplicatedStorage/Modules/Database.lua
+module     190  yes      scripts/ReplicatedStorage/Modules/EmoteModule.lua
+module      69  yes      scripts/ReplicatedStorage/Modules/FadeModule.lua
+module      12  yes      scripts/ReplicatedStorage/Modules/FriendsModule.lua
+module     238  yes      scripts/ReplicatedStorage/Modules/GridCreator.lua
+module     960  yes      scripts/ReplicatedStorage/Modules/InventoryModule.lua
+module     159  yes      scripts/ReplicatedStorage/Modules/ItemModule.lua
+module      47  yes      scripts/ReplicatedStorage/Modules/ItemPackService.lua
+module      35  yes      scripts/ReplicatedStorage/Modules/LevelModule.lua
+module      44  yes      scripts/ReplicatedStorage/Modules/PerkService.lua   (same source as scripts/ReplicatedStorage/ClientServices/PerkService.lua)
+module      43  yes      scripts/ReplicatedStorage/Modules/ProfileData.lua
+module     285  yes      scripts/ReplicatedStorage/Modules/ScoreboardModule.lua
+module     869  yes      scripts/ReplicatedStorage/Modules/ShopModule.lua
+module     332  yes      scripts/ReplicatedStorage/Modules/SpectateService.lua
+module     357  yes      scripts/ReplicatedStorage/Modules/TradeModule.lua
+module     147  yes      scripts/ReplicatedStorage/Modules/ViewProfileModule.lua
+module      42  yes      scripts/ReplicatedStorage/Modules/VirtualDeath.lua
+module     113  yes      scripts/ReplicatedStorage/Modules/WindowService.lua
+module     104  yes      scripts/ReplicatedStorage/Modules/WindowService01.lua
+module      15  yes      scripts/ReplicatedStorage/Modules/XboxModule.lua
+module      29  yes      scripts/ReplicatedStorage/RankIcons.lua
+module      29  yes      scripts/ReplicatedStorage/RankIconsEmpty.lua
+client      25  yes      scripts/ReplicatedStorage/Resources/Perks/FakeGun/FakeGunAnimation.client.lua
+module      62  yes      scripts/ReplicatedStorage/SharedServices/ActiveEventService.lua
+module     153  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService.lua
+module      75  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService/ClientEventService.lua
+module     203  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1.lua
+module      95  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/BattlePasses/Christmas2024Pass.lua
+module     124  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/BattlePasses/Halloween2024Pass.lua
+module      60  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Christmas2024.lua
+module     174  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Easter2025.lua
+module      87  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Halloween2025.lua
+module     115  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Halloween2025/BattlePass.lua
+module      17  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Halloween2025/ShopItems.lua
+module      65  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Summer2025.lua
+module     114  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Summer2025/BattlePass.lua
+module      32  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Summer2025/MysteryBox.lua
+module      16  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/EventList/Summer2025/ShopItems.lua
+module      27  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/ItemPacks/Halloween2025.lua
+module      27  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/ItemPacks/Spring2025.lua
+module      31  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/MysteryBoxes/Christmas2024Box.lua
+module      26  yes      scripts/ReplicatedStorage/SharedServices/EventInfoService1/ShopData/Christmas2024.lua
+module      38  yes      scripts/ReplicatedStorage/SharedServices/FadeService.lua
+module      55  yes      scripts/ReplicatedStorage/SharedServices/RecipeService.lua
+module       5  yes      scripts/ReplicatedStorage/SharedServices/ReplicationTypes.lua   (same source as scripts/ReplicatedStorage/Types/EventType.lua)
+module      68  yes      scripts/ReplicatedStorage/SharedServices/TimestampService.lua
+module      30  yes      scripts/ReplicatedStorage/SharedServices/UtilityService.lua
+module       5  yes      scripts/ReplicatedStorage/Types/EventType.lua
+server      74  yes      scripts/ServerScriptService/AdminPanelServer.server.lua
+module      50  yes      scripts/ServerScriptService/Cmdr.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Admin/getUIDbyPlayer.lua
+module       3  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Admin/getUIDbyPlayerServer.lua
+module      18  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Admin/walkspeed.lua
+module       4  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Admin/walkspeedServer.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/blink.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/fetch.lua
+module       5  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/fetchServer.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstance.lua
+module      27  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstanceServer.lua
+module      26  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/position.lua
+module      33  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/thru.lua
+module       7  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/uptime.lua
+module      11  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/uptimeServer.lua
+module      12  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Debug/version.lua
+module      27  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/alias.lua
+module      65  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/bind.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/clear.lua
+module      18  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/convertTimestamp.lua
+module      17  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/echo.lua
+module      79  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/edit.lua
+module      28  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/history.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/hover.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/jsonArrayDecode.lua
+module      19  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/jsonArrayEncode.lua
+module      17  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/len.lua
+module      35  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/math.lua
+module      22  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/pick.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/rand.lua
+module      32  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/replace.lua
+module      32  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/resolve.lua
+module      20  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/run.lua
+module      38  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/runLines.lua
+module      53  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/runif.lua
+module      25  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/unbind.lua
+module      22  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/var.lua
+module      60  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/varServer.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/varSet.lua
+module      63  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/Utility/varSetServer.lua
+module      64  yes      scripts/ServerScriptService/Cmdr/BuiltInCommands/help.lua
+module       3  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/BindableResource.lua
+module      79  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/BrickColor.lua
+module      52  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Color3.lua
+module      26  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Command.lua
+module       3  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/ConditionFunction.lua
+module     112  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Duration.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/JSON.lua
+module      40  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/MathOperator.lua
+module      40  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Player.lua
+module      62  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/PlayerId.lua
+module     140  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Primitives.lua
+module      34  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/StoredKey.lua
+module      53  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Team.lua
+module      26  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Type.lua
+module      20  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/URL.lua
+module      32  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/UserInput.lua
+module      31  yes      scripts/ServerScriptService/Cmdr/BuiltInTypes/Vector.lua
+module     122  yes      scripts/ServerScriptService/Cmdr/CmdrClient.lua
+module     151  yes      scripts/ServerScriptService/Cmdr/CmdrClient/CmdrInterface.lua
+module     216  yes      scripts/ServerScriptService/Cmdr/CmdrClient/CmdrInterface/AutoComplete.lua
+module     336  yes      scripts/ServerScriptService/Cmdr/CmdrClient/CmdrInterface/Window.lua
+module      15  yes      scripts/ServerScriptService/Cmdr/CmdrClient/DefaultEventHandlers.lua
+module     217  yes      scripts/ServerScriptService/Cmdr/CreateGui.lua
+module      57  yes      scripts/ServerScriptService/Cmdr/Initialize.lua
+module     257  yes      scripts/ServerScriptService/Cmdr/Shared/Argument.lua
+module     222  yes      scripts/ServerScriptService/Cmdr/Shared/Command.lua
+module     190  yes      scripts/ServerScriptService/Cmdr/Shared/Dispatcher.lua
+module     294  yes      scripts/ServerScriptService/Cmdr/Shared/Registry.lua
+module     548  yes      scripts/ServerScriptService/Cmdr/Shared/Util.lua
+server      89  yes      scripts/ServerScriptService/CmdrServer.server.lua
+module      13  yes      scripts/ServerScriptService/CmdrServer/Admin/announce.lua
+module      18  yes      scripts/ServerScriptService/CmdrServer/Admin/announceServer.lua
+module       7  yes      scripts/ServerScriptService/CmdrServer/Admin/clearroles.lua
+module      24  yes      scripts/ServerScriptService/CmdrServer/Admin/clearrolesServer.lua
+module       7  yes      scripts/ServerScriptService/CmdrServer/Admin/endround.lua
+module      25  yes      scripts/ServerScriptService/CmdrServer/Admin/endroundServer.lua
+module      18  yes      scripts/ServerScriptService/CmdrServer/Admin/giveitem.lua
+module     107  yes      scripts/ServerScriptService/CmdrServer/Admin/giveitemServer.lua
+module      13  yes      scripts/ServerScriptService/CmdrServer/Admin/makeM.lua
+module      52  yes      scripts/ServerScriptService/CmdrServer/Admin/makeMServer.lua
+module      13  yes      scripts/ServerScriptService/CmdrServer/Admin/makeS.lua
+module      52  yes      scripts/ServerScriptService/CmdrServer/Admin/makeSServer.lua
+module      13  yes      scripts/ServerScriptService/CmdrServer/Admin/revealroles.lua
+module     186  yes      scripts/ServerScriptService/CmdrServer/Admin/revealrolesServer.lua
+module      13  yes      scripts/ServerScriptService/CmdrServer/Admin/setmap.lua
+module      59  yes      scripts/ServerScriptService/CmdrServer/Admin/setmapServer.lua
+module      13  yes      scripts/ServerScriptService/CmdrServer/Admin/settime.lua
+module      63  yes      scripts/ServerScriptService/CmdrServer/Admin/settimeServer.lua
+module      22  yes      scripts/ServerScriptService/CmdrServer/Admin/teleport.lua
+module      21  yes      scripts/ServerScriptService/CmdrServer/Admin/teleportServer.lua
+module      34  yes      scripts/ServerScriptService/CmdrServer/Hooks/BeforeRun.lua
+server      48  yes      scripts/ServerScriptService/FavoritePromptService.server.lua
+server     792  yes      scripts/ServerScriptService/GameScript.server.lua
+server      43  yes      scripts/ServerScriptService/GameScript/Classes/GetRayIgnoreList/Handler.server.lua
+server      43  yes      scripts/ServerScriptService/GameScript/Classes/GetRayKnifeIgnoreList/Handler.server.lua
+server      30  NO       scripts/ServerScriptService/GameScript/Classes/Ragdoll.server.lua
+server     219  NO       scripts/ServerScriptService/GameScript/Classes/Ragdoll/Ragdoll.server.lua
+module      12  yes      scripts/ServerScriptService/GameScript/Classes/Ragdoll/Ragdoll/WeldHat.lua
+server     152  yes      scripts/ServerScriptService/GameScript/Classes/ServerControl.server.lua
+server      46  yes      scripts/ServerScriptService/GameScript/Classes/Settings.server.lua
+server      18  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown.server.lua
+client      15  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/ClientScript.client.lua
+module     215  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/Client/SoftShutdownServiceClient.lua
+module      22  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/Client/SoftShutdownTranslator.lua
+module     247  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/Client/SoftShutdownUI.lua
+module      37  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/Client/SoftShutdownUI.story.lua
+module     164  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/Server/SoftShutdownService.lua
+module      12  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/Shared/SoftShutdownConstants.lua
+module     117  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/Shared/AttributeUtils.lua
+module     101  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/Shared/AttributeValue.lua
+module      43  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/Shared/RxAttributeUtils.lua
+module     137  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader.lua
+module      17  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/BounceTemplate.lua
+module      66  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/BounceTemplateUtils.lua
+module     167  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/GroupInfoUtils.lua
+module     131  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/LegacyLoader.lua
+module      54  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/Loader.lua
+module      12  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/LoaderConstants.lua
+module     242  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/LoaderUtils.lua
+module     228  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/PackageInfoUtils.lua
+module      81  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/Queue.lua
+module     155  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/ScriptInfoUtils.lua
+module     195  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/StaticLegacyLoader.lua
+module     114  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/loader/Utils.lua
+module     217  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/maid/Shared/Maid.lua
+module      75  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/maid/Shared/MaidTaskUtils.lua
+module     167  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Observable.lua
+module     116  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/ObservableSubscriptionTable.lua
+module    1419  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.lua
+module      53  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Rx.spec.lua
+module     217  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/Shared/Subscription.lua
+module      39  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/cancellabledelay/Shared/cancellableDelay.lua
+module      85  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/Shared/CancelToken.lua
+module     554  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Promise.lua
+module     150  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/PromiseUtils.lua
+module      35  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/PendingPromiseTracker.lua
+module      36  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/PromiseInstanceUtils.lua
+module      35  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/promiseChild.lua
+module      37  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/promisePropertyValue.lua
+module      17  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/Shared/Utility/promiseWait.lua
+module       9  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/promise/node_modules/@quenty/deferred/Shared/deferred.lua
+module     155  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/signal/Shared/Signal.lua
+module      31  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/canceltoken/node_modules/@quenty/signal/Shared/SignalUtils.lua
+module      34  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/symbol/Shared/Symbol.lua
+module     136  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/table/Shared/Set.lua
+module     322  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/table/Shared/Table.lua
+module     103  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/throttle/Shared/ThrottledFunction.lua
+module      32  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/attributeutils/node_modules/@quenty/rx/node_modules/@quenty/throttle/Shared/throttle.lua
+module      37  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/baseobject/Shared/BaseObject.lua
+module     152  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/basicpane/Client/BasicPane.lua
+module      75  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/basicpane/Client/BasicPaneUtils.lua
+module     907  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Blend/Blend.lua
+module     131  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Blend/BlendDefaultProps.lua
+module     260  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Blend/SpringObject.lua
+module     105  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendChildren.story.lua
+module      50  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendComputePairs.story.lua
+module     124  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendPromise.story.lua
+module      45  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendSingle.story.lua
+module      54  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendSpring.story.lua
+module      54  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/Shared/Test/BlendTextbox.story.lua
+module     160  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/acceltween/Shared/AccelTween.lua
+module     293  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/Brio.lua
+module     272  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/BrioUtils.lua
+module      75  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/BrioUtils.spec.lua
+module     715  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/RxBrioUtils.lua
+module     116  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/brio/Shared/RxBrioUtils.spec.lua
+module      39  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/contentproviderutils/Client/ContentProviderUtils.lua
+module     344  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/instanceutils/Shared/RxInstanceUtils.lua
+module      23  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/instanceutils/Shared/RxInstanceUtils.spec.lua
+module      98  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/playerthumbnailutils/Shared/PlayerThumbnailUtils.lua
+module     145  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/LinearValue.lua
+module     271  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/Spring.lua
+module      99  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/spring/Shared/SpringUtils.lua
+module     175  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/steputils/Shared/StepUtils.lua
+module      37  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/steputils/Shared/onRenderStepFrame.lua
+module      25  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/steputils/Shared/onSteppedFrame.lua
+module     201  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/string/Shared/String.lua
+module      62  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valuebaseutils/Shared/RxValueBaseUtils.lua
+module      92  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valuebaseutils/Shared/ValueBaseUtils.lua
+module     134  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valueobject/Shared/ValueObject.lua
+module      86  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/blend/node_modules/@quenty/valueobject/Shared/ValueObjectUtils.lua
+module     243  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/clienttranslator/Client/JSONTranslator.lua
+module      64  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/clienttranslator/Client/LocalizationServiceUtils.lua
+module     138  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/clienttranslator/Shared/JsonToLocalizationTable.lua
+module     127  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/clienttranslator/node_modules/@quenty/pseudolocalize/Shared/PseudoLocalize.lua
+module     223  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/DataStore.lua
+module      11  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/Modules/DataStoreDeleteToken.lua
+module     334  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/Modules/DataStoreStage.lua
+module      85  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/Modules/DataStoreWriter.lua
+module     172  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/PlayerDataStoreManager.lua
+module     124  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/PlayerDataStoreService.lua
+module     154  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/datastore/Server/Utility/DataStorePromises.lua
+module     111  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/math/Shared/Math.lua
+module      85  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/GetRemoteEvent.lua
+module      88  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/GetRemoteFunction.lua
+module      48  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseGetRemoteEvent.lua
+module      49  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseGetRemoteFunction.lua
+module      58  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseRemoteEventMixin.lua
+module      59  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/PromiseRemoteFunctionMixin.lua
+module      14  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/remoting/Shared/ResourceConstants.lua
+module     275  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/servicebag/Shared/ServiceBag.lua
+module      59  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/teleportserviceutils/Server/TeleportServiceUtils.lua
+module      18  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/uiobjectutils/Client/PlayerGuiUtils.lua
+module      67  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/uiobjectutils/Client/UICornerUtils.lua
+module      36  yes      scripts/ServerScriptService/GameScript/Classes/SoftShutdown/src/node_modules/@quenty/uiobjectutils/Client/UIPaddingUtils.lua
+module    3595  yes      scripts/ServerScriptService/GameScript/DataModule.lua
+module      46  yes      scripts/ServerScriptService/GameScript/DataModule/ActiveEventManager.lua
+module     207  yes      scripts/ServerScriptService/GameScript/DataModule/ActiveEventManager/Summer2026.lua
+module     141  yes      scripts/ServerScriptService/GameScript/DataModule/EventHandlers/Summer2026/MainHandler.lua
+module      26  yes      scripts/ServerScriptService/GameScript/DataModule/Weld.lua
+module      19  yes      scripts/ServerScriptService/GameScript/Event_Handlers/Summer2024.lua
+server      60  yes      scripts/ServerScriptService/GameScript/Event_Handlers/Summer2024/intialize.server.lua
+module      81  yes      scripts/ServerScriptService/GameScript/GameFunctions/Chance.lua
+module     169  yes      scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded.lua
+module      26  yes      scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded/Weld.lua   (same source as scripts/ServerScriptService/GameScript/DataModule/Weld.lua)
+module      13  yes      scripts/ServerScriptService/GameScript/GameFunctions/CharacterAdded/WeldHat.lua
+module      28  yes      scripts/ServerScriptService/GameScript/GameFunctions/GameConnections.lua
+module      77  yes      scripts/ServerScriptService/GameScript/GameFunctions/GiveWeapon.lua
+module     156  yes      scripts/ServerScriptService/GameScript/GameFunctions/GunDrop.lua
+module     209  yes      scripts/ServerScriptService/GameScript/GameFunctions/StandardFunctions.lua
+module      37  yes      scripts/ServerScriptService/GameScript/GameFunctions/TweenService.lua
+module     102  yes      scripts/ServerScriptService/GameScript/GameFunctions/VoteForMap.lua
+module     268  yes      scripts/ServerScriptService/GameScript/GameModes/Assassin.lua
+module    1092  yes      scripts/ServerScriptService/GameScript/GameModes/Classic.lua
+module     412  yes      scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter.lua
+module      18  yes      scripts/ServerScriptService/GameScript/GameModes/Classic/MakeCharacter/WeldHat.lua
+module    1749  yes      scripts/ServerScriptService/GameScript/GameModes/Classic/RagdollService.lua
+server     176  yes      scripts/ServerScriptService/GameScript/LiveBoardService.server.lua
+module     214  yes      scripts/ServerScriptService/GameScript/Modules/CoinsController.lua
+module      24  yes      scripts/ServerScriptService/GameScript/Modules/CoinsController/Constants.lua
+module      21  yes      scripts/ServerScriptService/GameScript/Modules/FX/Money.lua
+module      78  yes      scripts/ServerScriptService/GameScript/Modules/PerksController.lua
+client       9  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Decoy/DecoyClient.client.lua
+server     146  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Decoy/DecoyServer.server.lua
+server     789  NO       scripts/ServerScriptService/GameScript/Modules/PerksController/Decoy/DecoyServer/Animate.server.lua
+module      45  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Decoy/DecoyServer/HoloDeath.lua
+module     189  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Decoy/DecoyServer/WeaponAttacher.lua
+client       1  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/FakeGun/FakeGunClient.client.lua
+server       5  NO       scripts/ServerScriptService/GameScript/Modules/PerksController/FakeGun/FakeGunServer.server.lua
+client      88  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Footsteps/FootstepsClient.client.lua
+server       3  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Footsteps/FootstepsServer.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+client      16  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Ghost/GhostClient.client.lua
+server      35  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Ghost/GhostServer.server.lua
+client       4  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Haste/HasteClient.client.lua
+client       4  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Ninja/NinjaClient.client.lua
+client       4  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Sleight/SleightClient.client.lua
+client      18  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Sprint/SprintClient.client.lua
+server      16  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Sprint/SprintServer.server.lua
+server       3  NO       scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua
+client      16  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/TrapClient.client.lua
+server      32  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/TrapServer.server.lua
+client      32  yes      scripts/ServerScriptService/GameScript/Modules/PerksController/Xray/XrayClient.client.lua
+module      45  yes      scripts/ServerScriptService/GameScript/Sync.lua
+server      93  yes      scripts/ServerScriptService/GlobalAnnouncementServer.server.lua
+server     184  yes      scripts/ServerScriptService/Modules/Essentials/VoteServer.server.lua
+module     177  yes      scripts/ServerScriptService/Modules/MapModule.lua
+server     384  yes      scripts/ServerScriptService/coilservice.server.lua
+server     613  yes      scripts/ServerScriptService/jetpackservice.server.lua
+server     328  yes      scripts/ServerScriptService/toolpasses.server.lua
+server       8  NO       scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/ADMIN GAMEPASS PANEL TUTORIAL.server.lua   (same source as scripts/Workspace/ADMIN GAMEPASS PANEL TUTORIAL.server.lua)
+module    3010  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule.lua
+module      27  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule/LBRewards/July2022.lua
+module      26  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule/Weld.lua   (same source as scripts/ServerScriptService/GameScript/DataModule/Weld.lua)
+server      86  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/GlobalAnnouncementServer.server.lua
+client     340  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/OwnerPanel/AdminSettings.client.lua
+module      93  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/OwnerPanel/AdminSettings/Button.lua   (same source as scripts/StarterGui/CrossPlatform/OwnerPanel/AdminSettings/Button.lua)
+client     187  yes      scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/Script.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/AnnouncementClient.client.lua)
+server      92  yes      scripts/ServerStorage/CmdrInstallBackup/GlobalAnnouncementServer_old_1785856825.server.lua
+module      18  yes      scripts/ServerStorage/Database/Deaths/Aquatic2025.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Arctic2022.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Aurora2021.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Aurora2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Bats.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Bats2020.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Bats2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module     619  yes      scripts/ServerStorage/Database/Deaths/Bitsplosion.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Blizzard.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Bloom2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      32  yes      scripts/ServerStorage/Database/Deaths/BlueFire.lua
+module      28  yes      scripts/ServerStorage/Database/Deaths/Burn.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Candies.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/CandyCane.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/CandyEffect2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/CandyEffect2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Carrots2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Chilly2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/CommonOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Cursed2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      29  yes      scripts/ServerStorage/Database/Deaths/Darkfire.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Darkswirl.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      26  yes      scripts/ServerStorage/Database/Deaths/Doge.lua
+module       3  yes      scripts/ServerStorage/Database/Deaths/Dual.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/EasterGlow2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      24  yes      scripts/ServerStorage/Database/Deaths/Electric.lua
+module      23  yes      scripts/ServerStorage/Database/Deaths/Elitify.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Ethereal.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Fireworks2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/FlamingoEffect2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Floral2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Flowers2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Flowerwood.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/FlowerwoodPurple.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/FrostbiteEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Frostfire2020.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      43  yes      scripts/ServerStorage/Database/Deaths/GearStorm.lua
+module      18  yes      scripts/ServerStorage/Database/Deaths/Ghostify.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Ghosts2020.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Ghosts2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Ghosts2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Gifts2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/GingerbreadEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Glisten2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Glowy2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Golden.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      32  yes      scripts/ServerStorage/Database/Deaths/GreenFire.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/HallowsBlaze.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       8  yes      scripts/ServerStorage/Database/Deaths/Heartify.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/Heatwave2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Heatwave2025~2.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/IceMagic.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Jellyfish2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Jingle2020.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/LegendaryOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Matrix2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Minty2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Money.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Musical.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/NorthernLights.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Petals.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Phantom.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/PhantomEffect2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      32  yes      scripts/ServerStorage/Database/Deaths/PinkFire.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/PlasmaEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Poison.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Pumpkin.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Pumpkin2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      20  yes      scripts/ServerStorage/Database/Deaths/Radioactive.lua
+module      23  yes      scripts/ServerStorage/Database/Deaths/Rainbow.lua
+server      21  yes      scripts/ServerStorage/Database/Deaths/Rainbow/Fire/Script.server.lua
+module       5  yes      scripts/ServerStorage/Database/Deaths/RainbowEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Rainbows2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/RareOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/RedEclipse.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Retro2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Retro2025~2.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Snowfall2020.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Snowflake2021.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Snowflakes.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Snowflakes2.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Snowstorm2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Starry2021.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Starry2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Stars2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/StickersX2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Sunbeams2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module      18  yes      scripts/ServerStorage/Database/Deaths/SweetEffect26.lua   (same source as scripts/ServerStorage/Database/Deaths/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Swirls2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/SynthEffect2025.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/SynthEffect2025~2.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Toxic2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Traveler2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/UncommonOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Vampire2020.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Vampiric2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/VersusEffect2022.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/VoidRbxEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Water2023.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Wraith2024.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Wraithfire.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/Wrapper.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Deaths/XenoEffect.lua   (same source as scripts/ServerStorage/Database/Deaths/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Abduction2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Aquatic2025.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Arctic2022.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Aurora2021.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Aurora2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Balloons.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Bats.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Bats2020.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Bats2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Bitsplosion.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Blizzard.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Bloom2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/BlueFire.lua   (same source as scripts/ServerStorage/Database/Effects/Burn.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Bokeh2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Bubbly26.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/Burn.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Candies.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/CandyCane.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/CandyEffect2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/CandyEffect2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Carrots2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Cats2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Chilly2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Coal2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/CommonOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Confetti2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Cursed2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Darkfire.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Darkswirl.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/Doge.lua
+module      29  yes      scripts/ServerStorage/Database/Effects/Dual.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/EasterGlow2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module      11  yes      scripts/ServerStorage/Database/Effects/Electric.lua
+server      17  yes      scripts/ServerStorage/Database/Effects/Electric/Electric/Script.server.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Elitify.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Ethereal.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Fireworks2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/FlamingoEffect2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Floral2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Flowers2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Flowerwood.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Frost2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/FrostbiteEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Frostfire2020.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/GearStorm.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       4  yes      scripts/ServerStorage/Database/Effects/Ghostify.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Ghosts2020.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Ghosts2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Ghosts2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Gifts2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/GingerbreadEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Glisten2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Glowy2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Golden.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/GreenFire.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/HallowsBlaze.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/Heartify.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Hearts26.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Heatwave2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/IceMagic.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Jellyfish2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Jingle2020.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       4  yes      scripts/ServerStorage/Database/Effects/Knifeception.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Leaves2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/LegendaryOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Lights2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Matrix2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Minty2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       7  yes      scripts/ServerStorage/Database/Effects/Money.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Musical.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Nightlife26.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Nightsky2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/NorthernLights.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Ocean26.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Petals.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Phantom.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/PhantomEffect2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/PinkFire.lua   (same source as scripts/ServerStorage/Database/Effects/GreenFire.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/PlasmaEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Poison.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Pumpkin.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Pumpkin2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       3  yes      scripts/ServerStorage/Database/Effects/Radioactive.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/Rainbow.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/RainbowEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Rainbows2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/RareOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/RedEclipse.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Retro2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowballs2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowfall2020.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowflake2021.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowflakes.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowflakes2.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowstorm2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Snowstorm2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Starry2021.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Starry2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Stars2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/StickersX2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Strawberries26.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Sunbeams2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/SweetEffect26.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/SweetEffect26~2.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Swirls2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/SynthEffect2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Toxic2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Traveler2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Traveler2023Purple.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Treats2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/UFOs2025.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/UncommonOrnamentEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Vampire2020.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Vampiric2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/VersusEffect2022.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/VoidRbxEffect.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Water2023.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Wraith2024.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       5  yes      scripts/ServerStorage/Database/Effects/Wraithfire.lua   (same source as scripts/ServerStorage/Database/Effects/Arctic2022.lua)
+module       7  yes      scripts/ServerStorage/Database/Effects/Wrapper.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/XenoEffect.lua
+module       5  yes      scripts/ServerStorage/Database/Effects/XmasGlow2025.lua   (same source as scripts/ServerStorage/Database/Effects/Aquatic2025.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/BaubleChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/BonebladeChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/CandleflameChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/ChromaDarkbringer/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/ChromaLightbringer/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/ConstellationChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/DeathshardChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/ElderwoodKnifeChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/FangChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Item/Flora/Handle/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/GemstoneChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/GingerbladeChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/Gingermint_KChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/HeatChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/LaserChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/LugerChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       9  yes      scripts/ServerStorage/Database/Item/Partyblade/Handle/Script.server.lua
+server       5  yes      scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua
+server       5  yes      scripts/ServerStorage/Database/Item/SeerChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/SharkChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/SorryChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/SwirlyGunChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/TidesChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/TravelerGunChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server      10  yes      scripts/ServerStorage/Database/Item/TreeGun2023Chroma/Handle/Script.server.lua
+server      10  yes      scripts/ServerStorage/Database/Item/TreeKnife2023Chroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/TreeGun2023Chroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/VampireGunChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/WatergunChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/Database/Item/WintersEdgeChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Bank2/Base/Parts/1stFloor/Furnishing/Picture~3/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Bank2/Base/Parts/Basement/Furnishing/Alarm/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Bank2/Base/Parts/Basement/Furnishing/Alarm~2/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server      38  yes      scripts/ServerStorage/Database/Maps/Bank2/Interactive/MetalDetector/Sensor/Script.server.lua
+server      17  yes      scripts/ServerStorage/Database/Maps/Bank2/Interactive/VaultSystem/InteractiveBox/InteractiveScript.server.lua
+server       3  NO       scripts/ServerStorage/Database/Maps/Bank2/Interactive/VaultSystem/InteractiveBox/InteractiveScriptTemplate.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server      11  yes      scripts/ServerStorage/Database/Maps/BeachResort/Base/Model~202/WaterSlide/Slide/Sit/Script.server.lua
+server       4  yes      scripts/ServerStorage/Database/Maps/BeachResort/Base/Model~70/FanMain/Script.server.lua
+server       3  yes      scripts/ServerStorage/Database/Maps/BioLab/Base/Map/Part~144/SurfaceLight/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  NO       scripts/ServerStorage/Database/Maps/BioLab/Decoration_Regular/Characters/_~3/SnowmanHat/HatHelperGuideGiverScript.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server      63  yes      scripts/ServerStorage/Database/Maps/Factory/LorryDoor/InteractiveBox/InteractiveScript.server.lua
+server      63  yes      scripts/ServerStorage/Database/Maps/Factory/LorryDoor~2/InteractiveBox/InteractiveScript.server.lua   (same source as scripts/ServerStorage/Database/Maps/Factory/LorryDoor/InteractiveBox/InteractiveScript.server.lua)
+server      41  yes      scripts/ServerStorage/Database/Maps/Factory/Map/Model~101/Model/Union/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/Factory/Map/Model~96/Model/Union~2/Script.server.lua)
+server      41  yes      scripts/ServerStorage/Database/Maps/Factory/Map/Model~96/Model/Union~2/Script.server.lua
+server       5  yes      scripts/ServerStorage/Database/Maps/Factory/Map/Part~1042/Script.server.lua
+server      41  yes      scripts/ServerStorage/Database/Maps/Factory/Map/Union~25/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/Factory/Map/Model~96/Model/Union~2/Script.server.lua)
+server      47  yes      scripts/ServerStorage/Database/Maps/Factory/Map/_/Loader.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server      47  yes      scripts/ServerStorage/Database/Maps/Factory/Map/_~2/Loader.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server      47  yes      scripts/ServerStorage/Database/Maps/Factory/Map/_~3/Loader.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Lounge/TV/Part~8/Decal/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Staffroom/Thexz/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Staffroom/Thexz/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Staffroom/Zyleak/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Staffroom/Zyleak/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Staffroom/didi1147/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/Staffroom/didi1147/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor1/XrayRoom/Monitor/Part/MRI 3/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor2/OfficeRoom/Nikilis/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Base/Map/Parts/Floor2/Walls/Wall~51/thexz/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hospital3/Decoration_Regular/Character/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hotel2/Base/Map/Parts/Rooms/SmallSuite/PictureFrame/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Hotel2/Base/Map/Parts/Rooms/SmallSuite/PictureFrame~2/ChinaRestricted.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/House2/Base/Lightbulb/SpotLight/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/House2/Base/Model~15/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/House2/Base/Model~29/Part/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/House2/Base/Part~588/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Mansion2/Base/GlitchProof/KillBrick/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Mansion2/Decoration_Regular/Characters/Model/_/Loader.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Mansion2/Decoration_Regular/Characters/_/Loader.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/MilBase/Decoration_Regular/Light/Part~3/PointLight/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server      39  yes      scripts/ServerStorage/Database/Maps/MilBase/Interactive/Door/InteractiveBox/InteractiveScript.server.lua
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Knife/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Model~27/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Model~28/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Model~37/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Model~40/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Model~52/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Office3/Base/Model~82/Part~3/SurfaceGui/ImageLabel/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Pier/Base/Model/Dunk_Tank/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+client       7  yes      scripts/ServerStorage/Database/Maps/Pier/Base/Model/Model~140/Part~4/SurfaceGui/ImageLabel/Script.server.lua
+server       1  yes      scripts/ServerStorage/Database/Maps/Pier/Base/Model/Wheel/Script.server.lua   (same source as scripts/ServerStorage/Database/Toys/RCCar26/CarServer.server.lua)
+client      61  yes      scripts/ServerStorage/Database/Maps/Pier/Respawn/WaterClient.server.lua
+server       3  yes      scripts/ServerStorage/Database/Maps/Pier/Respawn/WaterServer.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server      22  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/AccessibleTestTube/InteractiveBox/InteractiveScript.server.lua
+server      21  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/AccessibleTestTube/InteractiveBoxInside/InteractiveScript.server.lua
+server     190  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript.server.lua
+module      55  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript/AIModule.lua
+module       3  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript/Effects/BigHead.lua
+module      20  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript/Effects/BlooGoo.lua
+module      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript/Effects/Burn.lua   (same source as scripts/ServerStorage/Database/Deaths/Burn.lua)
+module      19  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/CloningSystem/InteractiveBox/InteractiveScript/Effects/Ghostify.lua
+server      53  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/DoorLockdown1/InteractiveBox/InteractiveScript.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/DoorLockdown2/InteractiveBox/InteractiveScript.server.lua)
+server      53  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/DoorLockdown2/InteractiveBox/InteractiveScript.server.lua
+server      49  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/GarageSystem/GarageOpenerInside/InteractiveBox/InteractiveScript.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/GarageSystem/GarageOpenerOutside/InteractiveBox/InteractiveScript.server.lua)
+server      49  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/GarageSystem/GarageOpenerOutside/InteractiveBox/InteractiveScript.server.lua
+server      86  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/LightKillSwitch/Generator/InteractiveBox/InteractiveScript.server.lua
+server     146  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/Teleporter.server.lua
+module       1  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/Teleporter/CreateParticleTween.lua
+server     148  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/MainTeleporters/TP2/Teleporter.server.lua
+module       1  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/MainTeleporters/TP2/Teleporter/CreateParticleTween.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/MainTeleporters/TP1/Teleporter/CreateParticleTween.lua)
+server      95  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/ScanSystem/Scanner/InteractiveBox/InteractiveScript.server.lua
+server      31  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/ScanSystem/Siren/Script.server.lua
+server      36  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/InteractiveBox/InteractiveScript.server.lua
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~10/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~11/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~12/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~13/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~14/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~15/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~16/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~17/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~2/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~3/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~4/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~5/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~6/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~7/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~8/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      28  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren~9/Script.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Interactive/SirenSystem/Siren/Script.server.lua)
+server      47  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua
+server      47  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube~2/Dylan/Loader.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server      21  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/Monitor/Joven'sScreen/Gif/GifScript.server.lua
+server      21  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/Monitor~2/Joven'sScreen/Gif/GifScript.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/Monitor/Joven'sScreen/Gif/GifScript.server.lua)
+server      55  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/SlidingDoors/Operate.server.lua
+server      55  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/SlidingDoors~2/Operate.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/SlidingDoors/Operate.server.lua)
+server      47  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/Zyleak/Loader.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server      47  yes      scripts/ServerStorage/Database/Maps/ResearchFacility/Thexz/Loader.server.lua   (same source as scripts/ServerStorage/Database/Maps/ResearchFacility/Parts/LockedTestTube/Nikilis/Loader.server.lua)
+server      15  yes      scripts/ServerStorage/Database/Maps/Yacht/Base/Model~318/Script.server.lua
+server       3  yes      scripts/ServerStorage/Database/Maps/Yacht/Base/SlideFunct/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Yacht/Intereactive/Painting/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+client       3  yes      scripts/ServerStorage/Database/Maps/Yacht/Intereactive/Water/WaterClient.server.lua
+server       3  NO       scripts/ServerStorage/Database/Maps/Yacht/Intereactive/Water/WaterPart/Script.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Maps/Yacht/Intereactive/Water/WaterServer.server.lua   (same source as scripts/ServerScriptService/GameScript/Modules/PerksController/Trap/Trap/TrapScript.server.lua)
+module      28  yes      scripts/ServerStorage/Database/Perks/Sprint.lua
+client      23  yes      scripts/ServerStorage/Database/Pets/BatChroma/FirePart/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BatChroma/Part/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BatChroma/Part~2/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BatChroma/Part~3/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/FirePart~2/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/FirePart~3/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/Part~2/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/Part~3/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/Part~4/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BearChroma/Part~5/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/BL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/BR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/FL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/FR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/FirePart/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/FirePart~2/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/BunnyChroma/Part/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/BL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/BR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/FL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/FR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/FirePart/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/FirePart~2/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/FirePart~3/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/CatChroma/Part/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/BL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/BR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/FL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/FR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/FirePart/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/FirePart~2/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/FirePart~3/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/DogChroma/Part/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/BearChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FL/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FL~2/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FR/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FR~2/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FirePart/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FirePart~2/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/FirePart~3/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/FoxChroma/Part/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/FirePart~2/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/FirePart~3/Fire/FireChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/FirePart/Fire/FireChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/Part~2/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/Part~3/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/Part~4/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+client      23  yes      scripts/ServerStorage/Database/Pets/PigChroma/Part~5/Decal/DecalChroma.client.lua   (same source as scripts/ServerStorage/Database/Pets/PigChroma/Part/Decal/DecalChroma.client.lua)
+server       1  yes      scripts/ServerStorage/Database/Pets/Traveller/Floating.server.lua
+server       1  NO       scripts/ServerStorage/Database/Pets/Traveller/Walking.server.lua   (same source as scripts/ServerStorage/Database/Pets/Traveller/Floating.server.lua)
+module      14  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Badge.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Badge.lua)
+module       8  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Banned.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Banned.lua)
+module      78  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Codes.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Codes.lua)
+module      23  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Currencies.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Currencies.lua)
+module      17  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/DevProducts.lua   (same source as scripts/ReplicatedStorage/Database/Sync/DevProducts.lua)
+module    1107  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Effects.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Effects.lua)
+module      24  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Eggs.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Eggs.lua)
+module      18  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/EliteRewards.lua   (same source as scripts/ReplicatedStorage/Database/Sync/EliteRewards.lua)
+module     114  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Emotes.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Emotes.lua)
+module      27  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Featured.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Featured.lua)
+module      21  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/FollowRewards.lua   (same source as scripts/ReplicatedStorage/Database/Sync/FollowRewards.lua)
+module      82  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/GameModes.lua   (same source as scripts/ReplicatedStorage/Database/Sync/GameModes.lua)
+module     153  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/GamepassShop.lua   (same source as scripts/ReplicatedStorage/Database/Sync/GamepassShop.lua)
+module    9994  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Item.lua
+module     146  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/ItemPacks.lua   (same source as scripts/ReplicatedStorage/Database/Sync/ItemPacks.lua)
+module     163  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Maps.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Maps.lua)
+module    1044  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Materials.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Materials.lua)
+module     279  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/MysteryBox.lua   (same source as scripts/ReplicatedStorage/Database/Sync/MysteryBox.lua)
+module      28  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/NameTags.lua   (same source as scripts/ReplicatedStorage/Database/Sync/NameTags.lua)
+module     513  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/NewShop.lua   (same source as scripts/ReplicatedStorage/Database/Sync/NewShop.lua)
+module     586  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Outfits.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Outfits.lua)
+module     109  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Perks.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Perks.lua)
+module     779  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Pets.lua
+module     666  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Radios.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Radios.lua)
+module     134  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Rarities.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Rarities.lua)
+module      17  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Rarity.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Rarity.lua)
+module      57  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Recipes.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Recipes.lua)
+module     845  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/SalvageRewards.lua   (same source as scripts/ReplicatedStorage/Database/Sync/SalvageRewards.lua)
+module     417  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Shop.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Shop.lua)
+module      34  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/SlotInfo.lua   (same source as scripts/ReplicatedStorage/Database/Sync/SlotInfo.lua)
+module      53  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Summer2024Event.lua   (same source as scripts/ReplicatedStorage/Database/Sync/Summer2024Event.lua)
+module      12  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/TimeRewards.lua   (same source as scripts/ReplicatedStorage/Database/Sync/TimeRewards.lua)
+module     365  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/Toys.lua
+module      29  yes      scripts/ServerStorage/Database/SyncBackup_DO_NOT_DELETE/XboxFeatured.lua   (same source as scripts/ReplicatedStorage/Database/Sync/XboxFeatured.lua)
+server      15  yes      scripts/ServerStorage/Database/Toys/AlienPlushie/PlushieScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/Santa2025/PlushieScript.server.lua)
+server      55  yes      scripts/ServerStorage/Database/Toys/BeachBall2023/Server.server.lua
+client      22  yes      scripts/ServerStorage/Database/Toys/Bell2025/Client.client.lua
+server      15  yes      scripts/ServerStorage/Database/Toys/Bell2025/Server.server.lua
+server      65  yes      scripts/ServerStorage/Database/Toys/BloxyCola/BloxyColaScript.server.lua
+server       1  yes      scripts/ServerStorage/Database/Toys/Bubbles26/LickScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/RCCar26/CarServer.server.lua)
+server       3  yes      scripts/ServerStorage/Database/Toys/Candle2024/CandleScript.server.lua
+client      27  yes      scripts/ServerStorage/Database/Toys/Candle2024/Client.client.lua
+client      18  yes      scripts/ServerStorage/Database/Toys/Candle2025/Client.client.lua   (same source as scripts/ServerStorage/Database/Toys/TreeToy2024/Client.client.lua)
+server      72  yes      scripts/ServerStorage/Database/Toys/Candle2025/Server.server.lua   (same source as scripts/ServerStorage/Database/Toys/Flamingo2025/Server.server.lua)
+client      20  yes      scripts/ServerStorage/Database/Toys/CandyBucket2025/Client.client.lua
+server      18  yes      scripts/ServerStorage/Database/Toys/CandyBucket2025/Server.server.lua
+server     136  yes      scripts/ServerStorage/Database/Toys/CandyToy/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/Database/Toys/CandyToy/Handle/ChromaScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ChromaScript.server.lua)
+server      24  NO       scripts/ServerStorage/Database/Toys/CandyToy/Handle/ColorFire/ChromaScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ColorFire/ChromaScript.server.lua)
+server       8  yes      scripts/ServerStorage/Database/Toys/CandyToy/Handle/FireScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/FireScript.server.lua)
+server     136  yes      scripts/ServerStorage/Database/Toys/CandyToy2020/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ChromaScript.server.lua
+server      24  NO       scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ColorFire/ChromaScript.server.lua
+server       8  yes      scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/FireScript.server.lua
+server     136  yes      scripts/ServerStorage/Database/Toys/CandyToy2021/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/Database/Toys/CandyToy2021/Handle/ChromaScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ChromaScript.server.lua)
+server      24  NO       scripts/ServerStorage/Database/Toys/CandyToy2021/Handle/ColorFire/ChromaScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ColorFire/ChromaScript.server.lua)
+server       8  yes      scripts/ServerStorage/Database/Toys/CandyToy2021/Handle/FireScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/FireScript.server.lua)
+server     136  yes      scripts/ServerStorage/Database/Toys/CandyToy2022/CandyScript.server.lua
+server      23  NO       scripts/ServerStorage/Database/Toys/CandyToy2022/Handle/ChromaScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ChromaScript.server.lua)
+server      24  NO       scripts/ServerStorage/Database/Toys/CandyToy2022/Handle/ColorFire/ChromaScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/ColorFire/ChromaScript.server.lua)
+server       8  yes      scripts/ServerStorage/Database/Toys/CandyToy2022/Handle/FireScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/CandyToy2020/Handle/FireScript.server.lua)
+server      44  yes      scripts/ServerStorage/Database/Toys/ChocolateMilk/BloxyColaScript.server.lua
+client      11  yes      scripts/ServerStorage/Database/Toys/Coconut2024/Client.client.lua
+client      17  yes      scripts/ServerStorage/Database/Toys/Coffee2025/Client.client.lua
+server      43  yes      scripts/ServerStorage/Database/Toys/CommonEgg2024/EggHandler.server.lua
+server      18  yes      scripts/ServerStorage/Database/Toys/CommonEgg2025/Client.server.lua
+client      39  yes      scripts/ServerStorage/Database/Toys/Cookie2023/Client.client.lua
+server      17  yes      scripts/ServerStorage/Database/Toys/EggToy2023/EggHandler.server.lua
+client      47  yes      scripts/ServerStorage/Database/Toys/FakeBomb/LocalScript.client.lua
+server     131  NO       scripts/ServerStorage/Database/Toys/FakeBomb/LocalScript/Script.server.lua
+server      48  yes      scripts/ServerStorage/Database/Toys/FakeBomb/Script.server.lua
+client      18  yes      scripts/ServerStorage/Database/Toys/Fireflies/FirefliesClient.client.lua
+server      75  yes      scripts/ServerStorage/Database/Toys/Fireflies/FirefliesServer.server.lua
+server      11  NO       scripts/ServerStorage/Database/Toys/Fireflies/FirefliesServer/FireflyScript.server.lua
+client      18  yes      scripts/ServerStorage/Database/Toys/Flamingo2025/Client.client.lua   (same source as scripts/ServerStorage/Database/Toys/TreeToy2024/Client.client.lua)
+server      72  yes      scripts/ServerStorage/Database/Toys/Flamingo2025/Server.server.lua
+client      47  yes      scripts/ServerStorage/Database/Toys/GoldFakeBomb/LocalScript.client.lua
+server     131  NO       scripts/ServerStorage/Database/Toys/GoldFakeBomb/LocalScript/Script.server.lua   (same source as scripts/ServerStorage/Database/Toys/FakeBomb/LocalScript/Script.server.lua)
+server      48  yes      scripts/ServerStorage/Database/Toys/GoldFakeBomb/Script.server.lua
+server      60  yes      scripts/ServerStorage/Database/Toys/Gravestone2024/Script.server.lua
+client      20  yes      scripts/ServerStorage/Database/Toys/Heart2026/Client.client.lua   (same source as scripts/ServerStorage/Database/Toys/CandyBucket2025/Client.client.lua)
+server      19  yes      scripts/ServerStorage/Database/Toys/Heart2026/Server.server.lua
+client      27  yes      scripts/ServerStorage/Database/Toys/IceCream/Client.client.lua
+client      52  yes      scripts/ServerStorage/Database/Toys/IceCream2025/Client.client.lua
+server      44  yes      scripts/ServerStorage/Database/Toys/MagicBook2024/Script.server.lua
+client      39  yes      scripts/ServerStorage/Database/Toys/Pie2023/Client.client.lua
+server      45  yes      scripts/ServerStorage/Database/Toys/Pizza/SandwichScript.server.lua
+server      71  yes      scripts/ServerStorage/Database/Toys/Pumpkin2023/Script.server.lua
+server      66  yes      scripts/ServerStorage/Database/Toys/Pumpkin2025/Script.server.lua
+server      39  yes      scripts/ServerStorage/Database/Toys/PumpkinBucket/SandwichScript.server.lua
+client     233  yes      scripts/ServerStorage/Database/Toys/RCCar26/CarClient.client.lua
+server       1  yes      scripts/ServerStorage/Database/Toys/RCCar26/CarServer.server.lua
+server      57  yes      scripts/ServerStorage/Database/Toys/RareEgg2024/EggHandler.server.lua
+server      56  yes      scripts/ServerStorage/Database/Toys/RareEgg2025/EggHandler.server.lua
+server     117  yes      scripts/ServerStorage/Database/Toys/SandBucket2024/Script.server.lua
+server      15  yes      scripts/ServerStorage/Database/Toys/Santa2024/PlushieScript.server.lua   (same source as scripts/ServerStorage/Database/Toys/Santa2025/PlushieScript.server.lua)
+server      15  yes      scripts/ServerStorage/Database/Toys/Santa2025/PlushieScript.server.lua
+server      33  yes      scripts/ServerStorage/Database/Toys/ScaryKey/KeyScript.server.lua
+client      20  yes      scripts/ServerStorage/Database/Toys/SnowballToy2020/Client.client.lua
+module      44  yes      scripts/ServerStorage/Database/Toys/SnowballToy2020/MakeBalloon.lua
+client      29  yes      scripts/ServerStorage/Database/Toys/Snowglobe2024/SnowGlobeClient.client.lua
+server      94  yes      scripts/ServerStorage/Database/Toys/Snowman2024/Script.server.lua
+client      67  yes      scripts/ServerStorage/Database/Toys/SprayPaint/LocalScript.client.lua
+server     109  yes      scripts/ServerStorage/Database/Toys/SprayPaint/Script.server.lua
+server      69  yes      scripts/ServerStorage/Database/Toys/Teddy/TeddyScript.server.lua
+client      18  yes      scripts/ServerStorage/Database/Toys/TreeToy2024/Client.client.lua
+server      72  yes      scripts/ServerStorage/Database/Toys/TreeToy2024/Server.server.lua
+client      13  yes      scripts/ServerStorage/Database/Toys/VelvetCake2025/Client.client.lua
+server      55  yes      scripts/ServerStorage/Database/Toys/VolleyBall2025/Server.server.lua   (same source as scripts/ServerStorage/Database/Toys/BeachBall2023/Server.server.lua)
+client      20  yes      scripts/ServerStorage/Database/Toys/WaterBalloon2024/Client.client.lua   (same source as scripts/ServerStorage/Database/Toys/SnowballToy2020/Client.client.lua)
+module      44  yes      scripts/ServerStorage/Database/Toys/WaterBalloon2024/MakeBalloon.lua   (same source as scripts/ServerStorage/Database/Toys/SnowballToy2020/MakeBalloon.lua)
+client      40  yes      scripts/ServerStorage/Database/Toys/ZombieFriend/Local Gui.client.lua
+server     145  yes      scripts/ServerStorage/Database/Toys/ZombieFriend/ZombieFriendScript.server.lua
+client       6  yes      scripts/ServerStorage/DisabledOldAdminSystem/ReplicatedStorageGUI/AdminSettingsScript.client.lua
+client       9  yes      scripts/ServerStorage/DisabledOldAdminSystem/ReplicatedStorageGUI/CreatorScript.client.lua
+module     303  yes      scripts/ServerStorage/DisabledOldAdminSystem/ServerScriptService/AdminController.lua
+client       5  yes      scripts/ServerStorage/DisabledOldAdminSystem/ServerStorageResources/Admin/Display/PromptScript.server.lua   (same source as scripts/ServerStorage/DisabledOldAdminSystem/Workspace/Admin/Display/PromptScript.server.lua)
+client      10  yes      scripts/ServerStorage/DisabledOldAdminSystem/ServerStorageResources/Admin/Display/SurfaceGui/Frame/Script.server.lua   (same source as scripts/ServerStorage/DisabledOldAdminSystem/Workspace/Admin/Display/SurfaceGui/Frame/Script.server.lua)
+client      52  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/Admin/AdminSettings.client.lua
+module      93  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/Admin/AdminSettings/Button.lua   (same source as scripts/StarterGui/CrossPlatform/OwnerPanel/AdminSettings/Button.lua)
+client      15  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/Admin/Container/EventFrames/ScrollingFrame/ButtonsGameplay/TextBoxMap/TextBox/LocalScript.client.lua   (same source as scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/Container/EventFrames/ScrollingFrame/ButtonsData/TextBoxPlayer/TextBox/LocalScript.client.lua)
+client      15  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/Admin/Container/EventFrames/ScrollingFrame/ButtonsGameplay/TextBoxPlayer/TextBox/LocalScript.client.lua   (same source as scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/Container/EventFrames/ScrollingFrame/ButtonsData/TextBoxPlayer/TextBox/LocalScript.client.lua)
+client      19  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminBoard/Script.client.lua
+client     151  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/AdminSettings.client.lua
+module      93  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/AdminSettings/Button.lua   (same source as scripts/StarterGui/CrossPlatform/OwnerPanel/AdminSettings/Button.lua)
+client      15  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/Container/EventFrames/ScrollingFrame/ButtonsData/TextBoxPlayer/TextBox/LocalScript.client.lua
+client      15  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/Container/EventFrames/ScrollingFrame/ButtonsGameplay/TextBoxPlayer/TextBox/LocalScript.client.lua   (same source as scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/AdminSettings/Container/EventFrames/ScrollingFrame/ButtonsData/TextBoxPlayer/TextBox/LocalScript.client.lua)
+client      32  yes      scripts/ServerStorage/DisabledOldAdminSystem/StarterGui/CreatorWindow/CreatorWindowScript.client.lua
+client       5  yes      scripts/ServerStorage/DisabledOldAdminSystem/Workspace/Admin/Display/PromptScript.server.lua
+client      10  yes      scripts/ServerStorage/DisabledOldAdminSystem/Workspace/Admin/Display/SurfaceGui/Frame/Script.server.lua
+module      30  yes      scripts/ServerStorage/Gameplay/CodeNames.lua
+module      27  yes      scripts/ServerStorage/Gameplay/Colors.lua
+server     711  yes      scripts/ServerStorage/Gameplay/DefaultRig/Animate.server.lua
+module      19  yes      scripts/ServerStorage/Gameplay/Faces.lua
+client     180  NO       scripts/ServerStorage/Gameplay/GunScripts/GunClient.client.lua
+server     163  NO       scripts/ServerStorage/Gameplay/GunScripts/GunServer.server.lua
+server       7  yes      scripts/ServerStorage/Gameplay/KnifeScripts/Animations/AnimationClone.server.lua
+client     332  NO       scripts/ServerStorage/Gameplay/KnifeScripts/KnifeClient.client.lua
+server     549  NO       scripts/ServerStorage/Gameplay/KnifeScripts/KnifeServer.server.lua
+client      28  NO       scripts/ServerStorage/Gameplay/KnifeScripts/KnifeVisuals.server.lua
+module     118  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/Codes.lua
+module    3010  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/DataModule.lua   (same source as scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule.lua)
+module      27  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/DataModule/LBRewards/July2022.lua   (same source as scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule/LBRewards/July2022.lua)
+module      26  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/DataModule/Weld.lua   (same source as scripts/ServerScriptService/GameScript/DataModule/Weld.lua)
+module       5  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/ServerStorage.Database.Effects modules/Balloons.lua   (same source as scripts/ServerStorage/Database/Effects/Balloons.lua)
+server       9  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/ServerStorage.Database.Item tools/Partyblade/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/Partyblade/Handle/Script.server.lua)
+server       5  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/ServerStorage.Database.Item tools/SorryChroma/Handle/Script.server.lua   (same source as scripts/ServerStorage/Database/Item/SawChroma/Handle/Script.server.lua)
+client       3  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/SpawnFade/Fade/LocalScript.client.lua   (same source as scripts/StarterGui/SpawnFade/Fade/LocalScript.client.lua)
+client      14  yes      scripts/ServerStorage/ImportBackups/CodeBoardRewardTransferPack/SpawnFade/LocalScript.client.lua
+module    3010  yes      scripts/ServerStorage/ProfileStatsImportBackup/ProfileStatsFromCoolGame/DataModule.lua   (same source as scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule.lua)
+module      27  yes      scripts/ServerStorage/ProfileStatsImportBackup/ProfileStatsFromCoolGame/DataModule/LBRewards/July2022.lua   (same source as scripts/ServerStorage/AdminPanelImportBackup/AdminPanelFromCoolGame/DataModule/LBRewards/July2022.lua)
+module      26  yes      scripts/ServerStorage/ProfileStatsImportBackup/ProfileStatsFromCoolGame/DataModule/Weld.lua   (same source as scripts/ServerScriptService/GameScript/DataModule/Weld.lua)
+client     211  yes      scripts/ServerStorage/ProfileStatsImportBackup/ProfileStatsFromCoolGame/Inventory.client.lua
+client     212  yes      scripts/ServerStorage/ProfileStatsImportBackup/ProfileStatsFromCoolGame/InventoryPhone.client.lua
+server       0  yes      scripts/ServerStorage/Resources/Lobby/Elevator/Script.server.lua
+server       6  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/Boards/AdminBoard/Display/AdminGamepassPromptServer.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/Boards/AdminBoard/Display/AdminGamepassPromptServer.server.lua)
+client      41  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/Boards/RoleBoard/Script.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/Boards/RoleBoard/Script.server.lua)
+client       0  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/Bundle/Script.server.lua
+client      61  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/NPCs/Angelazz/_/HumanoidRootPart/Interact/Script.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/NPCs/Angelazz/_/HumanoidRootPart/Interact/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/NPCs/Angelazz/_/Script.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/NPCs/Angelazz/_/Script.server.lua)
+client       8  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/NPCs/Nikilis/_/HumanoidRootPart/Interact/Script.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/NPCs/Nikilis/_/HumanoidRootPart/Interact/Script.server.lua)
+server       6  yes      scripts/ServerStorage/Resources/Lobby/Gamepasses/NPCs/Nikilis/_/Script.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/NPCs/Angelazz/_/Script.server.lua)
+client      10  yes      scripts/ServerStorage/Resources/Lobby/GunPrompt/PromptScript.server.lua   (same source as scripts/Workspace/Lobby/GunPrompt/PromptScript.server.lua)
+client      13  yes      scripts/ServerStorage/Resources/Lobby/ItemBundlePrompt/PromptScript.server.lua   (same source as scripts/Workspace/Lobby/ItemBundlePrompt/PromptScript.server.lua)
+client      10  yes      scripts/ServerStorage/Resources/Lobby/KnifePrompt/PromptScript.server.lua   (same source as scripts/Workspace/Lobby/KnifePrompt/PromptScript.server.lua)
+client     770  yes      scripts/ServerStorage/Resources/Lobby/Lobby/IDontHaveAUse/Animate.client.lua   (same source as scripts/Workspace/Lobby/Lobby/IDontHaveAUse/Animate.client.lua)
+server       0  yes      scripts/ServerStorage/Resources/Lobby/Lobby/Model~10/WaterSlide/Slide/Sit/Script.server.lua
+client      10  yes      scripts/ServerStorage/Resources/Lobby/MysteryBoxPrompt/PromptScript.server.lua   (same source as scripts/Workspace/Lobby/MysteryBoxPrompt/PromptScript.server.lua)
+client     176  yes      scripts/ServerStorage/ToolTemplates/Jetpack/JetpackClient.client.lua
+module     383  yes      scripts/ServerStorage/Trove.lua
+client     354  yes      scripts/StarterGui/BackpackUI/BackpackScript.client.lua
+client     390  NO       scripts/StarterGui/CrossPlatform/Duels/DuelManagerScript.client.lua
+client     398  yes      scripts/StarterGui/CrossPlatform/Emotes/EmoteController.client.lua
+client      85  yes      scripts/StarterGui/CrossPlatform/FollowRewards/FollowRewards.client.lua
+client     123  yes      scripts/StarterGui/CrossPlatform/GameModes/ModeScript.client.lua
+client      81  yes      scripts/StarterGui/CrossPlatform/GamepassShop/Script.client.lua
+module      59  yes      scripts/StarterGui/CrossPlatform/GamepassShop/Script/Button.lua
+client      37  yes      scripts/StarterGui/CrossPlatform/GamepassShop/Script/UIGradient/LocalScript.client.lua
+client       5  yes      scripts/StarterGui/CrossPlatform/GiftingUI/LocalScript.client.lua
+client      13  NO       scripts/StarterGui/CrossPlatform/ItemPackFrame/ItemPackFrameScript.client.lua
+module      28  yes      scripts/StarterGui/CrossPlatform/ItemPackFrame/ItemPackFrameScript/GodlyShop.lua
+client     113  yes      scripts/StarterGui/CrossPlatform/NewItem/ItemPopupScript.client.lua
+client      18  yes      scripts/StarterGui/CrossPlatform/NewPurcahseUI/LocalScript.client.lua
+client     341  yes      scripts/StarterGui/CrossPlatform/OwnerPanel/AdminSettings.client.lua
+module      93  yes      scripts/StarterGui/CrossPlatform/OwnerPanel/AdminSettings/Button.lua
+client     108  yes      scripts/StarterGui/CrossPlatform/RoleSelection/RoleSelectionScript.client.lua
+client      40  yes      scripts/StarterGui/CrossPlatform/ServerSettings/PrivateServerSettingsScript.client.lua
+client     118  yes      scripts/StarterGui/CrossPlatform/Settings/Script.client.lua
+client      11  yes      scripts/StarterGui/CrossPlatform/Shop/Large/Main/Container/BuyPopup/Container/Right/Description/TextLabel/LocalScript.client.lua   (same source as scripts/StarterGui/CrossPlatform/Shop/Small/Container/Main/BuyPopup/Container/Right/Description/TextLabel/LocalScript.client.lua)
+client      11  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/BuyPopup/Container/Right/Description/TextLabel/LocalScript.client.lua   (same source as scripts/StarterGui/CrossPlatform/Shop/Small/Container/Main/BuyPopup/Container/Right/Description/TextLabel/LocalScript.client.lua)
+client      42  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/Featured/Offers/Container/Featured.client.lua
+client       9  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/Featured/Offers/Container/Featured/EventCover/GUIPolicyRemove.client.lua
+client       9  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/Featured/Offers/Container/Featured/EventCoverHW2021/GUIPolicyRemove.client.lua   (same source as scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/Featured/Offers/Container/Featured/EventCover/GUIPolicyRemove.client.lua)
+client       9  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/Featured/Offers/Container/Featured/Open/GUIPolicyRemove.client.lua   (same source as scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Main/Featured/Offers/Container/Featured/EventCover/GUIPolicyRemove.client.lua)
+client       8  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Container/Container/Nav/Container/Radios/GUIPolicyRemove.client.lua
+client       6  yes      scripts/StarterGui/CrossPlatform/Shop/Medium/Title/Close/LocalScript.client.lua
+client      33  yes      scripts/StarterGui/CrossPlatform/Shop/ShopScript.client.lua
+client     311  NO       scripts/StarterGui/CrossPlatform/Shop/ShopScript/ShopConsole.client.lua
+client     355  NO       scripts/StarterGui/CrossPlatform/Shop/ShopScript/ShopDesktop.client.lua
+client     243  NO       scripts/StarterGui/CrossPlatform/Shop/ShopScript/ShopPhone.client.lua
+module     490  yes      scripts/StarterGui/CrossPlatform/Shop/ShopScript/ShopService.lua
+client     433  NO       scripts/StarterGui/CrossPlatform/Shop/ShopScript/ShopService/ShopScript1.client.lua
+client      11  yes      scripts/StarterGui/CrossPlatform/Shop/Small/Container/Main/BuyPopup/Container/Right/Description/TextLabel/LocalScript.client.lua
+client      18  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/RewardsOG/Container/RewardFrame/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/RewardsOG/Container/RewardFrame~2/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/RewardsOG/Container/RewardFrame~3/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/RewardsOG/Container/RewardFrame~4/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/RewardsOG/Container/RewardFrame~5/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/MainRewards/Content_Rewards/RewardsOG/Container/RewardFrame~6/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame~2/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame~3/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame~4/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client      15  yes      scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame~5/Required/IconMover.client.lua   (same source as scripts/StarterGui/CrossPlatform/Summer2024/Container/EventFrames/RareEggs/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua)
+client     192  NO       scripts/StarterGui/CrossPlatform/Summer2024/EventScript.client.lua
+module      53  yes      scripts/StarterGui/CrossPlatform/Summer2024/EventScript/Button.lua
+module      17  yes      scripts/StarterGui/CrossPlatform/Summer2024/EventScript/GodlyShop.lua
+module     127  yes      scripts/StarterGui/CrossPlatform/Summer2024/EventScript/MysteryBox.lua
+module      47  yes      scripts/StarterGui/CrossPlatform/Summer2024/EventScript/PurchaseCurrency.lua
+client      18  NO       scripts/StarterGui/CrossPlatform/Summer2024/EventScript/Rare/Content_Rewards/Rewards/Container/RewardFrame/Required/IconMover.client.lua
+client      18  NO       scripts/StarterGui/CrossPlatform/Summer2024/EventScript/RewardFrame/Required/IconMover.client.lua
+client     188  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript.client.lua
+module     331  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/BattlePassService.lua
+module     150  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/CraftingService.lua
+module       2  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/EventService.lua
+module     172  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/EventShopService.lua
+module     153  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/GiftingService.lua
+module     185  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/LeaderboardService.lua
+module      43  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/NavigationService.lua
+module     327  yes      scripts/StarterGui/CrossPlatform/Summer2026/EventScript/QuestService.lua
+client       5  yes      scripts/StarterGui/CustomGames/Mode1v1-Auto/Main/Close/Button/LocalScript.client.lua
+client       7  NO       scripts/StarterGui/GameTopbar/Container/Event/EventOpen.client.lua
+client       3  yes      scripts/StarterGui/GameTopbar/Container/Mute/Container/Icon/MutedIconLoad/LocalScript.client.lua
+client      55  yes      scripts/StarterGui/GameTopbar/MusicScript.client.lua
+client      70  yes      scripts/StarterGui/GameTopbar/TopBarScript.client.lua
+client     310  yes      scripts/StarterGui/GameplayControlsUI/GameplayControlsScript.client.lua
+module      54  yes      scripts/StarterGui/GameplayControlsUI/GameplayControlsScript/GameplayButton.lua
+client       3  yes      scripts/StarterGui/InteractGUI/GUICloser.client.lua
+client      82  yes      scripts/StarterGui/ProcessPending/ProcessGUI.client.lua
+module      43  yes      scripts/StarterGui/ProcessPending/ProcessGUI/GIF.lua
+client       5  yes      scripts/StarterGui/Scoreboard/Assassin/Container/Title/Close/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterGui/Scoreboard/BonusModes/Container/Title/Close/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua
+client       5  yes      scripts/StarterGui/Scoreboard/ScaryMode/Container/Title/Close/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterGui/Scoreboard_Phone/Assassin/Container/VersusFrame/Title/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterGui/Scoreboard_Phone/BonusModes/Container/VersusFrame/Title/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterGui/Scoreboard_Phone/Classic/Container/VersusFrame/Title/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client       5  yes      scripts/StarterGui/Scoreboard_Phone/ScaryMode/Container/VersusFrame/Title/Close/LocalScript.client.lua   (same source as scripts/StarterGui/Scoreboard/Classic/Container/Title/Close/Close/LocalScript.client.lua)
+client     105  yes      scripts/StarterGui/SpawnFade/CodeBoardGroupReveal.client.lua
+client       3  yes      scripts/StarterGui/SpawnFade/Fade/LocalScript.client.lua
+client     811  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+client     108  yes      scripts/StarterPlayer/StarterCharacterScripts/CharacterClient.client.lua
+server       5  yes      scripts/StarterPlayer/StarterCharacterScripts/DisplayName.server.lua
+client       9  yes      scripts/StarterPlayer/StarterCharacterScripts/Gifter.client.lua
+client      14  yes      scripts/StarterPlayer/StarterCharacterScripts/Unfade.client.lua
+client     170  yes      scripts/StarterPlayer/StarterPlayerScripts/AdminBoardPurchaseClient.client.lua
+client     424  yes      scripts/StarterPlayer/StarterPlayerScripts/AdminPanelAccessClient.client.lua
+client     187  yes      scripts/StarterPlayer/StarterPlayerScripts/AnnouncementClient.client.lua
+client      24  yes      scripts/StarterPlayer/StarterPlayerScripts/BoxController.client.lua
+client      19  yes      scripts/StarterPlayer/StarterPlayerScripts/CMDR.client.lua
+client      56  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientEventManager.client.lua
+client      29  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientTween.client.lua
+client      76  yes      scripts/StarterPlayer/StarterPlayerScripts/CoinVisualizer.client.lua
+client      55  yes      scripts/StarterPlayer/StarterPlayerScripts/ControllerIcons.client.lua
+client      12  yes      scripts/StarterPlayer/StarterPlayerScripts/Disable.client.lua
+client     153  NO       scripts/StarterPlayer/StarterPlayerScripts/EmoteController.client.lua
+client       3  NO       scripts/StarterPlayer/StarterPlayerScripts/EmoteController/Emotes/D.client.lua
+client      31  yes      scripts/StarterPlayer/StarterPlayerScripts/FavoritePrompt.client.lua
+client      22  yes      scripts/StarterPlayer/StarterPlayerScripts/GameModes.client.lua
+client     262  yes      scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations.client.lua
+client      22  NO       scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations/Victory/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations/VictorySlideConcept/LocalScript.client.lua)
+client      22  NO       scripts/StarterPlayer/StarterPlayerScripts/GameplayAnimations/VictorySlideConcept/LocalScript.client.lua
+client     211  yes      scripts/StarterPlayer/StarterPlayerScripts/InteractiveScript.client.lua
+client     207  yes      scripts/StarterPlayer/StarterPlayerScripts/LiveBoardClient.client.lua
+client      46  yes      scripts/StarterPlayer/StarterPlayerScripts/MouseLock/MouseLockLoader.client.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/PartSwim.client.lua
+module     219  yes      scripts/StarterPlayer/StarterPlayerScripts/PartSwim/SwimController.lua
+module     268  yes      scripts/StarterPlayer/StarterPlayerScripts/PartSwim/SwimController/Maid.lua
+module      43  yes      scripts/StarterPlayer/StarterPlayerScripts/PartSwim/SwimController/Maid/GetPromiseLibrary.lua
+module    1112  yes      scripts/StarterPlayer/StarterPlayerScripts/PartSwim/SwimController/Maid/Promise.lua
+module       7  yes      scripts/StarterPlayer/StarterPlayerScripts/PartSwim/SwimController/Maid/Symbol.lua
+client     175  yes      scripts/StarterPlayer/StarterPlayerScripts/PerkSystem.client.lua
+client     116  yes      scripts/StarterPlayer/StarterPlayerScripts/Pets.client.lua
+module      41  yes      scripts/StarterPlayer/StarterPlayerScripts/Pets/Weld.lua
+module      20  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua
+module     408  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule.lua
+module     630  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseCamera.lua
+module      33  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseOcclusion.lua
+module     458  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraInput.lua
+module      61  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraToggleStateController.lua
+module      29  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUI.lua
+module     233  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUtils.lua
+module     146  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ClassicCamera.lua
+module     486  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Invisicam.lua
+module      81  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/LegacyCamera.lua
+module     163  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/MouseLockController.lua
+module     203  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/OrbitalCamera.lua
+module      85  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Poppercam.lua
+module     200  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/TransparencyController.lua
+module     311  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRBaseCamera.lua
+module     298  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRCamera.lua
+module     324  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRVehicleCamera.lua
+module     135  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera.lua
+module      22  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraConfig.lua
+module     126  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraCore.lua
+module      97  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController.lua
+module     340  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController/Popper.lua
+module      86  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/CharacterUtil.lua
+module      36  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/ConnectionUtil.lua
+module      70  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/ConnectionUtil.spec.lua
+module      10  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/FlagUtil.lua
+module     544  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule.lua
+module      30  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/BaseCharacterController.lua
+module    1301  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveController.lua
+module     466  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveDisplay.lua
+module     514  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/DynamicThumbstick.lua
+module     154  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Gamepad.lua
+module     118  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Keyboard.lua
+module     157  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/PathDisplay.lua
+module     270  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchJump.lua
+module     165  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchThumbstick.lua
+module     478  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VRNavigation.lua
+module     134  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VehicleController.lua
+client       3  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerScriptsLoader.client.lua
+client      44  yes      scripts/StarterPlayer/StarterPlayerScripts/Preloader.client.lua
+client       4  yes      scripts/StarterPlayer/StarterPlayerScripts/ProfileLoader.client.lua
+client     154  yes      scripts/StarterPlayer/StarterPlayerScripts/RagdollReplicationClient.client.lua
+client     420  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua
+module     230  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds/AtomicBinding.lua
+client     125  yes      scripts/StarterPlayer/StarterPlayerScripts/Settings.client.lua
+client       5  yes      scripts/StarterPlayer/StarterPlayerScripts/StatusEffectScript.client.lua
+client       5  NO       scripts/StarterPlayer/StarterPlayerScripts/StatusEffectScript/StatusEffectGui/Main/Progress/Bar/TweenScript.client.lua
+client     209  yes      scripts/StarterPlayer/StarterPlayerScripts/TextChatServiceClient.client.lua
+client     103  yes      scripts/StarterPlayer/StarterPlayerScripts/ToolHandleVisuals.client.lua
+client      52  yes      scripts/StarterPlayer/StarterPlayerScripts/TrapScriptClient.client.lua
+client       8  NO       scripts/StarterPlayer/StarterPlayerScripts/TrapScriptClient/TrapGUI/Main/Progress/Bar/TweenScript.client.lua
+client     223  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/ChromaScript.client.lua
+client       6  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/GunBeams.client.lua
+module      68  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/GunBeams/CreateBeam.lua
+client       6  NO       scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/GunBeams/GunBeams.client.lua
+module      50  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/GunBeams/GunBeams/CreateBeam.lua
+client      81  yes      scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/ThrowingKnifeVisuals.client.lua
+client      46  NO       scripts/StarterPlayer/StarterPlayerScripts/WeaponVisuals/ThrowingKnifeVisuals/ThrowingKnifeVisuals.client.lua
+server       8  NO       scripts/Workspace/ADMIN GAMEPASS PANEL TUTORIAL.server.lua
+server      17  yes      scripts/Workspace/LoadLobby.server.lua
+server       0  yes      scripts/Workspace/Lobby/Elevator/Script.server.lua
+server       6  yes      scripts/Workspace/Lobby/Gamepasses/Boards/AdminBoard/Display/AdminGamepassPromptServer.server.lua
+client      41  yes      scripts/Workspace/Lobby/Gamepasses/Boards/RoleBoard/Script.server.lua
+client       0  yes      scripts/Workspace/Lobby/Gamepasses/Bundle/Script.server.lua
+client      61  yes      scripts/Workspace/Lobby/Gamepasses/NPCs/Angelazz/_/HumanoidRootPart/Interact/Script.server.lua
+server       6  yes      scripts/Workspace/Lobby/Gamepasses/NPCs/Angelazz/_/Script.server.lua
+client       8  yes      scripts/Workspace/Lobby/Gamepasses/NPCs/Nikilis/_/HumanoidRootPart/Interact/Script.server.lua
+server       6  yes      scripts/Workspace/Lobby/Gamepasses/NPCs/Nikilis/_/Script.server.lua   (same source as scripts/Workspace/Lobby/Gamepasses/NPCs/Angelazz/_/Script.server.lua)
+client      10  yes      scripts/Workspace/Lobby/GunPrompt/PromptScript.server.lua
+client      13  yes      scripts/Workspace/Lobby/ItemBundlePrompt/PromptScript.server.lua
+client      10  yes      scripts/Workspace/Lobby/KnifePrompt/PromptScript.server.lua
+client     770  yes      scripts/Workspace/Lobby/Lobby/IDontHaveAUse/Animate.client.lua
+server      19  yes      scripts/Workspace/Lobby/Lobby/Model~8/WaterSlide/Slide/Sit/Script.server.lua
+client      10  yes      scripts/Workspace/Lobby/MysteryBoxPrompt/PromptScript.server.lua
+client       0  yes      scripts/Workspace/Lobby/ToolNPCS/GravityCoil/HumanoidRootPart/ProximityPrompt/Script.server.lua
+server      94  yes      scripts/Workspace/Lobby/ToolNPCS/GravityCoil/Script.server.lua
+client       0  yes      scripts/Workspace/Lobby/ToolNPCS/Jetpack/HumanoidRootPart/ProximityPrompt/Script.server.lua
+server      91  yes      scripts/Workspace/Lobby/ToolNPCS/Jetpack/Script.server.lua
+server      90  yes      scripts/Workspace/Lobby/ToolNPCS/NPCPhysics.server.lua
+client       0  yes      scripts/Workspace/Lobby/ToolNPCS/SpeedCoil/HumanoidRootPart/ProximityPrompt/Script.server.lua
+server      98  yes      scripts/Workspace/Lobby/ToolNPCS/SpeedCoil/Script.server.lua
+client       0  yes      scripts/Workspace/Lobby/ToolNPCS/SuperCoil/HumanoidRootPart/ProximityPrompt/Script.server.lua
+server      95  yes      scripts/Workspace/Lobby/ToolNPCS/SuperCoil/Script.server.lua
+client      23  yes      scripts/Workspace/RoundTimerPart/Script.server.lua
+server       7  NO       scripts/Workspace/ServerVersion.server.lua
+server      12  NO       scripts/Workspace/SpoofTutorial.server.lua
+server      45  NO       scripts/Workspace/TUTORIAL READ ME.server.lua
