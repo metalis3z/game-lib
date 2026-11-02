@@ -1,0 +1,1 @@
+game.ServerStorage.Jumpscarer.Parent = workspace

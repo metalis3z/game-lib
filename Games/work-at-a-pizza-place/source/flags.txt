@@ -1,0 +1,79 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/GoogleAnalytics.lua lines 32
+       require() with a computed / hidden argument
+[HIGH] scripts/ServerScriptService/Main.server.lua lines 325
+       require() with a computed / hidden argument
+[HIGH] scripts/Workspace/HD Admin/Settings/Loader.server.lua lines 12
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ReplicatedStorage/Utilities/SupportLibrary.lua lines 454
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/Main.server.lua lines 331
+       string.char with a long number list (hidden text)
+[MED] scripts/ServerScriptService/Main.server.lua lines 769
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/Main.server.lua lines 192,346,1145
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/MainModule/Customization/Accessory Display/AccessoryDisplay.server.lua lines 18,74
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/MainModule/Customization/Pants Display/PantsDisplay.server.lua lines 15
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/MainModule/Customization/Shirt Display/ShirtDisplay.server.lua lines 15
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/Players/Player.lua lines 626,1334
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/CatalogCache/BANG!/BangScript.server.lua lines 13
+       InsertService:LoadAsset (pulls models at runtime)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  110032237480509  in scripts/ServerScriptService/Main.server.lua
+  129293660  in scripts/ServerScriptService/Players/Player/Explorer/ExplorerPanel/LocalScript.client.lua
+  142263417  in scripts/ServerScriptService/Players/Player.lua
+  142751224  in scripts/ServerScriptService/Players/Player.lua
+  143758655  in scripts/ServerScriptService/Players/Player.lua
+  147222549  in scripts/ServerScriptService/Players/Player.lua
+  1487333806  in scripts/ServerScriptService/Players/Player.lua
+  17263441981  in scripts/ServerScriptService/Main.server.lua
+  176685508  in scripts/ServerScriptService/Main.server.lua
+  176685667  in scripts/ServerScriptService/Main.server.lua
+  176685798  in scripts/ServerScriptService/Main.server.lua
+  176685910  in scripts/ServerScriptService/Main.server.lua
+  176685982  in scripts/ServerScriptService/Main.server.lua
+  176686088  in scripts/ServerScriptService/Main.server.lua
+  19762535  in scripts/ServerScriptService/PurchaseService.server.lua
+  21007466  in scripts/ServerScriptService/PurchaseService.server.lua
+  30393855  in scripts/ServerScriptService/PurchaseService.server.lua
+  382827362  in scripts/ServerScriptService/Main.server.lua
+  386215741  in scripts/ServerScriptService/Main.server.lua
+  390728601  in scripts/ServerScriptService/Main.server.lua
+  499900058  in scripts/ServerScriptService/Players/Player.lua
+  499900783  in scripts/ServerScriptService/Players/Player.lua
+  531388577  in scripts/ServerScriptService/Main.server.lua
+  81431084  in scripts/ServerScriptService/Players/Player.lua
+  81924152  in scripts/ServerScriptService/Players/Player.lua
+  85372001  in scripts/ServerScriptService/Players/Player.lua
+  860395229  in scripts/ServerScriptService/Players/Player.lua
+  912780197  in scripts/ServerScriptService/Players/Player.lua
+
+Teleport place ids in code:
+  531388577  in scripts/ServerScriptService/LiveServerUpdates/MainModule~2.lua
+
+Outside URLs in code:
+  http://34.194.159.134/PlayerFeedback.php  in scripts/ServerScriptService/Main.server.lua
+  http://cubic-bezier.com/  in scripts/ReplicatedStorage/Utilities/BezierCurve.lua
+  http://stackoverflow.com/questions/6954874/php-game-formula-to-calculate-a-level-based-on-exp  in scripts/ReplicatedStorage/Utilities/ExperienceCalculator.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=100&Height=100&AssetID=  in scripts/StarterGui/MainGui/Menu/Inventory/Inventory.client.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=  in scripts/ReplicatedStorage/Enums.lua, scripts/ServerScriptService/MainModule/Customization/Poster/Decal.server.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=168143658  in scripts/ReplicatedStorage/Enums.lua, scripts/ServerScriptService/GameService.server.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=168540808  in scripts/ReplicatedStorage/Enums.lua, scripts/ServerScriptService/GameService.server.lua, scripts/StarterGui/MainGui/Prompts/TutorialContainer/Tutorial/LocalTutorial.client.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=168541778  in scripts/ReplicatedStorage/Enums.lua, scripts/ServerScriptService/GameService.server.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=168541857  in scripts/ReplicatedStorage/Enums.lua, scripts/ServerScriptService/GameService.server.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=170260735  in scripts/ReplicatedStorage/Enums.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=170260912  in scripts/ReplicatedStorage/Enums.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=  in scripts/ServerScriptService/Main.server.lua, scripts/ServerStorage/CatalogCache/Spray Paint/LocalScript.client.lua, scripts/StarterGui/MainGui/Menu/Catalog/Catalog.client.lua
+  http://www.roblox.com/Thumbs/Asset.ashx?format=png&width=160&height=100&assetId=  in scripts/ServerScriptService/MainModule/Customization/Place Portal/Portal.server.lua
+  http://www.roblox.com/Thumbs/Avatar.ashx?x=250&y=250&Format=Png&userid=  in scripts/ServerScriptService/MainModule/Customization/Robloxian Poster/Robloxian.server.lua
+  http://www.roblox.com/Thumbs/Avatar.ashx?x=48&y=48&Format=Png&username=  in scripts/StarterGui/MainGui/Menu/Ratings/Ratings.client.lua
+  http://www.roblox.com/thumbs/asset.ashx?x=100&y=100&format=png&assetid=  in scripts/StarterGui/MainGui/Menu/Upgrade/Upgrade.client.lua
+  https://devforum.roblox.com/t/HD/216819  in scripts/Workspace/HD Admin/About.server.lua
+  https://gist.github.com/gre/1926947#file-keyspline-js  in scripts/ReplicatedStorage/Utilities/BezierCurve.lua

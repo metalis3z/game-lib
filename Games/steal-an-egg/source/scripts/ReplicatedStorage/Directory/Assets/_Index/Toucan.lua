@@ -1,0 +1,50 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+require(script.Parent.Parent.Types.Interface)
+
+local Default = require(script.Parent.Parent.BaseConfigs.Default)
+local Pipeline = require(ReplicatedStorage.Directory.Animations.Pipeline)
+local Rarity = require(ReplicatedStorage.Directory.Rarity)
+
+return setmetatable({
+	DisplayName = "Toucan",
+	Icon = "rbxassetid://126823938601990",
+	EarningRate = 110,
+	IndexSpeedReward = 8100,
+	DropWeight = 0.5,
+	VisualOdds = 215470.581098,
+	ModelWeight = 5,
+	Egg = {
+		DisplayName = "Toucan Egg",
+		Icon = "rbxassetid://120301498654307",
+		GrowthTime = 40,
+		WeightKg = 3
+	},
+	Animations = {
+		Idle = Pipeline:GetAndSerializeAnimation("rbxassetid://100734127569659").anim,
+		Walk = Pipeline:GetAndSerializeAnimation("rbxassetid://108989290999216").anim
+	},
+	Rarity = Rarity.Rarities.Rare,
+	BaseModelColor = Color3.fromRGB(17, 17, 17),
+	PossibleModelColors = {
+		{ Color3.fromRGB(17, 17, 17), 760 },
+		{ Color3.fromRGB(45, 45, 42), 120 },
+		{ Color3.fromRGB(245, 235, 205), 80 },
+		{ Color3.fromRGB(75, 55, 35), 40 },
+		{ Color3.fromRGB(255, 255, 255), 10 }
+	},
+	WalkSound = {
+		SoundId = 84310341547585,
+		Data = {
+			Speed = 1,
+			Volume = 1.5,
+			MaxDistance = 20,
+			Looped = true
+		}
+	}
+}, {
+	__index = Default
+})

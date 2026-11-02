@@ -1,0 +1,2 @@
+--Control!
+--Press Q to take out the black hole!

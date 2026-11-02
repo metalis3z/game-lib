@@ -1,0 +1,822 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.DoorMessage  (0 descendants)
+LocalScript "DoorMessage"  -> scripts/StarterGui/DoorMessage.client.lua
+
+==== StarterGui.MutatorGui  (5 descendants)
+ScreenGui "MutatorGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0.75,0},{0.05,0}  pos={0.5,0},{0.125,0}  anchor=(0.5,0)  nobg
+    UIListLayout "UIListLayout"  FillDirection=0  Padding={0.0125,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+    LocalScript "LocalScript"  -> scripts/StarterGui/MutatorGui/Frame/LocalScript.client.lua
+      ImageLabel "Template"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+
+==== StarterGui.TimerGui  (3 descendants)
+ScreenGui "TimerGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  TextLabel "Timer"  size={0.16,0},{0.08,0}  pos={0.5,0},{0.02,0}  anchor=(0.5,0)  nobg  text="0:00"  font=Zekton/400  scaled  tc=#ffffff
+  TextLabel "Multiplier"  size={0.0201,0},{0.0346,0}  pos={0.536,0},{0.0997,0}  anchor=(0,1)  HIDDEN  nobg  text="x2"  font=Zekton/400  scaled  tc=#ffffff
+  Script "Script"  -> scripts/StarterGui/TimerGui/Script.server.lua
+
+==== StarterGui.HeightGui  (9 descendants)
+ScreenGui "HeightGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Frame"  size={0.015,0},{0.75,0}  pos={0.975,0},{0.5,0}  anchor=(0,0.5)  bg=#a3a2a5
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+  LocalScript "LocalScript"  -> scripts/StarterGui/HeightGui/LocalScript.client.lua
+  Frame "Players"  size={0.015,0},{0.75,0}  pos={0.975,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2
+    LocalScript "LocalScript"  -> scripts/StarterGui/HeightGui/Players/LocalScript.client.lua
+      Frame "Frame"  size={2,0},{0.005,0}  pos={0,0},{1,0}  anchor=(0.5,0)  HIDDEN  bg=#ffaa7f  z=2
+        LocalScript "LocalScript"  -> scripts/StarterGui/HeightGui/Players/LocalScript/Frame/LocalScript.client.lua  [disabled]
+        ImageLabel "Thumbnail"  size={0.5,0},{12,0}  pos={0,0},{0,0}  anchor=(0,1)  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+
+==== StarterGui.MobileShiftlock  (3 descendants)
+ScreenGui "MobileShiftlock"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageButton "ImageButton"  size={0.0636,0},{0.0661,0}  pos={0.936,0},{0.904,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=182223762
+    LocalScript "ShiftGUI"  -> scripts/StarterGui/MobileShiftlock/ImageButton/ShiftGUI.client.lua
+  LocalScript "LocalScript"  -> scripts/StarterGui/MobileShiftlock/LocalScript.client.lua
+
+==== StarterGui.ShopGui  (363 descendants)
+ScreenGui "ShopGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,240},{0,288}  pos={0,-10},{0.984,13}  anchor=(1,1)  bg=#303030  z=0
+    Frame "Divider"  size={0.983,0},{0.00116,1}  pos={0,0},{0,-3}  bg=#ffffff  z=50
+      StringValue "COLORbackground"  Value="AccentColor"
+    Frame "tabs"  size={0.5,100},{0,20}  pos={0,0},{0,0}  anchor=(0,1)  bg=#303030
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      TextButton "shop"  size={0.25,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  text="Shop"  font=Zekton/400  ts=16  tc=#ffffff
+      TextButton "effects"  size={0.25,0},{1,0}  pos={-0.348,0},{0,0}  nobg  text="Effects"  font=Zekton/400  ts=16  tc=#ffffff
+      TextButton "settings"  size={0.25,0},{1,0}  pos={0.318,0},{0,0}  nobg  text="Settings"  font=Zekton/400  ts=16  tc=#ffffff
+      TextButton "credits"  size={0.25,0},{1,0}  pos={0.445,0},{5.2,0}  nobg  text="Credits"  font=Zekton/400  ts=16  tc=#ffffff
+    Frame "tabsBackground"  size={1,-20},{0,20}  pos={0,0},{0,0}  anchor=(0,1)  nobg  z=0
+      ImageLabel "corner"  size={0,22},{0,20}  pos={0.991,0},{0.567,-10}  nobg  z=0  rot=-90  img=rbxassetid://1441422992  imgcol=#303030
+    ImageButton "OpenButton"  size={0.165,0},{0.138,0}  pos={1.12,0},{0.891,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://3567831600  imgT=0.1
+      TextLabel "CashLabel"  size={3.33,0},{0.6,0}  pos={2.81,0},{0.492,0}  anchor=(0.5,0.5)  nobg  text="0"  font=Zekton/400  scaled  tc=#ffffff
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/OpenButton/CashLabel/LocalScript.client.lua
+      TextLabel "ShopLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,1)  nobg  z=2  text="Shop"  font=Zekton/400  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ScrollingFrame "ScrollingFrame"  size={0,240},{0,288}  pos={0,0},{0,0}  nobg  z=6
+      TextButton "invisible"  size={0,73},{0,87}  pos={0.347,0},{0.225,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235683
+            StringValue "COLORimage"  Value="AccentColor"
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Invisibility"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="10 R$"  font=Zekton/400  ts=14  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "Checkpoints"  size={0,73},{0,87}  pos={0.354,0},{0.323,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4858321318
+            StringValue "COLORimage"  Value="AccentColor"
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Checkpoints"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="30 R$"  font=Zekton/400  ts=14  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "Double Coins"  size={0,73},{0,87}  pos={0.671,0},{0.323,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4858321420
+            StringValue "COLORimage"  Value="AccentColor"
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Double Coins"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="25 R$"  font=Zekton/400  ts=14  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/Double Coins/LocalScript.client.lua
+      TextButton "Extra Time"  size={0,73},{0,87}  pos={0.669,0},{0.127,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        ImageLabel "Logo"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235493
+          StringValue "COLORimage"  Value="AccentColor"
+        TextLabel "Title"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Extra Time"  font=SourceSansPro/400  ts=16  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+        TextLabel "Price"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="50"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          StringValue "COLORtext"  Value=""
+      TextButton "Foggy"  size={0,73},{0,87}  pos={0.005,0},{0.127,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        ImageLabel "Logo"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4858321527
+          StringValue "COLORimage"  Value="AccentColor"
+        TextLabel "Title"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Foggy"  font=SourceSansPro/400  ts=16  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+        TextLabel "Price"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="150"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          StringValue "COLORtext"  Value=""
+      TextButton "High Speed"  size={0,73},{0,87}  pos={0.009,0},{0.03,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+        ImageLabel "Logo"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://2037779615
+        TextLabel "Title"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="High Speed"  font=SourceSansPro/400  ts=16  tc=#ffffff
+        TextLabel "Price"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="100"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "Logo"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+      TextButton "Invincibility"  size={0,73},{0,87}  pos={0.337,0},{0.03,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+        ImageLabel "Logo"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235586
+        TextLabel "Title"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Invincibility"  font=SourceSansPro/400  ts=16  tc=#ffffff
+        TextLabel "Price"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="500"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+      TextButton "Lengthen"  size={0,73},{0,87}  pos={0.002,0},{0.225,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://3063641601
+            StringValue "COLORimage"  Value="AccentColor"
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Lengthen"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="150"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "Low Gravity"  size={0,73},{0,87}  pos={0.678,0},{0.029,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+        ImageLabel "Logo"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://2037970828
+          StringValue "COLORimage"  Value="AccentColor"
+        TextLabel "Title"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Low Gravity"  font=SourceSansPro/400  ts=16  tc=#ffffff
+        TextLabel "Price"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="130"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          StringValue "COLORtext"  Value=""
+      TextButton "Negative"  size={0,73},{0,87}  pos={0.339,0},{0.12,7}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        ImageLabel "Logo"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://3063573856
+          StringValue "COLORimage"  Value="AccentColor"
+        TextLabel "Title"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Negative"  font=SourceSansPro/400  ts=16  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+        TextLabel "Price"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="150"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          StringValue "COLORtext"  Value=""
+      TextButton "bunny hop"  size={0,73},{0,87}  pos={0.021,0},{0.322,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://2037846420
+            StringValue "COLORimage"  Value="AccentColor"
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Bunny Hop"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="10 R$"  font=Zekton/400  ts=14  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "double jump"  size={0,73},{0,87}  pos={0.663,0},{0.225,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235407
+            StringValue "COLORimage"  Value="AccentColor"
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Double Jump"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="35 R$"  font=Zekton/400  ts=14  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextLabel "Title"  size={1,-16},{0,20}  pos={0,12},{0,2}  nobg  text="Mutators"  font=Zekton/400  scaled  tc=#ffffff
+      TextLabel "Title2"  size={1,-16},{0,20}  pos={0,12},{0,400}  nobg  text="Gears"  font=Zekton/400  scaled  tc=#ffffff
+      TextButton "gravitycoil"  size={0,73},{0,87}  pos={0.337,0},{0.44,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613340
+            StringValue "COLORimage"  Value=""
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Gravity Coil"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="80"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "hook"  size={0,73},{0,87}  pos={0.337,0},{0.54,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4770821165
+            StringValue "COLORimage"  Value=""
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Hook"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="80"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "hourglass"  size={0,73},{0,87}  pos={0.678,0},{0.54,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5138882718
+            StringValue "COLORimage"  Value=""
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Hourglass"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="90"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "speedcoil"  size={0,73},{0,87}  pos={0.009,0},{0.44,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613407
+            StringValue "COLORimage"  Value=""
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Speed Coil"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="60"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "trowel"  size={0,73},{0,87}  pos={0.009,0},{0.54,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613476
+            StringValue "COLORimage"  Value=""
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Trowel"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="40"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextButton "fusioncoil"  size={0,73},{0,87}  pos={0.678,0},{0.44,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613291
+            StringValue "COLORimage"  Value=""
+          TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Fusion Coil"  font=SourceSansPro/400  ts=16  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+          TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="90"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            StringValue "COLORtext"  Value=""
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/fusioncoil/LocalScript.client.lua
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextLabel "Title3"  size={1,-16},{0,20}  pos={0,12},{0,620}  nobg  text="Coins"  font=Zekton/400  scaled  tc=#ffffff
+      TextButton "10K Coins"  size={0,73},{0,87}  pos={0.173,0},{0.786,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="1600 R$"  font=Zekton/400  ts=12  tc=#00ff00
+          StringValue "COLORtext"  Value=""
+        TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="10000"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        IntValue "productId"  Value=306604229
+        ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810424124
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/10K Coins/LocalScript.client.lua
+      TextButton "200 Coins"  size={0,73},{0,87}  pos={0.173,0},{0.701,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="40 R$"  font=Zekton/400  ts=12  tc=#00ff00
+          StringValue "COLORtext"  Value=""
+        TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="200"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810381025
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        IntValue "productId"  Value=972344418
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/200 Coins/LocalScript.client.lua
+      TextButton "2K Coins"  size={0,73},{0,87}  pos={0.823,0},{0.701,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="360 R$"  font=Zekton/400  ts=12  tc=#00ff00
+          StringValue "COLORtext"  Value=""
+        TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="2000"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        IntValue "productId"  Value=306603954
+        ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810414964
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/2K Coins/LocalScript.client.lua
+      TextButton "500 Coins"  size={0,73},{0,87}  pos={0.513,0},{0.701,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="95 R$"  font=Zekton/400  ts=12  tc=#00ff00
+          StringValue "COLORtext"  Value=""
+        TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="500"  font=Zekton/400  ts=14  tc=#ffffff
+          ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+          ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+        Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+          StringValue "COLORbackground"  Value="AccentColor"
+        IntValue "productId"  Value=306603103
+        ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810392067
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/500 Coins/LocalScript.client.lua
+      TextButton "DoubleCoinsPass"  size={0,73},{0,87}  pos={0.513,0},{0.786,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          TextLabel "desc"  size={1,0},{0.6,0}  pos={0,0},{1,0}  nobg  text="Doubles your reward"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0.66,0},{1,0}  pos={0.18,0},{0,0}  nobg  img=rbxassetid://4810458626
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="600 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "nametext"  size={1,0},{0,16}  pos={0,0},{0,46}  nobg  text="Double Coins"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.975,0},{0.975,0}  anchor=(1,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+        IntValue "gamepassId"  Value=5050759
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/ScrollingFrame/DoubleCoinsPass/LocalScript.client.lua
+      TextButton "skillreset"  size={0,73},{0,87}  pos={0.823,0},{0.786,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          TextLabel "desc"  size={1,0},{0.6,0}  pos={0,0},{1,0}  nobg  text="Get your skill points back"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          ImageLabel "arrows"  size={0.66,0},{1,0}  pos={0.18,0},{0,0}  nobg  img=rbxassetid://5087824218
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="300 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "nametext"  size={1,0},{0,16}  pos={0,0},{0,46}  nobg  text="Skill Reset"  font=SourceSansPro/400  ts=14  tc=#ffffff
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.975,0},{0.975,0}  anchor=(1,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          ImageLabel "gear"  size={0.66,0},{1,0}  pos={0.18,0},{0,0}  nobg  img=rbxassetid://5087824458
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            StringValue "COLORimage"  Value="AccentColor"
+        IntValue "productId"  Value=966732462
+        Frame "Blur"  size={0,100},{0,100}  pos={0.0504,0},{0.00311,0}  bg=#9e9e9e@0.25
+      TextLabel "Title4"  size={1,-16},{0,20}  pos={0,7},{0,816}  nobg  text="Membership"  font=Zekton/400  scaled  tc=#ffffff
+      TextLabel "desc"  size={0.745,-32},{-0.03,1}  pos={0,12},{0,860}  nobg  text="Get exclusive benefits like"  font=Zekton/400  scaled  tc=#ffffff
+        StringValue "COLORtext"  Value="TextColor"
+      Frame "benefits"  size={0.628,-40},{0.864,76}  pos={0,17},{0,851}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        TextLabel "items"  size={1,0},{0,16}  pos={0,32},{0,74}  nobg  text="Access to all Mutators with coins"  font=Zekton/400  ts=12  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+          Frame "Frame"  size={0,2},{0,2}  pos={0,-6},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        TextLabel "effect"  size={1,0},{0,16}  pos={0,-22},{0,-31}  nobg  text="Two exclusive crowns"  font=Zekton/400  ts=12  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+          Frame "Frame"  size={0,2},{0,2}  pos={0,-6},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        TextLabel "tags"  size={1,0},{0,16}  pos={0,32},{0,74}  nobg  text="Exclusive Member title"  font=Zekton/400  ts=12  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+          Frame "Frame"  size={0,2},{0,2}  pos={0,-6},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        TextLabel "daily"  size={1,0},{0,16}  pos={0,23},{0,39}  nobg  text="500 daily coins"  font=Zekton/400  ts=12  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+          Frame "Frame"  size={0,2},{0,2}  pos={0,-6},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+      TextButton "998414382"  size={0,73},{0,87}  pos={0.009,0},{0.933,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        TextLabel "length"  size={0.85,0},{0,14}  pos={0.075,0},{0,46}  nobg  text="One Week"  font=Zekton/400  ts=12  tc=#646464
+          ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+        ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  z=2  img=rbxassetid://5151623472  imgcol=#1e1e1e
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        IntValue "productId"  Value=972344418
+        ImageLabel "ImageLabelBack"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5151622718  imgcol=#1e1e1e
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          StringValue "COLORimage"  Value="AccentColor"
+      TextButton "998861127"  size={0,73},{0,87}  pos={0.319,0},{0.933,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+        TextLabel "length"  size={0.85,0},{0,14}  pos={0.075,0},{0,46}  nobg  text="One Month"  font=Zekton/400  ts=12  tc=#646464
+          ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+        ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  z=2  img=rbxassetid://5152710338  imgcol=#1e1e1e
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        IntValue "productId"  Value=972344418
+        ImageLabel "ImageLabelBack"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5152710246  imgcol=#1e1e1e
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          StringValue "COLORimage"  Value="AccentColor"
+      TextLabel "Unavailable"  size={1,0},{0,164}  pos={0,-2},{0,819}  bg=#303030@0.25  text="Not available. Get it in the real ToH instead."  font=Zekton/400  ts=18  tc=#ffffff
+        StringValue "COLORbackground"  Value="BackgroundColor"
+    TextButton "ShopButton"  size={0,84},{0,25}  pos={0.141,0},{0.0345,0}  anchor=(0.5,0.5)  nobg  text=""  font=Zekton/400  ts=28  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/Frame/LocalScript.client.lua
+  UIScale "UIScale"  Scale=1.5
+
+==== ServerScriptService.StatChanger.StatChanger  (12 descendants)
+ScreenGui "StatChanger"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "Handler"  -> scripts/ServerScriptService/StatChanger/StatChanger/Handler.client.lua
+  ImageButton "Toggle"  size={0,46},{0,45}  pos={0.961,0},{0.918,0}  nobg  img=rbxassetid://2790390993  imgcol=#232323
+    ImageLabel "ImageLabel"  size={0,39},{0,35}  pos={0.0652,0},{0.111,0}  nobg  img=http://www.roblox.com/asset/?id=5469163400
+  ImageLabel "UI"  size={0.166,24},{0.545,24}  pos={0.5,0},{0.515,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://3570695787  imgcol=#1e1e1e
+    ScrollingFrame "UI"  size={1,0},{0.865,0}  pos={0,0},{0.0992,0}  bg=#1e1e1e
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,3}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+    TextLabel "TextLabel"  size={1.06,0},{0.0841,0}  pos={-0.0279,0},{0.0152,0}  nobg  text="Stats"  font=LuckiestGuy/400  scaled  tc=#ffffff
+  ImageLabel "Template"  size={0.974,0},{0.122,0}  pos={0.00878,0},{0.109,0}  HIDDEN  nobg  img=rbxassetid://3570695787  imgcol=#2a2a2a
+    TextLabel "Title"  size={1,0},{0.292,0}  pos={0,0},{0,0}  nobg  text="Cash "  font=Jura/400  scaled  tc=#ffffff
+    TextBox "Stat"  size={0.45,0},{0.5,0}  pos={0.027,0},{0.384,0}  bg=#000000@0.8  text="45"  font=Jura/400  ts=14  tc=#ffffff
+    TextButton "Submit"  size={0.45,0},{0.5,0}  pos={0.524,0},{0.384,0}  bg=#000000@0.8  text="Proceed →"  font=Jura/400  ts=14  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/StatChanger/StatChanger/Template/LocalScript.client.lua
+
+==== ServerStorage.UsedGuis.ShopGui  (402 descendants)
+ScreenGui "ShopGui"  Enabled=False  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0,240},{0,288}  pos={0.012,229},{0.984,13}  anchor=(1,1)  bg=#303030  z=0
+    Frame "Split"  size={0.983,0},{0.00116,1}  pos={0,0},{0,-3}  bg=#ffffff  z=50
+      StringValue "COLORbackground"  Value="AccentColor"
+    Frame "tabs"  size={0.5,100},{0,20}  pos={0,0},{0,0}  anchor=(0,1)  bg=#303030
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      TextButton "credits"  size={0.25,0},{1,0}  pos={0.445,0},{5.2,0}  nobg  text="Credits"  font=Zekton/400  ts=16  tc=#ffffff
+      TextButton "effects"  size={0.25,0},{1,0}  pos={-0.348,0},{0,0}  nobg  text="Effects"  font=Zekton/400  ts=16  tc=#ffffff
+      TextButton "shop"  size={0.25,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  text="Shop"  font=Zekton/400  ts=16  tc=#ffffff
+      TextButton "settings"  size={0.25,0},{1,0}  pos={0.318,0},{0,0}  nobg  text="Settings"  font=Zekton/400  ts=16  tc=#ffffff
+    Frame "tabsBackground"  size={1,-20},{0,20}  pos={0,0},{0,0}  anchor=(0,1)  nobg  z=0
+      ImageLabel "corner"  size={0,22},{0,20}  pos={0.991,0},{0.567,-10}  nobg  z=0  rot=-90  img=rbxassetid://1441422992  imgcol=#303030
+    LocalScript "LocalScript"  -> scripts/ServerStorage/UsedGuis/ShopGui/Frame/LocalScript.client.lua
+    ImageButton "OpenButton"  size={0.165,0},{0.138,0}  pos={1.16,0},{0.875,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://3567831600  imgT=0.1
+      TextLabel "CashLabel"  size={3.33,0},{0.6,0}  pos={2.81,0},{0.492,0}  anchor=(0.5,0.5)  nobg  text="0"  font=Zekton/400  scaled  tc=#ffffff
+        LocalScript "LocalScript"  -> scripts/ServerStorage/UsedGuis/ShopGui/Frame/OpenButton/CashLabel/LocalScript.client.lua
+      TextLabel "ShopLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,1)  nobg  z=2  text="Shop"  font=Zekton/400  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ScrollingFrame "ScrollingFrame"  size={0,240},{0,288}  pos={0,0},{0,0}  nobg  z=6
+      Frame "gears"  size={1,0},{0.733,0}  pos={0,0},{0,0}  nobg  z=0
+        UIGridLayout "UIGridLayout"  CellSize={0,76},{0,86}  CellPadding={0,3},{0,3}  FillDirectionMaxCells=0
+        TextButton "speedcoil"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613407
+              StringValue "COLORimage"  Value=""
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Speed Coil"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="60"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "gravitycoil"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613340
+              StringValue "COLORimage"  Value=""
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Gravity Coil"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="80"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "fusioncoil"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613291
+              StringValue "COLORimage"  Value=""
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Fusion Coil"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="90"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "trowel"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4709613476
+              StringValue "COLORimage"  Value=""
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Trowel"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="40"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "hook"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4770821165
+              StringValue "COLORimage"  Value=""
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Hook"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="80"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "hourglass"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5138882718
+              StringValue "COLORimage"  Value=""
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Hourglass"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="90"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+      Frame "gearsLabel"  size={1,0},{0,24}  pos={0,0},{0,0}  nobg  z=0
+        TextLabel "text"  size={1,-16},{0,20}  pos={0,12},{0,2}  nobg  text="Gears"  font=Zekton/400  scaled  tc=#ffffff
+        Frame "Frame"  size={0,96},{0,1}  pos={0,12},{0,22}  HIDDEN  bg=#ffffff
+      Frame "mutatorsLabel"  size={1,0},{0,24}  pos={0,0},{0,0}  nobg  z=0
+        TextLabel "text"  size={1,-16},{0,20}  pos={0,12},{0,2}  nobg  text="Mutators"  font=Zekton/400  scaled  tc=#ffffff
+        Frame "Frame"  size={0,96},{0,1}  pos={0,12},{0,22}  HIDDEN  bg=#ffffff
+      Frame "mutators"  size={1,0},{1.47,0}  pos={0,0},{0,0}  nobg  z=0
+        TextButton "double jump"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235407
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Double Jump"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="35 R$"  font=Zekton/400  ts=14  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Checkpoints"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4858321318
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Checkpoints"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="30 R$"  font=Zekton/400  ts=14  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Double Coins"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4858321420
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Double Coins"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="25 R$"  font=Zekton/400  ts=14  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Extra Time"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235493
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Extra Time"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="50"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Lengthen"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://3063641601
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Lengthen"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="150"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Negative"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://3063573856
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Negative"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="150"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Fog"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4858321527
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Foggy"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="150"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "LowGravity"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://2037970828
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Low Gravity"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="130"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "Invincibility"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235586
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Invincibility"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="500"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "HighSpeed"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://2037779615
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="High Speed"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "yxles"  size={0,54},{0,14}  pos={0,0},{0,64}  nobg  text="100"  font=Zekton/400  ts=14  tc=#ffffff
+              ImageLabel "yxle"  size={0,16},{0,16}  pos={1.02,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+          LocalScript "LocalScript"  -> scripts/ServerStorage/UsedGuis/ShopGui/Frame/ScrollingFrame/mutators/HighSpeed/LocalScript.client.lua
+        TextButton "bunny hop"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://2037846420
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Bunny Hop"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="10 R$"  font=Zekton/400  ts=14  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+        TextButton "invisible"  size={0,50},{0,58}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5569235683
+              StringValue "COLORimage"  Value="AccentColor"
+            TextLabel "nametext"  size={1.2,0},{0,32}  pos={-0.1,0},{0,30}  nobg  text="Invisibility"  font=SourceSansPro/400  ts=16  tc=#ffffff
+              StringValue "COLORtext"  Value="TextColor"
+            TextLabel "desc"  size={0.95,0},{0.56,0}  pos={0.025,0},{1,0}  nobg  text="Combines the effect of Speed and Gravity Coil"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.025,0},{0.975,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "activated"  size={0,12},{0,12}  pos={0.05,0},{0.8,0}  HIDDEN  nobg  img=rbxassetid://4820921034
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+            TextLabel "robux"  size={0,54},{0,14}  pos={0,19},{0,64}  nobg  text="10 R$"  font=Zekton/400  ts=14  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+        UIGridLayout "UIGridLayout"  CellSize={0,76},{0,86}  CellPadding={0,3},{0,3}  FillDirectionMaxCells=0
+      Frame "coinsLabel"  size={1,0},{0,24}  pos={0,0},{0,0}  nobg  z=0
+        TextLabel "text"  size={1,-16},{0,20}  pos={0,12},{0,2}  nobg  text="Coins"  font=Zekton/400  scaled  tc=#ffffff
+        Frame "Frame"  size={0,96},{0,1}  pos={0,12},{0,22}  HIDDEN  bg=#ffffff
+      Frame "coins"  size={1,0},{0.733,0}  pos={0,0},{0,0}  nobg  z=0
+        UIGridLayout "UIGridLayout"  CellSize={0,76},{0,86}  CellPadding={0,3},{0,3}  FillDirectionMaxCells=0
+        LocalScript "coins"  -> scripts/ServerStorage/UsedGuis/ShopGui/Frame/ScrollingFrame/coins/coins.client.lua
+        TextButton "200 Coins"  size={0.4,0},{0.5,0}  pos={0.25,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="40 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="200"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810381025
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          IntValue "productId"  Value=972344418
+        TextButton "500 Coins"  size={0.4,0},{0.5,0}  pos={0.75,0},{0.25,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="95 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="500"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          IntValue "productId"  Value=306603103
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810392067
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextButton "2K Coins"  size={0.4,0},{0.5,0}  pos={0.25,0},{0.75,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="360 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="2000"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          IntValue "productId"  Value=306603954
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810414964
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextButton "double"  size={0.4,0},{0.5,0}  pos={0.75,0},{0.75,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            TextLabel "desc"  size={1,0},{0.6,0}  pos={0,0},{1,0}  nobg  text="Doubles your reward"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0.66,0},{1,0}  pos={0.18,0},{0,0}  nobg  img=rbxassetid://4810458626
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="600 R$"  font=Zekton/400  ts=12  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+            TextLabel "nametext"  size={1,0},{0,16}  pos={0,0},{0,46}  nobg  text="Double Coins"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.975,0},{0.975,0}  anchor=(1,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+          IntValue "gamepassId"  Value=5050759
+        TextButton "10K Coins"  size={0.4,0},{0.5,0}  pos={0.25,0},{0.75,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="1600 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "yxles"  size={0.75,0},{0,14}  pos={0,0},{0,46}  nobg  text="10000"  font=Zekton/400  ts=14  tc=#ffffff
+            ImageLabel "yxle"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  nobg  img=rbxassetid://3567831600
+            ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          IntValue "productId"  Value=306604229
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://4810424124
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextButton "skillreset"  size={0.4,0},{0.5,0}  pos={0.75,0},{0.75,0}  anchor=(0.5,0.5)  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          Frame "info"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            TextLabel "desc"  size={1,0},{0.6,0}  pos={0,0},{1,0}  nobg  text="Get your skill points back"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            ImageLabel "arrows"  size={0.66,0},{1,0}  pos={0.18,0},{0,0}  nobg  img=rbxassetid://5087824218
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="300 R$"  font=Zekton/400  ts=12  tc=#00ff00
+              StringValue "COLORtext"  Value=""
+            TextLabel "nametext"  size={1,0},{0,16}  pos={0,0},{0,46}  nobg  text="Skill Reset"  font=SourceSansPro/400  ts=14  tc=#ffffff
+            Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+              StringValue "COLORbackground"  Value="AccentColor"
+            ImageLabel "xbox"  size={0.2,0},{0.2,0}  pos={0.975,0},{0.975,0}  anchor=(1,1)  HIDDEN  nobg  img=rbxassetid://2113506560
+            ImageLabel "gear"  size={0.66,0},{1,0}  pos={0.18,0},{0,0}  nobg  img=rbxassetid://5087824458
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              StringValue "COLORimage"  Value="AccentColor"
+          IntValue "productId"  Value=966732462
+      Frame "membershipLabel"  size={1,0},{0,126}  pos={0,0},{0,0}  nobg  z=0
+        TextLabel "text"  size={1,-16},{0,20}  pos={0,12},{0,2}  nobg  text="Membership"  font=Zekton/400  scaled  tc=#ffffff
+        Frame "Frame"  size={0,96},{0,1}  pos={0,12},{0,22}  HIDDEN  bg=#ffffff
+        Frame "benefits"  size={1,-40},{0,76}  pos={0,20},{0,42}  nobg
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          TextLabel "items"  size={1,0},{0,16}  pos={0,16},{0,0}  nobg  text="Access to all Mutators with coins"  font=Zekton/400  ts=12  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+            Frame "Frame"  size={0,2},{0,2}  pos={0,-8},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+          TextLabel "effect"  size={1,0},{0,16}  pos={0,16},{0,0}  nobg  text="Two exclusive crowns"  font=Zekton/400  ts=12  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+            Frame "Frame"  size={0,2},{0,2}  pos={0,-8},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+          TextLabel "tags"  size={1,0},{0,16}  pos={0,16},{0,0}  nobg  text="Exclusive Member title"  font=Zekton/400  ts=12  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+            Frame "Frame"  size={0,2},{0,2}  pos={0,-8},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+          TextLabel "daily"  size={1,0},{0,16}  pos={0,16},{0,0}  nobg  text="500 daily coins"  font=Zekton/400  ts=12  tc=#ffffff
+            StringValue "COLORtext"  Value="TextColor"
+            Frame "Frame"  size={0,2},{0,2}  pos={0,-8},{0.5,0}  anchor=(0,0.5)  bg=#ffffff
+        TextLabel "desc"  size={1,-32},{0,16}  pos={0,16},{0,26}  nobg  text="Get exclusive benefits like"  font=Zekton/400  ts=14  tc=#ffffff
+          StringValue "COLORtext"  Value="TextColor"
+      Frame "membership"  size={1,0},{0.733,0}  pos={0,0},{0,0}  nobg  z=0
+        UIGridLayout "UIGridLayout"  CellSize={0,76},{0,86}  CellPadding={0,3},{0,3}  FillDirectionMaxCells=0
+        TextButton "998414382"  size={80,0},{80,0}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="100 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "length"  size={0.85,0},{0,14}  pos={0.075,0},{0,46}  nobg  text="One Week"  font=Zekton/400  ts=12  tc=#ffffff
+            ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  z=2  img=rbxassetid://5151623472
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          IntValue "productId"  Value=972344418
+          ImageLabel "ImageLabelBack"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5151622718
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            StringValue "COLORimage"  Value="AccentColor"
+        TextButton "998861127"  size={80,0},{80,0}  pos={0,0},{0,0}  nobg  z=5  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+          TextLabel "price"  size={0.7,0},{0.14,0}  pos={0,8},{0,66}  nobg  text="375 R$"  font=Zekton/400  ts=12  tc=#00ff00
+            StringValue "COLORtext"  Value=""
+          TextLabel "length"  size={0.85,0},{0,14}  pos={0.075,0},{0,46}  nobg  text="One Month"  font=Zekton/400  ts=12  tc=#ffffff
+            ImageLabel "box"  size={0,18},{0,18}  pos={1,2},{0.45,0}  anchor=(0,0.5)  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=2113506560
+          Frame "Frame"  size={0.8,0},{0,1}  pos={0.1,0},{0,62}  bg=#f0f0f0
+            StringValue "COLORbackground"  Value="AccentColor"
+          ImageLabel "ImageLabel"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  z=2  img=rbxassetid://5152710338
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          IntValue "productId"  Value=972344418
+          ImageLabel "ImageLabelBack"  size={0,46},{0,46}  pos={0,15},{0,0}  nobg  img=rbxassetid://5152710246
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            StringValue "COLORimage"  Value="AccentColor"
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+  UIScale "UIScale"  Scale=1.5

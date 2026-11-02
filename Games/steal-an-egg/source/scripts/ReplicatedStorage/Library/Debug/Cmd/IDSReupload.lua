@@ -1,0 +1,4 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+return { 86276843966778, 106118773587652, 72819921043071, 133422374459463, 80254440617270, 137152617410120 }

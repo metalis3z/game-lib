@@ -1,0 +1,78 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== UNGROUP ME - Trade System.UNGROUP ME ON STARTER GUI.TradeGui  (74 descendants)
+ScreenGui "TradeGui"  Enabled=True  DisplayOrder=25  ResetOnSpawn=False  ZIndexBehavior=0
+  ImageButton "OpenTradeButton"  size={0,90},{0,90}  pos={0,20},{1,-240}  anchor=(0,1)  bg=#1e1e28  img=rbxassetid://0
+    UICorner "UICorner"
+    TextLabel "Label"  size={1,0},{0.3,0}  pos={0,0},{1,-22}  nobg  text="Trade"  font=GothamSSm/700  scaled  tc=#ffffff
+  Frame "SearchFrame"  size={0,420},{0,520}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#181820
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=2  Color=#5ac8ff  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Title"  size={1,-60},{0,50}  pos={0,20},{0,10}  nobg  text="Search Player"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextButton "CloseButton"  size={0,36},{0,36}  pos={1,-14},{0,14}  anchor=(1,0)  bg=#c83232  text="X"  font=GothamSSm/700  scaled  tc=#ffffff
+      UICorner "UICorner"
+    TextBox "SearchBox"  size={1,-40},{0,46}  pos={0,20},{0,70}  bg=#282834  text=""  font=GothamSSm/400  scaled  tc=#ffffff
+      UICorner "UICorner"
+      UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0,12}  PaddingRight={0,12}
+    ScrollingFrame "ResultsList"  size={1,-40},{1,-148}  pos={0,20},{0,128}  bg=#121218
+      UICorner "UICorner"
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,6}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      UIPadding "UIPadding"  PaddingTop={0,8}  PaddingBottom={0,0}  PaddingLeft={0,8}  PaddingRight={0,8}
+      Frame "PlayerRowTemplate"  size={1,0},{0,56}  pos={0,0},{0,0}  HIDDEN  bg=#20202a
+        UICorner "UICorner"
+        Frame "OnlineDot"  size={0,14},{0,14}  pos={0,12},{0.5,0}  anchor=(0,0.5)  bg=#50dc64
+          UICorner "UICorner"
+        TextLabel "NameLabel"  size={1,-140},{1,0}  pos={0,36},{0,0}  nobg  text="PlayerName"  font=GothamSSm/700  scaled  tc=#ffffff
+          UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=20  MinTextSize=1
+        TextButton "SendTradeButton"  size={0,92},{0,40}  pos={1,-10},{0.5,0}  anchor=(1,0.5)  bg=#50aaff  text="Trade"  font=GothamSSm/700  scaled  tc=#ffffff
+          UICorner "UICorner"
+      TextLabel "EmptyLabel"  size={1,-16},{0,60}  pos={0,8},{0,8}  HIDDEN  nobg  text="No hay otros jugadores en este servidor"  font=GothamSSm/400  scaled  tc=#a0a0aa
+  Frame "RequestPopup"  size={0,380},{0,120}  pos={0.5,0},{0.08,0}  anchor=(0.5,0)  HIDDEN  bg=#181820
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=2  Color=#ffd23c  Transparency=0  ApplyStrokeMode=0
+    TextLabel "MessageLabel"  size={1,-28},{0,50}  pos={0,14},{0,10}  nobg  text="PlayerName Have trade whith you"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextButton "AcceptButton"  size={0.5,-21},{0,36}  pos={0,14},{1,-46}  bg=#46c864  text="Accept"  font=GothamSSm/700  scaled  tc=#ffffff
+      UICorner "UICorner"
+    TextButton "DeclineButton"  size={0.5,-21},{0,36}  pos={0.5,7},{1,-46}  bg=#c83c3c  text="Decline"  font=GothamSSm/700  scaled  tc=#ffffff
+      UICorner "UICorner"
+  Frame "TradeWindow"  size={0,900},{0,560}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#16161e
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=2  Color=#78beff  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TitleLabel"  size={1,-80},{0,34}  pos={0,24},{0,12}  nobg  text="Trading with: PlayerName"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextButton "CloseButton"  size={0,36},{0,36}  pos={1,-14},{0,12}  anchor=(1,0)  bg=#c83232  text="X"  font=GothamSSm/700  scaled  tc=#ffffff
+      UICorner "UICorner"
+    Frame "YourOfferPanel"  size={0.32,-12},{0,220}  pos={0.01,0},{0,56}  bg=#1e1e28
+      UICorner "UICorner"
+      TextLabel "PanelTitle"  size={1,-20},{0,26}  pos={0,10},{0,6}  nobg  text="Your Offer"  font=GothamSSm/700  scaled  tc=#78dc8c
+      ScrollingFrame "ItemsGrid"  size={1,-16},{1,-44}  pos={0,8},{0,36}  bg=#121218
+        UICorner "UICorner"
+        UIGridLayout "UIGridLayout"  CellSize={0,60},{0,60}  CellPadding={0,6},{0,6}  FillDirectionMaxCells=0
+        UIPadding "UIPadding"  PaddingTop={0,6}  PaddingBottom={0,0}  PaddingLeft={0,6}  PaddingRight={0,0}
+    Frame "TheirOfferPanel"  size={0.32,-12},{0,220}  pos={0.345,0},{0,56}  bg=#1e1e28
+      UICorner "UICorner"
+      TextLabel "PanelTitle"  size={1,-20},{0,26}  pos={0,10},{0,6}  nobg  text="their offer"  font=GothamSSm/700  scaled  tc=#ffb464
+      ScrollingFrame "ItemsGrid"  size={1,-16},{1,-44}  pos={0,8},{0,36}  bg=#121218
+        UICorner "UICorner"
+        UIGridLayout "UIGridLayout"  CellSize={0,60},{0,60}  CellPadding={0,6},{0,6}  FillDirectionMaxCells=0
+        UIPadding "UIPadding"  PaddingTop={0,6}  PaddingBottom={0,0}  PaddingLeft={0,6}  PaddingRight={0,0}
+    Frame "StatusPanel"  size={0.32,0},{0,220}  pos={0.68,0},{0,56}  bg=#1e1e28
+      UICorner "UICorner"
+      TextLabel "StatusLabel"  size={1,-20},{0,80}  pos={0,10},{0,10}  nobg  text="Waiting..."  font=GothamSSm/400  scaled  tc=#dcdcdc
+      TextButton "ReadyButton"  size={1,-20},{0,42}  pos={0,10},{1,-100}  bg=#46c864  text="READY"  font=GothamSSm/700  scaled  tc=#ffffff
+        UICorner "UICorner"
+      TextButton "CancelButton"  size={1,-20},{0,42}  pos={0,10},{1,-50}  bg=#c83c3c  text="CANCEL"  font=GothamSSm/700  scaled  tc=#ffffff
+        UICorner "UICorner"
+    Frame "InventoryPanel"  size={0.98,0},{1,-300}  pos={0.01,0},{0,288}  bg=#1e1e28
+      UICorner "UICorner"
+      TextLabel "PanelTitle"  size={1,-20},{0,26}  pos={0,10},{0,6}  nobg  text="Your inventory (click to add to the offer)"  font=GothamSSm/700  scaled  tc=#c8c8ff
+      ScrollingFrame "ItemsGrid"  size={1,-16},{1,-44}  pos={0,8},{0,36}  bg=#121218
+        UICorner "UICorner"
+        UIGridLayout "UIGridLayout"  CellSize={0,64},{0,64}  CellPadding={0,6},{0,6}  FillDirectionMaxCells=0
+        UIPadding "UIPadding"  PaddingTop={0,6}  PaddingBottom={0,0}  PaddingLeft={0,6}  PaddingRight={0,0}
+  Folder "Templates"
+    ImageButton "ItemSlotTemplate"  size={0,60},{0,60}  pos={0,0},{0,0}  HIDDEN  bg=#282834
+      UICorner "UICorner"
+      UIStroke "RarityStroke"  Thickness=2  Color=#969696  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Icon"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      TextLabel "CountLabel"  size={0,26},{0,18}  pos={1,-2},{1,-2}  anchor=(1,1)  bg=#000000@0.3  text="x1"  font=GothamSSm/700  scaled  tc=#ffffff
+        UICorner "UICorner"

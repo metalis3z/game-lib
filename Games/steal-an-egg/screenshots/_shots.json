@@ -1,0 +1,624 @@
+{
+ "viewport": "1215.19995, 708.799988",
+ "slug": "steal-an-egg",
+ "shots": [
+  {
+   "panel": "",
+   "file": "01_InventoryTemplate",
+   "template": true,
+   "gui": "InventoryTemplate"
+  },
+  {
+   "panel": "",
+   "file": "02_Data",
+   "template": true,
+   "gui": "Data"
+  },
+  {
+   "panel": "Data.BottomRight.Composition",
+   "file": "03_Data__Composition",
+   "gui": "Data"
+  },
+  {
+   "panel": "RoundChoices.EscapeAndKeep",
+   "file": "04_RoundChoices__EscapeAndKeep",
+   "gui": "RoundChoices"
+  },
+  {
+   "panel": "",
+   "file": "05_HotbarTemplate",
+   "template": true,
+   "gui": "HotbarTemplate"
+  },
+  {
+   "panel": "",
+   "file": "06_AreaGui",
+   "template": false,
+   "gui": "AreaGui"
+  },
+  {
+   "panel": "",
+   "file": "07_AssetHoverData",
+   "template": false,
+   "gui": "AssetHoverData"
+  },
+  {
+   "panel": "",
+   "file": "08_AutoSell",
+   "template": false,
+   "gui": "AutoSell"
+  },
+  {
+   "panel": "Backpack",
+   "file": "09_BackpackGui__Backpack",
+   "gui": "BackpackGui"
+  },
+  {
+   "panel": "",
+   "file": "10_BottomUI",
+   "template": false,
+   "gui": "BottomUI"
+  },
+  {
+   "panel": "",
+   "file": "11_Codes",
+   "template": false,
+   "gui": "Codes"
+  },
+  {
+   "panel": "",
+   "file": "12_DistanceProgression",
+   "template": false,
+   "gui": "DistanceProgression"
+  },
+  {
+   "panel": "",
+   "file": "13_DropHeldEgg",
+   "template": false,
+   "gui": "DropHeldEgg"
+  },
+  {
+   "panel": "",
+   "file": "14_Elements2",
+   "template": false,
+   "gui": "Elements2"
+  },
+  {
+   "panel": "RightFrame",
+   "file": "15_Elements2__RightFrame",
+   "gui": "Elements2"
+  },
+  {
+   "panel": "",
+   "file": "16_FreeGifts",
+   "template": false,
+   "gui": "FreeGifts"
+  },
+  {
+   "panel": "",
+   "file": "17_FuseMachine",
+   "template": false,
+   "gui": "FuseMachine"
+  },
+  {
+   "panel": "Main.FuseMachine.BackpackScrollingFrameContainer",
+   "file": "18_FuseMachine__BackpackScrollingFrameContainer",
+   "gui": "FuseMachine"
+  },
+  {
+   "panel": "",
+   "file": "19_GameResetTimer",
+   "template": false,
+   "gui": "GameResetTimer"
+  },
+  {
+   "panel": "",
+   "file": "20_GearShop",
+   "template": false,
+   "gui": "GearShop"
+  },
+  {
+   "panel": "",
+   "file": "21_GetMoreSpeedOnHit",
+   "template": false,
+   "gui": "GetMoreSpeedOnHit"
+  },
+  {
+   "panel": "",
+   "file": "22_GroupReward",
+   "template": false,
+   "gui": "GroupReward"
+  },
+  {
+   "panel": "",
+   "file": "23_GrowingEggList",
+   "template": false,
+   "gui": "GrowingEggList"
+  },
+  {
+   "panel": "",
+   "file": "24_Index",
+   "template": false,
+   "gui": "Index"
+  },
+  {
+   "panel": "",
+   "file": "25_LimitedStarterPackOffer",
+   "template": false,
+   "gui": "LimitedStarterPackOffer"
+  },
+  {
+   "panel": "",
+   "file": "26_Message",
+   "template": false,
+   "gui": "Message"
+  },
+  {
+   "panel": "",
+   "file": "27_Money",
+   "template": false,
+   "gui": "Money"
+  },
+  {
+   "panel": "Bottom.Frame.BoostsList.Luck.LuckHoverInfo",
+   "file": "28_Money__LuckHoverInfo",
+   "gui": "Money"
+  },
+  {
+   "panel": "Top",
+   "file": "29_Notifications__Top",
+   "gui": "Notifications"
+  },
+  {
+   "panel": "",
+   "file": "30_Odds_UI",
+   "template": false,
+   "gui": "Odds_UI"
+  },
+  {
+   "panel": "",
+   "file": "31_OfflineCashAndAssetLevelGrew",
+   "template": false,
+   "gui": "OfflineCashAndAssetLevelGrew"
+  },
+  {
+   "panel": "Frame.AssetsLevelGrowth.ScrollingFrame.Template",
+   "file": "32_OfflineCashAndAssetLevelGrew__Template",
+   "gui": "OfflineCashAndAssetLevelGrew"
+  },
+  {
+   "panel": "",
+   "file": "33_OfflineCashOnly",
+   "template": false,
+   "gui": "OfflineCashOnly"
+  },
+  {
+   "panel": "",
+   "file": "34_PetList",
+   "template": false,
+   "gui": "PetList"
+  },
+  {
+   "panel": "",
+   "file": "35_Rebirth",
+   "template": false,
+   "gui": "Rebirth"
+  },
+  {
+   "panel": "Rebirth.Content.Holder.HolderImage.RequiredCharacters",
+   "file": "36_Rebirth__RequiredCharacters",
+   "gui": "Rebirth"
+  },
+  {
+   "panel": "",
+   "file": "37_RunBackEffects",
+   "template": false,
+   "gui": "RunBackEffects"
+  },
+  {
+   "panel": "",
+   "file": "38_RunButton",
+   "template": false,
+   "gui": "RunButton"
+  },
+  {
+   "panel": "",
+   "file": "39_RunCharge",
+   "template": false,
+   "gui": "RunCharge"
+  },
+  {
+   "panel": "",
+   "file": "40_Settings",
+   "template": false,
+   "gui": "Settings"
+  },
+  {
+   "panel": "",
+   "file": "41_Shop",
+   "template": false,
+   "gui": "Shop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.StarterPack",
+   "file": "42_Shop__StarterPack",
+   "gui": "Shop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.SecretStarterPack",
+   "file": "43_Shop__SecretStarterPack",
+   "gui": "Shop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.LimitedStarterPack",
+   "file": "44_Shop__LimitedStarterPack",
+   "gui": "Shop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.ServerLuck",
+   "file": "45_Shop__ServerLuck",
+   "gui": "Shop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.TemporarySpeedBoosts",
+   "file": "46_Shop__TemporarySpeedBoosts",
+   "gui": "Shop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.DoubleYourSpeed",
+   "file": "47_Shop__DoubleYourSpeed",
+   "gui": "Shop"
+  },
+  {
+   "panel": "Gift",
+   "file": "48_Shop__Gift",
+   "gui": "Shop"
+  },
+  {
+   "panel": "",
+   "file": "49_StealDnaMessage",
+   "template": false,
+   "gui": "StealDnaMessage"
+  },
+  {
+   "panel": "Frame.Top",
+   "file": "50_StealDnaMessage__Top",
+   "gui": "StealDnaMessage"
+  },
+  {
+   "panel": "",
+   "file": "51_TradeMessage",
+   "template": false,
+   "gui": "TradeMessage"
+  },
+  {
+   "panel": "",
+   "file": "52_TradePlayerList",
+   "template": false,
+   "gui": "TradePlayerList"
+  },
+  {
+   "panel": "",
+   "file": "53_TradeWindow",
+   "template": false,
+   "gui": "TradeWindow"
+  },
+  {
+   "panel": "Frame.ChatOverlay",
+   "file": "54_TradeWindow__ChatOverlay",
+   "gui": "TradeWindow"
+  },
+  {
+   "panel": "",
+   "file": "55_TrailShop",
+   "template": false,
+   "gui": "TrailShop"
+  },
+  {
+   "panel": "Frame",
+   "file": "56_TreadmillClickX2__Frame",
+   "gui": "TreadmillClickX2"
+  },
+  {
+   "panel": "",
+   "file": "57_TreadmillShop",
+   "template": false,
+   "gui": "TreadmillShop"
+  },
+  {
+   "panel": "",
+   "file": "58_TreadmillSpeedShop",
+   "template": false,
+   "gui": "TreadmillSpeedShop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.SpeedTop_oldtimer.1",
+   "file": "59_TreadmillSpeedShop__1",
+   "gui": "TreadmillSpeedShop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.SpeedTop_oldtimer.2",
+   "file": "60_TreadmillSpeedShop__2",
+   "gui": "TreadmillSpeedShop"
+  },
+  {
+   "panel": "Frame.Main.ScrollingFrame.UpgradeTreadmill.Pack.Multiplier",
+   "file": "61_TreadmillSpeedShop__Multiplier",
+   "gui": "TreadmillSpeedShop"
+  },
+  {
+   "panel": "Gift",
+   "file": "62_TreadmillSpeedShop__Gift",
+   "gui": "TreadmillSpeedShop"
+  },
+  {
+   "panel": "",
+   "file": "63_TutorialInstructions",
+   "template": false,
+   "gui": "TutorialInstructions"
+  },
+  {
+   "panel": "Vignette",
+   "file": "64_Vignette__Vignette",
+   "gui": "Vignette"
+  },
+  {
+   "panel": "",
+   "file": "65__MACHINES",
+   "template": false,
+   "gui": "_MACHINES"
+  },
+  {
+   "panel": "",
+   "file": "66__MISC",
+   "template": false,
+   "gui": "_MISC"
+  },
+  {
+   "panel": "",
+   "file": "67_AdminPanel",
+   "template": false,
+   "gui": "AdminPanel"
+  },
+  {
+   "panel": "Main.Commands.GivePet",
+   "file": "68_AdminPanel__GivePet",
+   "gui": "AdminPanel"
+  },
+  {
+   "panel": "Main.Info",
+   "file": "69_AdminPanel__Info",
+   "gui": "AdminPanel"
+  },
+  {
+   "panel": "PetSelector",
+   "file": "70_AdminPanel__PetSelector",
+   "gui": "AdminPanel"
+  },
+  {
+   "panel": "",
+   "file": "71_Elements",
+   "template": false,
+   "gui": "Elements"
+  },
+  {
+   "panel": "Right",
+   "file": "72_Elements__Right",
+   "gui": "Elements"
+  },
+  {
+   "panel": "RightFrame",
+   "file": "73_Elements__RightFrame",
+   "gui": "Elements"
+  },
+  {
+   "panel": "Other",
+   "file": "74_Elements__Other",
+   "gui": "Elements"
+  },
+  {
+   "panel": "",
+   "file": "75_Troll",
+   "template": false,
+   "gui": "Troll"
+  },
+  {
+   "panel": "FollowUI",
+   "file": "76_FollowRewardsUI__FollowUI",
+   "gui": "FollowRewardsUI"
+  },
+  {
+   "panel": "",
+   "file": "77_Rewards",
+   "template": false,
+   "gui": "Rewards"
+  },
+  {
+   "panel": "",
+   "file": "78_monetizationGUI",
+   "template": false,
+   "gui": "monetizationGUI"
+  },
+  {
+   "panel": "Frame",
+   "file": "79_RewardsUI__Frame",
+   "gui": "RewardsUI"
+  },
+  {
+   "panel": "",
+   "file": "80_Put_me_in_StarterGui",
+   "template": false,
+   "gui": "Put me in StarterGui"
+  },
+  {
+   "panel": "",
+   "file": "81_ItemAlert",
+   "template": true,
+   "gui": "ItemAlert"
+  },
+  {
+   "panel": "ItemAlert.Holder.ItemSlot.Notification",
+   "file": "82_ItemAlert__Notification",
+   "gui": "ItemAlert"
+  },
+  {
+   "panel": "",
+   "file": "83_Award",
+   "template": true,
+   "gui": "Award"
+  },
+  {
+   "panel": "",
+   "file": "84_GlobalEvent",
+   "template": true,
+   "gui": "GlobalEvent"
+  },
+  {
+   "panel": "",
+   "file": "85_Progress",
+   "template": true,
+   "gui": "Progress"
+  },
+  {
+   "panel": "",
+   "file": "86_Item2",
+   "template": true,
+   "gui": "Item2"
+  },
+  {
+   "panel": "",
+   "file": "87_Item",
+   "template": true,
+   "gui": "Item"
+  },
+  {
+   "panel": "",
+   "file": "88_BiggestAssetWeight",
+   "template": true,
+   "gui": "BiggestAssetWeight"
+  },
+  {
+   "panel": "",
+   "file": "89_Money",
+   "template": true,
+   "gui": "Money"
+  },
+  {
+   "panel": "",
+   "file": "90_ExtraAsset",
+   "template": true,
+   "gui": "ExtraAsset"
+  },
+  {
+   "panel": "",
+   "file": "91_Speed",
+   "template": true,
+   "gui": "Speed"
+  },
+  {
+   "panel": "",
+   "file": "92_Frame",
+   "template": true,
+   "gui": "Frame"
+  },
+  {
+   "panel": "Frame.Holder.Frame.Accept.Hover_Effect",
+   "file": "93_Frame__Hover_Effect",
+   "gui": "Frame"
+  },
+  {
+   "panel": "Frame.Holder.Frame.Decline.Hover_Effect",
+   "file": "94_Frame__Hover_Effect",
+   "gui": "Frame"
+  },
+  {
+   "panel": "",
+   "file": "95_Currency_",
+   "template": true,
+   "gui": "Currency___"
+  },
+  {
+   "panel": "",
+   "file": "96_PetLevel",
+   "template": true,
+   "gui": "PetLevel"
+  },
+  {
+   "panel": "",
+   "file": "97_Currency",
+   "template": true,
+   "gui": "Currency"
+  },
+  {
+   "panel": "",
+   "file": "98_TutorialTask",
+   "template": true,
+   "gui": "TutorialTask"
+  },
+  {
+   "panel": "",
+   "file": "99_Player",
+   "template": true,
+   "gui": "Player"
+  },
+  {
+   "panel": "",
+   "file": "100_Trade",
+   "template": true,
+   "gui": "Trade"
+  },
+  {
+   "panel": "",
+   "file": "101_Template",
+   "template": true,
+   "gui": "Template"
+  },
+  {
+   "panel": "",
+   "file": "102_Template",
+   "template": true,
+   "gui": "Template"
+  },
+  {
+   "panel": "",
+   "file": "103_GearTemplate",
+   "template": true,
+   "gui": "GearTemplate"
+  },
+  {
+   "panel": "",
+   "file": "104_Template",
+   "template": true,
+   "gui": "Template"
+  },
+  {
+   "panel": "",
+   "file": "105_Template",
+   "template": true,
+   "gui": "Template"
+  },
+  {
+   "panel": "",
+   "file": "106_LevelDisplayUI",
+   "template": false,
+   "gui": "LevelDisplayUI"
+  },
+  {
+   "panel": "",
+   "file": "107_Elements",
+   "template": false,
+   "gui": "Elements"
+  },
+  {
+   "panel": "RightFrame",
+   "file": "108_Elements__RightFrame",
+   "gui": "Elements"
+  },
+  {
+   "panel": "",
+   "file": "109_Value",
+   "template": true,
+   "gui": "Value"
+  }
+ ]
+}

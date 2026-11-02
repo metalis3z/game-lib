@@ -1,0 +1,117 @@
+{
+ "slug": "trade-system",
+ "title": "Trade System V1",
+ "genre": "system module (trading UI + service)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 35,
+  "screen_guis": 1,
+  "classes": {
+   "UICorner": 24,
+   "TextLabel": 11,
+   "Frame": 9,
+   "TextButton": 7,
+   "UIPadding": 5,
+   "UIStroke": 4,
+   "ScrollingFrame": 4,
+   "UIGridLayout": 3,
+   "ImageButton": 2,
+   "ScreenGui": 1,
+   "TextBox": 1,
+   "UIListLayout": 1,
+   "UITextSizeConstraint": 1,
+   "Folder": 1,
+   "ImageLabel": 1
+  },
+  "fonts": {
+   "GothamSSm Bold": 16,
+   "GothamSSm Regular": 3
+  },
+  "background_colors": {
+   "#1e1e28": 5,
+   "#121218": 4,
+   "#181820": 2,
+   "#c83232": 2,
+   "#282834": 2,
+   "#46c864": 2,
+   "#c83c3c": 2,
+   "#20202a": 1,
+   "#50dc64": 1,
+   "#50aaff": 1,
+   "#16161e": 1,
+   "#000000": 1
+  },
+  "text_colors": {
+   "#ffffff": 14,
+   "#a0a0aa": 1,
+   "#78dc8c": 1,
+   "#ffb464": 1,
+   "#dcdcdc": 1,
+   "#c8c8ff": 1
+  },
+  "stroke_colors": {
+   "#5ac8ff": 1,
+   "#ffd23c": 1,
+   "#78beff": 1,
+   "#969696": 1
+  },
+  "image_tints": {},
+  "corner_radius": {
+   "{0.0,8}": 12,
+   "{0.0,10}": 6,
+   "{0.0,16}": 3,
+   "{1.0,0}": 1,
+   "{0.0,14}": 1,
+   "{0.0,4}": 1
+  },
+  "stroke_thickness": {
+   "2.0 px": 4
+  },
+  "text_size_px": {},
+  "text_scaled_share": 1.0,
+  "size_mode": {
+   "offset": 10,
+   "scale": 2,
+   "mixed": 23
+  },
+  "unique_images": 0,
+  "per_100_objects": {
+   "UICorner": 68.6,
+   "UIStroke": 11.4,
+   "UIGradient": 0.0,
+   "UIAspectRatioConstraint": 0.0,
+   "UIListLayout": 2.9,
+   "UIGridLayout": 8.6,
+   "UIPadding": 14.3,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 2.9,
+   "ImageLabel": 2.9,
+   "ImageButton": 5.7,
+   "TextButton": 20.0
+  }
+ },
+ "map": {},
+ "lighting": {},
+ "post": [],
+ "terrain": {},
+ "workspace": {},
+ "packs": {
+  "ui": 1,
+  "other": 1
+ },
+ "coverage": {
+  "instances": 81,
+  "packed": 76,
+  "services": 1,
+  "code_or_empty_folders_not_packed": 4,
+  "not_packed": {},
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 0,
+ "sound_ids": 0,
+ "files": 2,
+ "kb": 49,
+ "category": "System",
+ "source_file": "TRADE SYSTEM V1 +1 SPEED MADE BY SLBR.rbxm"
+}

@@ -1,0 +1,11 @@
+local TweenService = game:GetService("TweenService")
+local info1 = TweenInfo.new(0.25,Enum.EasingStyle.Quint, Enum.EasingDirection.Out, 0, false, 0)
+local info2 = TweenInfo.new(0.25,Enum.EasingStyle.Cubic, Enum.EasingDirection.Out, 0, false, 0)
+local getice = TweenService:Create(script.Parent, info1, {Size = Vector3.new(6.35, 7.786, 6.77)})
+local breakice = TweenService:Create(script.Parent, info2, {Size = Vector3.new(0,0,0)})
+
+getice:Play()
+wait(2)
+breakice:Play()
+wait(0.3)
+script.Parent:Destroy()

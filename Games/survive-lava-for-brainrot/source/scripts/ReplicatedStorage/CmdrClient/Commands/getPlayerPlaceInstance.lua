@@ -1,0 +1,25 @@
+-- Saved by anthu decompiler gui script (used universalsynsaveinstance) (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+--Decompiled by Medal, I take no credit I only Made The dumper and I I.. I iron man
+local v2 = {
+	["Name"] = "get-player-place-instance",
+	["Aliases"] = {},
+	["Description"] = "Returns the target player\'s Place ID and the JobId separated by a space. Returns 0 if the player is offline or something else goes wrong.",
+	["Group"] = "DefaultDebug",
+	["Args"] = {
+		{
+			["Type"] = "playerId",
+			["Name"] = "Player",
+			["Description"] = "Get the place instance of this player"
+		},
+		function(p1)
+			return {
+				["Type"] = p1.Cmdr.Util.MakeEnumType("PlaceInstance Format", { "PlaceIdJobId", "PlaceId", "JobId" }),
+				["Name"] = "Format",
+				["Description"] = "What data to return. PlaceIdJobId returns both separated by a space.",
+				["Default"] = "PlaceIdJobId"
+			}
+		end
+	}
+}
+return v2

@@ -1,0 +1,440 @@
+438 scripts, 56367 lines
+kind     lines  enabled  path
+module      26  yes      scripts/ReplicatedStorage/Debug.lua
+module     254  yes      scripts/ReplicatedStorage/Defaults.lua
+client     119  yes      scripts/ReplicatedStorage/Delete/Delete.client.lua
+module     126  yes      scripts/ReplicatedStorage/Dialog.lua
+module     382  yes      scripts/ReplicatedStorage/Enums.lua
+client       5  yes      scripts/ReplicatedStorage/LocalScript.client.lua
+module      32  yes      scripts/ReplicatedStorage/PublicMembers.lua
+client       5  yes      scripts/ReplicatedStorage/RemoveLoading.client.lua
+client     134  yes      scripts/ReplicatedStorage/ReplicatedFirst.client.lua
+module     113  yes      scripts/ReplicatedStorage/SoundFX.lua
+module      72  yes      scripts/ReplicatedStorage/Utilities/BezierCurve.lua
+module     137  yes      scripts/ReplicatedStorage/Utilities/CameraUtil.lua
+server      46  NO       scripts/ReplicatedStorage/Utilities/CommandBarCode.server.lua
+module      61  yes      scripts/ReplicatedStorage/Utilities/ExperienceCalculator.lua
+module     146  yes      scripts/ReplicatedStorage/Utilities/GetDate.lua
+module      47  yes      scripts/ReplicatedStorage/Utilities/Instance.lua
+module      68  yes      scripts/ReplicatedStorage/Utilities/Queue.lua
+module     132  yes      scripts/ReplicatedStorage/Utilities/Region.lua
+module     191  yes      scripts/ReplicatedStorage/Utilities/ScreenSpace.lua
+module     754  yes      scripts/ReplicatedStorage/Utilities/SupportLibrary.lua
+module     138  yes      scripts/ReplicatedStorage/Utilities/TaskScheduler.lua
+module      83  yes      scripts/ReplicatedStorage/Utilities/Timer.lua
+module     193  yes      scripts/ReplicatedStorage/Utilities/Tween.lua
+module       7  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/Back.lua
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/Extrapolate.lua
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/Linear.lua
+module      10  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/RevBack.lua
+module       6  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/RidiculousWiggle.lua
+module       6  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/RidiculousWiggleSine.lua
+module       6  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/Sine.lua
+module       6  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/SineArc.lua
+module       5  yes      scripts/ReplicatedStorage/Utilities/Tween/styles/Switch.lua
+module       7  yes      scripts/ReplicatedStorage/Utilities/Tween/types/BrickColor.lua
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/CFrame.lua
+module      11  yes      scripts/ReplicatedStorage/Utilities/Tween/types/CFrameRaw.lua
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Callback.lua
+module       7  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Color3.lua
+module      12  yes      scripts/ReplicatedStorage/Utilities/Tween/types/ColorSequence.lua
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Number.lua
+module       6  yes      scripts/ReplicatedStorage/Utilities/Tween/types/NumberRange.lua
+module      80  yes      scripts/ReplicatedStorage/Utilities/Tween/types/NumberSequence.lua
+module       9  yes      scripts/ReplicatedStorage/Utilities/Tween/types/PhysicalProperties.lua
+module       8  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Rect.lua
+module      26  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Region3.lua
+module      22  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Region3int16.lua
+module       6  yes      scripts/ReplicatedStorage/Utilities/Tween/types/UDim.lua
+module       8  yes      scripts/ReplicatedStorage/Utilities/Tween/types/UDim2.lua
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Vector2.lua   (same source as scripts/ReplicatedStorage/Utilities/Tween/types/Number.lua)
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Vector2int16.lua   (same source as scripts/ReplicatedStorage/Utilities/Tween/types/Number.lua)
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Vector3.lua   (same source as scripts/ReplicatedStorage/Utilities/Tween/types/Number.lua)
+module       3  yes      scripts/ReplicatedStorage/Utilities/Tween/types/Vector3int16.lua   (same source as scripts/ReplicatedStorage/Utilities/Tween/types/Number.lua)
+module     662  yes      scripts/ReplicatedStorage/Utilities/Utility.lua
+module     161  yes      scripts/ServerScriptService/AssetLibraryManager.lua
+server     366  NO       scripts/ServerScriptService/CommandBarCode.server.lua
+module     320  yes      scripts/ServerScriptService/Customers.lua
+module     914  yes      scripts/ServerScriptService/Customers/Customer.lua
+module     260  yes      scripts/ServerScriptService/Door.lua
+module    1542  yes      scripts/ServerScriptService/Environment.lua
+server    2769  yes      scripts/ServerScriptService/GameService.server.lua
+module      20  yes      scripts/ServerScriptService/Global.lua
+module      43  yes      scripts/ServerScriptService/GoogleAnalytics.lua
+server      30  NO       scripts/ServerScriptService/GoogleAnalytics/GoogleAnalyticsStartup.server.lua
+module     303  yes      scripts/ServerScriptService/Houses.lua
+module     834  yes      scripts/ServerScriptService/Houses/House.lua
+client      33  NO       scripts/ServerScriptService/Houses/House/Basement.client.lua
+module     381  yes      scripts/ServerScriptService/Houses/House/Furniture.lua
+module      73  yes      scripts/ServerScriptService/Houses/House/Room.lua
+server      58  yes      scripts/ServerScriptService/LiveServerUpdates.server.lua
+module      28  yes      scripts/ServerScriptService/LiveServerUpdates/MainModule.lua
+module      25  yes      scripts/ServerScriptService/LiveServerUpdates/MainModule~2.lua
+module      22  yes      scripts/ServerScriptService/LiveServerUpdates/MainModule~3.lua
+server      24  yes      scripts/ServerScriptService/LiveServerUpdates/MainModule~3/Teleport to Party Island/Head/PartyTeleport.server.lua   (same source as scripts/Workspace/Teleport to Party Island/Head/PartyTeleport.server.lua)
+server    1483  yes      scripts/ServerScriptService/Main.server.lua
+client     154  NO       scripts/ServerScriptService/Main/Ghost.client.lua
+module     513  yes      scripts/ServerScriptService/Main/Scale.lua
+module     179  yes      scripts/ServerScriptService/Main/Scale/Contents/Joints.lua
+module     326  yes      scripts/ServerScriptService/Main/Scale/Contents/Limbs.lua
+module     757  yes      scripts/ServerScriptService/MainModule.lua
+server      24  NO       scripts/ServerScriptService/MainModule/Beds/Outdoors Tent/Close.server.lua
+server      13  NO       scripts/ServerScriptService/MainModule/Collectables/Robot/Squeak.server.lua
+server      13  NO       scripts/ServerScriptService/MainModule/Collectables/Stuffed Dragon/Squeak.server.lua
+server      13  NO       scripts/ServerScriptService/MainModule/Collectables/Stuffed Lion/Squeak.server.lua   (same source as scripts/ServerScriptService/MainModule/Collectables/Stuffed Dragon/Squeak.server.lua)
+server      13  NO       scripts/ServerScriptService/MainModule/Collectables/Stuffed Polar Bear/Squeak.server.lua   (same source as scripts/ServerScriptService/MainModule/Collectables/Stuffed Dragon/Squeak.server.lua)
+server      13  NO       scripts/ServerScriptService/MainModule/Collectables/Stuffed Tiger/Squeak.server.lua   (same source as scripts/ServerScriptService/MainModule/Collectables/Stuffed Dragon/Squeak.server.lua)
+server     100  NO       scripts/ServerScriptService/MainModule/Customization/Accessory Display/AccessoryDisplay.server.lua
+server      60  NO       scripts/ServerScriptService/MainModule/Customization/Door/Script.server.lua
+client      20  yes      scripts/ServerScriptService/MainModule/Customization/Friend Door/FriendsOnly.client.lua
+server      29  NO       scripts/ServerScriptService/MainModule/Customization/Kick Button/Kick.server.lua
+server      36  NO       scripts/ServerScriptService/MainModule/Customization/Multi Light/Light~2.server.lua
+server      24  NO       scripts/ServerScriptService/MainModule/Customization/Music Player/MusicBox.server.lua
+client       6  yes      scripts/ServerScriptService/MainModule/Customization/Owner Door/OwnerOnly.client.lua
+server      78  NO       scripts/ServerScriptService/MainModule/Customization/Pants Display/PantsDisplay.server.lua
+server      78  NO       scripts/ServerScriptService/MainModule/Customization/Pixel Art Canvas/Canvas.server.lua
+server      65  NO       scripts/ServerScriptService/MainModule/Customization/Place Portal/Portal.server.lua
+server      32  NO       scripts/ServerScriptService/MainModule/Customization/Poster/Decal.server.lua
+server      25  NO       scripts/ServerScriptService/MainModule/Customization/Robloxian Poster/Robloxian.server.lua
+server      80  NO       scripts/ServerScriptService/MainModule/Customization/Shirt Display/ShirtDisplay.server.lua
+server      30  NO       scripts/ServerScriptService/MainModule/Customization/Sign/Sign~2.server.lua
+server      50  NO       scripts/ServerScriptService/MainModule/Decoration/Modern Dresser/Modern Dresser Drawer.server.lua
+server      39  NO       scripts/ServerScriptService/MainModule/Decoration/Truss/Climbing.server.lua
+client       4  NO       scripts/ServerScriptService/MainModule/Decoration/Truss/Climbing/SetClimb.client.lua   (same source as scripts/Workspace/Truss/Climbing/SetClimb.client.lua)
+server      36  NO       scripts/ServerScriptService/MainModule/Decoration/Varknox Bubble/Varknox bubble.server.lua
+client      95  NO       scripts/ServerScriptService/MainModule/Entertainment/Antler TV/PlayTV.client.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/PlayTV.client.lua)
+server      10  NO       scripts/ServerScriptService/MainModule/Entertainment/Antler TV/TV.server.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/TV.server.lua)
+server      44  NO       scripts/ServerScriptService/MainModule/Entertainment/Banjo/Banjo~2.server.lua
+server      23  NO       scripts/ServerScriptService/MainModule/Entertainment/Bass Drum/Bass.server.lua
+server       8  NO       scripts/ServerScriptService/MainModule/Entertainment/Billiards/Billiards.server.lua
+server      83  NO       scripts/ServerScriptService/MainModule/Entertainment/Bowling/Bowling.server.lua
+server      49  NO       scripts/ServerScriptService/MainModule/Entertainment/Cannon/Cannon.server.lua
+client      95  NO       scripts/ServerScriptService/MainModule/Entertainment/Cloud TV/PlayTV.client.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/PlayTV.client.lua)
+server      10  NO       scripts/ServerScriptService/MainModule/Entertainment/Cloud TV/TV.server.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/TV.server.lua)
+server       4  NO       scripts/ServerScriptService/MainModule/Entertainment/Convayor/Convayer.server.lua
+server      18  NO       scripts/ServerScriptService/MainModule/Entertainment/Cotton Candy Machine/GiveCotton.server.lua
+server      63  NO       scripts/ServerScriptService/MainModule/Entertainment/DJ Set/DJSet.server.lua
+client      20  NO       scripts/ServerScriptService/MainModule/Entertainment/Disco Floor/Disco Floor.client.lua
+server      13  NO       scripts/ServerScriptService/MainModule/Entertainment/Drum Set/Drums.server.lua
+server      41  NO       scripts/ServerScriptService/MainModule/Entertainment/Floor Piano/FloorPiano.server.lua
+server      25  NO       scripts/ServerScriptService/MainModule/Entertainment/Grand Piano/PianoScript.server.lua
+server      20  NO       scripts/ServerScriptService/MainModule/Entertainment/Gumball Machine/Gumball~47.server.lua
+server      26  NO       scripts/ServerScriptService/MainModule/Entertainment/Mariachi Guitar/Guitar~2.server.lua
+server      19  NO       scripts/ServerScriptService/MainModule/Entertainment/Medieval Spikes/Spikes.server.lua
+server      32  NO       scripts/ServerScriptService/MainModule/Entertainment/Microphone/Mic~3.server.lua
+client      95  NO       scripts/ServerScriptService/MainModule/Entertainment/Modern TV/PlayTV.client.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/PlayTV.client.lua)
+server      10  NO       scripts/ServerScriptService/MainModule/Entertainment/Modern TV/TV.server.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/TV.server.lua)
+server      18  NO       scripts/ServerScriptService/MainModule/Entertainment/Popcorn Machine/GivePopcorn.server.lua
+server      71  NO       scripts/ServerScriptService/MainModule/Entertainment/Princess Pony/PonyDetector.server.lua
+server      50  NO       scripts/ServerScriptService/MainModule/Entertainment/Princess Pony/PonyMove.server.lua
+server      24  NO       scripts/ServerScriptService/MainModule/Entertainment/Princess Pony/Weld.server.lua
+server      64  NO       scripts/ServerScriptService/MainModule/Entertainment/Putt-Putt Golf Hole #1/Putput.server.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Putt-Putt Golf Hole #3/Putput.server.lua)
+server      64  NO       scripts/ServerScriptService/MainModule/Entertainment/Putt-Putt Golf Hole #2/Putput.server.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Putt-Putt Golf Hole #3/Putput.server.lua)
+server      64  NO       scripts/ServerScriptService/MainModule/Entertainment/Putt-Putt Golf Hole #3/Putput.server.lua
+client      95  NO       scripts/ServerScriptService/MainModule/Entertainment/Sky World TV/PlayTV.client.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/PlayTV.client.lua)
+server      10  NO       scripts/ServerScriptService/MainModule/Entertainment/Sky World TV/TV.server.lua
+server      57  NO       scripts/ServerScriptService/MainModule/Entertainment/Snake/SnakeDetector.server.lua
+server      44  NO       scripts/ServerScriptService/MainModule/Entertainment/Snake/SnakeMove.server.lua
+server      47  NO       scripts/ServerScriptService/MainModule/Entertainment/Soccer Ball/SoccerBall.server.lua
+server      34  NO       scripts/ServerScriptService/MainModule/Entertainment/Soda Machine/SodaMachine.server.lua
+server      59  NO       scripts/ServerScriptService/MainModule/Entertainment/Tick Tack Toe/TickTacToe.server.lua
+server      21  NO       scripts/ServerScriptService/MainModule/Entertainment/Tot Slide/Slide~3.server.lua
+server      45  NO       scripts/ServerScriptService/MainModule/Entertainment/Tot Swing/TotSwing.server.lua
+client      28  NO       scripts/ServerScriptService/MainModule/Entertainment/Tot Swing/TotSwing/SwingPlayer.client.lua
+client      95  NO       scripts/ServerScriptService/MainModule/Entertainment/Tot TV/PlayTV.client.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/PlayTV.client.lua)
+server      10  NO       scripts/ServerScriptService/MainModule/Entertainment/Tot TV/TV.server.lua   (same source as scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/TV.server.lua)
+server      58  NO       scripts/ServerScriptService/MainModule/Entertainment/Turtle/TurtleAnimate.server.lua
+server      46  NO       scripts/ServerScriptService/MainModule/Entertainment/Turtle/TurtleMove.server.lua
+client      95  NO       scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/PlayTV.client.lua
+server      10  NO       scripts/ServerScriptService/MainModule/Entertainment/Varknox TV/TV.server.lua
+server       4  NO       scripts/ServerScriptService/MainModule/Entertainment/Workout Treadmill/Treadmill.server.lua
+server      22  NO       scripts/ServerScriptService/MainModule/Holiday/Cooked Turkey/GiveTurkey.server.lua
+server      11  NO       scripts/ServerScriptService/MainModule/Holiday/Hanukkah Candles/Lamp~2.server.lua
+server       3  NO       scripts/ServerScriptService/MainModule/Holiday/Jack-O-Lantern/Jackolantern.server.lua
+server      13  NO       scripts/ServerScriptService/MainModule/Holiday/Snowman/Squeak.server.lua
+server      20  NO       scripts/ServerScriptService/MainModule/Holiday/Treat Bowl/TreatBowl.server.lua
+server      13  NO       scripts/ServerScriptService/MainModule/Holiday/Turkey/Squeak.server.lua
+server      20  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Bathroom Shower/Showa.server.lua
+server      25  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Bathroom Sink/Sink.server.lua
+server      34  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Bathroom Toilet/Flush.server.lua
+server      18  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Microwave/Microwave.server.lua
+server      97  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Refrigerator/PinkFridge.server.lua
+server      45  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Sink/Pinksink.server.lua
+server      56  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Toaster/Toast.server.lua
+server      18  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Stainless Microwave/Microwave.server.lua   (same source as scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Microwave/Microwave.server.lua)
+server      97  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Stainless Refrigerator/Fridge.server.lua
+server      45  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Stainless Sink/KitchenSink.server.lua   (same source as scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Sink/Pinksink.server.lua)
+server      16  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Stainless Stove/Stove~2.server.lua
+server      56  NO       scripts/ServerScriptService/MainModule/Kitchen_Bath/Stainless Toaster/Toast.server.lua   (same source as scripts/ServerScriptService/MainModule/Kitchen_Bath/Pink Toaster/Toast.server.lua)
+server      11  NO       scripts/ServerScriptService/MainModule/Lights/Antler Chanelier/Lamp~2.server.lua
+server      15  NO       scripts/ServerScriptService/MainModule/Lights/Antler Fireplace/Lamp.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Outdoors Campfire/Lamp.server.lua)
+server      13  NO       scripts/ServerScriptService/MainModule/Lights/Antler Lamp/Lamp~2.server.lua
+server      12  NO       scripts/ServerScriptService/MainModule/Lights/Blink Lantern/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Varknox Lamp/Lamp~2.server.lua)
+server      12  NO       scripts/ServerScriptService/MainModule/Lights/Floor Lamp/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Varknox Lamp/Lamp~2.server.lua)
+server      18  NO       scripts/ServerScriptService/MainModule/Lights/Medieval Lantern/Lamp.server.lua
+server      14  NO       scripts/ServerScriptService/MainModule/Lights/Modern Ceiling Light/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Sun Light/Lamp~2.server.lua)
+server      32  NO       scripts/ServerScriptService/MainModule/Lights/Modern Fireplace/Light~2.server.lua
+server      12  NO       scripts/ServerScriptService/MainModule/Lights/Modern Lamp/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Varknox Lamp/Lamp~2.server.lua)
+server      15  NO       scripts/ServerScriptService/MainModule/Lights/Outdoors Campfire/Lamp.server.lua
+server      12  NO       scripts/ServerScriptService/MainModule/Lights/Princess Ceiling Light/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Varknox Lamp/Lamp~2.server.lua)
+server      12  NO       scripts/ServerScriptService/MainModule/Lights/Princess Lamp/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Varknox Lamp/Lamp~2.server.lua)
+server      11  NO       scripts/ServerScriptService/MainModule/Lights/Sky World Lamp/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Tot Lamp/Lamp~2.server.lua)
+server      11  NO       scripts/ServerScriptService/MainModule/Lights/Spotlight/Lamp~2.server.lua
+server      14  NO       scripts/ServerScriptService/MainModule/Lights/Sun Light/Lamp~2.server.lua
+server      11  NO       scripts/ServerScriptService/MainModule/Lights/Tot Ceiling Light/Lamp~2.server.lua   (same source as scripts/ServerScriptService/MainModule/Lights/Tot Lamp/Lamp~2.server.lua)
+server      11  NO       scripts/ServerScriptService/MainModule/Lights/Tot Lamp/Lamp~2.server.lua
+server      12  NO       scripts/ServerScriptService/MainModule/Lights/Varknox Lamp/Lamp~2.server.lua
+server      25  NO       scripts/ServerScriptService/MainModule/Seats/Varknox Chair/Squish.server.lua
+server      32  NO       scripts/ServerScriptService/MainModule/Seats/Varknox Couch/Squish.server.lua
+module     340  yes      scripts/ServerScriptService/Manager.lua
+module     109  yes      scripts/ServerScriptService/Paycheck.lua
+module    1669  yes      scripts/ServerScriptService/Pet.lua
+server     533  yes      scripts/ServerScriptService/PetController.server.lua
+module     441  yes      scripts/ServerScriptService/Players.lua
+module    1463  yes      scripts/ServerScriptService/Players/Player.lua
+client     183  NO       scripts/ServerScriptService/Players/Player/Emotion.client.lua
+client    1944  yes      scripts/ServerScriptService/Players/Player/Explorer/ExplorerPanel/LocalScript.client.lua
+client     126  yes      scripts/ServerScriptService/Players/Player/RagdollClient.client.lua
+server     576  yes      scripts/ServerScriptService/PurchaseService.server.lua
+module      30  yes      scripts/ServerScriptService/TemplateClass.lua
+module      29  yes      scripts/ServerScriptService/TemplateClass/TemplateContainerClass.lua
+module    1143  yes      scripts/ServerScriptService/Tutorial.lua
+server      39  NO       scripts/ServerScriptService/Tutorial/TutorialPlayerOnly.server.lua
+server       2  NO       scripts/ServerScriptService/Tutorial/remover.server.lua
+module     247  yes      scripts/ServerScriptService/Vehicles.lua
+module     195  yes      scripts/ServerScriptService/Vehicles/Boat.lua
+client      38  NO       scripts/ServerScriptService/Vehicles/Boat/DriveScript.client.lua
+module     257  yes      scripts/ServerScriptService/Vehicles/Car.lua
+module     204  yes      scripts/ServerScriptService/Vehicles/Truck.lua
+server      67  yes      scripts/ServerStorage/CatalogCache/BANG!/BangScript.server.lua
+client     169  yes      scripts/ServerStorage/CatalogCache/Grapple Hook/LocalScript.client.lua
+client      28  yes      scripts/ServerStorage/CatalogCache/Grapple Hook/MouseIcon.client.lua
+server     394  yes      scripts/ServerStorage/CatalogCache/Grapple Hook/Script.server.lua
+server     112  yes      scripts/ServerStorage/CatalogCache/Green Balloon/BalloonScript.server.lua
+client       7  yes      scripts/ServerStorage/CatalogCache/Green Balloon/LocalScript.client.lua   (same source as scripts/Workspace/Balloon/GreenBalloon/LocalScript.client.lua)
+server      55  yes      scripts/ServerStorage/CatalogCache/Green Balloon/WeldArm.server.lua
+client      26  yes      scripts/ServerStorage/CatalogCache/Linked Sword/MouseIcon.client.lua
+server     200  yes      scripts/ServerStorage/CatalogCache/Linked Sword/SwordScript.server.lua
+client      31  yes      scripts/ServerStorage/CatalogCache/Ninja Jump Potion/Local Gui.client.lua
+client     181  yes      scripts/ServerStorage/CatalogCache/Ninja Jump Potion/RHK Script.client.lua
+client      28  yes      scripts/ServerStorage/CatalogCache/Paper Sword/Local Gui.client.lua
+client     267  yes      scripts/ServerStorage/CatalogCache/Paper Sword/PaperSwordLS.client.lua
+client     663  yes      scripts/ServerStorage/CatalogCache/Race the Sunset/LocalScript.client.lua
+client      29  yes      scripts/ServerStorage/CatalogCache/Snowball/Local Gui.client.lua   (same source as scripts/ServerStorage/SeasonalStorage/Snowball/Local Gui.client.lua)
+server      95  yes      scripts/ServerStorage/CatalogCache/Snowball/SnowballLauncher.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Snowball/SnowballLauncher.server.lua)
+server     133  NO       scripts/ServerStorage/CatalogCache/Snowball/SnowballScript.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Snowball/SnowballScript.server.lua)
+client      98  yes      scripts/ServerStorage/CatalogCache/Spray Paint/LocalScript.client.lua
+client      32  yes      scripts/ServerStorage/CatalogCache/Time Watch/Local Gui.client.lua
+server      93  yes      scripts/ServerStorage/CatalogCache/Time Watch/WatchScript.server.lua
+server     365  NO       scripts/ServerStorage/Customers/CustomerTemplate/Animate.server.lua
+module     175  yes      scripts/ServerStorage/DeliveryBike/Assets.lua
+client     189  yes      scripts/ServerStorage/DeliveryBike/BikeLocalScript.client.lua
+server     519  yes      scripts/ServerStorage/DeliveryBike/BikeScript.server.lua
+client      28  yes      scripts/ServerStorage/DeliveryBike/MouseIcon.client.lua
+client     163  NO       scripts/ServerStorage/Depricated/CustomMobileControls.client.lua
+server      19  NO       scripts/ServerStorage/Depricated/GameThumbnail/Car/Roof/Script.server.lua
+server       1  NO       scripts/ServerStorage/Depricated/GameThumbnail/Script.server.lua
+server      29  yes      scripts/ServerStorage/Depricated/ManagerModel/Hair/Script.server.lua
+module      98  yes      scripts/ServerStorage/Depricated/Monitor.lua
+client      89  NO       scripts/ServerStorage/Depricated/Monitor/LocalMonitor.client.lua
+server      12  yes      scripts/ServerStorage/Depricated/Monitor/Monitor.server.lua
+server     108  NO       scripts/ServerStorage/Depricated/Shark1/Shark.server.lua
+server       6  yes      scripts/ServerStorage/Depricated/Snake/Script.server.lua
+server      14  yes      scripts/ServerStorage/Gear/Bloxy Cola/Remover.server.lua   (same source as scripts/ServerStorage/Gear/Popcorn/Remover.server.lua)
+client      36  yes      scripts/ServerStorage/Gear/Cotton Candy/BackupWeld.client.lua
+server      14  yes      scripts/ServerStorage/Gear/Cotton Candy/Remover.server.lua   (same source as scripts/ServerStorage/Gear/Popcorn/Remover.server.lua)
+server      14  yes      scripts/ServerStorage/Gear/Ham/Remover.server.lua   (same source as scripts/ServerStorage/Gear/Popcorn/Remover.server.lua)
+server      14  yes      scripts/ServerStorage/Gear/Hot Dog/Remover.server.lua   (same source as scripts/ServerStorage/Gear/Popcorn/Remover.server.lua)
+server      14  yes      scripts/ServerStorage/Gear/Ice Cream/Remover.server.lua   (same source as scripts/ServerStorage/Gear/Popcorn/Remover.server.lua)
+server      14  yes      scripts/ServerStorage/Gear/Pizza/Remover.server.lua   (same source as scripts/ServerStorage/Gear/Popcorn/Remover.server.lua)
+server      14  yes      scripts/ServerStorage/Gear/Popcorn/Remover.server.lua
+server      56  yes      scripts/ServerStorage/Gear/TurkeyLeg/SandwichScript.server.lua
+client     296  yes      scripts/ServerStorage/HangGlider/Glider_LocalMain.client.lua
+server      79  NO       scripts/ServerStorage/HangGlider/Glider_LocalMain/MotorizeRightGrip.server.lua
+server      98  NO       scripts/ServerStorage/HangGlider/MineScript.server.lua
+client      54  yes      scripts/ServerStorage/MoneyBag/MoneyBag.client.lua
+client     324  yes      scripts/ServerStorage/PaintBucket/PaintBucket.client.lua
+server      72  yes      scripts/ServerStorage/PaintBucket/SwordScript.server.lua
+server       7  yes      scripts/ServerStorage/PetObjects/Ball/Cleanup.server.lua
+client      16  yes      scripts/ServerStorage/PetObjects/Ball/Throw.client.lua
+server      40  yes      scripts/ServerStorage/PetObjects/Ball/Tool.server.lua
+server      11  yes      scripts/ServerStorage/PetObjects/Kibble/Tool.server.lua
+server      41  yes      scripts/ServerStorage/Pizza Slice/Script.server.lua
+server      32  NO       scripts/ServerStorage/PizzaSlices/TakeSlice.server.lua
+server      22  yes      scripts/ServerStorage/SeasonalStorage/Christmas/Model~3/ClickDetector/GiveTurkey.server.lua
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua
+server      68  yes      scripts/ServerStorage/SeasonalStorage/Halloween/PumpkinPatch/PumpkinClick.server.lua
+server     110  NO       scripts/ServerStorage/SeasonalStorage/Halloween/PumpkinPatch/PumpkinClick/ToolScript.server.lua
+client      29  yes      scripts/ServerStorage/SeasonalStorage/Snowball/Local Gui.client.lua
+server      95  yes      scripts/ServerStorage/SeasonalStorage/Snowball/SnowballLauncher.server.lua
+server     133  NO       scripts/ServerStorage/SeasonalStorage/Snowball/SnowballScript.server.lua
+server      22  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Food~4/ClickDetector/GiveTurkey.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/Model~3/ClickDetector/GiveTurkey.server.lua)
+server      22  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Food~5/ClickDetector/GiveTurkey.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/Model~3/ClickDetector/GiveTurkey.server.lua)
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Handle~3/ClickDetector/Squeak.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua)
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Turkey/ClickDetector/Squeak.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua)
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Turkey~2/ClickDetector/Squeak.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua)
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Turkey~3/ClickDetector/Squeak.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua)
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Turkey~4/ClickDetector/Squeak.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua)
+server      13  yes      scripts/ServerStorage/SeasonalStorage/Thanksgiving/Turkey~5/ClickDetector/Squeak.server.lua   (same source as scripts/ServerStorage/SeasonalStorage/Christmas/SnowmanDoll/Snowman/ClickDetector/Squeak.server.lua)
+server      51  yes      scripts/ServerStorage/SodaTemplate/BloxyColaScript.server.lua
+server      54  yes      scripts/ServerStorage/Supplies/DewTool/BloxyColaScript.server.lua
+client      83  yes      scripts/ServerStorage/Supplies/DewTool/DewTool.client.lua
+server       2  NO       scripts/ServerStorage/Supplies/PizzaTemplate/Tutorial/remover.server.lua   (same source as scripts/ServerScriptService/Tutorial/remover.server.lua)
+client     116  yes      scripts/ServerStorage/Supplies/PizzaTool/PizzaTool.client.lua
+server       2  NO       scripts/ServerStorage/Supplies/PizzaToolTemplate/Handle/Tutorial/remover.server.lua   (same source as scripts/ServerScriptService/Tutorial/remover.server.lua)
+server       9  yes      scripts/ServerStorage/Supplies/PizzaToolTemplate/Script.server.lua
+client      62  yes      scripts/ServerStorage/Supplies/PizzaToolTemplate/TemplatePizzaTool.client.lua
+client      88  yes      scripts/ServerStorage/Teleport/LocalScript.client.lua
+server      34  NO       scripts/ServerStorage/ToolScript.server.lua
+server      32  NO       scripts/ServerStorage/Vehicles/Boat/Driver/Engine/Engine Script.server.lua
+server      28  yes      scripts/ServerStorage/Vehicles/Truck/Driver/Beep.server.lua
+client     383  yes      scripts/StarterGui/ChooseJob/ChooseJob/ChooseJob.client.lua
+client      15  yes      scripts/StarterGui/ChooseJob/ChooseJob/Chooser/AButton/Lock/ImageLabel/LocalScript.client.lua   (same source as scripts/StarterGui/ChooseJob/ChooseJob/Chooser/Choose/Frame/ImageLabel/LocalScript.client.lua)
+client      15  yes      scripts/StarterGui/ChooseJob/ChooseJob/Chooser/Choose/Frame/ImageLabel/LocalScript.client.lua
+server       6  yes      scripts/StarterGui/ChooseJob/ChooseJob/Chooser/Choose/Frame/ImageLabel/Script.server.lua
+module     228  yes      scripts/StarterGui/GuiManager.lua
+module       3  yes      scripts/StarterGui/GuiManager/Button.lua
+module     143  yes      scripts/StarterGui/GuiManager/DropdownMenu.lua
+module     325  yes      scripts/StarterGui/GuiManager/ListView.lua
+module     124  yes      scripts/StarterGui/GuiManager/ListView/ListItem.lua
+module     122  yes      scripts/StarterGui/GuiManager/RadialMenu.lua
+module     251  yes      scripts/StarterGui/GuiManager/Slider.lua
+module     115  yes      scripts/StarterGui/GuiManager/TabGroup.lua
+module      76  yes      scripts/StarterGui/GuiManager/TabGroup/Tab.lua
+module     162  yes      scripts/StarterGui/GuiManager/TextInput.lua
+module      50  yes      scripts/StarterGui/GuiManager/ToggleButton.lua
+module     487  yes      scripts/StarterGui/GuiManager/Window.lua
+client     411  yes      scripts/StarterGui/MainGui/Menu/Backpack/Backpack.client.lua
+client     534  yes      scripts/StarterGui/MainGui/Menu/Catalog/Catalog.client.lua
+client     528  yes      scripts/StarterGui/MainGui/Menu/ChatWindow/ChatWindow.client.lua
+client      67  yes      scripts/StarterGui/MainGui/Menu/Emotions/Emotions.client.lua
+client      57  yes      scripts/StarterGui/MainGui/Menu/GamepadMainMenu/GamepadMainMenu.client.lua
+client      17  yes      scripts/StarterGui/MainGui/Menu/GamepadMoneyz/GamepadMoneyz.client.lua
+client     540  yes      scripts/StarterGui/MainGui/Menu/Inventory/Inventory.client.lua
+client       8  yes      scripts/StarterGui/MainGui/Menu/Manage/CancelButton/CLicked.client.lua
+client     131  yes      scripts/StarterGui/MainGui/Menu/Manage/LocalManage.client.lua
+client     266  yes      scripts/StarterGui/MainGui/Menu/Menu/Menu.client.lua
+client     606  yes      scripts/StarterGui/MainGui/Menu/Pet/CustomizePet/CustomizePet.client.lua
+client     205  yes      scripts/StarterGui/MainGui/Menu/Pet/PetHats/PetHats.client.lua
+client     879  yes      scripts/StarterGui/MainGui/Menu/Pet/PetPanel/PetPanel.client.lua
+client     280  yes      scripts/StarterGui/MainGui/Menu/PlayerList/PlayerList.client.lua
+client      81  yes      scripts/StarterGui/MainGui/Menu/Ratings/Ratings.client.lua
+client      76  yes      scripts/StarterGui/MainGui/Menu/Settings/Settings.client.lua
+client     377  yes      scripts/StarterGui/MainGui/Menu/Upgrade/Upgrade.client.lua
+client      12  yes      scripts/StarterGui/MainGui/Menu/WindowTemplate/LocalScript.client.lua
+client      23  yes      scripts/StarterGui/MainGui/Notifications/Blink/Blink/ShowPromo.client.lua
+client       4  yes      scripts/StarterGui/MainGui/Notifications/Blink/RedeemCode/CancelButton/CLicked.client.lua
+client      39  yes      scripts/StarterGui/MainGui/Notifications/Blink/RedeemCode/CodeValidate.client.lua
+client       5  yes      scripts/StarterGui/MainGui/Notifications/Blink2/CancelButton/CLicked.client.lua
+client      31  yes      scripts/StarterGui/MainGui/Notifications/Blink2/CodeValidate.client.lua
+client       5  yes      scripts/StarterGui/MainGui/Notifications/Blink~2/CancelButton/CLicked.client.lua
+client       8  yes      scripts/StarterGui/MainGui/Notifications/Blink~2/Next/CLicked.client.lua
+client       3  yes      scripts/StarterGui/MainGui/Notifications/Blink~2/ShowPromo.client.lua
+client      18  yes      scripts/StarterGui/MainGui/Notifications/CreateAccount/createaccount.client.lua
+client      17  yes      scripts/StarterGui/MainGui/Notifications/Hint/LocalScript.client.lua
+client      18  yes      scripts/StarterGui/MainGui/Notifications/Microphone/MicGUI.client.lua
+client       5  yes      scripts/StarterGui/MainGui/Notifications/Microphone/MobileResize.client.lua
+client      13  yes      scripts/StarterGui/MainGui/Notifications/PlayerPoints/CancelButton/pointsgui.client.lua
+client       5  yes      scripts/StarterGui/MainGui/Notifications/TestServerMessage/CancelButton/CLicked.client.lua   (same source as scripts/StarterGui/MainGui/Notifications/Blink2/CancelButton/CLicked.client.lua)
+client      10  yes      scripts/StarterGui/MainGui/Notifications/TestServerMessage/TestServerMessage.client.lua
+client       5  yes      scripts/StarterGui/MainGui/Notifications/Unlimted/CancelButton/CLicked.client.lua   (same source as scripts/StarterGui/MainGui/Notifications/Blink~2/CancelButton/CLicked.client.lua)
+client      20  yes      scripts/StarterGui/MainGui/Notifications/Unlimted/Unlimited.client.lua
+client     303  yes      scripts/StarterGui/MainGui/Other/Whistle/Whistle.client.lua
+client      35  yes      scripts/StarterGui/MainGui/Prompts/Ban/Ban~2.client.lua
+client       8  yes      scripts/StarterGui/MainGui/Prompts/Ban/CancelButton/CLicked.client.lua   (same source as scripts/StarterGui/MainGui/Menu/Manage/CancelButton/CLicked.client.lua)
+client     393  yes      scripts/StarterGui/MainGui/Prompts/CustomerDialog/NPCDialog.client.lua
+client     153  yes      scripts/StarterGui/MainGui/Prompts/DialogBox/Dialog.client.lua
+client      80  yes      scripts/StarterGui/MainGui/Prompts/FoodMenu/Hint/FoodMenu.client.lua
+client     268  yes      scripts/StarterGui/MainGui/Prompts/GetId/GetId.client.lua
+client      81  yes      scripts/StarterGui/MainGui/Prompts/GetName/GetName.client.lua
+client     121  yes      scripts/StarterGui/MainGui/Prompts/GetRating/GetRating.client.lua
+client       5  yes      scripts/StarterGui/MainGui/Prompts/GetShortString/Done/Resize.client.lua
+client      74  yes      scripts/StarterGui/MainGui/Prompts/GetShortString/GetShortString.client.lua
+client      10  NO       scripts/StarterGui/MainGui/Prompts/GetString/CancelButton/CLicked.client.lua
+client      78  yes      scripts/StarterGui/MainGui/Prompts/GetString/GetString.client.lua
+client       7  yes      scripts/StarterGui/MainGui/Prompts/IdHelp/CancelButton/CLicked.client.lua
+client     111  yes      scripts/StarterGui/MainGui/Prompts/Instructions/Instructions.client.lua
+client      72  yes      scripts/StarterGui/MainGui/Prompts/KickList/KickList.client.lua
+client       9  yes      scripts/StarterGui/MainGui/Prompts/MobileFurnitureControls/LocalScript.client.lua
+client     218  yes      scripts/StarterGui/MainGui/Prompts/Paycheck/Paycheck.client.lua
+client     348  yes      scripts/StarterGui/MainGui/Prompts/PixelPaint/PixelPaint.client.lua
+client      53  yes      scripts/StarterGui/MainGui/Prompts/TutorialContainer/ArrowKeys/ArrowKeys.client.lua
+client      11  NO       scripts/StarterGui/MainGui/Prompts/TutorialContainer/ArrowTemplate/Animation.client.lua
+client      50  yes      scripts/StarterGui/MainGui/Prompts/TutorialContainer/SpaceBar/Spacebar.client.lua
+client     551  yes      scripts/StarterGui/MainGui/Prompts/TutorialContainer/Tutorial/LocalTutorial.client.lua
+client     164  yes      scripts/StarterGui/MainGui/Prompts/VideoCollection/VideoCollection.client.lua
+client     987  yes      scripts/StarterGui/WorkTool.client.lua
+client     465  NO       scripts/StarterPlayer/StarterCharacterScripts/CustomAnimation.client.lua
+server      33  yes      scripts/StarterPlayer/StarterCharacterScripts/FastWalk.server.lua
+server      28  yes      scripts/StarterPlayer/StarterCharacterScripts/Sound.server.lua
+client     356  yes      scripts/StarterPlayer/StarterCharacterScripts/Sound/LocalSound.client.lua
+client     675  yes      scripts/StarterPlayer/StarterPlayerScripts/FurnitureDragger.client.lua
+client     486  yes      scripts/StarterPlayer/StarterPlayerScripts/FurnitureStreaming.client.lua
+client     199  yes      scripts/StarterPlayer/StarterPlayerScripts/Gamepad.client.lua
+client      65  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalClickDetectors.client.lua
+client     181  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalMain.client.lua
+client     284  yes      scripts/StarterPlayer/StarterPlayerScripts/Music.client.lua
+client     142  NO       scripts/StarterPlayer/StarterPlayerScripts/Snow.client.lua
+client      18  yes      scripts/StarterPlayer/StarterPlayerScripts/Teleport.client.lua
+client     281  yes      scripts/StarterPlayer/StarterPlayerScripts/Vehicle.client.lua
+client     271  yes      scripts/StarterPlayer/StarterPlayerScripts/VehicleCamera.client.lua
+client      97  yes      scripts/StarterPlayer/StarterPlayerScripts/VehicleSounds.client.lua
+client      54  yes      scripts/StarterPlayer/StarterPlayerScripts/WaterDetail.client.lua
+client      28  NO       scripts/StarterPlayer/StarterPlayerScripts/WaterDetail/SeaFloorScript.client.lua
+server      12  yes      scripts/Workspace/Antler Lamp/ClickDetector/Lamp.server.lua
+server      92  yes      scripts/Workspace/Balloon/EquipmentSpawner/Script.server.lua   (same source as scripts/Workspace/GoldenCarpet/EquipmentSpawner/Script.server.lua)
+server     113  yes      scripts/Workspace/Balloon/GreenBalloon/BalloonScript.server.lua
+client       7  yes      scripts/Workspace/Balloon/GreenBalloon/LocalScript.client.lua
+client       7  yes      scripts/Workspace/Balloon/GreenBalloon/LocalScript~2.client.lua   (same source as scripts/Workspace/Balloon/GreenBalloon/LocalScript.client.lua)
+server      59  yes      scripts/Workspace/Balloon/GreenBalloon/WeldArm.server.lua
+server      92  yes      scripts/Workspace/Carpet/EquipmentSpawner/Script.server.lua   (same source as scripts/Workspace/GoldenCarpet/EquipmentSpawner/Script.server.lua)
+client     219  yes      scripts/Workspace/Carpet/RainbowMagicCarpet/LocalScript.client.lua
+client      28  yes      scripts/Workspace/Carpet/RainbowMagicCarpet/MouseIcon.client.lua
+server     368  yes      scripts/Workspace/Carpet/RainbowMagicCarpet/Script.server.lua
+server      31  NO       scripts/Workspace/Carpet/RainbowMagicCarpet/Script/RemovalMonitor.server.lua
+server      92  yes      scripts/Workspace/Cloud/EquipmentSpawner/Script.server.lua   (same source as scripts/Workspace/GoldenCarpet/EquipmentSpawner/Script.server.lua)
+client     403  yes      scripts/Workspace/Cloud/PompousTheCloud/LocalScript.client.lua
+server     166  yes      scripts/Workspace/Cloud/PompousTheCloud/Script.server.lua
+server     107  yes      scripts/Workspace/DriveThroughWindow/ClickDetector/Window.server.lua
+server      85  yes      scripts/Workspace/Gate/Script.server.lua
+server      85  yes      scripts/Workspace/Gate~2/Script.server.lua   (same source as scripts/Workspace/Gate/Script.server.lua)
+server      85  yes      scripts/Workspace/Gate~3/Script.server.lua
+server      85  yes      scripts/Workspace/Gate~4/Script.server.lua
+server      85  yes      scripts/Workspace/Gate~5/Gate.server.lua
+server      92  yes      scripts/Workspace/GoldenCarpet/EquipmentSpawner/Script.server.lua
+client     208  yes      scripts/Workspace/GoldenCarpet/GoldenCarpet/LocalScript.client.lua
+client      26  yes      scripts/Workspace/GoldenCarpet/GoldenCarpet/MouseIcon.client.lua
+server     359  yes      scripts/Workspace/GoldenCarpet/GoldenCarpet/Script.server.lua
+server      29  NO       scripts/Workspace/GoldenCarpet/GoldenCarpet/Script/RemovalMonitor.server.lua
+server       7  yes      scripts/Workspace/HD Admin/About.server.lua
+module      42  yes      scripts/Workspace/HD Admin/CustomFeatures/Client/Modules/ClientCommands.lua
+module      31  yes      scripts/Workspace/HD Admin/CustomFeatures/Client/SharedModules/Events.lua
+module      71  yes      scripts/Workspace/HD Admin/CustomFeatures/Server/Modules/Commands.lua
+module     226  yes      scripts/Workspace/HD Admin/Settings.lua
+server      14  yes      scripts/Workspace/HD Admin/Settings/Loader.server.lua
+client      12  NO       scripts/Workspace/HD Admin/ThumbnailCamera/LocalScript.client.lua
+server      26  yes      scripts/Workspace/KrustyKrab/KrustyKrab.server.lua
+server      25  yes      scripts/Workspace/MenSuit/ClickDetector/SuitMen.server.lua
+client     799  yes      scripts/Workspace/Oakley/Animate.client.lua
+server      12  yes      scripts/Workspace/RemoveFire/Script.server.lua
+server      27  yes      scripts/Workspace/Sign~6/Truss/Climbing.server.lua   (same source as scripts/Workspace/Truss/Climbing.server.lua)
+client       4  NO       scripts/Workspace/Sign~6/Truss/Climbing/SetClimb.client.lua   (same source as scripts/Workspace/Truss/Climbing/SetClimb.client.lua)
+server       6  yes      scripts/Workspace/Smooth Block Model~154/Script.server.lua
+server      25  yes      scripts/Workspace/SpeedingCoil/AccelerationCoil/Script.server.lua
+server      60  NO       scripts/Workspace/SpeedingCoil/AccelerationCoil/SpeedBoostScript.server.lua
+server      92  yes      scripts/Workspace/SpeedingCoil/EquipmentSpawner/Script.server.lua   (same source as scripts/Workspace/GoldenCarpet/EquipmentSpawner/Script.server.lua)
+server      31  yes      scripts/Workspace/Suckup/SuckUpPlayer.server.lua
+server      26  NO       scripts/Workspace/SupplyRoof/Script.server.lua
+server      24  yes      scripts/Workspace/Teleport to Party Island/Head/PartyTeleport.server.lua
+server      14  yes      scripts/Workspace/Trip/Trip.server.lua
+server      27  yes      scripts/Workspace/Truss/Climbing.server.lua
+client       4  NO       scripts/Workspace/Truss/Climbing/SetClimb.client.lua
+server      27  yes      scripts/Workspace/Truss~2/Climbing.server.lua   (same source as scripts/Workspace/Truss/Climbing.server.lua)
+client       4  NO       scripts/Workspace/Truss~2/Climbing/SetClimb.client.lua   (same source as scripts/Workspace/Truss/Climbing/SetClimb.client.lua)
+server      27  yes      scripts/Workspace/Truss~3/Climbing.server.lua   (same source as scripts/Workspace/Truss/Climbing.server.lua)
+client       4  NO       scripts/Workspace/Truss~3/Climbing/SetClimb.client.lua   (same source as scripts/Workspace/Truss/Climbing/SetClimb.client.lua)
+server      27  yes      scripts/Workspace/Truss~4/Climbing.server.lua   (same source as scripts/Workspace/Truss/Climbing.server.lua)
+client       4  NO       scripts/Workspace/Truss~4/Climbing/SetClimb.client.lua   (same source as scripts/Workspace/Truss/Climbing/SetClimb.client.lua)
+server      14  yes      scripts/Workspace/Window/ClickDetector/Blinds.server.lua
+server      14  yes      scripts/Workspace/Window~13/ClickDetector/Blinds.server.lua
+server      24  yes      scripts/Workspace/WomensSuit/ClickDetector/SuitWomen.server.lua

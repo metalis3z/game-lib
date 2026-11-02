@@ -1,0 +1,11 @@
+{
+ "instances": 111270,
+ "packed": 111141,
+ "services": 49,
+ "code_or_empty_folders_not_packed": 78,
+ "not_packed": {
+  "Workspace.Camera": 1,
+  "InsertService.StringValue": 1
+ },
+ "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+}

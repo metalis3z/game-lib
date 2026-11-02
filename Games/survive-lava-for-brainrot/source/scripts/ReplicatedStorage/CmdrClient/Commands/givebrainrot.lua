@@ -1,0 +1,39 @@
+-- Saved by anthu decompiler gui script (used universalsynsaveinstance) (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+--Decompiled by Medal, I take no credit I only Made The dumper and I I.. I iron man
+local v1 = {
+	["Name"] = script.Name,
+	["Aliases"] = { "gbr" },
+	["Description"] = script.Name,
+	["Group"] = "DefaultAdmin",
+	["Args"] = {
+		{
+			["Type"] = "players",
+			["Name"] = "Players",
+			["Description"] = "players to give!"
+		},
+		{
+			["Type"] = "brainrotnames",
+			["Name"] = "Brainrots",
+			["Description"] = "brainrots to give!",
+			["Optional"] = true
+		},
+		{
+			["Type"] = "mutationname",
+			["Name"] = "MutationName",
+			["Description"] = "Mutation",
+			["Optional"] = true
+		},
+		{
+			["Type"] = "traitnames",
+			["Name"] = "Traits",
+			["Optional"] = true
+		},
+		{
+			["Type"] = "number",
+			["Name"] = "Level",
+			["Optional"] = true
+		}
+	}
+}
+return v1

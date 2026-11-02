@@ -1,0 +1,1 @@
+return require(script.Parent.Parent.Signal.Signal.init)

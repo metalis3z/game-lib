@@ -1,0 +1,527 @@
+{
+ "slug": "work-at-a-pizza-place",
+ "title": "Work at a Pizza Place",
+ "genre": "roleplay / job simulator",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 1242,
+  "screen_guis": 2,
+  "classes": {
+   "Frame": 412,
+   "TextButton": 353,
+   "TextLabel": 229,
+   "ImageLabel": 207,
+   "UIAspectRatioConstraint": 69,
+   "LocalScript": 63,
+   "BindableEvent": 20,
+   "UIListLayout": 20,
+   "SurfaceGui": 20,
+   "ImageButton": 18,
+   "ScrollingFrame": 14,
+   "ModuleScript": 12,
+   "TextBox": 9,
+   "UISizeConstraint": 8,
+   "UIGridLayout": 6,
+   "BillboardGui": 3,
+   "ScreenGui": 2,
+   "Folder": 2,
+   "ObjectValue": 1,
+   "UITextSizeConstraint": 1,
+   "UIPadding": 1,
+   "BindableFunction": 1,
+   "Accessory": 1,
+   "IntValue": 1,
+   "FloorWire": 1,
+   "BoolValue": 1,
+   "Script": 1
+  },
+  "fonts": {
+   "LegacyArial Regular": 248,
+   "SourceSansPro Regular": 217,
+   "SourceSansPro Bold": 63,
+   "Arial Bold": 56,
+   "ComicNeueAngular Regular": 5,
+   "Arial Regular": 2
+  },
+  "background_colors": {
+   "#1b2a35": 130,
+   "#ffffff": 115,
+   "#1f1f1f": 64,
+   "#a3a2a5": 52,
+   "#000000": 49,
+   "#0d69ac": 8,
+   "#111111": 6,
+   "#515151": 5,
+   "#e5e5e5": 4,
+   "#232323": 4,
+   "#4f4f4f": 3,
+   "#a4bd47": 3,
+   "#f8f8f8": 3,
+   "#7f8e64": 3,
+   "#d7c59a": 3,
+   "#ffcc99": 3
+  },
+  "text_colors": {
+   "#ffffff": 312,
+   "#1b2a35": 218,
+   "#000000": 8,
+   "#f7e559": 5,
+   "#2b2b2b": 5,
+   "#282828": 5,
+   "#6c6c6c": 4,
+   "#3b3b3b": 4,
+   "#1bba1b": 3,
+   "#f8f8f8": 3
+  },
+  "stroke_colors": {},
+  "image_tints": {
+   "#00a2ff": 2,
+   "#5a5a5a": 2,
+   "#d8d8d8": 2,
+   "#e6e6e6": 1,
+   "#ffbf00": 1,
+   "#ff0000": 1
+  },
+  "corner_radius": {},
+  "stroke_thickness": {},
+  "text_size_px": {
+   "8": 193,
+   "24": 115,
+   "14": 36,
+   "28": 33,
+   "18": 29,
+   "36": 23,
+   "32": 13,
+   "10": 11,
+   "12": 2,
+   "11": 2
+  },
+  "text_scaled_share": 0.22,
+  "size_mode": {
+   "scale": 505,
+   "mixed": 460,
+   "offset": 277
+  },
+  "unique_images": 79,
+  "per_100_objects": {
+   "UICorner": 0.0,
+   "UIStroke": 0.0,
+   "UIGradient": 0.0,
+   "UIAspectRatioConstraint": 5.6,
+   "UIListLayout": 1.6,
+   "UIGridLayout": 0.5,
+   "UIPadding": 0.1,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.1,
+   "ImageLabel": 16.7,
+   "ImageButton": 1.4,
+   "TextButton": 28.4
+  }
+ },
+ "map": {
+  "instances": 11461,
+  "parts": 4903,
+  "meshparts": 14,
+  "unions": 25,
+  "anchored_share": 0.99,
+  "textures_decals": 809,
+  "surface_appearances": 0,
+  "lights": 36,
+  "emitters": 2,
+  "beams_trails": 0,
+  "sounds": 9,
+  "prompts": 0,
+  "world_guis": 106,
+  "humanoids": 7,
+  "materials": {
+   "Brick": 1593,
+   "Wood": 1019,
+   "CorrodedMetal": 542,
+   "Plastic": 539,
+   "Grass": 416,
+   "SmoothPlastic": 330,
+   "Sand": 273,
+   "Pebble": 65,
+   "Slate": 35,
+   "Concrete": 25,
+   "Cobblestone": 25,
+   "Metal": 19
+  },
+  "part_colors": {
+   "#d7c59a": 1385,
+   "#694028": 955,
+   "#cdcdcd": 447,
+   "#a3a2a5": 408,
+   "#c4281c": 257,
+   "#111111": 187,
+   "#a05f35": 181,
+   "#f5cd30": 120,
+   "#4b974b": 104,
+   "#7c5c46": 84,
+   "#287f47": 77,
+   "#e7e7ec": 77,
+   "#348e40": 61,
+   "#1f801d": 57
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   1707,
+   72,
+   1014
+  ],
+  "extent_all_studs": [
+   4101,
+   959,
+   6842
+  ],
+  "top_classes": {
+   "Part": 4743,
+   "Weld": 1984,
+   "ManualWeld": 1430,
+   "Texture": 795,
+   "Model": 450,
+   "BlockMesh": 305,
+   "CylinderMesh": 287,
+   "Snap": 156,
+   "RemoteEvent": 134,
+   "SurfaceGui": 105,
+   "Folder": 82,
+   "BindableEvent": 77,
+   "WedgePart": 65,
+   "SpecialMesh": 63,
+   "ImageLabel": 63
+  }
+ },
+ "lighting": {
+  "Ambient": "#594b33",
+  "Brightness": 1.9812,
+  "ColorShift_Bottom": "#f8a464",
+  "ColorShift_Top": "#f8c764",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#e8e8e8",
+  "FogEnd": 1000000.0,
+  "FogStart": 1000000.0,
+  "GeographicLatitude": -30.733,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#ffcdb0",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.5,
+  "Technology": "Voxel",
+  "TimeOfDay": "07:50:00",
+  "@attributes": {
+   "RBX_BackupBrightness": 1.0,
+   "RBX_BackupExposureCompensation": 0.0,
+   "RBX_LightingCompatibilityMigrated": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=35268852",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=35268837",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=35268884",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=35268868",
+    "SkyboxRt": "http://www.roblox.com/asset/?id=35268872",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=35268877",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Afternoon",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.1,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "Afternoon",
+    "Saturation": 0.1,
+    "TintColor": "#ffecd5"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Morning",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.1,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Morning",
+    "Saturation": 0.1,
+    "TintColor": "#fff2dd"
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.2,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Midday",
+   "props": {
+    "Brightness": 0.05,
+    "Contrast": 0.1,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Midday",
+    "Saturation": 0.1,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Night",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.1,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Night",
+    "Saturation": 0.1,
+    "TintColor": "#d4e0ff"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Blur",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "WinterDay",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "WinterDay",
+    "Saturation": -0.1,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "WinterNight",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "WinterNight",
+    "Saturation": 0.2,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "HalloweenNight",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "HalloweenNight",
+    "Saturation": 0.1,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ChristmasNight",
+   "props": {
+    "Brightness": -0.05,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "ChristmasNight",
+    "Saturation": 0.2,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorGradingEffect",
+   "name": "ColorGrading",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorGrading",
+    "TonemapperPreset": 1
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 0.95
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": false,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 0,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0d545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.05,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 6,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "model": 539,
+  "parts": 5,
+  "audio": 5,
+  "vfx": 3,
+  "model-set": 30,
+  "animations": 1,
+  "other": 8
+ },
+ "coverage": {
+  "instances": 34510,
+  "packed": 34289,
+  "services": 51,
+  "code_or_empty_folders_not_packed": 134,
+  "not_packed": {
+   "ServerStorage.Camera": 22,
+   "ServerScriptService.Camera": 9,
+   "Workspace.Camera": 3,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 69,
+ "sound_ids": 91,
+ "files": 599,
+ "kb": 4411,
+ "category": "Roleplay",
+ "source_file": "Work_at_a_pizza_place.rbxl"
+}

@@ -1,0 +1,1 @@
+script.Parent.Humanoid.Animator:LoadAnimation(script.Parent.Idle):Play()

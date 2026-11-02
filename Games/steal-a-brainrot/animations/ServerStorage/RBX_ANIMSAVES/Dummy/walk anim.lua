@@ -1,0 +1,147 @@
+-- Generated from animations/ServerStorage/RBX_ANIMSAVES/Dummy/walk anim.rbxm by _tools/rbxm2lua.luau
+-- Animation pack: require(this)() returns the KeyframeSequence / Animation instances
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local function build()
+	local I = {}
+	I[1] = new("KeyframeSequence", nil, "walk anim", nil, { ["ViralWorkerRef"] = "vw_06eec32eec" })
+		I[2] = new("Keyframe", I[1], "Keyframe", nil, { ["ViralWorkerRef"] = "vw_9e3ef03087" })
+			I[3] = new("Pose", I[2], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_1edefba0da" })
+				I[4] = new("IntValue", I[3], "Null", nil, { ["ViralWorkerRef"] = "vw_354542aaa9" })
+				I[5] = new("Pose", I[3], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9987445, 0.0500934, 0, -0.0500934, 0.9987445) }, { ["ViralWorkerRef"] = "vw_5b927e0b88" })
+					I[6] = new("Pose", I[5], "LeftUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8093084, -0.5873839, 0, 0.5873839, 0.8093084) }, { ["ViralWorkerRef"] = "vw_dc40c1a8b2" })
+						I[7] = new("Pose", I[6], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.885152, 0.465302, 0, -0.465302, 0.885152) }, { ["ViralWorkerRef"] = "vw_1677c323c9" })
+							I[8] = new("Pose", I[7], "LeftFoot", nil, { ["ViralWorkerRef"] = "vw_0c358b0f38" })
+					I[9] = new("Pose", I[5], "RightUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8709376, 0.4913937, 0, -0.4913937, 0.8709376) }, { ["ViralWorkerRef"] = "vw_00f69c8a47" })
+						I[10] = new("Pose", I[9], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9932329, 0.1161396, 0, -0.1161396, 0.9932329) }, { ["ViralWorkerRef"] = "vw_d3eaba9d68" })
+							I[11] = new("Pose", I[10], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9723152, 0.2336733, 0, -0.2336733, 0.9723152) }, { ["ViralWorkerRef"] = "vw_29babaa953" })
+					I[12] = new("Pose", I[5], "UpperTorso", { CFrame = CFrame.new(0, 0, 0, 0.9995164, -0.0027014, 0.0309804, 0, 0.9962199, 0.0868669, -0.031098, -0.0868248, 0.9957381) }, { ["ViralWorkerRef"] = "vw_9a4374adfc" })
+						I[13] = new("Pose", I[12], "RightUpperArm", { CFrame = CFrame.new(0, 0, 0, 0.9825336, 0.1569835, -0.0999191, -0.186085, 0.8288767, -0.5275754, 0, 0.536954, 0.8436115) }, { ["ViralWorkerRef"] = "vw_cefa84d774" })
+							I[14] = new("Pose", I[13], "RightLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8716515, -0.4901261, 0, 0.4901261, 0.8716515) }, { ["ViralWorkerRef"] = "vw_b22dfb9fce" })
+								I[15] = new("Pose", I[14], "RightHand", nil, { ["ViralWorkerRef"] = "vw_0fdea5808f" })
+						I[16] = new("Pose", I[12], "LeftUpperArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9501104, 0.3119138, 0, -0.3119138, 0.9501104) }, { ["ViralWorkerRef"] = "vw_3443ef0959" })
+							I[17] = new("Pose", I[16], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9987288, 0.0504059, 0, -0.0504059, 0.9987288) }, { ["ViralWorkerRef"] = "vw_d084dda0d9" })
+						I[18] = new("Pose", I[12], "Head", { CFrame = CFrame.new(0, -0.0000001, 0, 0.9999835, 0, 0.0057495, 0.0007179, 0.9921745, -0.1248567, -0.0057045, 0.1248587, 0.9921581) }, { ["ViralWorkerRef"] = "vw_a538bd7a3f" })
+		I[19] = new("Keyframe", I[1], "Keyframe", { Time = 0.1833333 }, { ["ViralWorkerRef"] = "vw_a7bb9a8c75" })
+			I[20] = new("Pose", I[19], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_d86da5c1fe" })
+				I[21] = new("IntValue", I[20], "Null", nil, { ["ViralWorkerRef"] = "vw_e990c42d36" })
+				I[22] = new("Pose", I[20], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9995487, 0.0300384, 0, -0.0300384, 0.9995487) }, { ["ViralWorkerRef"] = "vw_687c87c96f" })
+					I[23] = new("Pose", I[22], "LeftUpperLeg", { CFrame = CFrame.new(0, -0.0000001, 0, 1, 0, 0, 0, 0.9991208, -0.0419239, 0, 0.0419239, 0.9991208) }, { ["ViralWorkerRef"] = "vw_f1c9bfa843" })
+						I[24] = new("Pose", I[23], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9504149, 0.3109848, 0, -0.3109848, 0.9504149) }, { ["ViralWorkerRef"] = "vw_cd5426285b" })
+							I[25] = new("Pose", I[24], "LeftFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9855238, 0.1695371, 0, -0.1695371, 0.9855238) }, { ["ViralWorkerRef"] = "vw_49c0213f58" })
+					I[26] = new("Pose", I[22], "RightUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9995725, 0.0292388, 0, -0.0292388, 0.9995725) }, { ["ViralWorkerRef"] = "vw_d6df33a637" })
+						I[27] = new("Pose", I[26], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.6374353, 0.7705039, 0, -0.7705039, 0.6374353) }, { ["ViralWorkerRef"] = "vw_44d2949d24" })
+							I[28] = new("Pose", I[27], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9803841, 0.1970963, 0, -0.1970963, 0.9803841) }, { ["ViralWorkerRef"] = "vw_a0f4f254ea" })
+					I[29] = new("Pose", I[22], "UpperTorso", { CFrame = CFrame.new(0, 0.0000001, 0, 0.9993094, 0, -0.0371594, 0.0007165, 0.9998141, 0.0192697, 0.0371525, -0.019283, 0.9991236) }, { ["ViralWorkerRef"] = "vw_35350bf066" })
+						I[30] = new("Pose", I[29], "RightUpperArm", { CFrame = CFrame.new(0, 0, 0, 0.9941162, 0.0870662, -0.0644381, -0.0885695, 0.9958519, -0.0208458, 0.0623559, 0.0264304, 0.997704) }, { ["ViralWorkerRef"] = "vw_51d10f573c" })
+							I[31] = new("Pose", I[30], "RightLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9995209, -0.0309522, 0, 0.0309522, 0.9995209) }, { ["ViralWorkerRef"] = "vw_3bf7ad26bc" })
+								I[32] = new("Pose", I[31], "RightHand", nil, { ["ViralWorkerRef"] = "vw_623f9e6bf4" })
+						I[33] = new("Pose", I[29], "LeftUpperArm", { CFrame = CFrame.new(0, 0, 0, 0.9967853, -0.0801196, 0, 0.0799845, 0.9951049, -0.0580416, 0.0046503, 0.057855, 0.9983142) }, { ["ViralWorkerRef"] = "vw_f2001fb80d" })
+							I[34] = new("Pose", I[33], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9999993, 0.0011325, 0, -0.0011325, 0.9999993) }, { ["ViralWorkerRef"] = "vw_f2ffd7c09f" })
+						I[35] = new("Pose", I[29], "Head", { CFrame = CFrame.new(0, 0, 0, 0.9995463, 0.0015839, 0.0300783, 0, 0.9986163, -0.0525873, -0.03012, 0.0525635, 0.9981633) }, { ["ViralWorkerRef"] = "vw_75f8bf9026" })
+		I[36] = new("Keyframe", I[1], "Keyframe", { Time = 0.35 }, { ["ViralWorkerRef"] = "vw_47ed8e5419" })
+			I[37] = new("Pose", I[36], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_780c5c34bc" })
+				I[38] = new("IntValue", I[37], "Null", nil, { ["ViralWorkerRef"] = "vw_10129d809a" })
+				I[39] = new("Pose", I[37], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9999304, 0.011796, 0, -0.011796, 0.9999304) }, { ["ViralWorkerRef"] = "vw_424d5443ef" })
+					I[40] = new("Pose", I[39], "LeftUpperLeg", { CFrame = CFrame.new(0, -0.0000001, 0, 1, 0, 0, 0, 0.882009, 0.4712326, 0, -0.4712326, 0.882009) }, { ["ViralWorkerRef"] = "vw_cacb258ed9" })
+						I[41] = new("Pose", I[40], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9866259, 0.1630014, 0, -0.1630014, 0.9866259) }, { ["ViralWorkerRef"] = "vw_ee438a8090" })
+							I[42] = new("Pose", I[41], "LeftFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9475764, 0.3195293, 0, -0.3195293, 0.9475764) }, { ["ViralWorkerRef"] = "vw_f2932548de" })
+					I[43] = new("Pose", I[39], "RightUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9166567, -0.3996755, 0, 0.3996755, 0.9166567) }, { ["ViralWorkerRef"] = "vw_3e168af080" })
+						I[44] = new("Pose", I[43], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, -0.0026791, 0.9999964, 0, -0.9999964, -0.0026791) }, { ["ViralWorkerRef"] = "vw_f3f8d5188f" })
+							I[45] = new("Pose", I[44], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9865262, 0.1636035, 0, -0.1636035, 0.9865262) }, { ["ViralWorkerRef"] = "vw_a115f9f86c" })
+					I[46] = new("Pose", I[39], "UpperTorso", { CFrame = CFrame.new(0, -0.0000001, 0, 0.9958476, 0.0009983, -0.0910299, 0.0050102, 0.9978233, 0.065753, 0.0908974, -0.065936, 0.993675) }, { ["ViralWorkerRef"] = "vw_6730217483" })
+						I[47] = new("Pose", I[46], "LeftUpperArm", { CFrame = CFrame.new(0, -0.0000001, 0, 0.9967853, -0.0793568, 0.0110292, 0.0799845, 0.9776413, -0.194474, 0.0046503, 0.194731, 0.9808457) }, { ["ViralWorkerRef"] = "vw_0e2405d0c5" })
+							I[48] = new("Pose", I[47], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9999748, -0.0070993, 0, 0.0070993, 0.9999748) }, { ["ViralWorkerRef"] = "vw_7c906a0660" })
+						I[49] = new("Pose", I[46], "Head", { CFrame = CFrame.new(0, 0.0000001, 0, 0.9958751, 0.0043795, 0.0906285, 0.00187, 0.9976317, -0.0687577, -0.090715, 0.0686436, 0.9935083) }, { ["ViralWorkerRef"] = "vw_8260ad0795" })
+		I[50] = new("Keyframe", I[1], "Keyframe", { Time = 0.5333334 }, { ["ViralWorkerRef"] = "vw_9ea19dbe14" })
+			I[51] = new("Pose", I[50], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_f19e99e1e7" })
+				I[52] = new("IntValue", I[51], "Null", nil, { ["ViralWorkerRef"] = "vw_fcc706885c" })
+				I[53] = new("Pose", I[51], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9995487, 0.0300384, 0, -0.0300384, 0.9995487) }, { ["ViralWorkerRef"] = "vw_c26c0aa622" })
+					I[54] = new("Pose", I[53], "LeftUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9994445, 0.0333258, 0, -0.0333258, 0.9994445) }, { ["ViralWorkerRef"] = "vw_c702ed94eb" })
+						I[55] = new("Pose", I[54], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0.0000001, 1, 0, 0, 0, 0.6084552, 0.7935883, 0, -0.7935883, 0.6084552) }, { ["ViralWorkerRef"] = "vw_982462ca12" })
+							I[56] = new("Pose", I[55], "LeftFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9727342, 0.2319227, 0, -0.2319227, 0.9727342) }, { ["ViralWorkerRef"] = "vw_d682924900" })
+					I[57] = new("Pose", I[53], "RightUpperLeg", { CFrame = CFrame.new(0, -0.0000001, 0, 1, 0, 0, 0, 0.8650422, -0.5016992, 0, 0.5016992, 0.8650422) }, { ["ViralWorkerRef"] = "vw_63292cc24d" })
+						I[58] = new("Pose", I[57], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.5382231, 0.8428025, 0, -0.8428025, 0.5382231) }, { ["ViralWorkerRef"] = "vw_97db69cdc0" })
+							I[59] = new("Pose", I[58], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9973367, 0.072935, 0, -0.072935, 0.9973367) }, { ["ViralWorkerRef"] = "vw_2cf9de5eea" })
+					I[60] = new("Pose", I[53], "UpperTorso", { CFrame = CFrame.new(0, 0, 0, 0.9988747, 0.0016888, -0.0473983, 0, 0.9993658, 0.0356083, 0.0474283, -0.0355682, 0.9982412) }, { ["ViralWorkerRef"] = "vw_227951deba" })
+						I[61] = new("Pose", I[60], "RightUpperArm", { CFrame = CFrame.new(0.0000001, 0, 0, 0.9973644, 0.0181488, -0.0702493, 0.0068233, 0.9404587, 0.3398396, 0.0722343, -0.3394232, 0.9378561) }, { ["ViralWorkerRef"] = "vw_0fec2277b8" })
+							I[62] = new("Pose", I[61], "RightLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.999977, 0.0067906, 0, -0.0067906, 0.999977) }, { ["ViralWorkerRef"] = "vw_0243721759" })
+								I[63] = new("Pose", I[62], "RightHand", nil, { ["ViralWorkerRef"] = "vw_616acf807c" })
+						I[64] = new("Pose", I[60], "LeftUpperArm", { CFrame = CFrame.new(0, -0.0000001, 0, 0.9967853, -0.075803, 0.0259434, 0.0799845, 0.9226969, -0.3771381, 0.0046503, 0.3780007, 0.9257936) }, { ["ViralWorkerRef"] = "vw_cc3df91f94" })
+							I[65] = new("Pose", I[64], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9366343, -0.3503086, 0, 0.3503086, 0.9366343) }, { ["ViralWorkerRef"] = "vw_c58beb1acb" })
+						I[66] = new("Pose", I[60], "Head", { CFrame = CFrame.new(0, 0, 0, 0.9997147, 0.0014043, 0.0238428, 0, 0.99827, -0.0587952, -0.0238841, 0.0587785, 0.9979852) }, { ["ViralWorkerRef"] = "vw_f11bb068d3" })
+		I[67] = new("Keyframe", I[1], "Keyframe", { Time = 0.7 }, { ["ViralWorkerRef"] = "vw_019f3dd763" })
+			I[68] = new("Pose", I[67], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_9babb7bad5" })
+				I[69] = new("IntValue", I[68], "Null", nil, { ["ViralWorkerRef"] = "vw_fbd81809bf" })
+				I[70] = new("Pose", I[68], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9998831, -0.0152863, 0, 0.0152863, 0.9998831) }, { ["ViralWorkerRef"] = "vw_cd68c934f6" })
+					I[71] = new("Pose", I[70], "LeftUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9277546, -0.3731909, 0, 0.3731909, 0.9277546) }, { ["ViralWorkerRef"] = "vw_26c6c2fa68" })
+						I[72] = new("Pose", I[71], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, -0.030384, 0.9995383, 0, -0.9995383, -0.030384) }, { ["ViralWorkerRef"] = "vw_808bdb0066" })
+							I[73] = new("Pose", I[72], "LeftFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9885965, 0.1505888, 0, -0.1505888, 0.9885965) }, { ["ViralWorkerRef"] = "vw_773410d198" })
+					I[74] = new("Pose", I[70], "RightUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8082861, -0.5887899, 0, 0.5887899, 0.8082861) }, { ["ViralWorkerRef"] = "vw_b0fa969cda" })
+						I[75] = new("Pose", I[74], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8854327, 0.4647676, 0, -0.4647676, 0.8854327) }, { ["ViralWorkerRef"] = "vw_54206627cd" })
+							I[76] = new("Pose", I[75], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9999496, -0.0100385, 0, 0.0100385, 0.9999496) }, { ["ViralWorkerRef"] = "vw_df74c3d35f" })
+					I[77] = new("Pose", I[70], "UpperTorso", { CFrame = CFrame.new(0, 0.0000001, 0, 0.9997186, 0.0011655, -0.0236931, -0.0002112, 0.9991901, 0.040239, 0.0237208, -0.0402227, 0.9989091) }, { ["ViralWorkerRef"] = "vw_c047408f9c" })
+						I[78] = new("Pose", I[77], "LeftUpperArm", { CFrame = CFrame.new(0, -0.0000001, 0, 0.9967853, -0.0794958, 0.0099787, 0.0799845, 0.9801279, -0.181527, 0.0046503, 0.1817416, 0.9833353) }, { ["ViralWorkerRef"] = "vw_ebecc17039" })
+							I[79] = new("Pose", I[78], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9937593, -0.1115453, 0, 0.1115453, 0.9937593) }, { ["ViralWorkerRef"] = "vw_257e887203" })
+						I[80] = new("Pose", I[77], "Head", { CFrame = CFrame.new(0, 0, 0, 0.9999287, 0.0004213, 0.0119368, -0.0001757, 0.9997883, -0.02057, -0.0119429, 0.0205664, 0.9997171) }, { ["ViralWorkerRef"] = "vw_0c2884e393" })
+		I[81] = new("Keyframe", I[1], "Keyframe", { Time = 0.8666667 }, { ["ViralWorkerRef"] = "vw_4fc748f864" })
+			I[82] = new("Pose", I[81], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_9464cae01f" })
+				I[83] = new("IntValue", I[82], "Null", nil, { ["ViralWorkerRef"] = "vw_ce2ca2540b" })
+				I[84] = new("Pose", I[82], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9998484, 0.0174128, 0, -0.0174128, 0.9998484) }, { ["ViralWorkerRef"] = "vw_73db4c0017" })
+					I[85] = new("Pose", I[84], "LeftUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8751096, -0.4839249, 0, 0.4839249, 0.8751096) }, { ["ViralWorkerRef"] = "vw_dd9b04d545" })
+						I[86] = new("Pose", I[85], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0.0000001, 1, 0, 0, 0, 0.5039932, 0.8637077, 0, -0.8637077, 0.5039932) }, { ["ViralWorkerRef"] = "vw_b265cd4b35" })
+							I[87] = new("Pose", I[86], "LeftFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9921194, 0.1252957, 0, -0.1252957, 0.9921194) }, { ["ViralWorkerRef"] = "vw_6651acd669" })
+					I[88] = new("Pose", I[84], "RightUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9983222, -0.0579034, 0, 0.0579034, 0.9983222) }, { ["ViralWorkerRef"] = "vw_a66c759c6a" })
+						I[89] = new("Pose", I[88], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9553698, 0.2954124, 0, -0.2954124, 0.9553698) }, { ["ViralWorkerRef"] = "vw_e3496e9cf7" })
+							I[90] = new("Pose", I[89], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9936327, 0.1126679, 0, -0.1126679, 0.9936327) }, { ["ViralWorkerRef"] = "vw_bfbcbebbdb" })
+					I[91] = new("Pose", I[84], "UpperTorso", { CFrame = CFrame.new(0, 0, 0, 0.9991771, -0.0021415, 0.040503, 0, 0.9986051, 0.0527994, -0.0405596, -0.0527559, 0.9977834) }, { ["ViralWorkerRef"] = "vw_cf2731b186" })
+						I[92] = new("Pose", I[91], "RightUpperArm", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_b2ce03af9a" })
+							I[93] = new("IntValue", I[92], "Null", nil, { ["ViralWorkerRef"] = "vw_b8cbf0b670" })
+							I[94] = new("Pose", I[92], "RightLowerArm", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_ae8abdcc92" })
+								I[95] = new("IntValue", I[94], "Null", nil, { ["ViralWorkerRef"] = "vw_50a83ea973" })
+								I[96] = new("Pose", I[94], "RightHand", nil, { ["ViralWorkerRef"] = "vw_4b6e3857db" })
+						I[97] = new("Pose", I[91], "LeftUpperArm", { CFrame = CFrame.new(0, 0, 0, 0.9967853, -0.0772989, -0.0210721, 0.0799845, 0.9753364, 0.2057225, 0.0046503, -0.2067465, 0.9783835) }, { ["ViralWorkerRef"] = "vw_f4d1940cf0" })
+							I[98] = new("Pose", I[97], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9990155, -0.0443632, 0, 0.0443632, 0.9990155) }, { ["ViralWorkerRef"] = "vw_b2848d5591" })
+						I[99] = new("Pose", I[91], "Head", { CFrame = CFrame.new(0, 0, 0, 0.9949668, -0.0091067, -0.0997903, 0, 0.9958618, -0.0908812, 0.100205, 0.0904238, 0.9908494) }, { ["ViralWorkerRef"] = "vw_79058a693f" })
+		I[100] = new("Keyframe", I[1], "Keyframe", { Time = 1.0333333 }, { ["ViralWorkerRef"] = "vw_3485c0a522" })
+			I[101] = new("Pose", I[100], "HumanoidRootPart", { Weight = 0 }, { ["ViralWorkerRef"] = "vw_16b35eea42" })
+				I[102] = new("IntValue", I[101], "Null", nil, { ["ViralWorkerRef"] = "vw_462aa060b6" })
+				I[103] = new("Pose", I[101], "LowerTorso", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9987445, 0.0500934, 0, -0.0500934, 0.9987445) }, { ["ViralWorkerRef"] = "vw_f4a31660fc" })
+					I[104] = new("Pose", I[103], "LeftUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8093084, -0.5873839, 0, 0.5873839, 0.8093084) }, { ["ViralWorkerRef"] = "vw_f40e719f43" })
+						I[105] = new("Pose", I[104], "LeftLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.885152, 0.465302, 0, -0.465302, 0.885152) }, { ["ViralWorkerRef"] = "vw_1757370962" })
+							I[106] = new("Pose", I[105], "LeftFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9949954, 0.0999209, 0, -0.0999209, 0.9949954) }, { ["ViralWorkerRef"] = "vw_ee0e85a154" })
+					I[107] = new("Pose", I[103], "RightUpperLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8709376, 0.4913937, 0, -0.4913937, 0.8709376) }, { ["ViralWorkerRef"] = "vw_156962cbcd" })
+						I[108] = new("Pose", I[107], "RightLowerLeg", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9932329, 0.1161396, 0, -0.1161396, 0.9932329) }, { ["ViralWorkerRef"] = "vw_daa5c2fb50" })
+							I[109] = new("Pose", I[108], "RightFoot", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9723152, 0.2336733, 0, -0.2336733, 0.9723152) }, { ["ViralWorkerRef"] = "vw_220c37f60e" })
+					I[110] = new("Pose", I[103], "UpperTorso", { CFrame = CFrame.new(0, 0, 0, 0.9995164, -0.0027014, 0.0309804, 0, 0.9962199, 0.0868669, -0.031098, -0.0868248, 0.9957381) }, { ["ViralWorkerRef"] = "vw_46c5048d32" })
+						I[111] = new("Pose", I[110], "RightUpperArm", { CFrame = CFrame.new(0, 0, 0, 0.9825336, 0.1569835, -0.0999191, -0.186085, 0.8288767, -0.5275754, 0, 0.536954, 0.8436115) }, { ["ViralWorkerRef"] = "vw_c1033a8144" })
+							I[112] = new("Pose", I[111], "RightLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.8716515, -0.4901261, 0, 0.4901261, 0.8716515) }, { ["ViralWorkerRef"] = "vw_a82b4308cb" })
+						I[113] = new("Pose", I[110], "LeftUpperArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9501104, 0.3119138, 0, -0.3119138, 0.9501104) }, { ["ViralWorkerRef"] = "vw_4353784624" })
+							I[114] = new("Pose", I[113], "LeftLowerArm", { CFrame = CFrame.new(0, 0, 0, 1, 0, 0, 0, 0.9987288, 0.0504059, 0, -0.0504059, 0.9987288) }, { ["ViralWorkerRef"] = "vw_b6a2bfa4a4" })
+	return I[1]
+end
+
+return build

@@ -1,0 +1,18 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local t = require(ReplicatedStorage.Library.Modules.Packages.t)
+
+return {
+	SchemaValidation = {
+		ForestGuardHitRequest = t.interface({
+			EggUid = t.string,
+			GuardCFrame = t.CFrame
+		}),
+		ForestGuardDepositRequest = t.interface({
+			EggUid = t.string,
+			Kind = t.union(t.literal("Attached"), t.literal("Deposited"))
+		})
+	}
+}

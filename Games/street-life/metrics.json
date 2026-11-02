@@ -1,0 +1,528 @@
+{
+ "slug": "street-life",
+ "title": "Street Life",
+ "genre": "open-world roleplay / hood",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 759,
+  "screen_guis": 46,
+  "classes": {
+   "UIStroke": 562,
+   "UICorner": 344,
+   "TextLabel": 321,
+   "TextButton": 207,
+   "Frame": 133,
+   "UITextSizeConstraint": 102,
+   "Sound": 47,
+   "ScreenGui": 46,
+   "ImageLabel": 43,
+   "LocalScript": 42,
+   "NumberValue": 25,
+   "ImageButton": 22,
+   "ScrollingFrame": 20,
+   "UIListLayout": 17,
+   "TextBox": 13,
+   "ObjectValue": 11,
+   "BoolValue": 6,
+   "BillboardGui": 6,
+   "UIGridLayout": 5,
+   "UIPadding": 4,
+   "Folder": 4,
+   "Script": 3,
+   "UnionOperation": 3,
+   "RemoteEvent": 2,
+   "Animation": 2,
+   "UIAspectRatioConstraint": 2,
+   "UIGradient": 2,
+   "UIScale": 1
+  },
+  "fonts": {
+   "Oswald Bold": 335,
+   "SourceSansPro Regular": 54,
+   "font asset 12187370747 Bold": 35,
+   "DenkOne Bold": 32,
+   "Inconsolata Bold": 12,
+   "Oswald Regular": 10,
+   "GothamSSm Bold": 9,
+   "SourceSansPro Bold": 8,
+   "Zekton Bold": 8,
+   "Roboto Bold": 6,
+   "LuckiestGuy Bold": 4,
+   "Oswald SemiBold": 4
+  },
+  "background_colors": {
+   "#323232": 71,
+   "#ffffff": 45,
+   "#000000": 33,
+   "#2d2d2d": 24,
+   "#00ff00": 21,
+   "#646464": 21,
+   "#00aa00": 18,
+   "#00c800": 10,
+   "#757575": 10,
+   "#ff0004": 9,
+   "#dcdcdc": 8,
+   "#0707ac": 8,
+   "#282828": 7,
+   "#505050": 7,
+   "#969696": 6,
+   "#0000ff": 4
+  },
+  "text_colors": {
+   "#ffffff": 338,
+   "#000000": 65,
+   "#ff0004": 29,
+   "#00ff00": 18,
+   "#00aa00": 11,
+   "#ff0000": 10,
+   "#ffff00": 10,
+   "#00aaff": 7,
+   "#000baa": 4,
+   "#1e1e1e": 4
+  },
+  "stroke_colors": {
+   "#000000": 407,
+   "#ffffff": 91,
+   "#969696": 16,
+   "#00ff00": 10,
+   "#646464": 8,
+   "#02d1ff": 7,
+   "#323232": 4,
+   "#666666": 4,
+   "#05e6ff": 3,
+   "#0dff00": 2
+  },
+  "image_tints": {
+   "#0800ff": 2,
+   "#a60003": 1,
+   "#00fff7": 1,
+   "#00ff00": 1,
+   "#9500ff": 1,
+   "#222222": 1,
+   "#22ff00": 1
+  },
+  "corner_radius": {
+   "{0.0,8}": 115,
+   "{0.3,0}": 46,
+   "{0.0,15}": 35,
+   "{0.2,0}": 30,
+   "{0.1,0}": 30,
+   "{0.025,8}": 22,
+   "{1.0,0}": 14,
+   "{0.0,5}": 12,
+   "{0.25,0}": 10,
+   "{0.325,0}": 7
+  },
+  "stroke_thickness": {
+   "2.0 px": 313,
+   "1.0 px": 193,
+   "1.5 px": 28,
+   "3.0 px": 26,
+   "8.0 px": 1,
+   "5.0 px": 1
+  },
+  "text_size_px": {
+   "1": 16,
+   "14": 3
+  },
+  "text_scaled_share": 0.96,
+  "size_mode": {
+   "scale": 756,
+   "offset": 3
+  },
+  "unique_images": 31,
+  "per_100_objects": {
+   "UICorner": 45.3,
+   "UIStroke": 74.0,
+   "UIGradient": 0.3,
+   "UIAspectRatioConstraint": 0.3,
+   "UIListLayout": 2.2,
+   "UIGridLayout": 0.7,
+   "UIPadding": 0.5,
+   "UIScale": 0.1,
+   "UITextSizeConstraint": 13.4,
+   "ImageLabel": 5.7,
+   "ImageButton": 2.9,
+   "TextButton": 27.3
+  }
+ },
+ "map": {
+  "instances": 198655,
+  "parts": 121885,
+  "meshparts": 8958,
+  "unions": 5300,
+  "anchored_share": 1.0,
+  "textures_decals": 11300,
+  "surface_appearances": 699,
+  "lights": 1830,
+  "emitters": 232,
+  "beams_trails": 28,
+  "sounds": 4220,
+  "prompts": 842,
+  "world_guis": 899,
+  "humanoids": 64,
+  "materials": {
+   "Plastic": 40711,
+   "Metal": 22276,
+   "SmoothPlastic": 22272,
+   "Neon": 9014,
+   "Concrete": 8427,
+   "Wood": 4830,
+   "Brick": 3503,
+   "DiamondPlate": 1879,
+   "WoodPlanks": 1869,
+   "Grass": 1687,
+   "Glass": 1671,
+   "Sand": 961
+  },
+  "part_colors": {
+   "#a3a2a5": 14032,
+   "#111111": 13885,
+   "#635f62": 7811,
+   "#ffffff": 7591,
+   "#1b2a35": 6801,
+   "#000000": 6637,
+   "#f8f8f8": 6166,
+   "#ff0000": 5580,
+   "#694028": 2526,
+   "#7c5c46": 2224,
+   "#cacbd1": 2186,
+   "#dfdfde": 2028,
+   "#9fa1ac": 1957,
+   "#edeaea": 1832
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Spawn",
+    "parts": 1322,
+    "instances": 2292,
+    "meshparts": 235,
+    "emitters": 5,
+    "lights": 32,
+    "guis": 45,
+    "sounds": 3,
+    "size": [
+     106,
+     49,
+     95
+    ]
+   }
+  ],
+  "extent_studs": [
+   1257,
+   508,
+   2040
+  ],
+  "extent_all_studs": [
+   1666,
+   643,
+   2199
+  ],
+  "top_classes": {
+   "Part": 93504,
+   "Model": 18780,
+   "WedgePart": 13804,
+   "MeshPart": 8958,
+   "CylinderMesh": 7090,
+   "Texture": 7029,
+   "SpecialMesh": 6534,
+   "UnionOperation": 5300,
+   "Vector3Value": 4307,
+   "Decal": 4271,
+   "Sound": 4220,
+   "Attachment": 3303,
+   "ManualWeld": 1920,
+   "BlockMesh": 1882,
+   "TextLabel": 1478
+  }
+ },
+ "lighting": {
+  "Ambient": "#303030",
+  "Brightness": 1.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "Intent": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#505050",
+  "Outlines": false,
+  "Quality": 1,
+  "ShadowSoftness": 0.18,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "00:00:00",
+  "@attributes": {
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#c8aa6c",
+    "Decay": "#5c3c0e",
+    "DefinesCapabilities": false,
+    "Density": 0.368,
+    "Glare": 0.0,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 0.662
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "IntroBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "IntroBlur",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "GunHSCC",
+   "props": {
+    "Brightness": -0.01,
+    "Contrast": 0.1,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "GunHSCC",
+    "Saturation": -0.1,
+    "TintColor": "#e2e2e2"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "GunHSBLUR",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "GunHSBLUR",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "EffectBLUR",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "EffectBLUR",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.093,
+    "FocusDistance": 0.0,
+    "InFocusRadius": 21.785,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.75
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Dead",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 1.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Dead",
+    "Saturation": 0.9,
+    "TintColor": "#212121"
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.01,
+    "Name": "SunRays",
+    "Spread": 0.1
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 2.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Cloudy Sky",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 0.0,
+    "MoonTextureId": "",
+    "Name": "Cloudy Sky",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=4498803477",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=4498803790",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=4498804837",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=4498805961",
+    "SkyboxRt": "http://www.roblox.com/asset/?id=4498805526",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=4498807979",
+    "StarCount": 3000,
+    "SunAngularSize": 0.0,
+    "SunTextureId": ""
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 500,
+  "@attributes": {
+   "LogLevelClient": "Warning"
+  }
+ },
+ "packs": {
+  "ui": 58,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 14,
+  "materials": 1,
+  "lighting": 1,
+  "model": 868,
+  "animations": 9,
+  "vfx": 1,
+  "model-set": 38,
+  "keyframes": 1,
+  "other": 11
+ },
+ "coverage": {
+  "instances": 321586,
+  "packed": 321402,
+  "services": 53,
+  "code_or_empty_folders_not_packed": 128,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 1,
+ "animation_ids": 197,
+ "sound_ids": 7505,
+ "files": 1001,
+ "kb": 188914,
+ "category": "Roleplay",
+ "source_file": "Street Life Fully Scripted.rbxl"
+}

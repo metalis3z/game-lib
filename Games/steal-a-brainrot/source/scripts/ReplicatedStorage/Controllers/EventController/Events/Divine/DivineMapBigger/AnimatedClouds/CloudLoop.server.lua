@@ -1,0 +1,11 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMKBnNjcmlwdAlDbG91ZExvb3AGUGFyZW50E0FuaW1hdGlvbkNvbnRyb2xsZXIIQW5pbWF0b3IMV2FpdEZvckNoaWxkDUxvYWRBbmltYXRpb24GTG9vcGVkBFBsYXkLQWRqdXN0U3BlZWQAAQYAAAECAB6jAAAApAEBAAAAAEBNAAF0AgAAAKQDAQAAAABATQIDJAMAAABNAQIgBAAAAG8DBQC8AQHTBgAAAJ8BAwJSBAAAvAIBlAcAAACfAgMCqQMBADADArUIAAAAvAMC7gkAAACfAwIBbwUKALwDAt8LAAAAnwMDAYIAAQAMAwEEAAAAQAMCAwMDBAMFAwYDBwMIAwkCAAAAAAAA4D8DCgABAAEYAAAAAAABAAAAAAAAAAAAAgAAAAIAAAEAAAEAAAABAQAAAAAAzcWDTRjsRcSIxp0ZCp5lHr3dlDn/AelM
+
+-- decompilation:
+local l_CloudLoop_0 = script.CloudLoop;
+local v1 = script.Parent.AnimationController:WaitForChild("Animator"):LoadAnimation(l_CloudLoop_0);
+v1.Looped = true;
+v1:Play();
+v1:AdjustSpeed(0.5);

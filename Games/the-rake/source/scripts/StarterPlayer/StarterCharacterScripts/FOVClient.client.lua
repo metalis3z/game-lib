@@ -1,0 +1,5 @@
+local tweenService = game:GetService("TweenService")
+local TweenInfoo = TweenInfo.new(0.7,Enum.EasingStyle.Cubic,Enum.EasingDirection.Out)
+local WalkFov = tweenService:Create(workspace.Camera,TweenInfoo,{FieldOfView = 80})
+wait()
+WalkFov:Play()

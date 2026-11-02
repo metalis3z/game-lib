@@ -1,0 +1,50 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ReplicatedStorage/Shared/DumpTable.lua lines 276
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/Modules/ProfileStore.lua lines 617,1282,1731,2017
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  117501901079852  in scripts/ReplicatedStorage/Icon/VERSION.lua
+  1693794094  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  1694208871  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  1694602214  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/AreasController.lua, scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  1772834400  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526145731  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526145887  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146033  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146187  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146318  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146434  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146542  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146696  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146828  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526146962  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147081  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147214  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147344  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147451  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147579  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147684  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147804  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526147981  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526148194  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526148403  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526148554  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526148747  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526148797  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526148926  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526149021  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526319775  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526319816  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526319891  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3526319949  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/UIController.lua
+  3540252946  in scripts/StarterPlayer/StarterPlayerScripts/Controllers/FuseMachineController.lua
+
+Outside URLs in code:
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/ServerScriptService/Modules/ProfileStore.lua
+  https://devforum.roblox.com/t/topbarplus/1017485  in scripts/ReplicatedStorage/Icon/Attribute.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/Assets/BigMoon/MoonRotate.server.lua, scripts/ReplicatedStorage/Assets/DiscoMap/Leaderboard/BasePrimary/LeaderboardUI/Frame/ScrollingFrame/Script.server.lua, scripts/ReplicatedStorage/Assets/DiscoMap/Leaderboard~2/BasePrimary/LeaderboardUI/Frame/ScrollingFrame/Script.server.lua
+  https://eryn.io/Cmdr/guide/Hooks.html  in scripts/ReplicatedStorage/CmdrClient/Shared/Dispatcher.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/ServerScriptService/Modules/ProfileStore.lua

@@ -1,0 +1,257 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+local TestEnum = require(script.Parent.TestEnum)
+local Expectation = require(script.Parent.Expectation)
+
+local function newEnvironment(p1, p2) --[[ newEnvironment | Line: 11 | Upvalues: TestEnum (copy), Expectation (copy) ]]
+	local t = {}
+
+	if p2 then
+		if type(p2) ~= "table" then
+			error(("Bad argument #2 to newEnvironment. Expected table, got %s"):format((typeof(p2))), 2)
+		end
+
+		for k, v in pairs(p2) do
+			t[k] = v
+		end
+	end
+
+	local function addChild(p12, p2, p3, p4) --[[ addChild | Line: 24 | Upvalues: p1 (copy), TestEnum (ref) ]]
+		local v1 = p1:addChild(p12, p3, p4)
+
+		v1.callback = p2
+
+		if p3 == TestEnum.NodeType.Describe then
+			v1:expand()
+		end
+
+		return v1
+	end
+
+	function t.describeFOCUS(p1, p2) --[[ describeFOCUS | Line: 33 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		addChild(p1, p2, TestEnum.NodeType.Describe, TestEnum.NodeModifier.Focus)
+	end
+	function t.describeSKIP(p1, p2) --[[ describeSKIP | Line: 37 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		addChild(p1, p2, TestEnum.NodeType.Describe, TestEnum.NodeModifier.Skip)
+	end
+	function t.describe(p1, p2, p3) --[[ describe | Line: 41 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		addChild(p1, p2, TestEnum.NodeType.Describe, TestEnum.NodeModifier.None)
+	end
+	function t.itFOCUS(p1, p2) --[[ itFOCUS | Line: 45 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		addChild(p1, p2, TestEnum.NodeType.It, TestEnum.NodeModifier.Focus)
+	end
+	function t.itSKIP(p1, p2) --[[ itSKIP | Line: 49 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		addChild(p1, p2, TestEnum.NodeType.It, TestEnum.NodeModifier.Skip)
+	end
+	function t.itFIXME(p1, p2) --[[ itFIXME | Line: 53 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		warn("FIXME: broken test", addChild(p1, p2, TestEnum.NodeType.It, TestEnum.NodeModifier.Skip):getFullName())
+	end
+	function t.it(p1, p2, p3) --[[ it | Line: 58 | Upvalues: addChild (copy), TestEnum (ref) ]]
+		addChild(p1, p2, TestEnum.NodeType.It, TestEnum.NodeModifier.None)
+	end
+
+	local tbl = {
+		[TestEnum.NodeType.BeforeAll] = "beforeAll",
+		[TestEnum.NodeType.AfterAll] = "afterAll",
+		[TestEnum.NodeType.BeforeEach] = "beforeEach",
+		[TestEnum.NodeType.AfterEach] = "afterEach"
+	}
+	local v1 = 0
+
+	for k, v in pairs(tbl) do
+		t[v] = function(p1) --[[ Line: 73 | Upvalues: addChild (copy), v (copy), v1 (ref), k (copy), TestEnum (ref) ]]
+			addChild(v .. "_" .. tostring(v1), p1, k, TestEnum.NodeModifier.None)
+			v1 = v1 + 1
+		end
+	end
+
+	function t.FIXME(p12) --[[ FIXME | Line: 79 | Upvalues: p1 (copy), TestEnum (ref) ]]
+		warn("FIXME: broken test", p1:getFullName(), p12 or "")
+		p1.modifier = TestEnum.NodeModifier.Skip
+	end
+	function t.FOCUS() --[[ FOCUS | Line: 85 | Upvalues: p1 (copy), TestEnum (ref) ]]
+		p1.modifier = TestEnum.NodeModifier.Focus
+	end
+	function t.SKIP() --[[ SKIP | Line: 89 | Upvalues: p1 (copy), TestEnum (ref) ]]
+		p1.modifier = TestEnum.NodeModifier.Skip
+	end
+	function t.HACK_NO_XPCALL() --[[ HACK_NO_XPCALL | Line: 97 ]]
+		warn("HACK_NO_XPCALL is deprecated. It is now safe to yield in an xpcall, so this is no longer necessary. It can be safely deleted.")
+	end
+	t.fit = t.itFOCUS
+	t.xit = t.itSKIP
+	t.fdescribe = t.describeFOCUS
+	t.xdescribe = t.describeSKIP
+
+	local t2 = {
+		extend = function(...) --[[ extend | Line: 110 ]]
+			error("Cannot call \"expect.extend\" from within a \"describe\" node.")
+		end
+	}
+	local t3 = {
+		__call = function(p1, ...) --[[ __call | Line: 114 | Upvalues: Expectation (ref) ]]
+			return Expectation.new(...)
+		end
+	}
+
+	t.expect = setmetatable(t2, t3)
+
+	return t
+end
+
+local t = {}
+
+t.__index = t
+function t.new(p1, p2, p3, p4) --[[ new | Line: 130 | Upvalues: TestEnum (copy), newEnvironment (copy), t (copy) ]]
+	local t2 = {
+		callback = nil,
+		parent = nil,
+		plan = p1,
+		phrase = p2,
+		type = p3,
+		modifier = if p4 then p4 else TestEnum.NodeModifier.None,
+		children = {}
+	}
+
+	t2.environment = newEnvironment(t2, p1.extraEnvironment)
+
+	return setmetatable(t2, t)
+end
+
+local function getModifier(p1, p2, p3) --[[ getModifier | Line: 147 | Upvalues: TestEnum (copy) ]]
+	if p2 and (p3 == nil or p3 == TestEnum.NodeModifier.None) then
+		if p1:match(p2) then
+			return TestEnum.NodeModifier.Focus
+		end
+
+		return TestEnum.NodeModifier.Skip
+	end
+
+	return p3
+end
+
+function t.addChild(p1, p2, p3, p4) --[[ addChild | Line: 158 | Upvalues: TestEnum (copy), getModifier (copy), t (copy) ]]
+	if p3 == TestEnum.NodeType.It then
+		for k, v in pairs(p1.children) do
+			if v.phrase == p2 then
+				error("Duplicate it block found: " .. v:getFullName())
+			end
+		end
+	end
+
+	local v2 = t.new(p1.plan, p2, p3, (getModifier(p1:getFullName() .. " " .. p2, p1.plan.testNamePattern, p4)))
+
+	v2.parent = p1
+	table.insert(p1.children, v2)
+
+	return v2
+end
+function t.getFullName(p1) --[[ getFullName | Line: 178 ]]
+	if p1.parent then
+		local v1 = p1.parent:getFullName()
+
+		if v1 then
+			return v1 .. " " .. p1.phrase
+		end
+	end
+
+	return p1.phrase
+end
+function t.expand(p1) --[[ expand | Line: 192 ]]
+	local v1 = getfenv(p1.callback)
+	local v2 = setmetatable({}, {
+		__index = v1
+	})
+
+	for k, v in pairs(p1.environment) do
+		v2[k] = v
+	end
+
+	v2.script = v1.script
+	setfenv(p1.callback, v2)
+
+	local ok, result = xpcall(p1.callback, function(p1) --[[ Line: 203 ]]
+		return debug.traceback(tostring(p1), 2)
+	end)
+
+	if ok then
+		return
+	end
+
+	p1.loadError = result
+end
+
+local t2 = {}
+
+t2.__index = t2
+function t2.new(p1, p2) --[[ new | Line: 218 | Upvalues: t2 (copy) ]]
+	return setmetatable({
+		children = {},
+		testNamePattern = p1,
+		extraEnvironment = p2
+	}, t2)
+end
+function t2.addChild(p1, p2, p3, p4) --[[ addChild | Line: 231 | Upvalues: getModifier (copy), t (copy) ]]
+	local v2 = t.new(p1, p2, p3, (getModifier(p2, p1.testNamePattern, p4)))
+
+	table.insert(p1.children, v2)
+
+	return v2
+end
+function t2.addRoot(p1, p2, p3) --[[ addRoot | Line: 242 | Upvalues: TestEnum (copy) ]]
+	local v1 = p1
+
+	for i = #p2, 1, -1 do
+		local v2 = nil
+
+		for i2, v in ipairs(v1.children) do
+			if v.phrase == p2[i] then
+				v2 = v
+
+				break
+			end
+		end
+
+		if v2 == nil then
+			v2 = v1:addChild(p2[i], TestEnum.NodeType.Describe)
+		end
+
+		v1 = v2
+	end
+
+	v1.callback = p3
+	v1:expand()
+end
+function t2.visitAllNodes(p1, p2, p3, p4) --[[ visitAllNodes | Line: 268 ]]
+	local v1 = p4 or 0
+
+	for i, v in ipairs((p3 or p1).children) do
+		p2(v, v1)
+		p1:visitAllNodes(p2, v, v1 + 1)
+	end
+end
+function t2.visualize(p1) --[[ visualize | Line: 283 ]]
+	local t = {}
+
+	p1:visitAllNodes(function(p1, p2) --[[ Line: 285 | Upvalues: t (copy) ]]
+		table.insert(t, (" "):rep(3 * p2) .. p1.phrase)
+	end)
+
+	return table.concat(t, "\n")
+end
+function t2.findNodes(p1, p2) --[[ findNodes | Line: 295 ]]
+	local t = {}
+
+	p1:visitAllNodes(function(p1) --[[ Line: 297 | Upvalues: p2 (copy), t (copy) ]]
+		if not p2(p1) then
+			return
+		end
+
+		table.insert(t, p1)
+	end)
+
+	return t
+end
+
+return t2

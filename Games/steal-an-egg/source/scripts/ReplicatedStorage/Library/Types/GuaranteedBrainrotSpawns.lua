@@ -1,0 +1,11 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+return {
+	SECRET_BRAINROT_INTERVAL = 1200,
+	COSMIC_BRAINROT_INTERVAL = 600,
+	ETERNAL_BRAINROT_INTERVAL = 3600,
+	SECRET_BRAINROT_PHASE_OFFSET = 600,
+	COSMIC_BRAINROT_PHASE_OFFSET = 300,
+	ETERNAL_BRAINROT_PHASE_OFFSET = 0
+}

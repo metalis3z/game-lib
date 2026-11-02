@@ -1,0 +1,3 @@
+local GoldPotService = {}
+
+return GoldPotService

@@ -1,0 +1,246 @@
+245 remotes / bindables
+BindableEvent          StarterPlayer.StarterPlayerScripts.GUI.BackpackController.Main.Api
+BindableFunction       StarterPlayer.StarterCharacterScripts.Animate.PlayEmote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.WebSlinger.WebSlingerRemote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.Trap.TrapRemote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.TaserGun.LaserGunRemote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.Demon Slap.Remote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.RageTable.ThrowingTableRemote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.Golden Slap.Remote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.BeeLauncher.BeeLauncherRemote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.Emerald Slap.Remote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.MedusaHead.MedusaHeadRemote
+RemoteEvent            ReplicatedStorage.GearTools.ShopItems.Dirt Slap.Remote
+BindableEvent          ReplicatedStorage.Library.Client.Network.Items: Update
+BindableEvent          ReplicatedStorage.Library.Client.Network.Chat Msg Data
+BindableEvent          ReplicatedStorage.Library.Client.Network.Chat Msg
+BindableEvent          ReplicatedStorage.Library.Client.Network.Chat Msg Default
+BindableEvent          ReplicatedStorage.Library.Client.Network.Product Failed
+BindableEvent          ReplicatedStorage.Library.Client.Network.Product Bought
+BindableEvent          ReplicatedStorage.Library.Client.Network.Plots: RequestProximityPurchase
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Trading Settings Updated
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Request
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Reject
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Created
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Set Ready
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Set Confirmed
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Set Item
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Message
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Executing
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Destroyed
+BindableEvent          ReplicatedStorage.Library.Client.Network.Trading: Add History
+BindableEvent          ReplicatedStorage.Library.Client.Network.Prompting Purchase
+BindableEvent          ReplicatedStorage.Library.Client.Network.ServerLuck:StateUpdated
+BindableEvent          ReplicatedStorage.Library.Client.Network.ReplicateEffects: ShakeOnce
+BindableEvent          ReplicatedStorage.Library.Client.Network.RuntimeSync: Sync
+BindableEvent          ReplicatedStorage.Library.Client.Network.Message
+BindableFunction       ReplicatedStorage.Library.Client.Network.Backpack: PromptFullInventorySell
+BindableEvent          ReplicatedStorage.Library.Client.Network.Gamepass Bought
+BindableEvent          ReplicatedStorage.Library.Client.Network.Friends: Invite Success
+BindableEvent          ReplicatedStorage.Library.Client.Network.MurderMystery: RoundStateChanged
+BindableEvent          ReplicatedStorage.Library.Client.Network.AdminMessages: ShowMessage
+BindableEvent          ReplicatedStorage.Library.Client.Network.BodySwap: PlayVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.BodySwap: PlaySfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.BoogieBomb: ApplyEffect
+BindableEvent          ReplicatedStorage.Library.Client.Network.BoogieBomb: RemoveEffect
+BindableEvent          ReplicatedStorage.Library.Client.Network.BoogieBomb: StopVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.LaserCap: PlayBeamVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.LaserCap: PlaySfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.Magnet: PlayBeamVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.Magnet: PlayTargetVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.Magnet: StopTargetVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.Megaphone: PlayVfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.Megaphone: PlaySfx
+BindableEvent          ReplicatedStorage.Library.Client.Network.Megaphone: StartEffectWindow
+BindableEvent          ReplicatedStorage.Library.Client.Network.Megaphone: StopEffectWindow
+BindableEvent          ReplicatedStorage.Library.Client.Network.SubspaceMine: TrapPlaced
+BindableEvent          ReplicatedStorage.Library.Client.Network.SubspaceMine: ApplyHighlight
+BindableEvent          ReplicatedStorage.Library.Client.Network.ActiveAssets: DnaStealAnimation
+BindableFunction       ReplicatedStorage.Library.Modules.Animate.Assets.PlayEmote
+RemoteFunction         ReplicatedStorage.Library.Modules.AnimationController.Async.LoadAnimPackage
+RemoteFunction         ReplicatedStorage.Library.Modules.AnimationController.Async.LoadEmotePackage
+RemoteEvent            ReplicatedStorage.Library.Modules.Ragdoll.Ragdoll
+BindableEvent          ReplicatedStorage.Library.Modules.WeightedTable.Event
+BindableEvent          ReplicatedStorage.Library.Signal.Loaded Stats
+BindableEvent          ReplicatedStorage.Library.Signal.Stats Removed
+BindableEvent          ReplicatedStorage.Library.Signal.Loaded Other Stats
+BindableEvent          ReplicatedStorage.Library.Signal.Setting Slider Update
+BindableEvent          ReplicatedStorage.Library.Signal.Setting Slider Update
+BindableEvent          ReplicatedStorage.Library.Signal.Changed Platform
+BindableFunction       ReplicatedStorage.Library.Signal.Console: Get Console Type
+BindableFunction       ReplicatedStorage.Library.Signal.Console: Get Image For String
+BindableFunction       ReplicatedStorage.Library.Signal.Console: Element Visible On Screen
+BindableFunction       ReplicatedStorage.Library.Signal.Console: Button Visible on Screen
+BindableFunction       ReplicatedStorage.Library.Signal.AssetGenerationUtil: GetBaseRateMutationOnly
+BindableEvent          ReplicatedStorage.Library.Signal.Loaded Stats
+BindableEvent          ReplicatedStorage.Library.Signal.Loaded Other Stats
+BindableEvent          ReplicatedStorage.Library.Signal.Stats Removed
+BindableEvent          ReplicatedStorage.Library.Signal.Prompting Purchase
+BindableEvent          ReplicatedStorage.Library.Signal.Console Updated
+BindableEvent          ReplicatedStorage.Library.Signal.Console: Released Button
+BindableFunction       ReplicatedStorage.Library.Signal.Platform: Get
+BindableEvent          ReplicatedStorage.Library.Signal.Console: Pressed Button
+BindableFunction       ReplicatedStorage.Library.Signal.Trading: Has Trade Notifications
+BindableEvent          ReplicatedStorage.Library.Signal.Trading: Force Close Notification
+BindableFunction       ReplicatedStorage.Library.Signal.Notifications: Has Queue
+BindableEvent          ReplicatedStorage.Library.Signal.FuseMachine: FuseStarted
+BindableFunction       ReplicatedStorage.Library.Signal.ClientCharacter: GetGroundedRootHeight
+BindableEvent          ReplicatedStorage.Library.Signal.Setting Slider Update
+BindableFunction       ReplicatedStorage.Library.Signal.AssetGenerationUtil: GetBaseRateMutationOnly
+BindableEvent          ReplicatedStorage.Library.Signal.Setting Slider Update
+BindableFunction       ReplicatedStorage.Library.Signal.AssetGenerationUtil: GetBaseRateMutationOnly
+BindableEvent          ReplicatedStorage.Library.Signal.Setting Slider Update
+BindableEvent          ReplicatedStorage.Library.Signal.Setting Slider Update
+RemoteEvent            ReplicatedStorage.AssetUiEvent
+RemoteEvent            ReplicatedStorage.SetItemFavorite
+BindableEvent          ReplicatedStorage.Api
+RemoteEvent            ReplicatedStorage.Network.ClientCharacter: RequestCharacterReset
+RemoteEvent            ReplicatedStorage.Network.Traps:RequestPlace
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestAreaEggDrop
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestAreaEggCarry
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestAreaEggRareSpawnPresentations
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestAreaEggSnapshot
+RemoteEvent            ReplicatedStorage.Network.Guards: ForestDeposit
+RemoteEvent            ReplicatedStorage.Network.Guards: ForestHit
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestCompleteHatchEgg
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestHatchEgg
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestSkipGrowth
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestPlaceEgg
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestUnequipTool
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestEquipTool
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestEggRecord
+RemoteFunction         ReplicatedStorage.Network.Eggs: RequestRuntimeSnapshot
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestSetMediaLike
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestFriendLikeSnapshot
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestLikeSnapshot
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestSetSlowToggleEnabled
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestGetSlowToggleState
+RemoteFunction         ReplicatedStorage.Network.Get Stats
+RemoteEvent            ReplicatedStorage.Network.Treadmills: UpdateMediaIndex
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestUnequip
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestUpgrade
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestActiveRenderSnapshot
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestEquipStatic
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestSetCommentLike
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestPostComment
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestCommentCounts
+RemoteFunction         ReplicatedStorage.Network.Treadmills: RequestCommentPage
+RemoteEvent            ReplicatedStorage.Network.Plots: RequestLobbyTeleport
+RemoteEvent            ReplicatedStorage.Network.Plots: RequestBaseUpgrade
+RemoteFunction         ReplicatedStorage.Network.Plots: RequestState
+RemoteEvent            ReplicatedStorage.Network.ClientCharacter: CorrectionStarted
+RemoteEvent            ReplicatedStorage.Network.ClientCharacter: Ready
+RemoteFunction         ReplicatedStorage.Network.ClientCharacter: Sync
+RemoteFunction         ReplicatedStorage.Network.Gifting: Response
+RemoteFunction         ReplicatedStorage.Network.Gifting: Send Request
+RemoteFunction         ReplicatedStorage.Network.OfflineAssets: IsStatePending
+RemoteFunction         ReplicatedStorage.Network.OfflineAssets: Redeem
+RemoteFunction         ReplicatedStorage.Network.OfflineAssets: GetSummary
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestSell
+RemoteFunction         ReplicatedStorage.Network.Backpack: GetEquipBestStatus
+RemoteFunction         ReplicatedStorage.Network.Backpack: EquipBest
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: AcknowledgePenFullEquipBestBadge
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: AcknowledgePenFullPetsBadge
+RemoteEvent            ReplicatedStorage.Network.GearInventory: Added
+RemoteEvent            ReplicatedStorage.Network.Products: Granted
+RemoteEvent            ReplicatedStorage.Network.Products: Receipt Processed
+RemoteFunction         ReplicatedStorage.Network.GroupReward: ClaimReward
+RemoteEvent            ReplicatedStorage.Network.AssetInventory: SetFavorite
+RemoteEvent            ReplicatedStorage.Network.Analytics:ReportAfkState
+RemoteFunction         ReplicatedStorage.Network.Analytics:RequestAfkTeleportFlush
+RemoteFunction         ReplicatedStorage.Network.Analytics:ReportAfkTeleport
+RemoteFunction         ReplicatedStorage.Network.Backpack: GetAutoSellState
+RemoteFunction         ReplicatedStorage.Network.Backpack: SetAutoSellState
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestRuntimeSnapshot
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestEquip
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestUnequip
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestEquipLimit
+RemoteEvent            ReplicatedStorage.Network.Gifting: Friend Request
+RemoteEvent            ReplicatedStorage.Network.Gifting: Request
+RemoteEvent            ReplicatedStorage.Network.ActiveAssets: MoneyCollected
+RemoteEvent            ReplicatedStorage.Network.New Stats
+RemoteEvent            ReplicatedStorage.Network.Plots: StateUpdate
+RemoteFunction         ReplicatedStorage.Network.Trails: RequestPurchase
+RemoteFunction         ReplicatedStorage.Network.Trails: RequestActiveSnapshot
+RemoteFunction         ReplicatedStorage.Network.Trails: RequestUnequip
+RemoteFunction         ReplicatedStorage.Network.Trails: RequestSelect
+RemoteFunction         ReplicatedStorage.Network.GuardTutorial: RequestSyncProgress
+RemoteFunction         ReplicatedStorage.Network.Index: RequestClaimLimitedEggReward
+RemoteFunction         ReplicatedStorage.Network.Index: RequestEquipAreaBat
+RemoteFunction         ReplicatedStorage.Network.Index: RequestClaimAll
+RemoteFunction         ReplicatedStorage.Network.Index: RequestClaim
+RemoteFunction         ReplicatedStorage.Network.ServerLuck:GetState
+RemoteFunction         ReplicatedStorage.Network.Settings: Request Update
+RemoteFunction         ReplicatedStorage.Network.Experiments:Get
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestDnaStealAnimationComplete
+RemoteEvent            ReplicatedStorage.Network.ActiveAssets: StealTargetEvent
+RemoteFunction         ReplicatedStorage.Network.ActiveAssets: RequestStealTarget
+RemoteEvent            ReplicatedStorage.Network.Megaphone: RequestActivate
+RemoteFunction         ReplicatedStorage.Network.FuseMachine: AcknowledgeInfo
+RemoteFunction         ReplicatedStorage.Network.FuseMachine: CompleteReveal
+RemoteFunction         ReplicatedStorage.Network.FuseMachine: StartFuse
+RemoteFunction         ReplicatedStorage.Network.FuseMachine: RemoveMob
+RemoteFunction         ReplicatedStorage.Network.FuseMachine: InsertMob
+RemoteEvent            ReplicatedStorage.Network.LaserCap: RequestFire
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Set Confirmed
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Message
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Set Item
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Set Ready
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Decline
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Reject
+RemoteFunction         ReplicatedStorage.Network.Server: Trading: Request
+RemoteFunction         ReplicatedStorage.Network.Products: Whitelist Purchase
+RemoteFunction         ReplicatedStorage.Network.Products: Request Server Test
+RemoteFunction         ReplicatedStorage.Network.Products: Request Prompt Purchase
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_SetSpeedPower
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_SetWalkSpeed
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_ResetSelfData
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_CheckAdminStatus
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_GiveEggToSelf
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_GiveAssetToSelf
+RemoteEvent            ReplicatedStorage.Network.BodySwap: RequestSwap
+RemoteEvent            ReplicatedStorage.Network.SubspaceMine: RequestPlace
+RemoteEvent            ReplicatedStorage.Network.AssetInventory: SellAllAssets
+RemoteEvent            ReplicatedStorage.Network.AssetInventory: SellAsset
+RemoteEvent            ReplicatedStorage.Network.Magnet: RequestPull
+RemoteEvent            ReplicatedStorage.Network.BoogieBomb: RequestBoogie
+RemoteEvent            ReplicatedStorage.Network.Bat:Activate
+RemoteEvent            ReplicatedStorage.Network.Eggs: AreaEggClaimFeedback
+RemoteEvent            ReplicatedStorage.Network.ActiveAssets: RuntimeOwnerCleared
+RemoteEvent            ReplicatedStorage.Network.Plots: DisableBaseHighlight
+RemoteEvent            ReplicatedStorage.Network.Eggs: RuntimeOwnerCleared
+RemoteEvent            ReplicatedStorage.Network.Treadmills: SpeedGain
+RemoteEvent            ReplicatedStorage.Network.Treadmills: ActiveRenderStateChanged
+RemoteEvent            ReplicatedStorage.Network.Treadmills: ActiveTreadmillChanged
+RemoteEvent            ReplicatedStorage.Network.ClientCharacter: Update
+RemoteEvent            ReplicatedStorage.Network.AdminPanel_AdminStatusResponse
+RemoteEvent            ReplicatedStorage.Network.Setting Changed
+RemoteEvent            ReplicatedStorage.Network.Notifications_Show
+RemoteEvent            ReplicatedStorage.Network.Eggs: AreaEggResetStartCountdown
+RemoteEvent            ReplicatedStorage.Network.Eggs: AreaEggBatchUpdated
+RemoteEvent            ReplicatedStorage.Network.Eggs: AreaEggRemoved
+RemoteEvent            ReplicatedStorage.Network.ActiveAssets: RuntimeOwnerUpdated
+RemoteEvent            ReplicatedStorage.Network.OfflineAssets: SummaryUpdated
+RemoteEvent            ReplicatedStorage.Network.Eggs: RuntimeOwnerUpdated
+RemoteEvent            ReplicatedStorage.Network.Eggs: AreaEggUpdated
+RemoteEvent            ReplicatedStorage.Network.Trails: ActiveTrailChanged
+RemoteEvent            ReplicatedStorage.Network.Experiments:Update
+RemoteEvent            ReplicatedStorage.Network.Guards: SpeedHitOffer
+RemoteEvent            ReplicatedStorage.Network.Guards: WakeUp
+RemoteEvent            ReplicatedStorage.Network.Eggs: AreaEggCarryState
+RemoteEvent            ReplicatedStorage.Network.OfflineAssets: Claimed
+RemoteEvent            ReplicatedStorage.Network.Plots: OnBaseUpgraded
+RemoteEvent            ReplicatedStorage.Network.Guards: SpeedHitWarning
+RemoteEvent            ReplicatedStorage.Network.GearInventory: Removed
+RemoteEvent            ReplicatedStorage.Network.PlaySound
+RemoteEvent            ReplicatedStorage.exoremotes.AddCash
+RemoteEvent            ReplicatedStorage.exoremotes.SetSpeed
+RemoteEvent            ReplicatedStorage.exoremotes.SetCash
+RemoteEvent            ReplicatedStorage.exoremotes.GivePet
+RemoteEvent            ReplicatedStorage.exoremotes.GiveEgg
+RemoteEvent            ReplicatedStorage.exoremotes.RequestPanel
+RemoteEvent            ReplicatedStorage.exoremotes.PanelAccessResult
+RemoteEvent            ReplicatedStorage.Events.SetTrollTarget
+RemoteEvent            ReplicatedStorage.Events.FreeTrollAction
+BindableFunction       ServerScriptService.HD Admin.Core.MainModule.Value.Modules.Internal.Commands.ModPack.Tool.Building Tools.SyncAPI
+RemoteFunction         ServerScriptService.HD Admin.Core.MainModule.Value.Modules.Internal.Commands.ModPack.Tool.Building Tools.SyncAPI.ServerEndpoint

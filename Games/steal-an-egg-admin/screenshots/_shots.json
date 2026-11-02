@@ -1,0 +1,455 @@
+{
+ "viewport": "1215.19995, 708.799988",
+ "slug": "steal-an-egg-admin",
+ "shots": [
+  {
+   "panel": "",
+   "file": "01_HotbarTemplate",
+   "template": true,
+   "gui": "HotbarTemplate"
+  },
+  {
+   "panel": "RoundChoices.EscapeAndKeep",
+   "file": "02_RoundChoices__EscapeAndKeep",
+   "gui": "RoundChoices"
+  },
+  {
+   "panel": "",
+   "file": "03_InventoryTemplate",
+   "template": true,
+   "gui": "InventoryTemplate"
+  },
+  {
+   "panel": "",
+   "file": "04_ActivePets",
+   "template": false,
+   "gui": "ActivePets"
+  },
+  {
+   "panel": "",
+   "file": "05_AreaGui",
+   "template": false,
+   "gui": "AreaGui"
+  },
+  {
+   "panel": "",
+   "file": "06_AssetHoverData",
+   "template": false,
+   "gui": "AssetHoverData"
+  },
+  {
+   "panel": "",
+   "file": "07_AutoSell",
+   "template": false,
+   "gui": "AutoSell"
+  },
+  {
+   "panel": "Backpack",
+   "file": "08_BackpackGui__Backpack",
+   "gui": "BackpackGui"
+  },
+  {
+   "panel": "",
+   "file": "09_CaptureTheEggUI",
+   "template": false,
+   "gui": "CaptureTheEggUI"
+  },
+  {
+   "panel": "CrateOpeningPopUp",
+   "file": "10_CrateOpeningPopUpFrame__CrateOpeningPopUp",
+   "gui": "CrateOpeningPopUpFrame"
+  },
+  {
+   "panel": "MonstersAreComing",
+   "file": "11_CutsceneUI__MonstersAreComing",
+   "gui": "CutsceneUI"
+  },
+  {
+   "panel": "",
+   "file": "12_DragonEggEventUI",
+   "template": false,
+   "gui": "DragonEggEventUI"
+  },
+  {
+   "panel": "",
+   "file": "13_DropHeldEgg",
+   "template": false,
+   "gui": "DropHeldEgg"
+  },
+  {
+   "panel": "",
+   "file": "14_FreeGift",
+   "template": false,
+   "gui": "FreeGift"
+  },
+  {
+   "panel": "",
+   "file": "15_GetMoreSpeedOnHit",
+   "template": false,
+   "gui": "GetMoreSpeedOnHit"
+  },
+  {
+   "panel": "",
+   "file": "16_GreatBloomBanner",
+   "template": false,
+   "gui": "GreatBloomBanner"
+  },
+  {
+   "panel": "",
+   "file": "17_GrowingEggs",
+   "template": false,
+   "gui": "GrowingEggs"
+  },
+  {
+   "panel": "",
+   "file": "18_HUD",
+   "template": false,
+   "gui": "HUD"
+  },
+  {
+   "panel": "TradmilHud.RightButtons",
+   "file": "19_HUD__RightButtons",
+   "gui": "HUD"
+  },
+  {
+   "panel": "TradmilHud.LeftControls",
+   "file": "20_HUD__LeftControls",
+   "gui": "HUD"
+  },
+  {
+   "panel": "TradmilHud.BottomLeft",
+   "file": "21_HUD__BottomLeft",
+   "gui": "HUD"
+  },
+  {
+   "panel": "",
+   "file": "22_Index",
+   "template": false,
+   "gui": "Index"
+  },
+  {
+   "panel": "",
+   "file": "23_Message",
+   "template": false,
+   "gui": "Message"
+  },
+  {
+   "panel": "",
+   "file": "24_MonsterChargeUI",
+   "template": false,
+   "gui": "MonsterChargeUI"
+  },
+  {
+   "panel": "",
+   "file": "25_MonsterChestRewards",
+   "template": false,
+   "gui": "MonsterChestRewards"
+  },
+  {
+   "panel": "",
+   "file": "26_MonsterEventUI",
+   "template": false,
+   "gui": "MonsterEventUI"
+  },
+  {
+   "panel": "",
+   "file": "27_PetFuse",
+   "template": false,
+   "gui": "PetFuse"
+  },
+  {
+   "panel": "FusePetInventory",
+   "file": "28_PetFuse__FusePetInventory",
+   "gui": "PetFuse"
+  },
+  {
+   "panel": "",
+   "file": "29_PhoneVideoUI",
+   "template": false,
+   "gui": "PhoneVideoUI"
+  },
+  {
+   "panel": "Phone.Comments",
+   "file": "30_PhoneVideoUI__Comments",
+   "gui": "PhoneVideoUI"
+  },
+  {
+   "panel": "Phone.FriendLikes",
+   "file": "31_PhoneVideoUI__FriendLikes",
+   "gui": "PhoneVideoUI"
+  },
+  {
+   "panel": "Phone.GoToNext",
+   "file": "32_PhoneVideoUI__GoToNext",
+   "gui": "PhoneVideoUI"
+  },
+  {
+   "panel": "Phone.Paused",
+   "file": "33_PhoneVideoUI__Paused",
+   "gui": "PhoneVideoUI"
+  },
+  {
+   "panel": "PurchaseSuccess",
+   "file": "34_PopupPrompt__PurchaseSuccess",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "SellAllPets",
+   "file": "35_PopupPrompt__SellAllPets",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "PetFused",
+   "file": "36_PopupPrompt__PetFused",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "Sellv2",
+   "file": "37_PopupPrompt__Sellv2",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "Sellv1",
+   "file": "38_PopupPrompt__Sellv1",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "Emptyv2",
+   "file": "39_PopupPrompt__Emptyv2",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "Emptyv1",
+   "file": "40_PopupPrompt__Emptyv1",
+   "gui": "PopupPrompt"
+  },
+  {
+   "panel": "",
+   "file": "41_RobuxShop",
+   "template": false,
+   "gui": "RobuxShop"
+  },
+  {
+   "panel": "",
+   "file": "42_RollbackRewardUI",
+   "template": false,
+   "gui": "RollbackRewardUI"
+  },
+  {
+   "panel": "",
+   "file": "43_RunBackEffects",
+   "template": false,
+   "gui": "RunBackEffects"
+  },
+  {
+   "panel": "",
+   "file": "44_SakuraCrystalCounter",
+   "template": false,
+   "gui": "SakuraCrystalCounter"
+  },
+  {
+   "panel": "",
+   "file": "45_SakuraEggCharge",
+   "template": false,
+   "gui": "SakuraEggCharge"
+  },
+  {
+   "panel": "SakuraEggCharge.Content.ProgressBarHolder",
+   "file": "46_SakuraEggCharge__ProgressBarHolder",
+   "gui": "SakuraEggCharge"
+  },
+  {
+   "panel": "SakuraEggCharge.EggPicker",
+   "file": "47_SakuraEggCharge__EggPicker",
+   "gui": "SakuraEggCharge"
+  },
+  {
+   "panel": "",
+   "file": "48_SakuraEventTutorialFrame",
+   "template": false,
+   "gui": "SakuraEventTutorialFrame"
+  },
+  {
+   "panel": "",
+   "file": "49_MonsterEventTutorialFrame",
+   "template": false,
+   "gui": "MonsterEventTutorialFrame"
+  },
+  {
+   "panel": "",
+   "file": "50_Settings",
+   "template": false,
+   "gui": "Settings"
+  },
+  {
+   "panel": "",
+   "file": "51_SpeedShop",
+   "template": false,
+   "gui": "SpeedShop"
+  },
+  {
+   "panel": "",
+   "file": "52_TrailShop",
+   "template": false,
+   "gui": "TrailShop"
+  },
+  {
+   "panel": "",
+   "file": "53_TutorialInstructions",
+   "template": false,
+   "gui": "TutorialInstructions"
+  },
+  {
+   "panel": "Autocomplete",
+   "file": "54_Cmdr__Autocomplete",
+   "gui": "Cmdr"
+  },
+  {
+   "panel": "Shade",
+   "file": "55_AdminModelBrowser__Shade",
+   "gui": "AdminModelBrowser"
+  },
+  {
+   "panel": "AdminPanel",
+   "file": "56_AdminPanel_PREVIEW__AdminPanel",
+   "gui": "AdminPanel_PREVIEW"
+  },
+  {
+   "panel": "AdminPanelSettings",
+   "file": "57_AdminPanelSettings__AdminPanelSettings",
+   "gui": "AdminPanelSettings"
+  },
+  {
+   "panel": "AdminPanelEggPicker",
+   "file": "58_AdminPanelEggPicker__AdminPanelEggPicker",
+   "gui": "AdminPanelEggPicker"
+  },
+  {
+   "panel": "AdminPanelMutationPicker",
+   "file": "59_AdminPanelMutationPicker__AdminPanelMutationPicker",
+   "gui": "AdminPanelMutationPicker"
+  },
+  {
+   "panel": "AdminPanelPassInfo",
+   "file": "60_AdminPanelPassInfo__AdminPanelPassInfo",
+   "gui": "AdminPanelPassInfo"
+  },
+  {
+   "panel": "AdminPanelPetIconPicker",
+   "file": "61_AdminPanelPetIconPicker__AdminPanelPetIconPicker",
+   "gui": "AdminPanelPetIconPicker"
+  },
+  {
+   "panel": "AdminPanelPetPicker",
+   "file": "62_AdminPanelPetPicker__AdminPanelPetPicker",
+   "gui": "AdminPanelPetPicker"
+  },
+  {
+   "panel": "",
+   "file": "63_ScreenGui",
+   "template": false,
+   "gui": "ScreenGui"
+  },
+  {
+   "panel": "Frame",
+   "file": "64_CodesGui__Frame",
+   "gui": "CodesGui"
+  },
+  {
+   "panel": "",
+   "file": "65_Speed",
+   "template": true,
+   "gui": "Speed"
+  },
+  {
+   "panel": "",
+   "file": "66_Money",
+   "template": true,
+   "gui": "Money"
+  },
+  {
+   "panel": "",
+   "file": "67_Item2",
+   "template": true,
+   "gui": "Item2"
+  },
+  {
+   "panel": "",
+   "file": "68_BTAnchorToolGUI",
+   "template": true,
+   "gui": "BTAnchorToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "69_BTCollisionToolGUI",
+   "template": true,
+   "gui": "BTCollisionToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "70_BTDecorateToolGUI",
+   "template": true,
+   "gui": "BTDecorateToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "71_BTLightingToolGUI",
+   "template": true,
+   "gui": "BTLightingToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "72_BTMaterialToolGUI",
+   "template": true,
+   "gui": "BTMaterialToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "73_BTMeshToolGUI",
+   "template": true,
+   "gui": "BTMeshToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "74_BTMoveToolGUI",
+   "template": true,
+   "gui": "BTMoveToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "75_BTPaintToolGUI",
+   "template": true,
+   "gui": "BTPaintToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "76_BTResizeToolGUI",
+   "template": true,
+   "gui": "BTResizeToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "77_BTRotateToolGUI",
+   "template": true,
+   "gui": "BTRotateToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "78_BTSurfaceToolGUI",
+   "template": true,
+   "gui": "BTSurfaceToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "79_BTTextureToolGUI",
+   "template": true,
+   "gui": "BTTextureToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "80_BTWeldToolGUI",
+   "template": true,
+   "gui": "BTWeldToolGUI"
+  }
+ ]
+}

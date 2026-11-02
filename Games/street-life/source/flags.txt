@@ -1,0 +1,170 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ServerScriptService/Adonis_Loader/Config/Plugins/Server_ Logger.lua lines 55,89
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Anticheat.server.lua lines 123
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/ChatCmds.server.lua lines 67,162
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Leaderstats.server.lua lines 190
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Cars/CLS/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/DirtBike/Tuner/Initialize.server.lua lines 39
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerStorage/Cars/GLE53/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Hellcat/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/M2/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/RS3/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/RS6/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/RollsRoyce/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Scooter/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Sedan/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Trackhawk/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+[MED] scripts/ServerStorage/Cars/Urus/A-Chassis Tune/A-Chassis Interface/Drive.client.lua lines 86
+       very long line (23329 chars, possible obfuscation)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1034665242  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1071917745  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1092113698  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1194310649  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1283031640  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1376401709  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1577267016  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  1819588819  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819589020  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819589245  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819589455  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819589657  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819589817  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819590191  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819590388  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819590588  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819590764  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819591082  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819591289  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819591468  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1819591629  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/RStore/Handler.client.lua
+  1830195396  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/PlayTime/Handler.client.lua
+  1854901363  in scripts/ServerScriptService/DevProduct.server.lua, scripts/StarterGui/PhoneUI/Handler.client.lua
+  2000000  in scripts/ServerScriptService/Leaderstats.server.lua
+  2015206173  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2203816281  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2210401003  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2284686495  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  234447508  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2393807480  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2488298262  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2492981191  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2590865835  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2606680098  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2694916879  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  2962531758  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3000000  in scripts/ServerScriptService/Leaderstats.server.lua
+  301587006  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3268056248  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3411576219  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3447003  in scripts/ServerScriptService/ChatCmds.server.lua
+  3479554206  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3567960000  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3672265218  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  3685471057  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  4319007974  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  4379263687  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  4552467643  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  470853301  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  5010495238  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  508672823  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  5308367697  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  5325796616  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  5345537379  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  5379037899  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  548040771  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  5569120780  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  6070839402  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  6082748194  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  639471724  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  650935916  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  672566384  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  675136891  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  7053080028  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  714929470  in scripts/ServerScriptService/SafeInventory.server.lua, scripts/ServerScriptService/Spawn/Safe/Frame/Amount/LocalScript.client.lua, scripts/ServerScriptService/Spawn/Safe/Frame/ButtonClone/Handler.client.lua, scripts/ServerScriptService/Spawn/Safe/Frame/Handler.client.lua
+  715699204  in scripts/ServerStorage/Baggy/stealprompt/LootScript.server.lua
+  716518209  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  734604960  in scripts/ReplicatedStorage/Misc/FrostNPC/Interact/Handler.server.lua, scripts/ReplicatedStorage/Misc/FrostNPC~2/Interact/Handler.server.lua, scripts/ReplicatedStorage/Misc/FrostNPC~3/Interact/Handler.server.lua, scripts/ReplicatedStorage/Misc/NPC/Interact/Handler.server.lua ...
+  734671874  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  780822224  in scripts/ServerScriptService/ChatCmds.server.lua, scripts/ServerStorage/GrabTool/Script.server.lua, scripts/Workspace/Chunks/PDInside/PD/Click-GUI~3/Part/Script.server.lua
+  788267888  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  788499868  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  790484054  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  793485939  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  793533527  in scripts/ServerScriptService/Remote f_.server.lua, scripts/StarterGui/Proximity/IDealerGui/Handler.client.lua
+  793793113  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800059564  in scripts/ServerScriptService/ChatCmds.server.lua, scripts/ServerStorage/GrabTool/Script.server.lua, scripts/Workspace/Chunks/PDInside/PD/Click-GUI~3/Part/Script.server.lua
+  800082637  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800092624  in scripts/ServerStorage/Baggy/stealprompt/LootScript.server.lua
+  800113546  in scripts/ServerScriptService/SafeInventory.server.lua, scripts/ServerScriptService/Spawn/Safe/Frame/Amount/LocalScript.client.lua, scripts/ServerScriptService/Spawn/Safe/Frame/ButtonClone/Handler.client.lua, scripts/ServerScriptService/Spawn/Safe/Frame/Handler.client.lua
+  800131475  in scripts/ReplicatedStorage/Misc/FrostNPC/Interact/Handler.server.lua, scripts/ReplicatedStorage/Misc/FrostNPC~2/Interact/Handler.server.lua, scripts/ReplicatedStorage/Misc/FrostNPC~3/Interact/Handler.server.lua, scripts/ReplicatedStorage/Misc/NPC/Interact/Handler.server.lua ...
+  800249480  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800268493  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800280525  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800394500  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800418473  in scripts/ServerScriptService/Remote f_.server.lua, scripts/StarterGui/Proximity/IDealerGui/Handler.client.lua
+  800419449  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  800432505  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  815682937  in scripts/ServerScriptService/BankRobbery.server.lua, scripts/StarterGui/BankRobbery/Handler.client.lua
+  834486805  in scripts/ServerScriptService/Car Handler/Hooks.server.lua, scripts/ServerScriptService/Leaderstats.server.lua, scripts/ServerScriptService/Remote f_.server.lua, scripts/StarterGui/Proximity/CarDealerGui/Handler.client.lua ...
+  877637612  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+  897502289  in scripts/ServerScriptService/Spawner.server.lua, scripts/StarterGui/ControllerGui/Handler.client.lua
+
+Outside URLs in code:
+  http://prntscr.com/b9xljn  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  http://prntscr.com/b9xm53  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  http://prntscr.com/b9xngo  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  http://prntscr.com/b9xswk  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  http://trello.com  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  http://www.roblox.com/Asset?ID=16682065898  in scripts/ServerStorage/Secret/BlankCard/Handler.client.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/CameraShaker.lua
+  https://developer.roblox.com/en-us/api-reference/enum/KeyCode  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  https://devforum.roblox.com/t/ProfileService/667805  in scripts/ServerScriptService/ProfileCache/ProfileService.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Icon.lua
+  https://devforum.roblox.com/t/sandboxed-table-system-add-custom-methods-to-table/391177/12?u=etithespirit  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/Table.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/Table.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Icon.lua
+  https://etithespirit.github.io/FastCastAPIDocs  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux.lua
+  https://etithespirit.github.io/FastCastAPIDocs/changelog  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux.lua
+  https://etithespirit.github.io/FastCastAPIDocs/fastcast-objects/activecast/  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/TypeDefinitions.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/TypeDefinitions.lua
+  https://etithespirit.github.io/FastCastAPIDocs/fastcast-objects/caster/  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/TypeDefinitions.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/TypeDefinitions.lua
+  https://etithespirit.github.io/FastCastAPIDocs/fastcast-objects/castrayinfo/  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/TypeDefinitions.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/TypeDefinitions.lua
+  https://etithespirit.github.io/FastCastAPIDocs/fastcast-objects/caststateinfo/  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/TypeDefinitions.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/TypeDefinitions.lua
+  https://etithespirit.github.io/FastCastAPIDocs/fastcast-objects/casttrajectory/  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/TypeDefinitions.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/TypeDefinitions.lua
+  https://etithespirit.github.io/FastCastAPIDocs/fastcast-objects/fcbehavior/  in scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript/FastCastRedux/TypeDefinitions.lua, scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript/FastCastRedux/TypeDefinitions.lua
+  https://friends.roproxy.com/v1/users/  in scripts/ServerScriptService/Leaderstats.server.lua
+  https://gfycat.com/GrotesqueFirsthandBluebottlejellyfish  in scripts/ReplicatedStorage/buildRagdoll/buildConstraints.lua
+  https://github.com/Sceleratis/Adonis/wiki  in scripts/ServerScriptService/Adonis_Loader/Config/API.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/CameraShaker.lua
+  https://i.imgur.com/0oUu1ra.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/471ffsb.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/Ck5j34M.jpg  in scripts/ReplicatedStorage/buildRagdoll/buildConstraints.lua
+  https://i.imgur.com/F2lo4Te.jpg  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Icon/Utility.lua
+  https://i.imgur.com/fRpkSdS.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/je4GEas.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua
+  https://i.imgur.com/k07QVWR.png  in scripts/ReplicatedStorage/buildRagdoll/buildCollisionFilters.lua
+  https://madstudioroblox.github.io/ProfileService/  in scripts/ServerScriptService/ProfileCache/ProfileService.lua
+  https://trello.com/1/connect?name=Trello_API_Module&response_type=token&expires=never&scope=read,write&key=YOUR_APP_KEY_HERE  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  https://trello.com/app-key  in scripts/ServerScriptService/Adonis_Loader/Config/Settings.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Anticheat.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Adonis_Loader/Config/Plugins/Server_ Logger.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Adonis_Loader/Config/Plugins/Server_ Logger.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/ChatCmds.server.lua
+  https://www.desmos.com/calculator/2uo3hqwdhf  in scripts/ServerStorage/Cars/CLS/A-Chassis Tune.lua, scripts/ServerStorage/Cars/CLS/A-Chassis Tune/README.lua, scripts/ServerStorage/Cars/GLE53/A-Chassis Tune.lua

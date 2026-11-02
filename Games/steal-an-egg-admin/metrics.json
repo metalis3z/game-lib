@@ -1,0 +1,636 @@
+{
+ "slug": "steal-an-egg-admin",
+ "title": "Steal an Egg + P2W Admin Panel",
+ "genre": "steal / tycoon (eggs) + admin panel",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 3982,
+  "screen_guis": 62,
+  "classes": {
+   "UIStroke": 1858,
+   "TextLabel": 1297,
+   "ImageLabel": 975,
+   "Frame": 883,
+   "UIGradient": 879,
+   "UICorner": 575,
+   "ImageButton": 549,
+   "UIAspectRatioConstraint": 252,
+   "UIListLayout": 241,
+   "UIScale": 158,
+   "TextButton": 143,
+   "BillboardGui": 80,
+   "ScreenGui": 62,
+   "CanvasGroup": 58,
+   "LocalScript": 46,
+   "UIShadow": 41,
+   "ScrollingFrame": 37,
+   "UIPadding": 36,
+   "TextBox": 35,
+   "SurfaceGui": 31,
+   "UISizeConstraint": 24,
+   "UITextSizeConstraint": 23,
+   "UIGridLayout": 13,
+   "NumberValue": 6,
+   "ViewportFrame": 3,
+   "Model": 2,
+   "Part": 2,
+   "Sky": 2,
+   "VideoFrame": 2,
+   "Folder": 1
+  },
+  "fonts": {
+   "GothamSSm ExtraBold": 645,
+   "Rubik Bold": 233,
+   "GothamSSm Heavy": 187,
+   "SourceSansPro Regular": 96,
+   "GothamSSm Bold": 79,
+   "BuilderSans Regular": 46,
+   "LegacyArial Regular": 36,
+   "BuilderSans Bold": 26,
+   "font asset 130578589617029 Regular": 26,
+   "BuilderSans Medium": 22,
+   "GothamSSm Regular": 11,
+   "Rubik ExtraBold": 10
+  },
+  "background_colors": {
+   "#ffffff": 432,
+   "#141622": 231,
+   "#000000": 100,
+   "#550000": 44,
+   "#192953": 23,
+   "#e8ebed": 20,
+   "#1c1c28": 20,
+   "#ff1414": 19,
+   "#bfbfbf": 14,
+   "#151927": 12,
+   "#2f2f2f": 11,
+   "#ff0000": 10,
+   "#323241": 8,
+   "#e4e7e8": 8,
+   "#070f18": 7,
+   "#414141": 7
+  },
+  "text_colors": {
+   "#ffffff": 1015,
+   "#000000": 123,
+   "#191b1d": 50,
+   "#1b2a35": 36,
+   "#51575e": 36,
+   "#bfbfbf": 30,
+   "#ff0000": 23,
+   "#6f767d": 22,
+   "#53ff4a": 18,
+   "#38e839": 10
+  },
+  "stroke_colors": {
+   "#000000": 999,
+   "#121212": 110,
+   "#151515": 82,
+   "#0b4800": 76,
+   "#52526b": 74,
+   "#beffb4": 74,
+   "#ff2b64": 38,
+   "#ffffff": 33,
+   "#4100aa": 22,
+   "#2e2e2e": 22
+  },
+  "image_tints": {
+   "#000000": 16,
+   "#ff0004": 7,
+   "#f4f9f3": 6,
+   "#22ff00": 5,
+   "#ff0000": 4,
+   "#945fba": 4,
+   "#ff3859": 2,
+   "#00ff00": 2,
+   "#ff0084": 2,
+   "#323232": 2
+  },
+  "corner_radius": {
+   "{0.0,8}": 285,
+   "{1.0,0}": 90,
+   "{0.2,0}": 39,
+   "{0.1,0}": 25,
+   "{0.0,9999}": 20,
+   "{0.0,4}": 20,
+   "{0.035,0}": 15,
+   "{0.0,10}": 15,
+   "{0.25,0}": 8,
+   "{0.0,9}": 7
+  },
+  "stroke_thickness": {
+   "3.0 px": 399,
+   "2.33 px": 248,
+   "0.06 scaled": 211,
+   "2.0 px": 196,
+   "2.22 px": 105,
+   "5.0 px": 79,
+   "0.1 scaled": 67,
+   "0.07 scaled": 62,
+   "4.0 px": 52,
+   "8.3 px": 40
+  },
+  "text_size_px": {
+   "14": 117,
+   "24": 45,
+   "13": 41,
+   "25": 21,
+   "32": 20,
+   "27": 20,
+   "8": 10,
+   "29": 6,
+   "20": 5,
+   "12": 5
+  },
+  "text_scaled_share": 0.78,
+  "size_mode": {
+   "scale": 3068,
+   "mixed": 453,
+   "offset": 214,
+   "zero": 247
+  },
+  "unique_images": 456,
+  "per_100_objects": {
+   "UICorner": 14.4,
+   "UIStroke": 46.7,
+   "UIGradient": 22.1,
+   "UIAspectRatioConstraint": 6.3,
+   "UIListLayout": 6.1,
+   "UIGridLayout": 0.3,
+   "UIPadding": 0.9,
+   "UIScale": 4.0,
+   "UITextSizeConstraint": 0.6,
+   "ImageLabel": 24.5,
+   "ImageButton": 13.8,
+   "TextButton": 3.6
+  }
+ },
+ "map": {
+  "instances": 28491,
+  "parts": 15691,
+  "meshparts": 767,
+  "unions": 1,
+  "anchored_share": 0.97,
+  "textures_decals": 125,
+  "surface_appearances": 0,
+  "lights": 22,
+  "emitters": 275,
+  "beams_trails": 111,
+  "sounds": 104,
+  "prompts": 66,
+  "world_guis": 88,
+  "humanoids": 11,
+  "materials": {
+   "Wood": 11330,
+   "Plastic": 3798,
+   "Neon": 264,
+   "SmoothPlastic": 222,
+   "Glacier": 48,
+   "Slate": 24,
+   "ForceField": 4,
+   "Glass": 1
+  },
+  "part_colors": {
+   "#a05f35": 11331,
+   "#a25100": 483,
+   "#475415": 437,
+   "#a3a2a5": 403,
+   "#564236": 308,
+   "#396113": 223,
+   "#6b4b30": 95,
+   "#f8f8f8": 92,
+   "#595756": 80,
+   "#1b2a35": 75,
+   "#b86301": 74,
+   "#c46ecf": 72,
+   "#a25bab": 66,
+   "#aca100": 50
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   4390,
+   78,
+   201
+  ],
+  "extent_all_studs": [
+   7839,
+   2550,
+   1346
+  ],
+  "top_classes": {
+   "Part": 14872,
+   "Pose": 6370,
+   "MeshPart": 767,
+   "Model": 718,
+   "Frame": 533,
+   "TextLabel": 460,
+   "ModuleScript": 454,
+   "Bone": 446,
+   "UICorner": 403,
+   "Motor6D": 352,
+   "UIStroke": 290,
+   "ParticleEmitter": 275,
+   "UIGradient": 262,
+   "Folder": 222,
+   "ImageLabel": 194
+  }
+ },
+ "lighting": {
+  "Ambient": "#dac79c",
+  "Brightness": 2.5,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.75,
+  "EnvironmentSpecularScale": 0.7,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c5c5c5",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 23.142,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#92c9e2",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "11:36:00",
+  "@attributes": {
+   "OriginalAmbient": [
+    "Color3",
+    0.8549,
+    0.7804,
+    0.6118
+   ],
+   "OriginalArchivable": true,
+   "OriginalBrightness": 2.5,
+   "OriginalClockTime": 11.6,
+   "OriginalColorShift_Bottom": [
+    "Color3",
+    0.0,
+    0.0,
+    0.0
+   ],
+   "OriginalColorShift_Top": [
+    "Color3",
+    0.0,
+    0.0,
+    0.0
+   ],
+   "OriginalEnvironmentDiffuseScale": 0.75,
+   "OriginalEnvironmentSpecularScale": 0.7,
+   "OriginalExposureCompensation": 0.0,
+   "OriginalFogColor": [
+    "Color3",
+    0.7725,
+    0.7725,
+    0.7725
+   ],
+   "OriginalFogEnd": 100000.0,
+   "OriginalFogStart": 0.0,
+   "OriginalGeographicLatitude": 23.142,
+   "OriginalGlobalShadows": true,
+   "OriginalName": "Lighting",
+   "OriginalOutdoorAmbient": [
+    "Color3",
+    0.5725,
+    0.7882,
+    0.8863
+   ],
+   "OriginalShadowSoftness": 0.2,
+   "OriginalTimeOfDay": "11:36:00",
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "TabControllerDepthBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "FarIntensity": 0.755,
+    "FocusDistance": 200.0,
+    "InFocusRadius": 13.25,
+    "Name": "TabControllerDepthBlur",
+    "NearIntensity": 0.0,
+    "@attributes": {
+     "_lemonadeUniqueId": "zRjpEFUWzRjp"
+    }
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.01,
+    "Name": "SunRays",
+    "Spread": 0.5,
+    "@attributes": {
+     "_lemonadeUniqueId": "JKxz6S7LJKxz"
+    }
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.2,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.1,
+    "TintColor": "#ffedef",
+    "@attributes": {
+     "_lemonadeUniqueId": "AaBEuJhLAaBE"
+    }
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#000000",
+    "Decay": "#000000",
+    "DefinesCapabilities": false,
+    "Density": 0.309,
+    "Glare": 0.0,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 0.0,
+    "@attributes": {
+     "OriginalArchivable": true,
+     "OriginalColor": [
+      "Color3",
+      0.0,
+      0.0,
+      0.0
+     ],
+     "OriginalDecay": [
+      "Color3",
+      0.0,
+      0.0,
+      0.0
+     ],
+     "OriginalDensity": 0.309,
+     "OriginalGlare": 0.0,
+     "OriginalHaze": 0.0,
+     "OriginalName": "Atmosphere",
+     "OriginalOffset": 0.0,
+     "OriginalSandboxed": false,
+     "_lemonadeUniqueId": "z22GsLyoz22G"
+    }
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "rbxassetid://591058823",
+    "SkyboxDn": "rbxassetid://591059876",
+    "SkyboxFt": "rbxassetid://591058104",
+    "SkyboxLf": "rbxassetid://591057861",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://591057625",
+    "SkyboxUp": "rbxassetid://591059642",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg",
+    "@attributes": {
+     "OriginalCelestialBodiesShown": true,
+     "OriginalMoonAngularSize": 11.0,
+     "OriginalMoonTextureId": "rbxasset://sky/moon.jpg",
+     "OriginalSkyboxBk": "rbxassetid://591058823",
+     "OriginalSkyboxDn": "rbxassetid://591059876",
+     "OriginalSkyboxFt": "rbxassetid://591058104",
+     "OriginalSkyboxLf": "rbxassetid://591057861",
+     "OriginalSkyboxOrientation": [
+      "Vector3",
+      0.0,
+      0.0,
+      0.0
+     ],
+     "OriginalSkyboxRt": "rbxassetid://591057625",
+     "OriginalSkyboxUp": "rbxassetid://591059642",
+     "OriginalStarCount": 3000.0,
+     "OriginalSunAngularSize": 21.0,
+     "OriginalSunTextureId": "rbxasset://sky/sun.jpg",
+     "_lemonadeUniqueId": "XmHCzu7ZXmHC"
+    }
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "TabDepthBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "FarIntensity": 0.755,
+    "FocusDistance": 200.0,
+    "InFocusRadius": 13.25,
+    "Name": "TabDepthBlur",
+    "NearIntensity": 0.0,
+    "@attributes": {
+     "_lemonadeUniqueId": "G8adZ9N9G8ad"
+    }
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "TabDepthBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "FarIntensity": 0.755,
+    "FocusDistance": 200.0,
+    "InFocusRadius": 13.25,
+    "Name": "TabDepthBlur",
+    "NearIntensity": 0.0,
+    "@attributes": {
+     "_lemonadeUniqueId": "izH0wEN3izH0"
+    }
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "AdminPanelBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "AdminPanelBlur",
+    "Size": 0.0,
+    "@attributes": {
+     "_lemonadeUniqueId": "BFEECicGBFEE"
+    }
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "\u0001\u0000\u0000\u0000\u0015\u0000\u0000\u0000\u0002\u0000\u0000\u0000o~>\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000XYV \u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000���0\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000�aIP\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000�˧\u0010\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000��l\u0010\u0002\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000cdf�\u0003\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000���\u0010\u0006\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000���0\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000�|_�\u0003\u0000\u0000\u0000\u0000\u0000\u0000\f\u0000\u0000\u0000ypb@\u0005\u0000\u0000\u0000\u0000\u0000\u0000\r\u0000\u0000\u0000KJJ\u0014\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u000e\u0000\u0000\u0000��hP\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000�\u0018C$\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0010\u0000\u0000\u0000PTT`\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0011\u0000\u0000\u0000��vp\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0012\u0000\u0000\u0000���\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000j�@\u0004\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0014\u0000\u0000\u0000���p\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0000\u0000���4\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0016\u0000\u0000\u0000���D\u0003\u0000\u0000\u0000\u0000\u0000\u0000",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "@attributes": {
+   "_lemonadeUniqueId": "default_terrain"
+  },
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "ExpandedLobbyServerGroup": "None",
+   "LogLevelClient": "Warning",
+   "MonsterParasiteEndsAt": 0.0,
+   "TimedChetadoEggs_AreaId": "Forest",
+   "TimedChetadoEggs_Enabled": true,
+   "TimedChetadoEggs_IntervalSeconds": 120.0,
+   "TimedChetadoEggs_LastSpawnAt": 1791025733.8376,
+   "TimedChetadoEggs_LastSpawnedArea": "Forest",
+   "TimedChetadoEggs_LastSpawnedEgg": "Dreadscale",
+   "TimedChetadoEggs_LastSpawnedUid": "AreaEgg_689764cf-92ad-474a-8481-a9cffb7980aa",
+   "TimedChetadoEggs_NextSpawnAt": 1791025853.8379,
+   "TimedChetadoEggs_Scale": 4.0,
+   "TimedChetadoEggs_TopCount": 3.0,
+   "_lemonadeUniqueId": "ws1"
+  }
+ },
+ "packs": {
+  "ui": 140,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 14,
+  "materials": 1,
+  "lighting": 1,
+  "model": 715,
+  "parts": 1,
+  "vfx": 27,
+  "model-set": 25,
+  "keyframes": 19,
+  "other": 7
+ },
+ "coverage": {
+  "instances": 103013,
+  "packed": 102779,
+  "services": 52,
+  "code_or_empty_folders_not_packed": 179,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 19,
+ "animation_ids": 78,
+ "sound_ids": 263,
+ "files": 952,
+ "kb": 20355,
+ "category": "Brainrot",
+ "source_file": "SU - SAE + P2W ADMIN PANEL.rbxl"
+}

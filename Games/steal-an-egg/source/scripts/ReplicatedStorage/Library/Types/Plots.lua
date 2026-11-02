@@ -1,0 +1,19 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://lua.expert/
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local t = require(ReplicatedStorage.Library.Modules.Packages.t)
+
+return {
+	SchemaValidation = {
+		PlotStateUpdate = t.interface({
+			Revision = t.number,
+			Slot = t.number,
+			UserId = t.optional(t.number)
+		}),
+		PlotStateSnapshot = t.interface({
+			Revision = t.number,
+			OwnersBySlot = t.map(t.string, t.number)
+		})
+	}
+}

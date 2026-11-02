@@ -1,0 +1,20 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://sitetest1.lua.expert
+
+return {
+    Name = "progressEggHatchTime",
+    Description = "Increments the hatch time on all the placed eggs",
+    Group = "Moderator",
+    Args = {
+        {
+            Type = "players",
+            Name = "Players"
+        },
+        {
+            Type = "integer",
+            Name = "Amount",
+            Description = "The amount of hatch time to progress"
+        }
+    }
+}

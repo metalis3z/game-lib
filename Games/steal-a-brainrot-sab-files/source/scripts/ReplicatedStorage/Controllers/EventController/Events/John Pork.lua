@@ -1,0 +1,76 @@
+
+local u1 = game:GetService("ReplicatedStorage")
+game:GetService("RunService")
+game:GetService("Lighting")
+game:GetService("Debris")
+require(u1.Shared.EventTypes)
+local v2 = {}
+local u3 = require(u1.Controllers.EventController.ClientEventUtils)
+require(u1.Controllers.TsunamiEventController)
+local u4 = require(u1.Controllers.EffectController)
+require(u1.Controllers.AnimalController)
+local u5 = require(u1.Controllers.EventController)
+local u6 = require(u1.Controllers.SoundController)
+require(u1.Packages.CreateTween)
+local u7 = require(u1.Packages.Observers)
+require(u1.Datas.ServerData)
+require(u1.Packages.Timer)
+local v8 = require(u1.Packages.Trove)
+local v9 = require(u1.Packages.Net)
+require(u1.Shared.VFX)
+local u10 = script.Name
+local u11 = v9:RemoteEvent("EventService/John Pork/Burst")
+local u12 = v8.new()
+function v2.OnStart(_)
+    local v13 = u5:GetActiveEventData(u10)
+    assert(v13)
+    u1:SetAttribute("JohnPorkEvent", true)
+    u12:Add(function()
+        u1:SetAttribute("JohnPorkEvent", nil)
+    end)
+    u4:Activate("Blink")
+    u12:Add(function()
+        u4:Activate("Blink")
+    end)
+    local u14 = u12:Clone(script.JohnPorkMap)
+    u14.Parent = workspace
+    u12:Add(task.spawn(function()
+        local u15 = require(u14.JohnPorkPhone.PhoneFrontEnd)
+        u12:Add(task.spawn(function()
+            u15.Start()
+        end))
+        u12:Add(task.delay(3, function()
+            while true do
+                u15.Ring()
+                task.wait(3)
+            end
+        end))
+        u12:Add(function()
+            u15.Stop()
+        end)
+    end))
+    u6:UpdateOST()
+    u6:UpdateAmbience()
+    u12:Add(function()
+        u6:UpdateOST()
+        u6:UpdateAmbience()
+    end)
+    u12:Add(u7.observeTag("HideInJohnPork", function(u16)
+        local u17 = u16.Parent
+        u16.Parent = script
+        return function()
+            pcall(function()
+                u16.Parent = u17
+            end)
+        end
+    end, { workspace, script }))
+end
+function v2.OnStop(_)
+    u12:Destroy()
+end
+function v2.OnLoad(_)
+    u11.OnClientEvent:Connect(function(p18)
+        u3.playBurst(script.Burst, p18, { u1.Sounds.Events["John Pork"].BrainrotHit })
+    end)
+end
+return v2

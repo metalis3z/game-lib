@@ -1,0 +1,40 @@
+local TweenService = game:GetService("TweenService")
+local part = game.Lighting
+local colorCorrection = part.NightmareHourColorCorrection
+local tweenInfoColor = TweenInfo.new(13,Enum.EasingStyle.Linear, Enum.EasingDirection.In, 0, false, 0)
+local tweenInfoColor2 = TweenInfo.new(5,Enum.EasingStyle.Linear, Enum.EasingDirection.In, 0, false, 0)
+
+workspace.NightmareHourFog.Changed:Connect(function()
+	local tween = TweenService:Create(part, tweenInfoColor, {FogColor = Color3.fromRGB(23,23,23) })
+	local tween1 = TweenService:Create(part, tweenInfoColor, {FogEnd = 150})
+	local tween2 = TweenService:Create(colorCorrection, tweenInfoColor, {TintColor = Color3.fromRGB(0, 132, 0),Contrast = -0.2,Brightness = -0.1 })
+	local tween3 = TweenService:Create(part, tweenInfoColor, {ClockTime = 15})
+	local tween5 = TweenService:Create(part, tweenInfoColor2, {FogColor = Color3.fromRGB(141, 141, 141) })
+	local tween6 = TweenService:Create(colorCorrection, tweenInfoColor2, {TintColor = Color3.fromRGB(255,255,255),Contrast = 0,Brightness = 0 })
+	local tween7 = TweenService:Create(part, tweenInfoColor, {ClockTime = 15})
+	local tween8 = TweenService:Create(part, tweenInfoColor, {FogEnd = 250})
+	local tween9 = TweenService:Create(part, tweenInfoColor, {Brightness = 1.2})
+	local tween10 = TweenService:Create(part, tweenInfoColor, {Brightness = 2})
+	local tween11 = TweenService:Create(part, tweenInfoColor, {Ambient = Color3.fromRGB(105,105,105) })
+	local tween12 = TweenService:Create(part, tweenInfoColor, {Ambient = Color3.fromRGB(80,80,80) })
+	local tween13 = TweenService:Create(part, tweenInfoColor, {OutdoorAmbient = Color3.fromRGB(2,2,2) })
+	local tween14 = TweenService:Create(part, tweenInfoColor, {OutdoorAmbient = Color3.fromRGB(75, 75, 75) })
+
+	if workspace.NightmareHourFog.Value == 1 then
+		tween:Play()
+		tween1:Play()
+		tween2:Play()
+		tween3:Play()
+		tween9:Play()
+		tween11:Play()
+		tween13:Play()
+	elseif workspace.NightmareHourFog.Value == 2 then	
+		tween5:Play()
+		tween6:Play()
+		tween7:Play()
+		tween8:Play()
+		tween10:Play()
+		tween12:Play()
+		tween14:Play()
+	end
+	end)

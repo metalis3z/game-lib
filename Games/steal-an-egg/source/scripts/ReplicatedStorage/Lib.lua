@@ -1,0 +1,126 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- CQM+BXByaW50CmJhZCBpbmRleDoDZm9yBE5hbWUWRGlkIHlvdSBwZXJoYXBzIG1lYW46IAVwYWlycwZzdHJpbmcEZmluZANzdWILaGFuZGxlRXJyb3IORmluZEZpcnN0Q2hpbGQHcmVxdWlyZQZyYXdzZXQEbG9hZAhJc1NlcnZlcgRnYW1lE1NlcnZlclNjcmlwdFNlcnZpY2UEVXRpbAhJc0NsaWVudAdQbGF5ZXJzC0xvY2FsUGxheWVyDVBsYXllclNjcmlwdHMMV2FpdEZvckNoaWxkBnJhd2dldAtGaW5kUGFja2FnZQNuZXcMc2V0bWV0YXRhYmxlB19faW5kZXgNUGFja2FnZU1vZHVsZQ5TZWFyY2hJbkZvbGRlcgZGb2xkZXIDSXNBBHRhc2sFc3Bhd24FZXJyb3IOU2VydmVyIE1vZHVsZSAmIG5vdCBmb3VuZCBpbiBTZXJ2ZXJTY3JpcHRTZXJ2aWNlLlV0aWwHTW9kdWxlICEgbm90IGZvdW5kIGluIFBsYXllclNjcmlwdHMuVXRpbAoFZGVidWcJdHJhY2ViYWNrBkluamVjdAZJbXBvcnQKR2V0U2VydmljZQdTZXJ2aWNlBXBjYWxsClJ1blNlcnZpY2URUmVwbGljYXRlZFN0b3JhZ2UKRnVuY3Rpb25hbANHZXQCQ1MRQ29sbGVjdGlvblNlcnZpY2UCVFMMVHdlZW5TZXJ2aWNlAlJTB05ldHdvcmsDTmV0EFVwZGF0ZVJvYnV4UHJpY2UISW5zdGFuY2UNQmluZGFibGVFdmVudAFyBlJhbmRvbQAMDQIAAAAAM6QCAQAAAABAbwMCAFIEAQBvBQMATQYAugQAAACfAgUBpAIBAAAAAEBvAwUAnwICAaQCBwAAAGBAUgMAAJ8CAgQXAh8ApAcKAAAkgICMCgEAHAwBAD4LDAs0LQEECgsAAFIJAQCkCA0AADCAgJ8IBAJSCQUAnwcDAisHDQCkBwoAACSAgBwLAQA+CgsLni0BBAoAAABSCQEApAgNAAAwgICfCAMCUgkFAJ8HAwIOBwQApAcBAAAAAEBSCAUAnwcCAW4C4P8CAAAAggABAA4DAQQAAABAAwIDAwMEAwUDBgQAAGBAAwcDCAQAJICAAgAAAAAAAABAAwkEADCAgAAHCgEYAAAAAAAAAAABAAAAAgAAAAABAAAA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
+
+-- Decompiled with Potassium's decompiler.
+
+local u1 = {};
+local l__RunService__1 = game:GetService("RunService");
+local l__Util__2 = game.ReplicatedStorage:WaitForChild("Util");
+local u2 = {};
+setmetatable(u1, u1);
+function handleError(p3, p4)
+    print("bad index:", p4, "for", p3.Name);
+    print("Did you perhaps mean: ");
+    for v5, _ in pairs(p3) do
+        if string.find(string.sub(p4, 1, #p4 / 2), v5) or string.find(string.sub(p4, #p4 / 2), v5) then
+            print(v5);
+        end;
+    end;
+end;
+function load(p6, p7)
+    -- upvalues: u2 (copy)
+    local v8 = p7:FindFirstChild(p6.Name);
+    if v8 then
+        u2[p6.Name] = require(v8);
+        for v9, v10 in pairs(v8) do
+            rawset(p6, v9, v10);
+        end;
+    end;
+end;
+local function u14(p11, p12) --[[ Line: 29 ]]
+    -- upvalues: l__RunService__1 (copy)
+    if l__RunService__1:IsServer() then
+        load(p11, game.ServerScriptService.Util);
+    end;
+    if l__RunService__1:IsClient() then
+        load(p11, game.Players.LocalPlayer:WaitForChild("PlayerScripts").Util);
+    end;
+    local v13 = rawget(p11, p12);
+    if not v13 then
+        handleError(p11, p12);
+    end;
+    return v13;
+end;
+function PackageModule(p15)
+    -- upvalues: u14 (copy)
+    local v16 = require(p15);
+    if not v16.new then
+        setmetatable(v16, v16);
+        v16.Name = p15;
+        v16.__index = u14;
+    end;
+    return v16;
+end;
+for v17, v18 in pairs(require(l__Util__2.Functional)) do
+    u1[v17] = v18;
+end;
+function u1.__index(p19, p20) --[[ Line: 79 ]]
+    -- upvalues: l__Util__2 (copy), u1 (copy), l__RunService__1 (copy)
+    local v21 = nil;
+    local u22 = l__Util__2:FindFirstChild(p20);
+    if not u22 then
+        if l__RunService__1:IsServer() then
+            local v23 = game.ServerScriptService.Util:FindFirstChild(p20);
+            if not v23 then
+                task.spawn(error, "Server Module " .. p20 .. " not found in ServerScriptService.Util");
+            end;
+            v21 = PackageModule(v23);
+            rawset(p19, p20, v21);
+        end;
+        if l__RunService__1:IsClient() then
+            local v24 = game.Players.LocalPlayer:WaitForChild("PlayerScripts").Util:FindFirstChild(p20);
+            if not v24 then
+                task.spawn(error, "Module " .. p20 .. " not found in PlayerScripts.Util\n" .. debug.traceback());
+            end;
+            v21 = PackageModule(v24);
+            rawset(p19, p20, v21);
+        end;
+        return v21;
+    end;
+    if not u22:IsA("Folder") then
+        local v25 = PackageModule(u22);
+        rawset(u1, p20, v25);
+        return v25;
+    end;
+    local u26 = {};
+    setmetatable(u26, u26);
+    function u26.__index(_, p27) --[[ Line: 61 ]]
+        -- upvalues: u22 (copy), u26 (copy)
+        local v28 = u22:FindFirstChild(p27);
+        if v28 then
+            local v29 = PackageModule(v28);
+            rawset(u26, p27, v29);
+            return v29;
+        end;
+    end;
+    rawset(u1, u22.Name, u26);
+    return u26;
+end;
+function u1.Inject(p30, p31) --[[ Line: 108 ]]
+    -- upvalues: u1 (copy)
+    rawset(u1, p30, p31);
+end;
+function u1.Import(p32) --[[ Line: 112 ]]
+    -- upvalues: u1 (copy)
+    return u1[p32];
+end;
+u1.Get = u1.Import;
+function u1.Service(p33) --[[ Line: 117 ]]
+    return game:GetService(p33);
+end;
+function u1.pcall(p34, ...) --[[ Line: 121 ]]
+    local v35, v36 = pcall(p34, ...);
+    if not v35 then
+        task.spawn(error, v36);
+    end;
+    return v36;
+end;
+u1.Inject("CS", game:GetService("CollectionService"));
+u1.Inject("TS", game:GetService("TweenService"));
+u1.Inject("RS", game:GetService("RunService"));
+u1.Inject("Network", require(l__Util__2:WaitForChild("Net")));
+u1.Inject("UpdateRobuxPrice", Instance.new("BindableEvent"));
+u1.Inject("r", Random.new());
+return u1;

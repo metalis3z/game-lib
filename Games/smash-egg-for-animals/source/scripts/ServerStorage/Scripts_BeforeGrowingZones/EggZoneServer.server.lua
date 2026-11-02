@@ -1,0 +1,1180 @@
+-- Zones d'oeufs : des oeufs apparaissent dans une zone, le joueur les attrape avec son dragon (ProximityPrompt)
+-- et doit les ramener dans la zone sûre pour les gagner. Dès qu'un oeuf est pris, un autre apparaît.
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ServerStorage = game:GetService("ServerStorage")
+
+local eggSystem = ReplicatedStorage:WaitForChild("EggSystem")
+local Config = require(eggSystem:WaitForChild("EggConfig"))
+local eggTemplates = eggSystem:WaitForChild("EggModels")
+local notifyRemote = eggSystem:WaitForChild("Remotes"):WaitForChild("Notify")
+local UpgradeConfig = require(ReplicatedStorage:WaitForChild("DragonSystem"):WaitForChild("UpgradeConfig"))
+local giveZoneEgg = ServerStorage:WaitForChild("GameBindables"):WaitForChild("GiveZoneEgg")
+
+-- une zone = une pièce du Workspace + la rareté des oeufs qui y apparaissent
+local ZONES = {
+	{Part = "common egg zone", Burn = 5, Rarity = "Common", Count = 20},
+	{Part = "UNcommon egg zone", Burn = 10, Rarity = "Uncommon", Count = 20},
+	{Part = "RARE egg zone", Burn = 20, Rarity = "Rare", Count = 20},
+	{Part = "EPIC egg zone", Burn = 40, Rarity = "Epic", Count = 20},
+	{Part = "LEGENDARY egg zone", Burn = 60, Rarity = "Legendary", Count = 20},
+	{Part = "MYTHIC egg zone", Burn = 100, Rarity = "Mythic", Count = 20},
+	{Part = "SECRET egg zone", Burn = 150, Rarity = "Secret", Count = 20},
+	{Part = "ANCIENT dino egg zone", Burn = 200, Rarity = "Ancient", Theme = "dino", Count = 20},
+	{Part = "OG candy egg zone", Burn = 250, Rarity = "OG", Theme = "candy", Count = 20},
+	{Part = "DIVINE angel egg zone", Burn = 300, Rarity = "Divine", Theme = "angel", Count = 20},
+	-- zone Halloween, tout au fond : les œufs Prismatic (les plus rares du jeu), gardés par le boss Pumpking
+	{Part = "Halloween demon egg zone", Burn = 350, Rarity = "Prismatic", Theme = "halloween", Count = 20},
+}
+-- les zones peuvent être renommées dans le Workspace ("common FOREST egg zone"...) : on les retrouve par leur premier mot (la rareté)
+local function resolveZoneName(name)
+	if workspace:FindFirstChild(name) then return name end
+	local keyword = string.lower(string.match(name, "^(%a+)") or name)
+	for _, child in workspace:GetChildren() do
+		local lower = string.lower(child.Name)
+		if child:IsA("BasePart") and string.find(lower, "egg zone", 1, true) and string.sub(lower, 1, #keyword) == keyword then return child.Name end
+	end
+	return name
+end
+for _, zone in ZONES do zone.Part = resolveZoneName(zone.Part) end
+local SAFE_ZONE = "safe zone"
+-- points de vie d'un œuf normal de chaque zone, dans l'ordre des zones (un coup de marteau de base en enlève 1) ;
+-- un œuf géant en a plus, en proportion de sa taille
+local ZONE_HP = {5, 8, 12, 18, 25, 35, 50, 70, 100, 140, 200}
+for index, zone in ZONES do zone.Hp = zone.Hp or ZONE_HP[index] or ZONE_HP[#ZONE_HP] end
+-- marteau demandé et speed conseillé de chaque zone (EggConfig.ZoneHammer / ZoneSpeed)
+local HammerConfig = require(ReplicatedStorage:WaitForChild("HammerSystem"):WaitForChild("HammerConfig"))
+for _, zone in ZONES do
+	zone.Hammer = Config.ZoneHammer(zone.Rarity)
+	zone.Speed = Config.ZoneSpeed[zone.Rarity] or 0
+end
+local hammerWarned = {}
+local HIT_COOLDOWN = 0.35   -- secondes entre deux coups de marteau d'un même joueur
+local HIT_REACH = 10        -- distance max entre le joueur et le bord de l'œuf
+local DROPPED_LIFETIME = 120     -- secondes avant qu'un œuf lâché au sol disparaisse
+local RESPAWN_DELAY = 1          -- secondes avant qu'un nouvel oeuf remplace celui qui a été pris
+local PLAYER_HEIGHT = 5
+local EGG_UNIT_HEIGHT = 13       -- hauteur de la coquille d'un modèle d'oeuf à l'échelle 1
+local NORMAL_HEIGHT = {2.2, 3.6} -- hauteur habituelle d'un oeuf (studs)
+-- oeufs géants : Chance en %, hauteur en "fois la taille d'un joueur". Le plus rare fait 50 fois le joueur.
+local SIZE_TIERS = {
+	{Chance = 0.0001, Min = 50, Max = 50, Kg = {1000000, 1500000}}, -- plus d'un million de kilos : presque impossible
+	{Chance = 0.0005, Min = 50, Max = 50}, -- nerf x6 : 0.003 -> 0.0005
+	{Chance = 0.0017, Min = 18, Max = 30},  -- 0.01 -> 0.0017
+	{Chance = 0.007, Min = 8, Max = 15},    -- 0.04 -> 0.007
+	{Chance = 0.025, Min = 3.5, Max = 6},   -- 0.15 -> 0.025
+	{Chance = 0.13, Min = 1.4, Max = 2.4},  -- 0.8 -> 0.13
+}
+local KG_PER_SIZE = Config.SizeStepKg -- kilos par "taille d'oeuf normal" en plus : l'oeuf posé et l'animal auront la même taille que l'oeuf trouvé
+local CARRIED_HEIGHT = 2.4       -- taille d'un oeuf posé sur le dos du dragon
+local CARRY_SPOTS = {Vector3.new(0, 0.3, -0.3), Vector3.new(-0.16, 0.27, -0.42), Vector3.new(0.16, 0.27, -0.42)} -- position par rapport au centre du corps, en fraction de la hauteur du dragon (derrière la selle)
+
+local folder = Instance.new("Folder")
+folder.Name = "ZoneEggs"
+folder.Parent = workspace
+local carried = {} -- [player] = {{Key, Kg, Visual?}, ...}
+
+local function notify(player, text) notifyRemote:FireClient(player, text) end
+
+-- les oeufs d'une rareté, du moins bon au meilleur (même ordre que les chances de Config.SpawnChances)
+local function eggKeysOf(rarity)
+	return Config.EggsByValue(rarity)
+end
+
+-- evenement "x4 LUCK" : multiplicateur pose par LuckEventServer (1 = normal)
+local function luck()
+	local value = ReplicatedStorage:GetAttribute("LuckMultiplier")
+	return type(value) == "number" and math.max(value, 1) or 1
+end
+
+local function rollHeight()
+	local roll = math.random() * 100
+	for _, tier in SIZE_TIERS do
+		roll -= tier.Chance * luck()
+		if roll <= 0 then -- (deuxième valeur : le poids imposé par ce palier, s'il en a un)
+			return (tier.Min + math.random() * (tier.Max - tier.Min)) * PLAYER_HEIGHT, tier.Kg and (tier.Kg[1] + math.random() * (tier.Kg[2] - tier.Kg[1])) or nil
+		end
+	end
+	return NORMAL_HEIGHT[1] + math.random() * (NORMAL_HEIGHT[2] - NORMAL_HEIGHT[1])
+end
+
+-- plus de dragon : le joueur porte lui-même ce qu'il ramène. Son personnage tient le rôle du porteur dans tout ce script
+-- (la variable s'appelle encore `dragon` plus bas).
+local function personalDragon(player)
+	local character = player.Character
+	return character and character.PrimaryPart and character or nil
+end
+
+local function setCarrying(player)
+	player:SetAttribute("Carrying", #(carried[player] or {}))
+	local zones = "|" -- zones d'où viennent les œufs portés : seul le gardien de ces zones poursuit le joueur
+	for _, entry in carried[player] or {} do
+		if entry.Zone then zones ..= entry.Zone.Part .. "|" end
+	end
+	player:SetAttribute("CarryZones", zones)
+	-- un œuf géant porté en taille réelle cacherait la caméra : on la recule selon le plus gros œuf porté
+	local biggest = 0
+	for _, entry in carried[player] or {} do
+		biggest = math.max(biggest, entry.Height or 0)
+	end
+	player:SetAttribute("CarrySize", biggest)
+	-- animal de plus de 100 000 kg sur la tête : on court 1,25 fois moins vite (SpeedServer)
+	local heavy = false
+	for _, entry in carried[player] or {} do
+		if (entry.PetKg or 0) > 100000 then heavy = true end
+	end
+	player:SetAttribute("CarryHeavy", heavy or nil)
+end
+
+-- petit oeuf posé sur le dos du dragon
+local petTemplates = eggSystem:WaitForChild("Pets")
+
+-- où se tient le n-ième animal porté : au-dessus de la tête du joueur, empilés
+local function seatCFrame(dragon, index, ground)
+	return dragon.PrimaryPart.CFrame * CFrame.new(0, 3.2 + ground + (index - 1) * 3, 0)
+end
+
+-- animal ensorcelé : chapeau de sorcière posé sur lui, étincelles violettes et lueur
+local function witchDeco(visual)
+	local root = visual.PrimaryPart
+	if not root or visual:FindFirstChild("WitchHat") then return end
+	local cf, size = visual:GetBoundingBox()
+	local w = math.max(math.min(size.X * 0.62, size.Z * 0.62, size.Y * 0.5), 0.5) -- jamais plus gros que l'animal
+	local violet = Color3.fromRGB(190, 95, 255)
+	require(ReplicatedStorage.EggSystem.TraitDeco).Hat(visual, "Witch", {Name = "WitchHat"}) -- sur la tête, soudé à elle
+	local emitter = Instance.new("ParticleEmitter")
+	emitter.Name = "WitchSparkles"
+	emitter.Texture = "rbxasset://textures/particles/sparkles_main.dds"
+	emitter.Color = ColorSequence.new(Color3.fromRGB(225, 150, 255), Color3.fromRGB(120, 50, 230))
+	emitter.LightEmission = 0.8
+	emitter.Rate = 14
+	emitter.Lifetime = NumberRange.new(0.9, 1.6)
+	emitter.Speed = NumberRange.new(size.Y * 0.25, size.Y * 0.6)
+	emitter.SpreadAngle = Vector2.new(180, 180)
+	emitter.Acceleration = Vector3.new(0, size.Y * 0.5, 0)
+	emitter.Rotation = NumberRange.new(0, 360)
+	emitter.RotSpeed = NumberRange.new(-90, 90)
+	emitter.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, 0), NumberSequenceKeypoint.new(0.25, w * 0.45), NumberSequenceKeypoint.new(1, 0)})
+	emitter.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.1), NumberSequenceKeypoint.new(1, 1)})
+	emitter.Parent = root
+	local light = Instance.new("PointLight")
+	light.Name = "WitchGlow"
+	light.Color = violet
+	light.Range = math.clamp(size.Magnitude * 1.5, 8, 60)
+	light.Brightness = 1.6
+	light.Parent = root
+end
+
+-- copie de l'animal à la taille de son poids (limitée pour tenir sur le dragon) ; renvoie le modèle et sa hauteur au sol
+local function petVisual(entry, dragon)
+	local template = petTemplates:FindFirstChild(entry.Pet or "")
+	local info = Config.Pets[entry.Pet or ""]
+	if not template or not info then return nil end
+	local unit = (dragon:GetAttribute("Height") or 8.8) / 8.8
+	local size = math.min(Config.SizeScale(entry.PetKg or info.Kg, info.Kg), 3.2 * unit)
+	local visual = template:Clone()
+	visual.Name = "CarriedPet"
+	visual:ScaleTo(visual:GetScale() * size)
+	for _, part in visual:GetDescendants() do
+		if part:IsA("BasePart") then
+			part.Massless = true
+			part.CanCollide, part.CanQuery, part.CanTouch = false, false, false
+		end
+	end
+	if entry.Witch then witchDeco(visual) end
+	return visual, (visual:GetAttribute("GroundOffset") or 1) * size
+end
+
+-- l'animal éclos est assis sur la queue du dragon
+local function attachVisual(player, entry, index)
+	local dragon = personalDragon(player)
+	if not dragon or not dragon.PrimaryPart then return end
+	local visual, ground = petVisual(entry, dragon)
+	if not visual then return end
+	visual:PivotTo(seatCFrame(dragon, index, ground))
+	local petRoot = visual.PrimaryPart
+	petRoot.Anchored = false
+	local weld = Instance.new("WeldConstraint")
+	weld.Part0, weld.Part1 = dragon.PrimaryPart, petRoot
+	weld.Parent = petRoot
+	visual.Parent = dragon
+	entry.Visual = visual
+end
+
+local spawnEgg
+local zoneBanner
+
+local function grab(player, egg, zone)
+	if not egg.Parent then return end
+	local dragon = personalDragon(player)
+	if not dragon then return end
+	-- il faut être posé au sol à côté de l'œuf pour le ramasser
+	local root = dragon.PrimaryPart
+	if not root then return end
+	local params = RaycastParams.new()
+	params.FilterType = Enum.RaycastFilterType.Exclude
+	params.FilterDescendantsInstances = {workspace:FindFirstChild("ZoneEggs"), player.Character}
+	local reach = (dragon:GetAttribute("GroundOffset") or 3) + 3.5
+	if not workspace:Raycast(root.Position, Vector3.new(0, -reach, 0), params) then
+		notify(player, "Stand next to the egg to grab it!")
+		return
+	end
+	local list = carried[player] or {}
+	carried[player] = list
+	local capacity = UpgradeConfig.Value(player, "Carry")
+	if #list >= capacity then
+		notify(player, "You can only carry " .. capacity .. (capacity == 1 and " egg" or " eggs") .. "! Bring them to the safe zone first.")
+		return
+	end
+	local entry = {Key = egg:GetAttribute("EggKey"), Kg = egg:GetAttribute("Kg"), Height = egg:GetAttribute("Height"), Zone = zone}
+	local wasDropped = egg:GetAttribute("Dropped")
+	egg:Destroy()
+	table.insert(list, entry)
+	attachVisual(player, entry, #list)
+	setCarrying(player)
+	notify(player, "Egg grabbed! Run back to the safe zone to keep it.")
+	ServerStorage.GameBindables.EggGrabbed:Fire(player, zone.Part) -- le gardien de la zone se met en chasse
+	if not wasDropped then task.delay(RESPAWN_DELAY, spawnEgg, zone) end -- un œuf lâché puis repris n'en fait pas réapparaître un autre
+end
+
+-- oeuf lance par l'admin : un timer s'affiche au-dessus ; si personne ne l'a fait eclore a temps, il disparait
+local function adminTimer(egg, height, lifetime)
+	egg:SetAttribute("Dropped", true) -- pas de remplacement automatique : cet oeuf s'ajoute a ceux de la zone
+	egg:SetAttribute("AdminEgg", true)
+	local root = egg.PrimaryPart
+	if not root then return end
+	local deadline = os.clock() + lifetime
+
+	local billboard = Instance.new("BillboardGui")
+	billboard.Name = "AdminTimer"
+	billboard.Size = UDim2.new(8 + height * 0.5, 0, 2.6 + height * 0.2, 0)
+	billboard.StudsOffsetWorldSpace = Vector3.new(0, height / 2 + 8 + height * 0.6, 0)
+	billboard.AlwaysOnTop = false -- on ne le voit plus à travers toute la carte
+	billboard.MaxDistance = 600
+	billboard.LightInfluence = 0
+	local label = Instance.new("TextLabel")
+	label.BackgroundTransparency = 1
+	label.Size = UDim2.fromScale(1, 1)
+	label.FontFace = Font.new("rbxasset://fonts/families/Montserrat.json", Enum.FontWeight.Heavy)
+	label.TextScaled = true
+	label.TextColor3 = Color3.new(1, 1, 1)
+	label.Text = ""
+	local stroke = Instance.new("UIStroke")
+	stroke.Thickness = 3
+	stroke.Color = Color3.new(0, 0, 0)
+	stroke.Parent = label
+	game:GetService("CollectionService"):AddTag(label, "Text3D")
+	label.Parent = billboard
+	billboard.Parent = root
+
+	task.spawn(function()
+		while egg.Parent and not egg:GetAttribute("Hatching") do
+			local left = deadline - os.clock()
+			if left <= 0 then
+				egg:Destroy() -- personne ne l'a pris : il disparait
+				return
+			end
+			local secs = math.ceil(left)
+			label.Text = string.format("%d:%02d", math.floor(secs / 60), secs % 60)
+			label.TextColor3 = secs <= 10 and Color3.fromRGB(255, 90, 70) or Color3.new(1, 1, 1)
+			task.wait(0.25)
+		end
+	end)
+end
+
+-- tire un oeuf parmi ceux d'une rareté : le premier a 60 % de chance, le meilleur 1 % (Config.SpawnChances).
+-- Pendant un event de chance, tous les oeufs sauf le premier voient leur chance multipliée.
+local function pickKey(keys)
+	local chances = Config.SpawnChancesFor(#keys)
+	local L = luck()
+	local total = 0
+	for i in keys do total += chances[i] * (i > 1 and L or 1) end
+	local roll = math.random() * total
+	for i, key in keys do
+		roll -= chances[i] * (i > 1 and L or 1)
+		if roll <= 0 then return key end
+	end
+	return keys[1]
+end
+
+-- forced = {Key, Height, Kg, Position} : repose un œuf précis à un endroit précis (œuf lâché par un joueur)
+function spawnEgg(zone, forced, admin)
+	local part = workspace:FindFirstChild(zone.Part)
+	if not part then return end
+	local key = (forced and forced.Key) or (admin and admin.Key)
+	if not key then
+		if zone.SpawnPool then
+			local L = luck()
+			local total = 0
+			for i, entry in zone.SpawnPool do total += entry.Chance * (i > 1 and L or 1) end
+			local roll = math.random() * total
+			local accumulated = 0
+			local chosenKeys = zone.Keys
+			for i, entry in zone.SpawnPool do
+				accumulated += entry.Chance * (i > 1 and L or 1)
+				if roll <= accumulated and #entry.Keys > 0 then
+					chosenKeys = entry.Keys
+					break
+				end
+			end
+			key = pickKey(chosenKeys)
+		else
+			key = pickKey(zone.Keys)
+		end
+	end
+	local info, template = Config.Eggs[key], eggTemplates:FindFirstChild(key)
+	if not template or not info then return end
+	local height, giantKg
+	if forced then height = forced.Height else height, giantKg = rollHeight() end
+	-- œuf admin avec un poids choisi : sa taille suit le poids (sinon tirage classique)
+	local adminKg = admin and tonumber(admin.Kg)
+	if adminKg and adminKg > 0 then
+		height = math.clamp((1 + math.max(0, adminKg - info.Kg) / KG_PER_SIZE) * ((NORMAL_HEIGHT[1] + NORMAL_HEIGHT[2]) / 2), NORMAL_HEIGHT[1], 50 * PLAYER_HEIGHT)
+	else
+		adminKg = nil
+	end
+	local scale = height / EGG_UNIT_HEIGHT
+	local half = part.Size / 2
+	local margin = math.min(half.X, half.Z, height * 0.6 + 4)
+	local x = part.Position.X + (math.random() * 2 - 1) * (half.X - margin)
+	local z = part.Position.Z + (math.random() * 2 - 1) * (half.Z - margin)
+	local floorY = part.Position.Y + half.Y
+	if forced then x, floorY, z = forced.Position.X, forced.Position.Y, forced.Position.Z end
+	local egg = template:Clone()
+	egg.Name = key
+	egg:ScaleTo(scale)
+	egg:PivotTo(CFrame.new(x, floorY + height / 2, z) * CFrame.Angles(0, math.random() * math.pi * 2, 0))
+	for _, d in egg:GetDescendants() do
+		if d:IsA("BasePart") then
+			d.Anchored = true
+			d.CanCollide, d.CanTouch = false, false -- on passe à travers les œufs
+			d.CanQuery = true
+		end
+	end
+	local sizes = height / ((NORMAL_HEIGHT[1] + NORMAL_HEIGHT[2]) / 2)
+	-- poids : le poids de base (jamais moins), et pour les œufs géants les kilos de leur taille
+	local kg = info.Kg * (1 + math.random() * 0.3) + (height > NORMAL_HEIGHT[2] and math.max(0, sizes - 1) * KG_PER_SIZE or 0)
+	if giantKg then kg = giantKg end
+	if forced then kg = forced.Kg end
+	if adminKg then kg = adminKg end
+	egg:SetAttribute("EggKey", key)
+	egg:SetAttribute("Kg", kg)
+	egg:SetAttribute("Height", height)
+	local maxHp = math.max(1, math.floor((zone.Hp or 5) * math.clamp(height / NORMAL_HEIGHT[2], 1, 12) + 0.5))
+	egg:SetAttribute("MaxHp", maxHp)
+	egg:SetAttribute("Hp", maxHp)
+
+	local root = egg.PrimaryPart
+	local billboard = Instance.new("BillboardGui")
+	billboard.Name = "EggLabel"
+	billboard.Size = UDim2.new(6.5 + height * 0.65, 0, 3 + height * 0.3, 0)
+	billboard.StudsOffsetWorldSpace = Vector3.new(0, height * 0.98 + 1.5, 0) -- au-dessus de la pointe de l'œuf
+	billboard.MaxDistance = 120 + height * 6
+	billboard.LightInfluence = 0
+	local function text(str, pos, size, color)
+		local label = Instance.new("TextLabel")
+		label.BackgroundTransparency = 1
+		label.Position, label.Size = pos, size
+		label.FontFace = Font.new("rbxasset://fonts/families/Montserrat.json", Enum.FontWeight.Heavy)
+		label.Text = str
+		label.TextScaled = true
+		label.TextColor3 = color
+		local stroke = Instance.new("UIStroke")
+		stroke.Thickness = 2
+		stroke.Color = Color3.new(0, 0, 0)
+		stroke.Thickness = 3
+		stroke.Parent = label
+		game:GetService("CollectionService"):AddTag(label, "Text3D") -- texte en relief
+		label.Parent = billboard
+		return label
+	end
+	text(string.upper(info.Rarity) .. " · " .. info.Name, UDim2.fromScale(0, 0), UDim2.fromScale(1, 0.4), Color3.new(1, 1, 1)) -- rareté + nom
+	local chance = Config.SpawnChanceOf(key) -- chance d'apparition de cet oeuf parmi ceux de sa rareté
+	egg:SetAttribute("SpawnChance", chance)
+	text(Config.FormatKg(kg) .. (chance and ("  ·  " .. Config.FormatChance(chance)) or ""), UDim2.fromScale(0, 0.4), UDim2.fromScale(1, 0.27), kg > info.Kg * 2 and Color3.fromRGB(255, 220, 90) or Color3.fromRGB(200, 235, 255))
+	billboard.Parent = root
+
+	local prompt = Instance.new("ProximityPrompt")
+	prompt.Name = "GrabEggPrompt"
+	prompt.ActionText = "Grab"
+	prompt.ObjectText = info.Name
+	prompt.HoldDuration = 0.2
+	prompt.RequiresLineOfSight = false
+	-- l'invite est au pied de l'œuf, en son centre : il suffit d'être à côté de l'œuf, quelle que soit sa taille
+	local extents = egg:GetExtentsSize()
+	local radius = math.max(extents.X, extents.Z) / 2
+	prompt.MaxActivationDistance = radius + 12 + height * 0.1
+	local foot = Instance.new("Attachment")
+	foot.Name = "GrabPoint"
+	foot.Parent = root
+	foot.WorldPosition = Vector3.new(x, floorY + math.min(height * 0.25, 4), z)
+	prompt.Enabled = false -- on ne ramasse plus les œufs : il faut les casser au marteau
+	prompt.Parent = foot
+	prompt.Triggered:Connect(function(player) grab(player, egg, zone) end)
+	if forced then
+		egg:SetAttribute("Dropped", true)
+		game:GetService("Debris"):AddItem(egg, DROPPED_LIFETIME) -- un œuf abandonné finit par disparaître
+	end
+	egg.Parent = zone.Folder
+	if admin then adminTimer(egg, height, admin.Lifetime) end
+	return egg
+end
+
+-- Grande pancarte flottante à l'entrée de chaque zone : nom du lieu, rareté, puissance de brûlure recommandée
+local ZONE_THEMES = { -- mot trouvé dans le nom de la pièce -> nom affiché et couleurs ; sinon thème par défaut de la rareté
+	forest = {"Forest Zone", Color3.fromRGB(150, 255, 90), Color3.fromRGB(30, 170, 50)},
+	jungle = {"Jungle Zone", Color3.fromRGB(190, 255, 110), Color3.fromRGB(0, 170, 110)},
+	aquatic = {"Aquatic Zone", Color3.fromRGB(120, 225, 255), Color3.fromRGB(20, 110, 235)},
+	ocean = {"Ocean Zone", Color3.fromRGB(120, 225, 255), Color3.fromRGB(20, 110, 235)},
+	ice = {"Ice Zone", Color3.fromRGB(235, 250, 255), Color3.fromRGB(110, 190, 255)},
+	desert = {"Desert Zone", Color3.fromRGB(255, 236, 130), Color3.fromRGB(245, 160, 30)},
+	dessert = {"Desert Zone", Color3.fromRGB(255, 236, 130), Color3.fromRGB(245, 160, 30)},
+	lava = {"Lava Zone", Color3.fromRGB(255, 190, 70), Color3.fromRGB(230, 40, 20)},
+	crystal = {"Crystal Zone", Color3.fromRGB(255, 190, 245), Color3.fromRGB(170, 110, 255)},
+	void = {"Void Zone", Color3.fromRGB(215, 150, 255), Color3.fromRGB(110, 40, 210)},
+	demon = {"Demon Zone", Color3.fromRGB(255, 120, 150), Color3.fromRGB(150, 20, 60)},
+	meadow = {"Meadow Zone", Color3.fromRGB(215, 255, 120), Color3.fromRGB(90, 190, 40)},
+	volcano = {"Volcano Zone", Color3.fromRGB(255, 190, 70), Color3.fromRGB(230, 40, 20)},
+	dino = {"Dino Zone", Color3.fromRGB(200, 255, 120), Color3.fromRGB(110, 150, 40)},
+	angel = {"Angel Zone", Color3.fromRGB(255, 255, 255), Color3.fromRGB(255, 215, 90)},
+	snow = {"Snow Zone", Color3.fromRGB(255, 255, 255), Color3.fromRGB(160, 215, 255)},
+	candy = {"Candy Zone", Color3.fromRGB(255, 190, 230), Color3.fromRGB(255, 90, 170)},
+	galaxy = {"Galaxy Zone", Color3.fromRGB(190, 170, 255), Color3.fromRGB(90, 50, 210)},
+	halloween = {"Halloween Zone", Color3.fromRGB(255, 170, 50), Color3.fromRGB(140, 50, 220)},
+}
+local RARITY_THEME = {Common = "forest", Uncommon = "jungle", Rare = "aquatic", Epic = "ice", Legendary = "desert", Mythic = "lava", Secret = "demon", Ancient = "dino", OG = "candy", Divine = "angel", Prismatic = "halloween"}
+local RARITY_COLOR = {Common = Color3.fromRGB(190, 250, 40), Uncommon = Color3.fromRGB(40, 240, 150), Rare = Color3.fromRGB(40, 185, 255), Epic = Color3.fromRGB(200, 100, 255),
+	Legendary = Color3.fromRGB(255, 225, 40), Mythic = Color3.fromRGB(255, 100, 140), Secret = Color3.fromRGB(200, 200, 215), Ancient = Color3.fromRGB(150, 220, 90), OG = Color3.fromRGB(255, 190, 60), Divine = Color3.fromRGB(255, 240, 170), Prismatic = Color3.fromRGB(255, 120, 220)}
+local FLAME_ICON = "rbxassetid://78970514864199"
+
+function zoneBanner(zone)
+	local part = workspace:FindFirstChild(zone.Part)
+	if not part then return end
+	local theme = zone.Theme and ZONE_THEMES[zone.Theme] -- thème imposé (ex. zone Halloween, dont le nom contient aussi "demon")
+	local lower = string.lower(zone.Part)
+	if not theme then
+		for word, entry in ZONE_THEMES do
+			if string.find(lower, word, 1, true) then theme = entry break end
+		end
+	end
+	theme = theme or ZONE_THEMES[RARITY_THEME[zone.Rarity] ] or ZONE_THEMES.forest
+	-- le message s'affiche sur l'écran du joueur qui entre dans la zone (script client ZoneBannerGui) : on publie juste les infos
+	part:SetAttribute("ZoneTitle", theme[1])
+	part:SetAttribute("ZoneColor1", theme[2])
+	part:SetAttribute("ZoneColor2", theme[3])
+	part:SetAttribute("ZoneRarity", zone.DisplayRarity or zone.Rarity)
+	part:SetAttribute("ZoneRarityColor", RARITY_COLOR[zone.DisplayRarity or zone.Rarity] or Color3.new(1, 1, 1))
+	part:SetAttribute("ZoneBurn", zone.Burn or 0)
+	part:SetAttribute("ZoneHp", zone.Hp or 0)
+	part:SetAttribute("ZoneSpeed", zone.Speed or 0)
+	part:SetAttribute("ZoneHammer", HammerConfig.Get(zone.Hammer or 1).Name)
+	game:GetService("CollectionService"):AddTag(part, "EggZoneArea")
+end
+
+for _, zone in ZONES do
+	zone.Keys = eggKeysOf(zone.Rarity)
+	if zone.SpawnPool then
+		for _, entry in zone.SpawnPool do
+			entry.Keys = eggKeysOf(entry.Rarity)
+		end
+	end
+	zone.Folder = Instance.new("Folder")
+	zone.Folder.Name = zone.Part
+	zone.Folder.Parent = folder
+	zoneBanner(zone)
+	if workspace:FindFirstChild(zone.Part) and #zone.Keys > 0 then
+		for _ = 1, zone.Count do spawnEgg(zone) end
+	else
+		warn("[EggZoneServer] zone introuvable ou sans oeufs : " .. zone.Part)
+	end
+end
+
+-- nuit : tous les œufs des zones sont remplacés par de nouveaux. Renvoie les œufs spéciaux apparus (géants, ou d'une rareté différente de la zone).
+local SECRET_BONUS_CHANCE = 0.1    -- % de chance, à chaque réinitialisation des œufs (la nuit)
+local SECRET_BONUS_LIFETIME = 290 -- secondes : il reste jusqu'à la nuit suivante
+local resetEggs = Instance.new("BindableFunction")
+resetEggs.Name = "ResetEggs"
+resetEggs.OnInvoke = function()
+	local specials = {}
+	for _, zone in ZONES do
+		local zonePart = workspace:FindFirstChild(zone.Part)
+		if zone.Folder and zonePart and #zone.Keys > 0 then
+			for _, egg in zone.Folder:GetChildren() do
+				if egg:GetAttribute("EggKey") and not egg:GetAttribute("Hatching") and not egg:GetAttribute("AdminEgg") and not egg:GetAttribute("Dropped") then egg:Destroy() end
+			end
+			for _ = 1, zone.Count do
+				local egg = spawnEgg(zone)
+				local info = egg and Config.Eggs[egg:GetAttribute("EggKey")]
+				if info then
+					local giant = (egg:GetAttribute("Height") or 0) >= 3.5 * PLAYER_HEIGHT
+					local RANK = Config.RarityRank
+					if giant or (RANK[info.Rarity] or 0) > (RANK[zone.Rarity] or 0) then -- seulement ce qui est vraiment rare
+						table.insert(specials, {Name = info.Name, Rarity = info.Rarity, Giant = giant, Zone = zonePart:GetAttribute("ZoneTitle") or (zone.Rarity .. " Zone")})
+					end
+				end
+			end
+		end
+	end
+	-- œuf Secret bonus : à chaque réinitialisation, SECRET_BONUS_CHANCE % de chance qu'un œuf Secret apparaisse dans la zone Secret
+	if math.random() * 100 < SECRET_BONUS_CHANCE then
+		for _, zone in ZONES do
+			local zonePart = workspace:FindFirstChild(zone.Part)
+			local keys = eggKeysOf("Secret")
+			if zone.Rarity == "Secret" and zonePart and #keys > 0 then
+				local egg = spawnEgg(zone, nil, {Key = keys[math.random(#keys)], Lifetime = SECRET_BONUS_LIFETIME})
+				local info = egg and Config.Eggs[egg:GetAttribute("EggKey")]
+				if info then
+					table.insert(specials, 1, {Name = info.Name, Rarity = "Secret", Giant = false, Zone = zonePart:GetAttribute("ZoneTitle") or "Secret Zone"})
+				end
+			end
+		end
+	end
+	return specials
+end
+resetEggs.Parent = ServerStorage:WaitForChild("GameBindables")
+
+-- dans la zone sûre : les oeufs portés sont gagnés
+local function inSafeZone(position)
+	local safe = workspace:FindFirstChild(SAFE_ZONE)
+	if not safe then return false end
+	local rel = safe.CFrame:PointToObjectSpace(position)
+	return math.abs(rel.X) <= safe.Size.X / 2 and math.abs(rel.Z) <= safe.Size.Z / 2 and rel.Y >= 0 and rel.Y <= safe.Size.Y / 2 + 60
+end
+
+task.spawn(function()
+	while true do
+		task.wait(0.3)
+		for player, list in carried do
+			if #list > 0 then
+				local dragon = personalDragon(player)
+				local root = dragon and dragon.PrimaryPart
+				if root and inSafeZone(root.Position) then
+					for index = #list, 1, -1 do
+						local entry = list[index]
+						if ServerStorage.GameBindables.GiveZonePet:Invoke(player, entry.Pet, entry.PetKg, entry.Witch and "Witch" or entry.Cowboy and "Cowboy" or nil, entry.Concert) then
+							if entry.Visual then entry.Visual:Destroy() end
+							table.remove(list, index)
+						end
+					end
+					setCarrying(player)
+				end
+			end
+		end
+	end
+end)
+
+-- nouveau dragon (changement à la boutique) : on remet les oeufs portés sur son dos
+local function watchDragons(dragons)
+	dragons.ChildAdded:Connect(function(dragon)
+		task.wait(0.3)
+		local owner = Players:GetPlayerByUserId(dragon:GetAttribute("Owner") or 0)
+		local list = owner and carried[owner]
+		for index, entry in list or {} do attachVisual(owner, entry, index) end
+	end)
+end
+if workspace:FindFirstChild("Dragons") then watchDragons(workspace.Dragons) end
+workspace.ChildAdded:Connect(function(child) if child.Name == "Dragons" then watchDragons(child) end end)
+
+-- mort ou départ : les oeufs portés sont perdus
+local function clear(player)
+	for _, entry in carried[player] or {} do
+		if entry.Visual then entry.Visual:Destroy() end
+	end
+	carried[player] = nil
+end
+local function onPlayer(player)
+	setCarrying(player)
+	player.CharacterAdded:Connect(function(character)
+		character:WaitForChild("Humanoid").Died:Connect(function()
+			local had = #(carried[player] or {})
+			clear(player)
+			setCarrying(player)
+			if had > 0 then notify(player, "You lost the eggs you were carrying!") end
+		end)
+	end)
+end
+Players.PlayerAdded:Connect(onPlayer)
+for _, player in Players:GetPlayers() do onPlayer(player) end
+Players.PlayerRemoving:Connect(clear)
+
+-- touché par le gardien d'une zone : les œufs portés sont perdus
+ServerStorage:WaitForChild("GameBindables"):WaitForChild("DropCarried").Event:Connect(function(player)
+	clear(player)
+	setCarrying(player)
+end)
+
+-- bouton Drop : le joueur lâche le dernier œuf pris ; l'œuf est posé au sol sous le dragon et peut être repris
+eggSystem:WaitForChild("Remotes"):WaitForChild("DropEgg").OnServerEvent:Connect(function(player)
+	local list = carried[player]
+	local dragon = personalDragon(player)
+	if not list or #list == 0 or not dragon or not dragon.PrimaryPart then return end
+	local params = RaycastParams.new()
+	params.FilterType = Enum.RaycastFilterType.Exclude
+	params.FilterDescendantsInstances = {folder, player.Character}
+	local hit = workspace:Raycast(dragon.PrimaryPart.Position, Vector3.new(0, -600, 0), params)
+	if not hit then
+		notify(player, "You can't drop an egg over the void!")
+		return
+	end
+	local entry = table.remove(list)
+	if entry.Visual then entry.Visual:Destroy() end
+	setCarrying(player)
+	spawnEgg(entry.Zone or ZONES[1], {Key = entry.Key, Height = entry.Height, Kg = entry.Kg, Position = hit.Position})
+	notify(player, "Egg dropped!")
+end)
+
+---------------------------------------------------------------- Casser un œuf au marteau : chaque coup lui enlève des points de vie ; à zéro il éclot
+local BURN_TIME = UpgradeConfig.BurnTime or 3
+local burnRemote = eggSystem:WaitForChild("Remotes"):WaitForChild("BurnEgg")
+local burning = {}  -- [egg] = {Player, Time, Last}
+local warned = {}   -- [player] = heure du dernier message (pas de spam)
+local function warn1(player, text)
+	if os.clock() - (warned[player] or 0) > 2.5 then
+		warned[player] = os.clock()
+		notify(player, text)
+	end
+end
+local function zoneOf(egg)
+	for _, zone in ZONES do
+		if zone.Folder == egg.Parent then return zone end
+	end
+end
+
+local function burnFx(egg, on)
+	local root = egg.PrimaryPart
+	if not root then return end
+	local fire = root:FindFirstChild("BurnFire")
+	if on and not fire then
+		local height = egg:GetAttribute("Height") or 3
+		fire = Instance.new("ParticleEmitter")
+		fire.Name = "BurnFire"
+		fire.Texture = "rbxassetid://9968039364"
+		fire.FlipbookLayout, fire.FlipbookMode = Enum.ParticleFlipbookLayout.Grid4x4, Enum.ParticleFlipbookMode.OneShot
+		fire.Rate = 16
+		fire.Lifetime = NumberRange.new(0.5, 0.8)
+		fire.Speed = NumberRange.new(height * 0.6, height * 1.2)
+		fire.SpreadAngle = Vector2.new(40, 40)
+		fire.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, height * 0.5), NumberSequenceKeypoint.new(1, height * 1.1)})
+		fire.Transparency = NumberSequence.new({NumberSequenceKeypoint.new(0, 0.5), NumberSequenceKeypoint.new(1, 1)})
+		fire.LightEmission = 1
+		fire.Rotation = NumberRange.new(0, 360)
+		fire.EmissionDirection = Enum.NormalId.Top
+		fire.Parent = root
+		-- barre de progression au-dessus de l'œuf : cadre blanc à studs, remplissage de feu, flamme et pourcentage en relief
+		local bar = Instance.new("BillboardGui")
+		bar.Name = "BurnBar"
+		bar.Size = UDim2.new(7 + height * 0.7, 0, 1.5 + height * 0.15, 0)
+		bar.StudsOffsetWorldSpace = Vector3.new(0, height / 2 + 5.5 + height * 0.42, 0)
+		bar.AlwaysOnTop = true
+		bar.LightInfluence = 0
+		local back = Instance.new("Frame")
+		back.Name = "Back"
+		back.Position = UDim2.fromScale(0.16, 0.2)
+		back.Size = UDim2.fromScale(0.84, 0.6)
+		back.BackgroundColor3 = Color3.new(1, 1, 1)
+		back.BorderSizePixel = 0
+		local outline = Instance.new("UIStroke")
+		outline.Thickness = 3
+		outline.Parent = back
+		local function studs(parent)
+			local image = Instance.new("ImageLabel")
+			image.Name = "Studs"
+			image.BackgroundTransparency = 1
+			image.Size = UDim2.fromScale(1, 1)
+			image.Image = "rbxassetid://7447638591"
+			image.ScaleType = Enum.ScaleType.Tile
+			image.TileSize = UDim2.fromScale(0.12, 1)
+			image.ImageTransparency = 0.2
+			image.Parent = parent
+			return image
+		end
+		studs(back).ImageColor3 = Color3.fromRGB(226, 228, 238)
+		local fill = Instance.new("Frame")
+		fill.Name = "Fill"
+		fill.Size = UDim2.fromScale(0, 1)
+		fill.BackgroundColor3 = Color3.new(1, 1, 1)
+		fill.BorderSizePixel = 0
+		fill.ClipsDescendants = true
+		local gradient = Instance.new("UIGradient")
+		gradient.Color = ColorSequence.new({ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 225, 70)), ColorSequenceKeypoint.new(0.6, Color3.fromRGB(255, 140, 30)), ColorSequenceKeypoint.new(1, Color3.fromRGB(240, 60, 30))})
+		gradient.Parent = fill
+		fill.Parent = back
+		local label = Instance.new("TextLabel")
+		label.Name = "Label"
+		label.BackgroundTransparency = 1
+		label.Size = UDim2.fromScale(1, 1)
+		label.FontFace = Font.new("rbxasset://fonts/families/Montserrat.json", Enum.FontWeight.Heavy)
+		label.Text = "0%"
+		label.TextScaled = true
+		label.TextColor3 = Color3.new(1, 1, 1)
+		label.ZIndex = 3
+		local textStroke = Instance.new("UIStroke")
+		textStroke.Thickness = 3
+		textStroke.Parent = label
+		game:GetService("CollectionService"):AddTag(label, "Text3D")
+		label.Parent = back
+		back.Parent = bar
+		local icon = Instance.new("ImageLabel")
+		icon.Name = "Flame"
+		icon.BackgroundTransparency = 1
+		icon.Image = "rbxassetid://86524369025968"
+		icon.ScaleType = Enum.ScaleType.Fit
+		icon.Size = UDim2.fromScale(0.2, 1)
+		icon.ZIndex = 4
+		icon.Parent = bar
+		bar.Parent = root
+	elseif not on then
+		if fire then fire:Destroy() end
+		local bar = root:FindFirstChild("BurnBar")
+		if bar then bar:Destroy() end
+	end
+end
+
+local HATCHED_LIFETIME = 60 -- secondes avant qu'un animal éclos que personne ne ramasse disparaisse
+
+-- le joueur ramasse l'animal éclos : il bondit sur la queue du dragon et le gardien de la zone se met en chasse
+local function grabPet(player, visual, entry, zone)
+	if not visual.Parent or visual:GetAttribute("Taken") then return end
+	local dragon = personalDragon(player)
+	if not dragon or not dragon.PrimaryPart then return end
+	local list = carried[player] or {}
+	carried[player] = list
+	local capacity = UpgradeConfig.Value(player, "Carry")
+	if #list >= capacity then
+		notify(player, "You can only carry " .. capacity .. (capacity == 1 and " animal" or " animals") .. "! Bring them to the safe zone first.")
+		return
+	end
+	visual:SetAttribute("Taken", true)
+	local from = visual:GetPivot().Position
+	visual:Destroy()
+	table.insert(list, entry)
+	setCarrying(player)
+	ServerStorage.GameBindables.EggGrabbed:Fire(player, zone.Part)
+	task.spawn(function()
+		local jumper, ground = petVisual(entry, dragon)
+		if not jumper then return end
+		jumper.PrimaryPart.Anchored = true
+		jumper:PivotTo(CFrame.new(from))
+		jumper.Parent = workspace
+		local index = table.find(list, entry) or 1
+		local start = os.clock()
+		while os.clock() - start < 0.7 do
+			dragon = personalDragon(player)
+			if not dragon or not dragon.PrimaryPart then break end
+			local k = (os.clock() - start) / 0.7
+			local seat = seatCFrame(dragon, index, ground)
+			jumper:PivotTo(CFrame.new(from:Lerp(seat.Position, k) + Vector3.new(0, math.sin(k * math.pi) * 9, 0)) * seat.Rotation * CFrame.Angles(0, (1 - k) * math.pi * 4, 0))
+			task.wait()
+		end
+		jumper:Destroy()
+		index = table.find(list, entry)
+		if index and carried[player] == list then
+			attachVisual(player, entry, index)
+			notify(player, (entry.Witch and "Witch " or "") .. Config.Pets[entry.Pet].Name .. " grabbed! Run back to the safe zone to keep it.")
+		end
+	end)
+end
+
+local function hatch(player, egg, zone)
+	egg:SetAttribute("Hatching", true)
+	local key, kg, height = egg:GetAttribute("EggKey"), egg:GetAttribute("Kg"), egg:GetAttribute("Height")
+	local info = Config.Eggs[key]
+	local petName = info.Pets[1].Pet
+	local petInfo = Config.Pets[petName]
+	-- les kilos en plus de l'œuf passent à l'animal : œuf géant = animal géant
+	local petKg = petInfo.Kg * (1 + math.random() * 0.25) + math.max(0, kg - info.Kg)
+	local entry = {Key = key, Kg = kg, Height = height, Zone = zone, Pet = petName, PetKg = petKg, Witch = egg:GetAttribute("WitchTrait"), Cowboy = egg:GetAttribute("CowboyTrait"),
+		Concert = egg:GetAttribute("ConcertMutation") and "Like" or nil} -- mutation Like x5 (event CONCERT) : l'animal la garde
+	if not egg:GetAttribute("Dropped") then task.delay(RESPAWN_DELAY, spawnEgg, zone) end
+
+	task.spawn(function()
+		local pivot, scale = egg:GetPivot(), egg:GetScale()
+		for _, d in egg:GetDescendants() do
+			if d:IsA("BillboardGui") or d:IsA("ProximityPrompt") then d:Destroy() end
+		end
+		-- 1) l'œuf tremble de plus en plus fort et gonfle
+		local start = os.clock()
+		while os.clock() - start < 0.8 and egg.Parent do
+			local k = (os.clock() - start) / 0.8
+			-- (gonflement et lueur animés côté client : HatchFxClient)
+			-- (plus de tremblement : l'œuf gonfle seulement)
+			task.wait()
+		end
+		-- 2) il éclate : éclair, étincelles, morceaux de coquille
+		local center = pivot.Position
+		local flash = Instance.new("Part")
+		flash.Shape = Enum.PartType.Ball
+		flash.Material = Enum.Material.Neon
+		flash.Color = Color3.fromRGB(255, 240, 170)
+		flash.Anchored, flash.CanCollide, flash.CanQuery, flash.CanTouch, flash.CastShadow = true, false, false, false, false
+		flash.Size = Vector3.one * height * 0.6
+		flash.CFrame = CFrame.new(center)
+		flash.Parent = workspace
+		game:GetService("TweenService"):Create(flash, TweenInfo.new(0.45, Enum.EasingStyle.Quad, Enum.EasingDirection.Out), {Size = Vector3.one * height * 3, Transparency = 1}):Play()
+		game:GetService("Debris"):AddItem(flash, 0.5)
+		local sparks = Instance.new("Attachment")
+		sparks.WorldPosition = center
+		sparks.Parent = workspace.Terrain
+		local emitter = Instance.new("ParticleEmitter")
+		emitter.Texture = "rbxasset://textures/particles/sparkles_main.dds"
+		emitter.Rate = 0
+		emitter.Lifetime = NumberRange.new(0.6, 1.2)
+		emitter.Speed = NumberRange.new(height * 3, height * 7)
+		emitter.SpreadAngle = Vector2.new(180, 180)
+		emitter.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, height * 0.35), NumberSequenceKeypoint.new(1, 0)})
+		emitter.Color = ColorSequence.new(Color3.fromRGB(255, 240, 150), Color3.fromRGB(255, 140, 40))
+		emitter.LightEmission = 1
+		emitter.Drag = 3
+		emitter.Parent = sparks
+		emitter:Emit(40)
+		game:GetService("Debris"):AddItem(sparks, 1.5)
+		local shards = 0
+		for _, part in egg:GetChildren() do
+			if part:IsA("BasePart") and part ~= egg.PrimaryPart and part.Transparency < 1 and shards < 22 and math.random() < 0.3 then
+				shards += 1
+				part.Parent = workspace
+				part.Anchored = false
+				part.CanCollide = false
+				local away = (part.Position - center)
+				away = away.Magnitude > 0.1 and away.Unit or Vector3.yAxis
+				part.AssemblyLinearVelocity = (away + Vector3.new(0, 0.9, 0)) * (18 + height * 4)
+				part.AssemblyAngularVelocity = Vector3.new(math.random(-12, 12), math.random(-12, 12), math.random(-12, 12))
+				game:GetService("Debris"):AddItem(part, 1.4)
+			end
+		end
+		egg:Destroy()
+		-- 3) l'animal est là, à sa vraie taille : il sautille sur place en attendant qu'on vienne le chercher
+		local template = petTemplates:FindFirstChild(petName)
+		if not template then return end
+		local size = Config.SizeScale(petKg, petInfo.Kg)
+		local visual = template:Clone()
+		visual.Name = "HatchedPet"
+		visual:ScaleTo(visual:GetScale() * size)
+		for _, part in visual:GetDescendants() do
+			if part:IsA("BasePart") then part.CanCollide, part.CanTouch, part.CanQuery = false, false, false end
+		end
+		local ground = (visual:GetAttribute("GroundOffset") or 1) * size
+		local rest = CFrame.new(center.X, center.Y - height / 2 + ground, center.Z) * CFrame.Angles(0, math.random() * math.pi * 2, 0)
+		visual.PrimaryPart.Anchored = true
+		visual:PivotTo(rest)
+		local _, bounds = visual:GetBoundingBox()
+		local billboard = Instance.new("BillboardGui")
+		billboard.Size = UDim2.new(5 + bounds.Y * 0.5, 0, 1.4 + bounds.Y * 0.14, 0)
+		billboard.StudsOffsetWorldSpace = Vector3.new(0, bounds.Y * 0.6 + 2, 0)
+		billboard.LightInfluence = 0
+		billboard.MaxDistance = 160 + bounds.Y * 6
+		local label = Instance.new("TextLabel")
+		label.BackgroundTransparency = 1
+		label.Size = UDim2.fromScale(1, 1)
+		label.FontFace = Font.new("rbxasset://fonts/families/Montserrat.json", Enum.FontWeight.Heavy)
+		label.Text = (entry.Concert and "LIKE " or "") .. (entry.Cowboy and "COWBOY " or "") .. (entry.Witch and "WITCH " or "") .. petInfo.Name .. "  ·  " .. Config.FormatKg(petKg)
+		label.TextScaled = true
+		label.TextColor3 = entry.Concert and Color3.fromRGB(255, 90, 215) or entry.Witch and Color3.fromRGB(215, 140, 255) or entry.Cowboy and Color3.fromRGB(255, 205, 60) or Color3.fromRGB(150, 255, 130)
+		local stroke = Instance.new("UIStroke")
+		stroke.Thickness = 3
+		stroke.Parent = label
+		game:GetService("CollectionService"):AddTag(label, "Text3D")
+		label.Parent = billboard
+		billboard.Parent = visual.PrimaryPart
+		local prompt = Instance.new("ProximityPrompt")
+		prompt.Name = "GrabPetPrompt"
+		prompt.ActionText = "Grab"
+		prompt.ObjectText = petInfo.Name
+		prompt.HoldDuration = 0.2
+		prompt.RequiresLineOfSight = false
+		prompt.MaxActivationDistance = 14 + math.max(bounds.X, bounds.Z)
+		prompt.Parent = visual.PrimaryPart
+		prompt.Triggered:Connect(function(who) grabPet(who, visual, entry, zone) end)
+		visual.Parent = zone.Folder
+		if entry.Witch then witchDeco(visual) end
+		visual:SetAttribute("Lifetime", HATCHED_LIFETIME) -- compte à rebours rouge + trou noir côté client (HatchFxClient)
+		game:GetService("Debris"):AddItem(visual, HATCHED_LIFETIME)
+		if entry.Concert then notify(player, "LIKE TRAIT x5! Your " .. petInfo.Name .. " will earn x5! Go grab it!") end
+		notify(player, entry.Witch and ("WITCH TRAIT! Your " .. petInfo.Name .. " got x" .. tostring(entry.Witch) .. " weight from the witch! Go grab it!") or (petInfo.Name .. " hatched! Go grab it!"))
+		prompt.Enabled = false
+		task.spawn(function()
+			-- il se présente : deux tours complets sur lui-même en 4 secondes, en s'élevant un peu, puis on peut le ramasser
+			local t0 = os.clock()
+			while visual.Parent and os.clock() - t0 < 4 do
+				local k = (os.clock() - t0) / 4
+				local eased = k * k * (3 - 2 * k)
+				-- (les deux tours sont animés côté client : HatchFxClient)
+				task.wait()
+			end
+			if not visual.Parent then return end
+			visual:PivotTo(rest)
+			prompt.Enabled = true
+			-- puis petits bonds joyeux en attendant
+			t0 = os.clock()
+			while visual.Parent and not visual:GetAttribute("Taken") do
+				local t = os.clock() - t0
+				task.wait(0.25) -- (balancement animé côté client)
+			end
+		end)
+	end)
+end
+
+local hitRemote = eggSystem:WaitForChild("Remotes"):WaitForChild("HitEgg")
+local lastHit = {} -- [player] = heure du dernier coup
+
+-- (la barre de vie et les "-N" sont dessinés sur l'écran de chaque joueur : StarterPlayerScripts.EggHitClient lit l'attribut Hp)
+
+-- bruit du marteau : un « pop » net et un petit « tok » de bois aigu, rien de grave (pas d'effet d'explosion).
+-- Plus l'œuf est abîmé, plus le pop monte dans l'aigu ; quand il casse, double « pop-pop » encore plus aigu.
+local POP = 6586979979      -- pop cartoon très court (0,2 s)
+local POP2 = 140323850218372 -- second pop, pour la casse
+local KNOCK = 9126266458    -- coup sec sur du bois (Pro Sound Effects), joué aigu et doux
+local function playOn(parent, id, volume, speed, life)
+	local sound = Instance.new("Sound")
+	sound.SoundId = "rbxassetid://" .. id
+	sound.Volume = volume
+	sound.PlaybackSpeed = speed
+	sound.RollOffMinDistance = 10
+	sound.RollOffMaxDistance = 110
+	sound.Parent = parent
+	sound:Play()
+	game:GetService("Debris"):AddItem(sound, life or 1.5)
+end
+local function hitSound(root, hp, maxHp)
+	local damaged = 1 - math.clamp((hp or 0) / math.max(maxHp or 1, 1), 0, 1) -- 0 : œuf neuf, 1 : cassé
+	local jitter = (math.random() - 0.5) * 0.06
+	playOn(root, POP, 0.8, 1 + 0.5 * damaged + jitter, 1)
+	playOn(root, KNOCK, 0.3, 1.6 + jitter, 1)
+	if hp and hp <= 0 then -- il casse (sur un point fixe : l'œuf va disparaître)
+		local spot = Instance.new("Part")
+		spot.Anchored, spot.CanCollide, spot.CanQuery, spot.CanTouch, spot.Transparency = true, false, false, false, 1
+		spot.Size = Vector3.one
+		spot.CFrame = CFrame.new(root.Position)
+		spot.Parent = workspace
+		game:GetService("Debris"):AddItem(spot, 2)
+		playOn(spot, POP2, 0.9, 1.25, 1.5)
+		task.delay(0.09, function() if spot.Parent then playOn(spot, POP, 0.9, 1.75, 1) end end)
+	end
+end
+
+-- éclats de coquille, bruit satisfaisant et petite secousse à chaque coup
+local function hitFx(egg, from, hp, maxHp)
+	local root = egg.PrimaryPart
+	if not root then return end
+	local height = egg:GetAttribute("Height") or 3
+	hitSound(root, hp, maxHp)
+	local chips = root:FindFirstChild("HitChips")
+	if not chips then
+		chips = Instance.new("ParticleEmitter")
+		chips.Name = "HitChips"
+		chips.Texture = "rbxasset://textures/particles/sparkles_main.dds"
+		chips.Color = ColorSequence.new(Color3.fromRGB(255, 250, 235))
+		chips.Rate = 0
+		chips.Lifetime = NumberRange.new(0.35, 0.7)
+		chips.Speed = NumberRange.new(height * 2.5, height * 5)
+		chips.SpreadAngle = Vector2.new(180, 180)
+		chips.Acceleration = Vector3.new(0, -60, 0)
+		chips.Size = NumberSequence.new({NumberSequenceKeypoint.new(0, math.max(height * 0.14, 0.3)), NumberSequenceKeypoint.new(1, 0)})
+		chips.Rotation = NumberRange.new(0, 360)
+		chips.Parent = root
+	end
+	chips:Emit(14)
+	local rest = egg:GetPivot()
+	local away = Vector3.new(rest.Position.X - from.X, 0, rest.Position.Z - from.Z)
+	away = away.Magnitude > 0.1 and away.Unit or Vector3.new(1, 0, 0)
+	task.spawn(function()
+		for _, k in {0.35, -0.2, 0.1, 0} do
+			if not egg.Parent or egg:GetAttribute("Hatching") then return end
+			egg:PivotTo(rest + away * k * math.min(height * 0.12, 1.2))
+			task.wait(0.04)
+		end
+	end)
+end
+
+hitRemote.OnServerEvent:Connect(function(player, egg)
+	if typeof(egg) ~= "Instance" or not egg:IsA("Model") or not egg:IsDescendantOf(folder) or egg:GetAttribute("Hatching") then return end
+	local character = personalDragon(player)
+	local root = character and character.PrimaryPart
+	if not root or not player:GetAttribute("HammerOut") then return end
+	local now = os.clock()
+	if now - (lastHit[player] or 0) < HIT_COOLDOWN then return end
+	local extents = egg:GetExtentsSize()
+	local center = egg:GetPivot().Position
+	local flat = Vector3.new(root.Position.X - center.X, 0, root.Position.Z - center.Z).Magnitude
+	if flat > math.max(extents.X, extents.Z) / 2 + HIT_REACH then return end
+	local zone = zoneOf(egg)
+	local maxHp = egg:GetAttribute("MaxHp")
+	if not zone or not maxHp then return end
+	if (player:GetAttribute("Hammer") or 1) < (zone.Hammer or 1) then -- marteau trop faible pour cette zone
+		if now - (hammerWarned[player] or 0) > 2.5 then
+			hammerWarned[player] = now
+			notify(player, "You need the " .. HammerConfig.Get(zone.Hammer).Name .. " to break eggs here! Buy it at the HAMMERS stand.")
+		end
+		return
+	end
+	lastHit[player] = now
+	local damage = math.max(player:GetAttribute("HammerDamage") or 1, 1)
+	local hp = math.max((egg:GetAttribute("Hp") or maxHp) - damage, 0)
+	egg:SetAttribute("Hp", hp)
+	hitFx(egg, root.Position, hp, maxHp)
+	if hp <= 0 then
+		hatch(player, egg, zone)
+	end
+end)
+Players.PlayerRemoving:Connect(function(player) warned[player] = nil lastHit[player] = nil end)
+
+-- le gardien touche le joueur : il lui reprend ce qu'il porte et rapporte un œuf dans sa zone
+ServerStorage.GameBindables:WaitForChild("StealCarried").OnInvoke = function(player, zoneName)
+	local list = carried[player] or {}
+	local taken
+	for _, entry in list do
+		if entry.Zone and entry.Zone.Part == zoneName then taken = entry break end
+	end
+	taken = taken or list[1]
+	local stolen = taken and {Key = taken.Key, Height = taken.Height, Kg = taken.Kg} or nil
+	clear(player)
+	setCarrying(player)
+	return stolen
+end
+ServerStorage.GameBindables:WaitForChild("ReturnEgg").Event:Connect(function(zoneName, stolen, position)
+	for _, zone in ZONES do
+		if zone.Part == zoneName then
+			spawnEgg(zone, {Key = stolen.Key, Height = stolen.Height, Kg = stolen.Kg, Position = position})
+		end
+	end
+end)
+
+-- oeuf lance par l'admin (panel) : apparait dans la zone de cette rarete avec un timer, disparait si personne ne le prend
+ServerStorage:WaitForChild("GameBindables"):WaitForChild("SpawnAdminEgg").Event:Connect(function(rarity, eggKey, lifetime, kg)
+	print("[EggZoneServer] SpawnAdminEgg received: rarity=" .. tostring(rarity) .. " eggKey=" .. tostring(eggKey) .. " lifetime=" .. tostring(lifetime))
+	for _, zone in ZONES do
+		if (zone.DisplayRarity or zone.Rarity) == rarity then -- la zone Halloween se choisit avec "Halloween"
+			print("[EggZoneServer] Found zone " .. zone.Part .. " for rarity " .. rarity .. ", spawning egg...")
+			spawnEgg(zone, nil, {Key = eggKey, Lifetime = lifetime, Kg = kg})
+			-- tout le serveur est prévenu : quel œuf, dans quelle zone
+			local zonePart = workspace:FindFirstChild(zone.Part)
+			local eggInfo = Config.Eggs[eggKey]
+			local announce = game:GetService("ReplicatedStorage"):FindFirstChild("AdminSystem") and game:GetService("ReplicatedStorage").AdminSystem.Remotes:FindFirstChild("EggSpawnAnnounce")
+			if announce and eggInfo then
+				announce:FireAllClients(eggInfo.Name, zonePart and zonePart:GetAttribute("ZoneTitle") or (rarity .. " Zone"), eggInfo.Rarity, nil, nil, lifetime, false, true)
+			end
+			return
+		end
+	end
+	warn("[EggZoneServer] zone admin introuvable : " .. tostring(rarity))
+end)
+
+---------------------------------------------------------------- Pet gagné avec un code : apparaît dans la Common Egg Zone, réservé au joueur qui a utilisé le code
+local CODE_PET_LIFETIME = 300 -- secondes avant qu'un pet de code non ramassé disparaisse
+ServerStorage:WaitForChild("GameBindables"):WaitForChild("SpawnCodePet").Event:Connect(function(owner, petName)
+	local zone
+	for _, z in ZONES do
+		if z.Rarity == "Common" then zone = z break end
+	end
+	local part = zone and workspace:FindFirstChild(zone.Part)
+	local template = petTemplates:FindFirstChild(petName)
+	local petInfo = Config.Pets[petName]
+	if not part or not template or not petInfo or typeof(owner) ~= "Instance" or owner.Parent ~= Players then
+		warn("[EggZoneServer] SpawnCodePet impossible : pet=" .. tostring(petName) .. " zone=" .. tostring(part))
+		return
+	end
+
+	-- position au hasard dans la zone Common
+	local half = part.Size / 2
+	local margin = math.min(10, half.X * 0.5, half.Z * 0.5)
+	local x = part.Position.X + (math.random() * 2 - 1) * (half.X - margin)
+	local z = part.Position.Z + (math.random() * 2 - 1) * (half.Z - margin)
+	local floorY = part.Position.Y + half.Y
+
+	local petKg = petInfo.Kg * (1 + math.random() * 0.25)
+	local size = Config.SizeScale(petKg, petInfo.Kg)
+	local visual = template:Clone()
+	visual.Name = "CodePet"
+	visual:ScaleTo(visual:GetScale() * size)
+	for _, d in visual:GetDescendants() do
+		if d:IsA("BasePart") then d.CanCollide, d.CanTouch, d.CanQuery = false, false, false end
+	end
+	local ground = (visual:GetAttribute("GroundOffset") or 1) * size
+	local rest = CFrame.new(x, floorY + ground, z) * CFrame.Angles(0, math.random() * math.pi * 2, 0)
+	visual.PrimaryPart.Anchored = true
+	visual:PivotTo(rest)
+	visual:SetAttribute("OwnerId", owner.UserId)
+	local _, bounds = visual:GetBoundingBox()
+
+	-- entrée compatible avec le reste du système (gardien de zone qui reprend ce qu'on porte, zone sûre...)
+	local eggKey = zone.Keys[1]
+	for key, egg in Config.Eggs do
+		if egg.Rarity == "Common" and egg.Pets and egg.Pets[1] and egg.Pets[1].Pet == petName then eggKey = key break end
+	end
+	local eggInfo = Config.Eggs[eggKey]
+	local entry = {Key = eggKey, Kg = eggInfo and eggInfo.Kg or 1, Height = (NORMAL_HEIGHT[1] + NORMAL_HEIGHT[2]) / 2, Zone = zone, Pet = petName, PetKg = petKg}
+
+	-- étiquette : nom + poids, puis "FOR <joueur>" avec le temps restant
+	local billboard = Instance.new("BillboardGui")
+	billboard.Size = UDim2.new(6 + bounds.Y * 0.5, 0, 2.6 + bounds.Y * 0.2, 0)
+	billboard.StudsOffsetWorldSpace = Vector3.new(0, bounds.Y * 0.6 + 2.5, 0)
+	billboard.LightInfluence = 0
+	billboard.AlwaysOnTop = true
+	billboard.MaxDistance = 5000
+	local function makeLabel(pos, sz, color)
+		local label = Instance.new("TextLabel")
+		label.BackgroundTransparency = 1
+		label.Position, label.Size = pos, sz
+		label.FontFace = Font.new("rbxasset://fonts/families/Montserrat.json", Enum.FontWeight.Heavy)
+		label.TextScaled = true
+		label.TextColor3 = color
+		label.Text = ""
+		local stroke = Instance.new("UIStroke")
+		stroke.Thickness = 3
+		stroke.Parent = label
+		game:GetService("CollectionService"):AddTag(label, "Text3D")
+		label.Parent = billboard
+		return label
+	end
+	local nameLabel = makeLabel(UDim2.fromScale(0, 0), UDim2.fromScale(1, 0.55), Color3.fromRGB(150, 255, 130))
+	nameLabel.Text = petInfo.Name .. "  ·  " .. Config.FormatKg(petKg)
+	local ownerLabel = makeLabel(UDim2.fromScale(0, 0.58), UDim2.fromScale(1, 0.4), Color3.fromRGB(255, 225, 90))
+	billboard.Parent = visual.PrimaryPart
+
+	-- grand rayon de lumière pour le repérer facilement dans la zone
+	local beam = Instance.new("Part")
+	beam.Name = "CodePetBeam"
+	beam.Anchored, beam.CanCollide, beam.CanQuery, beam.CanTouch, beam.CastShadow = true, false, false, false, false
+	beam.Material = Enum.Material.Neon
+	beam.Color = Color3.fromRGB(255, 225, 90)
+	beam.Transparency = 0.55
+	beam.Size = Vector3.new(4, 300, 4)
+	beam.CFrame = CFrame.new(x, floorY + 150, z)
+	beam.Parent = workspace
+
+	local prompt = Instance.new("ProximityPrompt")
+	prompt.Name = "GrabPetPrompt"
+	prompt.ActionText = "Grab"
+	prompt.ObjectText = petInfo.Name
+	prompt.HoldDuration = 0.2
+	prompt.RequiresLineOfSight = false
+	prompt.MaxActivationDistance = 14 + math.max(bounds.X, bounds.Z)
+	prompt.Parent = visual.PrimaryPart
+	prompt.Triggered:Connect(function(who)
+		if who ~= owner then
+			notify(who, "This pet belongs to " .. owner.DisplayName .. "!")
+			return
+		end
+		grabPet(who, visual, entry, zone)
+	end)
+	visual.Parent = zone.Folder
+
+	task.spawn(function()
+		local t0 = os.clock()
+		local lastSecs = -1
+		while visual.Parent and not visual:GetAttribute("Taken") do
+			local t = os.clock() - t0
+			local left = CODE_PET_LIFETIME - t
+			if left <= 0 or owner.Parent ~= Players then break end
+			visual:PivotTo(rest * CFrame.Angles(0, math.sin(t * 1.5) * 0.5, 0))
+			local secs = math.ceil(left)
+			if secs ~= lastSecs then
+				lastSecs = secs
+				ownerLabel.Text = string.format("FOR %s  %d:%02d", string.upper(owner.DisplayName), math.floor(secs / 60), secs % 60)
+			end
+			task.wait()
+		end
+		beam:Destroy()
+		if visual.Parent and not visual:GetAttribute("Taken") then visual:Destroy() end
+	end)
+end)

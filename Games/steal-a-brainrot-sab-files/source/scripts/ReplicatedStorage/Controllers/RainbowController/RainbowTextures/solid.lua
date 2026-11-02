@@ -1,0 +1,3 @@
+
+
+return buffer.fromstring("\255\255\255\255")

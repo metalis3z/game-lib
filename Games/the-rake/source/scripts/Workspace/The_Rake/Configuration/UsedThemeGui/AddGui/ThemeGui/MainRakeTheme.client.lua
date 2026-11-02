@@ -1,0 +1,100 @@
+-- Script by XcorrectTheDev (DO NOT STOLE! If I found someone delete this line and put it on sell i will offsale this model forever)
+
+wait(0.1) -- Wait for everything to load
+local PlrChr = game.Players.LocalPlayer.Character
+local ChracterHumanoid = PlrChr:FindFirstChildOfClass("Humanoid")
+local CharacterRoot = PlrChr:FindFirstChild("HumanoidRootPart")
+local RakeTheme = script.Parent.Theme
+local NearTheme = script.Parent.GetNear
+local Found = script.Parent.Found
+local FlashEffect = script.Parent.FlashEffect
+local NightTheme = script.Parent.NightTheme
+local Rake -- Leave it empty
+local Camera = workspace.Camera
+local Debounce1 = false
+local StunDebounce = false
+local ReplayDebounce = false
+local RangeMagnitude -- Leave it empty
+local NightThemeIDS = {"142219239", "206166604"} -- Night theme sound ids if you have more put it in here do (, "soundID"})
+
+Rake = workspace:FindFirstChild("The_Rake") -- Rake location
+
+--[[ 
+ Better don't change anything. This script is WIP v.0.3
+ This thing still glitchy still needs improvement
+ GetNear sound doesn't work yet comming soon in next version
+ Features: Flash and boom sound whem rake found you, Rake theme stop whem rake stunning, Rake theme get higher pitch whem rake get more near, Night themes, Screen shake
+
+ Don't edit pass this line you may break the whole script ]]
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+function StartSound()
+	RakeTheme:Play()	
+	wait(0.3)
+	Found:Play()
+end
+
+function StopSound()
+FlashEffect.BackgroundTransparency = 1
+RakeTheme:Stop()
+end
+
+function UpdateNightThemeID()
+	
+end
+
+
+--NightTheme:Play()
+UpdateNightThemeID()
+
+game:GetService("RunService").RenderStepped:Connect(function()
+if Rake ~= nil and Rake:FindFirstChild("HumanoidRootPart") ~= nil then
+if CharacterRoot ~= nil and ChracterHumanoid ~= nil then -- Check if The rake, Player character, Player character humanoid still exist
+RangeMagnitude = (Rake.HumanoidRootPart.Position - CharacterRoot.Position).magnitude
+if workspace.Stunned.Value == 1 or workspace.StopTheme.Value == true or Rake.NPC.Health == 0 then
+StunDebounce = true
+if RangeMagnitude < 70 then
+ReplayDebounce = true
+end
+StopSound()			
+			elseif workspace.Stunned.Value == 0 or ChracterHumanoid.Health > 0 then
+StunDebounce = false
+if ReplayDebounce == true and RangeMagnitude < 70 then
+ReplayDebounce = false
+StartSound()
+end
+end
+if RangeMagnitude < 70 and Debounce1 == false and StunDebounce == false then
+Debounce1 = true
+StartSound()
+elseif RangeMagnitude > 70 and StunDebounce == false and Debounce1 == true then
+Debounce1 = false
+ReplayDebounce = false
+StopSound()
+end
+
+if RakeTheme.IsPlaying then
+if RangeMagnitude > 70 then
+Debounce1 = false
+ReplayDebounce = false
+StopSound()
+end
+if Rake.NPC.Health <= 0 then
+script.Parent:Destroy()
+end
+if ChracterHumanoid.Health <= 0 then
+StopSound()
+end
+if RangeMagnitude < 70 and RangeMagnitude > 35 then
+RakeTheme.PlaybackSpeed = 0.95
+end
+if RangeMagnitude < 35 and RangeMagnitude > 20 then
+RakeTheme.PlaybackSpeed = 1
+end
+if RangeMagnitude < 20 then
+RakeTheme.PlaybackSpeed = 1.05
+end
+end
+end
+end
+end)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------

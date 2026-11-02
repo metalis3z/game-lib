@@ -1,0 +1,69 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://sitetest1.lua.expert
+
+local Parent = script.Parent.Parent.Parent.Parent.Parent
+local OnyxUI = require(Parent.Parent.OnyxUI)
+local Fusion = require(Parent.Parent.Fusion)
+local ColorUtils = require(Parent.Parent.ColorUtils)
+local Util = OnyxUI.Util
+local Themer = OnyxUI.Themer
+local v1 = Fusion.scoped(Fusion)
+return Themer.NewTheme(v1, {
+    Colors = {
+        Primary = { Main = Color3.fromHex("fbfafd") },
+        Secondary = { Main = Color3.fromHex("fbfafd") },
+        Accent = { Main = Color3.fromHex("fbfafd") },
+        Neutral = { Main = Color3.fromHex("#242429") },
+        NeutralContent = {
+            Main = Util.Colors.Stone["100"],
+            Dark = ColorUtils.Darken(Util.Colors.Stone["100"], 0.2)
+        },
+        Base = { Main = Color3.fromHex("0A0B14") },
+        BaseContent = { Main = Color3.fromHex("fbfafd") },
+        Success = { Main = Util.Colors.Green["600"] },
+        Error = { Main = Util.Colors.Red["500"] },
+        Warning = { Main = Util.Colors.Amber["500"] },
+        Info = { Main = Util.Colors.Blue["400"] }
+    },
+    Font = {
+        Body = "rbxasset://fonts/families/Montserrat.json",
+        Heading = "rbxasset://fonts/families/Montserrat.json",
+        Monospace = "rbxasset://fonts/families/Montserrat.json"
+    },
+    FontWeight = {
+        Body = Enum.FontWeight.SemiBold,
+        Bold = Enum.FontWeight.Bold,
+        Heading = Enum.FontWeight.Bold
+    },
+    TextSize = { Base = 18 },
+    CornerRadius = { Base = 6 },
+    StrokeThickness = { Base = 1 },
+    Spacing = { Base = 16 },
+    SpringSpeed = { Base = 60 },
+    SpringDampening = { Base = 1.25 },
+    Sound = {
+        Hover = v1:New("Sound")({
+            SoundId = "rbxassetid://10066936758",
+            Volume = 0
+        }),
+        Click = v1:New("Sound")({
+            SoundId = "rbxassetid://16480549841",
+            Volume = 0
+        }),
+        Focus = v1:New("Sound")({
+            SoundId = "rbxassetid://16480549841",
+            Volume = 0
+        }),
+        Switch = v1:New("Sound")({
+            SoundId = "rbxassetid://9119713951",
+            Volume = 0
+        })
+    },
+    Emphasis = {
+        Light = 0.1,
+        Regular = 0.15,
+        Strong = 0.5,
+        Contrast = 1
+    }
+})

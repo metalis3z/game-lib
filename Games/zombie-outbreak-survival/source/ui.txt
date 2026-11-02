@@ -1,0 +1,362 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.Tools_shop  (16 descendants)
+ScreenGui "Tools_shop"  Enabled=False  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  Frame "Frame"  size={0.676,0},{0.525,0}  pos={0.161,0},{0.237,0}  bg=#000000@0.5
+    UICorner "UICorner"  CornerRadius={0,20}
+    ScrollingFrame "List"  size={0.946,0},{0.794,0}  pos={0.5,0},{0.551,0}  anchor=(0.5,0.5)  bg=#181818@0.7
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,6}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      Frame "Template"  size={0.317,0},{1,0}  pos={0.158,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#141514
+        UICorner "UICorner"  CornerRadius={0,8}
+        TextButton "Buy"  size={0.925,0},{0.141,0}  pos={0.494,0},{0.905,0}  anchor=(0.5,0.5)  bg=#222b22  text="Buy"  font=FredokaOne/400  scaled  tc=#ffffff
+          UICorner "UICorner"  CornerRadius={0,8}
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.697
+        TextButton "Price"  size={0.925,0},{0.127,0}  pos={0.494,0},{0.752,0}  anchor=(0.5,0.5)  bg=#222b22  text="1343"  font=FredokaOne/400  scaled  tc=#ffffff
+          UICorner "UICorner"  CornerRadius={0,8}
+        TextButton "ItemName"  size={0.925,0},{0.642,0}  pos={0.494,0},{0.35,0}  anchor=(0.5,0.5)  bg=#222b22  text="ItemName"  font=FredokaOne/400  scaled  tc=#ffffff
+          UICorner "UICorner"  CornerRadius={0,8}
+        TextLabel "VIPLabel"  size={0,30},{0,16}  pos={1,-35},{0,2}  HIDDEN  nobg  text="VIP"  font=SourceSansPro/400  scaled  tc=#ffc800
+    TextLabel "Title"  size={0.561,0},{0.112,0}  pos={0.304,0},{0.07,0}  anchor=(0.5,0.5)  nobg  text="Shop"  font=FredokaOne/400  scaled  tc=#ffffff
+  LocalScript "ShopScript"  -> scripts/StarterGui/Tools_shop/ShopScript.client.lua
+
+==== StarterGui.Tutorial  (9 descendants)
+ScreenGui "Tutorial"  Enabled=False  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  Frame "Frame"  size={0.676,0},{0.525,0}  pos={0.161,0},{0.237,0}  bg=#000000@0.5
+    UICorner "UICorner"  CornerRadius={0,20}
+    LocalScript "TutorialScript"  -> scripts/StarterGui/Tutorial/Frame/TutorialScript.client.lua
+    TextButton "Next"  size={0.132,0},{0.0948,0}  pos={0.859,0},{0.882,0}  bg=#dddddd  text="Next"  font=GothamSSm/700  scaled  tc=#212121
+    TextButton "Previous"  size={0.132,0},{0.0948,0}  pos={0.0111,0},{0.882,0}  bg=#dddddd  text="Previous"  font=GothamSSm/700  scaled  tc=#212121
+    ImageLabel "ImageLabel"  size={0.306,0},{0.54,0}  pos={0.346,0},{0.117,0}  nobg  img=rbxassetid://18872171323
+    TextLabel "Page"  size={0.717,0},{0.0948,0}  pos={0.144,0},{0.881,0}  bg=#dddddd  text="Page 1 / 1"  font=GothamSSm/700  scaled  tc=#212121
+    TextLabel "TextLabel"  size={1,0},{0.215,0}  pos={2.11e-07,0},{0.658,0}  nobg  text="Testing!"  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Title"  size={0.581,0},{0.117,0}  pos={0.29,0},{0.0587,0}  anchor=(0.5,0.5)  nobg  text="Tutorial"  font=FredokaOne/400  scaled  tc=#ffffff
+
+==== StarterGui.Disable  (0 descendants)
+LocalScript "Disable"  -> scripts/StarterGui/Disable.client.lua
+
+==== StarterGui.MainGui  (85 descendants)
+ScreenGui "MainGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "GameFrame"  size={0.999,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    Frame "MainFrame"  size={0.334,0},{0.29,0}  pos={0.333,0},{-0.192,0}  bg=#000000@0.5
+      TextLabel "Wave"  size={0.851,0},{0.157,0}  pos={0.0744,0},{0.84,0}  nobg  z=2  text="Loading..."  font=Arial/700  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=-90  Color=[0:#7c7c7c 0.159:#8e8e8e 0.528:#eeeeee 1:#ffffff]  Rotation=-90  Transparency=[0:0 1:0]
+      TextLabel "Status"  size={0.831,0},{0.111,0}  pos={0.083,0},{0.701,0}  nobg  z=2  text="Loading..."  font=Arial/400  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#7c7c7c 0.0433:#8e8e8e 0.349:#eeeeee 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0]
+      UICorner "UICorner"  CornerRadius={0,35}
+      Frame "Health"  size={0.819,0},{0.134,0}  pos={0.0972,0},{1.03,0}  bg=#000000@0.5
+        UICorner "UICorner"  CornerRadius={0,55}
+        Frame "Health"  size={0.996,0},{1,0}  pos={0,0},{4.74e-07,0}  nobg
+          UICorner "UICorner"  CornerRadius={0,55}
+          TextLabel "Healthtext"  size={1,0},{1,0}  pos={0,0},{-4.74e-07,0}  nobg  z=2  text="Health"  font=Arial/400  scaled  tc=#ffffff
+            UIGradient "UIGradient"  rot=90  Color=[0:#7c7c7c 0.0433:#8e8e8e 0.349:#eeeeee 1:#ffffff]  Rotation=90  Transparency=[0:0 1:0]
+            LocalScript "HealthScript"  -> scripts/StarterGui/MainGui/GameFrame/MainFrame/Health/Health/Healthtext/HealthScript.client.lua
+        UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      TextButton "Show/Hide"  size={0.519,0},{0.124,0}  pos={0.238,0},{1.21,0}  bg=#000000@0.5  text="Hide"  font=Arial/700  scaled  tc=#ffffff
+        LocalScript "Show/HideScript"  -> scripts/StarterGui/MainGui/GameFrame/MainFrame/Show_Hide/Show_HideScript.client.lua
+        UICorner "UICorner"  CornerRadius={0,55}
+    LocalScript "GameUi"  -> scripts/StarterGui/MainGui/GameFrame/GameUi.client.lua
+    Frame "Buttons2"  size={0.069,0},{0.442,0}  pos={0.93,0},{0.5,0}  anchor=(0,0.5)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.0477,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.302
+      ImageButton "Help"  size={1,0},{0.302,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://168702868
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Help"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        LocalScript "Open"  -> scripts/StarterGui/MainGui/GameFrame/Buttons2/Help/Open.client.lua
+      ImageButton "Shop"  size={1,0},{0.302,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://11385395241
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Shop"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        LocalScript "Open"  -> scripts/StarterGui/MainGui/GameFrame/Buttons2/Shop/Open.client.lua
+      ImageButton "Spectate"  size={1,0},{0.302,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://7035631382
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Spectate"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        LocalScript "SpectateScript"  -> scripts/StarterGui/MainGui/GameFrame/Buttons2/Spectate/SpectateScript.client.lua
+      ImageButton "Codes"  size={1,0},{0.302,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://78111289121317
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Codes"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        LocalScript "Open"  -> scripts/StarterGui/MainGui/GameFrame/Buttons2/Codes/Open.client.lua
+    Frame "Toggle"  size={0.277,0},{0.0479,0}  pos={0.5,0},{0.89,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      TextLabel "Player"  size={1,0},{0.867,0}  pos={0.5,0},{0.492,0}  anchor=(0.5,0.5)  bg=#000000@0.5  text="Noob"  font=GothamSSm/800  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UICorner "UICorner"  CornerRadius={0,8}
+      TextButton "Next"  size={0.126,0},{0.876,0}  pos={1.08,0},{0.488,0}  anchor=(0.5,0.5)  bg=#000000@0.5  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={0.85,0},{0.55,0}  pos={0.494,0},{0.499,0}  anchor=(0.5,0.5)  nobg  text=">"  font=GothamSSm/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIGradient "UIGradient"  Color=[0:#7ba3b8 1:#7ba3b8]  Rotation=0  Transparency=[0:0 1:0]
+        UICorner "UICorner"  CornerRadius={0,8}
+      TextButton "Previous"  size={0.126,0},{0.876,0}  pos={-0.0775,0},{0.497,0}  anchor=(0.5,0.5)  bg=#000000@0.5  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextLabel "TextLabel"  size={0.85,0},{0.55,0}  pos={0.494,0},{0.499,0}  anchor=(0.5,0.5)  nobg  text="<"  font=GothamSSm/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIGradient "UIGradient"  Color=[0:#7ba3b8 1:#7ba3b8]  Rotation=0  Transparency=[0:0 1:0]
+        UICorner "UICorner"  CornerRadius={0,8}
+    Frame "Buttons1"  size={0.069,0},{0.442,0}  pos={0.0156,0},{0.5,0}  anchor=(0,0.5)  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.302
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.0477,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageButton "Wins"  size={1,0},{0.302,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://135553118515721
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Wins"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          LocalScript "WinsScript"  -> scripts/StarterGui/MainGui/GameFrame/Buttons1/Wins/Txt/WinsScript.client.lua
+      ImageButton "Money"  size={1,0},{0.302,0}  pos={1.13,0},{0.42,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://90738433616692
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Money"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          LocalScript "MoneyScript"  -> scripts/StarterGui/MainGui/GameFrame/Buttons1/Money/Txt/MoneyScript.client.lua
+      ImageButton "Level"  size={1,0},{0.302,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://89807872095058
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Level"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          LocalScript "LevelsScript"  -> scripts/StarterGui/MainGui/GameFrame/Buttons1/Level/Txt/LevelsScript.client.lua
+      ImageButton "Kills"  size={1,0},{0.302,0}  pos={1.13,0},{0.42,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16682879119
+        TextLabel "Txt"  size={1,0},{0.228,0}  pos={0.5,0},{0.937,0}  anchor=(0.5,0.5)  nobg  text="Kills"  font=FredokaOne/800  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=2.7  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          LocalScript "KillsScript"  -> scripts/StarterGui/MainGui/GameFrame/Buttons1/Kills/Txt/KillsScript.client.lua
+    Frame "Winners"  size={0.676,0},{0.525,0}  pos={0.161,0},{0.237,0}  HIDDEN  bg=#000000@0.5
+      UICorner "UICorner"  CornerRadius={0,20}
+      ScrollingFrame "WinnersBox"  size={0.946,0},{0.794,0}  pos={0.5,0},{0.551,0}  anchor=(0.5,0.5)  bg=#181818@0.6
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0,6}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        Frame "Template"  size={0.939,0},{0.2,0}  pos={0,0},{0,0}  HIDDEN  nobg
+          UICorner "UICorner"  CornerRadius={0,8}
+          TextLabel "Text"  size={0.739,0},{0.75,0}  pos={0.261,0},{0.125,0}  nobg  text="menos123\nDEFEATED"  font=SourceSansPro/700  scaled  tc=#ff6464
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.77
+            UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=18  MinTextSize=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.83
+          ImageLabel "Image"  size={0.196,0},{0.75,0}  pos={0.033,0},{0.125,0}  nobg  img=rbxthumb://type=AvatarHeadShot&id=3714112233&w=48&h=48
+      TextLabel "Title"  size={0.561,0},{0.112,0}  pos={0.304,0},{0.07,0}  anchor=(0.5,0.5)  nobg  text="Round Results"  font=SourceSansPro/700  scaled  tc=#ffffff
+      LocalScript "WinnersScript"  -> scripts/StarterGui/MainGui/GameFrame/Winners/WinnersScript.client.lua
+
+==== StarterGui.LevelUp  (6 descendants)
+ScreenGui "LevelUp"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  LocalScript "LevelUpScript"  -> scripts/StarterGui/LevelUp/LevelUpScript.client.lua
+  Frame "LevelUpFrame"  size={0.4,0},{0.2,0}  pos={0.3,0},{0.4,0}  HIDDEN  nobg
+    UICorner "UICorner"  CornerRadius={0,15}
+    TextLabel "LevelDisplay"  size={1,0},{1,0}  pos={-0.00268,0},{0,0}  nobg  text="LEVEL 1"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+      UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=100  MinTextSize=1
+    Sound "LevelSound"
+
+==== StarterGui.Codes  (8 descendants)
+ScreenGui "Codes"  Enabled=False  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "MainCodes"  -> scripts/StarterGui/Codes/MainCodes.client.lua
+    Sound "pop"
+  Frame "Frame"  size={0.676,0},{0.525,0}  pos={0.161,0},{0.237,0}  bg=#000000@0.5
+    UICorner "UICorner"  CornerRadius={0,20}
+    TextLabel "Title"  size={0.561,0},{0.112,0}  pos={0.304,0},{0.07,0}  anchor=(0.5,0.5)  nobg  text="Codes"  font=FredokaOne/400  scaled  tc=#ffffff
+    TextBox "Box"  size={0.7,0},{0.159,0}  pos={0.146,0},{0.568,0}  bg=#d8d8d8  text="Hi"  font=FredokaOne/400  scaled  tc=#000000
+    TextButton "Redeem"  size={0.416,0},{0.143,0}  pos={0.29,0},{0.78,0}  bg=#000000  text="Redeem!"  font=FredokaOne/400  scaled  tc=#ffffff
+    TextLabel "info"  size={0.835,0},{0.393,0}  pos={0.0812,0},{0.126,0}  nobg  text="Find Codes In the Game Description And Redeem Them Here for ..."  font=FredokaOne/400  scaled  tc=#ffffff
+
+==== Workspace.MapVote.MapBoards.Map1.MapGui  (4 descendants)
+SurfaceGui "MapGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "MapImage"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://14240466919
+  TextLabel "MapName"  size={1,0},{0.2,0}  pos={0,0},{0.4,0}  nobg  text="MAP NAME"  font=GothamSSm/900  scaled  tc=#ffffff
+  TextLabel "CreatorName"  size={1,0},{0.2,0}  pos={0,0},{0.6,0}  nobg  text="CreatorName"  font=GothamSSm/900  scaled  tc=#ffffff
+  TextLabel "MapDescription"  size={1,0},{0.2,0}  pos={0,0},{0.8,0}  nobg  text="MapDescription"  font=GothamSSm/900  scaled  tc=#ffffff
+
+==== Workspace.MapVote.MapBoards.Map2.MapGui  (4 descendants)
+SurfaceGui "MapGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "MapImage"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://14240466919
+  TextLabel "MapName"  size={1,0},{0.2,0}  pos={0,0},{0.4,0}  nobg  text="MAP NAME"  font=GothamSSm/900  scaled  tc=#ffffff
+  TextLabel "CreatorName"  size={1,0},{0.2,0}  pos={0,0},{0.6,0}  nobg  text="CreatorName"  font=GothamSSm/900  scaled  tc=#ffffff
+  TextLabel "MapDescription"  size={1,0},{0.2,0}  pos={0,0},{0.8,0}  nobg  text="MapDescription"  font=GothamSSm/900  scaled  tc=#ffffff
+
+==== Workspace.MapVote.MapVotePads.MapVote1.VotedGui  (1 descendants)
+BillboardGui "VotedGui"  size={2,0},{2,0}  Enabled=True  Size={2,0},{2,0}  StudsOffset=(0,3,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "VotedAmount"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="0"  font=GothamSSm/900  scaled  tc=#ffffff
+
+==== Workspace.MapVote.MapVotePads.MapVote2.VotedGui  (1 descendants)
+BillboardGui "VotedGui"  size={2,0},{2,0}  Enabled=True  Size={2,0},{2,0}  StudsOffset=(0,3,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "VotedAmount"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="0"  font=GothamSSm/900  scaled  tc=#ffffff
+
+==== Workspace.MapVote.VotingStatus.StatusGui  (1 descendants)
+SurfaceGui "StatusGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Status"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Loading..."  font=GothamSSm/900  scaled  tc=#ffffff
+
+==== Workspace.DailyChest.BillboardGui  (2 descendants)
+BillboardGui "BillboardGui"  size={23.2,0},{11.6,0}  Enabled=True  Size={23.2,0},{11.6,0}  StudsOffset=(0,0,0)  MaxDistance=135  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{0.3,0}  pos={0,0},{0,0}  nobg  text="00:00:00"  font=GothamSSm/900  scaled  tc=#ffffff
+    Script "Script"  -> scripts/Workspace/DailyChest/BillboardGui/TextLabel/Script.server.lua
+
+==== Workspace.Lobby.Stuff.Chest.Screen.SurfaceGui  (7 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={1,0},{0,30}  pos={0,0},{0,0}  nobg  text="DONATE"  font=Arial/700  scaled  tc=#ffffff
+  Frame "Divider"  size={1,-20},{0,2}  pos={0,10},{0,30}  bg=#ffffff
+  Frame "TY"  size={1,0},{1,-30}  pos={0,0},{0,30}  HIDDEN  nobg
+    TextLabel "Label"  size={1,0},{0,80}  pos={0,0},{0.5,-40}  nobg  text="THANK YOU FOR DONATING"  font=Arial/700  scaled  tc=#ffff00
+  Frame "Raised"  size={1,0},{1,-30}  pos={0,0},{0,30}  nobg
+    TextLabel "Title"  size={1,0},{0,20}  pos={0,0},{0,5}  nobg  text="ROBUX RAISED"  font=Arial/400  scaled  tc=#ffffff
+    TextLabel "ROBUX"  size={1,0},{1,-30}  pos={0,0},{0,25}  nobg  text="Robux 0"  font=Arial/400  scaled  tc=#00ee00
+
+==== Workspace.Lobby.Stuff.Stage.Weapon Testing Area.Dummy Area Sign.SurfaceGUI  (1 descendants)
+SurfaceGui "SurfaceGUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Label"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="🔫DUMMY AREA🔫"  font=GothamSSm/700  ts=40  tc=#ffffff
+
+==== Workspace.Lobby.Stuff.Leaderboards.leaderbooard.GlobalHealthLeaderboard.SurfaceGui  (23 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#f0f0f0
+    Frame "Contents"  size={1,0},{1,-65}  pos={0.5,0},{0,65}  anchor=(0.5,0)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,10}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=0
+      Frame "GuideTopBar"  size={1,-35},{0,20}  pos={0,0},{0,0}  nobg  z=2
+        TextLabel "Number"  size={0.3,0},{1,0}  pos={0,5},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="#"  font=GothamSSm/900  scaled  tc=#263238
+        TextLabel "Username"  size={0.3,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Username"  font=GothamSSm/900  scaled  tc=#263238
+        TextLabel "Value"  size={0.3,0},{1,0}  pos={1,-5},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="Value"  font=GothamSSm/900  ts=18  tc=#263238
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0,5}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ScrollingFrame "Items"  size={1,-20},{1,-35}  pos={0,0},{0,0}  nobg  z=2
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,7}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        TextLabel "Nothing"  size={1,-20},{0,20}  pos={0,0},{0,0}  HIDDEN  nobg  text="nothing to show here 😢"  font=GothamSSm/700  ts=18  tc=#263238
+    ImageLabel "Heading"  size={1,0},{0,60}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=2  img=rbxassetid://3909820631  imgcol=#19b5fe
+      Frame "Bar"  size={1,0},{0,20}  pos={0,0},{0,0}  bg=#19b5fe  z=2
+      TextLabel "Heading"  size={0.9,0},{0,40}  pos={0.5,0},{0,5}  anchor=(0.5,0)  nobg  z=2  text="Leaderboard"  font=GothamSSm/900  scaled  tc=#ffffff
+  Script "Main"  -> scripts/Workspace/Lobby/Stuff/Leaderboards/leaderbooard/GlobalHealthLeaderboard/SurfaceGui/Main.server.lua
+    Frame "objTemplate"  size={1,-20},{0,40}  pos={0,0},{0,0}  bg=#ffffff  z=3
+      ImageLabel "DropShadow"  size={1,6},{1,6}  pos={0.5,0},{0.5,3}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://3909824158  imgcol=#000000
+      UICorner "UICorner"  CornerRadius={0.35,0}
+      Frame "Values"  size={0.95,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3
+        TextLabel "Number"  size={0.25,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="1"  font=GothamSSm/900  ts=18  tc=#263238
+        TextLabel "Username"  size={0.45,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="OnlyTwentyCharacters"  font=GothamSSm/900  scaled  tc=#263238
+        TextLabel "Value"  size={0.25,0},{1,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  text="0"  font=GothamSSm/900  scaled  tc=#263238
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0,5}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.First Place Avatar.Rig.Head.FirstPlace  (1 descendants)
+BillboardGui "FirstPlace"  size={1.5,0},{1.6,0}  Enabled=True  Size={1.5,0},{1.6,0}  StudsOffset=(0,4,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://9722127533
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.First Place Avatar.FirstPlaceTag  (1 descendants)
+BillboardGui "FirstPlaceTag"  size={1.5,0},{1.6,0}  Enabled=False  Size={1.5,0},{1.6,0}  StudsOffset=(0,4,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://9722127533
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.UpdateBoardTimer.Timer  (1 descendants)
+SurfaceGui "Timer"  Enabled=True  Face=5  PixelsPerStud=150  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Updating the board in 99 seconds"  font=FredokaOne/400  scaled  tc=#bcbcbc
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.ScoreBlock.Leaderboard  (73 descendants)
+SurfaceGui "Leaderboard"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Folder "Score"
+    TextLabel "Score1"  size={0,255},{0,40}  pos={0.59,0},{0.05,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#ffff00
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score10"  size={0,255},{0,40}  pos={0.59,0},{0.95,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score2"  size={0,255},{0,40}  pos={0.59,0},{0.15,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#55ffff
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score3"  size={0,255},{0,40}  pos={0.59,0},{0.25,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score4"  size={0,255},{0,40}  pos={0.59,0},{0.35,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#7a4905
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score5"  size={0,255},{0,40}  pos={0.59,0},{0.45,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score6"  size={0,255},{0,40}  pos={0.59,0},{0.55,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score7"  size={0,255},{0,40}  pos={0.59,0},{0.65,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score8"  size={0,255},{0,40}  pos={0.59,0},{0.75,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Score9"  size={0,255},{0,40}  pos={0.59,0},{0.85,0}  anchor=(0,0.5)  nobg  text="..."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+  Folder "Names"
+    TextLabel "Name9"  size={0,300},{0,40}  pos={0.15,0},{0.85,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name8"  size={0,300},{0,40}  pos={0.15,0},{0.75,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name6"  size={0,300},{0,40}  pos={0.15,0},{0.55,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name7"  size={0,300},{0,40}  pos={0.15,0},{0.65,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name5"  size={0,300},{0,40}  pos={0.15,0},{0.45,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name4"  size={0,300},{0,40}  pos={0.15,0},{0.35,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#8f592c
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name3"  size={0,300},{0,40}  pos={0.15,0},{0.25,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name2"  size={0,300},{0,40}  pos={0.15,0},{0.15,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#39acac
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name10"  size={0,300},{0,40}  pos={0.15,0},{0.95,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#4c4c4c
+      UIStroke "UIStroke"  Thickness=1  Color=#dcdcdc  Transparency=0  ApplyStrokeMode=0
+    TextLabel "Name1"  size={0,300},{0,40}  pos={0.15,0},{0.05,0}  anchor=(0,0.5)  nobg  text="Loading Names.."  font=FredokaOne/400  ts=36  tc=#ffc002
+      UIStroke "UIStroke"  Thickness=1  Color=#4b4b4b  Transparency=0  ApplyStrokeMode=0
+  Folder "Photos"
+    ImageLabel "Photo1"  size={0,40},{0,40}  pos={0.05,0},{0.05,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#ffc002  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo10"  size={0,40},{0,40}  pos={0.05,0},{0.95,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#535353  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo9"  size={0,40},{0,40}  pos={0.05,0},{0.85,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#535353  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo2"  size={0,40},{0,40}  pos={0.05,0},{0.15,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#39acac  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo3"  size={0,40},{0,40}  pos={0.05,0},{0.25,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo4"  size={0,40},{0,40}  pos={0.05,0},{0.35,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#8f592c  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo5"  size={0,40},{0,40}  pos={0.05,0},{0.45,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#535353  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo6"  size={0,40},{0,40}  pos={0.05,0},{0.55,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#535353  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo7"  size={0,40},{0,40}  pos={0.05,0},{0.65,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#535353  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "Photo8"  size={0,40},{0,40}  pos={0.05,0},{0.75,0}  anchor=(0,0.5)  bg=#ffffff  img=rbxassetid://2319523583
+      UICorner "UICorner"  CornerRadius={1,0}
+      UIStroke "UIStroke"  Thickness=3  Color=#535353  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.ScoreBlock.NoDataFound  (2 descendants)
+SurfaceGui "NoDataFound"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Warning"  size={0.9,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text="This leaderboard is empty. It might take some time for the b..."  font=FredokaOne/400  scaled  tc=#162336
+    UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.ScoreBlock.Credits  (1 descendants)
+SurfaceGui "Credits"  Enabled=False  Face=5  PixelsPerStud=170  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Credits"  size={0,100},{0,20}  pos={1,0},{1,-350}  anchor=(1,1)  nobg  text="RenanMSV :)"  font=SourceSansPro/700  scaled  tc=#8f8f8f
+
+==== Workspace.Lobby.Stuff.Leaderboards.TimePlayedLeaderboard.ScoreBlock.NoAPIServices  (2 descendants)
+SurfaceGui "NoAPIServices"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Warning"  size={0.9,0},{0.25,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text="Error: It seems that you did not publish this place or does ..."  font=FredokaOne/400  scaled  tc=#934040
+    UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Maps.Junkyard.Model.(Christmas Gift) 2010 Toyota Hiace.Body.Lights.Left.TurnSignal.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={3,0},{3,0}  Enabled=False  Size={3,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://0
+
+==== ReplicatedStorage.Maps.Junkyard.Model.(Christmas Gift) 2010 Toyota Hiace.Body.Lights.Left.TurnSignal2.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={3,0},{3,0}  Enabled=False  Size={3,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://0
+
+==== ReplicatedStorage.Maps.Junkyard.Model.2012 Nissan Sentra Spec V.Body.plate.SGUI  (1 descendants)
+SurfaceGui "SGUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextBox "Identifier"  size={0.5,0},{0.5,0}  pos={0.25,0},{0.3,0}  nobg  text="FHR 2819"  font=HighwayGothic/400  ts=54  tc=#000000
+
+==== ReplicatedStorage.Maps.Junkyard.Model.2012 Nissan Sentra Spec V.Body.plate.SGUI  (1 descendants)
+SurfaceGui "SGUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextBox "Identifier"  size={0.5,0},{0.5,0}  pos={0.25,0},{0.3,0}  nobg  text="FHR 2819"  font=HighwayGothic/400  ts=54  tc=#000000
+
+==== ServerScriptService.OverheadScript.Tag  (4 descendants)
+BillboardGui "Tag"  size={4,0},{1,0}  Enabled=True  Size={4,0},{1,0}  StudsOffset=(0,2,0)  MaxDistance=100  AlwaysOnTop=False  Adornee=nil
+  TextLabel "PlayerName"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Dummy"  font=SourceSansPro/700  scaled  tc=#ffffff
+  UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+  TextLabel "GroupRank"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Dummy"  font=SourceSansPro/700  scaled  tc=#ffffff
+  TextLabel "PlayerStats"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Dummy"  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== ServerScriptService.WelcomeGUI.Welcome  (7 descendants)
+ScreenGui "Welcome"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "WelcomeGUI"  -> scripts/ServerScriptService/WelcomeGUI/Welcome/WelcomeGUI.client.lua
+  Frame "Warning"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+    Frame "Frame"  size={0.6,0},{0.4,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,15}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=0
+      TextLabel "TextLabel"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg  text="Zombie Survival"  font=GothamSSm/700  scaled  tc=#55aaff
+      TextLabel "TextLabel"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  text="This experience contains flashing lights. It is intended for..."  font=GothamSSm/500  scaled  tc=#ffffff
+    TextButton "Close"  size={0.5,0},{0.0456,0}  pos={0.249,0},{0.679,0}  bg=#00aaff  text="Close"  font=Balthazar/400  scaled  tc=#ffffff
+
+==== ServerStorage.Billboard.Smooth Block Model.SurfaceGui  (4 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={0,802},{0,600}  pos={0,0},{0,0}  bg=#ffffff
+    UIGradient "UIGradient"  rot=80  Color=[0:#ffffff 1:#8ac6ff]  Rotation=80  Transparency=[0:0 1:0]
+  TextLabel "SIGN"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  text="Buy Vip and unlock new features"  font=SourceSansPro/700  scaled  tc=#ffffff
+  ImageLabel "ImageLabel"  size={0,300},{0,300}  pos={0.3,0},{0.4,0}  nobg  img=rbxassetid://9405933217
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "MapGui" under Workspace: 4 copies
+BillboardGui "VotedGui" under Workspace: 4 copies
+SurfaceGui "SurfaceGui" under Workspace: 6 copies
+BillboardGui "BillboardGui" under ReplicatedStorage: 4 copies

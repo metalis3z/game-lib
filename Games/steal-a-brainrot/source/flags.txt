@@ -1,0 +1,276 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ReplicatedStorage/Packages/Freeze/List.lua lines 43
+       require() with a computed / hidden argument
+[HIGH] scripts/ReplicatedStorage/Packages/Freeze/List/compat/findWhereLast.lua lines 3
+       require() with a computed / hidden argument
+[HIGH] scripts/ServerScriptService/AdminLogger.server.lua lines 6
+       Discord webhook URL (data sent outside Roblox)
+[HIGH] scripts/ServerScriptService/CmdrSetup.server.lua lines 73
+       Discord webhook URL (data sent outside Roblox)
+[HIGH] scripts/StarterPlayer/StarterPlayerScripts/BrainrotC_Client.client.lua lines 359,360
+       Discord webhook URL (data sent outside Roblox)
+[HIGH] scripts/Workspace/RobuxShop/_/AnimSaves/KeyframeSequence_3/Keyframe~43/HumanoidRootPart/LowerTorso/UpperTorso/LeftUpperArm/LeftLowerArm/Fix.server.lua lines 295
+       code hidden far right of the line (whitespace padding)
+[HIGH] scripts/Workspace/RobuxShop/_/AnimSaves/KeyframeSequence_3/Keyframe~60/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/RightLowerArm/AdminLoader.server.lua lines 295
+       code hidden far right of the line (whitespace padding)
+[HIGH] scripts/Workspace/Shop/_/AnimSaves/KeyframeSequence_3/Keyframe~31/HumanoidRootPart/LowerTorso/UpperTorso/LeftUpperArm/LeftLowerArm/Fix.server.lua lines 295
+       code hidden far right of the line (whitespace padding)
+[HIGH] scripts/Workspace/Shop/_/AnimSaves/KeyframeSequence_3/Keyframe~56/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/RightLowerArm/AdminLoader.server.lua lines 295
+       code hidden far right of the line (whitespace padding)
+[MED] scripts/ReplicatedStorage/Controllers/BackpackController/Utils/Satchel/Packages/_Index/roblox_testez@0.4.1/testez/TestPlan.lua lines 155,163
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ReplicatedStorage/Controllers/BackpackController/Utils/Satchel/Packages/_Index/roblox_testez@0.4.1/testez/TestRunner.lua lines 41
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ReplicatedStorage/Packages/GameAnalytics/GameAnalytics/HttpApi.lua lines 105,185
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/GAMES NAM AND PLAYER ACTIF.server.lua lines 26,43
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/PushStatsServer.server.lua lines 14
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Script.server.lua lines 45,72,131,245
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Services/LikeService.lua lines 27
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/RobuxShop/_/AnimSaves/KeyframeSequence_3/Keyframe~43/HumanoidRootPart/LowerTorso/UpperTorso/LeftUpperArm/LeftLowerArm/Fix.server.lua lines 295
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/RobuxShop/_/AnimSaves/KeyframeSequence_3/Keyframe~43/HumanoidRootPart/LowerTorso/UpperTorso/LeftUpperArm/LeftLowerArm/Fix.server.lua lines 295
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/RobuxShop/_/AnimSaves/KeyframeSequence_3/Keyframe~60/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/RightLowerArm/AdminLoader.server.lua lines 295
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/RobuxShop/_/AnimSaves/KeyframeSequence_3/Keyframe~60/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/RightLowerArm/AdminLoader.server.lua lines 295
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Shop/_/AnimSaves/KeyframeSequence_3/Keyframe~31/HumanoidRootPart/LowerTorso/UpperTorso/LeftUpperArm/LeftLowerArm/Fix.server.lua lines 295
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/Shop/_/AnimSaves/KeyframeSequence_3/Keyframe~31/HumanoidRootPart/LowerTorso/UpperTorso/LeftUpperArm/LeftLowerArm/Fix.server.lua lines 295
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Shop/_/AnimSaves/KeyframeSequence_3/Keyframe~56/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/RightLowerArm/AdminLoader.server.lua lines 295
+       getfenv()[...] call: reaches a global by computed name (can hide require / loadstring)
+[MED] scripts/Workspace/Shop/_/AnimSaves/KeyframeSequence_3/Keyframe~56/HumanoidRootPart/LowerTorso/UpperTorso/RightUpperArm/RightLowerArm/AdminLoader.server.lua lines 295
+       getfenv / setfenv (environment tampering, common in backdoors)
+
+Instances with suspicious names:
+  ParticleEmitter ReplicatedStorage.Models.Animals.Dark Guigui.Idk.star.StarSpread
+  ParticleEmitter ReplicatedStorage.Models.Animals.Dark Guigui.Idk.Attachment.StarSpread
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  11193903075698  in scripts/Workspace/Events/Fishing/Model/Fisherman/Fishing Rod/Radioactive Rod/RootPart/Bone/Bone.001/Bone.002/Bone.003/Bone.004/CastOrigin/EffectManager.server.lua
+  117501901079852  in scripts/ReplicatedStorage/Packages/TopbarPlus/VERSION.lua
+  123456890  in scripts/ServerScriptService/Message gamepasse.server.lua
+  1784957853  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1785073759  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1785602558  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1800564757  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1800820512  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1801015136  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1840658308  in scripts/ServerScriptService/Give Cupid wings.server.lua
+  1840860380  in scripts/ServerScriptService/Give ballais.server.lua
+  1898655285  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1898907505  in scripts/ReplicatedStorage/Datas/Shop.lua
+  1902204734  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/CYBER.server.lua
+  1902438696  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/DIVINE.server.lua
+  1902492734  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/GALAXY.server.lua
+  1902804713  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/YINYANG.server.lua
+  1902882711  in scripts/ServerScriptService/IBRX.server.lua
+  1903134525  in scripts/ServerScriptService/Message gamepasse~2.server.lua
+  1903506663  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/DIAMOND.server.lua
+  1903632668  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/CANDY.server.lua
+  1903650645  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/LAVA.server.lua
+  1904034297  in scripts/ServerScriptService/RAINBOW.server.lua
+  1904082309  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/RADIOACTIVE.server.lua
+  1904700280  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/GOLD.server.lua
+  1904802290  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/CURSED.server.lua
+  1909369625  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3307371795  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3307372046  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3307372342  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3307372798  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3312891057  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3312944807  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3312944986  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3312945232  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3312945488  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3322567440  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3322567771  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3322567871  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3322568083  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3329528437  in scripts/ReplicatedStorage/Datas/LuckyBlocks.lua, scripts/ServerStorage/Modules/LuckyBlocks.lua
+  3337520317  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3345489151  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3345489415  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3345489701  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3345489943  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3377020181  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3377020567  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3377020761  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3377021022  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3394964472  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3394964604  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3394964736  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3394965881  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3394969112  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3414123796  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3414123985  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3414124199  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3414124509  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3437062543  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3437979356  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3437989614  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3442292161  in scripts/ReplicatedStorage/Controllers/ShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+  3442807551  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973929  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973930  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973932  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973933  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973934  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973935  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973936  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3450973937  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3456071065  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3456071066  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3456071067  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3456071068  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217689  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217690  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217691  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217692  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217693  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217694  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3467217695  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3477983793  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/Services/MerchShopService.lua
+  3478819641  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3478819642  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3478819648  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3481756179  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3483709817  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3483721069  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3483736285  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3483927303  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554689  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554690  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554692  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554693  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554694  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554698  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554699  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554702  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554704  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554707  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554718  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554719  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554720  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554722  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554726  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484554727  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484576542  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484576544  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484576545  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3484576546  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3487835433  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/SantaMerchantData.lua
+  3487835435  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/SantaMerchantData.lua
+  3487835436  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/SantaMerchantData.lua
+  3487835440  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/SantaMerchantData.lua
+  3488386426  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3488386428  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3488386429  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3488386430  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3499648585  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3499648586  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3499648587  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3499648590  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3520721003  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3520721004  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3520721005  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531055922  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531055923  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531055924  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531055925  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531055926  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ReplicatedStorage/Datas/ValentinesShop.lua
+  3531055927  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531057541  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531057803  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3531057804  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3532165598  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3536298171  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3536298172  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3536298173  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ReplicatedStorage/Datas/ValentinesShop.lua
+  3536298175  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3536298176  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3536298177  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3541032361  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3555794274  in scripts/ReplicatedStorage/Controllers/ShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+  3555794275  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3555794277  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3555794278  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3555794279  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3559685461  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3559685691  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3559686937  in scripts/ServerScriptService/Services/ShopService.lua
+  3559687278  in scripts/ReplicatedStorage/Controllers/ShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+  3570617107  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570617401  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ReplicatedStorage/Datas/UnlockBase.lua
+  3570617707  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ReplicatedStorage/Datas/UnlockBase.lua
+  3570618178  in scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ReplicatedStorage/Datas/UnlockBase.lua
+  3570837655  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837656  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837657  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837659  in scripts/ReplicatedStorage/Controllers/ShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837660  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837661  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837666  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3570837667  in scripts/ReplicatedStorage/Datas/LuckyBlocks.lua, scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/LuckyBlocks.lua
+  3570837668  in scripts/ReplicatedStorage/Datas/LuckyBlocks.lua, scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/LuckyBlocks.lua
+  3570837669  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3581995285  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3581996075  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3582052029  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3582053415  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3582055262  in scripts/ReplicatedStorage/Controllers/ShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+  3582058537  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3582062449  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3582062749  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3582062921  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3593047340  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3593047918  in scripts/ReplicatedStorage/Datas/Shop.lua
+  3609989221  in scripts/ReplicatedStorage/Datas/LuckyBlocks.lua, scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerStorage/Modules/LuckyBlocks.lua
+  3610327634  in scripts/ReplicatedStorage/Controllers/BrainrotShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/GamepassBrainrotSpawner.server.lua
+  3611965467  in scripts/ReplicatedStorage/Controllers/BrainrotShopController.lua, scripts/ServerScriptService/GamepassBrainrotSpawner.server.lua
+  3611965515  in scripts/ReplicatedStorage/Controllers/BrainrotShopController.lua, scripts/ServerScriptService/GamepassBrainrotSpawner.server.lua
+  3611965549  in scripts/ReplicatedStorage/Controllers/BrainrotShopController.lua, scripts/ServerScriptService/GamepassBrainrotSpawner.server.lua
+  3612055210  in scripts/ReplicatedStorage/Controllers/BrainrotShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua, scripts/ServerScriptService/GamepassBrainrotSpawner.server.lua
+  3612068332  in scripts/ReplicatedStorage/Controllers/ItemShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+  3612068469  in scripts/ReplicatedStorage/Controllers/ItemShopController.lua, scripts/ReplicatedStorage/Datas/Shop.lua
+
+Teleport place ids in code:
+  86027170414765  in scripts/ServerScriptService/Services/CommandsService/Commands/teleportalltocontentserver.lua
+
+Outside URLs in code:
+  https://api.jsonbin.io/v3/b/  in scripts/ServerScriptService/PushStatsServer.server.lua, scripts/ServerScriptService/Script.server.lua
+  https://apis.roproxy.com/universes/v1/places/  in scripts/ServerScriptService/GAMES NAM AND PLAYER ACTIF.server.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/Packages/CameraShaker.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/StarterPlayer/StarterPlayerScripts/BrainrotC_Client.client.lua
+  https://counter-roan-xi.vercel.app/api/roblox-datastore  in scripts/ServerScriptService/Script.server.lua
+  https://create.roblox.com/store/asset/16279661108/PID-Debug  in scripts/ReplicatedStorage/Shared/PID.lua
+  https://devforum.roblox.com/t/bug/1017485/1732  in scripts/ReplicatedStorage/Packages/TopbarPlus/Utility.lua
+  https://devforum.roblox.com/t/bug/2973508/7  in scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Container.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Packages/TopbarPlus.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Packages/TopbarPlus.lua
+  https://discord.com/api/webhooks/...  in scripts/StarterPlayer/StarterPlayerScripts/BrainrotC_Client.client.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/CmdrSetup.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/AdminLogger.server.lua
+  https://discord.gg/Cv4J9mEUfj  in scripts/ReplicatedStorage/Shared/ConchTypes/CodesFlags.lua
+  https://discord.gg/PDvWTCa5Ef  in scripts/ReplicatedStorage/Controllers/RNGMachineController.lua, scripts/ReplicatedStorage/Datas/RNGMachineData.lua
+  https://discord.gg/QbuKJmAYK  in scripts/ServerScriptService/Services/CommandsService/Commands/generatelimitedcode.lua
+  https://discord.gg/brNTY8nX8t  in scripts/ReplicatedStorage/Controllers/EventController/Events/Cyber.lua, scripts/ReplicatedStorage/Controllers/EventController/Events/France/Canoe/Bambu Bambu Sahur/AnimationController/Animator/Script.server.lua, scripts/ReplicatedStorage/Controllers/EventController/Events/France/Map/Flood/TopWater/WaveLoop.server.lua
+  https://discord.gg/cVFtEhsZev  in scripts/ServerScriptService/CmdrSetup.server.lua
+  https://discord.gg/nDWm6PkFrT  in scripts/ReplicatedStorage/Controllers/EventController/Events/2026/DroneRig/DroneOneShot.lua, scripts/ReplicatedStorage/Controllers/EventController/Events/2026/NewYearsMap/CarsAnimation/PlayLoop.server.lua, scripts/ReplicatedStorage/Controllers/EventController/Events/2026/NewYearsMap/Screens/Screen/Sign/Gui/Tiles/Rotate/ImageLabel/Script.server.lua
+  https://discord.gg/p3MdGT5Nzc  in scripts/StarterGui/Shop/Shop/Content/List/ChristmasTitle/LocalScript.client.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/Assets/Tools/Ban Hammer/Flags.lua, scripts/ReplicatedStorage/Classes/AnimatedButton.lua, scripts/ReplicatedStorage/Classes/ClickEffect.lua
+  https://discord.gg/wx4ThpAsmw.  in scripts/ReplicatedStorage/Shared/README.server.lua
+  https://discord.gg/wyButjTMhM  in scripts/Workspace/AdminBoard/SurfaceGui/CyberTexture/Rotate/ImageLabel/Script.server.lua, scripts/Workspace/AdminBoard~2/SurfaceGui/CyberTexture/Rotate/ImageLabel/Script.server.lua
+  https://en.wikipedia.org/wiki/Damping  in scripts/ReplicatedStorage/Packages/Conch/roblox_packages/.pesde/centau_vide@0.3.1/vide/spring.lua
+  https://games.roproxy.com/v1/games/  in scripts/ServerScriptService/Services/LikeService.lua
+  https://games.roproxy.com/v1/games?universeIds=  in scripts/ServerScriptService/GAMES NAM AND PLAYER ACTIF.server.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/Packages/CameraShaker.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Packages/TopbarPlus/Utility.lua
+  https://lua.expert/  in scripts/ReplicatedStorage/Controllers/CodesController.lua, scripts/ReplicatedStorage/Controllers/EventController/Events/Steak Snap.lua, scripts/ReplicatedStorage/Controllers/EventController/Events/Steak Snap/ViewportWindow.lua

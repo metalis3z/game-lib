@@ -1,0 +1,488 @@
+{
+ "slug": "survive-lava-for-brainrot",
+ "title": "Survive LAVA for Brainrot",
+ "genre": "survival / brainrot collecting",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 5206,
+  "screen_guis": 6,
+  "classes": {
+   "UIStroke": 3108,
+   "TextLabel": 2736,
+   "Frame": 1168,
+   "SurfaceGui": 822,
+   "ImageLabel": 676,
+   "UIScale": 501,
+   "ImageButton": 500,
+   "UIAspectRatioConstraint": 126,
+   "UIListLayout": 89,
+   "CFrameValue": 78,
+   "UITextSizeConstraint": 67,
+   "UICorner": 58,
+   "TextButton": 56,
+   "UIGradient": 54,
+   "BillboardGui": 45,
+   "UIPadding": 35,
+   "ScrollingFrame": 27,
+   "LocalScript": 23,
+   "ObjectValue": 19,
+   "ViewportFrame": 19,
+   "WorldModel": 19,
+   "Bone": 16,
+   "TextBox": 16,
+   "Script": 14,
+   "CanvasGroup": 8,
+   "Configuration": 7,
+   "ScreenGui": 6,
+   "Folder": 5,
+   "UIGridLayout": 4,
+   "UIFlexItem": 3
+  },
+  "fonts": {
+   "FredokaOne Regular": 2569,
+   "SourceSansPro Bold": 91,
+   "GothamSSm Bold": 43,
+   "BuilderSans Medium": 26,
+   "LegacyArial Regular": 23,
+   "ComicNeueAngular Bold": 12,
+   "SourceSansPro Regular": 11,
+   "BuilderSans Heavy": 10,
+   "GothamSSm Heavy": 9,
+   "FredokaOne Bold": 6,
+   "Inconsolata Regular": 6,
+   "GothamSSm SemiBold": 1
+  },
+  "background_colors": {
+   "#b4821e": 345,
+   "#825a14": 345,
+   "#ffffff": 318,
+   "#000000": 56,
+   "#191b1d": 24,
+   "#ffd75a": 20,
+   "#050508": 13,
+   "#c2dc3d": 10,
+   "#dc8f42": 10,
+   "#3b3b3b": 4,
+   "#161616": 3,
+   "#950500": 2,
+   "#0f0f14": 2,
+   "#35ff08": 1,
+   "#4f8f00": 1,
+   "#ff8ad8": 1
+  },
+  "text_colors": {
+   "#ffffff": 2231,
+   "#00ffff": 394,
+   "#ffff00": 37,
+   "#00ff00": 19,
+   "#1b2a35": 13,
+   "#c800ff": 13,
+   "#ff143c": 12,
+   "#000000": 10,
+   "#ffd700": 10,
+   "#787878": 8
+  },
+  "stroke_colors": {
+   "#000000": 3048,
+   "#3c3c3c": 20,
+   "#ffffff": 11,
+   "#ff143c": 10,
+   "#00f0ff": 4,
+   "#32ff64": 4,
+   "#ffdc00": 2,
+   "#b428ff": 2,
+   "#646464": 1,
+   "#00ffff": 1
+  },
+  "image_tints": {
+   "#fffcf6": 13,
+   "#26ff00": 6,
+   "#ff0000": 3,
+   "#ffea00": 2,
+   "#4f97fb": 1,
+   "#00ff29": 1,
+   "#ff5039": 1,
+   "#00ffc8": 1,
+   "#9865ff": 1,
+   "#fff942": 1
+  },
+  "corner_radius": {
+   "{0.0,3}": 22,
+   "{0.0,12}": 16,
+   "{0.0,8}": 12,
+   "{1.0,0}": 8
+  },
+  "stroke_thickness": {
+   "3.0 px": 1575,
+   "2.0 px": 984,
+   "4.0 px": 355,
+   "1.0 px": 92,
+   "2.1 px": 24,
+   "5.0 px": 20,
+   "0.1 scaled": 18,
+   "0.2 scaled": 10,
+   "0.04 scaled": 9,
+   "1.4 px": 6
+  },
+  "text_size_px": {
+   "16": 32,
+   "8": 13,
+   "14": 11,
+   "18": 11,
+   "19": 3,
+   "26": 2,
+   "20": 1,
+   "15": 1
+  },
+  "text_scaled_share": 0.97,
+  "size_mode": {
+   "scale": 4781,
+   "offset": 32,
+   "mixed": 377,
+   "zero": 16
+  },
+  "unique_images": 146,
+  "per_100_objects": {
+   "UICorner": 1.1,
+   "UIStroke": 59.7,
+   "UIGradient": 1.0,
+   "UIAspectRatioConstraint": 2.4,
+   "UIListLayout": 1.7,
+   "UIGridLayout": 0.1,
+   "UIPadding": 0.7,
+   "UIScale": 9.6,
+   "UITextSizeConstraint": 1.3,
+   "ImageLabel": 13.0,
+   "ImageButton": 9.6,
+   "TextButton": 1.1
+  }
+ },
+ "map": {
+  "instances": 30473,
+  "parts": 6572,
+  "meshparts": 95,
+  "unions": 14,
+  "anchored_share": 1.0,
+  "textures_decals": 15267,
+  "surface_appearances": 1,
+  "lights": 3,
+  "emitters": 39,
+  "beams_trails": 18,
+  "sounds": 2,
+  "prompts": 316,
+  "world_guis": 497,
+  "humanoids": 12,
+  "materials": {
+   "Plastic": 6498,
+   "Neon": 55,
+   "SmoothPlastic": 12,
+   "Glass": 7
+  },
+  "part_colors": {
+   "#765a4a": 1590,
+   "#5b5d69": 950,
+   "#6eb43f": 530,
+   "#6d707e": 351,
+   "#fcfaff": 316,
+   "#a5806e": 268,
+   "#a3a2a5": 259,
+   "#4c4e58": 206,
+   "#53545f": 170,
+   "#71b444": 151,
+   "#1eaa1c": 150,
+   "#6d6d6d": 150,
+   "#88a14c": 123,
+   "#747474": 115
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   308,
+   559,
+   3784
+  ],
+  "extent_all_studs": [
+   691,
+   1169,
+   3917
+  ],
+  "top_classes": {
+   "Texture": 15228,
+   "Part": 6412,
+   "UIStroke": 2041,
+   "TextLabel": 1738,
+   "Model": 1001,
+   "Frame": 915,
+   "Attachment": 736,
+   "SurfaceGui": 321,
+   "ProximityPrompt": 316,
+   "CFrameValue": 273,
+   "BillboardGui": 176,
+   "UIListLayout": 173,
+   "ImageButton": 155,
+   "ImageLabel": 155,
+   "UIScale": 155
+  }
+ },
+ "lighting": {
+  "Ambient": "#464646",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#0076c5",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.66,
+  "EnvironmentSpecularScale": 0.5,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 20.509,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#c7a266",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "11:52:30",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 2.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.3,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.1,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.1,
+    "FocusDistance": 18.64,
+    "InFocusRadius": 20.0,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.75
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.01,
+    "Name": "SunRays",
+    "Spread": 0.1
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 60.0,
+    "MoonTextureId": "",
+    "Name": "Sky",
+    "SkyboxBk": "rbxassetid://6295671271",
+    "SkyboxDn": "rbxassetid://6295671382",
+    "SkyboxFt": "rbxassetid://6295671136",
+    "SkyboxLf": "rbxassetid://6295670996",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://6295671509",
+    "SkyboxUp": "rbxassetid://6295671667",
+    "StarCount": 0,
+    "SunAngularSize": 10.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#c7a9c2",
+    "Decay": "#bde5ff",
+    "DefinesCapabilities": false,
+    "Density": 0.283,
+    "Glare": 0.5,
+    "Haze": 0.1,
+    "Name": "Atmosphere",
+    "Offset": 1.0
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "AdminLuckBoost": 2.0,
+   "AdminLuckTimer": 816.0,
+   "CelestialTimer": 215.0,
+   "EventTimer": 1717.0,
+   "GodlyTimer": 1715.0,
+   "LuckBoost": 2.0,
+   "LuckTimer": 0.0,
+   "LuckValue": 0.0,
+   "LuckyBlockFuseEnabled": false,
+   "LuckyBlockFuseTimer": 935.1809,
+   "MoonTimer": 948.0
+  }
+ },
+ "packs": {
+  "ui": 18,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 2,
+  "materials": 1,
+  "lighting": 1,
+  "model": 944,
+  "model-set": 32,
+  "vfx": 4,
+  "parts": 3,
+  "other": 6
+ },
+ "coverage": {
+  "instances": 163810,
+  "packed": 163589,
+  "services": 51,
+  "code_or_empty_folders_not_packed": 167,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 1066,
+ "sound_ids": 37,
+ "files": 1004,
+ "kb": 11701,
+ "category": "Brainrot",
+ "source_file": "1;1 Survive LAVA for Brainrot.rbxl"
+}

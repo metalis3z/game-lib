@@ -1,0 +1,481 @@
+480 remotes / bindables
+BindableFunction       Workspace..Animate.PlayEmote
+BindableFunction       Workspace.Animate.PlayEmote
+RemoteEvent            ReplicatedStorage.UserGenerated.Analytics.ClientKit.Accept
+RemoteEvent            ReplicatedStorage.UserGenerated.FastFlags.SharedFastFlags.Update
+RemoteEvent            ReplicatedStorage.UserGenerated.ABTests.SharedABTests.Update
+BindableEvent          ReplicatedStorage.UpdateChatNameServer
+RemoteEvent            ReplicatedStorage.Set
+BindableEvent          ReplicatedStorage.ResetKeys
+RemoteEvent            ReplicatedStorage.GameAnalyticsRemoteConfigs
+BindableEvent          ReplicatedStorage.ClientSet
+RemoteFunction         ReplicatedStorage.Purchase
+RemoteEvent            ReplicatedStorage.Shared.Friends.FriendMain
+RemoteEvent            ReplicatedStorage.Packages.Ragdoll.Ragdoll
+RemoteEvent            ReplicatedStorage.Packages.Replion.Remotes.Added
+RemoteEvent            ReplicatedStorage.Packages.Replion.Remotes.Removed
+RemoteEvent            ReplicatedStorage.Packages.Replion.Remotes.Update
+RemoteEvent            ReplicatedStorage.Packages.Replion.Remotes.UpdateReplicateTo
+RemoteEvent            ReplicatedStorage.Packages.Replion.Remotes.Set
+RemoteEvent            ReplicatedStorage.Packages.Replion.Remotes.ArrayUpdate
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Tools/Cooldown
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/FuseMachine/RemoveBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/FuseMachine/ClaimBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/FuseMachine/ConfirmFusion
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/FuseMachine/Delivery
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FuseMachine/RevealNow
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FuseMachine/FuseAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FuseMachine/ForceUpdate
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/NotificationService/Notify
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/ClaimCoins
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/Sell
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/Open
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/ToggleFriends
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/CashCollected
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ChatService/ChatMessage
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SoundService/PlayClientSound
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Snapshot/RealiableChannel
+UnreliableRemoteEvent  ReplicatedStorage.Packages.Net.URE/Snapshot/UnrealiableChannel
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CommandsService/OpenCommandBar
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/92e5a494-0ab4-4c4e-ae6b-96e5f4a2a698
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/6411a778-07a5-4513-b1c7-60b65ae05ac8
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/GameService/SpawnEffect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/GlobalPromptEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/FuseMachineService/AdminPercentOverride
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StockEventService/CreateDynamicRecipe
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StockEventService/Delivery
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Rebirth/RequestRebirth
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/eb9dee81-7718-4020-b6b2-219888488d13
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/fce51e06-a587-4ff0-9e19-869eb1859a01
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/680db8c7-c46a-492c-b451-6e980910902c
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StealService/Grab
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/Place
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StealService/StealingSuccess
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StealService/StealingFailure
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CombatService/ApplyImpulse
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CoinsShopService/RequestBuy
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CoinsShopService/ToggleAutoBuy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/InventoryService/Sort
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/GiveGold
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/CreatePoll
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/Announce
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ModdedShopService/Purchase
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/LiveSoccerEvent/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/MerchantService/SetFocused
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/MerchantService/Animation
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/MerchantService/Buy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SantaMerchantService/SetFocused
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SantaMerchantService/Animation
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SantaMerchantService/Buy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SantaMerchantService/CollectGoldElf
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ShopService/Purchase
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/ShopService/UseRegionalPriceGifts
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TutorialService/StartTutorial
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TutorialService/FinishTutorial
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TeleportService/Reconnect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminPanelService/PlaceCooldownFromChat
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/352aad58-c786-4998-886b-3e4fa390721e
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminPanelService/DealWithThis
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/f40f7d9e-2f0d-4167-b250-899273f46874
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/RSVPService/Prompt
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/FatSammy/PlaySpawnSequence
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/FatSammy/PlayEatAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/FatSammy/Delivery
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CraftingMachineService/CraftNow
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CraftingMachineService/Update
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CraftingMachineService/Return
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CraftingMachineService/Claim
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CraftingMachineService/Delivery
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CraftingMachineService/Start
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CraftingMachineService/Fetch
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PinataService/DestroyGear
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PinataService/SpawnGear
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PinataService/PickGear
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PinataService/Blink
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PinataService/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PinataService/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PoleGameService/DestroyGear
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PoleGameService/SpawnGear
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PoleGameService/PickGear
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PoleGameService/Blink
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PoleGameService/Burst
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/EncryptedAssetsService/Load
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Indonesia/Burst
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/EventService/Kiwi
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ToolUnequipped
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/NotificationService/UpdateNotify
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/RitualService/CompleteRitual
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PhantomEventService/Spin
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CraftingMachineService/SetRecipe
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ThanksgivingTurkeyService/UpdateAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ThanksgivingTurkeyService/UpdateHealthBar
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ThanksgivingTurkeyService/PlayAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ThanksgivingTurkeyService/Despawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ThanksgivingTurkeyService/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CameraShakeService/Shake
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SettingsService/ToggleSetting
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ConfirmationService/Show
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/LaserGun_Fire
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/LaserGun_Impact
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/LaserGun_ImpactCharacter
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/WinnerScreen
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/TeleportBack
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/Animation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/SetDevice
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/RodsShopService/RequestBuy
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/RodsShopService/RequestEquip
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/RodsShopService/UpdateOwnedRods
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/RodsShopService/UpdateEquippedRod
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CursedEventService/Spin
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CursedEventService/RequestBuy
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdventService/ClaimReward
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdventService/Recover
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SeatService/Unsit
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/NewYearsMachine/Delivery
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineService/ReconnectWarn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineService/CreateInvite
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineService/Reconnect
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/DuelsMachineService/AcceptInvite
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/DuelsMachineService/SearchUser
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/DuelsMachineService/Invite
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/UseItem
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/QuantumCloner/OnTeleport
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/UseItem
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SetInputEnabled
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/LaVacca/Comet
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Matteo/SpawnEffect
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/EventService/Matteo/CollectTree
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/NyanCats/Struck
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/RainingTacos/Shoot
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/4th of July/CreateFirework
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/4th of July/ExplodeTraitEffect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Extinct/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Crab Rave/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Glitch/HoleEffect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Bombardiro Crocodilo/SpawnBomb
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Bombardiro Crocodilo/Explode
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Concert/Shoot
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Rain/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Snow/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Starfall/CreateStar
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Starfall/ExplodeStar
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Bubblegum/RollAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Bubblegum/EmitBurst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Gingerbread Town/CollectCandy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Gingerbread Town/DestroyRings
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Gingerbread Town/CreateRings
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Gingerbread Town/UpdateRide
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Gingerbread Town/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Water/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Los Matteos/CreateLightningBolt
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Brazil/Focus
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Brazil/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Strawberry/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Sammyni Spyderini/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Phase 4: Mygame43/CreateLightningOrb
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/UFO/AbductionBurst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/UFO/Spawned
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Rap Concert/Shoot
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Chicleteira Bicicleteira/SpawnChicleteira
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Chicleteira Bicicleteira/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Mexico/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Dul Dul Dul/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Karkerkar Kurkur/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Winter Hour/DestroyCandyCane
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Winter Hour/SpawnCandyCane
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Winter Hour/ClaimCandyCane
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Winter Hour/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Meowl/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Spooky Lucky Block/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Graveyard/DigStart
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Graveyard/DigEnd
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Graveyard/PlayGraveyardAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Graveyard/DigCollectVFX
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Graveyard/CollectCandy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Graveyard/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Trick or Treat/BrainrotCandyAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Trick or Treat/BrainrotHitAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Trick or Treat/PlayerCandyAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Trick or Treat/ScreenCandyAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Trick or Treat/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/WitchingHour/Projectile
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/WitchingHour/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Tung Tung Attack/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/CandyCaneAnimation
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/DestroyGift
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/SpawnGift
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/GiftBurst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/OpenGift
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/SpawnBrainrot
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/PointArrow
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/Delivery
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/Grab
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/StartTransition
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/North Pole/StopTransition
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Festive Lucky Block/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Skibidi/SpawnSkibidi
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Skibidi/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/10B Visits/CreateFirework
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/10B Visits/ExplodeTraitEffect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/5aa39ea1-0c65-4fcf-aff9-b18a7ef277c3
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/2026/ExplodeTraitEffect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Lance/Burst
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CommandsService/ViewCommands
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/BrainrotToCraft/RequestList
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/France/Burst
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/EventService/ListEvents
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FishingRod.Cast
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FishingRod.Cancel
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FishingRod.SetupBobber
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FishingRod.MinigameClick
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FishingRod.Reward
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/FishingRod.BiteGot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Tools/BanHammer/Charge
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Tools/BanHammer/Release
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/RequestRedemption
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/Leave
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AnimalSpawnService/SpawnRequest
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/WinterHour/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Meowl/Chase
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Indonesia/SpawnCanoe
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminboardService/ListCycle
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Indonesia/TagDebug
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Carpet
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AnnounceGlobal
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StartGlobalEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Size
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SnapServer
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/AddSteal
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/BackroomsService/RequestBuySpeed
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/GiveGear
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/RobuxShopService/BuyUnstealablePets
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SavingService/Save
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AnnounceServer
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StopGlobalEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/ServerSpawnBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SettingsService/SetFilterBrainrots
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SavingService/Restore
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StartServerEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StopServerEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TakeGear
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SnapGlobal
+RemoteEvent            ReplicatedStorage.Packages.Net.ToggleAdminGUI
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CraftingMachineService/RemoveRecipe
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/GlobalSpawnBrainrot
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ShopService/ShopOpened
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/onArrayRemove
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/CancelTrade
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/CrossServerInvite
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/SmurfCat/Hit
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/RitualService/ForceStartRitual
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/BackroomsService/RequestOwnedSpeedTier
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/BackroomsService/UpdateOwnedSpeedTier
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Tools/CupidsWings/Invisibility
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/onChange
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/CrossServerTrade
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/CreateInvite
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/onDataChange
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/PhaseBrazilFocus
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/AyMiGatito/Burst
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/DataService/WipePlayerData
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Valentines/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CupidsMachineService/CraftDone
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CupidsMachineService/Update
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CupidsMachineService/Return
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CupidsMachineService/Claim
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CupidsMachineService/Skip
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CupidsMachineService/Delivery
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CupidsMachineService/Start
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CupidsMachineService/Fetch
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/CupidsMachineService/SetRecipe
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/GameService/CyberBeaconAnimation
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/FuseMachineService/AdminForceFuse
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/LiveSoccerEvent/MiniEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/GiveMulti
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/156ed911-fc4b-4d24-a648-acd1e9761e4f
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/GameService/PhantomCaveFlash
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Phase 1: Sleepy/PlaySleepVFX
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/ValentinesShopService/SearchUser
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/ValentinesShopService/OpenGift
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/ValentinesShopService/Gift
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ValentinesShopService/GiftNotify
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ValentinesBase/Claim
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Valentines Base/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/MorphBrainrot
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/Accept
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PollService/Vote
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DivineEventService/Spin
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/DivineEventService/RequestBuy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/f756228f-15f8-4b6d-93a4-dfe62bb409cb
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/GlobalEventRequest
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Divine/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SpawnFakeBrainrot/EarlyDestroy
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/AddCyberSpins
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/PhaseTaco
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PlotService/Return
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/MerchShop/RedeemCode
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/GiveMoney
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/NonEmptySlots/Get
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Rainbow/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/NotificationService/CloseNotify
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradePlazaPortalService/Teleport
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/RitualService/StartRitual
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Tools/BanHammerHit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AnimalService/Broadcast
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/ThanksgivingTurkeyService/Damage
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/onArrayInsert
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/onDescendantChange
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/CyberEventService/Spin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/SetSignText
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TeleportService/RequestVoiceServer
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/PollService/Sync
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SyncLuckyBlock
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Tools/Flash/Effects
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/GetCountdown
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/OnUpdate
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/ModdedBrainrots
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Leaderboard/GetCountryLeaderboard
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Leaderboard/GetTopPlayers
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Leaderboard/GetTopFriends
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Leaderboard/GetDisplayNames
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Leaderboard/ReplicateUpdate
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Leaderboard/ReplicateDisplayNames
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Leaderboard/ReplicateCountryUpdate
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/UpdateCountdown
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/John Pork/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/St Patricks/ClaimGoldCoin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/St Patricks/DestroyGoldCoin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/St Patricks/Hit
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/St Patricks/SpawnGoldCoin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Egg/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/DeclineInvite
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/TradeNotification
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Lucky Base/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/LuckyBase/Claim
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/3ba148c9-7ed6-4675-93f8-9f7c356a2c54
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/PhaseBrazilBurst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/ExplodeTraitEffect
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/CreateFirework
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/PhaseClaws
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/07205405-20ce-4948-b0dd-36b680f698e9
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TsunamiEventService/BuySpeedUpgrade
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TsunamiEventService/Drop
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TsunamiEventService/Grab
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TsunamiEventService/Kill
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TsunamiEventService/Teleport
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TsunamiEventService/ToggleSlowmode
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StealService/GrabDroppedBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/a0e78691-cb9b-4efc-ac08-9c06fea70059
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/RipMyGranny/Projectile
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/RipMyGranny/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Eid/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/1 Year/PhaseSombrero
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Liveboard/GetEntries
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Liveboard/ClaimEntry
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/Liveboard/NewEntry
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/SammyBaseService/SetSammyBase
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Easter/Burst
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SpawnFakeBrainrot/Poof
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SpawnFakeBrainrot/Camera
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/SpawnFakeBrainrot/CameraToggle
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminPanelService/ExecuteCommand
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EggCity/EggBurst
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/EggrotHunt/JumpShop/Buy
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/EggrotHunt/CandyMerchant/Buy
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EggrotCandyCage/Break
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EggrotHunt/HarpPlay
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EggrotHunt/JumpShopTutorialShown
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EggrotHunt/VolcanoLaunch
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/Egg Lucky Block/Spawn
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/EggrotHunt/ClaimCoin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/EggrotHunt/DestroyCoin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/EggrotHunt/GoldEggReward
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/EggrotHunt/SpawnCoin
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/5c8f0dd0-0f9e-44ba-8f9b-197958b661ab
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/WorldBrainrotService/Grab
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/WorldBrainrotService/Drop
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/EventService/2026/CreateFirework
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/Tools/Flash/Activate
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/b096e1ca-9c3a-453b-8b60-268b235083b9
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/RemoveBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/SearchUser
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/Presence
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/abdbbc93-5ae6-48bb-a129-f9ce6dbe9617
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/BaseIndexService/Claim
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/Select
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/Accept
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/Ready
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/DuelsMachineMatchService/SelectBrainrot/Cancel
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TeleportService/TeleportToGame
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TeleportService/TeleportToPrivate
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/TradeService/TradeCompleted
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/AcceptInvite
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/AddBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/GetPresenceBatch
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/Invite
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/TradeService/Ready
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/UpdateModdedButton
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/UpdateEventsButton
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/SetLuckyBlock
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/SaveKey
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/ResetKeys
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/ResetData
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/PlayerMorph
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/ModdedLuck
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/ModdedEvents
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/GiveTool
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/AdminService/AlertErrors
+RemoteEvent            ReplicatedStorage.Packages.Net.AdminService/UpdateModdedButton
+RemoteEvent            ReplicatedStorage.Packages.Net.AdminService/SetLuckyBlock
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/UnlockIndex
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/UnMorph
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/StopEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/StartEvent
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SpawnBrainrotInBoat
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SpawnBrainrotInBase
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SpawnBrainrot
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SetSteal
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SetLuckyBlockChance
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SetLuckRE
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/SetLuck
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/ResetBrainrots
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/Morph
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/MaxLuck
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/GiveSteal
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/AdminService/GiveRebirth
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StockMachine/RecipeFinished
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StockEventService/Update
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StockEventService/SetFocused
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StockEventService/Return
+RemoteEvent            ReplicatedStorage.Packages.Net.RE/StockEventService/Redeem
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StockEventService/UnSet
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StockEventService/StockEventService/UnSet
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StockEventService/StockEventService/CreateGlobalRecipe
+RemoteFunction         ReplicatedStorage.Packages.Net.RF/StockEventService/ListItems
+RemoteEvent            ReplicatedStorage.Items.Rainbowrath Sword.RemoteEvent
+RemoteEvent            ReplicatedStorage.Items.Flash Teleport.RE/Tools/Flash/Effects
+RemoteFunction         ReplicatedStorage.Items.Flash Teleport.RF/Tools/Flash/Activate
+BindableEvent          ReplicatedStorage.Controllers.InterfaceController.Toggle
+BindableEvent          ReplicatedStorage.Controllers.TextChatController.Event
+BindableEvent          ReplicatedStorage.Client.BanHammer.Equipped
+RemoteEvent            ReplicatedStorage.Assets.Tools.SantasSleigh.DropPresent
+RemoteEvent            ReplicatedStorage.Assets.Tools.CupidsWings.DropPresent
+RemoteEvent            ReplicatedStorage.Packages.Net.BrainrotPurchaseRemote
+RemoteEvent            ReplicatedStorage.OpenShopRemote
+RemoteEvent            ReplicatedStorage.Remotes.RedeemCode
+RemoteEvent            ReplicatedStorage.Remotes.CreateCode
+RemoteEvent            ReplicatedStorage.CodeRemotes.RedeemCode
+RemoteEvent            ReplicatedStorage.CodeRemotes.AdminAction
+RemoteEvent            ReplicatedStorage.CodeRemotes.NotifyClient
+RemoteFunction         ReplicatedStorage.CodeRemotes.RequestCodes
+RemoteEvent            ReplicatedStorage.BanSystemEvent
+RemoteEvent            ServerScriptService.Services.ToolService.Tools.WebSlinger.Ragdoll
+BindableFunction       ServerScriptService.Services.ToolService.Tools.Quantum Cloner.Animate.PlayEmote
+BindableEvent          ServerScriptService.Services.CmdrService.Commands.CustomCommands.setserverluckServer.SetLuck
+BindableEvent          ServerScriptService.Services.EventService.Events.Indonesia.Event
+RemoteEvent            ServerScriptService.Admins.BanGUI.Ban
+RemoteEvent            ServerScriptService.Admins.BanGUI.Unban
+BindableFunction       ServerStorage.SetSammyBaseItemsBindable
+BindableFunction       ServerStorage.__AssetLibrary.m.Strawberry Harder.Animate.PlayEmote
+BindableFunction       ServerStorage.Skins.ZENOX.Model..Animate.PlayEmote

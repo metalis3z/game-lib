@@ -1,0 +1,17 @@
+while wait() do
+	script.Parent.Position = UDim2.new(0, 150,0, 150)
+	wait()
+	script.Parent.Position = UDim2.new(0, 140,0, 140)
+	wait()
+	script.Parent.Position = UDim2.new(0, 150,0, 150)
+	wait()
+	script.Parent.Position = UDim2.new(0, 160,0, 160)
+	wait()
+	script.Parent.Position = UDim2.new(0, 140,0, 140)
+	wait()
+	script.Parent.Position = UDim2.new(0, 160,0, 160)
+	wait()
+	script.Parent.Position = UDim2.new(0, 110,0, 110)
+	wait()
+	script.Parent.Position = UDim2.new(0, 180,0, 180)
+end

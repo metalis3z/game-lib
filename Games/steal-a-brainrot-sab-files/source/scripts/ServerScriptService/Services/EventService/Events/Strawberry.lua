@@ -1,0 +1,202 @@
+local Strawberry = {}
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local CollectionService = game:GetService("CollectionService")
+local HttpService = game:GetService("HttpService")
+
+local Net = require(ReplicatedStorage.Packages.Net)
+local SharedEventUtils = require(ReplicatedStorage.Shared.SharedEventUtils)
+local Burst = Net:RemoteEvent("EventService/Strawberry/Burst")
+
+local recentlyTargeted = {}
+local hitboxes = {}
+local sTask = nil
+local startTime = nil
+local isActive = false
+local strikeCount = 0
+
+local function has(animalTemplate)
+	if not animalTemplate or not animalTemplate.Parent then
+		return false
+	end
+
+	local currentTraitsJson = animalTemplate:GetAttribute("Traits")
+	local currentTraits = {}
+
+	if currentTraitsJson then
+		local success, decoded = pcall(function()
+			return HttpService:JSONDecode(currentTraitsJson)
+		end)
+		if success and type(decoded) == "table" then
+			currentTraits = decoded
+		end
+	end
+
+	for _, trait in ipairs(currentTraits) do
+		if trait == "Strawberry" then
+			return true
+		end
+	end
+
+	return false
+end
+
+local function apply(animalTemplate)
+	if not animalTemplate or not animalTemplate.Parent then
+		return
+	end
+
+	local currentTraitsJson = animalTemplate:GetAttribute("Traits")
+	local currentTraits = {}
+
+	if currentTraitsJson then
+		local success, decoded = pcall(function()
+			return HttpService:JSONDecode(currentTraitsJson)
+		end)
+		if success and type(decoded) == "table" then
+			currentTraits = decoded
+		end
+	end
+
+	for _, trait in ipairs(currentTraits) do
+		if trait == "Strawberry" then
+			return
+		end
+	end
+
+	table.insert(currentTraits, "Strawberry")
+	animalTemplate:SetAttribute("Traits", HttpService:JSONEncode(currentTraits))
+end
+
+local function pick()
+	local roadAnimals = CollectionService:GetTagged("Animal")
+	local currentTime = workspace:GetServerTimeNow()
+
+	for animalId, lastTime in pairs(recentlyTargeted) do
+		if (currentTime - lastTime) > 20 then
+			recentlyTargeted[animalId] = nil
+		end
+	end
+
+	local candidates = {}
+	for _, animal in ipairs(roadAnimals) do
+		if animal.PrimaryPart then
+			local animalId = animal.Name
+			if not recentlyTargeted[animalId] and not has(animal) then
+				table.insert(candidates, animal)
+			end
+		end
+	end
+
+	if #candidates == 0 then return nil end
+	return candidates[math.random(1, #candidates)]
+end
+
+local function delete(animalId)
+	local hitboxPart = hitboxes[animalId]
+	if hitboxPart then
+		hitboxPart:Destroy()
+		hitboxes[animalId] = nil
+	end
+end
+
+local function hit(targetAnimal)
+	if not targetAnimal or not targetAnimal.PrimaryPart then
+		return
+	end
+
+	strikeCount += 1
+	if strikeCount > 4 then
+		if not SharedEventUtils.isPointInCarpet(targetAnimal.PrimaryPart.Position) then
+			return
+		end
+	end
+
+	local animalId = targetAnimal.Name
+	local animalPosition = targetAnimal.PrimaryPart.Position
+
+	local hitboxPart = Instance.new("Part")
+	hitboxPart.Name = "StrawberryHitbox_" .. animalId
+	hitboxPart.Size = Vector3.new(1, 1, 1)
+	hitboxPart.Transparency = 1
+	hitboxPart.Anchored = true
+	hitboxPart.CanCollide = false
+	hitboxPart.CFrame = CFrame.new(animalPosition.X, animalPosition.Y + 9, animalPosition.Z)
+	hitboxPart.Parent = workspace
+
+	hitboxes[animalId] = hitboxPart
+	recentlyTargeted[animalId] = workspace:GetServerTimeNow()
+
+	task.spawn(function()
+		local focusTime = workspace:GetServerTimeNow() + 1
+		hitboxPart:SetAttribute("Focused", focusTime)
+
+		apply(targetAnimal)
+
+		Burst:FireAllClients(animalId)
+
+		task.wait(2)
+		delete(animalId)
+	end)
+end
+
+local function burstOnStart()
+	for i = 1, 4 do
+		local targetAnimal = pick()
+		if targetAnimal then
+			hit(targetAnimal)
+		end
+	end
+end
+
+local function event()
+	if sTask then
+		task.cancel(sTask)
+	end
+
+	sTask = task.spawn(function()
+		task.wait(5)
+
+		while isActive do
+			local currentTime = workspace:GetServerTimeNow()
+			local eventRunTime = currentTime - startTime
+			if not isActive then break end
+
+			local targetAnimal = pick()
+			if targetAnimal then
+				hit(targetAnimal)
+			end
+			task.wait(math.random(4, 7))
+		end
+	end)
+end
+
+function Strawberry.OnStart()
+	if isActive then return end
+
+	isActive = true
+	startTime = workspace:GetServerTimeNow()
+	ReplicatedStorage:SetAttribute("StrawberryEvent", true)
+	burstOnStart()
+	event()
+end
+
+function Strawberry.OnStop()
+	if not isActive then return end
+
+	isActive = false
+	ReplicatedStorage:SetAttribute("StrawberryEvent", false)
+
+	if sTask then
+		task.cancel(sTask)
+		sTask = nil
+	end
+
+	for _, part in pairs(hitboxes) do
+		part:Destroy()
+	end
+	table.clear(hitboxes)
+	strikeCount = 0
+end
+
+return Strawberry

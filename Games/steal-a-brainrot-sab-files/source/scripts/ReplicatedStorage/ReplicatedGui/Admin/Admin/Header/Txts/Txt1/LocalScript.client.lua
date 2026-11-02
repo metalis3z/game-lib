@@ -1,0 +1,2 @@
+repeat task.wait(2) until script.Parent:IsDescendantOf(game:GetService("Players").LocalPlayer.PlayerGui)
+require(game:GetService("ReplicatedStorage").Packages.Gradients).apply(script.Parent, "Rainbow")

@@ -1,0 +1,26 @@
+
+
+return {
+	Cocoteddy = {},
+	Bucketoro = {},
+	["Sundrilla Sundae"] = {},
+	["Lemonita Splashita"] = {},
+	["Flippo Marino"] = {},
+	["Tortuginni Sandcastlini"] = {},
+	["Bombardiro Vaccariro"] = {},
+	["Craburger "] = {},
+	["Rocketini Frostini"] = {},
+	["Octoball "] = {},
+	["Ombrello Topolino"] = {},
+	["Sushi Inu"] = {},
+	["Girafini Raftini"] = {},
+	["Frullato Framingo"] = {},
+	["Capitano Gullini"] = {},
+	["Los Fruits"] = {},
+	["Sand Sand Sand"] = {},
+	["Coco and Mango"] = {},
+	["Bearito Cabinito"] = {},
+	Venuspino = {},
+	Kraken = {},
+	["Dragon Aquanini"] = {}
+}

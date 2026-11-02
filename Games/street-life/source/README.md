@@ -1,0 +1,734 @@
+# Street Life Fully Scripted
+
+Source: `C:/Users/wnott/Downloads\Street Life Fully Scripted.rbxl`  
+321586 instances, 167 classes, 3979 scripts (774378 lines), 908 remotes, 10511 asset ids
+
+## Top level
+
+| Service / root | Class | Descendants | Scripts (server/client/module) |
+|---|---|---:|---|
+| Workspace | Workspace | 198858 | 783/1/0 |
+| SoundService | SoundService | 1 |  |
+| Chat | Chat | 23 | 0/0/18 |
+| ReplicatedFirst | ReplicatedFirst | 136 | 0/2/0 |
+| MaterialService | MaterialService | 1305 |  |
+| TextChatService | TextChatService | 3 |  |
+| StarterPlayer | StarterPlayer | 136 | 4/27/12 |
+| StarterPack | StarterPack | 27 | 0/1/0 |
+| StarterGui | StarterGui | 1425 | 3/34/0 |
+| InsertService | InsertService | 1 |  |
+| ReplicatedStorage | ReplicatedStorage | 5477 | 32/10/49 |
+| ServerScriptService | ServerScriptService | 486 | 47/15/10 |
+| ServerStorage | ServerStorage | 113641 | 943/441/1547 |
+| Lighting | Lighting | 11 |  |
+| Teams | Teams | 3 |  |
+
+(38 empty services not listed)
+
+## Key containers
+
+**ServerScriptService** (37 children)
+
+- Script `Frosty` (1) -> `scripts/ServerScriptService/Frosty.server.lua`
+- Script `Spawn` (185) -> `scripts/ServerScriptService/Spawn.server.lua`
+- Script `blood_Splatters` (3) -> `scripts/ServerScriptService/blood_Splatters.server.lua`
+- Script `SafeInventory` -> `scripts/ServerScriptService/SafeInventory.server.lua`
+- Script `Gang Handler` (25) -> `scripts/ServerScriptService/Gang Handler.server.lua`
+- Script `PhoneHandler` -> `scripts/ServerScriptService/PhoneHandler.server.lua`
+- Script `Radio` -> `scripts/ServerScriptService/Radio.server.lua`
+- Folder `GunStuff` (1)
+- Script `TimeCycle` -> `scripts/ServerScriptService/TimeCycle.server.lua`
+- Script `PayCash` (60) -> `scripts/ServerScriptService/PayCash.server.lua`
+- Script `RagdollTestScript` -> `scripts/ServerScriptService/RagdollTestScript.server.lua`
+- Script `SoftShutdown` (10) -> `scripts/ServerScriptService/SoftShutdown.server.lua`
+- Script `BankRobbery` (10) -> `scripts/ServerScriptService/BankRobbery.server.lua`
+- Script `Leaderstats` -> `scripts/ServerScriptService/Leaderstats.server.lua`
+- Script `VisualizeBulletScript` (7) -> `scripts/ServerScriptService/VisualizeBulletScript.server.lua`
+- Script `TrashBags` -> `scripts/ServerScriptService/TrashBags.server.lua`
+- Script `Jailed` -> `scripts/ServerScriptService/Jailed.server.lua`
+- Script `Loot Bag` -> `scripts/ServerScriptService/Loot Bag.server.lua`
+- Script `Respawn` -> `scripts/ServerScriptService/Respawn.server.lua`
+- Script `ChatCmds` (30) -> `scripts/ServerScriptService/ChatCmds.server.lua`
+- Folder `Car Handler` (4)
+- Script `Plant` (53) -> `scripts/ServerScriptService/Plant.server.lua`
+- ModuleScript `ProfileCache` (1) -> `scripts/ServerScriptService/ProfileCache.lua`
+- Script `HandTo` -> `scripts/ServerScriptService/HandTo.server.lua`
+- Script `Remote f/` -> `scripts/ServerScriptService/Remote f_.server.lua`
+- Script `ATM Handler` (2) -> `scripts/ServerScriptService/ATM Handler.server.lua`
+- Script `Debug` (2) -> `scripts/ServerScriptService/Debug.server.lua`
+- Script `DevProduct` -> `scripts/ServerScriptService/DevProduct.server.lua`
+- Script `Spawner` (8) -> `scripts/ServerScriptService/Spawner.server.lua`
+- Script `SafeZone` -> `scripts/ServerScriptService/SafeZone.server.lua`
+- Script `Clean handler` (6) -> `scripts/ServerScriptService/Clean handler.server.lua`
+- Script `Anticheat` (2) -> `scripts/ServerScriptService/Anticheat.server.lua`
+- Script `Doors` -> `scripts/ServerScriptService/Doors.server.lua`
+- Script `Gym` (26) -> `scripts/ServerScriptService/Gym.server.lua`
+- Script `/Drop` -> `scripts/ServerScriptService/_Drop.server.lua`
+- Script `Clothing` -> `scripts/ServerScriptService/Clothing.server.lua`
+- Model `Adonis_Loader` (13)
+
+**ServerStorage** (303 children)
+
+- ScreenGui `CarGui` (10)
+- Tool `Fist` (28)
+- Model `CUFFS` (3)
+- Tool `STB GlockSwitch` (397)
+- Animation `HITPLAYER`
+- Tool `8B Draco` (400)
+- Tool `RED StabVest` (13)
+- Tool `KOS HoneyBadger` (428)
+- Tool `Pizza` (10)
+- Tool `Box` (9)
+- Folder `BacksideGuns` (163)
+- Tool `EOK Skorpion` (415)
+- Tool `EOK GlockSwitch` (405)
+- Tool `KOS Draco` (400)
+- Tool `Knife` (11)
+- Tool `ARPDrum` (399)
+- Tool `BO Vector` (428)
+- Tool `Pistol Clip` (33)
+- Tool `Vector` (420)
+- Tool `MentosBag` (9)
+- Tool `Mac` (395)
+- Tool `SFM Mac` (414)
+- Tool `GreenAppleJuice` (21)
+- Tool `1911` (385)
+- Tool `LK GlockSwitch` (408)
+- Tool `FN 5.7` (395)
+- Tool `KOS ARPDrum` (417)
+- Tool `Taco` (11)
+- Tool `GrabTool` (25)
+- Tool `KOS GlockSwitch` (418)
+- Tool `AppleJuice` (21)
+- Tool `KOS Tec-9` (384)
+- Tool `CherryDrink` (13)
+- Tool `FNO Shotgun` (404)
+- Tool `Lockpick` (11)
+- Tool `Water` (19)
+- Tool `ARPistol` (400)
+- Tool `KOS Vector` (425)
+- Tool `C4` (2)
+- Tool `Shotgun Ammo` (24)
+- Tool `Mentos` (13)
+- Tool `GM Shotgun` (423)
+- Tool `Shotgun` (399)
+- Tool `Shield` (7)
+- Tool `KOS Mac` (415)
+- Tool `BO Mac` (414)
+- Folder `Cars` (5760)
+- Tool `Tazer` (364)
+- Tool `GrapeJuice` (21)
+- Tool `AR Clip` (20)
+- Tool `Bat` (11)
+- Tool `Glock17` (394)
+- Tool `GlockSwitch` (392)
+- Folder `Secret` (19)
+- Tool `Skorpion` (390)
+- Tool `KOS Deagle` (408)
+- Tool `TD Vector` (420)
+- Tool `BO ARPDrum` (418)
+- Tool `Protein Bar` (10)
+- Tool `Tec-9` (377)
+- ... 243 more
+
+**ReplicatedStorage** (129 children)
+
+- RemoteEvent `PlayAudio`
+- RemoteEvent `VisualizeBullet`
+- RemoteEvent `VisualizeGore`
+- RemoteEvent `VisualizeMuzzle`
+- Folder `Radio` (2)
+- RemoteEvent `Buy`
+- RemoteEvent `RagdollClient`
+- RemoteEvent `HAA`
+- Folder `OutfitsOk` (483)
+- RemoteFunction `getArrests`
+- RemoteEvent `PlayEffect`
+- Folder `Effects` (11)
+- ScreenGui `Store` (50)
+- RemoteEvent `Inventory`
+- RemoteEvent `server`
+- RemoteEvent `ControllerRemote`
+- RemoteEvent `ATM`
+- Folder `assets_imp` (6)
+- Folder `Jobs` (15)
+- RemoteEvent `Phone`
+- Folder `AnimationEvents` (5)
+- RemoteEvent `Job`
+- NumberValue `BankTimeLeft`
+- Animation `Animation`
+- RemoteEvent `BodyMovementEvent`
+- RemoteEvent `Msg`
+- ScreenGui `testMsg` (2)
+- RemoteEvent `CServer`
+- BindableEvent `BatonSmack`
+- Animation `cuffed`
+- BindableEvent `ArrestLog`
+- Sound `handcuffs`
+- NumberValue `ETH`
+- ScreenGui `release` (2)
+- BindableEvent `OPENDOOR`
+- RemoteEvent `Request`
+- RemoteEvent `Photo`
+- Folder `Client` (5)
+- RemoteEvent `Pol`
+- TextLabel `String`
+- RemoteFunction `PoliceCall`
+- RemoteFunction `PoliceCalls`
+- Frame `CallFrame` (7)
+- Folder `Misc` (1468)
+- ModuleScript `Gang Settings` -> `scripts/ReplicatedStorage/Gang Settings.lua`
+- BindableEvent `ShutOffCar`
+- RemoteEvent `GBuy`
+- RemoteEvent `EMSEvent`
+- ModuleScript `buildRagdoll` (12) -> `scripts/ReplicatedStorage/buildRagdoll.lua`
+- RemoteEvent `DetainEvent`
+- RemoteEvent `Locka`
+- TextButton `PDLOCKERBUTTON` (1)
+- RemoteEvent `OPENDATABASE`
+- Model `PlayerModelIntro` (272)
+- BindableEvent `MoneyLog`
+- RemoteEvent `BankAction`
+- RemoteEvent `HUNGEREVENT`
+- BindableEvent `Pepper`
+- Sound `door_open`
+- TextButton `callListTemplate`
+- ... 69 more
+
+**ReplicatedFirst** (2 children)
+
+- LocalScript `Rendering` -> `scripts/ReplicatedFirst/Rendering.client.lua`
+- LocalScript `Intro` (134) -> `scripts/ReplicatedFirst/Intro.client.lua`
+
+**StarterPlayer** (2 children)
+
+- StarterPlayerScripts `StarterPlayerScripts` (39)
+- LocalScript `Ragdoll_Client` -> `scripts/StarterPlayer/StarterPlayerScripts/Ragdoll_Client.client.lua`
+- LocalScript `DeathChat` -> `scripts/StarterPlayer/StarterPlayerScripts/DeathChat.client.lua`
+- LocalScript `service` (1) -> `scripts/StarterPlayer/StarterPlayerScripts/service.client.lua`
+- LocalScript `Server` (2) -> `scripts/StarterPlayer/StarterPlayerScripts/Server.client.lua`
+- LocalScript `Msg` -> `scripts/StarterPlayer/StarterPlayerScripts/Msg.client.lua`
+- LocalScript `Misc` (4) -> `scripts/StarterPlayer/StarterPlayerScripts/Misc.client.lua`
+- LocalScript `Gang Handler` -> `scripts/StarterPlayer/StarterPlayerScripts/Gang Handler.client.lua`
+- LocalScript `Notification Handler` -> `scripts/StarterPlayer/StarterPlayerScripts/Notification Handler.client.lua`
+- LocalScript `Audios` -> `scripts/StarterPlayer/StarterPlayerScripts/Audios.client.lua`
+- LocalScript `TopBar` -> `scripts/StarterPlayer/StarterPlayerScripts/TopBar.client.lua`
+- LocalScript `SLQ` -> `scripts/StarterPlayer/StarterPlayerScripts/SLQ.client.lua`
+- LocalScript `BulletVisualizerServerScript` (8) -> `scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerServerScript.client.lua`
+- LocalScript `BulletVisualizerClientScript` (7) -> `scripts/StarterPlayer/StarterPlayerScripts/BulletVisualizerClientScript.client.lua`
+- LocalScript `SafeZone` (3) -> `scripts/StarterPlayer/StarterPlayerScripts/SafeZone.client.lua`
+- StarterCharacterScripts `StarterCharacterScripts` (95)
+- LocalScript `camShakes` -> `scripts/StarterPlayer/StarterCharacterScripts/camShakes.client.lua`
+- LocalScript `BulletLocal` -> `scripts/StarterPlayer/StarterCharacterScripts/BulletLocal.client.lua`
+- BoolValue `Runnin`
+- LocalScript `Animate` (60) -> `scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua`
+- Script `backsideguns` -> `scripts/StarterPlayer/StarterCharacterScripts/backsideguns.server.lua`
+- LocalScript `death` -> `scripts/StarterPlayer/StarterCharacterScripts/death.client.lua`
+- Script `HealthFunc` (2) -> `scripts/StarterPlayer/StarterCharacterScripts/HealthFunc.server.lua`
+- LocalScript `LowHealth` (1) -> `scripts/StarterPlayer/StarterCharacterScripts/LowHealth.client.lua`
+- LocalScript `JumpDebouncer` -> `scripts/StarterPlayer/StarterCharacterScripts/JumpDebouncer.client.lua`
+- BoolValue `InCar`
+- Script `User` (7) -> `scripts/StarterPlayer/StarterCharacterScripts/User.server.lua`
+- BoolValue `InsideVault`
+- LocalScript `FirstPerson` -> `scripts/StarterPlayer/StarterCharacterScripts/FirstPerson.client.lua`
+- BoolValue `Boost`
+- NumberValue `BankTotal`
+- LocalScript `HandTo` (2) -> `scripts/StarterPlayer/StarterCharacterScripts/HandTo.client.lua`
+- LocalScript `RagdollClient` -> `scripts/StarterPlayer/StarterCharacterScripts/RagdollClient.client.lua`
+- Script `Health` -> `scripts/StarterPlayer/StarterCharacterScripts/Health.server.lua`
+- BoolValue `Shiftlock`
+- BoolValue `Combat`
+- LocalScript `Driveby` (2) -> `scripts/StarterPlayer/StarterCharacterScripts/Driveby.client.lua`
+
+**StarterGui** (31 children)
+
+- LocalScript `Tilt` -> `scripts/StarterGui/Tilt.client.lua`
+- LocalScript `Run` -> `scripts/StarterGui/Run.client.lua`
+- LocalScript `Improv` (2) -> `scripts/StarterGui/Improv.client.lua`
+- ScreenGui `BloodGui` (3)
+- ScreenGui `Enter` (1)
+- ScreenGui `ShiftLockButton` (5)
+- ScreenGui `Flash` (1)
+- ScreenGui `CrouchSystem` (5)
+- LocalScript `Crawl` (1) -> `scripts/StarterGui/Crawl.client.lua`
+- ScreenGui `Stats` (40)
+- LocalScript `Proximity` (277) -> `scripts/StarterGui/Proximity.client.lua`
+- ScreenGui `Settings` (132)
+- ScreenGui `KillUI` (3)
+- ScreenGui `DrivebyMobile` (5)
+- ScreenGui `Harvested` (5)
+- ScreenGui `Emotes` (47)
+- ScreenGui `GymStats` (17)
+- ScreenGui `Gang` (21)
+- ScreenGui `Dead` (8)
+- ScreenGui `Jailed` (3)
+- ScreenGui `Info` (2)
+- ScreenGui `GangZone` (9)
+- LocalScript `Parking` -> `scripts/StarterGui/Parking.client.lua`
+- ScreenGui `ControllerGui` (56)
+- ScreenGui `PhoneUI` (456)
+- ScreenGui `PlayTime` (95)
+- ScreenGui `BankRobbery` (23)
+- ScreenGui `BankNoti` (3)
+- ScreenGui `RStore` (155)
+- ScreenGui `FrostyUI` (14)
+- ScreenGui `WheelieMobile` (5)
+
+**StarterPack** (1 children)
+
+- LocalScript `LocalFootsteps` (26) -> `scripts/StarterPack/LocalFootsteps.client.lua`
+
+**Workspace** (482 children)
+
+- Model `ThreeDTextObject` (6)
+- Folder `BankInteractions` (142)
+- Terrain `Terrain`
+- Folder `Map` (25930)
+- Folder `Work` (261)
+- Folder `CivCars`
+- Folder `Zones` (35)
+- Folder `Bullets`
+- Folder `NPCPositions` (3)
+- Folder `Storage`
+- Folder `Chunks` (139164)
+- Folder `Teleports` (217)
+- Model `Clean NPC` (221)
+- Folder `ATMS` (378)
+- Folder `GZones` (16)
+- Part `Part`
+- Folder `AudioZones` (26)
+- Folder `INTRO_ASSETS`
+- Folder `Plants` (945)
+- Folder `Interactions` (1438)
+- Folder `Process` (117)
+- Folder `parkspots` (43)
+- Model `Model` (16)
+- Model `wood ammo  crate` (9)
+- Model `Model` (8)
+- Model `Model` (10)
+- Model `Model` (10)
+- Model `Model` (16)
+- Model `ThreeDTextObject` (9)
+- Model `Hellcat` (209)
+- Model `Urus` (199)
+- Part `Part` (6)
+- Model `Model` (6)
+- Model `CLS` (111)
+- Model `Trash Can` (5)
+- Model `Trash Can` (5)
+- Model `Model` (9)
+- Model `Model` (9)
+- Model `Model` (9)
+- Model `Model` (9)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `New window` (16)
+- Model `Model` (6)
+- Model `ThreeDTextObject` (5)
+- UnionOperation `SeatColorable`
+- Part `Part` (2)
+- UnionOperation `Union`
+- Model `icecream` (797)
+- UnionOperation `Union` (1)
+- Model `Capture Guide` (34)
+- Model `Capture Guide` (34)
+- Model `Model` (29)
+- Model `Model` (7)
+- Part `BANKALARMA` (1)
+- ... 422 more
+
+## UI roots
+
+- LocalScript `Tilt` (0 descendants)
+- LocalScript `Run` (0 descendants)
+- LocalScript `Improv` (2 descendants)
+- ScreenGui `BloodGui` (3 descendants) [disabled]
+- ScreenGui `Enter` (1 descendants) [disabled]
+- ScreenGui `ShiftLockButton` (5 descendants)
+- ScreenGui `Flash` (1 descendants) [disabled]
+- ScreenGui `CrouchSystem` (5 descendants)
+- LocalScript `Crawl` (1 descendants)
+- ScreenGui `Stats` (40 descendants)
+- LocalScript `Proximity` (277 descendants)
+- ScreenGui `Settings` (132 descendants) [disabled]
+- ScreenGui `KillUI` (3 descendants)
+- ScreenGui `DrivebyMobile` (5 descendants) [disabled]
+- ScreenGui `Harvested` (5 descendants) [disabled]
+- ScreenGui `Emotes` (47 descendants) [disabled]
+- ScreenGui `GymStats` (17 descendants) [disabled]
+- ScreenGui `Gang` (21 descendants)
+- ScreenGui `Dead` (8 descendants) [disabled]
+- ScreenGui `Jailed` (3 descendants) [disabled]
+- ScreenGui `Info` (2 descendants)
+- ScreenGui `GangZone` (9 descendants)
+- LocalScript `Parking` (0 descendants)
+- ScreenGui `ControllerGui` (56 descendants) [disabled]
+- ScreenGui `PhoneUI` (456 descendants)
+- ScreenGui `PlayTime` (95 descendants)
+- ScreenGui `BankRobbery` (23 descendants)
+- ScreenGui `BankNoti` (3 descendants) [disabled]
+- ScreenGui `RStore` (155 descendants)
+- ScreenGui `FrostyUI` (14 descendants) [disabled]
+- ScreenGui `WheelieMobile` (5 descendants) [disabled]
+- ScreenGui `Locker` (55 descendants)
+- ScreenGui `Locker` (58 descendants)
+- ScreenGui `Locker` (48 descendants)
+- ScreenGui `Locker` (51 descendants)
+- ScreenGui `Circle` (16 descendants) [disabled]
+- ScreenGui `LoadingScreen` (132 descendants)
+- ScreenGui `Store` (50 descendants) [disabled]
+- ScreenGui `testMsg` (2 descendants)
+- ScreenGui `release` (2 descendants)
+- ScreenGui `Adder` (3 descendants)
+- ScreenGui `Notification` (6 descendants)
+- ScreenGui `arrestgui` (72 descendants)
+- ScreenGui `Notification` (11 descendants)
+- ScreenGui `message` (3 descendants)
+- ScreenGui `BetterATM` (53 descendants) [disabled]
+- ScreenGui `HStore` (56 descendants) [disabled]
+- ScreenGui `GStore` (26 descendants) [disabled]
+- ScreenGui `ClothingStore` (28 descendants)
+- ScreenGui `TattooStore` (30 descendants)
+- ScreenGui `AccessoriesStore` (30 descendants)
+- ScreenGui `PUStore` (32 descendants) [disabled]
+- ScreenGui `Safe` (35 descendants)
+- ScreenGui `Zone` (19 descendants)
+- ScreenGui `SoftShutdown` (9 descendants)
+- ScreenGui `Radio` (29 descendants)
+- ScreenGui `SugarQuestion` (17 descendants)
+- ScreenGui `Spawner` (6 descendants)
+- ScreenGui `CarGui` (10 descendants)
+- ScreenGui `KeyboardButtons` (5 descendants)
+- ScreenGui `MobilePunchGui` (5 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `JailUI` (14 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (26 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `Interface` (45 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `Siren` (8 descendants)
+- ScreenGui `A-Chassis Interface` (26 descendants)
+- ScreenGui `Siren` (8 descendants)
+- ScreenGui `A-Chassis Interface` (25 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `Circle` (15 descendants) [disabled]
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- ScreenGui `GunGUI` (74 descendants)
+- plus 933 BillboardGui/SurfaceGui in the world (see ui.txt)
+
+## Largest scripts
+
+- 2530 lines, client: `scripts/StarterGui/Proximity.client.lua`
+- 2414 lines, module: `scripts/ServerScriptService/ProfileCache/ProfileService.lua`
+- 1109 lines, client: `scripts/ServerStorage/FN 5.7/GunScript_Local.client.lua`
+- 1109 lines, client: `scripts/ServerStorage/STB FN 5.7/GunScript_Local.client.lua`
+- 1109 lines, client: `scripts/ServerStorage/600 FN 5.7/GunScript_Local.client.lua`
+- 1109 lines, client: `scripts/ServerStorage/RVNG FN 5.7/GunScript_Local.client.lua`
+- 1109 lines, client: `scripts/ServerStorage/EOK FN 5.7/GunScript_Local.client.lua`
+- 1109 lines, client: `scripts/ServerStorage/FNO FN 5.7/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/STB GlockSwitch/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/EOK Skorpion/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/EOK GlockSwitch/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/1911/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/LK GlockSwitch/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/KOS GlockSwitch/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/Glock17/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/GlockSwitch/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/Skorpion/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/KOS Deagle/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/DD GlockSwitch/GunScript_Local.client.lua`
+- 1107 lines, client: `scripts/ServerStorage/EBG GlockSwitch/GunScript_Local.client.lua`
+
+## Scan
+
+- Flags: 0 HIGH, 16 MED (details in flags.txt)
+- Monetization ids in code: 92
+- Scripts with decompiler headers: 0; empty scripts: 0
+
+## Most common classes
+
+- Part: 95297
+- ParticleEmitter: 31272
+- Model: 20032
+- MeshPart: 16594
+- IntValue: 15378
+- BoolValue: 15181
+- WedgePart: 13804
+- TextLabel: 7995
+- Folder: 7736
+- Frame: 7681
+- Sound: 7550
+- SpecialMesh: 7395
+- Texture: 7181
+- Motor6D: 7176
+- CylinderMesh: 7174
+- UnionOperation: 5718
+- Decal: 5167
+- Vector3Value: 4935
+- Attachment: 4601
+- Weld: 2221
+- UIStroke: 2168
+- ManualWeld: 2075
+- BlockMesh: 1951
+- NumberValue: 1850
+- Script: 1812

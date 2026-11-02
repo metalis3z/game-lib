@@ -1,0 +1,3 @@
+local RoleUtil = {}
+
+return RoleUtil

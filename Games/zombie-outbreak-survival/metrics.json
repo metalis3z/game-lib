@@ -1,0 +1,368 @@
+{
+ "slug": "zombie-outbreak-survival",
+ "title": "Zombie Outbreak Survival",
+ "genre": "wave survival shooter",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 66,
+  "screen_guis": 5,
+  "classes": {
+   "TextLabel": 24,
+   "UICorner": 17,
+   "LocalScript": 17,
+   "Frame": 14,
+   "UIStroke": 13,
+   "TextButton": 9,
+   "ImageButton": 8,
+   "ImageLabel": 6,
+   "ScreenGui": 5,
+   "UIAspectRatioConstraint": 5,
+   "UIGradient": 5,
+   "UIListLayout": 4,
+   "BillboardGui": 4,
+   "TextBox": 3,
+   "ScrollingFrame": 2,
+   "UITextSizeConstraint": 2,
+   "Sound": 2,
+   "SurfaceGui": 2
+  },
+  "fonts": {
+   "FredokaOne Regular": 9,
+   "FredokaOne ExtraBold": 8,
+   "SourceSansPro Regular": 3,
+   "GothamSSm Bold": 3,
+   "GothamSSm ExtraBold": 3,
+   "Arial Bold": 2,
+   "Arial Regular": 2,
+   "SourceSansPro Bold": 2,
+   "HighwayGothic Regular": 2,
+   "GothamSSm Regular": 1,
+   "AccanthisADFStd Bold": 1
+  },
+  "background_colors": {
+   "#000000": 11,
+   "#222b22": 3,
+   "#dddddd": 3,
+   "#181818": 2,
+   "#141514": 1,
+   "#d8d8d8": 1
+  },
+  "text_colors": {
+   "#ffffff": 28,
+   "#212121": 3,
+   "#000000": 3,
+   "#ffc800": 1,
+   "#ff6464": 1
+  },
+  "stroke_colors": {
+   "#000000": 11,
+   "#ffffff": 2
+  },
+  "image_tints": {},
+  "corner_radius": {
+   "{0.0,8}": 8,
+   "{0.0,20}": 4,
+   "{0.0,55}": 3,
+   "{0.0,35}": 1,
+   "{0.0,15}": 1
+  },
+  "stroke_thickness": {
+   "2.7 px": 8,
+   "2.0 px": 5
+  },
+  "text_size_px": {
+   "54": 2
+  },
+  "text_scaled_share": 0.94,
+  "size_mode": {
+   "scale": 65,
+   "offset": 1
+  },
+  "unique_images": 10,
+  "per_100_objects": {
+   "UICorner": 25.8,
+   "UIStroke": 19.7,
+   "UIGradient": 7.6,
+   "UIAspectRatioConstraint": 7.6,
+   "UIListLayout": 6.1,
+   "UIGridLayout": 0.0,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 3.0,
+   "ImageLabel": 9.1,
+   "ImageButton": 12.1,
+   "TextButton": 13.6
+  }
+ },
+ "map": {
+  "instances": 4333,
+  "parts": 1014,
+  "meshparts": 124,
+  "unions": 104,
+  "anchored_share": 0.97,
+  "textures_decals": 73,
+  "surface_appearances": 2,
+  "lights": 8,
+  "emitters": 8,
+  "beams_trails": 0,
+  "sounds": 2,
+  "prompts": 0,
+  "world_guis": 24,
+  "humanoids": 7,
+  "materials": {
+   "Plastic": 780,
+   "WoodPlanks": 168,
+   "Metal": 28,
+   "Sand": 20,
+   "Concrete": 12,
+   "Glass": 4,
+   "Slate": 1,
+   "SmoothPlastic": 1
+  },
+  "part_colors": {
+   "#a3a2a5": 244,
+   "#694028": 144,
+   "#a05f35": 136,
+   "#f5cd30": 98,
+   "#7c5c46": 68,
+   "#111111": 27,
+   "#ffffff": 24,
+   "#1b2a35": 23,
+   "#d7c59a": 20,
+   "#8f4c2a": 20,
+   "#348e40": 14,
+   "#1b4f1b": 12,
+   "#205d20": 12,
+   "#287428": 12
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Lobby",
+    "parts": 999,
+    "instances": 4264,
+    "meshparts": 119,
+    "emitters": 8,
+    "lights": 7,
+    "guis": 129,
+    "sounds": 2,
+    "size": [
+     1608,
+     1387,
+     2703
+    ]
+   }
+  ],
+  "extent_studs": [
+   248,
+   38,
+   138
+  ],
+  "extent_all_studs": [
+   1608,
+   1387,
+   2703
+  ],
+  "top_classes": {
+   "Weld": 982,
+   "Part": 770,
+   "ManualWeld": 570,
+   "CylinderMesh": 564,
+   "BlockMesh": 437,
+   "Model": 155,
+   "MeshPart": 124,
+   "UnionOperation": 104,
+   "TextLabel": 80,
+   "Vector3Value": 66,
+   "Attachment": 50,
+   "SpecialMesh": 49,
+   "Texture": 41,
+   "Decal": 32,
+   "UIStroke": 32
+  }
+ },
+ "lighting": {
+  "Ambient": "#464646",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#464646",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "14:30:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=10930707221",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=10930708281",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=10930708925",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=10930709518",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "http://www.roblox.com/asset/?id=10930710052",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=10930710574",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 8,
+  "ui-kit": 1,
+  "map": 1,
+  "materials": 1,
+  "lighting": 1,
+  "model": 63,
+  "audio": 1,
+  "model-set": 3,
+  "other": 6
+ },
+ "coverage": {
+  "instances": 38838,
+  "packed": 38698,
+  "services": 55,
+  "code_or_empty_folders_not_packed": 82,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 19,
+ "sound_ids": 45,
+ "files": 84,
+ "kb": 5710,
+ "category": "Shooter",
+ "source_file": "Zombie Outbreak Survival.rbxl"
+}

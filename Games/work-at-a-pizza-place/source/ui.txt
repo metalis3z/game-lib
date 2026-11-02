@@ -1,0 +1,1345 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.MainGui  (1368 descendants)
+ScreenGui "MainGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Menu"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Backpack"  size={0.5,0},{0,60}  pos={0.5,0},{1,-5}  anchor=(0.5,1)  nobg
+      LocalScript "Backpack"  -> scripts/StarterGui/MainGui/Menu/Backpack/Backpack.client.lua
+      BindableEvent "NewToolAdded"
+      Frame "Tools"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        UIGridLayout "UIGridLayout"  CellSize={0,60},{0,60}  CellPadding={0,5},{0,5}  FillDirectionMaxCells=0
+        TextButton "ToolTemplate"  size={0,60},{0,60}  pos={0,0},{0,0}  HIDDEN  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=14  tc=#fffdfd
+          ImageLabel "Image"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  HIDDEN  nobg  img=http://www.roblox.com/Game/Tools/ThumbnailAsset.ashx?fmt=png&wd=75&ht=...
+          ImageLabel "Highlight"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=472259810  imgcol=#00a2ff
+      ImageLabel "Left"  size={1,0},{1,0}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  img=rbxassetid://685454136
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        UISizeConstraint "UISizeConstraint"
+      ImageLabel "Right"  size={1,0},{1,0}  pos={1,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxassetid://685454225
+        UISizeConstraint "UISizeConstraint"
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "BButton"  size={0,163},{0,60}  pos={1,0},{1,5}  anchor=(0,1)  HIDDEN  bg=#1f1f1f@0.5  z=10
+          ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://665692905
+          TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,65},{0,0}  nobg  z=10  text="Unequip"  font=SourceSansPro/400  ts=32  tc=#ffffff
+    Frame "Catalog"  size={0.6,50},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5
+      LocalScript "Catalog"  -> scripts/StarterGui/MainGui/Menu/Catalog/Catalog.client.lua
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      TextLabel "Title"  size={1,0},{0,30}  pos={0,0},{0,5}  nobg  z=4  text="Furniture"  font=SourceSansPro/700  ts=36  tc=#ffffff
+      Frame "Tabs"  size={1,-160},{0,40}  pos={0,150},{0,40}  nobg
+        TextButton "Clothing"  size={0.143,0},{1,0}  pos={0.286,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456270020
+        TextButton "Furniture"  size={0.143,0},{1,0}  pos={0,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456269859
+        TextButton "Gear"  size={0.143,0},{1,0}  pos={0.429,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456612585
+        TextButton "Vehicles"  size={0.143,0},{1,0}  pos={0.858,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456269917
+        TextButton "WallsFloors"  size={0.143,0},{1,0}  pos={0.143,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456270106
+        TextButton "Moneyz"  size={0.143,0},{1,0}  pos={0.572,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=rbxassetid://201550206
+        TextButton "GamePasses"  size={0.143,0},{1,0}  pos={0.715,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=rbxassetid://201550435
+        ImageLabel "Left"  size={1,0},{0,80}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  img=rbxassetid://685454136
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageLabel "Right"  size={1,0},{0,80}  pos={1,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxassetid://685454225
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ScrollingFrame "ScrollingFrame"  size={1,-170},{1,-100}  pos={0,150},{0,80}  bg=#1f1f1f@0.7  z=2
+        Frame "List"  size={1,-15},{1,0}  pos={0,5},{0,5}  nobg
+          UIGridLayout "UIGridLayout"  CellSize={0,113},{0,150}  CellPadding={0,5},{0,5}  FillDirectionMaxCells=0
+      BindableEvent "BuyButtonPressed"
+      ScrollingFrame "Categories"  size={0,150},{1,-100}  pos={0,1},{0,80}  nobg
+        TextButton "Template"  size={1,-5},{0,35}  pos={0,5},{0,0}  HIDDEN  bg=#1f1f1f@0.3  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          TextLabel "TextLabel"  size={1,-10},{0.72,0}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  text="All"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "Line"  size={0,1},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+      Frame "Templates"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+        TextButton "GamePassTemplate"  size={0,130},{0,165}  pos={0,151},{0,4}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "Thumbnail"  size={1,0},{0.7,0}  pos={0.5,0},{0.13,0}  anchor=(0.5,0)  nobg  z=3  img=http://www.roblox.com/thumbs/asset.ashx?assetid=176687366&x=100&y=100&...
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextLabel "New"  size={0,35},{0,15}  pos={1,-35},{1,-16}  HIDDEN  nobg  z=3  text="New!"  font=SourceSansPro/700  ts=18  tc=#f7e559
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.78
+          TextLabel "ItemName"  size={1,10},{0.15,0}  pos={0,-5},{0,-5}  nobg  z=4  text="Three Story House"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "Moneyz"  size={0.75,0},{0.15,0}  pos={1,0},{1,6}  anchor=(1,1)  HIDDEN  nobg  z=2  text="1,000"  font=SourceSansPro/700  scaled  tc=#ffffff
+            ImageLabel "MoneyzIcon"  size={1,0},{1.25,0}  pos={-0.05,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  img=rbxassetid://494791709
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          Frame "Price"  size={0.645,9},{0.173,0}  pos={0,-9},{0.92,0}  anchor=(0,0.5)  bg=#4f4f4f  z=2
+            ImageLabel "Currency"  size={0,23},{0,15}  pos={0.4,0},{0.5,0}  anchor=(1,0.5)  nobg  z=4  img=http://www.roblox.com/asset/?id=105177508
+            TextLabel "CurrencyAmount"  size={0,100},{0.87,0}  pos={0.45,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="280"  font=SourceSansPro/700  scaled  tc=#1bba1b
+          Frame "Owned"  size={1,18},{1,0}  pos={0,-9},{0.92,0}  anchor=(0,0.5)  HIDDEN  bg=#5a8ee9  z=2
+            TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  text="Owned"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5
+        TextButton "MoneyzTemplate"  size={0,130},{0,165}  pos={0,5},{0,5}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          TextLabel "Shareable"  size={1,6},{0.13,0}  pos={0,-3},{0.72,0}  HIDDEN  nobg  z=4  text="Share with friends!"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "ItemName"  size={0.75,0},{0.17,0}  pos={1.03,-1},{0.02,-7}  anchor=(1,0)  nobg  z=2  text="1,000"  font=SourceSansPro/400  scaled  tc=#ffffff
+            ImageLabel "MoneyzIcon"  size={1,0},{1.25,0}  pos={-0.05,0},{0.5,2}  anchor=(1,0.5)  nobg  z=2  img=rbxassetid://494791709
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "Thumbnail"  size={1,0},{0.7,0}  pos={0.5,0},{0.16,0}  anchor=(0.5,0)  nobg  z=3  img=http://www.roblox.com/thumbs/asset.ashx?assetid=495323031&x=100&y=100&...
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextLabel "New"  size={0,35},{0,15}  pos={1,-35},{1,-16}  HIDDEN  nobg  z=3  text="New!"  font=SourceSansPro/700  ts=18  tc=#f7e559
+          Frame "Price"  size={0.645,9},{0.173,0}  pos={0,-9},{0.96,0}  anchor=(0,0.5)  bg=#4f4f4f  z=2
+            ImageLabel "Currency"  size={0,23},{0,15}  pos={0.4,0},{0.5,0}  anchor=(1,0.5)  nobg  z=4  img=http://www.roblox.com/asset/?id=105177508
+            TextLabel "CurrencyAmount"  size={0,100},{0.87,0}  pos={0.45,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="280"  font=SourceSansPro/700  scaled  tc=#1bba1b
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.78
+        TextButton "Template"  size={1,0},{0,150}  pos={0,400},{0,200}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          TextLabel "Moneyz"  size={0.75,0},{0.15,0}  pos={1,0},{1,6}  anchor=(1,1)  nobg  z=2  text="1,000"  font=SourceSansPro/700  scaled  tc=#ffffff
+            ImageLabel "MoneyzIcon"  size={1,0},{1.25,0}  pos={-0.05,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  img=rbxassetid://494791709
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "Thumbnail"  size={1,0},{0.745,-6}  pos={0.5,0},{0.17,-6}  anchor=(0.5,0)  nobg  z=3  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=142...
+            TextLabel "New"  size={0,35},{0,15}  pos={1,-35},{1,-16}  HIDDEN  nobg  z=3  text="New!"  font=SourceSansPro/700  ts=18  tc=#f7e559
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.75
+          TextLabel "ItemName"  size={1,12},{0.16,0}  pos={0,-6},{0,-6}  nobg  z=4  text="Sky World T "  font=SourceSansPro/400  scaled  tc=#ffffff
+      Frame "MoneyzOverflow"  size={0,100},{0,36}  pos={1,0},{0,-36}  anchor=(1,0)  HIDDEN  bg=#1f1f1f@0.3  z=10
+        TextLabel "MoneyzCount"  size={1,-40},{0,25}  pos={0,37},{0.5,-12}  nobg  z=10  text="50,000"  font=SourceSansPro/700  scaled  tc=#ffffff
+        ImageLabel "Icon"  size={0,28},{0,28}  pos={0,5},{0.5,-14}  nobg  z=10  rot=360  img=rbxassetid://494791709
+    Frame "ChatMenu"  size={0,160},{0,36}  pos={0,0},{0,0}  nobg  rot=360
+      TextButton "Chat"  size={0,45},{0,36}  pos={1,-45},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,32},{0,32}  pos={0.5,-16},{0,4}  nobg  img=http://www.roblox.com/asset/?id=468619267
+        Frame "Label"  size={0,140},{0,30}  pos={0,-60},{0,36}  HIDDEN  nobg
+          TextLabel "LoadLabel"  size={1,0},{1,20}  pos={0,0},{0,-10}  nobg  text="Buy Moneyz"  font=Arial/700  ts=24  tc=#f8f8f8
+        Frame "Phrases"  size={0,270},{0,120}  pos={0,-90},{0,36}  HIDDEN  bg=#1f1f1f@0.5
+          TextButton "Option"  size={0.33,0},{0,40}  pos={0,-10},{0,0}  HIDDEN  nobg  text="Glee"  font=SourceSansPro/400  ts=18  tc=#ffffff
+      TextButton "ToggleChat"  size={0,45},{0,36}  pos={1,-90},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,32},{0,32}  pos={0.5,-16},{0,4}  nobg  img=http://www.roblox.com/asset/?id=468619606
+        Frame "Label"  size={0,140},{0,30}  pos={0,-60},{0,36}  HIDDEN  nobg
+          TextLabel "LoadLabel"  size={1,0},{1,20}  pos={0,0},{0,-10}  nobg  text="Buy Moneyz"  font=Arial/700  ts=24  tc=#f8f8f8
+      TextButton "MainMenu"  size={0,45},{0,36}  pos={0,0},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        Frame "Label"  size={0,140},{0,30}  pos={0,-60},{0,36}  HIDDEN  nobg
+          TextLabel "LoadLabel"  size={1,0},{1,20}  pos={0,0},{0,-10}  nobg  text="Buy Moneyz"  font=Arial/700  ts=24  tc=#f8f8f8
+      Frame "Frame"  size={0,25},{0,36}  pos={0,45},{0,0}  bg=#1f1f1f@0.5
+    Frame "ChatWindow"  size={0.3,0},{0.25,0}  pos={0,5},{0,36}  nobg
+      Frame "Bar"  size={1,16},{0,30}  pos={0,-5},{1,4}  HIDDEN  bg=#1f1f1f@0.5
+        Frame "TextBox"  size={1,-6},{1,-6}  pos={0,3},{0,3}  bg=#cfcfcf@0.2
+          TextBox "TextBox"  size={1,-6},{1,-6}  pos={0,3},{0,3}  nobg  text=""  font=SourceSansPro/700  ts=18  tc=#565656
+      ScrollingFrame "ScrollingFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=0
+      LocalScript "ChatWindow"  -> scripts/StarterGui/MainGui/Menu/ChatWindow/ChatWindow.client.lua
+      Frame "ChatGamepadHelp"  size={0,115},{0,60}  pos={0,-5},{1,0}  HIDDEN  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,50},{0,50}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=10  img=rbxassetid://687473277
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,55},{0,0}  nobg  z=10  text="Chat"  font=SourceSansPro/400  ts=32  tc=#ffffff
+      Frame "MessageTemplate"  size={1,-5},{0,18}  pos={0,5},{1,0}  anchor=(0,1)  HIDDEN  nobg
+        TextLabel "Speaker"  size={0,200},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  text="Dued1"  font=SourceSansPro/700  ts=18  tc=#329839
+        TextLabel "MessageLineTemplate"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  text="welcome to my house. Have a seat dude whereever y"  font=SourceSansPro/700  ts=18  tc=#ffffff
+    Frame "Emotions"  size={0,550},{1,0}  pos={0.5,0},{0,36}  anchor=(0.5,0)  nobg
+      LocalScript "Emotions"  -> scripts/StarterGui/MainGui/Menu/Emotions/Emotions.client.lua
+      ScrollingFrame "ScrollingFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        Frame "List"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          UIGridLayout "UIGridLayout"  CellSize={0.14,0},{0.25,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+      TextButton "Template"  size={0.142,0},{0.25,0}  pos={0,-10},{0,0}  HIDDEN  bg=#000000  z=2  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "GroupColor"  size={1,24},{1,24}  pos={0,-12},{0,-12}  bg=#ffffff@0.35
+        TextLabel "TextLabel"  size={1.3,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Label"  font=SourceSansPro/700  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.44
+    Frame "Inventory"  size={0,295},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  HIDDEN  bg=#1f1f1f@0.5
+      LocalScript "Inventory"  -> scripts/StarterGui/MainGui/Menu/Inventory/Inventory.client.lua
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      TextLabel "Title"  size={0.5,0},{0,30}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=4  text="Inventory"  font=SourceSansPro/700  ts=32  tc=#ffffff
+      Frame "Sell"  size={0,150},{0,60}  pos={0,-150},{0,0}  HIDDEN  bg=#1f1f1f@0.5
+        TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Select the items you want to sell."  font=SourceSansPro/400  ts=24  tc=#ffffff
+      TextButton "RemoveHats"  size={1,-40},{0,40}  pos={0.5,0},{1,0}  anchor=(0.5,1)  HIDDEN  bg=#ffffff  text="Remove Hats"  font=SourceSansPro/400  ts=28  tc=#ffffff
+      Frame "Tabs"  size={1,-20},{0,50}  pos={0.5,0},{0,33}  anchor=(0.5,0)  nobg
+        TextButton "Clothing"  size={0.2,0},{0,50}  pos={0.4,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456270020
+        TextButton "Furniture"  size={0.2,0},{0,50}  pos={0,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456269859
+        TextButton "Gear"  size={0.2,0},{0,50}  pos={0.6,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456612585
+        TextButton "Vehicles"  size={0.2,0},{0,50}  pos={0.8,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456269917
+        TextButton "WallsFloors"  size={0.2,0},{0,50}  pos={0.2,0},{0,0}  bg=#000000  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=456270106
+        ImageLabel "Left"  size={1,0},{0,60}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  img=rbxassetid://685454136
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageLabel "Right"  size={1,0},{0,60}  pos={1,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxassetid://685454225
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ScrollingFrame "ScrollingFrame"  size={1,-10},{1,-90}  pos={0.5,5},{0,85}  anchor=(0.5,0)  nobg  z=2
+        Frame "List"  size={1,-10},{1,0}  pos={0,0},{0,45}  nobg
+          UIGridLayout "UIGridLayout"  CellSize={0,90},{0,90}  CellPadding={0,2},{0,2}  FillDirectionMaxCells=0
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+        TextButton "DropDownButton"  size={1,-10},{1,0}  pos={0,0},{0,0}  bg=#000000  z=5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+          ImageLabel "Arrow"  size={0,25},{0,25}  pos={1,-24},{0.5,-12}  nobg  z=5  img=rbxassetid://455989578
+          ScrollingFrame "ScrollingFrame"  size={1,10},{0,100}  pos={0,-5},{1,9}  HIDDEN  bg=#e5e5e5  z=4
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          TextLabel "SelectedOption"  size={0.502,0},{1,12}  pos={0.033,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="All"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "Template"  size={1,0},{1,0}  pos={0,0},{0,30}  HIDDEN  bg=#e5e5e5  z=4  text=""  font=SourceSansPro/400  ts=24  tc=#6c6c6c
+            TextLabel "OptionName"  size={1,-6},{0,24}  pos={0,6},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Label"  font=SourceSansPro/400  ts=24  tc=#6c6c6c
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6.28
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6.75
+      TextButton "Template"  size={0,90},{0,90}  pos={0,5},{0,200}  HIDDEN  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        TextLabel "Quantity"  size={0.508,0},{0.295,0}  pos={1,5},{1,7}  anchor=(1,1)  nobg  z=3  text="X5"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,1}  HIDDEN  nobg  z=5  text="X5"  font=Arial/700  ts=14  tc=#616161
+        ImageLabel "Thumbnail"  size={1,11},{1,11}  pos={0,-6},{0,-6}  nobg  z=2  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=143...
+    Frame "Manage"  size={0,300},{0,320}  pos={0.5,-150},{0.5,-160}  HIDDEN  bg=#005500  z=2
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  z=2  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  z=3  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Menu/Manage/CancelButton/CLicked.client.lua
+      LocalScript "LocalManage"  -> scripts/StarterGui/MainGui/Menu/Manage/LocalManage.client.lua
+      ObjectValue "Current_Player"  Value=nil
+      TextButton "QuitJob"  size={1,0},{0,50}  pos={0,0},{0,250}  bg=#ffffff  z=2  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "Text"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Quit My Job"  font=LegacyArial/400  ts=14  tc=#ffffff
+      TextLabel "Title"  size={0,200},{0,40}  pos={0.5,-100},{0,5}  nobg  z=3  text="Dued1"  font=LegacyArial/400  ts=18  tc=#ffffff
+      Frame "EmployeeOfTheDay"  size={1,0},{0,50}  pos={0,0},{0,150}  nobg
+        TextButton "Button"  size={0.5,0},{0,50}  pos={0,0},{0,0}  bg=#ffffff  z=3  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+          TextButton "Bar"  size={0,284},{0,50}  pos={0,-12},{0,-12}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "Text"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Make Employee Of The Day"  font=LegacyArial/400  ts=14  tc=#ffffff
+          TextLabel "Percent"  size={0,60},{1,0}  pos={1,10},{0,0}  nobg  z=3  text="100%"  font=LegacyArial/400  ts=14  tc=#ffffff
+      Frame "BackToWork"  size={1,0},{0,50}  pos={0,0},{0,50}  nobg
+        TextButton "Button"  size={0.5,0},{0,50}  pos={0,0},{0,0}  bg=#ffffff  z=3  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+          TextButton "Bar"  size={0,284},{0,50}  pos={0,-12},{0,-12}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "Text"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Put Back To Work"  font=LegacyArial/400  ts=14  tc=#ffffff
+          TextLabel "Percent"  size={0,60},{1,0}  pos={1,10},{0,0}  nobg  z=3  text="10%"  font=LegacyArial/400  ts=14  tc=#ffffff
+      Frame "GiveBonus"  size={1,0},{0,50}  pos={0,0},{0,100}  nobg
+        TextButton "Button"  size={0.5,0},{0,50}  pos={0,0},{0,0}  bg=#ffffff  z=3  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+          TextButton "Bar"  size={0,284},{0,50}  pos={0,-12},{0,-12}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "Text"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Give Bonus"  font=LegacyArial/400  ts=14  tc=#ffffff
+          TextLabel "Percent"  size={0,60},{1,0}  pos={1,10},{0,0}  nobg  z=3  text="100%"  font=LegacyArial/400  ts=14  tc=#ffffff
+      Frame "NominateForBan"  size={1,0},{0,50}  pos={0,0},{0,200}  nobg
+        TextButton "Button"  size={0.5,0},{0,50}  pos={0,0},{0,0}  bg=#ffffff  z=3  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+          TextButton "Bar"  size={0,284},{0,50}  pos={0,-12},{0,-12}  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "Text"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  text="Vote For Ban"  font=LegacyArial/400  ts=14  tc=#ffffff
+          TextLabel "Percent"  size={0,60},{1,0}  pos={1,10},{0,0}  nobg  z=3  text="100%"  font=LegacyArial/400  ts=14  tc=#ffffff
+    ScrollingFrame "PlayerList"  size={0,165},{0.5,0}  pos={1,-165},{0,0}  nobg
+      Frame "TeamNameTemplate"  size={1,-9},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#0d69ac@0.5
+        TextLabel "TextLabel"  size={1,-5},{1,0}  pos={0,5},{0,0}  nobg  text="Delivery"  font=SourceSansPro/400  ts=14  tc=#ffffff
+      Frame "PlayerNameTemplate"  size={1,-9},{0,20}  pos={0,0},{0,23}  HIDDEN  bg=#1f1f1f@0.5
+        TextLabel "TextLabel"  size={1,-20},{1,0}  pos={0,20},{0,0}  nobg  text="Dued1"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        ImageLabel "BCIcon"  size={0,16},{0,16}  pos={0,3},{0.5,-8}  HIDDEN  nobg  img=rbxasset://textures/ui/icon_BC-16.png
+        ImageLabel "Friends"  size={0,16},{0,16}  pos={0,3},{0.5,-8}  HIDDEN  nobg  img=rbxasset://textures/ui/icon_friends_16.png
+        ImageLabel "FriendsConsole"  size={0,28},{0,28}  pos={0,18},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxasset://textures/ui/PlayerlistFriendIcon.png
+      LocalScript "PlayerList"  -> scripts/StarterGui/MainGui/Menu/PlayerList/PlayerList.client.lua
+    Frame "WindowTemplate"  size={0,400},{0.6,120}  pos={0.5,-200},{0.15,-50}  HIDDEN  bg=#a3a2a5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      TextLabel "Title"  size={1,0},{0,30}  pos={0,0},{0,10}  nobg  text="Title"  font=LegacyArial/400  ts=18  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Menu/WindowTemplate/LocalScript.client.lua
+    TextButton "GamepadMoneyz"  size={0,105},{0,50}  pos={1,-70},{0,10}  anchor=(1,0)  HIDDEN  bg=#1f1f1f@0.45  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+      ImageLabel "Icon"  size={0,36},{0,36}  pos={0,5},{0.5,-17}  nobg  rot=360  img=rbxassetid://663696651
+      TextLabel "MoneyzCount"  size={1,-47},{0,30}  pos={0,45},{0.5,-15}  nobg  text="100"  font=SourceSansPro/400  ts=38  tc=#ffffff
+      LocalScript "GamepadMoneyz"  -> scripts/StarterGui/MainGui/Menu/GamepadMoneyz/GamepadMoneyz.client.lua
+    Frame "GamepadMainMenu"  size={0,408},{0,408}  pos={0.5,-204},{0.5,-204}  HIDDEN  nobg  rot=360
+      ImageLabel "BottomLeft"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Settings/Radial/BottomLeft.png
+      ImageLabel "BottomRight"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Settings/Radial/BottomRight.png
+      ImageLabel "Bottom"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Settings/Radial/Bottom.png
+      ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Settings/Radial/Top.png
+      ImageLabel "TopLeft"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Settings/Radial/TopLeft.png
+      ImageLabel "TopRight"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Settings/Radial/TopRight.png
+      ImageLabel "BottomSelected"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Radial/BottomSelected.png
+      ImageLabel "BottomLeftSelected"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Radial/BottomLeftSelected.png
+      ImageLabel "BottomRightSelected"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Radial/BottomRightSelected.png
+      ImageLabel "TopSelected"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Radial/TopSelected.png
+      ImageLabel "TopLeftSelected"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Radial/TopLeftSelected.png
+      ImageLabel "TopRightSelected"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxasset://textures/ui/Settings/Radial/TopRightSelected.png
+      Frame "Icons"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        ImageLabel "Catalog"  size={0,43},{0,43}  pos={0.5,-21},{1,-60}  nobg  img=rbxassetid://201550435
+        ImageLabel "Inventory"  size={0,38},{0,38}  pos={0.5,-19},{0,18}  nobg  img=http://www.roblox.com/asset/?id=470014298
+        ImageLabel "PetPanel"  size={0,39},{0,39}  pos={0,37},{0.5,-103}  nobg  img=http://www.roblox.com/asset/?id=330259179
+        ImageLabel "Ratings"  size={0,49},{0,49}  pos={0,37},{0.5,58}  nobg  img=http://www.roblox.com/asset/?id=201550417
+        ImageLabel "Settings"  size={0,40},{0,40}  pos={1,-79},{0.5,60}  nobg  img=http://www.roblox.com/asset/?id=470006642
+        ImageLabel "Upgrade"  size={0,39},{0,38}  pos={1,-79},{0.5,-103}  nobg  img=rbxassetid://201547014
+      TextLabel "RadialLabel"  size={0,200},{0,50}  pos={0.5,-100},{0.5,-25}  bg=#2c2c2c@0.1  text="Settings"  font=Arial/700  ts=32  tc=#ffffff
+      LocalScript "GamepadMainMenu"  -> scripts/StarterGui/MainGui/Menu/GamepadMainMenu/GamepadMainMenu.client.lua
+      Frame "BButton"  size={0.47,0},{0,60}  pos={0.9,-1},{0.9,0}  nobg  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://665692905
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,65},{0,0}  nobg  z=10  text="Back"  font=LegacyArial/400  ts=18  tc=#ffffff
+      ImageLabel "ArrowAnimation"  size={0,80},{0,80}  pos={0.5,0},{0,-50}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://855825817  imgT=0.3
+    Frame "Settings"  size={0,300},{1,187}  pos={0.5,0},{0,36}  anchor=(0.5,0)  HIDDEN  bg=#1f1f1f@0.5
+      LocalScript "Settings"  -> scripts/StarterGui/MainGui/Menu/Settings/Settings.client.lua
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.6
+      Frame "SettingOptions"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        Frame "Music"  size={1,0},{0.2,0}  pos={0,0},{0,5}  nobg
+          Frame "SliderFrame"  size={0.5,0},{1,0}  pos={1,-5},{0.5,0}  anchor=(1,0.5)  nobg
+            Frame "Slider"  size={1,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+              ImageLabel "BackgroundBar"  size={1,0},{0.388,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://481191341  imgcol=#5a5a5a
+              ImageLabel "Bar"  size={0.6,0},{0.388,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://481191341  imgcol=#00a2ff
+              ImageButton "Dragger"  size={0,36},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://481217483  imgcol=#e6e6e6
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.5,-15},{0.6,0}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  text="Music"  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "OldMusic"  size={1,0},{0.2,0}  pos={0,0},{0,112}  nobg
+          TextLabel "TextLabel"  size={0.5,-15},{0.6,0}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  text="Old Music"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "ToggleButton"  size={0.12,14},{0.6,14}  pos={1,-5},{0.5,0}  anchor=(1,0.5)  bg=#a3a2a5  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={1,14},{1,10}  pos={0,-7},{0,-5}  nobg  text="Off"  font=SourceSansPro/700  scaled  tc=#ffffff
+        Frame "ReportGlitch"  size={1,0},{0.2,0}  pos={0,0},{0,148}  nobg
+          TextLabel "TextLabel"  size={0.5,-15},{0.6,0}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  text="Report a Glitch"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "ReportButton"  size={0.233,0},{0.6,14}  pos={1,-5},{0.5,0}  anchor=(1,0.5)  bg=#a3a2a5  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Report"  font=SourceSansPro/700  scaled  tc=#ffffff
+        Frame "UniformEnabled"  size={1,0},{0.2,0}  pos={0,0},{0,40}  nobg
+          TextLabel "TextLabel"  size={0.5,-15},{0.6,0}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  text="Work Uniform"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "ToggleButton"  size={0.12,14},{0.6,14}  pos={1,-5},{0.5,0}  anchor=(1,0.5)  bg=#a3a2a5  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={1,14},{1,10}  pos={0,-7},{0,-5}  nobg  text="Off"  font=SourceSansPro/700  scaled  tc=#ffffff
+        Frame "WaterEnabled"  size={1,0},{0.2,0}  pos={0,0},{0,76}  nobg
+          TextLabel "TextLabel"  size={0.5,-15},{0.6,0}  pos={0,10},{0.5,0}  anchor=(0,0.5)  nobg  text="Detailed Water"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "ToggleButton"  size={0.12,14},{0.6,14}  pos={1,-5},{0.5,0}  anchor=(1,0.5)  bg=#a3a2a5  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={1,14},{1,10}  pos={0,-7},{0,-5}  nobg  text="Off"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "Title"  size={1,0},{0,50}  pos={0,0},{0,0}  anchor=(0,1)  HIDDEN  bg=#1f1f1f@0.5  text="Settings"  font=SourceSansPro/700  ts=36  tc=#ffffff
+    Frame "Ratings"  size={0,365},{0.6,120}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "Ratings"  -> scripts/StarterGui/MainGui/Menu/Ratings/Ratings.client.lua
+      BindableEvent "Refresh"
+      TextLabel "VotesNeeded"  size={0,300},{0,25}  pos={0.5,-150},{1,-25}  HIDDEN  nobg  text="You need 40 more votes to be on the global leaderboard."  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Layout"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        ScrollingFrame "ScrollingFrame"  size={0.948,0},{0.885,0}  pos={0.026,0},{0.111,0}  anchor=(0.5,0)  nobg
+          Frame "List"  size={1,-10},{1,0}  pos={0,0},{0,0}  nobg
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          Frame "Template"  size={1,0},{0,48}  pos={0,0},{0,0}  HIDDEN  bg=#1f1f1f@0.5
+            TextLabel "Rank"  size={0.135,0},{0.5,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="1."  font=SourceSansPro/400  scaled  tc=#ffffff
+            ImageLabel "PlayerImage"  size={1,0},{1,0}  pos={0.135,0},{0,0}  nobg  img=http://www.roblox.com/Thumbs/Avatar.ashx?x=48&y=48&Format=Png&username...
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextLabel "PlayerName"  size={0.423,0},{0.5,0}  pos={0.27,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Dued1"  font=SourceSansPro/400  ts=24  tc=#ffffff
+            TextLabel "Rating"  size={0.282,0},{0.5,0}  pos={0.693,0},{0.5,0}  anchor=(0,0.5)  nobg  text="4.1"  font=SourceSansPro/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=7.4
+        Frame "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.7
+          TextLabel "Title"  size={1,0},{0.366,0}  pos={0,0},{0.122,0}  nobg  text="Top Rated Houses"  font=SourceSansPro/700  scaled  tc=#ffffff
+          Frame "Tabs"  size={1,0},{0.43,0}  pos={0.5,0},{0.57,0}  anchor=(0.5,0)  nobg
+            ImageLabel "Left"  size={1,0},{0,60}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  img=rbxassetid://685454136
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            ImageLabel "Right"  size={1,0},{0,60}  pos={1,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxassetid://685454225
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextButton "Local"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  bg=#000000  text=""  font=LegacyArial/400  ts=14  tc=#ffffff
+              TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Local"  font=SourceSansPro/700  scaled  tc=#ffffff
+            TextButton "Global"  size={0.5,0},{1,0}  pos={0,0},{0,0}  bg=#515151  text=""  font=SourceSansPro/700  ts=24  tc=#ffffff
+              TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Global"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Upgrade"  size={0,500},{1,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      TextLabel "Title"  size={1,0},{0.136,0}  pos={0,0},{0.0455,0}  nobg  text="Upgrade House"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextButton "Add10"  size={0.156,0},{0.191,0}  pos={0,0},{0.805,0}  bg=#000000  text=""  font=SourceSansPro/700  ts=28  tc=#ffffff
+        TextLabel "TextLabel"  size={1,18},{0.65,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Pay 10"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextButton "Add1000"  size={0.3,0},{0.191,0}  pos={0.458,0},{0.805,0}  bg=#000000  text=""  font=SourceSansPro/700  ts=28  tc=#ffffff
+        TextLabel "TextLabel"  size={1,18},{0.65,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Pay 1000"  font=SourceSansPro/700  scaled  tc=#ffffff
+      Frame "ProgressBar"  size={0.6,0},{0.123,0}  pos={0.2,0},{0.432,0}  nobg
+        ImageLabel "BackgroundBar"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://489015154  imgcol=#5a5a5a
+          TextLabel "GoalAmount"  size={0.133,0},{0.667,0}  pos={0.903,0},{1.22,0}  nobg  text="40,000"  font=SourceSansPro/400  scaled  tc=#ffffff
+        ImageLabel "Bar"  size={0.5,28},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://489015154  imgcol=#ffbf00
+          ImageLabel "MoneyzIcon"  size={1,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  img=rbxassetid://494791709
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "CurrentAmount"  size={1.43,0},{0.667,0}  pos={1,-12},{1.22,0}  anchor=(0.5,0)  nobg  text="50,000"  font=SourceSansPro/400  scaled  tc=#ffffff
+            UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=24  MinTextSize=1
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.17
+      ImageLabel "CurrentUpgrade"  size={0.16,0},{0.364,0}  pos={0.02,0},{0.318,0}  nobg  img=http://www.roblox.com/thumbs/asset.ashx?assetid=488979934&x=100&y=100&...
+        TextLabel "UpgradeName"  size={1,0},{0.225,0}  pos={0,0},{1,0}  nobg  text="Three Story"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "Upgrade"  -> scripts/StarterGui/MainGui/Menu/Upgrade/Upgrade.client.lua
+      ImageLabel "NextUpgrade"  size={0.16,0},{0.364,0}  pos={0.82,0},{0.318,0}  nobg  img=http://www.roblox.com/thumbs/asset.ashx?x=100&y=100&format=png&assetid...
+        TextLabel "UpgradeName"  size={1,0},{0.225,0}  pos={0,0},{1,0}  nobg  text="Large House"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "FullyUpgraded"  size={1,0},{0,30}  pos={0,0},{0,100}  HIDDEN  nobg  text="Your house is fully upgraded"  font=LegacyArial/400  ts=12  tc=#ffffff
+      TextButton "Add100"  size={0.3,0},{0.191,0}  pos={0.156,0},{0.805,0}  bg=#000000  text=""  font=SourceSansPro/700  ts=28  tc=#ffffff
+        TextLabel "TextLabel"  size={1,18},{0.65,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Pay 100"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextButton "Get"  size={0.2,0},{0.191,0}  pos={0.01,0},{0.0227,0}  HIDDEN  bg=#000000  text=""  font=SourceSansPro/700  ts=28  tc=#ffffff
+        ImageLabel "MoneyzIcon"  size={0.368,0},{1.56,0}  pos={0.592,0},{-0.278,0}  nobg  img=rbxassetid://494791709
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={1,18},{0.65,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Get       "  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextButton "Basement"  size={0,130},{0,165}  pos={0.5,-65},{0,50}  HIDDEN  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#747474
+        ImageLabel "Thumbnail"  size={0,100},{0,100}  pos={0.5,-50},{0,20}  bg=#ffffff@0.99  z=5  img=http://www.roblox.com/thumbs/asset.ashx?assetid=658078386&x=100&y=100&...
+        TextLabel "CurrencyAmount"  size={0,100},{0,15}  pos={0,26},{1,-15}  nobg  z=4  text="190"  font=LegacyArial/400  ts=14  tc=#1bba1b
+        ImageLabel "Currency"  size={0,23},{0,15}  pos={0,0},{1,-15}  nobg  z=4  img=http://www.roblox.com/asset/?id=105177508
+        Frame "Darken"  size={0,80},{0,22}  pos={0,-9},{1,-19}  bg=#4f4f4f  z=2
+        TextLabel "ItemName"  size={1,10},{0,20}  pos={0,-5},{0,-5}  nobg  z=2  text="Basement"  font=SourceSansPro/400  ts=18  tc=#ffffff
+        Frame "Owned"  size={1,18},{0,22}  pos={0,-9},{1,-19}  HIDDEN  bg=#5a8ee9  z=2
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,-2}  nobg  z=2  text="Owned"  font=SourceSansPro/700  ts=24  tc=#ffffff
+      Frame "MoneyzOverflow"  size={0,110},{0,30}  pos={1,-150},{0,10}  HIDDEN  nobg
+        TextLabel "MoneyzCount"  size={1,-40},{0,25}  pos={0,37},{0.5,-12}  nobg  text="123232"  font=SourceSansPro/700  scaled  tc=#ffffff
+        ImageLabel "Icon"  size={0,28},{0,28}  pos={0,5},{0.5,-14}  nobg  rot=360  img=rbxassetid://494791709
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.27
+      TextButton "Add10000"  size={0.242,0},{0.191,0}  pos={0.758,0},{0.8,0}  bg=#000000  text=""  font=SourceSansPro/700  ts=28  tc=#ffffff
+        TextLabel "TextLabel"  size={1,18},{0.65,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Pay 10000"  font=SourceSansPro/700  scaled  tc=#ffffff
+    Frame "Pet"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "PetPanel"  size={0,240},{0,325}  pos={1,0},{1,-5}  anchor=(1,1)  HIDDEN  nobg
+        Frame "Meters"  size={1,0},{0.661,0}  pos={0,0},{0.184,0}  bg=#ffffff
+          Frame "FeedMeter"  size={1,0},{0.25,0}  pos={0,0},{0,0}  nobg
+            TextButton "Feed"  size={0.31,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+              Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+              TextLabel "TextLabel"  size={1,18},{0.4,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Feed"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "SleepMeter"  size={1,0},{0.25,0}  pos={0,0},{0.25,0}  nobg
+            TextButton "Sleep"  size={0.31,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+              Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+              TextLabel "TextLabel"  size={1,18},{0.4,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Sleep"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "PetMeter"  size={1,0},{0.25,0}  pos={0,0},{0.5,0}  nobg
+            TextButton "Pet"  size={0.31,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+              Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+              TextLabel "TextLabel"  size={1,18},{0.4,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Pet"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "PlayMeter"  size={1,0},{0.25,0}  pos={0,0},{0.75,0}  nobg
+            TextButton "Play"  size={0.31,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+              Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+              TextLabel "TextLabel"  size={1,18},{0.4,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Play"  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "Commands"  size={1,0},{0.2,0}  pos={0,0},{0.84,0}  bg=#ffffff
+          ImageButton "ToggleActive"  size={0.25,0},{1,0}  pos={0.75,0},{0,0}  bg=#ffffff  z=2  img=rbxassetid://314559108
+            Frame "DisableButton2"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=3
+          TextButton "Hold"  size={0.25,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+            TextLabel "TextLabel"  size={1,18},{0.4,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Hold"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "Stay"  size={0.25,0},{1,0}  pos={0.25,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+            TextLabel "TextLabel"  size={1,18},{0.4,18}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Stay"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "Hat"  size={0.25,0},{1,0}  pos={0.5,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            Frame "DisableButton"  size={1,28},{1,28}  pos={0,-14},{0,-14}  bg=#ffffff  z=2
+            ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://858129515
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              Frame "DisableButton2"  size={1,28},{1,28}  pos={0,-14},{0,-14}  HIDDEN  bg=#ffffff  z=3
+        LocalScript "PetPanel"  -> scripts/StarterGui/MainGui/Menu/Pet/PetPanel/PetPanel.client.lua
+        ImageButton "ToggleVisible"  size={0,50},{0,50}  pos={0,-50},{1,-47}  HIDDEN  bg=#ffffff  img=http://www.roblox.com/asset/?id=315464751
+        Frame "Switcher"  size={1,0},{0.2,0}  pos={0,0},{0,0}  bg=#ffffff
+          TextLabel "PetName"  size={1,-100},{1,0}  pos={0,50},{0,0}  nobg  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+          ImageButton "Next"  size={0,50},{1,0}  pos={1,-50},{0,0}  HIDDEN  bg=#ffffff  rot=180  img=http://www.roblox.com/asset/?id=315464751
+          ImageButton "Previous"  size={0,50},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff  img=http://www.roblox.com/asset/?id=315464751
+          ImageButton "NewPet"  size={0,50},{1,0}  pos={1,-50},{0,0}  bg=#ffffff  rot=180
+            Frame "Frame"  size={1,0},{0,6}  pos={0,0},{0.5,-3}  bg=#ffffff
+            Frame "Frame"  size={0,6},{1,0}  pos={0.5,-3},{0,0}  bg=#ffffff
+        BindableEvent "TogglePanelVisible"
+      TextButton "StopPetting"  size={0.23,0},{0.15,0}  pos={0.4,0},{0.85,0}  HIDDEN  bg=#ffffff  text="Stop Petting"  font=SourceSansPro/400  scaled  tc=#ffffff
+      Frame "CustomizePet"  size={0,325},{-0.0491,370}  pos={0,0},{0,0}  HIDDEN  bg=#1f1f1f@0.5
+        Frame "Left"  size={0.302,0},{1.1,0}  pos={0,0},{0.0313,0}  nobg
+          TextLabel "TextLabel"  size={1,0},{0.141,0}  pos={0,0},{0.141,0}  nobg  text="Type"  font=SourceSansPro/400  ts=24  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.141,0}  pos={0,0},{0.282,0}  nobg  text="Primary"  font=SourceSansPro/400  ts=24  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.141,0}  pos={0,0},{0.565,0}  nobg  text="Name"  font=SourceSansPro/400  ts=24  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.141,0}  pos={0,0},{0.424,0}  nobg  text="Secondary"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        TextLabel "Title"  size={1,0},{0,50}  pos={0,0},{0,0}  nobg  text="Customize Pet"  font=SourceSansPro/400  ts=32  tc=#ffffff
+        Frame "Right"  size={0.649,0},{1,0}  pos={0.351,0},{0.0313,0}  nobg
+          TextButton "Primary"  size={0.246,0},{0.163,0}  pos={0,0},{0.313,0}  bg=#0d69ac  text=""  font=SourceSansPro/400  ts=14  tc=#0d69ac
+            Frame "SelectedColor"  size={0,34},{0,34}  pos={0,-3},{0,-3}  bg=#0d69ac
+              Frame "Colors"  size={0,300},{0,300}  pos={0,0},{0,0}  HIDDEN  bg=#111111@0.2
+                Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0,0}  bg=#1b2a35  z=2
+                  TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#a4bd47  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+                Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.125,0}  bg=#1b2a35  z=2
+                  TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#f8f8f8  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+                Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.25,0}  bg=#1b2a35  z=2
+                  TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#7f8e64  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+                Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.375,0}  bg=#1b2a35  z=2
+                  TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#d7c59a  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+                ... +60 more Frame "Frame"
+          TextButton "Secondary"  size={0.246,0},{0.163,0}  pos={0,0},{0.476,0}  bg=#0d69ac  text=""  font=SourceSansPro/400  ts=14  tc=#0d69ac
+            Frame "SelectedColor"  size={0,34},{0,34}  pos={0,-3},{0,-3}  bg=#0d69ac
+          Frame "PetType"  size={0.948,0},{0.157,0}  pos={0,0},{0.157,0}  nobg
+            TextLabel "Type"  size={0.5,0},{1,0}  pos={0.25,0},{0,0}  nobg  text="Default"  font=SourceSansPro/400  ts=24  tc=#ffffff
+            ImageButton "Next"  size={0.25,0},{1,0}  pos={0.75,0},{0,0}  bg=#ffffff  rot=180  img=http://www.roblox.com/asset/?id=315464751
+            ImageButton "Previous"  size={0.25,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=315464751
+          TextButton "ChooseNameDropdown"  size={1,0},{0.157,0}  pos={0,0},{0.658,0}  HIDDEN  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+            ImageLabel "Arrow"  size={0,25},{0,25}  pos={1,-24},{0.5,-12}  nobg  z=5  img=rbxassetid://455989578
+            TextLabel "SelectedOption"  size={1,-5},{1,0}  pos={0,0},{0,0}  nobg  z=5  text="All"  font=LegacyArial/400  ts=14  tc=#ffffff
+            ScrollingFrame "ScrollingFrame"  size={1,10},{0,100}  pos={0,-5},{1,9}  HIDDEN  bg=#e5e5e5  z=4
+              UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+            TextButton "Template"  size={1,0},{0,40}  pos={0,0},{0,0}  HIDDEN  bg=#e5e5e5  z=4  text=""  font=SourceSansPro/400  ts=24  tc=#6c6c6c
+              TextLabel "OptionName"  size={1,-6},{1,0}  pos={0,6},{0,0}  nobg  z=4  text="Label"  font=SourceSansPro/400  ts=24  tc=#6c6c6c
+          TextBox "PetName"  size={0.95,0},{0.119,0}  pos={0,0},{0.658,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#1b2a35
+        LocalScript "CustomizePet"  -> scripts/StarterGui/MainGui/Menu/Pet/CustomizePet/CustomizePet.client.lua
+        TextButton "Buy"  size={0.345,0},{0.135,0}  pos={0.982,0},{0.973,0}  anchor=(1,1)  bg=#ffffff  text="Buy"  font=LegacyArial/400  ts=14  tc=#ffffff
+        ImageLabel "Icon"  size={0.086,0},{0.08,0}  pos={0.366,0},{0.864,0}  nobg  rot=360  img=rbxassetid://494791709
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "TextLabel"  size={0.218,0},{0.0809,0}  pos={0.418,0},{0.865,0}  nobg  text="7,000"  font=SourceSansPro/400  ts=24  tc=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        TextLabel "TextLabel"  size={0.302,0},{0.157,0}  pos={0,0},{0.815,0}  nobg  text="Price"  font=SourceSansPro/400  ts=24  tc=#ffffff
+      Frame "PetHats"  size={0.3,100},{0.6,50}  pos={1,0},{1,0}  anchor=(1,1)  HIDDEN  bg=#1f1f1f@0.5
+        LocalScript "PetHats"  -> scripts/StarterGui/MainGui/Menu/Pet/PetHats/PetHats.client.lua
+        TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        Frame "Layout"  size={0.9,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+          ScrollingFrame "ScrollingFrame"  size={1.04,0},{0.885,0}  pos={0.026,0},{0.111,0}  anchor=(0.5,0)  nobg
+            Frame "List"  size={1,-10},{1,0}  pos={0,0},{0,0}  nobg
+              UIGridLayout "UIGridLayout"  CellSize={0,113},{0,150}  CellPadding={0,5},{0,5}  FillDirectionMaxCells=0
+            TextButton "TemplateShop"  size={1,0},{0,150}  pos={0,0},{0,0}  HIDDEN  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+              TextLabel "Moneyz"  size={0.75,0},{0.15,0}  pos={1,0},{1,6}  anchor=(1,1)  nobg  z=2  text="1,000"  font=SourceSansPro/700  scaled  tc=#ffffff
+                ImageLabel "MoneyzIcon"  size={1,0},{1.25,0}  pos={-0.05,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  img=rbxassetid://494791709
+                  UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              ImageLabel "Thumbnail"  size={1,0},{0.745,-6}  pos={0.5,0},{0.17,-6}  anchor=(0.5,0)  nobg  z=3  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=858...
+                TextLabel "New"  size={0,35},{0,15}  pos={1,-35},{1,-16}  HIDDEN  nobg  z=3  text="New!"  font=SourceSansPro/700  ts=18  tc=#f7e559
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.75
+              TextLabel "ItemName"  size={1,12},{0.16,0}  pos={0,-6},{0,-6}  nobg  z=4  text="Sky World T "  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextButton "TemplateMyHats"  size={0,100},{0,100}  pos={0,150},{0,0}  HIDDEN  bg=#000000  z=2  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+              ImageLabel "Thumbnail"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=858...
+                TextLabel "New"  size={0,35},{0,15}  pos={1,-35},{1,-16}  HIDDEN  nobg  z=3  text="New!"  font=SourceSansPro/700  ts=18  tc=#f7e559
+          Frame "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+            TextLabel "Title"  size={1,0},{0.366,0}  pos={0,0},{0.122,0}  nobg  text="Pet Hats"  font=SourceSansPro/700  scaled  tc=#ffffff
+            Frame "Tabs"  size={0.7,0},{0.43,0}  pos={0.5,0},{0.57,0}  anchor=(0.5,0)  nobg
+              ImageLabel "Left"  size={1,0},{0,60}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  img=rbxassetid://685454136
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              ImageLabel "Right"  size={1,0},{0,60}  pos={1,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxassetid://685454225
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              TextButton "Shop"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  bg=#000000  text=""  font=LegacyArial/400  ts=14  tc=#ffffff
+                TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Shop"  font=SourceSansPro/700  scaled  tc=#ffffff
+              TextButton "MyHats"  size={0.5,0},{1,0}  pos={0,0},{0,0}  bg=#515151  text=""  font=SourceSansPro/700  ts=24  tc=#ffffff
+                TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="My Hats"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.7
+    ImageLabel "GamepadPetHand"  size={0,200},{0,200}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://321398052
+    Frame "Menu"  size={0,359},{0,36}  pos={0.5,-164},{0,0}  nobg  rot=360
+      TextButton "Inventory"  size={0,45},{0,36}  pos={0,0},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,27},{0,27}  pos={0.5,-13},{0.5,-14}  nobg  img=http://www.roblox.com/asset/?id=470014298
+        ImageLabel "ArrowAnimation"  size={0,50},{0,50}  pos={0,0},{0,90}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://855827466  imgT=0.3
+      TextButton "Ratings"  size={0,45},{0,36}  pos={0,180},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,34},{0,34}  pos={0.5,-18},{0.5,-17}  nobg  img=http://www.roblox.com/asset/?id=201550417
+      TextButton "Emotions"  size={0,45},{0,36}  pos={0,225},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-16}  nobg  img=http://www.roblox.com/asset/?id=201550346
+      TextButton "Settings"  size={0,45},{0,36}  pos={0,270},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,27},{0,27}  pos={0.5,-13},{0.5,-14}  nobg  img=http://www.roblox.com/asset/?id=470006642
+      TextButton "Moneyz"  size={0,45},{0,36}  pos={0,315},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,28},{0,28}  pos={0,5},{0.5,-14}  nobg  rot=360  img=rbxassetid://494791709
+        TextLabel "MoneyzCount"  size={1,-40},{0,30}  pos={0,37},{0.5,-17}  nobg  text="0"  font=SourceSansPro/700  ts=28  tc=#ffffff
+      TextButton "PetPanel"  size={0,45},{0,36}  pos={0,135},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,29},{0,29}  pos={0.5,-14},{0.5,-15}  nobg  img=http://www.roblox.com/asset/?id=330259179
+      TextButton "Catalog"  size={0,45},{0,36}  pos={0,45},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-14}  nobg  img=rbxassetid://201550435
+      TextButton "Upgrade"  size={0,45},{0,36}  pos={0,90},{0,0}  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,29},{0,27}  pos={0.5,-14},{0.5,-14}  nobg  img=rbxassetid://201547014
+      LocalScript "Menu"  -> scripts/StarterGui/MainGui/Menu/Menu/Menu.client.lua
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      TextButton "Leave"  size={0,45},{0,36}  pos={0,45},{0,0}  HIDDEN  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,32},{0,32}  pos={0.5,-16},{0.5,-14}  nobg  img=rbxassetid://201555244
+      TextButton "Teleport"  size={0,45},{0,36}  pos={0,45},{0,0}  HIDDEN  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        ImageLabel "Icon"  size={0,30},{0,28}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://874441129
+  Frame "Prompts"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "Ban"  size={1,0},{0,210}  pos={0.5,0},{0.15,24}  anchor=(0.5,0)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Prompts/Ban/CancelButton/CLicked.client.lua
+      TextButton "Ban"  size={0.947,0},{0.238,0}  pos={0.0267,0},{0.467,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "TextLabel"  size={1.05,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Yes, kick this player out."  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Title"  size={0.947,0},{0.27,0}  pos={0.027,0},{0.15,0}  nobg  text="What do you think of Dued1dfdfffdfdfdfd12334?"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextButton "DontBan"  size={0.947,0},{0.238,0}  pos={0.0267,0},{0.705,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=10  tc=#1b2a35
+        TextLabel "TextLabel"  size={1.05,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="This person is not causing trouble"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "Ban"  -> scripts/StarterGui/MainGui/Prompts/Ban/Ban~2.client.lua
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.43
+    Frame "DialogBox"  size={0,360},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.1  z=10
+      TextLabel "Message"  size={1,-20},{0.4,0}  pos={0.5,0},{0.22,0}  anchor=(0.5,0)  nobg  z=10  text="You have reached the limit of 30 saved paintings. You must d..."  font=SourceSansPro/400  ts=20  tc=#ffffff
+      TextButton "Yes"  size={0.4,-3},{0.288,0}  pos={0.3,0},{1,-10}  anchor=(0.5,1)  bg=#ffffff  z=10  text="Yes"  font=LegacyArial/400  ts=14  tc=#d8d8d8
+      TextButton "No"  size={0.4,-3},{0.288,0}  pos={0.7,0},{1,-10}  anchor=(0.5,1)  bg=#ffffff  z=10  text="Get     "  font=LegacyArial/400  ts=14  tc=#d8d8d8
+        ImageLabel "MoneyzIcon"  size={0,28},{0,28}  pos={0.57,0},{0.5,-14}  HIDDEN  nobg  z=10  img=rbxassetid://494791709
+      LocalScript "Dialog"  -> scripts/StarterGui/MainGui/Prompts/DialogBox/Dialog.client.lua
+      TextLabel "Title"  size={1,0},{0.2,0}  pos={0,0},{0.05,0}  nobg  z=10  text="Furniture"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextButton "Cancel"  size={0,34},{0,34}  pos={1,0},{0,0}  anchor=(1,0)  bg=#a3a2a5  z=10  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={1,5},{1,5}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  img=http://www.roblox.com/asset?id=54135717
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.89
+      Frame "BButton"  size={0,100},{0,60}  pos={0.75,0},{1,0}  anchor=(0.5,1)  HIDDEN  nobg  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663551304
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Yes"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      Frame "AButton"  size={0,100},{0,60}  pos={0.25,0},{1,0}  anchor=(0.5,1)  HIDDEN  nobg  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663428369
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Yes"  font=SourceSansPro/400  ts=36  tc=#ffffff
+    Frame "FoodMenu"  size={0,415},{0,115}  pos={0.5,-200},{1,-165}  HIDDEN  bg=#ffffff
+      ImageButton "Pepperoni"  size={0,100},{0,100}  pos={0,0},{0,0}  bg=#ffffff  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...
+      ImageButton "Cheese"  size={0,100},{0,100}  pos={0,100},{0,0}  bg=#ffffff  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...
+      ImageButton "Sausage"  size={0,100},{0,100}  pos={0,200},{0,0}  bg=#ffffff  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...
+      Frame "Hint"  size={0,400},{0,50}  pos={0.5,-200},{0,-60}  bg=#ffffff
+        TextLabel "Label"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Choose your order"  font=SourceSansPro/400  scaled  tc=#ffffff
+        LocalScript "FoodMenu"  -> scripts/StarterGui/MainGui/Prompts/FoodMenu/Hint/FoodMenu.client.lua
+      ImageButton "MountainDew"  size={0,100},{0,100}  pos={0,300},{0,0}  HIDDEN  bg=#ffffff  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...
+    Frame "GetId"  size={1,0},{0,380}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#262626@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,0},{0,0}  anchor=(1,0)  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "GetId"  -> scripts/StarterGui/MainGui/Prompts/GetId/GetId.client.lua
+      Frame "Layout"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,2}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        ScrollingFrame "ScrollingFrame"  size={1,0},{0.7,0}  pos={0.5,0},{0.3,0}  anchor=(0.5,0)  nobg
+          Frame "List"  size={1,-16},{1,0}  pos={0,0},{0,0}  nobg
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0,1}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+          Frame "Template"  size={1,0},{0,30}  pos={0,0},{0,0}  nobg
+            TextButton "AssetNameButton"  size={0.88,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  scaled  tc=#3d3d3d
+              TextLabel "TextLabel"  size={1,-5},{0.8,0}  pos={0,5},{0.5,0}  anchor=(0,0.5)  nobg  text="Button"  font=SourceSansPro/400  scaled  tc=#1b2a35
+            TextButton "FavoriteButton"  size={0.12,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#1b2a35
+              ImageLabel "Icon"  size={0,24},{0,24}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://906018985
+        Frame "Tabs"  size={1,0},{0.09,0}  pos={0.5,0},{0.19,0}  anchor=(0.5,0)  nobg
+          TextButton "Popular"  size={0.5,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(1,0.5)  bg=#a8a8a8  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={1,14},{1,15}  pos={0.5,0},{0.5,-2}  anchor=(0.5,0.5)  nobg  text="Popular"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "Favorites"  size={0.5,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+            TextLabel "TextLabel"  size={1,14},{1,15}  pos={0.5,0},{0.5,-2}  anchor=(0.5,0.5)  nobg  text="Favorites"  font=SourceSansPro/400  scaled  tc=#ffffff
+          ImageLabel "Left"  size={1,0},{0,60}  pos={0,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  img=rbxassetid://685454136
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "Right"  size={1,0},{0,60}  pos={1,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxassetid://685454225
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "Title"  size={1,0},{0.08,0}  pos={0,0},{0,0}  nobg  text="Shirt Picker"  font=SourceSansPro/700  scaled  tc=#ffffff
+        UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.05,0}  PaddingRight={0.05,0}
+        Frame "PasteId"  size={1,0},{0.08,0}  pos={0,0},{0.1,0}  anchor=(0.5,0)  nobg
+          TextBox "TextBox"  size={0.85,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text="Enter Shirt ID"  font=SourceSansPro/400  scaled  tc=#9c9c9c
+          TextButton "Help"  size={0.13,0},{1.3,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://887023150
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.789
+      Frame "Loading"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.15  z=10
+        TextLabel "TextLabel"  size={0,400},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="Loading..."  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "GetName"  size={0,350},{0,150}  pos={0.5,0},{0.1,-40}  anchor=(0.5,0)  HIDDEN  bg=#1f1f1f@0.5
+      TextLabel "Title"  size={1,0},{0.187,0}  pos={0,0},{0.2,0}  nobg  text="Enter name of player"  font=LegacyArial/400  scaled  tc=#ffffff
+      TextButton "Save"  size={0.334,0},{0.267,0}  pos={0.643,0},{0.413,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Done"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "GetName"  -> scripts/StarterGui/MainGui/Prompts/GetName/GetName.client.lua
+      TextBox "name"  size={0.571,0},{0.2,0}  pos={0.0514,0},{0.433,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#2b2b2b
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+    Frame "GetRating"  size={0,750},{0,220}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "GetRating"  -> scripts/StarterGui/MainGui/Prompts/GetRating/GetRating.client.lua
+      Frame "Frame"  size={0.95,0},{0.34,0}  pos={0.5,0},{0.318,0}  anchor=(0.5,0)  nobg
+        TextButton "Template"  size={0.1,0},{1,0}  pos={0,0},{0,0}  bg=#515151  text="1"  font=SourceSansPro/400  scaled  tc=#ffffff
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      TextLabel "Title"  size={1,0},{0.16,0}  pos={0,0},{0.0909,0}  nobg  text="Rate Dued1's House"  font=SourceSansPro/400  scaled  tc=#ffffff
+      BindableFunction "GetRating"
+      TextButton "DontRate"  size={0.278,0},{0.227,0}  pos={0.361,0},{0.71,0}  bg=#515151  text="I don't want to rate"  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "GetShortString"  size={0,350},{0,160}  pos={0.5,0},{0.5,-40}  anchor=(0.5,0)  HIDDEN  bg=#1f1f1f@0.5
+      TextLabel "Title"  size={1,0},{0.18,0}  pos={0,0},{0.2,0}  nobg  text="Enter name of painting"  font=LegacyArial/400  scaled  tc=#ffffff
+      TextButton "Done"  size={0.351,0},{0.267,0}  pos={0.651,0},{0.4,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        LocalScript "Resize"  -> scripts/StarterGui/MainGui/Prompts/GetShortString/Done/Resize.client.lua
+        TextLabel "TextLabel"  size={1,14},{1,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Done"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "GetShortString"  -> scripts/StarterGui/MainGui/Prompts/GetShortString/GetShortString.client.lua
+      TextBox "String"  size={0.571,0},{0.2,0}  pos={0.0514,0},{0.433,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#2b2b2b
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.33
+    Frame "GetString"  size={1,0},{0,200}  pos={0.5,-175},{0.5,-120}  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Prompts/GetString/CancelButton/CLicked.client.lua  [disabled]
+      TextButton "Done"  size={0.429,0},{0.2,0}  pos={0.5,0},{0.75,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        TextLabel "TextLabel"  size={1.11,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Done"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "GetString"  -> scripts/StarterGui/MainGui/Prompts/GetString/GetString.client.lua
+      TextBox "InputText"  size={0.857,0},{0.45,0}  pos={0.0714,0},{0.25,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=18  tc=#2b2b2b
+      TextLabel "Title"  size={0.9,0},{0.1,0}  pos={0.0857,0},{0.14,0}  nobg  text="Enter Mesage:"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextButton "Clear"  size={0.429,0},{0.2,0}  pos={0.0714,0},{0.75,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=24  tc=#ffffff
+        TextLabel "TextLabel"  size={1.11,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Clear"  font=SourceSansPro/400  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.75
+    Frame "IdHelp"  size={0,350},{0,370}  pos={0.5,-175},{0.5,-125}  HIDDEN  bg=#a3a2a5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Prompts/IdHelp/CancelButton/CLicked.client.lua
+      ImageLabel "ImageLabel"  size={0,300},{0,300}  pos={0,18},{0,40}  nobg  img=http://www.roblox.com/asset?id=158074831
+    Frame "MobileFurnitureControls"  size={0,50},{0,150}  pos={1,-50},{0.5,0}  HIDDEN  nobg
+      TextButton "Place"  size={0,60},{0,50}  pos={0,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "TextLabel"  size={0,60},{0,40}  pos={0,60},{0,0}  nobg  text="Rotate"  font=SourceSansPro/400  ts=24  tc=#efefef
+        ImageLabel "ImageLabel"  size={0,30},{0,30}  pos={0.5,-20},{0.5,-15}  nobg  img=rbxassetid://168401336
+      TextButton "Cancel"  size={0,60},{0,50}  pos={0,0},{0,50}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "TextLabel"  size={0,60},{0,40}  pos={0,60},{0,0}  nobg  text="Rotate"  font=SourceSansPro/400  ts=24  tc=#efefef
+        ImageLabel "ImageLabel"  size={0,30},{0,30}  pos={0.5,-20},{0.5,-15}  nobg  img=rbxassetid://168397389
+      TextButton "Rotate"  size={0,60},{0,50}  pos={0,0},{0,100}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "TextLabel"  size={0,60},{0,40}  pos={0,60},{0,0}  nobg  text="Rotate"  font=SourceSansPro/400  ts=24  tc=#efefef
+        ImageLabel "ImageLabel"  size={0,40},{0,40}  pos={0.5,-23},{0.5,-20}  nobg  img=rbxassetid://499213969
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Prompts/MobileFurnitureControls/LocalScript.client.lua
+    Frame "Paycheck"  size={0.6,80},{0.5,110}  pos={0.25,-60},{0.25,-45}  HIDDEN  bg=#a3a2a5
+      TextLabel "Title"  size={1,0},{0.1,0}  pos={0,0},{0.01,0}  nobg  text="Paycheck"  font=LegacyArial/400  scaled  tc=#ffffff
+      Frame "Check"  size={0.98,0},{0.7,0}  pos={0.01,0},{0.15,0}  bg=#fff3ac
+        Frame "To"  size={1,0},{0.75,0}  pos={0,0},{0.15,0}  nobg
+          TextLabel "Label"  size={0.15,0},{0.2,0}  pos={0.02,0},{0.25,0}  nobg  text="Pay to the order of"  font=LegacyArial/400  scaled  tc=#000000
+          Frame "Line"  size={0.6,0},{0,1}  pos={0.14,0},{0.44,0}  bg=#000000
+          TextLabel "PlayerName"  size={0.4,0},{0.15,0}  pos={0.2,0},{0.3,0}  nobg  text="Dued1"  font=SourceSansPro/700  scaled  tc=#000000
+        ImageLabel "ImageLabel"  size={0.13,0},{0.3,0}  pos={0.01,0},{0.02,0}  nobg  img=rbxassetid://321458418
+        Frame "Amount"  size={1,0},{0.75,0}  pos={0.79,0},{0,0}  nobg
+          TextLabel "Lable"  size={0.13,0},{0.2,0}  pos={0.04,0},{0.63,0}  nobg  text="Moneyz"  font=LegacyArial/400  scaled  tc=#000000
+          Frame "Box"  size={0.2,0},{0.2,1}  pos={0,0},{0.44,0}  bg=#e1e1e1
+            TextLabel "Moneyz"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  text="168.00"  font=LegacyArial/400  scaled  tc=#000000
+        Frame "For"  size={1,0},{0.75,0}  pos={0,0},{0.5,0}  nobg
+          Frame "Line"  size={0.4,0},{0,1}  pos={0.07,0},{0.44,0}  bg=#000000
+          TextLabel "For"  size={0.4,0},{0.15,0}  pos={0.08,0},{0.3,0}  nobg  text="Working"  font=SourceSansPro/700  scaled  tc=#000000
+          TextLabel "Label"  size={0.05,0},{0.1,0}  pos={0.02,0},{0.35,0}  nobg  text="For"  font=LegacyArial/400  scaled  tc=#000000
+        Frame "Signature"  size={1,0},{0.75,0}  pos={0.5,0},{0.5,0}  nobg
+          Frame "Line"  size={0.4,0},{0,1}  pos={0.07,0},{0.44,0}  bg=#000000
+          ImageLabel "ImageLabel"  size={0.2,0},{0.3,0}  pos={0.17,0},{0.25,0}  nobg  img=http://www.roblox.com/asset/?id=171723800
+        Frame "Date"  size={1,0},{0.75,0}  pos={0.5,0},{-0.15,0}  nobg
+          Frame "Line"  size={0.28,0},{0,1}  pos={0.2,0},{0.44,0}  bg=#000000
+          TextLabel "Date"  size={0.4,0},{0.15,0}  pos={0.15,0},{0.3,0}  nobg  text="11/04/14"  font=SourceSansPro/700  scaled  tc=#000000
+          TextLabel "Label"  size={0.06,0},{0.1,0}  pos={0.14,0},{0.35,0}  nobg  text="Date"  font=LegacyArial/400  scaled  tc=#000000
+      TextButton "CashOut"  size={1,0},{0.13,0}  pos={0,0},{0.87,0}  bg=#ffffff  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextLabel "Title"  size={1,0},{1,10}  pos={0,0},{0,-5}  nobg  text="Cash Out"  font=LegacyArial/400  scaled  tc=#ffffff
+      LocalScript "Paycheck"  -> scripts/StarterGui/MainGui/Prompts/Paycheck/Paycheck.client.lua
+      Frame "AButton"  size={0,300},{0,61}  pos={0.5,-150},{0.88,0}  HIDDEN  nobg
+        ImageLabel "Icon"  size={0,61},{0,61}  pos={0,0},{0,0}  nobg  img=rbxassetid://663428369
+        TextLabel "TextLabel"  size={1,-61},{0,61}  pos={0,71},{0,0}  nobg  z=10  text="Cash Out"  font=LegacyArial/400  ts=28  tc=#ffffff
+      Frame "MoneyzOverflow"  size={0,100},{0,30}  pos={1,-100},{0,0}  HIDDEN  nobg
+        TextLabel "MoneyzCount"  size={1,-40},{0,25}  pos={0,37},{0.5,-13}  nobg  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+        ImageLabel "Icon"  size={0,28},{0,28}  pos={0,5},{0.5,-14}  nobg  rot=360  img=rbxassetid://494791709
+    Frame "PixelPaint"  size={0,426},{0,461}  pos={0.5,-200},{0.15,-50}  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "PixelPaint"  -> scripts/StarterGui/MainGui/Prompts/PixelPaint/PixelPaint.client.lua
+      TextLabel "Title"  size={1,0},{0,30}  pos={0,0},{0,10}  nobg  text=""  font=LegacyArial/400  ts=18  tc=#ffffff
+      Frame "Canvas"  size={0,416},{0,416}  pos={0,5},{0,40}  HIDDEN  bg=#000000@0.5
+      Frame "Colors"  size={0,200},{0,200}  pos={0,-210},{0,40}  bg=#111111@0.5
+        Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0,0}  bg=#1b2a35  z=2
+          TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#a4bd47  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.125,0}  bg=#1b2a35  z=2
+          TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#f8f8f8  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.25,0}  bg=#1b2a35  z=2
+          TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#7f8e64  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+        Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.375,0}  bg=#1b2a35  z=2
+          TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#d7c59a  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+        ... +60 more Frame "Frame"
+        Frame "X"  size={0.125,0},{0.125,0}  pos={0,-25},{0,0}  bg=#1b2a35  z=2
+          TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#ffffff  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+            ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  img=http://www.roblox.com/asset?id=54135717  imgcol=#ff0000
+      TextButton "Save"  size={0,200},{0,50}  pos={0,-210},{0,290}  bg=#ffffff  text="Save"  font=SourceSansPro/400  ts=32  tc=#ffffff
+      TextButton "New"  size={1,0},{0,50}  pos={0,0},{1,-50}  bg=#ffffff  text="New"  font=SourceSansPro/400  ts=32  tc=#ffffff
+      ScrollingFrame "LoadWindow"  size={0,416},{0,368}  pos={0,5},{0,40}  bg=#222222@0.5
+        Frame "Template"  size={1,-12},{0,34}  pos={0,0},{0,0}  HIDDEN  nobg
+          TextButton "Delete"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+          TextButton "ProjectName"  size={1,-34},{0,34}  pos={0,0},{0,0}  bg=#a3a2a5  text="Name"  font=Arial/700  ts=18  tc=#ffffff
+      TextButton "Load"  size={0,200},{0,50}  pos={0,-210},{0,240}  bg=#ffffff  text="Load"  font=SourceSansPro/400  ts=32  tc=#ffffff
+      Frame "BanMessage"  size={0,200},{0,120}  pos={0,-210},{0,340}  bg=#1f1f1f@0.5
+        TextButton "CloseMessage"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        TextLabel "Title"  size={1,-35},{1,0}  pos={0,5},{0,0}  nobg  text="Any inappropriate drawings will result in a PERMANENT BAN. P..."  font=LegacyArial/400  ts=11  tc=#ffffff
+    Frame "CustomerDialog"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      LocalScript "NPCDialog"  -> scripts/StarterGui/MainGui/Prompts/CustomerDialog/NPCDialog.client.lua
+      BillboardGui "BillboardTemplate"  size={2.5,0},{2.5,0}  Enabled=False  Size={2.5,0},{2.5,0}  StudsOffset=(0,4,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+        ImageButton "ClickableBubble"  size={1,0},{1.1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=337748298
+        ImageLabel "XButton"  size={0.68,0},{0.68,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  img=rbxassetid://751733930
+          Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+      ImageLabel "ResponsePanel"  size={0,350},{0,290}  pos={0.03,0},{0.95,-290}  HIDDEN  nobg  img=rbxasset://textures/ui/dialog_blue.png
+        TextButton "Choice1"  size={1,-7},{0.25,0}  pos={0,7},{0,0}  bg=#ffffff  text="Do you like waffles cause we don't have any here."  font=SourceSansPro/400  ts=24  tc=#282828
+        TextButton "Choice2"  size={1,-7},{0.25,0}  pos={0,7},{0.25,0}  bg=#ffffff  text="I love you!"  font=SourceSansPro/400  ts=24  tc=#282828
+        TextButton "Choice5"  size={1,-7},{0.25,0}  pos={0,7},{1,0}  bg=#ffffff  text="Goodbye!"  font=SourceSansPro/400  ts=24  tc=#282828
+        TextButton "Choice3"  size={1,-7},{0.25,0}  pos={0,7},{0.5,0}  bg=#ffffff  text="Do you like waffles cause we don't have any here."  font=SourceSansPro/400  ts=24  tc=#282828
+        TextButton "Choice4"  size={1,-7},{0.25,0}  pos={0,7},{0.75,0}  bg=#ffffff  text="Do you like waffles cause we don't have any here."  font=SourceSansPro/400  ts=24  tc=#282828
+    Frame "KickList"  size={0,265},{0.4,120}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "KickList"  -> scripts/StarterGui/MainGui/Prompts/KickList/KickList.client.lua
+      BindableEvent "Refresh"
+      TextLabel "VotesNeeded"  size={0,300},{0,25}  pos={0.5,-150},{1,-25}  HIDDEN  nobg  text="You need 40 more votes to be on the global leaderboard."  font=SourceSansPro/400  ts=18  tc=#ffffff
+      ScrollingFrame "ScrollingFrame"  size={0.948,0},{1,-34}  pos={0.5,0},{0,34}  anchor=(0.5,0)  nobg
+        Frame "List"  size={1,-10},{1,0}  pos={0,0},{0,0}  nobg
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+        TextButton "Template"  size={1,0},{0,48}  pos={0,0},{0,0}  HIDDEN  bg=#1f1f1f@0.5  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.4
+          TextLabel "PlayerName"  size={0.423,0},{0.5,0}  pos={0.1,0},{0.5,0}  anchor=(0,0.5)  nobg  text="Dued1"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "Kick"  size={0.3,0},{1,-5}  pos={1,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000  text=""  font=SourceSansPro/700  ts=28  tc=#ffffff
+            TextLabel "TextLabel"  size={1,18},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Kick"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextLabel "Empty"  size={0.872,0},{1,0}  pos={0,0},{0.5,0}  nobg  text="There is no one in your house to kick out."  font=SourceSansPro/400  scaled  tc=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.78
+    Frame "TutorialContainer"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      BillboardGui "ArrowTemplate"  size={2,0},{2,0}  Enabled=False  Size={2,0},{2,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+        ImageLabel "Arrow"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=90  img=http://www.roblox.com/asset/?id=168194931  imgT=0.2
+        LocalScript "Animation"  -> scripts/StarterGui/MainGui/Prompts/TutorialContainer/ArrowTemplate/Animation.client.lua  [disabled]
+      Frame "Tutorial"  size={0,360},{1,0}  pos={1,-5},{0,5}  anchor=(1,0)  HIDDEN  bg=#1f1f1f@0.3  z=2
+        LocalScript "LocalTutorial"  -> scripts/StarterGui/MainGui/Prompts/TutorialContainer/Tutorial/LocalTutorial.client.lua
+        TextButton "Delete"  size={0.5,0},{0.281,0}  pos={0.5,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#ffffff  z=2  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+          TextLabel "TextLabel"  size={1,14},{0.6,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Delete"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Start"  size={0.5,0},{0.281,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#ffffff  z=2  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+          TextLabel "TextLabel"  size={1,14},{0.6,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Start"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextLabel "Tutorial"  size={1,0},{0.175,0}  pos={0,0},{0.0188,0}  nobg  z=2  text="Tutorial"  font=SourceSansPro/700  scaled  tc=#ffffff
+        TextButton "CancelButton"  size={0,34},{0,34}  pos={1,0},{0,0}  anchor=(1,0)  bg=#a3a2a5  z=2  text=""  font=Arial/700  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  z=2  img=http://www.roblox.com/asset?id=54135717
+        TextLabel "Message"  size={0.95,0},{0.6,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0)  nobg  z=2  text="  These counters show the number of items in stock at the pi..."  font=SourceSansPro/400  ts=22  tc=#ffffff
+        Frame "StartGamepad"  size={0,120},{0,60}  pos={0.25,0},{1,0}  anchor=(0.5,1)  HIDDEN  nobg  z=10
+          ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663428369
+          TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Start"  font=SourceSansPro/400  ts=36  tc=#ffffff
+        Frame "DeleteGamepad"  size={0,150},{0,60}  pos={0.75,0},{1,0}  anchor=(0.5,1)  HIDDEN  nobg  z=10
+          ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663551304
+          TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Cancel"  font=SourceSansPro/400  ts=36  tc=#ffffff
+        Frame "ContinueGamepad"  size={0,170},{0,60}  pos={0.5,0},{1,0}  anchor=(0.5,1)  HIDDEN  nobg  z=10
+          ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663428369
+          TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Continue"  font=SourceSansPro/400  ts=36  tc=#ffffff
+        Frame "OkGamepad"  size={0,100},{0,60}  pos={0.5,0},{1,0}  anchor=(0.5,1)  HIDDEN  nobg  z=10
+          ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663428369
+          TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Ok"  font=SourceSansPro/400  ts=36  tc=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.25
+        TextButton "Ok"  size={1,0},{0.281,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#ffffff  z=2  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+          TextLabel "TextLabel"  size={1,14},{0.6,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Ok"  font=SourceSansPro/400  scaled  tc=#ffffff
+        TextButton "Continue"  size={1,0},{0.281,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#ffffff  z=2  text=""  font=SourceSansPro/700  scaled  tc=#ffffff
+          TextLabel "TextLabel"  size={1,14},{0.6,14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="Continue"  font=SourceSansPro/400  scaled  tc=#ffffff
+      TextButton "DisableInput"  size={1,0},{1,36}  pos={0,0},{0,-36}  HIDDEN  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+      ImageLabel "ArrowKeys"  size={0,300},{0,160}  pos={0.5,-150},{1,-235}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=39637192
+        Frame "Frame"  size={0,500},{0,75}  pos={0.5,-250},{0,-100}  bg=#ffffff
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Use arrow keys to move"  font=LegacyArial/400  ts=28  tc=#ffffff
+        LocalScript "ArrowKeys"  -> scripts/StarterGui/MainGui/Prompts/TutorialContainer/ArrowKeys/ArrowKeys.client.lua
+      ImageLabel "SpaceBar"  size={0,500},{0,80}  pos={0.5,-250},{1,-155}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=346114624
+        Frame "Frame"  size={0,350},{0,75}  pos={0.5,-170},{0,-100}  bg=#ffffff
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Stand Up / Jump"  font=LegacyArial/400  ts=28  tc=#ffffff
+        LocalScript "Spacebar"  -> scripts/StarterGui/MainGui/Prompts/TutorialContainer/SpaceBar/Spacebar.client.lua
+      Accessory "Accessory"
+    Frame "VideoCollection"  size={0,465},{0.6,120}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=rbxassetid://54135717
+      BindableEvent "Refresh"
+      TextLabel "VotesNeeded"  size={0,300},{0,25}  pos={0.5,-150},{1,-25}  HIDDEN  nobg  text="You need 40 more votes to be on the global leaderboard."  font=SourceSansPro/400  ts=18  tc=#ffffff
+      Frame "Layout"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        Frame "Top"  size={1,0},{0.055,0}  pos={0,0},{0,0}  nobg
+          TextLabel "Title"  size={1,0},{0.8,0}  pos={0,0},{0,0}  nobg  text="My Video Collection"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextButton "Power"  size={0.1,0},{1.5,0}  pos={0,0},{0,0}  bg=#ffffff  z=2  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://891287133
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Import"  size={1,0},{0.08,0}  pos={0,0},{0,0}  nobg
+          TextBox "TextBox"  size={0.44,0},{0.7,0}  pos={0.95,0},{0.5,0}  anchor=(1,0.5)  bg=#ffffff  text="Ctrl + V"  font=SourceSansPro/400  scaled  tc=#3e3e3e
+          TextLabel "TextLabel"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  text="Paste your Video Maker export code here."  font=SourceSansPro/400  scaled  tc=#ffffff
+          UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+          TextButton "Help"  size={0.11,0},{1,0}  pos={0.89,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://887023150
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              Frame "DisableButton2"  size={1,28},{1,28}  pos={0,-14},{0,-14}  HIDDEN  bg=#ffffff  z=3
+        Frame "ScrollingList"  size={0.948,0},{0.865,0}  pos={0,0},{0,0}  nobg
+          ScrollingFrame "ScrollingFrame"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg
+            Frame "List"  size={1,-10},{0.865,0}  pos={0,0},{0,0}  nobg
+              UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+            Frame "Template"  size={1,0},{0,48}  pos={0,0},{0,0}  HIDDEN  bg=#1f1f1f@0.5
+              TextLabel "VideoName"  size={0.67,0},{0.6,0}  pos={0.02,0},{0,0}  nobg  text="Cool Vid"  font=SourceSansPro/400  scaled  tc=#ffffff
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+              TextButton "Play"  size={0.11,0},{1,0}  pos={0.89,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+                ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://877902784
+                  UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                  Frame "DisableButton2"  size={1,28},{1,28}  pos={0,-14},{0,-14}  HIDDEN  bg=#ffffff  z=3
+              TextButton "Take"  size={0.18,0},{1,0}  pos={0.82,0},{0,0}  HIDDEN  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+                TextLabel "TextLabel"  size={1,14},{1,5}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Take"  font=SourceSansPro/400  scaled  tc=#ffffff
+              TextLabel "CreatorName"  size={0.67,0},{0.4,0}  pos={0.02,0},{1,0}  anchor=(0,1)  nobg  text="by Dued1"  font=SourceSansPro/400  scaled  tc=#ffffff
+              TextButton "Delete"  size={0.11,0},{1,0}  pos={0.78,0},{0,0}  bg=#ffffff  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+                ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://877901421
+                  UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                  Frame "DisableButton2"  size={1,28},{1,28}  pos={0,-14},{0,-14}  HIDDEN  bg=#ffffff  z=3
+          TextLabel "NoVideosMessage"  size={0.8,0},{0.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  text="You don't own any videos yet. You can add videos to your col..."  font=SourceSansPro/400  scaled  tc=#ffffff
+      Frame "Loading"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.15  z=10
+        TextLabel "TextLabel"  size={0,400},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=10  text="Importing, Please Wait"  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "VideoCollection"  -> scripts/StarterGui/MainGui/Prompts/VideoCollection/VideoCollection.client.lua
+    Frame "Instructions"  size={0,465},{0.5,120}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f  z=5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-34},{0,0}  bg=#a3a2a5  z=5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  z=5  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "Instructions"  -> scripts/StarterGui/MainGui/Prompts/Instructions/Instructions.client.lua
+      Frame "Layout"  size={0.95,0},{0.95,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        Frame "Buttons"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg  z=5
+          TextButton "Previous"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  anchor=(1,0)  bg=#ffffff  z=5  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  img=rbxassetid://315464751
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextButton "Next"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  bg=#ffffff  z=5  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0.25,0},{1,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  rot=180  img=rbxassetid://315464751
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              Frame "DisableButton2"  size={1,28},{1,28}  pos={0,-14},{0,-14}  HIDDEN  bg=#ffffff  z=3
+          TextButton "Finish"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  HIDDEN  bg=#ffffff  z=5  text=""  font=SourceSansPro/400  ts=28  tc=#ffffff
+            TextLabel "Title"  size={0.8,0},{0.8,10}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="Finish"  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "Title"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg  z=5
+          TextLabel "Title"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="How to resize to 300x200 Pixels"  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "Image"  size={1,0},{0.7,0}  pos={0,0},{0,0}  nobg  z=5
+          ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff  z=5  img=rbxassetid://133293265
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Text"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg  z=5
+          TextLabel "TextLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  text="Open Roblox Studio"  font=SourceSansPro/400  scaled  tc=#ffffff
+  Frame "Notifications"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Folder "Blink"
+      Frame "RedeemCode"  size={0,450},{0,70}  pos={0.5,-225},{0.5,-150}  HIDDEN  bg=#a3a2a5  z=10
+        TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  z=10  text=""  font=Arial/700  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  z=10  img=http://www.roblox.com/asset?id=54135717
+          LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Notifications/Blink/RedeemCode/CancelButton/CLicked.client.lua
+        LocalScript "CodeValidate"  -> scripts/StarterGui/MainGui/Notifications/Blink/RedeemCode/CodeValidate.client.lua
+        TextBox "Code"  size={0,200},{0,35}  pos={0,10},{0,10}  bg=#ffffff  z=10  text="Enter Code"  font=SourceSansPro/400  ts=24  tc=#2b2b2b
+          TextButton "Done"  size={0,70},{0,39}  pos={1,0},{0,-2}  bg=#a3a2a5  z=10  text="Done"  font=Arial/700  ts=24  tc=#ffffff
+          TextLabel "Invalid"  size={0,100},{0,35}  pos={1,80},{0,0}  nobg  z=10  text="Invalid Code"  font=Arial/700  ts=18  tc=#ff0000
+      Frame "Blink"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5  z=8
+        TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  HIDDEN  bg=#a3a2a5  z=9  text=""  font=Arial/700  ts=24  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  z=9  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "ShowPromo"  -> scripts/StarterGui/MainGui/Notifications/Blink/Blink/ShowPromo.client.lua
+        ImageLabel "Popup"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  z=8  img=rbxassetid://676671771
+        UISizeConstraint "UISizeConstraint"
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.77
+        TextButton "Redeem"  size={0.33,0},{0.12,0}  pos={0.55,0},{0.85,0}  nobg  z=8  text=""  font=SourceSansPro/400  ts=14  tc=#1b2a35
+        TextLabel "HoursLeft"  size={0.2,0},{0.1,0}  pos={0.2,0},{0.8,0}  nobg  z=9  text="2 hours left"  font=ComicNeueAngular/400  scaled  tc=#ffffff
+        Frame "Items"  size={0.279,0},{0.328,0}  pos={0.1,0},{0.4,0}  nobg  z=8
+          ImageLabel "ImageLabel"  size={0.3,0},{0.44,0}  pos={0.21,0},{0.22,0}  anchor=(0.5,0.5)  nobg  z=9  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=676...
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            UISizeConstraint "UISizeConstraint"
+            TextLabel "TextLabel"  size={2,0},{0.23,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg  z=9  text="Blink Boy"  font=ComicNeueAngular/400  scaled  tc=#1b2a35
+          ImageLabel "ImageLabel"  size={0.3,0},{0.44,0}  pos={0.79,0},{0.215,0}  anchor=(0.5,0.5)  nobg  z=9  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=677...
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            UISizeConstraint "UISizeConstraint"
+            TextLabel "TextLabel"  size={2,0},{0.23,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg  z=9  text="Blink Poster"  font=ComicNeueAngular/400  scaled  tc=#1b2a35
+          ImageLabel "ImageLabel"  size={0.3,0},{0.44,0}  pos={0.21,0},{0.775,0}  anchor=(0.5,0.5)  nobg  z=9  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=677...
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            UISizeConstraint "UISizeConstraint"
+            TextLabel "TextLabel"  size={2,0},{0.23,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg  z=9  text="Human Cannon"  font=ComicNeueAngular/400  scaled  tc=#1b2a35
+          ImageLabel "ImageLabel"  size={0.3,0},{0.44,0}  pos={0.79,0},{0.775,0}  anchor=(0.5,0.5)  nobg  z=9  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=75&Height=75&AssetID=677...  imgT=1
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            UISizeConstraint "UISizeConstraint"
+            TextLabel "TextLabel"  size={2,0},{0.23,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  nobg  z=9  text="Mystery Item"  font=ComicNeueAngular/400  scaled  tc=#1b2a35
+      ImageButton "OpenPopupIcon"  size={0.1,0},{0.1,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  nobg  img=rbxassetid://677449946
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        UISizeConstraint "UISizeConstraint"
+    Frame "Blink"  size={0,450},{0,400}  pos={0.5,-225},{0.5,-150}  HIDDEN  bg=#a3a2a5
+      TextLabel "Title"  size={1,0},{0.25,0}  pos={0,0},{0,0}  nobg  text="Special Offer!"  font=LegacyArial/400  ts=18  tc=#ffffff
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Notifications/Blink~2/CancelButton/CLicked.client.lua
+      TextButton "Next"  size={0,120},{0,50}  pos={1,-120},{1,-50}  bg=#a3a2a5  text="Next"  font=Arial/700  ts=24  tc=#ffffff
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Notifications/Blink~2/Next/CLicked.client.lua
+      TextLabel "Text"  size={1,0},{0.25,0}  pos={0,0},{0.6,0}  nobg  text="Buy my borther's steam game to get these peices of furniture..."  font=LegacyArial/400  ts=14  tc=#ffffff
+      Frame "Blink"  size={1,0},{0,170}  pos={0,0},{0,75}  bg=#a3a2a5
+        ImageLabel "Bug"  size={0,120},{0,120}  pos={0.35,0},{0,0}  nobg  z=2  img=rbxassetid://341033477
+          TextLabel "TextLabel"  size={1,0},{0,30}  pos={0,0},{1,0}  nobg  text="Bug"  font=SourceSansPro/400  ts=28  tc=#ffffff
+        ImageLabel "Bunny"  size={0,120},{0,120}  pos={0.65,0},{0,0}  nobg  z=2  img=rbxassetid://341033485
+          TextLabel "TextLabel"  size={1,0},{0,30}  pos={0,0},{1,0}  nobg  text="Bunny"  font=SourceSansPro/400  ts=28  tc=#ffffff
+        ImageLabel "Moose"  size={0,120},{0,120}  pos={0.05,0},{0,0}  nobg  z=2  img=rbxassetid://341033498
+          TextLabel "TextLabel"  size={1,0},{0,30}  pos={0,0},{1,0}  nobg  text="Moose"  font=SourceSansPro/400  ts=28  tc=#ffffff
+      TextLabel "Expires"  size={0,180},{0,50}  pos={0,0},{1,-50}  nobg  text="Offer end tomorrow"  font=LegacyArial/400  ts=12  tc=#ffffff
+      LocalScript "ShowPromo"  -> scripts/StarterGui/MainGui/Notifications/Blink~2/ShowPromo.client.lua
+    Frame "Blink2"  size={0,450},{0,400}  pos={0.5,-225},{0.5,-150}  HIDDEN  bg=#a3a2a5
+      TextLabel "Title"  size={1,0},{0.15,0}  pos={0,0},{0,0}  nobg  text="Steps"  font=LegacyArial/400  ts=18  tc=#ffffff
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Notifications/Blink2/CancelButton/CLicked.client.lua
+      TextLabel "Step1"  size={1,-20},{0,50}  pos={0,20},{0,40}  nobg  text="1.  Go to store.steampowered.com/2429549"  font=LegacyArial/400  ts=14  tc=#ffffff
+      TextLabel "Step2"  size={1,-20},{0,50}  pos={0,20},{0,100}  nobg  text="2.  Buy and install the game"  font=LegacyArial/400  ts=14  tc=#ffffff
+      TextLabel "Step3"  size={1,-20},{0,50}  pos={0,20},{0,160}  nobg  text="3.  Once you start playing, press the W,A, and P keyboard ke..."  font=LegacyArial/400  ts=14  tc=#ffffff
+      TextLabel "Step4"  size={1,-20},{0,50}  pos={0,20},{0,220}  nobg  text="4. You will then be given a code. Type the code into the spa..."  font=LegacyArial/400  ts=14  tc=#ffffff
+        TextBox "Code"  size={0,200},{0,35}  pos={0.05,0},{1,0}  bg=#ffffff  text="144"  font=SourceSansPro/400  ts=24  tc=#2b2b2b
+          TextButton "Done"  size={0,70},{0,39}  pos={1,0},{0,-2}  bg=#a3a2a5  text="Done"  font=Arial/700  ts=24  tc=#ffffff
+          TextLabel "Invalid"  size={0,100},{0,35}  pos={1,80},{0,0}  nobg  text="Invalid Code"  font=Arial/700  ts=18  tc=#ff0000
+      TextLabel "Step5"  size={1,-20},{0,50}  pos={0,20},{0,320}  nobg  text="5. You're Finished! The furniture is now in your inventory."  font=LegacyArial/400  ts=14  tc=#ffffff
+      LocalScript "CodeValidate"  -> scripts/StarterGui/MainGui/Notifications/Blink2/CodeValidate.client.lua
+    Frame "CoinCount"  size={1,0},{0,70}  pos={0.5,0},{0.7,0}  anchor=(0.5,0)  HIDDEN  bg=#1f1f1f@0.5
+      TextLabel "Amount"  size={1,0},{0.4,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="10400 Moneyz Left"  font=SourceSansPro/400  scaled  tc=#dddddd
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.2
+    Frame "CreateAccount"  size={0,483},{0,361}  pos={0.5,-241},{0.15,-50}  HIDDEN  bg=#ffffff
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff
+      Frame "Cover"  size={1,-20},{0.133,-10}  pos={0,10},{0.867,0}  HIDDEN  bg=#ffffff
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-25},{0,-12}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      Frame "Cover"  size={0.85,0},{0.765,0}  pos={0.1,0},{0.118,0}  HIDDEN  bg=#ffffff
+      Frame "Cover"  size={0.7,0},{0.0882,0}  pos={0.1,0},{0,0}  HIDDEN  bg=#e2e2e2
+      TextLabel "Title"  size={1,0},{0.1,0}  pos={0,0},{0,0}  nobg  text="Create a Roblox Account"  font=Arial/700  ts=24  tc=#3b3b3b
+      LocalScript "createaccount"  -> scripts/StarterGui/MainGui/Notifications/CreateAccount/createaccount.client.lua
+      Frame "Popup"  size={1,34},{1,34}  pos={0,-17},{0,-17}  HIDDEN  bg=#000000@0.5  z=2
+        Frame "Frame"  size={0.5,0},{0.4,0}  pos={0.25,0},{0.2,0}  bg=#ffffff  z=2
+          TextLabel "TextA"  size={1,10},{0,90}  pos={0,-5},{0,-10}  bg=#ffffff  z=2  text="To create an account, click the "Sign up" button in the top ..."  font=Arial/400  ts=18  tc=#1b2a35
+          TextButton "Ok"  size={0.9,0},{0,40}  pos={0.067,0},{0,80}  bg=#ffffff  z=3  text="Ok"  font=LegacyArial/400  ts=14  tc=#d8d8d8
+      TextButton "Ok"  size={0,200},{0,50}  pos={0.3,0},{0.853,0}  bg=#ffffff  text="Ok"  font=Arial/700  ts=24  tc=#ffffff
+      Frame "Points"  size={0.9,0},{0.706,0}  pos={0.05,0},{0.118,0}  bg=#f3f3f3
+        TextLabel "Chat"  size={0.8,0},{0.176,0}  pos={0.211,0},{0.4,5}  nobg  text="Chat with other players"  font=LegacyArial/400  ts=18  tc=#3b3b3b
+          ImageLabel "ImageLabel"  size={0,55},{0,55}  pos={0,-60},{0.5,-28}  nobg  img=rbxassetid://270821681
+        TextLabel "Customize"  size={0.8,0},{0.176,0}  pos={0.211,0},{0.067,5}  nobg  text="Customize your character"  font=LegacyArial/400  ts=18  tc=#3b3b3b
+          ImageLabel "ImageLabel"  size={0,75},{0,75}  pos={0,-70},{0.5,-38}  nobg  img=rbxassetid://270821709
+        TextLabel "Save"  size={0.8,0},{0.176,0}  pos={0.211,0},{0.733,0}  nobg  text="Save your game progress"  font=LegacyArial/400  ts=18  tc=#3b3b3b
+          ImageLabel "ImageLabel"  size={0,55},{0,55}  pos={0,-60},{0.5,-28}  nobg  img=rbxassetid://270821695
+    Frame "EmoteGamepadHelp"  size={0,155},{0,60}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#1f1f1f@0.5  z=9
+      ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://668196301
+      TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,65},{0,0}  nobg  z=10  text="Emotes"  font=SourceSansPro/400  ts=32  tc=#ffffff
+    Frame "EmotesDpadHint"  size={0,300},{0,300}  pos={0,5},{0.5,0}  HIDDEN  nobg
+      ImageLabel "DpadIcon"  size={0,120},{0,120}  pos={0.5,-60},{0.5,-60}  nobg  img=rbxassetid://668196301
+      TextLabel "Left"  size={0.5,-60},{0,35}  pos={0,0},{0.5,-17}  bg=#232323@0.5  text="Laugh"  font=SourceSansPro/700  ts=24  tc=#ffffff
+      TextLabel "Right"  size={0.5,-60},{0,35}  pos={0.5,60},{0.5,-17}  bg=#232323@0.5  text="Trip"  font=SourceSansPro/700  ts=24  tc=#ffffff
+      TextLabel "Down"  size={0,90},{0,35}  pos={0.5,-45},{0.5,60}  bg=#232323@0.5  text="Sad"  font=SourceSansPro/700  ts=24  tc=#ffffff
+      TextLabel "Up"  size={0,90},{0,35}  pos={0.5,-45},{0.5,-95}  bg=#232323@0.5  text="Sad"  font=SourceSansPro/700  ts=24  tc=#ffffff
+    Frame "Hint"  size={0,400},{0,50}  pos={0.5,-200},{0,50}  HIDDEN  bg=#ffffff
+      TextLabel "Label"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Tell the cashier what you want to order."  font=SourceSansPro/400  scaled  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainGui/Notifications/Hint/LocalScript.client.lua
+    Frame "JobChange"  size={0.2,0},{0.12,0}  pos={1,0},{0.8,0}  bg=#ffffff
+      TextLabel "Label"  size={1,0},{0.25,0}  pos={0,0},{0.15,0}  nobg  text="You are now"  font=Arial/700  scaled  tc=#eaeaea
+      TextLabel "JobName"  size={1,0},{0.4,0}  pos={0,0},{0.55,0}  nobg  text="Delivery Person"  font=Arial/700  scaled  tc=#ea7209
+    Frame "MenuGamepadHelp"  size={0,135},{0,60}  pos={0,170},{1,0}  anchor=(0,1)  HIDDEN  bg=#1f1f1f@0.5  z=9
+      ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://871841926
+      TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Menu"  font=SourceSansPro/400  ts=32  tc=#ffffff
+    Frame "Microphone"  size={1,0},{0,220}  pos={0,0},{1,-300}  nobg
+      LocalScript "MicGUI"  -> scripts/StarterGui/MainGui/Notifications/Microphone/MicGUI.client.lua
+      TextLabel "Chat"  size={1,0},{0,75}  pos={0,0},{1,-70}  nobg  text=""  font=Arial/700  scaled  tc=#ffffff
+      LocalScript "MobileResize"  -> scripts/StarterGui/MainGui/Notifications/Microphone/MobileResize.client.lua
+    Frame "PlayerPoints"  size={0,450},{0,400}  pos={0.5,-225},{0,0}  HIDDEN  bg=#a3a2a5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "pointsgui"  -> scripts/StarterGui/MainGui/Notifications/PlayerPoints/CancelButton/pointsgui.client.lua
+      TextLabel "Title"  size={1,0},{0,50}  pos={0,0},{0.059,0}  nobg  text="Player Points Bonus!"  font=LegacyArial/400  ts=24  tc=#ffffff
+      Frame "Frame"  size={1,0},{0,100}  pos={0,0},{0.3,0}  nobg
+        TextLabel "amount"  size={0,250},{-0.059,0}  pos={0.5,-125},{0.529,0}  nobg  text="+40,000"  font=LegacyArial/400  ts=36  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,40},{0,40}  pos={0.73,0},{0.286,0}  nobg  img=http://www.roblox.com/asset/?id=156457155
+      TextLabel "total"  size={1,0},{0.2,0}  pos={0,0},{0.7,0}  nobg  text="You have earn 0 player point so far."  font=LegacyArial/400  ts=18  tc=#ffffff
+    Frame "TestServerMessage"  size={0,450},{0,410}  pos={0.5,-200},{0.15,-50}  HIDDEN  bg=#a3a2a5
+      TextLabel "Title"  size={1,0},{0,60}  pos={0,0},{0,0}  nobg  text="Welcome to the test server!"  font=Arial/700  ts=28  tc=#ffffff
+      LocalScript "TestServerMessage"  -> scripts/StarterGui/MainGui/Notifications/TestServerMessage/TestServerMessage.client.lua
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Notifications/TestServerMessage/CancelButton/CLicked.client.lua
+      TextLabel "Update"  size={1,-50},{1,-90}  pos={0,25},{0,100}  nobg  text="* Player-created videos for your TV - A modern TV has been a..."  font=Arial/400  ts=22  tc=#ffffff
+      TextLabel "Three"  size={1,0},{0,30}  pos={0,0},{0,60}  nobg  text="Updates"  font=Arial/700  ts=24  tc=#ffffff
+    Frame "Unlimted"  size={0,450},{0,300}  pos={0.5,-225},{0.5,-150}  HIDDEN  bg=#a3a2a5
+      TextLabel "Title"  size={1,0},{0.25,0}  pos={0,40},{0,0}  nobg  text="Unlimited Pass Ending"  font=LegacyArial/400  ts=18  tc=#ffffff
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+        LocalScript "CLicked"  -> scripts/StarterGui/MainGui/Notifications/Unlimted/CancelButton/CLicked.client.lua
+      ImageLabel "Monkey"  size={0.2,0},{0.3,0}  pos={0.05,0},{0,0}  nobg  img=rbxassetid://455548311
+      TextLabel "TextLabel"  size={0.85,0},{0.2,0}  pos={0.1,0},{0.3,0}  nobg  text="Starting right now, your Moneyz will no longer refill when y..."  font=LegacyArial/400  ts=14  tc=#fff9f9
+      TextLabel "Title"  size={1,0},{0.25,0}  pos={0,0},{0,-69}  nobg  text="Important!"  font=SourceSansPro/700  ts=36  tc=#ffffff
+      TextLabel "TextLabel"  size={0.85,0},{0.3,0}  pos={0.1,0},{0.5,0}  nobg  text="Trading and collectible furniture will be added in a future ..."  font=LegacyArial/400  ts=11  tc=#fff9f9
+      LocalScript "Unlimited"  -> scripts/StarterGui/MainGui/Notifications/Unlimted/Unlimited.client.lua
+    Frame "FurniturePlacementHelp"  size={0,600},{0,60}  pos={1,0},{1,0}  anchor=(1,1)  HIDDEN  nobg  z=10
+      Frame "Place"  size={0,135},{0,60}  pos={0,0},{1,0}  anchor=(0,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663428369
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Place"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      Frame "BButton"  size={0,150},{0,60}  pos={0.75,0},{1,0}  anchor=(0.5,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663551304
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Cancel"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      Frame "Rotate"  size={0,150},{0,60}  pos={0.4,0},{1,0}  anchor=(0.5,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://685454225
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Rotate"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,10}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+    Frame "HangGliderHelp"  size={0,600},{0,60}  pos={1,0},{1,0}  anchor=(1,1)  HIDDEN  nobg  z=10
+      Frame "ControlGlider"  size={0,240},{0,60}  pos={0,0},{1,0}  anchor=(0,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://814583213
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Control Glider"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      Frame "HoldToFly"  size={0,200},{0,60}  pos={0.4,0},{1,0}  anchor=(0.5,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://808316572
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Hold to Fly"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,20}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+    Frame "PaintBucketHelp"  size={0,600},{0,60}  pos={1,0},{1,0}  anchor=(1,1)  HIDDEN  nobg  z=10
+      Frame "PickColor"  size={0,190},{0,60}  pos={0,0},{1,0}  anchor=(0,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://808317359
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Pick Color"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      Frame "Paint"  size={0,130},{0,60}  pos={0.4,0},{1,0}  anchor=(0.5,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://808316572
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Paint"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,10}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+    Frame "DeleteFurnitureHelp"  size={0,600},{0,60}  pos={1,0},{1,0}  anchor=(1,1)  HIDDEN  nobg  z=10
+      Frame "HoldToFly"  size={0,260},{0,60}  pos={0.4,0},{1,0}  anchor=(0.5,1)  bg=#1f1f1f@0.5  z=10
+        ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://808316572
+        TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,60},{0,0}  nobg  z=10  text="Delete Furniture"  font=SourceSansPro/400  ts=36  tc=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,20}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+  Frame "Other"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    Frame "VirtualCarControlls"  size={0.3,0},{0.16,10}  pos={0.95,0},{0.95,0}  anchor=(1,1)  HIDDEN  nobg
+      ImageButton "Reverse"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=https://www.roblox.com/asset/?id=97166444
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageLabel "ActionIcon"  size={0.65,0},{0.65,0}  pos={0.175,0},{0.175,0}  nobg  rot=180  img=rbxassetid://773343099  imgcol=#d8d8d8
+      ImageButton "Throttle"  size={1,0},{1,0}  pos={0.5,0},{0,0}  nobg  img=https://www.roblox.com/asset/?id=97166444
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageLabel "ActionIcon"  size={0.65,0},{0.65,0}  pos={0.175,0},{0.175,0}  nobg  img=rbxassetid://773343099  imgcol=#d8d8d8
+    Frame "PaintBucketColors"  size={0.2,0},{1,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#111111@0.2
+      Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0,0}  nobg  z=2
+        TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#a4bd47  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+      Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.125,0}  nobg  z=2
+        TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#f8f8f8  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+      Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.25,0}  nobg  z=2
+        TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#7f8e64  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+      Frame "Frame"  size={0.125,0},{0.125,0}  pos={0,0},{0.375,0}  nobg  z=2
+        TextButton "TextButton"  size={1,-4},{1,-4}  pos={0,2},{0,2}  bg=#d7c59a  z=2  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+      ... +60 more Frame "Frame"
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    Frame "Whistle"  size={1,0},{0,110}  pos={0.5,0},{1,0}  anchor=(0.5,1)  HIDDEN  bg=#1f1f1f@0.5
+      TextButton "CancelButton"  size={0,34},{0,34}  pos={1,-32},{0,-2}  bg=#a3a2a5  text=""  font=Arial/700  ts=24  tc=#ffffff
+        ImageLabel "ImageLabel"  size={0,16},{0,16}  pos={0,-2},{0,-2}  nobg  img=http://www.roblox.com/asset?id=54135717
+      LocalScript "Whistle"  -> scripts/StarterGui/MainGui/Other/Whistle/Whistle.client.lua
+      Frame "Notes"  size={1,-34},{1,0}  pos={0,0},{0,0}  nobg
+        UIGridLayout "UIGridLayout"  CellSize={0.0714,0},{1,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+      IntValue "PopSoundDisabled"  Value=0
+      TextButton "Template"  size={0.1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#515151  text="A"  font=SourceSansPro/400  scaled  tc=#ffffff
+
+==== StarterGui.GuiManager  (14 descendants)
+ModuleScript "GuiManager"  -> scripts/StarterGui/GuiManager.lua
+  ModuleScript "Button"  -> scripts/StarterGui/GuiManager/Button.lua
+  ModuleScript "Window"  -> scripts/StarterGui/GuiManager/Window.lua
+    Frame "CancelGamepadHint"  size={0,163},{0,60}  pos={1,0},{1,5}  anchor=(1,0)  bg=#1f1f1f@0.5  z=10
+      ImageLabel "Icon"  size={0,60},{0,60}  pos={0,0},{0,0}  nobg  z=10  img=rbxassetid://663551304
+      TextLabel "TextLabel"  size={1,-51},{1,0}  pos={0,65},{0,0}  nobg  z=10  text="Cancel"  font=SourceSansPro/400  ts=32  tc=#ffffff
+  ModuleScript "TabGroup"  -> scripts/StarterGui/GuiManager/TabGroup.lua
+    ModuleScript "Tab"  -> scripts/StarterGui/GuiManager/TabGroup/Tab.lua
+  ModuleScript "ListView"  -> scripts/StarterGui/GuiManager/ListView.lua
+    ModuleScript "ListItem"  -> scripts/StarterGui/GuiManager/ListView/ListItem.lua
+  ModuleScript "ToggleButton"  -> scripts/StarterGui/GuiManager/ToggleButton.lua
+  ModuleScript "Slider"  -> scripts/StarterGui/GuiManager/Slider.lua
+  ModuleScript "RadialMenu"  -> scripts/StarterGui/GuiManager/RadialMenu.lua
+  ModuleScript "DropdownMenu"  -> scripts/StarterGui/GuiManager/DropdownMenu.lua
+  ModuleScript "TextInput"  -> scripts/StarterGui/GuiManager/TextInput.lua
+
+==== StarterGui.UIEvents  (14 descendants)
+Folder "UIEvents"
+  BindableEvent "TabChanged"
+  BindableEvent "ListItemPressed"
+  BindableEvent "ButtonPressed"
+  BindableEvent "WindowVisibilityChanged"
+  BindableEvent "TopbarButtonPressed"
+  BindableEvent "ToggleButtonPressed"
+  BindableEvent "SliderMoved"
+  BindableEvent "SliderStopped"
+  BindableEvent "DropDownMenuOptionSelected"
+  BindableEvent "WindowManuallyClosed"
+  BindableEvent "ColorPicker"
+  BindableEvent "DropDownMenuOpened"
+  BindableEvent "TextInputChanged"
+  BindableEvent "TextInputFocusLost"
+
+==== StarterGui.WorkTool  (16 descendants)
+LocalScript "WorkTool"  -> scripts/StarterGui/WorkTool.client.lua
+  FloorWire "FloorWire"
+  SurfaceGui "SupplyBoxSpot"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=Workspace.Spots.SupplyBoxSpot  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168536652
+  SurfaceGui "BoxSpot"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=Workspace.Spots.BoxSpot  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168536652
+  SurfaceGui "DewSpot2"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=Workspace.Spots.DewSpot2  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168534821
+  SurfaceGui "DewSpot"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=Workspace.Spots.DewSpot  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168534821
+  SurfaceGui "OvenSpot"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=Workspace.Spots.OvenSpot  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168534821
+  SurfaceGui "TableSpot"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=Workspace.Spots.TableSpot  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168534821
+  BillboardGui "ArrowBillboardGui"  size={2,0},{2,0}  Enabled=False  Size={2,0},{2,0}  StudsOffset=(0,3,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=Workspace.Spots.OvenSpot
+    ImageLabel "Arrow"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=90  img=http://www.roblox.com/asset/?id=168194931  imgT=0.5
+  BoolValue "CameraLock"  Value=False
+
+==== StarterGui.ChooseJob  (31 descendants)
+ScreenGui "ChooseJob"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "ChooseJob"  size={1,0},{1,0}  pos={0,0},{0,-3}  HIDDEN  nobg
+    Frame "Label"  size={1,0},{0.15,0}  pos={0,0},{0,-36}  bg=#ffffff
+      TextLabel "label"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Choose a Job"  font=Arial/700  scaled  tc=#ffffff
+    Frame "JobName"  size={0.3,0},{0.08,10}  pos={0.35,0},{0.7,-20}  bg=#ffffff
+      TextLabel "name"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Pizza Boxer"  font=Arial/700  scaled  tc=#ff9808
+    Frame "Chooser"  size={0.6,60},{0.15,25}  pos={0.2,-30},{0.8,-20}  bg=#ffffff
+      TextButton "Choose"  size={0.4,0},{1,0}  pos={0.3,0},{0,0}  bg=#000000  text="Choose"  font=Arial/700  scaled  tc=#ffffff
+        Frame "Frame"  size={1,20},{1,20}  pos={0,-10},{0,-10}  HIDDEN  bg=#000000@0.2
+          ImageLabel "ImageLabel"  size={0,150},{1,0}  pos={0.5,-75},{0,0}  nobg  img=rbxassetid://290213591
+            LocalScript "LocalScript"  -> scripts/StarterGui/ChooseJob/ChooseJob/Chooser/Choose/Frame/ImageLabel/LocalScript.client.lua
+            Script "Script"  -> scripts/StarterGui/ChooseJob/ChooseJob/Chooser/Choose/Frame/ImageLabel/Script.server.lua
+      ImageButton "Next"  size={0.15,0},{1,0}  pos={0.85,0},{0,0}  bg=#ffffff  rot=180  img=http://www.roblox.com/asset/?id=315464751
+      ImageButton "Previous"  size={0.15,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=315464751
+      Frame "AButton"  size={0,250},{0,66}  pos={0.5,-125},{0.5,-33}  HIDDEN  nobg
+        ImageLabel "Icon"  size={0,66},{0,66}  pos={0,0},{0,0}  nobg  img=rbxassetid://663428369
+        TextLabel "TextLabel"  size={1,-66},{0,66}  pos={0,71},{0,0}  nobg  z=2  text="Choose"  font=LegacyArial/400  ts=32  tc=#ffffff
+        Frame "Lock"  size={1,20},{2,20}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#000000@0.2  z=3
+          ImageLabel "ImageLabel"  size={0,150},{1,0}  pos={0.5,-75},{0,0}  nobg  z=3  img=rbxassetid://290213591
+            LocalScript "LocalScript"  -> scripts/StarterGui/ChooseJob/ChooseJob/Chooser/AButton/Lock/ImageLabel/LocalScript.client.lua
+    LocalScript "ChooseJob"  -> scripts/StarterGui/ChooseJob/ChooseJob/ChooseJob.client.lua
+  Frame "Play"  size={1,20},{0.2,20}  pos={0,-10},{0.8,-20}  HIDDEN  bg=#1f1f1f@0.5
+    TextButton "Play"  size={0.4,0},{0.8,0}  pos={0.3,0},{0.1,0}  bg=#000000  text="Play"  font=Arial/700  scaled  tc=#ffffff
+    Frame "AButton"  size={0,170},{0,66}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+      ImageLabel "Icon"  size={0,66},{0,66}  pos={0,0},{0,0}  nobg  img=rbxassetid://663428369
+      TextLabel "TextLabel"  size={1,-66},{0,66}  pos={0,71},{0,0}  nobg  z=10  text="Start"  font=LegacyArial/400  ts=32  tc=#ffffff
+  Frame "ChooseCharacter"  size={0.455,0},{0.235,0}  pos={0.3,0},{0.3,0}  HIDDEN  bg=#ffffff
+    TextButton "Girl"  size={0.409,0},{0.733,0}  pos={0.545,0},{0.118,0}  bg=#ff6ede  text="Girl"  font=SourceSansPro/400  ts=36  tc=#ffffff
+    TextButton "Boy"  size={0.409,0},{0.733,0}  pos={0.05,0},{0.118,0}  bg=#60b2ff  text="Boy"  font=SourceSansPro/400  ts=36  tc=#ffffff
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+  Frame "PlugInGamepad"  size={0,600},{0,100}  pos={0.5,0},{0.3,0}  anchor=(0.5,0.5)  HIDDEN  bg=#1f1f1f@0.5
+    TextLabel "TextLabel"  size={0,200},{0,50}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Connect your Xbox controller to your computer to continue."  font=SourceSansPro/400  ts=28  tc=#ffffff
+
+==== Workspace.Tables.Table.Wood.Dirty  (7 descendants)
+SurfaceGui "Dirty"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Yellow3"  size={0,200},{0,200}  pos={0,0},{0,200}  nobg  img=http://www.roblox.com/asset/?id=263935015
+  ImageLabel "Brown1"  size={0,100},{0,100}  pos={0,300},{0,0}  nobg  img=http://www.roblox.com/asset/?id=263949240
+  ImageLabel "Yellow2"  size={0,200},{0,200}  pos={0,300},{0,90}  nobg  img=http://www.roblox.com/asset/?id=263937025
+  ImageLabel "Yellow1"  size={0,100},{0,100}  pos={0,200},{0,300}  nobg  img=http://www.roblox.com/asset/?id=263938465
+  ImageLabel "Red1"  size={0,100},{0,100}  pos={0,100},{0,100}  nobg  img=http://www.roblox.com/asset/?id=263949179
+  ImageLabel "Green1"  size={0,100},{0,100}  pos={0,400},{0,400}  nobg  img=http://www.roblox.com/asset/?id=263944965
+  ImageLabel "Green2"  size={0,200},{0,200}  pos={0,100},{0,400}  nobg  rot=180  img=http://www.roblox.com/asset/?id=263944994
+
+==== Workspace.Ingredients.Sausage.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=167850856
+
+==== Workspace.Ingredients.TomatoSauce.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=167850867
+
+==== Workspace.BoxSpot  (1 descendants)
+SurfaceGui "BoxSpot"  Enabled=False  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=168536652
+
+==== Workspace.House.Mailbox.Head.LabelFront  (1 descendants)
+SurfaceGui "LabelFront"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="A1"  font=Arial/700  ts=48  tc=#ffffff
+
+==== Workspace.House.Mailbox.Head.LabelBack  (1 descendants)
+SurfaceGui "LabelBack"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="A1"  font=Arial/700  ts=48  tc=#ffffff
+
+==== Workspace.House.PlayerList.BillboardGui  (4 descendants)
+BillboardGui "BillboardGui"  size={100,100},{100,100}  Enabled=False  Size={100,100},{100,100}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,1)  nobg
+    UIGridLayout "UIGridLayout"  CellSize={0.1,0},{0.1,0}  CellPadding={0.01,0},{0.01,0}  FillDirectionMaxCells=0
+    ImageLabel "Template"  size={0.2,0},{0.4,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://873941677
+      Frame "WhiteBackground"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff
+
+==== Workspace.EmployeeOfTheDay.PlayerName.PlayerName  (1 descendants)
+SurfaceGui "PlayerName"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "PlayerName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#000000
+
+==== Workspace.EmployeeOfTheDay.Headshot.Headshot  (1 descendants)
+SurfaceGui "Headshot"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Headshot"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== Workspace.EmployeeOfTheDay.Title.Title  (1 descendants)
+SurfaceGui "Title"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Employee of the day"  font=SourceSansPro/400  ts=36  tc=#000000
+
+==== Workspace.EmployeeOfTheDay.PlayerName.PlayerName  (1 descendants)
+SurfaceGui "PlayerName"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "PlayerName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#000000
+
+==== Workspace.EmployeeOfTheDay.Headshot.Headshot  (1 descendants)
+SurfaceGui "Headshot"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Headshot"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== Workspace.EmployeeOfTheDay.Title.Title  (1 descendants)
+SurfaceGui "Title"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Employee of the day"  font=SourceSansPro/400  ts=36  tc=#000000
+
+==== ReplicatedStorage.Recipes.a.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.9,0},{0.9,0}  pos={0.05,0},{0.05,0}  nobg  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...
+
+==== ReplicatedStorage.Recipes.a.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.9,0},{0.9,0}  pos={0.05,0},{0.05,0}  nobg  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...
+
+==== ServerScriptService.Players.Player.Explorer  (7 descendants)
+ScreenGui "Explorer"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "ExplorerPanel"  size={0,300},{1,-168}  pos={1,-308},{0,160}  bg=#ffffff@0.1
+    LocalScript "LocalScript"  -> scripts/ServerScriptService/Players/Player/Explorer/ExplorerPanel/LocalScript.client.lua
+    BindableEvent "SelectionChanged"
+    BindableFunction "SetOption"
+    BindableFunction "SetSelection"
+    BindableFunction "GetOption"
+    BindableFunction "GetSelection"
+
+==== ServerScriptService.MainModule.Seats.Tot Chair.Border2.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  SurfaceGui "SurfaceGui"  Enabled=False  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=ServerScriptService.MainModule.Seats.Tot Chair.Border2  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=140222326
+
+==== ServerScriptService.MainModule.Seats.Cloud Chair.Border2.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  SurfaceGui "SurfaceGui"  Enabled=False  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=ServerScriptService.MainModule.Seats.Cloud Chair.Border2  AlwaysOnTop=False
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=140222326
+
+==== ServerScriptService.MainModule.Customization.Friend Door.DoorClosed.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=ServerScriptService.MainModule.Customization.Friend Door.DoorClosed  AlwaysOnTop=False
+  TextLabel "name"  size={0,500},{0,400}  pos={0,0},{0,0}  nobg  text="Friends Only"  font=LegacyArial/400  ts=48  tc=#efefef
+
+==== ServerScriptService.MainModule.Customization.Friend Door.DoorClosed.SG2  (1 descendants)
+SurfaceGui "SG2"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "name"  size={0,500},{0,400}  pos={0,0},{0,0}  nobg  text="Friends Only"  font=LegacyArial/400  ts=48  tc=#efefef
+
+==== ServerScriptService.MainModule.Customization.Kick Button.Button.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "name"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Kick"  font=LegacyArial/400  ts=48  tc=#ffffff
+
+==== ServerScriptService.MainModule.Customization.Owner Door.DoorClosed.SG2  (1 descendants)
+SurfaceGui "SG2"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "name"  size={0,500},{0,400}  pos={0,0},{0,0}  nobg  text="Owner Only"  font=LegacyArial/400  ts=48  tc=#ffffff
+
+==== ServerScriptService.MainModule.Customization.Pixel Art Canvas.Sign.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=ServerScriptService.MainModule.Customization.Pixel Art Canvas.Sign  AlwaysOnTop=False
+  Frame "Canvas"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff
+
+==== ServerScriptService.MainModule.Entertainment.DJ Set.DjName.Coiner  (1 descendants)
+SurfaceGui "Coiner"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=Arial/700  ts=48  tc=#ffffff
+
+==== ServerScriptService.MainModule.Entertainment.MacBook.White.Coiner  (1 descendants)
+SurfaceGui "Coiner"  Enabled=True  Face=4  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  img=http://www.roblox.com/asset/?id=161099140
+
+==== ServerScriptService.MainModule.Entertainment.Disco Floor.Tile.Disco  (16 descendants)
+SurfaceGui "Disco"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Tile"  size={0.25,0},{0.25,0}  pos={0,0},{0,0}  bg=#b72b9d
+  Frame "Tile"  size={0.25,0},{0.25,0}  pos={0.25,0},{0,0}  bg=#d804ab
+  Frame "Tile"  size={0.25,0},{0.25,0}  pos={0.5,0},{0,0}  bg=#778b2f
+  Frame "Tile"  size={0.25,0},{0.25,0}  pos={0.75,0},{0,0}  bg=#5507ee
+  ... +12 more Frame "Tile"
+
+==== ServerScriptService.MainModule.Entertainment.Varknox TV.Screen.SurfaceGui  (3 descendants)
+SurfaceGui "SurfaceGui"  Enabled=False  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Screen"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+  TextLabel "Caption"  size={0.9,0},{0.3,0}  pos={0.5,0},{0.95,0}  anchor=(0.5,1)  HIDDEN  nobg  text="What are you doing?"  font=SourceSansPro/400  ts=27  tc=#ffffff
+  TextLabel "Title"  size={0.95,0},{0.2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,1)  HIDDEN  nobg  text="Title"  font=SourceSansPro/400  ts=40  tc=#ffffff
+
+==== ServerStorage.Coin.Coiner  (2 descendants)
+BillboardGui "Coiner"  size={0,150},{0,100}  Enabled=False  Size={0,150},{0,100}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "Amount"  size={0,70},{0,40}  pos={0.5,-35},{0,0}  nobg  z=3  text="+200"  font=SourceSansPro/700  ts=36  tc=#ffffff
+  TextLabel "Creator"  size={1,0},{0,60}  pos={0,0},{0.5,-15}  nobg  z=3  text="Dued1dsddsds"  font=SourceSansPro/700  ts=18  tc=#ffffff
+
+==== ServerStorage.Supplies.Dough.SG  (1 descendants)
+SurfaceGui "SG"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== ServerStorage.Supplies.Dragger.SG  (2 descendants)
+SurfaceGui "SG"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== ServerStorage.XBillboard  (2 descendants)
+BillboardGui "XBillboard"  size={3,0},{3,0}  Enabled=True  Size={3,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "X"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=http://www.roblox.com/asset/?id=168397389
+
+==== ServerStorage.SupplyParticle.SG  (1 descendants)
+BillboardGui "SG"  size={3,0},{3,0}  Enabled=True  Size={3,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=ServerStorage.SupplyParticle
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/Thumbs/Asset.ashx?Width=110&Height=110&AssetID=1...  imgT=0.3
+
+==== ServerStorage.Vehicles.Car.Image.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=False  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=321458418
+
+==== ServerStorage.Vehicles.Car.Image.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=False  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=321458418
+
+==== ServerStorage.Houses.House2.MAILBOX.Head.SG2  (1 descendants)
+SurfaceGui "SG2"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="A1"  font=Arial/700  ts=48  tc=#ffffff
+
+==== ServerStorage.Houses.House3.MAILBOX.Head.SG2  (1 descendants)
+SurfaceGui "SG2"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="A1"  font=Arial/700  ts=48  tc=#ffffff
+
+==== ServerStorage.Portal.Head.Coiner  (1 descendants)
+SurfaceGui "Coiner"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=197294101
+
+==== ServerStorage.CatalogCache.Spray Paint.SprayGui  (4 descendants)
+ScreenGui "SprayGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Frame"  size={0,220},{0,265}  pos={1,-220},{1,-265}  bg=#a3a2a5
+    Frame "Frame"  size={0,200},{0,40}  pos={0.5,-100},{0,0}  bg=#a3a2a5
+      TextButton "ChooseDecal"  size={1,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff  text="Choose Decal"  font=SourceSansPro/400  ts=28  tc=#ffffff
+    ImageLabel "ImageLabel"  size={0,200},{0,200}  pos={0.5,-100},{1,-200}  bg=#808080@0.5
+
+==== ServerStorage.CatalogCache.Race the Sunset.PlatformerGui  (38 descendants)
+ScreenGui "PlatformerGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Background"  size={1,100},{1,100}  pos={0,-50},{0,-50}  HIDDEN  bg=#000000
+  Frame "GameFrame"  size={0,600},{0,400}  pos={0.5,-300},{0.5,-200}  nobg  z=2
+    Frame "MoveFrame"  size={0,0},{0,0}  pos={0.5,-200},{0.5,-300}  nobg  z=2
+      Frame "Map"  size={0,0},{0,0}  pos={0,0},{0,0}  bg=#a3a2a5  z=2
+        ImageLabel "Land2"  size={0,280},{0,140}  pos={0,-15},{0,330}  nobg  z=5  img=http://www.roblox.com/asset/?id=72484254
+        ImageLabel "Land1"  size={0,350},{0,100}  pos={0,190},{0,330}  nobg  z=5  img=http://www.roblox.com/asset/?id=72484283
+      ImageLabel "Character"  size={0,30},{0,30}  pos={0,0},{0,300}  nobg  z=6  img=http://www.roblox.com/asset/?id=73014404
+      Frame "Effects"  size={0,0},{0,0}  pos={0,0},{0,0}  bg=#a3a2a5  z=2
+      Frame "Bonus"  size={0,0},{0,0}  pos={0,0},{0,0}  bg=#a3a2a5  z=2
+    ImageLabel "Sky"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=74754815
+    ImageLabel "BlackFade"  size={1,20},{1,20}  pos={0,-10},{1.5,-10}  nobg  z=8  img=http://www.roblox.com/asset/?id=73173361
+      Frame "Frame"  size={1,0},{2,0}  pos={0,0},{1,0}  bg=#000000  z=8
+    TextLabel "Score"  size={0,0},{0,0}  pos={0,4},{0,4}  bg=#a3a2a5  z=5  text="0"  font=Arial/700  ts=18  tc=#ffffff
+    Frame "WhiteFrame"  size={1,100},{1,100}  pos={0,-50},{0,-50}  nobg  z=10
+    Frame "BlackFrame"  size={1,100},{1,100}  pos={0,-50},{0,-50}  nobg  z=10
+    ImageLabel "TitlePage"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000  z=8  img=http://www.roblox.com/asset/?id=74753152
+      TextButton "Play"  size={0,200},{0,40}  pos={0.5,-180},{0,250}  bg=#a3a2a5  z=8  text="Play"  font=Arial/700  ts=24  tc=#ffffff
+      TextButton "Controls"  size={0,200},{0,40}  pos={0.5,-180},{0,305}  bg=#a3a2a5  z=8  text="Controls"  font=Arial/700  ts=24  tc=#ffffff
+      ImageLabel "Character"  size={0,45},{0,45}  pos={0,220},{0,87}  nobg  z=9  img=http://www.roblox.com/asset/?id=73014404
+    ImageLabel "ScorePage"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000  z=9
+      TextButton "Okay"  size={0,200},{0,40}  pos={0.5,-100},{0,320}  bg=#a3a2a5  z=9  text="Ok"  font=Arial/700  ts=24  tc=#ffffff
+      TextLabel "BestScore"  size={0,0},{0,0}  pos={0.5,0},{0,120}  bg=#a3a2a5  z=9  text="Best Score: 874382"  font=LegacyArial/400  ts=11  tc=#ffffff
+      TextLabel "Title"  size={0,0},{0,0}  pos={0.5,0},{0,50}  nobg  z=9  text="High Scores"  font=Arial/700  ts=24  tc=#ffffff
+      TextLabel "LastLight"  size={0,0},{0,0}  pos={0.5,0},{0,260}  bg=#a3a2a5  z=9  text="Light Collected: 6"  font=LegacyArial/400  ts=11  tc=#ffffff
+      TextLabel "BestDist"  size={0,0},{0,0}  pos={0.5,0},{0,140}  bg=#a3a2a5  z=9  text="Best Distance: 345643"  font=LegacyArial/400  ts=11  tc=#ffffff
+      TextLabel "LastScore"  size={0,0},{0,0}  pos={0.5,0},{0,220}  bg=#a3a2a5  z=9  text="Score: 345523"  font=LegacyArial/400  ts=11  tc=#ffffff
+      TextLabel "BestLight"  size={0,0},{0,0}  pos={0.5,0},{0,160}  bg=#a3a2a5  z=9  text="Best Light Collected: 15"  font=LegacyArial/400  ts=11  tc=#ffffff
+      TextLabel "LastDist"  size={0,0},{0,0}  pos={0.5,0},{0,240}  bg=#a3a2a5  z=9  text="Distance: 345523"  font=LegacyArial/400  ts=11  tc=#ffffff
+    ImageLabel "Paused"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=9  img=http://www.roblox.com/asset/?id=74299555
+    ImageLabel "Controls"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000  z=9  img=http://www.roblox.com/asset/?id=74304727
+      TextLabel "Title"  size={0,0},{0,0}  pos={0.5,0},{0,35}  nobg  z=9  text="Controls"  font=Arial/700  ts=24  tc=#ffffff
+      TextButton "Back"  size={0,200},{0,40}  pos={0.5,-100},{0,345}  bg=#a3a2a5  z=9  text="Back"  font=Arial/700  ts=24  tc=#ffffff
+    ImageLabel "Mountians1"  size={1,0},{1,0}  pos={0,0},{0.15,0}  nobg  z=4  img=http://www.roblox.com/asset/?id=74734792
+      ImageLabel "Mountians"  size={1,0},{1,0}  pos={1,0},{0,0}  nobg  z=4  img=http://www.roblox.com/asset/?id=74734792
+    ImageLabel "Mountians2"  size={1,0},{1,0}  pos={0,0},{0.25,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=74734757
+      ImageLabel "Mountians"  size={1,0},{1,0}  pos={1,0},{0,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=74734757
+    ImageLabel "Mountians3"  size={1,0},{1,0}  pos={0,0},{0.5,0}  nobg  z=2  img=http://www.roblox.com/asset/?id=74734717
+      ImageLabel "Mountians"  size={1,0},{1,0}  pos={1,0},{0,0}  nobg  z=2  img=http://www.roblox.com/asset/?id=74734717
+
+==== ServerStorage.PetObjects.Pet.NameBillboard  (1 descendants)
+BillboardGui "NameBillboard"  size={2,0},{0.6,0}  Enabled=True  Size={2,0},{0.6,0}  StudsOffset=(0,1,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "PetName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+
+==== ServerStorage.HostBillboardGui  (1 descendants)
+BillboardGui "HostBillboardGui"  size={5,0},{0.8,0}  Enabled=True  Size={5,0},{0.8,0}  StudsOffset=(0,3,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Host"  font=SourceSansPro/300  scaled  tc=#ffffff
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SG" under Workspace: 92 copies
+SurfaceGui "PlayerName" under Workspace: 3 copies
+SurfaceGui "Headshot" under Workspace: 3 copies
+SurfaceGui "Title" under Workspace: 3 copies
+SurfaceGui "SG" under ReplicatedStorage: 14 copies
+SurfaceGui "SG" under ServerScriptService: 13 copies
+SurfaceGui "SurfaceGui" under ServerScriptService: 7 copies
+SurfaceGui "Coiner" under ServerScriptService: 3 copies
+SurfaceGui "SG" under ServerStorage: 24 copies
+SurfaceGui "SurfaceGui" under ServerStorage: 69 copies
+SurfaceGui "SG2" under ServerStorage: 11 copies

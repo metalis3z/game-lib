@@ -1,0 +1,15 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ReplicatedStorage/Zombie/Animate.server.lua lines 1
+       very long line (7681 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Zombie/Avatar.server.lua lines 19
+       InsertService:LoadAsset (pulls models at runtime)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  2706921217  in scripts/Workspace/Lobby/Stuff/Chest/Screen/Script.server.lua
+
+Outside URLs in code:
+  https://devforum.roblox.com/t/2451549  in scripts/StarterPlayer/StarterPlayerScripts/Satchel.client.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Modules/TopbarPlusForeverHD.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel/Packages/_Index/legitatx_topbarplus@3.0.5/topbarplus.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Modules/TopbarPlusForeverHD.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel/Packages/_Index/legitatx_topbarplus@3.0.5/topbarplus.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Modules/TopbarPlusForeverHD/Utility.lua, scripts/StarterPlayer/StarterPlayerScripts/Satchel/Satchel/Packages/_Index/legitatx_topbarplus@3.0.5/topbarplus/Utility.lua

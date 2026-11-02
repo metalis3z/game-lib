@@ -1,0 +1,103 @@
+local l_ReplicatedStorage_0 = game:GetService("ReplicatedStorage");
+local l_Players_0 = game:GetService("Players");
+local l_Packages_0 = l_ReplicatedStorage_0:WaitForChild("Packages");
+local v3 = require(l_Packages_0.Observers);
+local v4 = require(l_Packages_0.Synchronizer);
+local v5 = require(l_Packages_0.Signal);
+local v6 = require(l_ReplicatedStorage_0.Packages.Net);
+local v7 = require(l_ReplicatedStorage_0.Packages.Trove);
+local l_Classes_0 = l_ReplicatedStorage_0:WaitForChild("Classes");
+local v9 = require(l_Classes_0.AnimalClient);
+local v10 = {};
+local l_LocalPlayer_0 = l_Players_0.LocalPlayer;
+local l_FireServer_0 = Instance.new("RemoteEvent").FireServer;
+local v13 = v6:RemoteEvent("156ed911-fc4b-4d24-a648-acd1e9761e4f");
+local v14 = v6:RemoteEvent("f756228f-15f8-4b6d-93a4-dfe62bb409cb");
+local v33 = {
+	OnAnimalSpawn = v5.new(), 
+	OnAnimalDestroyed = v5.new(), 
+	OnFollowingChanged = v5.new(), 
+	HasAnimalMovingToBase = function(_, _)
+		for _, v18 in pairs(v10) do
+			local l_Instance_0 = v18.Instance;
+			local v20 = l_Instance_0 and l_Instance_0.PrimaryPart;
+			local v21 = v20 and v20:FindFirstChild("PromptAttachment");
+			local v22 = v21 and v21:FindFirstChild("ProximityPrompt");
+			if v22 and v22:GetAttribute("TargetPlayer") == l_LocalPlayer_0.UserId then
+				return v18;
+			end;
+		end;
+	end, 
+	HasAnimal = function(_, v24, v25)
+		local v26 = v25 or 1;
+		local v27 = v4:Get(l_LocalPlayer_0);
+		if not v27 then
+			return false;
+		else
+			local v28 = 0;
+			local v29 = {};
+			for v30, v31 in v27:Get("AnimalPodiums") do
+				if v31 ~= "Empty" and v31.Index == v24 then
+					v28 = v28 + 1;
+					table.insert(v29, v30);
+				end;
+			end;
+			return v26 <= v28, v29;
+		end;
+	end, 
+	GetAnimals = function(_)
+		return v10;
+	end
+};
+v33.Start = function(_)
+	v3.observeTag("Animal", function(v35)
+		local v36 = v9.new(v35);
+		v10[v36:GetUID()] = v36;
+		v36.Collector:Add(v3.observeTag("AnimalPurchasePrompt", function(v37)
+			return v3.observeAttribute(v37, "TargetPlayer", function(v38)
+				v33.OnFollowingChanged:Fire(v36.Index, v36.UID, v38);
+				return nil;
+			end);
+		end, {
+			v36.Instance
+		}));
+		v33.OnAnimalSpawn:Fire(v36);
+		return function()
+			local l_UID_0 = v36.UID;
+			v36:Destroy();
+			v10[l_UID_0] = nil;
+			v33.OnAnimalDestroyed:Fire(l_UID_0);
+		end;
+	end);
+	v3.observeTag("AnimalPurchasePrompt", function(v40)
+		local v41 = v7.new();
+		local function v44()
+			local l_v40_0 = v40;
+			local v43 = false;
+			if v40:GetAttribute("TargetPlayer") ~= l_LocalPlayer_0.UserId then
+				v43 = not v40:GetAttribute("Disabled");
+			end;
+			l_v40_0.Enabled = v43;
+		end;
+		v41:Add(v40:GetAttributeChangedSignal("TargetPlayer"):Connect(v44));
+		v41:Add(v40:GetAttributeChangedSignal("Disabled"):Connect(v44));
+		local v45 = false;
+		if v40:GetAttribute("TargetPlayer") ~= l_LocalPlayer_0.UserId then
+			v45 = not v40:GetAttribute("Disabled");
+		end;
+		v40.Enabled = v45;
+		v45 = v40:GetAttribute("UID");
+		v41:Add(v40.PromptButtonHoldBegan:Connect(function()
+			l_FireServer_0(v14, workspace:GetServerTimeNow() + 142, "fa977cd5-427c-407c-a672-f287d64070ce");
+			v14:FireServer(workspace:GetServerTimeNow() + 142, "a522d125-48d8-497c-a586-d42e60018a78");
+		end));
+		v41:Add(v40.Triggered:Connect(function()
+			l_FireServer_0(v13, workspace:GetServerTimeNow() + 159, "bee1f514-73ec-4598-8df6-e25dd89b6f73", v45);
+			v13:FireServer(workspace:GetServerTimeNow() + 159, "338d0008-b86e-45c8-b1f6-50aaf710e48d", v45);
+		end));
+		return function()
+			v41:Destroy();
+		end;
+	end);
+end;
+return v33;

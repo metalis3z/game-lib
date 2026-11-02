@@ -1,0 +1,124 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- https://sitetest1.lua.expert
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local AssetItem = require(ReplicatedStorage.Shared.Types.AssetItem)
+local Eggs = require(ReplicatedStorage.Shared.Types.Eggs)
+local FuseMachine = require(ReplicatedStorage.Shared.Types.FuseMachine)
+local GuardTutorial = require(ReplicatedStorage.Shared.Types.GuardTutorial)
+local MonsterParasite = require(ReplicatedStorage.Shared.Types.MonsterParasite)
+local Sakura = require(ReplicatedStorage.Shared.Types.Sakura)
+local t = require(ReplicatedStorage.Packages.t)
+local v1 = {
+    Money = t.number,
+    SpeedPower = t.number,
+    Inventory = t.map(t.string, AssetItem.SerializedAssetItemData),
+    EquippedAssets = t.array(t.string),
+    GuardTutorialProgress = GuardTutorial.SchemaValidation.Progress,
+    LastLogout = t.number,
+    PendingOfflineMoney = t.number,
+    PendingOfflineAnchorLogoutAt = t.number,
+    EarningsBoostExpiresAt = t.number,
+    Gamepasses = t.map(t.string, t.boolean),
+    Products = t.map(t.string, t.boolean),
+    ProductCredits = t.map(t.string, t.number),
+    ClaimedCodes = t.array(t.string),
+    ClaimedLikeMilestoneIds = t.map(t.string, t.boolean),
+    StarterPackOfferExpires = t.number,
+    StarterPackOfferPending = t.boolean,
+    StarterPackOfferFinished = t.boolean,
+    Index = t.map(t.string, t.boolean),
+    BiggestAssetWeight = t.optional(t.number),
+    AutoSellRarities = t.map(t.string, t.boolean),
+    Settings = t.interface({
+        SFX = t.boolean,
+        Music = t.boolean,
+        AFK = t.optional(t.boolean),
+        HideOtherPets = t.optional(t.boolean),
+        HideSelfPets = t.optional(t.boolean),
+        DisableVideos = t.optional(t.boolean)
+    }),
+    SkinInventory = t.optional(t.map(t.string, t.number)),
+    LuckyBlockInventory = t.map(t.string, t.string),
+    LatestTreadmillMediaIndex = t.number,
+    ClaimedGroupReward = t.boolean,
+    DismissedGroupRewardPrompt = t.boolean,
+    FreeGiftsStartedAt = t.number,
+    FreeGiftsTime = t.number,
+    FreeGiftsActiveStartedAt = t.number,
+    FreeGiftsClaimed = t.map(t.string, t.boolean),
+    FusionSlots = t.array(t.string),
+    FusionLocked = t.boolean,
+    FusionEndsAt = t.optional(t.number),
+    FusionDuration = t.number,
+    FusionReward = t.optional(AssetItem.SerializedAssetItemData),
+    VIPFusionSlots = t.array(t.string),
+    VIPFusionLocked = t.boolean,
+    VIPFusionEndsAt = t.optional(t.number),
+    VIPFusionDuration = t.number,
+    VIPFusionReward = t.optional(AssetItem.SerializedAssetItemData),
+    PrivateFusionSlots = t.array(t.string),
+    PrivateFusionLocked = t.boolean,
+    PrivateFusionEndsAt = t.optional(t.number),
+    PrivateFusionDuration = t.number,
+    PrivateFusionReward = t.optional(AssetItem.SerializedAssetItemData),
+    VIPOfferExpires = t.number,
+    VIPOfferStarted = t.boolean,
+    MonetizationRobuxSpentTotal = t.number,
+    BaseUpgradeLevel = t.number,
+    TrailInventory = t.map(t.string, t.boolean),
+    EquippedTrail = t.optional(t.string),
+    VisitedGuardAreas = t.map(t.string, t.boolean),
+    StarterPackOfferPausedSeconds = t.optional(t.number),
+    StarterPackOfferPlaytimeSeconds = t.optional(t.number),
+    TreadmillMediaFeedState = t.interface({
+        Seed = t.number,
+        CurrentIndex = t.number,
+        AlgorithmVersion = t.number,
+        HasSwappedRight = t.optional(t.boolean),
+        ReleaseTrackingInitialized = t.boolean,
+        FullFeedReleaseVersion = t.number,
+        CompletedReleaseVersion = t.number,
+        PendingReleaseVersion = t.number,
+        PendingCurrentMediaKey = t.optional(t.string),
+        SeenPendingMediaKeys = t.map(t.string, t.boolean)
+    }),
+    FreeGiftsLastResetDay = t.number,
+    SpeedBoostTierIndex = t.number,
+    BestRollDenominator = t.number,
+    IndexClaimedCategories = t.map(t.string, t.boolean),
+    LikedTreadmillMedia = t.map(t.string, t.boolean),
+    LikedCommentIds = t.map(t.string, t.number),
+    CommentedTreadmillMedia = t.map(t.string, t.number),
+    BestGuardRunDistance = t.number,
+    EggInventory = Eggs.SchemaValidation.EggInventory,
+    VisitedGears = t.map(t.string, t.boolean),
+    GearInventory = t.map(t.string, t.number),
+    GearAutoBuys = t.map(t.string, t.boolean),
+    CurrentAreaEggClaims = t.interface({
+        PeriodIndex = t.number,
+        Slots = t.map(t.string, t.boolean)
+    }),
+    TemporarySpeedBoostRemainingSeconds = t.number,
+    TemporarySpeedBoostActiveStartedAt = t.number,
+    TreadmillUpgradeLevel = t.number,
+    HasRiddenTreadmill = t.boolean,
+    HasEquippedPhone = t.boolean,
+    HasPlacedFirstEgg = t.boolean,
+    GuardSpeedWarningsSeen = t.map(t.string, t.boolean),
+    PetPenCapacityGuidance = t.interface({
+        Triggered = t.boolean,
+        PetsTabAcknowledged = t.boolean,
+        EquipBestAcknowledged = t.boolean
+    })
+}
+local v2 = t.literal(false)
+
+v1.FusionEggReward = t.union(v2, FuseMachine.PendingEggReward)
+v1.FusionInfoAcknowledged = t.boolean
+v1.MonsterParasite = MonsterParasite.StateSchema
+v1.SakuraCrystals = t.number
+v1.Sakura = Sakura.State
+v1.RollbackRewards = t.map(t.string, t.boolean)
+return v1

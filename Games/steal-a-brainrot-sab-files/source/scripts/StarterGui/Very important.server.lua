@@ -1,0 +1,3 @@
+-- Copy the frame and rename it to the animal's name—for example, 67 or Item_67
+-- Rights: Ahmed https://discord.gg/p8Bp3zR4y
+-- If you encounter any issues, contact me on Discord; my username is 497u

@@ -1,0 +1,3 @@
+-- This script has been replaced by ReplicatedStorage.Controllers.ItemShopController
+-- which properly registers with the InterfaceController system.
+-- This file is intentionally left empty to avoid conflicts.

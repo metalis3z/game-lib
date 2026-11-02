@@ -1,0 +1,36 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerStorage/Angels_BeforeTextures/AnimalWiring_BeforeTextures.lua lines 171
+       loadstring: runs code built from a string
+[HIGH] scripts/ServerStorage/Gui3DBuilderV2.lua lines 86,173,194,221
+       loadstring: runs code built from a string
+[MED] scripts/ServerScriptService/GalacticUpdateServer.server.lua lines 114
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Backup_BeforePhantom/GalacticUpdateServer.server.lua lines 114
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Backup_BeforePhantomZone/AntiLagClient.client.lua
+       suspicious script name "AntiLagClient"
+[MED] scripts/ServerStorage/Removed_CodesAndLiveUpdate/UpdateServer.server.lua lines 137
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerStorage/Scripts_BeforeEventsShowcase/GalacticUpdateServer.server.lua lines 127
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Scripts_BeforeGlobalBus/GalacticUpdateServer.server.lua lines 114
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Scripts_BeforeGrowingZones/AntiLagClient.client.lua
+       suspicious script name "AntiLagClient"
+[MED] scripts/ServerStorage/Scripts_BeforeZoneStretch/GalacticUpdateServer.server.lua lines 114
+       HttpService request (calls an outside server)
+[MED] scripts/StarterPlayer/StarterPlayerScripts/AntiLagClient.client.lua
+       suspicious script name "AntiLagClient"
+
+Instances with suspicious names:
+  ParticleEmitter ServerStorage.ALL VFX.VFX :D.168.VFX_Attachment.Images/bretto_heal_spread_sheet
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  2036090801  in scripts/ReplicatedStorage/ShopSystem/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeGifts/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeNoNight/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeSpeedPacks/ShopConfig.lua ...
+  2037644819  in scripts/ReplicatedStorage/ShopSystem/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeGifts/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeNoNight/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeSpeedPacks/ShopConfig.lua ...
+  2040422314  in scripts/ReplicatedStorage/ShopSystem/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeGifts/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeNoNight/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeSpeedPacks/ShopConfig.lua ...
+  2040722319  in scripts/ReplicatedStorage/ShopSystem/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeGifts/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeNoNight/ShopConfig.lua, scripts/ServerStorage/Scripts_BeforeSpeedPacks/ShopConfig.lua ...
+
+Outside URLs in code:
+  https://discord.gg/wx4ThpAsmw  in scripts/StarterGui/RewardsUI/RewardsCtl.client.lua
