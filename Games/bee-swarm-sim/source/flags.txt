@@ -1,0 +1,21 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/Server/Events.lua lines 288,320
+       Discord webhook URL (data sent outside Roblox)
+[HIGH] scripts/ServerScriptService/Webhook Testing.server.lua lines 5,6
+       Discord webhook URL (data sent outside Roblox)
+[MED] scripts/ServerScriptService/Webhook Testing/Classes/WebhookClient.lua lines 22
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  49998955  in scripts/ServerScriptService/Server/Equipment.lua
+  50000000  in scripts/ServerScriptService/Server/Equipment.lua
+  50000061  in scripts/ServerScriptService/Server/Equipment.lua
+
+Outside URLs in code:
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Webhook Testing.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Webhook Testing.server.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Server/Events.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Server/Events.lua
+  https://google.com  in scripts/ServerScriptService/DataStore2/Promise.lua
+  https://roblox.com  in scripts/ServerScriptService/Webhook Testing.server.lua

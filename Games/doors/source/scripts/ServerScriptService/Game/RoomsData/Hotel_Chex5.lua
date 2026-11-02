@@ -1,0 +1,3 @@
+local RoomInfo = {}
+
+return RoomInfo

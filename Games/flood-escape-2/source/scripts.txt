@@ -1,0 +1,264 @@
+262 scripts, 32037 lines
+kind     lines  enabled  path
+client      16  yes      scripts/ReplicatedFirst/LocalScript.client.lua
+client      27  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FeedbackButton/FeedbackButtonScript.client.lua
+client     462  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript.client.lua
+client      38  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/Buttons/ButtonsScript.client.lua
+client      55  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/Checkbox/CheckboxScript.client.lua
+client     139  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/Dropdown/DropdownScript.client.lua
+client      48  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/FormFrame/FormFrameScript.client.lua
+client     129  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/LinearScale/LinearScaleScript.client.lua
+client      80  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/RadioButtonGroup/RadioButtonScript.client.lua
+client      27  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/Section/SectionScript.client.lua
+client      19  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/SelectionImageObject/BorderScript.client.lua
+client      49  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/TextBox/TextInputScript.client.lua
+client      19  yes      scripts/ReplicatedStorage/GuiBackup/FormGui/FormScript/TitleSection/TitleSectionScript.client.lua
+client     107  yes      scripts/ReplicatedStorage/GuiBackup/GameGui/Challenges/CL_ChallengeDisplay.client.lua
+client      47  yes      scripts/ReplicatedStorage/GuiBackup/GameGui/HUD/Main/AimLock/LocalScript.client.lua   (same source as scripts/StarterGui/GameGui/HUD/Main/AimLock/LocalScript.client.lua)
+client      58  yes      scripts/ReplicatedStorage/GuiBackup/GameGui/Starterpack/LocalScript.client.lua
+client     276  yes      scripts/ReplicatedStorage/GuiBackup/GameGui/VoteMap/CL_MapVote.client.lua
+client      55  yes      scripts/ReplicatedStorage/GuiBackup/GameGui/Waiting/CL_Waiting.client.lua
+client       9  yes      scripts/ReplicatedStorage/GuiBackup/LiftWaitVisual/CL_LiftVisual.client.lua
+client     287  yes      scripts/ReplicatedStorage/GuiBackup/Locator/CL_Buttons.client.lua
+client      41  yes      scripts/ReplicatedStorage/GuiBackup/PerformanceStats/CL_StatsUpd.client.lua
+client      43  yes      scripts/ReplicatedStorage/GuiBackup/ProductWindows_Script.client.lua   (same source as scripts/StarterGui/ProductWindows_Script.client.lua)
+client     122  yes      scripts/ReplicatedStorage/GuiBackup/SocialGuiDash.client.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Head/Aura_Aura_Glow/Rainbow.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Left Arm/Aura_Aura_Glow/Rainbow.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Left Leg/Aura_Aura_Glow/Rainbow.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Right Arm/Aura_Aura_Glow/Rainbow.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Right Leg/Aura_Aura_Glow/Rainbow.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Torso/Aura_Aura_Glow/Rainbow.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Auras/37/Torso/Aura_Aura_Sparks/Rainbow.server.lua
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/199/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/199/Logo/ColorChange.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/218/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/336/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/337/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/338/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/339/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/340/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/341/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/342/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/357/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/358/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/359/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server      32  yes      scripts/ReplicatedStorage/Items/Buddies/360/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/146/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/40/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/40/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/41/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/41/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/42/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/42/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/43/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/43/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/44/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/45/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/45/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/46/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/46/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/46/Script.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/47/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/47/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/48/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      49  yes      scripts/ReplicatedStorage/Items/Buddies/48/Follow.server.lua
+server       1  yes      scripts/ReplicatedStorage/Items/Buddies/724/Animate.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/-1/_/FollowScript.server.lua)
+server      45  yes      scripts/ReplicatedStorage/Items/Buddies/724/Follow.server.lua   (same source as scripts/ReplicatedStorage/Items/Buddies/44/Follow.server.lua)
+server       0  yes      scripts/ReplicatedStorage/Items/Skins/111/SkinScript.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Skins/119/SkinScript.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Skins/121/SkinScript.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Tanks/105/Script.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Tanks/110/Script.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Tanks/16/Script.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Tanks/18/Script.server.lua
+server       0  yes      scripts/ReplicatedStorage/Items/Tanks/9/Script.server.lua
+module      38  yes      scripts/ReplicatedStorage/SharedModules/BadgeInfo.lua
+module    2052  yes      scripts/ReplicatedStorage/SharedModules/ChinaPolicyService.lua
+module       1  yes      scripts/ReplicatedStorage/SharedModules/CrazyEmitter.lua   (same source as scripts/Workspace/Destroyer/Script.server.lua)
+module     371  yes      scripts/ReplicatedStorage/SharedModules/FE2Library.lua
+module     646  yes      scripts/ReplicatedStorage/SharedModules/QS.lua
+module      83  yes      scripts/ReplicatedStorage/SharedModules/SkinLoader.lua
+module     599  yes      scripts/ReplicatedStorage/SharedModules/TimelinePlayer.lua
+module     288  yes      scripts/ReplicatedStorage/SharedModules/TimelinePlayerClient.lua
+server       6  NO       scripts/ServerScriptService/ADDEDCUSTOM.server.lua
+module     220  yes      scripts/ServerScriptService/MapScript.lua
+server      30  yes      scripts/ServerScriptService/Misc/SV_ADMIN_JoinServer.server.lua
+server      50  yes      scripts/ServerScriptService/Misc/SV_ADMIN_ServerCreation.server.lua
+server      68  yes      scripts/ServerScriptService/Misc/SV_PhysicsServerScript.server.lua
+server    2699  yes      scripts/ServerScriptService/SV_MAIN_GameScript.server.lua
+module     133  yes      scripts/ServerScriptService/SV_MAIN_GameScript/AdminModule.lua
+server     531  NO       scripts/ServerScriptService/SV_MAIN_GameScript/Animate.server.lua
+module     171  yes      scripts/ServerScriptService/SV_MAIN_GameScript/Bezier.lua
+server      38  NO       scripts/ServerScriptService/SV_MAIN_GameScript/Exploading/ExploadHandler.server.lua
+server      51  NO       scripts/ServerScriptService/SV_MAIN_GameScript/Follow.server.lua
+client     170  yes      scripts/ServerScriptService/SV_MAIN_GameScript/MapTest/CL_TEST_MapTesting.client.lua
+server      27  NO       scripts/ServerScriptService/SV_MAIN_GameScript/Marker/Border/RotateScript.server.lua
+server      13  NO       scripts/ServerScriptService/SV_MAIN_GameScript/Marker/ButtonIcon/SwitchIconScript.server.lua
+client       0  yes      scripts/ServerScriptService/SV_MAIN_GameScript/MenuGui/Goals/CL_GoalsScript.client.lua
+client     250  yes      scripts/ServerScriptService/SV_MAIN_GameScript/MenuGui/Options/CL_OptionsScript.client.lua
+client      42  yes      scripts/ServerScriptService/SV_MAIN_GameScript/MenuGui/Shop/CL_ShopScript.client.lua
+client      53  yes      scripts/ServerScriptService/SV_MAIN_GameScript/MenuGui/Social/CL_SocialScript.client.lua
+server       1  yes      scripts/ServerScriptService/SV_MAIN_GameScript/PlrInfo/Update.server.lua
+server     334  NO       scripts/ServerScriptService/SV_MAIN_GameScript/SV_TimelineWrapper.server.lua
+server       3  yes      scripts/ServerScriptService/SV_MAIN_GameScript/_Rescue/NPC/DeadAnimation.server.lua   (same source as scripts/Workspace/Lobby/Block/Flicker.server.lua)
+server       3  NO       scripts/ServerStorage/ADDEDCUSTOM/Lobby/Block/Flicker.server.lua   (same source as scripts/Workspace/Lobby/Block/Flicker.server.lua)
+module       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/CamAngles.lua   (same source as scripts/Workspace/Lobby/CamAngles.lua)
+server       3  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/FE2CM_DonationLeaderboard/LeaderUI/NewDonation.server.lua   (same source as scripts/Workspace/Lobby/Block/Flicker.server.lua)
+server      16  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/GameInfo/SurfaceGui/Script.server.lua   (same source as scripts/Workspace/Lobby/GameInfo/SurfaceGui/Script.server.lua)
+server      64  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/MapImgs/PicFrame/Contents/Script.server.lua   (same source as scripts/Workspace/Lobby/MapImgs/PicFrame/Contents/Script.server.lua)
+server      64  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/MapImgs~2/PicFrame/Contents/Script.server.lua   (same source as scripts/Workspace/Lobby/MapImgs/PicFrame/Contents/Script.server.lua)
+server      21  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/PlayHere/SurfaceGui/Script.server.lua   (same source as scripts/Workspace/Lobby/PlayHere/SurfaceGui/Script.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~10/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~11/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~2/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~3/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~4/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~5/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~6/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~7/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~8/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide~9/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Left/LSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~10/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~11/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~2/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~3/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~4/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~5/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~6/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~7/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~8/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       6  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide~9/Spin.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/OK/Right/RSide/Spin.server.lua)
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Skybox/Clouds1/Rotate.server.lua
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Skybox/Clouds2/Rotate.server.lua
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Skybox/Clouds3/Rotate.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Skybox/Clouds1/Rotate.server.lua)
+server      22  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Skybox/RainbowSky/Rotate.server.lua
+server     106  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Skybox/Wind.server.lua
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Spinny/OrangeLeft/Rotate.server.lua
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Spinny/OrangeRight/Rotate.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Spinny/OrangeLeft/Rotate.server.lua)
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Spinny/PinkLeft/Rotate.server.lua
+server       4  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Spinny/PinkRight/Rotate.server.lua   (same source as scripts/ServerStorage/ADDEDCUSTOM/Lobby/ProLobbystuff/Spinny/PinkLeft/Rotate.server.lua)
+server      40  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/Rankings/Leaderboard/CurMonthLeaderboard/LeaderUI/SingleUpdater.server.lua   (same source as scripts/Workspace/Lobby/Rankings/Leaderboard/CurMonthLeaderboard/LeaderUI/SingleUpdater.server.lua)
+server     126  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/Rankings/Leaderboard/MainLeaderboard/LeaderUI/Updater.server.lua   (same source as scripts/Workspace/Lobby/Rankings/Leaderboard/MainLeaderboard/LeaderUI/Updater.server.lua)
+server       0  yes      scripts/ServerStorage/ADDEDCUSTOM/Lobby/Rankings/Script.server.lua
+server       0  NO       scripts/ServerStorage/ADDEDCUSTOM/Lobby/_NonChina/SocialMedia/SocialGui/TwitchScript.server.lua
+client      18  yes      scripts/ServerStorage/DevTools/InfJump/LocalScript.client.lua
+client      57  yes      scripts/ServerStorage/DevTools/Noclip/CC_NoClip.client.lua
+client      78  yes      scripts/ServerStorage/DevTools/Teleport/LocalScript.client.lua
+server      12  yes      scripts/ServerStorage/Maps/1LostWoods/EventScript.server.lua
+server      12  NO       scripts/ServerStorage/Maps/1LostWoods/Instructions.server.lua
+server     106  NO       scripts/ServerStorage/Maps/1MapMakingKit/FE2 OST IDs.server.lua
+server     381  NO       scripts/ServerStorage/Maps/1MapMakingKit/INSTRUCTIONS - README.server.lua
+server     106  NO       scripts/ServerStorage/Maps/2MapMakingKit/FE2 OST IDs.server.lua   (same source as scripts/ServerStorage/Maps/1MapMakingKit/FE2 OST IDs.server.lua)
+server     381  NO       scripts/ServerStorage/Maps/2MapMakingKit/INSTRUCTIONS - README.server.lua   (same source as scripts/ServerStorage/Maps/1MapMakingKit/INSTRUCTIONS - README.server.lua)
+server       5  NO       scripts/ServerStorage/Maps/3CrystalCaverns/EventScript.server.lua
+server      28  NO       scripts/ServerStorage/Maps/4AbandonedFacility/EventScript.server.lua
+client       8  yes      scripts/ServerStorage/Maps/4AbandonedFacility/LocalEventScript.client.lua
+server      15  NO       scripts/ServerStorage/Maps/4DarkSci/EventScript.server.lua
+server       0  NO       scripts/ServerStorage/Maps/4DarkSci/Instructions.server.lua
+server      11  yes      scripts/ServerStorage/Maps/4DarkSci/Intro/_Water1/Lava/Script.server.lua   (same source as scripts/ServerStorage/Maps/4DarkSci/Intro/_Water3/Lava/Script.server.lua)
+server      11  yes      scripts/ServerStorage/Maps/4DarkSci/Intro/_Water2/Lava/Script.server.lua   (same source as scripts/ServerStorage/Maps/4DarkSci/Intro/_Water3/Lava/Script.server.lua)
+server      11  yes      scripts/ServerStorage/Maps/4DarkSci/Intro/_Water3/Lava/Script.server.lua
+client      56  yes      scripts/ServerStorage/Maps/4DarkSci/LocalEventScript.client.lua
+server      15  yes      scripts/ServerStorage/Maps/4FamiliarRuins/EventScript.server.lua
+server      22  NO       scripts/ServerStorage/Maps/5Abyss Base/EventScript.server.lua
+server     116  NO       scripts/ServerStorage/Maps/5Abyss Base/Instructions.server.lua
+client      31  yes      scripts/ServerStorage/Maps/5Abyss Base/LocalEventScript.client.lua
+server      25  NO       scripts/ServerStorage/Maps/5Blue Moon/EventScript.server.lua
+server       9  yes      scripts/ServerStorage/Maps/5Blue Moon/Geometry/Part~839/Script.server.lua
+server     136  NO       scripts/ServerStorage/Maps/5Blue Moon/Instructions.server.lua
+server      65  NO       scripts/ServerStorage/Maps/5Blue Moon/OST_List.server.lua
+server     116  NO       scripts/ServerStorage/Maps/6Decaying Silo V3/EventScript.server.lua
+client      49  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/LocalEventScript.client.lua
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_Water1/texture.server.lua
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_Water2/texture.server.lua
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~2/texture.server.lua
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~3/texture.server.lua   (same source as scripts/ServerStorage/Maps/6Decaying Silo V3/_Water2/texture.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~4/texture.server.lua
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~6/texture.server.lua
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~8/texture.server.lua   (same source as scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~4/texture.server.lua)
+server       6  yes      scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~9/texture.server.lua   (same source as scripts/ServerStorage/Maps/6Decaying Silo V3/_WaterExtra~4/texture.server.lua)
+client      47  yes      scripts/StarterGui/GameGui/HUD/Main/AimLock/LocalScript.client.lua
+client      54  NO       scripts/StarterGui/GameGui/Starterpack/LocalScript.client.lua
+client     272  yes      scripts/StarterGui/GameGui/VoteMap/CL_MapVote.client.lua
+client      67  yes      scripts/StarterGui/GameGui/Waiting/CL_Waiting.client.lua
+client      14  yes      scripts/StarterGui/LiftWaitVisual/CL_LiftVisual.client.lua
+client     264  yes      scripts/StarterGui/Locator/CL_Buttons.client.lua
+client      39  yes      scripts/StarterGui/PerformanceStats/CL_StatsUpd.client.lua
+client      43  yes      scripts/StarterGui/ProductWindows_Script.client.lua
+client      58  yes      scripts/StarterGui/SocialGuiDash.client.lua
+client     642  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+client      45  yes      scripts/StarterPlayer/StarterCharacterScripts/CL_AntiWallhop.client.lua
+client     113  yes      scripts/StarterPlayer/StarterCharacterScripts/CL_CornerClip.client.lua
+client     131  yes      scripts/StarterPlayer/StarterCharacterScripts/CL_RescueVisual.client.lua
+client     243  yes      scripts/StarterPlayer/StarterCharacterScripts/CharSpecs.client.lua
+server      19  yes      scripts/StarterPlayer/StarterCharacterScripts/NoLayeredClothing.server.lua
+client     396  yes      scripts/StarterPlayer/StarterPlayerScripts/CL_EntryScript.client.lua
+client      30  yes      scripts/StarterPlayer/StarterPlayerScripts/CL_EntryScript/EntryGui/EntryFrame/WindowDisplays/Window3/ProductWindows_Script.client.lua
+client     142  yes      scripts/StarterPlayer/StarterPlayerScripts/CL_GhostPlayers.client.lua
+client    2614  NO       scripts/StarterPlayer/StarterPlayerScripts/CL_MAIN_GameScript.client.lua
+client      16  yes      scripts/StarterPlayer/StarterPlayerScripts/CL_MAIN_GameScript/Resources/PlayMenu/CL_Play.client.lua
+client      21  yes      scripts/StarterPlayer/StarterPlayerScripts/CL_NotifHandler.client.lua
+client     257  yes      scripts/StarterPlayer/StarterPlayerScripts/CL_TimelineWrapper.client.lua
+client       6  yes      scripts/StarterPlayer/StarterPlayerScripts/Misc/CL_DEBUG_LocalDebug.client.lua
+client      35  yes      scripts/StarterPlayer/StarterPlayerScripts/Misc/CL_LocalEventWrapper.client.lua
+client     250  yes      scripts/StarterPlayer/StarterPlayerScripts/Misc/CL_WaterColors.client.lua
+module      31  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua
+module     577  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule.lua
+module     840  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseCamera.lua
+module      47  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseOcclusion.lua
+module     563  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraInput.lua
+module      77  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraToggleStateController.lua
+module      37  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUI.lua
+module     309  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUtils.lua
+module     245  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ClassicCamera.lua
+module     553  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Invisicam.lua
+module     116  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/LegacyCamera.lua
+module     210  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/MouseLockController.lua
+module     306  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/OrbitalCamera.lua
+module     112  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Poppercam.lua
+module     179  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/TransparencyController.lua
+module     425  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRBaseCamera.lua
+module     297  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRCamera.lua
+module     513  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRVehicleCamera.lua
+module     215  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera.lua
+module      57  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraConfig.lua
+module     182  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraCore.lua
+module     137  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController.lua
+module     342  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController/Popper.lua
+module     675  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule.lua
+module      46  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/BaseCharacterController.lua
+module    1168  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveController.lua
+module     485  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveDisplay.lua
+module     587  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/DynamicThumbstick.lua
+module     214  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Gamepad.lua
+module     177  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Keyboard.lua
+module     132  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/PathDisplay.lua
+module     204  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchJump.lua
+module     202  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchThumbstick.lua
+module     458  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VRNavigation.lua
+module     189  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VehicleController.lua
+server       1  yes      scripts/Workspace/Destroyer/Script.server.lua
+module      35  yes      scripts/Workspace/HD Admin/Config/Commands/Client.lua
+module      70  yes      scripts/Workspace/HD Admin/Config/Commands/Server.lua
+server       4  yes      scripts/Workspace/HD Admin/Core/Loader.server.lua
+module       1  yes      scripts/Workspace/HD Admin/Core/MainModule.lua
+module      25  yes      scripts/Workspace/HD Admin/READ_ME.lua
+module     210  yes      scripts/Workspace/HD Admin/Settings.lua
+server       3  NO       scripts/Workspace/Lobby/Block/Flicker.server.lua
+module       6  yes      scripts/Workspace/Lobby/CamAngles.lua
+server      10  yes      scripts/Workspace/Lobby/Detail/RescueMonitor/TV/SurfaceGui/Frame/CCTV/Static/Script.server.lua
+server       3  yes      scripts/Workspace/Lobby/FE2CM_DonationLeaderboard/LeaderUI/NewDonation.server.lua   (same source as scripts/Workspace/Lobby/Block/Flicker.server.lua)
+server      16  yes      scripts/Workspace/Lobby/GameInfo/SurfaceGui/Script.server.lua
+server      64  yes      scripts/Workspace/Lobby/MapImgs/PicFrame/Contents/Script.server.lua
+server      64  yes      scripts/Workspace/Lobby/MapImgs~2/PicFrame/Contents/Script.server.lua   (same source as scripts/Workspace/Lobby/MapImgs/PicFrame/Contents/Script.server.lua)
+server      21  yes      scripts/Workspace/Lobby/PlayHere/SurfaceGui/Script.server.lua
+server      40  yes      scripts/Workspace/Lobby/Rankings/Leaderboard/CurMonthLeaderboard/LeaderUI/SingleUpdater.server.lua
+server     126  yes      scripts/Workspace/Lobby/Rankings/Leaderboard/MainLeaderboard/LeaderUI/Updater.server.lua
+server       0  yes      scripts/Workspace/Lobby/Rankings/Script.server.lua
+server       0  NO       scripts/Workspace/Lobby/_NonChina/SocialMedia/SocialGui/TwitchScript.server.lua
+server      18  NO       scripts/Workspace/README.server.lua

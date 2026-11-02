@@ -1,0 +1,491 @@
+{
+ "slug": "forsaken",
+ "title": "Forsaken (uncopylocked)",
+ "genre": "asymmetric horror (killer vs survivors)",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 886,
+  "screen_guis": 22,
+  "classes": {
+   "Frame": 570,
+   "ImageLabel": 156,
+   "SurfaceGui": 142,
+   "TextLabel": 89,
+   "UICorner": 50,
+   "UIStroke": 43,
+   "UIAspectRatioConstraint": 39,
+   "ImageButton": 30,
+   "TextButton": 25,
+   "BillboardGui": 23,
+   "ScreenGui": 22,
+   "TextBox": 14,
+   "UIListLayout": 12,
+   "UIPadding": 11,
+   "UIGradient": 9,
+   "ModuleScript": 9,
+   "Script": 8,
+   "NumberValue": 4,
+   "UIScale": 4,
+   "UIGridLayout": 3,
+   "Folder": 3,
+   "LocalScript": 2,
+   "Part": 2,
+   "UISizeConstraint": 1,
+   "VideoFrame": 1,
+   "ViewportFrame": 1
+  },
+  "fonts": {
+   "AccanthisADFStd Bold": 30,
+   "AccanthisADFStd Regular": 27,
+   "SourceSansPro Regular": 23,
+   "SourceSansPro Bold": 11,
+   "Arial Regular": 9,
+   "Guru Light": 7,
+   "Creepster Regular": 4,
+   "LegacyArial Regular": 4,
+   "Inconsolata Bold": 3,
+   "GothamSSm Medium": 3,
+   "IndieFlower Regular": 2,
+   "Guru Regular": 2
+  },
+  "background_colors": {
+   "#000000": 478,
+   "#ffffff": 10,
+   "#262626": 10,
+   "#2a2a2a": 6,
+   "#515151": 5,
+   "#ff4040": 5,
+   "#32ff32": 3,
+   "#64ff35": 2,
+   "#5d5d5d": 1,
+   "#bababa": 1,
+   "#121212": 1,
+   "#a3a2a5": 1
+  },
+  "text_colors": {
+   "#ffffff": 111,
+   "#000000": 6,
+   "#1b2a35": 4,
+   "#949494": 3,
+   "#7fff7f": 1,
+   "#c8c8c8": 1,
+   "#b2b2b2": 1,
+   "#7d7d7d": 1
+  },
+  "stroke_colors": {
+   "#ff0000": 15,
+   "#000000": 4,
+   "#0084ff": 4,
+   "#f34eff": 4,
+   "#ffffff": 3,
+   "#ff0004": 3,
+   "#a3a2a5": 2,
+   "#be4fff": 2,
+   "#5b8a1d": 2,
+   "#ffcd06": 2
+  },
+  "image_tints": {
+   "#000000": 5,
+   "#ff0000": 1,
+   "#ee00ff": 1,
+   "#ff5521": 1,
+   "#646464": 1,
+   "#dbdbdb": 1,
+   "#1e1e1e": 1
+  },
+  "corner_radius": {
+   "{0.0,2}": 24,
+   "{0.2,0}": 15,
+   "{0.5,0}": 4,
+   "{0.0,34}": 3,
+   "{0.05,0}": 1,
+   "{0.043,0}": 1,
+   "{16.0,0}": 1,
+   "{0.0,8}": 1
+  },
+  "stroke_thickness": {
+   "2.0 px": 24,
+   "1.0 px": 13,
+   "0.0 px": 3,
+   "1.5 px": 3
+  },
+  "text_size_px": {
+   "14": 21,
+   "8": 4,
+   "20": 3,
+   "18": 3,
+   "26": 3,
+   "40": 3,
+   "19": 1
+  },
+  "text_scaled_share": 0.7,
+  "size_mode": {
+   "scale": 395,
+   "mixed": 475,
+   "offset": 16
+  },
+  "unique_images": 43,
+  "per_100_objects": {
+   "UICorner": 5.6,
+   "UIStroke": 4.9,
+   "UIGradient": 1.0,
+   "UIAspectRatioConstraint": 4.4,
+   "UIListLayout": 1.4,
+   "UIGridLayout": 0.3,
+   "UIPadding": 1.2,
+   "UIScale": 0.5,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 17.6,
+   "ImageButton": 3.4,
+   "TextButton": 2.8
+  }
+ },
+ "map": {
+  "instances": 14203,
+  "parts": 7695,
+  "meshparts": 1568,
+  "unions": 770,
+  "anchored_share": 0.96,
+  "textures_decals": 1725,
+  "surface_appearances": 8,
+  "lights": 49,
+  "emitters": 33,
+  "beams_trails": 31,
+  "sounds": 14,
+  "prompts": 42,
+  "world_guis": 25,
+  "humanoids": 38,
+  "materials": {
+   "Wood": 2061,
+   "Plastic": 1143,
+   "Fabric": 1097,
+   "Snow": 976,
+   "Neon": 600,
+   "Metal": 467,
+   "Grass": 339,
+   "WoodPlanks": 317,
+   "SmoothPlastic": 180,
+   "Rock": 94,
+   "Glass": 91,
+   "Concrete": 86
+  },
+  "part_colors": {
+   "#ffffff": 969,
+   "#343434": 702,
+   "#5a4c42": 449,
+   "#564236": 396,
+   "#1b2a35": 378,
+   "#957977": 338,
+   "#6c584b": 334,
+   "#a3a2a5": 308,
+   "#506d54": 257,
+   "#f8f8f8": 208,
+   "#694028": 200,
+   "#7c5c46": 164,
+   "#564d40": 151,
+   "#635f62": 143
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Map.Lobby",
+    "parts": 7694,
+    "instances": 14192,
+    "meshparts": 1568,
+    "emitters": 64,
+    "lights": 49,
+    "guis": 67,
+    "sounds": 14,
+    "size": [
+     2047,
+     515,
+     2062
+    ]
+   }
+  ],
+  "extent_studs": [
+   241,
+   50,
+   467
+  ],
+  "extent_all_studs": [
+   5044,
+   515,
+   2062
+  ],
+  "top_classes": {
+   "Part": 5318,
+   "MeshPart": 1568,
+   "Model": 1235,
+   "Texture": 1150,
+   "Weld": 785,
+   "UnionOperation": 770,
+   "Attachment": 707,
+   "Decal": 575,
+   "SpecialMesh": 566,
+   "Motor6D": 213,
+   "Folder": 176,
+   "Snap": 148,
+   "Vector3Value": 111,
+   "WeldConstraint": 81,
+   "IntValue": 71
+  }
+ },
+ "lighting": {
+  "Ambient": "#000000",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 268.0,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#464646",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "Future",
+  "TimeOfDay": "03:48:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#c8aa6c",
+    "Decay": "#5c3c0e",
+    "DefinesCapabilities": false,
+    "Density": 0.6,
+    "Glare": 0.0,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 0.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Skybox",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Skybox",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=155657655",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=155674246",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=155657609",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=155657671",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "http://www.roblox.com/asset/?id=155657619",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=155674931",
+    "StarCount": 0,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxassetid://9013498676"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": -0.2,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "EmoteBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "EmoteBlur",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.002,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "HealthDesaturation",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "HealthDesaturation",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 11,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 1.0,
+  "WaterWaveSize": 0.0,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 101678,
+  "file": "map/terrain.rbxl"
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -5000.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "EnableMapVoting": false,
+   "ExperimentalHitboxes": true,
+   "ExperimentalReplication": true,
+   "LogLevelClient": "Warning",
+   "RbxLegacyAnimationBlending": true,
+   "Testing": true
+  }
+ },
+ "packs": {
+  "ui": 269,
+  "ui-kit": 1,
+  "map": 1,
+  "terrain": 1,
+  "audio": 22,
+  "materials": 1,
+  "lighting": 1,
+  "animations": 6,
+  "vfx": 33,
+  "model": 1833,
+  "parts": 33,
+  "model-set": 55,
+  "keyframes": 209,
+  "other": 6
+ },
+ "coverage": {
+  "instances": 514484,
+  "packed": 514410,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 18,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 209,
+ "animation_ids": 888,
+ "sound_ids": 593,
+ "files": 2288,
+ "kb": 70710,
+ "category": "Horror",
+ "source_file": "Forsaken Uncopylocked.rbxl"
+}

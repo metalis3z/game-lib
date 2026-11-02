@@ -1,0 +1,84 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/Kohl's Admin Commands V2.server.lua lines 336,460
+       loadstring: runs code built from a string
+[HIGH] scripts/ServerScriptService/Kohl's Admin Commands V2/LocalScriptBase.client.lua lines 2
+       loadstring: runs code built from a string
+[HIGH] scripts/ServerScriptService/Kohl's Admin Commands V2/ScriptBase.server.lua lines 2
+       loadstring: runs code built from a string
+[HIGH] scripts/ServerScriptService/Scripth's Admin.server.lua lines 218
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/ServerScriptService/Scripth's Admin/SB.server.lua lines 9
+       loadstring: runs code built from a string
+[MED] scripts/ServerScriptService/Kohl's Admin Commands V2.server.lua lines 491,571,585,2436
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/Scripth's Admin.server.lua lines 218
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/Scripth's Admin.server.lua lines 218
+       very long line (9095 chars, possible obfuscation)
+[MED] scripts/StarterPack/Sword/Local Gui.client.lua
+       LinkedSource set (http://www.roblox.com/asset/?id=1014476): code lives outside the file
+
+Instances with suspicious names:
+  Part Workspace.red.Bright red.Purchases.Gate.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate2.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate2.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate2.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate2.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate3.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate3.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate3.Lasers.Infected
+  Part Workspace.red.Bright red.Purchases.Gate3.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate2.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate2.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate2.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate2.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate3.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate3.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate3.Lasers.Infected
+  Part Workspace.blue.Bright blue.Purchases.Gate3.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate2.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate2.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate2.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate2.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate3.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate3.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate3.Lasers.Infected
+  Part Workspace.teal.Teal.Purchases.Gate3.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate2.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate2.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate2.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate2.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate3.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate3.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate3.Lasers.Infected
+  Part Workspace.orange.Bright orange.Purchases.Gate3.Lasers.Infected
+  Part Workspace.yellow.New Yeller.Purchases.Gate.Lasers.Infected
+  Part Workspace.yellow.New Yeller.Purchases.Gate.Lasers.Infected
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  162912095  in scripts/ServerScriptService/Scripth's Admin/Client.client.lua
+  175122272  in scripts/Workspace/Announcer.server.lua
+  204143218  in scripts/Workspace/Model/VIP/VIPDoor/Script.server.lua
+  204143610  in scripts/Workspace/Model~2/VIP/VIPDoor/Script.server.lua
+  206615866  in scripts/StarterGui/ShopGui/heet/LocalScript.client.lua
+
+Outside URLs in code:
+  http://en.wikipedia.org/wiki/Trajectory_of_a_projectile  in scripts/Lighting/Medkit/Slingshot.server.lua
+  http://www.roblox.com/Forum/ShowPost.aspx?PostID=10502388  in scripts/Workspace/blue/Bright blue/Purchases/Helm3/HatHelperGuideGiverScript.server.lua, scripts/Workspace/blue/Bright blue/Purchases/Helm4/HatHelperGuideGiverScript.server.lua, scripts/Workspace/blue/Bright blue/Purchases/Helm6/HatHelperGuideGiverScript.server.lua
+  http://www.roblox.com/Forum/ShowPost.aspx?PostID=13178947  in scripts/Workspace/blue/Bright blue/Purchases/Helm3/HatHelperGuideGiverScript.server.lua, scripts/Workspace/blue/Bright blue/Purchases/Helm4/HatHelperGuideGiverScript.server.lua, scripts/Workspace/blue/Bright blue/Purchases/Helm6/HatHelperGuideGiverScript.server.lua

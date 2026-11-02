@@ -1,0 +1,77 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- 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
+
+-- https://lua.expert/
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local SocialService = game:GetService("SocialService")
+local LocalPlayer = Players.LocalPlayer
+local UpgradeButton = script.Parent:WaitForChild("UpgradeButton")
+local TimerLabel = UpgradeButton:WaitForChild("TimerLabel")
+
+UpgradeButton.Visible = true
+
+local function setText(p1, p2) --[[ setText | Line: 25 ]]
+	if not p1 then
+		return
+	end
+
+	if p1:IsA("TextLabel") or p1:IsA("TextButton") then
+		p1.Text = p2
+	end
+
+	for v1, v2 in p1:GetDescendants() do
+		if v2:IsA("TextLabel") or v2:IsA("TextButton") then
+			v2.Text = p2
+		end
+	end
+end
+
+local function fmt(p1) --[[ fmt | Line: 34 ]]
+	local v1 = math.floor(p1)
+
+	if v1 <= 0 then
+		return "NOW"
+	end
+
+	if v1 >= 86400 then
+		return math.floor(v1 / 86400) .. "d"
+	end
+
+	if v1 >= 3600 then
+		return math.floor(v1 / 3600) .. "h"
+	end
+
+	if v1 >= 60 then
+		return math.floor(v1 / 60) .. "m"
+	end
+
+	return v1 .. "s"
+end
+
+UpgradeButton.MouseButton1Click:Connect(function() --[[ Line: 44 | Upvalues: SocialService (copy) ]]
+	pcall(function() --[[ Line: 45 | Upvalues: SocialService (ref) ]]
+		SocialService:PromptRsvpToEventAsync("4847875693989724940")
+	end)
+end)
+
+local v1 = 0
+local EventTimerChanged = ReplicatedStorage:WaitForChild("Remotes"):WaitForChild("EventTimerChanged", 30)
+
+if EventTimerChanged then
+	EventTimerChanged.OnClientEvent:Connect(function(p1, p2) --[[ Line: 66 | Upvalues: v1 (ref) ]]
+		v1 = tonumber(p2) or 0
+	end)
+end
+
+task.spawn(function() --[[ Line: 71 | Upvalues: v1 (ref), setText (copy), TimerLabel (copy) ]]
+	while true do
+		local v12 = os.time()
+		local v5 = math.floor((if v12 < v1 then v1 or 1783263600 else 1783263600) - v12)
+
+		setText(TimerLabel, if v5 <= 0 then "NOW" elseif v5 >= 86400 then math.floor(v5 / 86400) .. "d" elseif v5 >= 3600 then math.floor(v5 / 3600) .. "h" elseif v5 >= 60 then math.floor(v5 / 60) .. "m" else v5 .. "s")
+		task.wait(1)
+	end
+end)

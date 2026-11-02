@@ -1,0 +1,1390 @@
+1388 scripts, 286222 lines
+kind     lines  enabled  path
+client      23  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/CharacterPos/CharacterPos.client.lua
+client     911  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/DeathGui/DeathScript.client.lua
+module     361  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/Modules/CardVote.lua
+module     169  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/Modules/GridScaleSetting.lua
+client     300  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/MonsterMessage/LocalScript.client.lua
+client      49  NO       scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/PopUp/LocalScript.client.lua
+client      28  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/VoteFrame/FancyTemplate/Holder/Gradient/ImageLabel/LocalScript.client.lua
+client     318  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/scaleUIStroke.client.lua
+client     269  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/SpectatorGui/GuiUpdate.client.lua
+client      47  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/SpectatorGui/LeaveLobby/Teleport.client.lua
+client     100  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/SpectatorGui/Spectate.client.lua
+module     189  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/directionIndicator.lua
+module      54  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/template.lua
+module      57  yes      scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/timerBar.lua
+server      38  yes      scripts/README.server.lua
+client     213  yes      scripts/ReplicatedFirst/LoadingScreen.client.lua
+client      69  yes      scripts/ReplicatedFirst/SkipLoadInStudio.client.lua
+client      24  yes      scripts/ReplicatedFirst/SmartBoneRuntime.client.lua
+module      26  yes      scripts/ReplicatedStorage/AchievementModules/Template.lua
+module      61  yes      scripts/ReplicatedStorage/CardModules/AbilityCooldown.lua
+module      61  yes      scripts/ReplicatedStorage/CardModules/AbilityCooldown2.lua
+module     162  yes      scripts/ReplicatedStorage/CardModules/Archive/IcedOver_OLD_CARD.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/BlackOut.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/DandyDiscount.lua
+module      70  yes      scripts/ReplicatedStorage/CardModules/DyleFloor.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/Elevator.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/Elevator2.lua
+module      52  yes      scripts/ReplicatedStorage/CardModules/FrostShield.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/GlowLight.lua
+module      63  yes      scripts/ReplicatedStorage/CardModules/Heal.lua
+module      63  yes      scripts/ReplicatedStorage/CardModules/Heal2.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/ItemRarity.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/ItemRarity2.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/Machine.lua
+module      47  yes      scripts/ReplicatedStorage/CardModules/MonsterPanicReduction.lua
+module      49  yes      scripts/ReplicatedStorage/CardModules/PipingTape.lua
+module      52  yes      scripts/ReplicatedStorage/CardModules/PollenShield.lua
+module     146  yes      scripts/ReplicatedStorage/CardModules/RandomItem.lua
+module     146  yes      scripts/ReplicatedStorage/CardModules/RandomItem2.lua
+module      58  yes      scripts/ReplicatedStorage/CardModules/Stamina.lua
+module      58  yes      scripts/ReplicatedStorage/CardModules/Stamina2.lua
+module      59  yes      scripts/ReplicatedStorage/CardModules/SurvivalPoint.lua
+module      59  yes      scripts/ReplicatedStorage/CardModules/SurvivalPoint2.lua
+module    1174  yes      scripts/ReplicatedStorage/CharacterModules/BlottAbility.lua
+module     185  yes      scripts/ReplicatedStorage/CharacterModules/BrushaGlobalBoosts.lua
+module     949  yes      scripts/ReplicatedStorage/CharacterModules/EclipseTransformation.lua
+module    1103  yes      scripts/ReplicatedStorage/CharacterModules/GingerAbility.lua
+module     382  yes      scripts/ReplicatedStorage/CharacterModules/GourdyGlobalBoosts.lua
+module     229  yes      scripts/ReplicatedStorage/CharacterModules/IceSkatingGlobalBoosts.lua
+module     219  yes      scripts/ReplicatedStorage/CharacterModules/LooeyAbility.lua
+module    1285  yes      scripts/ReplicatedStorage/CharacterModules/SquirmAbility.lua
+module     508  yes      scripts/ReplicatedStorage/CharacterModules/YattaAbility.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Astro.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Bassie.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Blott.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Bobette.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Boxten.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Brightney.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Brusha.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Coal.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Cocoa.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Connie.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Cosmo.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Dandy.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Dyle.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Eclipse.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Eggson.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Finn.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Flutter.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Flyte.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Gigi.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Ginger.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Glisten.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Goob.lua
+module      28  yes      scripts/ReplicatedStorage/DialogueModules/Gourdy.lua
+module   20881  yes      scripts/ReplicatedStorage/DialogueModules/Interactions.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Looey.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Pebble.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Poppy.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/RazzleDazzle.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Ribecca.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Rodger.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Rudie.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Scraps.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Shelly.lua
+module      26  yes      scripts/ReplicatedStorage/DialogueModules/Shrimpo.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Soulvester.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Sprout.lua
+module      28  yes      scripts/ReplicatedStorage/DialogueModules/Squirm.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Teagan.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Tisha.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Toodles.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Vee.lua
+module      27  yes      scripts/ReplicatedStorage/DialogueModules/Yatta.lua
+module      44  yes      scripts/ReplicatedStorage/FloorData/Floor1.lua
+module      48  yes      scripts/ReplicatedStorage/FloorData/Floor2.lua
+module      52  yes      scripts/ReplicatedStorage/FloorData/Floor3.lua
+module      37  yes      scripts/ReplicatedStorage/FloorData/Floor4.lua
+module    1067  yes      scripts/ReplicatedStorage/Forbidden/AI.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden/AI/antilag.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Forbidden/AI/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module    2641  yes      scripts/ReplicatedStorage/Forbidden/AINew.lua
+module     182  yes      scripts/ReplicatedStorage/Forbidden/Config.lua
+module     138  yes      scripts/ReplicatedStorage/Forbidden/DataSave.lua   (same source as scripts/ReplicatedStorage/Forbidden2/DataSave.lua)
+module     257  yes      scripts/ReplicatedStorage/Forbidden/DetectBadPaths.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden/Information.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     257  yes      scripts/ReplicatedStorage/Forbidden/Math.lua   (same source as scripts/ReplicatedStorage/Forbidden2/Math.lua)
+module     170  yes      scripts/ReplicatedStorage/Forbidden/Multiplayer/Queue.lua   (same source as scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue.lua)
+server      20  NO       scripts/ReplicatedStorage/Forbidden/Multiplayer/Queue/LICENSE.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Forbidden/Multiplayer/Queue/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      91  yes      scripts/ReplicatedStorage/Forbidden/Multiplayer/Queue/precoded/PlaceInButtonInStarterGUI/Handler.client.lua   (same source as scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue/precoded/PlaceInButtonInStarterGUI/Handler.client.lua)
+server      20  yes      scripts/ReplicatedStorage/Forbidden/Multiplayer/Queue/precoded/PlaceInServerScriptService/QueueHandler.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     260  yes      scripts/ReplicatedStorage/Forbidden/PathFindingAgent.lua   (same source as scripts/ReplicatedStorage/Forbidden2/PathFindingAgent.lua)
+module      30  yes      scripts/ReplicatedStorage/Forbidden/Standard.lua   (same source as scripts/ReplicatedStorage/Forbidden2/Standard.lua)
+server      20  NO       scripts/ReplicatedStorage/Forbidden/Standard/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     136  yes      scripts/ReplicatedStorage/Forbidden/Standard/stdfunctions.lua   (same source as scripts/ReplicatedStorage/Forbidden2/Standard/stdfunctions.lua)
+module     715  yes      scripts/ReplicatedStorage/Forbidden2/AI.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/AI/antilag.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/AI/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     138  yes      scripts/ReplicatedStorage/Forbidden2/DataSave.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/Information.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     257  yes      scripts/ReplicatedStorage/Forbidden2/Math.lua
+module     170  yes      scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue/LICENSE.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      91  yes      scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue/precoded/PlaceInButtonInStarterGUI/Handler.client.lua
+server      20  yes      scripts/ReplicatedStorage/Forbidden2/Multiplayer/Queue/precoded/PlaceInServerScriptService/QueueHandler.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     260  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/LICENSE.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module      27  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden.lua
+module      79  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI.lua
+module     139  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Assist/DetectBadPaths.lua
+module     102  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/CommonMathRequests.lua
+module     193  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/ConfigHandler.lua
+module     175  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/ConfigHandler/Defaults.lua
+module      91  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Debugging.lua
+module     212  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/DirectMoveTo.lua
+module     285  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/MessageQueue.lua
+module     239  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PathfindingProcessor.lua
+module     148  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PathfindingProcessor/States/Idle.lua
+module     146  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PathfindingProcessor/States/Pathing.lua
+module     161  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PathfindingProcessor/States/Tracking.lua
+module      37  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PathfindingProcessor/TriggerCleanup.lua
+module     192  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PathfindingProcessor/WaypointLooper.lua
+module      85  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/PositionalOptimization.lua
+server      20  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Preprogrammed - Delete Me.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Preprogrammed - Delete Me/@CritDEV Solutions/@CritDEV - SimpleTRACK/README.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module      23  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Preprogrammed - Delete Me/@CritDEV Solutions/@CritDEV - The ALLY.lua
+module      23  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Preprogrammed - Delete Me/@CritDEV Solutions/@CritDEV - The MONSTER.lua
+module      23  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Preprogrammed - Delete Me/@CritDEV Solutions/@CritDEV - The ZOMBS.lua
+module      23  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Preprogrammed - Delete Me/@CritDEV Solutions/@CritDEV- The UNIT.lua
+module      81  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/RetrackingOptimization.lua
+module      28  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Types.lua
+module      24  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Types/TConfig.lua
+module      81  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Types/TRequestPriority.lua
+module     131  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/Visualization/WaypointsVisualization.lua
+server      20  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/antilag.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module      34  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Common.lua
+module      57  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Common/Storage.lua
+module     145  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Common/TypeHelp.lua
+client      29  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ExampleUIScript/MPSHandler.client.lua
+server      20  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ServerScriptService/Products/DevProductHandler.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module      37  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ServerScriptService/Products/ProductBase.lua
+module      26  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ServerScriptService/Products/ProductBase/Config.lua
+module      38  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ServerScriptService/Products/impl/Example.lua
+module      26  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ServerScriptService/Products/impl/Example/Config.lua   (same source as scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ServerScriptService/Products/ProductBase/Config.lua)
+module      90  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Libraries/Tables.lua
+module     237  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Math.lua
+module     224  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Math/CommonMathCollection.lua
+module     159  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Math/MathVisualization.lua
+module     524  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Math/old.lua
+module     297  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine.lua
+module      88  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine/Classes/State.lua
+module      89  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine/Classes/Transition.lua
+module      40  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine/Functions/deepCopy.lua
+module      48  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine/Functions/mergeTables.lua
+module     224  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine/Vendor/Signal.lua
+module     238  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/_Index/prooheckcp_robloxstatemachine@1.1.7/robloxstatemachine/Vendor/Trove.lua
+module      24  yes      scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/Packages/robloxstatemachine.lua
+module      30  yes      scripts/ReplicatedStorage/Forbidden2/Standard.lua
+server      20  NO       scripts/ReplicatedStorage/Forbidden2/Standard/info.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     136  yes      scripts/ReplicatedStorage/Forbidden2/Standard/stdfunctions.lua
+client      44  NO       scripts/ReplicatedStorage/GUI/HolidayWarningIcon/Script.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      44  NO       scripts/ReplicatedStorage/GUI/HolidayWarningIcon/WarningScript.server.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      44  NO       scripts/ReplicatedStorage/GUI/SproutTargetObject/Script.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      54  yes      scripts/ReplicatedStorage/GUI/SproutTargetObject/WarningScript.server.lua
+client      44  NO       scripts/ReplicatedStorage/GUI/WarningIcon/Script.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      44  yes      scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua
+module     119  yes      scripts/ReplicatedStorage/ItemModules/AirHorn.lua
+module      79  yes      scripts/ReplicatedStorage/ItemModules/Bandage.lua
+module     131  yes      scripts/ReplicatedStorage/ItemModules/BonBon.lua
+module     155  yes      scripts/ReplicatedStorage/ItemModules/Chocolate.lua
+module     170  yes      scripts/ReplicatedStorage/ItemModules/ChocolateBox.lua
+module     147  yes      scripts/ReplicatedStorage/ItemModules/ChristmasCookie.lua
+module     147  yes      scripts/ReplicatedStorage/ItemModules/DandyEasterEggs.lua
+module     213  yes      scripts/ReplicatedStorage/ItemModules/EjectButton.lua
+module     110  yes      scripts/ReplicatedStorage/ItemModules/ExtractionSpeedCandy.lua
+module     203  yes      scripts/ReplicatedStorage/ItemModules/Gumball.lua
+module      79  yes      scripts/ReplicatedStorage/ItemModules/HealthKit.lua
+module     111  yes      scripts/ReplicatedStorage/ItemModules/Instructions.lua
+module     192  yes      scripts/ReplicatedStorage/ItemModules/Jawbreaker.lua
+module     114  yes      scripts/ReplicatedStorage/ItemModules/JumperCable.lua
+module      42  yes      scripts/ReplicatedStorage/ItemModules/Ornament.lua
+module      83  yes      scripts/ReplicatedStorage/ItemModules/Pop.lua
+module      83  yes      scripts/ReplicatedStorage/ItemModules/PopBottle.lua
+module     109  yes      scripts/ReplicatedStorage/ItemModules/ProteinBar.lua
+module     123  yes      scripts/ReplicatedStorage/ItemModules/SkillCheckCandy.lua
+module      85  yes      scripts/ReplicatedStorage/ItemModules/SmokeBomb.lua
+module     116  yes      scripts/ReplicatedStorage/ItemModules/SpeedCandy.lua
+module     107  yes      scripts/ReplicatedStorage/ItemModules/StaminaCandy.lua
+module     106  yes      scripts/ReplicatedStorage/ItemModules/StealthCandy.lua
+module     120  yes      scripts/ReplicatedStorage/ItemModules/Stopwatch.lua
+module      51  yes      scripts/ReplicatedStorage/ItemModules/Tape.lua
+module     111  yes      scripts/ReplicatedStorage/ItemModules/Valve.lua
+module      35  yes      scripts/ReplicatedStorage/LevelEvents/AquariumMapEvent.lua
+module      35  yes      scripts/ReplicatedStorage/LevelEvents/ArtGalleryEvent.lua
+module     427  yes      scripts/ReplicatedStorage/LevelEvents/ChristmasMap2Event.lua
+module    1130  yes      scripts/ReplicatedStorage/LevelEvents/DyleMapEvent.lua
+module     156  yes      scripts/ReplicatedStorage/LevelEvents/HalloweenMapEvent.lua
+module     227  yes      scripts/ReplicatedStorage/LevelEvents/IceZoneEvent_Template.lua
+module     433  yes      scripts/ReplicatedStorage/LevelEvents/SkateMapEvent.lua
+module      36  yes      scripts/ReplicatedStorage/LevelEvents/VeeMapEvent.lua
+module     383  yes      scripts/ReplicatedStorage/Modules/AssetManager.lua
+module     274  yes      scripts/ReplicatedStorage/Modules/Audio/FootstepMixer.lua
+module    1166  yes      scripts/ReplicatedStorage/Modules/Audio/SoundGroupManager.lua
+module     205  yes      scripts/ReplicatedStorage/Modules/Audio/SoundPool.lua
+module      55  yes      scripts/ReplicatedStorage/Modules/Audio/SoundUtils.lua
+module     607  yes      scripts/ReplicatedStorage/Modules/ClientCast.lua
+module      79  yes      scripts/ReplicatedStorage/Modules/ClientCast/ClientConnection.lua
+client     413  yes      scripts/ReplicatedStorage/Modules/ClientCast/ClientHandler.client.lua
+module     155  yes      scripts/ReplicatedStorage/Modules/ClientCast/Signal.lua
+module     804  yes      scripts/ReplicatedStorage/Modules/ClientUI/AbilityController.lua
+module     173  yes      scripts/ReplicatedStorage/Modules/ClientUI/AstroMonitorController.lua
+module     245  yes      scripts/ReplicatedStorage/Modules/ClientUI/BobetteTimerController.lua
+module     247  yes      scripts/ReplicatedStorage/Modules/ClientUI/CatalogSearchController.lua
+module     158  yes      scripts/ReplicatedStorage/Modules/ClientUI/CharacterLifecycleController.lua
+module    1835  yes      scripts/ReplicatedStorage/Modules/ClientUI/CharacterStatsController.lua
+module     160  yes      scripts/ReplicatedStorage/Modules/ClientUI/ChatDialogueController.lua
+module     241  yes      scripts/ReplicatedStorage/Modules/ClientUI/CurrencyDisplayController.lua
+module     130  yes      scripts/ReplicatedStorage/Modules/ClientUI/EventHandlersController.lua
+module     847  yes      scripts/ReplicatedStorage/Modules/ClientUI/Floor0VotingController.lua
+module      86  yes      scripts/ReplicatedStorage/Modules/ClientUI/FloorController.lua
+module     401  yes      scripts/ReplicatedStorage/Modules/ClientUI/GeneratorUIController.lua
+module     388  yes      scripts/ReplicatedStorage/Modules/ClientUI/GingerMeterController.lua
+module    1005  yes      scripts/ReplicatedStorage/Modules/ClientUI/GingerPromptController.lua
+module     114  yes      scripts/ReplicatedStorage/Modules/ClientUI/GingerTargetBeamController.lua
+module     147  yes      scripts/ReplicatedStorage/Modules/ClientUI/GlobalMessageController.lua
+module     252  yes      scripts/ReplicatedStorage/Modules/ClientUI/HealTargetController.lua
+module     918  yes      scripts/ReplicatedStorage/Modules/ClientUI/HoldAbilityController.lua
+module      70  yes      scripts/ReplicatedStorage/Modules/ClientUI/LoadingScreenController.lua
+module     278  yes      scripts/ReplicatedStorage/Modules/ClientUI/LoadoutSlotsController.lua
+module     168  yes      scripts/ReplicatedStorage/Modules/ClientUI/MessagingController.lua
+module     820  yes      scripts/ReplicatedStorage/Modules/ClientUI/MonsterSoundController.lua
+module      78  yes      scripts/ReplicatedStorage/Modules/ClientUI/MyDataController.lua
+module     405  yes      scripts/ReplicatedStorage/Modules/ClientUI/NewbieGuideController.lua
+module     104  yes      scripts/ReplicatedStorage/Modules/ClientUI/PanicModeController.lua
+module     850  yes      scripts/ReplicatedStorage/Modules/ClientUI/PingMarkerController.lua
+module     114  yes      scripts/ReplicatedStorage/Modules/ClientUI/QuickLinksInitializer.lua
+module     633  yes      scripts/ReplicatedStorage/Modules/ClientUI/SkillCheckController.lua
+module     644  yes      scripts/ReplicatedStorage/Modules/ClientUI/SprintController.lua
+module     618  yes      scripts/ReplicatedStorage/Modules/ClientUI/SquirmHoldController.lua
+module    1068  yes      scripts/ReplicatedStorage/Modules/ClientUI/StickerController.lua
+module     216  yes      scripts/ReplicatedStorage/Modules/ClientUI/StoryEventsController.lua
+module     106  yes      scripts/ReplicatedStorage/Modules/ClientUI/TargetingVisual.lua
+module     687  yes      scripts/ReplicatedStorage/Modules/ClientUI/TeamDisplayController.lua
+module     554  yes      scripts/ReplicatedStorage/Modules/ClientUI/ToonCatalogController.lua
+module     853  yes      scripts/ReplicatedStorage/Modules/ClientUI/TrinketCatalogController.lua
+module     344  yes      scripts/ReplicatedStorage/Modules/ClientUI/TrinketSlotController.lua
+module     248  yes      scripts/ReplicatedStorage/Modules/ClientUI/TrinketSlotsUpdater.lua
+module     613  yes      scripts/ReplicatedStorage/Modules/ConfigurationService.lua
+module      83  yes      scripts/ReplicatedStorage/Modules/Core/GameContext.lua
+module     140  yes      scripts/ReplicatedStorage/Modules/Core/Maid.lua
+module      27  yes      scripts/ReplicatedStorage/Modules/Core/PendingUpdates.lua
+module      57  yes      scripts/ReplicatedStorage/Modules/Core/PositionalOptimization.lua
+module     177  yes      scripts/ReplicatedStorage/Modules/Data/BassieAbilityConfig.lua
+module    1605  yes      scripts/ReplicatedStorage/Modules/Data/BassieVFXClient.lua
+module     933  yes      scripts/ReplicatedStorage/Modules/Data/DevConsoleCommands.lua
+module     507  yes      scripts/ReplicatedStorage/Modules/Data/MasteryManager.lua
+module      57  yes      scripts/ReplicatedStorage/Modules/Data/SpawnRateConfig.lua
+module     162  yes      scripts/ReplicatedStorage/Modules/Data/SpecialLevelEvents.lua
+module      26  yes      scripts/ReplicatedStorage/Modules/Data/SprintConfig.lua
+module    1247  yes      scripts/ReplicatedStorage/Modules/Data/StatModifierManager.lua
+module     128  yes      scripts/ReplicatedStorage/Modules/DebuffConfig.lua
+module     275  yes      scripts/ReplicatedStorage/Modules/Effects/SyncedAnimationController.lua
+module     147  yes      scripts/ReplicatedStorage/Modules/External/CameraShaker.lua
+module     155  yes      scripts/ReplicatedStorage/Modules/External/CameraShaker/CameraShakeInstance.lua
+module      94  yes      scripts/ReplicatedStorage/Modules/External/CameraShaker/CameraShakePresets.lua
+module     127  yes      scripts/ReplicatedStorage/Modules/External/CameraShakerExample.lua
+module     151  yes      scripts/ReplicatedStorage/Modules/External/Madwork/MadworkMaid.lua
+module     184  yes      scripts/ReplicatedStorage/Modules/External/Madwork/MadworkScriptSignal.lua
+module     101  yes      scripts/ReplicatedStorage/Modules/External/Madwork/RateLimiter.lua
+module     906  yes      scripts/ReplicatedStorage/Modules/External/Madwork/ReplicaController.lua
+module    2331  yes      scripts/ReplicatedStorage/Modules/External/ProfileService.lua
+module      31  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2.lua
+module     176  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/CompatibilitySprite.lua
+module     205  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/CompositeSprite.lua
+module     243  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/EditableSprite.lua
+client      23  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/Example.client.lua
+module     264  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/ImageSprite.lua
+module     256  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/Scheduler.lua
+module     205  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/ScriptedEditableSprite.lua
+module     214  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/ScriptedImageSprite.lua
+module      26  yes      scripts/ReplicatedStorage/Modules/External/SpriteClip2/config.lua
+module     159  yes      scripts/ReplicatedStorage/Modules/Floor0/Floor0Shop.lua
+module     929  yes      scripts/ReplicatedStorage/Modules/Floor0/Floor0ShopClient.lua
+module      77  yes      scripts/ReplicatedStorage/Modules/FloorItemPool.lua
+module     310  yes      scripts/ReplicatedStorage/Modules/Gameplay/AttackFaceManager.lua
+module     164  yes      scripts/ReplicatedStorage/Modules/Gameplay/BaseGeneratorFramework.lua
+module    1652  yes      scripts/ReplicatedStorage/Modules/Gameplay/CircleSkillCheckHandler.lua
+module     128  yes      scripts/ReplicatedStorage/Modules/Gameplay/DebuffConfig.lua   (same source as scripts/ReplicatedStorage/Modules/DebuffConfig.lua)
+module    1000  yes      scripts/ReplicatedStorage/Modules/Gameplay/DebuffManager.lua
+module    1091  yes      scripts/ReplicatedStorage/Modules/Gameplay/DualGeneratorSpawner.lua
+module     530  yes      scripts/ReplicatedStorage/Modules/Gameplay/FlockingBehavior.lua
+module      36  yes      scripts/ReplicatedStorage/Modules/Gameplay/GenSlotSuffix.lua
+module    4574  yes      scripts/ReplicatedStorage/Modules/Gameplay/GeneratorFillScript.lua
+module     164  yes      scripts/ReplicatedStorage/Modules/Gameplay/GeneratorPaths.lua
+module     254  yes      scripts/ReplicatedStorage/Modules/Gameplay/GeneratorTrinketHandler.lua
+module      86  yes      scripts/ReplicatedStorage/Modules/Gameplay/MachineSpawnResolver.lua
+module     247  yes      scripts/ReplicatedStorage/Modules/Gameplay/MachineSpawnResolver_test.lua
+module     148  yes      scripts/ReplicatedStorage/Modules/Gameplay/MinigameTypeRoller.lua
+module    1232  yes      scripts/ReplicatedStorage/Modules/Gameplay/MovementTreadmillGenerator.lua
+module     182  yes      scripts/ReplicatedStorage/Modules/Gameplay/PassiveAbilityManager.lua
+module      84  yes      scripts/ReplicatedStorage/Modules/Gameplay/PathfindingQueue.lua
+module    1084  yes      scripts/ReplicatedStorage/Modules/Gameplay/TreadmillTapSkillCheck.lua
+module    3720  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby.lua
+module     215  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/BendySeaweed.lua   (same source as scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/BendySeaweed.lua)
+module     125  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/Decoration.lua
+module     153  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/Fish.lua
+module      91  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/FlopConfig.lua
+module     127  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/Frames.lua
+module      88  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/LargeDecor.lua   (same source as scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/LargeDecor.lua)
+module     250  yes      scripts/ReplicatedStorage/Modules/GenArcade/SwimmyBarnaby/Obstacle.lua
+module     265  yes      scripts/ReplicatedStorage/Modules/GenArcade/Util/Engine.lua
+module      99  yes      scripts/ReplicatedStorage/Modules/GenArcade/Util/Menu.lua
+module     144  yes      scripts/ReplicatedStorage/Modules/HapticFeedback.lua
+module     272  yes      scripts/ReplicatedStorage/Modules/HolidayCurrencyModule.lua
+module     151  yes      scripts/ReplicatedStorage/Modules/Madwork/MadworkMaid.lua   (same source as scripts/ReplicatedStorage/Modules/External/Madwork/MadworkMaid.lua)
+module     184  yes      scripts/ReplicatedStorage/Modules/Madwork/MadworkScriptSignal.lua   (same source as scripts/ReplicatedStorage/Modules/External/Madwork/MadworkScriptSignal.lua)
+module     101  yes      scripts/ReplicatedStorage/Modules/Madwork/RateLimiter.lua   (same source as scripts/ReplicatedStorage/Modules/External/Madwork/RateLimiter.lua)
+module     906  yes      scripts/ReplicatedStorage/Modules/Madwork/ReplicaController.lua   (same source as scripts/ReplicatedStorage/Modules/External/Madwork/ReplicaController.lua)
+module     422  yes      scripts/ReplicatedStorage/Modules/QuestJournal.lua
+module     434  yes      scripts/ReplicatedStorage/Modules/Services/AnalyticsService.lua
+module     394  yes      scripts/ReplicatedStorage/Modules/Services/BetterAnalyticsService.lua
+module      26  yes      scripts/ReplicatedStorage/Modules/Services/BetterAnalyticsServiceConfig.lua
+module     191  yes      scripts/ReplicatedStorage/Modules/Services/LoggingConfig.lua
+module     441  yes      scripts/ReplicatedStorage/Modules/Services/MonsterAudioConfig.lua
+module      92  yes      scripts/ReplicatedStorage/Modules/Services/PingConfig.lua
+module    1035  yes      scripts/ReplicatedStorage/Modules/SimpleZone.lua
+module     103  yes      scripts/ReplicatedStorage/Modules/SimpleZone/PlayerLookup.lua
+module     100  yes      scripts/ReplicatedStorage/Modules/SimpleZone/SearchFor.lua
+client      29  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Templates/ClientWorker/Worker.client.lua
+server      20  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Templates/ServerWorker/Worker.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     276  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Utility/BVH.lua
+module      32  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Utility/JumpTable.lua
+module     134  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Utility/SimpleSignal.lua
+module      24  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Utility/SimpleSignal/Types.lua
+module      86  yes      scripts/ReplicatedStorage/Modules/SimpleZone/Zones.lua
+module     597  yes      scripts/ReplicatedStorage/Modules/StatManager.lua
+module     516  yes      scripts/ReplicatedStorage/Modules/Stickers.lua
+module     778  yes      scripts/ReplicatedStorage/Modules/UI/GingerHealNotification.lua
+module     525  yes      scripts/ReplicatedStorage/Modules/UI/GuiAnimations.lua
+module     241  yes      scripts/ReplicatedStorage/Modules/UI/InWorldDialog.lua
+module     423  yes      scripts/ReplicatedStorage/Modules/UI/SelectionFramePopulator.lua
+module     393  yes      scripts/ReplicatedStorage/Modules/UI/StickerAnimations.lua
+module    1014  yes      scripts/ReplicatedStorage/Modules/UI/StickerNotificationUI.lua
+module     173  yes      scripts/ReplicatedStorage/Modules/UI/TemplateCreator.lua
+module     808  yes      scripts/ReplicatedStorage/Modules/Utils/BasicAnimator.lua
+module     199  yes      scripts/ReplicatedStorage/Modules/Utils/LerpFunction.lua
+module      77  yes      scripts/ReplicatedStorage/Modules/Utils/LuvColor3Utils.lua
+module     317  yes      scripts/ReplicatedStorage/Modules/Utils/LuvUtils.lua
+module      62  yes      scripts/ReplicatedStorage/Modules/Utils/cameraPart.lua
+module     847  yes      scripts/ReplicatedStorage/Modules/Utils/spr.lua
+module      39  yes      scripts/ReplicatedStorage/Modules/Utils/tweenHelpers.lua
+module     135  yes      scripts/ReplicatedStorage/Modules/Utils/tweens.lua
+module     114  yes      scripts/ReplicatedStorage/Modules/WhisperingFlowerEffects.lua
+module     242  yes      scripts/ReplicatedStorage/Modules/Zones/BasketDropModeEffects.lua
+module     108  yes      scripts/ReplicatedStorage/Modules/Zones/BoneNeedleAndThreadEffects.lua
+module     113  yes      scripts/ReplicatedStorage/Modules/Zones/EggRadarEffects.lua
+module      88  yes      scripts/ReplicatedStorage/Modules/Zones/FestiveLightsEffects.lua
+module     118  yes      scripts/ReplicatedStorage/Modules/Zones/FishingRodEffects.lua
+module     504  yes      scripts/ReplicatedStorage/Modules/Zones/IcePuddleSpawner.lua
+module     738  yes      scripts/ReplicatedStorage/Modules/Zones/IceSkatingConfig.lua
+module    5201  yes      scripts/ReplicatedStorage/Modules/Zones/IceSkatingEffects.lua
+module     280  yes      scripts/ReplicatedStorage/Modules/Zones/IceSkatingEffects_VectorForce.lua
+module     394  yes      scripts/ReplicatedStorage/Modules/Zones/IcedOverSpawner.lua
+module     718  yes      scripts/ReplicatedStorage/Modules/Zones/IchorPuddleSpawner.lua
+module     100  yes      scripts/ReplicatedStorage/Modules/Zones/IchorScreenEffects.lua
+module     147  yes      scripts/ReplicatedStorage/Modules/Zones/MemoryLocketEffects.lua
+module      59  yes      scripts/ReplicatedStorage/Modules/Zones/MoonPackHeirloomEffects.lua
+module     310  yes      scripts/ReplicatedStorage/Modules/Zones/PartyPopperEffects.lua
+module      56  yes      scripts/ReplicatedStorage/Modules/Zones/PollenPresets.lua
+module     266  yes      scripts/ReplicatedStorage/Modules/Zones/PollenTrailConfig.lua
+module      94  yes      scripts/ReplicatedStorage/Modules/Zones/ResearchMapEffects.lua
+module    2737  yes      scripts/ReplicatedStorage/Modules/Zones/RoomAudioConfig.lua
+module     551  yes      scripts/ReplicatedStorage/Modules/Zones/SpringFeverArt.lua
+module     276  yes      scripts/ReplicatedStorage/Modules/Zones/ZonePlacementManager.lua
+module      74  yes      scripts/ReplicatedStorage/MonsterData/AstroMonster.lua
+module    2557  yes      scripts/ReplicatedStorage/MonsterData/BassieMonster.lua
+module    2644  yes      scripts/ReplicatedStorage/MonsterData/BlottMonster.lua
+module      58  yes      scripts/ReplicatedStorage/MonsterData/BobetteMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/BoxtenMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/BrightneyMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/BrushaMonster.lua
+module      59  yes      scripts/ReplicatedStorage/MonsterData/CoalMonster.lua
+module     230  yes      scripts/ReplicatedStorage/MonsterData/CocoaMonster.lua
+module      46  yes      scripts/ReplicatedStorage/MonsterData/ConnieMonster.lua
+module      62  yes      scripts/ReplicatedStorage/MonsterData/CosmoMonster.lua
+module      58  yes      scripts/ReplicatedStorage/MonsterData/DandyMonster.lua
+module     387  yes      scripts/ReplicatedStorage/MonsterData/DyleMonster.lua
+module     160  yes      scripts/ReplicatedStorage/MonsterData/EclipseMonster.lua
+module      62  yes      scripts/ReplicatedStorage/MonsterData/EggsonMonster.lua
+module     117  yes      scripts/ReplicatedStorage/MonsterData/FinnMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/FlutterMonster.lua
+module      60  yes      scripts/ReplicatedStorage/MonsterData/FlyteMonster.lua
+module     535  yes      scripts/ReplicatedStorage/MonsterData/GigiMonster.lua
+module      47  yes      scripts/ReplicatedStorage/MonsterData/GingerMonster.lua
+module      99  yes      scripts/ReplicatedStorage/MonsterData/GlistenMonster.lua
+module     509  yes      scripts/ReplicatedStorage/MonsterData/GoobMonster.lua
+module    1671  yes      scripts/ReplicatedStorage/MonsterData/GourdyMonster.lua
+module      56  yes      scripts/ReplicatedStorage/MonsterData/LooeyMonster.lua
+module      68  yes      scripts/ReplicatedStorage/MonsterData/PebbleMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/PoppyMonster.lua
+module      57  yes      scripts/ReplicatedStorage/MonsterData/RazzleDazzleMonster.lua
+module      57  yes      scripts/ReplicatedStorage/MonsterData/RibeccaMonster.lua
+module      46  yes      scripts/ReplicatedStorage/MonsterData/RodgerMonster.lua
+module      47  yes      scripts/ReplicatedStorage/MonsterData/RudieMonster.lua
+module     346  yes      scripts/ReplicatedStorage/MonsterData/ScrapsMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/ShellyMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/ShrimpoMonster.lua
+module      56  yes      scripts/ReplicatedStorage/MonsterData/SoulvesterMonster.lua
+module     341  yes      scripts/ReplicatedStorage/MonsterData/SproutMonster.lua
+module     400  yes      scripts/ReplicatedStorage/MonsterData/SquirmMonster.lua
+module      85  yes      scripts/ReplicatedStorage/MonsterData/TeaganMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/TishaMonster.lua
+module      55  yes      scripts/ReplicatedStorage/MonsterData/ToodlesMonster.lua
+module      77  yes      scripts/ReplicatedStorage/MonsterData/VeeMonster.lua
+module      75  yes      scripts/ReplicatedStorage/MonsterData/YattaMonster.lua
+module     448  yes      scripts/ReplicatedStorage/MonsterModules/BlottAnimationManager.lua
+module     571  yes      scripts/ReplicatedStorage/MonsterModules/BlottCombatManager.lua
+module     136  yes      scripts/ReplicatedStorage/MonsterModules/BlottConfig.lua
+module    1470  yes      scripts/ReplicatedStorage/MonsterModules/BlottHandManager.lua
+module     149  yes      scripts/ReplicatedStorage/MonsterModules/BlottHandSpawner.lua
+module     180  yes      scripts/ReplicatedStorage/MonsterModules/BlottStateMachine.lua
+module     162  yes      scripts/ReplicatedStorage/MonsterModules/BlottStateManager.lua
+module     124  yes      scripts/ReplicatedStorage/MonsterModules/DyleAnimationBatcher.lua
+module     494  yes      scripts/ReplicatedStorage/MonsterModules/DyleAnimationController.lua
+module     177  yes      scripts/ReplicatedStorage/MonsterModules/DyleGeneratorDetector.lua
+module     214  yes      scripts/ReplicatedStorage/MonsterModules/DyleParticleEffects.lua
+module     698  yes      scripts/ReplicatedStorage/MonsterModules/DyleRageBar.lua
+module     176  yes      scripts/ReplicatedStorage/MonsterModules/DyleSmartBoneController.lua
+module    1152  yes      scripts/ReplicatedStorage/MonsterModules/DyleSpeedGauge.lua
+module     170  yes      scripts/ReplicatedStorage/MonsterModules/EclipseHowl.lua
+module     874  yes      scripts/ReplicatedStorage/MonsterModules/GlistenRageBar.lua
+module     863  yes      scripts/ReplicatedStorage/MonsterModules/GourdyRageBar.lua
+module     263  yes      scripts/ReplicatedStorage/MonsterModules/HandDebugGUI.lua
+module     510  yes      scripts/ReplicatedStorage/MonsterModules/HoppingChaser.lua
+module     198  yes      scripts/ReplicatedStorage/MonsterModules/MonsterFreeze.lua
+module     175  yes      scripts/ReplicatedStorage/MonsterModules/SpecialAnimator.lua
+module     529  yes      scripts/ReplicatedStorage/MonsterModules/TwistedSquirmConfig.lua
+module    4814  yes      scripts/ReplicatedStorage/MonsterModules/TwistedSquirmController.lua
+module     707  yes      scripts/ReplicatedStorage/MonsterModules/TwistedSquirmGrabHandler.lua
+client     117  NO       scripts/ReplicatedStorage/Parts/ArcadeGames/SwimmyBarnaby/BendySeaweed/Script.server.lua
+client      69  NO       scripts/ReplicatedStorage/Parts/ArcadeGames/SwimmyBarnaby/SurfaceGui/Background/BG/Script.server.lua
+server      20  NO       scripts/ReplicatedStorage/Parts/BassieFx/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Parts/BlotDecoy/Playanimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     164  yes      scripts/ReplicatedStorage/Parts/BobbeteGlobalBoosts.lua
+client      89  NO       scripts/ReplicatedStorage/Parts/EclipseTransformFX/PlayAnimation.server.lua
+client      30  yes      scripts/ReplicatedStorage/Parts/GoobArms/Default_anims/GrabArmsAnimation.server.lua
+client      89  NO       scripts/ReplicatedStorage/Parts/GourdyEmergeParticles/Particles_1/PlayAnimation.server.lua   (same source as scripts/ReplicatedStorage/Parts/EclipseTransformFX/PlayAnimation.server.lua)
+client      89  NO       scripts/ReplicatedStorage/Parts/GourdyEmergeParticles/Particles_2/PlayAnimation.server.lua   (same source as scripts/ReplicatedStorage/Parts/EclipseTransformFX/PlayAnimation.server.lua)
+client      89  NO       scripts/ReplicatedStorage/Parts/GourdyPuddle/PlayAnimation.server.lua   (same source as scripts/ReplicatedStorage/Parts/EclipseTransformFX/PlayAnimation.server.lua)
+client      44  yes      scripts/ReplicatedStorage/Parts/HeartIconBillboards/AstroHeartIcon/HeartIconScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      44  yes      scripts/ReplicatedStorage/Parts/HeartIconBillboards/SproutHeartIcon/HeartIconScript.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IcePuddles/Ichor_Puddle_01/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IcePuddles/Ichor_Puddle_02/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IcePuddles/Ichor_Puddle_03/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IchorPuddles/Ichor_Puddle_01/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IchorPuddles/Ichor_Puddle_02/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IchorPuddles/Ichor_Puddle_03/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IchorPuddlesCeiling/Ichor_Puddle_Top_01/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IchorPuddlesCeiling/Ichor_Puddle_Top_02/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/IchorPuddlesCeiling/Ichor_Puddle_Top_03/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      46  NO       scripts/ReplicatedStorage/Parts/NameTag/Frame/Bottom/Title/Shine/UIGradient/NametagShine.client.lua   (same source as scripts/ReplicatedStorage/Parts/NameTag_new/Frame/Title/Shine/UIGradient/NametagShine.client.lua)
+client      46  NO       scripts/ReplicatedStorage/Parts/NameTag/Frame/Title/Shine/UIGradient/NametagShine.client.lua   (same source as scripts/ReplicatedStorage/Parts/NameTag_new/Frame/Title/Shine/UIGradient/NametagShine.client.lua)
+server      20  NO       scripts/ReplicatedStorage/Parts/NameTag/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      46  NO       scripts/ReplicatedStorage/Parts/NameTag_new/Frame/Title/Shine/UIGradient/NametagShine.client.lua
+server      20  NO       scripts/ReplicatedStorage/Parts/NameTag_new/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Parts/NameTag_old/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     121  yes      scripts/ReplicatedStorage/Parts/RenderModules/AirHornRage.lua
+module     123  yes      scripts/ReplicatedStorage/Parts/RenderModules/AstroPoof.lua
+module      66  yes      scripts/ReplicatedStorage/Parts/RenderModules/ChristmasCookieAOE.lua
+module      88  yes      scripts/ReplicatedStorage/Parts/RenderModules/ConfettiEffect.lua
+module     134  yes      scripts/ReplicatedStorage/Parts/RenderModules/CosmoCookie.lua
+module      72  yes      scripts/ReplicatedStorage/Parts/RenderModules/CosmoCookie/Movement.lua   (same source as scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua)
+module     146  yes      scripts/ReplicatedStorage/Parts/RenderModules/FinnMonster.lua
+module     150  yes      scripts/ReplicatedStorage/Parts/RenderModules/FinnSplash.lua
+module     149  yes      scripts/ReplicatedStorage/Parts/RenderModules/FlutterFly.lua
+module     123  yes      scripts/ReplicatedStorage/Parts/RenderModules/GigiGrab.lua
+module     131  yes      scripts/ReplicatedStorage/Parts/RenderModules/GingerCookie.lua
+module      72  yes      scripts/ReplicatedStorage/Parts/RenderModules/GingerCookie/Movement.lua   (same source as scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua)
+module     226  yes      scripts/ReplicatedStorage/Parts/RenderModules/GlistenPortal.lua
+module     185  yes      scripts/ReplicatedStorage/Parts/RenderModules/GoobGrab.lua
+module     224  yes      scripts/ReplicatedStorage/Parts/RenderModules/GoobToonGrab.lua
+module      72  yes      scripts/ReplicatedStorage/Parts/RenderModules/GourdyAOE.lua
+module     125  yes      scripts/ReplicatedStorage/Parts/RenderModules/PebbleRage.lua
+module     161  yes      scripts/ReplicatedStorage/Parts/RenderModules/RazzleDazzleAttack.lua
+module     126  yes      scripts/ReplicatedStorage/Parts/RenderModules/RudieBoost.lua
+module     119  yes      scripts/ReplicatedStorage/Parts/RenderModules/SavoryCharm.lua
+module     194  yes      scripts/ReplicatedStorage/Parts/RenderModules/ScrapsGrab.lua
+module     134  yes      scripts/ReplicatedStorage/Parts/RenderModules/ScrapsToonGrab.lua
+module     106  yes      scripts/ReplicatedStorage/Parts/RenderModules/ShellyEffect.lua
+module     113  yes      scripts/ReplicatedStorage/Parts/RenderModules/SmokeBomb.lua
+module     134  yes      scripts/ReplicatedStorage/Parts/RenderModules/SproutCupcake.lua
+module      72  yes      scripts/ReplicatedStorage/Parts/RenderModules/SproutCupcake/Movement.lua   (same source as scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua)
+module     619  yes      scripts/ReplicatedStorage/Parts/RenderModules/TBLunge.lua
+module     140  yes      scripts/ReplicatedStorage/Parts/RenderModules/TBSounds.lua
+module     123  yes      scripts/ReplicatedStorage/Parts/RenderModules/TishaPoof.lua
+client      46  NO       scripts/ReplicatedStorage/Parts/RenderParts/Bobette/Box/BlinkParent/BlinkController.client.lua
+server      20  NO       scripts/ReplicatedStorage/Parts/RenderParts/ConfettiEffect/Confetti/DemoScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Parts/RenderParts/Yatta/Confetti/DemoScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module     346  yes      scripts/ReplicatedStorage/Parts/SpeedGaugeBuilder.lua
+server      20  NO       scripts/ReplicatedStorage/Parts/SproutTendril/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/ReplicatedStorage/Parts/VinesAnimated/HugeSpike_Circular_Attack/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Parts/VinesAnimated/Small_Vines_Thick_Wheels/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+module      73  yes      scripts/ReplicatedStorage/PassiveAbilityModules/Astro.lua
+module      90  yes      scripts/ReplicatedStorage/PassiveAbilityModules/Eclipse.lua
+module      96  yes      scripts/ReplicatedStorage/PassiveAbilityModules/Gourdy.lua
+module     186  yes      scripts/ReplicatedStorage/PassiveAbilityModules/Rudie.lua
+server      20  yes      scripts/ReplicatedStorage/Scripts/BuyScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Scripts/CapsuleScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      58  yes      scripts/ReplicatedStorage/Scripts/DandyPlushBuy.server.lua
+server      20  yes      scripts/ReplicatedStorage/Scripts/HolidayCollectibleItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Scripts/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/ReplicatedStorage/Scripts/OrnamentScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      28  yes      scripts/ReplicatedStorage/Scripts/SoundMute.client.lua
+module    1077  yes      scripts/ReplicatedStorage/SharedData/Achievements.lua
+module    2020  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby.lua
+module     215  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/BendySeaweed.lua
+module     104  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/Decoration.lua
+module     141  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/Fish.lua
+module      54  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/FlopConfig.lua
+module     118  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/Frames.lua
+module      88  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/LargeDecor.lua
+module     138  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/SwimmyBarnaby/Obstacle.lua
+module     283  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/Util/Engine.lua
+module     119  yes      scripts/ReplicatedStorage/SharedData/ArcadeGames/Util/Menu.lua
+module     504  yes      scripts/ReplicatedStorage/SharedData/Christmas25.lua
+module      70  yes      scripts/ReplicatedStorage/SharedData/DandysBudsMissions.lua
+module      38  yes      scripts/ReplicatedStorage/SharedData/Deals.lua
+module      99  yes      scripts/ReplicatedStorage/SharedData/Deals/DealResolver.lua
+module      72  yes      scripts/ReplicatedStorage/SharedData/Deals/StarterBundle.lua
+module     201  yes      scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+module     669  yes      scripts/ReplicatedStorage/SharedData/Easter26.lua
+module     418  yes      scripts/ReplicatedStorage/SharedData/HapticEffects.lua
+module     301  yes      scripts/ReplicatedStorage/SharedData/HolidayCurrencyModule.lua
+module     270  yes      scripts/ReplicatedStorage/SharedData/HolidayEventConfig.lua
+module     382  yes      scripts/ReplicatedStorage/SharedData/HolidayShops/Christmas.lua
+module     314  yes      scripts/ReplicatedStorage/SharedData/HolidayShops/Easter.lua
+module      35  yes      scripts/ReplicatedStorage/SharedData/IKOverrideAnimations.lua
+module      96  yes      scripts/ReplicatedStorage/SharedData/PlayerSettings.lua
+module      32  yes      scripts/ReplicatedStorage/SharedData/ReleaseTimes.lua
+module     254  yes      scripts/ReplicatedStorage/SharedData/ResetDataStages.lua
+module      75  yes      scripts/ReplicatedStorage/SharedData/Shops/Dandy.lua
+module      67  yes      scripts/ReplicatedStorage/SharedData/Shops/Dyle.lua
+module      96  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/AstroStar.lua
+module      90  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/CareBear_Astro.lua
+module     126  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/DreamAstro.lua
+module      84  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/Halloween_Astro.lua
+module      86  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/NorthStar.lua
+module      86  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/SoothingPollen.lua
+module      95  yes      scripts/ReplicatedStorage/SharedData/SkinData/Astro/VintageAstro.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bassie/BelleBasket.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bassie/EggHunting.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bassie/GoldenBasket.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bassie/SpringtimeBassie.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bassie/SunflowerPatch.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bassie/VintageBassie.lua
+module      62  yes      scripts/ReplicatedStorage/SharedData/SkinData/Blott/CozyPink.lua
+module      69  yes      scripts/ReplicatedStorage/SharedData/SkinData/Blott/FancyFrosting.lua
+module      67  yes      scripts/ReplicatedStorage/SharedData/SkinData/Blott/PenguinBlott.lua
+module      66  yes      scripts/ReplicatedStorage/SharedData/SkinData/Blott/SanguineSilence.lua
+module      60  yes      scripts/ReplicatedStorage/SharedData/SkinData/Blott/ShowtimeBlott.lua
+module      67  yes      scripts/ReplicatedStorage/SharedData/SkinData/Blott/VintageBlott.lua
+module      83  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bobette/EveSleeper.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bobette/GoldenBauble.lua
+module      83  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bobette/HollyLace.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bobette/HotChocolate.lua
+module      77  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bobette/SnowtimeBobette.lua
+module      64  yes      scripts/ReplicatedStorage/SharedData/SkinData/Bobette/VintageBobette.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Boxten/CloudyDream.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Boxten/CreepyChord.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Boxten/QuietCaroler.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Boxten/SunlitNeon.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Boxten/VintageBoxten.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Boxten/WingedChords.lua
+module      49  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brightney/AntiqueShade.lua
+module      58  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brightney/BrightDawn.lua
+module      55  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brightney/CozyLighting.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brightney/VintageBrightney.lua
+module      89  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brusha/AutumnPalette.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brusha/EggcelentDecorator.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brusha/FigurePainter.lua
+module      89  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brusha/GloomySleeper.lua
+module      79  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brusha/ScaryStylish.lua
+module      58  yes      scripts/ReplicatedStorage/SharedData/SkinData/Brusha/VintageBrusha.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Coal/GoldenDust.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Coal/PresentCoal.lua
+module      40  yes      scripts/ReplicatedStorage/SharedData/SkinData/Coal/SnowtimeCoal.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Coal/SnowyRescue.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Coal/VintageCoal.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cocoa/GoldenBunny.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cocoa/SpringOuting.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cocoa/SpringtimeCocoa.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cocoa/StrawberryPaws.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cocoa/VintageCocoa.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cocoa/WildberryDelight.lua
+module      57  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/BriskBreeze.lua
+module      55  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/ChristmasPast.lua
+module      59  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/DawnClouds.lua
+module      58  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/FrostyMittens.lua
+module      58  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/GhastlyGlow.lua
+module      56  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/LilacHaunting.lua
+module      55  yes      scripts/ReplicatedStorage/SharedData/SkinData/Connie/VintageConnie.lua
+module     101  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/CareBear_Cosmo.lua
+module     103  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/CarrotCake.lua
+module      93  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/CosmoBaker.lua
+module      72  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/CosmoBaker/Movement.lua   (same source as scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua)
+module      93  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/CosmoBerry.lua
+module      87  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/DessertfulScientist.lua
+module      96  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/SnowtimeCosmo.lua
+module     103  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/SweetRoll.lua
+module      92  yes      scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/VintageCosmo.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Dandy/ChristmasDandy.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Dandy/EasterDandy.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Dyle/EasterDyle.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Dyle/HolidayDyle.lua
+module      77  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eclipse/FullMoon.lua
+module      77  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eclipse/LittleRed.lua
+module      61  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eclipse/LoneWolf.lua
+module      77  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eclipse/VintageEclipse.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eggson/GoldenEgg.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eggson/PaintedPatterns.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eggson/SpringtimeEggson.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eggson/StillHip.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Eggson/VintageEggson.lua
+module     102  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/FishFinn.lua
+module     117  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/FloweryPunch.lua
+module     107  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/GoldenFishbowl.lua
+module     109  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/IceFisher.lua
+module     107  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/ReefExplorer.lua
+module     110  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/SwimmyFinn.lua
+module     107  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/TackySweater.lua
+module     100  yes      scripts/ReplicatedStorage/SharedData/SkinData/Finn/VintageFinn.lua
+module     118  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flutter/FrostyFluff.lua
+module     118  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flutter/RosyMapleMoth.lua
+module     114  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flutter/SpringtimeFlutter.lua
+module     113  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flutter/VintageFlutter.lua
+module     113  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flutter/VividMonarch.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flyte/GoldenWings.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flyte/LunaMoth.lua
+module      45  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flyte/SpringSky.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flyte/SpringtimeFlyte.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Flyte/VintageFlyte.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gigi/CareBear_Gigi.lua
+module      48  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gigi/EggThief.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gigi/RainyDay.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gigi/SnowballFight.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gigi/VintageGigi.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ginger/GingerMinty.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ginger/GoldenCookie.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ginger/NewYearsGinger.lua
+module      41  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ginger/SnowtimeGinger.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ginger/SugarCookie.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ginger/VintageGinger.lua
+module     191  yes      scripts/ReplicatedStorage/SharedData/SkinData/Glisten/CrimsonImp.lua
+module     193  yes      scripts/ReplicatedStorage/SharedData/SkinData/Glisten/PerfectPetals.lua
+module     193  yes      scripts/ReplicatedStorage/SharedData/SkinData/Glisten/SparklingSnow.lua
+module     177  yes      scripts/ReplicatedStorage/SharedData/SkinData/Glisten/Sweater.lua
+module     176  yes      scripts/ReplicatedStorage/SharedData/SkinData/Glisten/VintageGlisten.lua
+module     193  yes      scripts/ReplicatedStorage/SharedData/SkinData/Glisten/WrappedChic.lua
+module      84  yes      scripts/ReplicatedStorage/SharedData/SkinData/Goob/GardenBlossoms.lua
+module      93  yes      scripts/ReplicatedStorage/SharedData/SkinData/Goob/Neapolitan.lua
+module      75  yes      scripts/ReplicatedStorage/SharedData/SkinData/Goob/PartyHat.lua
+module      88  yes      scripts/ReplicatedStorage/SharedData/SkinData/Goob/SpecialSpaghetti.lua
+module      78  yes      scripts/ReplicatedStorage/SharedData/SkinData/Goob/VintageGoob.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gourdy/CrinklingLeaves.lua
+module      79  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gourdy/FreshFall.lua
+module      81  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gourdy/LostPrince.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gourdy/MidnightSleeper.lua
+module      75  yes      scripts/ReplicatedStorage/SharedData/SkinData/Gourdy/VintageGourdy.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/CreepyClown.lua
+module      41  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/DapperlyFestive.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/FunnyBunny.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/MarchingBand.lua
+module      49  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/PastelPatterns.lua
+module      40  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/ShowtimeLooey.lua
+module      38  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/SwirlingMixUp.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Looey/VintageLooey.lua
+module      81  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/BunnyWabbit.lua
+module      92  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/DreamPebble.lua
+module      79  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/ExtraCheese.lua
+module      75  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/FlowerBud.lua
+module      76  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/GemPebble.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/GleefulGift.lua
+module      77  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/PebbleEgged.lua
+module      76  yes      scripts/ReplicatedStorage/SharedData/SkinData/Pebble/VintagePebble.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/BluePoppy.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/BowfulBeauty.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/ConfidentCaroler.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/DoubleBubble.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/FloralSuds.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/PicnicOuting.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Poppy/VintagePoppy.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/AquaRaz.lua
+module      56  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/CozyChristmas.lua
+module      59  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/GiftwrapAndRibbons.lua
+module      53  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/MatchaMorning.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/RadiantDream.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/ShowtimeRazzleDazzle.lua
+module      57  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/SpringFormal.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/RazzleDazzle/VintageRazzleDazzle.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ribecca/HauntedTopic.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ribecca/SkeleKitty.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Ribecca/VintageRibecca.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/AceDetective.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/AlphaWolf.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/FestiveDetective.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/ListMaker.lua
+module      41  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/ResearchMobile.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/VintageRodger.lua
+module      48  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rodger/VioletDebonair.lua
+module      92  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rudie/GoldenAntlers.lua
+module      95  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rudie/HollyJolly.lua
+module      79  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rudie/RudieBlueBell.lua
+module      89  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rudie/SnowtimeRudie.lua
+module      72  yes      scripts/ReplicatedStorage/SharedData/SkinData/Rudie/VintageRudie.lua
+module      55  yes      scripts/ReplicatedStorage/SharedData/SkinData/Scraps/CutesyCalico.lua
+module      58  yes      scripts/ReplicatedStorage/SharedData/SkinData/Scraps/GardenBouquet.lua
+module      55  yes      scripts/ReplicatedStorage/SharedData/SkinData/Scraps/PastelPaper.lua
+module      55  yes      scripts/ReplicatedStorage/SharedData/SkinData/Scraps/RainbowSherbet.lua
+module      59  yes      scripts/ReplicatedStorage/SharedData/SkinData/Scraps/VintageScraps.lua
+module      73  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/CareBear_Shelly.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/DreamShelly.lua
+module      52  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/FallStroll.lua
+module      57  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/PaintedEggshells.lua
+module      57  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/PrehistoricPeppermint.lua
+module      52  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/ShellyDino.lua
+module      54  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/VintageShelly.lua
+module      56  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shelly/VioletCaster.lua
+module      49  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/BundledUp.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/CareBear_Shrimpo.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/CrankyChristmas.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/FairyGodmother.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/PunkShrimpo.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/VintageShrimpo.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/WiltedDaisies.lua
+module      62  yes      scripts/ReplicatedStorage/SharedData/SkinData/Soulvester/GourdGuard.lua
+module      62  yes      scripts/ReplicatedStorage/SharedData/SkinData/Soulvester/HauntedFlame.lua
+module      60  yes      scripts/ReplicatedStorage/SharedData/SkinData/Soulvester/VintageSoulvester.lua
+module      88  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/BakerSprout.lua
+module      81  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/BerryBeast.lua
+module     100  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/CareBear_Sprout.lua
+module      98  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/ChefSprout.lua
+module      88  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/ChocoBerry.lua
+module      91  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/DreamSprout.lua
+module      72  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/DreamSprout/Movement.lua   (same source as scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua)
+module      97  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/GoldenBerry.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/SugaryShortcake.lua
+module      80  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/TastyCarrot.lua
+module      92  yes      scripts/ReplicatedStorage/SharedData/SkinData/Sprout/VintageSprout.lua
+module      51  yes      scripts/ReplicatedStorage/SharedData/SkinData/Squirm/SpringQuilt.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Squirm/VintageSquirm.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Teagan/FancyDress.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Teagan/PastelPorcelain.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Teagan/ShiningWreath.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Teagan/VintageTeagan.lua
+module      78  yes      scripts/ReplicatedStorage/SharedData/SkinData/Tisha/MaidTisha.lua
+module      75  yes      scripts/ReplicatedStorage/SharedData/SkinData/Tisha/SpringCleaning.lua
+module      77  yes      scripts/ReplicatedStorage/SharedData/SkinData/Tisha/VintageTisha.lua
+module      83  yes      scripts/ReplicatedStorage/SharedData/SkinData/Tisha/WinterMint.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/CandyCritter.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/DogPlushOnesie.lua
+module      47  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/FestiveDress.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/JrDetective.lua
+module      50  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/LittleHelper.lua
+module      48  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/TeaPartyGuest.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Toodles/VintageToodles.lua
+module      63  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/DreamVee.lua
+module      53  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/HolidaySpecial.lua
+module      63  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/ShowtimeVee.lua
+module      65  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/VeeSpace.lua
+module      70  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/VeesterBunny.lua
+module      61  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/VintageVee.lua
+module      69  yes      scripts/ReplicatedStorage/SharedData/SkinData/Vee/ZappedCreation.lua
+module      52  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/April1.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/BlossomBuddy.lua
+module      43  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/ChocoCones.lua
+module      49  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/CrinkledConfetti.lua
+module      42  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/EatBricks.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/InfectedCandy.lua
+module      40  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/ShowtimeYatta.lua
+module      44  yes      scripts/ReplicatedStorage/SharedData/SkinData/Yatta/VintageYatta.lua
+module     985  yes      scripts/ReplicatedStorage/SharedData/Stickers.lua
+module      46  yes      scripts/ReplicatedStorage/SharedData/TOTWSchedule.lua
+module     142  yes      scripts/ReplicatedStorage/SharedData/TimedBonusEffectsConfig.lua
+module     331  yes      scripts/ReplicatedStorage/SharedData/Titles.lua
+module     130  yes      scripts/ReplicatedStorage/SharedData/ToonMissions/FinnMissions.lua
+module     126  yes      scripts/ReplicatedStorage/SharedData/ToonMissions/SproutMissions.lua
+module     416  yes      scripts/ReplicatedStorage/SharedData/TowerData/Astro.lua
+module     199  yes      scripts/ReplicatedStorage/SharedData/TowerData/Bassie.lua
+module     469  yes      scripts/ReplicatedStorage/SharedData/TowerData/Blott.lua
+module    1042  yes      scripts/ReplicatedStorage/SharedData/TowerData/Bobette.lua
+module     101  yes      scripts/ReplicatedStorage/SharedData/TowerData/Boxten.lua
+module     296  yes      scripts/ReplicatedStorage/SharedData/TowerData/Brightney.lua
+module     966  yes      scripts/ReplicatedStorage/SharedData/TowerData/Brusha.lua
+module     322  yes      scripts/ReplicatedStorage/SharedData/TowerData/Coal.lua
+module     353  yes      scripts/ReplicatedStorage/SharedData/TowerData/Cocoa.lua
+module     347  yes      scripts/ReplicatedStorage/SharedData/TowerData/Connie.lua
+module     390  yes      scripts/ReplicatedStorage/SharedData/TowerData/Cosmo.lua
+module      52  yes      scripts/ReplicatedStorage/SharedData/TowerData/Dandy.lua
+module      52  yes      scripts/ReplicatedStorage/SharedData/TowerData/Dyle.lua
+module     147  yes      scripts/ReplicatedStorage/SharedData/TowerData/Eclipse.lua
+module     367  yes      scripts/ReplicatedStorage/SharedData/TowerData/Eggson.lua
+module     122  yes      scripts/ReplicatedStorage/SharedData/TowerData/Finn.lua
+module     328  yes      scripts/ReplicatedStorage/SharedData/TowerData/Flutter.lua
+module     749  yes      scripts/ReplicatedStorage/SharedData/TowerData/Flyte.lua
+module     382  yes      scripts/ReplicatedStorage/SharedData/TowerData/Gigi.lua
+module     384  yes      scripts/ReplicatedStorage/SharedData/TowerData/Ginger.lua
+module     309  yes      scripts/ReplicatedStorage/SharedData/TowerData/Glisten.lua
+module     712  yes      scripts/ReplicatedStorage/SharedData/TowerData/Goob.lua
+module     456  yes      scripts/ReplicatedStorage/SharedData/TowerData/Gourdy.lua
+module     161  yes      scripts/ReplicatedStorage/SharedData/TowerData/Looey.lua
+module     342  yes      scripts/ReplicatedStorage/SharedData/TowerData/Pebble.lua
+module     101  yes      scripts/ReplicatedStorage/SharedData/TowerData/Poppy.lua
+module     125  yes      scripts/ReplicatedStorage/SharedData/TowerData/RazzleDazzle.lua
+module     127  yes      scripts/ReplicatedStorage/SharedData/TowerData/Ribecca.lua
+module     120  yes      scripts/ReplicatedStorage/SharedData/TowerData/Rodger.lua
+module     363  yes      scripts/ReplicatedStorage/SharedData/TowerData/Rudie.lua
+module     545  yes      scripts/ReplicatedStorage/SharedData/TowerData/Scraps.lua
+module     387  yes      scripts/ReplicatedStorage/SharedData/TowerData/Shelly.lua
+module     111  yes      scripts/ReplicatedStorage/SharedData/TowerData/Shrimpo.lua
+module     143  yes      scripts/ReplicatedStorage/SharedData/TowerData/Soulvester.lua
+module     519  yes      scripts/ReplicatedStorage/SharedData/TowerData/Sprout.lua
+module     333  yes      scripts/ReplicatedStorage/SharedData/TowerData/Squirm.lua
+module     290  yes      scripts/ReplicatedStorage/SharedData/TowerData/Teagan.lua
+module     309  yes      scripts/ReplicatedStorage/SharedData/TowerData/Tisha.lua
+module     337  yes      scripts/ReplicatedStorage/SharedData/TowerData/Toodles.lua
+module     380  yes      scripts/ReplicatedStorage/SharedData/TowerData/Vee.lua
+module     181  yes      scripts/ReplicatedStorage/SharedData/TowerData/Yatta.lua
+module      37  yes      scripts/ReplicatedStorage/SharedData/ValidStatistics.lua
+module     295  yes      scripts/ReplicatedStorage/SharedModules/Character/DamageHandler.lua
+module     432  yes      scripts/ReplicatedStorage/SharedModules/Character/ResearchHandler.lua
+module     239  yes      scripts/ReplicatedStorage/SharedUtils/ActionEvent.lua
+module      40  yes      scripts/ReplicatedStorage/SharedUtils/AdminUsers.lua
+module     551  yes      scripts/ReplicatedStorage/SharedUtils/ArcadeGames.lua
+module     436  yes      scripts/ReplicatedStorage/SharedUtils/Blink.lua
+module     257  yes      scripts/ReplicatedStorage/SharedUtils/CameraController.lua
+module     306  yes      scripts/ReplicatedStorage/SharedUtils/CharacterDialogUI.lua
+module      77  yes      scripts/ReplicatedStorage/SharedUtils/DisableableButton.lua
+module     374  yes      scripts/ReplicatedStorage/SharedUtils/EggHuntSystem.lua
+module      31  yes      scripts/ReplicatedStorage/SharedUtils/ExampleSharedScript.lua
+module     415  yes      scripts/ReplicatedStorage/SharedUtils/FriendsLeaderboard.lua
+module     174  yes      scripts/ReplicatedStorage/SharedUtils/GlobalLeaderboard.lua
+module     967  yes      scripts/ReplicatedStorage/SharedUtils/GuideArrow.lua
+module     258  yes      scripts/ReplicatedStorage/SharedUtils/GuidePath.lua
+module     151  yes      scripts/ReplicatedStorage/SharedUtils/HapticEffectsController.lua
+module     117  yes      scripts/ReplicatedStorage/SharedUtils/Maid.lua
+module     352  yes      scripts/ReplicatedStorage/SharedUtils/MenuManager.lua
+module     319  yes      scripts/ReplicatedStorage/SharedUtils/MonsterMessageUI.lua
+module     130  yes      scripts/ReplicatedStorage/SharedUtils/MouseOver.lua
+module     121  yes      scripts/ReplicatedStorage/SharedUtils/Network.lua
+module      45  yes      scripts/ReplicatedStorage/SharedUtils/OfferTime.lua
+module     242  yes      scripts/ReplicatedStorage/SharedUtils/PlayerBillboardNameHandler.lua
+module      57  yes      scripts/ReplicatedStorage/SharedUtils/PlayerCache.lua
+module     180  yes      scripts/ReplicatedStorage/SharedUtils/Prompts.lua
+module     190  yes      scripts/ReplicatedStorage/SharedUtils/Signal.lua
+module     184  yes      scripts/ReplicatedStorage/SharedUtils/SimulatedTime.lua
+module     286  yes      scripts/ReplicatedStorage/SharedUtils/TextureMoverHandler.lua
+module     360  yes      scripts/ReplicatedStorage/SharedUtils/ToonOfTheWeek.lua
+module     497  yes      scripts/ReplicatedStorage/SharedUtils/TowerLUT.lua
+module     371  yes      scripts/ReplicatedStorage/SharedUtils/UIController.lua
+module     204  yes      scripts/ReplicatedStorage/SharedUtils/UIScrollbarScaling.lua
+module     116  yes      scripts/ReplicatedStorage/SharedUtils/Universe.lua
+module     291  yes      scripts/ReplicatedStorage/SharedUtils/VideoFrameManager.lua
+module     154  yes      scripts/ReplicatedStorage/SharedUtils/sevenSegmentDisplay.lua
+module     229  yes      scripts/ReplicatedStorage/SharedUtils/styleController.lua
+module     107  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/bookmarkButton.lua
+module     122  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/bookmarks.lua
+module     215  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/collection.lua
+module     156  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/journal.lua
+module     113  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/medalDetails.lua
+module     163  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/medals.lua
+module      80  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/pin.lua
+module     138  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/progressFrame.lua
+module     152  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/sticker.lua
+module     124  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/textButton.lua
+module      97  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/Journal/title.lua
+module      95  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/SwimmyBarnaby/button.lua
+module      86  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/SwimmyBarnaby/options.lua
+module     130  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/VeeMail/button.lua
+module     140  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/VeeMail/mail.lua
+module      84  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/VeeMail/timerCountdown.lua
+module     209  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/redeemable.lua
+module      54  yes      scripts/ReplicatedStorage/SharedUtils/stylesheets/template.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/template.lua)
+module      57  yes      scripts/ReplicatedStorage/SharedUtils/timeFormat.lua
+module     214  yes      scripts/ReplicatedStorage/SharedUtils/tweenHelpers.lua
+module     242  yes      scripts/ReplicatedStorage/SharedUtils/tweenHelpers/TextScaler.lua
+module      53  yes      scripts/ReplicatedStorage/SharedUtils/tweens.lua
+module     132  yes      scripts/ReplicatedStorage/Skins/Astro/AstroStar.lua
+module     142  yes      scripts/ReplicatedStorage/Skins/Astro/CareBear_Astro.lua
+module     179  yes      scripts/ReplicatedStorage/Skins/Astro/DreamAstro.lua
+module     113  yes      scripts/ReplicatedStorage/Skins/Astro/Halloween_Astro.lua
+module     114  yes      scripts/ReplicatedStorage/Skins/Astro/NorthStar.lua
+module      97  yes      scripts/ReplicatedStorage/Skins/Astro/VintageAstro.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Bassie/BelleBasket.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Bassie/VintageBassie.lua
+module      78  yes      scripts/ReplicatedStorage/Skins/Blott/CozyPink.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Blott/PenguinBlott.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Blott/SanguineSilence.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Blott/ShowtimeBlott.lua
+module      49  yes      scripts/ReplicatedStorage/Skins/Blott/VintageBlott.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Bobette/EveSleeper.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Bobette/GoldenBauble.lua
+module      79  yes      scripts/ReplicatedStorage/Skins/Bobette/HollyLace.lua
+module      85  yes      scripts/ReplicatedStorage/Skins/Bobette/HotChocolate.lua
+module      86  yes      scripts/ReplicatedStorage/Skins/Bobette/SnowtimeBobette.lua
+module      55  yes      scripts/ReplicatedStorage/Skins/Bobette/VintageBobette.lua
+module      67  yes      scripts/ReplicatedStorage/Skins/Boxten/CloudyDream.lua
+module      77  yes      scripts/ReplicatedStorage/Skins/Boxten/CreepyChord.lua
+module      78  yes      scripts/ReplicatedStorage/Skins/Boxten/QuietCaroler.lua
+module      97  yes      scripts/ReplicatedStorage/Skins/Boxten/SunlitNeon.lua
+module      40  yes      scripts/ReplicatedStorage/Skins/Boxten/VintageBoxten.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Brightney/AntiqueShade.lua
+module      50  yes      scripts/ReplicatedStorage/Skins/Brightney/VintageBrightney.lua
+module      86  yes      scripts/ReplicatedStorage/Skins/Brusha/AutumnPalette.lua
+module      71  yes      scripts/ReplicatedStorage/Skins/Brusha/FigurePainter.lua
+module      95  yes      scripts/ReplicatedStorage/Skins/Brusha/GloomySleeper.lua
+module      71  yes      scripts/ReplicatedStorage/Skins/Brusha/ScaryStylish.lua
+module      61  yes      scripts/ReplicatedStorage/Skins/Brusha/VintageBrusha.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Coal/GoldenDust.lua
+module      57  yes      scripts/ReplicatedStorage/Skins/Coal/PresentCoal.lua
+module      85  yes      scripts/ReplicatedStorage/Skins/Coal/SnowtimeCoal.lua
+module      73  yes      scripts/ReplicatedStorage/Skins/Coal/SnowyRescue.lua
+module      42  yes      scripts/ReplicatedStorage/Skins/Coal/VintageCoal.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Cocoa/SpringOuting.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Cocoa/VintageCocoa.lua
+module     128  yes      scripts/ReplicatedStorage/Skins/Connie/BriskBreeze.lua
+module     120  yes      scripts/ReplicatedStorage/Skins/Connie/ChristmasPast.lua
+module      69  yes      scripts/ReplicatedStorage/Skins/Connie/FrostyMittens.lua
+module      88  yes      scripts/ReplicatedStorage/Skins/Connie/GhastlyGlow.lua
+module      70  yes      scripts/ReplicatedStorage/Skins/Connie/LilacHaunting.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Connie/VintageConnie.lua
+module     151  yes      scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua
+module     153  yes      scripts/ReplicatedStorage/Skins/Cosmo/CosmoBerry.lua
+module     119  yes      scripts/ReplicatedStorage/Skins/Cosmo/DessertfulScientist.lua
+module     124  yes      scripts/ReplicatedStorage/Skins/Cosmo/SnowtimeCosmo.lua
+module     135  yes      scripts/ReplicatedStorage/Skins/Cosmo/SweetRoll.lua
+module      95  yes      scripts/ReplicatedStorage/Skins/Cosmo/VintageCosmo.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Eclipse/FullMoon.lua
+module      89  yes      scripts/ReplicatedStorage/Skins/Eclipse/LittleRed.lua
+module      83  yes      scripts/ReplicatedStorage/Skins/Eclipse/LoneWolf.lua
+module      70  yes      scripts/ReplicatedStorage/Skins/Eclipse/VintageEclipse.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Eggson/PaintedPatterns.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Eggson/VintageEggson.lua
+module     134  yes      scripts/ReplicatedStorage/Skins/Finn/FishFinn.lua
+module     136  yes      scripts/ReplicatedStorage/Skins/Finn/IceFisher.lua
+module     134  yes      scripts/ReplicatedStorage/Skins/Finn/TackySweater.lua
+module      98  yes      scripts/ReplicatedStorage/Skins/Finn/VintageFinn.lua
+module     139  yes      scripts/ReplicatedStorage/Skins/Flutter/FrostyFluff.lua
+module     104  yes      scripts/ReplicatedStorage/Skins/Flutter/VintageFlutter.lua
+module     138  yes      scripts/ReplicatedStorage/Skins/Flutter/VividMonarch.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Flyte/SpringSky.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Flyte/VintageFlyte.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Gigi/RainyDay.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Gigi/SnowballFight.lua
+module      41  yes      scripts/ReplicatedStorage/Skins/Gigi/VintageGigi.lua
+module      57  yes      scripts/ReplicatedStorage/Skins/Ginger/GingerMinty.lua
+module     101  yes      scripts/ReplicatedStorage/Skins/Ginger/GoldenCookie.lua
+module     100  yes      scripts/ReplicatedStorage/Skins/Ginger/NewYearsGinger.lua
+module     114  yes      scripts/ReplicatedStorage/Skins/Ginger/SnowtimeGinger.lua
+module      98  yes      scripts/ReplicatedStorage/Skins/Ginger/SugarCookie.lua
+module      42  yes      scripts/ReplicatedStorage/Skins/Ginger/VintageGinger.lua
+module     209  yes      scripts/ReplicatedStorage/Skins/Glisten/CrimsonImp.lua
+module     219  yes      scripts/ReplicatedStorage/Skins/Glisten/SparklingSnow.lua
+module     193  yes      scripts/ReplicatedStorage/Skins/Glisten/Sweater.lua
+module     177  yes      scripts/ReplicatedStorage/Skins/Glisten/VintageGlisten.lua
+module     208  yes      scripts/ReplicatedStorage/Skins/Glisten/WrappedChic.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Goob/PartyHat.lua
+module      88  yes      scripts/ReplicatedStorage/Skins/Goob/SpecialSpaghetti.lua
+module      57  yes      scripts/ReplicatedStorage/Skins/Goob/VintageGoob.lua
+module      76  yes      scripts/ReplicatedStorage/Skins/Gourdy/CrinklingLeaves.lua
+module     108  yes      scripts/ReplicatedStorage/Skins/Gourdy/FreshFall.lua
+module     112  yes      scripts/ReplicatedStorage/Skins/Gourdy/LostPrince.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Gourdy/MidnightSleeper.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Gourdy/VintageGourdy.lua
+module      79  yes      scripts/ReplicatedStorage/Skins/Looey/CreepyClown.lua
+module      70  yes      scripts/ReplicatedStorage/Skins/Looey/DapperlyFestive.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Looey/MarchingBand.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Looey/ShowtimeLooey.lua
+module      70  yes      scripts/ReplicatedStorage/Skins/Looey/SwirlingMixUp.lua
+module      43  yes      scripts/ReplicatedStorage/Skins/Looey/VintageLooey.lua
+module     131  yes      scripts/ReplicatedStorage/Skins/Pebble/DreamPebble.lua
+module     109  yes      scripts/ReplicatedStorage/Skins/Pebble/ExtraCheese.lua
+module     118  yes      scripts/ReplicatedStorage/Skins/Pebble/FlowerBud.lua
+module     119  yes      scripts/ReplicatedStorage/Skins/Pebble/GemPebble.lua
+module     110  yes      scripts/ReplicatedStorage/Skins/Pebble/GleefulGift.lua
+module     119  yes      scripts/ReplicatedStorage/Skins/Pebble/PebbleEgged.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Pebble/VintagePebble.lua
+module     107  yes      scripts/ReplicatedStorage/Skins/Poppy/BluePoppy.lua
+module     114  yes      scripts/ReplicatedStorage/Skins/Poppy/BowfulBeauty.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Poppy/ConfidentCaroler.lua
+module      76  yes      scripts/ReplicatedStorage/Skins/Poppy/DoubleBubble.lua
+module     106  yes      scripts/ReplicatedStorage/Skins/Poppy/PicnicOuting.lua
+module      40  yes      scripts/ReplicatedStorage/Skins/Poppy/VintagePoppy.lua
+module      79  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/AquaRaz.lua
+module      76  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/CozyChristmas.lua
+module      84  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/GiftwrapAndRibbons.lua
+module      78  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/MatchaMorning.lua
+module      79  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/RadiantDream.lua
+module      76  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/ShowtimeRazzleDazzle.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/RazzleDazzle/VintageRazzleDazzle.lua
+module      76  yes      scripts/ReplicatedStorage/Skins/Ribecca/HauntedTopic.lua
+module      63  yes      scripts/ReplicatedStorage/Skins/Ribecca/SkeleKitty.lua
+module      43  yes      scripts/ReplicatedStorage/Skins/Ribecca/VintageRibecca.lua
+module      73  yes      scripts/ReplicatedStorage/Skins/Rodger/AceDetective.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Rodger/AlphaWolf.lua
+module      78  yes      scripts/ReplicatedStorage/Skins/Rodger/FestiveDetective.lua
+module      86  yes      scripts/ReplicatedStorage/Skins/Rodger/ListMaker.lua
+module      47  yes      scripts/ReplicatedStorage/Skins/Rodger/VintageRodger.lua
+module     136  yes      scripts/ReplicatedStorage/Skins/Rudie/GoldenAntlers.lua
+module     134  yes      scripts/ReplicatedStorage/Skins/Rudie/HollyJolly.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Rudie/RudieBlueBell.lua
+module     147  yes      scripts/ReplicatedStorage/Skins/Rudie/SnowtimeRudie.lua
+module      65  yes      scripts/ReplicatedStorage/Skins/Rudie/VintageRudie.lua
+module      81  yes      scripts/ReplicatedStorage/Skins/Scraps/CutesyCalico.lua
+module      81  yes      scripts/ReplicatedStorage/Skins/Scraps/PastelPaper.lua
+module      51  yes      scripts/ReplicatedStorage/Skins/Scraps/VintageScraps.lua
+module     125  yes      scripts/ReplicatedStorage/Skins/Shelly/CareBear_Shelly.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Shelly/DreamShelly.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Shelly/FallStroll.lua
+module      77  yes      scripts/ReplicatedStorage/Skins/Shelly/PrehistoricPeppermint.lua
+module      86  yes      scripts/ReplicatedStorage/Skins/Shelly/ShellyDino.lua
+module      47  yes      scripts/ReplicatedStorage/Skins/Shelly/VintageShelly.lua
+module      66  yes      scripts/ReplicatedStorage/Skins/Shelly/VioletCaster.lua
+module      81  yes      scripts/ReplicatedStorage/Skins/Shrimpo/BundledUp.lua
+module      56  yes      scripts/ReplicatedStorage/Skins/Shrimpo/CareBear_Shrimpo.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Shrimpo/CrankyChristmas.lua
+module      81  yes      scripts/ReplicatedStorage/Skins/Shrimpo/FairyGodmother.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Shrimpo/PunkShrimpo.lua
+module      56  yes      scripts/ReplicatedStorage/Skins/Shrimpo/VintageShrimpo.lua
+module      91  yes      scripts/ReplicatedStorage/Skins/Soulvester/GourdGuard.lua
+module      73  yes      scripts/ReplicatedStorage/Skins/Soulvester/HauntedFlame.lua
+module      43  yes      scripts/ReplicatedStorage/Skins/Soulvester/VintageSoulvester.lua
+module     159  yes      scripts/ReplicatedStorage/Skins/Sprout/BakerSprout.lua
+module     134  yes      scripts/ReplicatedStorage/Skins/Sprout/BerryBeast.lua
+module     171  yes      scripts/ReplicatedStorage/Skins/Sprout/ChocoBerry.lua
+module     211  yes      scripts/ReplicatedStorage/Skins/Sprout/DreamSprout.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Sprout/DreamSprout/Movement.lua   (same source as scripts/ReplicatedStorage/Skins/Cosmo/CosmoBaker/Movement.lua)
+module     121  yes      scripts/ReplicatedStorage/Skins/Sprout/SugaryShortcake.lua
+module     102  yes      scripts/ReplicatedStorage/Skins/Sprout/VintageSprout.lua
+module      61  yes      scripts/ReplicatedStorage/Skins/Teagan/FancyDress.lua
+module      73  yes      scripts/ReplicatedStorage/Skins/Teagan/ShiningWreath.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Teagan/VintageTeagan.lua
+module     109  yes      scripts/ReplicatedStorage/Skins/Tisha/MaidTisha.lua
+module      76  yes      scripts/ReplicatedStorage/Skins/Tisha/VintageTisha.lua
+module     108  yes      scripts/ReplicatedStorage/Skins/Tisha/WinterMint.lua
+module      79  yes      scripts/ReplicatedStorage/Skins/Toodles/CandyCritter.lua
+module      69  yes      scripts/ReplicatedStorage/Skins/Toodles/DogPlushOnesie.lua
+module      73  yes      scripts/ReplicatedStorage/Skins/Toodles/FestiveDress.lua
+module      69  yes      scripts/ReplicatedStorage/Skins/Toodles/JrDetective.lua
+module      80  yes      scripts/ReplicatedStorage/Skins/Toodles/LittleHelper.lua
+module      42  yes      scripts/ReplicatedStorage/Skins/Toodles/VintageToodles.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Vee/DreamVee.lua
+module      85  yes      scripts/ReplicatedStorage/Skins/Vee/HolidaySpecial.lua
+module      73  yes      scripts/ReplicatedStorage/Skins/Vee/ShowtimeVee.lua
+module      85  yes      scripts/ReplicatedStorage/Skins/Vee/VeeSpace.lua
+module      45  yes      scripts/ReplicatedStorage/Skins/Vee/VintageVee.lua
+module      97  yes      scripts/ReplicatedStorage/Skins/Vee/ZappedCreation.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Yatta/April1.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Yatta/BlossomBuddy.lua
+module      75  yes      scripts/ReplicatedStorage/Skins/Yatta/ChocoCones.lua
+module      74  yes      scripts/ReplicatedStorage/Skins/Yatta/EatBricks.lua
+module      63  yes      scripts/ReplicatedStorage/Skins/Yatta/InfectedCandy.lua
+module      72  yes      scripts/ReplicatedStorage/Skins/Yatta/ShowtimeYatta.lua
+module      44  yes      scripts/ReplicatedStorage/Skins/Yatta/VintageYatta.lua
+module     540  yes      scripts/ReplicatedStorage/SmartBone.lua
+module     570  yes      scripts/ReplicatedStorage/SmartBone/Components/Bone.lua
+module     293  yes      scripts/ReplicatedStorage/SmartBone/Components/BoneTree.lua
+module     213  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/Collider.lua
+module     134  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/ColliderObject.lua
+module      96  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/Colliders/Box.lua
+module      64  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/Colliders/Capsule.lua
+module     103  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/Colliders/Cylinder.lua
+module      61  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/Colliders/Sphere.lua
+module     115  yes      scripts/ReplicatedStorage/SmartBone/Components/Collision/Colliders/Triangle.lua
+module     127  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/AxisConstraint.lua
+module      85  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/AxisConstraint.spec.lua
+module      48  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/CollisionConstraint.lua
+module      42  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/DistanceConstraint.lua
+module      65  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/DistanceContraint.spec.lua
+module      26  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/FrictionConstraint.lua
+module      44  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/RopeConstraint.lua
+module      82  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/RopeConstraint.spec.lua
+module      78  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/RotationConstraint.lua
+module      59  yes      scripts/ReplicatedStorage/SmartBone/Components/Constraints/SpringConstraint.lua
+module      49  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Config.lua
+module     398  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/DebugUi.lua
+module      57  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo.lua
+module     351  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmo.lua
+module      73  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Arrow.lua
+module     132  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Box.lua
+module     100  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Capsule.lua
+module     104  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Circle.lua
+module      94  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Cone.lua
+module      98  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Cylinder.lua
+module      69  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Line.lua
+module     121  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Mesh.lua
+module      84  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Plane.lua
+module      80  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Ray.lua
+module      73  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Sphere.lua
+module      89  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Text.lua
+module      87  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/VolumeArrow.lua
+module      83  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/VolumeBox.lua
+module      85  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/VolumeCone.lua
+module      89  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/VolumeCylinder.lua
+module      83  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/VolumeSphere.lua
+module     129  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/Gizmo/Gizmos/Wedge.lua
+module      24  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/ImOverlay.lua
+module     219  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Debug/ImOverlay/CeiveImOverlay.lua
+module      43  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/DefaultObjectSettings.lua
+module      68  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Frustum.lua
+module      79  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Frustum.spec.lua
+module     203  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris.lua
+module     342  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/API.lua
+module     541  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/Internal.lua
+module      24  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/Types.lua
+module     214  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/config.lua
+module    1476  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/demoWindow.lua
+module     497  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets.lua
+module     107  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Button.lua
+module     142  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Checkbox.lua
+module     472  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Combo.lua
+module     157  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Format.lua
+module    1505  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Input.lua
+module     608  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Menu.lua
+module     152  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/RadioButton.lua
+module     160  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Root.lua
+module     177  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Table.lua
+module     165  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Text.lua
+module     302  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Tree.lua
+module     854  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Iris/widgets/Window.lua
+client     179  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Runtime.client.lua
+module     359  yes      scripts/ReplicatedStorage/SmartBone/Dependencies/Utilities.lua
+module      37  yes      scripts/ReplicatedStorage/StoryScripts/CharacterDialogue.lua
+module     377  yes      scripts/ReplicatedStorage/StoryScripts/CharacterInfo.lua
+module     270  yes      scripts/ReplicatedStorage/TowerData/Astro.lua
+client      44  yes      scripts/ReplicatedStorage/TowerData/Astro/HeartIcon/HeartIconScript.server.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      44  NO       scripts/ReplicatedStorage/TowerData/Astro/HeartIcon/Script.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+module     171  yes      scripts/ReplicatedStorage/TowerData/Bassie.lua
+module     466  yes      scripts/ReplicatedStorage/TowerData/Blott.lua
+module     883  yes      scripts/ReplicatedStorage/TowerData/Bobette.lua
+module      70  yes      scripts/ReplicatedStorage/TowerData/Boxten.lua
+module     234  yes      scripts/ReplicatedStorage/TowerData/Brightney.lua
+module     953  yes      scripts/ReplicatedStorage/TowerData/Brusha.lua
+module     228  yes      scripts/ReplicatedStorage/TowerData/Coal.lua
+module     322  yes      scripts/ReplicatedStorage/TowerData/Cocoa.lua
+module     268  yes      scripts/ReplicatedStorage/TowerData/Connie.lua
+module     287  yes      scripts/ReplicatedStorage/TowerData/Cosmo.lua
+module      91  yes      scripts/ReplicatedStorage/TowerData/Dandy.lua
+module      95  yes      scripts/ReplicatedStorage/TowerData/Dyle.lua
+module     114  yes      scripts/ReplicatedStorage/TowerData/Eclipse.lua
+module     305  yes      scripts/ReplicatedStorage/TowerData/Eggson.lua
+module      89  yes      scripts/ReplicatedStorage/TowerData/Finn.lua
+module     231  yes      scripts/ReplicatedStorage/TowerData/Flutter.lua
+module     710  yes      scripts/ReplicatedStorage/TowerData/Flyte.lua
+module     345  yes      scripts/ReplicatedStorage/TowerData/Gigi.lua
+module     291  yes      scripts/ReplicatedStorage/TowerData/Ginger.lua
+module     267  yes      scripts/ReplicatedStorage/TowerData/Glisten.lua
+module     417  yes      scripts/ReplicatedStorage/TowerData/Goob.lua
+module     386  yes      scripts/ReplicatedStorage/TowerData/Gourdy.lua
+module     132  yes      scripts/ReplicatedStorage/TowerData/Looey.lua
+module     264  yes      scripts/ReplicatedStorage/TowerData/Pebble.lua
+module      70  yes      scripts/ReplicatedStorage/TowerData/Poppy.lua
+module      92  yes      scripts/ReplicatedStorage/TowerData/RazzleDazzle.lua
+module      95  yes      scripts/ReplicatedStorage/TowerData/Ribecca.lua
+module      90  yes      scripts/ReplicatedStorage/TowerData/Rodger.lua
+module     256  yes      scripts/ReplicatedStorage/TowerData/Rudie.lua
+module     406  yes      scripts/ReplicatedStorage/TowerData/Scraps.lua
+module     309  yes      scripts/ReplicatedStorage/TowerData/Shelly.lua
+module      69  yes      scripts/ReplicatedStorage/TowerData/Shrimpo.lua
+module     110  yes      scripts/ReplicatedStorage/TowerData/Soulvester.lua
+module     400  yes      scripts/ReplicatedStorage/TowerData/Sprout.lua
+client      44  yes      scripts/ReplicatedStorage/TowerData/Sprout/HeartIcon/HeartIconScript.server.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+client      44  NO       scripts/ReplicatedStorage/TowerData/Sprout/HeartIcon/Script.client.lua   (same source as scripts/ReplicatedStorage/GUI/WarningIcon/WarningScript.server.lua)
+module     334  yes      scripts/ReplicatedStorage/TowerData/Squirm.lua
+module     213  yes      scripts/ReplicatedStorage/TowerData/Teagan.lua
+module     234  yes      scripts/ReplicatedStorage/TowerData/Tisha.lua
+module     267  yes      scripts/ReplicatedStorage/TowerData/Toodles.lua
+module     309  yes      scripts/ReplicatedStorage/TowerData/Vee.lua
+module     152  yes      scripts/ReplicatedStorage/TowerData/Yatta.lua
+module     109  yes      scripts/ReplicatedStorage/TrinketData/Alarm.lua
+module      82  yes      scripts/ReplicatedStorage/TrinketData/BlueBandana.lua
+module      59  yes      scripts/ReplicatedStorage/TrinketData/BlushyBat.lua
+module     116  yes      scripts/ReplicatedStorage/TrinketData/Bone.lua
+module      67  yes      scripts/ReplicatedStorage/TrinketData/BoneNeedleAndThread.lua
+module      80  yes      scripts/ReplicatedStorage/TrinketData/Brick.lua
+module     101  yes      scripts/ReplicatedStorage/TrinketData/CardboardArmor.lua
+module      84  yes      scripts/ReplicatedStorage/TrinketData/ClownHorn.lua
+module      94  yes      scripts/ReplicatedStorage/TrinketData/Coal.lua
+module      69  yes      scripts/ReplicatedStorage/TrinketData/CoinPurse.lua
+module     144  yes      scripts/ReplicatedStorage/TrinketData/CrayonSet.lua
+module      70  yes      scripts/ReplicatedStorage/TrinketData/DandyPlush.lua
+module      71  yes      scripts/ReplicatedStorage/TrinketData/Diary.lua
+module      71  yes      scripts/ReplicatedStorage/TrinketData/DogPlush.lua
+module      73  yes      scripts/ReplicatedStorage/TrinketData/EggRadar.lua
+module      70  yes      scripts/ReplicatedStorage/TrinketData/FancyPurse.lua
+module     156  yes      scripts/ReplicatedStorage/TrinketData/FeatherDuster.lua
+module      73  yes      scripts/ReplicatedStorage/TrinketData/FestiveLights.lua
+module      71  yes      scripts/ReplicatedStorage/TrinketData/FishingRod.lua
+module     179  yes      scripts/ReplicatedStorage/TrinketData/FriendshipBracelet.lua
+module      65  yes      scripts/ReplicatedStorage/TrinketData/GhostSnakes.lua
+module      83  yes      scripts/ReplicatedStorage/TrinketData/GlazedFondantBag.lua
+module     198  yes      scripts/ReplicatedStorage/TrinketData/LuckyCoin.lua
+module      68  yes      scripts/ReplicatedStorage/TrinketData/MachineManual.lua
+module      81  yes      scripts/ReplicatedStorage/TrinketData/MagnifyingGlass.lua
+module      99  yes      scripts/ReplicatedStorage/TrinketData/Megaphone.lua
+module      68  yes      scripts/ReplicatedStorage/TrinketData/MemoryLocket.lua
+module      41  yes      scripts/ReplicatedStorage/TrinketData/MimeMakeup.lua
+module      68  yes      scripts/ReplicatedStorage/TrinketData/MoonPackHeirloom.lua
+module     113  yes      scripts/ReplicatedStorage/TrinketData/NightCap.lua
+module      74  yes      scripts/ReplicatedStorage/TrinketData/PaintBucket.lua
+module      84  yes      scripts/ReplicatedStorage/TrinketData/ParticipationAward.lua
+module      73  yes      scripts/ReplicatedStorage/TrinketData/PartyPopper.lua
+module      96  yes      scripts/ReplicatedStorage/TrinketData/PeppermintIcing.lua
+module      69  yes      scripts/ReplicatedStorage/TrinketData/PinkBow.lua
+module      95  yes      scripts/ReplicatedStorage/TrinketData/PopPack.lua
+module     112  yes      scripts/ReplicatedStorage/TrinketData/PullToy.lua
+module     114  yes      scripts/ReplicatedStorage/TrinketData/ResearchMap.lua
+module     110  yes      scripts/ReplicatedStorage/TrinketData/RibbonSpool.lua
+module     128  yes      scripts/ReplicatedStorage/TrinketData/SavoryCharm.lua
+module      93  yes      scripts/ReplicatedStorage/TrinketData/Scrapbook.lua
+module     144  yes      scripts/ReplicatedStorage/TrinketData/SoulSword.lua
+module      97  yes      scripts/ReplicatedStorage/TrinketData/SpareBulb.lua
+module      77  yes      scripts/ReplicatedStorage/TrinketData/SpeedShoes.lua
+module      72  yes      scripts/ReplicatedStorage/TrinketData/Speedometer.lua
+module     168  yes      scripts/ReplicatedStorage/TrinketData/StressBall.lua
+module     110  yes      scripts/ReplicatedStorage/TrinketData/SweetCharm.lua
+module      68  yes      scripts/ReplicatedStorage/TrinketData/Thermos.lua
+module      67  yes      scripts/ReplicatedStorage/TrinketData/ThinkingCap.lua
+module      63  yes      scripts/ReplicatedStorage/TrinketData/ToyKit.lua
+module      66  yes      scripts/ReplicatedStorage/TrinketData/TrainWhistle.lua
+module     122  yes      scripts/ReplicatedStorage/TrinketData/VanityMirror.lua
+module      99  yes      scripts/ReplicatedStorage/TrinketData/VeeRemote.lua
+module      90  yes      scripts/ReplicatedStorage/TrinketData/WaterCooler.lua
+module     158  yes      scripts/ReplicatedStorage/TrinketData/WhisperingFlower.lua
+module      84  yes      scripts/ReplicatedStorage/TrinketData/Wrench.lua
+module     416  yes      scripts/ReplicatedStorage/UI_EmitterModule.lua
+client      23  yes      scripts/StarterGui/CharacterPos/CharacterPos.client.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/CharacterPos/CharacterPos.client.lua)
+client     911  yes      scripts/StarterGui/DeathGui/DeathScript.client.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/DeathGui/DeathScript.client.lua)
+client     571  yes      scripts/StarterGui/KnightmareAntiCheatClient/KMDebugFrame/KnightmareAntiCheatDebug.client.lua
+client      50  yes      scripts/StarterGui/KnightmareAntiCheatClient/KMPingPlayerClient.client.lua
+client     269  yes      scripts/StarterGui/SpectatorGui/GuiUpdate.client.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/SpectatorGui/GuiUpdate.client.lua)
+client      47  yes      scripts/StarterGui/SpectatorGui/LeaveLobby/Teleport.client.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/SpectatorGui/LeaveLobby/Teleport.client.lua)
+client     100  yes      scripts/StarterGui/SpectatorGui/Spectate.client.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/SpectatorGui/Spectate.client.lua)
+module     189  yes      scripts/StarterGui/TwistedSquirmEscapeUI/Stylesheets/directionIndicator.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/directionIndicator.lua)
+module      54  yes      scripts/StarterGui/TwistedSquirmEscapeUI/Stylesheets/template.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/template.lua)
+module      57  yes      scripts/StarterGui/TwistedSquirmEscapeUI/Stylesheets/timerBar.lua   (same source as scripts/Players/[Player] prorivalsmdrlol/PlayerGui/TwistedSquirmEscapeUI/Stylesheets/timerBar.lua)
+client     847  NO       scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+server      20  yes      scripts/StarterPlayer/StarterCharacterScripts/AnimationScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      94  yes      scripts/StarterPlayer/StarterCharacterScripts/ParticleController.client.lua
+client     690  yes      scripts/StarterPlayer/StarterPlayerScripts/Character/Animations.client.lua
+client      68  yes      scripts/StarterPlayer/StarterPlayerScripts/Character/TransformationCameraLock.client.lua
+client      42  yes      scripts/StarterPlayer/StarterPlayerScripts/Core/ClientReplicaLoader.client.lua
+client      52  yes      scripts/StarterPlayer/StarterPlayerScripts/Core/HapticsClient.client.lua
+client     657  yes      scripts/StarterPlayer/StarterPlayerScripts/Core/InputManager.client.lua
+client     204  yes      scripts/StarterPlayer/StarterPlayerScripts/Core/LocalLevelEvents.client.lua
+client      24  yes      scripts/StarterPlayer/StarterPlayerScripts/Core/PlayerScriptsLoader.client.lua
+client     106  yes      scripts/StarterPlayer/StarterPlayerScripts/Core/PleaseStopExploiting.client.lua
+client     251  yes      scripts/StarterPlayer/StarterPlayerScripts/DualGenClientFX.client.lua
+client     180  yes      scripts/StarterPlayer/StarterPlayerScripts/DualGenPromptFocus.client.lua
+client     388  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BarnabyArcadeSong.client.lua
+client     744  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BarnabyAttractScreens.client.lua
+client     569  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BarnabyCabinetFX.client.lua
+client     211  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BarnabyFlopClient.client.lua
+client    1079  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BarnabyMinigameClient.client.lua
+client     104  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BassieVFXListener.client.lua
+client      26  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/BlinkActivater.client.lua
+client     347  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/DandyBlinkHandler.client.lua
+client     159  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/IceSkatingEffectsLoader.client.lua
+client      45  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/ParticleManager.client.lua
+client    4142  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/PollenTrailClient.client.lua
+client      26  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/SnowtimeTextureMover.client.lua
+client     185  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/SpringFeverClient.client.lua
+client    2201  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/SquirmEffects.client.lua
+client     331  yes      scripts/StarterPlayer/StarterPlayerScripts/Effects/ZoneVisualEffects.client.lua
+client     452  yes      scripts/StarterPlayer/StarterPlayerScripts/GMM.client.lua
+client      39  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayWaveClient.client.lua
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/BaseOcclusion.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraInput.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraToggleStateController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUI.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/CameraUtils.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ClassicCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Invisicam.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/LegacyCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/MouseLockController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/OrbitalCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/Poppercam.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/TransparencyController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRBaseCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VRVehicleCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraConfig.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/VehicleCamera/VehicleCameraCore.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CameraModule/ZoomController/Popper.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/ConnectionUtil.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/CommonUtils/FlagUtil.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/BaseCharacterController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/ClickToMoveDisplay.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/DynamicThumbstick.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Gamepad.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/Keyboard.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/PathDisplay.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchJump.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/TouchThumbstick.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VRNavigation.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+module      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerModule/ControlModule/VehicleController.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+client      19  yes      scripts/StarterPlayer/StarterPlayerScripts/PlayerScriptsLoader.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+client      19  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/PlayerModule.lua)
+client      90  yes      scripts/StarterPlayer/StarterPlayerScripts/SceneHealthProbe.client.lua
+client     124  yes      scripts/StarterPlayer/StarterPlayerScripts/Sounds/ClientSoundEffect.client.lua
+client     487  yes      scripts/StarterPlayer/StarterPlayerScripts/Sounds/DyleSoundController.client.lua
+client     361  yes      scripts/StarterPlayer/StarterPlayerScripts/Sounds/RoomAudioController.client.lua
+client     388  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/LoadoutRender.client.lua
+client    1353  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PingController.client.lua
+client      26  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PlayerBillboardNameActivator.client.lua
+client     472  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ProximityPromptHandler.client.lua
+client     304  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/StickerChatSettingsUI.client.lua
+client    1049  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/TwistedSquirmEscapeUI.client.lua
+client      52  yes      scripts/StarterPlayer/StarterPlayerScripts/VersionNumberSync.client.lua
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/FreeArea/Computer/Screen/SurfaceGui/VideoFrame/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/FreeArea/Computer~2/Screen/SurfaceGui/VideoFrame/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua
+server      20  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator~2/IchorFX/IchorCap/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator~3/IchorFX/IchorCap/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator~4/IchorFX/IchorCap/PlayAnimation.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ExtractionSpeedCandy/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/Jawbreaker/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/Jawbreaker~2/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ProteinBar/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/CapsuleScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      26  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua
+client      26  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript~2.client.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~2/CapsuleScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      26  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~2/DestroyScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+client      26  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~2/DestroyScript~2.client.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~3/CapsuleScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      26  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~3/DestroyScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+client      26  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~3/DestroyScript~2.client.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~4/CapsuleScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      26  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~4/DestroyScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+client      26  NO       scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule~4/DestroyScript~2.client.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Items/ResearchCapsule/DestroyScript.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/StaminaCandy/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/StaminaCandy~2/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/Tape/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/Tape~2/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Items/Tape~3/ItemScript.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Monsters/FinnMonster/MachineAttack.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/CurrentRoom/RainbowHallways1/Sounds/Ambience.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client     181  yes      scripts/Workspace/Elevators/Elevator/DandyStore/DandyBlinkHandler.client.lua
+server      20  yes      scripts/Workspace/Elevators/Elevator/DandyStore/DandyConfigSetup.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  NO       scripts/Workspace/Elevators/Elevator/DandyStore/DandyShop/DandyStoreAnimationController.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+server      20  yes      scripts/Workspace/Elevators/Elevator/DandyStore/Radio/Script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client     365  yes      scripts/Workspace/Elevators/Elevator/ElevatorScript.server.lua
+client     585  NO       scripts/Workspace/Elevators/Elevator/Script.client.lua
+client      41  NO       scripts/Workspace/Elevators/Elevator/TVCart/Screen/SurfaceGui/StaticFrame/staticframe/StaticScript_Local.client.lua
+server      20  yes      scripts/Workspace/Elevators/Elevator/TVCart/Screen/SurfaceGui/StaticFrame/staticframe/static script.server.lua   (same source as scripts/Workspace/CurrentRoom/RainbowHallways1/Generators/Generator/IchorFX/IchorCap/PlayAnimation.server.lua)
+client      36  yes      scripts/Workspace/Info/ElevatorPrompt/ClaimIcon/ClaimIconScript.server.lua
+client      36  NO       scripts/Workspace/Info/ElevatorPrompt/ClaimIcon/Script.client.lua   (same source as scripts/Workspace/Info/ElevatorPrompt/ClaimIcon/ClaimIconScript.server.lua)

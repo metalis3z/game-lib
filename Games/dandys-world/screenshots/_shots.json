@@ -1,0 +1,55 @@
+{
+ "viewport": "1215.19995, 708.799988",
+ "slug": "dandys-world",
+ "shots": [
+  {
+   "panel": "DeathScreen",
+   "file": "01_DeathGui__DeathScreen",
+   "gui": "DeathGui"
+  },
+  {
+   "panel": "LoadingScreen",
+   "file": "02_LoadingGui__LoadingScreen",
+   "gui": "LoadingGui"
+  },
+  {
+   "panel": "",
+   "file": "03_SpectatorGui",
+   "template": false,
+   "gui": "SpectatorGui"
+  },
+  {
+   "panel": "",
+   "file": "04_TwistedSquirmEscapeUI",
+   "template": false,
+   "gui": "TwistedSquirmEscapeUI"
+  },
+  {
+   "panel": "KMDebugFrame",
+   "file": "05_KnightmareAntiCheatClient__KMDebugFrame",
+   "gui": "KnightmareAntiCheatClient"
+  },
+  {
+   "panel": "",
+   "file": "06_DevFrame",
+   "template": true,
+   "gui": "DevFrame"
+  },
+  {
+   "panel": "DevFrame.CommandFrame",
+   "file": "07_DevFrame__CommandFrame",
+   "gui": "DevFrame"
+  },
+  {
+   "panel": "",
+   "file": "08_Notif",
+   "template": true,
+   "gui": "Notif"
+  },
+  {
+   "panel": "Bottom",
+   "file": "09_ClientUI__Bottom",
+   "gui": "ClientUI"
+  }
+ ]
+}

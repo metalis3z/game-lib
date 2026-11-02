@@ -1,0 +1,1083 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.TemporaryUI  (0 descendants)
+ScreenGui "TemporaryUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+
+==== StarterGui.MainUI  (0 descendants)
+ScreenGui "MainUI"  Enabled=True  DisplayOrder=1  ResetOnSpawn=False  ZIndexBehavior=1
+
+==== StarterGui._ReplicateServer  (0 descendants)
+ScreenGui "_ReplicateServer"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+
+==== StarterGui.ScreenGui  (0 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+
+==== Workspace.StudioAssets.studiooo.HPRC.Screen.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="NOOB"  font=Zekton/400  scaled  tc=#00ff00
+
+==== Workspace.StudioAssets.studiooo.hallucination.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={6,0},{2,0}  Enabled=True  Size={6,0},{2,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text="Use to get "Hallucination""  font=SourceSansPro/400  scaled  tc=#000000
+
+==== Workspace.StudioAssets.studiooo.KillerWin.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={6,0},{2,0}  Enabled=True  Size={6,0},{2,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff  text="Use to win as Killer"  font=SourceSansPro/400  scaled  tc=#ff0000
+
+==== Workspace.StudioAssets.Pursuer.Hint.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000  text="Bio should be like - "All of their prey shall be pursued too..."  font=Arial/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.Map.Lobby.Posters.Poster.PosterUI  (3 descendants)
+SurfaceGui "PosterUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Poster"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://137668506827977
+  TextLabel "Credit"  size={0.95,0},{0.15,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,1)  nobg  text="metadXD0"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=0.5  Color=#000000  Transparency=1  ApplyStrokeMode=0
+
+==== Workspace.Map.Lobby.Posters.Poster.PosterUI  (3 descendants)
+SurfaceGui "PosterUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Poster"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://99317786112131
+  TextLabel "Credit"  size={0.95,0},{0.15,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,1)  nobg  text="dt_bt"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=0.5  Color=#000000  Transparency=1  ApplyStrokeMode=0
+
+==== ReplicatedFirst.Loading.LoadingGui  (13 descendants)
+ScreenGui "LoadingGui"  Enabled=True  DisplayOrder=99  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "LoadingScreen"  size={1,0},{1.5,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg
+    Frame "Main"  size={1,0},{0.67,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#000000
+      TextLabel "Percent"  size={0.5,0},{0.1,0}  pos={1,-10},{0.95,0}  anchor=(1,1)  nobg  z=3  text="0%"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      TextButton "Skip"  size={0,0},{0.1,0}  pos={1,-10},{0.85,0}  anchor=(1,1)  HIDDEN  nobg  z=10  text="Skip"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      TextLabel "Information"  size={0.45,0},{0.05,0}  pos={1,-10},{1,0}  anchor=(1,1)  nobg  z=2  text="Beginning to download all assets..."  font=AccanthisADFStd/400  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=-1
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.8
+      Frame "Gradient"  size={1,0},{0.15,0}  pos={0,0},{1,0}  anchor=(0,1)  bg=#ffffff  z=0
+        UIGradient "UIGradient"  rot=-90  Color=[0:#000000 1:#000000]  Rotation=-90  Transparency=[0:0 1:1]
+      TextLabel "Warning"  size={0.55,-10},{0.075,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  z=2  text="This game contains flashing lights and loud audio, if any of..."  font=AccanthisADFStd/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=0  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Systems.Player.UI.Menus.CometUI.PranksterComet  (75 descendants)
+ScreenGui "PranksterComet"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  LocalScript "Client"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Client.client.lua
+  Folder "Assets"
+    ModuleScript "Utility"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Utility.lua
+    ModuleScript "Autofill"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Autofill.lua
+      Frame "FillBox"  size={0,160},{0,400}  pos={0.384,0},{0.326,0}  bg=#ffffff@0.8
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.004,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        TextLabel "Template"  size={1,0},{0.056,0}  pos={0,0},{0,0}  bg=#ffffff  text="OnlyTwentyCharacters"  font=SourceSansPro/400  scaled  tc=#000000
+    Folder "Tabs"
+      ModuleScript "KillPlayer"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Tabs/KillPlayer.lua
+      ModuleScript "FlingPlayer"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Tabs/FlingPlayer.lua
+      ModuleScript "BanishPlayer"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Tabs/BanishPlayer.lua
+      ModuleScript "MoneyGiver"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Tabs/MoneyGiver.lua
+      ModuleScript "BanPlayer"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Tabs/BanPlayer.lua
+    Folder "Segments"
+      ModuleScript "SelectPlayer"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Segments/SelectPlayer.lua
+      ModuleScript "FireButton"  -> scripts/ReplicatedStorage/Systems/Player/UI/Menus/CometUI/PranksterComet/Assets/Segments/FireButton.lua
+  Frame "Main"  size={0.357,0},{0.407,0}  pos={0.802,0},{0.747,0}  anchor=(0.5,0.5)  bg=#2a2a2a  attrs={"CurrentTab": "KillPlayer"}
+    UICorner "UICorner"
+    Frame "Tabs"  size={1,0},{0.413,0}  pos={0,0},{-0.437,0}  nobg
+      UIGridLayout "UIGridLayout"  CellSize={0.24,0},{0.2,0}  CellPadding={0.01,0},{0.01,0}  FillDirectionMaxCells=0
+      Frame "KillPlayer"  size={0,100},{0,100}  pos={0,0},{0,0}  bg=#2a2a2a
+        TextButton "TextButton"  size={0.98,0},{0.87,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#515151  text="Kill Player"  font=SourceSansPro/700  scaled  tc=#ffffff
+          UICorner "UICorner"
+        UICorner "UICorner"
+      Frame "FlingPlayer"  size={0,100},{0,100}  pos={0,0},{0,0}  bg=#2a2a2a
+        TextButton "TextButton"  size={0.98,0},{0.87,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#515151  text="Fling Player"  font=SourceSansPro/700  scaled  tc=#ffffff
+          UICorner "UICorner"
+        UICorner "UICorner"
+      Frame "BanishPlayer"  size={0,100},{0,100}  pos={0,0},{0,0}  bg=#2a2a2a
+        TextButton "TextButton"  size={0.98,0},{0.87,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#515151  text="Banish Player"  font=SourceSansPro/700  scaled  tc=#ffffff
+          UICorner "UICorner"
+        UICorner "UICorner"
+      Frame "MoneyGiver"  size={0,100},{0,100}  pos={0,0},{0,0}  bg=#2a2a2a
+        TextButton "TextButton"  size={0.98,0},{0.87,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#515151  text="Stuff Giver"  font=SourceSansPro/700  scaled  tc=#ffffff
+          UICorner "UICorner"
+        UICorner "UICorner"
+      Frame "BanPlayer"  size={0,100},{0,100}  pos={0,0},{0,0}  bg=#2a2a2a
+        TextButton "TextButton"  size={0.98,0},{0.87,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#515151  text="Ban Player"  font=SourceSansPro/700  scaled  tc=#ffffff
+          UICorner "UICorner"
+        UICorner "UICorner"
+    Frame "Innings"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#5d5d5d  z=2
+      UICorner "UICorner"
+      TextLabel "Title"  size={1,0},{0.109,0}  pos={0,0},{-8.64e-08,0}  nobg  text="Prankster Comet"  font=SourceSansPro/700  scaled  tc=#ffffff
+      TextLabel "Description"  size={0.541,0},{0.319,0}  pos={-0.552,0},{0.68,0}  nobg  text="freakyfish7 waz here "  font=SourceSansPro/400  scaled  tc=#ffffff
+    Frame "Frames"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+      Frame "KillPlayer"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+      Frame "FlingPlayer"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+        TextBox "TextBox"  size={0.298,0},{0.0686,0}  pos={0.602,0},{0.339,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+      Frame "BanishPlayer"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+        TextBox "TextBox"  size={0.298,0},{0.0686,0}  pos={0.602,0},{0.339,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+      Frame "SkinGiver"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+        TextBox "CharName"  size={0.298,0},{0.0686,0}  pos={0.504,0},{0.33,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+        TextBox "SkinName"  size={0.298,0},{0.0686,0}  pos={0.504,0},{0.41,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+        TextBox "EmoteName"  size={0.298,0},{0.0686,0}  pos={0.504,0},{0.49,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+      Frame "MoneyGiver"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+        TextBox "TextBox"  size={0.298,0},{0.0686,0}  pos={0.602,0},{0.339,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+        TextButton "TextButton"  size={0.145,0},{0.081,0}  pos={0.677,0},{0.429,0}  bg=#ffffff  text="Money"  font=SourceSansPro/400  ts=14  tc=#ffffff
+      Frame "BanPlayer"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2
+        TextBox "Reason"  size={0.298,0},{0.0686,0}  pos={0.602,0},{0.339,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+        TextBox "Length"  size={0.298,0},{0.0686,0}  pos={0.602,0},{0.499,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+        TextBox "InternalReason"  size={0.298,0},{0.0686,0}  pos={0.602,0},{0.419,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+    Frame "Segments"  size={0.98,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+      Frame "SelectPlayer"  size={0.5,0},{0.491,0}  pos={0.496,0},{0.132,0}  HIDDEN  nobg
+        Frame "GroupSelector"  size={1,0},{0.16,0}  pos={0,0},{3.36e-07,0}  nobg
+          TextButton "All"  size={0.25,0},{1,0}  pos={0,0},{0,0}  bg=#ff4040  text="All"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextButton "Random"  size={0.25,0},{1,0}  pos={0.25,0},{0,0}  bg=#ff4040  text="Random"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextButton "Team"  size={0.25,0},{1,0}  pos={0.499,0},{0,0}  bg=#ff4040  text="Team"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextButton "Player"  size={0.25,0},{1,0}  pos={0.749,0},{-0.0303,0}  bg=#ff4040  text="Player"  font=SourceSansPro/700  scaled  tc=#ffffff
+            UICorner "UICorner"
+        TextBox "Parameter"  size={1,0},{0.168,0}  pos={0,0},{0.198,0}  bg=#262626  text=""  font=SourceSansPro/400  ts=14  tc=#ffffff
+      TextButton "FireButton"  size={0.187,0},{0.128,0}  pos={0.796,0},{0.836,0}  HIDDEN  bg=#ff4040  text="FIRE"  font=SourceSansPro/700  scaled  tc=#ffffff
+        UICorner "UICorner"
+
+==== ReplicatedStorage.Systems.Player.Game.RoundTimeDisplay.RoundTimer  (6 descendants)
+ScreenGui "RoundTimer"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Main"  size={0.2,0},{0.1,15}  pos={0.5,0},{-0.0175,0}  anchor=(0.5,0)  nobg  img=rbxassetid://77699105304364
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.6
+    TextLabel "Title"  size={1,0},{0.3,0}  pos={0.5,0},{0.2,0}  anchor=(0.5,0)  nobg  text="i farted"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.1,0}  PaddingRight={0.1,0}
+    TextLabel "Time"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg  text="0:00"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIPadding "UIPadding"  PaddingTop={-0.075,0}  PaddingBottom={-0.005,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+
+==== ReplicatedStorage.Systems.Player.Game.RoundTimeDisplay.RoundTimerOLd  (6 descendants)
+ScreenGui "RoundTimerOLd"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Main"  size={0.2,0},{0.1,15}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  img=rbxassetid://72456963054748
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.6
+    TextLabel "Title"  size={1,0},{0.35,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0)  nobg  text="i farted"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.1,0}  PaddingRight={0.1,0}
+    TextLabel "Time"  size={0.25,0},{0.25,0}  pos={0.5,0},{0.7,0}  anchor=(0.5,0.5)  nobg  text="0:00"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIPadding "UIPadding"  PaddingTop={-0.075,0}  PaddingBottom={-0.005,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+
+==== ReplicatedStorage.Systems.Player.Game.HitRegistered.Hitmarker  (2 descendants)
+BillboardGui "Hitmarker"  size={2,15},{0.5,15}  Enabled=True  Size={2,15},{0.5,15}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="22.85"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+    UIStroke "Outline"  Thickness=1  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Systems.Player.Miscellaneous.RemovePlayerDataFromOthers.RoundTimer  (5 descendants)
+ScreenGui "RoundTimer"  Enabled=True  DisplayOrder=-1  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Main"  size={0.2,0},{0.1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  img=rbxassetid://113907488112218
+    TextLabel "Title"  size={1,0},{0.45,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0)  nobg  text=":)"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIPadding "UIPadding"  PaddingTop={0,-2}  PaddingBottom={0,0}  PaddingLeft={0.1,0}  PaddingRight={0.1,0}
+    TextLabel "Time"  size={0.6,0},{0.35,0}  pos={0.5,0},{0.95,0}  anchor=(0.5,1)  nobg  text="0:00"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIPadding "UIPadding"  PaddingTop={0,-2}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+
+==== ReplicatedStorage.Systems.Player.Networks.RoundNetwork.EndScreen  (39 descendants)
+ScreenGui "EndScreen"  Enabled=True  DisplayOrder=5  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "Main"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.5
+    TextLabel "MainTitle"  size={0.25,0},{0.1,0}  pos={0.5,0},{0.1,5}  anchor=(0.5,0.5)  nobg  text="Round Ended"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      Frame "Underline"  size={0,0},{0,2}  pos={0.5,0},{1,0}  anchor=(0.5,0.5)  bg=#ffffff
+        UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:1 0.4:0 0.5:0 1:1]
+    Frame "PlayerCardHolder"  size={0.225,0},{0.6,0}  pos={0.8,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.75
+      Frame "CardContainer"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        TextLabel "Title"  size={0.9,0},{0.125,10}  pos={0.5,0},{0.95,0}  anchor=(0.5,1)  nobg  z=4  text=""  font=AccanthisADFStd/400  scaled  tc=#ffffff
+        ImageLabel "Outline"  size={1.1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://122785356471162  imgcol=#000000
+        ImageLabel "CharacterRender"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://90819497485237
+          UICorner "UICorner"
+        ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2
+        UICorner "UICorner"
+        ImageLabel "Splatter"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://113700695773220  imgcol=#ff0000
+          UICorner "UICorner"
+    Frame "PlayerStats"  size={0.25,0},{0.75,0}  pos={0.2,0},{0.2,0}  anchor=(0.5,0)  nobg
+      Frame "Header"  size={1,0},{0.225,0}  pos={0,0},{0,0}  nobg  z=5
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        Frame "PlayerDropdown"  size={0.8,0},{0.325,10}  pos={0.0711,0},{0.5,0}  nobg
+          ImageButton "DropdownFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://18979009315  imgcol=#000000
+            ImageLabel "DropdownArrow"  size={0.15,0},{0.75,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://18954016422
+            ImageLabel "ChosenValue"  size={0.8,0},{0.75,0}  pos={0.2,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://18954024670  imgT=1
+              TextLabel "Title"  size={1,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="OnlyTwentyCharacters"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+                UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.025,0}  PaddingRight={0.025,0}
+            Frame "Options"  size={1,0},{0,0}  pos={0.5,0},{1,0}  anchor=(0.5,0)  HIDDEN  bg=#000000@0.5
+              UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        TextLabel "StatsTitle"  size={1,0},{0.475,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  text="Player Stats"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+    Frame "RoundStats"  size={0.25,0},{0.75,0}  pos={0.5,0},{0.2,0}  anchor=(0.5,0)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.05,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      Frame "Header"  size={1,0},{0.225,0}  pos={0,0},{0,0}  nobg
+        ImageLabel "MapNameHolder"  size={0.8,0},{0.325,10}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  img=rbxassetid://18979009315  imgcol=#000000
+          TextLabel "MapName"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="MapName"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+            UIPadding "UIPadding"  PaddingTop={0.1,0}  PaddingBottom={0.1,0}  PaddingLeft={0.1,0}  PaddingRight={0.1,0}
+        TextLabel "StatsTitle"  size={1,0},{0.475,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  nobg  text="Round Stats"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+    ImageButton "Return"  size={0.1,200},{0.025,40}  pos={0.975,-30},{0.975,-30}  anchor=(1,1)  nobg  img=rbxassetid://18979009315  imgcol=#000000
+      TextLabel "Title"  size={0.95,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Back To Lobby"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      TextLabel "Timer"  size={0.95,0},{0.5,0}  pos={0.5,0},{0,-5}  anchor=(0.5,1)  nobg  text=""  font=AccanthisADFStd/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Systems.Character.Game.Nametags.NametagTemplate  (1 descendants)
+BillboardGui "NametagTemplate"  size={3,40},{1.5,10}  Enabled=True  Size={3,40},{1.5,10}  StudsOffset=(0,1.8,0)  MaxDistance=75  AlwaysOnTop=True  Adornee=nil
+  UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+
+==== ReplicatedStorage.Systems.Character.Game.SurvivorRequests.RequestUI  (1 descendants)
+BillboardGui "RequestUI"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={0,200},{0,50}  pos={0,0},{0,0}  nobg  text="Needs help!"  font=AccanthisADFStd/700  scaled  tc=#7fff7f
+
+==== ReplicatedStorage.Modules.CommonObjectives.SetupGenerators.Generator.Instances.Generator.Progress.BarUI  (2 descendants)
+SurfaceGui "BarUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Bar"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#32ff32  z=5
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.5
+
+==== ReplicatedStorage.Modules.CommonObjectives.SetupGenerators.Generator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+
+==== ReplicatedStorage.Modules.Misc.FlowGameManager.PuzzleUI  (7 descendants)
+ScreenGui "PuzzleUI"  Enabled=True  DisplayOrder=4  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Container"  size={0.4,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=501
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.86
+    TextLabel "Tutorial"  size={1.5,0},{0.145,0}  pos={0.5,0},{0.1,0}  anchor=(0.5,0.5)  HIDDEN  nobg  text="Connect all of the dots below to complete the puzzle.\nCompl..."  font=AccanthisADFStd/700  scaled  tc=#ffffff
+    Frame "GridHolder"  size={0.625,0},{0.625,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://81699914649761
+      Frame "Grid"  size={1,-40},{1,-40}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5
+        UIGridLayout "UIGridLayout"  CellSize={0,100},{0,100}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+
+==== ReplicatedStorage.Modules.StatusEffects.KillerExclusive.Hallucination.HallucinationClass.FakeForcefield.ScaryMonster  (1 descendants)
+BillboardGui "ScaryMonster"  size={12,0},{12,0}  Enabled=True  Size={12,0},{12,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Noli"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/GuiImagePlaceholder.png
+
+==== ReplicatedStorage.Assets.Items.Glock.Behavior.AmmoUI  (1 descendants)
+BillboardGui "AmmoUI"  size={4,30},{0.2,15}  Enabled=True  Size={4,30},{0.2,15}  StudsOffset=(0,0.75,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="idk"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Items.AssaultRifle.Behavior.AmmoUI  (1 descendants)
+BillboardGui "AmmoUI"  size={4,30},{0.2,15}  Enabled=True  Size={4,30},{0.2,15}  StudsOffset=(0,0.75,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "Title"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="idk"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Survivors.007n7.Config.DexUI  (2 descendants)
+BillboardGui "DexUI"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,5,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Furthest Spawn\nV"  font=Inconsolata/700  ts=20  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=1.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Assets.Survivors.007n7.Config.c00lgui.Front  (4 descendants)
+SurfaceGui "Front"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,-8},{1,-8}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000
+    UIStroke "UIStroke"  Thickness=2  Color=#ff0000  Transparency=0  ApplyStrokeMode=0
+    UICorner "UICorner"
+    TextLabel "Label"  size={1,-25},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="c00lgui xddd"  font=Arial/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Survivors.007n7.Config.c00lgui.Back  (3 descendants)
+SurfaceGui "Back"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,-8},{1,-8}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000
+    UIStroke "UIStroke"  Thickness=2  Color=#ff0000  Transparency=0  ApplyStrokeMode=0
+    UICorner "UICorner"
+
+==== ReplicatedStorage.Assets.Survivors.Veeronica.Behavior.SprayVisual.BillboardGui  (3 descendants)
+BillboardGui "BillboardGui"  size={4,0},{0.5,0}  Enabled=True  Size={4,0},{0.5,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  Frame "Outline"  size={0.93,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000@0.5  z=0
+  Frame "Background"  size={0.9,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#bababa@0.9
+    Frame "Bar"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#32ff32@0.25
+
+==== ReplicatedStorage.Assets.Survivors.Veeronica.Config.SprayDestroyedUI  (2 descendants)
+BillboardGui "SprayDestroyedUI"  size={0,50},{0,50}  Enabled=True  Size={0,50},{0,50}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "Spray"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://2697780712  imgT=0.25
+  ImageLabel "Cross"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://16428808793
+
+==== ReplicatedStorage.Assets.Emotes.Chrono.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={4.3,0},{1,0}  Enabled=True  Size={4.3,0},{1,0}  StudsOffset=(0,2.95,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="CHRONOSHIFT"  font=Merriweather/700  scaled  tc=#000000
+
+==== ReplicatedStorage.Assets.EventStorage.2025_MASQUERADE.UI.EventShopClient.EventUI  (239 descendants)
+ScreenGui "EventUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "EventShop"  size={1,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.93
+    ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111792121509942
+    Frame "ConversionFrame"  size={0.24,0},{0.982,0}  pos={0.00487,0},{0.00824,0}  nobg
+      ImageButton "ConversionButton"  size={0.875,0},{0.085,0}  pos={0.52,0},{0.875,0}  anchor=(0.5,1)  nobg  img=rbxassetid://112356517490939
+        TextLabel "Display"  size={1,0},{0.4,0}  pos={0,0},{0.2,0}  nobg  text="Bribe Nosferatu"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+        TextLabel "Exchange"  size={0.5,0},{0.3,0}  pos={0.25,0},{0.5,0}  nobg  text="$9,999 -> 9,999 Candy"  font=AccanthisADFStd/400  scaled  tc=#949494
+        TextLabel "RestockTimeDisplay"  size={0.55,0},{0.35,0}  pos={0.025,0},{-0.275,0}  nobg  text="Restocks in XX:XX"  font=AccanthisADFStd/400  scaled  tc=#949494
+        TextLabel "RestockAmountDisplay"  size={0.425,0},{0.35,0}  pos={0.55,0},{-0.275,0}  nobg  text="(999/999)"  font=AccanthisADFStd/400  scaled  tc=#949494
+      Frame "CurrencyDisplay"  size={0.5,0},{0.065,0}  pos={1,0},{1,0}  anchor=(1,1)  nobg
+        TextLabel "CurrencyText"  size={0.725,0},{0.7,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  text="999"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+        ImageLabel "Icon"  size={0.275,0},{0.85,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  img=rbxassetid://100213162474641
+      Frame "DragBar"  size={0.8,0},{0.041,0}  pos={0.52,0},{0.913,0}  anchor=(0.5,0.5)  nobg  z=2
+        ImageButton "Dragger"  size={0.5,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://130893928901265  imgcol=#dbdbdb
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "Title"  size={2,0},{0.8,0}  pos={0.5,0},{-6.44e-07,0}  anchor=(0.5,0.9)  nobg  text="99"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+      ImageLabel "DragBarBackground"  size={0.8,0},{0.046,0}  pos={0.52,0},{0.913,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://125225912214611  imgcol=#1e1e1e
+      Frame "ConversationFrame"  size={1,0},{0.285,0}  pos={0,0},{0.05,0}  nobg
+        ImageLabel "ConversationDisplay"  size={1,0},{1,0}  pos={3.54e-08,0},{0,0}  nobg  img=rbxassetid://112453423174901
+        TextLabel "Display"  size={0.945,0},{0.52,0}  pos={0.035,0},{0.07,0}  nobg  text="Test...."  font=AccanthisADFStd/400  scaled  tc=#ffffff
+    Frame "InformationFrame"  size={0.21,0},{0.96,0}  pos={0.78,0},{0.02,0}  nobg
+      ImageButton "ExitButton"  size={0.35,0},{0.075,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  img=rbxassetid://117350424866433
+      Frame "PurchaseFrame"  size={0.99,0},{0.375,0}  pos={0.01,0},{0.625,0}  nobg
+        TextLabel "Quote"  size={0.85,0},{0.175,0}  pos={0.5,0},{0.05,0}  anchor=(0.5,0)  nobg  text="" THIS IS A REALLY COOL QUOTE TRUST ME BRO ""  font=AccanthisADFStd/400  scaled  tc=#7d7d7d
+        TextLabel "Character"  size={1,0},{0.115,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0)  nobg  text="?????, Character"  font=AccanthisADFStd/400  scaled  tc=#ffffff
+        ImageButton "PurchaseButton"  size={0.492,0},{0.2,0}  pos={0.985,0},{0.985,0}  anchor=(1,1)  nobg  img=rbxassetid://139364471562716
+          TextLabel "Display"  size={0.8,0},{0.6,0}  pos={0.505,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="Purchase"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+        Frame "CurrencyDisplay"  size={0.425,0},{0.175,0}  pos={0.05,0},{0.975,0}  anchor=(0,1)  nobg
+          TextLabel "CurrencyText"  size={0.725,0},{0.7,0}  pos={-0.025,0},{0.5,0}  anchor=(0,0.5)  nobg  text="999"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+          ImageLabel "Icon"  size={0.275,0},{0.85,0}  pos={1,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://100213162474641
+      Frame "Display"  size={0.93,0},{0.55,0}  pos={0.033,0},{0.077,0}  bg=#000000
+        ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+        ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+        ImageLabel "Backdrop"  size={1.08,0},{1.02,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://111643294659513
+        ImageLabel "Outline"  size={1.1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=5  img=rbxassetid://122785356471162  imgcol=#000000
+        Frame "Gradient"  size={1,0},{1,0}  pos={0,0},{1,0}  bg=#000000  z=2
+          UIGradient "UIGradient"  rot=-90  Color=[0:#ffffff 1:#ffffff]  Rotation=-90  Transparency=[0:0 0.885:0 1:1]
+    Frame "ShopFrame"  size={0.522,0},{0.96,0}  pos={0.253,0},{0.02,0}  nobg
+      Frame "Main"  size={0.985,0},{0.751,0}  pos={0.5,0},{0.244,0}  anchor=(0.5,0)  nobg
+        ImageLabel "Seperator"  size={1,0},{0.15,0}  pos={0.5,0},{0.63,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://19000746528
+        Frame "SurvivorsRow"  size={1,0},{0.52,0}  pos={3.28e-08,0},{0.486,0}  nobg  z=3
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,5}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          Frame "Row2"  size={1,0},{0.9,0}  pos={3.28e-08,0},{-2.8e-07,0}  nobg
+            UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=0
+            Frame "1"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "2"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "3"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "4"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "5"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "6"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "7"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          Frame "Row1"  size={1,0},{0.9,0}  pos={3.28e-08,0},{-2.8e-07,0}  nobg
+            UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=0
+            Frame "1"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "2"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "3"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "4"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "5"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "6"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+            Frame "7"  size={0.126,0},{1.1,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+              ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+              ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+              ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+              Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+                ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+                TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+              ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+        Frame "KillersRow"  size={1,0},{0.1,0}  pos={3.28e-08,0},{0,0}  nobg
+          Frame "1"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=0
+          Frame "2"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          Frame "3"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          Frame "4"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          Frame "5"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          Frame "6"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  nobg  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          Frame "7"  size={0.159,0},{0.858,0}  pos={0,0},{0,0}  anchor=(0.5,0.5)  bg=#000000
+            ImageLabel "DamnedCard"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxassetid://82804132658295
+            ImageLabel "DisplayImage"  size={0.944,0},{0.965,0}  pos={0.015,0},{0.015,0}  bg=#000000  z=2
+            ImageLabel "Backdrop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://111643294659513
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.68
+            Frame "Lock"  size={0.85,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+              ImageLabel "LockImage"  size={1,0},{0.75,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://106104081591546
+              TextLabel "Amount"  size={0.95,0},{0.25,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  text="99"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+            ImageButton "Interact"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,5}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+      ImageLabel "Header"  size={1,0},{0.28,0}  pos={0,0},{8.49e-09,0}  nobg  img=rbxassetid://121036453858912
+
+==== ReplicatedStorage.Assets.Skins.Killers.Jason.#Subject0Jason.Behavior.Subtitles  (5 descendants)
+ScreenGui "Subtitles"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Main"  size={0.75,0},{1,0}  pos={0.5,0},{0.975,-25}  anchor=(0.5,1)  nobg
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.7
+    TextLabel "Subtitles"  size={1,0},{0.1,0}  pos={0.5,0},{0.675,0}  anchor=(0.5,1)  nobg  text="Oh mi gawd you really came aaronrtwo!"  font=SourceSansPro/600  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9.55
+  Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2
+
+==== ReplicatedStorage.Assets.Skins.Killers.JohnDoe.#BoomerFormulaJohnDoe.Behavior.IntroScreen  (2 descendants)
+ScreenGui "IntroScreen"  Enabled=True  DisplayOrder=10  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Main"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000  z=999999
+    TextLabel "Title"  size={0.8,0},{0.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=" "  font=AccanthisADFStd/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Skins.Killers.Slasher.VanitySlasher.Behavior.ScreenGui  (3 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  VideoFrame "VideoFrame"  size={1,0},{1,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=2
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.77
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000
+
+==== ReplicatedStorage.Assets.Skins.Killers.Slasher.Subject0Slasher.Behavior.Subtitles  (5 descendants)
+ScreenGui "Subtitles"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Main"  size={0.75,0},{1,0}  pos={0.5,0},{0.975,-25}  anchor=(0.5,1)  nobg
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.7
+    TextLabel "Subtitles"  size={1,0},{0.1,0}  pos={0.5,0},{0.675,0}  anchor=(0.5,1)  nobg  text="Oh mi gawd you really came aaronrtwo!"  font=SourceSansPro/600  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9.55
+  Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2
+
+==== ReplicatedStorage.Assets.Skins.Killers.c00lkidd.PrettyPrincess.Config.c00lgui.Front  (4 descendants)
+SurfaceGui "Front"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,-8},{1,-8}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000
+    UIStroke "UIStroke"  Thickness=2  Color=#f34eff  Transparency=0  ApplyStrokeMode=0
+    UICorner "UICorner"
+    TextLabel "Label"  size={1,-25},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="yaaay!!!"  font=IndieFlower/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Skins.Killers.c00lkidd.PrettyPrincess.Config.c00lgui.Back  (3 descendants)
+SurfaceGui "Back"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Frame"  size={1,-8},{1,-8}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#000000
+    UIStroke "UIStroke"  Thickness=2  Color=#f34eff  Transparency=0  ApplyStrokeMode=0
+    UICorner "UICorner"
+
+==== ReplicatedStorage.Assets.Skins.Killers.c00lkidd.GourdC00l.Behavior.ScreenGui  (121 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  SurfaceGui "SurfaceGui"  Enabled=True  Face=3  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=True
+    ViewportFrame "ViewportFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  Ambient=#c8c8c8  LightColor=#8c8c8c
+      WorldModel "WorldModel"
+        Model "Rig"
+          Humanoid "Humanoid"
+            Animator "Animator"
+          Model "PHONE"
+            MeshPart "Phone Hang"
+            MeshPart "Phone Down"
+            MeshPart "Phone Base"
+              Motor6D "Phone Down"
+              Motor6D "Phone Hang"
+          Model "PumpkinCoolkidd-Assembly"
+            MeshPart "LeftLeg"
+              WeldConstraint "WeldConstraint"
+            MeshPart "LeftArm"
+              WeldConstraint "WeldConstraint"
+            MeshPart "RightLeg"
+              WeldConstraint "WeldConstraint"
+            MeshPart "RightArm"
+              WeldConstraint "WeldConstraint"
+            MeshPart "Torso"
+              WeldConstraint "WeldConstraint"
+            MeshPart "PumpkinHead"
+          Part "HumanoidRootPart"
+            Motor6D "Phone Base"
+            Motor6D "BasicSlash2"
+            Motor6D "RootJoint"
+            Attachment "RootAttachment"  HIDDEN
+            Motor6D "NORMAL"
+            Motor6D "PURPLE"
+            Motor6D "POP UP"
+            Motor6D "TEXTTT2"
+            Motor6D "TEXTTT"
+          Part "Right Leg"
+            Attachment "RightFootAttachment"  HIDDEN
+          Part "Left Leg"
+            Attachment "LeftFootAttachment"  HIDDEN
+          Part "Right Arm"
+            Attachment "RightGripAttachment"  HIDDEN
+            Attachment "RightShoulderAttachment"  HIDDEN
+          Part "Left Arm"
+            Motor6D "firebrand"
+            Motor6D "firebrand"
+            Attachment "LeftGripAttachment"  HIDDEN
+            Attachment "LeftShoulderAttachment"  HIDDEN
+          Part "Torso"
+            Motor6D "Neck"
+            Motor6D "Left Hip"
+            Motor6D "Right Hip"
+            Motor6D "Left Shoulder"
+            Motor6D "Right Shoulder"
+            Attachment "WaistBackAttachment"  HIDDEN
+            Attachment "WaistCenterAttachment"  HIDDEN
+            Attachment "WaistFrontAttachment"  HIDDEN
+            Attachment "RightCollarAttachment"  HIDDEN
+            Attachment "LeftCollarAttachment"  HIDDEN
+            Attachment "BodyBackAttachment"  HIDDEN
+            Attachment "BodyFrontAttachment"  HIDDEN
+            Attachment "NeckAttachment"  HIDDEN
+          Part "Head"
+            Attachment "FaceCenterAttachment"  HIDDEN
+            Attachment "FaceFrontAttachment"  HIDDEN
+            Attachment "HatAttachment"  HIDDEN
+            Attachment "HairAttachment"  HIDDEN
+            SpecialMesh "Mesh"
+            Weld "PumpkinHead"
+          MeshPart "firebrand"
+            Sound "Lunge"
+            MeshPart "Sword-Decor"
+          Part "PURPLE"
+            Decal "Decal"
+          Part "NORMAL"
+            Decal "Decal"
+          MeshPart "POP UP"
+            Weld "VOID"
+          MeshPart "VOID"
+          Part "TEXTTT"
+            Model "ThreeDTextObject"
+              MeshPart "uni0054"
+              MeshPart "uni0052"
+              MeshPart "uni0041"
+              MeshPart "uni004E"
+              MeshPart "uni0053"
+              MeshPart "uni004D"
+              MeshPart "uni0049"
+              MeshPart "uni0053"
+              MeshPart "uni0053"
+              MeshPart "uni0049"
+              MeshPart "uni004F"
+              MeshPart "uni004E"
+            Weld "uni0041"
+            Weld "uni0049"
+            Weld "uni0049"
+            Weld "uni004D"
+            Weld "uni004E"
+            Weld "uni004E"
+            Weld "uni004F"
+            Weld "uni0052"
+            Weld "uni0053"
+            Weld "uni0053"
+            Weld "uni0053"
+            Weld "uni0054"
+          Part "TEXTTT2"
+            Model "ThreeDTextObject"
+              MeshPart "uni0049"
+              MeshPart "uni004E"
+              MeshPart "uni0043"
+              MeshPart "uni004F"
+              MeshPart "uni004D"
+              MeshPart "uni0049"
+              MeshPart "uni004E"
+              MeshPart "uni0047"
+            Weld "uni0043"
+            Weld "uni0049"
+            Weld "uni0047"
+            Weld "uni0049"
+            Weld "uni004D"
+            Weld "uni004E"
+            Weld "uni004E"
+            Weld "uni004F"
+
+==== ReplicatedStorage.Assets.Skins.Killers.c00lkidd.#LoreAccurateC00l.Config.c00lgui  (34 descendants)
+ScreenGui "c00lgui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  LocalScript "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/LocalScript.client.lua  [disabled]
+  Frame "Frame"  size={0.367,0},{0.321,0}  pos={0.0644,0},{0.65,0}  HIDDEN  bg=#000000
+    UIStroke "UIStroke"  Thickness=1  Color=#ff0004  Transparency=0  ApplyStrokeMode=1
+    TextLabel "Title"  size={1,0},{0.2,0}  pos={0,0},{-0.2,0}  bg=#000000  text="c00lgui"  font=SourceSansPro/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+    Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      UIStroke "UIStroke"  Thickness=1  Color=#ff0004  Transparency=0  ApplyStrokeMode=1
+      TextButton "Sky"  size={0.3,0},{0.11,0}  pos={0.0221,0},{0.0283,0}  bg=#000000  text="Set Skybox"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/Sky/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      TextButton "Decals"  size={0.3,0},{0.11,0}  pos={0.372,0},{0.185,0}  bg=#000000  text="Decal Spam"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/Decals/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      TextButton "Buffs"  size={0.3,0},{0.11,0}  pos={0.0221,0},{0.49,0}  bg=#000000  text="Buffs"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/Buffs/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      TextButton "KillAll"  size={0.3,0},{0.11,0}  pos={0.372,0},{0.49,0}  bg=#000000  text="Kill All"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/KillAll/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      UIGridLayout "UIGridLayout"  CellSize={0.333,0},{0.2,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+      TextButton "SendMessage"  size={0.3,0},{0.11,0}  pos={0.372,0},{0.49,0}  bg=#000000  text="Send Message"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/SendMessage/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      TextButton "FireAll"  size={0.3,0},{0.11,0}  pos={0.372,0},{0.49,0}  bg=#000000  text="Spam Fire"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/FireAll/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      TextButton "Spooky"  size={0.3,0},{0.11,0}  pos={0.372,0},{0.49,0}  bg=#000000  text="Set Music"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/Spooky/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+      TextButton "HighlightAll"  size={0.3,0},{0.11,0}  pos={0.372,0},{0.49,0}  bg=#000000  text="ESP"  font=SourceSansPro/400  ts=14  tc=#ffffff
+        Script "LocalScript"  -> scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/HighlightAll/LocalScript.server.lua  [disabled]
+        UIStroke "UIStroke"  Thickness=1  Color=#ff0000  Transparency=0  ApplyStrokeMode=1
+  TextButton "Open / Close"  size={0,65},{0,50}  pos={0,0},{0.721,0}  bg=#000000  text=">"  font=SourceSansPro/400  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=1  Color=#ff0004  Transparency=0  ApplyStrokeMode=1
+
+==== ReplicatedStorage.Assets.Skins.Killers.1x1x1x1.Classic1x1x1x1.Config.Zombie.Head.face.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=149  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0,100},{0,100}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=70431766889432
+
+==== ReplicatedStorage.Assets.Skins.Killers.1x1x1x1.Hacklord1x1x1x1.Behavior.IntroScreen  (2 descendants)
+ScreenGui "IntroScreen"  Enabled=True  DisplayOrder=10  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Main"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=999999
+    ImageLabel "ImageLabel"  size={0.35,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-1  img=rbxassetid://86782306504447  imgT=1
+
+==== ReplicatedStorage.Assets.Skins.Killers.1x1x1x1.Timeless1x1x1x1.Config.Zombie.Head.face.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=149  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0,100},{0,100}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=70431766889432
+
+==== ReplicatedStorage.Assets.Skins.Killers.Noli.RedRoomNoli.Config.Voidstar.Cursor  (1 descendants)
+BillboardGui "Cursor"  size={1.5,0},{1.5,0}  Enabled=True  Size={1.5,0},{1.5,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "image"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://125006327759914
+
+==== ReplicatedStorage.Assets.Skins.Killers.Noli.!AsgoreNoli.Behavior.FakeGenerator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ReplicatedStorage.Assets.Skins.Killers.Noli.!AsgoreNoli.Behavior.FakeGenerator.Instances.Generator.Progress.BarUI  (2 descendants)
+SurfaceGui "BarUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.5
+  Frame "Bar"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#64ff35
+
+==== ReplicatedStorage.Assets.Skins.Survivors.007n7.!Tester007n7.Config.DexUI  (2 descendants)
+BillboardGui "DexUI"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,5,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Furthest Spawn\nV"  font=Inconsolata/700  ts=20  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=1.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Assets.Skins.Survivors.TwoTime.PhoenixTwoTime.Config.Life2.Torso.Aura  (1 descendants)
+BillboardGui "Aura"  size={8,0},{8,0}  Enabled=True  Size={8,0},{8,0}  StudsOffset=(0,0,1)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Ring1"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=http://www.roblox.com/asset/?id=20254717  imgT=0.8
+
+==== ReplicatedStorage.Assets.UI.PromptThemes.Default  (21 descendants)
+BillboardGui "Default"  size={0,193},{0,72}  Enabled=False  Size={0,193},{0,72}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil  attrs={"Theme": ""}
+  TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+  ImageLabel "PromptFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#121212@0.2  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+    Frame "InputFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIScale "UIScale"  Scale=1
+        Frame "ProgressBar"  size={1,-14},{1,-14}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+          Frame "LeftGradient"  size={0.5,0},{1,0}  pos={0,0},{0,0}  nobg
+            ImageLabel "ProgressBarImage"  size={2,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxasset://textures/ui/Controls/RadialFill.png
+              UIGradient "UIGradient"  rot=180  Color=[0:#ffffff 1:#ffffff]  Rotation=180  Transparency=[0:0 0.5:0 0.5:1 1:1]
+          Frame "RightGradient"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  nobg
+            ImageLabel "ProgressBarImage"  size={2,0},{1,0}  pos={-1,0},{0,0}  nobg  img=rbxasset://textures/ui/Controls/RadialFill.png
+              UIGradient "UIGradient"  Color=[0:#ffffff 1:#ffffff]  Rotation=0  Transparency=[0:0 0.5:0 0.5:1 1:1]
+          NumberValue "Progress"  Value=0
+        ImageLabel "ButtonFrame"  size={1,-24},{1,-24}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#a3a2a5@0.5  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          UICorner "UICorner"
+        ImageLabel "ButtonImage"  size={1,-44},{1,-42}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxasset://textures/ui/Controls/key_single.png
+        ImageLabel "ButtonTextImage"  size={1,-48},{1,-48}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxasset://textures/ui/Controls/shift.png
+        TextLabel "ButtonText"  size={1,0},{1,0}  pos={0,0},{0,-1}  nobg  text="E"  font=GothamSSm/500  ts=14  tc=#ffffff
+    UICorner "UICorner"
+    TextLabel "ActionText"  size={1,0},{1,0}  pos={0.5,-24},{0,9}  nobg  text="Action Text"  font=GothamSSm/500  ts=19  tc=#ffffff
+    TextLabel "ObjectText"  size={1,0},{1,0}  pos={0.5,-24},{0,-10}  nobg  text="Object Text"  font=GothamSSm/500  ts=14  tc=#b2b2b2
+
+==== ReplicatedStorage.Assets.UI.PromptThemes.Styled  (16 descendants)
+BillboardGui "Styled"  size={0,250},{0,72}  Enabled=False  Size={0,250},{0,72}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil  attrs={"Theme": ""}
+  TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+  ImageLabel "PromptFrame"  size={1.12,0},{1.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18733946703  imgT=0.1
+    Frame "InputFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIScale "UIScale"  Scale=1
+        Frame "ProgressBar"  size={1,-34},{1,-30}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+          NumberValue "Progress"  Value=0
+          Frame "Bar"  size={0.5,0},{0,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=5
+        TextLabel "ButtonText"  size={1,0},{1,0}  pos={0,0},{0,-1}  nobg  z=2  text="E"  font=Guru/300  ts=40  tc=#ffffff
+          UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+        ImageLabel "ButtonFrame"  size={1,-24},{1,-24}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          UICorner "UICorner"
+        ImageLabel "ButtonTextImage"  size={1,-48},{1,-48}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  img=rbxasset://textures/ui/Controls/shift.png
+        ImageLabel "ButtonImage"  size={1,-30},{1,-30}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18733960603
+    TextLabel "ActionText"  size={1,0},{1,0}  pos={0.5,-50},{0,6}  nobg  text="Interact"  font=Guru/400  ts=26  tc=#ffffff
+    TextLabel "ObjectText"  size={1,0},{1,0}  pos={0.5,-50},{0,-12}  nobg  text="ObjectName"  font=Guru/400  ts=18  tc=#c8c8c8
+
+==== ReplicatedStorage.Assets.UI.PromptThemes.Item  (16 descendants)
+BillboardGui "Item"  size={0,250},{0,150}  Enabled=False  Size={0,250},{0,150}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil  attrs={"OverridePositions": true, "Theme": ""}
+  TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+  ImageLabel "PromptFrame"  size={1.12,0},{1.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18733946703  imgT=1
+    Frame "InputFrame"  size={0.5,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIScale "UIScale"  Scale=1
+        Frame "ProgressBar"  size={1,-34},{1,-30}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+          NumberValue "Progress"  Value=0
+          Frame "Bar"  size={0.5,0},{0,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=5
+        TextLabel "ButtonText"  size={1,0},{1,0}  pos={0,0},{0,-1}  nobg  z=2  text="E"  font=Guru/300  ts=40  tc=#ffffff
+          UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+        ImageLabel "ButtonFrame"  size={1,-24},{1,-24}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          UICorner "UICorner"
+        ImageLabel "ButtonTextImage"  size={1,-48},{1,-48}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  img=rbxasset://textures/ui/Controls/shift.png
+        ImageLabel "ButtonImage"  size={1,-30},{1,-30}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18733960603  imgT=1
+    TextLabel "ActionText"  size={1,0},{1,0}  pos={0.5,0},{0.2,-12}  anchor=(0.5,0.5)  nobg  text="Interact"  font=Guru/300  ts=26  tc=#ffffff
+    TextLabel "ObjectText"  size={1,0},{1,0}  pos={0.5,0},{0.2,6}  anchor=(0.5,0.5)  nobg  text="ObjectName"  font=Guru/300  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Assets.UI.PromptThemes.Dialog  (16 descendants)
+BillboardGui "Dialog"  size={0,250},{0,150}  Enabled=True  Size={0,250},{0,150}  StudsOffset=(0,4.25,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil  attrs={"OverridePositions": true, "Theme": ""}
+  TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Button"  font=LegacyArial/400  ts=8  tc=#1b2a35
+  ImageLabel "PromptFrame"  size={1.5,0},{1.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18733946703  imgT=1
+    Frame "InputFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      Frame "Frame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIScale "UIScale"  Scale=1
+        Frame "ProgressBar"  size={1,-34},{1,-30}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2
+          NumberValue "Progress"  Value=0
+          Frame "Bar"  size={0.5,0},{0,0}  pos={0.5,0},{1,0}  anchor=(0.5,1)  nobg  z=5
+        TextLabel "ButtonText"  size={1,0},{1,0}  pos={0,0},{0,-1}  HIDDEN  nobg  z=2  text="E"  font=Guru/300  ts=40  tc=#ffffff
+          UIPadding "UIPadding"  PaddingTop={0,5}  PaddingBottom={0,0}  PaddingLeft={0,0}  PaddingRight={0,0}
+        ImageLabel "ButtonFrame"  size={1,-24},{1,-24}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxasset://textures/ui/GuiImagePlaceholder.png  imgT=1
+          UICorner "UICorner"
+        ImageLabel "ButtonTextImage"  size={1,-48},{1,-48}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  img=rbxasset://textures/ui/Controls/shift.png
+        ImageLabel "ButtonImage"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://70813430502589
+    TextLabel "ActionText"  size={1,0},{1,0}  pos={0.5,0},{0.2,-12}  anchor=(0.5,0.5)  HIDDEN  nobg  text="Telamon"  font=Guru/300  ts=26  tc=#ffffff
+    TextLabel "ObjectText"  size={1,0},{1,0}  pos={0.5,0},{0.2,6}  anchor=(0.5,0.5)  HIDDEN  nobg  text=""  font=Guru/300  ts=18  tc=#ffffff
+
+==== ReplicatedStorage.Assets.UI.Highlight  (5 descendants)
+BillboardGui "Highlight"  size={2,50},{2,50}  Enabled=True  Size={2,50},{2,50}  StudsOffset=(0,4,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "Container"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://18818586848  imgT=1
+    ViewportFrame "ViewportFrame"  size={0.85,0},{0.85,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  Ambient=#aa8183  LightColor=#dab0b1
+      UICorner "UICorner"
+      Part "ModelCenter"
+      Part "PartCenter"
+
+==== ReplicatedStorage.Assets.Killers.JohnDoe.Behavior.IntroScreen  (2 descendants)
+ScreenGui "IntroScreen"  Enabled=True  DisplayOrder=10  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Main"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000  z=999999
+    TextLabel "Title"  size={0.8,0},{0.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=" "  font=AccanthisADFStd/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Killers.Noli.Config.GeneratorTeleportButton  (1 descendants)
+BillboardGui "GeneratorTeleportButton"  size={8,8},{8,8}  Enabled=True  Size={8,8},{8,8}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageButton "ImageButton"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://12941020168  imgT=0.5
+
+==== ReplicatedStorage.Assets.Killers.Noli.Behavior.FakeGenerator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ReplicatedStorage.Assets.Killers.!Brimstone.Behavior.IntroScreen  (2 descendants)
+ScreenGui "IntroScreen"  Enabled=True  DisplayOrder=10  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Main"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000  z=999999
+    TextLabel "Title"  size={0.8,0},{0.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=" "  font=AccanthisADFStd/400  scaled  tc=#ffffff
+
+==== ReplicatedStorage.Assets.Killers.1x1x1x1.Config.UnstableEyeVignette  (1 descendants)
+ScreenGui "UnstableEyeVignette"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Vignette"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://132138972362161  imgcol=#ff0509  imgT=1
+
+==== ReplicatedStorage.Assets.Killers.1x1x1x1.Config.MainVignette  (1 descendants)
+ScreenGui "MainVignette"  Enabled=True  DisplayOrder=0  ResetOnSpawn=False  ZIndexBehavior=1
+  ImageLabel "Vignette"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://132138972362161  imgcol=#26ff00  imgT=1
+
+==== ReplicatedStorage.Assets.Killers.Guest666.Config.Heartbeat  (1 descendants)
+BillboardGui "Heartbeat"  size={6,6},{6,6}  Enabled=True  Size={6,6},{6,6}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://99692119429047
+
+==== ServerScriptService.Server.Systems.Debug.ConsoleOutput.ScreenGui  (2 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=999  ResetOnSpawn=True  ZIndexBehavior=1
+  ScrollingFrame "ScrollingFrame"  size={0.375,0},{0.934,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#191919
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+
+==== ServerStorage.Assets.Instances.KillerBackgrounds.Intro.c00lkidd.Default.Main.BillboardTop10.Board.SurfaceGui  (10 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=ServerStorage.Assets.Instances.KillerBackgrounds.Intro.c00lkidd.Default.Main.BillboardTop10.Board  AlwaysOnTop=False
+  Frame "Clipframe"  size={1,-10},{1,-10}  pos={0,5},{0,5}  nobg
+    TextLabel "TitleLabel"  size={1,0},{0,90}  pos={0,0},{0,0}  nobg  z=2  text="Top 10 Survivalists"  font=Arial/700  ts=48  tc=#ffffff
+      TextLabel "TitleLabel"  size={1,3},{1,3}  pos={0,0},{0,0}  nobg  text="Top 10 Survivalists"  font=Arial/700  ts=48  tc=#000000
+    TextLabel "InfoLabel"  size={1,0},{0,30}  pos={0,0},{0,110}  nobg  text=""  font=SourceSansPro/700  ts=48  tc=#1b2a35
+      TextLabel "NameLabel"  size={0.7,0},{1,0}  pos={0,10},{0,-6}  nobg  text="Name"  font=SourceSansPro/700  ts=48  tc=#ffffff
+      TextLabel "WinsLabel"  size={0.3,0},{1,0}  pos={0.7,-5},{0,-6}  nobg  text="Survivals"  font=SourceSansPro/700  ts=48  tc=#ffffff
+      Frame "Frame"  size={1,0},{0,5}  pos={0,0},{1,0}  bg=#1b2a35
+    TextLabel "TemplateLabel"  size={1,0},{0,40}  pos={0,0},{0,145}  HIDDEN  nobg  text=""  font=SourceSansPro/700  ts=48  tc=#1b2a35
+      TextLabel "NameLabel"  size={0.7,0},{1,0}  pos={0,10},{0,0}  nobg  text="Stickmasterluke"  font=SourceSansPro/700  ts=48  tc=#ffffff
+      TextLabel "WinsLabel"  size={0.3,0},{1,0}  pos={0.7,0},{0,0}  nobg  text="62"  font=SourceSansPro/700  ts=48  tc=#ffffff
+
+==== ServerStorage.Assets.Instances.KillerBackgrounds.Intro.c00lkidd.Default.Main.WeatherMachine.Screen.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabelFull"  size={1,-20},{1,-20}  pos={0,10},{0,10}  bg=#7bfffb@0.5  text="0"  font=Arial/700  ts=96  tc=#1b2a35
+
+==== ServerStorage.Assets.Miscellaneous.Testing.TestingGUI  (4 descendants)
+ScreenGui "TestingGUI"  Enabled=True  DisplayOrder=999  ResetOnSpawn=False  ZIndexBehavior=1
+  TextLabel "serverFPS"  size={0.172,0},{0.0735,0}  pos={0.822,0},{0.924,0}  nobg  text="Server FPS: Loading..."  font=SourceSansPro/400  ts=35  tc=#ff0000
+    LocalScript "LocalScript"  -> scripts/ServerStorage/Assets/Miscellaneous/Testing/TestingGUI/serverFPS/LocalScript.client.lua
+  TextLabel "clientFPS"  size={0.172,0},{0.0735,0}  pos={0.822,0},{0.87,0}  nobg  text="Client FPS: Loading..."  font=SourceSansPro/400  ts=35  tc=#ff0000
+    LocalScript "LocalScript"  -> scripts/ServerStorage/Assets/Miscellaneous/Testing/TestingGUI/clientFPS/LocalScript.client.lua
+
+==== ServerStorage.Assets.Maps.FamiliarRuins.Classic.Map.Detail.LiftEntryInfo.Info  (2 descendants)
+SurfaceGui "Info"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Difficulty"  size={1,0},{0.2,0}  pos={0,0},{0.1,0}  nobg  text="Hard"  font=LegacyArial/400  scaled  tc=#ff0000
+  TextLabel "Output"  size={2,0},{0.1,0}  pos={-0.5,0},{0.4,0}  nobg  text="ERROR!"  font=Arial/700  scaled  tc=#ff0000
+
+==== ServerStorage.Assets.Maps.FamiliarRuins.Classic.Map.Detail.LiftEntryInfo.Info  (2 descendants)
+SurfaceGui "Info"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Difficulty"  size={1,0},{0.2,0}  pos={0,0},{0.1,0}  nobg  text="Easy"  font=LegacyArial/400  scaled  tc=#55ff00
+  TextLabel "Output"  size={2,0},{0.1,0}  pos={-0.5,0},{0.4,0}  nobg  text="Intermission"  font=Arial/700  scaled  tc=#aaff00
+
+==== ServerStorage.Assets.Maps.FamiliarRuins.Classic.Map.Detail.Entry.Gui  (2 descendants)
+SurfaceGui "Gui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={1,0},{0.66,0}  pos={0,0},{0,0}  nobg  text="Reaction"  font=SourceSansPro/700  scaled  tc=#00aaff
+  TextLabel "Info"  size={1,0},{0.34,0}  pos={0,0},{0.66,0}  nobg  text="Unavailable"  font=SourceSansPro/700  scaled  tc=#ff0004
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Instances.Generator.Progress.BarUI  (2 descendants)
+SurfaceGui "BarUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.5
+  Frame "Bar"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#32ff32
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Instances.Generator.Progress.BarUI  (2 descendants)
+SurfaceGui "BarUI"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  Frame "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.5
+  Frame "Bar"  size={0,0},{1,0}  pos={0,0},{0,0}  bg=#32ff32
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ServerStorage.Assets.Maps.BloodfellManor.Map.GeneratorPositions.Generator.Scripts.Client.BackgroundUI  (8 descendants)
+ScreenGui "BackgroundUI"  Enabled=True  DisplayOrder=3  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Background"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=499
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.15
+    ImageLabel "BarHolder"  size={0.015,40},{0.3,25}  pos={0.575,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://81699914649761
+      ImageLabel "Bar"  size={1,-32},{1,-30}  pos={0,16},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://118593845739160  imgT=0.9
+        Frame "Clipping"  size={1,0},{0,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+          ImageLabel "Top"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://118593845739160
+            UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#a8a8a8]  Rotation=90  Transparency=[0:0 1:0]
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.2
+
+==== ServerStorage.Assets.Maps.CakeFactory.Map.Map2.Dump Truck.BPlate.TheSurfaceGUI  (3 descendants)
+SurfaceGui "TheSurfaceGUI"  Enabled=True  Face=5  PixelsPerStud=34.7  SizingMode=0  Adornee=ServerStorage.Assets.Maps.CakeFactory.Map.Map2.Dump Truck.BPlate  AlwaysOnTop=False
+  Frame "TextFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Number"  size={1,0},{0.65,0}  pos={0,0},{0.35,0}  nobg  text=""  font=SourceSansPro/700  scaled  tc=#000000
+    TextLabel "TheName"  size={1,0},{0.4,0}  pos={0,0},{0,0}  nobg  text=""  font=SourceSansPro/700  scaled  tc=#000000
+
+==== ServerStorage.Assets.Maps.CakeFactory.Map.Map.Lobby.Posters.Poster.PosterUI  (3 descendants)
+SurfaceGui "PosterUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Poster"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://124346233936204
+  TextLabel "Credit"  size={0.95,0},{0.15,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,1)  nobg  text="MiilySalamaca"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=0.5  Color=#000000  Transparency=1  ApplyStrokeMode=0
+
+==== ServerStorage.Assets.Maps.CakeFactory.Map.Map.Lobby.Posters.Poster.PosterUI  (3 descendants)
+SurfaceGui "PosterUI"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Poster"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://102198586520778
+  TextLabel "Credit"  size={0.95,0},{0.15,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,1)  nobg  text="baconstripz125"  font=AccanthisADFStd/700  scaled  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=0.5  Color=#000000  Transparency=1  ApplyStrokeMode=0
+
+==== ServerStorage.Assets.Rigs.Survivors.Noob.GASA4PlayerNoob.Torso.NameGui  (1 descendants)
+SurfaceGui "NameGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={0.85,0},{0.4,0}  pos={0.5,0},{0.475,0}  anchor=(0.5,0.5)  nobg  text="Player"  font=SourceSansPro/400  scaled  tc=#ffffff
+
+==== ServerStorage.Assets.Rigs.Killers.LegacyJason.ChainJason.Torso.Torso.Main.Glare Part.Glare  (3 descendants)
+BillboardGui "Glare"  size={7,0},{10,0}  Enabled=False  Size={7,0},{10,0}  StudsOffset=(0,0,0.1)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=3052949762  imgcol=#ff0000  imgT=0.2
+  BoolValue "dSG"  Value=False
+
+==== ServerStorage.Assets.Rigs.Killers.JohnDoe.ScriptBuilderJohnDoe.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={4,0},{0.75,0}  Enabled=True  Size={4,0},{0.75,0}  StudsOffset=(0,2,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=ServerStorage.Assets.Rigs.Killers.JohnDoe.ScriptBuilderJohnDoe.Head
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="John Doe"  font=Balthazar/400  scaled  tc=#000000
+
+==== ServerStorage.Assets.Rigs.Killers.Noli.RedRoomNoli.Voidstar.Cursor  (1 descendants)
+BillboardGui "Cursor"  size={1,0},{1,0}  Enabled=True  Size={1,0},{1,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "image"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://125006327759914
+
+==== ServerStorage.Assets.Rigs.Killers.Slasher.MysticSlasher.Head.AT.RagingPace  (1 descendants)
+BillboardGui "RagingPace"  size={6,0},{6,0}  Enabled=False  Size={6,0},{6,0}  StudsOffset=(0,0,-2)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Ring1"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=http://www.roblox.com/asset/?id=20254717  imgcol=#ff0000  imgT=0.25
+
+==== ServerStorage.Assets.Rigs.Killers.Slasher.KillerKyleSlasher.Head.NameTag  (3 descendants)
+BillboardGui "NameTag"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,2.5,0)  MaxDistance=45  AlwaysOnTop=False  Adornee=nil
+  TextLabel "Text"  size={0,150},{0,20}  pos={0.5,-75},{0,0}  nobg  text="KillerKyle"  font=ComicNeueAngular/400  ts=22  tc=#ffffff
+    Frame "Health"  size={0,80},{0,8}  pos={0.5,-40},{0,25}  bg=#ff0000
+      Frame "Percent"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#81c516
+
+==== ServerStorage.Assets.Rigs.Killers.Slasher.CombatInitiationSlasher.Head.AT.RagingPace  (1 descendants)
+BillboardGui "RagingPace"  size={6,0},{6,0}  Enabled=False  Size={6,0},{6,0}  StudsOffset=(0,0,-2)  MaxDistance=inf  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "Ring1"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=http://www.roblox.com/asset/?id=20254717  imgcol=#ff0000  imgT=0.25
+
+==== ServerStorage.Assets.Rigs.Killers.Doombringer.Classic.Head.NameTag  (4 descendants)
+BillboardGui "NameTag"  size={0,200},{0,50}  Enabled=True  Size={0,200},{0,50}  StudsOffset=(0,2.5,0)  MaxDistance=45  AlwaysOnTop=False  Adornee=nil
+  TextLabel "Text"  size={0,150},{0,20}  pos={0.5,-75},{0,0}  nobg  text=" MrDoomBringer !!"  font=ComicNeueAngular/400  ts=22  tc=#ff0004
+    Frame "Health"  size={0,80},{0,8}  pos={0.5,-40},{0,25}  bg=#ff0000
+      Frame "Percent"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#81c516
+        Script "HealthIndicator"  -> scripts/ServerStorage/Assets/Rigs/Killers/Doombringer/Classic/Head/NameTag/Text/Health/Percent/HealthIndicator.server.lua
+
+==== ServerStorage.Assets.Rigs.Killers.BlankSpace.Default.Head.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={1.9,0},{1.9,0}  Enabled=True  Size={1.9,0},{1.9,0}  StudsOffset=(-0.01,-0.1,1)  MaxDistance=inf  AlwaysOnTop=False  Adornee=ServerStorage.Assets.Rigs.Killers.BlankSpace.Default.Head
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://138941529049129  imgT=0.22
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 12 copies
+BillboardGui "BillboardGui" under Workspace: 5 copies
+SurfaceGui "PosterUI" under Workspace: 17 copies
+SurfaceGui "BarUI" under ReplicatedStorage: 3 copies
+BillboardGui "DexUI" under ReplicatedStorage: 5 copies
+SurfaceGui "Front" under ReplicatedStorage: 18 copies
+SurfaceGui "Back" under ReplicatedStorage: 18 copies
+SurfaceGui "SurfaceGui" under ReplicatedStorage: 9 copies
+SurfaceGui "SurfaceGui" under ServerStorage: 114 copies
+SurfaceGui "Info" under ServerStorage: 6 copies
+SurfaceGui "BarUI" under ServerStorage: 5 copies
+SurfaceGui "PosterUI" under ServerStorage: 18 copies

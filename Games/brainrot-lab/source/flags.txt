@@ -1,0 +1,38 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ServerScriptService/Modules/ProfileStore.lua lines 617,1282,1731,2017
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  11193903075698  in scripts/ServerScriptService/Modules/Bootstrap/Extensions/WSManager.server.lua
+  117501901079852  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/VERSION.lua
+  3576717705  in scripts/ReplicatedStorage/Modules/UpgradesConfiguration.lua
+  3576746061  in scripts/ReplicatedStorage/Modules/ProductConfigurations.lua
+  3580373389  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580373522  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580373682  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580373824  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580373992  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580374126  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580374323  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+  3580374487  in scripts/ReplicatedStorage/Modules/WeightConfigurations.lua
+
+Outside URLs in code:
+  http://mozilla.org/MPL/2.0/.  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/satchel.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/Modules/CameraShaker.lua
+  https://create.roblox.com/store/asset/13947506401  in scripts/ReplicatedStorage/Satchel/SatchelLoader.server.lua
+  https://create.roblox.com/store/asset/92368439343389/TopbarPlus  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Attribute.lua
+  https://devforum.roblox.com/t/2451549  in scripts/ReplicatedStorage/Satchel/SatchelLoader.server.lua
+  https://devforum.roblox.com/t/bug/1017485/1732  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Utility.lua
+  https://devforum.roblox.com/t/bug/2973508/7  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Elements/Container.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus.lua
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/ReplicatedStorage/Modules/HitboxClass/Signal.lua, scripts/ServerScriptService/Modules/ProfileStore.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus.lua
+  https://devforum.roblox.com/t/topbarplus/1017485`  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Attribute.lua
+  https://devforum.roblox.com/t/wind-shake-high-performance-wind-effect-for-leaves-and-foliage/1039806/1  in scripts/StarterPlayer/StarterPlayerScripts/WindController/WindShake.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/ServerScriptService/Modules/ProfileStore.lua
+  https://github.com/1ForeverHD/TopbarPlus  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Attribute.lua
+  https://github.com/PointCloudLibrary/pcl/blob/29f192af57a3e7bdde6ff490669b211d8148378f/octree/include/pcl/octree/impl/octree_search.hpp#L309  in scripts/StarterPlayer/StarterPlayerScripts/WindController/WindShake/Octree/OctreeRegionUtils.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/Modules/CameraShaker.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Satchel/SatchelLoader/Satchel/Packages/_Index/1foreverhd_topbarplus@3.4.0/topbarplus/Utility.lua
+  https://lua.expert/  in scripts/ReplicatedStorage/Eventos/AcidStorm/AcidStorm/Acid.lua, scripts/ReplicatedStorage/Eventos/Brazil/Brazil.lua, scripts/ReplicatedStorage/Eventos/Love/Love/Love.lua

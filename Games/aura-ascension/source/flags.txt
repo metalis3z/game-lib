@@ -1,0 +1,17 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+No script flags.
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  3567384390  in scripts/ReplicatedStorage/Monetization.lua
+  3567384806  in scripts/ReplicatedStorage/Monetization.lua
+  3571082661  in scripts/ReplicatedStorage/Modules/PacksConfig.lua
+  3571082912  in scripts/ReplicatedStorage/Modules/PacksConfig.lua
+  3571083128  in scripts/ReplicatedStorage/Modules/PacksConfig.lua
+  3571083676  in scripts/ReplicatedStorage/Monetization.lua
+
+Outside URLs in code:
+  http://localhost  in scripts/TestService/LuauLSP_Settings.lua
+  https://devforum.roblox.com/t/luau-language-server-for-external-editors/2185389  in scripts/TestService/LuauLSP_Settings.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedFirst/Gamefave.client.lua, scripts/ReplicatedStorage/Assets/Animations.lua, scripts/ReplicatedStorage/Assets/Auras/10/Animate.client.lua
+  https://discord.gg/wx4ThpAsmw.  in scripts/ServerStorage/Decompiled/README DECOMPILE.server.lua

@@ -1,0 +1,76 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ReplicatedStorage/Kohl's Admin/Legacy_Loader.server.lua lines 42
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockGlobalDataStore.lua lines 56
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockOrderedDataStore.lua lines 57
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/Framework/Modules/Server/4 _ Analytics.lua lines 112
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data.lua lines 382
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data/Migrate/KAI.lua lines 23
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Administration.lua lines 307,331
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/VIP.lua lines 606
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/FirebaseDS/FirebaseService.lua lines 68,83,128,171,198,232
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  106645613603989  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  1090283984  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Packs/Packs.lua
+  110848154960799  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  11339726  in scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/MenuPromotional.client.lua
+  1168130138  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Packs/Packs.lua
+  1204985255  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Packs/Packs.lua
+  1243955494  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Crates/Crates.lua
+  133292294488871  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  172732271  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  18966788838  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  22632240  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Money Rifle.lua
+  4340182608  in scripts/ServerScriptService/OwnerTitleV5Script.server.lua
+  5391355  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  5391356  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  7238476  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Elite Sniper.lua
+  7334433  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ High Tech Sniper.lua
+  7368661  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Tempered Scar.lua
+  7378840  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ High Tech Minigun.lua
+  8015593  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Money Gun.lua
+  92807314389236  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  933582848  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  933980650  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  936146448  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  938480383  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  939618404  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  941006661  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  941076536  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  941162509  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  944332597  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Packs/Packs.lua
+  967842492  in scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Packs/Packs.lua
+  99317257118206  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+
+Outside URLs in code:
+  http://analytics.biggames.io/logPurchase/%s/%s/%s/%s  in scripts/ReplicatedStorage/Framework/Modules/Server/4 _ Analytics.lua
+  https://api.kohl.gg/update/{game.GameId}`  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data.lua
+  https://api.roproxy.com/universes/get-universe-containing-place?placeid=  in scripts/ServerScriptService/Main.server.lua
+  https://create.roblox.com/store/asset/  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  https://developer.roblox.com/en-us/api-reference  in scripts/ServerScriptService/OwnerTitleV5Script.server.lua
+  https://devforum.roblox.com/  in scripts/ServerScriptService/OwnerTitleV5Script.server.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus.lua
+  https://devforum.roblox.com/t/text-compression/163637  in scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Compress.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus.lua
+  https://discord.gg/kohl  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/About.lua
+  https://eryn.io/gist/3db84579866c099cdd5bb2ff37947cec  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Promise.lua
+  https://farmforfun-default-rtdb.firebaseio.com/  in scripts/ServerScriptService/FirebaseDS.lua
+  https://games.roproxy.com/v1/games/votes?universeIds=%.f  in scripts/ServerScriptService/Main.server.lua
+  https://github.com/buildthomas/MockDataStoreService/blob/master/LICENSE  in scripts/ReplicatedStorage/DataStoreService/MockDataStoreService.lua, scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockDataStoreConstants.lua, scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockDataStoreManager.lua
+  https://google.com  in scripts/ReplicatedStorage/Framework/Modules/Server/4 _ Analytics.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Utility.lua
+  https://roblox.com/game-pass/  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  https://roblox.com/game-pass/5391355/  in scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId=  in scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Map Vote.client.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId=%s&width=100&height=100&format=png  in scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Skill Leaderboard.client.lua
+  https://www.youtube.com/channel/UCp1R0TBvgM7gj0rwTYULmSA  in scripts/ServerScriptService/OwnerTitleV5Script.server.lua

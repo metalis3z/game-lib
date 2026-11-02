@@ -1,0 +1,57 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/Player/NexusVRCharacterModelLoader.server.lua lines 68
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel.lua lines 136
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/fetchServer.lua lines 4
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Modules/CommonFunctions.lua lines 195
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerStorage/Modules/RankGun.lua lines 9
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  10588814  in scripts/ReplicatedStorage/PlayersListPlus.lua
+  374169534  in scripts/ReplicatedStorage/PlayersListPlus.lua
+
+Outside URLs in code:
+  http://luaforge.net/projects/penlight/  in scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Underscore.lua, scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Underscore.lua
+  http://www.zlib.net/  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  http://www.zlib.net/zlib_license.html  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://api.rankgun.works/  in scripts/ServerStorage/Modules/RankGun.lua
+  https://developer.roblox.com/en-us/api-reference/function/StarterGui/SetCore  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/connections.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/connections.lua
+  https://devforum.roblox.com/t/1597785/  in scripts/ReplicatedStorage/Modules/Slider.lua
+  https://devforum.roblox.com/t/ProfileService/667805  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/profile.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/services/profile.lua, scripts/ServerStorage/Modules/ProfileService.lua
+  https://devforum.roblox.com/t/detect-if-player-is-looking-at-object/1479746/5  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/billboard.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/bubbleChat/billboard.lua
+  https://devforum.roblox.com/t/help-with-floating-point-errors/2474289/3  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/load.client.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/load.client.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Icon.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Icon.lua
+  https://devforum.roblox.com/t/playerslistplus-v1-better-players-list/2975158  in scripts/ReplicatedStorage/PlayersListPlus.lua
+  https://devforum.roblox.com/t/raycast-between-2-attachments/976915/8  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/billboard.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/bubbleChat/billboard.lua
+  https://devforum.roblox.com/t/save-your-player-data-with-profileservice-datastore-module/667805  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/profile.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/services/profile.lua
+  https://devforum.roblox.com/t/seat-occupant-and-humanoid-seatpart-not-replicating-to-new-players-to-a-server/261545  in scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Icon.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Icon.lua
+  https://devforum.roblox.com/t/vr-screen-becomes-black-due-to-non-transparent-character/2215099  in scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Camera/DefaultCamera.lua
+  https://eryn.io/Cmdr/guide/Hooks.html  in scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Shared/Dispatcher.lua
+  https://eryn.io/gist/3db84579866c099cdd5bb2ff37947cec  in scripts/ServerStorage/Modules/RankGun/include/Promise.lua
+  https://gist.githubusercontent.com/rigwild/1b509bf69e2a2391f44aa5de3f05b006/raw/e4b5bfa81ea3e7e51af1f5585964666115934631/discord_emojis.json  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/lists/emojiList.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/lists/emojiList.lua
+  https://github.com/AlberTajuelo/bitop-lua  in scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Bitop.lua, scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Bitop.lua
+  https://github.com/AlberTajuelo/pokerhand-eval  in scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Analysis.lua, scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Card.lua, scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Lookup.lua
+  https://github.com/AlberTajuelo/underscore-dot-lua  in scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Underscore.lua, scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Underscore.lua
+  https://github.com/TheNexusAvenger/Nexus-VR-Character-Model/issues/10  in scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/DefaultCursorService.lua
+  https://github.com/WeakAuras/WeakAuras2  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://github.com/madler/zlib/blob/master/deflate.c  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://github.com/madler/zlib/blob/master/doc/algorithm.txt  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://github.com/madler/zlib/blob/master/doc/algorithm.txt,  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://github.com/madler/zlib/tree/master/contrib/puff  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Utility.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Utility.lua
+  https://madstudioroblox.github.io/ProfileService/  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/profile.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/services/profile.lua, scripts/ServerStorage/Modules/ProfileService.lua
+  https://pastebin.com/raw/6wHsFsZT  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src.lua
+  https://rankgun.works/  in scripts/ServerStorage/Modules/RankGun.lua
+  https://safeteewow.github.io/LibDeflate/source/LibDeflate.lua.html  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://stackoverflow.com/questions/43285679/is-it-possible-to-bypass-tostring-the-way-rawget-set-bypasses-index-newind  in scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusObject.lua, scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusInstance/NexusObject.lua, scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/NexusInstance/NexusObject.lua
+  https://tools.ietf.org/html/rfc1950  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://tools.ietf.org/html/rfc1951  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://www.gnu.org/licenses/old-licenses/gpl-2.0.html  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://www.wowace.com/projects/libcompress  in scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua, scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua
+  https://www.youtube.com/watch?v=q55gUXPGQHA&list=OLAK5uy_njPkPesqGITjFmwPrKhANMVFgyzddMtAc&index=1  in scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Music/Ambience.client.lua

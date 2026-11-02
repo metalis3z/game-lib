@@ -1,0 +1,250 @@
+--██   ██  █████   ██████ ██  ██  ███████ ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██   ██
+--███████ ███████ ██      ████    █████   ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██  ██ 
+--██   ██ ██   ██  ██████ ██  ██  ███████ ██   ██
+--
+--██████  ███████  ██████  █████  ██   ██ ██████  ███ ██      ███████ ██████ 
+--██   ██ ██      ██      ██   ██ ███ ███ ██   ██ ██  ██      ██      ██   ██
+--██   ██ █████   ██      ██   ██ ██ █ ██ ██████  ██  ██      █████   ██████ 
+--██   ██ ██      ██      ██   ██ ██   ██ ██      ██  ██      ██      ██  ██ 
+--██████  ███████  ██████  █████  ██   ██ ██      ███ ███████ ███████ ██   ██
+--[[
+Hacker Decompiler 
+Hacker Uncopylocked Discord Link : https://discord.gg/T7BXynvdMb
+Owner of Hacker Decompiler: HackerKing
+Owner of Hacker Uncopylocked: HackerKing
+--]]
+
+
+-- Bytecode (Base64):
+-- CQNbB3JlcXVpcmUGc2NyaXB0BlBhcmVudAZGcmFtZXMMV2FpdEZvckNoaWxkB19faW5kZXgMc2V0bWV0YXRhYmxlBU1vZGVsBEdhbWUDbmV3CURlc3Ryb3llZAdEZXN0cm95BEZpc2gEUGFydAFYC0dBTUVfQ09ORklHDFNDUkVFTl9XSURUSAhNSU5fU0laRQhQb3NpdGlvbgRTaXplDkhhc0NsZWFyZWRGaXNoBUFuaW1zBmlwYWlycwdBZHZhbmNlCEdldFBpdm90B1ZlY3RvcjMHUGl2b3RUbwtfZmFkZURlY2FscwRtYXRoBWNsYW1wDFRyYW5zcGFyZW5jeQRDb2luDUNvaW5Db2xsZWN0ZWQBWQlNYWduaXR1ZGULQ29sbGVjdENvaW4GU2NvcmVkDUluY3JlYXNlU2NvcmUEdGljaw1TQ1JFRU5fSEVJR0hUCkdBUF9IRUlHSFQISW5zdGFuY2ULT2JzdGFjbGVTZXQETmFtZQhBbmNob3JlZApDYW5Db2xsaWRlCENhblF1ZXJ5BkNGcmFtZQtQcmltYXJ5UGFydAZTbW9vdGgKVG9wU3VyZmFjZQ1Cb3R0b21TdXJmYWNlBkNvbG9yMwVDb2xvcgVDbG9uZQdTZWF3ZWVkEVNlYXdlZWRXaWR0aFNjYWxlFFNlYXdlZWRFZGdlT3ZlcnNob290CmJ1aWxkUGxhbmULbmV3QW5pbWF0b3IKU2Vhd2VlZEZQUwV0YWJsZQZpbnNlcnQGQW5nbGVzC0dldENoaWxkcmVuBURlY2FsA0lzQQxCZW5keVNlYXdlZWQGQWRkVGFnBnJhbmRvbQtCYXJuYWJ5Q29pbgpDYXN0U2hhZG93CXdvcmtzcGFjZQRJbmZvDkZpbmRGaXJzdENoaWxkEUJhcm5hYnlDb2luUm90YXRlDEdldEF0dHJpYnV0ZQlDb2luU2NhbGUIQ29pblRpbnQJbmV3Um9ja2VyDUNvaW5Sb3RhdGVBbXAPQ29pblJvdGF0ZVNwZWVkB0NvaW5GUFMERW51bQhQYXJ0VHlwZQhDeWxpbmRlcgVTaGFwZQhNYXRlcmlhbAROZW9uB2Zyb21SR0IFcGNhbGwABwUAAAAAAA2kAAEAAAAAQKQBAwAAACBATQEBJAQAAABvAwUAjAQFALwBAdMGAAAAnwEEAJ8AAACCAAAABwMBBAAA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
+
+-- https://lua.expert/
+local t = {}
+local ok, result = pcall(function() --[[ Line: 7 ]]
+	return require(script.Parent:WaitForChild("Frames", 5))
+end)
+local v2 = if ok and result then result else nil
+
+function t.new(p1, p2) --[[ new | Line: 21 | Upvalues: t (copy) ]]
+	local v1 = setmetatable({}, {
+		__index = t
+	})
+
+	v1.Model = p2
+	v1.Game = p1
+
+	return v1
+end
+function t.Destroy(p1) --[[ Destroy | Line: 28 ]]
+	p1.Destroyed = true
+	p1.Model:Destroy()
+end
+function t.HasClearedFish(p1, p2) --[[ HasClearedFish | Line: 39 ]]
+	local v1 = p1.Game.Fish and p1.Game.Fish.Part
+
+	if v1 then
+		return p2.X + p1.Game.GAME_CONFIG.MIN_SIZE.X * 0.5 < v1.Position.X - v1.Size.X * 0.5 - 0.5
+	end
+
+	return p2.X < p1.Game.GAME_CONFIG.SCREEN_WIDTH * -0.55
+end
+function t.tick(p1, p2) --[[ tick | Line: 50 ]]
+	if p1.Destroyed then
+		return
+	end
+
+	if p1.Anims then
+		for i, v in ipairs(p1.Anims) do
+			v:Advance(p2)
+		end
+	end
+
+	local SCREEN_WIDTH = p1.Game.GAME_CONFIG.SCREEN_WIDTH
+	local v1 = p1.Model:GetPivot() + Vector3.new(-p2 * SCREEN_WIDTH, 0, 0)
+
+	p1.Model:PivotTo(v1)
+
+	if p1._fadeDecals then
+		local v2 = SCREEN_WIDTH * -0.5
+		local v4 = math.clamp((v1.X - v2) / (SCREEN_WIDTH * -0.78 - v2), 0, 1)
+
+		for i, v in ipairs(p1._fadeDecals) do
+			v.Transparency = v4
+		end
+	end
+
+	local Coin = p1.Coin
+
+	if Coin and (Coin.Parent and not p1.CoinCollected) then
+		local Fish = p1.Game.Fish
+		local v5 = if Fish then Fish.Part else Fish
+
+		if v5 and v5.Size.X * 0.5 + Coin.Size.Y * 0.5 + 0.6 >= (Coin.Position - v5.Position).Magnitude then
+			p1.CoinCollected = true
+			Coin:Destroy()
+
+			if p1.Game.CollectCoin then
+				p1.Game:CollectCoin()
+			end
+		end
+	end
+
+	if not p1.Scored and p1:HasClearedFish(v1) then
+		p1.Scored = true
+		p1.Game:IncreaseScore(1)
+	end
+
+	if not (v1.X < SCREEN_WIDTH * -0.78) then
+		return
+	end
+
+	p1:Destroy()
+end
+
+return function(p1, p2, p3, p4, p5) --[[ Line: 115 | Upvalues: t (copy), v2 (ref) ]]
+	local GAME_CONFIG = p1.GAME_CONFIG
+	local MIN_SIZE = GAME_CONFIG.MIN_SIZE
+	local SCREEN_HEIGHT = GAME_CONFIG.SCREEN_HEIGHT
+	local v1 = if p5 then p5 else GAME_CONFIG.GAP_HEIGHT
+	local v22 = SCREEN_HEIGHT * -0.5
+	local v3 = SCREEN_HEIGHT - MIN_SIZE.Y * 2 - v1
+	local ObstacleSet = Instance.new("Model")
+
+	ObstacleSet.Name = "ObstacleSet"
+
+	local Part = Instance.new("Part")
+
+	Part.Anchored = true
+	Part.CanCollide = false
+	Part.CanQuery = false
+	Part.Size = Vector3.new(1, 1, 1)
+	Part.Transparency = 1
+	Part.CFrame = CFrame.new(0, 0, 0)
+	Part.Parent = ObstacleSet
+	ObstacleSet.PrimaryPart = Part
+
+	local Part2 = Instance.new("Part")
+
+	Part2.Anchored = true
+	Part2.CanCollide = false
+	Part2.TopSurface = "Smooth"
+	Part2.BottomSurface = "Smooth"
+	Part2.Transparency = 1
+	Part2.Color = Color3.new(0.113725, 0.796078, 0.137255)
+	Part2.Size = MIN_SIZE + Vector3.new(0, v3 * p2, 0)
+	Part2.CFrame = CFrame.new(0, v22 + Part2.Size.Y * 0.5, 0)
+	Part2.Parent = ObstacleSet
+
+	local v4 = Part2:Clone()
+
+	v4.Size = MIN_SIZE + Vector3.new(0, v3 * (1 - p2), 0)
+	v4.CFrame = CFrame.new(0, SCREEN_HEIGHT * 0.5 + v4.Size.Y * -0.5, 0)
+	v4.Parent = ObstacleSet
+
+	local v5 = t.new(p1, ObstacleSet)
+
+	if v2 and (v2.Seaweed and #v2.Seaweed > 0) then
+		v5.Anims = {}
+
+		local v6 = v2.SeaweedWidthScale or 1
+		local v7 = v2.SeaweedEdgeOvershoot or 6
+		local v10 = v2.buildPlane(Vector3.new(Part2.Size.X * v6, Part2.Size.Y + v7, 0), v2.Seaweed)
+
+		v10.CFrame = CFrame.new(Part2.CFrame.Position - Vector3.new(0, v7 * 0.5, 0))
+		v10.Parent = Part2
+		table.insert(v5.Anims, v2.newAnimator(v10, v2.Seaweed, v2.SeaweedFPS))
+
+		local v13 = v2.buildPlane(Vector3.new(v4.Size.X * v6, v4.Size.Y + v7, 0), v2.Seaweed)
+
+		v13.CFrame = CFrame.new(v4.CFrame.Position + Vector3.new(0, v7 * 0.5, 0)) * CFrame.Angles(0, 0, math.pi)
+		v13.Parent = v4
+		table.insert(v5.Anims, v2.newAnimator(v13, v2.Seaweed, v2.SeaweedFPS))
+		v5._fadeDecals = {}
+
+		for i, v in ipairs({ v10, v13 }) do
+			for i2, v14 in ipairs(v:GetChildren()) do
+				if v14:IsA("Decal") then
+					table.insert(v5._fadeDecals, v14)
+				end
+			end
+		end
+	else
+		local v14 = p3:Clone()
+
+		v14.Size = Part2.Size / Vector3.new(0.5, 1, 5) + Vector3.new(0, 6, 0)
+		v14:PivotTo(Part2:GetPivot() * CFrame.new(0, -2, 0))
+		v14.Parent = Part2
+		v14:AddTag("BendySeaweed")
+
+		local v15 = p3:Clone()
+
+		v15.Size = v4.Size / Vector3.new(0.5, 1, 5) + Vector3.new(0, 6, 0)
+		v15:PivotTo(v4:GetPivot() * CFrame.Angles(math.pi, 0, 0) * CFrame.new(0, -2, 0))
+		v15.Parent = v4
+		v15:AddTag("BendySeaweed")
+	end
+
+	if p4 then
+		local v18 = CFrame.new(0, v22 + Part2.Size.Y + v1 * 0.5 + (if math.random() < 0.5 then -1 else 1) * (v1 * 0.28), 0)
+
+		if v2 and (v2.Coin and #v2.Coin > 0) then
+			local BarnabyCoin = Instance.new("Part")
+
+			BarnabyCoin.Name = "BarnabyCoin"
+			BarnabyCoin.Anchored = true
+			BarnabyCoin.CanCollide = false
+			BarnabyCoin.CanQuery = false
+			BarnabyCoin.CastShadow = false
+			BarnabyCoin.Transparency = 1
+			BarnabyCoin.Size = Vector3.new(2, 2, 0.05)
+			BarnabyCoin.CFrame = v18
+			BarnabyCoin.Parent = ObstacleSet
+
+			local Info = workspace:FindFirstChild("Info")
+			local v19 = if Info then Info:GetAttribute("BarnabyCoinRotate") == true else Info
+			local v21 = v2.buildPlane(BarnabyCoin.Size * (v2.CoinScale or 2), v19 and { v2.Coin[1] } or v2.Coin)
+
+			v21.CFrame = BarnabyCoin.CFrame
+			v21.Parent = BarnabyCoin
+
+			if v2.CoinTint then
+				for i, v in ipairs(v21:GetChildren()) do
+					if v:IsA("Decal") then
+						v.Color3 = v2.CoinTint
+					end
+				end
+			end
+
+			v5.Anims = v5.Anims or {}
+
+			if v19 then
+				table.insert(v5.Anims, v2.newRocker(v21, BarnabyCoin, v2.CoinRotateAmp, v2.CoinRotateSpeed))
+			else
+				table.insert(v5.Anims, v2.newAnimator(v21, v2.Coin, v2.CoinFPS))
+			end
+
+			v5.Coin = BarnabyCoin
+
+			return v5
+		end
+
+		local BarnabyCoin = Instance.new("Part")
+
+		BarnabyCoin.Name = "BarnabyCoin"
+		BarnabyCoin.Shape = Enum.PartType.Cylinder
+		BarnabyCoin.Anchored = true
+		BarnabyCoin.CanCollide = false
+		BarnabyCoin.CanQuery = false
+		BarnabyCoin.CastShadow = false
+		BarnabyCoin.Material = Enum.Material.Neon
+		BarnabyCoin.Color = Color3.fromRGB(255, 211, 64)
+		BarnabyCoin.Size = Vector3.new(0.35, 2, 2)
+		BarnabyCoin.CFrame = v18 * CFrame.Angles(0, 1.5707963267948966, 0)
+		BarnabyCoin.Parent = ObstacleSet
+		v5.Coin = BarnabyCoin
+	end
+
+	return v5
+end

@@ -1,0 +1,491 @@
+{
+ "slug": "bee-swarm-sim",
+ "title": "Bee Swarm Simulator (remake)",
+ "genre": "collecting simulator",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 622,
+  "screen_guis": 5,
+  "classes": {
+   "UIStroke": 308,
+   "TextLabel": 284,
+   "UICorner": 178,
+   "ImageLabel": 139,
+   "UIGradient": 128,
+   "Frame": 87,
+   "SurfaceGui": 80,
+   "ImageButton": 57,
+   "TextButton": 46,
+   "UIListLayout": 15,
+   "LocalScript": 12,
+   "ScrollingFrame": 8,
+   "BillboardGui": 7,
+   "UIGridLayout": 7,
+   "ScreenGui": 5,
+   "UIScale": 3,
+   "Folder": 3,
+   "UIAspectRatioConstraint": 2,
+   "Sound": 2,
+   "TextBox": 1,
+   "UIPadding": 1,
+   "TerrainDetail": 1,
+   "StringValue": 1,
+   "BoolValue": 1
+  },
+  "fonts": {
+   "FredokaOne Regular": 280,
+   "SourceSansPro Regular": 18,
+   "ComicNeueAngular Regular": 12,
+   "ComicNeueAngular Bold": 11,
+   "Poppins Bold": 3,
+   "PressStart2P Regular": 2,
+   "FredokaOne Bold": 2,
+   "LuckiestGuy Regular": 2,
+   "HighwayGothic Regular": 1
+  },
+  "background_colors": {
+   "#ffffff": 22,
+   "#000000": 18,
+   "#1e1e1e": 14,
+   "#2f2f2f": 7,
+   "#e25252": 6,
+   "#5ae258": 6,
+   "#ff3c3c": 6,
+   "#96ff7e": 5,
+   "#a7c6ff": 5,
+   "#151515": 5,
+   "#61f161": 4,
+   "#abffae": 3,
+   "#e2e2e2": 2,
+   "#98ffa7": 2,
+   "#ff8989": 2,
+   "#83ff9c": 2
+  },
+  "text_colors": {
+   "#ffffff": 148,
+   "#393939": 52,
+   "#000000": 24,
+   "#141414": 16,
+   "#f9f9f9": 16,
+   "#424242": 15,
+   "#282828": 9,
+   "#f0f0f0": 8,
+   "#2d2d2d": 7,
+   "#363636": 6
+  },
+  "stroke_colors": {
+   "#1e1e1e": 104,
+   "#141414": 32,
+   "#424242": 28,
+   "#000000": 21,
+   "#363636": 19,
+   "#242424": 9,
+   "#151515": 8,
+   "#ffffff": 7,
+   "#2a2a2a": 7,
+   "#1a1a1a": 7
+  },
+  "image_tints": {
+   "#6a5342": 14,
+   "#f0f0f0": 5,
+   "#191919": 5,
+   "#000000": 3,
+   "#4d9840": 2,
+   "#6fdc5c": 2,
+   "#76ad5d": 1,
+   "#7f5a82": 1,
+   "#755e4d": 1,
+   "#ff0000": 1
+  },
+  "corner_radius": {
+   "{1.0,0}": 45,
+   "{0.0,16}": 21,
+   "{0.2,0}": 17,
+   "{0.1,0}": 13,
+   "{0.3,0}": 10,
+   "{0.999,0}": 10,
+   "{0.9,0}": 10,
+   "{0.5,0}": 9,
+   "{0.4,0}": 6,
+   "{0.0,0}": 5
+  },
+  "stroke_thickness": {
+   "2.0 px": 106,
+   "4.0 px": 72,
+   "2.2 px": 43,
+   "3.0 px": 28,
+   "1.0 px": 20,
+   "2.5 px": 6,
+   "1.2 px": 6,
+   "2.6 px": 5,
+   "3.6 px": 4,
+   "5.0 px": 4
+  },
+  "text_size_px": {
+   "14": 18,
+   "1": 2
+  },
+  "text_scaled_share": 0.94,
+  "size_mode": {
+   "offset": 76,
+   "zero": 17,
+   "scale": 490,
+   "mixed": 39
+  },
+  "unique_images": 61,
+  "per_100_objects": {
+   "UICorner": 28.6,
+   "UIStroke": 49.5,
+   "UIGradient": 20.6,
+   "UIAspectRatioConstraint": 0.3,
+   "UIListLayout": 2.4,
+   "UIGridLayout": 1.1,
+   "UIPadding": 0.2,
+   "UIScale": 0.5,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 22.3,
+   "ImageButton": 9.2,
+   "TextButton": 7.4
+  }
+ },
+ "map": {
+  "instances": 11127,
+  "parts": 7285,
+  "meshparts": 6531,
+  "unions": 74,
+  "anchored_share": 0.86,
+  "textures_decals": 801,
+  "surface_appearances": 0,
+  "lights": 68,
+  "emitters": 36,
+  "beams_trails": 2,
+  "sounds": 1,
+  "prompts": 0,
+  "world_guis": 137,
+  "humanoids": 14,
+  "materials": {
+   "SmoothPlastic": 3780,
+   "Plastic": 3094,
+   "Neon": 277,
+   "Glass": 94,
+   "Metal": 14,
+   "ForceField": 10,
+   "Sand": 8,
+   "Wood": 7,
+   "Concrete": 1
+  },
+  "part_colors": {
+   "#4b974b": 1332,
+   "#564236": 1298,
+   "#5b5d69": 441,
+   "#348e40": 199,
+   "#a3a2a5": 185,
+   "#1b2a35": 142,
+   "#c4281c": 139,
+   "#da8541": 121,
+   "#ffb000": 119,
+   "#f5cd30": 103,
+   "#000000": 100,
+   "#24622c": 96,
+   "#6c584b": 95,
+   "#0d69ac": 68
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   7277,
+   2036,
+   4758
+  ],
+  "extent_all_studs": [
+   12186,
+   3672,
+   8250
+  ],
+  "top_classes": {
+   "MeshPart": 6531,
+   "Model": 1521,
+   "Texture": 769,
+   "Part": 679,
+   "Attachment": 253,
+   "TextLabel": 173,
+   "Motor6D": 141,
+   "SurfaceGui": 125,
+   "UIStroke": 125,
+   "StringValue": 93,
+   "Folder": 80,
+   "Vector3Value": 76,
+   "UnionOperation": 74,
+   "PointLight": 61,
+   "ParticleEmitter": 36
+  }
+ },
+ "lighting": {
+  "Ambient": "#0c3282",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.5,
+  "EnvironmentSpecularScale": 0.5,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#6795ff",
+  "FogEnd": 2800.0,
+  "FogStart": 200.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#0c3282",
+  "Outlines": false,
+  "PrioritizeLightingQuality": false,
+  "ShadowSoftness": 0.2,
+  "Technology": "Voxel",
+  "TimeOfDay": "14:00:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.15,
+    "Name": "Bloom",
+    "Size": 56.0,
+    "Threshold": 0.95
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.08,
+    "Contrast": 0.02,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.4,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "FarIntensity": 0.2,
+    "FocusDistance": 0.0,
+    "InFocusRadius": 50.0,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.0
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "NpcsUI",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "NpcsUI",
+    "Size": 24.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "NpcsUI",
+   "props": {
+    "Brightness": -0.1,
+    "Contrast": -0.5,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "NpcsUI",
+    "Saturation": -0.6,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.25,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxassetid://6444320592",
+    "Name": "Sky",
+    "SkyboxBk": "rbxassetid://6444884337",
+    "SkyboxDn": "rbxassetid://6444884785",
+    "SkyboxFt": "rbxassetid://6444884337",
+    "SkyboxLf": "rbxassetid://6444884337",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "rbxassetid://6444884337",
+    "SkyboxUp": "rbxassetid://6412503613",
+    "StarCount": 3000,
+    "SunAngularSize": 11.0,
+    "SunTextureId": "rbxassetid://6196665106"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Blur",
+    "Size": 15.0
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 46,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "parts": 6,
+  "model": 739,
+  "animations": 4,
+  "vfx": 3,
+  "audio": 4,
+  "model-set": 23,
+  "keyframes": 14,
+  "other": 7
+ },
+ "coverage": {
+  "instances": 17215,
+  "packed": 17052,
+  "services": 55,
+  "code_or_empty_folders_not_packed": 105,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 14,
+ "animation_ids": 37,
+ "sound_ids": 17,
+ "files": 838,
+ "kb": 23757,
+ "category": "Simulator",
+ "source_file": "Bee20Sim(1).rbxl"
+}

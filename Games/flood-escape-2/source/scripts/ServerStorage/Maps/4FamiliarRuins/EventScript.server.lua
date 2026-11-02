@@ -1,0 +1,15 @@
+local Lib = workspace.Multiplayer.GetMapVals:Invoke()
+Lib.Button:connect(function(p, bNo) if Lib.btnFuncs[bNo] then Lib.btnFuncs[bNo](bNo, p) end end)
+
+wait(5)
+Lib.Script.moveWater(Lib.Map._Water1, Vector3.new(0, 5, 0), 7, true)
+wait(10) -- 5
+Lib.Script.moveWater(Lib.Map._Water1, Vector3.new(0, 30.2, 0), 10, true)
+wait(7.8)
+Lib.Script.moveWater(Lib.Map._Water2, Vector3.new(0, 16, 0), 16, true)
+wait(16)
+Lib.Script.moveWater(Lib.Map._Water2, Vector3.new(0, 80-7, 0), 10, true)
+wait(20.2)
+Lib.Script.moveWater(Lib.Map._Water4, Vector3.new(0, 13, 0), 3.5, true)
+wait(11)
+Lib.Script.moveWater(Lib.Map._Water4, Vector3.new(0, 43, 0), 15, true)

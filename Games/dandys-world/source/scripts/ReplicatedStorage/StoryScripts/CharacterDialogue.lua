@@ -1,0 +1,37 @@
+--██   ██  █████   ██████ ██  ██  ███████ ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██   ██
+--███████ ███████ ██      ████    █████   ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██  ██ 
+--██   ██ ██   ██  ██████ ██  ██  ███████ ██   ██
+--
+--██████  ███████  ██████  █████  ██   ██ ██████  ███ ██      ███████ ██████ 
+--██   ██ ██      ██      ██   ██ ███ ███ ██   ██ ██  ██      ██      ██   ██
+--██   ██ █████   ██      ██   ██ ██ █ ██ ██████  ██  ██      █████   ██████ 
+--██   ██ ██      ██      ██   ██ ██   ██ ██      ██  ██      ██      ██  ██ 
+--██████  ███████  ██████  █████  ██   ██ ██      ███ ███████ ███████ ██   ██
+--[[
+Hacker Decompiler 
+Hacker Uncopylocked Discord Link : https://discord.gg/T7BXynvdMb
+Owner of Hacker Decompiler: HackerKing
+Owner of Hacker Uncopylocked: HackerKing
+--]]
+
+
+-- Bytecode (Base64):
+-- CQNIHUhpIHRoZXJlISBXZWxjb21lIHRvIG15IFNob3AhIUhleSwgSSBnb3Qgc29tZSBnb29kaWVzIGZvciBzYWxlITBUaGUgZmluZXN0IGdvb2RzIGFyZSByaWdodCBoZXJlIGF0IERhbmR5J3MgU2hvcCE/R290IHNvbWUgVGFwZXM/IFRvc3MgbWUgYSBmZXcgYW5kIEknbGwgZ2V0IHlvdSBzb21ldGhpbmcgZ3JlYXQhL1dlbGNvbWUhIEkndmUgZ290IHNvbWUgZ3JlYXQgaXRlbXMgaW4gbXkgc3RvcmUhM1dlbGNvbWUhIFlvdSB3b24ndCBmaW5kIGJldHRlciBpdGVtcyBhbnl3aGVyZSBlbHNlIQpEYW5keVN0b3JlClRoYW5rIHlvdSEHWWlwcGVlIR5QbGVhc3VyZSBkb2luJyBidXNpbmVzcyEgSGVoZSEST29vaCEgR29vZCBjaG9pY2UhJ0knbSBzdXJlIHlvdSdsbCBtYWtlIGdyZWF0IHVzZSBvZiB0aGF0IQpGYW50YXN0aWMhFVRoYW5rcyBmb3IgdGhlIFRhcGVzIRJEYW5keVB1cmNoYXNlZEl0ZW0LQWJvdXQgdGltZS4YTm93IHRoYXQncyBtb3JlIGxpa2UgaXQuCEZpbmFsbHkuK0hlaCwgeW91IGhhZCBtZSB3b3JyaWVkIHRoZXJlIGZvciBhIHNlY29uZC4ZR29vZCBjaG9pY2Ugb24geW91ciBwYXJ0LixGb3IgYSBzZWNvbmQgSSB0aG91Z2h0IHlvdSB3ZXJlIGlnbm9yaW5nIG1lIRJEYW5keUFuZ3J5UHVyY2hhc2UWVGhhbmsgeW91LCBjb21lIGFnYWluIQ5TZWUgeW91IGxhdGVyIRJUaW1lIGZvciBtZSB0byBnbyESR29vZCBsdWNrLCBmcmllbmQhGkRvbid0IHdvcnJ5LCBJJ2xsIGJlIGJhY2shCkRhbmR5TGVhdmUlU28gbm8gaXRlbXM/IFRoYXQncyBvayEgSSdsbCBiZSBiYWNrIUJTaG9ydCBvbiBUYXBlcz8gRG9uJ3Qgd29ycnkhIEknbSBzdXJlIHlvdSdsbCBoYXZlIHNvbWUgbW9yZSBsYXRlciEhSSdsbCBoYXZlIGJldHRlciBzdG9jayBuZXh0IHRpbWUhSFNhdmluZyB5b3VyIFRhcGVzIEkgc2VlLCBubyBuZWVkIHRvIHdvcnJ5ISBJJ2xsIGJlIGJhY2sgd2l0aCBtb3JlIGl0ZW1zIQ9EYW5keUxlYXZlTm9CdXkoSGV5LCBzdXJlbHkgeW91IG11c3QgaGF2ZSBUYXBlcyBub3cgaHVoPzBZb3UgbWlnaHQgd2FubmEgc3BlbmQgeW91ciBUYXBlcyBvbiB0aGVzZSBpdGVtcyEiWW91IGdvbm5hIGJ1eSBzb21ldGhpbmcgdGhpcyB0aW1lPy5JJ3ZlIGdvdCBzb21lIGJldHRlciBpdGVtcyB0aGlzIHRpbWUsIEkgc3dlYXIhI1NwYXJlIGEgZmxvd2VyIHNvbWUgVGFwZXMsIHdpbGwgeWE/U1lvdSBjYW4ndCBiZSBob2xkaW5nIG9udG8gdGhvc2UgVGFwZXMgZm9yZXZlciBub3cuLi4gQ29tZSBvbiwgbG9vayBhdCBteSBzZWxlY3Rpb24hREkgZ2V0IGJlaW5nIHNtYXJ0IHdpdGggeW91ciBzcGVuZGluZywgYnV0IEkndmUgZ290IHNvbWUgZ3JlYXQgaXRlbXMhNkhlbGxvb29vISBEYW5keSB0byBUb29uLCBJJ3ZlIGdvdCBzb21lIGl0ZW1zIGZvciBzYWxlIRVEYW5keVN0b3JlU2xpZ2h0QW5ncnkpU3VyZWx5IHRoZXJlJ3Mgc29tZXRoaW5nIHdyb25nLCByaWdodC4uLj8KRnJpZW5kLi4uPxhXYXMgaXQgc29tZXRoaW5nIEkgc2FpZD8uU3VyZWx5IHlvdSBtdXN0IGJlIHNhdmluZyB5b3VyIFRhcGVzIGZvciBtZS4uLhVXaGF0IGlzIGhhcHBlbmluZy4uLj8aV2UncmUgZnJpZW5kcyBoZXJlLCByaWdodD8VRGFuZHlMZWF2ZVNsaWdodEFuZ3J5Ay4uLgUuLi4uLhJEb24ndC4gSWdub3JlLiBNZS4bSnVzdCBidXkgc29tZXRoaW5nIGFscmVhZHkuFERvbid0IG1ha2UgbWUgYW5ncnkuGVRob3NlIFRhcGVzIGJlbG9uZyB0byBtZS4PRGFuZHlTdG9yZUFuZ3J5JVlvdSdyZSBSRUFMTFkgdXBzZXR0aW5nIG1lIHJpZ2h0IG5vdy4dWW91IGRvbid0IG5lZWQgbXkgaGVscD8gRklORS4MQmUgdGhhdCB3YXkuHFlvdSdyZSBtYWtpbmcgYSBiaWcgbWlzdGFrZS4dVGhvc2UgVGFwZXMgd2VyZSBuZXZlciB5b3Vycy4PRGFuZHlMZWF2ZUFuZ3J5EkFoLCB3aGVyZSB3ZXJlIHdlPytMZXQncyBub3QgaGF2ZSB0aGF0IGhhcHBlbiBhZ2Fpbiwgc2hhbGwgd2U/G0FoZW0sIHdoZXJlIGFyZSBteSBtYW5uZXJzPx9MZXQncyBqdXN0IHNheSB5b3Ugc2F3IG5vdGhpbmcuCFNhd0RhbmR5JE1lcnJ5IENocmlzdG1hcyEgRnJlZSBEYW5keSBjb29raWVzISRGcmVlIGNvb2tpZXMhIEkgbWFkZSBEeWxlIGJha2UgdGhlbSEPRGFuZHlDb29raWVUYWtlIkZyZWUgRWdncyEgSSBtYWRlIER5bGUgcGFpbnQgdGhlbSETRGFuZHlFYXN0ZXJFZ2dzVGFrZQABCgAAAQIAigGjAAAA/wAFAAAAAAD/AQAABgAAAG8CAABvAwEAbwQCAG8FAwBvBgQAbwcFAMUBAgcBAAAAMAEATgYAAAD/AQAABwAAAG8CBwBvAwgAbwQJAG8FCgBvBgsAbwcMAG8IDQDFAQIIAQAAADABAAMOAAAA/wEAAAYAAABvAg8AbwMQAG8EEQBvBRIAbwYTAG8HFADFAQIHAQAAADABAIYVAAAA/wEAAAUAAABvAhYAbwMXAG8EGABvBRkAbwYaAMUBAgYBAAAAMAEAcBsAAAD/AQAABAAAAG8CHABvAx0AbwQeAG8FHwDFAQIFAQAAADABABcgAAAA/wEAAAgAAABvAiEAbwMiAG8EIwBvBSQAbwYlAG8HJgBvCCcAbwkoAMUBAgkBAAAAMAEAyCkAAAD/AQAABgAAAG8CKgBvAysAbwQsAG8FLQBvBi4AbwcvAMUBAgcBAAAAMAEAxTAAAAD/AQAABgAAAG8CMQBvAzIAbwQzAG8FNABvBjUAbwc2AMUBAgcBAAAAMAEAGTcAAAD/AQAABwAAAG8COABvAzEAbwQyAG8FOQBvBjoAbwc7AG8IPADFAQIIAQAAADABAF89AAAA/wEAAAQAAABvAj4AbwM/AG8EQABvBUEAxQECBQEAAAAwAQA5QgAAAP8BAAACAAAAbwJDAG8DRADFAQIDAQAAADABAPZFAAAA/wEAAAEAAABvAkYAxQECAgEAAAAwAQB/RwAAAIIAAgBIAwEDAgMDAwQDBQMGAwcDCAMJAwoDCwMMAw0DDgMPAxADEQMSAxMDFAMVAxYDFwMYAxkDGgMbAxwDHQMeAx8DIAMhAyIDIwMkAyUDJgMnAygDKQMqAysDLAMtAy4DLwMwAzEDMgMzAzQDNQM2AzcDOAM5AzoDOwM8Az0DPgM/A0ADQQNCA0MDRANFA0YDRwNIAAEAARgAAAACAAEBAQEBAQAA+gAJAAEBAQEBAQEAAPkACgABAQEBAQEAAPoACQABAQEBAQAA+wAIAAEBAQEAAPwACwABAQEBAQEBAQAA+AALAAEBAQEBAQAA+gAKAAEBAQEBAQAA+gAJAAEBAQEBAQEAAPkACgABAQEBAAD8AAgAAQEAAP4ABQABAAD/AAQBAAAAAADwSvtVO+fLqhNldq/3r92WgFLsIcKOkVQ=
+
+-- https://lua.expert/
+return {
+	DandyStore = { "Hi there! Welcome to my Shop!", "Hey, I got some goodies for sale!", "The finest goods are right here at Dandy\'s Shop!", "Got some Tapes? Toss me a few and I\'ll get you something great!", "Welcome! I\'ve got some great items in my store!", "Welcome! You won\'t find better items anywhere else!" },
+	DandyPurchasedItem = { "Thank you!", "Yippee!", "Pleasure doin\' business! Hehe!", "Oooh! Good choice!", "I\'m sure you\'ll make great use of that!", "Fantastic!", "Thanks for the Tapes!" },
+	DandyAngryPurchase = { "About time.", "Now that\'s more like it.", "Finally.", "Heh, you had me worried there for a second.", "Good choice on your part.", "For a second I thought you were ignoring me!" },
+	DandyLeave = { "Thank you, come again!", "See you later!", "Time for me to go!", "Good luck, friend!", "Don\'t worry, I\'ll be back!" },
+	DandyLeaveNoBuy = { "So no items? That\'s ok! I\'ll be back!", "Short on Tapes? Don\'t worry! I\'m sure you\'ll have some more later!", "I\'ll have better stock next time!", "Saving your Tapes I see, no need to worry! I\'ll be back with more items!" },
+	DandyStoreSlightAngry = { "Hey, surely you must have Tapes now huh?", "You might wanna spend your Tapes on these items!", "You gonna buy something this time?", "I\'ve got some better items this time, I swear!", "Spare a flower some Tapes, will ya?", "You can\'t be holding onto those Tapes forever now... Come on, look at my selection!", "I get being smart with your spending, but I\'ve got some great items!", "Helloooo! Dandy to Toon, I\'ve got some items for sale!" },
+	DandyLeaveSlightAngry = { "Surely there\'s something wrong, right...?", "Friend...?", "Was it something I said?", "Surely you must be saving your Tapes for me...", "What is happening...?", "We\'re friends here, right?" },
+	DandyStoreAngry = { "...", ".....", "Don\'t. Ignore. Me.", "Just buy something already.", "Don\'t make me angry.", "Those Tapes belong to me." },
+	DandyLeaveAngry = { "You\'re REALLY upsetting me right now.", "...", ".....", "You don\'t need my help? FINE.", "Be that way.", "You\'re making a big mistake.", "Those Tapes were never yours." },
+	SawDandy = { "Ah, where were we?", "Let\'s not have that happen again, shall we?", "Ahem, where are my manners?", "Let\'s just say you saw nothing." },
+	DandyCookieTake = { "Merry Christmas! Free Dandy cookies!", "Free cookies! I made Dyle bake them!" },
+	DandyEasterEggsTake = { "Free Eggs! I made Dyle paint them!" }
+}

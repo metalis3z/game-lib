@@ -1,0 +1,37 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ReplicatedStorage/HDAdminHDClient/SharedModules/SharedCoreFunctions.lua lines 38
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/ServerScriptService/AntiLagServer.server.lua
+       suspicious script name "AntiLagServer"
+[MED] scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/fetchServer.lua lines 4
+       HttpService request (calls an outside server)
+[MED] scripts/StarterPlayer/StarterPlayerScripts/AntiLagClient.client.lua
+       suspicious script name "AntiLagClient"
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  117501901079852  in scripts/ReplicatedStorage/HDAdminHDClient/Assets/Icon/VERSION.lua, scripts/ReplicatedStorage/TopbarPlus/Icon/VERSION.lua
+  1908001145  in scripts/StarterGui/RightGui/GamepassButton/GamepassOfferRotator.client.lua
+  1918137243  in scripts/StarterGui/Store/Store/Content/ScrollingFrame/LuckyBlock~3/Frame/Content/TextButton/LocalScript.client.lua
+  1918401488  in scripts/StarterGui/Store/Store/Content/ScrollingFrame/LuckyBlock~2/LuckyBlock/Frame/Content/TextButton/LocalScript.client.lua, scripts/StarterPlayer/StarterPlayerScripts/LocalScript~2.client.lua
+  1918479215  in scripts/StarterGui/Store/Store/Content/ScrollingFrame/LuckyBlock~4/Frame/Content/TextButton/LocalScript.client.lua
+  1918893234  in scripts/StarterGui/Store/Store/Content/ScrollingFrame/LuckyBlock/Content/TextButton/LocalScript.client.lua
+  1919073256  in scripts/StarterGui/Store/Store/Content/ScrollingFrame/LuckyBlock~5/Frame/Content/TextButton/LocalScript.client.lua
+  1919277271  in scripts/StarterGui/Store/Store/Content/ScrollingFrame/LuckyBlock~6/Frame/Content/TextButton/LocalScript.client.lua
+  79941590401581  in scripts/ReplicatedStorage/HDAdminHDClient/SharedModules/VERSION.lua
+
+Outside URLs in code:
+  https://create.roblox.com/store/asset/92368439343389/TopbarPlus  in scripts/ReplicatedStorage/TopbarPlus/Icon/Attribute.lua
+  https://devforum.roblox.com/t/bug/1017485/1732  in scripts/ReplicatedStorage/TopbarPlus/Icon/Utility.lua
+  https://devforum.roblox.com/t/bug/2973508/7  in scripts/ReplicatedStorage/TopbarPlus/Icon/Elements/Container.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/TopbarPlus/Icon.lua
+  https://devforum.roblox.com/t/topbarplus/1017485  in scripts/ReplicatedStorage/HDAdminHDClient/Assets/Icon/Attribute.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/TopbarPlus/Icon.lua
+  https://devforum.roblox.com/t/topbarplus/1017485`  in scripts/ReplicatedStorage/TopbarPlus/Icon/Attribute.lua
+  https://discord.gg/c6kdYeAhG  in scripts/CAMERAFIX.server.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/LocalPlayer/PlayerGui/AnnouncementGui/MessageAllGui.client.lua, scripts/LocalPlayer/PlayerGui/CheatWarningGui/Frame/WarningGuiWinButton.client.lua, scripts/LocalPlayer/PlayerGui/EventUI/GoldenEggRadar/Sunburst/SunburstLocalScript.client.lua
+  https://eryn.io/Cmdr/guide/Hooks.html  in scripts/ServerScriptService/Cmdr/Cmdr/Shared/Dispatcher.lua
+  https://github.com/1ForeverHD/TopbarPlus  in scripts/ReplicatedStorage/TopbarPlus/Icon/Attribute.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/TopbarPlus/Icon/Utility.lua
+  https://lua.expert/  in scripts/StarterGui/RightUpGui/EventFollowButton.client.lua, scripts/StarterGui/RightUpGui/FeedbackClient.client.lua, scripts/StarterGui/Shiftlock/ImageButton/ShiftGUI.client.lua
+  https://www.roblox.com/headshot-thumbnail/image?userId=  in scripts/ReplicatedStorage/HDAdminHDClient/Modules/ClientCoreFunctions.lua

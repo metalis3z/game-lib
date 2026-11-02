@@ -1,0 +1,15 @@
+local Lib = workspace.Multiplayer.GetMapVals:Invoke() --Has: Map, Script, Button, btnFuncs
+Lib.Button:connect(function(p, bNo) if Lib.btnFuncs[bNo] then Lib.btnFuncs[bNo](bNo, p) end end)
+
+Lib.Script.setWaterState(Lib.Map.Intro._Water1, "lava")
+Lib.Script.setWaterState(Lib.Map.Intro._Water2, "lava")
+Lib.Script.setWaterState(Lib.Map.Intro._Water3, "lava")
+wait(9)
+Lib.Script.moveWater(Lib.Map.Intro._Water3, Vector3.new(0, 68.608, 0), 7, true)
+Lib.Script.moveWater(Lib.Map.Intro._Water1, Vector3.new(0, 73.12, 0), 9.25, true)
+wait(19.5)
+Lib.Script.moveWater(Lib.Map.Intro._Water1, Vector3.new(0, 146, 0), 25.5, true)
+wait(23)
+Lib.Script.moveWater(Lib.Map.Intro._Water2, Vector3.new(0, 73.12, 0), 8.7, true)
+wait(15)
+Lib.Script.moveWater(Lib.Map.Intro._Water2, Vector3.new(0, 150, 0), 23, true)

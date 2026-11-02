@@ -1,0 +1,29 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMSBnNjcmlwdAROYW1lDkZpbmRGaXJzdENoaWxkCEluc3RhbmNlA25ldwtPYmplY3RWYWx1ZQZQYXJlbnQFVmFsdWUJQm9vbFZhbHVlBGdhbWUKUnVuU2VydmljZQpHZXRTZXJ2aWNlCElzQ2xpZW50BkNsaWVudAZTZXJ2ZXIWYWRkVG9SZXBsaWNhdGVkU3RvcmFnZQlnZXRPYmplY3QRUmVwbGljYXRlZFN0b3JhZ2UAAwcAAQAAADf7AAAApAMBAAAAAEBNAgO6AgAAALwAAAMDAAAAnwADAg4AAgCpAQAAggECAKQBBgAAFECAbwIHAJ8BAgKkAwEAAAAAQE0CA7oCAAAAMAIBugIAAACkAwEAAAAAQE0CAyQIAAAAMAIB7AkAAAD7AgAAMAIBJAgAAACkAgYAABRAgG8DCgCfAgICpAQMAAAAsEBvBg0AvAQEFg4AAACfBAMCvAQEBA8AAACfBAICDgQCAG8DEABlAAEAbwMRADADAroCAAAAqQMBADADAuwJAAAAMAECJAgAAACCAQIAEgMBBAAAAEADAgMDAwQDBQQAFECAAwYDBwMIAwkDCgQAALBAAwsDDAMNAw4DDwAJEAEYAAAAAAAAAAABAQACAAAAAQAAAAAAAQAAAAAAAQAAAQAAAAEAAAAAAAAAAAAAAAAAAAEAAAEAAQoAAAAABAABAAAADPsAAACkAwEAAAAAQE0CA7oCAAAAvAAAAwMAAACfAAMCDgABAIIAAgCpAQAAggECAAQDAQQAAABAAwIDAwAZEQEYAAAAAAAAAAABAQIAGgAAAAADAAABAgASowAAAKQAAQAAAABAbwICALwAABYDAAAAnwADAv8BAgAAAAAAwAIEABIAAAAwAgF7BQAAAMACBgASAAAAMAIBGQcAAACCAQIACAMKBAAAAEADEgMMBgADEAYBAxECAAEBAAEYAAUAAAAAAAEAAgAAABAAAAAIAQAAAAACuyGHsRHgD2uJ5e0lyy1eIkfNDZUgJMHIS94JyFBUhwSg1sanrBpJoQ==
+
+-- Decompiled by Krnl
+
+local v_u_1 = game:GetService("ReplicatedStorage")
+return {
+	["addToReplicatedStorage"] = function()
+		-- upvalues: (copy) v_u_1
+		if v_u_1:FindFirstChild(script.Name) then
+			return false
+		end
+		local v2 = Instance.new("ObjectValue")
+		v2.Name = script.Name
+		v2.Value = script.Parent
+		v2.Parent = v_u_1
+		local v3 = Instance.new("BoolValue")
+		v3.Name = game:GetService("RunService"):IsClient() and "Client" or "Server"
+		v3.Value = true
+		v3.Parent = v2
+		return v2
+	end,
+	["getObject"] = function()
+		-- upvalues: (copy) v_u_1
+		return v_u_1:FindFirstChild(script.Name) or false
+	end
+}

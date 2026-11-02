@@ -1,0 +1,76 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ServerScriptService/ROBLOX_ROBLOX_ROBLOX_ROBLOX_ROBLOX_ROBLOX_ROBLOX_ROBLOX_ROBL.server.lua lines 1
+       very long line (121431 chars, possible obfuscation)
+
+Instances with suspicious names:
+  Folder Workspace.Backdoor
+  Model Workspace.Backdoor.0.Backdoor_Wardrobe
+  Model Workspace.Backdoor.0.Backdoor_Wardrobe
+  Model Workspace.Backdoor.0.Backdoor_Wardrobe
+  Model Workspace.Backdoor.0.Backdoor_Wardrobe
+  Model Workspace.Backdoor.0.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Assets.Furnitures.Backdoor_TableCommon
+  Model ServerScriptService.Server.Assets.Furnitures.Backdoor_TablePress
+  Model ServerScriptService.Server.Assets.Furnitures.Backdoor_TableWithout
+  Model ServerScriptService.Server.Assets.Furnitures.Backdoor_TableSmall
+  Model ServerScriptService.Server.Assets.Hunt.8.Assets.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Assets.Hunt.8.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Assets.Hunt.8.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Assets.Hunt.8.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Assets.Hunt.8.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoors_Exit
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoor.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Assets.Backdoor_Table_Small
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoors_Exit
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Special.Hunt_ExitBackdoord.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Hunt_Rooms.Hunt_Behavoir.Hunt_Behavoir1.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Hunt_Rooms.Hunt_Behavoir.Hunt_Behavoir1.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Hunt_Rooms.Hunt_Behavoir.Hunt_Behavoir1.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Hunt_Rooms.Hunt_Behavoir.Hunt_Behavoir1.Backdoor_Wardrobe
+  Model ServerScriptService.Server.Hunt_Rooms.Hunt_Behavoir.Hunt_Behavoir1.Backdoor_Wardrobe
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1777626391  in scripts/StarterGui/MainUI/Initiator/old health.client.lua
+  1792229995  in scripts/StarterGui/MainUI/Initiator/Main_Game/Health.client.lua
+  738967590  in scripts/ReplicatedStorage/ClientModules/Module_AdminPanel.lua
+
+Outside URLs in code:
+  http://www.roblox.com/Rbx-CustomFont-item?id=230767320  in scripts/ReplicatedStorage/ClientModules/AllSize_CustomFontHandler.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/CameraShaker.lua
+  https://developer.roblox.com/en-us/articles/Remote-Functions-and-Events  in scripts/ServerScriptService/ServerScriptModules/ReplicaService.lua
+  https://devforum.roblox.com/t/ProfileService/667805  in scripts/ServerScriptService/ServerScriptModules/ProfileService.lua
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/ReplicatedStorage/MadworkMaid.lua, scripts/ReplicatedStorage/MadworkScriptSignal.lua
+  https://devforum.roblox.com/t/replicate-your-states-with-replicaservice-networking-system/894736/22  in scripts/ServerScriptService/Experimental/ReplicaServiceListeners.lua
+  https://devforum.roblox.com/t/wind-shake-high-performance-wind-effect-for-leaves-and-foliage/1039806/1  in scripts/StarterGui/MainUI/Modules/__WindShake.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/ReplicatedStorage/MadworkMaid.lua, scripts/ReplicatedStorage/MadworkScriptSignal.lua
+  https://github.com/EgoMoose/Rbx_CustomFont  in scripts/ReplicatedStorage/ClientModules/AllSize_CustomFontHandler.lua
+  https://github.com/EgoMoose/Rbx_CustomFont/wiki/Creating-your-own-font  in scripts/ReplicatedStorage/ClientModules/AllSize_CustomFontHandler.lua
+  https://github.com/PointCloudLibrary/pcl/blob/29f192af57a3e7bdde6ff490669b211d8148378f/octree/include/pcl/octree/impl/octree_search.hpp#L309  in scripts/StarterGui/MainUI/Modules/__WindShake/Octree/OctreeRegionUtils.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/CameraShaker.lua
+  https://madstudioroblox.github.io/ProfileService/  in scripts/ServerScriptService/ServerScriptModules/ProfileService.lua

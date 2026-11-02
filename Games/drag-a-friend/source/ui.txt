@@ -1,0 +1,137 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.ScreenGui  (7 descendants)
+ScreenGui "ScreenGui"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageButton "Revives"  size={0,73},{0,70}  pos={0.00658,0},{0.479,0}  bg=#d99dd9@0.1  img=rbxassetid://73393999354784
+    TextLabel "TextLabel"  size={0,73},{0,20}  pos={0,0},{0.9,0}  nobg  text="Revives"  font=PressStart2P/400  scaled  tc=#f1f1f1
+    UICorner "UICorner"  CornerRadius={0.175,0}
+  ImageButton "Invite"  size={0,73},{0,70}  pos={0.00712,0},{0.32,0}  bg=#3a3a3a@0.75  img=rbxassetid://84984692200461
+    TextLabel "TextLabel"  size={0,73},{0,17}  pos={0,0},{0.861,0}  nobg  text="Invite"  font=PressStart2P/400  scaled  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/ScreenGui/Invite/LocalScript.client.lua
+    UICorner "UICorner"  CornerRadius={0.075,0}
+
+==== StarterGui.GamepassUI  (33 descendants)
+ScreenGui "GamepassUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  LocalScript "Manager"  -> scripts/StarterGui/GamepassUI/Manager.client.lua
+    Frame "Template"  size={0,100},{0,100}  pos={0,0},{0,0}  nobg
+      TextButton "TextButton"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#111111@0.2  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        UICorner "UICorner"  CornerRadius={0,3}
+      Frame "PriceBar"  size={0.85,0},{0.175,0}  pos={0.475,0},{0.725,0}  anchor=(0.5,0)  nobg
+        TextLabel "TextLabel"  size={0,0},{1,0}  pos={0,0},{0,0}  nobg  text="199"  font=FredokaOne/400  scaled  tc=#ffffff
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        ImageLabel "ImageLabel"  size={0.189,0},{1,0}  pos={0.532,0},{0,0}  nobg  img=rbxassetid://11560341132
+          UIAspectRatioConstraint "Aspect"  AspectRatio=1
+      TextLabel "TextLabel"  size={0,0},{0.15,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0)  nobg  text="[ItemName]"  font=FredokaOne/400  scaled  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.377,0},{0.352,0}  pos={0.5,0},{0.3,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://11560341132
+        UIAspectRatioConstraint "Aspect"  AspectRatio=1
+        UICorner "UICorner"  CornerRadius={1,0}
+    Sound "Click"
+    Sound "Bell"
+  Frame "Frame"  size={0.42,0},{0.5,0}  pos={0.5,0},{0.425,0}  anchor=(0.5,0.5)  HIDDEN  bg=#111111@0.3
+    Frame "Topbar"  size={0.95,0},{0.115,0}  pos={0.5,0},{0.03,0}  anchor=(0.5,0)  bg=#111111@0.3
+      TextLabel "TextLabel"  size={0.95,0},{0.8,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0.5)  nobg  text="SHOP !"  font=PressStart2P/400  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0.175,0}
+      UICorner "UICorner"  CornerRadius={0.5,0}
+    ScrollingFrame "List"  size={0.95,0},{0.8,0}  pos={0.5,0},{0.2,0}  anchor=(0.5,0)  nobg
+      UIGridLayout "UIGridLayout"  CellSize={0.325,0},{0.6,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=0
+    UIAspectRatioConstraint "Aspect"  AspectRatio=1.55
+    UICorner "UICorner"  CornerRadius={0.15,0}
+  TextButton "Toggle"  size={0.0408,0},{0.0681,0}  pos={0.00549,0},{0.433,0}  anchor=(0,0.5)  bg=#9e1b04@0.45  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+    UIAspectRatioConstraint "Aspect"  AspectRatio=1
+    ImageLabel "ImageLabel"  size={0.538,0},{0.538,0}  pos={0.5,0},{0.375,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://120322919686552
+    TextLabel "TextLabel"  size={0.95,0},{0.262,0}  pos={0.5,0},{0.819,0}  anchor=(0.5,0.5)  nobg  text="Shop"  font=PressStart2P/400  scaled  tc=#ffffff
+    UICorner "UICorner"  CornerRadius={0.15,0}
+  Folder "Gamepasses"
+    StringValue "2x Boxes"  Value="1152643144"
+    StringValue "VIP"  Value="1152457093"
+    StringValue "x2 spins"  Value="1151401273"
+
+==== StarterGui.Playerlist  (59 descendants)
+ScreenGui "Playerlist"  Enabled=True  DisplayOrder=10  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "MainFrame"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    CanvasGroup "MainScroll"  size={0.107,0},{0.402,0}  pos={0.996,0},{0.00918,0}  anchor=(1,0)  nobg
+      UICorner "UICorner"  CornerRadius={0,8}
+      ScrollingFrame "PlayerList"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      UIAspectRatioConstraint "AspectRatio"  AspectRatio=0.454
+    CanvasGroup "Information"  size={0.192,0},{0.264,0}  pos={0.596,0},{0.528,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.5
+      UICorner "UICorner"  CornerRadius={0,8}
+      Frame "User"  size={1,0},{0.273,0}  pos={0,0},{0,0}  bg=#000000@0.5
+        UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+        ImageLabel "PlayerIcon"  size={0.189,0},{0.869,0}  pos={0.0158,0},{0.0596,0}  nobg  img=rbxassetid://14707432416
+          UICorner "UICorner"  CornerRadius={0.111,0}
+        TextLabel "DisplayName"  size={0.759,0},{0.422,0}  pos={0.224,0},{0.0495,0}  nobg  text="DisplayName"  font=12187365977/700  scaled  tc=#ffffff
+        TextLabel "Username"  size={0.759,0},{0.15,0}  pos={0.224,0},{0.456,0}  nobg  text="@Username"  font=12187365977/600  scaled  tc=#b6b6b6
+        ImageLabel "Icon"  size={0.0695,0},{0.292,0}  pos={0.224,0},{0.636,0}  HIDDEN  nobg  img=rbxassetid://10885647358
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextButton "MoreInfoButton"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=rbxassetid://5679408007  imgT=0.95
+        ImageLabel "Icon2"  size={0.0695,0},{0.292,0}  pos={0.305,0},{0.636,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=6034287513
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageLabel "Icon3"  size={0.0695,0},{0.292,0}  pos={0.386,0},{0.636,0}  HIDDEN  nobg  img=rbxassetid://15024010866
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+      Frame "AddFriend"  size={1,0},{0.182,0}  pos={0,0},{0.274,0}  bg=#000000@0.5
+        UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+        TextLabel "Header"  size={0.801,0},{0.422,0}  pos={0.164,0},{0.283,0}  nobg  text="Add Friend"  font=12187365977/700  scaled  tc=#ffffff
+        TextButton "AddFriendButton"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ImageLabel "Icon"  size={0.206,0},{0.879,0}  pos={0.0136,0},{0.0495,0}  nobg  img=http://www.roblox.com/asset/?id=6034287513
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "InspectAvatar"  size={1,0},{0.182,0}  pos={0,0},{0.457,0}  bg=#000000@0.5
+        UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+        TextLabel "Header"  size={0.801,0},{0.422,0}  pos={0.164,0},{0.283,0}  nobg  text="Inspect Avatar"  font=12187365977/700  scaled  tc=#ffffff
+        TextButton "InspectButton"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ImageLabel "Icon"  size={0.206,0},{0.879,0}  pos={0.0136,0},{0.0495,0}  nobg  img=http://www.roblox.com/asset/?id=6031154867
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      UIAspectRatioConstraint "AspectRatio"  AspectRatio=1.24
+      Frame "Block"  size={1,0},{0.182,0}  pos={0,0},{0.638,0}  bg=#000000@0.5
+        UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+        TextLabel "Header"  size={0.801,0},{0.422,0}  pos={0.164,0},{0.283,0}  nobg  text="Block"  font=12187365977/700  scaled  tc=#ffffff
+        TextButton "BlockButton"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        ImageLabel "Icon"  size={0.206,0},{0.879,0}  pos={0.0136,0},{0.0495,0}  nobg  img=http://www.roblox.com/asset/?id=6035047387
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      Frame "MultiOptions"  size={1,0},{0.185,0}  pos={0,0},{0.82,0}  bg=#000000@0.5
+        UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+        ImageLabel "VoiceUser"  size={0.0986,0},{0.752,0}  pos={0.783,0},{0.158,0}  HIDDEN  nobg  img=rbxassetid://14333877451  imgcol=#c1ceff
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "Header"  size={0.605,0},{0.277,0}  pos={0.0157,0},{0.58,0}  nobg  text="Arbalest's Playerlist Gui V1"  font=12187365977/500  scaled  tc=#ffffff
+        ImageLabel "Close"  size={0.0986,0},{0.752,0}  pos={0.884,0},{0.158,0}  nobg  img=http://www.roblox.com/asset/?id=6031094678  imgcol=#ff5252
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+    LocalScript "LeaderboardManager"  -> scripts/StarterGui/Playerlist/MainFrame/LeaderboardManager.client.lua
+      Frame "User"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#000000@0.5
+        UIStroke "UIStroke"  Thickness=1  Color=#ffffff  Transparency=0.45  ApplyStrokeMode=0
+        ImageLabel "PlayerIcon"  size={0.218,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://14707432416
+        TextLabel "DisplayName"  size={0.551,0},{0.422,0}  pos={0.256,0},{0.193,0}  nobg  text="DisplayName"  font=12187365977/700  scaled  tc=#ffffff
+        TextLabel "Username"  size={0.551,0},{0.187,0}  pos={0.256,0},{0.599,0}  nobg  text="@Username"  font=12187365977/600  scaled  tc=#b6b6b6
+        ImageLabel "Icon"  size={0.147,0},{0.615,0}  pos={0.835,0},{0.171,0}  HIDDEN  nobg  img=rbxassetid://10885647358
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextButton "MoreInfoButton"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+
+==== StarterGui.MuteMusic  (2 descendants)
+ScreenGui "MuteMusic"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  ImageButton "ImageButton"  size={0.0398,0},{0.069,0}  pos={0.0131,0},{0.911,0}  nobg  img=rbxassetid://6748815045
+    LocalScript "LocalScript"  -> scripts/StarterGui/MuteMusic/ImageButton/LocalScript.client.lua
+
+==== StarterGui.GameGUI  (2 descendants)
+ScreenGui "GameGUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  TextButton "Leave"  size={0,265},{0,50}  pos={0.429,0},{0.892,0}  HIDDEN  bg=#232323  text="LEAVE"  font=PressStart2P/400  ts=54  tc=#cfcfcf
+    UICorner "UICorner"  CornerRadius={0.075,0}
+
+==== Workspace.Kohl's Admin.Legacy_Loader.MainModuleKAI.D.Extras.Explorer  (7 descendants)
+ScreenGui "Explorer"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  Frame "Explorer"  size={0,300},{1,-168}  pos={1,-308},{0,160}  bg=#ffffff@0.1
+    BindableEvent "SelectionChanged"
+    BindableFunction "SetOption"
+    BindableFunction "SetSelection"
+    BindableFunction "GetOption"
+    BindableFunction "GetSelection"
+    LocalScript "LocalScript"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Extras/Explorer/Explorer/LocalScript.client.lua
+
+==== Workspace.Boards.R15Loader.Tags  (5 descendants)
+BillboardGui "Tags"  size={5,0},{1.5,0}  Enabled=True  Size={5,0},{1.5,0}  StudsOffset=(0,2.1,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=Workspace.Boards.R15Loader.Head
+  Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Extra"  size={1,0},{0.333,0}  pos={0,0},{0.333,0}  nobg  text="💸 TOP DONATOR 💸"  font=SourceSansPro/700  scaled  tc=#ff0505
+    TextLabel "pName"  size={1,0},{0.333,0}  pos={0,0},{0.667,0}  nobg  text="Loading.."  font=SourceSansPro/700  scaled  tc=#ffffff
+      UIGradient "UIGradient"  Color=[0:#ff0000 0.181:#ff8c00 0.379:#fff701 0.549:#12ff02 0.714:#00b3ff 0.897:#d500ff 1:#ff0000]  Rotation=0  Transparency=[0:0 1:0]
+      Script "Script"  -> scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua

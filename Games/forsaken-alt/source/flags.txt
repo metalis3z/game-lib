@@ -1,0 +1,60 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ReplicatedStorage/Systems/Player/UI/Menus/Inventory/Tabs/Emotes.lua lines 53,87
+       require() with a computed / hidden argument
+[HIGH] scripts/ServerScriptService/Core/Join_Leave.server.lua lines 8
+       Discord webhook URL (data sent outside Roblox)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackup/Display/Idle.lua lines 3
+       very long line (3457 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Display/Idle.lua lines 3
+       very long line (3450 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Full/vine instance/Sprite.lua lines 3
+       very long line (3349 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Full/wings instance/Sprite.lua lines 3
+       very long line (3721 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTimeButOp/Config/Sidebarbackup/Display/Idle.lua lines 3
+       very long line (3457 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTimeButOp/Config/Sidebarbackupbackup/Display/Idle.lua lines 3
+       very long line (3450 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTimeButOp/Config/Sidebarbackupbackup/Full/vine instance/Sprite.lua lines 3
+       very long line (3349 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTimeButOp/Config/Sidebarbackupbackup/Full/wings instance/Sprite.lua lines 3
+       very long line (3721 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Modules/Sprite/XML.lua lines 121
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ReplicatedStorage/Modules/Trust/BanPlayer.lua lines 161,227
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/Modules/Trust/UnbanPlayer.lua lines 61,117
+       HttpService request (calls an outside server)
+[MED] scripts/ReplicatedStorage/Systems/Character/Game/Emotes/RadialMenu/CONSTANTS.lua lines 12
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/Core/Join_Leave.server.lua lines 22,28
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/ServerSystems/AdminManager.lua lines 54
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1009460688  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  13600173502  in scripts/ReplicatedStorage/Modules/MapVoting.lua
+  1912342578  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1912343043  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1912343046  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1912343591  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2676900964  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2676901990  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2676902857  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677133608  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677148002  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677209533  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677213975  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677213976  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+
+Outside URLs in code:
+  http://www.adobe.com/products/animate.html  in scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackup/Display/Idle.lua, scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Display/Idle.lua, scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Full/Full.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerScriptService/Core/Join_Leave.server.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedFirst/Loading.client.lua, scripts/ReplicatedStorage/Assets/Changelogs/4-26-25.lua, scripts/ReplicatedStorage/Assets/Emotes/AICatDance.lua
+  https://discord.gg/wyButjTMhM  in scripts/ReplicatedStorage/Assets/Skins/Killers/JohnDoe/RochasJohnDoe/Config.lua, scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/PrettyPrincess/Config.lua, scripts/ServerStorage/Assets/Maps/BrandonWorks/Map/NPCS _ Good People/_/Animate.client.lua
+  https://media.tenor.com/RO0EB0RxktMAAAAM/gorillaman.gif  in scripts/ReplicatedStorage/Modules/Trust/UnbanPlayer.lua
+  https://thumbnails.roproxy.com/v1/users/avatar-headshot?userIds=  in scripts/ReplicatedStorage/Modules/Trust/BanPlayer.lua, scripts/ReplicatedStorage/Modules/Trust/UnbanPlayer.lua
+  https://discord.com/api/webhooks/REDACTED  in scripts/ServerStorage/ServerSystems/AdminManager.lua
+  https://www.roblox.com/Thumbs/Avatar.ashx?x=500&y=500&Format=Png&userId={player.UserId}`  in scripts/ServerScriptService/Core/Join_Leave.server.lua

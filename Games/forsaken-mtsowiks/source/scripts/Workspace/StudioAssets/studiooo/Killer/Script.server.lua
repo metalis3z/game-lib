@@ -1,0 +1,5 @@
+script.Parent.ProximityPrompt.Triggered:Connect(function(Player)
+	local Actors = require(game.ReplicatedStorage.Modules.Actors)
+	Actors:CleanupActorFromPlayer(Player)
+	Actors:CreateActor(Player, "Killer")
+end)

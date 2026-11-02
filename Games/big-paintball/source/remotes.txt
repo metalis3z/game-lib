@@ -1,0 +1,112 @@
+111 remotes / bindables
+RemoteEvent            Workspace.__THINGS.__REMOTES.MAIN
+RemoteFunction         Workspace.__THINGS.__REMOTES.INTRO
+BindableEvent          ReplicatedStorage.RAISE DEVEX RATES
+RemoteEvent            ReplicatedStorage.New Stats
+RemoteFunction         ReplicatedStorage.Get Stats
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do sentry damage
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do damage
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.purchase extra slot
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.purchase killstreak
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.purchase pack
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.purchase gun
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get game statistics
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do respawn
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.request respawn
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.update map vote
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get vote maps
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get vote time
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.activate nuke
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.place sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.activate radar
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.activate drone
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do drone projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.update move vector
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.drop care package
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.place mini sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.place armored sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.place shield
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.place dark matter sentry
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get big admin commands
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get ostime
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.ModeratorUtil
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.unequip slot
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.equip killstreak
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.use killstreak
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get tick
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.get stats
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.grab all entities
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.change sprint state
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.update player vote
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do drone damage
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do dark matter sentry damage
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do armored sentry damage
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do mini sentry damage
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.check if streaming
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.playsound
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.entity updates
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.entity clear updates
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new stats
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.save fail
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.chat msg
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.player show equip
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.killed player
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.reset killstreak
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new killstreak item
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do hitmarker
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new mini sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new armored sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.player killed
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.mobile check
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.console check
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.show killstreak msg
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.activate vip
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do nuke effects
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do sentry projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate sentry hit
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate sentry destroy
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.update sentry top cframe
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do drone projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.drone hit
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate drone destroy
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.spawn care package
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do mini sentry projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate mini sentry hit
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate mini sentry destroy
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do armored sentry projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate armored sentry hit
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate armored sentry destroy
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new shield
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do dark matter sentry projectile
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate dark matter sentry hit
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.animate dark matter sentry destroy
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new dark matter sentry
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.gamepass bought
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.product bought
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.product failed
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.getplayerplatform
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.getplayerframerate
+BindableFunction       ReplicatedStorage.Framework.Modules.2 | Network.getplayerlanguage
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new feed item
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.show forcefield
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.show menu
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.show alert
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.equip gun
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.do killcam
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new reward item
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.show match results
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.hide match results
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.leveled up
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.challenge completed
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.team gain points
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.hill team check
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.team took hill
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.crate opening sequence
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.already owns from crate
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.admin cmds notification
+BindableEvent          ReplicatedStorage.Framework.Modules.2 | Network.new drone
+RemoteEvent            ReplicatedStorage.Replication.ReplicaChanged
+RemoteEvent            ReplicatedStorage.Crosshair.OrginalCrosshair
+RemoteEvent            ReplicatedStorage.Kohl's Admin.MainModule.DefaultCommands.Moderation.Sword.RemoteClick

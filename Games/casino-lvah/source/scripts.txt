@@ -1,0 +1,599 @@
+597 scripts, 158975 lines
+kind     lines  enabled  path
+client       4  yes      scripts/ReplicatedFirst/PlayersListPlus.client.lua
+module     362  yes      scripts/ReplicatedStorage/Modules/GameData.lua
+module      71  yes      scripts/ReplicatedStorage/Modules/Permissions.lua
+module     329  yes      scripts/ReplicatedStorage/Modules/Slider.lua
+module      75  yes      scripts/ReplicatedStorage/Modules/Slider/Utils/Signal.lua
+module      59  yes      scripts/ReplicatedStorage/Modules/Slider/Utils/SliderFuncs.lua
+module     385  yes      scripts/ReplicatedStorage/Modules/UserInterfaceData.lua
+module     879  yes      scripts/ReplicatedStorage/PlayersListPlus.lua
+module       3  yes      scripts/ReplicatedStorage/PlayersListPlus/Animations/Golden.lua
+module       3  yes      scripts/ReplicatedStorage/PlayersListPlus/Animations/RainbowGradient.lua
+module       3  yes      scripts/ReplicatedStorage/PlayersListPlus/Animations/ShinyGradient.lua
+module      29  yes      scripts/ReplicatedStorage/PlayersListPlus/Modules/Abbreviation.lua
+module      26  yes      scripts/ReplicatedStorage/PlayersListPlus/Modules/GetCustomIcon.lua
+module      26  yes      scripts/ReplicatedStorage/PlayersListPlus/Modules/GetCustomTag.lua
+module      52  yes      scripts/ReplicatedStorage/PlayersListPlus/Modules/GetPermissions.lua
+module      21  yes      scripts/ReplicatedStorage/PlayersListPlus/Modules/GetSize.lua
+module     252  yes      scripts/ReplicatedStorage/PlayersListPlus/Modules/SelectPlayer.lua
+module     358  yes      scripts/ServerScriptService/BetterChat V3/Config.lua
+server       9  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader.server.lua
+module     579  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc.lua
+client     670  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/load.client.lua
+module     410  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/billboard.lua
+module      25  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/main.lua
+module     126  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/stack.lua
+module     206  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/ui.lua
+module     107  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/api.lua
+module     253  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofill.lua
+module      94  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/emoji.lua
+module      39  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/mention.lua
+module      32  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/quickChatAutofill.lua
+module      57  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/team.lua
+module      73  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/userAutofill.lua
+module      81  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/manager.lua
+module      25  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/chat.lua
+module      14  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/console.lua
+module      20  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/customEmojis.lua
+module     101  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/dance.lua
+module      28  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/help.lua
+module      23  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/mute.lua
+module      18  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/settings.lua
+module      23  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/unmute.lua
+module      33  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/processor.lua
+module     150  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/connections.lua
+module      51  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/buildViewport.lua
+module     312  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/colorPicker.lua
+module      89  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/dropdown.lua
+module      38  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/helpDropdown.lua
+module     309  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/quickChatDropdown.lua
+module      86  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/slider.lua
+module      40  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/toggle.lua
+module     194  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/main.lua
+module     148  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/slider.lua
+module    3411  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua
+module     235  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/elements/channelBar.lua
+module    3885  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/elements/chatGui.lua
+module     471  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/elements/chatWindow.lua
+module     486  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/elements/chatbar.lua
+module     123  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/history.lua
+module    2320  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/lists/emojiList.lua
+module    1033  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/lists/localizationTable.lua
+module     100  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/localization.lua
+module     561  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/default.lua
+module     362  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/reply.lua
+module      20  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/system.lua
+module     150  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/templates/regular.lua
+module     385  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/templates/reply.lua
+module     288  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/functions.lua
+module     410  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/lineDetector.lua
+module     341  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/prompt.lua
+module      34  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/spritesheet.lua
+module     528  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/settingsMenu.lua
+module      14  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Attribute.lua
+module     315  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Caption.lua
+module     130  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Container.lua
+module     169  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Dropdown.lua
+module      91  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Indicator.lua
+module     183  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Menu.lua
+module     114  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Notice.lua
+module      49  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Selection.lua
+module     411  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Widget.lua
+module     199  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Gamepad.lua
+module     325  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Overflow.lua
+module      27  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/ThemeModules/Classic.lua
+module      73  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/ThemeModules/Default.lua
+module     352  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Themes.lua
+module     182  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Packages/GoodSignal.lua
+module     377  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Packages/Janitor.lua
+module      30  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Reference.lua
+module     447  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Utility.lua
+module       1  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/VERSION.lua
+module    1093  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Icon.lua
+module      39  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/icons.lua
+module      79  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/utility.lua
+module      23  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/privacy.lua
+module     257  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/api.lua
+module     405  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/constructors/channel.lua
+module     176  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/constructors/message.lua
+module     150  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/constructors/speaker.lua
+module      81  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/filter.lua
+module     232  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/permission.lua
+module      54  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/rateLimit.lua
+module      34  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/marketplace.lua
+module    2565  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/profile.lua
+client      14  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/utility/dependencies/chatInstaller.client.lua
+module      52  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/utility/dependencies/extract.lua
+module      99  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/utility/main.lua
+module       3  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/addons/_placeholder.lua
+module       1  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/events/_placeholder.lua
+module      43  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/formatting/color.lua
+module     219  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/formatting/markdown.lua
+module     290  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/formatting/richText.lua
+module       1  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/loading/_placeholder.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/events/_placeholder.lua)
+module      60  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/network.lua
+module     163  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/signal.lua
+module      57  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/wrap.lua
+module      67  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/xml.lua
+module     595  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src.lua
+client     676  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/load.client.lua
+module     415  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/bubbleChat/billboard.lua
+module      25  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/bubbleChat/main.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/main.lua)
+module     126  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/bubbleChat/stack.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/stack.lua)
+module     206  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/bubbleChat/ui.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/bubbleChat/ui.lua)
+module     107  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/api.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/api.lua)
+module     257  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/autofill.lua
+module      94  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/autofills/emoji.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/emoji.lua)
+module      39  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/autofills/mention.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/mention.lua)
+module      32  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/autofills/quickChatAutofill.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/quickChatAutofill.lua)
+module      57  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/autofills/team.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/team.lua)
+module      73  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/autofills/userAutofill.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/autofill/autofills/userAutofill.lua)
+module      85  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/autofill/manager.lua
+module      25  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/chat.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/chat.lua)
+module      14  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/console.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/console.lua)
+module      20  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/customEmojis.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/customEmojis.lua)
+module     101  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/dance.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/dance.lua)
+module      28  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/help.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/help.lua)
+module      23  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/mute.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/mute.lua)
+module      18  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/settings.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/settings.lua)
+module      23  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/list/unmute.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/list/unmute.lua)
+module      33  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/commands/processor.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/commands/processor.lua)
+module     150  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/connections.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/connections.lua)
+module      51  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/buildViewport.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/buildViewport.lua)
+module     312  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/colorPicker.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/colorPicker.lua)
+module      89  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/dropdown.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/dropdown.lua)
+module      38  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/helpDropdown.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/helpDropdown.lua)
+module     309  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/quickChatDropdown.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/quickChatDropdown.lua)
+module      86  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/slider.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/slider.lua)
+module      40  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/toggle.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/toggle.lua)
+module     194  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/main.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/main.lua)
+module     148  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/slider.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/slider.lua)
+module    3411  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/constructors/util/zlib.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/constructors/util/zlib.lua)
+module     239  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/elements/channelBar.lua
+module    3885  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/elements/chatGui.lua
+module     471  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/elements/chatWindow.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/elements/chatWindow.lua)
+module     504  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/elements/chatbar.lua
+module     123  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/history.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/history.lua)
+module    2320  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/lists/emojiList.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/lists/emojiList.lua)
+module    1033  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/lists/localizationTable.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/lists/localizationTable.lua)
+module     100  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/localization.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/localization.lua)
+module     563  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/default.lua
+module     362  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/reply.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/reply.lua)
+module      20  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/system.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/system.lua)
+module     150  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/templates/regular.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/templates/regular.lua)
+module     385  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/templates/reply.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/templates/reply.lua)
+module     299  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/util/functions.lua
+module     410  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/util/lineDetector.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/lineDetector.lua)
+module     341  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/util/prompt.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/prompt.lua)
+module      34  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/messages/util/spritesheet.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/messages/util/spritesheet.lua)
+module     528  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/settingsMenu.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/settingsMenu.lua)
+module      14  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Attribute.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Attribute.lua)
+module     315  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Caption.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Caption.lua)
+module     130  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Container.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Container.lua)
+module     169  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Dropdown.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Dropdown.lua)
+module      91  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Indicator.lua
+module     183  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Menu.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Menu.lua)
+module     114  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Notice.lua
+module      49  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Selection.lua
+module     411  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Widget.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Elements/Widget.lua)
+module     199  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Gamepad.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Gamepad.lua)
+module     325  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Overflow.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Overflow.lua)
+module      27  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/ThemeModules/Classic.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/ThemeModules/Classic.lua)
+module      73  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/ThemeModules/Default.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/ThemeModules/Default.lua)
+module     352  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Themes.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Features/Themes.lua)
+module     182  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Packages/GoodSignal.lua
+module     377  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Packages/Janitor.lua
+module      30  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Reference.lua
+module     447  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Utility.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/Utility.lua)
+module       1  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Dependencies/VERSION.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Dependencies/VERSION.lua)
+module    1093  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/TopbarPlus/Icon.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/TopbarPlus/Icon.lua)
+module      39  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/topbarPlus/icons.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/topbarPlus/icons.lua)
+module      79  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/core/utility.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/core/utility.lua)
+module      23  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/client/modules/privacy.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/client/modules/privacy.lua)
+module     258  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/api.lua
+module     405  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/constructors/channel.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/constructors/channel.lua)
+module     176  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/constructors/message.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/constructors/message.lua)
+module     153  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/constructors/speaker.lua
+module      81  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/filter.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/filter.lua)
+module     232  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/permission.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/permission.lua)
+module      54  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/rateLimit.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/rateLimit.lua)
+module      34  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/services/marketplace.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/marketplace.lua)
+module    2565  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/services/profile.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/services/profile.lua)
+client      14  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/utility/dependencies/chatInstaller.client.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/utility/dependencies/chatInstaller.client.lua)
+module      52  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/utility/dependencies/extract.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/core/utility/dependencies/extract.lua)
+module      94  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/core/utility/main.lua
+module       3  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/addons/_placeholder.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/addons/_placeholder.lua)
+module       1  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/events/_placeholder.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/events/_placeholder.lua)
+module      43  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/formatting/color.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/formatting/color.lua)
+module     248  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/formatting/markdown.lua
+module     290  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/formatting/richText.lua
+module       1  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/loading/_placeholder.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/events/_placeholder.lua)
+module     120  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/network.lua
+module     163  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/signal.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/signal.lua)
+module      57  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/wrap.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/wrap.lua)
+module      67  yes      scripts/ServerScriptService/BetterChat V3/Config/Loader/src/shared/xml.lua   (same source as scripts/ServerScriptService/BetterChat V3/Config/Loader/oldsrc/shared/xml.lua)
+server       3  yes      scripts/ServerScriptService/Commands/CommandHandler.server.lua
+module      41  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/announce.lua
+module      15  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/announceServer.lua
+module      28  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/gotoPlace.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/gotoPlaceServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/kick.lua
+module       7  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/kickServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/kill.lua
+module       9  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/killServer.lua
+module      15  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/respawn.lua
+module       8  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/respawnServer.lua
+module      22  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/teleport.lua
+module      21  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Admin/teleportServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/blink.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/fetch.lua
+module       5  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/fetchServer.lua
+module      21  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstance.lua
+module      27  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstanceServer.lua
+module      26  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/position.lua
+module      33  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/thru.lua
+module       7  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/uptime.lua
+module      11  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/uptimeServer.lua
+module      12  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Debug/version.lua
+module      27  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/alias.lua
+module      65  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/bind.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/clear.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/convertTimestamp.lua
+module      17  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/echo.lua
+module      79  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/edit.lua
+module      28  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/history.lua
+module      21  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/hover.lua
+module      21  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/jsonArrayDecode.lua
+module      19  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/jsonArrayEncode.lua
+module      17  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/len.lua
+module      35  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/math.lua
+module      22  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/pick.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/rand.lua
+module      32  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/replace.lua
+module      32  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/resolve.lua
+module      20  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/run.lua
+module      38  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/runLines.lua
+module      53  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/runif.lua
+module      25  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/unbind.lua
+module      22  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/var.lua
+module      60  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/varServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/varSet.lua
+module      63  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/Utility/varSetServer.lua
+module      64  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInCommands/help.lua
+module       3  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/BindableResource.lua
+module      79  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/BrickColor.lua
+module      52  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Color3.lua
+module      26  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Command.lua
+module       3  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/ConditionFunction.lua
+module     112  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Duration.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/JSON.lua
+module      40  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/MathOperator.lua
+module      40  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Player.lua
+module      62  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/PlayerId.lua
+module     140  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Primitives.lua
+module      34  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/StoredKey.lua
+module      53  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Team.lua
+module      26  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Type.lua
+module      20  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/URL.lua
+module      32  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/UserInput.lua
+module      31  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/BuiltInTypes/Vector.lua
+module     126  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/CmdrClient.lua
+module     151  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/CmdrClient/CmdrInterface.lua
+module     216  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/CmdrClient/CmdrInterface/AutoComplete.lua
+module     336  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/CmdrClient/CmdrInterface/Window.lua
+module      15  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/CmdrClient/DefaultEventHandlers.lua
+module     217  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/CreateGui.lua
+module      40  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Initialize.lua
+module     257  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Shared/Argument.lua
+module     222  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Shared/Command.lua
+module     190  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Shared/Dispatcher.lua
+module     294  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Shared/Registry.lua
+module     548  yes      scripts/ServerScriptService/Commands/CommandHandler/Cmdr/Shared/Util.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/awardbadge.lua
+module      19  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/awardbadgeServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/currency.lua
+module      20  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/currencyServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/getattributes.lua
+module      53  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/getattributesServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/getdata.lua
+module      51  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/getdataServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/globalannounce.lua
+module      10  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/globalannounceServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/ocurrency.lua
+module      46  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/ocurrencyServer.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/playtimelimit.lua
+module      22  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/playtimelimitServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/regenlevel.lua
+module      38  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/regenlevelServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/shutdown.lua
+module      21  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Developer/shutdownServer.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/kick.lua
+module      20  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/kickServer.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/opban.lua
+module      46  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/opbanServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/oshowhistory.lua
+module      62  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/oshowhistoryServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/otban.lua
+module      55  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/otbanServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/owipehistory.lua
+module      38  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/owipehistoryServer.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/pban.lua
+module      24  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/pbanServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/showhistory.lua
+module      54  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/showhistoryServer.lua
+module      23  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/tban.lua
+module      34  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/tbanServer.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/unban.lua
+module      49  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/unbanServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/wipehistory.lua
+module      17  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Moderator/wipehistoryServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/announce.lua
+module      17  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/announceServer.lua
+module      58  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/help.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/respawn.lua
+module       8  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/respawnServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/sban.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/sbanServer.lua
+module      18  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/teleport.lua
+module      16  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/teleportServer.lua
+module      13  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/unsban.lua
+module      24  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/unsbanServer.lua
+module      12  yes      scripts/ServerScriptService/Commands/CommandHandler/CustomCommands/Server Owner/version.lua
+module      22  yes      scripts/ServerScriptService/Commands/CommandHandler/Hooks/BeforeRun.lua
+server     138  yes      scripts/ServerScriptService/Environment/GameManager.server.lua
+server     759  NO       scripts/ServerScriptService/Environment/GameManager/BaccaratCore.server.lua
+client     142  yes      scripts/ServerScriptService/Environment/GameManager/BaccaratCore/Baccarat/BaccaratLocalCore.client.lua
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BaccaratCore/Baccarat/Backing/Bet/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BaccaratCore/Baccarat/Backing/Clear/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+server      65  NO       scripts/ServerScriptService/Environment/GameManager/BaccaratCore/Voicelines.server.lua
+server     478  NO       scripts/ServerScriptService/Environment/GameManager/BigWheelCore.server.lua
+client     103  yes      scripts/ServerScriptService/Environment/GameManager/BigWheelCore/BigWheel/BigSixWheelLocalCore.client.lua
+server    1163  NO       scripts/ServerScriptService/Environment/GameManager/BlackjackCore.server.lua
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Blackjack/Backing/Bet/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Blackjack/Backing/DoubleDown/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Blackjack/Backing/Hit/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Blackjack/Backing/Split/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Blackjack/Backing/Stand/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     231  yes      scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Blackjack/BlackjackLocalCore.client.lua
+server      64  NO       scripts/ServerScriptService/Environment/GameManager/BlackjackCore/Voicelines.server.lua
+server     339  NO       scripts/ServerScriptService/Environment/GameManager/CashWheelCore.server.lua
+client      95  yes      scripts/ServerScriptService/Environment/GameManager/CashWheelCore/CashWheel/CashWheelLocalCore.client.lua
+server     241  NO       scripts/ServerScriptService/Environment/GameManager/CatalogHavenCore.server.lua
+server     232  NO       scripts/ServerScriptService/Environment/GameManager/GoldenEggCore.server.lua
+server     312  NO       scripts/ServerScriptService/Environment/GameManager/GreenHotCore.server.lua
+server     310  NO       scripts/ServerScriptService/Environment/GameManager/HorseRacingCore.server.lua
+client      72  yes      scripts/ServerScriptService/Environment/GameManager/HorseRacingCore/HorseRacing/HorseRacingLocalCore.client.lua
+server     215  NO       scripts/ServerScriptService/Environment/GameManager/OkamiSlotsCore.server.lua
+server     422  NO       scripts/ServerScriptService/Environment/GameManager/PlinkoCore.server.lua
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/PlinkoCore/Plinko/Backing/Cancel/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/PlinkoCore/Plinko/Backing/MoveLeft/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/PlinkoCore/Plinko/Backing/MoveRight/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/PlinkoCore/Plinko/Backing/Place/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     238  yes      scripts/ServerScriptService/Environment/GameManager/PlinkoCore/Plinko/PlinkoLocalCore.client.lua
+server     448  NO       scripts/ServerScriptService/Environment/GameManager/RouletteCore.server.lua
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/RouletteCore/Roulette/Backing/Bet/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/RouletteCore/Roulette/Backing/Cancel/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     221  yes      scripts/ServerScriptService/Environment/GameManager/RouletteCore/Roulette/RouletteLocalCore.client.lua
+server     209  NO       scripts/ServerScriptService/Environment/GameManager/SevensAndCherriesCore.server.lua
+server     190  NO       scripts/ServerScriptService/Environment/GameManager/SuiteCore.server.lua
+server     786  NO       scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore.server.lua
+module     257  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Analysis.lua
+module     350  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Bitop.lua
+module      84  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Card.lua
+module   26994  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Lookup.lua
+module     101  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Prob.lua
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/Backing/Bet/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/Backing/Call/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/Backing/Check/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/Backing/Fold/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/Backing/Raise/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     213  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/TexasHoldemLocalCore.client.lua
+module     589  yes      scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Underscore.lua
+server      64  NO       scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Voicelines.server.lua
+server     937  NO       scripts/ServerScriptService/Environment/GameManager/ThreeCardPokerCore.server.lua
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/ThreeCardPokerCore/ThreeCardPoker/Backing/Bet/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/ThreeCardPokerCore/ThreeCardPoker/Backing/Fold/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/ThreeCardPokerCore/ThreeCardPoker/Backing/Play/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     225  yes      scripts/ServerScriptService/Environment/GameManager/ThreeCardPokerCore/ThreeCardPoker/ThreeCardPokerLocalCore.client.lua
+server      64  NO       scripts/ServerScriptService/Environment/GameManager/ThreeCardPokerCore/Voicelines.server.lua
+server      16  NO       scripts/ServerScriptService/Environment/GameManager/ToggleBreaktime.server.lua
+server     719  NO       scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore.server.lua
+module     257  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Analysis.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Analysis.lua)
+module     350  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Bitop.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Bitop.lua)
+module      84  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Card.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Card.lua)
+module   26994  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Lookup.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Lookup.lua)
+module     101  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Prob.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Prob.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/TournamentHoldem/Backing/Bet/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/TournamentHoldem/Backing/Call/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/TournamentHoldem/Backing/Check/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/TournamentHoldem/Backing/Fold/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/TournamentHoldem/Backing/Raise/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     213  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/TournamentHoldem/TexasHoldemLocalCore.client.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/TexasHoldem/TexasHoldemLocalCore.client.lua)
+module     589  yes      scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Underscore.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Underscore.lua)
+server      64  NO       scripts/ServerScriptService/Environment/GameManager/TournamentHoldemCore/Voicelines.server.lua   (same source as scripts/ServerScriptService/Environment/GameManager/TexasHoldemCore/Voicelines.server.lua)
+server     163  yes      scripts/ServerScriptService/Environment/NPCs.server.lua
+server     248  NO       scripts/ServerScriptService/Environment/NPCs/PlayGame.server.lua
+server     287  yes      scripts/ServerScriptService/Player/Leaderboards.server.lua
+server      73  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader.server.lua
+module       9  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule.lua
+module     144  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel.lua
+module     179  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Api.lua
+module     453  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character.lua
+module     128  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Appendage.lua
+module      72  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Camera/CommonCamera.lua
+module     161  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Camera/DefaultCamera.lua
+module      78  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Camera/ThirdPersonTrackCamera.lua
+module     311  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Controller/BaseController.lua
+module     121  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Controller/SmoothLocomotionController.lua
+module     194  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Controller/TeleportController.lua
+module     154  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Controller/Visual/Arc.lua
+module      70  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Controller/Visual/ArcWithBeacon.lua
+module     115  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Controller/Visual/Beacon.lua
+module     522  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/FootPlanter.lua
+module     117  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Head.lua
+module      69  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Character/Torso.lua
+module     397  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusAppendage/Appendage.lua
+module      38  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusAppendage/Limb.lua
+module     411  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton.lua
+module     342  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/ControllerIcon.lua
+module      99  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/Factory/ButtonFactory.lua
+module     113  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/Factory/TextButtonFactory.lua
+module     368  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance.lua
+module      61  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/Event/NexusConnection.lua
+module     138  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/Event/NexusEvent.lua
+module     272  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusInstance.lua
+module     178  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusObject.lua
+module      76  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/PropertyValidator/TypePropertyValidator.lua
+module      85  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/ThemedFrame.lua
+module      61  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusInstance/Event/NexusConnection.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/Event/NexusConnection.lua)
+module     138  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusInstance/Event/NexusEvent.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/Event/NexusEvent.lua)
+module     272  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusInstance/NexusInstance.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusInstance.lua)
+module     178  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusInstance/NexusObject.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusObject.lua)
+module      76  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusInstance/PropertyValidator/TypePropertyValidator.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/PropertyValidator/TypePropertyValidator.lua)
+client     121  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCharacterModelClientLoader.client.lua
+module      25  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore.lua
+module      97  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/Container/BaseScreenGui.lua
+module      20  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/Container/ScreenGui.lua
+module      29  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/Container/ScreenGui2D.lua
+module     123  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/Container/ScreenGui3D.lua
+module      61  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/NexusInstance/Event/NexusConnection.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/Event/NexusConnection.lua)
+module     138  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/NexusInstance/Event/NexusEvent.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/Event/NexusEvent.lua)
+module     272  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/NexusInstance/NexusInstance.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusInstance.lua)
+module     178  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/NexusInstance/NexusObject.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/NexusObject.lua)
+module      76  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/NexusInstance/PropertyValidator/TypePropertyValidator.lua   (same source as scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusButton/NexusWrappedInstance/NexusInstance/PropertyValidator/TypePropertyValidator.lua)
+module     102  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/NexusVRCore/Utility/PartUtility.lua
+module     104  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/CameraService.lua
+module      88  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/CharacterService.lua
+module     104  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/ControlService.lua
+module     104  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/DefaultCursorService.lua
+module      73  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/RateLimiter.lua
+module     156  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/Settings.lua
+module     203  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/State/VRInputService.lua
+module     534  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/UI/MainMenu.lua
+module     128  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/UI/R6Message.lua
+module      87  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/UI/View/ApiBaseView.lua
+module     185  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/UI/View/ChatView.lua
+module     243  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/UI/View/SettingsView.lua
+module      61  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Util/FindCollidablePartOnRay.lua
+module      58  yes      scripts/ServerScriptService/Player/NexusVRCharacterModelLoader/MainModule/NexusVRCharacterModel/Util/Warnings.lua
+server     425  yes      scripts/ServerScriptService/Player/PlayerManager.server.lua
+server       3  yes      scripts/ServerScriptService/Player/PlayersListPlus.server.lua
+module      31  yes      scripts/ServerScriptService/Player/PlayersListPlus/Server.lua
+server      32  yes      scripts/ServerScriptService/Player/ProductProcess.server.lua
+client     147  NO       scripts/ServerStorage/LongTermStorage/Backpack/BackpackCore.client.lua
+server     250  NO       scripts/ServerStorage/LongTermStorage/Script.server.lua
+server     286  NO       scripts/ServerStorage/LongTermStorage/SlotCalcuator.server.lua
+server      43  NO       scripts/ServerStorage/LongTermStorage/Templates/GoldClubDoor/GoldClubLounge.server.lua   (same source as scripts/Workspace/Map/Casino/Floor/Union~4/PrivateLounge.server.lua)
+module      75  yes      scripts/ServerStorage/Modules/AvatarImporterBrain.lua
+module     205  yes      scripts/ServerStorage/Modules/CommonFunctions.lua
+module     454  yes      scripts/ServerStorage/Modules/GameFunctions.lua
+client      67  yes      scripts/ServerStorage/Modules/GameFunctions/Slots/Backing/Cycle/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/ServerStorage/Modules/GameFunctions/Slots/Backing/Spin/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      99  yes      scripts/ServerStorage/Modules/GameFunctions/Slots/SlotsLocalCore.client.lua
+module      95  yes      scripts/ServerStorage/Modules/NPCs.lua
+module    2417  yes      scripts/ServerStorage/Modules/ProfileService.lua
+module      31  yes      scripts/ServerStorage/Modules/ProfileService/PlayerData/ProfileManager.lua
+module      59  yes      scripts/ServerStorage/Modules/ProfileService/PlayerData/Template.lua
+module     107  yes      scripts/ServerStorage/Modules/RankGun.lua
+module    2048  yes      scripts/ServerStorage/Modules/RankGun/include/Promise.lua
+module     231  yes      scripts/ServerStorage/Modules/RankGun/include/RuntimeLib.lua
+client      40  yes      scripts/StarterGui/Disclaimers/Disclaimer/DisclaimerLocalCore.client.lua
+client      18  yes      scripts/StarterGui/Disclaimers/Mobile/MobileLocalCore.client.lua
+client      31  yes      scripts/StarterGui/Game/Announcement/Announcer.client.lua
+client      67  yes      scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua
+client      67  yes      scripts/StarterGui/Game/GuidePamplet/Forward/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      45  yes      scripts/StarterGui/Game/GuidePamplet/PampletCore.client.lua
+client      62  yes      scripts/StarterGui/Game/Information/ClockUpdater.client.lua
+client      56  yes      scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Jackpot/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua
+client      56  yes      scripts/StarterGui/Game/Jackpots/JackpotScript.client.lua
+client     112  NO       scripts/StarterGui/Game/Leaderboard/LeaderboardScript.client.lua
+client      67  yes      scripts/StarterGui/Game/PayoutPamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/PayoutPamplet/Forward/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      34  yes      scripts/StarterGui/Game/PayoutPamplet/PampletCore.client.lua
+client      54  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/OptionsCore.client.lua
+client      32  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Brightness/SliderUpdate.client.lua
+client      32  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Contrast/SliderUpdate.client.lua
+client      29  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/FOV/SliderUpdate.client.lua
+client      76  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Music/Ambience.client.lua
+client      26  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Music/SliderUpdate.client.lua
+client      26  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/NPCs/SliderUpdate.client.lua
+client      29  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Notifications/SliderUpdate.client.lua
+client      32  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Saturation/SliderUpdate.client.lua
+client      27  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Slots/SliderUpdate.client.lua
+client      26  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Sliders/Tabletop/SliderUpdate.client.lua
+client      67  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Toggles/Jackpots/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      38  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Toggles/Jackpots/Toggle.client.lua
+client      67  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Toggles/LargeGUI/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     159  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Toggles/LargeGUI/Toggle.client.lua
+client      67  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Toggles/Players/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      70  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Body/Toggles/Players/Toggle.client.lua
+client      56  yes      scripts/StarterGui/Game/Sidebar/Backings/Options/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Sidebar/Backings/Store/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      43  yes      scripts/StarterGui/Game/Sidebar/Backings/Store/ShopCore.client.lua
+client      67  yes      scripts/StarterGui/Game/Sidebar/Backings/Store/Upgrades/DoubleSpins/CashBuy/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Sidebar/Backings/Store/Upgrades/FasterSpins/CashBuy/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client     112  yes      scripts/StarterGui/Game/Sidebar/SidebarCore.client.lua
+client      67  yes      scripts/StarterGui/Game/Sidebar/Toggles/Options/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Sidebar/Toggles/Store/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Sidebar/Toggles/Tutorial/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua
+client      67  yes      scripts/StarterGui/Game/Tutorial/0/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/0/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/1/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/1/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/1/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/10/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/10/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/10/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/11/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/11/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/11/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/12/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/12/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/12/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/2/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/2/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/2/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/3/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/3/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/3/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/4/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/4/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/4/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/5/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/5/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/5/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/6/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/6/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/6/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/7/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/7/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/7/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/8/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/8/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/8/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      50  yes      scripts/StarterGui/Game/Tutorial/9/Content/Body/Scripts/ExtendTextLocalScript.client.lua   (same source as scripts/StarterGui/Game/Tutorial/0/Content/Body/Scripts/ExtendTextLocalScript.client.lua)
+client      67  yes      scripts/StarterGui/Game/Tutorial/9/Content/Footer/Next/Scripts/ExtendTextButtonLocalScript.client.lua   (same source as scripts/StarterGui/Game/GuidePamplet/Back/Scripts/ExtendTextButtonLocalScript.client.lua)
+client      56  yes      scripts/StarterGui/Game/Tutorial/9/Content/Header/Title/Scripts/ExtendTextWithStrokeLocalScript.client.lua   (same source as scripts/StarterGui/Game/Jackpots/Backing/UIGridLayout/Welcome/Scripts/ExtendTextWithStrokeLocalScript.client.lua)
+client      62  yes      scripts/StarterGui/Game/Tutorial/TutorialCore.client.lua
+client      16  yes      scripts/StarterPack/GuidePamplet/PampletToolCore.client.lua
+client      16  yes      scripts/StarterPack/PayoutPamplet/PampletToolCore.client.lua
+server      32  yes      scripts/StarterPlayer/StarterCharacterScripts/AwardBadge.server.lua
+client       6  yes      scripts/StarterPlayer/StarterCharacterScripts/CameraFix.client.lua
+server      10  yes      scripts/StarterPlayer/StarterCharacterScripts/Collisions.server.lua
+server      40  yes      scripts/StarterPlayer/StarterCharacterScripts/Overhead.server.lua
+client      21  yes      scripts/StarterPlayer/StarterCharacterScripts/Sprint.client.lua
+client      15  yes      scripts/StarterPlayer/StarterPlayerScripts/CommandLocalHandler.client.lua
+module     112  yes      scripts/StarterPlayer/StarterPlayerScripts/Epic UI Pack/ExtendBarClass.lua
+module      96  yes      scripts/StarterPlayer/StarterPlayerScripts/Epic UI Pack/ExtendGuiButtonClass.lua
+module      72  yes      scripts/StarterPlayer/StarterPlayerScripts/Epic UI Pack/ExtendGuiObjectClass.lua
+module     193  yes      scripts/StarterPlayer/StarterPlayerScripts/Epic UI Pack/ExtendTextLabelClass.lua
+server      43  NO       scripts/Workspace/Map/Casino/Floor/Union~4/PrivateLounge.server.lua
+server      28  yes      scripts/Workspace/Map/TournamentArea/PrivateLounge.server.lua
+server      13  yes      scripts/Workspace/Model/Aligners/Script.server.lua
+server      14  yes      scripts/Workspace/Model/Horses/Script.server.lua
+server      18  yes      scripts/Workspace/Model/Stoppers/Script.server.lua
+server      14  yes      scripts/Workspace/Model/Triggers/Script.server.lua

@@ -1,0 +1,375 @@
+373 scripts, 61037 lines
+kind     lines  enabled  path
+server      38  yes      scripts/README.server.lua
+client     151  NO       scripts/ReplicatedFirst/LocalScript.client.lua
+client       6  yes      scripts/ReplicatedFirst/Preloader.client.lua
+module      35  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/BrokenBones.lua
+module      44  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/CursedPhoto.lua
+module      42  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/DifferentEars.lua
+module      48  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/DifferentFace.lua
+module      19  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/HiddenFace.lua
+module      47  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/SkinwalkerOpensMouth.lua
+module      11  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/Static.lua
+module      26  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/TwistNeck.lua
+module      45  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/VoidPresence.lua
+module       5  yes      scripts/ReplicatedStorage/AnomalyEvents/HoldRoomBehaviour.lua
+module     139  yes      scripts/ReplicatedStorage/AnomalyEvents/Local/Jumpscares.lua
+module     187  yes      scripts/ReplicatedStorage/AnomalyEvents/Local/ShadowCamera.lua
+module     179  yes      scripts/ReplicatedStorage/AnomalyEvents/Local/TallMonsterLocal.lua
+module       3  yes      scripts/ReplicatedStorage/AnomalyEvents/ToDo/PatientRequiresRestraining.lua
+module      10  yes      scripts/ReplicatedStorage/AnomalyEvents/TriggerTypes.lua
+module     178  yes      scripts/ReplicatedStorage/Data/Classes.lua
+module       3  yes      scripts/ReplicatedStorage/Data/Constants.lua
+module    1304  yes      scripts/ReplicatedStorage/Data/Dialogue.lua
+module       1  yes      scripts/ReplicatedStorage/Data/Gamepasses.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/UI/GoalsLocal.lua)
+module     315  yes      scripts/ReplicatedStorage/Data/IllnessesAndCures.lua
+module     158  yes      scripts/ReplicatedStorage/Data/Prods.lua
+module      63  yes      scripts/ReplicatedStorage/Data/Rarity.lua
+module     569  yes      scripts/ReplicatedStorage/Data/UpgradeShopWares.lua
+module       5  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Cry.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/HeadSwing.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/LayDown.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Punch.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Rest.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Sit.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/SitHappy.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/SitLegsStraight.lua
+module       5  yes      scripts/ReplicatedStorage/GameData/Anomalies/BassieMonster.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/Ghost.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/Hider.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/Shadow.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/TallMonster.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Agent R.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Assistant Nurse.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Barney.lua
+module       5  yes      scripts/ReplicatedStorage/GameData/Characters/Bassie.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Clown.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Doctor.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Head Nurse.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Hospital Cop.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Intern.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Nurse.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Officer Duckman.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Paramedic.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Psycho.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Psychologist.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Rascal.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Ratthew.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Ratthew2.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Ron from Accounting.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Secret Agent.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Secretary.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Security.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Supervisor.lua
+client      28  yes      scripts/ReplicatedStorage/Items/ClassicSword/MouseIcon.client.lua
+server     229  yes      scripts/ReplicatedStorage/Items/ClassicSword/SwordScript.server.lua
+client      23  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/ClientSide.client.lua
+client      11  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/RadioGui/MainFrame/PlaySong/LocalScript.client.lua
+client      11  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/RadioGui/MainFrame/StopSong/LocalScript.client.lua
+server      10  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/Script.server.lua
+module     174  yes      scripts/ReplicatedStorage/Lib.lua
+server       3  yes      scripts/ReplicatedStorage/Misc/Deployable_Camera/Handler.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Misc/JumpscareMasks/JumpscareMask/PP/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Misc/RagdollDummy/RagdollWiggle.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Misc/RatthewKeyAndNote/PP/Take Key.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Misc/RerollShop/PP/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+client      27  yes      scripts/ReplicatedStorage/Misc/Slime/PP/Script.server.lua
+server       3  yes      scripts/ReplicatedStorage/Misc/VendingMachine/PP/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~2/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~3/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~4/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~5/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~6/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~7/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~8/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~9/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+server       3  yes      scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBed/Arms/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBed/Eyeball/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBed/Eyeball~2/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+server       3  yes      scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBedLarge/Arms/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBedLarge/Eyeball/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBedLarge/Eyeball~2/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/BassieMonster/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/Ghost/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/Hider/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/Shadow/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/TallMonster/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Agent R/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Assistant Nurse/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Barney/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Bassie/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Clown/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Doctor/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Head Nurse/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Hospital Cop/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Intern/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Nurse/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Paramedic/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Psycho/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Psychologist/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Rascal/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Ratthew/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Ratthew2/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Ron from Accounting/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Secret Agent/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Secretary/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Security/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Supervisor/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+module     166  yes      scripts/ReplicatedStorage/Pathfinder.lua
+module       1  yes      scripts/ReplicatedStorage/Purse.lua
+module    2512  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus.lua
+module      19  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Attribute.lua
+module     381  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Caption.lua
+module     225  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Container.lua
+module     410  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Dropdown.lua
+module     116  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Indicator.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Elements/Indicator.lua)
+module     209  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Menu.lua
+module     117  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Notice.lua
+module      50  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Selection.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Elements/Selection.lua)
+module     471  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Widget.lua
+module     198  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Gamepad.lua
+module     354  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Overflow.lua
+module     336  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Themes.lua
+module      38  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Themes/Classic.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Features/Themes/Classic.lua)
+module     109  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Themes/Default.lua
+module     134  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Packages/GoodSignal.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Packages/GoodSignal.lua)
+module     363  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Packages/Janitor.lua
+module      29  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Reference.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Reference.lua)
+module       1  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Types.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/UI/GoalsLocal.lua)
+module     723  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Utility.lua
+module      45  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/VERSION.lua
+module    2386  yes      scripts/ReplicatedStorage/Purse/Packages/purse.lua
+client      17  yes      scripts/ReplicatedStorage/Purse/Packages/purse/Attribution.server.lua
+client      10  NO       scripts/ReplicatedStorage/Purse/Packages/purse/ContextAction.server.lua
+client      11  NO       scripts/ReplicatedStorage/Purse/Packages/purse/CoreGuiWarn.server.lua
+client      34  yes      scripts/ReplicatedStorage/Purse/Packages/purse/TopbarIcon.server.lua
+module       1  yes      scripts/ReplicatedStorage/Purse/Packages/topbarplus.lua
+module      21  yes      scripts/ReplicatedStorage/ShopUpgradeScripts/Analyzer.lua
+module      16  yes      scripts/ReplicatedStorage/ShopUpgradeScripts/Computer.lua
+module      15  yes      scripts/ReplicatedStorage/ShopUpgradeScripts/Printer.lua
+client      80  yes      scripts/ReplicatedStorage/Tools/Gun/GunClient.client.lua
+module     187  yes      scripts/ReplicatedStorage/Tools/MeleeTools.lua
+module    1080  yes      scripts/ReplicatedStorage/TopbarIcon.lua
+module      12  yes      scripts/ReplicatedStorage/TopbarIcon/Attribute.lua
+module     378  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Caption.lua
+module     184  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Container.lua
+module     187  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Dropdown.lua
+module     116  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Indicator.lua
+module     203  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Menu.lua
+module     119  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Notice.lua
+module      50  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Selection.lua
+module     443  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Widget.lua
+module     194  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Gamepad.lua
+module     292  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Overflow.lua
+module     334  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Themes.lua
+module      38  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Themes/Classic.lua
+module     107  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Themes/Default.lua
+module     134  yes      scripts/ReplicatedStorage/TopbarIcon/Packages/GoodSignal.lua
+module     364  yes      scripts/ReplicatedStorage/TopbarIcon/Packages/Janitor.lua
+module      29  yes      scripts/ReplicatedStorage/TopbarIcon/Reference.lua
+module     698  yes      scripts/ReplicatedStorage/TopbarIcon/Utility.lua
+module       1  yes      scripts/ReplicatedStorage/TopbarIcon/VERSION.lua
+module     291  yes      scripts/ReplicatedStorage/Util/Binder.lua
+module       9  yes      scripts/ReplicatedStorage/Util/Data.lua
+module      48  yes      scripts/ReplicatedStorage/Util/Find.lua
+module      84  yes      scripts/ReplicatedStorage/Util/Functional.lua
+module     117  yes      scripts/ReplicatedStorage/Util/Maid.lua
+module      95  yes      scripts/ReplicatedStorage/Util/Math.lua
+module      65  yes      scripts/ReplicatedStorage/Util/Model.lua
+module     174  yes      scripts/ReplicatedStorage/Util/Net.lua
+module     793  yes      scripts/ReplicatedStorage/Util/NetworkOld.lua
+module      47  yes      scripts/ReplicatedStorage/Util/Number.lua
+module      19  yes      scripts/ReplicatedStorage/Util/Position.lua
+module      88  yes      scripts/ReplicatedStorage/Util/RNG.lua
+module      78  yes      scripts/ReplicatedStorage/Util/ShuffleBag.lua
+module      50  yes      scripts/ReplicatedStorage/Util/Signal.lua
+module     176  yes      scripts/ReplicatedStorage/Util/Spring.lua
+module     118  yes      scripts/ReplicatedStorage/Util/Table.lua
+module      73  yes      scripts/ReplicatedStorage/Util/Text.lua
+module      20  yes      scripts/ReplicatedStorage/Util/TimeDate.lua
+module      48  yes      scripts/ReplicatedStorage/Util/Tween.lua
+module      51  yes      scripts/ReplicatedStorage/Util/Welds.lua
+server     108  yes      scripts/ServerScriptService/AdminActionsServer.server.lua
+server      61  yes      scripts/ServerScriptService/AmbulanceEvent.server.lua
+module     289  yes      scripts/ServerScriptService/AnomalyDirector.lua
+module     118  yes      scripts/ServerScriptService/AnomalyEventService.lua
+module      53  yes      scripts/ServerScriptService/AnomalyService.lua
+module      53  yes      scripts/ServerScriptService/CharacterService.lua
+module     589  yes      scripts/ServerScriptService/CheckInService.lua
+module     151  yes      scripts/ServerScriptService/ClassService.lua
+module     205  yes      scripts/ServerScriptService/ConsumableService.lua
+module     209  yes      scripts/ServerScriptService/DataService.lua
+module      91  yes      scripts/ServerScriptService/DoorService.lua
+module     156  yes      scripts/ServerScriptService/DoorsService.lua
+server     125  yes      scripts/ServerScriptService/EmergencyDoor.server.lua
+module     284  yes      scripts/ServerScriptService/EmergencyService.lua
+module     209  yes      scripts/ServerScriptService/GunService.lua
+module      58  yes      scripts/ServerScriptService/MinigameService.lua
+module     175  yes      scripts/ServerScriptService/MiscService.lua
+server     178  yes      scripts/ServerScriptService/MonetizationBuys.server.lua
+server      52  yes      scripts/ServerScriptService/MonetizationSpins.server.lua
+server     296  yes      scripts/ServerScriptService/MorphService.server.lua
+server      73  yes      scripts/ServerScriptService/NameTag.server.lua
+module     611  yes      scripts/ServerScriptService/PatientCareService.lua
+module     631  yes      scripts/ServerScriptService/PatientService.lua
+module     113  yes      scripts/ServerScriptService/PhotoService.lua
+module    2243  yes      scripts/ServerScriptService/ProfileStore.lua
+module     127  yes      scripts/ServerScriptService/RejectionService.lua
+server     173  yes      scripts/ServerScriptService/Restauracion.server.lua
+module     131  yes      scripts/ServerScriptService/SanityService.lua
+server      65  yes      scripts/ServerScriptService/ServerBootstrap.server.lua
+module     266  yes      scripts/ServerScriptService/ShiftService.lua
+server     125  yes      scripts/ServerScriptService/StaffDoor.server.lua
+module      66  yes      scripts/ServerScriptService/SupplyService.lua
+module     299  yes      scripts/ServerScriptService/ToolService.lua
+module     159  yes      scripts/ServerScriptService/ToolService1.lua
+server      67  yes      scripts/ServerScriptService/__MCP_CommandListener.server.lua
+server      22  yes      scripts/ServerScriptService/favorite.server.lua
+server    2143  yes      scripts/ServerScriptService/ver.server.lua
+client       9  yes      scripts/StarterGui/Actions/inv/ActionFrame/Organize.client.lua
+client      42  yes      scripts/StarterGui/Actions/inv/ActionFrame/Template/LocalScript.client.lua
+client      87  yes      scripts/StarterGui/AdminPanel/AdminPanel/AdminActionsClient.client.lua
+module      77  yes      scripts/StarterGui/AdminPanel/AdminPanel/AdminCooldownClient.lua
+client     231  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/BrainrotMorph/Frame/Brainrot/LocalScript.client.lua
+client     117  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/EventRunner/Frame/eventName/LocalScript.client.lua
+client      85  yes      scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/GiveBrainrot/Frame/GiveController.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/LeaderboardEditor/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client     404  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/ModelsMorph/Frame/Brainrot/LocalScript.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/ModelsMorph/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client     177  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/PlayerMorph/Frame/MorphName/LocalScript.client.lua
+client     330  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/SessionSettings/SessionSettingsController.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/SetBaseFloors/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/SetLuckyblockBrainrot/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+module      44  yes      scripts/StarterGui/AdminPanel/AdminPanel/NotifModule.lua
+client      10  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/Main/Close/CloseButton.client.lua
+client      50  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/Main/Layout/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/Main/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua
+client      14  yes      scripts/StarterGui/BoostDuration/black/charges/BoostInfo.client.lua
+client      18  yes      scripts/StarterGui/CameraSystem/CameraEffects/static/staticframe/StaticCreator.client.lua
+client       1  yes      scripts/StarterGui/CameraSystem/Controls/Container/ButtonsHolder/ButtonsController.client.lua
+client      51  yes      scripts/StarterGui/CharacterCreation/inv/close/LocalScript.client.lua
+client      12  yes      scripts/StarterGui/CharacterSelection/AnomalySelection/close/LocalScript.client.lua
+client      22  yes      scripts/StarterGui/CharacterSelection/AnomalySelection/inv/inv/ScrollingFrame/Organize.client.lua
+client      15  yes      scripts/StarterGui/CharacterSelection/AnomalySelection/inv/inv/ScrollingFrame/Template/LocalScript.client.lua
+client      12  yes      scripts/StarterGui/CharacterSelection/PremadeSelection/close/LocalScript.client.lua
+client      39  yes      scripts/StarterGui/CharacterSelection/PremadeSelection/inv/inv/ScrollingFrame/Organize.client.lua
+client      15  yes      scripts/StarterGui/CharacterSelection/PremadeSelection/inv/inv/ScrollingFrame/Template/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/CharacterSelection/Selection/close/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/CharacterSelection/Selection/inv/inv/Options/anomalies/LocalScript.client.lua
+client      13  yes      scripts/StarterGui/CharacterSelection/Selection/inv/inv/Options/classes/LocalScript.client.lua
+client      56  yes      scripts/StarterGui/CharacterSelection/Selection/inv/inv/Options/custom/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/CharacterSelection/Selection/submit/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/Classes/Frame/Options/MobileScaling.client.lua   (same source as scripts/StarterGui/Skins/Frame/Options/MobileScaling.client.lua)
+client       8  yes      scripts/StarterGui/Classes/Frame/Options/MobileScrollbarAdapt.client.lua   (same source as scripts/StarterGui/Skins/Frame/Options/MobileScrollbarAdapt.client.lua)
+client       9  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/1/Text/OutlineStroke/UIGradient/LocalScript.client.lua
+client       9  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/2/Text/OutlineStroke/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/1/Text/OutlineStroke/UIGradient/LocalScript.client.lua)
+client       9  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/3/Text/OutlineStroke/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/1/Text/OutlineStroke/UIGradient/LocalScript.client.lua)
+client      10  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/MobilePosition.client.lua
+client      10  yes      scripts/StarterGui/Classes/Info/Frame/MobileScaling.client.lua   (same source as scripts/StarterGui/Shop/Frame/MobileScaling.client.lua)
+client      10  yes      scripts/StarterGui/Classes/Info/Frame/SkillFrame/MobilePosition.client.lua   (same source as scripts/StarterGui/Classes/Info/Frame/DataFrame/MobilePosition.client.lua)
+client       5  yes      scripts/StarterGui/Coins/coins/MobileScaling.client.lua
+client      36  yes      scripts/StarterGui/ConfettiCannon/ConfettiFrame/Confetti.client.lua
+module     132  yes      scripts/StarterGui/ConfettiCannon/ConfettiFrame/Confetti/ConfettiParticles.lua
+client       4  NO       scripts/StarterGui/Dialogue/Frame/stage/spiral/LocalScript.client.lua
+client       8  NO       scripts/StarterGui/EmergencyCounter/Frame/MobileScaling.client.lua
+client      11  yes      scripts/StarterGui/EmergencyCounter/Frame/UIScale/Scaler.client.lua   (same source as scripts/StarterGui/Objective/Frame/UIScale/Scaler.client.lua)
+client      10  yes      scripts/StarterGui/GiftList/Frame/MobileScaling.client.lua   (same source as scripts/StarterGui/Shop/Frame/MobileScaling.client.lua)
+client       8  yes      scripts/StarterGui/GiftList/Frame/MobileScrollbarAdapt.client.lua   (same source as scripts/StarterGui/Skins/Frame/Options/MobileScrollbarAdapt.client.lua)
+client      13  yes      scripts/StarterGui/Menu/Frame/Admin/AdminOpen.client.lua
+client       8  yes      scripts/StarterGui/Menu/Frame/MobileScaling.client.lua
+client       7  yes      scripts/StarterGui/Minigame/Folder/Coin/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/Danger/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/Empty/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/GoldNoCoin/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua
+client       9  yes      scripts/StarterGui/Minigame/Frame/MobileScaling.client.lua
+client       1  yes      scripts/StarterGui/Notifications/Announcements/TopbarAdjust.client.lua
+client      11  yes      scripts/StarterGui/Objective/Frame/UIScale/Scaler.client.lua
+client      18  NO       scripts/StarterGui/PhotoUI/static/LocalScript.client.lua   (same source as scripts/StarterGui/static/staticframe/StaticScript.client.lua)
+client      18  NO       scripts/StarterGui/PhotoUI2/static/LocalScript.client.lua   (same source as scripts/StarterGui/static/staticframe/StaticScript.client.lua)
+client      13  yes      scripts/StarterGui/Sanity/Frame/UIScaleAndPos/ScalerAndRepos.client.lua
+client      54  yes      scripts/StarterGui/Shift/Frame/header/ShiftTracker.client.lua
+client      11  yes      scripts/StarterGui/Shift/Frame/header/UIScale/Scaler.client.lua   (same source as scripts/StarterGui/Objective/Frame/UIScale/Scaler.client.lua)
+client      10  NO       scripts/StarterGui/Shop/Frame/MobileScaling.client.lua
+client      19  yes      scripts/StarterGui/Shop/Frame/x2/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/Skins/Frame/Options/MobileScaling.client.lua
+client       8  yes      scripts/StarterGui/Skins/Frame/Options/MobileScrollbarAdapt.client.lua
+client       4  yes      scripts/StarterGui/static/LocalScript.client.lua
+client      18  yes      scripts/StarterGui/static/staticframe/StaticScript.client.lua
+client     687  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+client      21  yes      scripts/StarterPlayer/StarterCharacterScripts/CameraFixer.client.lua
+client      59  yes      scripts/StarterPlayer/StarterCharacterScripts/CheckFloor.client.lua
+client      59  yes      scripts/StarterPlayer/StarterCharacterScripts/MusicZoneLocal.client.lua
+server       0  NO       scripts/StarterPlayer/StarterCharacterScripts/RevivePP.server.lua
+client      48  yes      scripts/StarterPlayer/StarterCharacterScripts/RunNotif.client.lua
+client      52  yes      scripts/StarterPlayer/StarterCharacterScripts/Sound.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/AmbulanceSpin.client.lua
+client      81  yes      scripts/StarterPlayer/StarterPlayerScripts/Client.client.lua
+module      24  yes      scripts/StarterPlayer/StarterPlayerScripts/Client/core.lua
+module      52  yes      scripts/StarterPlayer/StarterPlayerScripts/FeedbackController.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/FeedbackControllerLoader.client.lua
+client      70  yes      scripts/StarterPlayer/StarterPlayerScripts/InfiniteGradient.client.lua
+module     108  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalDataHandler.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalScript.client.lua
+client     653  yes      scripts/StarterPlayer/StarterPlayerScripts/ProximityPromptScript.client.lua
+client       3  NO       scripts/StarterPlayer/StarterPlayerScripts/ProximityPromptScript/README.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/SkullSpin.client.lua
+client     111  yes      scripts/StarterPlayer/StarterPlayerScripts/ThirdPersonToggle.client.lua
+module     448  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/CameraSystem.lua
+module      33  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/CharacterEffectsLocal.lua
+module     209  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/CircleMinigameLocal.lua
+module     790  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/Cutscenes.lua
+module      74  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DeathStrikesLocal.lua
+module     207  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DiedLocal.lua
+module     136  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DontLookUpLocal.lua
+module      76  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DoorsLocal.lua
+module      64  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/EmergencyEventCounterLocal.lua
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/GoalsLocal.lua
+module      68  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/HeadRotationLocal.lua
+module     200  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/HeartbeatMinigameLocal.lua
+module     104  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/InspectLocal.lua
+module      12  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/JumpscaresLoader.lua
+module     179  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ModelAnimsLocal.lua
+module      96  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/MusicPlayer.lua
+module      84  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/NotificationsLocal.lua
+module      38  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ObjectivesLocal.lua
+module     115  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/OffscreenPointer.lua
+module      76  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PhotoLocal.lua
+module     116  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PhotoSystem.lua
+module      27  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PlayerControls.lua
+module      27  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PlayerUpgradeShopLocal.lua
+module     196  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/SanityLocal.lua
+module     114  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ShiftReportStats.lua
+module      39  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/SkinwalkerDisguiseRevealLocal.lua
+module      15  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/StatsLocal.lua
+module      35  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/TextChatTags.lua
+module      20  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/UIStrokeHelper.lua
+module     216  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/VisualEffects.lua
+module      35  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/BillboardButton.lua
+module     184  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Buttons.lua
+module     430  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/ContextActionUtility.lua
+module      48  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/GunsLocal.lua
+module      32  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/HapticServiceHelper.lua
+module      29  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/LocalBeam.lua
+module       9  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/LocalUtil.lua
+module     205  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/MusicService.lua
+module      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/PlayerControl.lua
+module      93  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/ResizeScrollingFrame.lua
+module      99  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/SpecialEffects.lua
+module      23  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/TabSelection.lua
+module     143  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Talk.lua
+module      27  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Textbox.lua
+module     115  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/UI.lua
+module     107  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/UIStrokeAdjuster.lua
+module     232  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Viewport.lua
+server       9  yes      scripts/Workspace/Chocolate bar/Part~2/PP/Script.server.lua
+server       3  yes      scripts/Workspace/JumpscareMask/PP/Script.server.lua
+server       9  yes      scripts/Workspace/Misc/Gun/PP/Script.server.lua
+server       3  yes      scripts/Workspace/Misc/Nurse/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       3  yes      scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       3  yes      scripts/Workspace/Misc/SecurityCamPC/screen/UI/Frame/cams/Script.server.lua   (same source as scripts/Workspace/JumpscareMask/PP/Script.server.lua)
+server       0  yes      scripts/Workspace/Model~102/Model/BrokenBabyDoll/Script.server.lua
+server     325  yes      scripts/Workspace/NexusAdminLoader.server.lua

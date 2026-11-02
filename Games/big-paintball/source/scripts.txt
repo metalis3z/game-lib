@@ -1,0 +1,504 @@
+502 scripts, 68941 lines
+kind     lines  enabled  path
+client     500  yes      scripts/ReplicatedFirst/Intro/Intro.client.lua
+module       8  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/Chance/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Chance/settings/code.lua)
+module      31  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/Description/settings/code.lua
+module      10  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/FX/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/FX/settings/code.lua)
+module      14  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/Limited/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Limited/settings/code.lua)
+module      16  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/Premium/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Premium/settings/code.lua)
+module       9  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/PriceCredits/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/PriceCredits/settings/code.lua)
+module       9  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/PriceRobux/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/PriceRobux/settings/code.lua)
+module      10  yes      scripts/ReplicatedStorage/Assets/InfoOverlay/Blocks/Title/settings/code.lua   (same source as scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Title/settings/code.lua)
+module     231  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Armored Sentry.lua
+module      24  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Care Package.lua
+module     231  yes      scripts/ReplicatedStorage/Assets/KillstreakController/DarkMatterSentry.lua
+module      38  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Drone.lua
+module     231  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Mini Sentry.lua
+module      23  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Nuke.lua
+module      84  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Radar.lua
+module     231  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Sentry.lua
+module     185  yes      scripts/ReplicatedStorage/Assets/KillstreakController/Shield.lua
+server       9  yes      scripts/ReplicatedStorage/Assets/PaintDrop/Script.server.lua
+module       8  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Chance/settings/code.lua
+module      30  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Description/settings/code.lua
+module      10  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/FX/settings/code.lua
+module      14  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Limited/settings/code.lua
+module      16  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Premium/settings/code.lua
+module       9  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/PriceCredits/settings/code.lua
+module       9  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/PriceRobux/settings/code.lua
+module       3  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Quality/settings/code.lua
+module      10  yes      scripts/ReplicatedStorage/Assets/UI/FRAMEWORK/InfoOverlay/Blocks/Title/settings/code.lua
+module       5  yes      scripts/ReplicatedStorage/DataStoreService.lua
+module     176  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService.lua
+module      77  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockDataStoreConstants.lua
+module     425  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockDataStoreManager.lua
+module      56  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockDataStorePages.lua
+module     281  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockDataStoreUtils.lua
+module     448  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockGlobalDataStore.lua
+module     529  yes      scripts/ReplicatedStorage/DataStoreService/MockDataStoreService/MockOrderedDataStore.lua
+module     253  yes      scripts/ReplicatedStorage/Framework/Library.lua
+module      58  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory.lua
+module     136  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Challenges/Challenges.lua
+module      24  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Crates/Crates.lua
+module      28  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Gamepasses/Gamepasses.lua
+module      45  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ AK.lua
+module      48  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Admin Gun.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Akimbo Uzi.lua
+module     118  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Anime Rifle.lua
+module     118  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Anime Sniper.lua
+module     111  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Aquarium AK.lua
+module      58  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Aquarium Minigun.lua
+module      75  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Balloon Gun.lua
+module      48  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Bhop Gun.lua
+module     100  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Bubblegum Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Candy Cane Sniper.lua
+module      45  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Cheap Gun.lua
+module      79  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Dark Matter Dual Pistols.lua
+module      79  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Dark Matter Gun.lua
+module      78  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Dark Matter Minigun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Deagle.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Default.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Double Shot.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Dual Deagles.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Dual Pistols.lua
+module      81  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Dual Rayguns.lua
+module      53  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Elite Sniper.lua
+module      68  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Fart Gun.lua
+module      94  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Firework Gun.lua
+module      74  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Flame Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Flamingo Gun.lua
+module      82  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Freeze Gun.lua
+module      83  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Gem Stone Pistol.lua
+module      83  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Gem Stone Scar.lua
+module      95  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Glass Scar.lua
+module      70  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Golden AK.lua
+module      69  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Golden Deagle.lua
+module      68  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Golden Gun.lua
+module      75  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Guass Gun.lua
+module      61  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Hacked Minigun.lua
+module      61  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Hacked Scar.lua
+module      61  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Hacked Sniper.lua
+module     110  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ High Tech Minigun.lua
+module     111  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ High Tech Sniper.lua
+module     124  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Inferno Rifle.lua
+module     117  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Lightning Gun.lua
+module      45  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Lozkoo Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ M249.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ M4.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Minigun.lua
+module      58  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Money Gun.lua
+module      57  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Money Rifle.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ P90.lua
+module     112  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Paintbrush Gun.lua
+module      58  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Party Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Pet Simulator 2 Gun.lua
+module     106  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Poop Gun.lua
+module      78  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Raygun.lua
+module      94  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Royale AK.lua
+module      94  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Royale Deagle.lua
+module      94  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Royale Sniper.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ SMG.lua
+module      70  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Santas Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Scar.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Scout.lua
+module      78  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Shattered Dual Pistols.lua
+module      77  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Shattered Rifle.lua
+module      77  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Shattered Sniper.lua
+module      77  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Shattered Winter Rifle.lua
+module      77  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Shattered Winter Sniper.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Silenced Pistol.lua
+module      68  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Skeleton Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Sniper.lua
+module      46  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Snowball Launcher.lua
+module      67  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Spooky Scar.lua
+module      61  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Steampunk Gun.lua
+module      45  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Summer AK.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Summer Minigun.lua
+module      53  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Summer Scar.lua
+module      53  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Summer Sniper.lua
+module      56  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Tempered AK.lua
+module      57  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Tempered Deagle.lua
+module      57  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Tempered Scar.lua
+module      44  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Tommy.lua
+module      66  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Toon Gun.lua
+module      81  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Toxic AK.lua
+module      59  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Toxic M249.lua
+module      59  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Toxic Minigun.lua
+module      59  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Toxic Scar.lua
+module      59  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Toxic Sniper.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ UMP.lua
+module     102  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Unicorn Gun.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Guns/guns _ Wrapped Scar.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Armored Sentry.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Care Package.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Dark Matter Sentry.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Drone.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Mini Sentry.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Nuke.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Radar.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Sentry.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Killstreaks/killstreaks _ Shield.lua
+module      33  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Levels/Levels.lua
+module      11  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Maps/maps _ Bridge 2019.lua
+module      11  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Maps/maps _ Bridge 2021.lua
+module      67  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Packs/Packs.lua
+module     157  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Directory/Products/Products.lua
+module     178  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Print.lua
+module     104  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Services.lua
+module     276  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Shared.lua
+module      34  yes      scripts/ReplicatedStorage/Framework/Modules/1 _ Variables.lua
+module      79  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions.lua
+module      14  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/AngleOfReach.lua
+module      35  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Animation.lua
+module     122  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Base64.lua
+module     108  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Clicked.lua
+module      28  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/CloneTable.lua
+module      24  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Commas.lua
+module      50  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/CompareTable.lua
+module     140  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Compress.lua
+module      21  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/CreateParticleHost.lua
+module      13  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/DictionaryLength.lua
+module      46  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/DrawRaycast.lua
+module     327  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Easing.lua
+module      41  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/FastTween.lua
+module      22  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/FindFirstChildCustom.lua
+module      10  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/GenerateUID.lua
+module      22  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/GetFriends.lua
+module      18  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/GetGamepassInfo.lua
+module      27  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/GetPrice.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/GetProductInfo.lua
+module      13  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/GetTouchingParts.lua
+module      32  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/HasUserdata.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/IsArray.lua
+module      43  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Lottery.lua
+module      72  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/NumberShorten.lua
+module      16  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/PatchTable.lua
+module      21  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/PlayerDist.lua
+module      19  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/PromptPurchase.lua
+module       7  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/QuickRay.lua
+module      38  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/QuickValue.lua
+module      14  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/RandomizeTable.lua
+module      14  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/RemoveTable.lua
+module      19  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/ResolutionScale.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/ScaleModel.lua
+module      22  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/ScaleParticle.lua
+module      14  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/SearchArray.lua
+module      13  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/SearchDictionary.lua
+module      21  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/SolveIK.lua
+module      14  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/StringByte.lua
+module      42  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/TextStyles.lua
+module      15  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/TextStyles/styles.lua
+module      61  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/TimeString.lua
+module      13  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/TimerString.lua
+module      47  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/ToRomanNum.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/UserIdToUsername.lua
+module      13  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Wait.lua
+module      25  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Functions/Weld.lua
+module     592  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Network.lua
+module     214  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Player.lua
+module     210  yes      scripts/ReplicatedStorage/Framework/Modules/2 _ Signal.lua
+module     406  yes      scripts/ReplicatedStorage/Framework/Modules/3 _ Audio.lua
+module     282  yes      scripts/ReplicatedStorage/Framework/Modules/3 _ Entity.lua
+module     106  yes      scripts/ReplicatedStorage/Framework/Modules/6 _ Crates.lua
+module      53  yes      scripts/ReplicatedStorage/Framework/Modules/6 _ GunCmds.lua
+module     483  yes      scripts/ReplicatedStorage/Framework/Modules/6 _ Killstreaks.lua
+module     251  yes      scripts/ReplicatedStorage/Framework/Modules/6 _ Packs.lua
+module      20  yes      scripts/ReplicatedStorage/Framework/Modules/6 _ StarsCmds.lua
+module     117  yes      scripts/ReplicatedStorage/Framework/Modules/Client/1 _ Debug.lua
+module      48  yes      scripts/ReplicatedStorage/Framework/Modules/Client/1 _ Settings.lua
+module     166  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUI.lua
+module     190  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX.lua
+module      33  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/BubbleScale.lua
+module      50  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/Button.lua
+module      93  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/ButtonFX.lua
+module      76  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/ClickCartoon.lua
+module      46  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/ClickStretch.lua
+module      43  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/Flash.lua
+module      21  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/FlashText.lua
+module      34  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/FloatText.lua
+module     128  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/HyperInput.lua
+module      43  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/InteractSound.lua
+module     182  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/List.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/Rainbow.lua
+module      78  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIFX/Tooltip.lua
+module     155  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ GUIParticles.lua
+module     275  yes      scripts/ReplicatedStorage/Framework/Modules/Client/2 _ Language.lua
+module     350  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ Interact.lua
+module      34  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ OtherStats.lua
+module     110  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ Save.lua
+module      92  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ WorldFX.lua
+module      48  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ WorldFX/BubbleFade.lua
+module      23  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ WorldFX/Discinerate.lua
+module      52  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ WorldFX/RewardBillboard.lua
+module     101  yes      scripts/ReplicatedStorage/Framework/Modules/Client/4 _ WorldFX/Selection.lua
+module      22  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ ChatMsg.lua
+module     162  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ Controller.lua
+module     156  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ GIF.lua
+module     105  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ Gamepasses.lua
+module     250  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ InfoOverlay.lua
+module     885  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ MagicText.lua
+module     244  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ Message.lua
+module     165  yes      scripts/ReplicatedStorage/Framework/Modules/Client/5 _ Shake.lua
+module      25  yes      scripts/ReplicatedStorage/Framework/Modules/Client/6 _ ChallengeCmds.lua
+module     549  yes      scripts/ReplicatedStorage/Framework/Modules/Client/6 _ Projectiles.lua
+module     481  yes      scripts/ReplicatedStorage/Framework/Modules/Server/1 _ Settings.lua
+module     143  yes      scripts/ReplicatedStorage/Framework/Modules/Server/2 _ Admins.lua
+module     245  yes      scripts/ReplicatedStorage/Framework/Modules/Server/2 _ Datastore.lua
+module     259  yes      scripts/ReplicatedStorage/Framework/Modules/Server/3 _ Gamepasses.lua
+module     148  yes      scripts/ReplicatedStorage/Framework/Modules/Server/3 _ Products.lua
+module     513  yes      scripts/ReplicatedStorage/Framework/Modules/Server/3 _ Saving.lua
+module     191  yes      scripts/ReplicatedStorage/Framework/Modules/Server/4 _ Analytics.lua
+module     614  yes      scripts/ReplicatedStorage/Framework/Modules/Server/4 _ Bans.lua
+module     218  yes      scripts/ReplicatedStorage/Framework/Modules/Server/6 _ Challenges.lua
+module      51  yes      scripts/ReplicatedStorage/Framework/Modules/Server/6 _ Stars.lua
+module       3  yes      scripts/ReplicatedStorage/Framework/Modules/Server/Storage/1 _ Stats.lua
+module      39  yes      scripts/ReplicatedStorage/Game/Guns/1 - Default/guns _ Default.lua
+module     231  yes      scripts/ReplicatedStorage/Game/KillstreakController/Armored Sentry.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/Armored Sentry.lua)
+module      24  yes      scripts/ReplicatedStorage/Game/KillstreakController/Care Package.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/Care Package.lua)
+module     231  yes      scripts/ReplicatedStorage/Game/KillstreakController/DarkMatterSentry.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/DarkMatterSentry.lua)
+module      38  yes      scripts/ReplicatedStorage/Game/KillstreakController/Drone.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/Drone.lua)
+module     231  yes      scripts/ReplicatedStorage/Game/KillstreakController/Mini Sentry.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/Mini Sentry.lua)
+module      23  yes      scripts/ReplicatedStorage/Game/KillstreakController/Nuke.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/Nuke.lua)
+module      84  yes      scripts/ReplicatedStorage/Game/KillstreakController/Radar.lua   (same source as scripts/ReplicatedStorage/Assets/KillstreakController/Radar.lua)
+module     231  yes      scripts/ReplicatedStorage/Game/KillstreakController/Sentry.lua
+module     187  yes      scripts/ReplicatedStorage/Game/KillstreakController/Shield.lua
+module       9  yes      scripts/ReplicatedStorage/Kohl's Admin/Addons/DemoPlaceAddon.lua
+module     118  yes      scripts/ReplicatedStorage/Kohl's Admin/Addons/ExampleAddon.lua
+module       9  yes      scripts/ReplicatedStorage/Kohl's Admin/Addons/ExampleAddonClient.lua
+module       4  yes      scripts/ReplicatedStorage/Kohl's Admin/Addons/ExampleAddonServer.lua
+server      43  NO       scripts/ReplicatedStorage/Kohl's Admin/Legacy_Loader.server.lua
+module      43  yes      scripts/ReplicatedStorage/Kohl's Admin/Legacy_Loader/Custom Commands.lua
+module      95  yes      scripts/ReplicatedStorage/Kohl's Admin/Legacy_Loader/Settings.lua
+server      13  yes      scripts/ReplicatedStorage/Kohl's Admin/Loader.server.lua
+module     378  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule.lua
+module     533  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Auth.lua
+client     124  NO       scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client.server.lua
+module     228  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/About.lua
+module     148  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Announce.lua
+module     254  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Bans.lua
+module     189  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Character.lua
+module     697  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/CommandBar.lua
+module     210  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/CommandBar/CompletionData.lua
+module     260  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Commands.lua
+module     125  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Dashboard.lua
+module     271  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Logs.lua
+module     156  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Members.lua
+module     269  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Network.lua
+module     120  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Notify.lua
+module     453  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/Settings.lua
+module    1092  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus.lua
+module      14  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Attribute.lua
+module     315  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Caption.lua
+module     130  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Container.lua
+module     169  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Dropdown.lua
+module      91  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Indicator.lua
+module     183  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Menu.lua
+module     114  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Notice.lua
+module      49  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Selection.lua
+module     411  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Widget.lua
+module     199  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Gamepad.lua
+module     325  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Overflow.lua
+module     352  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Themes.lua
+module      27  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Themes/Classic.lua
+module      73  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Themes/Default.lua
+module     182  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Packages/GoodSignal.lua
+module     377  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Packages/Janitor.lua
+module      30  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Reference.lua
+module     447  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/Utility.lua
+module       1  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/TopbarPlus/VERSION.lua
+module     645  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI.lua
+module      14  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/BaseClass.lua
+module     189  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Button.lua
+module     102  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Checkbox.lua
+module     144  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/CircleProgress.lua
+module      97  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Color.lua
+module     354  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/ColorPicker.lua
+module     361  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Dialog.lua
+module     367  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Input.lua
+module      95  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Input/Clack.lua
+module     127  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/List.lua
+module      83  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/ListItem.lua
+module     109  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Menu.lua
+module      49  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Scroller.lua
+module     188  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/ScrollerFast.lua
+module     137  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Select.lua
+module     164  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Slider.lua
+module     105  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Switch.lua
+module     260  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Tabs.lua
+module     131  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Tooltip.lua
+module     425  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UI/Window.lua
+module     171  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/UserFrame.lua
+module     712  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Client/VIP.lua
+module     169  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Credits.lua
+module     439  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data.lua
+module      85  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data/Defaults.lua
+module       1  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data/Migrate.lua
+module      78  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data/Migrate/KAI.lua
+module      92  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Data/Store.lua
+module     381  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Administration.lua
+server     352  NO       scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Administration/ClassicBuildTools.server.lua
+client     236  NO       scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Administration/ClassicBuildTools/DraggerScript.server.lua
+module      58  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Creator.lua
+module     416  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Environment.lua
+module    1091  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Fun.lua
+module     678  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/General.lua
+module    1997  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation.lua
+module     135  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Jail.lua
+module      85  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib.lua
+module      25  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/FastSpawn.lua
+module      14  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/FullMeta.lua
+module       5  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/GetCharacter.lua
+module      40  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/GetCharacterFromPart.lua
+module      21  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/GetDescendants.lua
+module      16  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/GetHumanoid.lua
+module      25  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/GetPlayerFromPart.lua
+module      28  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/IsProtected.lua
+module      11  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/IsTeammate.lua
+module      63  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/SetButtonCooldown.lua
+module      21  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/GLib/TagHumanoid.lua
+client      33  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/LocalScript.client.lua
+server      30  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/Script.server.lua
+module     177  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/Sword/Sword.lua
+module      40  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Moderation/teleportCharacter.lua
+module      78  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/SuperAdmin.lua
+module     315  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/Utility.lua
+module     986  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultCommands/VIP.lua
+module      60  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Ban.lua
+module      89  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Color.lua
+module      29  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Command.lua
+module      83  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Member.lua
+module     194  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player.lua
+module      26  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/All.lua
+module      47  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Inverse.lua
+module      29  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Others.lua
+module      45  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Random.lua
+module      42  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Role.lua
+module     118  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Special.lua
+module      39  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Team.lua
+module       8  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/generateValidate.lua
+module      29  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/sanitizePlayer.lua
+module      29  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Player/sanitizeUser.lua
+module      78  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Primitives.lua
+module      56  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Role.lua
+module      40  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Team.lua
+module     133  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Time.lua
+module      81  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/DefaultTypes/Tool.lua
+module     568  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Flux.lua
+module      21  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Hook.lua
+module      51  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Logger.lua
+module     218  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Process.lua
+module     155  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Process/Argument.lua
+module     226  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Process/Command.lua
+module     210  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Registry.lua
+module      62  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Remote.lua
+module      35  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util.lua
+module      17  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Defer.lua
+module      28  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Function.lua
+module     111  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Humanoid.lua
+module      87  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Logger.lua
+module    2061  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Promise.lua
+module      50  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Queue.lua
+module      20  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/ReadableTime.lua
+module      34  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Retry.lua
+module      40  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Rollout.lua
+module       8  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/SafePlayerAdded.lua
+module      43  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/SafeTeleport.lua
+module      26  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Services.lua
+module     180  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Signal.lua
+module      93  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/String.lua
+module      97  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Suggest.lua
+module      74  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/Table.lua
+module      59  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/Util/getUserInfo.lua
+module     248  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/VIP.lua
+module     101  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/VIP/UGC/AlphaWings.lua
+client      58  NO       scripts/ReplicatedStorage/Kohl's Admin/MainModule/VIP/UGC/AlphaWings/Animate.server.lua
+module      88  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/VIP/UGC/AlphaWings/Animate/Animate.lua
+module     116  yes      scripts/ReplicatedStorage/Kohl's Admin/MainModule/VIP/UGC/Crown.lua
+module     171  yes      scripts/ReplicatedStorage/Kohl's Admin/Settings.lua
+module     146  yes      scripts/ReplicatedStorage/Replication.lua
+module      32  yes      scripts/ReplicatedStorage/Replication/FastSignal.lua
+module     338  yes      scripts/ReplicatedStorage/Replication/FastSignal/Deferred.lua
+module     369  yes      scripts/ReplicatedStorage/Replication/FastSignal/Immediate.lua
+module      29  yes      scripts/ReplicatedStorage/Replication/FastSignal/Readme.lua
+module     575  yes      scripts/ReplicatedStorage/Unused Modules/3 _ Saving.lua
+module     452  yes      scripts/ReplicatedStorage/Unused Modules/4 _ Bans.lua
+module     113  yes      scripts/ReplicatedStorage/Unused Modules/4 _ Save.lua
+module     154  yes      scripts/ReplicatedStorage/Unused Modules/4 _ SavePure.lua
+server      82  NO       scripts/ServerScriptService/CheckMod.server.lua
+module      44  yes      scripts/ServerScriptService/FirebaseDS.lua
+module     250  yes      scripts/ServerScriptService/FirebaseDS/FirebaseService.lua
+server     108  yes      scripts/ServerScriptService/Init.server.lua
+server      33  yes      scripts/ServerScriptService/Intermission.server.lua
+server     279  yes      scripts/ServerScriptService/Main.server.lua
+server      48  yes      scripts/ServerScriptService/Maps.server.lua
+server     115  yes      scripts/ServerScriptService/OwnerTitleV5Script.server.lua
+server      94  yes      scripts/ServerScriptService/TempCommands.server.lua
+client     419  yes      scripts/ServerStorage/Moderator Util/Main.client.lua
+module     746  yes      scripts/ServerStorage/Moderator Util/Main/LuaDate.lua
+client       1  yes      scripts/StarterGui/Admin Commands/Admin Cmds Client.client.lua
+client       3  yes      scripts/StarterGui/Crosshairs/CustomCrosshairs/Frame/Container/NormalCrosshair/Equip/LocalScript.client.lua
+client       0  yes      scripts/StarterGui/IGNORE/TextButton/LocalScript.client.lua
+client       3  yes      scripts/StarterGui/Menu/Frame/KorGamesCustom/Codes/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/KorGamesCustom/CustomCrosshair/LocalScript.client.lua)
+client       3  yes      scripts/StarterGui/Menu/Frame/KorGamesCustom/CustomCrosshair/LocalScript.client.lua
+client      40  yes      scripts/StarterGui/MovementStripes/LocalScript.client.lua
+client      10  NO       scripts/StarterPlayer/StarterPlayerScripts/LocalScript.client.lua
+client     413  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Advanced Interface Scaling.client.lua
+client      47  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/BIG Analytics Client.client.lua
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Controller.client.lua
+client      24  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Core Gui.client.lua
+client      16  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Disable Chat on Join.client.lua
+client      19  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Disable PlaySolo Chat.client.lua
+client      80  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Platform.client.lua
+client      31  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Portrait Support.client.lua
+client      31  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Product Notifications.client.lua
+client      18  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Screen Resolution.client.lua
+client      32  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Server UI Activation.client.lua
+client      32  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Core/Textbox.client.lua
+client     111  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Buy Credits.client.lua
+client     102  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Challenges.client.lua
+client     165  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Crate Opening.client.lua
+client      79  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Currency.client.lua
+client      76  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Feed.client.lua
+client      90  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/KOTH Interface.client.lua
+client     218  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Killcam.client.lua
+client     113  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Killfeed.client.lua
+client     164  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Killstreak HUD.client.lua
+client     139  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Leaderboard.client.lua
+client     132  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Leveling.client.lua
+client     216  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Map Vote.client.lua
+client     135  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Match Results.client.lua
+client    3525  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Menu.client.lua
+client     176  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/MenuPromotional.client.lua
+client     194  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Reward Feed.client.lua
+client      81  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Skill Leaderboard.client.lua
+client      63  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Spawn Shield.client.lua
+client      40  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Timer.client.lua
+client      17  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Twitch.client.lua
+client      34  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/GUIs/Winter Event.client.lua
+client    1211  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/First Person Controller.client.lua
+client      42  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Gadget Indicator.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/GameCredits.client.lua
+client       0  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Impact FX.client.lua
+client      62  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreak And Hitmarker.client.lua
+client      14  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreak Messages.client.lua
+client     159  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Armored Sentry Networking.client.lua
+client      88  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Care Package.client.lua
+client     159  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Dark Matter Sentry Networking.client.lua
+client     314  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Drone Networking.client.lua
+client     159  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Mini Sentry Networking.client.lua
+client     184  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Sentry Networking.client.lua
+client      12  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Killstreaks/Shield Networking.client.lua
+client      56  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Misc Networking.client.lua
+client     197  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Movement.client.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Projectiles Client.client.lua
+client     174  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Ragdolls.client.lua
+client      20  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Spawn Protection.client.lua
+client      52  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Spawn Shields.client.lua
+client      51  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Spawn Shields/Xbox Movement.client.lua
+client      29  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Suicide.client.lua
+client      13  NO       scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/TEST TEST TEST TEST TEST.client.lua
+client      32  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Team Indicator.client.lua
+client     291  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/Third Person Controller.client.lua
+client       9  yes      scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/VIP Activated.client.lua
+client       7  NO       scripts/StarterPlayer/StarterPlayerScripts/Scripts/Game/dark matter sale message.client.lua
+server      15  yes      scripts/Workspace/MoveLighting.server.lua

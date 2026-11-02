@@ -1,0 +1,1640 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.MainUI  (68 descendants)
+ScreenGui "MainUI"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "ShopFrame"  size={0.549,0},{0.589,0}  pos={0.226,0},{0.23,0}  HIDDEN  bg=#ffffff
+    UICorner "UICorner"
+    TextButton "ShopToggle"  size={0.103,0},{0.176,0}  pos={0.966,0},{0.0439,0}  anchor=(0.5,0.5)  bg=#ff0000  z=2  text="X"  font=FredokaOne/400  scaled  tc=#ffffff
+      LocalScript "LocalScript"  -> scripts/StarterGui/MainUI/ShopFrame/ShopToggle/LocalScript.client.lua
+      UICorner "UICorner"
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=1
+      UIScale "UIScale"  Scale=1
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    TextLabel "TextLabel"  size={0.315,0},{0.199,0}  pos={0.342,0},{-0.117,0}  nobg  text="KEY SOUNDS"  font=FredokaOne/400  scaled  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    ScrollingFrame "ScrollingFrame"  size={0.964,0},{0.868,0}  pos={0.0239,0},{0.132,0}  nobg
+      Frame "CreamyFrame"  size={0.248,0},{0.237,0}  pos={0.102,0},{0.0215,0}  bg=#b6b6b6@0.4
+        UICorner "UICorner"
+        TextLabel "TextLabel"  size={0.913,0},{0.244,0}  pos={0.041,0},{-0.046,0}  nobg  z=3  text="CREAMY KEYS"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIGradient "UIGradient"  Color=[0:#ffffff 1:#ff3131]  Rotation=0  Transparency=[0:0 1:0]
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "ImageLabel"  size={0,282},{0,257}  pos={-0.00238,0},{0.0399,0}  nobg  img=rbxassetid://76697449031687
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          UIScale "UIScale"  Scale=1
+        TextButton "ClaimButton"  size={0.876,0},{0.267,0}  pos={0.061,0},{0.675,0}  bg=#00ff00@0.5  z=4  text=""  font=FredokaOne/400  ts=35  tc=#ffffff
+          LocalScript "CreamyKeysScript"  -> scripts/StarterGui/MainUI/ShopFrame/ScrollingFrame/CreamyFrame/ClaimButton/CreamyKeysScript.client.lua
+          UICorner "UICorner"
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=1
+          TextLabel "TextLabel"  size={0.629,0},{0.81,0}  pos={0.182,0},{0.0952,0}  nobg  text=""  font=FredokaOne/400  ts=14  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      Frame "ThockyFrame"  size={0.248,0},{0.237,0}  pos={0.371,0},{0.0213,0}  bg=#b6b6b6@0.4
+        UICorner "UICorner"
+        TextLabel "TextLabel"  size={0.913,0},{0.244,0}  pos={0.041,0},{-0.046,0}  nobg  z=3  text="THOCKY KEYS"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIGradient "UIGradient"  Color=[0:#fff81e 1:#ff3131]  Rotation=0  Transparency=[0:0 1:0]
+        TextButton "SaleButton"  size={0.876,0},{0.267,0}  pos={0.061,0},{0.675,0}  bg=#00ff00@0.5  z=4  text=""  font=FredokaOne/400  ts=35  tc=#ffffff
+          LocalScript "ThockyKeysScript"  -> scripts/StarterGui/MainUI/ShopFrame/ScrollingFrame/ThockyFrame/SaleButton/ThockyKeysScript.client.lua
+          UICorner "UICorner"
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=1
+          TextLabel "TextLabel"  size={0.629,0},{0.81,0}  pos={0.182,0},{0.0952,0}  nobg  text=" 99"  font=FredokaOne/400  ts=14  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "ImageLabel"  size={0,282},{0,257}  pos={-0.0138,0},{0.0393,0}  nobg  img=rbxassetid://110878601861468
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          UIScale "UIScale"  Scale=1
+      Frame "HoneyFrame"  size={0.248,0},{0.237,0}  pos={0.639,0},{0.0213,0}  bg=#b6b6b6@0.4
+        UICorner "UICorner"
+        TextLabel "TextLabel"  size={0.913,0},{0.244,0}  pos={0.041,0},{-0.046,0}  nobg  z=3  text="HONEY KEYS"  font=FredokaOne/400  scaled  tc=#ffffff
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIGradient "UIGradient"  Color=[0:#ffaa00 1:#ff3131]  Rotation=0  Transparency=[0:0 1:0]
+        TextButton "ClaimButton"  size={0.876,0},{0.267,0}  pos={0.061,0},{0.675,0}  bg=#00ff00@0.5  z=4  text=""  font=FredokaOne/400  ts=35  tc=#ffffff
+          LocalScript "HoneyKeysScript"  -> scripts/StarterGui/MainUI/ShopFrame/ScrollingFrame/HoneyFrame/ClaimButton/HoneyKeysScript.client.lua
+          UICorner "UICorner"
+          TextLabel "TextLabel"  size={0.629,0},{0.81,0}  pos={0.182,0},{0.0952,0}  nobg  text=" 99"  font=FredokaOne/400  ts=14  tc=#ffffff
+            UIStroke "UIStroke"  Thickness=2  Color=#000000  Transparency=0  ApplyStrokeMode=0
+          UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0  ApplyStrokeMode=1
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+        ImageLabel "ImageLabel"  size={0,246},{0,240}  pos={0.0203,0},{0.0598,0}  nobg  img=rbxassetid://137832994771726
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          UIScale "UIScale"  Scale=1
+    UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    UIGradient "UIGradient"  rot=90  Color=[0:#4fcce5 1:#000000]  Rotation=90  Transparency=[0:0 1:0]
+  TextButton "Admin"  size={0.0562,0},{0.1,0}  pos={0.0501,0},{0.5,0}  anchor=(0.5,0.5)  bg=#88e5e2@0.2  text=""  font=Oswald/700  scaled  tc=#000000
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=4.8  Color=#ffffff  Transparency=0  ApplyStrokeMode=1
+    UIScale "UIScale"  Scale=1
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={-0.00902,0},{0.043,0}  nobg  text="admin"  font=LuckiestGuy/400  scaled  tc=#000000
+      UIScale "UIScale"  Scale=1
+      UIStroke "UIStroke"  Thickness=2.3  Color=#3b90b4  Transparency=0  ApplyStrokeMode=0
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    LocalScript "LocalScript"  -> scripts/StarterGui/MainUI/Admin/LocalScript.client.lua
+
+==== StarterGui.KillAll  (4 descendants)
+ScreenGui "KillAll"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  TextLabel "KillMessage"  size={0,364},{0,66}  pos={0.232,0},{0.2,0}  HIDDEN  nobg  text="Label"  font=SourceSansPro/700  ts=43  tc=#ffffff
+    UIStroke "UIStroke"  Thickness=5.1  Color=#7f1900  Transparency=0  ApplyStrokeMode=0
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.52
+  UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.86
+
+==== StarterGui.HDAdminInterface  (1530 descendants)
+ScreenGui "HDAdminInterface"  Enabled=True  DisplayOrder=100  ResetOnSpawn=False  ZIndexBehavior=1
+  Frame "CustomTopBar"  size={1,0},{0,68}  pos={0,0},{0,0}  HIDDEN  nobg  z=998
+    ImageButton "ImageButton"  size={0,50},{0.8,0}  pos={0.155,0},{0.1,0}  HIDDEN  nobg  z=999  img=http://www.roblox.com/asset/?id=4519557621
+  Frame "Notices"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=50
+    Frame "Template"  size={0,216},{0,90}  pos={1,-216},{1,-90}  HIDDEN  nobg  z=-3
+      TextLabel "Title"  size={0.8,0},{0.17,0}  pos={0.06,0},{0.07,0}  nobg  z=-2  text="Notice"  font=Roboto/400  ts=15  tc=#ffffff
+      TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-2  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+      IntValue "Countdown"  Value=20
+      BoolValue "Complete"  Value=False
+      Frame "Bg"  size={2,0},{1,0}  pos={0,0},{0,0}  bg=#23272f@0.05  z=-4
+        UICorner "UICorner"
+        UIStroke "UIStroke"  Thickness=2  Color=#323232  Transparency=0.75  ApplyStrokeMode=0
+      StringValue "NoticeType"  Value="Notice"
+      TextButton "CloseX"  size={0.14,0},{0.3,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  z=-1  text=""  font=Arial/700  ts=18  tc=#ffffff
+        TextLabel "TextLabel"  size={1,0},{0.6,0}  pos={0,0},{0.2,0}  nobg  z=0  text="X"  font=Nunito/700  scaled  tc=#ebebeb
+      Frame "TopBarBg"  size={2,0},{0.3,0}  pos={0,0},{0,0}  bg=#1c1f25@0.1  z=-3
+        UICorner "UICorner"
+      TextLabel "Desc"  size={0.85,0},{0.55,0}  pos={0.08,0},{0.36,0}  nobg  z=-2  text="Empty message (16)"  font=Roboto/300  scaled  tc=#ffffff
+        UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=15  MinTextSize=1
+  Frame "CmdBar"  size={1,0},{0,45}  pos={0,0},{0,68}  HIDDEN  nobg  z=500
+    Frame "SearchFrame"  size={1,0},{0,45}  pos={0,0},{0,0}  bg=#1c1f25  z=501
+      TextBox "TextBox"  size={0.98,0},{0.45,0}  pos={0.01,1},{0.5,0}  anchor=(0,0.5)  nobg  z=502  text=""  font=Roboto/500  scaled  tc=#ffffff
+    Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1,0}  nobg  z=501
+      TextButton "LabelTemplate"  size={1,0},{0,35}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+        TextLabel "TextLabel"  size={0.98,0},{0.49,0}  pos={0.01,0},{0.5,0}  anchor=(0,0.5)  nobg  z=503  text=";kill me"  font=Roboto/400  scaled  tc=#e1e1e1
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+  Folder "Templates"
+    Frame "Hint"  size={1,0},{0,25}  pos={0,0},{0,0}  HIDDEN  nobg  z=2
+      TextLabel "Desc"  size={1,0},{0.9,0}  pos={0,0},{0,0}  nobg  z=3  text="Hi guys! Hows everyone doing?"  font=SourceSansPro/400  ts=20  tc=#ffffff
+      Frame "Bg"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1f1f1f@0.35
+    Frame "Message"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2
+      TextLabel "Title"  size={1,0},{0,40}  pos={0,10},{0,20}  nobg  z=3  text="Message from ForeverHD"  font=HighwayGothic/400  ts=35  tc=#ffffff
+      TextLabel "Desc"  size={0.9,0},{0,300}  pos={0.05,10},{0.5,-150}  nobg  z=3  text="sdadaasdasd"  font=SourceSansPro/400  ts=28  tc=#ffffff
+      TextLabel "SubTitle"  size={1,0},{0,20}  pos={0,10},{0,65}  nobg  z=3  text="Owner"  font=HighwayGothic/400  ts=20  tc=#ffffff
+      ImageLabel "Pic"  size={0,70},{0,70}  pos={0.5,-253},{0,0}  nobg  z=2  img=https://www.roblox.com/headshot-thumbnail/image?userId=82347291&width=...
+      Frame "Bg"  size={1,0},{1,36}  pos={0,0},{0,-36}  bg=#000000@0.35
+    Frame "GlobalAnnouncement"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2
+      TextLabel "Title"  size={1,0},{0,40}  pos={0,10},{0,20}  nobg  z=3  text="Global Announcement"  font=HighwayGothic/400  ts=35  tc=#ffffff
+      TextLabel "Desc"  size={0.9,0},{0,300}  pos={0.05,10},{0.5,-150}  nobg  z=3  text="sdadaasdasd"  font=SourceSansPro/400  ts=28  tc=#ffffff
+      TextLabel "SubTitle"  size={1,0},{0,20}  pos={0,10},{0,65}  nobg  z=3  text="From ForeverHD"  font=HighwayGothic/400  ts=20  tc=#ffffff
+      ImageLabel "Pic"  size={0,30},{0,30}  pos={0.5,-95},{0,60}  nobg  z=2  img=https://www.roblox.com/headshot-thumbnail/image?userId=82347291&width=...
+      Frame "Bg"  size={1,0},{1,36}  pos={0,0},{0,-36}  bg=#000000@0.35
+  Folder "LocalScripts"
+    LocalScript "HideGUIs"  -> scripts/StarterGui/HDAdminInterface/LocalScripts/HideGUIs.client.lua
+  Folder "MenuTemplates"
+    CanvasGroup "Template1"  size={0,210},{0,125}  pos={1,-215},{1,-130}  HIDDEN  nobg
+      Frame "DragBar"  size={1,0},{0.19,0}  pos={0,0},{0,0}  bg=#5e56d5  z=2
+        TextLabel "Title"  size={0.6,0},{0.6,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=12  text="Command"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=12  text=""  font=Zekton/400  ts=16  tc=#000000
+        BoolValue "Theme"  Value=False
+        TextButton "Mute"  size={0.1,0},{0.69,0}  pos={0.77,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.55  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.4,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=27  text="🔊"  font=Arial/400  scaled  tc=#ffffff
+        TextButton "Close"  size={0.1,0},{0.8,0}  pos={0.988,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.8,0}  pos={0.888,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25@0.05
+        TextButton "Loading"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.4,0}  HIDDEN  bg=#5e56d5  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.7,0},{0.5,0}  pos={0.15,0},{0.25,0}  nobg  z=5  text="Loading..."  font=HighwayGothic/400  scaled  tc=#ffffff
+          BoolValue "Theme"  Value=True
+        TextLabel "Status"  size={0.495,0},{0.12,0}  pos={0,0},{0.25,0}  nobg  z=2  text="Status:"  font=Roboto/300  scaled  tc=#dcdcdc
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={1.05,0},{0,0}  nobg  z=3  text="On"  font=Roboto/400  scaled  tc=#00e100
+        TextLabel "Desc"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.675,0}  HIDDEN  bg=#4b4b4b@0.5  z=2  text="Command description"  font=Roboto/400  scaled  tc=#ffffff
+          UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=17  MinTextSize=14
+        TextButton "ChangeStatus"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.4,0}  bg=#5e56d5@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          UICorner "UICorner"
+          TextLabel "TextLabel"  size={0.7,0},{0.5,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=10  text="ENABLE"  font=Roboto/500  scaled  tc=#ffffff
+        Frame "InputFrame"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.675,0}  bg=#4b4b4b@0.5  z=2
+          Frame "Frame"  size={0.45,0},{0.8,0}  pos={0.51,0},{0.1,0}  bg=#000000@0.5  z=3
+            TextBox "TextBox"  size={0.9,0},{0.575,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text=""  font=Roboto/400  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextLabel "InputName"  size={0.49,0},{0.45,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Speed:"  font=Roboto/300  scaled  tc=#ffffff
+          UICorner "UICorner"
+        Frame "InfoFrame"  size={1,0},{0.8,0}  pos={0,0},{0.2,0}  bg=#141414@0.1  z=7
+          TextLabel "Info1"  size={0.495,0},{0.15,0}  pos={0,0},{0.08,0}  nobg  z=8  text="Movement:"  font=Roboto/300  scaled  tc=#dcdcdc
+            TextLabel "TextLabel"  size={1,0},{1,0}  pos={1.05,0},{0,0}  nobg  z=8  text="WASD"  font=Roboto/500  scaled  tc=#ffff7f
+          TextLabel "Info2"  size={0.495,0},{0.15,0}  pos={0,0},{0.28,0}  nobg  z=8  text="Toggle flight:"  font=Roboto/300  scaled  tc=#dcdcdc
+            TextLabel "TextLabel"  size={1,0},{1,0}  pos={1.05,0},{0,0}  nobg  z=8  text="E"  font=Roboto/500  scaled  tc=#ffff7f
+          TextLabel "Info3"  size={0.495,0},{0.15,0}  pos={0,0},{0.48,0}  nobg  z=8  text="Up & Down:"  font=Roboto/300  scaled  tc=#dcdcdc
+            TextLabel "TextLabel"  size={1,0},{1,0}  pos={1.05,0},{0,0}  nobg  z=8  text="R & F"  font=Roboto/500  scaled  tc=#ffff7f
+          TextButton "Okay"  size={0.9,0},{0.225,0}  pos={0.05,0},{0.7,0}  bg=#5e56d5@0.1  z=9  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.7,0},{0.65,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=10  text="OKAY"  font=Roboto/500  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UICorner "UICorner"
+      UICorner "UICorner"
+    CanvasGroup "Template4"  size={0,400},{0,200}  pos={0.5,-200},{0.5,-95}  HIDDEN  nobg  z=0
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25
+        Frame "MessageFrame"  size={0.95,0},{0.54,0}  pos={0.025,0},{0.2,0}  bg=#000000@0.5  z=3
+          TextLabel "Message"  size={0.95,0},{0.8,0}  pos={0.025,1},{0.1,0}  nobg  z=3  text=""  font=Roboto/400  scaled  tc=#e1e1e1
+        Frame "ReplyFrame"  size={0.65,0},{0.17,0}  pos={0.025,0},{0.78,0}  bg=#000000@0.5  z=3
+          TextBox "TextBox"  size={0.95,0},{0.45,0}  pos={0.04,1},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text=""  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Send"  size={0.285,0},{0.17,0}  pos={0.69,0},{0.78,0}  bg=#505050@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.8,0},{0.5,0}  pos={0.1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Send"  font=Roboto/500  scaled  tc=#7d7d7d
+          UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.15,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.5,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Private Message From Foreverhd"  font=Roboto/400  scaled  tc=#ffffff
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.8,0}  pos={0.99,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.8,0}  pos={0.92,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      UICorner "UICorner"
+    CanvasGroup "Template5"  size={0.325,0},{0.8,0}  pos={0.36,0},{0.1,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25@0.05  z=0
+        Frame "SearchBar"  size={1,0},{0.08,0}  pos={0,0},{0,0}  bg=#4b4b4b@0.5
+          ImageLabel "ImageLabel"  size={0.11,0},{0.7,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  img=rbxassetid://2748991167
+          Frame "Frame"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  bg=#000000@0.5  z=2
+            TextBox "TextBox"  size={0.96,0},{0.7,0}  pos={0.02,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text=""  font=Roboto/400  scaled  tc=#ffffff
+        ScrollingFrame "ScrollFrame"  size={1,0},{0.84,0}  pos={0,0},{0.08,0}  nobg  z=0
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          Frame "Template"  size={1,0},{0,25}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            TextLabel "TextLabel"  size={1,0},{0.475,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Template"  font=Roboto/400  scaled  tc=#ebebeb
+        Frame "LoadMore"  size={1,0},{0.08,0}  pos={0,0},{0.92,0}  bg=#373737@0.5
+          TextLabel "Displaying"  size={0.25,0},{0.7,0}  pos={0.76,0},{0.15,0}  nobg  z=3  text="0/0"  font=Roboto/400  scaled  tc=#ebebeb
+          TextButton "Load"  size={0.4,0},{0.8,0}  pos={0.3,0},{0.1,0}  bg=#414141@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=3  text="LOAD MORE"  font=Roboto/400  scaled  tc=#ffffff
+            UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.44,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Logs"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      UICorner "UICorner"
+    CanvasGroup "Template6"  size={0.325,0},{0.8,0}  pos={0.55,0},{0.1,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+          Frame "AA Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AB Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Target Player(s)"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AC Target Player"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+              Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+                TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  TextLabel "TextLabel"  size={0.98,0},{0.7,0}  pos={0.03,0},{0.15,0}  nobg  z=503  text=";kill me"  font=Roboto/400  scaled  tc=#f5f5f5
+                  UICorner "UICorner"
+                UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+              TextLabel "TextLabel"  size={-0.8,0},{0.365,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Player:"  font=Roboto/300  scaled  tc=#c8c8c8
+          Frame "AE Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          TextButton "AX Ban"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  bg=#5e56d5@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Ban"  font=Roboto/500  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+          Frame "AG Server"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            TextButton "All"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="All"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "Current"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Current"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AF Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Server(s) to ban from"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AI Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Ban Length"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AJ Length"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            TextButton "Infinite"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.45,0}  anchor=(0,0.5)  nobg  z=5  text="∞ "  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "Time"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Time"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AK Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AM Reason"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.97,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+          Frame "AL Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Reason"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AN Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AZ Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=20
+          Frame "AJA Time"  size={1,0},{0,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff@0.98  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5.5
+            Frame "Minutes"  size={0.3,0},{0.5,0}  pos={0.015,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextLabel "TextLabel"  size={0.82,0},{0.47,0}  pos={0.04,0},{-0.575,0}  nobg  z=4  text="Minutes"  font=Roboto/400  scaled  tc=#c8c8c8
+              TextBox "TextBox"  size={0.9,0},{0.525,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+            Frame "Days"  size={0.3,0},{0.5,0}  pos={0.685,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.525,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.47,0}  pos={0.04,0},{-0.575,0}  nobg  z=4  text="Days"  font=Roboto/400  scaled  tc=#c8c8c8
+            Frame "Hours"  size={0.3,0},{0.5,0}  pos={0.35,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextLabel "TextLabel"  size={0.82,0},{0.47,0}  pos={0.04,0},{-0.575,0}  nobg  z=4  text="Hours"  font=Roboto/400  scaled  tc=#c8c8c8
+              TextBox "TextBox"  size={0.9,0},{0.525,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+          Frame "AHA Alts Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Ban Alt Accounts (IP Ban)"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AHB Alts Decide"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "No"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="No"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            TextButton "Yes"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Yes"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AHC Alts Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.44,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Ban Menu"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+    CanvasGroup "Template7"  size={0.325,0},{0.8,0}  pos={0.36,0},{0.1,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25  z=0
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+          Frame "AA Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AE Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          TextButton "AX Submit"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  bg=#5e56d5@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Preview"  font=Roboto/500  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+          Frame "AG DisplayFrom"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            TextButton "Enabled"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Enabled"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "Disabled"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Disabled"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AF Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Display 'From '"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AL Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Message"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AM Message"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.97,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+          Frame "AK Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AJ MessageColor"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+              TextLabel "TextLabel"  size={-0.8,0},{0.365,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Color:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SearchFrame"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="White"  font=Roboto/400  scaled  tc=#ffffff
+              Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+                TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  TextLabel "TextLabel"  size={0.98,0},{0.7,0}  pos={0.03,0},{0.15,0}  nobg  z=503  text=";kill me"  font=Roboto/400  scaled  tc=#f5f5f5
+                  UICorner "UICorner"
+                UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          Frame "AI Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Message Color"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AN Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AZ Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=20
+          Frame "AJA Time"  size={1,0},{0,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff@0.98  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5
+            Frame "Minutes"  size={0.3,0},{0.5,0}  pos={0.015,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.125,0}  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.6,0}  pos={0.04,0},{-0.7,0}  nobg  z=4  text="Minutes"  font=Roboto/400  scaled  tc=#c8c8c8
+            Frame "Days"  size={0.3,0},{0.5,0}  pos={0.685,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.125,0}  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.6,0}  pos={0.04,0},{-0.7,0}  nobg  z=4  text="Days"  font=Roboto/400  scaled  tc=#c8c8c8
+            Frame "Hours"  size={0.3,0},{0.5,0}  pos={0.35,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.125,0}  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.6,0}  pos={0.04,0},{-0.7,0}  nobg  z=4  text="Hours"  font=Roboto/400  scaled  tc=#c8c8c8
+          Frame "AB Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Title"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AC MessageTitle"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.97,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Global Announcement"  font=Roboto/400  scaled  tc=#ffffff
+          TextButton "AZ Loading"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  HIDDEN  bg=#5e56d5@0.6  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Loading..."  font=Roboto/500  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+      ScrollingFrame "FinalResult"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000@0.2  z=30
+        ScrollingFrame "Frame"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.15,0}  bg=#464646  z=30
+          TextLabel "Title"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="Final Result"  font=Roboto/400  scaled  tc=#dcdcdc
+          TextButton "CloseX"  size={0.135,0},{0.12,0}  pos={0.865,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+            TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=Roboto/400  scaled  tc=#e1e1e1
+            UICorner "UICorner"
+          TextButton "Broadcast"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  bg=#5e56d5@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=32  text="Broadcast"  font=Roboto/500  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextButton "Loading"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  HIDDEN  bg=#5e56d5@0.5  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="Loading..."  font=Roboto/400  scaled  tc=#ffffff
+            UICorner "UICorner"
+          Frame "Example"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  bg=#1c1f25  z=40
+            TextLabel "Title"  size={0.9,0},{0.135,0}  pos={0.05,0},{0.05,0}  nobg  z=43  text="Global Announcement"  font=Roboto/400  scaled  tc=#ffffff
+            TextLabel "Desc"  size={0.9,0},{0.45,0}  pos={0.05,0},{0.5,0}  nobg  z=43  text="Message"  font=Roboto/400  scaled  tc=#ffffff
+              UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=20  MinTextSize=1
+            TextLabel "SubTitle"  size={0.5,0},{0.12,0}  pos={0.275,10},{0.24,0}  nobg  z=43  text="From ForeverHD"  font=Roboto/400  scaled  tc=#e6e6e6
+            ImageLabel "Pic"  size={0.13,0},{0.175,0}  pos={0.16,0},{0.2,0}  nobg  z=42  img=https://www.roblox.com/headshot-thumbnail/image?userId=82347291&width=...
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.44,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Broadcast"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+    CanvasGroup "Template8"  size={0,400},{0,200}  pos={0.5,-200},{0.5,-95}  HIDDEN  nobg  z=0
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25
+        Frame "MessageFrame"  size={0.95,0},{0.75,0}  pos={0.025,0},{0.2,0}  bg=#000000@0.5  z=3
+          TextLabel "Message"  size={0.9,0},{0.8,0}  pos={0.5,1},{0.1,0}  anchor=(0.5,0)  nobg  z=3  text="Alert message"  font=Roboto/400  scaled  tc=#ffffff
+      Frame "DragBar"  size={1,0},{0.15,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        BoolValue "Theme"  Value=False
+        TextButton "Mute"  size={0.1,0},{0.8,0}  pos={0.85,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.4,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=30  text="🔊"  font=Roboto/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Close"  size={0.1,0},{0.8,0}  pos={0.99,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.8,0}  pos={0.92,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextLabel "Title"  size={0.6,0},{0.5,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Alert"  font=Roboto/400  scaled  tc=#ffffff
+      UICorner "UICorner"
+    CanvasGroup "Template9"  size={0.325,0},{0.8,0}  pos={0.36,0},{0.1,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+          Frame "AA Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AF Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Show Results To"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AB Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Sample Server(s)"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AG ShowResultsTo"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            TextButton "You"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="You"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "Everyone"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Everyone"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AC Server"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            TextButton "Current"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Current"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "All"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="All"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AD Target Player"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+              Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+                TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  TextLabel "TextLabel"  size={0.98,0},{0.7,0}  pos={0.03,0},{0.15,0}  nobg  z=503  text=";kill me"  font=Roboto/400  scaled  tc=#f5f5f5
+                  UICorner "UICorner"
+                UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+              TextLabel "TextLabel"  size={-0.8,0},{0.365,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Player:"  font=Roboto/300  scaled  tc=#c8c8c8
+          Frame "AE Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AH Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AO Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Question"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AP Question"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.97,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+            UIScale "UIScale"  Scale=1
+          Frame "AQ Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AR Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Answers"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AT AddAnswer"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "Add"  size={0.105,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="+"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AS Answer"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.855,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+            TextButton "RemoveBox"  size={0.1,0},{0.8,0}  pos={0.885,0},{0.1,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=5  text="-"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AW Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AZ Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=20
+          TextButton "AX Submit"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  bg=#5e56d5@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Preview"  font=Roboto/500  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+          TextButton "AZ Loading"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  HIDDEN  bg=#5e56d5@0.6  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Loading..."  font=Roboto/400  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+          Frame "AC VoteTime"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="20"  font=Roboto/400  scaled  tc=#ffffff
+              Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+                TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  TextLabel "TextLabel"  size={0.98,0},{0.7,0}  pos={0.03,0},{0.15,0}  nobg  z=503  text=";kill me"  font=Roboto/400  scaled  tc=#f5f5f5
+                  UICorner "UICorner"
+                UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+              TextLabel "TextLabel"  size={-0.8,0},{0.365,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Vote Time:"  font=Roboto/300  scaled  tc=#c8c8c8
+      ScrollingFrame "FinalResult"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000@0.2  z=30
+        ScrollingFrame "Frame"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.15,0}  bg=#464646  z=30
+          TextLabel "Title"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="Final Result"  font=Roboto/400  scaled  tc=#dcdcdc
+          TextButton "CloseX"  size={0.135,0},{0.12,0}  pos={0.865,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+            TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=Roboto/400  scaled  tc=#e1e1e1
+            UICorner "UICorner"
+          TextButton "Broadcast"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  bg=#5e56d5@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=32  text="Publish"  font=Roboto/500  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextButton "Loading"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  HIDDEN  bg=#5e56d5@0.5  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=32  text="Loading..."  font=Roboto/400  scaled  tc=#ffffff
+            UICorner "UICorner"
+          ScrollingFrame "Example"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  bg=#000000@0.5  z=40
+            Frame "Question"  size={1,0},{0.08,0}  pos={0,0},{0,0}  bg=#5e56d5@0.2  z=41
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=42  text="Question"  font=Roboto/400  scaled  tc=#ebf9ff
+              BoolValue "Theme"  Value=False
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+            TextButton "AnswerTemplate"  size={1,0},{0.12,0}  pos={0,0},{0.08,0}  bg=#282828@0.2  z=41  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=43  text="1. Answer"  font=Roboto/400  scaled  tc=#ffffff
+              Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=44
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+              UICorner "UICorner"
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.44,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Poll Menu"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+    CanvasGroup "Template10"  size={0.425,0},{0.6,0}  pos={0.36,0},{0.2,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.85,0}  pos={0,0},{0.15,0}  bg=#1c1f25@0.05  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+          Frame "Question"  size={1,0},{0.08,0}  pos={0,0},{0,0}  bg=#5e56d5@0.2  z=41
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=42  text="Question"  font=Roboto/400  scaled  tc=#ebf9ff
+            BoolValue "Theme"  Value=False
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+          TextButton "AnswerTemplate"  size={1,0},{0.12,0}  pos={0,0},{0.08,0}  bg=#282828@0.2  z=41  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.525,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=43  text="1. Answer"  font=Roboto/400  scaled  tc=#ffffff
+            Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=44
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=10
+            UICorner "UICorner"
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      Frame "DragBar"  size={1,0},{0.15,0}  pos={0,0},{0,0}  bg=#5e56d5  z=7
+        TextLabel "Title"  size={0.6,0},{0.425,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  text="Foreverhd's Poll (10)"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Minimise"  size={1,0},{0.7,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=32  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Close"  size={1,0},{0.7,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=32  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=32  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      UICorner "UICorner"
+    CanvasGroup "Template11"  size={0.425,0},{0.6,0}  pos={0.36,0},{0.2,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.85,0}  pos={0,0},{0.15,0}  bg=#1c1f25@0.05  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+          Frame "Question"  size={1,0},{0.08,0}  pos={0,0},{0,0}  bg=#5e56d5@0.2  z=2
+            TextLabel "TextLabel"  size={0.9,0},{0.45,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Question"  font=Roboto/400  scaled  tc=#ebf9ff
+            BoolValue "Theme"  Value=False
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          Frame "ResultTemplate"  size={1,0},{0.08,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=10
+            TextLabel "TextLabel"  size={0.9,0},{0.525,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="1. Answer"  font=Roboto/400  scaled  tc=#ffffff
+            Frame "Bar"  size={0.5,0},{1,0}  pos={0,0},{0,0}  bg=#ff1880@0.2  z=3
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.15,0}  pos={0,0},{0,0}  bg=#5e56d5  z=7
+        TextLabel "Title"  size={0.6,0},{0.425,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  text="Poll Results"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Minimise"  size={1,0},{0.7,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=32  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Close"  size={1,0},{0.7,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=32  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=32  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+    CanvasGroup "Template12"  size={0.325,0},{0.8,0}  pos={0.36,0},{0.1,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25@0.05  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+          Frame "AA Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AE Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          TextButton "AX Submit"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  bg=#5e56d5@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Preview"  font=Roboto/500  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+          Frame "AL Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Message"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AM Message"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.97,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+          Frame "AK Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AZ Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=20
+          Frame "AJA Time"  size={1,0},{0,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff@0.98  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5
+            Frame "Minutes"  size={0.3,0},{0.5,0}  pos={0.015,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.125,0}  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.6,0}  pos={0.04,0},{-0.7,0}  nobg  z=4  text="Minutes"  font=Roboto/400  scaled  tc=#c8c8c8
+            Frame "Days"  size={0.3,0},{0.5,0}  pos={0.685,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.125,0}  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.6,0}  pos={0.04,0},{-0.7,0}  nobg  z=4  text="Days"  font=Roboto/400  scaled  tc=#c8c8c8
+            Frame "Hours"  size={0.3,0},{0.5,0}  pos={0.35,0},{0.3,0}  bg=#000000@0.5  z=4
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.125,0}  nobg  z=5  text="0"  font=Roboto/400  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.82,0},{0.6,0}  pos={0.04,0},{-0.7,0}  nobg  z=4  text="Hours"  font=Roboto/400  scaled  tc=#c8c8c8
+          Frame "AF Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Title"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AG MessageTitle"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.97,0},{0.8,0}  pos={0.015,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Alert from PlayerName"  font=Roboto/400  scaled  tc=#ffffff
+          TextButton "AZ Loading"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  HIDDEN  bg=#5e56d5@0.6  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Loading..."  font=Roboto/400  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            UICorner "UICorner"
+          Frame "AN Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AB Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=2
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text="Target Server(s)"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AC Server"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=2
+            TextButton "Current"  size={0.47,0},{0.7,0}  pos={0.02,0},{0.15,0}  bg=#5e56d5@0.1  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Current"  font=Roboto/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            TextButton "All"  size={0.47,0},{0.7,0}  pos={0.51,0},{0.15,0}  bg=#5e56d5@0.8  z=4  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.53,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="All"  font=Roboto/400  scaled  tc=#969696
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+          Frame "AD Target Player"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=20
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+            Frame "SearchFrame"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=20
+              TextBox "TextBox"  size={0.9,0},{0.455,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text=""  font=Roboto/400  scaled  tc=#ffffff
+              Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+                TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  TextLabel "TextLabel"  size={0.98,0},{0.7,0}  pos={0.03,0},{0.15,0}  nobg  z=503  text=";kill me"  font=Roboto/400  scaled  tc=#f5f5f5
+                  UICorner "UICorner"
+                UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=4
+              TextLabel "TextLabel"  size={-0.8,0},{0.365,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=5  text="Player:"  font=Roboto/300  scaled  tc=#c8c8c8
+          Frame "AX Space"  size={1,0},{0,0}  pos={0,0},{0,0}  HIDDEN  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8
+          Frame "AN Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+          Frame "AN Space"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=16
+      ScrollingFrame "FinalResult"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000@0.2  z=30
+        ScrollingFrame "Frame"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.15,0}  bg=#464646  z=30
+          TextLabel "Title"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="Final Result"  font=Roboto/400  scaled  tc=#dcdcdc
+          TextButton "CloseX"  size={0.135,0},{0.12,0}  pos={0.865,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+            TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=Roboto/400  scaled  tc=#e1e1e1
+            UICorner "UICorner"
+          TextButton "Broadcast"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  bg=#5e56d5@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=32  text="Publish"  font=Roboto/500  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextButton "Loading"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  HIDDEN  bg=#5e56d5@0.5  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=32  text="Loading..."  font=Roboto/400  scaled  tc=#ffffff
+            UICorner "UICorner"
+          Frame "Example"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  bg=#1c1f25  z=40
+            TextLabel "Message"  size={0.9,0},{0.45,0}  pos={0.05,0},{0.35,0}  nobg  z=43  text="Message"  font=Roboto/400  scaled  tc=#ffffff
+              UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=60  MinTextSize=1
+            TextLabel "Title"  size={0.9,0},{0.11,0}  pos={0.02,10},{0.1,0}  nobg  z=43  text="Alert from ForeverHD"  font=Roboto/400  scaled  tc=#e6e6e6
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.44,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Global Alert"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+    Frame "Template2"  size={0,270},{0,60}  pos={1,-305},{1,-95}  HIDDEN  nobg  z=0
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.4,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.6,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Command"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.8,0}  pos={0.995,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.85,0}  pos={0.905,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25
+        TextButton "Execute"  size={0.25,0},{0.4,0}  pos={0.73,0},{0.5,0}  bg=#5e56d5@0.1  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.8,0},{0.5,0}  pos={0.1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Execute"  font=Roboto/500  scaled  tc=#ffffff
+          BoolValue "Theme"  Value=True
+          UICorner "UICorner"
+        Frame "SearchFrame"  size={0.68,0},{0.4,0}  pos={0.02,0},{0.5,0}  bg=#000000
+          TextBox "TextBox"  size={0.94,0},{0.55,0}  pos={0.03,1},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text=""  font=Roboto/400  scaled  tc=#ffffff
+          Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+            TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+              TextLabel "TextLabel"  size={0.95,0},{0.7,0}  pos={0.03,0},{0.5,0}  anchor=(0,0.5)  nobg  z=503  text=";kill me"  font=Roboto/300  scaled  tc=#f5f5f5
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        TextButton "Loading"  size={0.25,0},{0.4,0}  pos={0.73,0},{0.5,0}  HIDDEN  bg=#5e56d5  z=5  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          UICorner "UICorner"
+          TextLabel "TextLabel"  size={0.8,0},{0.45,0}  pos={0.1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=3  text="Loading..."  font=Roboto/300  scaled  tc=#ffffff
+    Frame "Template3"  size={0,270},{0,90}  pos={1,-290},{1,-130}  HIDDEN  nobg  z=0
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.27,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.6,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Command"  font=Roboto/400  scaled  tc=#ffffff
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.85,0}  pos={0.995,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.85,0}  pos={0.91,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25
+        Frame "PlayerFrame"  size={0.96,0},{0.3,0}  pos={0.02,0},{0.65,0}  bg=#23272f  z=2
+          Frame "SearchFrame"  size={0.57,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=3
+            TextBox "TextBox"  size={0.88,0},{0.6,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text=""  font=Roboto/400  scaled  tc=#ffffff
+            Frame "ResultsFrame"  size={1,0},{10,0}  pos={0,0},{1.2,0}  nobg  z=501
+              TextButton "LabelTemplate"  size={1,0},{0,20}  pos={0,0},{0,0}  HIDDEN  bg=#505050@0.1  z=502  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                TextLabel "TextLabel"  size={0.95,0},{0.7,0}  pos={0.03,0},{0.5,0}  anchor=(0,0.5)  nobg  z=503  text=";kill me"  font=Roboto/300  scaled  tc=#f5f5f5
+              UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          TextLabel "InputName"  size={0.38,0},{0.5,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Target player(s):"  font=Roboto/400  scaled  tc=#c8c8c8
+        Frame "MessageFrame"  size={0.96,0},{0.33,0}  pos={0.02,0},{0.32,0}  bg=#23272f  z=2
+          Frame "SearchFrame"  size={0.98,0},{0.8,0}  pos={0.01,0},{0.1,0}  bg=#000000@0.5  z=3
+            TextBox "TextBox"  size={0.9,0},{0.55,0}  pos={0.025,1},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text=""  font=Roboto/400  scaled  tc=#ffffff
+    Frame "Template14"  size={0.5,100},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=200
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.59
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25  z=201
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=202  img=rbxassetid://88732167027964
+        UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg  z=201
+        TextLabel "Title"  size={0.6,0},{0.49,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=2015  text="Unlock"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=202  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.5,0}  pos={0.989,0},{0.08,0}  anchor=(1,0)  bg=#b34545@0.25  z=203  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=203  text="x"  font=Nunito/400  scaled  tc=#ffffff
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.892,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.55  z=203  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=203  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      TextButton "ClickAway"  size={5,0},{5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#2f343f@0.15  z=200  text="Button"  font=SourceSansPro/400  ts=14  tc=#000000
+    CanvasGroup "Template13"  size={0,0},{0.2,60}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2000
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25  z=2001
+        Frame "MessageFrame"  size={0.95,0},{0.43,0}  pos={0.025,0},{0.25,0}  bg=#ffffff@0.96  z=2003
+          TextLabel "Message1"  size={0.75,0},{0.2,0}  pos={0.5,0},{0.55,0}  anchor=(0.5,0)  nobg  z=2003  text="Copy & paste to view pass"  font=Roboto/400  scaled  tc=#e1e1e1
+          TextLabel "Message2"  size={0.75,0},{0.2,0}  pos={0.5,0},{0.25,0}  anchor=(0.5,0)  nobg  z=2003  text="Unable to prompt"  font=Roboto/400  scaled  tc=#b4b4b4
+          UICorner "UICorner"
+          ImageLabel "ImageLabel"  size={1,0},{0.9,0}  pos={0.015,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  img=rbxthumb://type=GamePass&id=1007884962&w=150&h=150
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            UICorner "UICorner"
+        Frame "LinkFrame"  size={0.95,0},{0.22,0}  pos={0.025,0},{0.72,0}  bg=#000000  z=2003
+          TextBox "TextBox"  size={0.95,0},{0.4,0}  pos={0.025,1},{0.5,0}  anchor=(0,0.5)  nobg  z=2004  text="roblox.com/game-pass/1007884962"  font=Roboto/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.8
+      Frame "DragBar"  size={1,0},{0.2,0}  pos={0,0},{0,0}  bg=#5e56d5  z=2005
+        TextLabel "Title"  size={0.6,0},{0.49,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2015  text="Unlock"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2015  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.984,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=2030  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=2030  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.892,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=2030  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2030  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      UICorner "UICorner"
+    Frame "Template15"  size={0.5,100},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=200
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.59
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25  z=201
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=202  img=rbxassetid://74581367487938
+        UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg  z=201
+        TextLabel "Title"  size={0.6,0},{0.49,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=2015  text="Unlock"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=202  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.5,0}  pos={0.989,0},{0.08,0}  anchor=(1,0)  bg=#b34545@0.25  z=203  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=203  text="x"  font=Nunito/400  scaled  tc=#ffffff
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.892,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.55  z=203  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=203  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      TextButton "ClickAway"  size={5,0},{5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#2f343f@0.15  z=200  text="Button"  font=SourceSansPro/400  ts=14  tc=#000000
+    CanvasGroup "Template16"  size={0.325,0},{0.8,0}  pos={0.55,0},{0.1,0}  HIDDEN  nobg  z=0
+      ScrollingFrame "MainFrame"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25  z=0
+        ScrollingFrame "ScrollFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      UICorner "UICorner"
+      Frame "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=5
+        TextLabel "Title"  size={0.6,0},{0.44,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  text="Emotes"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=15  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.69,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.87,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+    CanvasGroup "Template17"  size={0,210},{0,140}  pos={1,-215},{1,-145}  HIDDEN  nobg
+      Frame "DragBar"  size={1,0},{0.17,0}  pos={0,0},{0,0}  bg=#5e56d5  z=2
+        TextLabel "Title"  size={0.6,0},{0.6,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  nobg  z=12  text="Command"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=12  text=""  font=Zekton/400  ts=16  tc=#000000
+        BoolValue "Theme"  Value=False
+        TextButton "Mute"  size={0.1,0},{0.69,0}  pos={0.77,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.55  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.4,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=27  text="🔊"  font=Arial/400  scaled  tc=#ffffff
+        TextButton "Close"  size={0.1,0},{0.8,0}  pos={0.988,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=30  text="x"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Minimise"  size={0.1,0},{0.8,0}  pos={0.888,0},{0.5,0}  anchor=(1,0.5)  bg=#000000@0.55  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25@0.05
+        TextButton "ChangeStatus"  size={0.9,0},{0.21,0}  pos={0.05,0},{0.23,0}  bg=#5e56d5  z=2  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          UICorner "UICorner"
+          TextLabel "TextLabel"  size={0.7,0},{0.5,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=10  text="DISABLE"  font=Roboto/500  scaled  tc=#ffffff
+        Frame "InputFrame"  size={0.9,0},{0.21,0}  pos={0.05,0},{0.485,0}  bg=#4b4b4b@0.5  z=2
+          Frame "Frame"  size={0.475,0},{0.8,0}  pos={0.51,0},{0.1,0}  bg=#000000@0.5  z=3
+            TextBox "TextBox"  size={0.9,0},{0.575,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=4  text=""  font=Roboto/400  scaled  tc=#ffffff
+            UICorner "UICorner"
+          TextLabel "InputName"  size={0.49,0},{0.45,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Speed:"  font=Roboto/300  scaled  tc=#ffffff
+          UICorner "UICorner"
+        TextButton "Loading"  size={0.9,0},{0.21,0}  pos={0.05,0},{0.23,0}  HIDDEN  bg=#5e56d5  z=14  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          UICorner "UICorner"
+          TextLabel "TextLabel"  size={0.7,0},{0.5,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=10  text="Loading..."  font=Roboto/300  scaled  tc=#ffffff
+        Frame "GetFrame"  size={0.9,0},{0.21,0}  pos={0.05,0},{0.735,0}  nobg  z=-998
+          TextButton "UnlockUGC"  size={0.13,0},{1,0}  pos={0,0},{0,0}  bg=#7f74ff@0.1  z=-995  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            UICorner "UICorner"
+            ImageLabel "ImageLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-999  img=rbxassetid://94732540395795
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              IntValue "OriginalZIndex"  Value=1
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            IntValue "OriginalZIndex"  Value=5
+          UICorner "UICorner"
+          TextButton "FavoriteUGC"  size={0.13,0},{1,0}  pos={0.17,0},{0,0}  bg=#7f74ff@0.1  z=-995  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            UICorner "UICorner"
+            ImageLabel "ImageLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-999  img=rbxassetid://117947994309914
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              IntValue "OriginalZIndex"  Value=1
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            IntValue "OriginalZIndex"  Value=5
+          Frame "LinkUGC"  size={0.66,0},{1,0}  pos={0.34,0},{0,0}  bg=#4b4b4b@0.5  z=-998
+            Frame "Holder"  size={0.96,0},{0.8,0}  pos={0.02,0},{0.1,0}  bg=#000000@0.5  z=-997
+              TextBox "TextBox"  size={0.92,0},{0.575,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=-996  text="roblox.com/catalog/105851216004006"  font=Roboto/400  ts=14  tc=#969696
+                IntValue "OriginalZIndex"  Value=4
+              UICorner "UICorner"
+              IntValue "OriginalZIndex"  Value=3
+            UICorner "UICorner"
+            IntValue "OriginalZIndex"  Value=2
+          IntValue "OriginalZIndex"  Value=2
+      UICorner "UICorner"
+    Frame "Template18"  size={0.175,150},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=200
+      Frame "MainFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#1c1f25  z=201
+        ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=202  img=rbxassetid://74581367487938
+        TextButton "Unlock"  size={0.7,0},{0.11,0}  pos={0.5,0},{0.88,0}  anchor=(0.5,1)  bg=#5e56d5  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          UICorner "UICorner"
+          TextLabel "TextLabel"  size={0.7,0},{0.5,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=10  text="UNLOCK"  font=Roboto/700  scaled  tc=#ffffff
+        TextLabel "Desc"  size={0.7,0},{0.045,0}  pos={0.15,0},{0.95,0}  anchor=(0,1)  nobg  z=30  text="Use in <b>every</b> Roblox game"  font=Roboto/300  scaled  tc=#ffffff
+        TextLabel "Title"  size={0.7,0},{0.08,0}  pos={0.15,0},{0.125,0}  anchor=(0,1)  nobg  z=30  text="Helicopter"  font=Roboto/700  scaled  tc=#ffffff
+        TextLabel "Subtitle"  size={0.7,0},{0.045,0}  pos={0.15,0},{0.175,0}  anchor=(0,1)  nobg  z=30  text="Emote"  font=Roboto/400  scaled  tc=#ffffff
+        Frame "FadeTop"  size={1,0},{0.25,0}  pos={0,0},{0,0}  bg=#000000  z=10
+          UICorner "UICorner"
+          UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 1:#ffffff]  Rotation=90  Transparency=[0:0.65 1:1]
+        Frame "FadeBottom"  size={1,0},{0.3,0}  pos={0,0},{1,0}  anchor=(0,1)  bg=#000000  z=10
+          UICorner "UICorner"
+          UIGradient "UIGradient"  rot=270  Color=[0:#ffffff 1:#ffffff]  Rotation=270  Transparency=[0:0.65 1:1]
+        UICorner "UICorner"
+        TextButton "Blocker"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=-999  text=""  font=Zekton/400  ts=16  tc=#000000
+        ViewportFrame "ViewportFrame"  size={0.8,0},{0.585,0}  pos={0.5,0},{0.18,0}  anchor=(0.5,0)  nobg  z=9010  Ambient=#000000  LightColor=#ffffff
+          WorldModel "ViewportWorldModel"
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.85
+      TextButton "ClickAway"  size={5,0},{5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#2f343f@0.15  z=200  text="Button"  font=SourceSansPro/400  ts=14  tc=#000000
+      Frame "DragBar"  size={1,0},{0.2,0}  pos={0,0},{0,0}  nobg  z=201
+        TextLabel "Title"  size={0.6,0},{0.49,0}  pos={0.045,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=2015  text="Unlock"  font=Roboto/400  scaled  tc=#ffffff
+        TextButton "Drag"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=202  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+        BoolValue "Theme"  Value=False
+        TextButton "Close"  size={0.1,0},{0.5,0}  pos={0.989,0},{0.08,0}  anchor=(1,0)  nobg  z=203  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.9,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=203  text="x"  font=Nunito/400  scaled  tc=#ffffff
+        TextButton "Minimise"  size={0.1,0},{0.69,0}  pos={0.892,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#000000@0.55  z=203  text=""  font=Zekton/400  ts=16  tc=#000000
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=203  text="-"  font=Nunito/400  scaled  tc=#ffffff
+          UICorner "UICorner"
+          UICorner "UICorner"
+  CanvasGroup "MainFrame"  size={0.45,0},{0.8,0}  pos={0.5,0},{0.1,0}  HIDDEN  nobg  z=10  attrs={"CustomYScalePos": 0.72}
+    Frame "Pages"  size={1,0},{0.9,0}  pos={0,0},{0.1,0}  bg=#1c1f25  z=11
+      Frame "Home"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+        ImageLabel "Banner"  size={1,0},{0.4,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff  z=18  img=rbxassetid://6071428653
+          Frame "CountFrame"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#ffffff@0.35  z=18
+            TextLabel "Count"  size={0.5,0},{0.45,0}  pos={0.51,0},{0.3,0}  anchor=(0.5,0)  nobg  z=20  text="TIMER"  font=Oswald/400  scaled  tc=#ffffff
+            TextLabel "Caption"  size={0.5,0},{0.2,0}  pos={0.51,0},{0.2,0}  anchor=(0.5,0)  nobg  z=20  text="TEST"  font=Oswald/400  scaled  tc=#ff1e1e
+            UIGradient "UIGradient"  rot=90  Color=[0:#000000 0.309:#141414 0.639:#1e1e1e 1:#373737]  Rotation=90  Transparency=[0:0 1:0]
+        TextButton "Commands"  size={0.95,0},{0.354,0}  pos={0,0},{0.08,0}  bg=#23272f  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.135,0}  pos={0.5,0},{0.62,0}  anchor=(0.5,0)  nobg  z=20  text="Commands"  font=Roboto/400  scaled  tc=#e1e1e1
+          ImageLabel "ImageLabel"  size={0.4,0},{0.35,0}  pos={0.5,0},{0.245,0}  anchor=(0.5,0)  nobg  z=20  img=rbxassetid://117194723491568  imgcol=#e1e1e1
+          Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=25
+            UICorner "UICorner"
+          TextButton "RankBlocker"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=26  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.35,0},{0.5,0}  pos={0.5,0},{0.25,0}  HIDDEN  nobg  z=24  text="Admin+ "  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+            ImageLabel "LockIcon"  size={0.22,0},{0.16,0}  pos={0.035,0},{0.1,0}  nobg  z=20  img=rbxassetid://110285929504720  imgcol=#ffda7e
+          UICorner "UICorner"
+        TextButton "Revenue"  size={0.465,0},{0.354,0}  pos={0,0},{0.08,0}  bg=#23272f  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.135,0}  pos={0.5,0},{0.635,0}  anchor=(0.5,0)  nobg  z=20  text="Revenue"  font=Roboto/400  scaled  tc=#e1e1e1
+          ImageLabel "ImageLabel"  size={0.4,0},{0.35,0}  pos={0.5,0},{0.23,0}  anchor=(0.5,0)  nobg  z=20  img=rbxassetid://114060238188609  imgcol=#e1e1e1
+          Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=25
+            UICorner "UICorner"
+          TextButton "RankBlocker"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=26  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.35,0},{0.5,0}  pos={0.5,0},{0.25,0}  HIDDEN  nobg  z=24  text="Admin+ "  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+            ImageLabel "LockIcon"  size={0.22,0},{0.16,0}  pos={0.035,0},{0.1,0}  nobg  z=20  img=rbxassetid://110285929504720  imgcol=#ffda7e
+          UICorner "UICorner"
+        TextButton "Moderation"  size={0.465,0},{0.354,0}  pos={0,0},{0.08,0}  bg=#23272f  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.135,0}  pos={0.5,0},{0.635,0}  anchor=(0.5,0)  nobg  z=20  text="Moderation"  font=Roboto/400  scaled  tc=#e1e1e1
+          ImageLabel "ImageLabel"  size={0.4,0},{0.35,0}  pos={0.5,0},{0.23,0}  anchor=(0.5,0)  nobg  z=20  img=rbxassetid://121724238061607  imgcol=#e1e1e1
+          UICorner "UICorner"
+          Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=25
+            UICorner "UICorner"
+          TextButton "RankBlocker"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=26  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.35,0},{0.5,0}  pos={0.5,0},{0.25,0}  HIDDEN  nobg  z=24  text="Admin+ "  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+            ImageLabel "LockIcon"  size={0.22,0},{0.16,0}  pos={0.035,0},{0.1,0}  nobg  z=20  img=rbxassetid://110285929504720  imgcol=#ffda7e
+        TextButton "Settings"  size={0.465,0},{0.354,0}  pos={0,0},{0.08,0}  bg=#23272f  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.135,0}  pos={0.5,0},{0.635,0}  anchor=(0.5,0)  nobg  z=20  text="Settings"  font=Roboto/400  scaled  tc=#e1e1e1
+          ImageLabel "ImageLabel"  size={0.4,0},{0.35,0}  pos={0.5,0},{0.23,0}  anchor=(0.5,0)  nobg  z=20  img=rbxassetid://138284002104639  imgcol=#e1e1e1
+          Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=25
+            UICorner "UICorner"
+          TextButton "RankBlocker"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=26  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.35,0},{0.5,0}  pos={0.5,0},{0.25,0}  HIDDEN  nobg  z=24  text="Admin+ "  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+            ImageLabel "LockIcon"  size={0.22,0},{0.16,0}  pos={0.035,0},{0.1,0}  nobg  z=20  img=rbxassetid://110285929504720  imgcol=#ffda7e
+          UICorner "UICorner"
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        UIPadding "UIPadding"  PaddingTop={0.027,0}  PaddingBottom={0.027,0}  PaddingLeft={0.01,0}  PaddingRight={0.01,0}
+        TextButton "About"  size={0.465,0},{0.354,0}  pos={0,0},{0.08,0}  bg=#23272f  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.135,0}  pos={0.5,0},{0.635,0}  anchor=(0.5,0)  nobg  z=20  text="About"  font=Roboto/400  scaled  tc=#e1e1e1
+          ImageLabel "ImageLabel"  size={0.4,0},{0.35,0}  pos={0.5,0},{0.23,0}  anchor=(0.5,0)  nobg  z=20  img=rbxassetid://128986878778493  imgcol=#e1e1e1
+          Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=25
+            UICorner "UICorner"
+          TextButton "RankBlocker"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=26  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.35,0},{0.5,0}  pos={0.5,0},{0.25,0}  HIDDEN  nobg  z=24  text="Admin+ "  font=SourceSansPro/400  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+            ImageLabel "LockIcon"  size={0.22,0},{0.16,0}  pos={0.035,0},{0.1,0}  HIDDEN  nobg  z=20  img=rbxassetid://110285929504720  imgcol=#ffda7e  imgT=1
+          Frame "Notice"  size={0.15,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  HIDDEN  bg=#5e56d5  z=25  attrs={"ClipToJoinedParent": true, "HasAClippedClone": true}
+            TextLabel "NoticeLabel"  size={1,0},{0.7,0}  pos={0.5,0},{0.515,0}  anchor=(0.5,0.5)  nobg  z=26  text="1"  font=Roboto/400  scaled  tc=#ffffff
+            ObjectValue "ClippedClone"  Value=nil
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            UICorner "UICorner"
+            UIStroke "UIStroke"  Thickness=0  Color=#ffffff  Transparency=0  ApplyStrokeMode=0
+          UICorner "UICorner"
+      Frame "Commands"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=11
+        ScrollingFrame "Commands"  size={1,0},{0.92,0}  pos={0,0},{0.08,0}  nobg  z=19
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          Frame "TemplateTwo"  size={1,0},{0.125,0}  pos={0,0},{0,0}  bg=#000000@0.65  z=19
+            TextLabel "Title"  size={0.175,0},{0.6,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text="Aliases:"  font=Roboto/300  scaled  tc=#969696
+            TextLabel "TextLabel"  size={0.81,0},{0.6,0}  pos={0.19,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text="TextLabel"  font=Roboto/300  scaled  tc=#afafaf
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=15.5
+          Frame "TemplateOne"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#282828@0.75  z=18
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.12,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text=";cmds"  font=Roboto/300  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            TextButton "RunCommand"  size={0.5,0},{1,0}  pos={0,0},{0,0}  nobg  z=26  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+            ImageButton "RunIcon"  size={0.06,0},{0.6,0}  pos={0.038,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=22  img=rbxassetid://118559246180206  imgcol=#5e56d5
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              BoolValue "Theme"  Value=True
+            TextLabel "Arrow"  size={0.1,0},{0.55,0}  pos={0.97,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  z=18  rot=90  text="▼"  font=Arial/400  scaled  tc=#969696
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextButton "Expand"  size={0.5,0},{1,0}  pos={0.5,0},{0,0}  nobg  z=23  text=""  font=LegacyArial/400  ts=8  tc=#1b2a35
+            ImageButton "PendingIcon"  size={0.06,0},{0.6,0}  pos={0.038,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=24  img=rbxassetid://73935530799359
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            ImageButton "RevokeIcon"  size={0.06,0},{0.6,0}  pos={0.038,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=25  img=rbxassetid://115526707092973  imgcol=#5e56d5
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              BoolValue "Theme"  Value=True
+            TextButton "UnlockUGC"  size={0.06,0},{0.9,0}  pos={0.89,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#5e56d5@0.1  z=5  text=""  font=Zekton/400  ts=16  tc=#000000
+              ImageLabel "ImageLabel"  size={1,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://94732540395795
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              UICorner "UICorner"
+              BoolValue "Theme"  Value=True
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextButton "FavoriteUGC"  size={0.06,0},{0.9,0}  pos={0.97,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  bg=#5e56d5@0.1  z=5  text=""  font=Zekton/400  ts=16  tc=#000000
+              UICorner "UICorner"
+              BoolValue "Theme"  Value=True
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              ImageLabel "ImageLabel"  size={1,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://117947994309914
+                UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          Frame "TemplateGamepass"  size={1,0},{0,0}  pos={0,0},{0,0}  HIDDEN  bg=#5f5f5f@0.8  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=5
+            ImageLabel "ItemImage"  size={0.5,0},{0.85,0}  pos={0.02,0},{0.5,0}  anchor=(0,0.5)  bg=#4b4b4b@0.5  z=20  img=rbxassetid://13600173502
+              UICorner "UICorner"
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+            TextLabel "ItemTitle"  size={0.43,0},{0.23,0}  pos={0.215,0},{0.25,0}  nobg  z=18  text="Test A"  font=Roboto/300  scaled  tc=#ffffff
+            TextLabel "ItemDesc"  size={0.43,0},{0.21,0}  pos={0.215,0},{0.55,0}  nobg  z=18  text="Unlock Admin commands"  font=Roboto/300  scaled  tc=#c8c8c8
+            TextButton "Unlock"  size={0.3,0},{0.55,0}  pos={0.665,0},{0.5,0}  anchor=(0,0.5)  bg=#7f74ff@0.1  z=19  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.38,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text="UNLOCK"  font=Roboto/500  scaled  tc=#ffffff
+              BoolValue "Theme"  Value=True
+              UICorner "UICorner"
+            TextButton "Unlocked"  size={0.3,0},{0.55,0}  pos={0.665,0},{0.5,0}  anchor=(0,0.5)  bg=#646464@0.5  z=23  text=""  font=Zekton/400  ts=16  tc=#000000
+              TextLabel "TextLabel"  size={0.9,0},{0.38,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=22  text="UNLOCKED"  font=Roboto/500  scaled  tc=#ffffff
+              UICorner "UICorner"
+        ScrollingFrame "Morphs"  size={1,0},{0.92,0}  pos={0,0},{0.08,0}  HIDDEN  nobg  z=19
+          Frame "Template"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#323232@0.5  z=18
+            TextLabel "TextLabel"  size={0.95,0},{0.7,0}  pos={0.04,0},{0.15,0}  nobg  z=18  text="Template"  font=SourceSansPro/400  scaled  tc=#ebebeb
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        Frame "SearchBar"  size={1,0},{0.08,0}  pos={0,0},{0,0}  nobg  z=18
+          ImageLabel "ImageLabel"  size={0.11,0},{0.7,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=19  img=rbxassetid://2748991167
+          Frame "Frame"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  bg=#000000@0.5  z=19
+            TextBox "TextBox"  size={0.85,0},{0.65,0}  pos={0.03,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+            ImageButton "CancelButton"  size={0,0},{0.9,0}  pos={0.98,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  z=22  img=rbxassetid://18315122663
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "NavigateButtons"  size={1,0},{0.1,0}  pos={0,0},{0,0}  HIDDEN  bg=#006496@0.7  z=18
+          BoolValue "Theme"  Value=False
+          TextLabel "TextLabel"  size={0.5,0},{0.7,0}  pos={0.25,0},{0.15,0}  nobg  z=18  text="NAVIGATE"  font=SourceSansPro/600  scaled  tc=#ebf9ff
+          TextButton "Right"  size={-0.15,0},{0.82,0}  pos={0.96,0},{0.1,0}  nobg  z=19  text=">"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextButton "Left"  size={0.15,0},{0.82,0}  pos={0.04,0},{0.1,0}  nobg  z=19  text="<"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Settings"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+        ScrollingFrame "Custom"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=19
+          Frame "AA Space"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AA Theme Title"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=18
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="Theme"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AB ThemeSelection"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+            UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+            TextButton "ThemeTemplate"  size={0.1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#aa0000  z=18  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.5
+            UIPadding "UIPadding"  PaddingTop={0.1,0}  PaddingBottom={0.1,0}  PaddingLeft={0.03,0}  PaddingRight={0.03,0}
+          Frame "AC Space"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AE CommandsTitle"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="Commands"  font=Roboto/400  scaled  tc=#ffffff
+          Frame "AE1 Prefix"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+          Frame "AH SoundsTitle"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            TextLabel "TextLabel"  size={0.82,0},{0.55,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="Sounds"  font=Roboto/400  scaled  tc=#ffffff
+          Frame "AH1 NoticeSoundId"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AG Space"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH2 NoticeVolume"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+          Frame "AH3 NoticePitch"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+          Frame "AH4 ErrorSoundId"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH5 ErrorVolume"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH6 ErrorPitch"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+          Frame "AV Space"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          TextButton "AX Restore"  size={1,0},{0.1,0}  pos={0,0},{0.87,0}  bg=#008bcb@0.1  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+            TextLabel "TextLabel"  size={0.9,0},{0.525,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  text="Restore Default Settings"  font=Roboto/400  scaled  tc=#ffffff
+            BoolValue "Theme"  Value=True
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=9
+            Frame "Loading"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000  z=20
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=20  text="Loading..."  font=SourceSansPro/600  scaled  tc=#c8c8c8
+              TextButton "Blocker"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=19  text=""  font=Zekton/400  ts=16  tc=#000000
+            UICorner "UICorner"
+          Frame "AZ Space"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=18
+          Frame "AH7 AlertSoundId"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH8 AlertVolume"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+          Frame "AH9 AlertPitch"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.98  z=18
+            Frame "SettingName"  size={0.4,0},{1,0}  pos={0,0},{0,0}  nobg  z=18
+              TextLabel "TextLabel"  size={-0.8,0},{0.55,0}  pos={0.9,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="NoticeSoundId:"  font=Roboto/300  scaled  tc=#c8c8c8
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            Frame "SettingValue"  size={0.55,0},{0.8,0}  pos={0.4,0},{0.1,0}  bg=#000000@0.5  z=18
+              TextBox "TextBox"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=20  text=""  font=Roboto/300  scaled  tc=#ffffff
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=21  text="Loading..."  font=Roboto/300  scaled  tc=#969696
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          UIPadding "UIPadding"  PaddingTop={0,0}  PaddingBottom={0,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+      Frame "Moderation"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+        ScrollingFrame "Ranks"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  nobg  z=19
+          Frame "TemplateSpace"  size={1,0},{0,0}  pos={0,0},{0,0}  nobg  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=15
+          Frame "TemplateRankTitle"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#ffffff@0.93  z=18
+            TextLabel "RankName"  size={0.92,0},{0.46,0}  pos={0.12,0},{0.5,0}  anchor=(0,0.5)  nobg  z=18  text="Owner"  font=Roboto/400  scaled  tc=#ffffff
+            Frame "RankIdFrame"  size={0.08,0},{0.7,0}  pos={0.015,0},{0.15,0}  bg=#0f0f0f@0.5  z=19
+              TextLabel "TextLabel"  size={0.8,0},{0.55,0}  pos={0.1,0},{0.525,0}  anchor=(0,0.5)  nobg  z=20  text="5"  font=Roboto/700  scaled  tc=#ebebeb
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=10
+          Frame "TemplateRankItem"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25@0.5  z=18
+            ImageLabel "ItemImage"  size={0.17,0},{0.8,0}  pos={0.02,0},{0.5,0}  anchor=(0,0.5)  bg=#4b4b4b@0.5  z=20  img=https://www.roblox.com/headshot-thumbnail/image?userId=82347291&width=...
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+              UICorner "UICorner"
+            TextLabel "ItemTitle"  size={0.7,0},{0.29,0}  pos={0.18,0},{0.19,0}  nobg  z=18  text="ForeverHD"  font=Roboto/300  scaled  tc=#ffffff
+            TextLabel "ItemDesc"  size={0.4,0},{0.225,0}  pos={0.18,0},{0.485,0}  nobg  z=18  text="Owner"  font=Roboto/300  scaled  tc=#c8c8c8
+            TextButton "Unlock"  size={0.35,0},{0.6,0}  pos={0.615,0},{0.2,0}  HIDDEN  bg=#00a200@0.1  z=19  text=""  font=Zekton/400  ts=16  tc=#000000
+              BoolValue "Theme"  Value=True
+              TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=20  text="UNLOCK"  font=SourceSansPro/700  scaled  tc=#ffffff
+            TextLabel "ItemIcon"  size={0.17,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=20  text="V"  font=Roboto/400  scaled  tc=#ffffff
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+            TextButton "ViewMore"  size={0.1,0},{0.6,0}  pos={0.87,0},{0.2,0}  HIDDEN  bg=#00aaff@0.1  z=19  text=""  font=Zekton/400  ts=16  tc=#000000
+              BoolValue "Theme"  Value=True
+              TextLabel "TextLabel"  size={0.91,0},{0.91,0}  pos={0.05,0},{0.05,0}  nobg  z=20  text="☰"  font=Guru/400  scaled  tc=#ffffff
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ScrollingFrame "Server Ranks"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=19
+          Frame "TemplateAdmin"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25@0.75  z=18
+            ImageLabel "PlayerImage"  size={0.17,0},{1,0}  pos={0,0},{0,0}  bg=#afafaf@0.5  z=20  img=https://www.roblox.com/headshot-thumbnail/image?userId=82347291&width=...
+            TextLabel "PlrName"  size={0.75,0},{0.375,0}  pos={0.2,0},{0.07,0}  nobg  z=18  text="PlayerName"  font=SourceSansPro/600  scaled  tc=#ebebeb
+            TextLabel "PlrRank"  size={0.75,0},{0.28,0}  pos={0.2,0},{0.45,0}  nobg  z=18  text="PlayerRank"  font=SourceSansPro/400  scaled  tc=#c8c8c8
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ScrollingFrame "Banland"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=19
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+          Frame "TemplateBan"  size={1,0},{0,0}  pos={0,0},{0,0}  HIDDEN  bg=#1c1f25@0.75  z=18
+            ImageLabel "PlayerImage"  size={0.17,0},{1,0}  pos={0,0},{0,0}  bg=#afafaf@0.5  z=20  img=https://www.roblox.com/headshot-thumbnail/image?userId=82347291&width=...
+            TextLabel "PlrName"  size={0.6,0},{0.375,0}  pos={0.2,0},{0.07,0}  nobg  z=18  text="PlayerName"  font=SourceSansPro/600  scaled  tc=#ebebeb
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+            TextLabel "BanLength"  size={0.6,0},{0.28,0}  pos={0.2,0},{0.45,0}  nobg  z=18  text="PlayerRank"  font=SourceSansPro/400  scaled  tc=#c8c8c8
+            TextButton "ViewMore"  size={0.1,0},{0.6,0}  pos={0.87,0},{0.2,0}  bg=#00aaff@0.1  z=19  text=""  font=Zekton/400  ts=16  tc=#000000
+              BoolValue "Theme"  Value=True
+              TextLabel "TextLabel"  size={0.91,0},{0.91,0}  pos={0.05,0},{0.05,0}  nobg  z=20  text="☰"  font=Guru/400  scaled  tc=#ffffff
+          Frame "TemplateTitle"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25@0.75  z=18
+            TextLabel "TextLabel"  size={0.92,0},{0.7,0}  pos={0.04,0},{0.15,0}  nobg  z=18  text="Template"  font=SourceSansPro/400  scaled  tc=#ebebeb
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            TextLabel "New"  size={0.1,0},{0.7,0}  pos={0.04,0},{0.15,0}  HIDDEN  nobg  z=18  text="NEW"  font=SourceSansPro/700  scaled  tc=#00ff00
+        Frame "NavigateButtons"  size={1,0},{0.095,0}  pos={0,0},{0,0}  bg=#5e56d5@0.7  z=18
+          TextLabel "TextLabel"  size={0.5,0},{0.475,0}  pos={0.25,0},{0.525,0}  anchor=(0,0.5)  nobg  z=18  text="Navigate"  font=Roboto/400  scaled  tc=#ebf9ff
+          TextButton "Right"  size={-0.15,0},{0.82,0}  pos={0.96,0},{0.1,0}  nobg  z=19  text=""  font=GothamSSm/700  scaled  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  z=20  img=rbxassetid://116208227053009
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextButton "Left"  size={0.15,0},{0.82,0}  pos={0.04,0},{0.1,0}  nobg  z=19  text=""  font=GothamSSm/700  scaled  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,0},{1,0}  pos={0,0},{0,0}  nobg  z=20  img=rbxassetid://97817984032832
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          BoolValue "Theme"  Value=False
+      Frame "About"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+        Frame "Info"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=11
+          TextButton "Take"  size={0.74,0},{0.13,0}  pos={0,0},{0.87,0}  bg=#008bcb@0.1  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=17  text="Take for FREE"  font=SourceSansPro/600  scaled  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0.22,0},{0.2,0}  pos={0.78,0},{0.83,0}  nobg  z=11  img=http://www.roblox.com/asset/?id=4513150332
+          TextLabel "m1"  size={0.75,0},{0.08,0}  pos={0.24,0},{0,0}  nobg  z=17  text="Hi there, PlayerName!"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "m3"  size={1,0},{0.06,0}  pos={0,0},{0.24,0}  nobg  z=17  text="HD Admin is powered by Nanoblox & ForeverHD"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "m2RankName"  size={0.42,0},{0.07,0}  pos={0.56,0},{0.09,0}  nobg  z=17  text="'Admin'"  font=SourceSansPro/700  scaled  tc=#ffffff
+          ImageLabel "PlayerImage"  size={0.2,0},{0.2,0}  pos={0,0},{0,0}  bg=#afafaf@0.5  z=11
+          TextLabel "m4"  size={1,0},{0.07,0}  pos={0,0},{0.305,0}  nobg  z=17  text="Get in contact at:"  font=SourceSansPro/600  scaled  tc=#ffffff
+          TextLabel "m2"  size={0.8,0},{0.07,0}  pos={0.24,0},{0.09,0}  nobg  z=17  text="Your rank is:"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "NewDisc"  size={1,0},{0.12,0}  pos={0,0},{0.67,0}  HIDDEN  bg=#4b4b4b@0.5  z=11
+            ImageLabel "Icon"  size={0.12,0},{1,0}  pos={0,0},{0,0}  nobg  z=13  img=http://www.roblox.com/asset/?id=4144374470
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=17  text="Studio Oblivious"  font=SourceSansPro/600  scaled  tc=#c99cff
+          Frame "Roblox"  size={1,0},{0.12,0}  pos={0,0},{0.54,0}  bg=#4b4b4b@0.5  z=11
+            ImageLabel "Icon"  size={0.12,0},{1,0}  pos={0,0},{0,0}  bg=#002c42  z=13  img=rbxassetid://96097770483102
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=17  text="ForeverHD"  font=SourceSansPro/600  scaled  tc=#ffffff
+          Frame "Twitter"  size={1,0},{0.12,0}  pos={0,0},{0.41,0}  bg=#4b4b4b@0.5  z=11
+            ImageLabel "Icon"  size={0.12,0},{1,0}  pos={0,0},{0,0}  nobg  z=13  img=rbxassetid://79772446663568
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=17  text="@ForeverHD_"  font=SourceSansPro/600  scaled  tc=#ffffff
+          UIPadding "UIPadding"  PaddingTop={0.04,0}  PaddingBottom={0.05,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+        Frame "NavigateButtons"  size={1,0},{0.095,0}  pos={0,0},{0,0}  HIDDEN  bg=#5e56d5@0.7  z=18
+          TextLabel "TextLabel"  size={0.5,0},{0.475,0}  pos={0.25,0},{0.525,0}  anchor=(0,0.5)  nobg  z=18  text="Navigate"  font=Roboto/400  scaled  tc=#ebf9ff
+          TextButton "Right"  size={-0.15,0},{0.82,0}  pos={0.96,0},{0.1,0}  nobg  z=19  text=""  font=GothamSSm/700  scaled  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  z=20  img=rbxassetid://116208227053009
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          BoolValue "Theme"  Value=False
+          TextButton "Left"  size={0.15,0},{0.82,0}  pos={0.04,0},{0.1,0}  nobg  z=19  text=""  font=GothamSSm/700  scaled  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,0},{1,0}  pos={0,0},{0,0}  nobg  z=20  img=rbxassetid://97817984032832
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ScrollingFrame "Updates"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=19
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          Frame "Template"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25@0.75  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            TextLabel "TextLabel"  size={0.92,0},{0.7,0}  pos={0.04,0},{0.15,0}  nobg  z=18  text="Template"  font=SourceSansPro/400  scaled  tc=#ebebeb
+            TextLabel "New"  size={0.1,0},{0.7,0}  pos={0.04,0},{0.15,0}  HIDDEN  nobg  z=18  text="NEW"  font=SourceSansPro/700  scaled  tc=#00ff00
+        ScrollingFrame "Credits"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=19
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          Frame "Template"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25@0.75  z=18
+            ImageLabel "PlayerImage"  size={0.25,0},{1,0}  pos={0,0},{0,0}  bg=#afafaf@0.5  z=20
+            TextLabel "PlrName"  size={0.65,0},{0.25,0}  pos={0.28,0},{0.04,0}  nobg  z=18  text="ForeverHD"  font=SourceSansPro/700  scaled  tc=#ffffff
+            TextLabel "Desc1"  size={0.65,0},{0.2,0}  pos={0.28,0},{0.3,0}  nobg  z=18  text="> Core Programming"  font=SourceSansPro/400  scaled  tc=#dcdcdc
+            TextLabel "Desc2"  size={0.65,0},{0.2,0}  pos={0.28,0},{0.5,0}  nobg  z=18  text="> UI Design"  font=SourceSansPro/400  scaled  tc=#dcdcdc
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4
+            TextLabel "Desc3"  size={0.65,0},{0.2,0}  pos={0.28,0},{0.7,0}  nobg  z=18  text="> Concept Creation"  font=SourceSansPro/400  scaled  tc=#dcdcdc
+        ScrollingFrame "Details"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=19
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+        Frame "SoonOld"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+          TextLabel "A"  size={0.8,0},{0.04,0}  pos={0.5,0},{0.475,0}  anchor=(0.5,0.5)  nobg  z=17  text="A lot more coming very soon 🙏"  font=Roboto/300  scaled  tc=#ffffff
+          TextLabel "B"  size={0.6,0},{0.035,0}  pos={0.5,0},{0.52,0}  anchor=(0.5,0.5)  nobg  z=17  text="ForeverHD - 21.12.2024"  font=Roboto/300  scaled  tc=#c8c8c8
+        Frame "Soon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=11
+          Frame "Info"  size={0.9,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#1c1f25  z=2001
+            Frame "LinkFrame"  size={1,0},{0.12,0}  pos={0,0},{1,0}  anchor=(0,1)  bg=#000000  z=2003
+              UICorner "UICorner"
+              TextBox "TextBox"  size={0.95,0},{0.35,0}  pos={0.025,1},{0.5,0}  anchor=(0,0.5)  nobg  z=2004  text="devforum.roblox.com/t/updates/3446058"  font=Roboto/400  scaled  tc=#ffffff
+                LocalScript "LocalScript"  -> scripts/StarterGui/HDAdminInterface/MainFrame/Pages/About/Soon/Info/LinkFrame/TextBox/LocalScript.client.lua
+            Frame "MessageFrame"  size={1,0},{0.12,0}  pos={0,0},{0,0}  bg=#ffffff@0.96  z=2003
+              UICorner "UICorner"
+              TextLabel "Message2"  size={0.9,0},{0.375,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2003  text="🚀  <b>View Latest Updates</b>"  font=Roboto/400  scaled  tc=#ffffff
+            Frame "VersionInfo"  size={1,0},{0.12,0}  pos={0,0},{0,0}  bg=#55ff7f@0.95  z=2003
+              UIStroke "UIStroke"  Thickness=1  Color=#55ff7f  Transparency=0  ApplyStrokeMode=0
+              UICorner "UICorner"
+              TextLabel "TextLabel"  size={0.9,0},{0.375,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2003  text="✅  <b>v1.25.1</b> - Your HD Admin is up-to-date!"  font=Roboto/300  scaled  tc=#ffffff
+            Frame "ChartsFrame"  size={1,0},{0.12,0}  pos={0,0},{1,0}  anchor=(0,1)  HIDDEN  bg=#000000  z=2003
+              TextBox "TextBox"  size={0.95,0},{0.35,0}  pos={0.025,1},{0.5,0}  anchor=(0,0.5)  nobg  z=2004  text="roblox.com/games/94572088206087/charts"  font=Roboto/400  scaled  tc=#ffffff
+              UICorner "UICorner"
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      Frame "Boost"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+        ScrollingFrame "Buy"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=10
+          ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  nobg  z=11  img=rbxassetid://75220126736121
+          Frame "Fade"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#000000@0.6  z=12
+          Frame "Banner"  size={1,0},{1,0}  pos={0,0},{0.45,0}  anchor=(0,0.5)  nobg  z=15
+            Frame "Buttons"  size={1,0},{0.23,0}  pos={0,0},{0.92,0}  anchor=(0,1)  nobg  z=18
+              Frame "Gap"  size={0,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#ffffff  z=15
+              Frame "View"  size={0.225,0},{1,0}  pos={0,0},{0,0}  nobg  z=15
+                TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#4d4d4d  z=18  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  UICorner "UICorner"
+                  TextLabel "TextLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=16  text="VIEW"  font=Roboto/700  scaled  tc=#dcdcdc
+                    UIStroke "UIStroke"  Thickness=1.5  Color=#191919  Transparency=0  ApplyStrokeMode=0
+                ImageLabel "Blur"  size={1.2,0},{1.4,0}  pos={-0.1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  img=rbxassetid://78597139336441  imgT=0.4
+              Frame "Unlocked"  size={0.33,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=15
+                ImageLabel "Blur"  size={1.2,0},{1.4,0}  pos={-0.1,0},{0.5,0}  anchor=(0,0.5)  nobg  z=15  img=rbxassetid://78597139336441  imgT=0.4
+                TextButton "TextButton"  size={1,0},{1,0}  pos={0,0},{0,0}  bg=#175930  z=19  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                  UICorner "UICorner"
+                  TextLabel "TextLabel"  size={1,0},{0.5,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=16  text="UNLOCKED"  font=Roboto/700  scaled  tc=#dcdcdc
+                    UIStroke "UIStroke"  Thickness=1.5  Color=#191919  Transparency=0  ApplyStrokeMode=0
+              TextButton "Unlock"  size={0.33,0},{1,0}  pos={0,0},{0,0}  anchor=(0,0.5)  bg=#207b44  z=15  text=""  font=SourceSansPro/400  ts=14  tc=#000000
+                TextLabel "TextLabel"  size={0.5,0},{0.55,0}  pos={0.49,0},{0.5,0}  anchor=(0,0.5)  nobg  z=16  text="599"  font=Roboto/700  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=1.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                ImageLabel "Icon"  size={1,0},{0.75,0}  pos={0.24,0},{0.5,0}  anchor=(0,0.5)  nobg  z=16  img=rbxassetid://114779090736841
+                  UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                TextLabel "Discount"  size={0.6,0},{0.55,0}  pos={0.48,0},{1.42,0}  anchor=(0,0.5)  HIDDEN  nobg  z=25  text="599"  font=Roboto/700  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=1.8  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                  ImageLabel "Icon"  size={1,0},{1.3,0}  pos={-0.02,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://114779090736841
+                    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                  Frame "Line"  size={1,0},{0.11,0}  pos={-0.4,0},{0.4,0}  bg=#ff491c  rot=-8
+                UICorner "UICorner"
+                UIStroke "UIStroke"  Thickness=2  Color=#ffffff  Transparency=0.3  ApplyStrokeMode=1
+                  UIGradient "UIGradient"  rot=99  Color=[0:#00ffa2 1:#f237ff]  Rotation=99  Transparency=[0:0 1:0]
+                    LocalScript "LocalScript"  -> scripts/StarterGui/HDAdminInterface/MainFrame/Pages/Boost/Buy/Banner/Buttons/Unlock/UIStroke/UIGradient/LocalScript.client.lua
+              UIListLayout "UIListLayout"  FillDirection=0  Padding={0.04,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+            Frame "Labels"  size={0.38,0},{0.55,0}  pos={0.725,0},{0.05,0}  anchor=(1,0)  nobg  z=17
+              UIListLayout "UIListLayout"  FillDirection=1  Padding={0.15,0}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+              Frame "Label1"  size={1,0},{0.41,0}  pos={0,0},{0,0}  nobg
+                TextLabel "TextLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=18  text="Permanently unlock    50+ chat commands"  font=HighwayGothic/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.3  ApplyStrokeMode=0
+                  ImageLabel "Icon"  size={1,0},{1,0}  pos={-0.04,0},{0.5,0}  anchor=(1,0.5)  nobg  z=16  img=rbxassetid://131325014231561
+                    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                ImageLabel "Blur"  size={1.4,0},{1.3,0}  pos={-0.35,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  img=rbxassetid://78597139336441  imgT=0.4
+              Frame "Label2"  size={1,0},{0.41,0}  pos={0,0},{0,0}  nobg
+                ImageLabel "Blur"  size={1.4,0},{1.3,0}  pos={-0.35,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  img=rbxassetid://78597139336441  imgT=0.4
+                TextLabel "TextLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=17  text="Use in 1000+ games on Roblox"  font=HighwayGothic/400  scaled  tc=#ffffff
+                  UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.3  ApplyStrokeMode=0
+                  ImageLabel "Icon"  size={1,0},{1,0}  pos={-0.035,0},{0.5,0}  anchor=(1,0.5)  nobg  z=16  img=rbxassetid://101312736458079
+                    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+                    UIScale "UIScale"  Scale=1.2
+            Frame "Viewport"  size={0.32,0},{0.75,0}  pos={0.035,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=18
+              ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=14  img=rbxassetid://118153553722850
+            Frame "Fade"  size={1,0},{1.2,0}  pos={0,0},{0.5,0}  anchor=(0,0.5)  bg=#000000@0.45  z=16
+              Frame "Discount"  size={1,0},{0.2,0}  pos={0.5,0},{-0,0}  anchor=(0.5,1)  HIDDEN  bg=#c5320d@0.1  z=30
+                TextLabel "Counter"  size={0.45,0},{0.65,0}  pos={1,0},{0.475,0}  anchor=(1,0.5)  nobg  z=31  text="<b>29:59</b>"  font=Oswald/400  scaled  tc=#e1e1e1
+                  UIStroke "UIStroke"  Thickness=1.25  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                TextLabel "Message"  size={0.53,0},{0.65,0}  pos={0,0},{0.475,0}  anchor=(0,0.5)  nobg  z=31  text="20% OFF:"  font=Oswald/700  scaled  tc=#ffd3d3
+                  UIStroke "UIStroke"  Thickness=1.25  Color=#000000  Transparency=0  ApplyStrokeMode=0
+                UICorner "UICorner"
+            Frame "LabelsThanks"  size={0.7,0},{0.4,0}  pos={0.915,0},{1.3,0}  anchor=(1,0)  nobg  z=17
+              Frame "Label2"  size={1,0},{0.41,0}  pos={0,0},{0,0}  nobg
+                TextLabel "TextLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=18  text="❤️‍    30% goes to supporting the panel and ‎‎‎‎‎‎‎‎ㅤ‎‎‎‎‎‎‎..."  font=HighwayGothic/400  scaled  tc=#d6d6d6
+                  UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.55  ApplyStrokeMode=0
+                ImageLabel "Blur"  size={1.05,0},{1.3,0}  pos={-0.11,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  img=rbxassetid://78597139336441  imgT=0.3
+              UIListLayout "UIListLayout"  FillDirection=1  Padding={0.15,0}  HorizontalAlignment=2  VerticalAlignment=1  SortOrder=2
+              Frame "Label1"  size={1,0},{0.41,0}  pos={0,0},{0,0}  nobg
+                ImageLabel "Blur"  size={0.9,0},{1.3,0}  pos={-0.11,0},{0.5,0}  anchor=(0,0.5)  nobg  z=17  img=rbxassetid://78597139336441  imgT=0.3
+                TextLabel "TextLabel"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=17  text="⭐    40% of your purchase goes to the                       ..."  font=HighwayGothic/400  scaled  tc=#d6d6d6
+                  UIStroke "UIStroke"  Thickness=1  Color=#000000  Transparency=0.55  ApplyStrokeMode=0
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.25
+      Frame "Revenue"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=11
+        Frame "Info"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=11
+          TextButton "Take"  size={0.74,0},{0.13,0}  pos={0,0},{0.87,0}  bg=#008bcb@0.1  z=17  text=""  font=Zekton/400  ts=16  tc=#000000
+            BoolValue "Theme"  Value=True
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=17  text="Take for FREE"  font=SourceSansPro/600  scaled  tc=#ffffff
+          ImageLabel "ImageLabel"  size={0.22,0},{0.2,0}  pos={0.78,0},{0.83,0}  nobg  z=11  img=http://www.roblox.com/asset/?id=4513150332
+          TextLabel "m1"  size={0.75,0},{0.08,0}  pos={0.24,0},{0,0}  nobg  z=17  text="Hi there, PlayerName!"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "m3"  size={1,0},{0.06,0}  pos={0,0},{0.24,0}  nobg  z=17  text="HD Admin is powered by Nanoblox & ForeverHD"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "m2RankName"  size={0.42,0},{0.07,0}  pos={0.56,0},{0.09,0}  nobg  z=17  text="'Admin'"  font=SourceSansPro/700  scaled  tc=#ffffff
+          ImageLabel "PlayerImage"  size={0.2,0},{0.2,0}  pos={0,0},{0,0}  bg=#afafaf@0.5  z=11
+          TextLabel "m4"  size={1,0},{0.07,0}  pos={0,0},{0.305,0}  nobg  z=17  text="Get in contact at:"  font=SourceSansPro/600  scaled  tc=#ffffff
+          TextLabel "m2"  size={0.8,0},{0.07,0}  pos={0.24,0},{0.09,0}  nobg  z=17  text="Your rank is:"  font=SourceSansPro/400  scaled  tc=#ffffff
+          Frame "NewDisc"  size={1,0},{0.12,0}  pos={0,0},{0.67,0}  HIDDEN  bg=#4b4b4b@0.5  z=11
+            ImageLabel "Icon"  size={0.12,0},{1,0}  pos={0,0},{0,0}  nobg  z=13  img=http://www.roblox.com/asset/?id=4144374470
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=17  text="Studio Oblivious"  font=SourceSansPro/600  scaled  tc=#c99cff
+          Frame "Roblox"  size={1,0},{0.12,0}  pos={0,0},{0.54,0}  bg=#4b4b4b@0.5  z=11
+            ImageLabel "Icon"  size={0.12,0},{1,0}  pos={0,0},{0,0}  bg=#002c42  z=13  img=rbxassetid://96097770483102
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=17  text="ForeverHD"  font=SourceSansPro/600  scaled  tc=#ffffff
+          Frame "Twitter"  size={1,0},{0.12,0}  pos={0,0},{0.41,0}  bg=#4b4b4b@0.5  z=11
+            ImageLabel "Icon"  size={0.12,0},{1,0}  pos={0,0},{0,0}  nobg  z=13  img=rbxassetid://79772446663568
+            TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=17  text="@ForeverHD_"  font=SourceSansPro/600  scaled  tc=#ffffff
+          UIPadding "UIPadding"  PaddingTop={0.04,0}  PaddingBottom={0.05,0}  PaddingLeft={0.04,0}  PaddingRight={0.04,0}
+        Frame "NavigateButtons"  size={1,0},{0.095,0}  pos={0,0},{0,0}  HIDDEN  bg=#5e56d5@0.7  z=18
+          TextLabel "TextLabel"  size={0.5,0},{0.475,0}  pos={0.25,0},{0.525,0}  anchor=(0,0.5)  nobg  z=18  text="Navigate"  font=Roboto/400  scaled  tc=#ebf9ff
+          TextButton "Right"  size={-0.15,0},{0.82,0}  pos={0.96,0},{0.1,0}  nobg  z=19  text=""  font=GothamSSm/700  scaled  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,0},{1,0}  pos={1,0},{0,0}  anchor=(1,0)  nobg  z=20  img=rbxassetid://116208227053009
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextButton "Left"  size={0.15,0},{0.82,0}  pos={0.04,0},{0.1,0}  nobg  z=19  text=""  font=GothamSSm/700  scaled  tc=#ffffff
+            ImageLabel "ImageLabel"  size={0,0},{1,0}  pos={0,0},{0,0}  nobg  z=20  img=rbxassetid://97817984032832
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          BoolValue "Theme"  Value=False
+        ScrollingFrame "Updates"  size={1,0},{0.905,0}  pos={0,0},{0.095,0}  HIDDEN  nobg  z=19
+          UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=0
+          Frame "Template"  size={1,0},{0,0}  pos={0,0},{0,0}  bg=#1c1f25@0.75  z=18
+            UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=12
+            TextLabel "TextLabel"  size={0.92,0},{0.7,0}  pos={0.04,0},{0.15,0}  nobg  z=18  text="Template"  font=SourceSansPro/400  scaled  tc=#ebebeb
+            TextLabel "New"  size={0.1,0},{0.7,0}  pos={0.04,0},{0.15,0}  HIDDEN  nobg  z=18  text="NEW"  font=SourceSansPro/700  scaled  tc=#00ff00
+        Frame "Soon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=11
+          TextLabel "A"  size={0.9,0},{0.04,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=17  text="Sales & Earnings data, and more, coming 2025 📈"  font=Roboto/300  scaled  tc=#ffffff
+    UICorner "UICorner"
+    TextButton "DragBar"  size={1,0},{0.1,0}  pos={0,0},{0,0}  bg=#5e56d5  z=26  text=""  font=Zekton/400  ts=16  tc=#000000
+      Frame "Left"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        TextButton "Back"  size={0.1,0},{0.8,0}  pos={0.015,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextButton "BackOverride"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=30  text=""  font=Zekton/400  ts=16  tc=#000000
+          ImageLabel "ImageLabel"  size={1,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=28  img=rbxassetid://140426767146884
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        TextLabel "Title"  size={0.6,0},{0.45,0}  pos={0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=26  text="Dashboard"  font=Roboto/400  scaled  tc=#ffffff
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.01,0}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+        Frame "Gap1"  size={0.01,0},{1,0}  pos={0,0},{0,0}  nobg
+        Frame "Gap2"  size={0.025,0},{1,0}  pos={0,0},{0,0}  nobg
+        TextButton "Nanoblox"  size={0.1,0},{0.8,0}  pos={0.015,0},{0.5,0}  anchor=(0,0.5)  HIDDEN  nobg  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          ImageLabel "ImageLabel"  size={1,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=28  img=rbxassetid://90888779036359
+      Frame "Right"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+        TextButton "Close"  size={0.1,0},{0.7,0}  pos={0.015,0},{0.5,0}  anchor=(0,0.5)  bg=#000000@0.55  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.52,0},{0.48,0}  anchor=(0.5,0.5)  nobg  z=27  text="x"  font=Nunito/400  scaled  tc=#ffffff
+        TextButton "ToggleCmdbar"  size={0.1,0},{0.7,0}  pos={0.015,0},{0.5,0}  anchor=(0,0.5)  bg=#000000@0.55  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          ImageLabel "ImageLabel"  size={1,0},{0.45,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://133947070968372
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        Frame "Gap1"  size={0.006,0},{1,0}  pos={0,0},{0,0}  nobg
+        TextButton "Minimise"  size={0.1,0},{0.7,0}  pos={0.015,0},{0.5,0}  anchor=(0,0.5)  bg=#000000@0.55  z=27  text=""  font=Zekton/400  ts=16  tc=#000000
+          UICorner "UICorner"
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+          TextLabel "TextLabel"  size={0.7,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=27  text="-"  font=Nunito/400  scaled  tc=#ffffff
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=2  VerticalAlignment=0  SortOrder=2
+      BoolValue "Theme"  Value=False
+    TextButton "Warnings"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  bg=#000000@0.3  z=30  text="Button"  font=SourceSansPro/400  ts=14  tc=#000000
+      ScrollingFrame "BuyFrame"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  HIDDEN  bg=#464646  z=30
+        ImageLabel "ProductImage"  size={0.6,0},{0.3,0}  pos={0.2,0},{0.14,0}  nobg  z=31
+        TextLabel "ProductName"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="ProductName"  font=SourceSansPro/700  scaled  tc=#dcdcdc
+        TextButton "CloseX"  size={0.15,0},{0.12,0}  pos={0.85,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=SourceSansPro/700  scaled  tc=#e1e1e1
+        TextButton "MainButton"  size={1,0},{0.15,0}  pos={0,0},{0.78,0}  bg=#cb0000@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="UNLOCK"  font=SourceSansPro/600  scaled  tc=#ffffff
+          TextLabel "Rbx"  size={0.1,0},{0.45,0}  pos={0,0},{1,0}  bg=#006400@0.2  z=33  text="R$"  font=SourceSansPro/600  scaled  tc=#00ff00
+          TextLabel "Price"  size={1,0},{0.45,0}  pos={0,0},{1,0}  bg=#91f3b5@0.1  z=32  text="Price"  font=Arial/700  scaled  tc=#007d00
+          StringValue "ProductType"  Value="Gamepass"
+          NumberValue "ProductId"  Value=4.58e+06
+          BoolValue "Theme"  Value=True
+        TextLabel "InGame"  size={0.8,0},{0.065,0}  pos={0.1,0},{0.62,0}  nobg  z=31  text="In the game:"  font=SourceSansPro/400  scaled  tc=#dcdcdc
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0.9,0}  nobg  z=31  text="GameName"  font=GothamSSm/700  scaled  tc=#00ff00
+        TextLabel "PurchaseToUnlock"  size={0.8,0},{0.065,0}  pos={0.1,0},{0.47,0}  nobg  z=31  text="Purchase to unlock the rank:"  font=SourceSansPro/400  scaled  tc=#dcdcdc
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0.9,0}  nobg  z=31  text="RankName"  font=GothamSSm/700  scaled  tc=#00ff00
+      ScrollingFrame "OldLoader"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  HIDDEN  bg=#464646  z=30
+        ImageLabel "ProductImage"  size={0.6,0},{0.3,0}  pos={0.2,0},{0.14,0}  nobg  z=31
+        TextLabel "Title"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="WARNING"  font=SourceSansPro/700  scaled  tc=#dcdcdc
+        TextButton "CloseX"  size={0.15,0},{0.12,0}  pos={0.85,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=SourceSansPro/700  scaled  tc=#e1e1e1
+        TextLabel "Desc"  size={0.9,0},{0.4,0}  pos={0.05,0},{0.17,0}  nobg  z=31  text="You're using an outdated HD Admin Loader! Update your loader..."  font=SourceSansPro/700  scaled  tc=#dcdcdc
+          UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=18  MinTextSize=10
+        TextLabel "Desc2"  size={0.9,0},{0.35,0}  pos={0.05,0},{0.6,0}  nobg  z=31  text="To update your loader, open up Studio > Toolbox > Models > I..."  font=SourceSansPro/400  scaled  tc=#dcdcdc
+          UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=18  MinTextSize=10
+      ScrollingFrame "PermRank"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  HIDDEN  bg=#464646  z=30
+        ImageLabel "PlrImage"  size={0.6,0},{0.3,0}  pos={0.2,0},{0.14,0}  nobg  z=31
+        TextLabel "PlrName"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="PlayerName"  font=SourceSansPro/700  scaled  tc=#dcdcdc
+        TextButton "CloseX"  size={0.15,0},{0.12,0}  pos={0.85,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=SourceSansPro/700  scaled  tc=#e1e1e1
+        TextButton "MainButton"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  bg=#cb0000@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="UNRANK"  font=SourceSansPro/600  scaled  tc=#ffffff
+        TextButton "LoadingButton"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  HIDDEN  bg=#cb0000@0.5  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="Loading..."  font=SourceSansPro/600  scaled  tc=#ffffff
+          BoolValue "Theme"  Value=True
+        TextLabel "RankedBy"  size={0.9,0},{0.065,0}  pos={0.05,0},{0.475,0}  nobg  z=31  text="Ranked By:"  font=SourceSansPro/600  scaled  tc=#c8c8c8
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0.9,0}  nobg  z=31  text="Empty"  font=SourceSansPro/400  scaled  tc=#00ff00
+            UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=18  MinTextSize=1
+      ScrollingFrame "Teleport"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  bg=#464646  z=30
+        ImageLabel "ImageLabel"  size={0.8,0},{0.4,0}  pos={0.1,0},{0.14,0}  nobg  z=31
+        TextLabel "Title"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="Teleport"  font=SourceSansPro/700  scaled  tc=#dcdcdc
+        TextButton "CloseX"  size={0.15,0},{0.12,0}  pos={0.85,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=SourceSansPro/700  scaled  tc=#e1e1e1
+        TextButton "MainButton"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  bg=#cb0000@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="TELEPORT"  font=SourceSansPro/600  scaled  tc=#ffffff
+          IntValue "PlaceId"  Value=0
+          BoolValue "Theme"  Value=True
+        TextButton "LoadingButton"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  HIDDEN  bg=#cb0000@0.5  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="Teleporting..."  font=SourceSansPro/600  scaled  tc=#ffffff
+        TextLabel "TeleportTo"  size={0.9,0},{0.08,0}  pos={0.05,0},{0.575,0}  nobg  z=31  text="Teleport to"  font=SourceSansPro/600  scaled  tc=#c8c8c8
+          TextLabel "TextLabel"  size={1,0},{1.5,0}  pos={0,0},{0.9,0}  nobg  z=31  text="Empty"  font=SourceSansPro/400  scaled  tc=#00ff00
+      ScrollingFrame "UnBan"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  HIDDEN  bg=#464646  z=30
+        ImageLabel "PlrImage"  size={0.6,0},{0.3,0}  pos={0.2,0},{0.14,0}  nobg  z=31
+        TextLabel "PlrName"  size={0.6,0},{0.09,0}  pos={0.2,0},{0.03,0}  nobg  z=31  text="PlayerName"  font=SourceSansPro/700  scaled  tc=#dcdcdc
+        TextButton "CloseX"  size={0.15,0},{0.12,0}  pos={0.85,0},{0,0}  bg=#aa4646@0.2  z=31  text=""  font=Arial/700  ts=18  tc=#ffffff
+          TextLabel "TextLabel"  size={1,0},{0.7,0}  pos={0,0},{0.15,0}  nobg  z=31  text="X"  font=SourceSansPro/700  scaled  tc=#e1e1e1
+        TextButton "MainButton"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  bg=#cb0000@0.1  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="UNBAN"  font=SourceSansPro/600  scaled  tc=#ffffff
+        TextLabel "Reason"  size={0.9,0},{0.065,0}  pos={0.05,0},{0.62,0}  nobg  z=31  text="Ban Reason:"  font=SourceSansPro/600  scaled  tc=#c8c8c8
+          TextLabel "TextLabel"  size={1,0},{2.5,0}  pos={0,0},{0.9,0}  nobg  z=31  text="Empty"  font=SourceSansPro/400  scaled  tc=#00ff00
+            UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=18  MinTextSize=1
+        TextButton "LoadingButton"  size={1,0},{0.15,0}  pos={0,0},{0.85,0}  HIDDEN  bg=#cb0000@0.5  z=31  text=""  font=Zekton/400  ts=16  tc=#000000
+          BoolValue "Theme"  Value=True
+          TextLabel "TextLabel"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=32  text="Loading..."  font=SourceSansPro/600  scaled  tc=#ffffff
+        TextLabel "BannedBy"  size={0.9,0},{0.065,0}  pos={0.05,0},{0.475,0}  nobg  z=31  text="Banned By:"  font=SourceSansPro/600  scaled  tc=#c8c8c8
+          TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0.9,0}  nobg  z=31  text="Empty"  font=SourceSansPro/400  scaled  tc=#00ff00
+            UITextSizeConstraint "UITextSizeConstraint"  MaxTextSize=18  MinTextSize=1
+
+==== StarterGui.ShiftLockButton (Put in StarterGui)  (3 descendants)
+ScreenGui "ShiftLockButton (Put in StarterGui)"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageButton "ImageButton"  size={0.0636,0},{0.0661,0}  pos={0.0815,0},{0.44,0}  anchor=(1,1)  nobg  img=rbxasset://textures/ui/mouseLock_off@2x.png
+    LocalScript "ShiftGUI"  -> scripts/StarterGui/ShiftLockButton (Put in StarterGui)/ImageButton/ShiftGUI.client.lua
+  LocalScript "LocalScript"  -> scripts/StarterGui/ShiftLockButton (Put in StarterGui)/LocalScript.client.lua
+
+==== Workspace.Moving Platform (open for settings).DestinationProcessed.NumberText  (1 descendants)
+SurfaceGui "NumberText"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="1"  font=SourceSansPro/400  scaled  tc=#000000
+
+==== Workspace.Moving Platform (open for settings).DestinationProcessed.NumberText  (1 descendants)
+SurfaceGui "NumberText"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="1"  font=SourceSansPro/400  scaled  tc=#000000
+
+==== Workspace.Part.SurfaceGui  (3 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={0,600},{0,600}  pos={0,0},{0,0}  nobg  text="<font color="rgb(133,0,255)">C</font><font color="rgb(159,0,..."  font=FredokaOne/700  ts=45  tc=#000000
+    Script "Script"  -> scripts/Workspace/Part~8/SurfaceGui/TextLabel/Script.server.lua
+    UIStroke "UIStroke"  Thickness=5.5  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== Workspace.AdminBoard.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="🏆 Top 10 Playtime 🏆\n\n1. L0STVALYSSA - 77h 16m\n2. Sellingp..."  font=SourceSansPro/700  scaled  tc=#ffffff
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "NumberText" under Workspace: 24 copies
+SurfaceGui "SurfaceGui" under Workspace: 3 copies

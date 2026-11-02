@@ -1,0 +1,20 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMPC0Rpc3BsYXlOYW1lC0Rlc2NyaXB0aW9uB0NyZWRpdHMLUmVuZGVySW1hZ2UFUHJpY2UHQXNzZXRJRANTRlgNU0ZYUHJvcGVydGllcwZHaG91bHMTR29kIEkgbG92ZSBGTkYgZHVkZRJNYWRlIEJ5OiByeW9rYXlhcnUbcmJ4YXNzZXRpZDovLzk2MjU4Nzk2NTI5MDcyG3JieGFzc2V0aWQ6Ly83NTgwMjE5MjI4OTMwMhxyYnhhc3NldGlkOi8vMTA2MDgxMDYwNzI5NTUwBkxvb3BlZAABAwAAAQIAHqMAAADiAAgAbwEJADABAFcAAAAAbwEKADABAOIBAAAAbwELADABAC8CAAAAbwEMADABAHIDAAAAjAHoAzABACQEAAAAbwENADABABgFAAAAbwEOADABAGEGAAAA4gEQAKkCAQAwAgG1DwAAADABAMUHAAAAggACABEDAQMCAwMDBAMFAwYDBwMIBQgAAQIDBAUGBwMJAwoDCwMMAw0DDgMPBQEPAAEAARgAAQMAAAEAAAEAAAEAAAEAAAMAAAEAAAEBAAD/AAYBAAAAAACOaesIJKhj0rytgZyDs/SYEB69Re9kFepukEQVER7rsLn/iSK29XS3
+
+-- Decompiled by Krnl
+
+local v1 = {
+	["DisplayName"] = "Ghouls",
+	["Description"] = "God I love FNF dude",
+	["Credits"] = "Made By: ryokayaru",
+	["RenderImage"] = "rbxassetid://96258796529072",
+	["Price"] = 1000,
+	["AssetID"] = "rbxassetid://88693174182554",
+	["SFX"] = "rbxassetid://106081060729550",
+	["SFXProperties"] = {
+		["Looped"] = true
+	}
+}
+return v1

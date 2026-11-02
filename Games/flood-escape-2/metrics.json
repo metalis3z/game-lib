@@ -1,0 +1,510 @@
+{
+ "slug": "flood-escape-2",
+ "title": "Flood Escape 2",
+ "genre": "obby / survival (rising water maps)",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 964,
+  "screen_guis": 14,
+  "classes": {
+   "Frame": 402,
+   "ImageLabel": 283,
+   "UIGradient": 255,
+   "TextLabel": 194,
+   "UICorner": 157,
+   "TextButton": 56,
+   "UIPadding": 39,
+   "UIListLayout": 37,
+   "LocalScript": 30,
+   "ImageButton": 22,
+   "ScreenGui": 14,
+   "UIScale": 14,
+   "UIGridLayout": 12,
+   "BillboardGui": 10,
+   "BindableEvent": 7,
+   "BoolValue": 6,
+   "NumberValue": 5,
+   "SurfaceGui": 5,
+   "ScrollingFrame": 4,
+   "ObjectValue": 4,
+   "Decal": 3,
+   "StringValue": 3,
+   "ViewportFrame": 2,
+   "UIStroke": 2,
+   "UISizeConstraint": 2,
+   "Folder": 1,
+   "UIAspectRatioConstraint": 1,
+   "TextBox": 1,
+   "BindableFunction": 1,
+   "Sound": 1
+  },
+  "fonts": {
+   "Ubuntu Regular": 120,
+   "LegacyArial Regular": 100,
+   "Roboto Regular": 17,
+   "Ubuntu Bold": 10,
+   "RobotoMono Regular": 2,
+   "Roboto Medium": 1,
+   "SourceSansPro Regular": 1
+  },
+  "background_colors": {
+   "#000000": 93,
+   "#161f28": 38,
+   "#2c3e50": 25,
+   "#3f3f3f": 8,
+   "#9b59b6": 8,
+   "#2980b9": 8,
+   "#f1db80": 8,
+   "#3498db": 7,
+   "#ffffff": 7,
+   "#e74c3c": 6,
+   "#e67e22": 6,
+   "#1b2a35": 5,
+   "#55ff7f": 4,
+   "#00aaff": 4,
+   "#95a5a6": 4,
+   "#27ae60": 4
+  },
+  "text_colors": {
+   "#ffffff": 179,
+   "#000000": 27,
+   "#f1db80": 8,
+   "#00cc71": 7,
+   "#606060": 6,
+   "#efefef": 6,
+   "#f0da7e": 4,
+   "#786d3f": 2,
+   "#86dcaa": 2,
+   "#f9f9f9": 2
+  },
+  "stroke_colors": {
+   "#000000": 1,
+   "#ffffff": 1
+  },
+  "image_tints": {
+   "#000000": 76,
+   "#161f28": 28,
+   "#f1db80": 11,
+   "#ffff00": 9,
+   "#00ff08": 9,
+   "#7f8c8d": 8,
+   "#606060": 6,
+   "#dadada": 4,
+   "#55ff7f": 4,
+   "#202020": 4
+  },
+  "corner_radius": {
+   "{0.0,3}": 94,
+   "{0.0,8}": 28,
+   "{0.25,0}": 10,
+   "{0.125,0}": 8,
+   "{1.0,0}": 6,
+   "{0.0,50}": 4,
+   "{0.03,0}": 4,
+   "{0.2,0}": 1,
+   "{0.06,0}": 1,
+   "{0.0,4}": 1
+  },
+  "stroke_thickness": {
+   "2.0 px": 2
+  },
+  "text_size_px": {
+   "16": 12,
+   "14": 9,
+   "12": 3,
+   "25": 2,
+   "24": 1
+  },
+  "text_scaled_share": 0.89,
+  "size_mode": {
+   "scale": 883,
+   "mixed": 53,
+   "offset": 9,
+   "zero": 19
+  },
+  "unique_images": 49,
+  "per_100_objects": {
+   "UICorner": 16.3,
+   "UIStroke": 0.2,
+   "UIGradient": 26.5,
+   "UIAspectRatioConstraint": 0.1,
+   "UIListLayout": 3.8,
+   "UIGridLayout": 1.2,
+   "UIPadding": 4.0,
+   "UIScale": 1.5,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 29.4,
+   "ImageButton": 2.3,
+   "TextButton": 5.8
+  }
+ },
+ "map": {
+  "instances": 2425,
+  "parts": 815,
+  "meshparts": 0,
+  "unions": 11,
+  "anchored_share": 0.99,
+  "textures_decals": 202,
+  "surface_appearances": 0,
+  "lights": 11,
+  "emitters": 4,
+  "beams_trails": 55,
+  "sounds": 1,
+  "prompts": 0,
+  "world_guis": 28,
+  "humanoids": 4,
+  "materials": {
+   "Neon": 225,
+   "Cobblestone": 116,
+   "DiamondPlate": 98,
+   "Plastic": 70,
+   "WoodPlanks": 61,
+   "SmoothPlastic": 52,
+   "Metal": 49,
+   "Grass": 32,
+   "Marble": 25,
+   "Brick": 25,
+   "Concrete": 21,
+   "Fabric": 16
+  },
+  "part_colors": {
+   "#aba89e": 100,
+   "#1b2a35": 80,
+   "#04afec": 60,
+   "#a3a2a5": 58,
+   "#ffd27e": 46,
+   "#5b5d69": 41,
+   "#f8f8f8": 39,
+   "#000000": 37,
+   "#6e99ca": 37,
+   "#00ffff": 35,
+   "#6c584b": 34,
+   "#111111": 30,
+   "#482605": 30,
+   "#aa5500": 21
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Lobby",
+    "parts": 814,
+    "instances": 2406,
+    "meshparts": 0,
+    "emitters": 59,
+    "lights": 11,
+    "guis": 651,
+    "sounds": 1,
+    "size": [
+     148,
+     143,
+     236
+    ]
+   }
+  ],
+  "extent_studs": [
+   99,
+   103,
+   200
+  ],
+  "extent_all_studs": [
+   148,
+   188,
+   236
+  ],
+  "top_classes": {
+   "Part": 561,
+   "TextLabel": 358,
+   "WedgePart": 224,
+   "Frame": 204,
+   "Texture": 193,
+   "Weld": 131,
+   "UICorner": 128,
+   "UIGradient": 117,
+   "Attachment": 94,
+   "Model": 58,
+   "Beam": 55,
+   "ImageLabel": 52,
+   "SpecialMesh": 30,
+   "SurfaceGui": 28,
+   "Motor6D": 24
+  }
+ },
+ "lighting": {
+  "Ambient": "#7f7f7f",
+  "Brightness": 1.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.25,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#bfbfbf",
+  "FogEnd": 100000.0,
+  "FogStart": 100.0,
+  "GeographicLatitude": 41.733,
+  "GlobalShadows": true,
+  "LightingStyle": 1,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#7f7f7f",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.5,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "14:00:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "BlurEffect",
+   "name": "Fade_Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Fade_Blur",
+    "Size": 56.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Fade_ColorCorrection",
+   "props": {
+    "Brightness": -1.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Fade_ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Notification_Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Notification_Blur",
+    "Size": 56.0
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Water_Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Water_Blur",
+    "Size": 4.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Water_ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Water_ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#00aaff"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "Water_DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "FarIntensity": 1.0,
+    "FocusDistance": 16.0,
+    "InFocusRadius": 0.0,
+    "Name": "Water_DepthOfField",
+    "NearIntensity": 0.0
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Water_Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Intensity": 0.2,
+    "Name": "Water_Bloom",
+    "Size": 56.0,
+    "Threshold": 0.4
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Standard_Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "Standard_Blur",
+    "Size": 1.5
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "Standard_ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "Standard_ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Standard_Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 0.2,
+    "Name": "Standard_Bloom",
+    "Size": 16.0,
+    "Threshold": 0.8
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -50000.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "Exe6": "q({fu@g*1zS,-zGLk*yDY_;0O-S+"
+  }
+ },
+ "packs": {
+  "ui": 24,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 3,
+  "lighting": 1,
+  "model": 921,
+  "vfx": 155,
+  "parts": 201,
+  "other": 7
+ },
+ "coverage": {
+  "instances": 60074,
+  "packed": 59876,
+  "services": 51,
+  "code_or_empty_folders_not_packed": 144,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 9,
+ "sound_ids": 64,
+ "files": 1119,
+ "kb": 10769,
+ "category": "Obby",
+ "source_file": "Flood Escape 2 🌊.rbxl"
+}

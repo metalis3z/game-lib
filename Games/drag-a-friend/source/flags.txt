@@ -1,0 +1,126 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/Boards/AssetLoader.server.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Boards/R15Loader/Loader.server.lua lines 11
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI.lua lines 2686,2689
+       loadstring: runs code built from a string
+[HIGH] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/AutoUpdate/AutomaticUpdating.server.lua lines 39
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List.lua lines 19
+       require() with a computed / hidden argument
+[HIGH] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/reverse.spec.lua lines 2
+       require() with a computed / hidden argument
+[HIGH] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/AutoUpdate/AutomaticUpdating.server.lua lines 39
+       require() of an asset id: loads code from the Creator Store at runtime
+[HIGH] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List.lua lines 19
+       require() with a computed / hidden argument
+[HIGH] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/reverse.spec.lua lines 2
+       require() with a computed / hidden argument
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader.server.lua lines 44,47
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI.lua lines 2169,5718
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI.lua lines 137,617,1795,4407,4449,4464
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI.lua lines 1173,1178,1192,3455
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/Rerubi.lua lines 811
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/LocalScriptBase.server.lua lines 8
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core.lua lines 1,177,362,402,1091
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Debug.lua lines 67
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/SupportLibrary.lua lines 441
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/SyncModule.lua lines 1640,1672,1698,1712
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/Kohl's Admin/Loader.server.lua lines 12,15
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/Data.lua lines 384
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/Data/Migrate/KAI.lua lines 23
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Administration.lua lines 354,378
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Moderation.lua lines 871
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/VIP.lua lines 799
+       InsertService:LoadAsset (pulls models at runtime)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core.lua lines 1,177,362,402,1091
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Debug.lua lines 67
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/SupportLibrary.lua lines 441
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/SyncModule.lua lines 1640,1672,1698,1712
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/Kohl's Admin/MainModule/Util/getTexture.lua lines 24
+       InsertService:LoadAsset (pulls models at runtime)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  100000  in scripts/Workspace/Boards/Products.lua
+  106645613603989  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  110848154960799  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  1152457093  in scripts/StarterGui/Playerlist/MainFrame/LeaderboardManager.client.lua
+  129293660  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Extras/Explorer/Explorer/LocalScript.client.lua
+  133292294488871  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  142785488  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/AutoUpdate/AutomaticUpdating.server.lua, scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/AutoUpdate/AutomaticUpdating.server.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core.lua
+  172732271  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client.server.lua, scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua, scripts/Workspace/Kohl's Admin/MainModule/Client/GetKA.lua
+  18966788838  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  3262682654  in scripts/Workspace/Boards/Products.lua
+  3262682655  in scripts/Workspace/Boards/Products.lua
+  3262682656  in scripts/Workspace/Boards/Products.lua
+  3262682657  in scripts/Workspace/Boards/Products.lua
+  3262682658  in scripts/Workspace/Boards/Products.lua
+  3262682659  in scripts/Workspace/Boards/Products.lua
+  3262682660  in scripts/Workspace/Boards/Products.lua
+  3262682661  in scripts/Workspace/Boards/Products.lua
+  3262682664  in scripts/Workspace/Boards/Products.lua
+  3262684288  in scripts/Workspace/Boards/Products.lua
+  3262684584  in scripts/Workspace/Boards/Products.lua
+  3262684585  in scripts/Workspace/Boards/Products.lua
+  3262684586  in scripts/Workspace/Boards/Products.lua
+  3262685506  in scripts/Workspace/Boards/Products.lua
+  3262685507  in scripts/Workspace/Boards/Products.lua
+  3262685509  in scripts/Workspace/Boards/Products.lua
+  3262685510  in scripts/Workspace/Boards/Products.lua
+  5391355  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  5391356  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  5411126  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  92807314389236  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  933582848  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  933980650  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  936146448  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  938480383  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  939618404  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  941006661  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  941076536  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  941162509  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  983235767  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  99317257118206  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+
+Outside URLs in code:
+  http://f3xteam.com/bt/export  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/SyncModule.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/SyncModule.lua
+  http://f3xteam.com/bt/getDecalImageID/  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/SyncModule.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/SyncModule.lua
+  http://f3xteam.com/bt/getFirstMeshData/  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/SyncModule.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/SyncModule.lua
+  http://www.roblox.com/item.aspx?id=227509468  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Region.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Region.lua
+  https://api.kohl.gg/update/{game.GameId}`  in scripts/Workspace/Kohl's Admin/MainModule/Data.lua
+  https://create.roblox.com/store/asset/  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua, scripts/Workspace/Kohl's Admin/MainModule/Client/GetKA.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus.lua
+  https://discord.gg/kohl  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  https://docs.kohl.gg/api/Util  in scripts/Workspace/Kohl's Admin/Addons/ExampleAddon.lua
+  https://eryn.io/gist/3db84579866c099cdd5bb2ff37947cec  in scripts/Workspace/Kohl's Admin/MainModule/Util/Promise.lua
+  https://github.com/F3XTeam/RBX-Try-Library/blob/master/README.md  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Try.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Try.lua
+  https://github.com/RoStrap/Helper#make  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Make.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Make.lua
+  https://github.com/Roblox/roact/issues/259  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createContext.spec.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createContext.spec.lua
+  https://google.com  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/SyncModule.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/SyncModule.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Utility.lua
+  https://reactjs.org/docs/composition-vs-inheritance.html  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.lua
+  https://roblox.com/game-pass/  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  https://roblox.com/game-pass/5391355/  in scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+  https://rostrap.github.io/Libraries/Debug/  in scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Debug.lua, scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Debug.lua

@@ -1,0 +1,1316 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.Client  (43 descendants)
+LocalScript "Client"  -> scripts/StarterGui/Client.client.lua
+  Sound "DealerMusic"
+  Sound "CameraSnap"
+  Sound "Click"
+  Sound "Start"
+  Sound "Countdown"
+  Sound "RaceMusic"
+    EqualizerSoundEffect "Eq"
+  ModuleScript "Slider"  -> scripts/StarterGui/Client/Slider.lua
+  ModuleScript "SliceScale"  -> scripts/StarterGui/Client/SliceScale.lua
+  Sound "Purchase"
+  Folder "Settings"
+  Folder "Cache"
+    NumberValue "DealerMusic"  Value=0
+      NumberValue "PS"  Value=0
+    IntValue "Money"  Value=0
+    StringValue "Chassis"  Value="Cars"
+    StringValue "Menu"  Value="None"
+      StringValue "Last"  Value="None"
+    BoolValue "gamepadActive"  Value=False
+  Folder "Adornments"
+    BillboardGui "_Template"  size={5.9,0},{4.7,0}  Enabled=False  Size={5.9,0},{4.7,0}  StudsOffset=(0,0,0)  MaxDistance=85  AlwaysOnTop=False  Adornee=nil
+      ImageLabel "Background"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+        ImageLabel "Thumbnail"  size={0.4,0},{0.5,0}  pos={-0.2,0},{0.08,0}  nobg  img=rbxassetid://5057999312
+        ImageButton "Buy"  size={0.92,0},{0.25,0}  pos={0.6,0},{0.93,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8285754921  imgcol=#519f19
+          TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=2  text="Buy ---"  font=GothamSSm/400  scaled  tc=#ffffff
+        TextLabel "Desc"  size={0.72,0},{0.5,0}  pos={0.22,0},{0.06,0}  nobg  z=2  text="Description goes here!"  font=GothamSSm/400  scaled  tc=#ffffff
+        ImageLabel "Price"  size={0.88,0},{0.17,0}  pos={0.06,0},{0.61,0}  nobg  z=25  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#363636
+          ImageLabel "Robux"  size={0.108,0},{0.7,0}  pos={0.03,0},{0.15,0}  HIDDEN  nobg  z=2  img=rbxassetid://4653508360
+          TextLabel "Cash"  size={0.1,0},{0.9,0}  pos={0.02,0},{0.05,0}  HIDDEN  nobg  z=2  text="$"  font=HighwayGothic/400  scaled  tc=#ffaa00
+          TextLabel "Price"  size={0.8,0},{0.75,0}  pos={0.96,0},{0.125,0}  anchor=(1,0)  nobg  text="100,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+          ImageLabel "Gift"  size={0.108,0},{0.7,0}  pos={0.03,0},{0.15,0}  HIDDEN  nobg  z=2  img=rbxassetid://6104855022
+        TextLabel "Stock"  size={0.72,0},{0.14,0}  pos={0.22,0},{0.445,0}  HIDDEN  nobg  z=2  text="0 Remaining"  font=GothamSSm/400  scaled  tc=#bbff6c
+    SurfaceGui "_TimerTemp"  Enabled=False  Face=5  PixelsPerStud=40  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+      TextLabel "TimeLeft"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.1,0}  nobg  text="00:00:00:00"  font=Bangers/400  scaled  tc=#ff771d
+    SurfaceGui "_StockTemp"  Enabled=False  Face=5  PixelsPerStud=40  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+      TextLabel "Stock"  size={0.9,0},{0.55,0}  pos={0.05,0},{0.1,0}  nobg  text="10,000"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 0.293:#bbff6c 1:#bbff6c]  Rotation=90  Transparency=[0:0 1:0]
+      TextLabel "Title"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.6,0}  nobg  text="Stock remaining!"  font=GothamSSm/900  scaled  tc=#659bff
+      TextLabel "Out"  size={0.9,0},{0.6,0}  pos={0.05,0},{0.2,0}  HIDDEN  nobg  text="OUT OF STOCK"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=90  Color=[0:#ffffff 0.293:#ff9437 1:#a71c1f]  Rotation=90  Transparency=[0:0 1:0]
+  ImageButton "SettingsTemplate"  size={1,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  img=rbxassetid://3570695787  imgcol=#505050
+    TextLabel "Title"  size={0.85,0},{0.85,0}  pos={0.075,0},{0.075,0}  nobg  z=4  text="Option"  font=SourceSansPro/400  scaled  tc=#ffffff
+  ImageLabel "DealerSpecialTag"  size={1,0},{1,0}  pos={0,0},{0,0}  anchor=(1,1)  HIDDEN  nobg  z=8  img=rbxassetid://4699454450  imgcol=#baa5ff
+
+==== StarterGui.Customization  (136 descendants)
+ScreenGui "Customization"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Runner"  -> scripts/StarterGui/Customization/Runner.client.lua
+    ModuleScript "Dragger"  -> scripts/StarterGui/Customization/Runner/Dragger.lua
+    Sound "Click"
+    Sound "Purchase"
+    ObjectValue "Vehicle"  Value=nil
+  ImageLabel "PurchasePrompt"  size={0.22,0},{0.25,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.78
+    ImageButton "No"  size={0.42,0},{0.18,0}  pos={0.72,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="No"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Yes"  size={0.42,0},{0.18,0}  pos={0.28,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Yes"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Description"  size={0.9,0},{0.33,0}  pos={0.05,0},{0.22,0}  nobg  z=26  text="Are you sure you would like to buy the 2012 Chevyon Camaro B..."  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Price"  size={0.8,0},{0.16,0}  pos={0.1,0},{0.56,0}  nobg  z=26  text="$000,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.05,0}  nobg  z=26  text="Are you sure?"  font=GothamSSm/700  scaled  tc=#ffffff
+    StringValue "Category"  Value=""
+      StringValue "Vehicle"  Value=""
+      StringValue "Item"  Value=""
+      StringValue "Type"  Value=""
+  Frame "Main"  size={0.35,0},{0.99,0}  pos={1,650},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg
+    ImageLabel "Title"  size={1,0},{0.07,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Title"  size={0.9,0},{0.6,0}  pos={0.05,0},{0.2,0}  nobg  z=31  text="Customization"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageButton "Exit"  size={0.5,0},{0.8,0}  pos={-0.26,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=15  img=rbxassetid://8285754921  imgcol=#aa0000
+        ImageLabel "Icon"  size={0.254,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=16  img=rbxassetid://3507921209
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.32,0},{0.15,0}  nobg  z=16  text="Exit"  font=GothamSSm/500  scaled  tc=#ffffff
+      ImageButton "Back"  size={0.18,0},{2.3,0}  pos={-0.1,0},{2.1,0}  anchor=(0.5,0.5)  nobg  z=15  img=rbxassetid://8285754921  imgcol=#505050
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.2,0},{0.15,0}  nobg  z=16  text="<"  font=FredokaOne/400  scaled  tc=#ffffff
+    ImageLabel "Stats"  size={1.5,0},{0.11,0}  pos={1,0},{1,0}  anchor=(1,1)  HIDDEN  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+      Frame "Container"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=30
+        TextLabel "Item"  size={0.475,0},{0.26,0}  pos={0.035,0},{0.08,0}  nobg  z=31  text="Item Name"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "Purchase"  size={0.5,0},{0.38,0}  pos={0.274,0},{0.72,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://8285754921  imgcol=#55aa00
+          TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=32  text="Purchase!"  font=GothamSSm/700  scaled  tc=#ffffff
+        Frame "Format"  size={0.44,0},{0.8,0}  pos={0.535,0},{0.1,0}  nobg  z=30
+          Frame "Stats"  size={1,0},{0.88,0}  pos={0,0},{0.18,0}  HIDDEN  nobg  z=30
+            UIGridLayout "UIGridLayout"  CellSize={0.48,0},{0.26,0}  CellPadding={0.02,0},{0.34,0}  FillDirectionMaxCells=2
+            ImageLabel "Template"  size={0.5,0},{0.32,0}  pos={0.25,0},{0.6,0}  HIDDEN  nobg  z=32  img=rbxassetid://3570695787  imgcol=#2a2a2a
+              TextLabel "Amount"  size={0.9,0},{0.85,0}  pos={0.05,0},{0.075,0}  nobg  z=33  text="+25%"  font=SourceSansPro/400  scaled  tc=#55aa00
+              TextLabel "Title"  size={0.9,0},{0.85,0}  pos={0.05,0},{-0.85,0}  nobg  z=33  text="Acceleration"  font=SourceSansPro/400  scaled  tc=#ffffff
+          TextLabel "Description"  size={1,0},{0.8,0}  pos={0,0},{0.1,0}  nobg  z=31  text="Item description!"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageButton "Preview"  size={1,0},{0.47,0}  pos={0.5,0},{0.77,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=32  img=rbxassetid://8285754921  imgcol=#0073ff
+            TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=32  text="Preview"  font=GothamSSm/700  scaled  tc=#ffffff
+        TextLabel "Price"  size={0.475,0},{0.2,0}  pos={0.035,0},{0.32,0}  nobg  z=31  text="$0,000"  font=GothamSSm/700  scaled  tc=#55aa00
+      TextLabel "NoSelect"  size={0.9,0},{0.2,0}  pos={0.05,0},{0.4,0}  HIDDEN  nobg  z=31  text="No item is selected!"  font=GothamSSm/400  scaled  tc=#ffffff
+    ScrollingFrame "ContentMain"  size={1,0},{0.93,0}  pos={1,0},{0.072,0}  anchor=(1,0)  nobg  z=31
+      UIGridLayout "UIGridLayout"  CellSize={0.475,0},{0.18,0}  CellPadding={0.01,0},{0.002,0}  FillDirectionMaxCells=2
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageButton "Template"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=32  img=rbxassetid://8285754921  imgcol=#505050
+        ImageLabel "Thumbnail"  size={0.5,0},{0.5,0}  pos={0.25,0},{0.25,0}  nobg  z=39  img=rbxassetid://5542203202
+        TextLabel "Item"  size={0.8,0},{0.2,0}  pos={0.1,0},{0.73,0}  nobg  z=40  text="Performance"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageLabel "ScrollBG"  size={0.04,0},{0.933,0}  pos={0.99,0},{0.07,0}  anchor=(0.5,0)  nobg  z=30  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#3d3d3d
+    ImageLabel "GradUp"  size={1.35,0},{0.6,0}  pos={1.25,0},{1.25,0}  anchor=(1,1)  nobg  img=rbxassetid://4506628932  imgcol=#3c3c3c  imgT=0.3
+    ImageLabel "GradDown"  size={1.35,0},{0.6,0}  pos={1.25,0},{-0.25,0}  anchor=(1,0)  nobg  rot=180  img=rbxassetid://4506628932  imgcol=#3c3c3c  imgT=0.3
+    Frame "Content"  size={1,0},{0.93,0}  pos={1,0},{0.072,0}  anchor=(1,0)  HIDDEN  nobg  z=31
+      Frame "Colors"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=5
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.002,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ImageLabel "Wheel"  size={0.96,0},{0.22,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Slider"  size={0.1,0},{0.8,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  bg=#ffffff  z=32  img=rbxassetid://156579757
+            UICorner "UICorner"  CornerRadius={0.4,0}
+            Frame "Slider"  size={1,0},{0,7}  pos={0,0},{0,0}  bg=#000000  z=33
+          ImageLabel "Wheel"  size={0.47,0},{0.78,0}  pos={0.48,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://2849458409
+            ImageLabel "Slider"  size={0.08,0},{0.08,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://5374761400  imgcol=#000000
+            ImageLabel "Clr"  size={1.12,0},{1.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://3570695787
+            ImageLabel "Black"  size={1.03,0},{1.03,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#2a2a2a
+          ImageButton "Reset"  size={0.25,0},{0.15,0}  pos={0.84,0},{0.13,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#aa0000
+            TextLabel "Title"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.1,0}  nobg  z=31  text="Reset"  font=GothamSSm/400  scaled  tc=#fcfcfc
+        ImageLabel "Reflection"  size={0.96,0},{0.09,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.8,0},{0.35,0}  pos={0.05,0},{0.1,0}  nobg  z=31  text="Reflection - <font color="#06bdff">.15</font>"  font=GothamSSm/400  scaled  tc=#ffffff
+          NumberValue "Val"  Value=0
+          Frame "Box"  size={0.92,0},{0.35,0}  pos={0.04,0},{0.5,0}  nobg  z=50
+            ImageLabel "Slider"  size={0.9,0},{0.27,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://3570695787  imgcol=#b2b2b2
+              ImageLabel "Slider"  size={0.07,0},{2.5,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://3570695787  imgcol=#00aaff
+        ImageLabel "Default"  size={0.96,0},{0.575,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Title"  size={0.94,0},{0.065,0}  pos={0.5,0},{0.02,0}  anchor=(0.5,0)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#303030
+            TextLabel "Title"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.1,0}  nobg  z=31  text="Default Colors"  font=GothamSSm/400  scaled  tc=#fcfcfc
+          ScrollingFrame "Content"  size={0.94,0},{0.885,0}  pos={0.03,0},{0.095,0}  nobg  z=31
+            UIGridLayout "UIGridLayout"  CellSize={0.96,0},{0.09,0}  CellPadding={0,0},{0.003,0}  FillDirectionMaxCells=1
+              UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=7.12
+            ImageButton "Template"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=32  img=rbxassetid://5994892792
+        ImageLabel "RGB"  size={0.96,0},{0.11,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.05,0},{0.1,0}  nobg  z=31  text="RGB - (0-255)"  font=GothamSSm/400  scaled  tc=#ffffff
+          ImageButton "Update"  size={0.48,0},{0.23,0}  pos={0.72,0},{0.79,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#b2b2b2
+            TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=31  text="Update"  font=GothamSSm/400  scaled  tc=#303030
+          ImageLabel "G"  size={0.25,0},{0.31,0}  pos={0.5,0},{0.47,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#007900
+            TextBox "Input"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.15,0}  nobg  z=31  text="255"  font=GothamSSm/400  scaled  tc=#f8f8f8
+          ImageLabel "R"  size={0.25,0},{0.31,0}  pos={0.36,0},{0.47,0}  anchor=(1,0.5)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#aa0000
+            TextBox "Input"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.15,0}  nobg  z=31  text="255"  font=GothamSSm/400  scaled  tc=#f8f8f8
+          ImageLabel "B"  size={0.25,0},{0.31,0}  pos={0.64,0},{0.47,0}  anchor=(0,0.5)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#0c77e8
+            TextBox "Input"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.15,0}  nobg  z=31  text="255"  font=GothamSSm/400  scaled  tc=#f8f8f8
+          ImageLabel "Preview"  size={0.42,0},{0.18,0}  pos={0.045,0},{0.7,0}  nobg  z=30  img=rbxassetid://3570695787
+      ScrollingFrame "Purchase"  size={1,0},{0.875,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=31
+        UIGridLayout "UIGridLayout"  CellSize={0.96,0},{0.095,0}  CellPadding={0.01,0},{0.002,0}  FillDirectionMaxCells=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.38
+        ImageButton "Template"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=32  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Thumbnail"  size={0.158,0},{0.7,0}  pos={0.04,0},{0.15,0}  nobg  z=39  img=rbxassetid://4687531588
+          TextLabel "State"  size={0.5,0},{0.33,0}  pos={0.22,0},{0.55,0}  nobg  z=40  text="$100,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+          TextLabel "Item"  size={0.72,0},{0.48,0}  pos={0.22,0},{0.09,0}  nobg  z=40  text="Trunk lid stick"  font=GothamSSm/700  scaled  tc=#ffffff
+      ScrollingFrame "PThumb"  size={1,0},{0.875,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=31
+        UIGridLayout "UIGridLayout"  CellSize={0.32,0},{0.139,0}  CellPadding={0,0},{0.002,0}  FillDirectionMaxCells=3
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageButton "Template"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=32  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Thumbnail"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=39  img=rbxassetid://4687531588
+          TextLabel "Extra"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.29,0}  HIDDEN  nobg  z=40  text="* Color changes"  font=GothamSSm/900  scaled  tc=#009fee
+          TextLabel "Item"  size={0.8,0},{0.2,0}  pos={0.1,0},{0.73,0}  nobg  z=40  text="Trunk lid stick"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "State"  size={0.8,0},{0.2,0}  pos={0.1,0},{0.1,0}  nobg  z=40  text="$100,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+      Frame "Plate"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=5
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.002,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ImageLabel "Main"  size={0.96,0},{0.22,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Plate"  size={0.99,0},{0.82,0}  pos={0.5,0},{0.97,0}  anchor=(0.5,1)  nobg  z=32  img=rbxassetid://4811094097
+            TextBox "Input"  size={0.76,0},{0.6,0}  pos={0.12,0},{0.24,0}  nobg  z=34  text="------"  font=SourceSansPro/400  scaled  tc=#000000
+          TextLabel "ModNotice"  size={0.92,0},{0.1,0}  pos={0.04,0},{0.04,0}  nobg  z=31  text="Input must be appropriate and <font color="#c25e5e"><b>will ..."  font=GothamSSm/400  scaled  tc=#cbcbcb
+        ImageLabel "Buy"  size={0.96,0},{0.1,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Price"  size={0.7,0},{0.27,0}  pos={0.15,0},{0.1,0}  nobg  z=34  text="$---"  font=GothamSSm/700  scaled  tc=#ffaa00
+            ImageLabel "Background"  size={1,0},{1.1,0}  pos={0.5,0},{-0.05,0}  anchor=(0.5,0)  nobg  z=33  img=rbxassetid://4859963910  imgcol=#ffaa00  imgT=0.8
+          ImageButton "Buy"  size={0.95,0},{0.5,0}  pos={0.5,0},{0.655,0}  anchor=(0.5,0.5)  nobg  z=34  img=rbxassetid://8285754921  imgcol=#5cb900
+            TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=34  text="Buy"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "Police"  size={0.96,0},{0.17,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=32  img=rbxassetid://8285754921  imgcol=#3d3d3d
+        TextLabel "Desc"  size={0.85,0},{0.32,0}  pos={0.075,0},{0.36,0}  nobg  z=34  text="Add police accessories to your vehicle!"  font=GothamSSm/400  scaled  tc=#ffffff
+        ImageLabel "Title"  size={0.6,0},{0.25,0}  pos={0.029,0},{0.058,0}  nobg  z=33  img=rbxassetid://5382119673  imgcol=#00a9fe
+          TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=34  text="Police Mode"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "Button"  size={0.94,0},{0.23,0}  pos={0.5,0},{0.83,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://8285754921  imgcol=#5cb900
+          TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=34  text="Enable"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "Locked"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=40  img=rbxassetid://8285754921  imgcol=#3d3d3d  imgT=0.05
+          ImageButton "Label"  size={0.7,0},{0.25,0}  pos={0.51,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=41  img=rbxassetid://5382119673  imgcol=#313131
+            ImageLabel "Lock"  size={0.185,0},{1.1,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=41  img=rbxassetid://5382119673  imgcol=#2a2a2a
+              ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.2,0},{0.18,0}  nobg  z=42  img=http://www.roblox.com/asset/?id=2354751825
+            TextLabel "Title"  size={0.82,0},{0.7,0}  pos={0.12,0},{0.15,0}  nobg  z=41  text="Requires police pass!"  font=GothamSSm/700  scaled  tc=#ffaa00
+      Frame "Rims"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=5
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.002,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ImageLabel "when"  size={0.96,0},{0.1,0}  pos={0.5,0},{0,0}  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Contents"  size={0.8,0},{0.7,0}  pos={0.1,0},{0.05,0}  nobg  z=31  text="?<font size="22">?</font>?"  font=GothamSSm/900  scaled  tc=#797979
+          TextLabel "Soon"  size={0.5,0},{0.295,0}  pos={0.25,0},{0.58,0}  nobg  z=31  text="soon"  font=GothamSSm/900  scaled  tc=#797979
+        ImageButton "Paint"  size={0.96,0},{0.075,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Icon"  size={0.124,0},{0.6,0}  pos={0.05,0},{0.2,0}  nobg  z=39  img=rbxassetid://4699454450
+          TextLabel "Title"  size={0.72,0},{0.5,0}  pos={0.22,0},{0.5,0}  anchor=(0,0.5)  nobg  z=40  text="Paint Rims"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "Type"  size={0.96,0},{0.075,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Icon"  size={0.124,0},{0.6,0}  pos={0.05,0},{0.2,0}  nobg  z=39  img=rbxassetid://5565328150
+          TextLabel "Title"  size={0.72,0},{0.5,0}  pos={0.22,0},{0.5,0}  anchor=(0,0.5)  nobg  z=40  text="Rim Type"  font=GothamSSm/700  scaled  tc=#ffffff
+
+==== StarterGui.Debug  (2 descendants)
+ScreenGui "Debug"  Enabled=False  DisplayOrder=1000000  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "DebugClient"  -> scripts/StarterGui/Debug/DebugClient.client.lua
+  TextLabel "FPS"  size={0,100},{0,18}  pos={0,4},{0,4}  nobg  text="#FPS"  font=SourceSansPro/400  ts=16  tc=#ff1313
+
+==== StarterGui.MainHUD  (631 descendants)
+ScreenGui "MainHUD"  Enabled=True  DisplayOrder=1  ResetOnSpawn=True  ZIndexBehavior=0
+  ImageLabel "Jobs"  size={0.2,0},{0.2,0}  pos={-0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.04
+    ImageButton "Police"  size={0.94,0},{0.29,0}  pos={0.5,0},{0.8,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8285754921  imgcol=#2c5dff
+      ImageLabel "Lock"  size={0.108,0},{0.7,0}  pos={0.03,0},{0.15,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=2354751825
+      TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Criminals"  size={0.94,0},{0.29,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8285754921  imgcol=#aa0000
+      TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=2  text="Criminals"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Citizen"  size={0.94,0},{0.29,0}  pos={0.5,0},{0.2,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=2  text="Citizens"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Exit"  size={0.13,0},{0.26,0}  pos={0.96,0},{0.05,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  img=rbxassetid://3507921209
+  Frame "PrivateServer"  size={0.3,0},{0.4,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg
+    ImageLabel "Commands"  size={0.52,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Title"  size={0.9,0},{0.1,0}  pos={0.5,0},{0.025,0}  anchor=(0.5,0)  nobg  z=2  text="VIP Server Commands!"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Container"  size={0.9,0},{0.85,0}  pos={0.5,0},{0.12,0}  anchor=(0.5,0)  nobg  z=3
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.01,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ImageLabel "Time"  size={1,0},{0.28,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://5382119673  imgcol=#303030
+          TextLabel "Title"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.06,0}  nobg  z=2  text="Set Time"  font=GothamSSm/900  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.9,0},{0.2,0}  pos={0.05,0},{0.29,0}  nobg  z=2  text="Input number between 0-24"  font=GothamSSm/400  scaled  tc=#868686
+          ImageLabel "Input"  size={0.35,0},{0.37,0}  pos={0.05,0},{0.55,0}  nobg  z=2  img=rbxassetid://5382119673  imgcol=#212121
+            TextBox "Input"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  z=2  text="12"  font=GothamSSm/400  scaled  tc=#f8f8f8
+          ImageButton "Update"  size={0.5,0},{0.3,0}  pos={0.7,0},{0.73,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://5382119673  imgcol=#b2b2b2
+            TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=31  text="Update"  font=GothamSSm/400  scaled  tc=#303030
+        ImageLabel "Weather"  size={1,0},{0.28,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://5382119673  imgcol=#303030
+          TextLabel "Title"  size={0.9,0},{0.25,0}  pos={0.05,0},{0.06,0}  nobg  z=2  text="Change Weather"  font=GothamSSm/900  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.9,0},{0.2,0}  pos={0.05,0},{0.29,0}  nobg  z=2  text="Set the current weather"  font=GothamSSm/400  scaled  tc=#868686
+          ImageButton "Clear"  size={0.24,0},{0.3,0}  pos={0.16,0},{0.73,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://5382119673  imgcol=#b2b2b2
+            TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=31  text="Clear"  font=GothamSSm/400  scaled  tc=#303030
+          ImageButton "Rain"  size={0.24,0},{0.3,0}  pos={0.42,0},{0.73,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://5382119673  imgcol=#b2b2b2
+            TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=31  text="Rain"  font=GothamSSm/400  scaled  tc=#303030
+          ImageButton "HeavyRain"  size={0.4,0},{0.3,0}  pos={0.76,0},{0.73,0}  anchor=(0.5,0.5)  nobg  z=30  img=rbxassetid://5382119673  imgcol=#b2b2b2
+            TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=31  text="Heavy rain"  font=GothamSSm/400  scaled  tc=#303030
+    ImageLabel "Kick"  size={0.62,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      ImageButton "Exit"  size={0.138,0},{0.13,0}  pos={1.08,0},{0.065,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+        ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  img=rbxassetid://3507921209
+      TextLabel "Title"  size={0.3,0},{0.08,0}  pos={0.25,0},{0.025,0}  anchor=(0.5,0)  nobg  z=2  text="Kick"  font=GothamSSm/700  scaled  tc=#da5a19
+      ScrollingFrame "Kick"  size={0.45,0},{0.85,0}  pos={0.035,0},{0.11,0}  nobg
+        ImageButton "Template"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://5382119673  imgcol=#da6c36
+          TextLabel "Username"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.1,0}  nobg  z=2  text="UsernameHere"  font=GothamSSm/400  scaled  tc=#d1d1d1
+        UIGridLayout "UIGridLayout"  CellSize={0.92,0},{0.075,0}  CellPadding={0,0},{0.01,0}  FillDirectionMaxCells=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6.23
+      Frame "Line"  size={0.01,0},{0.92,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#303030  z=3
+      TextLabel "Title2"  size={0.4,0},{0.08,0}  pos={0.75,0},{0.025,0}  anchor=(0.5,0)  nobg  z=2  text="Remove Kick"  font=GothamSSm/700  scaled  tc=#1297ef
+      ScrollingFrame "RemKick"  size={0.45,0},{0.85,0}  pos={0.52,0},{0.11,0}  nobg
+        ImageButton "Template"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://5382119673  imgcol=#5eb8ef
+          TextLabel "Username"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.1,0}  nobg  z=2  text="UsernameHere"  font=GothamSSm/400  scaled  tc=#d1d1d1
+        UIGridLayout "UIGridLayout"  CellSize={0.92,0},{0.075,0}  CellPadding={0,0},{0.01,0}  FillDirectionMaxCells=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6.23
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.52
+    UISizeConstraint "UISizeConstraint"
+  ImageLabel "Vehicles"  size={0.32,0},{0.99,0}  pos={2.25,0},{0.5,0}  anchor=(1,0.5)  nobg  z=30
+    ImageLabel "Title"  size={1,0},{0.12,0}  pos={0,0},{0,0}  nobg  z=30  img=http://www.roblox.com/asset/?id=6333864762  imgcol=#505050
+      TextLabel "Title"  size={0.8,0},{0.27,0}  pos={0.1,0},{0.06,0}  nobg  z=31  text="My Vehicles"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Buttons"  size={0.2,0},{0.54,0}  pos={0.5,0},{0.64,0}  anchor=(0.5,0.5)  nobg  z=40
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.06,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        ImageButton "Helicopter"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=40  img=rbxassetid://5382119673  imgcol=#363636
+          ImageLabel "Icon"  size={0.65,0},{0.65,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  nobg  z=41  img=http://www.roblox.com/asset/?id=7406538831
+        ImageButton "Cars"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=40  img=rbxassetid://5382119673  imgcol=#363636
+          ImageLabel "Icon"  size={0.65,0},{0.65,0}  pos={0.5,0},{0.475,0}  anchor=(0.5,0.5)  nobg  z=41  img=rbxassetid://2743802061
+        ImageButton "Motorcycle"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=40  img=rbxassetid://5382119673  imgcol=#363636
+          ImageLabel "Icon"  size={0.65,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=41  img=http://www.roblox.com/asset/?id=7406539150
+        ImageButton "Boat"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=40  img=rbxassetid://5382119673  imgcol=#363636
+          ImageLabel "Icon"  size={0.65,0},{0.65,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=41  img=http://www.roblox.com/asset/?id=7406538293
+    ImageLabel "ScrollBG"  size={0.05,0},{0.775,0}  pos={0.978,0},{0.172,0}  anchor=(0.5,0)  nobg  z=30  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#3d3d3d
+    ImageLabel "Search"  size={1,0},{0.05,0}  pos={0,0},{0.122,0}  nobg  z=30  img=http://www.roblox.com/asset/?id=6333864762  imgcol=#505050
+      ImageLabel "Container"  size={0.94,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=31  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#363636
+        ImageLabel "Icon"  size={0.095,0},{0.9,0}  pos={0.01,0},{0.05,0}  nobg  z=32  img=http://www.roblox.com/asset/?id=4107899831
+        TextBox "TextBox"  size={0.83,0},{0.8,0}  pos={0.12,0},{0.1,0}  nobg  z=32  text=""  font=SourceSansPro/300  scaled  tc=#ffffff
+    ImageLabel "Despawn"  size={1,0},{0.052,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  z=30  img=http://www.roblox.com/asset/?id=6333864762  imgcol=#505050
+      ImageButton "Button"  size={0.95,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=40  img=rbxassetid://5382119673  imgcol=#a5260d
+        TextLabel "Title"  size={0.8,0},{0.65,0}  pos={0.1,0},{0.175,0}  nobg  z=41  text="Despawn"  font=GothamSSm/700  scaled  tc=#ffffff
+    Frame "Container"  size={0.99,0},{0.77,0}  pos={0.5,0},{0.175,0}  anchor=(0.5,0)  nobg  z=31
+      ScrollingFrame "List"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=31
+        UIGridLayout "UIGridLayout"  CellSize={0.47,0},{0.195,0}  CellPadding={0.01,0},{0,2}  FillDirectionMaxCells=2
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+        ImageButton "Template"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=32  img=http://www.roblox.com/asset/?id=6333864762  imgcol=#505050
+          ImageLabel "Thumbnail"  size={0.85,0},{0.7,0}  pos={0.075,0},{0.12,0}  nobg  z=34  img=rbxassetid://4989600914
+          ImageButton "Sell"  size={0.45,0},{0.16,0}  pos={0.055,0},{0.05,0}  nobg  z=40  img=rbxassetid://5382119673  imgcol=#aa0000
+            TextLabel "Title"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  z=41  text="Sell"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageButton "Favorited"  size={0.22,0},{0.22,0}  pos={0.84,0},{0.16,0}  anchor=(0.5,0.5)  nobg  z=40  img=http://www.roblox.com/asset/?id=6333756426  imgcol=#2b2b2b
+          ImageLabel "RarityTag"  size={0.525,0},{0.525,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=32  img=http://www.roblox.com/asset/?id=7179505785
+            UIGradient "UIGradient"  rot=45  Color=[0:#de4b9c 1:#2e21ac]  Rotation=45  Transparency=[0:0 1:0]
+          TextLabel "VehicleName"  size={0.8,0},{0.25,0}  pos={0.1,0},{0.68,0}  nobg  z=38  text="Vehicle Name"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "None"  size={0.95,0},{0.12,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=31  img=rbxassetid://5382119673  imgcol=#363636
+        TextLabel "Title"  size={0.8,0},{0.25,0}  pos={0.1,0},{0.06,0}  nobg  z=31  text="Uh oh!"  font=GothamSSm/900  scaled  tc=#ffffff
+        TextLabel "Desc"  size={0.9,0},{0.26,0}  pos={0.05,0},{0.31,0}  nobg  z=31  text="You don't own any of this vehicle type!"  font=GothamSSm/500  scaled  tc=#afafaf
+        ImageButton "Teleport"  size={0.6,0},{0.3,0}  pos={0.5,0},{0.77,0}  anchor=(0.5,0.5)  nobg  z=40  img=rbxassetid://5382119673  imgcol=#00aaff
+          TextLabel "Title"  size={0.8,0},{0.65,0}  pos={0.1,0},{0.175,0}  nobg  z=41  text="Teleport to Dealer"  font=GothamSSm/700  scaled  tc=#ffffff
+  ImageLabel "StarterCars"  size={0.33,0},{0.32,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  z=3000  img=rbxassetid://8285754921  imgcol=#505050
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.09
+    TextLabel "Title"  size={0.92,0},{0.2,0}  pos={0.04,0},{0.05,0}  nobg  z=3001  text="Welcome to Driving Empire, choose a starter car to begin!"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Or"  size={0.13,0},{0.2,0}  pos={0.435,0},{0.48,0}  HIDDEN  nobg  z=3001  text="OR"  font=GothamSSm/900  scaled  tc=#b8b8b8
+    Frame "Contents"  size={0.9,0},{0.65,0}  pos={0.5,0},{0.28,0}  anchor=(0.5,0)  nobg  z=3000
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0.015,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageLabel "Dart"  size={0.51,0},{1,0}  pos={0,0},{0,0}  nobg  z=3001  img=rbxassetid://6991094289  imgcol=#323232
+        TextLabel "ModelName"  size={0.88,0},{0.15,0}  pos={0.06,0},{0.05,0}  nobg  z=3003  text="Vehicle Name"  font=GothamSSm/500  scaled  tc=#ffffff
+        ImageButton "Select"  size={0.75,0},{0.17,0}  pos={0.5,0},{0.86,0}  anchor=(0.5,0.5)  nobg  z=3004  img=rbxassetid://6991094289  imgcol=#06acff
+          TextLabel "Title"  size={0.75,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3004  text="Select"  font=GothamSSm/500  scaled  tc=#ffffff
+        ImageLabel "Thumbnail"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=3002  img=http://www.roblox.com/asset/?id=8286543727
+      ImageLabel "Taurus"  size={0.51,0},{1,0}  pos={0,0},{0,0}  nobg  z=3001  img=rbxassetid://6991094289  imgcol=#323232
+        TextLabel "ModelName"  size={0.88,0},{0.15,0}  pos={0.06,0},{0.05,0}  nobg  z=3003  text="Vehicle Name"  font=GothamSSm/500  scaled  tc=#ffffff
+        ImageButton "Select"  size={0.75,0},{0.17,0}  pos={0.5,0},{0.86,0}  anchor=(0.5,0.5)  nobg  z=3004  img=rbxassetid://6991094289  imgcol=#06acff
+          TextLabel "Title"  size={0.75,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3004  text="Select"  font=GothamSSm/500  scaled  tc=#ffffff
+        ImageLabel "Thumbnail"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  z=3002  img=http://www.roblox.com/asset/?id=8238837433
+  ImageLabel "SellPrompt"  size={0.22,0},{0.25,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.78
+    ImageButton "No"  size={0.42,0},{0.18,0}  pos={0.72,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="No"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Yes"  size={0.42,0},{0.18,0}  pos={0.28,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Yes"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Description"  size={0.9,0},{0.33,0}  pos={0.05,0},{0.22,0}  nobg  z=26  text="Are you sure you would like to buy the 2012 Chevyon Camaro B..."  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Price"  size={0.8,0},{0.16,0}  pos={0.1,0},{0.56,0}  nobg  z=26  text="$000,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.05,0}  nobg  z=26  text="Are you sure?"  font=GothamSSm/700  scaled  tc=#ffffff
+    StringValue "Car"  Value=""
+  ImageLabel "VehicleRemoved"  size={0.23,0},{0.45,0}  pos={0.5,0},{1.8,0}  anchor=(0.5,0.5)  nobg  z=60  img=rbxassetid://8285754921  imgcol=#505050
+    TextLabel "Description"  size={0.9,0},{0.11,0}  pos={0.05,0},{0.11,0}  nobg  z=61  text="The following vehicles have been removed from Driving Empire..."  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Title"  size={0.9,0},{0.07,0}  pos={0.05,0},{0.03,5}  nobg  z=61  text="Vehicle Removal Notice"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Accept"  size={0.9,0},{0.09,0}  pos={0.5,0},{0.92,0}  anchor=(0.5,0.5)  nobg  z=61  img=rbxassetid://5382119673  imgcol=#5cb900
+      TextLabel "Title"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  z=61  text="Got it!"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageLabel "Rewarded"  size={0.8,0},{0.09,0}  pos={0.5,0},{0.815,0}  anchor=(0.5,0.5)  nobg  z=60  img=rbxassetid://5382119673  imgcol=#2a2a2b
+      TextLabel "Title"  size={0.9,0},{0.55,0}  pos={0.05,0},{0.225,0}  nobg  z=61  text="+$000,000,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+    ScrollingFrame "List"  size={0.9,0},{0.525,0}  pos={0.5,0},{0.23,0}  anchor=(0.5,0)  nobg  z=61
+      UIGridLayout "UIGridLayout"  CellSize={0.478,0},{0.304,0}  CellPadding={0.01,0},{0,2}  FillDirectionMaxCells=2
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.57
+      ImageLabel "Template"  size={0.8,0},{0.09,0}  pos={0.5,0},{0.815,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=60  img=rbxassetid://5382119673  imgcol=#2a2a2b
+        ImageLabel "Thumbnail"  size={0.44,0},{1,0}  pos={0.01,0},{0,0}  nobg  z=62  img=rbxassetid://4989600914
+        TextLabel "VehicleName"  size={0.5,0},{0.8,0}  pos={0.45,0},{0.1,0}  nobg  z=61  text="Vehicle Name"  font=GothamSSm/700  scaled  tc=#ffffff
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.951
+    UISizeConstraint "UISizeConstraint"
+  Frame "SideHUD"  size={0.26,0},{0.09,0}  pos={0,4},{1,-4}  anchor=(0,1)  nobg
+    Frame "Buttons"  size={0.8,0},{0.8,0}  pos={0,0},{0.43,0}  anchor=(0,1)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.02,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      ImageLabel "Customization"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=rbxassetid://5382119673  imgcol=#2d2d2d  imgT=1
+        ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.2,0},{0.2,0}  nobg  img=rbxassetid://4699454450
+      ImageLabel "Garage"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=rbxassetid://5382119673  imgcol=#2d2d2d  imgT=1
+        ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=8285754921  imgcol=#505050
+          ImageLabel "Icon"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.12,0}  nobg  img=rbxassetid://2743802061
+        ImageLabel "Xbox"  size={0.7,0},{0.7,0}  pos={1.04,0},{0.15,0}  nobg  img=http://www.roblox.com/asset/?id=3511049224
+      ImageLabel "Jobs"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=rbxassetid://5382119673  imgcol=#2d2d2d  imgT=1
+        ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Icon"  size={0.65,0},{0.6,0}  pos={0.175,0},{0.2,0}  nobg  img=rbxassetid://2743800562
+      ImageLabel "Shop"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=0  img=rbxassetid://5382119673  imgcol=#947607  imgT=1
+        ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#ebbb0c
+          ImageLabel "Icon"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=2  img=rbxassetid://2743800920  imgcol=#806607
+          ImageLabel "Starburst"  size={1.1,0},{1.1,0}  pos={-0.05,0},{-0.05,0}  nobg  img=rbxassetid://2794632479  imgT=0.4
+      ImageLabel "PrivateServer"  size={0.8,0},{0.8,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=0  img=rbxassetid://5382119673  imgcol=#2d2d2d  imgT=1
+        ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#cc682d
+          ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.2,0},{0.2,0}  nobg  img=rbxassetid://4517013521  imgcol=#6c3718
+      ImageLabel "2x"  size={2.2,0},{0.6,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=0  img=rbxassetid://8285754921  imgcol=#505050
+        TextLabel "Title"  size={0.9,0},{0.45,0}  pos={0.04,0},{0.07,0}  nobg  text="<font color='#c96aff'>2x cash</font> event!"  font=GothamSSm/700  scaled  tc=#ffffff
+        TextLabel "Timer"  size={0.9,0},{0.4,0}  pos={0.04,0},{0.5,0}  nobg  text="00:00:00"  font=Roboto/400  scaled  tc=#ffffff
+        ImageLabel "Slice"  size={0.6,0},{1,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2503  img=http://www.roblox.com/asset/?id=5930945619  imgcol=#e9e9e9  imgT=0.5
+    Frame "Bottom"  size={1.05,0},{0.54,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0.005,0}  HorizontalAlignment=1  VerticalAlignment=2  SortOrder=2
+      ImageLabel "Money"  size={0,100},{1,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+        TextLabel "$"  size={0,30},{0.75,0}  pos={0,3},{0.1,0}  nobg  text="$"  font=Roboto/400  scaled  tc=#ffaa00
+        TextLabel "Money"  size={0,11},{0.68,0}  pos={0,40},{0.5,0}  anchor=(0,0.5)  nobg  text="-"  font=Ubuntu/400  ts=30  tc=#ffaa00
+        ImageButton "Plus"  size={0,38},{0.7,0}  pos={0,0},{0,0}  anchor=(0,0.5)  nobg  img=rbxassetid://5382119673  imgcol=#2a2a2a
+          TextLabel "Title"  size={0.7,0},{1.25,0}  pos={0.5,0},{0.41,0}  anchor=(0.5,0.5)  nobg  text="+"  font=FredokaOne/400  scaled  tc=#505050
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0,6}  HorizontalAlignment=1  VerticalAlignment=0  SortOrder=2
+      ImageButton "Settings"  size={0.18,0},{1,0}  pos={1.38,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#8d8d8d
+        ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.2,0},{0.2,0}  nobg  img=rbxassetid://5368536509  imgcol=#3d3d3d
+      ImageButton "Teleport"  size={0.18,0},{1,0}  pos={1.13,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#00aaff
+        ImageLabel "Icon"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=2  img=rbxassetid://6280504973  imgcol=#196991
+      ImageButton "Unclaim"  size={0.18,0},{1,0}  pos={1.63,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://8285754921  imgcol=#ac0000
+        ImageLabel "Icon"  size={0.6,0},{0.6,0}  pos={0.2,0},{0.2,0}  nobg  img=rbxassetid://4508440559
+        TextLabel "Title"  size={0.7,0},{0.5,0}  pos={0.15,0},{0.25,0}  HIDDEN  nobg  text="Unclaim"  font=GothamSSm/700  scaled  tc=#ffffff
+  Frame "Notification"  size={0.4,0},{0,30}  pos={0.5,0},{0,30}  anchor=(0.5,0)  nobg
+    ImageLabel "Template"  size={0,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=rbxassetid://4859963910  imgcol=#3b3b3b  imgT=0.05
+      TextLabel "Title"  size={1,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="text ha ha"  font=SourceSansPro/400  ts=25  tc=#ffaa00
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0,2}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+  Frame "Dealership"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    Folder "InfoContainer"
+      StringValue "SelectedCarIndex"  Value=""
+      Color3Value "Primary"  Value=#000000
+      Color3Value "PrimaryAlt"  Value=#000000
+      Color3Value "Rim"  Value=#000000
+    ImageLabel "AreYouSure"  size={0.34,0},{0.25,0}  pos={0.5,0},{-1.5,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.78
+      ImageButton "Yes"  size={0.42,0},{0.18,0}  pos={0.28,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+        TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Yes"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageButton "No"  size={0.42,0},{0.18,0}  pos={0.72,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+        TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="No"  font=GothamSSm/700  scaled  tc=#ffffff
+      TextLabel "Description"  size={0.9,0},{0.33,0}  pos={0.05,0},{0.22,0}  nobg  z=26  text="Are you sure you would like to buy the 2012 Chevyon Camaro B..."  font=GothamSSm/400  scaled  tc=#ffffff
+      TextLabel "Price"  size={0.8,0},{0.16,0}  pos={0.1,0},{0.56,0}  nobg  z=26  text="$000,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+      TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.05,0}  nobg  z=26  text="Are you sure?"  font=GothamSSm/700  scaled  tc=#ffffff
+      StringValue "Car"  Value=""
+      UISizeConstraint "UISizeConstraint"
+    Frame "Loading"  size={0.1,0},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+      ImageLabel "Spin"  size={0.8,0},{0.8,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=0  img=http://www.roblox.com/asset/?id=5571984665  imgcol=#505050
+    ImageLabel "Title"  size={0.27,0},{0.05,0}  pos={0.5,0},{0,0}  anchor=(0.5,0)  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Title"  size={0.95,0},{0.7,0}  pos={0.025,0},{0.15,0}  nobg  z=31  text="Vehicle Name"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "New"  size={0.18,0},{0.57,0}  pos={-0.05,0},{-0.02,0}  nobg  z=41  rot=-6  img=rbxassetid://5382119673  imgcol=#c22b20
+        ImageLabel "Icon"  size={0.9,0},{0.78,0}  pos={0.05,0},{0.11,0}  nobg  z=41  img=rbxassetid://6882587883
+      ImageButton "Back"  size={0.5,0},{0.7,0}  pos={0.5,0},{1.41,0}  anchor=(0.5,0.5)  nobg  z=28  img=rbxassetid://8285754921  imgcol=#c22b20
+        TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Back to Vehicles"  font=GothamSSm/700  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=10.7
+      UISizeConstraint "UISizeConstraint"
+    Frame "Selector"  size={0.88,0},{0.88,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      ImageLabel "Title"  size={0.2,0},{0.07,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+        TextLabel "Title"  size={0.8,0},{0.45,0}  pos={0.04,0},{0.12,0}  nobg  z=2  text="Dealer name"  font=GothamSSm/700  scaled  tc=#ffffff
+        TextLabel "Desc"  size={0.9,0},{0.28,0}  pos={0.04,0},{0.58,0}  nobg  z=2  text="Purchase and preview vehicles."  font=GothamSSm/400  scaled  tc=#ffffff
+      ImageLabel "Topbar"  size={0.799,0},{0.07,0}  pos={0.201,0},{0,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+        ImageButton "Exit"  size={0.15,0},{0.75,0}  pos={0.919,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+          ImageLabel "Xbox"  size={0.18,0},{0.8,0}  pos={0.79,0},{0.1,0}  nobg  z=4  img=http://www.roblox.com/asset/?id=3511049444
+          TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=4  text="Exit"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "Search"  size={0.83,0},{0.75,0}  pos={0.006,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#313131
+          ImageLabel "Icon"  size={0.033,0},{0.8,0}  pos={0.005,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4107899831
+          ImageLabel "Box"  size={0.953,0},{0.7,0}  pos={0.994,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#212121
+            TextBox "Input"  size={0.98,0},{0.9,0}  pos={0.008,0},{0.05,0}  nobg  z=4  text=""  font=SourceSansPro/400  scaled  tc=#ffffff
+      ImageLabel "Sorts"  size={0.2,0},{0.58,0}  pos={0,0},{0.072,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+        TextLabel "Title"  size={0.8,0},{0.05,0}  pos={0.1,0},{0.018,0}  nobg  z=2  text="Sorts"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "List"  size={0.94,0},{0.905,0}  pos={0.5,0},{0.075,0}  anchor=(0.5,0)  nobg  z=2  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#313131
+          Frame "Container"  size={0.94,0},{0.97,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+            Frame "div"  size={0.94,0},{0.006,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#505050  z=3
+            TextButton "Template"  size={0.8,0},{0.065,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=3  text="Speed - High to Low"  font=SourceSansPro/400  scaled  tc=#ffffff
+              ImageLabel "Active1"  size={0.04,0},{0.33,0}  pos={-0.06,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  img=rbxassetid://6991094040
+              ImageLabel "Active2"  size={0.04,0},{0.33,0}  pos={1.06,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=3  img=rbxassetid://6991094040
+      ScrollingFrame "Container"  size={0.795,0},{0.928,0}  pos={0.201,0},{0.072,0}  nobg  z=4
+        UIGridLayout "UIGridLayout"  CellSize={0.164,0},{0.19,0}  CellPadding={0,0},{0,0}  FillDirectionMaxCells=6
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.43
+        ImageButton "Template"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=5  img=rbxassetid://8285754921  imgcol=#505050
+          ImageLabel "Thumbnail"  size={0.7,0},{0.8,0}  pos={0.15,0},{0.1,0}  nobg  z=7  img=rbxassetid://4989600914
+          TextLabel "VehicleName"  size={0.8,0},{0.24,0}  pos={0.1,0},{0.1,0}  nobg  z=7  text="Vehicle Name"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageLabel "New"  size={0.36,0},{0.15,0}  pos={0.02,0},{0.65,0}  HIDDEN  nobg  z=10  rot=-15  img=rbxassetid://5382119673  imgcol=#c22b20  imgT=0.2
+            ImageLabel "Icon"  size={0.9,0},{0.78,0}  pos={0.05,0},{0.11,0}  nobg  z=11  img=rbxassetid://6882587883
+          ImageLabel "Fill"  size={0.92,0},{0.22,0}  pos={0.5,0},{0.94,0}  anchor=(0.5,1)  nobg  z=8  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#313131
+          TextLabel "Price"  size={0.9,0},{0.165,0}  pos={0.05,0},{0.75,0}  nobg  z=8  text="$10,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+          ImageLabel "RarityTag"  size={0.4,0},{0.572,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=6  img=http://www.roblox.com/asset/?id=7179505785
+            UIGradient "UIGradient"  rot=45  Color=[0:#de4b9c 1:#2e21ac]  Rotation=45  Transparency=[0:0 1:0]
+          Frame "Special"  size={0.11,0},{0.155,0}  pos={0.95,0},{0.69,0}  anchor=(1,1)  HIDDEN  nobg  z=5
+            UIListLayout "UIListLayout"  FillDirection=1  Padding={0.25,0}  HorizontalAlignment=2  VerticalAlignment=2  SortOrder=2
+      ImageLabel "Scrollbar"  size={0.012,0},{0.928,0}  pos={1,0},{0.072,0}  anchor=(1,0)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.93
+      ImageLabel "Offsale"  size={0.2,0},{0.06,0}  pos={0,0},{0.655,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+        ImageButton "Button"  size={0.96,0},{0.74,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+          TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=4  text="View offsale vehicles"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageLabel "Stats"  size={0.24,0},{0.1,0}  pos={0.002,0},{0.997,0}  anchor=(0,1)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Title"  size={0.8,0},{0.2,0}  pos={0.1,0},{0.08,0}  nobg  z=2  text="You have"  font=GothamSSm/400  scaled  tc=#ffffff
+      TextLabel "Balance"  size={0.8,0},{0.26,0}  pos={0.1,0},{0.3,0}  nobg  z=2  text="$LOADING"  font=GothamSSm/700  scaled  tc=#ffaa00
+      ImageButton "GetMore"  size={0.94,0},{0.32,0}  pos={0.5,0},{0.76,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#4e8cff
+        TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=4  text="Get More"  font=GothamSSm/700  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.34
+      UISizeConstraint "UISizeConstraint"
+    ImageLabel "Customize"  size={0.3,0},{0.06,0}  pos={0.5,0},{0.997,0}  anchor=(0.5,1)  nobg  z=30  img=rbxassetid://8285754921  imgcol=#505050
+      Frame "Categories"  size={0.3,0},{0.6,0}  pos={0.5,0},{-0.04,0}  anchor=(0.5,1)  nobg  z=30
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+        ImageButton "1a"  size={0.9,0},{1,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=28  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Primary"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "4a"  size={0.9,0},{1,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=28  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Secondary"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "2a"  size={0.9,0},{1,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=28  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Rims"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Colors"  size={0.97,0},{0.72,0}  pos={0.015,0},{0.14,0}  HIDDEN  nobg  z=4
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.011,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+        ImageButton "Template"  size={0.073,0},{1,0}  pos={0.5,0},{0.975,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=31  img=http://www.roblox.com/asset/?id=5994892792
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=10.1
+      TextLabel "NoPaint"  size={0.8,0},{0.45,0}  pos={0.1,0},{0.275,0}  nobg  z=32  text="This vehicle can not be painted"  font=GothamSSm/900  scaled  tc=#b3b3b3
+      UISizeConstraint "UISizeConstraint"
+    ImageLabel "Side"  size={0.3,0},{0.118,0}  pos={0.998,0},{0.997,0}  anchor=(1,1)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Notice"  size={0.9,0},{0.27,0}  pos={0.05,0},{0.08,0}  nobg  z=2  text="Vehicles can be sold for <font color="#ffaa00">100%</font> i..."  font=GothamSSm/400  scaled  tc=#ffffff
+      TextLabel "Price"  size={0.8,0},{0.22,0}  pos={0.1,0},{0.38,0}  nobg  z=2  text="$0"  font=GothamSSm/700  scaled  tc=#ffaa00
+      ImageButton "Purchase"  size={0.94,0},{0.27,0}  pos={0.5,0},{0.79,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#5bb600
+        TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=4  text="Purchase"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Stats"  size={0.7,0},{0.6,0}  pos={1,0},{-0.03,0}  anchor=(1,1)  nobg  z=30
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.01,0}  HorizontalAlignment=2  VerticalAlignment=2  SortOrder=2
+        ImageLabel "Speed"  size={1,0},{1,0}  pos={0.998,0},{0.997,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.9,0},{0.3,0}  pos={0.06,0},{0.1,0}  nobg  z=31  text="Top Speed"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageLabel "Rating"  size={0.92,0},{0.39,0}  pos={0.5,0},{0.49,0}  anchor=(0.5,0)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#303030
+            TextLabel "Stat"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.15,0}  nobg  z=33  text="0 MPH"  font=GothamSSm/500  scaled  tc=#fcfcfc
+            ImageLabel "Bar"  size={0.7,0},{1,0}  pos={0,0},{0,0}  nobg  z=31  img=rbxassetid://3570695787  imgcol=#6589ff
+        ImageLabel "Acceleration"  size={1,0},{1,0}  pos={0.998,0},{0.997,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.9,0},{0.3,0}  pos={0.06,0},{0.1,0}  nobg  z=31  text="Accel. 0-60"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageLabel "Rating"  size={0.92,0},{0.39,0}  pos={0.5,0},{0.49,0}  anchor=(0.5,0)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#303030
+            TextLabel "Stat"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.15,0}  nobg  z=33  text="1.9 Seconds"  font=GothamSSm/500  scaled  tc=#fcfcfc
+            ImageLabel "Bar"  size={0.7,0},{1,0}  pos={0,0},{0,0}  nobg  z=31  img=rbxassetid://3570695787  imgcol=#6589ff
+        ImageLabel "TrackPass"  size={1.2,0},{0.5,0}  pos={0.998,0},{0.997,0}  HIDDEN  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.9,0},{0.5,0}  pos={0.05,0},{0.25,0}  nobg  z=33  text="Requires Track Gamepass"  font=GothamSSm/500  scaled  tc=#d561df
+        ImageLabel "Bodykits"  size={1.05,0},{0.5,0}  pos={0.998,0},{0.997,0}  HIDDEN  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.75,0},{0.5,0}  pos={0.95,0},{0.25,0}  anchor=(1,0)  nobg  z=33  text="Body customization!"  font=GothamSSm/500  scaled  tc=#baa5ff
+          ImageLabel "Icon"  size={0.1,0},{0.6,0}  pos={0.04,0},{0.5,0}  anchor=(0,0.5)  nobg  z=8  img=rbxassetid://4699454450  imgcol=#baa5ff
+        ImageButton "Startup"  size={0.9,0},{0.55,0}  pos={1,0},{1,0}  anchor=(1,1)  nobg  z=28  img=rbxassetid://8285754921  imgcol=#4e8cff
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Startup"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "Rev"  size={0.45,0},{0.55,0}  pos={-0.01,0},{1,0}  anchor=(1,1)  nobg  z=28  img=rbxassetid://8285754921  imgcol=#4e8cff
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Rev"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "Doors"  size={0.6,0},{0.5,0}  pos={0.998,0},{0.997,0}  HIDDEN  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.6,0},{0.5,0}  pos={0.94,0},{0.25,0}  anchor=(1,0)  nobg  z=33  text="Doors!"  font=GothamSSm/500  scaled  tc=#baa5ff
+          ImageLabel "Icon"  size={0.17,0},{0.6,0}  pos={0.07,0},{0.5,0}  anchor=(0,0.5)  nobg  z=8  img=rbxassetid://8238728775  imgcol=#baa5ff
+        ImageLabel "Handling"  size={1,0},{1,0}  pos={0.998,0},{0.997,0}  nobg  img=rbxassetid://8285754921  imgcol=#505050
+          TextLabel "Title"  size={0.9,0},{0.3,0}  pos={0.06,0},{0.1,0}  nobg  z=31  text="Handling"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageLabel "Rating"  size={0.92,0},{0.39,0}  pos={0.5,0},{0.49,0}  anchor=(0.5,0)  nobg  z=30  img=rbxassetid://3570695787  imgcol=#303030
+            TextLabel "Stat"  size={0.9,0},{0.7,0}  pos={0.06,0},{0.15,0}  nobg  z=33  text="25%"  font=GothamSSm/500  scaled  tc=#fcfcfc
+            ImageLabel "Bar"  size={0.7,0},{1,0}  pos={0,0},{0,0}  nobg  z=31  img=rbxassetid://3570695787  imgcol=#6589ff
+        ImageButton "Explode"  size={0.8,0},{0.55,0}  pos={1,0},{1,0}  anchor=(1,1)  nobg  z=29  img=rbxassetid://8285754921  imgcol=#4e8cff
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Explode"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageButton "Roof"  size={0.5,0},{0.55,0}  pos={1,0},{1,0}  anchor=(1,1)  nobg  z=29  img=rbxassetid://8285754921  imgcol=#4e8cff
+          TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=29  text="Roof"  font=GothamSSm/700  scaled  tc=#ffffff
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.43
+      UISizeConstraint "UISizeConstraint"
+  Frame "Shop"  size={0.3,0},{0.4,0}  pos={-1.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    ImageLabel "Main"  size={0.67,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      ScrollingFrame "Gamepasses"  size={0.94,0},{0.83,0}  pos={-1,0},{0.14,0}  nobg
+        UIGridLayout "UIGridLayout"  CellSize={0.97,0},{0.375,0}  CellPadding={0,0},{0.003,0}  FillDirectionMaxCells=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3
+        ImageButton "Boost"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Unlocks the Premium Boost customization option for ALL vehic..."  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "BusPass"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Unlocks a speedy bus!"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "OutOfJailFree"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Tired of waiting in jail?"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "Police"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Patrol and protect the streets of Wayfort!"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "PortableGarage"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Customize your car ANYWHERE!"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "Radio"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Play music for you and your friends from your car!"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "Track"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Unlocks track vehicles!"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "VIP"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://6991094530  imgcol=#2d2d2d
+          ImageLabel "Thumbnail"  size={0.27,0},{0.8,0}  pos={0.035,0},{0.1,0}  nobg  z=2  img=rbxassetid://4698025887
+          TextLabel "PassName"  size={0.6,0},{0.2,0}  pos={0.33,0},{0.06,0}  nobg  z=2  text="Police"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Desc"  size={0.6,0},{0.4,0}  pos={0.33,0},{0.3,0}  nobg  z=2  text="Unlock VIP perks such as a money boost and an exclusive car!"  font=GothamSSm/400  scaled  tc=#d1d1d1
+          Frame "Cost"  size={0.6,0},{0.21,0}  pos={0.33,0},{0.73,0}  nobg  z=3
+            ImageLabel "Icon"  size={0.13,0},{1.1,0}  pos={-0.02,0},{-0.05,0}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=4698353079  imgcol=#00bf00
+            TextLabel "Price"  size={0.55,0},{0.8,0}  pos={0.12,0},{0.1,0}  HIDDEN  nobg  z=2  text="1,000"  font=GothamSSm/700  scaled  tc=#00bf00
+            TextLabel "Owned"  size={0.6,0},{0.9,0}  pos={0,0},{0.05,0}  HIDDEN  nobg  z=2  text="Owned!"  font=GothamSSm/700  scaled  tc=#ffaa00
+      Frame "Topbar"  size={0.95,0},{0.095,0}  pos={0.5,0},{0.03,0}  anchor=(0.5,0)  nobg
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=1  SortOrder=2
+        ImageButton "Gamepasses"  size={0.49,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Icon"  size={0.14,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=3  img=rbxassetid://6333756426
+          TextLabel "Title"  size={0.62,0},{0.75,0}  pos={0.26,0},{0.125,0}  nobg  z=4  text="Gamepasses"  font=SourceSansPro/400  scaled  tc=#ffffff
+        ImageButton "Money"  size={0.49,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          TextLabel "Title"  size={0.62,0},{0.7,0}  pos={0.29,0},{0.15,0}  nobg  z=4  text="Cash"  font=SourceSansPro/400  scaled  tc=#ffffff
+          ImageLabel "Icon"  size={0.18,0},{0.9,0}  pos={0.02,0},{0.05,0}  nobg  z=3  img=rbxassetid://3994786648
+      ScrollingFrame "Money"  size={0.94,0},{0.83,0}  pos={0.03,0},{0.14,0}  nobg
+        UIGridLayout "UIGridLayout"  CellSize={0.97,0},{0.151,0}  CellPadding={0,0},{0.015,0}  FillDirectionMaxCells=1
+          UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=7.44
+        ImageButton "607252396"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Price"  size={0.4,0},{0.7,0}  pos={0.978,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#424242
+            ImageLabel "Icon"  size={0.19,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.34,0},{0.15,0}  nobg  z=3  text="20"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Cash"  size={0.52,0},{0.6,0}  pos={0.04,0},{0.2,0}  nobg  z=2  text="$2,500"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "607252014"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Price"  size={0.4,0},{0.7,0}  pos={0.978,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#424242
+            ImageLabel "Icon"  size={0.19,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.34,0},{0.15,0}  nobg  z=3  text="50"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Cash"  size={0.52,0},{0.6,0}  pos={0.04,0},{0.2,0}  nobg  z=2  text="$10,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "607251845"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Price"  size={0.4,0},{0.7,0}  pos={0.978,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#424242
+            ImageLabel "Icon"  size={0.19,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.34,0},{0.15,0}  nobg  z=3  text="200"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Cash"  size={0.52,0},{0.6,0}  pos={0.04,0},{0.2,0}  nobg  z=2  text="$50,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "607250204"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Price"  size={0.4,0},{0.7,0}  pos={0.978,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#424242
+            ImageLabel "Icon"  size={0.19,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.34,0},{0.15,0}  nobg  z=3  text="800"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Cash"  size={0.52,0},{0.6,0}  pos={0.04,0},{0.2,0}  nobg  z=2  text="$250,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "607250972"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Price"  size={0.4,0},{0.7,0}  pos={0.978,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#424242
+            ImageLabel "Icon"  size={0.19,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.34,0},{0.15,0}  nobg  z=3  text="350"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Cash"  size={0.52,0},{0.6,0}  pos={0.04,0},{0.2,0}  nobg  z=2  text="$100,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+        ImageButton "607249591"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Price"  size={0.4,0},{0.7,0}  pos={0.978,0},{0.5,0}  anchor=(1,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#424242
+            ImageLabel "Icon"  size={0.19,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.34,0},{0.15,0}  nobg  z=3  text="2,450"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Cash"  size={0.52,0},{0.6,0}  pos={0.04,0},{0.2,0}  nobg  z=2  text="$1,000,000"  font=GothamSSm/700  scaled  tc=#ffaa00
+    ImageLabel "Pack"  size={0.67,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      ImageButton "Exit"  size={0.13,0},{0.13,0}  pos={0.98,0},{0.03,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#aa0000
+        ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://3507921209
+      TextLabel "Title"  size={0.85,0},{0.09,0}  pos={0.04,0},{0.03,0}  nobg  z=2  text="Featured Car Pack"  font=GothamSSm/900  scaled  tc=#ffb300
+      Frame "Content"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+        ImageButton "Purchase"  size={0.94,0},{0.09,0}  pos={0.5,0},{0.925,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://3570695787  imgcol=#00b500
+          TextLabel "Title"  size={0.5,0},{0.75,0}  pos={0.035,0},{0.125,0}  HIDDEN  nobg  text="Purchase"  font=GothamSSm/700  scaled  tc=#ffffff
+          ImageLabel "Price"  size={0.3,0},{0.8,0}  pos={0.99,0},{0.5,0}  anchor=(1,0.5)  HIDDEN  nobg  z=3  img=rbxassetid://3570695787  imgcol=#007400
+            ImageLabel "Icon"  size={0.226,0},{0.9,0}  pos={0.04,0},{0.05,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+            TextLabel "Price"  size={0.6,0},{0.7,0}  pos={0.33,0},{0.15,0}  nobg  z=3  text="800"  font=GothamSSm/700  scaled  tc=#ffffff
+          TextLabel "Owned"  size={0.5,0},{0.75,0}  pos={0.25,0},{0.125,0}  HIDDEN  nobg  text="Owned"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "List"  size={0.9,0},{0.35,0}  pos={0.5,0},{0.38,0}  anchor=(0.5,0)  nobg  img=rbxassetid://4859963910  imgcol=#676767
+          UIListLayout "UIListLayout"  FillDirection=0  Padding={0.01,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+          ImageLabel "Template"  size={0.325,0},{0.85,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=2  img=rbxassetid://6991094289  imgcol=#2d2d2d  imgT=0.3
+            TextLabel "ModelName"  size={0.9,0},{0.35,0}  pos={0.05,0},{0.05,0}  nobg  z=3  text="2017 Siron"  font=GothamSSm/500  scaled  tc=#ffffff
+            ImageLabel "Model"  size={0.9,0},{0.8,0}  pos={0.05,0},{0.1,0}  nobg  z=2  img=rbxassetid://4692363001
+        TextLabel "WorthTitle"  size={0.4,0},{0.045,0}  pos={0.3,0},{0.745,0}  nobg  text="Worth"  font=GothamSSm/500  scaled  tc=#ffffff
+        TextLabel "Remaining"  size={0.35,0},{0.12,0}  pos={0.04,0},{0.12,0}  nobg  z=2  text="Rotating in 00:00:00:00"  font=GothamSSm/400  scaled  tc=#ffffff
+        TextLabel "PackName"  size={0.9,0},{0.085,0}  pos={0.05,0},{0.28,0}  nobg  z=2  text="Car Pack Name"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "Worth"  size={0.35,0},{0.07,0}  pos={0.5,0},{0.795,0}  anchor=(0.5,0)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#2d2d2d
+          ImageLabel "Icon"  size={0.18,0},{0.9,0}  pos={0.015,0},{0.05,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=4698353079
+          TextLabel "Price"  size={0.7,0},{0.7,0}  pos={0.25,0},{0.15,0}  nobg  z=3  text="800"  font=GothamSSm/700  scaled  tc=#ffffff
+      TextLabel "Retrieving"  size={0.5,0},{0.12,0}  pos={0.25,0},{0.44,0}  nobg  text="Retrieving pack info..."  font=GothamSSm/400  scaled  tc=#ffffff
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.52
+  Frame "Blackout"  size={1,0},{0,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  bg=#343434  z=2500
+    ImageLabel "Logo"  size={0,300},{0,300}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2502  img=rbxassetid://5985209834
+    ImageLabel "Slice"  size={0.6,0},{1,0}  pos={1.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2503  img=http://www.roblox.com/asset/?id=5930945619  imgcol=#6ed2e9  imgT=0.35
+  ImageLabel "RaceTitle"  size={0,0},{0.124,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,1)  HIDDEN  nobg  img=rbxassetid://4859963910  imgcol=#3e3e3e
+    TextLabel "Title"  size={0.8,0},{0.8,0}  pos={0.1,0},{-0.2,0}  nobg  text="Race Name"  font=Bangers/400  scaled  tc=#ffffff
+    TextLabel "Type"  size={0.8,0},{0.75,0}  pos={0.1,0},{0.45,0}  nobg  text="Sprint"  font=DenkOne/400  scaled  tc=#f1b43b
+  Frame "Countdown"  size={0.08,0},{0.12,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=100
+    TextLabel "Msg"  size={1,0},{1,0}  pos={-0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  rot=-135  text="5"  font=GothamSSm/700  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=90  Color=[0:#ffaa00 0.433:#e37b04 1:#e34b00]  Rotation=90  Transparency=[0:0 1:0]
+    ImageLabel "Grad"  size={2,0},{0,0}  pos={0.342,0},{0.434,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://4859963910  imgcol=#191919  imgT=0.5
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.35
+  ImageLabel "RaceInfo"  size={0.16,0},{0.11,0}  pos={0.5,0},{-0.4,0}  anchor=(0.5,0)  nobg  z=100  img=rbxassetid://8285754921  imgcol=#505050
+    TextLabel "Place"  size={0.35,0},{0.6,0}  pos={0.5,0},{0.38,0}  anchor=(1,0.5)  nobg  z=102  text="1"  font=GothamSSm/900  scaled  tc=#ffffff
+    TextLabel "Time"  size={0.8,0},{0.22,0}  pos={0.5,0},{0.78,0}  anchor=(0.5,0.5)  nobg  z=102  text="0:00.00"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Ordinal"  size={0.35,0},{0.35,0}  pos={0.5,0},{0.11,0}  nobg  z=102  text="st"  font=GothamSSm/900  scaled  tc=#ffffff
+    ImageLabel "Percent"  size={0.85,0},{0.65,0}  pos={-0.01,0},{0,0}  anchor=(1,0)  nobg  z=100  img=rbxassetid://8285754921  imgcol=#505050
+      ImageLabel "Title"  size={0.85,0},{0.35,0}  pos={0.35,0},{0.77,0}  anchor=(0.5,0)  nobg  z=105  rot=6  img=rbxassetid://3570695787  imgcol=#e89331
+        TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=106  text="Complete"  font=GothamSSm/700  scaled  tc=#ffffff
+      TextLabel "%"  size={0.24,0},{0.4,0}  pos={0.62,0},{0.43,0}  anchor=(0,0.5)  nobg  z=102  text="%"  font=GothamSSm/700  scaled  tc=#ffffff
+      TextLabel "Percent"  size={0.4,0},{0.8,0}  pos={0.6,0},{0.5,0}  anchor=(1,0.5)  nobg  z=102  text="24"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageLabel "Lap"  size={0.85,0},{0.65,0}  pos={1.01,0},{0,0}  nobg  z=100  img=rbxassetid://8285754921  imgcol=#505050
+      ImageLabel "Title"  size={0.6,0},{0.35,0}  pos={0.76,0},{0.77,0}  anchor=(0.5,0)  nobg  z=105  rot=-6  img=rbxassetid://3570695787  imgcol=#e89331
+        TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=106  text="Lap"  font=GothamSSm/700  scaled  tc=#ffffff
+      TextLabel "Laps"  size={0.36,0},{0.8,0}  pos={0.45,0},{0.5,0}  anchor=(1,0.5)  nobg  z=102  text="1"  font=GothamSSm/700  scaled  tc=#ffffff
+      TextLabel "TotalLaps"  size={0.24,0},{0.4,0}  pos={0.48,0},{0.43,0}  anchor=(0,0.5)  nobg  z=102  text="/2"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageLabel "TurnAround"  size={0,0},{0.28,0}  pos={0.5,0},{1.05,0}  anchor=(0.5,0)  nobg  img=rbxassetid://4859963910  imgcol=#bf0000  imgT=0.3
+      TextLabel "Title"  size={1,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  text="⚠️ Missed checkpoint, turn around! ⚠️"  font=GothamSSm/700  scaled  tc=#ffcdcd
+    UISizeConstraint "UISizeConstraint"
+  ImageLabel "RaceEnd"  size={0.3,0},{0.38,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  z=40  img=rbxassetid://8285754921  imgcol=#505050
+    ImageButton "Exit"  size={0.106,0},{0.17,0}  pos={0.99,0},{-0.02,0}  anchor=(0.5,0.5)  nobg  z=42  img=rbxassetid://8285754921  imgcol=#aa0000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=43  img=rbxassetid://3507921209
+    ImageLabel "Lineup"  size={0.6,0},{0.45,0}  pos={0.5,0},{0.18,0}  anchor=(0.5,1)  nobg  z=42  img=http://www.roblox.com/asset/?id=5953534204
+    Frame "Center"  size={0.44,0},{0.01,0}  pos={0.25,0},{0.75,0}  anchor=(0.5,0.5)  bg=#2a2a2a  z=42
+    TextLabel "StatsTitle"  size={0.41,0},{0.12,0}  pos={0.05,0},{0.05,0}  nobg  z=42  text="My Stats"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "LeaderboardTitle"  size={0.41,0},{0.12,0}  pos={0.55,0},{0.05,0}  nobg  z=42  text="Leaderboard"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "Placement"  size={0.3,0},{0.3,0}  pos={0.25,0},{0.16,0}  anchor=(0.5,0)  nobg  z=42  text="1st"  font=FredokaOne/400  scaled  tc=#e8e8e8
+    TextLabel "Place"  size={0.25,0},{0.08,0}  pos={0.25,0},{0.42,0}  anchor=(0.5,0)  nobg  z=42  text="Place"  font=FredokaOne/400  scaled  tc=#343434
+    TextLabel "Time"  size={0.4,0},{0.15,0}  pos={0.25,0},{0.515,0}  anchor=(0.5,0)  nobg  z=42  text="00.00"  font=FredokaOne/400  scaled  tc=#0c92da
+    TextLabel "Seconds"  size={0.25,0},{0.08,0}  pos={0.25,0},{0.65,0}  anchor=(0.5,0)  nobg  z=42  text="Seconds"  font=FredokaOne/400  scaled  tc=#343434
+    Frame "WinningsLine"  size={0.01,0},{0.9,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#2a2a2a  z=42
+    TextLabel "$"  size={0.08,0},{0.2,0}  pos={0.02,0},{0.76,0}  HIDDEN  nobg  z=42  text="$"  font=FredokaOne/400  scaled  tc=#ffaa00
+    TextLabel "Winnings"  size={0.34,0},{0.16,0}  pos={0.47,0},{0.785,0}  anchor=(1,0)  nobg  z=42  text="00,000"  font=FredokaOne/400  scaled  tc=#ffaa00
+    ScrollingFrame "Leaderboard"  size={0.46,0},{0.79,0}  pos={0.52,0},{0.17,0}  nobg  z=42
+      UIGridLayout "UIGridLayout"  CellSize={0.95,0},{0.1,0}  CellPadding={0,0},{0.01,0}  FillDirectionMaxCells=1
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8.85
+      ImageLabel "Temp"  size={0,100},{0,100}  pos={0,0},{0,0}  HIDDEN  nobg  z=42  img=rbxassetid://3570695787  imgcol=#ffb802  imgT=0.3
+        TextLabel "Place"  size={0.14,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=43  text="#1"  font=FredokaOne/400  scaled  tc=#2a2a2a
+        ImageLabel "Headshot"  size={0.085,0},{0.8,0}  pos={0.15,0},{0.1,0}  nobg  z=43  img=https://www.roblox.com/headshot-thumbnail/image?userId=66176825&width=...
+        TextLabel "Time"  size={0.22,0},{0.8,0}  pos={0.74,0},{0.1,0}  nobg  z=43  text="22.2"  font=FredokaOne/400  scaled  tc=#2a2a2a
+        TextLabel "Username"  size={0.47,0},{0.8,0}  pos={0.26,0},{0.1,0}  nobg  z=43  text="OnlyTwentyCh..."  font=FredokaOne/400  scaled  tc=#2a2a2a
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.6
+    ImageLabel "Trophy"  size={0.4,0},{0.6,0}  pos={0.5,0},{0.99,0}  anchor=(0.5,1)  nobg  z=41  img=rbxassetid://4650077305  imgcol=#937123  imgT=0.6
+    ImageLabel "Trophy"  size={0.3,0},{0.45,0}  pos={0.22,0},{0.99,0}  anchor=(0.5,1)  nobg  z=41  img=rbxassetid://4650077305  imgcol=#949494  imgT=0.6
+    ImageLabel "Trophy"  size={0.26,0},{0.38,0}  pos={0.76,0},{0.99,0}  anchor=(0.5,1)  nobg  z=41  img=rbxassetid://4650077305  imgcol=#634707  imgT=0.6
+    ImageLabel "Gift"  size={0.1,0},{0.16,0}  pos={0.02,0},{0.78,0}  HIDDEN  nobg  z=42  img=http://www.roblox.com/asset/?id=6104855022
+  ImageLabel "Vignette"  size={1,0},{1.1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=100  img=http://www.roblox.com/asset/?id=5941975583  imgcol=#aa0000  imgT=1
+  ImageLabel "PromptPurchase"  size={0.22,0},{0.25,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.78
+    ImageButton "No"  size={0.42,0},{0.18,0}  pos={0.72,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="No"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Yes"  size={0.42,0},{0.18,0}  pos={0.28,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Yes"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Description"  size={0.9,0},{0.33,0}  pos={0.05,0},{0.22,0}  nobg  z=26  text="Are you sure you would like to buy the 2012 Chevyon Camaro B..."  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Price"  size={0.8,0},{0.16,0}  pos={0.1,0},{0.56,0}  nobg  z=26  text="$000,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.05,0}  nobg  z=26  text="Are you sure?"  font=GothamSSm/700  scaled  tc=#ffffff
+    StringValue "ID"  Value=""
+  ImageLabel "Settings"  size={0.24,0},{0.28,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+    ImageButton "Exit"  size={0.095,0},{0.16,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  img=rbxassetid://3507921209
+    Frame "Topbar"  size={0.9,0},{0.1,0}  pos={0.015,0},{0.025,0}  nobg
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0.01,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      ImageButton "General"  size={0.24,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        ImageLabel "Icon"  size={0.2,0},{0.7,0}  pos={0.07,0},{0.15,0}  nobg  z=3  img=rbxassetid://6999867581
+        TextLabel "Title"  size={0.62,0},{0.75,0}  pos={0.26,0},{0.125,0}  nobg  z=4  text="General"  font=SourceSansPro/400  scaled  tc=#ffffff
+      ImageButton "Graphics"  size={0.24,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        ImageLabel "Icon"  size={0.18,0},{0.7,0}  pos={0.08,0},{0.15,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=7018256378
+        TextLabel "Title"  size={0.62,0},{0.7,0}  pos={0.29,0},{0.15,0}  nobg  z=4  text="Graphics"  font=SourceSansPro/400  scaled  tc=#ffffff
+      ImageButton "Sound"  size={0.24,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        ImageLabel "Icon"  size={0.2,0},{0.7,0}  pos={0.07,0},{0.15,0}  nobg  z=3  img=rbxassetid://4492712733
+        TextLabel "Title"  size={0.62,0},{0.75,0}  pos={0.26,0},{0.125,0}  nobg  z=4  text="Sounds"  font=SourceSansPro/400  scaled  tc=#ffffff
+      ImageButton "Codes"  size={0.24,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        ImageLabel "Icon"  size={0.17,0},{0.55,0}  pos={0.09,0},{0.225,0}  nobg  z=5  img=rbxassetid://2767170221
+          ImageLabel "Starburst"  size={2,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://2794632479  imgT=0.2
+        TextLabel "Title"  size={0.62,0},{0.75,0}  pos={0.26,0},{0.125,0}  nobg  z=5  text="Codes"  font=SourceSansPro/400  scaled  tc=#ffffff
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.67
+    ScrollingFrame "Container"  size={0.97,0},{0.82,0}  pos={0.015,0},{0.145,0}  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.012,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      ImageLabel "Template"  size={0.97,0},{0.22,0}  pos={0.06,0},{0.125,0}  HIDDEN  nobg  z=3  img=rbxassetid://6991094530  imgcol=#2d2d2d
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=8.8
+        TextLabel "Title"  size={0.9,0},{0.38,0}  pos={0.02,0},{0.06,0}  nobg  z=4  text="Option title which might include a description"  font=SourceSansPro/400  scaled  tc=#ffffff
+        Frame "Options"  size={0.2,0},{0.4,0}  pos={0.992,0},{0.91,0}  anchor=(1,1)  nobg
+          UIListLayout "UIListLayout"  FillDirection=0  Padding={0.05,0}  HorizontalAlignment=2  VerticalAlignment=0  SortOrder=2
+    ImageLabel "Codes"  size={0.96,0},{0.82,0}  pos={0.02,0},{0.145,0}  nobg  z=2  img=rbxassetid://6991094289  imgcol=#00aaff
+      TextLabel "Title"  size={0.95,0},{0.25,0}  pos={0.025,0},{0.03,0}  nobg  z=2  text="Earn rewards by redeeming codes. Codes can be found across o..."  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "Code"  size={0.85,0},{0.14,0}  pos={0.075,0},{0.62,0}  nobg  z=25  img=http://www.roblox.com/asset/?id=5382119673  imgcol=#005984
+        TextBox "Input"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=25  text=""  font=GothamSSm/500  scaled  tc=#ffffff
+      ImageButton "Submit"  size={0.97,0},{0.18,0}  pos={0.5,0},{0.88,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8285754921  imgcol=#56ac00
+        TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=2  text="Submit"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Handles"  size={0.85,0},{0.3,0}  pos={0.5,0},{0.44,0}  anchor=(0.5,0.5)  nobg
+        UIGridLayout "UIGridLayout"  CellSize={0.45,0},{0.4,0}  CellPadding={0.02,0},{0.1,0}  FillDirectionMaxCells=2
+        ImageLabel "Bourgist"  size={0.85,0},{0.14,0}  pos={0.075,0},{0.62,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#005984
+          ImageLabel "Icon"  size={0.12,0},{0.65,0}  pos={0.05,0},{0.175,0}  nobg  z=3  img=rbxassetid://2767170221
+          TextLabel "Title"  size={0.76,0},{0.75,0}  pos={0.2,0},{0.125,0}  nobg  z=3  text="bourgist"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "Hacreey"  size={0.85,0},{0.14,0}  pos={0.075,0},{0.62,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#005984
+          ImageLabel "Icon"  size={0.12,0},{0.65,0}  pos={0.05,0},{0.175,0}  nobg  z=3  img=rbxassetid://2767170221
+          TextLabel "Title"  size={0.76,0},{0.75,0}  pos={0.2,0},{0.125,0}  nobg  z=3  text="Hacreey"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "DECommunity"  size={0.85,0},{0.14,0}  pos={0.075,0},{0.62,0}  nobg  z=2  img=rbxassetid://3570695787  imgcol=#005984
+          ImageLabel "Icon"  size={0.12,0},{0.65,0}  pos={0.05,0},{0.175,0}  nobg  z=3  img=rbxassetid://2767170221
+          TextLabel "Title"  size={0.78,0},{0.75,0}  pos={0.18,0},{0.125,0}  nobg  z=3  text="DECommunityRBLX"  font=GothamSSm/700  scaled  tc=#ffffff
+    UISizeConstraint "UISizeConstraint"
+  ImageLabel "Teleport"  size={0.28,0},{0.35,0}  pos={0.5,0},{1.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+    ImageButton "Exit"  size={0.18,0},{0.14,0}  pos={0.97,0},{0.03,0}  anchor=(0.5,0.5)  nobg  z=7  img=rbxassetid://8285754921  imgcol=#aa0000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=8  img=rbxassetid://3507921209
+    ScrollingFrame "Contents"  size={0.92,0},{0.77,0}  pos={0.04,0},{0.2,0}  nobg  z=31
+      UIGridLayout "UIGridLayout"  CellSize={0.95,0},{0.37,0}  CellPadding={0,0},{0,5}  FillDirectionMaxCells=1
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.39
+      ImageLabel "Template"  size={0,100},{0,100}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=6280363512
+        ImageButton "Teleport"  size={0.35,0},{0.32,0}  pos={0.98,0},{0.95,0}  anchor=(1,1)  nobg  z=34  img=rbxassetid://5382119673  imgcol=#06acff
+          TextLabel "Title"  size={0.8,0},{0.8,0}  pos={0.1,0},{0.1,0}  nobg  z=34  text="Teleport"  font=GothamSSm/700  scaled  tc=#ffffff
+        ImageLabel "Title"  size={0.8,0},{0.25,0}  pos={0.02,0},{0.04,0}  nobg  z=33  img=rbxassetid://5382119673  imgcol=#505050
+          TextLabel "Title"  size={0.92,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=34  text="Name Here!"  font=GothamSSm/700  scaled  tc=#ffffff
+        UICorner "UICorner"  CornerRadius={0,12}
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.78
+    UISizeConstraint "UISizeConstraint"
+    Frame "Topbar"  size={0.9,0},{0.07,0}  pos={0.05,0},{0.11,0}  nobg
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0.03,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageButton "Races"  size={0.45,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        TextLabel "Title"  size={0.8,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Races"  font=SourceSansPro/400  scaled  tc=#ffffff
+      ImageButton "Dealers"  size={0.45,0},{1,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        TextLabel "Title"  size={0.8,0},{0.75,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  text="Dealerships"  font=SourceSansPro/400  scaled  tc=#ffffff
+    TextLabel "Title"  size={0.85,0},{0.07,0}  pos={0.05,0},{0.03,0}  nobg  z=2  text="Teleport"  font=GothamSSm/900  scaled  tc=#ffb300
+  Frame "Radio"  size={0.285,0},{0.22,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  HIDDEN  nobg
+    ImageLabel "Controls"  size={0.6,0},{1,0}  pos={0.6,0},{0.5,0}  anchor=(1,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Title"  size={0.8,0},{0.11,0}  pos={0.1,0},{0.04,0}  nobg  z=26  text="Radio"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "ID"  size={0.7,0},{0.12,0}  pos={0.15,0},{0.18,0}  nobg  z=25  img=rbxassetid://3570695787  imgcol=#7a7a7a
+        TextBox "Input"  size={0.9,0},{0.76,0}  pos={0.05,0},{0.5,0}  anchor=(0,0.5)  nobg  z=25  text=""  font=GothamSSm/500  scaled  tc=#ffffff
+      ImageButton "Stop"  size={0.46,0},{0.16,0}  pos={0.735,0},{0.41,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+        TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Stop"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageButton "Play"  size={0.46,0},{0.16,0}  pos={0.265,0},{0.41,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+        TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Play"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "div"  size={0.95,0},{0.018,0}  pos={0.5,0},{0.525,0}  anchor=(0.5,0.5)  bg=#2b2b2b  z=3
+      Frame "Volume"  size={0.95,0},{0.19,0}  pos={0.5,0},{0.56,0}  anchor=(0.5,0)  nobg
+        TextLabel "Title"  size={0.8,0},{0.4,0}  pos={0.04,0},{0,0}  nobg  z=2  text="Volume"  font=GothamSSm/400  scaled  tc=#ffffff
+        Frame "Box"  size={0.97,0},{0.52,0}  pos={0.015,0},{0.44,0}  nobg  z=5
+          ImageLabel "Slider"  size={0.9,0},{0.27,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://3570695787  imgcol=#b2b2b2
+            ImageLabel "Slider"  size={0.065,0},{2.5,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=34  img=rbxassetid://3570695787  imgcol=#00aaff
+            ImageLabel "Default"  size={0.052,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://3570695787  imgcol=#b2b2b2
+      Frame "Pitch"  size={0.95,0},{0.19,0}  pos={0.5,0},{0.77,0}  anchor=(0.5,0)  nobg
+        TextLabel "Title"  size={0.8,0},{0.4,0}  pos={0.04,0},{0,0}  nobg  z=2  text="Pitch"  font=GothamSSm/400  scaled  tc=#ffffff
+        Frame "Box"  size={0.97,0},{0.52,0}  pos={0.015,0},{0.44,0}  nobg  z=5
+          ImageLabel "Slider"  size={0.9,0},{0.27,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://3570695787  imgcol=#b2b2b2
+            ImageLabel "Slider"  size={0.065,0},{2.5,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=34  img=rbxassetid://3570695787  imgcol=#00aaff
+            ImageLabel "Default"  size={0.052,0},{2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://3570695787  imgcol=#b2b2b2
+      ImageLabel "Unowned"  size={0.965,0},{0.96,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=40  img=rbxassetid://6991094530  imgcol=#2d2d2d  imgT=0.07
+        ImageButton "Purchase"  size={0.64,0},{0.22,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=41  img=rbxassetid://6991094530  imgcol=#505050
+          TextLabel "Title"  size={0.9,0},{0.3,0}  pos={0.05,0},{0.6,0}  nobg  z=42  text="Requires Radio access!"  font=GothamSSm/900  scaled  tc=#b5b5b5
+          ImageLabel "Lock"  size={0.1,0},{0.37,0}  pos={0.5,0},{0.15,0}  anchor=(0.5,0)  nobg  z=42  img=http://www.roblox.com/asset/?id=2354751825  imgcol=#b5b5b5
+    ImageLabel "History"  size={0.395,0},{1,0}  pos={0.605,0},{0.5,0}  anchor=(0,0.5)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+      TextLabel "Title"  size={0.8,0},{0.11,0}  pos={0.1,0},{0.04,0}  nobg  z=26  text="History"  font=GothamSSm/700  scaled  tc=#ffffff
+      Frame "Container"  size={0.92,0},{0.8,0}  pos={0.5,0},{0.165,0}  anchor=(0.5,0)  nobg  z=3
+        UIListLayout "UIListLayout"  FillDirection=1  Padding={0.02,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+        ImageButton "Template"  size={1,0},{0.107,0}  pos={0.265,0},{0.41,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=26  img=rbxassetid://3570695787  imgcol=#7a7a7a
+          TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=27  text="Audio name"  font=GothamSSm/500  scaled  tc=#ffffff
+    ImageButton "Exit"  size={0.088,0},{0.18,0}  pos={0.98,0},{0.04,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  img=rbxassetid://3507921209
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.05
+    UISizeConstraint "UISizeConstraint"
+  ImageLabel "Changelog"  size={0.19,0},{0.45,0}  pos={0.5,0},{-0.8,0}  anchor=(0.5,0.5)  nobg  z=1000  img=rbxassetid://8285754921  imgcol=#505050
+    ScrollingFrame "Container"  size={0.94,0},{0.85,0}  pos={0.03,0},{0.105,0}  nobg  z=1000
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0,3}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+      ImageLabel "Vehicles"  size={0.965,0},{0.38,0}  pos={0.06,0},{0.125,0}  HIDDEN  nobg  z=1001  img=rbxassetid://6991094530  imgcol=#2d2d2d
+        UIListLayout "UIListLayout"  FillDirection=0  Padding={0.02,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+        ImageLabel "Template"  size={0.3,0},{0.85,0}  pos={0,0},{0,0}  HIDDEN  nobg  z=1002  img=rbxassetid://6991094289  imgcol=#393939
+          ImageLabel "Model"  size={0.9,0},{0.66,0}  pos={0.05,0},{0.02,0}  HIDDEN  nobg  z=1003  img=rbxassetid://4692363001
+          TextLabel "ModelName"  size={0.84,0},{0.3,0}  pos={0.075,0},{0.94,0}  anchor=(0,1)  HIDDEN  nobg  z=1004  text="2017 Siron"  font=GothamSSm/500  scaled  tc=#ffffff
+          TextLabel "Price"  size={0.84,0},{0.18,0}  pos={0.08,0},{0.04,0}  HIDDEN  nobg  z=1004  text="$1,000,000"  font=GothamSSm/500  scaled  tc=#ffb300
+          TextLabel "Cover"  size={0.7,0},{0.4,0}  pos={0.15,0},{0.2,0}  HIDDEN  nobg  z=1004  text="+3"  font=GothamSSm/900  scaled  tc=#ffffff
+            TextLabel "More"  size={1,0},{0.4,0}  pos={0,0},{1,0}  nobg  z=1004  text="others!"  font=GothamSSm/500  scaled  tc=#ffffff
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.44
+      ImageLabel "Small"  size={0.965,0},{0.13,0}  pos={0.06,0},{0.125,0}  HIDDEN  nobg  z=1001  img=rbxassetid://6991094530  imgcol=#2d2d2d
+        TextLabel "Description"  size={0.87,0},{0.6,0}  pos={0.97,0},{0.5,0}  anchor=(1,0.5)  nobg  z=1002  text="Added TeaFinance, TeaCars, TlrDealer, and TanHer buildings!"  font=GothamSSm/900  scaled  tc=#ffffff
+        ImageLabel "Dot"  size={0.032,0},{0.23,0}  pos={0.035,0},{0.5,0}  anchor=(0,0.5)  nobg  z=1002  img=rbxassetid://7179506030  imgcol=#505050
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=7.24
+      ImageLabel "Large"  size={0.965,0},{0.21,0}  pos={0.06,0},{0.125,0}  HIDDEN  nobg  z=1001  img=rbxassetid://6991094530  imgcol=#2d2d2d
+        TextLabel "Title"  size={0.86,0},{0.24,0}  pos={0.1,0},{0.13,0}  nobg  z=1002  text="Added blue bird code"  font=GothamSSm/900  scaled  tc=#ffffff
+        ImageLabel "Sparkles"  size={0.065,0},{0.285,0}  pos={0.02,0},{0.5,0}  anchor=(0,0.5)  nobg  z=1002  img=rbxassetid://7085496967  imgcol=#ffb300
+        TextLabel "Description"  size={0.86,0},{0.5,0}  pos={0.1,0},{0.42,0}  nobg  z=1002  text="New blue bird code to hopefully get everyone to stop asking ..."  font=GothamSSm/400  scaled  tc=#9a9a9a
+        UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=4.45
+    ImageButton "Exit"  size={0.6,0},{0.11,0}  pos={0.5,0},{0.98,0}  anchor=(0.5,0.5)  nobg  z=1010  img=rbxassetid://8285754921  imgcol=#60bc14
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=1011  text="Got it!"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Title"  size={0.6,0},{0.075,0}  pos={0.04,0},{0.02,0}  nobg  z=1001  text="New Update!"  font=GothamSSm/900  scaled  tc=#ffb300
+    ImageLabel "Version"  size={0.25,0},{0.06,0}  pos={0.935,0},{0.03,0}  anchor=(1,0)  nobg  z=1001  img=rbxassetid://6991094530  imgcol=#393939
+      TextLabel "Title"  size={0.8,0},{0.6,0}  pos={0.1,0},{0.2,0}  nobg  z=1002  text="v.11493"  font=GothamSSm/500  scaled  tc=#a3a3a3
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=0.857
+    UISizeConstraint "UISizeConstraint"
+
+==== StarterGui.PhotoMode  (42 descendants)
+ScreenGui "PhotoMode"  Enabled=False  DisplayOrder=1  ResetOnSpawn=True  ZIndexBehavior=0
+  LocalScript "Controller"  -> scripts/StarterGui/PhotoMode/Controller.client.lua
+    ModuleScript "Slider"  -> scripts/StarterGui/PhotoMode/Controller/Slider.lua
+  Frame "Side"  size={0.28,0},{0.09,0}  pos={0,4},{1,-4}  anchor=(0,1)  nobg
+    ImageLabel "Background"  size={1,0},{3.44,0}  pos={0,0},{1,0}  anchor=(0,1)  nobg  img=rbxassetid://8285754921  imgcol=#505050
+    Frame "Container"  size={0.95,0},{0.8,0}  pos={0.5,0},{0.92,0}  anchor=(0.5,1)  nobg
+      UIListLayout "UIListLayout"  FillDirection=1  Padding={0.04,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+      ImageButton "Hide"  size={1,0},{0.5,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://5382119673  imgcol=#00aaff
+        TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=2  text="Hide menu"  font=GothamSSm/400  scaled  tc=#ffffff
+      ImageButton "Character"  size={0.9,0},{0.4,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://5382119673  imgcol=#c60300
+        TextLabel "Title"  size={0.9,0},{0.7,0}  pos={0.05,0},{0.15,0}  nobg  z=2  text="Hide character"  font=GothamSSm/400  scaled  tc=#ffffff
+      ImageLabel "FOV"  size={1,0},{0.7,0}  pos={0.5,0},{0.92,0}  anchor=(0.5,1)  nobg  img=rbxassetid://5382119673  imgcol=#2b2b2b
+        TextLabel "Title"  size={0.8,0},{0.35,0}  pos={0.04,0},{0.1,0}  nobg  z=2  text="Field of View"  font=GothamSSm/400  scaled  tc=#ffffff
+        Frame "Box"  size={0.97,0},{0.45,0}  pos={0.015,0},{0.45,0}  nobg  z=5
+          ImageLabel "Slider"  size={0.9,0},{0.27,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://3570695787  imgcol=#b2b2b2
+            ImageLabel "Slider"  size={0.065,0},{2.5,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://3570695787  imgcol=#00aaff
+      ImageLabel "Time"  size={1,0},{0.7,0}  pos={0.5,0},{0.92,0}  anchor=(0.5,1)  nobg  img=rbxassetid://5382119673  imgcol=#2b2b2b
+        TextLabel "Title"  size={0.8,0},{0.35,0}  pos={0.04,0},{0.1,0}  nobg  z=2  text="Time"  font=GothamSSm/400  scaled  tc=#ffffff
+        Frame "Box"  size={0.97,0},{0.45,0}  pos={0.015,0},{0.45,0}  nobg  z=5
+          ImageLabel "Slider"  size={0.9,0},{0.27,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://3570695787  imgcol=#b2b2b2
+            ImageLabel "Slider"  size={0.065,0},{2.5,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://3570695787  imgcol=#00aaff
+      ImageLabel "DOF"  size={1,0},{1.65,0}  pos={0.5,0},{0.92,0}  anchor=(0.5,1)  nobg  img=rbxassetid://5382119673  imgcol=#2b2b2b
+        TextButton "Enabled"  size={0.4,0},{0.2,0}  pos={0.08,0},{0.3,0}  nobg  z=2  text="Button"  font=LegacyArial/400  ts=1  tc=#1b2a35
+          TextLabel "Title"  size={0.7,0},{0.8,0}  pos={1,0},{0.1,0}  anchor=(1,0)  nobg  z=2  text="Enabled"  font=GothamSSm/400  scaled  tc=#ffffff
+          ImageLabel "Enabled"  size={0.215,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=http://www.roblox.com/asset/?id=6792651701
+        TextLabel "Title"  size={0.8,0},{0.15,0}  pos={0.03,0},{0.05,0}  nobg  z=2  text="Depth of Field"  font=GothamSSm/400  scaled  tc=#ffffff
+        TextLabel "Title2"  size={0.7,0},{0.15,0}  pos={0.08,0},{0.57,0}  nobg  z=2  text="Focus Distance"  font=GothamSSm/400  scaled  tc=#ffffff
+        Frame "Box"  size={0.87,0},{0.195,0}  pos={0.11,0},{0.74,0}  nobg  z=5
+          ImageLabel "Slider"  size={0.9,0},{0.27,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=32  img=rbxassetid://3570695787  imgcol=#b2b2b2
+            ImageLabel "Slider"  size={0.07,0},{2.5,0}  pos={0,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=33  img=rbxassetid://3570695787  imgcol=#00aaff
+    ImageButton "Exit"  size={0.145,0},{0.45,0}  pos={0.96,0},{-2.35,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://8285754921  imgcol=#aa0000
+      ImageLabel "Icon"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=3  img=rbxassetid://3507921209
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=3.12
+    UISizeConstraint "UISizeConstraint"
+  ImageLabel "DE"  size={0.15,0},{0.11,0}  pos={1,0},{1,0}  anchor=(0.96,0.86)  nobg  img=rbxassetid://6644677377  imgT=0.2
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=2.3
+    UISizeConstraint "UISizeConstraint"
+  ImageButton "Show"  size={0.21,0},{0.045,0}  pos={0.5,0},{0,-30}  anchor=(0.5,0)  HIDDEN  nobg  z=3  img=rbxassetid://8285754921  imgcol=#505050
+    TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=4  text="Show menu"  font=GothamSSm/400  scaled  tc=#ffffff
+    TextLabel "Notice"  size={0.12,0},{0.7,0}  pos={0.02,0},{0.15,0}  nobg  z=4  text="!"  font=GothamSSm/900  scaled  tc=#ff9807
+    TextLabel "Notice"  size={0.12,0},{0.7,0}  pos={0.86,0},{0.15,0}  nobg  z=4  text="!"  font=GothamSSm/900  scaled  tc=#ff9807
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=6
+    UISizeConstraint "UISizeConstraint"
+
+==== StarterGui.Special  (32 descendants)
+ScreenGui "Special"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageLabel "PayoffBounty"  size={0.22,0},{0.25,0}  pos={0.5,0},{-2,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    LocalScript "Updater"  -> scripts/StarterGui/Special/PayoffBounty/Updater.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.8
+    ImageButton "Yes"  size={0.42,0},{0.18,0}  pos={0.28,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Yes"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "No"  size={0.42,0},{0.18,0}  pos={0.72,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="No"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Price"  size={0.8,0},{0.16,0}  pos={0.1,0},{0.56,0}  nobg  z=26  text="$000,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.05,0}  nobg  z=26  text="Are you sure?"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Description"  size={0.9,0},{0.33,0}  pos={0.05,0},{0.22,0}  nobg  z=26  text="Are you sure you would like to pay off your bounty for:"  font=GothamSSm/400  scaled  tc=#ffffff
+  ImageLabel "BailPromt"  size={0.22,0},{0.25,0}  pos={0.5,0},{-2,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    LocalScript "Updater"  -> scripts/StarterGui/Special/BailPromt/Updater.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.79
+    ImageButton "No"  size={0.42,0},{0.18,0}  pos={0.72,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#ba0000
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="No"  font=GothamSSm/700  scaled  tc=#ffffff
+    ImageButton "Yes"  size={0.42,0},{0.18,0}  pos={0.28,0},{0.84,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Yes"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Price"  size={0.8,0},{0.16,0}  pos={0.1,0},{0.56,0}  nobg  z=26  text="$000,000"  font=GothamSSm/900  scaled  tc=#ffaa00
+    TextLabel "Title"  size={0.8,0},{0.18,0}  pos={0.1,0},{0.05,0}  nobg  z=26  text="Are you sure?"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Description"  size={0.9,0},{0.33,0}  pos={0.05,0},{0.22,0}  nobg  z=26  text="Click yes to bail out for the amount labeled below. Click no..."  font=GothamSSm/400  scaled  tc=#ffffff
+  ImageLabel "Jail"  size={0.15,0},{0.18,0}  pos={1,0},{0.65,0}  anchor=(1,0.5)  HIDDEN  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    LocalScript "LocalScript"  -> scripts/StarterGui/Special/Jail/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.68
+    ImageButton "BailOut"  size={0.8,0},{0.25,0}  pos={0.5,0},{0.79,0}  anchor=(0.5,0.5)  nobg  z=26  img=rbxassetid://8285754921  imgcol=#5cb900
+      TextLabel "Title"  size={0.7,0},{0.7,0}  pos={0.15,0},{0.15,0}  nobg  z=27  text="Bail Out"  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "TimeLeft"  size={0.8,0},{0.3,0}  pos={0.1,0},{0.15,0}  nobg  z=26  text="Time Left: 60"  font=GothamSSm/700  scaled  tc=#ffffff
+  ImageLabel "RadarGun"  size={0.15,0},{0.18,0}  pos={0.06,0},{0.78,0}  anchor=(0,0.5)  HIDDEN  nobg  z=25  img=rbxassetid://8285754921  imgcol=#505050
+    LocalScript "LocalScript"  -> scripts/StarterGui/Special/RadarGun/LocalScript.client.lua
+    UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.7
+    TextLabel "TextLabel"  size={0.8,0},{0.35,0}  pos={0.1,0},{0.12,0}  nobg  z=26  text="Click a vehicle to get its speed."  font=GothamSSm/700  scaled  tc=#ffffff
+    TextLabel "Speed"  size={0.8,0},{0.35,0}  pos={0.1,0},{0.54,0}  nobg  z=26  text="0 MPH"  font=GothamSSm/700  scaled  tc=#0099e6
+      ObjectValue "Object"  Value=nil
+
+==== StarterGui.Watermark  (7 descendants)
+ScreenGui "Watermark"  Enabled=False  DisplayOrder=1000000000  ResetOnSpawn=False  ZIndexBehavior=0
+  LocalScript "Generate"  -> scripts/StarterGui/Watermark/Generate.client.lua
+    TextLabel "Template"  size={0,200},{0,50}  pos={0,0},{0,0}  HIDDEN  nobg  text="Hacreey"  font=SourceSansPro/400  scaled  tc=#ffffff
+  Frame "Container"  size={1.1,0},{1.3,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  rot=-10
+    UIGridLayout "UIGridLayout"  CellSize={0.08,0},{0.04,0}  CellPadding={0.18,0},{0.18,0}  FillDirectionMaxCells=3
+  Frame "Notice"  size={0,420},{0,26}  pos={0.5,0},{0,4}  anchor=(0.5,0)  bg=#de2626
+    TextLabel "Title"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="This is a testing server, do not share ANYTHING without perm..."  font=SourceSansPro/400  ts=14  tc=#000000
+    UICorner "UICorner"  CornerRadius={1,0}
+
+==== Workspace.Cells.Cell4.CellSign.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Occupent"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="[]'s Cell"  font=GothamSSm/700  scaled  tc=#ffffff
+
+==== Workspace.Cells.Cell3.CellSign.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Occupent"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="[]'s Cell"  font=GothamSSm/700  scaled  tc=#ffffff
+
+==== Workspace.Game.Leaderboards.miles.Screen.Leaderboard  (90 descendants)
+SurfaceGui "Leaderboard"  Enabled=True  Face=0  PixelsPerStud=18  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={0.78,0},{0.068,0}  pos={0.5,0},{0.01,0}  anchor=(0.5,0)  nobg  z=2  text="Miles Driven"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIGradient "UIGradient"  rot=60  Color=[0:#ff9549 1:#ff7410]  Rotation=60  Transparency=[0:0 1:0]
+  ImageLabel "My"  size={0.78,0},{0.095,0}  pos={0.5,0},{0.085,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+    TextLabel "Title"  size={0.94,0},{0.34,0}  pos={0.03,0},{0.02,0}  nobg  z=2  text="My stats"  font=GothamSSm/900  scaled  tc=#444444
+    TextLabel "Stat"  size={0.94,0},{0.6,0}  pos={0.03,0},{0.34,0}  nobg  z=2  text="0 miles"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=60  Color=[0:#4db2ff 1:#1d9dff]  Rotation=60  Transparency=[0:0 1:0]
+  ImageLabel "Columns"  size={0.95,0},{0.04,0}  pos={0.5,0},{0.19,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+    TextLabel "#"  size={0.05,0},{0.8,0}  pos={0.005,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="#"  font=GothamSSm/900  scaled  tc=#444444
+    TextLabel "Players"  size={0.4,0},{0.8,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Username"  font=GothamSSm/900  scaled  tc=#444444
+    TextLabel "Stat"  size={0.2,0},{0.8,0}  pos={0.985,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="Miles"  font=GothamSSm/900  scaled  tc=#444444
+  Frame "Contents"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.245,0}  anchor=(0.5,0)  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.023,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+    ImageLabel "Template"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  HIDDEN  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="OnlyTwentyCharacters"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="30K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="4"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "148165910"  size={1,0},{0.075,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156  imgcol=#e2c164
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="DOLL4RS"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="417K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.113,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://7408429915  imgcol=#ffb319
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="1"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "1488363702"  size={1,0},{0.075,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156  imgcol=#dddddd
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="tsgl2"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="375K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.113,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://7408429915  imgcol=#bfbfbf
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="2"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "220659906"  size={1,0},{0.075,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156  imgcol=#b28363
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="fulvsy"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="334K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.113,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://7408429915  imgcol=#b96b33
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="3"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "142907293"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="AstroDucc"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="333K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="4"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "380463142"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="The_Reaper245"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="329K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="5"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "67615555"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="SwagTrollGamer"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="317K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="6"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "470798108"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="matheus2005b"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="311K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="7"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "1558407463"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="6_oqc"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="296K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="8"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "452113927"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="kiko16hraje"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="285K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="9"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "591551282"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="goli7127"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="283K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="10"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "121413191"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="SniperDashieGaming"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="283K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="11"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "869256328"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Bratishk_a"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="281K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="12"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+
+==== Workspace.Game.Leaderboards.money.Screen.Leaderboard  (72 descendants)
+SurfaceGui "Leaderboard"  Enabled=True  Face=0  PixelsPerStud=18  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "Title"  size={0.78,0},{0.068,0}  pos={0.5,0},{0.01,0}  anchor=(0.5,0)  nobg  z=2  text="Most Cash"  font=GothamSSm/900  scaled  tc=#ffffff
+    UIGradient "UIGradient"  rot=60  Color=[0:#ff9549 1:#ff7410]  Rotation=60  Transparency=[0:0 1:0]
+  ImageLabel "My"  size={0.78,0},{0.095,0}  pos={0.5,0},{0.085,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+    TextLabel "Title"  size={0.94,0},{0.34,0}  pos={0.03,0},{0.02,0}  nobg  z=2  text="My stats"  font=GothamSSm/900  scaled  tc=#444444
+    TextLabel "Stat"  size={0.94,0},{0.6,0}  pos={0.03,0},{0.34,0}  nobg  z=2  text="$15,335"  font=GothamSSm/900  scaled  tc=#ffffff
+      UIGradient "UIGradient"  rot=60  Color=[0:#4db2ff 1:#1d9dff]  Rotation=60  Transparency=[0:0 1:0]
+  ImageLabel "Columns"  size={0.95,0},{0.04,0}  pos={0.5,0},{0.19,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+    TextLabel "#"  size={0.05,0},{0.8,0}  pos={0.005,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="#"  font=GothamSSm/900  scaled  tc=#444444
+    TextLabel "Players"  size={0.4,0},{0.8,0}  pos={0.06,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Username"  font=GothamSSm/900  scaled  tc=#444444
+    TextLabel "Stat"  size={0.2,0},{0.8,0}  pos={0.985,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="Cash"  font=GothamSSm/900  scaled  tc=#444444
+  Frame "Contents"  size={0.9,0},{0.7,0}  pos={0.5,0},{0.245,0}  anchor=(0.5,0)  nobg
+    UIListLayout "UIListLayout"  FillDirection=1  Padding={0.023,0}  HorizontalAlignment=1  VerticalAlignment=1  SortOrder=2
+    ImageLabel "Template"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  HIDDEN  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="OnlyTwentyCharacters"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="30K"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="4"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "1146765246"  size={1,0},{0.075,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156  imgcol=#e2c164
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="fabicenice"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$612M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.113,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://7408429915  imgcol=#ffb319
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="1"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "148165910"  size={1,0},{0.075,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156  imgcol=#dddddd
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="DOLL4RS"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$565M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.113,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://7408429915  imgcol=#bfbfbf
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="2"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "76350790"  size={1,0},{0.075,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156  imgcol=#b28363
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Rzniq"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$554M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.113,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://7408429915  imgcol=#b96b33
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="3"  font=GothamSSm/900  scaled  tc=#ffffff
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "564703520"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="Terrific_Cool"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$515M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="4"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "591551282"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="goli7127"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$502M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="5"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "1558407463"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="6_oqc"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$495M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="6"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "2204291522"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="JoeyBezos"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$481M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="7"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "142907293"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="AstroDucc"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$467M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="8"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+    ImageLabel "533274096"  size={1,0},{0.063,0}  pos={0.5,0},{0.21,0}  anchor=(0.5,0)  nobg  img=rbxassetid://8284908156
+      TextLabel "Username"  size={0.6,0},{0.8,0}  pos={0.09,0},{0.5,0}  anchor=(0,0.5)  nobg  z=2  text="xXONlXxX"  font=GothamSSm/900  scaled  tc=#444444
+      TextLabel "Stat"  size={0.25,0},{0.8,0}  pos={0.975,0},{0.5,0}  anchor=(1,0.5)  nobg  z=2  text="$435M"  font=GothamSSm/900  scaled  tc=#444444
+      ImageLabel "Placement"  size={0.091,0},{1.2,0}  pos={0.025,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  img=rbxassetid://8223327055
+        TextLabel "Title"  size={0.6,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2  text="9"  font=GothamSSm/900  scaled  tc=#404040
+        UIGradient "UIGradient"  rot=60  Color=[0:#ffffff 1:#919191]  Rotation=60  Transparency=[0:0 1:0]
+
+==== Workspace.Game.Races.Queues.Highway.Highway  (16 descendants)
+BillboardGui "Highway"  size={12.9,0},{9,0}  Enabled=True  Size={12.9,0},{9,0}  StudsOffset=(0,8,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=Workspace.Game.Races.Queues.Highway.Design
+  ImageLabel "Container"  size={1.6,0},{1,0}  pos={-0.3,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=5914710126  imgcol=#505050
+    TextLabel "Title"  size={0.85,0},{0.24,0}  pos={0.075,0},{-0.08,0}  nobg  z=2  text="Highway Race"  font=FredokaOne/400  scaled  tc=#d9d9d9
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  text="Highway Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.498,0},{0.45,0}  anchor=(0.5,0.5)  nobg  text="Highway Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.502,0},{0.45,0}  anchor=(0.5,0.5)  nobg  text="Highway Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.502,0},{0.55,0}  anchor=(0.5,0.5)  nobg  text="Highway Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.498,0},{0.55,0}  anchor=(0.5,0.5)  nobg  text="Highway Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+    TextLabel "Description"  size={0.85,0},{0.35,0}  pos={0.075,0},{0.37,0}  nobg  text="Rip down the Highway as fast as you can!"  font=GothamSSm/500  scaled  tc=#d9d9d9
+    ImageLabel "ChassisType"  size={0.41,0},{0.15,0}  pos={0.27,0},{0.18,0}  anchor=(0.5,0)  nobg  z=2  img=rbxassetid://6991094289  imgcol=#333333
+      TextLabel "Title"  size={0.92,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Land"  font=GothamSSm/400  scaled  tc=#ffffff
+    ImageLabel "Category"  size={0.41,0},{0.15,0}  pos={0.73,0},{0.18,0}  anchor=(0.5,0)  nobg  z=2  img=rbxassetid://6991094289  imgcol=#333333
+      TextLabel "Title"  size={0.92,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Highway"  font=GothamSSm/400  scaled  tc=#ffffff
+    ImageLabel "State"  size={0.75,0},{0.23,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=10  img=rbxassetid://3570695787
+      TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=106  text="Requires at least 2 players..."  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "Border"  size={1.03,0},{1.2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=9  img=rbxassetid://3570695787  imgcol=#2a2a2a
+      UIGradient "UIGradient"  Color=[0:#3191e5 0.0715:#3191e5 0.0965:#4f4f4f 1:#4f4f4f]  Rotation=0  Transparency=[0:0 1:0]
+
+==== Workspace.Game.Races.Queues.Drag.Drag  (16 descendants)
+BillboardGui "Drag"  size={12.9,0},{9,0}  Enabled=True  Size={12.9,0},{9,0}  StudsOffset=(0,8,0)  MaxDistance=inf  AlwaysOnTop=False  Adornee=Workspace.Game.Races.Queues.Drag.Design
+  ImageLabel "Container"  size={1.6,0},{1,0}  pos={-0.3,0},{0,0}  nobg  img=http://www.roblox.com/asset/?id=5914710126  imgcol=#505050
+    TextLabel "Title"  size={0.85,0},{0.24,0}  pos={0.075,0},{-0.08,0}  nobg  z=2  text="Drag Race"  font=FredokaOne/400  scaled  tc=#d9d9d9
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.5,0},{0.45,0}  anchor=(0.5,0.5)  nobg  text="Drag Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.498,0},{0.45,0}  anchor=(0.5,0.5)  nobg  text="Drag Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.502,0},{0.45,0}  anchor=(0.5,0.5)  nobg  text="Drag Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.502,0},{0.55,0}  anchor=(0.5,0.5)  nobg  text="Drag Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+      TextLabel "Shadow"  size={1,0},{1.02,0}  pos={0.498,0},{0.55,0}  anchor=(0.5,0.5)  nobg  text="Drag Race"  font=FredokaOne/400  scaled  tc=#2a2a2a
+    TextLabel "Description"  size={0.85,0},{0.35,0}  pos={0.075,0},{0.37,0}  nobg  text="Sprint down Vine Hill Dragway!"  font=GothamSSm/500  scaled  tc=#d9d9d9
+    ImageLabel "ChassisType"  size={0.41,0},{0.15,0}  pos={0.27,0},{0.18,0}  anchor=(0.5,0)  nobg  z=2  img=rbxassetid://6991094289  imgcol=#333333
+      TextLabel "Title"  size={0.92,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Land"  font=GothamSSm/400  scaled  tc=#ffffff
+    ImageLabel "Category"  size={0.41,0},{0.15,0}  pos={0.73,0},{0.18,0}  anchor=(0.5,0)  nobg  z=2  img=rbxassetid://6991094289  imgcol=#333333
+      TextLabel "Title"  size={0.92,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  text="Dragstrip"  font=GothamSSm/400  scaled  tc=#ffffff
+    ImageLabel "State"  size={0.75,0},{0.23,0}  pos={0.5,0},{0.9,0}  anchor=(0.5,0.5)  nobg  z=10  img=rbxassetid://3570695787
+      TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=106  text="Starting in 7! (2/2)"  font=GothamSSm/700  scaled  tc=#ffffff
+      ImageLabel "Border"  size={1.03,0},{1.2,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=9  img=rbxassetid://3570695787  imgcol=#2a2a2a
+      UIGradient "UIGradient"  Color=[0:#3191e5 0.0715:#3191e5 0.0965:#4f4f4f 1:#4f4f4f]  Rotation=0  Transparency=[0:0 1:0]
+
+==== Workspace.vine hill dealer.Model.Design.Ring  (2 descendants)
+SurfaceGui "Ring"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Hollow"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  img=rbxassetid://5850744711  imgcol=#aeff00  imgT=0.75
+  ImageLabel "Starburst"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://2792114075  imgcol=#aeff00  imgT=0.3
+
+==== Workspace.Speedtraps.Trap.Speedtrap.Flash.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={3,0},{3,0}  Enabled=False  Size={3,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://2916152004
+
+==== Workspace.Speedtraps.Trap.Speedtrap.Flash.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={3,0},{3,0}  Enabled=False  Size={3,0},{3,0}  StudsOffset=(0,0,0)  MaxDistance=inf  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://2916152004
+
+==== Workspace.Houses._House_.InfoSign.ForSale.Back  (6 descendants)
+SurfaceGui "Back"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Unowned"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Instruction"  size={1,0},{1,0}  pos={0,0},{0.3,0}  nobg  z=2  text="Click to claim."  font=SourceSansPro/600  ts=80  tc=#ff0000
+    ImageLabel "FORSALE"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://710954956
+  Frame "Owned"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    TextLabel "Ownedby"  size={1,0},{0.4,0}  pos={0,0},{0.1,0}  nobg  z=2  text="Owned by"  font=SourceSansPro/400  scaled  tc=#5d5d5d
+    TextLabel "Plr"  size={0.9,0},{0.6,0}  pos={0.05,0},{0.3,0}  nobg  z=2  text="dfresfrgfdsa"  font=SourceSansPro/700  scaled  tc=#c70000
+
+==== Workspace.Houses._House_.InfoSign.ForSale.Front  (6 descendants)
+SurfaceGui "Front"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Unowned"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Instruction"  size={1,0},{1,0}  pos={0,0},{0.3,0}  nobg  z=2  text="Click to claim."  font=SourceSansPro/600  ts=80  tc=#ff0000
+    ImageLabel "FORSALE"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://710954956
+  Frame "Owned"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    TextLabel "Ownedby"  size={1,0},{0.4,0}  pos={0,0},{0.1,0}  nobg  z=2  text="Owned by"  font=SourceSansPro/400  scaled  tc=#5d5d5d
+    TextLabel "Plr"  size={0.9,0},{0.6,0}  pos={0.05,0},{0.3,0}  nobg  z=2  text="dfresfrgfdsa"  font=SourceSansPro/700  scaled  tc=#c70000
+
+==== Workspace.Houses._House_.InfoSign.ForSale.Back  (6 descendants)
+SurfaceGui "Back"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Unowned"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Instruction"  size={1,0},{1,0}  pos={0,0},{0.3,0}  nobg  z=2  text="Click to claim."  font=SourceSansPro/600  ts=80  tc=#ff0000
+    ImageLabel "FORSALE"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://710954956
+  Frame "Owned"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    TextLabel "Ownedby"  size={1,0},{0.4,0}  pos={0,0},{0.1,0}  nobg  z=2  text="Owned by"  font=SourceSansPro/400  scaled  tc=#5d5d5d
+    TextLabel "Plr"  size={0.9,0},{0.6,0}  pos={0.05,0},{0.3,0}  nobg  z=2  text="Mehdi_27Aslan"  font=SourceSansPro/700  scaled  tc=#c70000
+
+==== Workspace.Houses._House_.InfoSign.ForSale.Front  (6 descendants)
+SurfaceGui "Front"  Enabled=True  Face=5  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Unowned"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextLabel "Instruction"  size={1,0},{1,0}  pos={0,0},{0.3,0}  nobg  z=2  text="Click to claim."  font=SourceSansPro/600  ts=80  tc=#ff0000
+    ImageLabel "FORSALE"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  img=rbxassetid://710954956
+  Frame "Owned"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg
+    TextLabel "Ownedby"  size={1,0},{0.4,0}  pos={0,0},{0.1,0}  nobg  z=2  text="Owned by"  font=SourceSansPro/400  scaled  tc=#5d5d5d
+    TextLabel "Plr"  size={0.9,0},{0.6,0}  pos={0.05,0},{0.3,0}  nobg  z=2  text="Mehdi_27Aslan"  font=SourceSansPro/700  scaled  tc=#c70000
+
+==== Workspace.Vehicles.Ww_boryawW.Body.Dash.Tac.G  (5 descendants)
+SurfaceGui "G"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "Indicator"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  rot=90
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.3,0},{0.45,0}  nobg  rot=-90  text=">"  font=SourceSansPro/700  ts=24  tc=#ffffff
+  ImageLabel "Needle"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  rot=-55  img=rbxassetid://386771233  imgT=1
+    Frame "Frame"  size={0.01,0},{0.02,0}  pos={0.495,0},{0.49,0}  nobg  z=2  rot=90
+      Frame "Frame"  size={3,0},{0,90}  pos={0,0},{0,0}  bg=#aa0000@0.2  z=2
+
+==== Workspace.Vehicles.Ww_boryawW.Body.Dash.DashSc.G  (5 descendants)
+SurfaceGui "G"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Right"  size={0,20},{0,20}  pos={1.3,-35},{0.75,10}  HIDDEN  nobg  z=2  img=rbxassetid://71659683  imgcol=#00ff00  imgT=0.4
+  ImageLabel "Left"  size={0,20},{0,20}  pos={-0.1,0},{0.75,10}  HIDDEN  nobg  z=2  rot=180  img=rbxassetid://71659683  imgcol=#00ff00  imgT=0.4
+  TextLabel "Gear"  size={0,1},{0,1}  pos={0.5,0},{0.5,20}  nobg  z=9  text="N"  font=SourceSansPro/700  ts=48  tc=#ff7614
+  ImageLabel "Light"  size={0,20},{0,20}  pos={0.7,2},{0.3,42}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=151673087
+  ImageLabel "PBrake"  size={0,20},{0,20}  pos={0.2,-10},{0.5,18}  HIDDEN  nobg  z=2  img=rbxassetid://123454312
+
+==== Workspace.Vehicles.Klimous_24.Body.Model.Part.Images  (1 descendants)
+SurfaceGui "Images"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.72,0},{0.9,0}  pos={0.136,0},{0.08,0}  nobg  z=3  img=rbxassetid://6119555947
+
+==== ReplicatedFirst.Loading.Loading  (43 descendants)
+ScreenGui "Loading"  Enabled=True  DisplayOrder=2  ResetOnSpawn=False  ZIndexBehavior=0
+  Sound "Music"
+    EqualizerSoundEffect "Equalizer"
+  Sound "Click"
+  Frame "Loading"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  bg=#2f2f2f  z=2500
+    UIGradient "UIGradient"  rot=45  Color=[0:#343434 0.75:#4c4c4c 1:#616161]  Rotation=45  Transparency=[0:0 1:0]
+    Frame "Dots"  size={0.025,0},{0.025,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0.75,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=0
+      Frame "0"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Dot"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2500  img=rbxassetid://7179506030
+      Frame "1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Dot"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2500  img=rbxassetid://7179506030
+      Frame "2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Dot"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2500  img=rbxassetid://7179506030
+      Frame "3"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Dot"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2500  img=rbxassetid://7179506030
+      Frame "4"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+        ImageLabel "Dot"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2500  img=rbxassetid://7179506030
+    ImageLabel "Prog"  size={0.8,0},{0.005,0}  pos={0.5,0},{0.96,0}  anchor=(0.5,0.5)  nobg  z=2501  img=http://www.roblox.com/asset/?id=7988748257
+      UIGradient "UIGradient"  Color=[0:#60c8ff 0.0183:#2f2f2f 1:#2f2f2f]  Rotation=0  Transparency=[0:0 1:0]
+      TextLabel "Status"  size={0.8,0},{3,0}  pos={0,0},{-0.35,0}  anchor=(0,1)  nobg  z=2505  text=""  font=GothamSSm/400  scaled  tc=#ffffff
+    ImageLabel "Logo"  size={0.28,0},{0.095,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=2506  img=http://www.roblox.com/asset/?id=8106837785  imgT=1
+  Frame "Menu"  size={1,0},{1.1,0}  pos={-1.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=100
+    Frame "Main"  size={0.16,0},{0.2,0}  pos={0.5,0},{0.48,0}  anchor=(0.5,0)  nobg  z=101
+      ImageButton "Jobs"  size={0.85,0},{0.26,0}  pos={0.5,0},{0.44,0}  anchor=(0.5,0.5)  nobg  z=50  img=http://www.roblox.com/asset/?id=5381546552  imgcol=#00a034
+        TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=51  text="Jobs"  font=GothamSSm/700  scaled  tc=#04531f
+        ImageLabel "Grad"  size={0,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=49  img=rbxassetid://4859963910  imgcol=#ffaa00  imgT=0.5
+        ImageLabel "Icon"  size={0.16,0},{0.7,0}  pos={0.04,0},{0.15,0}  nobg  z=51  img=rbxassetid://2743800562  imgcol=#8dc792
+      ImageButton "Play"  size={0.94,0},{0.29,0}  pos={0.5,0},{0.15,0}  anchor=(0.5,0.5)  nobg  z=50  img=http://www.roblox.com/asset/?id=5381546552  imgcol=#25abf6
+        TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=51  text="Play"  font=GothamSSm/700  scaled  tc=#145c85
+        ImageLabel "Grad"  size={0,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=49  img=rbxassetid://4859963910  imgcol=#ffaa00  imgT=0.5
+        ImageLabel "Icon"  size={0.17,0},{0.8,0}  pos={0.03,0},{0.06,0}  nobg  z=51  img=rbxassetid://2743802061  imgcol=#c9f1ff
+      ImageButton "Shop"  size={0.85,0},{0.26,0}  pos={0.5,0},{0.71,0}  anchor=(0.5,0.5)  nobg  z=50  img=http://www.roblox.com/asset/?id=5381546552  imgcol=#ebbb0c
+        TextLabel "Title"  size={0.7,0},{0.6,0}  pos={0.15,0},{0.2,0}  nobg  z=51  text="Shop"  font=GothamSSm/700  scaled  tc=#806607
+        ImageLabel "Grad"  size={0,0},{0.7,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=49  img=rbxassetid://4859963910  imgcol=#ffaa00  imgT=0.5
+        ImageLabel "Icon"  size={0.17,0},{0.8,0}  pos={0.03,0},{0.1,0}  nobg  z=51  img=rbxassetid://2743800920  imgcol=#ebeab5
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.48
+      UISizeConstraint "UISizeConstraint"
+    ImageLabel "Logo"  size={0,0},{0,0}  pos={0.5,0},{0.445,0}  anchor=(0.5,0.7)  nobg  z=101  img=rbxassetid://5985209834
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1
+    ImageLabel "Left"  size={0.15,0},{0.2,0}  pos={-0.15,0},{0.5,0}  anchor=(0,0.5)  nobg  z=48  img=rbxassetid://4506864681  imgcol=#505050  imgT=0.1
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.38
+    ImageLabel "Right"  size={0.15,0},{0.2,0}  pos={1.15,0},{0.5,0}  anchor=(1,0.5)  nobg  z=48  img=rbxassetid://4500760613  imgcol=#505050  imgT=0.1
+      UIAspectRatioConstraint "UIAspectRatioConstraint"  AspectRatio=1.38
+
+==== ReplicatedStorage.SharedPrefabs.UI.Prompt  (6 descendants)
+BillboardGui "Prompt"  size={1.4,0},{1.4,0}  Enabled=False  Size={1.4,0},{1.4,0}  StudsOffset=(0,0,0)  MaxDistance=32  AlwaysOnTop=True  Adornee=nil
+  Frame "Container"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg
+    ImageButton "Button"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=http://www.roblox.com/asset/?id=7510263641  imgcol=#505050
+      ImageLabel "Lock"  size={0.6,0},{0.6,0}  pos={0.51,0},{0.49,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://7189834947  imgcol=#313131
+      ImageLabel "Touch"  size={0.6,0},{0.6,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://7225350715
+      TextLabel "Info"  size={1.1,0},{0.3,0}  pos={0.5,0},{0.85,0}  anchor=(0.5,0.5)  HIDDEN  nobg  z=2  text="Open"  font=GothamSSm/700  scaled  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=4  Color=#323232  Transparency=0  ApplyStrokeMode=0
+
+==== ReplicatedStorage.Modules.Shared.HeavyRegions.Regions.TestDealer.Area.Body.Dash.Tac.G  (25 descendants)
+SurfaceGui "G"  Enabled=True  Face=1  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  Frame "9"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=206
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.43,0}  nobg  rot=155  text="9"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "8"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=178
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=182  text="8"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "Indicator"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  rot=90
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.3,0},{0.45,0}  nobg  rot=-90  text=">"  font=SourceSansPro/700  ts=24  tc=#ffffff
+  ImageLabel "Needle"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  z=2  rot=-55  img=rbxassetid://386771233  imgT=1
+    Frame "Frame"  size={0.01,0},{0.02,0}  pos={0.495,0},{0.49,0}  nobg  z=2  rot=90
+      Frame "Frame"  size={3,0},{0,90}  pos={0,0},{0,0}  bg=#aa0000@0.2  z=2
+  Frame "0"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=-90
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=90  text="0"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "7"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=146
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=-146  text="7"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "6"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=112
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=-112  text="6"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "5"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=78.8
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=-78.8  text="5"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "4"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=45
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=-45  text="4"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "3"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=11.2
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=-11.2  text="3"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "2"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=-22.5
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=22.5  text="2"  font=SourceSansPro/400  ts=24  tc=#ffffff
+  Frame "1"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  rot=-56.2
+    TextLabel "TextLabel"  size={0.1,0},{0.1,0}  pos={0.07,0},{0.45,0}  nobg  rot=56.2  text="1"  font=SourceSansPro/400  ts=24  tc=#ffffff
+
+==== ReplicatedStorage.Modules.Shared.HeavyRegions.Regions.TestDealer.Area.Body.Dash.DashSc.G  (5 descendants)
+SurfaceGui "G"  Enabled=True  Face=0  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "Right"  size={0,20},{0,20}  pos={1.3,-35},{0.75,10}  HIDDEN  nobg  z=2  img=rbxassetid://71659683  imgcol=#00ff00  imgT=0.4
+  ImageLabel "Left"  size={0,20},{0,20}  pos={-0.1,0},{0.75,10}  HIDDEN  nobg  z=2  rot=180  img=rbxassetid://71659683  imgcol=#00ff00  imgT=0.4
+  TextLabel "Gear"  size={0,1},{0,1}  pos={0.5,0},{0.5,20}  nobg  z=9  text="N"  font=SourceSansPro/700  ts=48  tc=#ffffff
+  ImageLabel "Light"  size={0,20},{0,20}  pos={0.7,2},{0.3,42}  HIDDEN  nobg  z=2  img=http://www.roblox.com/asset/?id=151673087
+  ImageLabel "PBrake"  size={0,20},{0,20}  pos={0.2,-10},{0.5,18}  HIDDEN  nobg  z=2  img=rbxassetid://123454312
+
+==== ReplicatedStorage.Modules.Shared.HeavyRegions.Regions.TestDealer.Area.Body.Plate.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=200  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={0.8,0},{0.5,0}  pos={0.1,0},{0.25,0}  nobg  text="XXX-XXX"  font=SourceSansPro/700  scaled  tc=#ffaa00
+
+==== ReplicatedStorage.Modules.Shared.HeavyRegions.Regions.TestDealer.ZondaF.Body.Model.Part.Images  (1 descendants)
+SurfaceGui "Images"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.72,0},{0.9,0}  pos={0.136,0},{0.08,0}  nobg  z=3  img=http://www.roblox.com/asset/?id=8320475596
+
+==== ReplicatedStorage.Body.Plate.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=200  SizingMode=1  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={0.8,0},{0.5,0}  pos={0.1,0},{0.25,0}  nobg  text="543-613"  font=SourceSansPro/700  scaled  tc=#ffaa00
+
+==== ReplicatedStorage.Body.Model.Part.Images  (1 descendants)
+SurfaceGui "Images"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  ImageLabel "ImageLabel"  size={0.72,0},{0.9,0}  pos={0.136,0},{0.08,0}  nobg  z=3  img=rbxassetid://6119555947
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 94 copies
+SurfaceGui "Leaderboard" under Workspace: 3 copies
+BillboardGui "BillboardGui" under Workspace: 7 copies
+SurfaceGui "Back" under Workspace: 6 copies
+SurfaceGui "Front" under Workspace: 6 copies
+SurfaceGui "G" under Workspace: 33 copies
+SurfaceGui "G" under ReplicatedStorage: 47 copies
+SurfaceGui "SurfaceGui" under ReplicatedStorage: 16 copies
+SurfaceGui "Images" under ReplicatedStorage: 3 copies

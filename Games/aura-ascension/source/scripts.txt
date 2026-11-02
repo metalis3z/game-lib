@@ -1,0 +1,243 @@
+241 scripts, 55618 lines
+kind     lines  enabled  path
+client       2  yes      scripts/ReplicatedFirst/Gamefave.client.lua
+module      69  yes      scripts/ReplicatedStorage/Assets/Animations.lua
+client     570  yes      scripts/ReplicatedStorage/Assets/Auras/10/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/ReplicatedStorage/Assets/Auras/16/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+server       3  yes      scripts/ReplicatedStorage/Assets/Auras/4/Script.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Assets/Auras/5/Script.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+module      72  yes      scripts/ReplicatedStorage/Frameworks/3D Billboard.lua
+module      25  yes      scripts/ReplicatedStorage/Frameworks/Camera Shake Presents.lua
+module     327  yes      scripts/ReplicatedStorage/Frameworks/ConfettiModule.lua
+module     478  yes      scripts/ReplicatedStorage/Frameworks/Notifications.lua
+module      97  yes      scripts/ReplicatedStorage/Frameworks/SmartAudio.lua
+module     439  yes      scripts/ReplicatedStorage/Frameworks/SystemMessage.lua
+module    1107  yes      scripts/ReplicatedStorage/Math Utility.lua
+module     790  yes      scripts/ReplicatedStorage/Modules/AuraCore.lua
+module     102  yes      scripts/ReplicatedStorage/Modules/LeaderboardShared.lua
+module     198  yes      scripts/ReplicatedStorage/Modules/PacksConfig.lua
+module     373  yes      scripts/ReplicatedStorage/Modules/PoseConfig.lua
+module      65  yes      scripts/ReplicatedStorage/Modules/PosePropUtil.lua
+module      71  yes      scripts/ReplicatedStorage/Modules/RankAuraUtil.lua
+module      69  yes      scripts/ReplicatedStorage/Modules/SoundMuteUtil.lua
+module     637  yes      scripts/ReplicatedStorage/Monetization.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Comm.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Component.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/EnumList.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Input.lua
+module      12  yes      scripts/ReplicatedStorage/Packages/Knit.lua
+module     187  yes      scripts/ReplicatedStorage/Packages/Knit/KnitClient.lua
+module     207  yes      scripts/ReplicatedStorage/Packages/LootPlan.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Option.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Promise.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Signal.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Streamable.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/TableUtil.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Timer.lua
+module     998  yes      scripts/ReplicatedStorage/Packages/TopbarPlus.lua
+module       9  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Attribute.lua
+module     324  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Caption.lua
+module     135  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Container.lua
+module     200  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Dropdown.lua
+module      98  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Indicator.lua
+module     211  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Menu.lua
+module     112  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Notice.lua
+module      45  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Selection.lua
+module     381  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Elements/Widget.lua
+module     162  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Features/Gamepad.lua
+module     254  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Features/Overflow.lua
+module     334  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Features/Themes.lua
+module      98  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Features/Themes/Classic.lua
+module     242  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Features/Themes/Default.lua
+module     120  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Packages/GoodSignal.lua
+module     307  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Packages/Janitor.lua
+module      28  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Reference.lua
+module     612  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/Utility.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/TopbarPlus/VERSION.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/Trove.lua
+module     856  yes      scripts/ReplicatedStorage/Packages/Zone.lua
+module      85  yes      scripts/ReplicatedStorage/Packages/Zone/Enum.lua
+module      24  yes      scripts/ReplicatedStorage/Packages/Zone/Enum/Accuracy.lua
+module      12  yes      scripts/ReplicatedStorage/Packages/Zone/Enum/Detection.lua
+module     228  yes      scripts/ReplicatedStorage/Packages/Zone/Janitor.lua
+module      97  yes      scripts/ReplicatedStorage/Packages/Zone/OldSignal.lua
+module     119  yes      scripts/ReplicatedStorage/Packages/Zone/Signal.lua
+module       2  yes      scripts/ReplicatedStorage/Packages/Zone/VERSION.lua   (same source as scripts/ReplicatedFirst/Gamefave.client.lua)
+module     488  yes      scripts/ReplicatedStorage/Packages/Zone/ZoneController.lua
+module      38  yes      scripts/ReplicatedStorage/Packages/Zone/ZoneController/CollectiveWorldModel.lua
+module     238  yes      scripts/ReplicatedStorage/Packages/Zone/ZoneController/Tracker.lua
+module      30  yes      scripts/ReplicatedStorage/Packages/Zone/ZonePlusReference.lua
+module    1394  yes      scripts/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise.lua
+module    1805  yes      scripts/ReplicatedStorage/Packages/_Index/evaera_promise@4.0.0/promise/init.spec.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Option.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Promise.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Signal.lua
+module       8  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm.lua
+module     131  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client.lua
+module      70  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientComm.lua
+module      61  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientRemoteProperty.lua
+module      71  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Client/ClientRemoteSignal.lua
+module      97  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server.lua
+module     101  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/RemoteProperty.lua
+module      98  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/RemoteSignal.lua
+module      42  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Server/ServerComm.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Types.lua
+module      26  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/comm/Util.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/Promise.lua   (same source as scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Promise.lua)
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/Signal.lua   (same source as scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Signal.lua)
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/Symbol.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/Trove.lua
+module     450  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/component.lua
+module     433  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/component/init.spec.lua
+module      53  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_enum-list@2.1.0/enum-list.lua
+module     120  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_enum-list@2.1.0/enum-list/init.spec.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/Signal.lua   (same source as scripts/ReplicatedStorage/Packages/_Index/sleitnick_comm@1.0.1/Signal.lua)
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/Trove.lua   (same source as scripts/ReplicatedStorage/Packages/_Index/sleitnick_component@2.4.8/Trove.lua)
+module       9  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/input.lua
+module     242  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/input/Gamepad.lua
+module      55  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/input/Keyboard.lua
+module     119  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/input/Mouse.lua
+module      61  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/input/PreferredInput.lua
+module      31  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_input@2.3.0/input/Touch.lua
+module     170  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_option@1.0.5/option.lua
+module     383  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_option@1.0.5/option/init.spec.lua
+module     189  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_signal@1.5.0/signal.lua
+module     221  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_signal@1.5.0/signal/init.spec.lua
+module     200  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_signal@2.0.1/signal.lua
+module     221  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_signal@2.0.1/signal/init.spec.lua   (same source as scripts/ReplicatedStorage/Packages/_Index/sleitnick_signal@1.5.0/signal/init.spec.lua)
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/Signal.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/Trove.lua
+module       6  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/streamable.lua
+module      84  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/streamable/Streamable.lua
+module     163  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/streamable/Streamable.spec.lua
+module      59  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/streamable/StreamableUtil.lua
+module      75  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/streamable/StreamableUtil.spec.lua
+module      13  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_symbol@2.0.1/symbol.lua
+module      37  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_symbol@2.0.1/symbol/init.spec.lua
+module     416  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_table-util@1.2.1/table-util.lua
+module     744  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_table-util@1.2.1/table-util/init.spec.lua
+module       3  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_timer@1.1.2/Signal.lua   (same source as scripts/ReplicatedStorage/Packages/_Index/sleitnick_streamable@1.2.4/Signal.lua)
+module     109  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_timer@1.1.2/timer.lua
+module      73  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_timer@1.1.2/timer/init.spec.lua
+module     141  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_trove@0.4.2/trove.lua
+module     197  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_trove@0.4.2/trove/init.spec.lua
+module     188  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_trove@1.1.0/trove.lua
+module     225  yes      scripts/ReplicatedStorage/Packages/_Index/sleitnick_trove@1.1.0/trove/init.spec.lua
+module    1136  yes      scripts/ReplicatedStorage/Ranked.lua
+module       5  yes      scripts/ReplicatedStorage/Shared.lua
+module      10  yes      scripts/ReplicatedStorage/Signals.lua
+module     171  yes      scripts/ReplicatedStorage/Signals/Signal.lua
+module      54  yes      scripts/ServerScriptService/GameServer/Bootstrap.lua
+module      14  yes      scripts/ServerScriptService/GameServer/Config/AdminConfig.lua
+module      74  yes      scripts/ServerScriptService/GameServer/Config/GameConfig.lua
+module      39  yes      scripts/ServerScriptService/GameServer/Config/LeaderboardConfig.lua
+module      45  yes      scripts/ServerScriptService/GameServer/Config/PassiveAuraConfig.lua
+module      77  yes      scripts/ServerScriptService/GameServer/Config/TrainingAreasConfig.lua
+module      39  yes      scripts/ServerScriptService/GameServer/Core/RateLimiter.lua
+module      88  yes      scripts/ServerScriptService/GameServer/Core/RemoteBinder.lua
+module      42  yes      scripts/ServerScriptService/GameServer/Core/ServiceRegistry.lua
+module      57  yes      scripts/ServerScriptService/GameServer/Core/TableUtil.lua
+module     330  yes      scripts/ServerScriptService/GameServer/Data/DataService.lua
+module      65  yes      scripts/ServerScriptService/GameServer/Data/ProfileTemplate.lua
+module     147  yes      scripts/ServerScriptService/GameServer/Services/AdminService.lua
+module      36  yes      scripts/ServerScriptService/GameServer/Services/AuraPreviewService.lua
+module     313  yes      scripts/ServerScriptService/GameServer/Services/CharacterReplicaService.lua
+module     157  yes      scripts/ServerScriptService/GameServer/Services/ChestService.lua
+module     282  yes      scripts/ServerScriptService/GameServer/Services/CursedZoneService.lua
+module    1172  yes      scripts/ServerScriptService/GameServer/Services/LeaderboardService.lua
+module     240  yes      scripts/ServerScriptService/GameServer/Services/LegacyBridgeService.lua
+module     175  yes      scripts/ServerScriptService/GameServer/Services/MatchmakingService.lua
+module     329  yes      scripts/ServerScriptService/GameServer/Services/MonetizationService.lua
+module     126  yes      scripts/ServerScriptService/GameServer/Services/PackService.lua
+module     155  yes      scripts/ServerScriptService/GameServer/Services/PassiveAuraService.lua
+module     588  yes      scripts/ServerScriptService/GameServer/Services/PlayerService.lua
+module     165  yes      scripts/ServerScriptService/GameServer/Services/PoseService.lua
+module     183  yes      scripts/ServerScriptService/GameServer/Services/RankTitleService.lua
+module     111  yes      scripts/ServerScriptService/GameServer/Services/ReceiptService.lua
+module     601  yes      scripts/ServerScriptService/GameServer/Services/TrainingAreasService.lua
+server      17  yes      scripts/ServerScriptService/READ ME.server.lua
+server       3  yes      scripts/ServerScriptService/ServerMain.server.lua
+client     575  yes      scripts/ServerStorage/Decompiled/LocalPlayer Character/Animate.client.lua   (same source as scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua)
+client      52  yes      scripts/ServerStorage/Decompiled/LocalPlayer Character/FlightClient.client.lua   (same source as scripts/StarterPlayer/StarterCharacterScripts/FlightClient.client.lua)
+server       3  yes      scripts/ServerStorage/Decompiled/LocalPlayer Character/Health.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server       3  yes      scripts/ServerStorage/Decompiled/LocalPlayer Character/Ragdoll.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server      38  yes      scripts/ServerStorage/Decompiled/README DECOMPILE.server.lua
+module      82  yes      scripts/ServerStorage/Modules/CosmeticService.lua
+client     147  yes      scripts/StarterGui/LoadingScreen/Loading.client.lua
+client     575  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+client      52  yes      scripts/StarterPlayer/StarterCharacterScripts/FlightClient.client.lua
+server     317  yes      scripts/StarterPlayer/StarterCharacterScripts/Ragdoll.server.lua
+client       4  yes      scripts/StarterPlayer/StarterCharacterScripts/RebirthAttachment/AttachSetup.client.lua
+client     137  yes      scripts/StarterPlayer/StarterPlayerScripts/Anti AFK.client.lua
+client     697  NO       scripts/StarterPlayer/StarterPlayerScripts/Chest Handler.client.lua
+client      70  yes      scripts/StarterPlayer/StarterPlayerScripts/ClientBootStrap.client.lua
+client     143  NO       scripts/StarterPlayer/StarterPlayerScripts/ClientSideDebug.client.lua
+module     811  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/AdminController.lua
+module     175  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/AuraPopupController.lua
+module     143  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CameraEffectsController.lua
+module     599  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ChestController.lua
+module      37  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CursedZoneController.lua
+module      36  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/GlobalMessageController.lua
+module     882  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/HudController.lua
+module     344  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/IdleAnimationController.lua
+module     286  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/InventoryHudController.lua
+module     551  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/InventoryRoomController.lua
+module     138  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/RankFXController.lua
+module     280  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/RebirthController.lua
+module      54  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SettingsFrameController.lua
+module      54  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ShopFrameController.lua
+module      54  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/StatsController.lua
+module      15  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SuffixBoardController.lua
+module      58  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/TitlesFrameController.lua
+module     538  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/TrainingAreasController.lua
+module     402  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/TutorialController.lua
+client     152  yes      scripts/StarterPlayer/StarterPlayerScripts/Data Receiver.client.lua
+client      50  yes      scripts/StarterPlayer/StarterPlayerScripts/EventNotify.client.lua
+client      69  yes      scripts/StarterPlayer/StarterPlayerScripts/FavNNoifGameClient.client.lua
+module     172  yes      scripts/StarterPlayer/StarterPlayerScripts/FlyModule.lua
+client     387  yes      scripts/StarterPlayer/StarterPlayerScripts/Guidelines.client.lua
+module     846  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/InventoryPosePanel.lua
+module     520  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/InventoryTitlesPanel.lua
+module     237  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/ProfileFrame.lua
+module     422  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/SettingsFrame.lua
+module     591  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/ShopFrame.lua
+module     346  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/SuffixBoardFrame.lua
+module     326  yes      scripts/StarterPlayer/StarterPlayerScripts/Handlers/TitlesFrame.lua
+client    1469  NO       scripts/StarterPlayer/StarterPlayerScripts/Hud Handler.client.lua
+module     888  yes      scripts/StarterPlayer/StarterPlayerScripts/Modules/UIManager.lua
+client     263  yes      scripts/StarterPlayer/StarterPlayerScripts/Monetization.client.lua
+client     111  yes      scripts/StarterPlayer/StarterPlayerScripts/Ray Tracing Solver.client.lua
+client       1  NO       scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds/AtomicBinding.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/RbxCharacterSounds.client.lua)
+client     137  NO       scripts/StarterPlayer/StarterPlayerScripts/Rebirth Handler.client.lua
+client      82  yes      scripts/StarterPlayer/StarterPlayerScripts/ServerFX.client.lua
+client      89  yes      scripts/StarterPlayer/StarterPlayerScripts/TextChatService.client.lua
+client     544  NO       scripts/StarterPlayer/StarterPlayerScripts/Training Area Handler.client.lua
+client     751  NO       scripts/StarterPlayer/StarterPlayerScripts/UIRespawnDebug.client.lua
+client     576  NO       scripts/StarterPlayer/StarterPlayerScripts/VFX Scaler.client.lua
+module      39  yes      scripts/TestService/LuauLSP_Settings.lua
+client     570  yes      scripts/Workspace/10-23 + Hollow Purple/13/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua
+client     570  yes      scripts/Workspace/10-23 + Hollow Purple/16/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/10-23 + Hollow Purple/22/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/10-23 + Hollow Purple/23/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/10-23 + Hollow Purple/5/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/Auras/10/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/Auras/16/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+server       3  yes      scripts/Workspace/Auras/4/Script.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server       3  yes      scripts/Workspace/Auras/5/Script.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server       8  yes      scripts/Workspace/InventoryNPC/Gorp/Script.server.lua
+server      13  yes      scripts/Workspace/KOTH/king/Script.server.lua   (same source as scripts/Workspace/Leaderboards/KothLB/Model/king/Script.server.lua)
+server       3  yes      scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua
+server       3  yes      scripts/Workspace/Leaderboards/KothLB/Model/Cube.049/KothTime/Sort.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server      13  yes      scripts/Workspace/Leaderboards/KothLB/Model/king/Script.server.lua
+server       3  yes      scripts/Workspace/Leaderboards/PlayTimeLB/Model/Cube.049/TopTime/Sort.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server       3  yes      scripts/Workspace/Leaderboards/RebirthsLB/Model/Cube.034/TopRebirthFrame/Sort.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+server       3  yes      scripts/Workspace/Map/Chest/Chest/Part/Attachment/ParticleEmitter/Script.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)
+client     853  yes      scripts/Workspace/Rig/Animate.client.lua
+client     853  yes      scripts/Workspace/Rig~2/Animate.client.lua   (same source as scripts/Workspace/Rig/Animate.client.lua)
+client     570  yes      scripts/Workspace/Rig~3/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     570  yes      scripts/Workspace/Rig~4/Animate.client.lua   (same source as scripts/Workspace/10-23 + Hollow Purple/14/Animate.client.lua)
+client     853  yes      scripts/Workspace/Rig~5/Animate.client.lua   (same source as scripts/Workspace/Rig/Animate.client.lua)
+server       8  yes      scripts/Workspace/Terrain/MajinBaconYT/Script.server.lua
+server       3  yes      scripts/Workspace/Training Areas/Script.server.lua   (same source as scripts/Workspace/Leaderboards/AuraLB/Model/Cube.024/AuraFarmed/Sort.server.lua)

@@ -1,0 +1,38 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ReplicatedStorage/Modules/Emotes/_.lua
+       suspicious script name ""
+[MED] scripts/ServerScriptService/Cmdr/BuiltInTypes/Admin.lua lines 77
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/CmdrCommands/fetchServer.lua lines 4
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/Modules/ProfileStore.lua lines 617,1282,1731,2017
+       HttpService request (calls an outside server)
+[MED] scripts/ServerStorage/TemplateTest/Cmdr/BuiltInCommands/Debug/fetchServer.lua lines 4
+       HttpService request (calls an outside server)
+[MED] scripts/Workspace/AssetReuploader/Plugin/App/Connection.lua lines 7,11
+       HttpService request (calls an outside server)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  117501901079852  in scripts/ReplicatedStorage/Modules/Icon/VERSION.lua
+
+Outside URLs in code:
+  http://localhost:{port}`  in scripts/Workspace/AssetReuploader/Plugin/App/Connection.lua
+  http://localhost:{port}{path}`,  in scripts/Workspace/AssetReuploader/Plugin/App/Connection.lua
+  https://assetstore.unity.com/packages/tools/camera/ez-camera-shake-33148  in scripts/ReplicatedStorage/Modules/CameraShaker.lua
+  https://create.roblox.com/store/asset/92368439343389/TopbarPlus  in scripts/ReplicatedStorage/Modules/Icon/Attribute.lua
+  https://devforum.roblox.com/t/bug/1017485/1732  in scripts/ReplicatedStorage/Modules/Icon/Utility.lua
+  https://devforum.roblox.com/t/bug/2973508/7  in scripts/ReplicatedStorage/Modules/Icon/Elements/Container.lua
+  https://devforum.roblox.com/t/here/2794915  in scripts/ReplicatedStorage/Modules/Icon.lua
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/ServerStorage/Modules/ProfileStore.lua
+  https://devforum.roblox.com/t/topbarplus/1017485/1104  in scripts/ReplicatedStorage/Modules/Icon.lua
+  https://devforum.roblox.com/t/topbarplus/1017485`  in scripts/ReplicatedStorage/Modules/Icon/Attribute.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedFirst/ElevatorEasterEgg.client.lua, scripts/ReplicatedFirst/ReplicationHandler.client.lua, scripts/ReplicatedFirst/TagHandler.client.lua
+  https://eryn.io/Cmdr/guide/Hooks.html  in scripts/ServerScriptService/Cmdr/Shared/Dispatcher.lua, scripts/ServerStorage/TemplateTest/Cmdr/Shared/Dispatcher.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/ServerStorage/Modules/ProfileStore.lua
+  https://github.com/1ForeverHD/TopbarPlus  in scripts/ReplicatedStorage/Modules/Icon/Attribute.lua
+  https://github.com/JakeyWasTaken/CeiveImGizmo  in scripts/ReplicatedStorage/Modules/SmartBone/Dependencies/Debug/Gizmo/Gizmo.lua
+  https://github.com/Kampfkarren/selene/issues/619  in scripts/Workspace/AssetReuploader/Plugin/UiLibrary/Theme.lua
+  https://github.com/Sleitnick/RbxCameraShaker  in scripts/ReplicatedStorage/Modules/CameraShaker.lua
+  https://i.imgur.com/VitHdC1.gif  in scripts/ReplicatedStorage/Modules/Icon/Utility.lua
+  https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/refs/heads/roblox/API-Dump.json  in scripts/Workspace/AssetReuploader/Plugin/App/ApiDump.lua

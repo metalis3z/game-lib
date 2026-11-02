@@ -1,0 +1,500 @@
+{
+ "slug": "animal-hospital-modded",
+ "title": "Animal Hospital (modded)",
+ "genre": "roleplay / tycoon",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 1051,
+  "screen_guis": 43,
+  "classes": {
+   "UIStroke": 536,
+   "TextLabel": 393,
+   "ImageLabel": 261,
+   "UIGradient": 238,
+   "UIAspectRatioConstraint": 222,
+   "Frame": 195,
+   "UIPadding": 134,
+   "UICorner": 125,
+   "LocalScript": 114,
+   "TextButton": 83,
+   "Decal": 74,
+   "ImageButton": 70,
+   "UITextSizeConstraint": 60,
+   "UIScale": 44,
+   "ScreenGui": 43,
+   "UIListLayout": 37,
+   "SurfaceGui": 32,
+   "BillboardGui": 31,
+   "TextBox": 26,
+   "Folder": 14,
+   "ScrollingFrame": 14,
+   "ViewportFrame": 9,
+   "WorldModel": 7,
+   "Part": 5,
+   "ModuleScript": 3,
+   "UIGridLayout": 3,
+   "NumberValue": 3,
+   "Sound": 2
+  },
+  "fonts": {
+   "GothamSSm ExtraBold": 85,
+   "Noto Serif SC Bold": 78,
+   "SourceSansPro Regular": 46,
+   "Noto Serif SC Regular": 35,
+   "FredokaOne Regular": 26,
+   "ComicNeueAngular Bold": 25,
+   "GothamSSm Bold": 23,
+   "SpecialElite Bold": 22,
+   "Silkscreen Regular": 20,
+   "LegacyArial Regular": 17,
+   "Fuzzy Bubbles Bold": 13,
+   "PressStart2P Regular": 11
+  },
+  "background_colors": {
+   "#ffffff": 77,
+   "#000000": 74,
+   "#0e8800": 13,
+   "#3c4d93": 11,
+   "#0a0b10": 8,
+   "#00b42a": 8,
+   "#18181e": 8,
+   "#cf1a26": 7,
+   "#005288": 5,
+   "#7c1100": 5,
+   "#ff99fa": 4,
+   "#fffb00": 3,
+   "#2dd20b": 3,
+   "#787a81": 3,
+   "#050507": 3,
+   "#616567": 3
+  },
+  "text_colors": {
+   "#ffffff": 302,
+   "#000000": 73,
+   "#ff2600": 26,
+   "#1b2a35": 16,
+   "#ffc637": 9,
+   "#00f900": 8,
+   "#beebcd": 8,
+   "#b2b1b3": 4,
+   "#009202": 4,
+   "#fffb00": 3
+  },
+  "stroke_colors": {
+   "#000000": 290,
+   "#ffffff": 107,
+   "#121212": 29,
+   "#052700": 19,
+   "#4e5263": 8,
+   "#737684": 8,
+   "#ff0e00": 6,
+   "#0f2d0a": 6,
+   "#002636": 6,
+   "#042344": 5
+  },
+  "image_tints": {
+   "#000000": 24,
+   "#41ff40": 3,
+   "#ff606f": 3,
+   "#fcffdf": 2,
+   "#00ff27": 2,
+   "#fefcff": 2,
+   "#9854ff": 1,
+   "#ff0000": 1,
+   "#ff2600": 1,
+   "#ffbe6e": 1
+  },
+  "corner_radius": {
+   "{0.0,5}": 43,
+   "{0.0,8}": 28,
+   "{0.15,0}": 18,
+   "{0.0,7}": 9,
+   "{0.5,0}": 7,
+   "{0.0,6}": 6,
+   "{1.0,0}": 3,
+   "{0.1,0}": 3,
+   "{1.0,3}": 2,
+   "{0.25,0}": 2
+  },
+  "stroke_thickness": {
+   "2.0 px": 210,
+   "1.0 px": 148,
+   "1.5 px": 31,
+   "0.06 scaled": 29,
+   "1.9 px": 29,
+   "3.0 px": 28,
+   "4.0 px": 19,
+   "1.2 px": 9,
+   "2.5 px": 7,
+   "5.0 px": 6
+  },
+  "text_size_px": {
+   "14": 35,
+   "8": 8,
+   "20": 4,
+   "28": 1,
+   "45": 1
+  },
+  "text_scaled_share": 0.9,
+  "size_mode": {
+   "scale": 999,
+   "mixed": 29,
+   "offset": 23
+  },
+  "unique_images": 91,
+  "per_100_objects": {
+   "UICorner": 11.9,
+   "UIStroke": 51.0,
+   "UIGradient": 22.6,
+   "UIAspectRatioConstraint": 21.1,
+   "UIListLayout": 3.5,
+   "UIGridLayout": 0.3,
+   "UIPadding": 12.7,
+   "UIScale": 4.2,
+   "UITextSizeConstraint": 5.7,
+   "ImageLabel": 24.8,
+   "ImageButton": 6.7,
+   "TextButton": 7.9
+  }
+ },
+ "map": {
+  "instances": 11964,
+  "parts": 4261,
+  "meshparts": 366,
+  "unions": 45,
+  "anchored_share": 0.93,
+  "textures_decals": 243,
+  "surface_appearances": 38,
+  "lights": 61,
+  "emitters": 25,
+  "beams_trails": 26,
+  "sounds": 232,
+  "prompts": 130,
+  "world_guis": 236,
+  "humanoids": 5,
+  "materials": {
+   "SmoothPlastic": 1583,
+   "Plastic": 967,
+   "Metal": 623,
+   "Concrete": 488,
+   "Brick": 142,
+   "Wood": 113,
+   "Neon": 101,
+   "Glass": 58,
+   "Fabric": 39,
+   "Material2306": 31,
+   "WoodPlanks": 28,
+   "Glacier": 22
+  },
+  "part_colors": {
+   "#a3a2a5": 720,
+   "#635f62": 420,
+   "#f8f8f8": 379,
+   "#1b2a35": 355,
+   "#d1d1c1": 261,
+   "#f2f3f3": 196,
+   "#5b5d69": 187,
+   "#cdcdcd": 180,
+   "#9fa1ac": 133,
+   "#111111": 102,
+   "#95a4b3": 96,
+   "#80bbdb": 62,
+   "#af9483": 54,
+   "#737e81": 47
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   377,
+   54,
+   373
+  ],
+  "extent_all_studs": [
+   1000,
+   89,
+   1000
+  ],
+  "top_classes": {
+   "Part": 3809,
+   "Pose": 3168,
+   "Model": 710,
+   "WeldConstraint": 380,
+   "MeshPart": 366,
+   "CFrameValue": 258,
+   "Bone": 251,
+   "Sound": 232,
+   "TextLabel": 203,
+   "ImageLabel": 184,
+   "Decal": 170,
+   "Weld": 169,
+   "PathfindingModifier": 164,
+   "BillboardGui": 152,
+   "SpecialMesh": 151
+  }
+ },
+ "lighting": {
+  "Ambient": "#91979d",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#ff557f",
+  "ColorShift_Top": "#616566",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.25,
+  "EnvironmentSpecularScale": 0.25,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#000000",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "10:36:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#b4b4b4",
+    "Decay": "#5a6473",
+    "DefinesCapabilities": false,
+    "Density": 0.4,
+    "Glare": 10.0,
+    "Haze": 0.01,
+    "Name": "Atmosphere",
+    "Offset": 0.9
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "DreamyOcean",
+   "props": {
+    "CelestialBodiesShown": true,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "DreamyOcean",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=188914951",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=188914976",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=188914995",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=188915051",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "http://www.roblox.com/asset/?id=188915064",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=188915071",
+    "StarCount": 1000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": ""
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 2.0
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "Blur",
+    "Size": 1.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.3,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 1.0,
+    "TintColor": "#f3f2ff"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.025,
+    "FocusDistance": 0.05,
+    "InFocusRadius": 50.0,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.044
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Intensity": 0.25,
+    "Name": "SunRays",
+    "Spread": 1.0
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "LogLevel": "Warning",
+   "LogLevelClient": "Warning"
+  }
+ },
+ "packs": {
+  "ui": 67,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 9,
+  "materials": 1,
+  "lighting": 1,
+  "model": 447,
+  "model-set": 16,
+  "vfx": 5,
+  "parts": 6,
+  "animations": 3,
+  "keyframes": 4,
+  "other": 9
+ },
+ "coverage": {
+  "instances": 31520,
+  "packed": 31096,
+  "services": 55,
+  "code_or_empty_folders_not_packed": 366,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 4,
+ "animation_ids": 452,
+ "sound_ids": 825,
+ "files": 566,
+ "kb": 8183,
+ "category": "Roleplay",
+ "source_file": "VIP - ANIMAL HOSPITALMODDED.rbxl"
+}

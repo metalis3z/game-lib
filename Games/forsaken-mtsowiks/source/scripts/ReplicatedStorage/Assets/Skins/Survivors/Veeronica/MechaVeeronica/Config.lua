@@ -1,0 +1,16 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- [[ Script name: Config, time of decompilation: Fri Nov 28 21:09:56 2025 ]]
+return {
+    DisplayName = "Mecha", 
+    Description = "At this point just use jetpacks.", 
+    RenderImage = "rbxassetid://113341221983389", 
+    Price = 900, 
+    Expressions = {
+        Happy = "rbxassetid://104585452225712", 
+        Default = "rbxassetid://87202565747528", 
+        Hurt = "rbxassetid://72161034176658", 
+        Injured = "rbxassetid://76032081241316", 
+        Drinking = "rbxassetid://96761140227889"
+    }
+};

@@ -1,0 +1,201 @@
+--██   ██  █████   ██████ ██  ██  ███████ ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██   ██
+--███████ ███████ ██      ████    █████   ██████ 
+--██   ██ ██   ██ ██      ██ ██   ██      ██  ██ 
+--██   ██ ██   ██  ██████ ██  ██  ███████ ██   ██
+--
+--██████  ███████  ██████  █████  ██   ██ ██████  ███ ██      ███████ ██████ 
+--██   ██ ██      ██      ██   ██ ███ ███ ██   ██ ██  ██      ██      ██   ██
+--██   ██ █████   ██      ██   ██ ██ █ ██ ██████  ██  ██      █████   ██████ 
+--██   ██ ██      ██      ██   ██ ██   ██ ██      ██  ██      ██      ██  ██ 
+--██████  ███████  ██████  █████  ██   ██ ██      ███ ███████ ███████ ██   ██
+--[[
+Hacker Decompiler 
+Hacker Uncopylocked Discord Link : https://discord.gg/T7BXynvdMb
+Owner of Hacker Decompiler: HackerKing
+Owner of Hacker Uncopylocked: HackerKing
+--]]
+
+
+-- Bytecode (Base64):
+-- CQM+EVVTRV9URVNUX1BST0RVQ1RTC0dldFByb2R1Y3RzDUdldEdhbWVQYXNzZXMNR2V0R2FtZVBhc3NJZAxHZXRQcm9kdWN0SWQJSUNIT1JfMzAwCGl0ZW1UeXBlBENvaW4KaXRlbUFtb3VudANrZXkKSUNIT1JfMTUwMApJQ0hPUl8zMTUwCklDSE9SXzU1MDARR0FNRVBBU1NfU1RJQ0tFUlMPR2FtZVBhc3NWb3VjaGVyBnBhc3NJZAhwYXNzTmFtZREzeCBTdGlja2VyIFdoZWVscw1FeHRyYVN0aWNrZXJzEUdBTUVQQVNTX1NUQVJUSU1FDlN0YXJ0aW1lIFNraW5zCkRyZWFtU2tpbnMRR0FNRVBBU1NfU0hPV1RJTUUOU2hvd3RpbWUgU2tpbnMNU2hvd3RpbWVTa2lucw5TVEFSVEVSX0JVTkRMRQZCdW5kbGUSR0FNRVBBU1NfRklOTl9UT1RXElJlZWYgRXhwbG9yZXIgRmlubghGaW5uVE9UVxBHZXRQcm9kdWN0Q29uZmlnBG5hbWUTRXh0cmEgU3RpY2tlciBTbG90cwtkZXNjcmlwdGlvbiNVbmxvY2sgMTIgYWRkaXRpb25hbCBzdGlja2VyIHNsb3RzIRNTdGFydGltZSBTa2lucyBQYWNrPkdldCBTdGFydGltZSBza2lucyBmb3IgQXN0cm8sIFBlYmJsZSwgU2hlbGx5LCBTcHJvdXQsIGFuZCBWZWUhE1Nob3d0aW1lIFNraW5zIFBhY2tER2V0IFNob3d0aW1lIHNraW5zIGZvciBCbG90LCBMb29leSwgVmVlLCBZYXR0YSwgYW5kIFJhenpsZSAmIERhenpsZSEyR2lmdCB0aGUgUmVlZiBFeHBsb3JlciBGaW5uIFRvb24gb2YgdGhlIFdlZWsgc2tpbiETR2V0R2FtZVBhc3NNYXBwaW5ncxdGT1JDRV9OT1RfT1dORURfVEVTVEVSUxBJc0ZvcmNlZE5vdE93bmVkB3JlcXVpcmUEZ2FtZRFSZXBsaWNhdGVkU3RvcmFnZQpHZXRTZXJ2aWNlC1NoYXJlZFV0aWxzDFdhaXRGb3JDaGlsZAhVbml2ZXJzZRpVU0VfVEVTVF9QUk9EVUNUU19PVkVSUklERQpSdW5TZXJ2aWNlCElzU3R1ZGlvEUlzUHJvZHVjdGlvblBs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
+
+-- https://lua.expert/
+local t = {}
+local Universe = require(game:GetService("ReplicatedStorage"):WaitForChild("SharedUtils"):WaitForChild("Universe"))
+
+t.USE_TEST_PRODUCTS_OVERRIDE = false
+
+if game:GetService("RunService"):IsStudio() or not Universe:IsProductionPlace() then
+	if t.USE_TEST_PRODUCTS_OVERRIDE == nil then
+		t.USE_TEST_PRODUCTS = Universe:IsTestRealm()
+	else
+		t.USE_TEST_PRODUCTS = t.USE_TEST_PRODUCTS_OVERRIDE
+	end
+else
+	t.USE_TEST_PRODUCTS = false
+end
+
+local t2 = {
+	ICHOR_300 = 3321186848,
+	ICHOR_1500 = 3321187975,
+	ICHOR_3150 = 3321188478,
+	ICHOR_5500 = 3321188735,
+	GAMEPASS_STICKERS = 3459610337,
+	GAMEPASS_STARTIME = 3321190812,
+	GAMEPASS_SHOWTIME = 3321191528,
+	STARTER_BUNDLE = 3312541887,
+	GAMEPASS_FINN_TOTW = 3603505221
+}
+local t3 = {
+	ICHOR_300 = 3539417686,
+	ICHOR_1500 = 3539417686,
+	ICHOR_3150 = 3539417686,
+	ICHOR_5500 = 3539417686,
+	GAMEPASS_STICKERS = 3539419655,
+	GAMEPASS_STARTIME = 3539419488,
+	GAMEPASS_SHOWTIME = 3539419471,
+	STARTER_BUNDLE = 3599767364,
+	GAMEPASS_FINN_TOTW = 3602677809
+}
+local t4 = {
+	ExtraStickers = 1413417806,
+	DreamSkins = 919044048,
+	ShowtimeSkins = 1268911388,
+	FinnTOTW = 1866124252
+}
+local t5 = {
+	ExtraStickers = 1848053255,
+	DreamSkins = 1847951310,
+	ShowtimeSkins = 1847033285,
+	FinnTOTW = 1867800915
+}
+
+function t.GetProducts() --[[ GetProducts | Line: 120 | Upvalues: t (copy), t3 (copy), t2 (copy) ]]
+	if t.USE_TEST_PRODUCTS then
+		return t3
+	end
+
+	return t2
+end
+function t.GetGamePasses() --[[ GetGamePasses | Line: 134 | Upvalues: t (copy), t5 (copy), t4 (copy) ]]
+	if t.USE_TEST_PRODUCTS then
+		return t5
+	end
+
+	return t4
+end
+function t.GetGamePassId(p1) --[[ GetGamePassId | Line: 143 | Upvalues: t (copy) ]]
+	return t.GetGamePasses()[p1]
+end
+function t.GetProductId(p1) --[[ GetProductId | Line: 149 | Upvalues: t (copy) ]]
+	return t.GetProducts()[p1]
+end
+function t.GetProductConfig() --[[ GetProductConfig | Line: 155 | Upvalues: t (copy) ]]
+	local v1 = t.GetProducts()
+	local v2 = t.GetGamePasses()
+
+	return {
+		[v1.ICHOR_300] = {
+			itemType = "Coin",
+			itemAmount = 300,
+			key = "ICHOR_300"
+		},
+		[v1.ICHOR_1500] = {
+			itemType = "Coin",
+			itemAmount = 1500,
+			key = "ICHOR_1500"
+		},
+		[v1.ICHOR_3150] = {
+			itemType = "Coin",
+			itemAmount = 3150,
+			key = "ICHOR_3150"
+		},
+		[v1.ICHOR_5500] = {
+			itemType = "Coin",
+			itemAmount = 5500,
+			key = "ICHOR_5500"
+		},
+		[v1.GAMEPASS_STICKERS] = {
+			itemType = "GamePassVoucher",
+			passName = "3x Sticker Wheels",
+			key = "GAMEPASS_STICKERS",
+			passId = v2.ExtraStickers
+		},
+		[v1.GAMEPASS_STARTIME] = {
+			itemType = "GamePassVoucher",
+			passName = "Startime Skins",
+			key = "GAMEPASS_STARTIME",
+			passId = v2.DreamSkins
+		},
+		[v1.GAMEPASS_SHOWTIME] = {
+			itemType = "GamePassVoucher",
+			passName = "Showtime Skins",
+			key = "GAMEPASS_SHOWTIME",
+			passId = v2.ShowtimeSkins
+		},
+		[v1.STARTER_BUNDLE] = {
+			itemType = "Bundle",
+			key = "STARTER_BUNDLE"
+		},
+		[v1.GAMEPASS_FINN_TOTW] = {
+			itemType = "GamePassVoucher",
+			passName = "Reef Explorer Finn",
+			key = "GAMEPASS_FINN_TOTW",
+			passId = v2.FinnTOTW
+		}
+	}
+end
+function t.GetGamePassMappings() --[[ GetGamePassMappings | Line: 226 | Upvalues: t (copy) ]]
+	local v1 = t.GetProducts()
+	local v2 = t.GetGamePasses()
+
+	return {
+		[v1.GAMEPASS_STICKERS] = {
+			name = "Extra Sticker Slots",
+			description = "Unlock 12 additional sticker slots!",
+			passId = v2.ExtraStickers
+		},
+		[v1.GAMEPASS_STARTIME] = {
+			name = "Startime Skins Pack",
+			description = "Get Startime skins for Astro, Pebble, Shelly, Sprout, and Vee!",
+			passId = v2.DreamSkins
+		},
+		[v1.GAMEPASS_SHOWTIME] = {
+			name = "Showtime Skins Pack",
+			description = "Get Showtime skins for Blot, Looey, Vee, Yatta, and Razzle & Dazzle!",
+			passId = v2.ShowtimeSkins
+		},
+		[v1.GAMEPASS_FINN_TOTW] = {
+			name = "Reef Explorer Finn",
+			description = "Gift the Reef Explorer Finn Toon of the Week skin!",
+			passId = v2.FinnTOTW
+		}
+	}
+end
+t.FORCE_NOT_OWNED_TESTERS = {}
+function t.IsForcedNotOwned(p1) --[[ IsForcedNotOwned | Line: 276 | Upvalues: t (copy) ]]
+	if not t.USE_TEST_PRODUCTS then
+		return false
+	end
+
+	return t.FORCE_NOT_OWNED_TESTERS[p1] == true
+end
+
+if t.USE_TEST_PRODUCTS then
+	print("[DevProductConfig] \240\159\167\170 TEST MODE - Using cheaper test products")
+
+	local v1 = t.GetProducts()
+	local v2 = t.GetGamePasses()
+
+	print(string.format("[DevProductConfig] \240\159\167\170 TEST IDS \226\128\148 StarterBundle=%d, FinnGift=%d | GAMEPASSES Stickers=%d, Startime=%d, Showtime=%d, Finn=%d", v1.STARTER_BUNDLE, v1.GAMEPASS_FINN_TOTW, v2.ExtraStickers, v2.DreamSkins, v2.ShowtimeSkins, v2.FinnTOTW))
+else
+	print("[DevProductConfig] \240\159\154\128 PRODUCTION MODE - Using production products")
+
+	local v3 = t.GetProducts()
+	local v4 = t.GetGamePasses()
+
+	print(string.format("[DevProductConfig] \240\159\154\128 PROD IDS \226\128\148 StarterBundle=%d, FinnGift=%d | GAMEPASSES Stickers=%d, Startime=%d, Showtime=%d, Finn=%d", v3.STARTER_BUNDLE, v3.GAMEPASS_FINN_TOTW, v4.ExtraStickers, v4.DreamSkins, v4.ShowtimeSkins, v4.FinnTOTW))
+end
+
+return t

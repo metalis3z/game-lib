@@ -1,0 +1,12 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/HD Admin/Core/MainModule.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1039509747  in scripts/StarterGui/MainUI/Admin/LocalScript.client.lua
+  1509057629  in scripts/StarterGui/MainUI/ShopFrame/ScrollingFrame/ThockyFrame/SaleButton/ThockyKeysScript.client.lua
+  1542162447  in scripts/StarterGui/MainUI/ShopFrame/ScrollingFrame/HoneyFrame/ClaimButton/HoneyKeysScript.client.lua
+
+Outside URLs in code:
+  https://discord.gg/wx4ThpAsmw  in scripts/StarterGui/HDAdminInterface/LocalScripts/HideGUIs.client.lua, scripts/StarterGui/HDAdminInterface/MainFrame/Pages/About/Soon/Info/LinkFrame/TextBox/LocalScript.client.lua, scripts/StarterGui/HDAdminInterface/MainFrame/Pages/Boost/Buy/Banner/Buttons/Unlock/UIStroke/UIGradient/LocalScript.client.lua

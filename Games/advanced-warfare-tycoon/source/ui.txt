@@ -1,0 +1,446 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.ScreenGui  (4 descendants)
+ScreenGui "ScreenGui"
+  Frame "Frame"  size={0,140},{0,50}  pos={0.3,0},{0.005,0}  bg=#767676
+    TextBox "TextBox"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Code"  tc=#ffffff
+      Script "Script"  -> scripts/StarterGui/ScreenGui/Frame/TextBox/Script.server.lua
+    TextButton "GO"  size={0,50},{0,50}  pos={0,150},{0,0}  bg=#3f9331  text="Enter"  tc=#ffffff
+
+==== StarterGui.FixCam  (2 descendants)
+ScreenGui "FixCam"
+  TextButton "Reset"  size={0.1,0},{0.05,0}  pos={0.01,0},{0.78,0}  bg=#000000  text="Fix Camera"  scaled  tc=#ffffff
+  LocalScript "MainScript"  -> scripts/StarterGui/FixCam/MainScript.client.lua
+
+==== StarterGui.MusicGui  (19 descendants)
+ScreenGui "MusicGui"
+  ImageButton "ImageButton"  size={0.05,0},{0.06,0}  pos={0.945,0},{0.932,0}  bg=#ffffff@0.9  img=http://www.roblox.com/asset/?id=138105553
+  Frame "MusicPlayer"  size={0.4,0},{0.6,0}  pos={0.3,0},{0.2,0}  HIDDEN  bg=#000000@0.7
+    Frame "Frame"  size={1,0},{0.3,0}  pos={0,0},{0,0}  bg=#838383@0.9
+    TextButton "Close"  size={0.03,0},{0.05,0}  pos={0,0},{0,0}  bg=#ffffff@0.5  z=3  text="X"  tc=#1b2a35
+    TextLabel "Title"  size={0,0},{0,0}  pos={0.5,0},{0.05,0}  bg=#ffffff  text="Music Player"  tc=#000000
+    Frame "Buttons"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+      TextButton "179188345"  size={0.3,0},{0.1,0}  pos={0.2,0},{0.3,0}  bg=#000000@0.5  text="Battlefield 4 Theme"  tc=#ffffff
+      TextButton "161377023"  size={0.3,0},{0.1,0}  pos={0.2,0},{0.4,0}  bg=#000000@0.5  text="Halo Theme"  tc=#ffffff
+      TextButton "173916362"  size={0.3,0},{0.1,0}  pos={0.2,0},{0.5,0}  bg=#000000@0.5  text="Battlefield 3 Theme"  tc=#ffffff
+      TextButton "142397652"  size={0.3,0},{0.1,0}  pos={0.2,0},{0.6,0}  bg=#000000@0.5  text="Hunger Games Remix"  tc=#ffffff
+      TextButton "162869167"  size={0.3,0},{0.1,0}  pos={0.5,0},{0.5,0}  bg=#000000@0.5  text="Dean Ambrose Theme"  tc=#ffffff
+      TextButton "186799913"  size={0.3,0},{0.1,0}  pos={0.5,0},{0.3,0}  bg=#000000@0.5  text="CoD: Advanced Warfare"  tc=#ffffff
+      TextButton "183596502"  size={0.3,0},{0.1,0}  pos={0.5,0},{0.4,0}  bg=#000000@0.5  text="Zombie (3LAU Edit)"  tc=#ffffff
+      TextButton "181366146"  size={0.3,0},{0.1,0}  pos={0.5,0},{0.6,0}  bg=#000000@0.5  text="Plants vs Zombies Theme"  tc=#ffffff
+    LocalScript "LocalScript"  -> scripts/StarterGui/MusicGui/MusicPlayer/LocalScript.client.lua
+    TextLabel "Title"  size={0,0},{0,0}  pos={0.5,0},{0.2,0}  bg=#ffffff  text="Pick your music for a better expirience!"  tc=#000000
+    TextLabel "OR"  size={0,0},{0,0}  pos={0.5,0},{0.75,0}  bg=#ffffff  text="OR"  tc=#1b2a35
+    TextBox "TextBox"  size={0.4,0},{0.1,0}  pos={0.2,0},{0.8,0}  bg=#000000  text="Enter Music ID"  tc=#ffffff
+    TextButton "Click"  size={0.2,0},{0.1,0}  pos={0.6,0},{0.8,0}  bg=#ffffff  text="Play"  tc=#1b2a35
+
+==== StarterGui.ShopGui  (50 descendants)
+ScreenGui "ShopGui"
+  Frame "Buttons"  size={0.12,0},{0.36,0}  pos={0,0},{0.4,0}  nobg
+    TextButton "22339512"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.07,0}  bg=#3a3a3a@0.4  text="$5,000"  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=201850620
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#37ff00@0.3
+    TextButton "22339541"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.21,0}  bg=#3a3a3a@0.4  text="Minigun "  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=201850659
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#ffffff@0.3
+    TextButton "22339545"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.34,0}  bg=#3a3a3a@0.4  text="+10 Speed"  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=201844182
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#00ffee@0.3
+    TextButton "22339544"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.48,0}  bg=#3a3a3a@0.4  text="+25 HP"  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=201844201
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.09,0}  bg=#ff0004@0.3
+    TextButton "22339542"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.615,0}  bg=#3a3a3a@0.4  text="Jetpack"  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=201850643
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#e200ff@0.3
+    TextButton "22339514"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.76,0}  bg=#3a3a3a@0.4  text="$25,000"  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=193727678
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#3b942b@0.3
+    TextButton "22350023"  size={0.6,0},{0.1,0}  pos={-0.6,0},{-0.07,0}  bg=#3a3a3a@0.4  text="NUKE"  tc=#ffffff
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=142669951
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#ff5500@0.3
+      Script "Script"  -> scripts/StarterGui/ShopGui/Buttons/22350023/Script.server.lua
+    TextButton "22381579"  size={0.6,0},{0.1,0}  pos={0.22,0},{0.9,0}  bg=#3a3a3a@0.4  text="Heatseeking Rocket"  tc=#ff9822
+      ImageLabel "ImageLabel"  size={0.275,0},{1,0}  pos={-0.3,0},{0,0}  bg=#000000@0.9  img=http://www.roblox.com/asset/?id=52054360
+      Frame "Frame"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#940002@0.3
+  TextLabel "TextLabel"  size={0,0},{0,0}  pos={0.01,0},{0.36,0}  bg=#ffffff  text="SHOP"  tc=#000000
+  LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/LocalScript.client.lua
+  Frame "vpi"  size={0.5,0},{0.6,0}  pos={0.3,0},{0.23,0}  HIDDEN  bg=#000000@0.8
+    TextButton "Normal"  size={0.5,0},{0.25,0}  pos={0,0},{0,0}  bg=#000000@0.5  text="Normal VIP"  tc=#ff0000
+      LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vpi/Normal/LocalScript.client.lua
+    TextButton "speed"  size={0.5,0},{0.25,0}  pos={0,0},{0.25,0}  bg=#000000@0.5  text="Ultra VIP"  tc=#fbff0f
+      LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vpi/speed/LocalScript.client.lua
+    TextButton "Cash"  size={0.5,0},{0.25,0}  pos={0,0},{0.5,0}  bg=#000000@0.5  text="Cash Bonus"  tc=#00ff00
+      LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vpi/Cash/LocalScript.client.lua
+    TextButton "n/a"  size={0.5,0},{0.25,0}  pos={0,0},{0.752,0}  HIDDEN  bg=#000000@0.5  text="Admin"  tc=#ec19ff
+      LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vpi/n_a/LocalScript.client.lua
+    TextLabel "TextLabel"  size={1,0},{0.1,0}  pos={0,0},{-0.1,0}  bg=#169400@0.7  text="Gamepasses:"  tc=#000000
+      TextButton "Close"  size={0.09,0},{0.8,0}  pos={0.9,0},{0.06,0}  bg=#c1c1c1@0.3  text="Exit"  tc=#ff0000
+        LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vpi/TextLabel/Close/LocalScript.client.lua
+    TextLabel "Item"  size={0.4,0},{0.05,0}  pos={0.51,0},{0.05,0}  nobg  text="Item: "  tc=#ffffff
+    TextLabel "Cost1"  size={0.4,0},{0.05,0}  pos={0.51,0},{0.15,0}  nobg  text="Cost:"  tc=#ffffff
+    TextLabel "Description1"  size={0.4,0},{0.55,0}  pos={0.51,0},{0.25,0}  nobg  text="Description:"  tc=#ffffff
+    TextButton "Buy"  size={0.3,0},{0.15,0}  pos={0.6,0},{0.83,0}  bg=#000000@0.5  text="Buy"  tc=#000000
+      LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vpi/Buy/LocalScript.client.lua
+    StringValue "ID"  Value=""
+  TextButton "vip"  size={0.1,0},{0.055,0}  pos={0.84,0},{0.94,0}  bg=#c10003@0.5  text="VIP Shop"  tc=#000000
+    LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/vip/LocalScript.client.lua
+  TextButton "heet"  size={0.1,0},{0.055,0}  pos={0.01,0},{0.85,0}  bg=#c17621@0.5  text="Heat Seeking Rocket PERM!"  scaled  tc=#000000
+    LocalScript "LocalScript"  -> scripts/StarterGui/ShopGui/heet/LocalScript.client.lua
+
+==== Workspace.red.Bright red.Purchases.Mine.Click.SurfaceGui  (7 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=0  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextButton "On"  size={0.4,0},{0.4,0}  pos={0.05,0},{0.4,0}  bg=#000000  text="ON"  tc=#19ff00
+      Script "Script"  -> scripts/Workspace/red/Bright red/Purchases/Mine/Click/SurfaceGui/Frame/On/Script.server.lua
+    TextLabel "TextLabel"  size={1,0},{0.15,0}  pos={0,0},{0,0}  nobg  text="Activate MINE-FIELDS:"  tc=#ffffff
+    TextButton "Off"  size={0.4,0},{0.4,0}  pos={0.55,0},{0.4,0}  bg=#000000  text="OFF"  tc=#ff0000
+      Script "Script"  -> scripts/Workspace/red/Bright red/Purchases/Mine/Click/SurfaceGui/Frame/Off/Script.server.lua
+    TextLabel "C"  size={1,0},{0.15,0}  pos={0,0},{0.15,0}  nobg  text="Currently: ON"  tc=#fbff00
+
+==== Workspace.red.Bright red.Purchases.Fighter.Button.Main.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={5,10},{5,10}  Enabled=True  Size={5,10},{5,10}  StudsOffset=(0,4,0)  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== Workspace.red.Bright red.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.blue.Bright blue.Purchases.Mine.Click.SurfaceGui  (7 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=0  Adornee=nil
+  Frame "Frame"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+    TextButton "On"  size={0.4,0},{0.4,0}  pos={0.05,0},{0.4,0}  bg=#000000  text="ON"  tc=#19ff00
+      Script "Script"  -> scripts/Workspace/blue/Bright blue/Purchases/Mine/Click/SurfaceGui/Frame/On/Script.server.lua
+    TextLabel "TextLabel"  size={1,0},{0.15,0}  pos={0,0},{0,0}  nobg  text="Activate MINE-FIELDS:"  tc=#ffffff
+    TextButton "Off"  size={0.4,0},{0.4,0}  pos={0.55,0},{0.4,0}  bg=#000000  text="OFF"  tc=#ff0000
+      Script "Script"  -> scripts/Workspace/blue/Bright blue/Purchases/Mine/Click/SurfaceGui/Frame/Off/Script.server.lua
+    TextLabel "C"  size={1,0},{0.15,0}  pos={0,0},{0.15,0}  nobg  text="Currently: ON"  tc=#fbff00
+
+==== Workspace.blue.Bright blue.Purchases.Fighter.Button.Main.BillboardGui  (1 descendants)
+BillboardGui "BillboardGui"  size={5,10},{5,10}  Enabled=True  Size={5,10},{5,10}  StudsOffset=(0,4,0)  AlwaysOnTop=False  Adornee=nil
+  ImageLabel "ImageLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg
+
+==== Workspace.blue.Bright blue.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.teal.Teal.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.orange.Bright orange.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.yellow.New Yeller.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.teal.Teal.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.brown.Reddish brown.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.violet.Bright violet.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.pink.Hot pink.Purchases.Fighter.Regenerate.RegenGui  (2 descendants)
+ScreenGui "RegenGui"
+  Frame "Frame"  size={0,500},{0,50}  pos={0.5,-250},{0.5,-25}  bg=#a3a2a5
+    TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="Regenerating Plane..."  tc=#ffffff
+
+==== Workspace.Script.ScreenGui  (3 descendants)
+ScreenGui "ScreenGui"
+  TextButton "TextButton"  size={0.2,0},{0.1,0}  pos={0.4,0},{0.62,0}  bg=#ffffff  text="GOT IT!"  tc=#000063
+    Script "Script"  -> scripts/Workspace/Script/ScreenGui/TextButton/Script.server.lua
+  TextLabel "TextLabel"  size={0.4,0},{0.4,0}  pos={0.302,0},{0.2,0}  bg=#000000  text="JOIN GROUP IN DESCRIPTION FOR  AN EXTRA $2,000 CASH EVERY GA..."  tc=#13938b
+
+==== Workspace.Script.LocalScript.GUI  (12 descendants)
+ScreenGui "GUI"
+  Frame "MEssage"  size={1,0},{1,0}  pos={0,0},{-0.2,0}  nobg
+    TextLabel "AW"  size={0,400},{0,50}  pos={0.5,-200},{0,50}  nobg  z=2  text="Advanced Warfare"  tc=#909082
+    TextLabel "AW"  size={0,400},{0,50}  pos={0.5,-198},{0,52}  nobg  text="Advanced Warfare"  tc=#636359
+    TextLabel "TK"  size={0,400},{0,50}  pos={0.5,-200},{0,102}  nobg  z=2  text="Tycoon"  tc=#909082
+    TextLabel "TK"  size={0,400},{0,50}  pos={0.5,-198},{0,104}  nobg  text="Tycoon"  tc=#636359
+    Frame "Tween"  size={0,500},{0,3}  pos={0.5,-250},{0,105}  bg=#ffffff
+  Frame "Twen"  size={1,0},{0,400}  pos={0,0},{1,0}  nobg
+    TextButton "TextButton"  size={0,200},{0,50}  pos={0.5,-100},{0,50}  bg=#868686  text="Play"  tc=#ffffff
+      Script "Script"  -> scripts/Workspace/Script/LocalScript/GUI/Twen/TextButton/Script.server.lua
+    Frame "Frame"  size={1,0},{0.7,20}  pos={0,0},{0.3,0}  nobg
+      LocalScript "Script"  -> scripts/Workspace/Script/LocalScript/GUI/Twen/Frame/Script.client.lua  [disabled]
+  Script "Script"  -> scripts/Workspace/Script/LocalScript/GUI/Script.server.lua  [disabled]
+
+==== StarterPack.M1911.WeaponHud  (13 descendants)
+ScreenGui "WeaponHud"
+  Frame "AmmoHud"  size={0,200},{0,50}  pos={1,-265},{1,-60}  nobg
+    TextLabel "ForwardSlash"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  nobg  text="/"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,0},{0,0}  pos={0.45,0},{0.5,0}  nobg  text="54"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,0},{0,0}  pos={0.55,0},{0.5,0}  nobg  text="180"  tc=#ffffff
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,50}  pos={1,-265},{1,-120}  HIDDEN  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  nobg  text="Press R to Reload"  tc=#ff0000
+
+==== ServerScriptService.Music.MusicTipGui  (4 descendants)
+ScreenGui "MusicTipGui"
+  ImageLabel "ImageLabel"  size={0.2,0},{0.1,0}  pos={0.84,0},{0.83,0}  nobg  img=http://www.roblox.com/asset/?id=41441814  imgT=0.5
+    TextLabel "TextLabel"  size={0.7,0},{0.5,0}  pos={0.08,0},{0.1,0}  nobg  text="Don't like the music? Click me to change it!"  scaled  tc=#1b2a35
+    TextButton "TextButton"  size={0.1,0},{0.3,0}  pos={0.02,0},{0.02,0}  nobg  text="X"  tc=#1b2a35
+      LocalScript "LocalScript"  -> scripts/ServerScriptService/Music/MusicTipGui/ImageLabel/TextButton/LocalScript.client.lua
+
+==== Lighting.AK47.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.AUG.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.AdvancedMinigun.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.Bow.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.CZ57.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.G-AK47.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.HeatRocket.BillboardGui  (3 descendants)
+BillboardGui "BillboardGui"  size={2,40},{2,40}  Enabled=True  Size={2,40},{2,40}  StudsOffset=(0,0,2)  AlwaysOnTop=True  Adornee=nil
+  ImageLabel "lockonHeld"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=103834534
+  TextLabel "Distance"  size={10,0},{0.2,0}  pos={0.8,0},{0.2,0}  HIDDEN  nobg  text="110"  scaled  tc=#ff0004
+  ImageLabel "lockon"  size={1,0},{1,0}  pos={0,0},{0,0}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=103834483
+
+==== Lighting.Ithaca.WeaponHud  (13 descendants)
+ScreenGui "WeaponHud"
+  Frame "AmmoHud"  size={0,200},{0,50}  pos={1,-265},{1,-60}  nobg
+    TextLabel "ForwardSlash"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  nobg  text="/"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,0},{0,0}  pos={0.45,0},{0.5,0}  nobg  text="54"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,0},{0,0}  pos={0.55,0},{0.5,0}  nobg  text="180"  tc=#ffffff
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,50}  pos={1,-265},{1,-120}  HIDDEN  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,0},{0.5,0}  nobg  text="Press R to Reload"  tc=#ff0000
+
+==== Lighting.JetPack.FuelGui  (2 descendants)
+ScreenGui "FuelGui"
+  Frame "Frame"  size={0,40},{0,300}  pos={0.9,0},{0.2,0}  bg=#ffb500
+  ImageLabel "ImageLabel"  size={0,40},{0,300}  pos={0.9,0},{0.2,0}  nobg  img=http://www.roblox.com/asset/?id=30559074
+
+==== Lighting.M1Grand.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.Minigun.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.P90.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== Lighting.Uzi.WeaponHud  (18 descendants)
+ScreenGui "WeaponHud"
+  Frame "Crosshair"  size={0,150},{0,150}  pos={0,500},{0,500}  nobg
+    Frame "TopFrame"  size={0,2},{0,14}  pos={0,-1},{-0.5,-7}  bg=#ffffff
+    Frame "RightFrame"  size={0,14},{0,2}  pos={0.5,-7},{0,-1}  bg=#ffffff
+    Frame "LeftFrame"  size={0,14},{0,2}  pos={-0.5,-7},{0,-1}  bg=#ffffff
+    ImageLabel "TargetHitImage"  size={0,50},{0,50}  pos={0,-25},{0,-25}  HIDDEN  nobg  img=http://www.roblox.com/asset/?id=115400215
+    TextLabel "ReloadingLabel"  size={0,0},{0,0}  pos={0,20},{0,-20}  HIDDEN  nobg  text="Reloading"  tc=#ffffff
+    Frame "BottomFrame"  size={0,2},{0,14}  pos={0,-1},{0.5,-7}  bg=#ffffff
+  Frame "Reload"  size={0,200},{0,100}  pos={1,-265},{1,-120}  nobg
+    TextLabel "Reload"  size={0,0},{0,0}  pos={0.5,-10},{0.5,0}  nobg  text="Press R to Reload"  tc=#ffffff
+  Frame "AmmoHud"  size={1,0},{1,0}  pos={0,0},{0.05,0}  nobg
+    TextLabel "FowardSlash"  size={0,100},{0,75}  pos={1,-235},{1,-196}  nobg  text="/"  tc=#ffffff
+    TextLabel "TotalAmmo"  size={0,100},{0,75}  pos={1,-178},{1,-196}  nobg  text="999"  tc=#ffffff
+    TextLabel "ClipAmmo"  size={0,100},{0,75}  pos={1,-250},{1,-196}  nobg  text="10"  tc=#ffffff
+    Frame "Frame"  size={0,125},{0,2}  pos={1,-198},{1,-120}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,30},{0,2}  pos={1,-273},{1,-188}  bg=#ffffff@0.3  rot=60
+    Frame "Frame"  size={0,200},{0,2}  pos={1,-252},{1,-175}  bg=#ffffff@0.3
+    Frame "Frame"  size={0,100},{0,2}  pos={1,-120},{1,-127}  bg=#ffffff@0.3  rot=110
+    Frame "Frame"  size={0,75},{0,2}  pos={1,-162},{1,-81}  bg=#ffffff@0.3
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 9 copies
+BillboardGui "BillboardGui" under Workspace: 9 copies

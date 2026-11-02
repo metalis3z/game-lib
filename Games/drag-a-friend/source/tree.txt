@@ -1,0 +1,3273 @@
+Workspace "Workspace"  (7880 descendants)
+  Part "Part"
+  Terrain "Terrain"
+  Folder "Timelines"  (167 descendants)
+    Folder "ButtonTimelines"
+      Configuration "BUTTON 01"
+      Configuration "BUTTON 03"
+      Configuration "BUTTON 04"
+      Configuration "BUTTON 02"
+        ObjectValue "Appear"
+    Configuration "Flood_Timeline"
+      ObjectValue "XFrame_01"
+    Folder "Presets"  (147 descendants)
+      Folder "SECTION 1"  (30 descendants)
+        Configuration "MovePart"
+          ObjectValue "XFrame - MovePart"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "5s (Unpause Button)"
+          ObjectValue "5s (Reset Part)"
+        Configuration "MovePart [Easing Type]"
+          ObjectValue "XFrame - MovePart [Easing Type]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "3s (Unpause Button)"
+          ObjectValue "3s (Reset Part)"
+        Configuration "MovePart [LocalSpace]"
+          ObjectValue "XFrame - MovePart [Local Space]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "2s (Unpause Button)"
+          ObjectValue "2s (Reset Part)"
+        Configuration "SetWaterState"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "4s (Unpause Button)"
+          ObjectValue "XFrame - SetWaterState"
+          ObjectValue "3s (Reset State)"
+        Configuration "SetWaterState [DontChangeColor]"
+          ObjectValue "XFrame - SetWaterState [DontChangeColor]"
+          ObjectValue "4s (Unpause Button)"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "3s (Reset State)"
+        Configuration "SetWaterState [SpecifiedColor]"
+          ObjectValue "XFrame - SetWaterState [SpecifiedColor]"
+          ObjectValue "4s (Unpause Button)"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "3s (Reset State)"
+      Folder "SECTION 2"  (31 descendants)
+        Configuration "SetProperties"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "4s (Unpause Button)"
+          ObjectValue "XFrame - SetProperties [Example A]"
+          ObjectValue "XFrame - SetProperties [Example B]"
+          ObjectValue "4s (Reset Part A)"
+          ObjectValue "4s (Reset Part B)"
+        Configuration "SetProperties [Tween]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "4s (Unpause Button)"
+          ObjectValue "3s (Reset Part)"
+          ObjectValue "XFrame - SetProperties [Tween]"
+        Configuration "SetProperties [Lighting]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "XFrame - SetProperties [Lighting]"
+          ObjectValue "4s (Reset Lighting A)"
+          ObjectValue "5s (Unpause Button)"
+        Configuration "SetProperties [Blur]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "4s (Unpause Button)"
+          ObjectValue "XFrame - SetProperties [Blur]"
+          ObjectValue "3s (Reset Blur)"
+        Configuration "SetProperties [GUI]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "5s (Unpause Button)"
+          ObjectValue "XFrame - SetProperties GUI [ImageLabel]"
+          ObjectValue "XFrame - SetProperties GUI [TextLabel]"
+        Configuration "SetProperties [Sound]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "5s (Unpause Button)"
+          ObjectValue "XFrame - SetProperties GUI [ImageLabel]"
+      Folder "SECTION 3"  (22 descendants)
+        Configuration "ShakeCamera"
+          ObjectValue "5s (Unpause Button)"
+          ObjectValue "XFrame - ShakeCamera"
+          ObjectValue "0s (Pause Button)"
+        Configuration "Alert"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "2s (Unpause Button)"
+          ObjectValue "XFrame - Alert"
+        Configuration "Sound [Local]"
+          ObjectValue "XFrame - Sound [Local]"
+        Configuration "Sound [Global + Part]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "3s (Unpause Button)"
+          ObjectValue "XFrame - Sound [Global + Part]"
+        Configuration "Sound [Global]"
+          ObjectValue "0s (Pause Button)"
+          ObjectValue "3s (Unpause Button)"
+          ObjectValue "XFrame - Sound [Global]"
+        Configuration "ShakeCamera [Local]"
+          ObjectValue "XFrame - ShakeCamera"
+        Configuration "Alert [Local]"
+          ObjectValue "XFrame - Alert"
+      Folder "SECTION 5"
+        Configuration "Teleport"
+          ObjectValue "XFrame - Teleport"
+        Configuration "Teleport [TranslateDestination]"
+          ObjectValue "XFrame - Teleport [TranslateDestination]"
+        Configuration "SetProperties [Operator]"
+          ObjectValue "XFrame - SetProperties [Operator for Orb]"
+          ObjectValue "1.000s (Unpause Button)"
+          ObjectValue "0.000s (Pause Button)"
+          ObjectValue "XFrame - SetProperties [Operator for CounterPart]"
+          ObjectValue "XFrame - Conditional"
+            ObjectValue "Conditional_Timeline"
+        Configuration "Conditional [Failure Dormant]"
+          ObjectValue "1s (Unpause Button)"
+          ObjectValue "XFrame - SetProperties [Operator for Orb]"
+          ObjectValue "XFrame - SetProperties [Operator for CounterPart]"
+        Configuration "Core_KillBricks [SH - Health 0]"
+          ObjectValue "XFrame - SetHumanoid [Health 0]"
+          ObjectValue "XFrame - Sound [Local]"
+      Folder "SECTION 6"
+        Configuration "RepeatOnCompletion"
+          ObjectValue "CameraMovingPart A"
+          ObjectValue "CameraMovingPart B"
+        Configuration "SetCamera [Look At Moving Part]"
+          ObjectValue "XFrame - SetCamera [Look At Moving Part]"
+        Configuration "SetCamera [Look At Part]"
+          ObjectValue "XFrame - SetCamera [Look At Part]"
+        Configuration "SetCamera [Look At Player]"
+          ObjectValue "XFrame - SetCamera [Look At Player]"
+        Configuration "SetCamera [Relative To Player]"
+          ObjectValue "XFrame - SetCamera [Relative To Player]"
+      Configuration "SetConveyors"
+        ObjectValue "Green"
+        ObjectValue "Red"
+      Folder "WalljumpPresets"
+        Configuration "Spinning Walljump"
+          ObjectValue "XFrame - SetProperties [Spin]"
+        Configuration "Moving Walljump"
+          ObjectValue "XFrame - MovePart [Up]"
+          ObjectValue "XFrame - MovePart [Down]"
+      Folder "SECTION 4"  (20 descendants)
+        Configuration "SetHumanoid [Health 0] (KILL BRICK)"
+          ObjectValue "XFrame - SetHumanoid [Health 0]"
+        Configuration "SetHumanoid [Health 100]"
+          ObjectValue "XFrame - SetHumanoid [Health 0]"
+        Configuration "SetHumanoid [Health 50]"
+          ObjectValue "XFrame - SetHumanoid [Health 0]"
+        Configuration "SetHumanoid [JumpPower 50]"
+          ObjectValue "XFrame - SetHumanoid [JumpPower 50]"
+        Configuration "SetHumanoid [JumpPower 80]"
+          ObjectValue "XFrame - SetHumanoid [JumpPower 50]"
+        Configuration "SetHumanoid [Jump]"
+          ObjectValue "XFrame - SetHumanoid [Jump]"
+        Configuration "SetHumanoid [MaxSlopeAngle 32]"
+          ObjectValue "XFrame - SetHumanoid [MaxSlopeAngle 32]"
+        Configuration "SetHumanoid [MaxSlopeAngle 67.5]"
+          ObjectValue "XFrame - SetHumanoid [MaxSlopeAngle 32]"
+        Configuration "SetHumanoid [WalkSpeed 20]"
+          ObjectValue "XFrame - SetHumanoid [WalkSpeed 20]"
+        Configuration "SetHumanoid [WalkSpeed 50]"
+          ObjectValue "XFrame - SetHumanoid [WalkSpeed 50]"
+    Folder "All Triggers Here!"
+      ObjectValue "Appear"
+      ObjectValue "Fade"
+      ObjectValue "Fall"
+      ObjectValue "Sound"
+      ObjectValue "XFrame_01 : SetWaterState"
+      ObjectValue "XFrame_02 : SetWaterState"
+      ObjectValue "XFrame_03 : MovePart"
+      StringValue "WaterState"
+      StringValue "WaterState"
+      StringValue "WaterState"
+  Folder "Settings"  (80 descendants)
+    Configuration "Lighting"
+      Sky "Sky"
+      BloomEffect "Bloom"
+      BlurEffect "Blur"
+      ColorCorrectionEffect "ColorCorrection"
+      DepthOfFieldEffect "DepthOfField"
+      SunRaysEffect "SunRays"
+      Atmosphere "Atmosphere"
+      Clouds "Clouds"
+    Configuration "Rescue"  (70 descendants)
+      Pants "Pants"
+      Shirt "Shirt"
+      ShirtGraphic "Shirt Graphic"
+      Accessory "Dual Chain Necklace"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "NeckAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+        Configuration "ThumbnailConfiguration"
+          ObjectValue "ThumbnailCameraTarget"
+          CFrameValue "ThumbnailCameraValue"
+      Humanoid "Humanoid"
+      Accessory "Maelstrom Spellbinder"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "HatAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+      Accessory "PossesdP9"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "HatAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+        Configuration "ThumbnailConfiguration"
+          ObjectValue "ThumbnailCameraTarget"
+          CFrameValue "ThumbnailCameraValue"
+      Accessory "Purple Heart NecklaceAccessory"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "NeckAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+        Configuration "ThumbnailConfiguration"
+          ObjectValue "ThumbnailCameraTarget"
+          CFrameValue "ThumbnailCameraValue"
+      Accessory "PurpleCape"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "BodyBackAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+      Accessory "SpaceHorns"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "HatAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+      Accessory "purplePigtailsAccessory"
+        Part "Handle"
+          SpecialMesh "SpecialMesh"
+          StringValue "AvatarPartScaleType"
+          Attachment "HairAttachment"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+          Vector3Value "OriginalSize"
+      BodyColors "Body Colors"
+  Folder "Mechanics"
+    Folder "Buttons"
+    Folder "AirTanks"
+    Folder "MapDetails"
+      Folder "Sand1"
+      Folder "Sand1"
+      Folder "Sand1"
+      ... +2 more Folder "Sand1"
+  Folder "Interactives"
+    Folder "doors"
+  Folder "Geometry"
+  Part "Part"
+  Part "Part"
+  ... +448 more Part "Part"
+  Sound "Music"
+  Model "R6 [Dummy]"  (49 descendants)
+    Part "Head"
+      SpecialMesh "Mesh"
+      Attachment "HairAttachment"
+      Attachment "HatAttachment"
+      Attachment "FaceFrontAttachment"
+      Attachment "FaceCenterAttachment"
+      Decal "face"
+    Part "Torso"
+      Attachment "NeckAttachment"
+      Attachment "BodyFrontAttachment"
+      Attachment "BodyBackAttachment"
+      Attachment "LeftCollarAttachment"
+      Attachment "RightCollarAttachment"
+      Attachment "WaistFrontAttachment"
+      Attachment "WaistCenterAttachment"
+      Attachment "WaistBackAttachment"
+      Motor6D "Right Shoulder"
+      Motor6D "Left Shoulder"
+      Motor6D "Right Hip"
+      Motor6D "Left Hip"
+      Motor6D "Neck"
+      Weld "Weld"
+      Weld "Weld"
+      Weld "Weld"
+      ... +2 more Weld "Weld"
+    Part "Left Arm"
+      Attachment "LeftShoulderAttachment"
+      Attachment "LeftGripAttachment"
+      Weld "Weld"
+    Part "Right Arm"
+      Attachment "RightShoulderAttachment"
+      Attachment "RightGripAttachment"
+      Weld "Weld"
+    Part "Left Leg"
+      Attachment "LeftFootAttachment"
+      Snap "Snap"
+      Snap "Snap"
+    Part "Right Leg"
+      Attachment "RightFootAttachment"
+      Snap "Snap"
+      Snap "Snap"
+    Humanoid "Humanoid"
+      Animator "Animator"
+    Part "HumanoidRootPart"
+      Attachment "RootAttachment"
+      Motor6D "RootJoint"
+    Pants "Pants"
+    Shirt "Shirt"
+  Part "Classic Plastic Part"
+  Camera "Camera"  (3415 descendants)
+    Folder "7886c718-9c98-43"  (3414 descendants)
+      KeyframeSequence "Test"  (3265 descendants)
+        Keyframe "Keyframe"
+          Pose "HumanoidRootPart"
+            Pose "LowerTorso"
+              Pose "UpperTorso"
+                Pose "Head"
+                Pose "LeftUpperArm"
+                  Pose "LeftLowerArm"
+                    Pose "LeftHand"
+                Pose "RightUpperArm"
+                  Pose "RightLowerArm"
+                    Pose "RightHand"
+              Pose "LeftUpperLeg"
+                Pose "LeftLowerLeg"
+                  Pose "LeftFoot"
+              Pose "RightUpperLeg"
+                Pose "RightLowerLeg"
+                  Pose "RightFoot"
+        Keyframe "Keyframe"
+          Pose "HumanoidRootPart"
+            Pose "LowerTorso"
+              Pose "UpperTorso"
+                Pose "Head"
+                Pose "LeftUpperArm"
+                  Pose "LeftLowerArm"
+                    Pose "LeftHand"
+                Pose "RightUpperArm"
+                  Pose "RightLowerArm"
+                    Pose "RightHand"
+              Pose "LeftUpperLeg"
+                Pose "LeftLowerLeg"
+                  Pose "LeftFoot"
+              Pose "RightUpperLeg"
+                Pose "RightLowerLeg"
+                  Pose "RightFoot"
+        Keyframe "Keyframe"
+          Pose "HumanoidRootPart"
+            Pose "LowerTorso"
+              Pose "UpperTorso"
+                Pose "Head"
+                Pose "LeftUpperArm"
+                  Pose "LeftLowerArm"
+                    Pose "LeftHand"
+                Pose "RightUpperArm"
+                  Pose "RightLowerArm"
+                    Pose "RightHand"
+              Pose "LeftUpperLeg"
+                Pose "LeftLowerLeg"
+                  Pose "LeftFoot"
+              Pose "RightUpperLeg"
+                Pose "RightLowerLeg"
+                  Pose "RightFoot"
+        ... +188 more Keyframe "Keyframe"
+        Keyframe "End"
+          Pose "HumanoidRootPart"
+            Pose "LowerTorso"
+              Pose "UpperTorso"
+                Pose "Head"
+                Pose "LeftUpperArm"
+                  Pose "LeftLowerArm"
+                    Pose "LeftHand"
+                Pose "RightUpperArm"
+                  Pose "RightLowerArm"
+                    Pose "RightHand"
+              Pose "LeftUpperLeg"
+                Pose "LeftLowerLeg"
+                  Pose "LeftFoot"
+              Pose "RightUpperLeg"
+                Pose "RightLowerLeg"
+                  Pose "RightFoot"
+        AnimationRigData "AnimationRigDataRthro"
+      Model "DummyR15"  (147 descendants)
+        Part "HumanoidRootPart"
+          Attachment "RootRigAttachment"
+            Vector3Value "OriginalPosition"
+          Vector3Value "OriginalSize"
+        MeshPart "LeftHand"
+          Attachment "LeftWristRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftGripAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "LeftWrist"
+          Vector3Value "OriginalSize"
+        MeshPart "LeftLowerArm"
+          Attachment "LeftElbowRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftWristRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "LeftElbow"
+          Vector3Value "OriginalSize"
+        MeshPart "LeftUpperArm"
+          Attachment "LeftShoulderRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftElbowRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftShoulderAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "LeftShoulder"
+          Vector3Value "OriginalSize"
+        MeshPart "RightHand"
+          Attachment "RightWristRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightGripAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "RightWrist"
+          Vector3Value "OriginalSize"
+        MeshPart "RightLowerArm"
+          Attachment "RightElbowRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightWristRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "RightElbow"
+          Vector3Value "OriginalSize"
+        MeshPart "RightUpperArm"
+          Attachment "RightShoulderRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightElbowRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightShoulderAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "RightShoulder"
+          Vector3Value "OriginalSize"
+        MeshPart "UpperTorso"  (20 descendants)
+          Attachment "WaistRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "NeckRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftShoulderRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightShoulderRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "BodyFrontAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "BodyBackAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftCollarAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightCollarAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "NeckAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "Waist"
+          Vector3Value "OriginalSize"
+        MeshPart "LeftFoot"
+          Attachment "LeftAnkleRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "LeftAnkle"
+          Vector3Value "OriginalSize"
+        MeshPart "LeftLowerLeg"
+          Attachment "LeftKneeRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftAnkleRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "LeftKnee"
+          Vector3Value "OriginalSize"
+        MeshPart "LeftUpperLeg"
+          Attachment "LeftHipRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftKneeRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "LeftHip"
+          Vector3Value "OriginalSize"
+        MeshPart "RightFoot"
+          Attachment "RightAnkleRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "RightAnkle"
+          Vector3Value "OriginalSize"
+        MeshPart "RightLowerLeg"
+          Attachment "RightKneeRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightAnkleRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "RightKnee"
+          Vector3Value "OriginalSize"
+        MeshPart "RightUpperLeg"
+          Attachment "RightHipRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightKneeRigAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "RightHip"
+          Vector3Value "OriginalSize"
+        MeshPart "LowerTorso"
+          Attachment "RootRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "WaistRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "LeftHipRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "RightHipRigAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "WaistCenterAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "WaistFrontAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "WaistBackAttachment"
+            Vector3Value "OriginalPosition"
+          Motor6D "Root"
+          Vector3Value "OriginalSize"
+        Humanoid "Humanoid"
+          Animator "Animator"
+        Part "Head"
+          SpecialMesh "Mesh"
+            Vector3Value "OriginalSize"
+          Attachment "FaceCenterAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "FaceFrontAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "HairAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "HatAttachment"
+            Vector3Value "OriginalPosition"
+          Attachment "NeckRigAttachment"
+            Vector3Value "OriginalPosition"
+          Decal "face"
+          Motor6D "Neck"
+          Vector3Value "OriginalSize"
+          Decal "face"
+        Model "AnimSaves"
+        Animation "Anim"
+  Model "Kohl's Admin"  (3470 descendants)
+    Folder "Addons"
+      ModuleScript "ExampleAddon"  -> scripts/Workspace/Kohl's Admin/Addons/ExampleAddon.lua
+      ModuleScript "ExampleAddonClient"  -> scripts/Workspace/Kohl's Admin/Addons/ExampleAddonClient.lua
+      ModuleScript "ExampleAddonServer"  -> scripts/Workspace/Kohl's Admin/Addons/ExampleAddonServer.lua
+    Script "Legacy_Loader"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader.server.lua  [disabled]
+      ModuleScript "Custom_Commands"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/Custom_Commands.lua
+      ModuleScript "Legacy_Settings"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/Legacy_Settings.lua
+      ModuleScript "MainModuleKAI"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI.lua
+        Folder "D"  (1049 descendants)
+          Script "Client"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client.server.lua  [disabled]
+            ModuleScript "Templates"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates.lua
+              ModuleScript "Serialized_Blank"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Blank.lua
+              ModuleScript "Serialized_Blind"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Blind.lua
+              ModuleScript "Serialized_Chat"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Chat.lua
+              ModuleScript "Serialized_CommandBar"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_CommandBar.lua
+              ModuleScript "Serialized_Credit"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Credit.lua
+              ModuleScript "Serialized_Direct"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Direct.lua
+              ModuleScript "Serialized_Error"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Error.lua
+              ModuleScript "Serialized_Help"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Help.lua
+              ModuleScript "Serialized_Hint"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Hint.lua
+              ModuleScript "Serialized_List"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_List.lua
+              ModuleScript "Serialized_Msg"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Msg.lua
+              ModuleScript "Serialized_Note"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Note.lua
+              ModuleScript "Serialized_Resize"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Resize.lua
+              ModuleScript "Serialized_Search"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Search.lua
+              ModuleScript "Serialized_Settings"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Settings.lua
+              ModuleScript "Serialized_Timer"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Timer.lua
+              ModuleScript "Serialized_Vote"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Client/Templates/Serialized_Vote.lua
+          SelectionBox "Extras"
+            ScreenGui "Explorer"
+              Frame "Explorer"
+                BindableEvent "SelectionChanged"
+                BindableFunction "SetOption"
+                BindableFunction "SetSelection"
+                BindableFunction "GetOption"
+                BindableFunction "GetSelection"
+                LocalScript "LocalScript"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Extras/Explorer/Explorer/LocalScript.client.lua
+          ModuleScript "Loadstring"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring.lua
+            ModuleScript "LuaK"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/LuaK.lua
+            ModuleScript "LuaP"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/LuaP.lua
+            ModuleScript "LuaU"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/LuaU.lua
+            ModuleScript "LuaX"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/LuaX.lua
+            ModuleScript "LuaY"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/LuaY.lua
+            ModuleScript "LuaZ"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/LuaZ.lua
+            ModuleScript "Rerubi"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Loadstring/Rerubi.lua
+          Script "LocalScriptBase"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/LocalScriptBase.server.lua  [disabled]
+          ParticleEmitter "Shine"
+          ModuleScript "SuperCrown"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/SuperCrown.lua
+          SelectionBox "Tools"  (1009 descendants)
+            Tool "Building Tools"  (1008 descendants)
+              ModuleScript "Assets"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Assets.lua
+              BoolValue "AutoUpdate"
+                Script "AutomaticUpdating"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/AutoUpdate/AutomaticUpdating.server.lua
+              ModuleScript "Core"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core.lua
+                ModuleScript "BoundingBox"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/BoundingBox.lua
+                ModuleScript "History"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/History.lua
+                ModuleScript "ListenForManualWindowTrigger"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/ListenForManualWindowTrigger.lua
+                ModuleScript "Security"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/Security.lua
+                ModuleScript "Selection"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/Selection.lua
+                ModuleScript "Snapping"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/Snapping.lua
+                ModuleScript "Targeting"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Core/Targeting.lua
+              Folder "Interfaces"  (787 descendants)
+                Frame "BTAnchorToolGUI"  (23 descendants)
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "Status"
+                    TextLabel "Label"
+                    Frame "Anchored"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Unanchored"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                  Frame "Tip"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "BTCollisionToolGUI"  (23 descendants)
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "Status"
+                    TextLabel "Label"
+                    Frame "On"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Off"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                  Frame "Tip"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "BTDecorateToolGUI"  (92 descendants)
+                  Frame "BottomColorBar"
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "Smoke"  (32 descendants)
+                    TextLabel "Label"
+                    ImageButton "ArrowButton"
+                    Frame "ColorBar"
+                    TextButton "AddButton"
+                    TextButton "RemoveButton"
+                    Frame "Shadow"
+                    Frame "Options"  (25 descendants)
+                      Frame "OpacityOption"
+                        TextLabel "Label"
+                        Frame "Input"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                          TextBox "TextBox"
+                      Frame "VelocityOption"
+                        TextLabel "Label"
+                        Frame "Input"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                          TextBox "TextBox"
+                      Frame "SizeOption"
+                        TextLabel "Label"
+                        Frame "Input"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                          TextBox "TextBox"
+                      Frame "ColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                  TextLabel "SelectNote"
+                  Frame "Fire"  (33 descendants)
+                    TextLabel "Label"
+                    ImageButton "ArrowButton"
+                    Frame "ColorBar"
+                    TextButton "AddButton"
+                    TextButton "RemoveButton"
+                    Frame "Shadow"
+                    Frame "Options"  (26 descendants)
+                      Frame "HeatOption"
+                        TextLabel "Label"
+                        Frame "Input"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                          TextBox "TextBox"
+                      Frame "SizeOption"
+                        TextLabel "Label"
+                        Frame "Input"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                          TextBox "TextBox"
+                      Frame "ColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                      Frame "SecondaryColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                  Frame "Sparkles"
+                    TextLabel "Label"
+                    ImageButton "ArrowButton"
+                    Frame "ColorBar"
+                    TextButton "AddButton"
+                    TextButton "RemoveButton"
+                    Frame "Shadow"
+                    Frame "Options"
+                      Frame "ColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                Frame "SnapLine"
+                  Frame "SnapProgress"
+                  Frame "PointMarker"
+                    Frame "CrossLine"
+                    Frame "CrossLine"
+                Frame "BTLightingToolGUI"  (116 descendants)
+                  Frame "PointLight"  (29 descendants)
+                    Frame "Shadow"
+                    TextButton "RemoveButton"
+                    TextButton "AddButton"
+                    Frame "ColorBar"
+                    ImageButton "ArrowButton"
+                    TextLabel "Label"
+                    Frame "Options"  (22 descendants)
+                      Frame "ShadowsOption"
+                        TextLabel "Label"
+                        ImageButton "Checkbox"
+                      Frame "RangeOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                        TextLabel "Label"
+                      Frame "BrightnessOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                        TextLabel "Label"
+                      Frame "ColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                  TextLabel "SelectNote"
+                  Frame "SpotLight"  (37 descendants)
+                    Frame "Options"  (30 descendants)
+                      Frame "ShadowsOption"
+                        TextLabel "Label"
+                        ImageButton "Checkbox"
+                      Frame "SideOption"
+                        TextLabel "Label"
+                      Frame "RangeOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                        TextLabel "Label"
+                      Frame "AngleOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          Frame "SelectedIndicator"
+                          ImageLabel "Background"
+                        TextLabel "Label"
+                      Frame "BrightnessOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                        TextLabel "Label"
+                      Frame "ColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                    Frame "Shadow"
+                    TextButton "RemoveButton"
+                    TextButton "AddButton"
+                    Frame "ColorBar"
+                    ImageButton "ArrowButton"
+                    TextLabel "Label"
+                  Frame "Title"
+                    TextLabel "Label"
+                    Frame "ColorBar"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "BottomColorBar"
+                  Frame "SurfaceLight"  (37 descendants)
+                    Frame "Shadow"
+                    TextButton "RemoveButton"
+                    TextButton "AddButton"
+                    Frame "ColorBar"
+                    ImageButton "ArrowButton"
+                    TextLabel "Label"
+                    Frame "Options"  (30 descendants)
+                      Frame "ShadowsOption"
+                        TextLabel "Label"
+                        ImageButton "Checkbox"
+                      Frame "SideOption"
+                        TextLabel "Label"
+                      Frame "RangeOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                        TextLabel "Label"
+                      Frame "AngleOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          Frame "SelectedIndicator"
+                          ImageLabel "Background"
+                        TextLabel "Label"
+                      Frame "BrightnessOption"
+                        Frame "Input"
+                          TextBox "TextBox"
+                          ImageLabel "Background"
+                          Frame "SelectedIndicator"
+                        TextLabel "Label"
+                      Frame "ColorOption"
+                        ImageButton "HSVPicker"
+                          Frame "Shadow"
+                        TextLabel "Label"
+                        Frame "Indicator"
+                          Frame "Shadow"
+                          TextLabel "Varies"
+                Frame "BTMaterialToolGUI"  (25 descendants)
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "MaterialOption"
+                    TextLabel "Label"
+                  Frame "TransparencyOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "ReflectanceOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      Frame "SelectedIndicator"
+                      ImageLabel "Background"
+                      TextBox "TextBox"
+                  Frame "Bottom"
+                    Frame "ColorBar"
+                  TextLabel "SelectNote"
+                Frame "BTMeshToolGUI"  (69 descendants)
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "TypeOption"
+                    TextLabel "Label"
+                  Frame "ScaleOption"
+                    TextLabel "Label"
+                    Frame "XInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                    Frame "YInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                    Frame "ZInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "AddButton"
+                    TextButton "Button"
+                    Frame "Shadow"
+                  Frame "MeshIdOption"
+                    TextLabel "Label"
+                    TextBox "TextBox"
+                    Frame "TextBoxBorder"
+                      Frame "BottomBorder"
+                      Frame "LeftBorder"
+                      Frame "RightBorder"
+                    Frame "TextBoxBackground"
+                  Frame "BottomColorBar"
+                  Frame "TextureIdOption"
+                    TextLabel "Label"
+                    TextBox "TextBox"
+                    Frame "TextBoxBorder"
+                      Frame "BottomBorder"
+                      Frame "LeftBorder"
+                      Frame "RightBorder"
+                    Frame "TextBoxBackground"
+                  Frame "RemoveButton"
+                    TextButton "Button"
+                    Frame "Shadow"
+                  Frame "TintOption"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                  TextLabel "SelectNote"
+                  Frame "OffsetOption"
+                    TextLabel "Label"
+                    Frame "XInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                    Frame "YInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                    Frame "ZInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                Frame "BTMoveToolGUI"  (50 descendants)
+                  Frame "Changes"
+                    TextLabel "Text"
+                    Frame "ColorBar"
+                  Frame "Info"
+                    Frame "Center"
+                      Frame "Z"
+                        ImageLabel "Background"
+                        TextBox "TextBox"
+                      Frame "Y"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                      Frame "X"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                      TextLabel "TextLabel"
+                    TextLabel "Label"
+                    Frame "ColorBar"
+                  Frame "IncrementOption"
+                    Frame "Label"
+                      TextLabel "TextLabel"
+                    Frame "Increment"
+                      ImageLabel "Background"
+                      TextBox "TextBox"
+                      Frame "SelectedIndicator"
+                  Frame "Title"
+                    TextLabel "Label"
+                    Frame "ColorBar"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "AxesOption"
+                    Frame "Label"
+                      TextLabel "TextLabel"
+                    Frame "Last"
+                      TextLabel "Label"
+                      ImageLabel "Background"
+                      TextButton "Button"
+                      Frame "SelectedIndicator"
+                    Frame "Local"
+                      TextLabel "Label"
+                      ImageLabel "Background"
+                      TextButton "Button"
+                      Frame "SelectedIndicator"
+                    Frame "Global"
+                      TextLabel "Label"
+                      ImageLabel "Background"
+                      TextButton "Button"
+                      Frame "SelectedIndicator"
+                Frame "BTNewPartToolGUI"
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "TypeOption"
+                    TextLabel "Label"
+                  Frame "Tip"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "BTPaintToolGUI"  (170 descendants)
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  UIListLayout "UIListLayout"
+                  Frame "Palette"  (151 descendants)
+                    UIListLayout "UIListLayout"
+                    Frame "Grays"
+                      UIListLayout "UIListLayout"
+                      TextButton "Institutional white"
+                      TextButton "White"
+                      TextButton "Light stone grey"
+                      TextButton "Lily white"
+                      TextButton "Pearl"
+                      TextButton "Quill grey"
+                      TextButton "Mid gray"
+                      TextButton "Ghost grey"
+                      TextButton "Medium stone grey"
+                      TextButton "Dark stone grey"
+                      TextButton "Black"
+                      TextButton "Really black"
+                    Frame "Reds"
+                      UIListLayout "UIListLayout"
+                      TextButton "Really red"
+                      TextButton "Bright red"
+                      TextButton "Crimson"
+                      TextButton "Maroon"
+                      TextButton "Dusty Rose"
+                      TextButton "Terra Cotta"
+                      TextButton "Persimmon"
+                      TextButton "Tawny"
+                      TextButton "Burgundy"
+                      TextButton "Cocoa"
+                    Frame "Yellows"
+                      UIListLayout "UIListLayout"
+                      TextButton "New Yeller"
+                      TextButton "Bright yellow"
+                      TextButton "Deep orange"
+                      TextButton "Gold"
+                      TextButton "Neon orange"
+                      TextButton "Bright orange"
+                      TextButton "Br. yellowish orange"
+                      TextButton "Daisy orange"
+                      TextButton "Cool yellow"
+                      TextButton "Buttermilk"
+                      TextButton "Pastel yellow"
+                    Frame "Greens"
+                      UIListLayout "UIListLayout"
+                      TextButton "Lime green"
+                      TextButton "Shamrock"
+                      TextButton "Bright green"
+                      TextButton "Sea green"
+                      TextButton "Dark green"
+                      TextButton "Forest green"
+                      TextButton "Camo"
+                      TextButton "Parsley green"
+                      TextButton "Earth green"
+                      TextButton "Moss"
+                      TextButton "Laurel green"
+                      TextButton "Sage green"
+                    Frame "LightGreens"
+                      UIListLayout "UIListLayout"
+                      TextButton "Pastel green"
+                      TextButton "Mint"
+                      TextButton "Medium green"
+                      TextButton "Olivine"
+                      TextButton "Artichoke"
+                      TextButton "Br. yellowish green"
+                      TextButton "Olive"
+                      TextButton "Grime"
+                      TextButton "Sand green"
+                      TextButton "Slime green"
+                      TextButton "Flint"
+                    Frame "GreenishBlues"
+                      UIListLayout "UIListLayout"
+                      TextButton "Toothpaste"
+                      TextButton "Teal"
+                      TextButton "Pastel blue-green"
+                      TextButton "Pastel light blue"
+                      TextButton "Light blue"
+                      TextButton "Fog"
+                      TextButton "Cadet blue"
+                      TextButton "Fossil"
+                      TextButton "Pastel Blue"
+                      TextButton "Baby blue"
+                      TextButton "Sand blue"
+                      TextButton "Smoky grey"
+                    Frame "Blues"
+                      UIListLayout "UIListLayout"
+                      TextButton "Really blue"
+                      TextButton "Lapis"
+                      TextButton "Dark blue"
+                      TextButton "Navy blue"
+                      TextButton "Deep blue"
+                      TextButton "Steel blue"
+                      TextButton "Storm blue"
+                      TextButton "Medium blue"
+                      TextButton "Bright bluish green"
+                      TextButton "Electric blue"
+                      TextButton "Cyan"
+                      TextButton "Bright blue"
+                    Frame "Purples"
+                      UIListLayout "UIListLayout"
+                      TextButton "Magenta"
+                      TextButton "Eggplant"
+                      TextButton "Mulberry"
+                      TextButton "Plum"
+                      TextButton "Bright violet"
+                      TextButton "Dark indigo"
+                      TextButton "Royal purple"
+                      TextButton "Pastel violet"
+                      TextButton "Alder"
+                      TextButton "Lavender"
+                      TextButton "Lilac"
+                      TextButton "Sunrise"
+                    Frame "Pinks"
+                      UIListLayout "UIListLayout"
+                      TextButton "Hot pink"
+                      TextButton "Pink"
+                      TextButton "Carnation pink"
+                      TextButton "Mauve"
+                      TextButton "Light reddish violet"
+                      TextButton "Pastel orange"
+                      TextButton "Salmon"
+                      TextButton "Medium red"
+                      TextButton "Light orange"
+                      TextButton "Oyster"
+                      TextButton "Linen"
+                      TextButton "Hurricane grey"
+                    Frame "Tans"
+                      UIListLayout "UIListLayout"
+                      TextButton "Sand red"
+                      TextButton "Cloudy grey"
+                      TextButton "Beige"
+                      TextButton "Burlap"
+                      TextButton "Cashmere"
+                      TextButton "Brick yellow"
+                      TextButton "Wheat"
+                      TextButton "Khaki"
+                      TextButton "Seashell"
+                      TextButton "Pastel brown"
+                      TextButton "Nougat"
+                      TextButton "Copper"
+                    Frame "Browns"
+                      UIListLayout "UIListLayout"
+                      TextButton "Dirt brown"
+                      TextButton "Pine Cone"
+                      TextButton "Bronze"
+                      TextButton "Fawn brown"
+                      TextButton "Cork"
+                      TextButton "Burnt Sienna"
+                      TextButton "Reddish brown"
+                      TextButton "Dark orange"
+                      TextButton "Brown"
+                      TextButton "Dark taupe"
+                      TextButton "Rust"
+                      TextButton "CGA brown"
+                  ImageLabel "ButtonBackground"
+                  TextButton "ButtonTemplate"
+                  Frame "Controls"
+                    ImageButton "ColorPickerButton"
+                      ImageLabel "Icons"
+                    Frame "ColorBar"
+                    TextButton "LastColorButton"
+                      TextLabel "ColorName"
+                        Frame "ColorSquare"
+                Frame "BTResizeToolGUI"  (45 descendants)
+                  Frame "DirectionsOption"
+                    Frame "Normal"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Both"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Label"
+                      TextLabel "TextLabel"
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "IncrementOption"
+                    Frame "Increment"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                    Frame "Label"
+                      TextLabel "TextLabel"
+                  Frame "Info"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    Frame "SizeInfo"
+                      TextLabel "TextLabel"
+                      Frame "X"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                      Frame "Y"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                      Frame "Z"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                  Frame "Changes"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "BTRotateToolGUI"  (50 descendants)
+                  Frame "PivotOption"
+                    Frame "Center"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Local"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Last"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Label"
+                      TextLabel "TextLabel"
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "IncrementOption"
+                    Frame "Increment"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                    Frame "Label"
+                      TextLabel "TextLabel"
+                  Frame "Info"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    Frame "RotationInfo"
+                      TextLabel "TextLabel"
+                      Frame "X"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                      Frame "Y"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                      Frame "Z"
+                        TextBox "TextBox"
+                        ImageLabel "Background"
+                  Frame "Changes"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "BTSurfaceToolGUI"
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "SideOption"
+                    TextLabel "Label"
+                  Frame "TypeOption"
+                    TextLabel "Label"
+                  Frame "Tip"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "BTTextureToolGUI"  (54 descendants)
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "SideOption"
+                    TextLabel "Label"
+                  Frame "RepeatOption"
+                    TextLabel "Label"
+                    Frame "XInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                    Frame "YInput"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "BottomColorBar"
+                  Frame "TransparencyOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "ModeOption"
+                    TextLabel "Label"
+                    Frame "Decal"
+                      Frame "SelectedIndicator"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                    Frame "Texture"
+                      TextButton "Button"
+                      ImageLabel "Background"
+                      TextLabel "Label"
+                      Frame "SelectedIndicator"
+                  Frame "ImageIDOption"
+                    TextLabel "Label"
+                    Frame "TextBoxBorder"
+                      Frame "BottomBorder"
+                      Frame "LeftBorder"
+                      Frame "RightBorder"
+                    Frame "TextBoxBackground"
+                    TextBox "TextBox"
+                  Frame "AddButton"
+                    TextButton "Button"
+                    Frame "Shadow"
+                  Frame "RemoveButton"
+                    TextButton "Button"
+                    Frame "Shadow"
+                  TextLabel "SelectNote"
+                Frame "BTWeldToolGUI"
+                  Frame "Title"
+                    Frame "ColorBar"
+                    TextLabel "Label"
+                    ImageButton "Signature"
+                      UIAspectRatioConstraint "AspectRatio"
+                      TextButton "HelpButton"
+                        Frame "Background"
+                          UICorner "UICorner"
+                  Frame "Interface"
+                    TextButton "WeldButton"
+                      Frame "Shadow"
+                    TextButton "BreakWeldsButton"
+                      Frame "Shadow"
+                  Frame "Changes"
+                    Frame "ColorBar"
+                    TextLabel "Text"
+                Frame "SnapLineSegment"
+                  Frame "PointMarkerA"
+                    Frame "CrossLine"
+                    Frame "CrossLine"
+                Frame "PointMarker"
+                  Frame "CrossLine"
+                  Frame "CrossLine"
+              Folder "Libraries"  (61 descendants)
+                ModuleScript "ArcHandles"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/ArcHandles.lua
+                ModuleScript "Cryo"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo.lua
+                  ModuleScript "Dictionary"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary.lua
+                    ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/init.spec.lua
+                    ModuleScript "join"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/join.lua
+                    ModuleScript "join.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/join.spec.lua
+                    ModuleScript "keys"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/keys.lua
+                    ModuleScript "keys.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/keys.spec.lua
+                    ModuleScript "values"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/values.lua
+                    ModuleScript "values.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/Dictionary/values.spec.lua
+                  ModuleScript "List"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List.lua
+                    ModuleScript "filter"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/filter.lua
+                    ModuleScript "filter.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/filter.spec.lua
+                    ModuleScript "filterMap"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/filterMap.lua
+                    ModuleScript "filterMap.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/filterMap.spec.lua
+                    ModuleScript "find"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/find.lua
+                    ModuleScript "find.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/find.spec.lua
+                    ModuleScript "findWhere"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/findWhere.lua
+                    ModuleScript "findWhere.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/findWhere.spec.lua
+                    ModuleScript "foldLeft"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/foldLeft.lua
+                    ModuleScript "foldLeft.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/foldLeft.spec.lua
+                    ModuleScript "foldRight"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/foldRight.lua
+                    ModuleScript "foldRight.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/foldRight.spec.lua
+                    ModuleScript "getRange"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/getRange.lua
+                    ModuleScript "getRange.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/getRange.spec.lua
+                    ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/init.spec.lua
+                    ModuleScript "join"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/join.lua
+                    ModuleScript "join.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/join.spec.lua
+                    ModuleScript "map"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/map.lua
+                    ModuleScript "map.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/map.spec.lua
+                    ModuleScript "removeIndex"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/removeIndex.lua
+                    ModuleScript "removeIndex.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/removeIndex.spec.lua
+                    ModuleScript "removeRange"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/removeRange.lua
+                    ModuleScript "removeRange.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/removeRange.spec.lua
+                    ModuleScript "removeValue"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/removeValue.lua
+                    ModuleScript "removeValue.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/removeValue.spec.lua
+                    ModuleScript "replaceIndex"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/replaceIndex.lua
+                    ModuleScript "replaceIndex.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/replaceIndex.spec.lua
+                    ModuleScript "reverse"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/reverse.lua
+                    ModuleScript "reverse.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/reverse.spec.lua
+                    ModuleScript "sort"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/sort.lua
+                    ModuleScript "sort.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/sort.spec.lua
+                    ModuleScript "toSet"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/toSet.lua
+                    ModuleScript "toSet.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/List/toSet.spec.lua
+                  ModuleScript "None"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/None.lua
+                  ModuleScript "None.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/None.spec.lua
+                  ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/init.spec.lua
+                  ModuleScript "isEmpty"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Cryo/isEmpty.lua
+                ModuleScript "Debug"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Debug.lua
+                  ModuleScript "SortedArray"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Debug/SortedArray.lua
+                ModuleScript "Handles"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Handles.lua
+                ModuleScript "InstancePool"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/InstancePool.lua
+                ModuleScript "Maid"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Maid.lua
+                ModuleScript "Make"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Make.lua
+                ModuleScript "Region"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Region.lua
+                ModuleScript "SerializationV2"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/SerializationV2.lua
+                ModuleScript "SerializationV3"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/SerializationV3.lua
+                ModuleScript "Signal"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Signal.lua
+                ModuleScript "SupportLibrary"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/SupportLibrary.lua
+                ModuleScript "Try"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/Try.lua
+                ModuleScript "fastSpawn"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Libraries/fastSpawn.lua
+              BoolValue "Loaded"
+                IntValue "DescendantCount"
+                  Script "DescendantCounter"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Loaded/DescendantCount/DescendantCounter.server.lua
+                LocalScript "ReplicationListener"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Loaded/ReplicationListener.client.lua
+              ModuleScript "Loader"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Loader.lua
+                Script "PluginInitializer"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Loader/PluginInitializer.server.lua
+                LocalScript "ToolInitializer"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Loader/ToolInitializer.client.lua
+              BindableFunction "SyncAPI"
+                LocalScript "LocalEndpoint"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/LocalEndpoint.client.lua
+                RemoteFunction "ServerEndpoint"
+                  Script "ServerEndpoint"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/ServerEndpoint/ServerEndpoint.server.lua
+                ModuleScript "SyncModule"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/SyncAPI/SyncModule.lua
+              Folder "Tools"
+                ModuleScript "Anchor"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Anchor.lua
+                ModuleScript "Collision"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Collision.lua
+                ModuleScript "Decorate"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Decorate.lua
+                ModuleScript "Lighting"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Lighting.lua
+                ModuleScript "Material"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Material.lua
+                ModuleScript "Mesh"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Mesh.lua
+                ModuleScript "Move"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Move.lua
+                  ModuleScript "FreeDragging"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Move/FreeDragging.lua
+                  ModuleScript "HandleDragging"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Move/HandleDragging.lua
+                  ModuleScript "UIController"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Move/UIController.lua
+                  ModuleScript "Util"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Move/Util.lua
+                ModuleScript "NewPart"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/NewPart.lua
+                ModuleScript "Paint"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Paint.lua
+                  ModuleScript "PaintHistoryRecord"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Paint/PaintHistoryRecord.lua
+                ModuleScript "Resize"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Resize.lua
+                ModuleScript "Rotate"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Rotate.lua
+                ModuleScript "Surface"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Surface.lua
+                ModuleScript "Texture"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Texture.lua
+                ModuleScript "Weld"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Tools/Weld.lua
+              Folder "UI"  (33 descendants)
+                ModuleScript "ColorPicker"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ColorPicker.lua
+                  ModuleScript "Slider"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ColorPicker/Slider.lua
+                ModuleScript "Dock"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock.lua
+                  ModuleScript "AboutPane"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock/AboutPane.lua
+                  ModuleScript "SelectionButton"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock/SelectionButton.lua
+                  ModuleScript "SelectionPane"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock/SelectionPane.lua
+                  ModuleScript "ToolButton"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock/ToolButton.lua
+                  ModuleScript "ToolList"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock/ToolList.lua
+                  ModuleScript "Tooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dock/Tooltip.lua
+                ModuleScript "Dropdown"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Dropdown.lua
+                ModuleScript "Explorer"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Explorer.lua
+                  ModuleScript "ItemList"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Explorer/ItemList.lua
+                  ModuleScript "ItemRow"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Explorer/ItemRow.lua
+                ModuleScript "ExportDialog"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ExportDialog.lua
+                ModuleScript "Frame"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Frame.lua
+                ModuleScript "ImageButton"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ImageButton.lua
+                ModuleScript "ImageLabel"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ImageLabel.lua
+                ModuleScript "LoadingSpinner"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/LoadingSpinner.lua
+                ModuleScript "Notifications"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Notifications.lua
+                  ModuleScript "NotificationDialog"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/Notifications/NotificationDialog.lua
+                ModuleScript "ScopeHUD"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD.lua
+                  ModuleScript "HotkeyTooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/HotkeyTooltip.lua
+                    ModuleScript "AltTooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/HotkeyTooltip/AltTooltip.lua
+                    ModuleScript "ScopeInTooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeInTooltip.lua
+                    ModuleScript "ScopeLockTooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeLockTooltip.lua
+                    ModuleScript "ScopeOutTooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeOutTooltip.lua
+                  ModuleScript "ModeToggle"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/ModeToggle.lua
+                    ModuleScript "Tooltip"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/ModeToggle/Tooltip.lua
+                  ModuleScript "ScopeHierarchyItemButton"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScopeHUD/ScopeHierarchyItemButton.lua
+                ModuleScript "ScrollingFrame"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ScrollingFrame.lua
+                ModuleScript "TextBox"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/TextBox.lua
+                ModuleScript "TextLabel"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/TextLabel.lua
+                ModuleScript "ToolManualWindow"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/UI/ToolManualWindow.lua
+              Folder "Vendor"  (79 descendants)
+                ModuleScript "Roact"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact.lua
+                  ModuleScript "Binding"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Binding.lua
+                  ModuleScript "Binding.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Binding.spec.lua
+                  ModuleScript "Component"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.lua
+                  Folder "Component.spec"
+                    ModuleScript "context.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/context.spec.lua
+                    ModuleScript "defaultProps.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/defaultProps.spec.lua
+                    ModuleScript "didMount.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/didMount.spec.lua
+                    ModuleScript "didUpdate.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/didUpdate.spec.lua
+                    ModuleScript "extend.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/extend.spec.lua
+                    ModuleScript "getDerivedStateFromProps.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/getDerivedStateFromProps.spec.lua
+                    ModuleScript "getElementTraceback.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/getElementTraceback.spec.lua
+                    ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/init.spec.lua
+                    ModuleScript "legacyContext.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/legacyContext.spec.lua
+                    ModuleScript "render.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/render.spec.lua
+                    ModuleScript "setState.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/setState.spec.lua
+                    ModuleScript "shouldUpdate.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/shouldUpdate.spec.lua
+                    ModuleScript "validateProps.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/validateProps.spec.lua
+                    ModuleScript "willUnmount.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/willUnmount.spec.lua
+                    ModuleScript "willUpdate.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Component.spec/willUpdate.spec.lua
+                  ModuleScript "ComponentLifecyclePhase"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/ComponentLifecyclePhase.lua
+                  ModuleScript "Config"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Config.lua
+                  ModuleScript "Config.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Config.spec.lua
+                  ModuleScript "ElementKind"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/ElementKind.lua
+                  ModuleScript "ElementKind.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/ElementKind.spec.lua
+                  ModuleScript "ElementUtils"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/ElementUtils.lua
+                  ModuleScript "ElementUtils.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/ElementUtils.spec.lua
+                  ModuleScript "GlobalConfig"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/GlobalConfig.lua
+                  ModuleScript "GlobalConfig.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/GlobalConfig.spec.lua
+                  ModuleScript "Logging"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Logging.lua
+                  ModuleScript "None"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/None.lua
+                  ModuleScript "NoopRenderer"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/NoopRenderer.lua
+                  ModuleScript "Portal"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Portal.lua
+                  Folder "PropMarkers"
+                    ModuleScript "Change"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PropMarkers/Change.lua
+                    ModuleScript "Change.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PropMarkers/Change.spec.lua
+                    ModuleScript "Children"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PropMarkers/Children.lua
+                    ModuleScript "Event"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PropMarkers/Event.lua
+                    ModuleScript "Event.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PropMarkers/Event.spec.lua
+                    ModuleScript "Ref"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PropMarkers/Ref.lua
+                  ModuleScript "PureComponent"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PureComponent.lua
+                  ModuleScript "PureComponent.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/PureComponent.spec.lua
+                  ModuleScript "RobloxRenderer"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/RobloxRenderer.lua
+                  ModuleScript "RobloxRenderer.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/RobloxRenderer.spec.lua
+                  ModuleScript "SingleEventManager"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/SingleEventManager.lua
+                  ModuleScript "SingleEventManager.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/SingleEventManager.spec.lua
+                  ModuleScript "Symbol"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Symbol.lua
+                  ModuleScript "Symbol.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Symbol.spec.lua
+                  ModuleScript "Type"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Type.lua
+                  ModuleScript "Type.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/Type.spec.lua
+                  ModuleScript "assertDeepEqual"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/assertDeepEqual.lua
+                  ModuleScript "assertDeepEqual.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/assertDeepEqual.spec.lua
+                  ModuleScript "assign"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/assign.lua
+                  ModuleScript "assign.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/assign.spec.lua
+                  ModuleScript "createContext"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createContext.lua
+                  ModuleScript "createContext.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createContext.spec.lua
+                  ModuleScript "createElement"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createElement.lua
+                  ModuleScript "createElement.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createElement.spec.lua
+                  ModuleScript "createFragment"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createFragment.lua
+                  ModuleScript "createFragment.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createFragment.spec.lua
+                  ModuleScript "createReconciler"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createReconciler.lua
+                  ModuleScript "createReconciler.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createReconciler.spec.lua
+                  ModuleScript "createReconcilerCompat"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createReconcilerCompat.lua
+                  ModuleScript "createReconcilerCompat.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createReconcilerCompat.spec.lua
+                  ModuleScript "createRef"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createRef.lua
+                  ModuleScript "createRef.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createRef.spec.lua
+                  ModuleScript "createSignal"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createSignal.lua
+                  ModuleScript "createSignal.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createSignal.spec.lua
+                  ModuleScript "createSpy"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createSpy.lua
+                  ModuleScript "createSpy.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/createSpy.spec.lua
+                  ModuleScript "getDefaultInstanceProperty"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/getDefaultInstanceProperty.lua
+                  ModuleScript "getDefaultInstanceProperty.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/getDefaultInstanceProperty.spec.lua
+                  ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/init.spec.lua
+                  ModuleScript "internalAssert"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/internalAssert.lua
+                  ModuleScript "invalidSetStateMessages"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/invalidSetStateMessages.lua
+                  ModuleScript "oneChild"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/oneChild.lua
+                  ModuleScript "oneChild.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/oneChild.spec.lua
+                  ModuleScript "strict"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/strict.lua
+                  ModuleScript "strict.spec"  -> scripts/Workspace/Kohl's Admin/Legacy_Loader/MainModuleKAI/D/Tools/Building Tools/Vendor/Roact/strict.spec.lua
+              StringValue "Version"
+    Script "Loader"  -> scripts/Workspace/Kohl's Admin/Loader.server.lua
+    ModuleScript "Settings"  -> scripts/Workspace/Kohl's Admin/Settings.lua
+    Camera "ThumbnailCamera"
+      Part "Part"
+        PointLight "PointLight"
+        Decal "Decal"
+        Decal "Decal"
+    StringValue "LICENSE"
+    ModuleScript "MainModule"  -> scripts/Workspace/Kohl's Admin/MainModule.lua
+      ModuleScript "Auth"  -> scripts/Workspace/Kohl's Admin/MainModule/Auth.lua
+      Script "Client"  -> scripts/Workspace/Kohl's Admin/MainModule/Client.server.lua  [disabled]
+        ModuleScript "About"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/About.lua
+        ModuleScript "Announce"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Announce.lua
+        ModuleScript "Bans"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Bans.lua
+        ModuleScript "Character"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Character.lua
+        ModuleScript "CommandBar"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/CommandBar.lua
+          ModuleScript "CompletionData"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/CommandBar/CompletionData.lua
+        ModuleScript "Commands"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Commands.lua
+        ModuleScript "Dashboard"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Dashboard.lua
+        ModuleScript "GetKA"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/GetKA.lua
+        ModuleScript "Logs"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Logs.lua
+        ModuleScript "Members"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Members.lua
+        ModuleScript "Network"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Network.lua
+        ModuleScript "Notify"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Notify.lua
+        ModuleScript "Settings"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/Settings.lua
+        ModuleScript "TopbarPlus"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus.lua
+          ModuleScript "Attribute"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Attribute.lua
+          Folder "Elements"
+            ModuleScript "Caption"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Caption.lua
+            ModuleScript "Container"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Container.lua
+            ModuleScript "Dropdown"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Dropdown.lua
+            ModuleScript "Indicator"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Indicator.lua
+            ModuleScript "Menu"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Menu.lua
+            ModuleScript "Notice"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Notice.lua
+            ModuleScript "Selection"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Selection.lua
+            ModuleScript "Widget"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Elements/Widget.lua
+          Folder "Features"
+            ModuleScript "Gamepad"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Gamepad.lua
+            ModuleScript "Overflow"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Overflow.lua
+            ModuleScript "Themes"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Themes.lua
+              ModuleScript "Classic"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Themes/Classic.lua
+              ModuleScript "Default"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Features/Themes/Default.lua
+          Folder "Packages"
+            ModuleScript "GoodSignal"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Packages/GoodSignal.lua
+            ModuleScript "Janitor"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Packages/Janitor.lua
+          ModuleScript "Reference"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Reference.lua
+          ModuleScript "Utility"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/Utility.lua
+          ModuleScript "VERSION"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/TopbarPlus/VERSION.lua
+        ModuleScript "UI"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI.lua
+          Folder "DefaultClasses"  (20 descendants)
+            ModuleScript "BaseClass"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/BaseClass.lua
+            ModuleScript "Button"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Button.lua
+            ModuleScript "Checkbox"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Checkbox.lua
+            ModuleScript "CircleProgress"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/CircleProgress.lua
+            ModuleScript "Color"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Color.lua
+            ModuleScript "ColorPicker"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/ColorPicker.lua
+            ModuleScript "Dialog"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Dialog.lua
+            ModuleScript "Input"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Input.lua
+              ModuleScript "Clack"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Input/Clack.lua
+            ModuleScript "List"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/List.lua
+            ModuleScript "ListItem"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/ListItem.lua
+            ModuleScript "Menu"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Menu.lua
+            ModuleScript "Scroller"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Scroller.lua
+            ModuleScript "ScrollerFast"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/ScrollerFast.lua
+            ModuleScript "Select"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Select.lua
+            ModuleScript "Slider"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Slider.lua
+            ModuleScript "Switch"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Switch.lua
+            ModuleScript "Tabs"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Tabs.lua
+            ModuleScript "Tooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Tooltip.lua
+            ModuleScript "Window"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/DefaultClasses/Window.lua
+          ModuleScript "Theme"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UI/Theme.lua
+        ModuleScript "UserFrame"  -> scripts/Workspace/Kohl's Admin/MainModule/Client/UserFrame.lua
+      ModuleScript "Credits"  -> scripts/Workspace/Kohl's Admin/MainModule/Credits.lua
+      ModuleScript "Data"  -> scripts/Workspace/Kohl's Admin/MainModule/Data.lua
+        ModuleScript "Defaults"  -> scripts/Workspace/Kohl's Admin/MainModule/Data/Defaults.lua
+        ModuleScript "Migrate"  -> scripts/Workspace/Kohl's Admin/MainModule/Data/Migrate.lua
+          ModuleScript "KAI"  -> scripts/Workspace/Kohl's Admin/MainModule/Data/Migrate/KAI.lua
+        ModuleScript "Store"  -> scripts/Workspace/Kohl's Admin/MainModule/Data/Store.lua
+      Folder "DefaultAddons"
+        ModuleScript "Legacy"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultAddons/Legacy.lua
+      Folder "DefaultCommands"
+        ModuleScript "Administration"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Administration.lua
+        ModuleScript "Creator"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Creator.lua
+        ModuleScript "Environment"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Environment.lua
+        ModuleScript "Fun"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Fun.lua
+        ModuleScript "General"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/General.lua
+        ModuleScript "Moderation"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Moderation.lua
+          ModuleScript "Jail"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Moderation/Jail.lua
+          ModuleScript "teleportCharacter"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Moderation/teleportCharacter.lua
+        ModuleScript "SuperAdmin"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/SuperAdmin.lua
+        ModuleScript "Utility"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/Utility.lua
+        ModuleScript "VIP"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultCommands/VIP.lua
+      Folder "DefaultTools"  (1011 descendants)
+        Script "ClassicBuildTools"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/ClassicBuildTools.server.lua  [disabled]
+          Script "DraggerScript"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/ClassicBuildTools/DraggerScript.server.lua  [disabled]
+        Tool "Building Tools"  (1008 descendants)
+          ModuleScript "Assets"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Assets.lua
+          BoolValue "AutoUpdate"
+            Script "AutomaticUpdating"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/AutoUpdate/AutomaticUpdating.server.lua
+          ModuleScript "Core"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core.lua
+            ModuleScript "BoundingBox"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/BoundingBox.lua
+            ModuleScript "History"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/History.lua
+            ModuleScript "ListenForManualWindowTrigger"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/ListenForManualWindowTrigger.lua
+            ModuleScript "Security"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/Security.lua
+            ModuleScript "Selection"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/Selection.lua
+            ModuleScript "Snapping"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/Snapping.lua
+            ModuleScript "Targeting"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Core/Targeting.lua
+          Folder "Interfaces"  (787 descendants)
+            Frame "BTAnchorToolGUI"  (23 descendants)
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "Status"
+                TextLabel "Label"
+                Frame "Anchored"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Unanchored"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+              Frame "Tip"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "BTCollisionToolGUI"  (23 descendants)
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "Status"
+                TextLabel "Label"
+                Frame "On"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Off"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+              Frame "Tip"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "BTDecorateToolGUI"  (92 descendants)
+              Frame "BottomColorBar"
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "Smoke"  (32 descendants)
+                TextLabel "Label"
+                ImageButton "ArrowButton"
+                Frame "ColorBar"
+                TextButton "AddButton"
+                TextButton "RemoveButton"
+                Frame "Shadow"
+                Frame "Options"  (25 descendants)
+                  Frame "OpacityOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "VelocityOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "SizeOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "ColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+              TextLabel "SelectNote"
+              Frame "Fire"  (33 descendants)
+                TextLabel "Label"
+                ImageButton "ArrowButton"
+                Frame "ColorBar"
+                TextButton "AddButton"
+                TextButton "RemoveButton"
+                Frame "Shadow"
+                Frame "Options"  (26 descendants)
+                  Frame "HeatOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "SizeOption"
+                    TextLabel "Label"
+                    Frame "Input"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                      TextBox "TextBox"
+                  Frame "ColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+                  Frame "SecondaryColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+              Frame "Sparkles"
+                TextLabel "Label"
+                ImageButton "ArrowButton"
+                Frame "ColorBar"
+                TextButton "AddButton"
+                TextButton "RemoveButton"
+                Frame "Shadow"
+                Frame "Options"
+                  Frame "ColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+            Frame "SnapLine"
+              Frame "SnapProgress"
+              Frame "PointMarker"
+                Frame "CrossLine"
+                Frame "CrossLine"
+            Frame "BTLightingToolGUI"  (116 descendants)
+              Frame "PointLight"  (29 descendants)
+                Frame "Shadow"
+                TextButton "RemoveButton"
+                TextButton "AddButton"
+                Frame "ColorBar"
+                ImageButton "ArrowButton"
+                TextLabel "Label"
+                Frame "Options"  (22 descendants)
+                  Frame "ShadowsOption"
+                    TextLabel "Label"
+                    ImageButton "Checkbox"
+                  Frame "RangeOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                    TextLabel "Label"
+                  Frame "BrightnessOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                    TextLabel "Label"
+                  Frame "ColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+              TextLabel "SelectNote"
+              Frame "SpotLight"  (37 descendants)
+                Frame "Options"  (30 descendants)
+                  Frame "ShadowsOption"
+                    TextLabel "Label"
+                    ImageButton "Checkbox"
+                  Frame "SideOption"
+                    TextLabel "Label"
+                  Frame "RangeOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                    TextLabel "Label"
+                  Frame "AngleOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      Frame "SelectedIndicator"
+                      ImageLabel "Background"
+                    TextLabel "Label"
+                  Frame "BrightnessOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                    TextLabel "Label"
+                  Frame "ColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+                Frame "Shadow"
+                TextButton "RemoveButton"
+                TextButton "AddButton"
+                Frame "ColorBar"
+                ImageButton "ArrowButton"
+                TextLabel "Label"
+              Frame "Title"
+                TextLabel "Label"
+                Frame "ColorBar"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "BottomColorBar"
+              Frame "SurfaceLight"  (37 descendants)
+                Frame "Shadow"
+                TextButton "RemoveButton"
+                TextButton "AddButton"
+                Frame "ColorBar"
+                ImageButton "ArrowButton"
+                TextLabel "Label"
+                Frame "Options"  (30 descendants)
+                  Frame "ShadowsOption"
+                    TextLabel "Label"
+                    ImageButton "Checkbox"
+                  Frame "SideOption"
+                    TextLabel "Label"
+                  Frame "RangeOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                    TextLabel "Label"
+                  Frame "AngleOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      Frame "SelectedIndicator"
+                      ImageLabel "Background"
+                    TextLabel "Label"
+                  Frame "BrightnessOption"
+                    Frame "Input"
+                      TextBox "TextBox"
+                      ImageLabel "Background"
+                      Frame "SelectedIndicator"
+                    TextLabel "Label"
+                  Frame "ColorOption"
+                    ImageButton "HSVPicker"
+                      Frame "Shadow"
+                    TextLabel "Label"
+                    Frame "Indicator"
+                      Frame "Shadow"
+                      TextLabel "Varies"
+            Frame "BTMaterialToolGUI"  (25 descendants)
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "MaterialOption"
+                TextLabel "Label"
+              Frame "TransparencyOption"
+                TextLabel "Label"
+                Frame "Input"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+              Frame "ReflectanceOption"
+                TextLabel "Label"
+                Frame "Input"
+                  Frame "SelectedIndicator"
+                  ImageLabel "Background"
+                  TextBox "TextBox"
+              Frame "Bottom"
+                Frame "ColorBar"
+              TextLabel "SelectNote"
+            Frame "BTMeshToolGUI"  (69 descendants)
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "TypeOption"
+                TextLabel "Label"
+              Frame "ScaleOption"
+                TextLabel "Label"
+                Frame "XInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                Frame "YInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                Frame "ZInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+              Frame "AddButton"
+                TextButton "Button"
+                Frame "Shadow"
+              Frame "MeshIdOption"
+                TextLabel "Label"
+                TextBox "TextBox"
+                Frame "TextBoxBorder"
+                  Frame "BottomBorder"
+                  Frame "LeftBorder"
+                  Frame "RightBorder"
+                Frame "TextBoxBackground"
+              Frame "BottomColorBar"
+              Frame "TextureIdOption"
+                TextLabel "Label"
+                TextBox "TextBox"
+                Frame "TextBoxBorder"
+                  Frame "BottomBorder"
+                  Frame "LeftBorder"
+                  Frame "RightBorder"
+                Frame "TextBoxBackground"
+              Frame "RemoveButton"
+                TextButton "Button"
+                Frame "Shadow"
+              Frame "TintOption"
+                TextLabel "Label"
+                Frame "Indicator"
+                  Frame "Shadow"
+                  TextLabel "Varies"
+                ImageButton "HSVPicker"
+                  Frame "Shadow"
+              TextLabel "SelectNote"
+              Frame "OffsetOption"
+                TextLabel "Label"
+                Frame "XInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                Frame "YInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                Frame "ZInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+            Frame "BTMoveToolGUI"  (50 descendants)
+              Frame "Changes"
+                TextLabel "Text"
+                Frame "ColorBar"
+              Frame "Info"
+                Frame "Center"
+                  Frame "Z"
+                    ImageLabel "Background"
+                    TextBox "TextBox"
+                  Frame "Y"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+                  Frame "X"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+                  TextLabel "TextLabel"
+                TextLabel "Label"
+                Frame "ColorBar"
+              Frame "IncrementOption"
+                Frame "Label"
+                  TextLabel "TextLabel"
+                Frame "Increment"
+                  ImageLabel "Background"
+                  TextBox "TextBox"
+                  Frame "SelectedIndicator"
+              Frame "Title"
+                TextLabel "Label"
+                Frame "ColorBar"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "AxesOption"
+                Frame "Label"
+                  TextLabel "TextLabel"
+                Frame "Last"
+                  TextLabel "Label"
+                  ImageLabel "Background"
+                  TextButton "Button"
+                  Frame "SelectedIndicator"
+                Frame "Local"
+                  TextLabel "Label"
+                  ImageLabel "Background"
+                  TextButton "Button"
+                  Frame "SelectedIndicator"
+                Frame "Global"
+                  TextLabel "Label"
+                  ImageLabel "Background"
+                  TextButton "Button"
+                  Frame "SelectedIndicator"
+            Frame "BTNewPartToolGUI"
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "TypeOption"
+                TextLabel "Label"
+              Frame "Tip"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "BTPaintToolGUI"  (170 descendants)
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              UIListLayout "UIListLayout"
+              Frame "Palette"  (151 descendants)
+                UIListLayout "UIListLayout"
+                Frame "Grays"
+                  UIListLayout "UIListLayout"
+                  TextButton "Institutional white"
+                  TextButton "White"
+                  TextButton "Light stone grey"
+                  TextButton "Lily white"
+                  TextButton "Pearl"
+                  TextButton "Quill grey"
+                  TextButton "Mid gray"
+                  TextButton "Ghost grey"
+                  TextButton "Medium stone grey"
+                  TextButton "Dark stone grey"
+                  TextButton "Black"
+                  TextButton "Really black"
+                Frame "Reds"
+                  UIListLayout "UIListLayout"
+                  TextButton "Really red"
+                  TextButton "Bright red"
+                  TextButton "Crimson"
+                  TextButton "Maroon"
+                  TextButton "Dusty Rose"
+                  TextButton "Terra Cotta"
+                  TextButton "Persimmon"
+                  TextButton "Tawny"
+                  TextButton "Burgundy"
+                  TextButton "Cocoa"
+                Frame "Yellows"
+                  UIListLayout "UIListLayout"
+                  TextButton "New Yeller"
+                  TextButton "Bright yellow"
+                  TextButton "Deep orange"
+                  TextButton "Gold"
+                  TextButton "Neon orange"
+                  TextButton "Bright orange"
+                  TextButton "Br. yellowish orange"
+                  TextButton "Daisy orange"
+                  TextButton "Cool yellow"
+                  TextButton "Buttermilk"
+                  TextButton "Pastel yellow"
+                Frame "Greens"
+                  UIListLayout "UIListLayout"
+                  TextButton "Lime green"
+                  TextButton "Shamrock"
+                  TextButton "Bright green"
+                  TextButton "Sea green"
+                  TextButton "Dark green"
+                  TextButton "Forest green"
+                  TextButton "Camo"
+                  TextButton "Parsley green"
+                  TextButton "Earth green"
+                  TextButton "Moss"
+                  TextButton "Laurel green"
+                  TextButton "Sage green"
+                Frame "LightGreens"
+                  UIListLayout "UIListLayout"
+                  TextButton "Pastel green"
+                  TextButton "Mint"
+                  TextButton "Medium green"
+                  TextButton "Olivine"
+                  TextButton "Artichoke"
+                  TextButton "Br. yellowish green"
+                  TextButton "Olive"
+                  TextButton "Grime"
+                  TextButton "Sand green"
+                  TextButton "Slime green"
+                  TextButton "Flint"
+                Frame "GreenishBlues"
+                  UIListLayout "UIListLayout"
+                  TextButton "Toothpaste"
+                  TextButton "Teal"
+                  TextButton "Pastel blue-green"
+                  TextButton "Pastel light blue"
+                  TextButton "Light blue"
+                  TextButton "Fog"
+                  TextButton "Cadet blue"
+                  TextButton "Fossil"
+                  TextButton "Pastel Blue"
+                  TextButton "Baby blue"
+                  TextButton "Sand blue"
+                  TextButton "Smoky grey"
+                Frame "Blues"
+                  UIListLayout "UIListLayout"
+                  TextButton "Really blue"
+                  TextButton "Lapis"
+                  TextButton "Dark blue"
+                  TextButton "Navy blue"
+                  TextButton "Deep blue"
+                  TextButton "Steel blue"
+                  TextButton "Storm blue"
+                  TextButton "Medium blue"
+                  TextButton "Bright bluish green"
+                  TextButton "Electric blue"
+                  TextButton "Cyan"
+                  TextButton "Bright blue"
+                Frame "Purples"
+                  UIListLayout "UIListLayout"
+                  TextButton "Magenta"
+                  TextButton "Eggplant"
+                  TextButton "Mulberry"
+                  TextButton "Plum"
+                  TextButton "Bright violet"
+                  TextButton "Dark indigo"
+                  TextButton "Royal purple"
+                  TextButton "Pastel violet"
+                  TextButton "Alder"
+                  TextButton "Lavender"
+                  TextButton "Lilac"
+                  TextButton "Sunrise"
+                Frame "Pinks"
+                  UIListLayout "UIListLayout"
+                  TextButton "Hot pink"
+                  TextButton "Pink"
+                  TextButton "Carnation pink"
+                  TextButton "Mauve"
+                  TextButton "Light reddish violet"
+                  TextButton "Pastel orange"
+                  TextButton "Salmon"
+                  TextButton "Medium red"
+                  TextButton "Light orange"
+                  TextButton "Oyster"
+                  TextButton "Linen"
+                  TextButton "Hurricane grey"
+                Frame "Tans"
+                  UIListLayout "UIListLayout"
+                  TextButton "Sand red"
+                  TextButton "Cloudy grey"
+                  TextButton "Beige"
+                  TextButton "Burlap"
+                  TextButton "Cashmere"
+                  TextButton "Brick yellow"
+                  TextButton "Wheat"
+                  TextButton "Khaki"
+                  TextButton "Seashell"
+                  TextButton "Pastel brown"
+                  TextButton "Nougat"
+                  TextButton "Copper"
+                Frame "Browns"
+                  UIListLayout "UIListLayout"
+                  TextButton "Dirt brown"
+                  TextButton "Pine Cone"
+                  TextButton "Bronze"
+                  TextButton "Fawn brown"
+                  TextButton "Cork"
+                  TextButton "Burnt Sienna"
+                  TextButton "Reddish brown"
+                  TextButton "Dark orange"
+                  TextButton "Brown"
+                  TextButton "Dark taupe"
+                  TextButton "Rust"
+                  TextButton "CGA brown"
+              ImageLabel "ButtonBackground"
+              TextButton "ButtonTemplate"
+              Frame "Controls"
+                ImageButton "ColorPickerButton"
+                  ImageLabel "Icons"
+                Frame "ColorBar"
+                TextButton "LastColorButton"
+                  TextLabel "ColorName"
+                    Frame "ColorSquare"
+            Frame "BTResizeToolGUI"  (45 descendants)
+              Frame "DirectionsOption"
+                Frame "Normal"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Both"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Label"
+                  TextLabel "TextLabel"
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "IncrementOption"
+                Frame "Increment"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                  ImageLabel "Background"
+                Frame "Label"
+                  TextLabel "TextLabel"
+              Frame "Info"
+                Frame "ColorBar"
+                TextLabel "Label"
+                Frame "SizeInfo"
+                  TextLabel "TextLabel"
+                  Frame "X"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+                  Frame "Y"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+                  Frame "Z"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+              Frame "Changes"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "BTRotateToolGUI"  (50 descendants)
+              Frame "PivotOption"
+                Frame "Center"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Local"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Last"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Label"
+                  TextLabel "TextLabel"
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "IncrementOption"
+                Frame "Increment"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                  ImageLabel "Background"
+                Frame "Label"
+                  TextLabel "TextLabel"
+              Frame "Info"
+                Frame "ColorBar"
+                TextLabel "Label"
+                Frame "RotationInfo"
+                  TextLabel "TextLabel"
+                  Frame "X"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+                  Frame "Y"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+                  Frame "Z"
+                    TextBox "TextBox"
+                    ImageLabel "Background"
+              Frame "Changes"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "BTSurfaceToolGUI"
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "SideOption"
+                TextLabel "Label"
+              Frame "TypeOption"
+                TextLabel "Label"
+              Frame "Tip"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "BTTextureToolGUI"  (54 descendants)
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "SideOption"
+                TextLabel "Label"
+              Frame "RepeatOption"
+                TextLabel "Label"
+                Frame "XInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+                Frame "YInput"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+              Frame "BottomColorBar"
+              Frame "TransparencyOption"
+                TextLabel "Label"
+                Frame "Input"
+                  ImageLabel "Background"
+                  Frame "SelectedIndicator"
+                  TextBox "TextBox"
+              Frame "ModeOption"
+                TextLabel "Label"
+                Frame "Decal"
+                  Frame "SelectedIndicator"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                Frame "Texture"
+                  TextButton "Button"
+                  ImageLabel "Background"
+                  TextLabel "Label"
+                  Frame "SelectedIndicator"
+              Frame "ImageIDOption"
+                TextLabel "Label"
+                Frame "TextBoxBorder"
+                  Frame "BottomBorder"
+                  Frame "LeftBorder"
+                  Frame "RightBorder"
+                Frame "TextBoxBackground"
+                TextBox "TextBox"
+              Frame "AddButton"
+                TextButton "Button"
+                Frame "Shadow"
+              Frame "RemoveButton"
+                TextButton "Button"
+                Frame "Shadow"
+              TextLabel "SelectNote"
+            Frame "BTWeldToolGUI"
+              Frame "Title"
+                Frame "ColorBar"
+                TextLabel "Label"
+                ImageButton "Signature"
+                  UIAspectRatioConstraint "AspectRatio"
+                  TextButton "HelpButton"
+                    Frame "Background"
+                      UICorner "UICorner"
+              Frame "Interface"
+                TextButton "WeldButton"
+                  Frame "Shadow"
+                TextButton "BreakWeldsButton"
+                  Frame "Shadow"
+              Frame "Changes"
+                Frame "ColorBar"
+                TextLabel "Text"
+            Frame "SnapLineSegment"
+              Frame "PointMarkerA"
+                Frame "CrossLine"
+                Frame "CrossLine"
+            Frame "PointMarker"
+              Frame "CrossLine"
+              Frame "CrossLine"
+          Folder "Libraries"  (61 descendants)
+            ModuleScript "ArcHandles"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/ArcHandles.lua
+            ModuleScript "Cryo"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo.lua
+              ModuleScript "Dictionary"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary.lua
+                ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/init.spec.lua
+                ModuleScript "join"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/join.lua
+                ModuleScript "join.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/join.spec.lua
+                ModuleScript "keys"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/keys.lua
+                ModuleScript "keys.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/keys.spec.lua
+                ModuleScript "values"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/values.lua
+                ModuleScript "values.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/Dictionary/values.spec.lua
+              ModuleScript "List"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List.lua
+                ModuleScript "filter"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/filter.lua
+                ModuleScript "filter.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/filter.spec.lua
+                ModuleScript "filterMap"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/filterMap.lua
+                ModuleScript "filterMap.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/filterMap.spec.lua
+                ModuleScript "find"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/find.lua
+                ModuleScript "find.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/find.spec.lua
+                ModuleScript "findWhere"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/findWhere.lua
+                ModuleScript "findWhere.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/findWhere.spec.lua
+                ModuleScript "foldLeft"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/foldLeft.lua
+                ModuleScript "foldLeft.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/foldLeft.spec.lua
+                ModuleScript "foldRight"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/foldRight.lua
+                ModuleScript "foldRight.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/foldRight.spec.lua
+                ModuleScript "getRange"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/getRange.lua
+                ModuleScript "getRange.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/getRange.spec.lua
+                ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/init.spec.lua
+                ModuleScript "join"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/join.lua
+                ModuleScript "join.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/join.spec.lua
+                ModuleScript "map"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/map.lua
+                ModuleScript "map.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/map.spec.lua
+                ModuleScript "removeIndex"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/removeIndex.lua
+                ModuleScript "removeIndex.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/removeIndex.spec.lua
+                ModuleScript "removeRange"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/removeRange.lua
+                ModuleScript "removeRange.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/removeRange.spec.lua
+                ModuleScript "removeValue"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/removeValue.lua
+                ModuleScript "removeValue.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/removeValue.spec.lua
+                ModuleScript "replaceIndex"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/replaceIndex.lua
+                ModuleScript "replaceIndex.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/replaceIndex.spec.lua
+                ModuleScript "reverse"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/reverse.lua
+                ModuleScript "reverse.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/reverse.spec.lua
+                ModuleScript "sort"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/sort.lua
+                ModuleScript "sort.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/sort.spec.lua
+                ModuleScript "toSet"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/toSet.lua
+                ModuleScript "toSet.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/List/toSet.spec.lua
+              ModuleScript "None"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/None.lua
+              ModuleScript "None.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/None.spec.lua
+              ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/init.spec.lua
+              ModuleScript "isEmpty"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Cryo/isEmpty.lua
+            ModuleScript "Debug"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Debug.lua
+              ModuleScript "SortedArray"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Debug/SortedArray.lua
+            ModuleScript "Handles"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Handles.lua
+            ModuleScript "InstancePool"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/InstancePool.lua
+            ModuleScript "Maid"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Maid.lua
+            ModuleScript "Make"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Make.lua
+            ModuleScript "Region"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Region.lua
+            ModuleScript "SerializationV2"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/SerializationV2.lua
+            ModuleScript "SerializationV3"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/SerializationV3.lua
+            ModuleScript "Signal"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Signal.lua
+            ModuleScript "SupportLibrary"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/SupportLibrary.lua
+            ModuleScript "Try"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/Try.lua
+            ModuleScript "fastSpawn"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Libraries/fastSpawn.lua
+          BoolValue "Loaded"
+            IntValue "DescendantCount"
+              Script "DescendantCounter"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Loaded/DescendantCount/DescendantCounter.server.lua
+            LocalScript "ReplicationListener"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Loaded/ReplicationListener.client.lua
+          ModuleScript "Loader"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Loader.lua
+            Script "PluginInitializer"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Loader/PluginInitializer.server.lua
+            LocalScript "ToolInitializer"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Loader/ToolInitializer.client.lua
+          BindableFunction "SyncAPI"
+            LocalScript "LocalEndpoint"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/LocalEndpoint.client.lua
+            RemoteFunction "ServerEndpoint"
+              Script "ServerEndpoint"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/ServerEndpoint/ServerEndpoint.server.lua
+            ModuleScript "SyncModule"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/SyncAPI/SyncModule.lua
+          Folder "Tools"
+            ModuleScript "Anchor"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Anchor.lua
+            ModuleScript "Collision"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Collision.lua
+            ModuleScript "Decorate"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Decorate.lua
+            ModuleScript "Lighting"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Lighting.lua
+            ModuleScript "Material"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Material.lua
+            ModuleScript "Mesh"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Mesh.lua
+            ModuleScript "Move"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Move.lua
+              ModuleScript "FreeDragging"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Move/FreeDragging.lua
+              ModuleScript "HandleDragging"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Move/HandleDragging.lua
+              ModuleScript "UIController"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Move/UIController.lua
+              ModuleScript "Util"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Move/Util.lua
+            ModuleScript "NewPart"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/NewPart.lua
+            ModuleScript "Paint"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Paint.lua
+              ModuleScript "PaintHistoryRecord"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Paint/PaintHistoryRecord.lua
+            ModuleScript "Resize"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Resize.lua
+            ModuleScript "Rotate"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Rotate.lua
+            ModuleScript "Surface"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Surface.lua
+            ModuleScript "Texture"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Texture.lua
+            ModuleScript "Weld"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Tools/Weld.lua
+          Folder "UI"  (33 descendants)
+            ModuleScript "ColorPicker"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ColorPicker.lua
+              ModuleScript "Slider"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ColorPicker/Slider.lua
+            ModuleScript "Dock"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock.lua
+              ModuleScript "AboutPane"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock/AboutPane.lua
+              ModuleScript "SelectionButton"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock/SelectionButton.lua
+              ModuleScript "SelectionPane"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock/SelectionPane.lua
+              ModuleScript "ToolButton"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock/ToolButton.lua
+              ModuleScript "ToolList"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock/ToolList.lua
+              ModuleScript "Tooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dock/Tooltip.lua
+            ModuleScript "Dropdown"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Dropdown.lua
+            ModuleScript "Explorer"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Explorer.lua
+              ModuleScript "ItemList"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Explorer/ItemList.lua
+              ModuleScript "ItemRow"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Explorer/ItemRow.lua
+            ModuleScript "ExportDialog"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ExportDialog.lua
+            ModuleScript "Frame"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Frame.lua
+            ModuleScript "ImageButton"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ImageButton.lua
+            ModuleScript "ImageLabel"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ImageLabel.lua
+            ModuleScript "LoadingSpinner"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/LoadingSpinner.lua
+            ModuleScript "Notifications"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Notifications.lua
+              ModuleScript "NotificationDialog"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/Notifications/NotificationDialog.lua
+            ModuleScript "ScopeHUD"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD.lua
+              ModuleScript "HotkeyTooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/HotkeyTooltip.lua
+                ModuleScript "AltTooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/HotkeyTooltip/AltTooltip.lua
+                ModuleScript "ScopeInTooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeInTooltip.lua
+                ModuleScript "ScopeLockTooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeLockTooltip.lua
+                ModuleScript "ScopeOutTooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeOutTooltip.lua
+              ModuleScript "ModeToggle"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/ModeToggle.lua
+                ModuleScript "Tooltip"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/ModeToggle/Tooltip.lua
+              ModuleScript "ScopeHierarchyItemButton"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScopeHUD/ScopeHierarchyItemButton.lua
+            ModuleScript "ScrollingFrame"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ScrollingFrame.lua
+            ModuleScript "TextBox"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/TextBox.lua
+            ModuleScript "TextLabel"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/TextLabel.lua
+            ModuleScript "ToolManualWindow"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/UI/ToolManualWindow.lua
+          Folder "Vendor"  (79 descendants)
+            ModuleScript "Roact"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact.lua
+              ModuleScript "Binding"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Binding.lua
+              ModuleScript "Binding.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Binding.spec.lua
+              ModuleScript "Component"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.lua
+              Folder "Component.spec"
+                ModuleScript "context.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/context.spec.lua
+                ModuleScript "defaultProps.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/defaultProps.spec.lua
+                ModuleScript "didMount.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/didMount.spec.lua
+                ModuleScript "didUpdate.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/didUpdate.spec.lua
+                ModuleScript "extend.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/extend.spec.lua
+                ModuleScript "getDerivedStateFromProps.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/getDerivedStateFromProps.spec.lua
+                ModuleScript "getElementTraceback.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/getElementTraceback.spec.lua
+                ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/init.spec.lua
+                ModuleScript "legacyContext.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/legacyContext.spec.lua
+                ModuleScript "render.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/render.spec.lua
+                ModuleScript "setState.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/setState.spec.lua
+                ModuleScript "shouldUpdate.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/shouldUpdate.spec.lua
+                ModuleScript "validateProps.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/validateProps.spec.lua
+                ModuleScript "willUnmount.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/willUnmount.spec.lua
+                ModuleScript "willUpdate.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Component.spec/willUpdate.spec.lua
+              ModuleScript "ComponentLifecyclePhase"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/ComponentLifecyclePhase.lua
+              ModuleScript "Config"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Config.lua
+              ModuleScript "Config.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Config.spec.lua
+              ModuleScript "ElementKind"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/ElementKind.lua
+              ModuleScript "ElementKind.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/ElementKind.spec.lua
+              ModuleScript "ElementUtils"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/ElementUtils.lua
+              ModuleScript "ElementUtils.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/ElementUtils.spec.lua
+              ModuleScript "GlobalConfig"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/GlobalConfig.lua
+              ModuleScript "GlobalConfig.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/GlobalConfig.spec.lua
+              ModuleScript "Logging"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Logging.lua
+              ModuleScript "None"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/None.lua
+              ModuleScript "NoopRenderer"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/NoopRenderer.lua
+              ModuleScript "Portal"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Portal.lua
+              Folder "PropMarkers"
+                ModuleScript "Change"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PropMarkers/Change.lua
+                ModuleScript "Change.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PropMarkers/Change.spec.lua
+                ModuleScript "Children"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PropMarkers/Children.lua
+                ModuleScript "Event"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PropMarkers/Event.lua
+                ModuleScript "Event.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PropMarkers/Event.spec.lua
+                ModuleScript "Ref"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PropMarkers/Ref.lua
+              ModuleScript "PureComponent"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PureComponent.lua
+              ModuleScript "PureComponent.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/PureComponent.spec.lua
+              ModuleScript "RobloxRenderer"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/RobloxRenderer.lua
+              ModuleScript "RobloxRenderer.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/RobloxRenderer.spec.lua
+              ModuleScript "SingleEventManager"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/SingleEventManager.lua
+              ModuleScript "SingleEventManager.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/SingleEventManager.spec.lua
+              ModuleScript "Symbol"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Symbol.lua
+              ModuleScript "Symbol.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Symbol.spec.lua
+              ModuleScript "Type"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Type.lua
+              ModuleScript "Type.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/Type.spec.lua
+              ModuleScript "assertDeepEqual"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/assertDeepEqual.lua
+              ModuleScript "assertDeepEqual.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/assertDeepEqual.spec.lua
+              ModuleScript "assign"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/assign.lua
+              ModuleScript "assign.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/assign.spec.lua
+              ModuleScript "createContext"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createContext.lua
+              ModuleScript "createContext.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createContext.spec.lua
+              ModuleScript "createElement"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createElement.lua
+              ModuleScript "createElement.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createElement.spec.lua
+              ModuleScript "createFragment"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createFragment.lua
+              ModuleScript "createFragment.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createFragment.spec.lua
+              ModuleScript "createReconciler"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createReconciler.lua
+              ModuleScript "createReconciler.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createReconciler.spec.lua
+              ModuleScript "createReconcilerCompat"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createReconcilerCompat.lua
+              ModuleScript "createReconcilerCompat.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createReconcilerCompat.spec.lua
+              ModuleScript "createRef"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createRef.lua
+              ModuleScript "createRef.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createRef.spec.lua
+              ModuleScript "createSignal"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createSignal.lua
+              ModuleScript "createSignal.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createSignal.spec.lua
+              ModuleScript "createSpy"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createSpy.lua
+              ModuleScript "createSpy.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/createSpy.spec.lua
+              ModuleScript "getDefaultInstanceProperty"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/getDefaultInstanceProperty.lua
+              ModuleScript "getDefaultInstanceProperty.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/getDefaultInstanceProperty.spec.lua
+              ModuleScript "init.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/init.spec.lua
+              ModuleScript "internalAssert"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/internalAssert.lua
+              ModuleScript "invalidSetStateMessages"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/invalidSetStateMessages.lua
+              ModuleScript "oneChild"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/oneChild.lua
+              ModuleScript "oneChild.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/oneChild.spec.lua
+              ModuleScript "strict"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/strict.lua
+              ModuleScript "strict.spec"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTools/Building Tools/Vendor/Roact/strict.spec.lua
+          StringValue "Version"
+      Folder "DefaultTypes"  (21 descendants)
+        ModuleScript "Ban"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Ban.lua
+        ModuleScript "Color"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Color.lua
+        ModuleScript "Command"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Command.lua
+        ModuleScript "Member"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Member.lua
+        ModuleScript "Player"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player.lua
+          Folder "Types"
+            ModuleScript "All"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/All.lua
+            ModuleScript "Inverse"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Inverse.lua
+            ModuleScript "Others"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Others.lua
+            ModuleScript "Random"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Random.lua
+            ModuleScript "Role"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Role.lua
+            ModuleScript "Special"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Special.lua
+            ModuleScript "Team"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/Types/Team.lua
+          ModuleScript "generateValidate"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/generateValidate.lua
+          ModuleScript "sanitizePlayer"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/sanitizePlayer.lua
+          ModuleScript "sanitizeUser"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Player/sanitizeUser.lua
+        ModuleScript "Primitives"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Primitives.lua
+        ModuleScript "Role"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Role.lua
+        ModuleScript "Team"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Team.lua
+        ModuleScript "Time"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Time.lua
+        ModuleScript "Tool"  -> scripts/Workspace/Kohl's Admin/MainModule/DefaultTypes/Tool.lua
+      ModuleScript "Flux"  -> scripts/Workspace/Kohl's Admin/MainModule/Flux.lua
+      ModuleScript "Hook"  -> scripts/Workspace/Kohl's Admin/MainModule/Hook.lua
+      ModuleScript "Process"  -> scripts/Workspace/Kohl's Admin/MainModule/Process.lua
+        ModuleScript "Argument"  -> scripts/Workspace/Kohl's Admin/MainModule/Process/Argument.lua
+        ModuleScript "Command"  -> scripts/Workspace/Kohl's Admin/MainModule/Process/Command.lua
+      ModuleScript "Registry"  -> scripts/Workspace/Kohl's Admin/MainModule/Registry.lua
+      ModuleScript "Remote"  -> scripts/Workspace/Kohl's Admin/MainModule/Remote.lua
+      ModuleScript "Util"  -> scripts/Workspace/Kohl's Admin/MainModule/Util.lua
+        ModuleScript "Defer"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Defer.lua
+        ModuleScript "Function"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Function.lua
+        ModuleScript "Humanoid"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Humanoid.lua
+        ModuleScript "Logger"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Logger.lua
+        ModuleScript "Promise"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Promise.lua
+        ModuleScript "Queue"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Queue.lua
+        ModuleScript "ReadableTime"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/ReadableTime.lua
+        ModuleScript "Retry"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Retry.lua
+        ModuleScript "Rollout"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Rollout.lua
+        ModuleScript "SafePlayerAdded"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/SafePlayerAdded.lua
+        ModuleScript "SafeTeleport"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/SafeTeleport.lua
+        ModuleScript "Services"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Services.lua
+        ModuleScript "Signal"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Signal.lua
+        ModuleScript "String"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/String.lua
+        ModuleScript "Suggest"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Suggest.lua
+        ModuleScript "Table"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/Table.lua
+        ModuleScript "getTexture"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/getTexture.lua
+        ModuleScript "getUserInfo"  -> scripts/Workspace/Kohl's Admin/MainModule/Util/getUserInfo.lua
+      ModuleScript "VIP"  -> scripts/Workspace/Kohl's Admin/MainModule/VIP.lua
+        Folder "UGC"  (1257 descendants)
+          ModuleScript "AlphaWings"  -> scripts/Workspace/Kohl's Admin/MainModule/VIP/UGC/AlphaWings.lua
+            Script "Animate"  -> scripts/Workspace/Kohl's Admin/MainModule/VIP/UGC/AlphaWings/Animate.server.lua  [disabled]
+              ModuleScript "Animate"  -> scripts/Workspace/Kohl's Admin/MainModule/VIP/UGC/AlphaWings/Animate/Animate.lua
+              Folder "Animations"  (1251 descendants)
+                KeyframeSequence "idle"  (480 descendants)
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  ... +56 more Keyframe "Keyframe"
+                  Keyframe "End"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                KeyframeSequence "idle2"  (560 descendants)
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  ... +66 more Keyframe "Keyframe"
+                  Keyframe "End"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                KeyframeSequence "fall"  (208 descendants)
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  Keyframe "Keyframe"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+                  ... +22 more Keyframe "Keyframe"
+                  Keyframe "End"
+                    Pose "Wings"
+                      Pose "Bone_l"
+                        Pose "Bone.001_l"
+                          Pose "Bone.002_l"
+                      Pose "Bone_r"
+                        Pose "Bone.001_r"
+                          Pose "Bone.002_r"
+            ModuleScript "Bones"  -> scripts/Workspace/Kohl's Admin/MainModule/VIP/UGC/AlphaWings/Bones.lua
+          ModuleScript "Crown"  -> scripts/Workspace/Kohl's Admin/MainModule/VIP/UGC/Crown.lua
+      StringValue "VERSION"
+  SpawnLocation "SpawnLocation"
+    Decal "Decal"
+  Model "Flower"
+    Model "Petals"
+      Part "Brick"
+      Part "Brick"
+      Part "Brick"
+      Part "Brick"
+    Part "Brick"
+    Part "Brick"
+    Part "Brick"
+  Model "Boards"  (170 descendants)
+    ModuleScript "Products"  -> scripts/Workspace/Boards/Products.lua
+    Part "Buttons"
+    Part "Screen"
+    Model "R15Loader"  (165 descendants)
+      Part "HumanoidRootPart"
+        Attachment "RootRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+      MeshPart "LeftHand"
+        Attachment "LeftWristRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftGripAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "LeftWrist"
+      MeshPart "LeftLowerArm"
+        Attachment "LeftElbowRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftWristRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "LeftElbow"
+      MeshPart "LeftUpperArm"
+        Attachment "LeftShoulderRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftElbowRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftShoulderAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "LeftShoulder"
+      MeshPart "RightHand"
+        Attachment "RightWristRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightGripAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "RightWrist"
+      MeshPart "RightLowerArm"
+        Attachment "RightElbowRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightWristRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "RightElbow"
+      MeshPart "RightUpperArm"
+        Attachment "RightShoulderRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightElbowRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightShoulderAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "RightShoulder"
+      MeshPart "UpperTorso"  (20 descendants)
+        Attachment "WaistRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "NeckRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftShoulderRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightShoulderRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "BodyFrontAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "BodyBackAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftCollarAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightCollarAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "NeckAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "Waist"
+      MeshPart "LeftFoot"
+        Attachment "LeftAnkleRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "LeftAnkle"
+      MeshPart "LeftLowerLeg"
+        Attachment "LeftKneeRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftAnkleRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "LeftKnee"
+      MeshPart "LeftUpperLeg"
+        Attachment "LeftHipRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftKneeRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "LeftHip"
+      MeshPart "RightFoot"
+        Attachment "RightAnkleRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "RightAnkle"
+      MeshPart "RightLowerLeg"
+        Attachment "RightKneeRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightAnkleRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "RightKnee"
+      MeshPart "RightUpperLeg"
+        Attachment "RightHipRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightKneeRigAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "RightHip"
+      MeshPart "LowerTorso"
+        Attachment "RootRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "WaistRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "LeftHipRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "RightHipRigAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "WaistCenterAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "WaistFrontAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "WaistBackAttachment"
+          Vector3Value "OriginalPosition"
+        Vector3Value "OriginalSize"
+        Motor6D "Root"
+      Humanoid "Humanoid"
+        NumberValue "BodyDepthScale"
+        NumberValue "BodyHeightScale"
+        NumberValue "BodyProportionScale"
+        NumberValue "BodyTypeScale"
+        NumberValue "BodyWidthScale"
+        NumberValue "HeadScale"
+      Part "Head"
+        SpecialMesh "Mesh"
+          Vector3Value "OriginalSize"
+        Attachment "FaceCenterAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "FaceFrontAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "HairAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "HatAttachment"
+          Vector3Value "OriginalPosition"
+        Attachment "NeckRigAttachment"
+          Vector3Value "OriginalPosition"
+        Decal "face"
+        Vector3Value "OriginalSize"
+        Decal "face"
+        Motor6D "Neck"
+      BodyColors "Body Colors"
+      Script "Loader"  -> scripts/Workspace/Boards/R15Loader/Loader.server.lua
+        Animation "Idle"
+        ModuleScript "MainModule"  -> scripts/Workspace/Boards/R15Loader/Loader/MainModule.lua
+      BillboardGui "Tags"
+        Frame "Container"
+          TextLabel "Extra"
+          TextLabel "pName"
+            UIGradient "UIGradient"
+            Script "Script"  -> scripts/Workspace/Boards/R15Loader/Tags/Container/pName/Script.server.lua
+      Configuration "Configuration"
+        NumberValue "userId"
+        BoolValue "AutoUpdateLoader"
+        BoolValue "AutoUpdateCharacter"
+          NumberValue "Delay"
+    Script "AssetLoader"  -> scripts/Workspace/Boards/AssetLoader.server.lua
+  Model "Flower"
+    Model "Petals"
+      Part "Brick"
+      Part "Brick"
+      Part "Brick"
+      Part "Brick"
+    Part "Brick"
+    Part "Brick"
+    Part "Brick"
+  Model "Flower"
+    Model "Petals"
+      Part "Brick"
+      Part "Brick"
+      Part "Brick"
+      Part "Brick"
+    Part "Brick"
+    Part "Brick"
+    Part "Brick"
+  Model "Dummy"
+    Part "HumanoidRootPart"
+      Motor6D "Root Hip"
+    Part "Torso"
+      Motor6D "Left Hip"
+      Motor6D "Right Hip"
+      Motor6D "Left Shoulder"
+      Motor6D "Right Shoulder"
+      Motor6D "Neck"
+    Part "Left Leg"
+    Part "Right Leg"
+    Part "Left Arm"
+    Part "Right Arm"
+    Part "Head"
+      Decal "Face"
+      SpecialMesh "Mesh"
+    Humanoid "Humanoid"
+  MeshPart "Duck"
+  Part "PartBlue"
+  Part "PartRed"
+  Part "TPpartBLUE"
+  Part "TPpartRED"
+  Model "Model"
+    Part "Part"
+    Part "Part"
+    Part "Part"
+    ... +2 more Part "Part"
+TimerService "TimerService"
+SoundService "SoundService"
+VideoCaptureService "VideoCaptureService"
+NonReplicatedCSGDictionaryService "NonReplicatedCSGDictionaryService"
+CSGDictionaryService "CSGDictionaryService"
+Chat "Chat"
+Players "Players"
+ReplicatedFirst "ReplicatedFirst"
+TweenService "TweenService"
+MaterialService "MaterialService"
+  MaterialVariant "Lego
+
+"
+TextChatService "TextChatService"
+  ChatWindowConfiguration "ChatWindowConfiguration"
+  ChatInputBarConfiguration "ChatInputBarConfiguration"
+  BubbleChatConfiguration "BubbleChatConfiguration"
+    UIGradient "UIGradient"
+    ImageLabel "ImageLabel"
+    UICorner "UICorner"
+    UIPadding "UIPadding"
+  ChannelTabsConfiguration "ChannelTabsConfiguration"
+PermissionsService "PermissionsService"
+PlayerEmulatorService "PlayerEmulatorService"
+StudioData "StudioData"
+StarterPlayer "StarterPlayer"
+  StarterPlayerScripts "StarterPlayerScripts"
+    LocalScript "TetherRequest"  -> scripts/StarterPlayer/StarterPlayerScripts/TetherRequest.client.lua
+  StarterCharacterScripts "StarterCharacterScripts"
+StarterPack "StarterPack"
+StarterGui "StarterGui"  (108 descendants)
+  ScreenGui "ScreenGui"
+    ImageButton "Revives"
+      TextLabel "TextLabel"
+      UICorner "UICorner"
+    ImageButton "Invite"
+      TextLabel "TextLabel"
+      LocalScript "LocalScript"  -> scripts/StarterGui/ScreenGui/Invite/LocalScript.client.lua
+      UICorner "UICorner"
+  ScreenGui "GamepassUI"  (33 descendants)
+    LocalScript "Manager"  -> scripts/StarterGui/GamepassUI/Manager.client.lua
+      Frame "Template"
+        TextButton "TextButton"
+          UICorner "UICorner"
+        Frame "PriceBar"
+          TextLabel "TextLabel"
+          UIListLayout "UIListLayout"
+          ImageLabel "ImageLabel"
+            UIAspectRatioConstraint "Aspect"
+        TextLabel "TextLabel"
+        ImageLabel "ImageLabel"
+          UIAspectRatioConstraint "Aspect"
+          UICorner "UICorner"
+      Sound "Click"
+      Sound "Bell"
+    Frame "Frame"
+      Frame "Topbar"
+        TextLabel "TextLabel"
+          UICorner "UICorner"
+        UICorner "UICorner"
+      ScrollingFrame "List"
+        UIGridLayout "UIGridLayout"
+      UIAspectRatioConstraint "Aspect"
+      UICorner "UICorner"
+    TextButton "Toggle"
+      UIAspectRatioConstraint "Aspect"
+      ImageLabel "ImageLabel"
+      TextLabel "TextLabel"
+      UICorner "UICorner"
+    Folder "Gamepasses"
+      StringValue "2x Boxes"
+      StringValue "VIP"
+      StringValue "x2 spins"
+  ScreenGui "Playerlist"  (59 descendants)
+    Frame "MainFrame"  (58 descendants)
+      CanvasGroup "MainScroll"
+        UICorner "UICorner"
+        ScrollingFrame "PlayerList"
+          UIListLayout "UIListLayout"
+        UIAspectRatioConstraint "AspectRatio"
+      CanvasGroup "Information"  (43 descendants)
+        UICorner "UICorner"
+        Frame "User"
+          UIStroke "UIStroke"
+          ImageLabel "PlayerIcon"
+            UICorner "UICorner"
+          TextLabel "DisplayName"
+          TextLabel "Username"
+          ImageLabel "Icon"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+          TextButton "MoreInfoButton"
+          ImageLabel "Background"
+          ImageLabel "Icon2"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+          ImageLabel "Icon3"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+        UIStroke "UIStroke"
+        Frame "AddFriend"
+          UIStroke "UIStroke"
+          TextLabel "Header"
+          TextButton "AddFriendButton"
+          ImageLabel "Icon"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+        Frame "InspectAvatar"
+          UIStroke "UIStroke"
+          TextLabel "Header"
+          TextButton "InspectButton"
+          ImageLabel "Icon"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+        UIAspectRatioConstraint "AspectRatio"
+        Frame "Block"
+          UIStroke "UIStroke"
+          TextLabel "Header"
+          TextButton "BlockButton"
+          ImageLabel "Icon"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+        Frame "MultiOptions"
+          UIStroke "UIStroke"
+          ImageLabel "VoiceUser"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+          TextLabel "Header"
+          ImageLabel "Close"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+            TextButton "Button"
+      LocalScript "LeaderboardManager"  -> scripts/StarterGui/Playerlist/MainFrame/LeaderboardManager.client.lua
+        Frame "User"
+          UIStroke "UIStroke"
+          ImageLabel "PlayerIcon"
+          TextLabel "DisplayName"
+          TextLabel "Username"
+          ImageLabel "Icon"
+            UIAspectRatioConstraint "UIAspectRatioConstraint"
+          TextButton "MoreInfoButton"
+  ScreenGui "MuteMusic"
+    ImageButton "ImageButton"
+      LocalScript "LocalScript"  -> scripts/StarterGui/MuteMusic/ImageButton/LocalScript.client.lua
+  ScreenGui "GameGUI"
+    TextButton "Leave"
+      UICorner "UICorner"
+LocalizationService "LocalizationService"
+TeleportService "Teleport Service"
+CollectionService "CollectionService"
+PhysicsService "PhysicsService"
+InsertService "InsertService"
+  StringValue "InsertionHash"
+GamePassService "GamePassService"
+Debris "Debris"
+CookiesService "CookiesService"
+Selection "Selection"
+VRService "VRService"
+ContextActionService "ContextActionService"
+ScriptService "ScriptService"
+AssetService "AssetService"
+TouchInputService "TouchInputService"
+ServiceVisibilityService "ServiceVisibilityService"
+LuaWebService "LuaWebService"
+ProcessInstancePhysicsService "ProcessInstancePhysicsService"
+ReplicatedStorage "ReplicatedStorage"
+  ModuleScript "NumberFormatter"  -> scripts/ReplicatedStorage/NumberFormatter.lua
+  Folder "GameData"
+    RemoteEvent "StartTether"
+ServerScriptService "ServerScriptService"
+  Script "Time"  -> scripts/ServerScriptService/Time.server.lua
+  Script "Script"  -> scripts/ServerScriptService/Script.server.lua
+  Script "Script"  -> scripts/ServerScriptService/Script~2.server.lua
+  Script "TetherHandler"  -> scripts/ServerScriptService/TetherHandler.server.lua
+  Script " TeamAssignScript"  -> scripts/ServerScriptService/TeamAssignScript.server.lua
+ServerStorage "ServerStorage"
+HttpService "HttpService"
+GuidRegistryService "GuidRegistryService"
+Lighting "Lighting"
+Teams "Teams"
+  Team "DuoBlue"
+  Team "DuoRed"
+TestService "TestService"
+ProximityPromptService "ProximityPromptService"
+LodDataService "Instance"
+VoiceChatService "VoiceChatService"
+UGCAvatarService "UGCAvatarService"
+Instance "FilteredSelection"
+VideoService "VideoService"
+VirtualInputManager "VirtualInputManager"
+Instance "FilteredSelection"
+Instance "FilteredSelection"
+Instance "FilteredSelection"
+Instance "FilteredSelection"

@@ -1,0 +1,5 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Decompiled with Potassium's decompiler.
+
+return "/* ===== house chrome (the RSG panel/button vocabulary) ===== */\n.panel { background:rgba(31,32,26,0.88); gradient:90 0:#FFFFFF 1:#BCBEB6; border-radius:24px; }\n.greenBtn { background:#5BC66D; gradient:90 0:#FFFFFF 1:#969B8C; border-radius:12px; border:2.5px solid rgba(255,255,255,0.9); }\n.greenLabel { color:#FFFFFF; font-family:SpecialElite; font-weight:700; white-space:nowrap; text-stroke:1.5px rgba(25,70,35,0.65); }\n\n/* hover/press feedback (elements should have a centered AnchorPoint; never\n   scale-pop body text, chrome and buttons only) */\n.hoverable { transition: 0.12s ease-out; }\n.hoverable:hover { scale:1.03; }\n.pressable:active { scale:0.97; }\n\n/* entrance slide for on-demand panels (replays each time the panel turns visible) */\n@keyframes uicSlideIn { from { offset:0 40px; } to { offset:0 0; } }\n.enterSlide { animation: uicSlideIn 0.25s ease-out; animation-trigger: visible; }\n";

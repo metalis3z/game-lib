@@ -1,0 +1,12 @@
+-- ===== EXPERIENCE SETTINGS → SECURITY =====
+-- 
+-- Go to Roblox Studio → Game Settings → Security
+-- 
+-- Enable these:
+-- • Enable Studio Access to API Services → ON
+-- • Allow HTTP Requests                  → ON
+-- • Allow Third Party Sales              → ON
+-- • Allow Third Party Teleports          → ON
+-- • Allow Loading Third Party Assets     → ON
+-- 
+-- After enabling, save, publish, and rejoin.

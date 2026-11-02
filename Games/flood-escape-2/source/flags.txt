@@ -1,0 +1,25 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ServerScriptService/SV_MAIN_GameScript.server.lua lines 924
+       loadstring: runs code built from a string
+[HIGH] scripts/Workspace/HD Admin/Core/MainModule.lua lines 1
+       require() of an asset id: loads code from the Creator Store at runtime
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  10000000  in scripts/ServerScriptService/SV_MAIN_GameScript.server.lua
+  14112023  in scripts/ServerScriptService/SV_MAIN_GameScript.server.lua, scripts/StarterGui/GameGui/VoteMap/CL_MapVote.client.lua
+  141376407  in scripts/ReplicatedStorage/GuiBackup/GameGui/VoteMap/CL_MapVote.client.lua, scripts/ServerScriptService/SV_MAIN_GameScript.server.lua, scripts/StarterGui/GameGui/VoteMap/CL_MapVote.client.lua
+  14432092  in scripts/ServerScriptService/SV_MAIN_GameScript.server.lua, scripts/StarterPlayer/StarterPlayerScripts/CL_MAIN_GameScript.client.lua
+  14784835  in scripts/ServerScriptService/SV_MAIN_GameScript.server.lua, scripts/StarterPlayer/StarterPlayerScripts/CL_MAIN_GameScript.client.lua
+  1833071674  in scripts/ReplicatedStorage/GuiBackup/GameGui/Starterpack/LocalScript.client.lua, scripts/StarterGui/GameGui/Starterpack/LocalScript.client.lua
+  25822678  in scripts/ReplicatedStorage/SharedModules/ChinaPolicyService.lua
+  4223166  in scripts/ReplicatedStorage/SharedModules/ChinaPolicyService.lua, scripts/ServerScriptService/SV_MAIN_GameScript.server.lua, scripts/StarterPlayer/StarterPlayerScripts/CL_MAIN_GameScript.client.lua
+  688694610  in scripts/ReplicatedStorage/GuiBackup/SocialGuiDash.client.lua, scripts/StarterGui/SocialGuiDash.client.lua
+  9702661  in scripts/ReplicatedStorage/SharedModules/ChinaPolicyService.lua
+
+Outside URLs in code:
+  https://create.roblox.com/store/asset/857927023/HD-Admin  in scripts/Workspace/HD Admin/READ_ME.lua
+  https://devforum.roblox.com/t/-/3446058  in scripts/Workspace/HD Admin/READ_ME.lua
+  https://devforum.roblox.com/t/fe2cm-timelines-documentation/2982302  in scripts/ServerStorage/Maps/1MapMakingKit/INSTRUCTIONS - README.server.lua, scripts/ServerStorage/Maps/2MapMakingKit/INSTRUCTIONS - README.server.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ServerScriptService/SV_MAIN_GameScript/_Rescue/NPC/DeadAnimation.server.lua, scripts/ServerStorage/ADDEDCUSTOM/Lobby/Block/Flicker.server.lua, scripts/ServerStorage/ADDEDCUSTOM/Lobby/FE2CM_DonationLeaderboard/LeaderUI/NewDonation.server.lua
+  https://www.youtube.com/watch?v=am-K2Gn2GTg  in scripts/ServerScriptService/SV_MAIN_GameScript/Bezier.lua

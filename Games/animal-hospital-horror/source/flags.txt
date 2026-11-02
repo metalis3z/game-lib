@@ -1,0 +1,47 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/Workspace/NexusAdminLoader.server.lua lines 318
+       require() of an asset id: loads code from the Creator Store at runtime
+[MED] scripts/ServerScriptService/ProfileStore.lua lines 617,1282,1731,2017
+       HttpService request (calls an outside server)
+
+Instances with suspicious names:
+  Sound SoundService.music.The Poison Spreads
+  ImageButton StarterGui.AdminPanel.AdminPanel.Holder.Select.ScrollingFrame.Virus
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  3590055543  in scripts/ReplicatedStorage/Data/Prods.lua
+  3590060220  in scripts/ReplicatedStorage/Data/Prods.lua
+  3590061448  in scripts/ReplicatedStorage/Data/Prods.lua
+  3590063561  in scripts/ReplicatedStorage/Data/Prods.lua
+  3590064413  in scripts/ReplicatedStorage/Data/Prods.lua
+  3590065653  in scripts/ReplicatedStorage/Data/Prods.lua
+  3591822968  in scripts/ReplicatedStorage/Data/Prods.lua
+  3592209201  in scripts/ReplicatedStorage/Data/Prods.lua
+  3594147846  in scripts/ReplicatedStorage/Data/Prods.lua
+  3595812135  in scripts/ReplicatedStorage/Data/Prods.lua
+  3601285046  in scripts/ReplicatedStorage/Data/Prods.lua
+  3601285207  in scripts/ReplicatedStorage/Data/Prods.lua
+  3601285343  in scripts/ReplicatedStorage/Data/Prods.lua
+  3609114000  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019249  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019297  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019361  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019554  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019591  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019657  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019686  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019721  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019759  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019784  in scripts/ReplicatedStorage/Data/Prods.lua
+  3610019818  in scripts/ReplicatedStorage/Data/Prods.lua
+
+Outside URLs in code:
+  https://create.roblox.com/store/asset/112061170330936  in scripts/ReplicatedStorage/Purse/Packages/purse/Attribution.server.lua
+  https://devforum.roblox.com/t/lua-signal-class-comparison-optimal-goodsignal-class/1387063  in scripts/ServerScriptService/ProfileStore.lua
+  https://devforum.roblox.com/t/topbarplus/1017485  in scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Attribute.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/AnomalyEvents/ToDo/PatientRequiresRestraining.lua, scripts/ReplicatedStorage/Misc/Deployable_Camera/Handler.server.lua, scripts/ReplicatedStorage/Misc/JumpscareMasks/JumpscareMask/PP/Script.server.lua
+  https://discord.gg/wx4ThpAsmw.  in scripts/README.server.lua
+  https://gist.github.com/stravant/b75a322e0919d60dde8a0316d1f09d2f  in scripts/ServerScriptService/ProfileStore.lua
+  https://github.com/thenexusavenger/nexus-admin  in scripts/Workspace/NexusAdminLoader.server.lua
+  https://lua.expert/  in scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/BrainrotMorph/Frame/Brainrot/LocalScript.client.lua, scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/EventRunner/Frame/eventName/LocalScript.client.lua, scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/LeaderboardEditor/Frame/Reward3/RGBAnimation.client.lua

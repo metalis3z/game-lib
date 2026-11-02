@@ -1,0 +1,20 @@
+-- ===== HOW TO GET ADMIN PANEL =====
+-- 
+-- 1. Open ServerScriptService → AvatarMakerServer
+-- 
+-- 2. Find this part near the top:
+-- 
+-- local ADMIN_USER_IDS = {
+-- 	0, -- Your friends UserID
+-- }
+-- 
+-- 3. Replace 0 with your Roblox User ID
+-- 
+-- Example:
+-- local ADMIN_USER_IDS = {
+-- 	123456789, -- your User ID
+-- }
+-- 
+-- 4. Save the script, publish the game, then rejoin
+-- 
+-- Note: The game creator always has admin automatically.

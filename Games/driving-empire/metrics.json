@@ -1,0 +1,426 @@
+{
+ "slug": "driving-empire",
+ "title": "Driving Empire",
+ "genre": "open-world driving",
+ "provenance": "copy of a live game (structure only, no code)",
+ "ui": {
+  "gui_objects": 1347,
+  "screen_guis": 7,
+  "classes": {
+   "TextLabel": 516,
+   "ImageLabel": 361,
+   "Frame": 325,
+   "ImageButton": 119,
+   "SurfaceGui": 68,
+   "UIAspectRatioConstraint": 49,
+   "UIListLayout": 26,
+   "UIGridLayout": 16,
+   "UISizeConstraint": 16,
+   "ScrollingFrame": 15,
+   "Sound": 11,
+   "StringValue": 11,
+   "LocalScript": 9,
+   "TextBox": 9,
+   "UIGradient": 7,
+   "ScreenGui": 7,
+   "ModuleScript": 4,
+   "Folder": 4,
+   "NumberValue": 3,
+   "UICorner": 3,
+   "Color3Value": 3,
+   "EqualizerSoundEffect": 2,
+   "BillboardGui": 2,
+   "ObjectValue": 2,
+   "TextButton": 2,
+   "IntValue": 1,
+   "BoolValue": 1,
+   "UIStroke": 1
+  },
+  "fonts": {
+   "GothamSSm Bold": 146,
+   "SourceSansPro Regular": 111,
+   "SourceSansPro SemiBold": 75,
+   "GothamSSm Regular": 55,
+   "SourceSansPro Bold": 41,
+   "GothamSSm Heavy": 31,
+   "HighwayGothic Regular": 21,
+   "GothamSSm Medium": 21,
+   "FredokaOne Regular": 11,
+   "Zekton Regular": 6,
+   "Bangers Regular": 2,
+   "Roboto Regular": 2
+  },
+  "background_colors": {
+   "#aa0000": 18,
+   "#aaaaaa": 3,
+   "#969796": 3,
+   "#2a2a2a": 2,
+   "#ffffff": 1,
+   "#000000": 1,
+   "#303030": 1,
+   "#505050": 1,
+   "#343434": 1,
+   "#2b2b2b": 1,
+   "#de2626": 1,
+   "#2f2f2f": 1,
+   "#de0000": 1
+  },
+  "text_colors": {
+   "#ffffff": 395,
+   "#ffaa00": 45,
+   "#d1d1d1": 10,
+   "#00bf00": 8,
+   "#ffc903": 8,
+   "#fcfcfc": 5,
+   "#303030": 5,
+   "#f8f8f8": 4,
+   "#ffb300": 4,
+   "#2a2a2a": 3
+  },
+  "stroke_colors": {
+   "#323232": 1
+  },
+  "image_tints": {
+   "#505050": 78,
+   "#00ff00": 28,
+   "#2d2d2d": 27,
+   "#aa0000": 16,
+   "#b2b2b2": 13,
+   "#5cb900": 12,
+   "#00aaff": 10,
+   "#00bf00": 8,
+   "#7a7a7a": 8,
+   "#363636": 7
+  },
+  "corner_radius": {
+   "{0.4,0}": 1,
+   "{0.0,12}": 1,
+   "{1.0,0}": 1
+  },
+  "stroke_thickness": {
+   "4.0 px": 1
+  },
+  "text_size_px": {
+   "24": 115,
+   "22": 84,
+   "48": 14,
+   "40": 3,
+   "60": 2,
+   "16": 1,
+   "30": 1,
+   "25": 1,
+   "1": 1,
+   "14": 1
+  },
+  "text_scaled_share": 0.57,
+  "size_mode": {
+   "scale": 1229,
+   "mixed": 33,
+   "offset": 84,
+   "zero": 1
+  },
+  "unique_images": 79,
+  "per_100_objects": {
+   "UICorner": 0.2,
+   "UIStroke": 0.1,
+   "UIGradient": 0.5,
+   "UIAspectRatioConstraint": 3.6,
+   "UIListLayout": 1.9,
+   "UIGridLayout": 1.2,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 26.8,
+   "ImageButton": 8.8,
+   "TextButton": 0.1
+  }
+ },
+ "map": {
+  "instances": 46699,
+  "parts": 21814,
+  "meshparts": 2895,
+  "unions": 400,
+  "anchored_share": 0.91,
+  "textures_decals": 3545,
+  "surface_appearances": 13,
+  "lights": 665,
+  "emitters": 137,
+  "beams_trails": 43,
+  "sounds": 418,
+  "prompts": 0,
+  "world_guis": 153,
+  "humanoids": 29,
+  "materials": {
+   "Concrete": 5958,
+   "SmoothPlastic": 5787,
+   "Metal": 3013,
+   "Grass": 1760,
+   "Plastic": 1587,
+   "Neon": 1085,
+   "Wood": 583,
+   "Marble": 449,
+   "Brick": 296,
+   "Sand": 277,
+   "WoodPlanks": 264,
+   "Fabric": 201
+  },
+  "part_colors": {
+   "#a3a2a5": 3684,
+   "#f8f8f8": 1985,
+   "#ffb000": 1555,
+   "#7c9c6b": 1471,
+   "#dfdfde": 1080,
+   "#cdcdcd": 1076,
+   "#111111": 1036,
+   "#635f62": 879,
+   "#464646": 387,
+   "#76797c": 368,
+   "#9fa1ac": 304,
+   "#323232": 268,
+   "#cacbd1": 246,
+   "#1b2a35": 243
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   3242,
+   167,
+   4444
+  ],
+  "extent_all_studs": [
+   11798,
+   487,
+   10330
+  ],
+  "top_classes": {
+   "Part": 16653,
+   "Model": 9738,
+   "Texture": 2905,
+   "MeshPart": 2895,
+   "WedgePart": 1732,
+   "Weld": 1703,
+   "Attachment": 1545,
+   "Vector3Value": 1404,
+   "StringValue": 783,
+   "Decal": 640,
+   "Animation": 553,
+   "Motor6D": 540,
+   "NumberValue": 462,
+   "TextLabel": 434,
+   "Sound": 418
+  }
+ },
+ "lighting": {
+  "Ambient": "#000000",
+  "Brightness": 2.7,
+  "ColorShift_Bottom": "#3c4654",
+  "ColorShift_Top": "#ffe2a7",
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 0.5,
+  "ExposureCompensation": 0.45,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 40.0,
+  "GlobalShadows": true,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#6c6c6b",
+  "Outlines": false,
+  "ShadowSoftness": 0.05,
+  "Technology": "Compatibility",
+  "TimeOfDay": "13:15:52"
+ },
+ "post": [
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.009,
+    "Contrast": 0.1,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.05,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "Enabled": true,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 44444.0,
+    "Threshold": 3.67
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "Enabled": true,
+    "Intensity": 0.017,
+    "Name": "SunRays",
+    "Spread": 0.19
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#ffffff",
+    "Decay": "#000000",
+    "Density": 0.122,
+    "Glare": 0.0,
+    "Haze": 2.07,
+    "Name": "Atmosphere",
+    "Offset": 0.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": true,
+    "MoonAngularSize": 0.0,
+    "MoonTextureId": "rbxassetid://7812261658",
+    "Name": "Sky",
+    "SkyboxBk": "rbxassetid://7900939143",
+    "SkyboxDn": "rbxassetid://7812198921",
+    "SkyboxFt": "rbxassetid://7900939143",
+    "SkyboxLf": "rbxassetid://7900939143",
+    "SkyboxRt": "rbxassetid://7900939143",
+    "SkyboxUp": "rbxassetid://7900942238",
+    "StarCount": 5000,
+    "SunAngularSize": 3.5,
+    "SunTextureId": "rbxassetid://7812253208"
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": false,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 8,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 6,
+  "lighting": 1,
+  "model": 976,
+  "model-set": 136,
+  "animations": 4,
+  "other": 9
+ },
+ "coverage": {
+  "instances": 66808,
+  "packed": 66671,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 80,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 0,
+ "animation_ids": 561,
+ "sound_ids": 495,
+ "files": 772,
+ "kb": 6594,
+ "category": "Driving",
+ "source_file": "Driving_Empire%20(1).rbxl"
+}

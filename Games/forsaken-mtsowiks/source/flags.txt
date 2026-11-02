@@ -1,0 +1,78 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[HIGH] scripts/ReplicatedStorage/Assets/Skins/Killers/c00lkidd/#LoreAccurateC00l/Config/c00lgui/Frame/Frame/HighlightAll/LocalScript.server.lua lines 6
+       require() with a computed / hidden argument
+[HIGH] scripts/ReplicatedStorage/Systems/Player/UI/Menus/Inventory/Tabs/Emotes.lua lines 58,92
+       require() with a computed / hidden argument
+[MED] scripts/ReplicatedStorage/Assets/Skins/Killers/JohnDoe/#PibbyJohnDoe/Config.lua lines 6
+       very long line (5890 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Skins/Killers/JohnDoe/#PibbyJohnDoe/Config.lua lines 8
+       very long line (5988 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackup/Display/Idle.lua lines 4
+       very long line (3457 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackupbackup/Display/Idle.lua lines 4
+       very long line (3450 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackupbackup/Full/vine instance/Sprite.lua lines 4
+       very long line (3349 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackupbackup/Full/wings instance/Sprite.lua lines 4
+       very long line (3721 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackup/Display/Idle.lua lines 3
+       very long line (3457 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Display/Idle.lua lines 3
+       very long line (3450 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Full/vine instance/Sprite.lua lines 3
+       very long line (3349 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Assets/Survivors/TwoTime/Config/Sidebarbackupbackup/Full/wings instance/Sprite.lua lines 3
+       very long line (3721 chars, possible obfuscation)
+[MED] scripts/ReplicatedStorage/Initializer.lua lines 12
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ReplicatedStorage/Modules/Sprite/XML.lua lines 121
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ReplicatedStorage/Systems/Character/Game/Emotes/RadialMenu/CONSTANTS.lua lines 12
+       getfenv / setfenv (environment tampering, common in backdoors)
+[MED] scripts/ServerScriptService/Server/Modules/Commands/BanPlayer.lua lines 162,228
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Server/Modules/Commands/UnbanPlayer.lua lines 62,118
+       HttpService request (calls an outside server)
+[MED] scripts/ServerScriptService/Server/Systems/Data/PlayerData.lua lines 97
+       HttpService request (calls an outside server)
+
+Instances with suspicious names:
+  Decal Workspace.StudioAssets.Subject_0.Head.FakeHead.Virus
+  Folder ReplicatedStorage.Assets.Skins.Killers.Guest666.InfectedGuest666
+  Model ServerStorage.Assets.Rigs.Killers.Guest666.InfectedGuest666
+  Decal ServerStorage.Assets.Rigs.Killers.Slasher.Subject0Slasher.Head.FakeHead.Virus
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1009460688  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1167749181  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1175324261  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  13600173502  in scripts/ReplicatedStorage/Modules/MapVoting.lua
+  1912342578  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1912343043  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1912343046  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  1912343591  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2676900964  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2676901990  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2676902857  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677133608  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677148002  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677209533  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677213975  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  2677213976  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3414019025  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3442289626  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3442291361  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3442291574  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3442291815  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3444269368  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3444270010  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3444270400  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+  3444270752  in scripts/ReplicatedStorage/Modules/Schematics/Products.lua
+
+Outside URLs in code:
+  http://www.adobe.com/products/animate.html  in scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackup/Display/Idle.lua, scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackupbackup/Display/Idle.lua, scripts/ReplicatedStorage/Assets/Skins/Survivors/TwoTime/!BabyTwoTime/Config/Sidebarbackupbackup/Full/Full.lua
+  https://discord.gg/brNTY8nX8t  in scripts/ReplicatedStorage/Assets/Emotes/Konton.lua, scripts/ReplicatedStorage/Assets/Killers/!c00lerkiddEno (Fixed by BloxerTrue)/Behavior/sv_Clone.lua, scripts/ReplicatedStorage/Assets/Killers/!c00lerkiddEno (Fixed by BloxerTrue)/Config/ELMSLighting/Properties.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedFirst/Loading.client.lua, scripts/ReplicatedStorage/Assets/Changelogs/9-29-25.lua, scripts/ReplicatedStorage/Assets/Emotes/#Adrenaline.lua
+  https://media.tenor.com/RO0EB0RxktMAAAAM/gorillaman.gif  in scripts/ServerScriptService/Server/Modules/Commands/UnbanPlayer.lua
+  https://thumbnails.roproxy.com/v1/users/avatar-headshot?userIds=  in scripts/ServerScriptService/Server/Modules/Commands/BanPlayer.lua, scripts/ServerScriptService/Server/Modules/Commands/UnbanPlayer.lua

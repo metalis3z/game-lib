@@ -1,0 +1,17 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMLBkNvbG9yMwdmcm9tUkdCB0FtYmllbnQKQnJpZ2h0bmVzcwNuZXcRQ29sb3JTaGlmdF9Cb3R0b20OQ29sb3JTaGlmdF9Ub3AXRW52aXJvbm1lbnREaWZmdXNlU2NhbGUOT3V0ZG9vckFtYmllbnQJQ2xvY2tUaW1lFEV4cG9zdXJlQ29tcGVuc2F0aW9uAAEFAAABAgAqowAAAP8ABAAAAAAApAECAAAEAICMApwAjAOGAIwEhgCfAQQCMAEAOgMAAABvAQQAMAEA7QUAAACkAQcAABgAgJ8BAQIwAQABCAAAAKQBBwAAGACAnwEBAjABAI4JAAAAbwEKADABACYLAAAApAECAAAEAICMAkYAjANGAIwERgCfAQQCMAEAmwwAAACMAQAAMAEAIA0AAABvAQ4AMAEAYA8AAACCAAIAEAMBAwIEAAQAgAMDAlyPwvUoXAlAAwQDBQQAGACAAwYDBwJQjZduEoPAPwMIAwkDCgKamZmZmZnpPwMLAAEAARgAAQABAAAAAAAAAAEAAAEAAAAAAQAAAAABAAABAAAAAAAAAAEAAAEAAAABAAAAAADdyaXAdwgtGu8Nz1TI/1YMs9IdmFSz2u4kZh1PzWGUupwDOsZCEB5z
+
+-- Decompiled by Krnl
+
+return {
+	["Ambient"] = Color3.fromRGB(156, 134, 134),
+	["Brightness"] = 3.17,
+	["ColorShift_Bottom"] = Color3.new(),
+	["ColorShift_Top"] = Color3.new(),
+	["EnvironmentDiffuseScale"] = 0.129,
+	["OutdoorAmbient"] = Color3.fromRGB(70, 70, 70),
+	["ClockTime"] = 0,
+	["ExposureCompensation"] = 0.8
+}

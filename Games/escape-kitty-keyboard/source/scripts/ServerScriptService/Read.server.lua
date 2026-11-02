@@ -1,0 +1,3 @@
+-- make by itsnamm (@nt_steve) 
+--shoutout pls credit
+--90% fully scripted

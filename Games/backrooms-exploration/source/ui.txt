@@ -1,0 +1,75 @@
+Legend: size/pos = {scaleX,offsetX},{scaleY,offsetY}; HIDDEN = Visible false; nobg = BackgroundTransparency 1; scripts point to files under scripts/
+
+==== StarterGui.Slotsforinventory  (5 descendants)
+ScreenGui "Slotsforinventory"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  ImageLabel "Slot"  size={0,115},{0,115}  pos={0.444,0},{0.05,0}  anchor=(0.5,0.5)  HIDDEN  nobg  img=rbxassetid://98920609911971
+    ImageLabel "Itemimage"  size={0,61},{0,61}  pos={0.235,0},{0.235,0}  nobg
+    TextLabel "Number"  size={0,200},{0,50}  pos={-0.539,0},{0.165,0}  nobg  text="1"  font=IndieFlower/400  ts=70  tc=#000000
+  UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=2  SortOrder=2
+  LocalScript "LocalScript"  -> scripts/StarterGui/Slotsforinventory/LocalScript.client.lua
+
+==== StarterGui.MainInventory  (9 descendants)
+ScreenGui "MainInventory"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Holder"  size={0,584},{0,351}  pos={0.159,0},{0.213,0}  HIDDEN  nobg
+    ImageLabel "Slot"  size={0,790},{0,430}  pos={0.478,0},{0.499,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://98920609911971
+      UIListLayout "UIListLayout"  FillDirection=0  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+      ImageLabel "Slot"  size={0,115},{0,115}  pos={0.444,0},{0.05,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://98920609911971
+        ImageLabel "Itemimage"  size={0,61},{0,61}  pos={0.235,0},{0.235,0}  nobg
+        TextLabel "Number"  size={0,200},{0,50}  pos={-0.539,0},{0.165,0}  nobg  text="1"  font=IndieFlower/400  ts=70  tc=#000000
+    ImageLabel "Slot"  size={0,207},{0,94}  pos={0.153,0},{0.0455,0}  anchor=(0.5,0.5)  nobg  img=rbxassetid://98920609911971
+      TextLabel "TextLabel"  size={0,200},{0,50}  pos={0.0308,0},{0.23,0}  nobg  text="Inventory"  font=IndieFlower/400  ts=40  tc=#000000
+  Script "README"  -> scripts/StarterGui/MainInventory/README.server.lua
+
+==== StarterGui.TitleScreen  (9 descendants)
+ScreenGui "TitleScreen"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Holder"  size={0,1397},{0,712}  pos={0.5,0},{0.646,0}  anchor=(0.5,0.5)  nobg
+    TextLabel "Title"  size={0,200},{0,50}  pos={0.501,0},{0.222,0}  anchor=(0.5,0.5)  nobg  text="Backrooms"  font=PressStart2P/400  ts=88  tc=#ffffff
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      TextLabel "TextLabel"  size={0,200},{0,50}  pos={0.497,0},{1.49,0}  anchor=(0.5,0.5)  nobg  text="The Exploration"  font=PressStart2P/400  ts=44  tc=#ffffff
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+    TextButton "Startbutton"  size={0,200},{0,50}  pos={0.5,0},{0.407,0}  anchor=(0.5,0.5)  nobg  text="Start"  font=PressStart2P/400  ts=44  tc=#ffffff
+      Frame "Frame"  size={0,181},{0,43}  pos={0.498,0},{0.57,0}  anchor=(0.5,0.5)  nobg
+        UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+      UIStroke "UIStroke"  Thickness=3  Color=#000000  Transparency=0  ApplyStrokeMode=0
+
+==== StarterGui.VHSSTYLE  (10 descendants)
+ScreenGui "VHSSTYLE"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  UIListLayout "UIListLayout"  FillDirection=1  Padding={0,0}  HorizontalAlignment=0  VerticalAlignment=0  SortOrder=2
+  CanvasGroup "Holder"  size={0.897,0},{1,0}  pos={0.545,0},{0.5,0}  anchor=(0.5,0.5)  bg=#ffffff@0.98
+    LocalScript "Static"  -> scripts/StarterGui/VHSSTYLE/Holder/Static.client.lua
+    ImageLabel "Static1"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=3  img=rbxassetid://135927051711724  imgT=0.91
+    ImageLabel "Static2"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=4  img=rbxassetid://137864525305507  imgT=0.9
+    ImageLabel "Static3"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=5  rot=180  img=rbxassetid://77041023963523  imgT=1
+    ImageLabel "Static4"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=6  img=rbxassetid://13928716599  imgcol=#000000  imgT=0.98
+    ImageLabel "Static"  size={4,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=-3  img=rbxassetid://135927051711724  imgT=0.74
+      LocalScript "LocalScript"  -> scripts/StarterGui/VHSSTYLE/Holder/Static~2/LocalScript.client.lua
+    ImageLabel "Vignette"  size={1,0},{1,0}  pos={0.5,0},{0.5,0}  anchor=(0.5,0.5)  nobg  z=25  img=rbxassetid://12754479702  imgT=0.96
+
+==== StarterGui.DELETEME  (19 descendants)
+ScreenGui "DELETEME"  Enabled=True  DisplayOrder=0  ResetOnSpawn=True  ZIndexBehavior=1
+  Frame "Frame"  size={0.812,0},{0.794,0}  pos={0.102,0},{0.107,0}  HIDDEN  bg=#fcff37@0.55
+    UICorner "UICorner"
+    UIStroke "UIStroke"  Thickness=4  Color=#000000  Transparency=0.55  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0,172},{0,46}  pos={0.4,0},{0.315,0}  nobg  text="Cheese Uncopylocked"  font=LuckiestGuy/400  ts=80  tc=#f9d11b
+      UIStroke "UIStroke"  Thickness=4  Color=#602401  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0,172},{0,46}  pos={0.839,0},{0.222,0}  nobg  rot=35  text="👑"  font=LuckiestGuy/400  ts=81  tc=#f9d11b
+      UIStroke "UIStroke"  Thickness=4  Color=#602401  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0,172},{0,46}  pos={0.409,0},{0.444,0}  nobg  text="Made This File"  font=LuckiestGuy/400  ts=75  tc=#f9d11b
+      UIStroke "UIStroke"  Thickness=4  Color=#602401  Transparency=0  ApplyStrokeMode=0
+    TextLabel "TextLabel"  size={0,172},{0,46}  pos={0,0},{0.895,0}  nobg  text="VIP"  font=LuckiestGuy/400  ts=80  tc=#f9d11b
+      UIStroke "UIStroke"  Thickness=4  Color=#602401  Transparency=0  ApplyStrokeMode=0
+    ImageLabel "ImageLabel"  size={0,230},{0,151}  pos={0,0},{0,0}  nobg  img=rbxassetid://111926035480507
+    ... +3 more TextLabel "TextLabel"
+    ImageLabel "ImageLabel"  size={0,230},{0,151}  pos={0.758,0},{0.78,0}  nobg  img=rbxassetid://111926035480507
+
+==== Workspace.Titlescreen.Part.SurfaceGui  (2 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,-20}  nobg  text="Antenne"  font=SourceSansPro/700  ts=50  tc=#ffffff
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,20}  nobg  text="Sender - Empf."  font=SourceSansPro/700  ts=50  tc=#ffffff
+
+==== Workspace.Titlescreen.Part.SurfaceGui  (1 descendants)
+SurfaceGui "SurfaceGui"  Enabled=True  Face=2  PixelsPerStud=50  SizingMode=0  Adornee=nil  AlwaysOnTop=False
+  TextLabel "TextLabel"  size={1,0},{1,0}  pos={0,0},{0,0}  nobg  text="F       N"  font=SourceSansPro/700  ts=100  tc=#ffffff
+
+==== repeated world GUIs (only the first two were printed)
+SurfaceGui "SurfaceGui" under Workspace: 9 copies

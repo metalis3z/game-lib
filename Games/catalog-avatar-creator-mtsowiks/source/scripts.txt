@@ -1,0 +1,349 @@
+347 scripts, 102434 lines
+kind     lines  enabled  path
+server      38  yes      scripts/README.server.lua
+client      27  yes      scripts/ReplicatedFirst/CloudAssetScriptGuard.client.lua
+module      29  yes      scripts/ReplicatedStorage/ActivityKeys.lua
+module     831  yes      scripts/ReplicatedStorage/CatalogUtilities.lua
+module     122  yes      scripts/ReplicatedStorage/CmdrClient.lua
+module     182  yes      scripts/ReplicatedStorage/CmdrClient/CmdrInterface.lua
+module     176  yes      scripts/ReplicatedStorage/CmdrClient/CmdrInterface/AutoComplete.lua
+module     354  yes      scripts/ReplicatedStorage/CmdrClient/CmdrInterface/Window.lua
+module      25  yes      scripts/ReplicatedStorage/CmdrClient/Commands/alias.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/announce.lua
+module      19  yes      scripts/ReplicatedStorage/CmdrClient/Commands/ban.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/baninfo.lua
+module      20  yes      scripts/ReplicatedStorage/CmdrClient/Commands/bantopicpreview.lua
+module      65  yes      scripts/ReplicatedStorage/CmdrClient/Commands/bind.lua
+module      24  yes      scripts/ReplicatedStorage/CmdrClient/Commands/blink.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/checkrank.lua
+module      29  yes      scripts/ReplicatedStorage/CmdrClient/Commands/clear.lua
+module      19  yes      scripts/ReplicatedStorage/CmdrClient/Commands/config.lua
+module      22  yes      scripts/ReplicatedStorage/CmdrClient/Commands/convertTimestamp.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/deleteoutfit.lua
+module      16  yes      scripts/ReplicatedStorage/CmdrClient/Commands/dumphotbundles.lua
+module      19  yes      scripts/ReplicatedStorage/CmdrClient/Commands/echo.lua
+module      73  yes      scripts/ReplicatedStorage/CmdrClient/Commands/edit.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/fetch.lua
+module      26  yes      scripts/ReplicatedStorage/CmdrClient/Commands/getPlayerPlaceInstance.lua
+module      20  yes      scripts/ReplicatedStorage/CmdrClient/Commands/getflags.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/getstats.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/globalannounce.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/globalselfannounce.lua
+module      25  yes      scripts/ReplicatedStorage/CmdrClient/Commands/gotoPlace.lua
+module      11  yes      scripts/ReplicatedStorage/CmdrClient/Commands/help.lua
+module      26  yes      scripts/ReplicatedStorage/CmdrClient/Commands/history.lua
+module      16  yes      scripts/ReplicatedStorage/CmdrClient/Commands/hotbundles.lua
+module      25  yes      scripts/ReplicatedStorage/CmdrClient/Commands/hover.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/joinplayer.lua
+module      21  yes      scripts/ReplicatedStorage/CmdrClient/Commands/jsonArrayDecode.lua
+module      22  yes      scripts/ReplicatedStorage/CmdrClient/Commands/jsonArrayEncode.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/kick.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/kill.lua
+module      19  yes      scripts/ReplicatedStorage/CmdrClient/Commands/len.lua
+module      11  yes      scripts/ReplicatedStorage/CmdrClient/Commands/listtopicbans.lua
+module      28  yes      scripts/ReplicatedStorage/CmdrClient/Commands/math.lua
+module      29  yes      scripts/ReplicatedStorage/CmdrClient/Commands/moderateoutfit.lua
+module      23  yes      scripts/ReplicatedStorage/CmdrClient/Commands/pick.lua
+module      25  yes      scripts/ReplicatedStorage/CmdrClient/Commands/plus.lua
+module      24  yes      scripts/ReplicatedStorage/CmdrClient/Commands/position.lua
+module      26  yes      scripts/ReplicatedStorage/CmdrClient/Commands/rand.lua
+module      19  yes      scripts/ReplicatedStorage/CmdrClient/Commands/renameoutfit.lua
+module      29  yes      scripts/ReplicatedStorage/CmdrClient/Commands/replace.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/resetoutfit.lua
+module      33  yes      scripts/ReplicatedStorage/CmdrClient/Commands/resolve.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/respawn.lua
+module      20  yes      scripts/ReplicatedStorage/CmdrClient/Commands/run.lua
+module      37  yes      scripts/ReplicatedStorage/CmdrClient/Commands/runLines.lua
+module      49  yes      scripts/ReplicatedStorage/CmdrClient/Commands/runif.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/selfannounce.lua
+module      23  yes      scripts/ReplicatedStorage/CmdrClient/Commands/setcredits.lua
+module      23  yes      scripts/ReplicatedStorage/CmdrClient/Commands/setflag.lua
+module      23  yes      scripts/ReplicatedStorage/CmdrClient/Commands/setstatistic.lua
+module      11  yes      scripts/ReplicatedStorage/CmdrClient/Commands/stafftag.lua
+module      20  yes      scripts/ReplicatedStorage/CmdrClient/Commands/teleport.lua
+module      23  yes      scripts/ReplicatedStorage/CmdrClient/Commands/tempban.lua
+module      31  yes      scripts/ReplicatedStorage/CmdrClient/Commands/thru.lua
+module      21  yes      scripts/ReplicatedStorage/CmdrClient/Commands/unban.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/unbantopicpreview.lua
+module      28  yes      scripts/ReplicatedStorage/CmdrClient/Commands/unbind.lua
+module      11  yes      scripts/ReplicatedStorage/CmdrClient/Commands/uptime.lua
+module      11  yes      scripts/ReplicatedStorage/CmdrClient/Commands/vanish.lua
+module      20  yes      scripts/ReplicatedStorage/CmdrClient/Commands/var.lua
+module      24  yes      scripts/ReplicatedStorage/CmdrClient/Commands/varSet.lua
+module      14  yes      scripts/ReplicatedStorage/CmdrClient/Commands/version.lua
+module      15  yes      scripts/ReplicatedStorage/CmdrClient/Commands/viewoutfit.lua
+module      19  yes      scripts/ReplicatedStorage/CmdrClient/Commands/warn.lua
+module      17  yes      scripts/ReplicatedStorage/CmdrClient/DefaultEventHandlers.lua
+module     250  yes      scripts/ReplicatedStorage/CmdrClient/Shared/Argument.lua
+module     219  yes      scripts/ReplicatedStorage/CmdrClient/Shared/Command.lua
+module     173  yes      scripts/ReplicatedStorage/CmdrClient/Shared/Dispatcher.lua
+module     280  yes      scripts/ReplicatedStorage/CmdrClient/Shared/Registry.lua
+module     565  yes      scripts/ReplicatedStorage/CmdrClient/Shared/Util.lua
+module       7  yes      scripts/ReplicatedStorage/CmdrClient/Types/BindableResource.lua
+module     261  yes      scripts/ReplicatedStorage/CmdrClient/Types/BrickColor.lua
+module      71  yes      scripts/ReplicatedStorage/CmdrClient/Types/Color3.lua
+module      29  yes      scripts/ReplicatedStorage/CmdrClient/Types/Command.lua
+module       7  yes      scripts/ReplicatedStorage/CmdrClient/Types/ConditionFunction.lua
+module     145  yes      scripts/ReplicatedStorage/CmdrClient/Types/Duration.lua
+module      20  yes      scripts/ReplicatedStorage/CmdrClient/Types/JSON.lua
+module      50  yes      scripts/ReplicatedStorage/CmdrClient/Types/MathOperator.lua
+module      43  yes      scripts/ReplicatedStorage/CmdrClient/Types/PermissionChecker.lua
+module      76  yes      scripts/ReplicatedStorage/CmdrClient/Types/Player.lua
+module     110  yes      scripts/ReplicatedStorage/CmdrClient/Types/PlayerId.lua
+module     177  yes      scripts/ReplicatedStorage/CmdrClient/Types/Primitives.lua
+module      33  yes      scripts/ReplicatedStorage/CmdrClient/Types/StoredKey.lua
+module      53  yes      scripts/ReplicatedStorage/CmdrClient/Types/Team.lua
+module      29  yes      scripts/ReplicatedStorage/CmdrClient/Types/Type.lua
+module      24  yes      scripts/ReplicatedStorage/CmdrClient/Types/URL.lua
+module      36  yes      scripts/ReplicatedStorage/CmdrClient/Types/UserInput.lua
+module      34  yes      scripts/ReplicatedStorage/CmdrClient/Types/Vector.lua
+module    1411  yes      scripts/ReplicatedStorage/Icon.lua
+module      21  yes      scripts/ReplicatedStorage/Icon/Attribute.lua
+module     318  yes      scripts/ReplicatedStorage/Icon/Elements/Caption.lua
+module     234  yes      scripts/ReplicatedStorage/Icon/Elements/Container.lua
+module     402  yes      scripts/ReplicatedStorage/Icon/Elements/Dropdown.lua
+module     104  yes      scripts/ReplicatedStorage/Icon/Elements/Indicator.lua
+module     201  yes      scripts/ReplicatedStorage/Icon/Elements/Menu.lua
+module     112  yes      scripts/ReplicatedStorage/Icon/Elements/Notice.lua
+module      47  yes      scripts/ReplicatedStorage/Icon/Elements/Selection.lua
+module     475  yes      scripts/ReplicatedStorage/Icon/Elements/Widget.lua
+module     232  yes      scripts/ReplicatedStorage/Icon/Features/Gamepad.lua
+module     375  yes      scripts/ReplicatedStorage/Icon/Features/Overflow.lua
+module     390  yes      scripts/ReplicatedStorage/Icon/Features/Themes.lua
+module      42  yes      scripts/ReplicatedStorage/Icon/Features/Themes/Classic.lua
+module     113  yes      scripts/ReplicatedStorage/Icon/Features/Themes/Default.lua
+module     151  yes      scripts/ReplicatedStorage/Icon/Packages/GoodSignal.lua
+module     369  yes      scripts/ReplicatedStorage/Icon/Packages/Janitor.lua
+module      29  yes      scripts/ReplicatedStorage/Icon/Reference.lua
+module       5  yes      scripts/ReplicatedStorage/Icon/Types.lua
+module     637  yes      scripts/ReplicatedStorage/Icon/Utility.lua
+module      64  yes      scripts/ReplicatedStorage/Icon/VERSION.lua
+module       5  yes      scripts/ReplicatedStorage/Purse.lua
+module    2234  yes      scripts/ReplicatedStorage/Purse/Packages/purse.lua
+client       7  yes      scripts/ReplicatedStorage/Purse/Packages/purse/Attribution.server.lua
+client      12  NO       scripts/ReplicatedStorage/Purse/Packages/purse/ContextAction.server.lua
+client      15  yes      scripts/ReplicatedStorage/Purse/Packages/purse/CoreGuiWarn.server.lua
+client      38  yes      scripts/ReplicatedStorage/Purse/Packages/purse/TopbarIcon.server.lua
+module       5  yes      scripts/ReplicatedStorage/Purse/Packages/topbarplus.lua
+module     855  yes      scripts/ReplicatedStorage/ReplicaClient.lua
+module     157  yes      scripts/ReplicatedStorage/ReplicaShared/Maid.lua
+module      96  yes      scripts/ReplicatedStorage/ReplicaShared/RateLimit.lua
+module     171  yes      scripts/ReplicatedStorage/ReplicaShared/Remote.lua
+module     141  yes      scripts/ReplicatedStorage/ReplicaShared/Signal.lua
+module    1498  yes      scripts/ReplicatedStorage/SortingSchema.lua
+module      65  yes      scripts/ReplicatedStorage/TimeUtilities.lua
+module    2089  yes      scripts/ReplicatedStorage/UIC.lua
+module    2720  yes      scripts/ReplicatedStorage/UIC/Export.lua
+module    1740  yes      scripts/ReplicatedStorage/UIC/Fx.lua
+module       5  yes      scripts/ReplicatedStorage/UIC/Styles/Base.lua
+server    1886  yes      scripts/ServerScriptService/AvatarMakerServer.server.lua
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/BaseCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/BaseOcclusion.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/CameraInput.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/CameraToggleStateController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/CameraUI.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/CameraUtils.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/ClassicCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/Invisicam.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/LegacyCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/MouseLockController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/OrbitalCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/Poppercam.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/TransparencyController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VRBaseCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VRCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VRVehicleCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VRVehicleCameraDeprecated.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VehicleCamera.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VehicleCamera/VehicleCameraConfig.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/VehicleCamera/VehicleCameraCore.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/ZoomController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CameraModule/ZoomController/Popper.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CommonUtils/CameraWrapper.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CommonUtils/CameraWrapper.spec.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CommonUtils/CharacterUtil.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CommonUtils/ConnectionUtil.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CommonUtils/ConnectionUtil.spec.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/CommonUtils/FlagUtil.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/AvatarAbilitiesInterface.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/BaseCharacterController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/ClickToMoveController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/ClickToMoveDisplay.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/DynamicThumbstick.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/Gamepad.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/Keyboard.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/PathDisplay.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/TouchJump.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/TouchThumbstick.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/VRNavigation.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup/ControlModule/VehicleController.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+client       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/Broken_PlayerScriptsLoader_Backup.client.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+client       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/Broken_RbxCharacterSounds_Backup.client.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+module       1  yes      scripts/ServerStorage/DisabledDecompiledClientModules/Broken_RbxCharacterSounds_Backup/AtomicBinding.lua   (same source as scripts/ServerStorage/DisabledDecompiledClientModules/BrokenPlayerModule_Backup.lua)
+client       7  NO       scripts/StarterGui/Cover/LocalScript.client.lua
+client     560  yes      scripts/StarterGui/ExclusiveShop/TiltCardRuntime.client.lua
+client     175  yes      scripts/StarterGui/LikeEffect/LikeEffectController.client.lua
+module       5  yes      scripts/StarterGui/ModeratorPanel/Source.lua
+client     730  yes      scripts/StarterPlayer/StarterPlayerScripts/Buttons.client.lua
+module     502  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/AutoHideController.lua
+module    1401  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/AvatarAdjustmentController.lua
+client     143  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/AvatarAdjustmentController/AnimateIdleOnlyNPC.client.lua
+module    1427  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/AvatarAdjustmentController/TransformModeController.lua
+module    1336  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/AvatarPreviewController.lua
+client     245  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/AvatarPreviewController/Animate.client.lua
+client     137  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/AvatarPreviewController/AnimateIdleOnly.client.lua
+module     333  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/BuildsController.lua
+module    2649  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController.lua
+module     929  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/BodyAdjustment.lua
+module     612  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/CategoryController.lua
+module     304  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/ClothingAdjustment.lua
+module     120  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/EquippedController.lua
+module     120  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/ItemFade.lua
+module     939  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/Options.lua
+module     954  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/SearchController.lua
+module      29  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CatalogController/SearchController/ItemTemplates.lua
+module     379  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ChatController.lua
+module     358  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CommandsController.lua
+module    1669  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CommandsController/Commands.lua
+module     222  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CommandsController/Commands/Fly.lua
+module     605  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CommandsController/Commands/Freecam.lua
+module    1098  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CommunityOutfitsController.lua
+module     895  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CommunityOutfitsController/Options.lua
+module      72  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ConfigsController.lua
+module     246  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController.lua
+module    1147  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/CommunityOutfitPageSetup.lua
+module     241  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/GroupPageSetup.lua
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/GroupPageSetup/wrapper/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua)
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/GroupPageSetup/wrapperOld/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua)
+module     740  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup.lua
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapper/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua)
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperOld/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua)
+module     736  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/SavedOutfitPageSetup.lua
+module     315  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ScrollGuard.lua
+module     218  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/UserProfilePageSetup.lua
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/UserProfilePageSetup/wrapper/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua)
+client      15  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/UserProfilePageSetup/wrapperOld/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/ContentPageController/ItemDetailsPageSetup/wrapperBeforeAspectRatio/LocalScript.client.lua)
+module     447  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CreateAvatarController.lua
+module     355  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CreateAvatarController/BodyScaleStage.lua
+module    2253  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CreateAvatarController/BodyStage.lua
+module     935  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CreateAvatarController/HairStage.lua
+module    1337  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CreateAvatarController/HeadStage.lua
+module     843  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CreateAvatarController/SkinToneStage.lua
+module     734  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/CurrentlyWearingController.lua
+module     715  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/DialogController.lua
+module     520  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/EmotesController.lua
+module      81  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/EngagementController.lua
+module     633  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ExclusiveShopController.lua
+module     942  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/FavoriteController.lua
+module      66  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/GroupMembershipController.lua
+module     133  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/HistoryController.lua
+module     444  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/HumanoidDescriptionController.lua
+module     221  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/InterfaceController.lua
+module     211  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/LoadingController.lua
+client      42  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/LoadingController/footLoading/container/runner/LocalScript.client.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/Controllers/LoadingController/loading/container/runner/LocalScript.client.lua)
+client      42  NO       scripts/StarterPlayer/StarterPlayerScripts/Controllers/LoadingController/loading/container/runner/LocalScript.client.lua
+module     299  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController.lua
+module      10  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/baseplate.lua
+module      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/black.lua
+module      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/bluescreen.lua
+module      20  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/galaxy.lua
+module      21  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/grass.lua
+module      10  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/green_baseplate.lua
+module      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/greenscreen.lua
+module      20  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/night_sea.lua
+module      10  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/pink.lua
+module      10  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/retro.lua
+module      14  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/snowy.lua
+module      14  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/snowy_forest.lua
+module      21  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/sunset.lua
+module      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/MapController/Maps/white.lua
+module    9964  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ModeratorPanelController.lua
+module     117  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/NotificationController.lua
+module     614  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/OnboardingController.lua
+module     418  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/OutfitLoaderController.lua
+module    1012  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/OutfitsController.lua
+module     493  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/OverheadStatusController.lua
+module    1115  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/PhotoboothController.lua
+module    1399  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/PlayerContextMenuController.lua
+module    1891  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/PoseModeController.lua
+client     918  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/PoseModeController/R15/Animate.client.lua
+client     607  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/PoseModeController/R6/Animate.client.lua
+module     220  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ProfileBackgroundController.lua
+module     223  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/PublishOutfitController.lua
+module     227  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/QuickMenuController.lua
+module     184  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/RecentController.lua
+module    1326  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/RemoveItemsController.lua
+module     878  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/RobloxPlusController.lua
+module     605  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SaveOutfitController.lua
+module     981  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SavedOutfitsController.lua
+module     751  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SavedOutfitsController/SelectMode.lua
+module     794  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SettingsController.lua
+module    1208  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SettingsController/Definitions.lua
+module    1294  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SettingsController/Helpers.lua
+module     574  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ShoppingCartController.lua
+module     116  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SoundController.lua
+module     172  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/SoundController/MusicController.lua
+module     243  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/StaffTagController.lua
+module     633  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/StaffVanishController.lua
+module     246  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/StatisticsController.lua
+module     443  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/ThemeController.lua
+module     204  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/TooltipController.lua
+module     130  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/VFXController.lua
+module     153  yes      scripts/StarterPlayer/StarterPlayerScripts/Controllers/WarningController.lua
+module      42  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/Button.lua
+module     119  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/CarouselScrollingFrame.lua
+module     490  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker.lua
+module     224  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/BuiltinSliders.lua
+module      50  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/History.lua
+module      67  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/MouseMovement.lua
+module      48  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/PickerModes/Circle.lua
+module      59  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/PickerModes/Square.lua
+module      86  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/PickerModes/Triangle.lua
+module     123  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/Slider.lua
+module      97  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ColorPicker/WindowResize.lua
+module     556  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/DraggableList.lua
+module     576  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/DropdownController.lua
+module     712  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/FavoriteButton.lua
+module    2288  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ItemButton.lua
+module     218  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ScrollFade.lua
+module     270  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ScrollingFrameCustomScrollSpeed.lua
+module     318  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/SliderController.lua
+module     126  yes      scripts/StarterPlayer/StarterPlayerScripts/Elements/ToggleSwitchController.lua
+client     111  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/AutoUIScale.client.lua
+client      60  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/AutomaticSizeFix.client.lua
+client     204  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/ScaledTextSizeAutomaticSizeFix.client.lua
+client     114  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/ScaledTextSizeMultiLineSupport.client.lua
+client      90  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/ScrollingFrameAutomaticSizeFix.client.lua
+client      29  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/UICFx.client.lua
+client     436  yes      scripts/StarterPlayer/StarterPlayerScripts/Helpers/UIEffects.client.lua
+client     144  NO       scripts/StarterPlayer/StarterPlayerScripts/Helpers/[NOT USED] NestedScrollingFrameSupport.client.lua
+module      18  yes      scripts/StarterPlayer/StarterPlayerScripts/Modules.lua
+client      63  yes      scripts/StarterPlayer/StarterPlayerScripts/RemoteListener.client.lua
+module     127  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/Cache.lua
+module     974  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/InventoryService.lua
+module      87  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/ItemOwnershipService.lua
+module     954  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/ItemPreviewService.lua
+module     490  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/ItemPreviewService/Animate.lua
+module     365  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/ItemPurchaseService.lua
+module     501  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/PriceDisplay.lua
+module      72  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/PriceDisplay/ItemVariants.lua
+module       8  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/PriceDisplay/Theme.lua
+module      62  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/PriceDisplay/TotalVariants.lua
+module      76  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/PriceDisplay/UpsellFrequency.lua
+module      98  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/SpentTrackerClient.lua
+module     276  yes      scripts/StarterPlayer/StarterPlayerScripts/Services/TotalPriceResolver.lua
+client     101  yes      scripts/StarterPlayer/StarterPlayerScripts/Setup.client.lua
+client       3  NO       scripts/StarterPlayer/StarterPlayerScripts/TODO Controller Support.client.lua
+module     214  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/BezierMover.lua
+module       8  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/Colors.lua
+module      97  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/DraggablePanel.lua
+module     122  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/GetBatchItemDetails.lua
+module      97  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/OutsideClickDetector.lua
+module     148  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/ParseTextToColor.lua
+module      51  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/PlayEmote.lua
+module      26  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/Readable.lua
+module      14  yes      scripts/StarterPlayer/StarterPlayerScripts/Utilities/Themes.lua

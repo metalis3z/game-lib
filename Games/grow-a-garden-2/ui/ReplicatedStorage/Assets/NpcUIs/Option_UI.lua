@@ -1,0 +1,43 @@
+-- Generated from ui/ReplicatedStorage/Assets/NpcUIs/Option_UI.rbxm by _tools/rbxm2lua.luau
+-- UI builder: local gui = require(this)(); gui.Parent = game.Players.LocalPlayer.PlayerGui (or StarterGui)
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local function build()
+	local I = {}
+	I[1] = new("Frame", nil, "Option_UI", { AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0, 0.5), Size = UDim2.fromScale(0.9, 0.15) })
+		I[2] = new("Frame", I[1], "Frame", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(1, 1) })
+			I[3] = new("ImageButton", I[2], "ImageButton", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, ImageContent = Content.fromUri("rbxasset://textures/ui/GuiImagePlaceholder.png"), ImageTransparency = 1, Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(1, 1) })
+			I[4] = new("ImageLabel", I[2], "ImageLabel", { AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(0, 0, 0), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, ImageColor3 = Color3.fromRGB(0, 0, 0), ImageContent = Content.fromUri("http://www.roblox.com/asset/?id=138037320970182"), ImageTransparency = 0.5, Position = UDim2.fromScale(0, 0.5), Size = UDim2.fromScale(0.75, 1) })
+				I[5] = new("UIGradient", I[4], "UIGradient", { Transparency = NumberSequence.new({ NumberSequenceKeypoint.new(0, 0.7), NumberSequenceKeypoint.new(0.0981, 0), NumberSequenceKeypoint.new(0.899, 0), NumberSequenceKeypoint.new(1, 0.7) }) })
+			I[6] = new("Frame", I[2], "Frame", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.95, 1) })
+				I[7] = new("TextLabel", I[6], "TextLabel", { AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/ComicNeueAngular.json", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal), LayoutOrder = 3, Position = UDim2.fromScale(0, 0.5), Size = UDim2.fromScale(0.07, 1), Text = "#1", TextColor3 = Color3.fromRGB(255, 255, 205), TextScaled = true, TextSize = 14, TextStrokeTransparency = 0, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 3 })
+				I[8] = new("UIListLayout", I[6], "UIListLayout", { FillDirection = Enum.FillDirection.Horizontal, Padding = UDim.new(0.003, 0), SortOrder = Enum.SortOrder.LayoutOrder })
+				I[9] = new("TextLabel", I[6], "Text_Element", { AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/ComicNeueAngular.json", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal), LayoutOrder = 3, Position = UDim2.fromScale(0, 0.5), RichText = true, Size = UDim2.fromScale(1, 1), Text = "[\"Yo whats up\"]", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextStrokeTransparency = 0, TextWrapped = true, TextXAlignment = Enum.TextXAlignment.Left, ZIndex = 3 })
+					I[10] = new("UIPadding", I[9], "UIPadding", { PaddingLeft = UDim.new(0.05, 0) })
+	return I[1]
+end
+
+return build

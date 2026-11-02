@@ -1,0 +1,40 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/ReplicatedStorage/Forbidden/AI/antilag.server.lua
+       suspicious script name "antilag"
+[MED] scripts/ReplicatedStorage/Forbidden2/AI/antilag.server.lua
+       suspicious script name "antilag"
+[MED] scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/AI/antilag.server.lua
+       suspicious script name "antilag"
+[MED] scripts/ReplicatedStorage/SharedData/SkinData/Yatta/InfectedCandy.lua
+       suspicious script name "InfectedCandy"
+[MED] scripts/ReplicatedStorage/Skins/Yatta/InfectedCandy.lua
+       suspicious script name "InfectedCandy"
+
+Instances with suspicious names:
+  StringValue ReplicatedStorage.PlayerData.9505500731.Skins.InfectedCandy
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  1906320455  in scripts/ReplicatedStorage/Forbidden2/PathFindingAgent/Forbidden API (OFFICIAL)/UngroupInReplicatedStorage/Forbidden/DeveloperProductHandler/ExampleUIScript/MPSHandler.client.lua
+  3321190812  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3321191528  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3367099746  in scripts/ReplicatedStorage/SharedData/SkinData/Astro/CareBear_Astro.lua, scripts/ReplicatedStorage/Skins/Astro/CareBear_Astro.lua
+  3367979900  in scripts/ReplicatedStorage/SharedData/SkinData/Shelly/CareBear_Shelly.lua
+  3367980037  in scripts/ReplicatedStorage/SharedData/SkinData/Shrimpo/CareBear_Shrimpo.lua
+  3459610337  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3539419471  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3539419488  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3539419655  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3576325230  in scripts/ReplicatedStorage/SharedData/SkinData/Cosmo/CareBear_Cosmo.lua
+  3576327340  in scripts/ReplicatedStorage/SharedData/SkinData/Gigi/CareBear_Gigi.lua
+  3576327394  in scripts/ReplicatedStorage/SharedData/SkinData/Sprout/CareBear_Sprout.lua
+  3602677809  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+  3603505221  in scripts/ReplicatedStorage/SharedData/DevProductConfig.lua
+
+Outside URLs in code:
+  https://discord.gg/T7BXynvdMb  in scripts/Players/[Player] prorivalsmdrlol/PlayerGui/CharacterPos/CharacterPos.client.lua, scripts/Players/[Player] prorivalsmdrlol/PlayerGui/DeathGui/DeathScript.client.lua, scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/Modules/CardVote.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/DialogueModules/Interactions.lua, scripts/ReplicatedStorage/Modules/Gameplay/GeneratorFillScript.lua, scripts/ReplicatedStorage/Modules/Zones/IceSkatingEffects.lua
+  https://discord.gg/wx4ThpAsmw.  in scripts/README.server.lua
+  https://discord.gg/y63m4zUYa4  in scripts/ReplicatedStorage/SharedUtils/GuidePath.lua
+  https://lua.expert/  in scripts/Players/[Player] prorivalsmdrlol/PlayerGui/CharacterPos/CharacterPos.client.lua, scripts/Players/[Player] prorivalsmdrlol/PlayerGui/DeathGui/DeathScript.client.lua, scripts/Players/[Player] prorivalsmdrlol/PlayerGui/ScreenGui/Modules/CardVote.lua
+  https://www%.roblox%.com/asset/%?id=%d+$  in scripts/ReplicatedStorage/Modules/Utils/BasicAnimator.lua

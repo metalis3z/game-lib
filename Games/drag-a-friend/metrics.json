@@ -1,0 +1,319 @@
+{
+ "slug": "drag-a-friend",
+ "title": "Drag A Friend",
+ "genre": "party / physics (tether a friend)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 56,
+  "screen_guis": 5,
+  "classes": {
+   "ImageLabel": 15,
+   "UIAspectRatioConstraint": 15,
+   "TextLabel": 14,
+   "UICorner": 12,
+   "Frame": 11,
+   "TextButton": 9,
+   "UIStroke": 7,
+   "ScreenGui": 5,
+   "LocalScript": 4,
+   "ImageButton": 3,
+   "StringValue": 3,
+   "UIListLayout": 2,
+   "Sound": 2,
+   "ScrollingFrame": 2,
+   "CanvasGroup": 2,
+   "UIGridLayout": 1,
+   "Folder": 1
+  },
+  "fonts": {
+   "SourceSansPro Regular": 8,
+   "PressStart2P Regular": 5,
+   "Rubik Bold": 5,
+   "FredokaOne Regular": 2,
+   "Rubik SemiBold": 2,
+   "Rubik Medium": 1
+  },
+  "background_colors": {
+   "#000000": 7,
+   "#111111": 3,
+   "#d99dd9": 1,
+   "#3a3a3a": 1,
+   "#9e1b04": 1,
+   "#232323": 1
+  },
+  "text_colors": {
+   "#ffffff": 11,
+   "#000000": 8,
+   "#b6b6b6": 2,
+   "#f1f1f1": 1,
+   "#cfcfcf": 1
+  },
+  "stroke_colors": {
+   "#ffffff": 7
+  },
+  "image_tints": {
+   "#c1ceff": 1,
+   "#ff5252": 1
+  },
+  "corner_radius": {
+   "{0.175,0}": 2,
+   "{0.075,0}": 2,
+   "{0.15,0}": 2,
+   "{0.0,8}": 2,
+   "{0.0,3}": 1,
+   "{1.0,0}": 1,
+   "{0.5,0}": 1,
+   "{0.111,0}": 1
+  },
+  "stroke_thickness": {
+   "1.0 px": 7
+  },
+  "text_size_px": {
+   "14": 8,
+   "54": 1
+  },
+  "text_scaled_share": 0.61,
+  "size_mode": {
+   "offset": 6,
+   "scale": 50
+  },
+  "unique_images": 14,
+  "per_100_objects": {
+   "UICorner": 21.4,
+   "UIStroke": 12.5,
+   "UIGradient": 0.0,
+   "UIAspectRatioConstraint": 26.8,
+   "UIListLayout": 3.6,
+   "UIGridLayout": 1.8,
+   "UIPadding": 0.0,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 26.8,
+   "ImageButton": 5.4,
+   "TextButton": 16.1
+  }
+ },
+ "map": {
+  "instances": 4464,
+  "parts": 524,
+  "meshparts": 15,
+  "unions": 0,
+  "anchored_share": 0.99,
+  "textures_decals": 7,
+  "surface_appearances": 0,
+  "lights": 1,
+  "emitters": 1,
+  "beams_trails": 0,
+  "sounds": 1,
+  "prompts": 0,
+  "world_guis": 1,
+  "humanoids": 4,
+  "materials": {
+   "Plastic": 520,
+   "Glass": 2,
+   "Metal": 1,
+   "SmoothPlastic": 1
+  },
+  "part_colors": {
+   "#2c651d": 172,
+   "#7c5c46": 63,
+   "#27462d": 60,
+   "#6c584b": 33,
+   "#a3a2a5": 29,
+   "#7e683f": 29,
+   "#a0844f": 19,
+   "#1d5419": 18,
+   "#635f62": 16,
+   "#6b327c": 12,
+   "#9fa1ac": 9,
+   "#5b5d69": 8,
+   "#348e40": 7,
+   "#eab892": 7
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   161,
+   27,
+   169
+  ],
+  "extent_all_studs": [
+   344,
+   520,
+   2001
+  ],
+  "top_classes": {
+   "Pose": 1092,
+   "Frame": 672,
+   "ModuleScript": 566,
+   "Part": 508,
+   "TextButton": 352,
+   "TextLabel": 226,
+   "Keyframe": 156,
+   "ObjectValue": 110,
+   "ImageLabel": 104,
+   "Vector3Value": 84,
+   "TextBox": 78,
+   "Attachment": 72,
+   "ImageButton": 64,
+   "Configuration": 53,
+   "Folder": 51
+  }
+ },
+ "lighting": {
+  "Ambient": "#464646",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#464646",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "ShadowMap",
+  "TimeOfDay": "14:30:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": true,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 6,
+  "ui-kit": 1,
+  "map": 1,
+  "materials": 1,
+  "model": 17,
+  "audio": 1,
+  "keyframes": 4,
+  "other": 4
+ },
+ "coverage": {
+  "instances": 8065,
+  "packed": 7996,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 11,
+  "not_packed": {
+   "Workspace.Camera": 2,
+   "Workspace.Terrain": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 4,
+ "animation_ids": 2,
+ "sound_ids": 3,
+ "files": 35,
+ "kb": 2787,
+ "category": "Party",
+ "source_file": "Drag A Friend-1.rbxl"
+}

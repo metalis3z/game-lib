@@ -1,0 +1,12 @@
+Automatic scan. HIGH = review before publishing; MED = check what it does; INFO = context.
+
+[MED] scripts/StarterGui/ModeratorPanel/Source.lua lines 5
+       very long line (32831 chars, possible obfuscation)
+
+Monetization ids found in code (gamepass / product). Replace with your own:
+  117501901079852  in scripts/ReplicatedStorage/Icon/VERSION.lua
+
+Outside URLs in code:
+  https://devforum.roblox.com/t/topbarplus/1017485`  in scripts/ReplicatedStorage/Icon/Attribute.lua
+  https://discord.gg/wx4ThpAsmw  in scripts/ReplicatedStorage/ActivityKeys.lua, scripts/ReplicatedStorage/CatalogUtilities.lua, scripts/ReplicatedStorage/CmdrClient.lua
+  https://eryn.io/Cmdr/guide/Hooks.html  in scripts/ReplicatedStorage/CmdrClient/Shared/Dispatcher.lua

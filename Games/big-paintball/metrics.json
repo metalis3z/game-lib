@@ -1,0 +1,438 @@
+{
+ "slug": "big-paintball",
+ "title": "BIG Paintball! Classic",
+ "genre": "arena FPS",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 506,
+  "screen_guis": 32,
+  "classes": {
+   "TextLabel": 161,
+   "ImageLabel": 153,
+   "Frame": 120,
+   "UIPadding": 78,
+   "ImageButton": 56,
+   "UIAspectRatioConstraint": 50,
+   "UIListLayout": 42,
+   "ScreenGui": 32,
+   "UICorner": 26,
+   "UITextSizeConstraint": 20,
+   "BillboardGui": 12,
+   "UIGridLayout": 11,
+   "UIGradient": 10,
+   "Folder": 9,
+   "UIScale": 8,
+   "TextButton": 7,
+   "LocalScript": 6,
+   "ScrollingFrame": 5,
+   "ViewportFrame": 3,
+   "Part": 3,
+   "SpecialMesh": 3,
+   "Attachment": 3,
+   "ParticleEmitter": 3,
+   "UIStroke": 3,
+   "TextBox": 1
+  },
+  "fonts": {
+   "GothamSSm Heavy": 106,
+   "GothamSSm Bold": 39,
+   "GothamSSm Medium": 12,
+   "GothamSSm Regular": 7,
+   "SourceSansPro Regular": 5
+  },
+  "background_colors": {
+   "#000000": 19,
+   "#ffffff": 14,
+   "#00ff00": 11,
+   "#e7e7e7": 5,
+   "#fd9e42": 3,
+   "#3eff8b": 2,
+   "#545454": 2,
+   "#52ff6c": 1,
+   "#16e6f1": 1,
+   "#ff0000": 1,
+   "#00ff7f": 1,
+   "#fda921": 1,
+   "#3aff2c": 1,
+   "#f700ff": 1
+  },
+  "text_colors": {
+   "#000000": 77,
+   "#ffffff": 68,
+   "#8c8c8c": 6,
+   "#ffdf3e": 4,
+   "#fd9e42": 3,
+   "#7e7e7e": 3,
+   "#ff2e89": 2,
+   "#ff4040": 1,
+   "#ff30f5": 1,
+   "#3eff8b": 1
+  },
+  "stroke_colors": {
+   "#72088c": 1,
+   "#ffd21d": 1,
+   "#000000": 1
+  },
+  "image_tints": {
+   "#000000": 77,
+   "#3eff8b": 20,
+   "#ffdf3e": 19,
+   "#ff3798": 10,
+   "#ffd91a": 7,
+   "#ff2e89": 4,
+   "#52ff6c": 4,
+   "#5d73ff": 2,
+   "#ff0000": 1,
+   "#ff1e1e": 1
+  },
+  "corner_radius": {
+   "{1.0,0}": 10,
+   "{0.0,8}": 5,
+   "{0.5,0}": 5,
+   "{0.25,0}": 2,
+   "{0.05,0}": 1,
+   "{0.0,4}": 1,
+   "{0.1,0}": 1,
+   "{0.1,3}": 1
+  },
+  "stroke_thickness": {
+   "3.0 px": 2,
+   "6.0 px": 1
+  },
+  "text_size_px": {
+   "18": 7,
+   "14": 5
+  },
+  "text_scaled_share": 0.93,
+  "size_mode": {
+   "mixed": 141,
+   "scale": 350,
+   "offset": 15
+  },
+  "unique_images": 43,
+  "per_100_objects": {
+   "UICorner": 5.1,
+   "UIStroke": 0.6,
+   "UIGradient": 2.0,
+   "UIAspectRatioConstraint": 9.9,
+   "UIListLayout": 8.3,
+   "UIGridLayout": 2.2,
+   "UIPadding": 15.4,
+   "UIScale": 1.6,
+   "UITextSizeConstraint": 4.0,
+   "ImageLabel": 30.2,
+   "ImageButton": 11.1,
+   "TextButton": 1.4
+  }
+ },
+ "map": {
+  "instances": 2093,
+  "parts": 1957,
+  "meshparts": 0,
+  "unions": 0,
+  "anchored_share": 1.0,
+  "textures_decals": 9,
+  "surface_appearances": 0,
+  "lights": 8,
+  "emitters": 4,
+  "beams_trails": 0,
+  "sounds": 0,
+  "prompts": 0,
+  "world_guis": 0,
+  "humanoids": 0,
+  "materials": {
+   "SmoothPlastic": 1917,
+   "Plastic": 38,
+   "ForceField": 2
+  },
+  "part_colors": {
+   "#5a697a": 264,
+   "#90929c": 242,
+   "#846b5b": 189,
+   "#a3a2a5": 142,
+   "#946b66": 120,
+   "#d07f75": 108,
+   "#74869d": 106,
+   "#a57872": 79,
+   "#6c584b": 77,
+   "#7a6354": 60,
+   "#ff5959": 57,
+   "#967969": 54,
+   "#9698a2": 41,
+   "#82848c": 39
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   386,
+   253,
+   378
+  ],
+  "extent_all_studs": [
+   451,
+   514,
+   4793
+  ],
+  "top_classes": {
+   "Part": 1931,
+   "Model": 61,
+   "Folder": 28,
+   "WedgePart": 18,
+   "SpawnLocation": 8,
+   "Decal": 7,
+   "SurfaceLight": 6,
+   "IntValue": 4,
+   "ParticleEmitter": 4,
+   "BoolValue": 2,
+   "StringValue": 2,
+   "ClickDetector": 2,
+   "NumberValue": 2,
+   "PointLight": 2,
+   "SpecialMesh": 2
+  }
+ },
+ "lighting": {
+  "Ambient": "#b682ea",
+  "Brightness": 2.5,
+  "ColorShift_Bottom": "#c5fffe",
+  "ColorShift_Top": "#c5fffe",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#41d5fd",
+  "FogEnd": 1000.0,
+  "FogStart": 100.0,
+  "GeographicLatitude": 56.0,
+  "GlobalShadows": true,
+  "Intent": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#7bc9e1",
+  "Outlines": false,
+  "Quality": 1,
+  "ShadowSoftness": 0.5,
+  "Technology": "Voxel",
+  "TimeOfDay": "10:54:00",
+  "@attributes": {
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#b7fffd",
+    "Decay": "#216070",
+    "DefinesCapabilities": false,
+    "Density": 0.214,
+    "Glare": 1.34,
+    "Haze": 1.22,
+    "Name": "Atmosphere",
+    "Offset": 0.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Default",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "",
+    "Name": "Default",
+    "SkyboxBk": "rbxassetid://3178156714",
+    "SkyboxDn": "rbxassetid://3178156991",
+    "SkyboxFt": "rbxassetid://3178156714",
+    "SkyboxLf": "rbxassetid://3178156714",
+    "SkyboxRt": "rbxassetid://3178156714",
+    "SkyboxUp": "rbxassetid://3178157411",
+    "StarCount": 0,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.65,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "CreditsColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "CreditsColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.267,
+    "FocusDistance": 70.46,
+    "InFocusRadius": 36.365,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.25
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "MenuBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "MenuBlur",
+    "Size": 8.0
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": false,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -1000.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 90.0,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "ui": 119,
+  "ui-kit": 1,
+  "map": 1,
+  "lighting": 1,
+  "model": 260,
+  "parts": 7,
+  "vfx": 36,
+  "animations": 1,
+  "model-set": 10,
+  "audio": 1,
+  "keyframes": 3,
+  "other": 9
+ },
+ "coverage": {
+  "instances": 12339,
+  "packed": 12247,
+  "services": 52,
+  "code_or_empty_folders_not_packed": 36,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1,
+   "ReplicatedStorage.Camera": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 3,
+ "animation_ids": 1,
+ "sound_ids": 4,
+ "files": 338,
+ "kb": 3978,
+ "category": "Shooter",
+ "source_file": "BIG Paintball! Classic 🔫-1.rbxl"
+}

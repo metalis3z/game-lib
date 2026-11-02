@@ -1,0 +1,148 @@
+-- Generated from animations/Workspace/StudioAssets/Pursuer/Pursuer/AnimSaves/PursuerSwing.rbxm by _tools/rbxm2lua.luau
+-- Animation pack: require(this)() returns the KeyframeSequence / Animation instances
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local function build()
+	local I = {}
+	I[1] = new("KeyframeSequence", nil, "PursuerSwing", { Loop = false, Priority = Enum.AnimationPriority.Action2 }, nil, { "1741400059" })
+		I[2] = new("Keyframe", I[1], "Keyframe")
+			I[3] = new("Pose", I[2], "HumanoidRootPart", { Weight = 0 })
+				I[4] = new("Pose", I[3], "Torso", { CFrame = CFrame.new(0.0273517, 0.0156887, -0.0006044, 0.9985605, -0.0420725, 0.0332679, 0.0414536, 0.9989582, 0.0190825, -0.0340361, -0.0176759, 0.9992643), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[5] = new("Pose", I[4], "Left Arm", { CFrame = CFrame.new(0.0918368, 0.0175088, 0.0673866, 0.9577702, 0.0684308, 0.2792729, -0.1278297, 0.9713424, 0.2003834, -0.2575572, -0.2276207, 0.9390703), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[6] = new("Pose", I[4], "Right Arm", { CFrame = CFrame.new(0.0064621, -0.001387, -0.003432, 0.9998907, -0.0142707, -0.0038692, 0.0142141, 0.9997971, -0.0142707, 0.004072, 0.0142141, 0.9998907), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[7] = new("Pose", I[4], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166616, 0.9995127, 0.0209833, -0.023108, -0.0213083, 0.9996762, -0.0139119, 0.0228086, 0.0143975, 0.9996362), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[8] = new("Keyframe", I[1], "Keyframe", { Time = 0.0333333 })
+			I[9] = new("Pose", I[8], "HumanoidRootPart", { Weight = 0 })
+				I[10] = new("Pose", I[9], "Torso", { CFrame = CFrame.new(0.1128481, 0.1407764, -0.0200312, 0.9573892, -0.2541349, 0.137191, 0.2297953, 0.9580761, 0.1711266, -0.1749287, -0.1323089, 0.9756507), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[11] = new("Pose", I[10], "Left Arm", { CFrame = CFrame.new(0.5333054, 0.0892154, 0.3849591, 0.0697256, -0.559652, 0.8257893, -0.9862995, 0.0853875, 0.1411469, -0.1495053, -0.8243171, -0.5460308), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[12] = new("Pose", I[10], "Right Arm", { CFrame = CFrame.new(0.0504679, -0.0309953, -0.0280238, 0.9885361, -0.1167089, 0.095788, 0.1212998, 0.991659, -0.0435736, -0.0899036, 0.0546932, 0.9944476), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[13] = new("Pose", I[10], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166619, 0.9817778, 0.135445, -0.1332925, -0.1536767, 0.9784895, -0.1376294, 0.111784, 0.1556055, 0.981474), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[14] = new("Keyframe", I[1], "Keyframe", { Time = 0.0666667 })
+			I[15] = new("Pose", I[14], "HumanoidRootPart", { Weight = 0 })
+				I[16] = new("Pose", I[15], "Torso", { CFrame = CFrame.new(0.0801628, 0.2118638, -0.0318055, 0.859685, -0.5014414, 0.0974592, 0.4648917, 0.8470799, 0.2575486, -0.2117012, -0.1761027, 0.9613379), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[17] = new("Pose", I[16], "Left Arm", { CFrame = CFrame.new(0.8483627, 0.2001077, 0.4657437, 0.017736, -0.88949, 0.4566103, -0.9416854, -0.1683421, -0.2913578, 0.3360266, -0.4248157, -0.8406055), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[18] = new("Pose", I[16], "Right Arm", { CFrame = CFrame.new(0.1215501, -0.0797037, -0.0667512, 0.9248059, -0.2735589, 0.2643853, 0.3007551, 0.9512937, -0.0677244, -0.2329814, 0.1421472, 0.9620363), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[19] = new("Pose", I[16], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166622, 0.9568422, 0.2617427, -0.1262683, -0.2837651, 0.9352426, -0.2116571, 0.0626918, 0.238353, 0.969153), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[20] = new("Keyframe", I[1], "Keyframe", { Time = 0.1 })
+			I[21] = new("Pose", I[20], "HumanoidRootPart", { Weight = 0 })
+				I[22] = new("Pose", I[21], "Torso", { CFrame = CFrame.new(-0.0797799, 0.1960742, -0.0277047, 0.7297356, -0.6768126, -0.0970085, 0.6772607, 0.6960487, 0.238399, -0.0938288, -0.2396683, 0.9663101), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[23] = new("Pose", I[22], "Left Arm", { CFrame = CFrame.new(1.0093353, 0.2867182, 0.4181988, 0.1378475, -0.9578796, 0.2519225, -0.8811447, -0.2347549, -0.4104563, 0.4523077, -0.1653997, -0.8763909), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[24] = new("Pose", I[22], "Right Arm", { CFrame = CFrame.new(0.2026019, -0.1360765, -0.1093123, 0.7877915, -0.4211639, 0.4494503, 0.495334, 0.8669041, -0.055871, -0.3660995, 0.2666427, 0.8915564), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[25] = new("Pose", I[22], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.016662, 0.9278347, 0.3717117, 0.0308728, -0.3431571, 0.8831276, -0.319889, -0.1461711, 0.2862099, 0.9469519), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[26] = new("Keyframe", I[1], "Keyframe", { Time = 0.1333333 })
+			I[27] = new("Pose", I[26], "HumanoidRootPart", { Weight = 0 })
+				I[28] = new("Pose", I[27], "Torso", { CFrame = CFrame.new(-0.2615626, 0.1138192, -0.0510452, 0.5672089, -0.759704, -0.3179998, 0.8204843, 0.5546725, 0.138362, 0.0712716, -0.339394, 0.9379404), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[29] = new("Pose", I[28], "Left Arm", { CFrame = CFrame.new(1.0828024, 0.3437563, 0.3482108, 0.2445142, -0.9622127, 0.1198312, -0.8597208, -0.2722862, -0.4321348, 0.448434, 0.0026417, -0.8938121), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[30] = new("Pose", I[28], "Right Arm", { CFrame = CFrame.new(0.275975, -0.1872129, -0.146566, 0.6204489, -0.5130721, 0.5931274, 0.6439463, 0.7649784, -0.0118807, -0.447634, 0.3893136, 0.8050209), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[31] = new("Pose", I[28], "Head", { CFrame = CFrame.new(0.0000001, -0.0000001, 0.016662, 0.8598425, 0.464751, 0.2113701, -0.3322625, 0.8236976, -0.4594821, -0.3876498, 0.3248519, 0.8626696), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[32] = new("Keyframe", I[1], "Keyframe", { Time = 0.1666667 })
+			I[33] = new("Pose", I[32], "HumanoidRootPart", { Weight = 0 })
+				I[34] = new("Pose", I[33], "Torso", { CFrame = CFrame.new(-0.3753215, 0.0331086, -0.0913675, 0.4389174, -0.7740421, -0.4563007, 0.8791756, 0.4747932, 0.0402707, 0.1854772, -0.418844, 0.8889139), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[35] = new("Pose", I[34], "Left Arm", { CFrame = CFrame.new(1.1029837, 0.3713307, 0.2947025, 0.3136379, -0.9480868, 0.0525617, -0.856038, -0.3062726, -0.4164084, 0.4108895, 0.0856066, -0.9076571), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[36] = new("Pose", I[34], "Right Arm", { CFrame = CFrame.new(0.3223244, -0.2193045, -0.1696501, 0.5031049, -0.5491607, 0.667314, 0.7195533, 0.6938517, 0.0285103, -0.4786737, 0.4658243, 0.7442306), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[37] = new("Pose", I[34], "Head", { CFrame = CFrame.new(0, -0.0000001, 0.016662, 0.7900995, 0.5242572, 0.3176433, -0.28884, 0.7754752, -0.5614355, -0.540661, 0.3518418, 0.764129), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[38] = new("Keyframe", I[1], "Keyframe", { Time = 0.2 })
+			I[39] = new("Pose", I[38], "HumanoidRootPart", { Weight = 0 })
+				I[40] = new("Pose", I[39], "Torso", { CFrame = CFrame.new(-0.2701447, 0.0144917, -0.0457609, 0.6593071, -0.6763586, -0.3284099, 0.7202368, 0.6935034, 0.0176617, 0.2158078, -0.2481774, 0.9443702), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[41] = new("Pose", I[40], "Left Arm", { CFrame = CFrame.new(0.9583082, 0.3484225, 0.4054699, 0.3064592, -0.9378254, 0.1629918, -0.8606947, -0.3461422, -0.3733502, 0.4065557, -0.0258696, -0.9132597), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[42] = new("Pose", I[40], "Right Arm", { CFrame = CFrame.new(0.3291675, -0.2230529, -0.1746331, 0.5386878, -0.5573868, 0.6317717, 0.705745, 0.7080938, 0.0229607, -0.4601516, 0.4335011, 0.7748144), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[43] = new("Pose", I[40], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166618, 0.8785738, 0.3180948, 0.3562637, -0.1488563, 0.8911536, -0.4285874, -0.4538171, 0.3235136, 0.8302946), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[44] = new("Keyframe", I[1], "Keyframe", { Time = 0.2333333 })
+			I[45] = new("Pose", I[44], "HumanoidRootPart", { Weight = 0 })
+				I[46] = new("Pose", I[45], "Torso", { CFrame = CFrame.new(-0.0069657, -0.135687, -0.0112984, 0.989763, -0.1424718, -0.0084258, 0.1391484, 0.976432, -0.1649797, 0.0317321, 0.1621184, 0.986261), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[47] = new("Pose", I[46], "Left Arm", { CFrame = CFrame.new(0.578127, 0.2926232, 0.6481065, 0.2010708, -0.8663794, 0.4571185, -0.8921608, -0.3546606, -0.2797591, 0.4044994, -0.3515717, -0.8442616), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[48] = new("Pose", I[46], "Right Arm", { CFrame = CFrame.new(0.3300774, -0.2208466, -0.1790755, 0.6687168, -0.5532076, 0.4967688, 0.6367985, 0.7710291, 0.0014118, -0.3838042, 0.3153975, 0.8678818), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[49] = new("Pose", I[46], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166622, 0.9276224, -0.2457605, 0.2812802, 0.2714461, 0.9608415, -0.0556833, -0.2565809, 0.1280055, 0.9580088), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[50] = new("Keyframe", I[1], "Keyframe", { Time = 0.2666667 })
+			I[51] = new("Pose", I[50], "HumanoidRootPart", { Weight = 0 })
+				I[52] = new("Pose", I[51], "Torso", { CFrame = CFrame.new(0.0889455, -0.3501802, -0.0835962, 0.8846884, 0.4534665, 0.1081415, -0.3710017, 0.8253196, -0.4256821, -0.2822839, 0.3364754, 0.8983876), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[53] = new("Pose", I[52], "Left Arm", { CFrame = CFrame.new(0.0497872, 0.2375656, 0.8447814, 0.0505298, -0.613323, 0.7882143, -0.9236746, -0.3288538, -0.1966731, 0.3798315, -0.7181156, -0.5831277), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[54] = new("Pose", I[52], "Right Arm", { CFrame = CFrame.new(0.3328872, -0.2182284, -0.1852219, 0.8171142, -0.5066643, 0.274983, 0.5272488, 0.8497102, -0.0011077, -0.2330946, 0.1458895, 0.9614485), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[55] = new("Pose", I[52], "Head", { CFrame = CFrame.new(0, 0.0000001, 0.0166619, 0.7612718, -0.6355647, 0.1285412, 0.6226709, 0.7718407, 0.1286193, -0.1809592, -0.0178754, 0.9833282), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[56] = new("Keyframe", I[1], "Keyframe", { Time = 0.3 })
+			I[57] = new("Pose", I[56], "HumanoidRootPart", { Weight = 0 })
+				I[58] = new("Pose", I[57], "Torso", { CFrame = CFrame.new(0.0618081, -0.3909454, -0.1014872, 0.778734, 0.6228341, 0.0751739, -0.5211089, 0.7089109, -0.4752799, -0.3493121, 0.3309428, 0.8766174), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[59] = new("Pose", I[58], "Left Arm", { CFrame = CFrame.new(-0.5414144, 0.2089111, 0.7829622, -0.0900229, -0.1904945, 0.9775519, -0.9248314, -0.3482374, -0.1530285, 0.3695711, -0.9178468, -0.1448261), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[60] = new("Pose", I[58], "Right Arm", { CFrame = CFrame.new(0.3379552, -0.2162571, -0.1913254, 0.9162405, -0.4006194, 0.0027497, 0.4002672, 0.9156833, 0.0361968, -0.017019, -0.0320644, 0.9993409), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[61] = new("Pose", I[58], "Head", { CFrame = CFrame.new(0, 0.0000001, 0.0166622, 0.7268611, -0.6626366, 0.1805147, 0.6674548, 0.7434859, 0.0416259, -0.161793, 0.0902291, 0.982691), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[62] = new("Keyframe", I[1], "Keyframe", { Time = 0.3333333 })
+			I[63] = new("Pose", I[62], "HumanoidRootPart", { Weight = 0 })
+				I[64] = new("Pose", I[63], "Torso", { CFrame = CFrame.new(0.038409, -0.3950936, -0.1021221, 0.7428164, 0.6678627, 0.0467252, -0.5695131, 0.6670344, -0.4803331, -0.3519639, 0.3301888, 0.8758407), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[65] = new("Pose", I[64], "Left Arm", { CFrame = CFrame.new(-1.0451908, 0.1955875, 0.2729881, -0.1675959, 0.3599663, 0.9177886, -0.8548529, -0.5167754, 0.0465815, 0.4910583, -0.7767674, 0.3943276), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[66] = new("Pose", I[64], "Right Arm", { CFrame = CFrame.new(0.3440903, -0.2155233, -0.1957905, 0.9318284, -0.2595103, -0.2536733, 0.2935267, 0.9500171, 0.1063465, 0.2133959, -0.1735566, 0.9614262), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[67] = new("Pose", I[64], "Head", { CFrame = CFrame.new(0, 0, 0.0166624, 0.7574686, -0.6057509, 0.2435309, 0.6355439, 0.7695141, -0.0627054, -0.1494167, 0.202272, 0.967864), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[68] = new("Keyframe", I[1], "Keyframe", { Time = 0.3666667 })
+			I[69] = new("Pose", I[68], "HumanoidRootPart", { Weight = 0 })
+				I[70] = new("Pose", I[69], "Torso", { CFrame = CFrame.new(0.0223783, -0.3937573, -0.1007156, 0.7374866, 0.6748115, 0.0272559, -0.5830051, 0.6564872, -0.4786749, -0.3409085, 0.337126, 0.8775691), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[71] = new("Pose", I[70], "Left Arm", { CFrame = CFrame.new(-1.2529254, 0.1655455, -0.2623255, -0.2900757, 0.7644908, 0.5756822, -0.7340477, -0.5636992, 0.3787046, 0.6140279, -0.3127251, 0.7246882), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[72] = new("Pose", I[70], "Right Arm", { CFrame = CFrame.new(0.3493478, -0.2157698, -0.1982936, 0.8852695, -0.1338114, -0.4454126, 0.23485, 0.9552596, 0.1797905, 0.4014266, -0.2637682, 0.8770878), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[73] = new("Pose", I[70], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166624, 0.7770784, -0.5716686, 0.2633328, 0.6132046, 0.7819422, -0.1120109, -0.1418779, 0.2485182, 0.9581802), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[74] = new("Keyframe", I[1], "Keyframe", { Time = 0.4 })
+			I[75] = new("Pose", I[74], "HumanoidRootPart", { Weight = 0 })
+				I[76] = new("Pose", I[75], "Torso", { CFrame = CFrame.new(0.0101693, -0.3802752, -0.0932505, 0.7590367, 0.6509308, 0.0123486, -0.5729032, 0.6768199, -0.4622734, -0.3092658, 0.343808, 0.8866514), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[77] = new("Pose", I[76], "Left Arm", { CFrame = CFrame.new(-1.0829362, 0.0155659, -0.6793343, -0.5065426, 0.8582591, -0.082503, -0.6541562, -0.3202113, 0.6852336, 0.5616895, 0.4010695, 0.7236354), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[78] = new("Pose", I[76], "Right Arm", { CFrame = CFrame.new(0.2567041, -0.2651024, -0.1427969, 0.7960358, -0.0163552, -0.6050286, 0.2122974, 0.9436685, 0.2538103, 0.5667953, -0.330488, 0.754666), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[79] = new("Pose", I[76], "Head", { CFrame = CFrame.new(0, 0, 0.0166625, 0.7931158, -0.5676811, 0.2206931, 0.5976925, 0.7951208, -0.1026962, -0.117179, 0.2133566, 0.9699216), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[80] = new("Keyframe", I[1], "Keyframe", { Time = 0.4333333 })
+			I[81] = new("Pose", I[80], "HumanoidRootPart", { Weight = 0 })
+				I[82] = new("Pose", I[81], "Torso", { CFrame = CFrame.new(0.0091937, -0.3659689, -0.0859547, 0.7860841, 0.6180191, 0.0111438, -0.5496167, 0.7071022, -0.444891, -0.2828309, 0.3435969, 0.8955154), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[83] = new("Pose", I[82], "Left Arm", { CFrame = CFrame.new(-0.8718449, -0.1294303, -0.8146172, -0.5754304, 0.6960211, -0.4294583, -0.6962624, -0.1414226, 0.7037175, 0.4290671, 0.7039562, 0.5659922), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[84] = new("Pose", I[82], "Right Arm", { CFrame = CFrame.new(0.1303211, -0.3293236, -0.0682222, 0.7524676, 0.0270481, -0.6580737, 0.2124348, 0.9357899, 0.2813692, 0.6234292, -0.3515189, 0.6984056), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[85] = new("Pose", I[82], "Head", { CFrame = CFrame.new(0.0000003, -0.0000002, 0.0166621, 0.8138651, -0.5588514, 0.1590874, 0.5742438, 0.8153877, -0.0733962, -0.0887003, 0.1510895, 0.9845325), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[86] = new("Keyframe", I[1], "Keyframe", { Time = 0.4666667 })
+			I[87] = new("Pose", I[86], "HumanoidRootPart", { Weight = 0 })
+				I[88] = new("Pose", I[87], "Torso", { CFrame = CFrame.new(0.0113838, -0.3494674, -0.0780146, 0.8166474, 0.5769704, 0.0138619, -0.5175367, 0.742732, -0.4248588, -0.2554266, 0.3397858, 0.9051535), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[89] = new("Pose", I[88], "Left Arm", { CFrame = CFrame.new(-0.6624737, -0.2662036, -0.8741546, -0.5744901, 0.5046523, -0.6444284, -0.7589622, -0.0336192, 0.6502666, 0.3064935, 0.8626681, 0.4023255), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[90] = new("Pose", I[88], "Right Arm", { CFrame = CFrame.new(0.0031065, -0.3933933, 0.0065264, 0.725535, 0.0495657, -0.686398, 0.2166037, 0.9302635, 0.2961296, 0.6532088, -0.3635288, 0.6642026), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[91] = new("Pose", I[88], "Head", { CFrame = CFrame.new(0.0000002, 0.0000001, 0.0166622, 0.8364205, -0.5412148, 0.0865296, 0.5451149, 0.8378728, -0.0286159, -0.0570134, 0.0711035, 0.9958382), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[92] = new("Keyframe", I[1], "Keyframe", { Time = 0.5 })
+			I[93] = new("Pose", I[92], "HumanoidRootPart", { Weight = 0 })
+				I[94] = new("Pose", I[93], "Torso", { CFrame = CFrame.new(0.0149203, -0.3326718, -0.0704219, 0.8457291, 0.5333045, 0.0181329, -0.4816009, 0.7774875, -0.4044427, -0.2297891, 0.3333161, 0.9143836), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[95] = new("Pose", I[94], "Left Arm", { CFrame = CFrame.new(-0.5239999, -0.3543372, -0.8889799, -0.5500182, 0.381812, -0.7427648, -0.8016432, 0.0080362, 0.5977487, 0.2341967, 0.924205, 0.301657), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[96] = new("Pose", I[94], "Right Arm", { CFrame = CFrame.new(-0.0813731, -0.4357515, 0.0560377, 0.7135872, 0.0576784, -0.6981879, 0.2203659, 0.9275368, 0.3018515, 0.6650053, -0.3692542, 0.6491681), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[97] = new("Pose", I[94], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166618, 0.856946, -0.5151501, 0.0162506, 0.5146986, 0.8569956, 0.0253765, -0.0269994, -0.0133821, 0.9995459), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[98] = new("Keyframe", I[1], "Keyframe", { Time = 0.5333334 })
+			I[99] = new("Pose", I[98], "HumanoidRootPart", { Weight = 0 })
+				I[100] = new("Pose", I[99], "Torso", { CFrame = CFrame.new(0.0184635, -0.3177336, -0.0640683, 0.869614, 0.4932222, 0.0224348, -0.4474965, 0.8065637, -0.3862666, -0.2086103, 0.3258633, 0.9221143), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[101] = new("Pose", I[100], "Left Arm", { CFrame = CFrame.new(-0.5033532, -0.3672819, -0.8893445, -0.5450126, 0.364628, -0.7549886, -0.8079246, 0.0122818, 0.5891578, 0.2240961, 0.9310724, 0.2878981), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[102] = new("Pose", I[100], "Right Arm", { CFrame = CFrame.new(-0.0939754, -0.4420558, 0.0634129, 0.7123533, 0.0583452, -0.6993916, 0.220956, 0.9272171, 0.302402, 0.6661315, -0.3699518, 0.6476145), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[103] = new("Pose", I[100], "Head", { CFrame = CFrame.new(0, -0.0000001, 0.0166622, 0.8731706, -0.4856976, -0.0408761, 0.4874074, 0.8696253, 0.0786495, -0.002653, -0.0885977, 0.9960639), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[104] = new("Keyframe", I[1], "Keyframe", { Time = 0.5666667 })
+			I[105] = new("Pose", I[104], "HumanoidRootPart", { Weight = 0 })
+				I[106] = new("Pose", I[105], "Torso", { CFrame = CFrame.new(0.0211122, -0.306999, -0.0597293, 0.8854704, 0.4639882, 0.025636, -0.4220967, 0.8261477, -0.3732484, -0.194362, 0.3196795, 0.9273772), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[107] = new("Pose", I[106], "Left Arm", { CFrame = CFrame.new(-0.5033532, -0.3672821, -0.8893445, -0.5450126, 0.364628, -0.7549886, -0.8079246, 0.0122818, 0.5891578, 0.2240961, 0.9310724, 0.2878981), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[108] = new("Pose", I[106], "Right Arm", { CFrame = CFrame.new(-0.0939755, -0.4420556, 0.063413, 0.7123533, 0.0583452, -0.6993916, 0.220956, 0.9272171, 0.302402, 0.6661315, -0.3699518, 0.6476145), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[109] = new("Pose", I[106], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166621, 0.8837504, -0.4614044, -0.0780453, 0.467767, 0.8757867, 0.1191293, 0.0133842, -0.1417876, 0.9898067), EasingStyle = Enum.PoseEasingStyle.Constant })
+		I[110] = new("Keyframe", I[1], "Keyframe", { Time = 0.6 })
+			I[111] = new("Pose", I[110], "HumanoidRootPart", { Weight = 0 })
+				I[112] = new("Pose", I[111], "Torso", { CFrame = CFrame.new(0.0221695, -0.3028883, -0.0581176, 0.8912672, 0.452675, 0.0269866, -0.4121356, 0.8334014, -0.3682204, -0.1891748, 0.3170606, 0.9293468), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[113] = new("Pose", I[112], "Left Arm", { CFrame = CFrame.new(-0.5033531, -0.3672816, -0.8893446, -0.5450126, 0.364628, -0.7549886, -0.8079246, 0.0122818, 0.5891578, 0.2240961, 0.9310724, 0.2878981), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[114] = new("Pose", I[112], "Right Arm", { CFrame = CFrame.new(-0.0939754, -0.4420556, 0.0634128, 0.7123533, 0.0583452, -0.6993916, 0.220956, 0.9272171, 0.302402, 0.6661315, -0.3699518, 0.6476145), EasingStyle = Enum.PoseEasingStyle.Constant })
+					I[115] = new("Pose", I[112], "Head", { CFrame = CFrame.new(0.0000001, 0, 0.0166621, 0.8875864, -0.4514904, -0.0913615, 0.4602429, 0.8774493, 0.1351267, 0.0191567, -0.161985, 0.9866073), EasingStyle = Enum.PoseEasingStyle.Constant })
+	return I[1]
+end
+
+return build

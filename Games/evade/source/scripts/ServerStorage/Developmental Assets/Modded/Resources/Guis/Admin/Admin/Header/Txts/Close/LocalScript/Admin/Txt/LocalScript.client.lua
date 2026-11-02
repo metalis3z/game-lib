@@ -1,0 +1,1 @@
+require(game:GetService("ReplicatedStorage").Packages.Gradients).apply(script.Parent, "YellowRed")

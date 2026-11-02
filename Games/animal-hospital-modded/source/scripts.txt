@@ -1,0 +1,918 @@
+916 scripts, 158024 lines
+kind     lines  enabled  path
+client     151  NO       scripts/ReplicatedFirst/LocalScript.client.lua
+client       6  yes      scripts/ReplicatedFirst/Preloader.client.lua
+module      35  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/BrokenBones.lua
+module      44  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/CursedPhoto.lua
+module      42  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/DifferentEars.lua
+module      48  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/DifferentFace.lua
+module      19  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/HiddenFace.lua
+module      47  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/SkinwalkerOpensMouth.lua
+module      11  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/Static.lua
+module      26  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/TwistNeck.lua
+module      45  yes      scripts/ReplicatedStorage/AnomalyEvents/DisguiseReveals/VoidPresence.lua
+module       5  yes      scripts/ReplicatedStorage/AnomalyEvents/HoldRoomBehaviour.lua
+module     139  yes      scripts/ReplicatedStorage/AnomalyEvents/Local/Jumpscares.lua
+module     187  yes      scripts/ReplicatedStorage/AnomalyEvents/Local/ShadowCamera.lua
+module     179  yes      scripts/ReplicatedStorage/AnomalyEvents/Local/TallMonsterLocal.lua
+module       0  yes      scripts/ReplicatedStorage/AnomalyEvents/ToDo/PatientRequiresRestraining.lua
+module      10  yes      scripts/ReplicatedStorage/AnomalyEvents/TriggerTypes.lua
+module      11  yes      scripts/ReplicatedStorage/Configs/Cmdr.lua
+module     178  yes      scripts/ReplicatedStorage/Data/Classes.lua
+module       3  yes      scripts/ReplicatedStorage/Data/Constants.lua
+module    1304  yes      scripts/ReplicatedStorage/Data/Dialogue.lua
+module       1  yes      scripts/ReplicatedStorage/Data/Gamepasses.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/UI/GoalsLocal.lua)
+module     315  yes      scripts/ReplicatedStorage/Data/IllnessesAndCures.lua
+module       1  yes      scripts/ReplicatedStorage/Data/Prods.lua
+module     117  yes      scripts/ReplicatedStorage/Data/ProductConfig.lua
+module      63  yes      scripts/ReplicatedStorage/Data/Rarity.lua
+module     569  yes      scripts/ReplicatedStorage/Data/UpgradeShopWares.lua
+module       5  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Cry.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/HeadSwing.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/LayDown.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Punch.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Rest.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/Sit.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/SitHappy.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Actions/Animations/SitLegsStraight.lua
+module       5  yes      scripts/ReplicatedStorage/GameData/Anomalies/BassieMonster.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/Ghost.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/Hider.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/Shadow.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Anomalies/TallMonster.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Agent R.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Assistant Nurse.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Barney.lua
+module       5  yes      scripts/ReplicatedStorage/GameData/Characters/Bassie.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Clown.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Doctor.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Head Nurse.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Hospital Cop.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Intern.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Nurse.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Officer Duckman.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Paramedic.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Psycho.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Psychologist.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Rascal.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Ratthew.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Ratthew2.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Ron from Accounting.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Secret Agent.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Secretary.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Security.lua
+module       4  yes      scripts/ReplicatedStorage/GameData/Characters/Supervisor.lua
+client      28  yes      scripts/ReplicatedStorage/Items/ClassicSword/MouseIcon.client.lua
+server     229  yes      scripts/ReplicatedStorage/Items/ClassicSword/SwordScript.server.lua
+client      23  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/ClientSide.client.lua
+client      11  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/RadioGui/MainFrame/PlaySong/LocalScript.client.lua
+client      11  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/RadioGui/MainFrame/StopSong/LocalScript.client.lua
+server      10  yes      scripts/ReplicatedStorage/Items/SuperFlyGoldBoombox/Script.server.lua
+module     174  yes      scripts/ReplicatedStorage/Lib.lua
+server       3  yes      scripts/ReplicatedStorage/Misc/Deployable_Camera/Handler.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Misc/JumpscareMasks/JumpscareMask/PP/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+server       3  NO       scripts/ReplicatedStorage/Misc/RagdollDummy/RagdollWiggle.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Misc/RatthewKeyAndNote/PP/Take Key.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+server       3  yes      scripts/ReplicatedStorage/Misc/RerollShop/PP/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+client      27  yes      scripts/ReplicatedStorage/Misc/Slime/PP/Script.server.lua
+server       3  yes      scripts/ReplicatedStorage/Misc/VendingMachine/PP/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+module      15  yes      scripts/ReplicatedStorage/Modules/CameraShaker.lua
+module     208  yes      scripts/ReplicatedStorage/Modules/CameraShaker/CameraShaker.lua
+module     168  yes      scripts/ReplicatedStorage/Modules/CameraShaker/CameraShaker/CameraShakeInstance.lua
+module      98  yes      scripts/ReplicatedStorage/Modules/CameraShaker/CameraShaker/CameraShakePresets.lua
+module      31  yes      scripts/ReplicatedStorage/Modules/ExtraPanelAccess.lua
+module      53  yes      scripts/ReplicatedStorage/Modules/GiveableTools.lua
+module     218  yes      scripts/ReplicatedStorage/Modules/UITweening.lua
+module     122  yes      scripts/ReplicatedStorage/Modules/WeatherHandler.lua
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~2/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~3/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~4/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~5/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~6/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~7/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~8/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball~9/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+server       3  yes      scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBed/Arms/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBed/Eyeball/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBed/Eyeball~2/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+server       3  yes      scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBedLarge/Arms/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBedLarge/Eyeball/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client      16  NO       scripts/ReplicatedStorage/NPCs/Anomalies/MonsterBedLarge/Eyeball~2/AimScript.server.lua   (same source as scripts/ReplicatedStorage/NPCs/Anomalies/EyeMass/Eyeball/AimScript.server.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/BassieMonster/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/Ghost/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/Hider/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/Shadow/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/Anomalies1/TallMonster/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Agent R/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Assistant Nurse/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Barney/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Bassie/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Clown/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Doctor/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Head Nurse/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Hospital Cop/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Intern/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Nurse/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Paramedic/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Psycho/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Psychologist/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Rascal/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Ratthew/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Ratthew2/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Ron from Accounting/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Secret Agent/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Secretary/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Security/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+client     654  yes      scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Supervisor/Animate.client.lua   (same source as scripts/ReplicatedStorage/NPCs/UniqueVisitors1/Officer Duckman/Animate.client.lua)
+module     166  yes      scripts/ReplicatedStorage/Pathfinder.lua
+module       1  yes      scripts/ReplicatedStorage/Purse.lua
+module    2512  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus.lua
+module      19  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Attribute.lua
+module     381  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Caption.lua
+module     225  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Container.lua
+module     410  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Dropdown.lua
+module     116  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Indicator.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Elements/Indicator.lua)
+module     209  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Menu.lua
+module     117  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Notice.lua
+module      50  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Selection.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Elements/Selection.lua)
+module     471  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Elements/Widget.lua
+module     198  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Gamepad.lua
+module     354  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Overflow.lua
+module     336  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Themes.lua
+module      38  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Themes/Classic.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Features/Themes/Classic.lua)
+module     109  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Features/Themes/Default.lua
+module     134  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Packages/GoodSignal.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Packages/GoodSignal.lua)
+module     363  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Packages/Janitor.lua
+module      29  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Reference.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/Reference.lua)
+module       1  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Types.lua   (same source as scripts/StarterPlayer/StarterPlayerScripts/UI/GoalsLocal.lua)
+module     723  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/Utility.lua
+module      45  yes      scripts/ReplicatedStorage/Purse/Packages/_Index/ryanlua_topbarplus@1.0.1/topbarplus/VERSION.lua
+module    2386  yes      scripts/ReplicatedStorage/Purse/Packages/purse.lua
+client      17  yes      scripts/ReplicatedStorage/Purse/Packages/purse/Attribution.server.lua
+client      10  NO       scripts/ReplicatedStorage/Purse/Packages/purse/ContextAction.server.lua
+client      11  NO       scripts/ReplicatedStorage/Purse/Packages/purse/CoreGuiWarn.server.lua
+client      34  yes      scripts/ReplicatedStorage/Purse/Packages/purse/TopbarIcon.server.lua
+module       1  yes      scripts/ReplicatedStorage/Purse/Packages/topbarplus.lua
+module      21  yes      scripts/ReplicatedStorage/ShopUpgradeScripts/Analyzer.lua
+module      16  yes      scripts/ReplicatedStorage/ShopUpgradeScripts/Computer.lua
+module      15  yes      scripts/ReplicatedStorage/ShopUpgradeScripts/Printer.lua
+client      80  yes      scripts/ReplicatedStorage/Tools/Gun/GunClient.client.lua
+client      80  yes      scripts/ReplicatedStorage/Tools/M4/GunClient.client.lua   (same source as scripts/ReplicatedStorage/Tools/Gun/GunClient.client.lua)
+module     187  yes      scripts/ReplicatedStorage/Tools/MeleeTools.lua
+module    1080  yes      scripts/ReplicatedStorage/TopbarIcon.lua
+module      12  yes      scripts/ReplicatedStorage/TopbarIcon/Attribute.lua
+module     378  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Caption.lua
+module     184  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Container.lua
+module     187  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Dropdown.lua
+module     116  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Indicator.lua
+module     203  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Menu.lua
+module     119  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Notice.lua
+module      50  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Selection.lua
+module     443  yes      scripts/ReplicatedStorage/TopbarIcon/Elements/Widget.lua
+module     194  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Gamepad.lua
+module     292  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Overflow.lua
+module     334  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Themes.lua
+module      38  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Themes/Classic.lua
+module     107  yes      scripts/ReplicatedStorage/TopbarIcon/Features/Themes/Default.lua
+module     134  yes      scripts/ReplicatedStorage/TopbarIcon/Packages/GoodSignal.lua
+module     364  yes      scripts/ReplicatedStorage/TopbarIcon/Packages/Janitor.lua
+module      29  yes      scripts/ReplicatedStorage/TopbarIcon/Reference.lua
+module     698  yes      scripts/ReplicatedStorage/TopbarIcon/Utility.lua
+module       1  yes      scripts/ReplicatedStorage/TopbarIcon/VERSION.lua
+module     291  yes      scripts/ReplicatedStorage/Util/Binder.lua
+module       9  yes      scripts/ReplicatedStorage/Util/Data.lua
+module      48  yes      scripts/ReplicatedStorage/Util/Find.lua
+module      84  yes      scripts/ReplicatedStorage/Util/Functional.lua
+module     117  yes      scripts/ReplicatedStorage/Util/Maid.lua
+module      95  yes      scripts/ReplicatedStorage/Util/Math.lua
+module      65  yes      scripts/ReplicatedStorage/Util/Model.lua
+module     174  yes      scripts/ReplicatedStorage/Util/Net.lua
+module     793  yes      scripts/ReplicatedStorage/Util/NetworkOld.lua
+module      47  yes      scripts/ReplicatedStorage/Util/Number.lua
+module      19  yes      scripts/ReplicatedStorage/Util/Position.lua
+module      88  yes      scripts/ReplicatedStorage/Util/RNG.lua
+module      78  yes      scripts/ReplicatedStorage/Util/ShuffleBag.lua
+module      50  yes      scripts/ReplicatedStorage/Util/Signal.lua
+module     176  yes      scripts/ReplicatedStorage/Util/Spring.lua
+module     118  yes      scripts/ReplicatedStorage/Util/Table.lua
+module      73  yes      scripts/ReplicatedStorage/Util/Text.lua
+module      20  yes      scripts/ReplicatedStorage/Util/TimeDate.lua
+module      48  yes      scripts/ReplicatedStorage/Util/Tween.lua
+module      51  yes      scripts/ReplicatedStorage/Util/Welds.lua
+server     108  yes      scripts/ServerScriptService/AdminActionsServer.server.lua
+server      90  yes      scripts/ServerScriptService/AdminBanKick.server.lua
+server     248  yes      scripts/ServerScriptService/AdminGiftCommand.server.lua
+server      99  yes      scripts/ServerScriptService/AdminPanelExtrasServer.server.lua
+server      61  yes      scripts/ServerScriptService/AmbulanceEvent.server.lua
+module     413  yes      scripts/ServerScriptService/AnomalyDirector.lua
+module     150  yes      scripts/ServerScriptService/AnomalyEventService.lua
+module     307  yes      scripts/ServerScriptService/AnomalyService.lua
+module     157  yes      scripts/ServerScriptService/AntiFreezeService.lua
+module      53  yes      scripts/ServerScriptService/CharacterService.lua
+module     597  yes      scripts/ServerScriptService/CheckInService.lua
+module     151  yes      scripts/ServerScriptService/ClassService.lua
+module      41  yes      scripts/ServerScriptService/Cmdr/Cmdr.lua
+module      28  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/gotoPlace.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/gotoPlaceServer.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/kick.lua
+module       7  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/kickServer.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/kill.lua
+module       9  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/killServer.lua
+module      15  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/respawn.lua
+module       8  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/respawnServer.lua
+module      22  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/teleport.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Admin/teleportServer.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/blink.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/fetch.lua
+module       5  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/fetchServer.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstance.lua
+module      27  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/getPlayerPlaceInstanceServer.lua
+module      26  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/position.lua
+module      33  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/thru.lua
+module       7  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/uptime.lua
+module      11  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/uptimeServer.lua
+module      12  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Debug/version.lua
+module      27  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/alias.lua
+module      65  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/bind.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/clear.lua
+module      18  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/convertTimestamp.lua
+module      17  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/echo.lua
+module      79  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/edit.lua
+module      28  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/history.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/hover.lua
+module      21  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/jsonArrayDecode.lua
+module      19  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/jsonArrayEncode.lua
+module      17  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/len.lua
+module      35  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/math.lua
+module      22  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/pick.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/rand.lua
+module      32  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/replace.lua
+module      32  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/resolve.lua
+module      20  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/run.lua
+module      38  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/runLines.lua
+module      53  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/runif.lua
+module      25  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/unbind.lua
+module      22  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/var.lua
+module      60  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/varServer.lua
+module      23  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/varSet.lua
+module      63  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/Utility/varSetServer.lua
+module      64  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInCommands/help.lua
+module       3  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/BindableResource.lua
+module      79  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/BrickColor.lua
+module      52  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Color3.lua
+module      26  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Command.lua
+module       3  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/ConditionFunction.lua
+module     112  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Duration.lua
+module      13  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/JSON.lua
+module      40  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/MathOperator.lua
+module      40  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Player.lua
+module      62  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/PlayerId.lua
+module     140  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Primitives.lua
+module      34  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/StoredKey.lua
+module      53  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Team.lua
+module      26  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Type.lua
+module      20  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/URL.lua
+module      32  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/UserInput.lua
+module      31  yes      scripts/ServerScriptService/Cmdr/Cmdr/BuiltInTypes/Vector.lua
+module     126  yes      scripts/ServerScriptService/Cmdr/Cmdr/CmdrClient.lua
+module     151  yes      scripts/ServerScriptService/Cmdr/Cmdr/CmdrClient/CmdrInterface.lua
+module     216  yes      scripts/ServerScriptService/Cmdr/Cmdr/CmdrClient/CmdrInterface/AutoComplete.lua
+module     336  yes      scripts/ServerScriptService/Cmdr/Cmdr/CmdrClient/CmdrInterface/Window.lua
+module      15  yes      scripts/ServerScriptService/Cmdr/Cmdr/CmdrClient/DefaultEventHandlers.lua
+module     217  yes      scripts/ServerScriptService/Cmdr/Cmdr/CreateGui.lua
+module      40  yes      scripts/ServerScriptService/Cmdr/Cmdr/Initialize.lua
+module     257  yes      scripts/ServerScriptService/Cmdr/Cmdr/Shared/Argument.lua
+module     222  yes      scripts/ServerScriptService/Cmdr/Cmdr/Shared/Command.lua
+module     190  yes      scripts/ServerScriptService/Cmdr/Cmdr/Shared/Dispatcher.lua
+module     294  yes      scripts/ServerScriptService/Cmdr/Cmdr/Shared/Registry.lua
+module     548  yes      scripts/ServerScriptService/Cmdr/Cmdr/Shared/Util.lua
+server      13  yes      scripts/ServerScriptService/Cmdr/CmdrServer.server.lua
+module      12  yes      scripts/ServerScriptService/Cmdr/Commands/countdown.lua
+module      19  yes      scripts/ServerScriptService/Cmdr/Commands/countdownServer.lua
+module      12  yes      scripts/ServerScriptService/Cmdr/Commands/emote.lua
+module       6  yes      scripts/ServerScriptService/Cmdr/Commands/emoteCancel.lua
+module       9  yes      scripts/ServerScriptService/Cmdr/Commands/emoteCancelServer.lua
+module      38  yes      scripts/ServerScriptService/Cmdr/Commands/emoteServer.lua
+module      12  yes      scripts/ServerScriptService/Cmdr/Commands/globalNotify.lua
+module       8  yes      scripts/ServerScriptService/Cmdr/Commands/globalNotifyServer.lua
+module      28  yes      scripts/ServerScriptService/Cmdr/Commands/startPoll.lua
+module      20  yes      scripts/ServerScriptService/Cmdr/Commands/startPollServer.lua
+module       6  yes      scripts/ServerScriptService/Cmdr/Commands/weatherCancel.lua
+module      67  yes      scripts/ServerScriptService/Cmdr/Commands/weatherCancelServer.lua
+module      12  yes      scripts/ServerScriptService/Cmdr/Commands/weatherEvent.lua
+module     314  yes      scripts/ServerScriptService/Cmdr/Commands/weatherEventServer.lua
+module      11  yes      scripts/ServerScriptService/Cmdr/Hooks/Permissions.lua
+module       8  yes      scripts/ServerScriptService/Cmdr/Types/danceType.lua
+module       7  yes      scripts/ServerScriptService/Cmdr/Types/weatherType.lua
+module     214  yes      scripts/ServerScriptService/ConsumableService.lua
+module     209  yes      scripts/ServerScriptService/DataService.lua
+server     262  yes      scripts/ServerScriptService/DiscordConnection.server.lua
+module      91  yes      scripts/ServerScriptService/DoorService.lua
+module     181  yes      scripts/ServerScriptService/DoorsService.lua
+server     125  yes      scripts/ServerScriptService/EmergencyDoor.server.lua
+module     284  yes      scripts/ServerScriptService/EmergencyService.lua
+server      46  yes      scripts/ServerScriptService/ExtraPanelUnlockServer.server.lua
+server      95  yes      scripts/ServerScriptService/ExtraPanelWeatherServer.server.lua
+module     326  yes      scripts/ServerScriptService/GunService.lua
+server       7  yes      scripts/ServerScriptService/HD Admin Classic/About.server.lua
+module      47  yes      scripts/ServerScriptService/HD Admin Classic/CustomFeatures/Client/Modules/ClientCommands.lua
+module      31  yes      scripts/ServerScriptService/HD Admin Classic/CustomFeatures/Client/SharedModules/Events.lua
+module      74  yes      scripts/ServerScriptService/HD Admin Classic/CustomFeatures/Server/Modules/Commands.lua
+client     762  yes      scripts/ServerScriptService/HD Admin Classic/CustomFeatures/Server/Morphs/Ben/Animate.client.lua
+client      15  yes      scripts/ServerScriptService/HD Admin Classic/CustomFeatures/Server/Morphs/Ben/HDAdminStarterCharacter.client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminStarterCharacter.client.lua)
+server      20  yes      scripts/ServerScriptService/HD Admin Classic/CustomFeatures/Server/Morphs/Ben/Health.server.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Health.server.lua)
+module      15  yes      scripts/ServerScriptService/HD Admin Classic/READ_ME.lua
+module     211  yes      scripts/ServerScriptService/HD Admin Classic/Settings.lua
+server      15  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader.server.lua
+module       9  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule.lua
+module    1092  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Attribute.lua
+module     315  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Caption.lua
+module     130  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Container.lua
+module     169  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Dropdown.lua
+module      91  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Indicator.lua
+module     183  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Menu.lua
+module     114  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Notice.lua
+module      49  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Selection.lua
+module     411  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Elements/Widget.lua
+module     200  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Features/Gamepad.lua
+module     325  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Features/Overflow.lua
+module     352  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Features/Themes.lua
+module      27  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Features/Themes/Classic.lua
+module      73  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Features/Themes/Default.lua
+module     182  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Packages/GoodSignal.lua
+module     377  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Packages/Janitor.lua
+module      30  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Reference.lua
+module     447  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/Utility.lua
+module       1  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Assets/Icon/VERSION.lua   (same source as scripts/ReplicatedStorage/TopbarIcon/VERSION.lua)
+module      37  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/ClientAPI.lua
+module     105  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/ClientChat.lua
+module     582  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/ClientCommands.lua
+module    1402  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/ClientCoreFunctions.lua
+module     210  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/ClientNetwork.lua
+module     451  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/CmdBar.lua
+module     184  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/FlyCommand.lua
+module     402  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs.lua
+module     158  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageAbout.lua
+module      30  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageAbout/Credits.lua
+module      21  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageAbout/Updates.lua
+module     416  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageAdmin.lua
+module     507  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageCommands.lua
+module     220  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageSettings.lua
+module     123  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/PageSpecial.lua
+module      20  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/RedNotices.lua
+module      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/ScreenAdapter.lua
+module      32  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/GUIs/TopbarIcon.lua
+module     155  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/InputHandler.lua
+module     218  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/Messages.lua
+module     190  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/Modules/Notices.lua
+module     274  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/SharedModules/CoreNotices.lua
+module      56  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/SharedModules/Events.lua
+module     318  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/SharedModules/MainFramework.lua
+module     171  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/SharedModules/MainFramework/MainVariables.lua
+module      43  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/SharedModules/SharedAPI.lua
+module     543  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/SharedModules/SharedCoreFunctions.lua
+client      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminGUIs/LocalScripts/HideGUIs.client.lua
+client     120  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminGUIs/MainFrame/Pages/Home/Banner/LocalScript.client.lua
+client       1  NO       scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminLocalFirst.client.lua
+client      15  NO       scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminStarterCharacter.client.lua
+client      24  NO       scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Client/StarterKit/HDAdminStarterPlayer.client.lua
+module      40  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Assets.lua
+server      75  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating.server.lua
+module       3  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule.lua
+module      40  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Assets.lua
+server      75  NO       scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/AutoUpdate/AutomaticUpdating.server.lua
+module    1046  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core.lua
+module     485  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/BoundingBox.lua
+module      79  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/History.lua
+module      61  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/ListenForManualWindowTrigger.lua
+module     365  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/Security.lua
+module     614  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/Selection.lua
+module     243  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/Snapping.lua
+module     726  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Core/Targeting.lua
+module     508  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/ArcHandles.lua
+module       6  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo.lua
+module      12  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary.lua
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/init.spec.lua
+module      30  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/join.lua
+module      94  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/join.spec.lua
+module      16  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/keys.lua
+module      74  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/keys.spec.lua
+module      17  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/values.lua
+module      96  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/values.spec.lua
+module      22  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List.lua
+module      20  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/filter.lua
+module      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/filter.spec.lua
+module      23  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/filterMap.lua
+module      92  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/filterMap.spec.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/find.lua
+module      30  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/find.spec.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/findWhere.lua
+module      63  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/findWhere.spec.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/foldLeft.lua
+module      61  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/foldLeft.spec.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/foldRight.lua
+module      61  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/foldRight.spec.lua
+module      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/getRange.lua
+module      62  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/getRange.spec.lua
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/init.spec.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/init.spec.lua)
+module      25  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/join.lua
+module      44  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/join.spec.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/map.lua
+module      61  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/map.spec.lua
+module      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/removeIndex.lua
+module      53  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/removeIndex.spec.lua
+module      23  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/removeRange.lua
+module      75  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/removeRange.spec.lua
+module      18  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/removeValue.lua
+module      43  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/removeValue.spec.lua
+module      22  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/replaceIndex.lua
+module      52  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/replaceIndex.spec.lua
+module      17  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/reverse.lua
+module      46  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/reverse.spec.lua
+module      18  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/sort.lua
+module      74  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/sort.spec.lua
+module      16  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/toSet.lua
+module      42  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/List/toSet.spec.lua
+module      15  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/None.lua
+module      14  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/None.spec.lua
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/init.spec.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/Dictionary/init.spec.lua)
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Cryo/isEmpty.lua
+module     389  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Debug.lua
+module     192  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Debug/SortedArray.lua
+module     368  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Handles.lua
+module      85  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/InstancePool.lua
+module      99  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Maid.lua
+module      45  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Make.lua
+module     399  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Region.lua
+module     443  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/SerializationV2.lua
+module     463  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/SerializationV3.lua
+module      70  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Signal.lua
+module     829  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/SupportLibrary.lua
+module     192  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/Try.lua
+module      18  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Libraries/fastSpawn.lua
+server       8  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Loaded/DescendantCount/DescendantCounter.server.lua
+client      11  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Loaded/ReplicationListener.client.lua
+module      85  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Loader.lua
+server       3  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Loader/PluginInitializer.server.lua
+client       3  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Loader/ToolInitializer.client.lua
+client      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/LocalEndpoint.client.lua
+server      11  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/ServerEndpoint/ServerEndpoint.server.lua
+module    1958  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/SyncAPI/SyncModule.lua
+module     261  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Anchor.lua
+module     259  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Collision.lua
+module     689  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Decorate.lua
+module     861  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Lighting.lua
+module     382  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Material.lua
+module     843  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Mesh.lua
+module     567  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Move.lua
+module     584  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Move/FreeDragging.lua
+module     187  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Move/HandleDragging.lua
+module     190  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Move/UIController.lua
+module      51  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Move/Util.lua
+module     229  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/NewPart.lua
+module     313  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Paint.lua
+module      74  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Paint/PaintHistoryRecord.lua
+module    1123  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Resize.lua
+module     983  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Rotate.lua
+module     429  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Surface.lua
+module     658  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Texture.lua
+module     268  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Tools/Weld.lua
+module     378  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ColorPicker.lua
+module     110  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ColorPicker/Slider.lua
+module      60  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock.lua
+module     122  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock/AboutPane.lua
+module      49  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock/SelectionButton.lua
+module     137  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock/SelectionPane.lua
+module      59  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock/ToolButton.lua
+module      92  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock/ToolList.lua
+module      70  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dock/Tooltip.lua
+module     128  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Dropdown.lua
+module     614  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Explorer.lua
+module     174  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Explorer/ItemList.lua
+module     341  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Explorer/ItemRow.lua
+module      62  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ExportDialog.lua
+module     159  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Frame.lua
+module     151  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ImageButton.lua
+module     125  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ImageLabel.lua
+module      50  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/LoadingSpinner.lua
+module      90  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Notifications.lua
+module      91  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/Notifications/NotificationDialog.lua
+module     226  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD.lua
+module      38  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/HotkeyTooltip.lua
+module      42  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/HotkeyTooltip/AltTooltip.lua
+module      61  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeInTooltip.lua
+module      60  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeLockTooltip.lua
+module      61  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/HotkeyTooltip/ScopeOutTooltip.lua
+module     107  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/ModeToggle.lua
+module     116  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/ModeToggle/Tooltip.lua
+module     200  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScopeHUD/ScopeHierarchyItemButton.lua
+module     133  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ScrollingFrame.lua
+module     173  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/TextBox.lua
+module     192  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/TextLabel.lua
+module      86  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/UI/ToolManualWindow.lua
+module      48  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact.lua
+module     157  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Binding.lua
+module     269  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Binding.spec.lua
+module     508  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.lua
+module     297  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/context.spec.lua
+module     126  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/defaultProps.spec.lua
+module      35  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/didMount.spec.lua
+module      92  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/didUpdate.spec.lua
+module      29  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/extend.spec.lua
+module     279  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/getDerivedStateFromProps.spec.lua
+module      67  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/getElementTraceback.spec.lua
+module      41  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/init.spec.lua
+module     209  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/legacyContext.spec.lua
+module     150  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/render.spec.lua
+module     602  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/setState.spec.lua
+module     175  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/shouldUpdate.spec.lua
+module     269  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/validateProps.spec.lua
+module      36  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/willUnmount.spec.lua
+module      93  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Component.spec/willUpdate.spec.lua
+module      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/ComponentLifecyclePhase.lua
+module     123  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Config.lua
+module      52  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Config.spec.lua
+module      51  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/ElementKind.lua
+module      54  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/ElementKind.spec.lua
+module      99  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/ElementUtils.lua
+module      95  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/ElementUtils.spec.lua
+module       7  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/GlobalConfig.lua
+module       9  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/GlobalConfig.spec.lua
+module     159  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Logging.lua
+module       7  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/None.lua
+module      24  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/NoopRenderer.lua
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Portal.lua
+module      38  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PropMarkers/Change.lua
+module      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PropMarkers/Change.spec.lua
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PropMarkers/Children.lua
+module      41  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PropMarkers/Event.lua
+module      19  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PropMarkers/Event.spec.lua
+module       5  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PropMarkers/Ref.lua
+module      41  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PureComponent.lua
+module      75  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/PureComponent.spec.lua
+module     283  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/RobloxRenderer.lua
+module     949  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/RobloxRenderer.spec.lua
+module     147  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/SingleEventManager.lua
+module     239  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/SingleEventManager.spec.lua
+module      30  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Symbol.lua
+module      24  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Symbol.spec.lua
+module      48  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Type.lua
+module      24  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/Type.spec.lua
+module      73  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/assertDeepEqual.lua
+module      99  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/assertDeepEqual.spec.lua
+module      27  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/assign.lua
+module      68  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/assign.spec.lua
+module     151  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createContext.lua
+module     304  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createContext.spec.lua
+module      74  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createElement.lua
+module     110  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createElement.spec.lua
+module      12  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createFragment.lua
+module      21  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createFragment.spec.lua
+module     456  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createReconciler.lua
+module     326  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createReconciler.spec.lua
+module      47  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createReconcilerCompat.lua
+module      82  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createReconcilerCompat.spec.lua
+module      38  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createRef.lua
+module      55  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createRef.spec.lua
+module      75  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createSignal.lua
+module      89  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createSignal.spec.lua
+module      85  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createSpy.lua
+module      90  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/createSpy.spec.lua
+module      54  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/getDefaultInstanceProperty.lua
+module      33  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/getDefaultInstanceProperty.spec.lua
+module      64  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/init.spec.lua
+module       7  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/internalAssert.lua
+module      44  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/invalidSetStateMessages.lua
+module      28  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/oneChild.lua
+module      35  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/oneChild.spec.lua
+module      27  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/strict.lua
+module      25  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/AutomaticUpdating/MainModule/Building Tools/Vendor/Roact/strict.spec.lua
+module     485  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/BoundingBoxModule.lua
+client      17  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Building Tools by F3X.client.lua
+module     743  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Core.lua
+server       1  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/FilterMode/FilterModeEnabler.server.lua
+module      76  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/HistoryModule.lua
+client     156  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTHSVColorPicker/[Component].client.lua
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SurfaceLight/Options/SideOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTMaterialToolGUI/MaterialOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTMeshToolGUI/TypeOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTNewPartToolGUI/TypeOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTSurfaceToolGUI/SideOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTSurfaceToolGUI/TypeOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      77  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTTextureToolGUI/SideOption/Dropdown/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/BTLightingToolGUI/SpotLight/Options/SideOption/Dropdown/[Component].client.lua)
+client      50  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Dock/InfoButtons/HelpButton/Tooltip/[Component].client.lua
+client     179  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Dock/ToolInformation/[Component].client.lua
+client      55  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Dock/Tooltip/[Component].client.lua
+client     134  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Dock/[Component].client.lua
+client      69  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/ExportDialog/[Component].client.lua
+client      46  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Notifications/HttpDisabledWarning/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Notifications/ToolUpdateNotification/[Component].client.lua)
+client      46  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Notifications/PluginUpdateNotification/[Component].client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Notifications/ToolUpdateNotification/[Component].client.lua)
+client      46  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Notifications/ToolUpdateNotification/[Component].client.lua
+client      52  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Interfaces/Notifications/[Component].client.lua
+client     155  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager.client.lua
+module     848  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Cheer@0.0.1.lua
+module       9  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Cheer@0.0.1/Metadata.lua
+module     770  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Cheer@0.0.1/SupportLibrary.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SupportLibrary.lua)
+module     770  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_SupportLibrary@1.0.0.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SupportLibrary.lua)
+module       9  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_SupportLibrary@1.0.0/Metadata.lua
+module     191  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Try@1.0.0.lua
+module       9  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Try@1.0.0/Metadata.lua
+module     769  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/LibraryManager/F3X_Try@1.0.0/SupportLibrary.lua
+server       9  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Loaded/ComponentCount/ComponentCounter.server.lua
+client      16  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Loaded/LoadDetector.client.lua
+module     409  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Region by AxisAngle.lua
+module     319  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SecurityModule.lua
+module     388  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SelectionModule.lua
+module     444  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SerializationModule.lua
+module     243  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SnappingModule.lua
+module     770  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SupportLibrary.lua
+client      22  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/LocalSyncEndpointScript.client.lua
+server      11  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/ServerEndpoint/ServerEndpointScript.server.lua
+module    1611  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule.lua
+module    4206  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule/LoadLibrary/RbxGui.lua
+module    2195  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule/LoadLibrary/RbxStamper.lua
+module    1108  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/SyncAPI/SyncModule/LoadLibrary/RbxUtility.lua
+module     352  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/TargetingModule.lua
+module     249  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/AnchorTool.lua
+module     249  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/CollisionTool.lua
+module      76  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/CoreToolLoader.lua
+module     627  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/DecorateTool.lua
+module     767  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/LightingTool.lua
+module     339  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/MaterialTool.lua
+module     751  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/MeshTool.lua
+module    1321  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/MoveTool.lua
+module     193  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/NewPartTool.lua
+module     398  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/PaintTool.lua
+module    1104  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/ResizeTool.lua
+module     863  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/RotateTool.lua
+module     360  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/SurfaceTool.lua
+module     611  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/TextureTool.lua
+module     257  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/BuildingTools/Building Tools/Tools/WeldTool.lua
+client       8  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/Crash.client.lua
+module      15  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/HDAdminSetup.lua
+client      27  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/PackageValidator.client.lua
+client     595  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Animate.client.lua
+server      20  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Health.server.lua
+server      60  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Sound.server.lua
+client     354  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Sound/LocalSound.client.lua
+client     538  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR6/Animate.client.lua
+server      20  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR6/Health.server.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Health.server.lua)
+server      60  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR6/Sound.server.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Sound.server.lua)
+client     354  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR6/Sound/LocalSound.client.lua   (same source as scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/RigR15/Sound/LocalSound.client.lua)
+module     231  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/SettingsCopy.lua
+client      25  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Assets/SetupQuickJoiners.client.lua
+module     125  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/CommandHandler.lua
+module    4842  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/Commands.lua
+module      63  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/Commands/Extensions.lua
+module      39  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/DataStores.lua
+module     278  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/DataStores/PlayerData.lua
+module     188  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/DataStores/SystemData.lua
+module      26  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/GamepassHandler.lua
+module     251  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/LoaderHandler.lua
+module     687  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/MorphHandler.lua
+module     390  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/Parser.lua
+module     269  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/Parser/Arguments.lua
+module     216  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/Parser/Qualifiers.lua
+module     291  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/PlayerHandler.lua
+module      66  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/ServerAPI.lua
+module     656  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/ServerCoreFunctions.lua
+module     621  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Modules/ServerNetwork.lua
+client      28  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Tools/Sword/MouseIcon.client.lua
+server     165  yes      scripts/ServerScriptService/HD Admin Classic/Settings/Loader/MainModule/Server/Tools/Sword/SwordScript.server.lua
+module      58  yes      scripts/ServerScriptService/MinigameService.lua
+module     175  yes      scripts/ServerScriptService/MiscService.lua
+server     220  yes      scripts/ServerScriptService/MonetizationBuys.server.lua
+server      52  yes      scripts/ServerScriptService/MonetizationSpins.server.lua
+server     260  yes      scripts/ServerScriptService/MorphService.server.lua
+server      93  yes      scripts/ServerScriptService/NameTag.server.lua
+client       9  NO       scripts/ServerScriptService/NameTag/NameTag/LowerText/RainbowOwner.client.lua
+server      25  yes      scripts/ServerScriptService/NotifyServer.server.lua
+module     641  yes      scripts/ServerScriptService/PatientCareService.lua
+module     931  yes      scripts/ServerScriptService/PatientService.lua
+module     113  yes      scripts/ServerScriptService/PhotoService.lua
+module    2243  yes      scripts/ServerScriptService/ProfileStore.lua
+module     127  yes      scripts/ServerScriptService/RejectionService.lua
+server     173  yes      scripts/ServerScriptService/Restauracion.server.lua
+module     145  yes      scripts/ServerScriptService/SanityService.lua
+server      76  yes      scripts/ServerScriptService/ServerBootstrap.server.lua
+server      11  yes      scripts/ServerScriptService/ServerScripts/NotifyServer.server.lua
+module     283  yes      scripts/ServerScriptService/ShiftService.lua
+module     564  yes      scripts/ServerScriptService/SkinwalkerService.lua
+server     125  yes      scripts/ServerScriptService/StaffDoor.server.lua
+module      66  yes      scripts/ServerScriptService/SupplyService.lua
+module     157  yes      scripts/ServerScriptService/ToolGripService.lua
+module     327  yes      scripts/ServerScriptService/ToolService.lua
+module     299  yes      scripts/ServerScriptService/ToolService1.lua
+server     411  yes      scripts/ServerScriptService/TrollActionServer.server.lua
+server      44  yes      scripts/ServerScriptService/TrollFreeAdmin.server.lua
+server      67  yes      scripts/ServerScriptService/__MCP_CommandListener.server.lua
+server    2143  yes      scripts/ServerScriptService/ver.server.lua
+client       9  yes      scripts/StarterGui/Actions/inv/ActionFrame/Organize.client.lua
+client      42  yes      scripts/StarterGui/Actions/inv/ActionFrame/Template/LocalScript.client.lua
+client      87  yes      scripts/StarterGui/AdminPanel/AdminPanel/AdminActionsClient.client.lua
+module      77  yes      scripts/StarterGui/AdminPanel/AdminPanel/AdminCooldownClient.lua
+client     123  yes      scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AddBrainrotBase/Frame/AddToolController.client.lua
+client     121  yes      scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AddSanity/Frame/AddSanityController.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AddSanity/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AdminPlus/AdminPlus/Color/Layout/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AdminPlus/AdminPlus/Color/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AdminPlus/AdminPlus/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      11  yes      scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AdminPlus/BeOwner/BeOwnerBuy.client.lua
+client      11  yes      scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AdminPlus/HDAdmin/HDAdminBuy.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/AdminPlus/Reward3~2/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client     231  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/BrainrotMorph/Frame/Brainrot/LocalScript.client.lua
+client     117  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/EventRunner/Frame/eventName/LocalScript.client.lua
+client      85  yes      scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/GiveBrainrot/Frame/GiveController.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/LeaderboardEditor/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client     404  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/ModelsMorph/Frame/Brainrot/LocalScript.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/ModelsMorph/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client     177  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/PlayerMorph/Frame/MorphName/LocalScript.client.lua
+client     330  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/SessionSettings/SessionSettingsController.client.lua
+client      50  NO       scripts/StarterGui/AdminPanel/AdminPanel/Holder/ScrollingFrame/SetBaseFloors/Frame/Reward3/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+module      70  yes      scripts/StarterGui/AdminPanel/AdminPanel/NotifModule.lua
+client      10  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/Main/Close/CloseButton.client.lua
+client      50  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/Main/Layout/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/Main/RGBAnimation.client.lua   (same source as scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua)
+client      50  yes      scripts/StarterGui/AdminPanel/AdminPanel/Top/RGBAnimation.client.lua
+client      14  yes      scripts/StarterGui/BoostDuration/black/charges/BoostInfo.client.lua
+client      18  yes      scripts/StarterGui/CameraSystem/CameraEffects/static/staticframe/StaticCreator.client.lua
+client       1  yes      scripts/StarterGui/CameraSystem/Controls/Container/ButtonsHolder/ButtonsController.client.lua
+client      51  yes      scripts/StarterGui/CharacterCreation/inv/close/LocalScript.client.lua
+client      12  yes      scripts/StarterGui/CharacterSelection/AnomalySelection/close/LocalScript.client.lua
+client      22  yes      scripts/StarterGui/CharacterSelection/AnomalySelection/inv/inv/ScrollingFrame/Organize.client.lua
+client      15  yes      scripts/StarterGui/CharacterSelection/AnomalySelection/inv/inv/ScrollingFrame/Template/LocalScript.client.lua
+client      12  yes      scripts/StarterGui/CharacterSelection/PremadeSelection/close/LocalScript.client.lua
+client      39  yes      scripts/StarterGui/CharacterSelection/PremadeSelection/inv/inv/ScrollingFrame/Organize.client.lua
+client      15  yes      scripts/StarterGui/CharacterSelection/PremadeSelection/inv/inv/ScrollingFrame/Template/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/CharacterSelection/Selection/close/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Character/LocalScript.client.lua)
+client      11  yes      scripts/StarterGui/CharacterSelection/Selection/inv/inv/Options/anomalies/LocalScript.client.lua
+client      13  yes      scripts/StarterGui/CharacterSelection/Selection/inv/inv/Options/classes/LocalScript.client.lua
+client      56  yes      scripts/StarterGui/CharacterSelection/Selection/inv/inv/Options/custom/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/CharacterSelection/Selection/submit/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/Classes/Frame/Options/MobileScaling.client.lua   (same source as scripts/StarterGui/Skins/Frame/Options/MobileScaling.client.lua)
+client       8  yes      scripts/StarterGui/Classes/Frame/Options/MobileScrollbarAdapt.client.lua   (same source as scripts/StarterGui/Skins/Frame/Options/MobileScrollbarAdapt.client.lua)
+client       9  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/1/Text/OutlineStroke/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       9  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/2/Text/OutlineStroke/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       9  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/LevelFrame/Level/3/Text/OutlineStroke/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client      10  yes      scripts/StarterGui/Classes/Info/Frame/DataFrame/MobilePosition.client.lua
+client      10  yes      scripts/StarterGui/Classes/Info/Frame/MobileScaling.client.lua   (same source as scripts/StarterGui/Shop/Frame/MobileScaling.client.lua)
+client      10  yes      scripts/StarterGui/Classes/Info/Frame/SkillFrame/MobilePosition.client.lua   (same source as scripts/StarterGui/Classes/Info/Frame/DataFrame/MobilePosition.client.lua)
+client       5  yes      scripts/StarterGui/Coins/coins/MobileScaling.client.lua
+client      36  yes      scripts/StarterGui/ConfettiCannon/ConfettiFrame/Confetti.client.lua
+module     132  yes      scripts/StarterGui/ConfettiCannon/ConfettiFrame/Confetti/ConfettiParticles.lua
+client       4  NO       scripts/StarterGui/Dialogue/Frame/stage/spiral/LocalScript.client.lua
+client       8  NO       scripts/StarterGui/EmergencyCounter/Frame/MobileScaling.client.lua
+client      11  yes      scripts/StarterGui/EmergencyCounter/Frame/UIScale/Scaler.client.lua   (same source as scripts/StarterGui/Objective/Frame/UIScale/Scaler.client.lua)
+client     201  yes      scripts/StarterGui/ExtraPanel/ExtraPanelClient.client.lua
+client      10  yes      scripts/StarterGui/GiftList/Frame/MobileScaling.client.lua   (same source as scripts/StarterGui/Shop/Frame/MobileScaling.client.lua)
+client       8  yes      scripts/StarterGui/GiftList/Frame/MobileScrollbarAdapt.client.lua   (same source as scripts/StarterGui/Skins/Frame/Options/MobileScrollbarAdapt.client.lua)
+client      17  yes      scripts/StarterGui/Menu/Frame/Frame/Actions/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/Menu/Frame/Frame/Actions/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Friends/ModdedRainbowSpin.client.lua)
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Actions/Text/UIStroke~2/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Actions/UIStroke/ModdedRainbow/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Menu/Frame/Frame/Actions/UIStroke/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua)
+client      19  yes      scripts/StarterGui/Menu/Frame/Frame/Admin/AdminOpen.client.lua
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Admin/UIStroke/ModdedRainbow/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Menu/Frame/Frame/Admin/UIStroke/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua)
+client      10  yes      scripts/StarterGui/Menu/Frame/Frame/Character/LocalScript.client.lua
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Character/UIStroke/ModdedRainbow/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Menu/Frame/Frame/Character/UIStroke/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua)
+client      16  yes      scripts/StarterGui/Menu/Frame/Frame/Friends/LocalScript.client.lua
+client      10  yes      scripts/StarterGui/Menu/Frame/Frame/Friends/ModdedRainbowSpin.client.lua
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Friends/Text/UIStroke~2/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Friends/UIStroke/ModdedRainbow/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/Menu/Frame/Frame/Friends/UIStroke/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua)
+client       8  yes      scripts/StarterGui/Menu/Frame/Frame/MobileScaling.client.lua
+client      10  yes      scripts/StarterGui/Menu/Frame/Frame/Shop/LocalScript.client.lua
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Shop/Text/UIStroke~2/UIGradient/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       9  yes      scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua
+client       8  yes      scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua
+client      14  yes      scripts/StarterGui/Menu/Frame/UIScale/Scaler.client.lua
+client       7  yes      scripts/StarterGui/Minigame/Folder/Coin/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/Danger/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/Empty/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/GoldNoCoin/MobileScaling.client.lua   (same source as scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua)
+client       7  yes      scripts/StarterGui/Minigame/Folder/Template/MobileScaling.client.lua
+client       9  yes      scripts/StarterGui/Minigame/Frame/MobileScaling.client.lua
+client       1  yes      scripts/StarterGui/Notifications/Announcements/TopbarAdjust.client.lua
+client      11  yes      scripts/StarterGui/Objective/Frame/UIScale/Scaler.client.lua
+client      12  yes      scripts/StarterGui/P2W/Second/Sanity/AdminOpen.client.lua
+client       9  yes      scripts/StarterGui/P2W/Second/Sanity/UIStroke/ModdedRainbow/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/P2W/Second/Sanity/UIStroke/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua)
+client      18  NO       scripts/StarterGui/PhotoUI/static/LocalScript.client.lua   (same source as scripts/StarterGui/static/staticframe/StaticScript.client.lua)
+client      18  NO       scripts/StarterGui/PhotoUI2/static/LocalScript.client.lua   (same source as scripts/StarterGui/static/staticframe/StaticScript.client.lua)
+client      13  yes      scripts/StarterGui/Sanity/Frame/UIScaleAndPos/ScalerAndRepos.client.lua
+client      74  yes      scripts/StarterGui/Shift/Frame/header/ShiftTracker.client.lua
+client      11  yes      scripts/StarterGui/Shift/Frame/header/UIScale/Scaler.client.lua   (same source as scripts/StarterGui/Objective/Frame/UIScale/Scaler.client.lua)
+client      10  yes      scripts/StarterGui/Shop/Frame/MobileScaling.client.lua
+client      13  yes      scripts/StarterGui/Shop/Frame/close/CloseShopClient.client.lua
+client      20  yes      scripts/StarterGui/Shop/Frame/inv/CashShopScroll.client.lua
+client      84  yes      scripts/StarterGui/Shop/Frame/inv/inv/Cash/CashShopBuyWiring.client.lua
+client      19  yes      scripts/StarterGui/Shop/Frame/x2/LocalScript.client.lua
+client      11  yes      scripts/StarterGui/Skins/Frame/Options/MobileScaling.client.lua
+client       8  yes      scripts/StarterGui/Skins/Frame/Options/MobileScrollbarAdapt.client.lua
+client      49  yes      scripts/StarterGui/Troll/TrollButtonsClient.client.lua
+client     145  yes      scripts/StarterGui/Troll/TrollSpectatorClient.client.lua
+client      12  yes      scripts/StarterGui/Troll/UIStrokeFix.client.lua
+client      74  yes      scripts/StarterGui/TrollButton/Extra/ExtraOpenClient.client.lua
+client      24  yes      scripts/StarterGui/TrollButton/Extra/Icon/Animate.client.lua   (same source as scripts/StarterGui/TrollButton/Troll/Icon/Animate.client.lua)
+client      24  yes      scripts/StarterGui/TrollButton/Troll/Icon/Animate.client.lua
+client      75  yes      scripts/StarterGui/TrollButton/Troll/TrollOpenClient.client.lua
+client       9  yes      scripts/StarterGui/TrollButton/Troll/UIStroke/ModdedRainbow/LocalScript.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbow/LocalScript.client.lua)
+client       8  yes      scripts/StarterGui/TrollButton/Troll/UIStroke/ModdedRainbowSpin.client.lua   (same source as scripts/StarterGui/Menu/Frame/Frame/Shop/UIStroke/ModdedRainbowSpin.client.lua)
+client       4  yes      scripts/StarterGui/static/LocalScript.client.lua
+client      18  yes      scripts/StarterGui/static/staticframe/StaticScript.client.lua
+client     687  yes      scripts/StarterPlayer/StarterCharacterScripts/Animate.client.lua
+client      21  yes      scripts/StarterPlayer/StarterCharacterScripts/CameraFixer.client.lua
+client      89  yes      scripts/StarterPlayer/StarterCharacterScripts/CheckFloor.client.lua
+client      59  yes      scripts/StarterPlayer/StarterCharacterScripts/MusicZoneLocal.client.lua
+server       0  NO       scripts/StarterPlayer/StarterCharacterScripts/RevivePP.server.lua
+client      48  yes      scripts/StarterPlayer/StarterCharacterScripts/RunNotif.client.lua
+client      52  yes      scripts/StarterPlayer/StarterCharacterScripts/Sound.client.lua
+client      36  yes      scripts/StarterPlayer/StarterPlayerScripts/AdminPanelPromptOpen.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/AmbulanceSpin.client.lua
+client      81  yes      scripts/StarterPlayer/StarterPlayerScripts/Client.client.lua
+module      24  yes      scripts/StarterPlayer/StarterPlayerScripts/Client/core.lua
+client      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Cmdr.client.lua
+client     105  yes      scripts/StarterPlayer/StarterPlayerScripts/EventBoardClient.client.lua
+module      52  yes      scripts/StarterPlayer/StarterPlayerScripts/FeedbackController.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/FeedbackControllerLoader.client.lua
+client     576  yes      scripts/StarterPlayer/StarterPlayerScripts/Global.client.lua
+client      70  yes      scripts/StarterPlayer/StarterPlayerScripts/InfiniteGradient.client.lua
+client      65  NO       scripts/StarterPlayer/StarterPlayerScripts/JoinGroupPrompt.client.lua
+module     108  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalDataHandler.lua
+client      10  yes      scripts/StarterPlayer/StarterPlayerScripts/LocalScript.client.lua
+client     124  yes      scripts/StarterPlayer/StarterPlayerScripts/MorphEnvironmentReset.client.lua
+client     161  yes      scripts/StarterPlayer/StarterPlayerScripts/MoveDebug.client.lua
+client      79  yes      scripts/StarterPlayer/StarterPlayerScripts/NameTagColors.client.lua
+client     653  yes      scripts/StarterPlayer/StarterPlayerScripts/ProximityPromptScript.client.lua
+client       3  NO       scripts/StarterPlayer/StarterPlayerScripts/ProximityPromptScript/README.client.lua
+client      23  yes      scripts/StarterPlayer/StarterPlayerScripts/SkullSpin.client.lua
+client     111  yes      scripts/StarterPlayer/StarterPlayerScripts/ThirdPersonToggle.client.lua
+module     448  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/CameraSystem.lua
+module      33  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/CharacterEffectsLocal.lua
+module     209  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/CircleMinigameLocal.lua
+module     790  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/Cutscenes.lua
+module      74  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DeathStrikesLocal.lua
+module     207  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DiedLocal.lua
+module     136  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DontLookUpLocal.lua
+module      76  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/DoorsLocal.lua
+module      64  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/EmergencyEventCounterLocal.lua
+module       1  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/GoalsLocal.lua
+module      68  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/HeadRotationLocal.lua
+module     200  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/HeartbeatMinigameLocal.lua
+module     104  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/InspectLocal.lua
+module      12  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/JumpscaresLoader.lua
+module     179  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ModelAnimsLocal.lua
+module      96  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/MusicPlayer.lua
+module      84  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/NotificationsLocal.lua
+module      38  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ObjectivesLocal.lua
+module     115  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/OffscreenPointer.lua
+module      76  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PhotoLocal.lua
+module     116  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PhotoSystem.lua
+module      27  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PlayerControls.lua
+module      27  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/PlayerUpgradeShopLocal.lua
+module     198  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/SanityLocal.lua
+module     114  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/ShiftReportStats.lua
+module      39  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/SkinwalkerDisguiseRevealLocal.lua
+module      15  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/StatsLocal.lua
+module      35  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/TextChatTags.lua
+module      20  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/UIStrokeHelper.lua
+module     216  yes      scripts/StarterPlayer/StarterPlayerScripts/UI/VisualEffects.lua
+client      31  yes      scripts/StarterPlayer/StarterPlayerScripts/UIInit.client.lua
+module      35  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/BillboardButton.lua
+module     248  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Buttons.lua
+module     430  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/ContextActionUtility.lua
+module      48  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/GunsLocal.lua
+module      32  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/HapticServiceHelper.lua
+module      29  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/LocalBeam.lua
+module       9  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/LocalUtil.lua
+module     205  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/MusicService.lua
+module      11  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/PlayerControl.lua
+module      93  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/ResizeScrollingFrame.lua
+module      99  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/SpecialEffects.lua
+module      23  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/TabSelection.lua
+module     143  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Talk.lua
+module      27  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Textbox.lua
+module     115  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/UI.lua
+module     107  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/UIStrokeAdjuster.lua
+module     232  yes      scripts/StarterPlayer/StarterPlayerScripts/Util/Viewport.lua
+server       9  yes      scripts/Workspace/Chocolate bar/Part~2/PP/Script.server.lua
+server       3  yes      scripts/Workspace/JumpscareMask/PP/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+client      22  yes      scripts/Workspace/M4/BobAnimation.client.lua
+server      13  yes      scripts/Workspace/M4/PP/Script.server.lua   (same source as scripts/Workspace/Monetization/BuyM4/Part~2/Attachment/ProximityPrompt/Script.server.lua)
+server       9  yes      scripts/Workspace/Misc/Gun/PP/Script.server.lua
+server       0  yes      scripts/Workspace/Misc/Nurse/Script.server.lua
+server       3  yes      scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua
+server       3  yes      scripts/Workspace/Misc/SecurityCamPC/screen/UI/Frame/cams/Script.server.lua   (same source as scripts/Workspace/Misc/Safe/Model/PP/SafeHandler.server.lua)
+server       0  yes      scripts/Workspace/Model~7/Model/BrokenBabyDoll/Script.server.lua
+server       6  yes      scripts/Workspace/Monetization/AllTool/Buy/ProximityPrompt/BuyAllTools.server.lua
+server      11  yes      scripts/Workspace/Monetization/AllTool/Buy/Spin.server.lua
+server      27  yes      scripts/Workspace/Monetization/AmbulanceCall/Call/Attachment/ProximityPrompt/CallAmbulance.server.lua
+server      13  yes      scripts/Workspace/Monetization/BuyM4/Part~2/Attachment/ProximityPrompt/Script.server.lua
+client      13  yes      scripts/Workspace/Monetization/HealAll/Part~2/BillboardGui/Frame/TextLabel/Script.server.lua
+server      22  yes      scripts/Workspace/Monetization/SkipShift/buy/Attachment/ProximityPrompt/SkipShiftBuy.server.lua

@@ -1,0 +1,142 @@
+-- Generated from ui/StarterGui/Troll.rbxm by _tools/rbxm2lua.luau
+-- UI builder: local gui = require(this)(); gui.Parent = game.Players.LocalPlayer.PlayerGui (or StarterGui)
+
+local function new(class, parent, name, props, attrs, tags)
+	local o = Instance.new(class)
+	o.Name = name
+	if props then
+		for k, v in props do
+			o[k] = v
+		end
+	end
+	if attrs then
+		for k, v in attrs do
+			o:SetAttribute(k, v)
+		end
+	end
+	if tags then
+		for _, t in tags do
+			o:AddTag(t)
+		end
+	end
+	if parent then
+		o.Parent = parent
+	end
+	return o
+end
+
+local function build()
+	local I = {}
+	I[1] = new("ScreenGui", nil, "Troll", { DisplayOrder = 1, Enabled = false, ResetOnSpawn = false, ScreenInsets = Enum.ScreenInsets.DeviceSafeInsets, ZIndexBehavior = Enum.ZIndexBehavior.Sibling })
+		I[2] = new("ImageButton", I[1], "next", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.73, 0.88), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(0.065, 0.116) })
+			I[3] = new("TextLabel", I[2], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.95), Size = UDim2.fromScale(0.8, 0.32), Text = "Next", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true, ZIndex = 2 })
+				I[4] = new("UIStroke", I[3], "UIStroke", { Color = Color3.fromRGB(0, 38, 54), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 5 })
+			I[5] = new("ImageLabel", I[2], "ImageLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, ImageContent = Content.fromUri("rbxassetid://96732642249054"), Position = UDim2.fromScale(0.5, 0.5), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(0.6, 0.6) })
+			I[6] = new("UIStroke", I[2], "UIStroke", { Color = Color3.fromRGB(0, 38, 54), Thickness = 6 })
+			I[7] = new("UIGradient", I[2], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(20, 183, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(80, 201, 255)) }), Rotation = -60 })
+			I[8] = new("UICorner", I[2], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[9] = new("UIAspectRatioConstraint", I[2], "UIAspectRatioConstraint", { AspectRatio = 0.9957795 })
+		I[10] = new("Frame", I[1], "Frame", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.5, 0.88), Size = UDim2.fromScale(0.3, 0.116) })
+			I[11] = new("TextLabel", I[10], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.7503695, 0.850071), Text = "skidibowsertoilet (@asdfghgdshjhf)", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true, ZIndex = 2 })
+				I[12] = new("UIStroke", I[11], "UIStroke", { Color = Color3.fromRGB(0, 38, 54), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 3 })
+			I[13] = new("UIStroke", I[10], "UIStroke", { Color = Color3.fromRGB(0, 38, 54), Thickness = 6 })
+			I[14] = new("UIGradient", I[10], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(20, 183, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(80, 201, 255)) }), Rotation = -60 })
+			I[15] = new("UICorner", I[10], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[16] = new("UIAspectRatioConstraint", I[10], "UIAspectRatioConstraint", { AspectRatio = 4.5959053 })
+		I[17] = new("ImageButton", I[1], "previous", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.27, 0.8798921), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(0.065, 0.116) })
+			I[18] = new("TextLabel", I[17], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.95), Size = UDim2.fromScale(0.9, 0.32), Text = "Previous", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true, ZIndex = 2 })
+				I[19] = new("UIStroke", I[18], "UIStroke", { Color = Color3.fromRGB(0, 38, 54), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 5 })
+			I[20] = new("ImageLabel", I[17], "ImageLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, ImageContent = Content.fromUri("rbxassetid://85529650612312"), Position = UDim2.fromScale(0.5, 0.5), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(0.6, 0.6) })
+			I[21] = new("UIStroke", I[17], "UIStroke", { Color = Color3.fromRGB(0, 38, 54), Thickness = 6 })
+			I[22] = new("UIGradient", I[17], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(20, 183, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(80, 201, 255)) }), Rotation = -60 })
+			I[23] = new("UICorner", I[17], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[24] = new("UIAspectRatioConstraint", I[17], "UIAspectRatioConstraint", { AspectRatio = 0.9957795 })
+		I[25] = new("Frame", I[1], "TrollFrame", { AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.911, 0.5), Size = UDim2.fromScale(0.077, 1) })
+			I[26] = new("ImageButton", I[25], "fling", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.1751521, 0.4336735), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342549691 })
+				I[27] = new("TextLabel", I[26], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.75, 0.75), Text = "Fling", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[28] = new("UIStroke", I[27], "UIStroke", { Color = Color3.fromRGB(95, 9, 84), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[29] = new("UIStroke", I[26], "UIStroke", { Color = Color3.fromRGB(95, 9, 84), Thickness = 4 })
+				I[30] = new("UICorner", I[26], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+				I[31] = new("UIGradient", I[26], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 42, 243)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 139, 246)) }), Rotation = -60 })
+			I[32] = new("ImageButton", I[25], "explode", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342550872 })
+				I[33] = new("TextLabel", I[32], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.75, 0.75), Text = "Explode", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[34] = new("UIStroke", I[33], "UIStroke", { Color = Color3.fromRGB(74, 47, 10), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[35] = new("UIStroke", I[32], "UIStroke", { Color = Color3.fromRGB(74, 47, 10), Thickness = 4 })
+				I[36] = new("UICorner", I[32], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+				I[37] = new("UIGradient", I[32], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(198, 128, 31)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 205, 134)) }), Rotation = -60 })
+			I[38] = new("ImageButton", I[25], "freeze", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 1918125795 })
+				I[39] = new("TextLabel", I[38], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.75, 0.75), Text = "Freeze", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[40] = new("UIStroke", I[39], "UIStroke", { Color = Color3.fromRGB(14, 61, 66), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[41] = new("UIStroke", I[38], "UIStroke", { Color = Color3.fromRGB(14, 61, 66), Thickness = 4 })
+				I[42] = new("UIGradient", I[38], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(55, 196, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(89, 230, 255)) }), Rotation = -60 })
+				I[43] = new("UICorner", I[38], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[44] = new("UIListLayout", I[25], "UIListLayout", { HorizontalAlignment = Enum.HorizontalAlignment.Right, Padding = UDim.new(0.015, 0), SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center })
+			I[45] = new("ImageButton", I[25], "kill", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342551083 })
+				I[46] = new("TextLabel", I[45], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.75, 0.75), Text = "Kill", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[47] = new("UIStroke", I[46], "UIStroke", { Color = Color3.fromRGB(44, 0, 0), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[48] = new("UIStroke", I[45], "UIStroke", { Color = Color3.fromRGB(44, 4, 4), Thickness = 4 })
+				I[49] = new("UIGradient", I[45], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(127, 13, 13)), ColorSequenceKeypoint.new(1, Color3.fromRGB(231, 17, 17)) }), Rotation = -60 })
+				I[50] = new("UICorner", I[45], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[51] = new("ImageButton", I[25], "trip", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342550201 })
+				I[52] = new("TextLabel", I[51], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.75, 0.75), Text = "Trip", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[53] = new("UIStroke", I[52], "UIStroke", { Color = Color3.fromRGB(95, 85, 17), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[54] = new("UICorner", I[51], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+				I[55] = new("UIStroke", I[51], "UIStroke", { Color = Color3.fromRGB(95, 85, 17), Thickness = 4 })
+				I[56] = new("UIGradient", I[51], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 228, 44)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 252, 138)) }), Rotation = -60 })
+			I[57] = new("ImageButton", I[25], "kick", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(-0.4124993, 0.3179848), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4124984, 0.0760303) }, { ["Id"] = 3611190086 })
+				I[58] = new("TextLabel", I[57], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.75, 0.75), Text = "KICK", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[59] = new("UIStroke", I[58], "UIStroke", { Color = Color3.fromRGB(32, 32, 32), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[60] = new("UIStroke", I[57], "UIStroke", { Color = Color3.fromRGB(32, 32, 32), Thickness = 4 })
+				I[61] = new("UIGradient", I[57], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(49, 49, 49)), ColorSequenceKeypoint.new(1, Color3.fromRGB(100, 100, 100)) }), Rotation = -60 })
+				I[62] = new("UICorner", I[57], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[63] = new("UIAspectRatioConstraint", I[25], "UIAspectRatioConstraint", { AspectRatio = 0.1682443 })
+			I[64] = new("TextLabel", I[25], "TextLabel", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), LayoutOrder = -1, Position = UDim2.fromScale(0, 0.2900152), Size = UDim2.fromScale(1.4119999, 0.059), Text = "PLAYER", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+				I[65] = new("UIGradient", I[64], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(0, 155, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(0, 255, 0)) }), Rotation = -90 })
+				I[66] = new("UIStroke", I[64], "UIStroke", { Color = Color3.fromRGB(55, 0, 0), LineJoinMode = Enum.LineJoinMode.Bevel, Thickness = 3 })
+		I[67] = new("Frame", I[1], "ServerTrollFrame", { AnchorPoint = Vector2.new(0, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, Position = UDim2.fromScale(0.012, 0.5), Size = UDim2.fromScale(0.077, 1) })
+			I[68] = new("UIListLayout", I[67], "UIListLayout", { Padding = UDim.new(0.015, 0), SortOrder = Enum.SortOrder.LayoutOrder, VerticalAlignment = Enum.VerticalAlignment.Center })
+			I[69] = new("UIAspectRatioConstraint", I[67], "UIAspectRatioConstraint", { AspectRatio = 0.1682443 })
+			I[70] = new("TextLabel", I[67], "TextLabel", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), LayoutOrder = -1, Position = UDim2.fromScale(0, 0.2900152), Size = UDim2.fromScale(1.4119999, 0.059), Text = "EVERYONE", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+				I[71] = new("UIGradient", I[70], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(155, 0, 0)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0)) }), Rotation = -90 })
+				I[72] = new("UIStroke", I[70], "UIStroke", { Color = Color3.fromRGB(55, 0, 0), LineJoinMode = Enum.LineJoinMode.Bevel, Thickness = 3 })
+			I[73] = new("ImageButton", I[67], "fling", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.1751521, 0.4336735), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342556622 })
+				I[74] = new("TextLabel", I[73], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.9, 1), Text = "Fling ALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[75] = new("UIStroke", I[74], "UIStroke", { Color = Color3.fromRGB(95, 9, 84), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[76] = new("UIStroke", I[73], "UIStroke", { Color = Color3.fromRGB(95, 9, 84), Thickness = 4 })
+				I[77] = new("UICorner", I[73], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+				I[78] = new("UIGradient", I[73], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 42, 243)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 139, 246)) }), Rotation = -60 })
+			I[79] = new("ImageButton", I[67], "explode", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342557358 })
+				I[80] = new("TextLabel", I[79], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.9, 1), Text = "Explode ALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[81] = new("UIStroke", I[80], "UIStroke", { Color = Color3.fromRGB(74, 47, 10), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[82] = new("UIStroke", I[79], "UIStroke", { Color = Color3.fromRGB(74, 47, 10), Thickness = 4 })
+				I[83] = new("UICorner", I[79], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+				I[84] = new("UIGradient", I[79], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(198, 128, 31)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 205, 134)) }), Rotation = -60 })
+			I[85] = new("ImageButton", I[67], "freeze", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 1918125795 })
+				I[86] = new("TextLabel", I[85], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.9, 1), Text = "Freeze ALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[87] = new("UIStroke", I[86], "UIStroke", { Color = Color3.fromRGB(14, 61, 66), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[88] = new("UIStroke", I[85], "UIStroke", { Color = Color3.fromRGB(14, 61, 66), Thickness = 4 })
+				I[89] = new("UIGradient", I[85], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(55, 196, 255)), ColorSequenceKeypoint.new(1, Color3.fromRGB(89, 230, 255)) }), Rotation = -60 })
+				I[90] = new("UICorner", I[85], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[91] = new("ImageButton", I[67], "kill", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342556954 })
+				I[92] = new("TextLabel", I[91], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.9, 1), Text = "Kill ALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[93] = new("UIStroke", I[92], "UIStroke", { Color = Color3.fromRGB(44, 0, 0), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[94] = new("UIStroke", I[91], "UIStroke", { Color = Color3.fromRGB(44, 4, 4), Thickness = 4 })
+				I[95] = new("UIGradient", I[91], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(127, 13, 13)), ColorSequenceKeypoint.new(1, Color3.fromRGB(231, 17, 17)) }), Rotation = -60 })
+				I[96] = new("UICorner", I[91], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+			I[97] = new("ImageButton", I[67], "trip", { BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.4850538, 0.5046405), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(1.4119999, 0.076) }, { ["Id"] = 3342557537 })
+				I[98] = new("TextLabel", I[97], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.9, 1), Text = "Trip ALL", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+					I[99] = new("UIStroke", I[98], "UIStroke", { Color = Color3.fromRGB(95, 85, 17), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+				I[100] = new("UICorner", I[97], "UICorner", { BottomLeftRadius = UDim.new(0.15, 0), BottomRightRadius = UDim.new(0.15, 0), TopLeftRadius = UDim.new(0.15, 0), TopRightRadius = UDim.new(0.15, 0) })
+				I[101] = new("UIStroke", I[97], "UIStroke", { Color = Color3.fromRGB(95, 85, 17), Thickness = 4 })
+				I[102] = new("UIGradient", I[97], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 228, 44)), ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 252, 138)) }), Rotation = -60 })
+		I[103] = new("ImageButton", I[1], "Back", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, LayoutOrder = 1, Position = UDim2.fromScale(0.5, 0.063), ScaleType = Enum.ScaleType.Fit, Size = UDim2.fromScale(0.1403362, 0.076) })
+			I[104] = new("TextLabel", I[103], "TextLabel", { AnchorPoint = Vector2.new(0.5, 0.5), BackgroundColor3 = Color3.fromRGB(255, 255, 255), BackgroundTransparency = 1, BorderColor3 = Color3.fromRGB(0, 0, 0), BorderSizePixel = 0, FontFace = Font.new("rbxasset://fonts/families/FredokaOne.json", Enum.FontWeight.Regular, Enum.FontStyle.Normal), Position = UDim2.fromScale(0.5, 0.5), Size = UDim2.fromScale(0.616, 0.6), Text = "BACK", TextColor3 = Color3.fromRGB(255, 255, 255), TextScaled = true, TextSize = 14, TextWrapped = true })
+				I[105] = new("UIStroke", I[104], "UIStroke", { Color = Color3.fromRGB(44, 0, 0), LineJoinMode = Enum.LineJoinMode.Miter, Thickness = 2 })
+			I[106] = new("UIStroke", I[103], "UIStroke", { Color = Color3.fromRGB(44, 0, 0), Thickness = 4 })
+			I[107] = new("UIGradient", I[103], "UIGradient", { Color = ColorSequence.new({ ColorSequenceKeypoint.new(0, Color3.fromRGB(149, 13, 13)), ColorSequenceKeypoint.new(0.25, Color3.fromRGB(165, 27, 27)), ColorSequenceKeypoint.new(0.5, Color3.fromRGB(184, 35, 35)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(208, 16, 16)), ColorSequenceKeypoint.new(1, Color3.fromRGB(236, 40, 40)) }), Rotation = -60 })
+			I[108] = new("UICorner", I[103], "UICorner")
+			I[109] = new("UIAspectRatioConstraint", I[103], "UIAspectRatioConstraint", { AspectRatio = 3.2814348 })
+	return I[1]
+end
+
+return build

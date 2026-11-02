@@ -1,0 +1,315 @@
+{
+ "slug": "gore-game",
+ "title": "Gore game (leak)",
+ "genre": "combat / gore physics",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 0,
+  "screen_guis": 0,
+  "classes": {},
+  "fonts": {},
+  "background_colors": {},
+  "text_colors": {},
+  "stroke_colors": {},
+  "image_tints": {},
+  "corner_radius": {},
+  "stroke_thickness": {},
+  "text_size_px": {},
+  "text_scaled_share": null,
+  "size_mode": {},
+  "unique_images": 0,
+  "per_100_objects": {
+   "UICorner": 0,
+   "UIStroke": 0,
+   "UIGradient": 0,
+   "UIAspectRatioConstraint": 0,
+   "UIListLayout": 0,
+   "UIGridLayout": 0,
+   "UIPadding": 0,
+   "UIScale": 0,
+   "UITextSizeConstraint": 0,
+   "ImageLabel": 0,
+   "ImageButton": 0,
+   "TextButton": 0
+  }
+ },
+ "map": {
+  "instances": 45930,
+  "parts": 941,
+  "meshparts": 150,
+  "unions": 2,
+  "anchored_share": 0.13,
+  "textures_decals": 96,
+  "surface_appearances": 0,
+  "lights": 0,
+  "emitters": 0,
+  "beams_trails": 126,
+  "sounds": 20,
+  "prompts": 0,
+  "world_guis": 1,
+  "humanoids": 110,
+  "materials": {
+   "SmoothPlastic": 570,
+   "Plastic": 241,
+   "Concrete": 77,
+   "Limestone": 22,
+   "Slate": 10,
+   "Metal": 7,
+   "Fabric": 6,
+   "Marble": 4,
+   "Wood": 4
+  },
+  "part_colors": {
+   "#a3a2a5": 396,
+   "#cacbd1": 237,
+   "#5b5d69": 158,
+   "#ff0000": 85,
+   "#5a595b": 22,
+   "#7e683f": 11,
+   "#562424": 10,
+   "#635f62": 9,
+   "#564236": 7,
+   "#303032": 4,
+   "#bc9b5d": 2
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   360,
+   99,
+   167
+  ],
+  "extent_all_studs": [
+   616,
+   152,
+   521
+  ],
+  "top_classes": {
+   "Pose": 32748,
+   "Keyframe": 5155,
+   "Attachment": 1693,
+   "IntValue": 1057,
+   "Part": 788,
+   "StringValue": 744,
+   "Motor6D": 711,
+   "Animation": 711,
+   "NumberValue": 378,
+   "Snap": 324,
+   "Script": 235,
+   "SpringConstraint": 210,
+   "Weld": 179,
+   "MeshPart": 150,
+   "Model": 142
+  }
+ },
+ "lighting": {
+  "Ambient": "#64846c",
+  "Brightness": 3.5,
+  "ColorShift_Bottom": "#b7f2ff",
+  "ColorShift_Top": "#436d49",
+  "EnvironmentDiffuseScale": 0.5,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 41.7333,
+  "GlobalShadows": true,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#7f805d",
+  "Outlines": false,
+  "ShadowSoftness": 0.02,
+  "Technology": "Future",
+  "TimeOfDay": "15:00:00"
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#d8fffa",
+    "Decay": "#5c3c0e",
+    "Density": 0.348,
+    "Glare": 0.63,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 1.0
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": true,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=150335574",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=150335585",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=150335628",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=150335620",
+    "SkyboxRt": "http://www.roblox.com/asset/?id=150335610",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=150335642",
+    "StarCount": 1334,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.0,
+    "TintColor": "#e7fff3"
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "Enabled": true,
+    "FarIntensity": 1.0,
+    "FocusDistance": 200.0,
+    "InFocusRadius": 50.0,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.0
+   }
+  },
+  {
+   "class": "SunRaysEffect",
+   "name": "SunRays",
+   "props": {
+    "Enabled": true,
+    "Intensity": 0.126,
+    "Name": "SunRays",
+    "Spread": 0.147
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 1,
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 0.0,
+  "WaterTransparency": 0.75,
+  "WaterWaveSize": 0.5,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 372955,
+  "file": "map/terrain.rbxl"
+ },
+ "workspace": {
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "SignalBehavior": 0,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024
+ },
+ "packs": {
+  "map": 1,
+  "terrain": 1,
+  "lighting": 1,
+  "model": 87,
+  "audio": 7,
+  "parts": 1,
+  "model-set": 4,
+  "keyframes": 97,
+  "other": 4
+ },
+ "coverage": {
+  "instances": 46677,
+  "packed": 46622,
+  "services": 47,
+  "code_or_empty_folders_not_packed": 6,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 97,
+ "animation_ids": 719,
+ "sound_ids": 71,
+ "files": 200,
+ "kb": 5185,
+ "category": "Fighting",
+ "source_file": "paid_gore_game_leaked.rbxl"
+}

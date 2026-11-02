@@ -1,0 +1,81 @@
+80 remotes / bindables
+BindableFunction       Workspace.10-23 + Hollow Purple.14.Animate.PlayEmote
+BindableFunction       Workspace.10-23 + Hollow Purple.13.Animate.PlayEmote
+BindableFunction       Workspace.10-23 + Hollow Purple.5.Animate.PlayEmote
+BindableFunction       Workspace.10-23 + Hollow Purple.16.Animate.PlayEmote
+BindableFunction       Workspace.10-23 + Hollow Purple.22.Animate.PlayEmote
+BindableFunction       Workspace.10-23 + Hollow Purple.23.Animate.PlayEmote
+BindableFunction       Workspace.Auras.10.Animate.PlayEmote
+BindableFunction       Workspace.Auras.16.Animate.PlayEmote
+BindableFunction       Workspace.Rig.Animate.PlayEmote
+BindableFunction       Workspace.Rig.Animate.PlayEmote
+BindableFunction       Workspace.Rig.Animate.PlayEmote
+BindableFunction       Workspace.Rig.Animate.PlayEmote
+BindableFunction       Workspace.Rig.Animate.PlayEmote
+BindableFunction       StarterPlayer.StarterCharacterScripts.Animate.PlayEmote
+RemoteEvent            ReplicatedStorage.Communication.Tick
+RemoteEvent            ReplicatedStorage.Communication.Area Status
+RemoteFunction         ReplicatedStorage.Communication.RequestRebirth
+RemoteEvent            ReplicatedStorage.Communication.Inactivity
+RemoteEvent            ReplicatedStorage.Communication.RestoreCF
+RemoteEvent            ReplicatedStorage.Communication.ActivePing
+RemoteEvent            ReplicatedStorage.Communication.LeveledUp
+RemoteEvent            ReplicatedStorage.Communication.RequestAFKReturnTeleport
+RemoteEvent            ReplicatedStorage.Communication.ProductPurchased
+RemoteFunction         ReplicatedStorage.Communication.Request Tutorial Data
+RemoteEvent            ReplicatedStorage.Communication.FX
+RemoteEvent            ReplicatedStorage.Communication.ForwardData
+RemoteEvent            ReplicatedStorage.Communication.ChestCommunication
+RemoteEvent            ReplicatedStorage.Communication.CursedZoneShake
+RemoteEvent            ReplicatedStorage.Communication.RequestCursedZoneTimerState
+BindableFunction       ReplicatedStorage.Assets.Auras.10.Animate.PlayEmote
+BindableFunction       ReplicatedStorage.Assets.Auras.16.Animate.PlayEmote
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RF.GetTrainingAreasData
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.CursedZoneNotification
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.KOTHStateChanged
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.KOTHNotification
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.TrainingAreasData
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.CursedZoneShake
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.AreaStatusChanged
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.TrainingAreasService.RE.Tick
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.RankTitleService.RF.UnequipPackTitle
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.RankTitleService.RF.GetRankTitleData
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.RankTitleService.RF.EquipRankTitle
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.RankTitleService.RF.UnequipRankTitle
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.RankTitleService.RF.EquipPackTitle
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.RankTitleService.RE.RankTitleDataUpdated
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.ChestService.RE.CooldownSynced
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.ChestService.RF.GetState
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.ChestService.RF.RequestSync
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.ChestService.RF.RequestClaim
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PlayerService.RF.GetProfileStats
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PlayerService.RF.RequestRebirth
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PlayerService.RF.GetTutorialData
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.PlayerService.RE.ProfileLoaded
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.PlayerService.RE.RebirthPerformed
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.PlayerService.RE.ProfileReleased
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.GlobalMessageService.RE.GlobalMessageReceived
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.LiveEventService.RE.EventStarted
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.LiveEventService.RE.PhaseChanged
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.LiveEventService.RE.EventEnded
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.PackService.RE.PackDataUpdated
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PackService.RF.PromptPackPurchase
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PackService.RF.GetPackData
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.CursedZoneService.RF.GetTimerState
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.CursedZoneService.RE.TimerStateChanged
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.CursedZoneService.RE.ZoneShake
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.CursedZoneService.RE.ZoneNotification
+RemoteEvent            ReplicatedStorage.Packages.Knit.Services.PoseService.RE.PoseDataUpdated
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PoseService.RF.PromptPosePurchase
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PoseService.RF.EquipPose
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PoseService.RF.GetPoseData
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PoseService.RF.PurchasePoseWithRebirths
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.PoseService.RF.UnequipPose
+RemoteFunction         ReplicatedStorage.Packages.Knit.Services.AuraPreviewService.RF.GetAuraPreviewData
+RemoteFunction         ReplicatedStorage.HasSeenUpdate
+RemoteFunction         ReplicatedStorage.Remotes.Functions.GetShownNotifNoti
+RemoteFunction         ReplicatedStorage.Remotes.Functions.GetShownFavNoti
+RemoteEvent            ReplicatedStorage.Remotes.Events.SetShownNotifNoti
+RemoteEvent            ReplicatedStorage.Remotes.Events.SetShownFavNoti
+RemoteEvent            ReplicatedStorage.SaveSeenUpdate
+BindableFunction       ServerStorage.Decompiled.LocalPlayer Character.Animate.PlayEmote

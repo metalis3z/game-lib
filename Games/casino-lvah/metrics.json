@@ -1,0 +1,421 @@
+{
+ "slug": "casino-lvah",
+ "title": "LvaH Casino",
+ "genre": "casino (roulette, blackjack, poker, horse racing, wheels)",
+ "provenance": "template with full source",
+ "ui": {
+  "gui_objects": 1345,
+  "screen_guis": 3,
+  "classes": {
+   "TextLabel": 614,
+   "Frame": 556,
+   "UICorner": 292,
+   "ObjectValue": 122,
+   "UITextSizeConstraint": 113,
+   "UIStroke": 112,
+   "ImageLabel": 111,
+   "Folder": 101,
+   "LocalScript": 80,
+   "UISizeConstraint": 58,
+   "Configuration": 55,
+   "UIAspectRatioConstraint": 49,
+   "TextButton": 40,
+   "UIGradient": 24,
+   "UIListLayout": 21,
+   "ImageButton": 15,
+   "BindableEvent": 12,
+   "CanvasGroup": 4,
+   "ScreenGui": 3,
+   "ScrollingFrame": 3,
+   "Sound": 3,
+   "TextBox": 2,
+   "UIPadding": 2,
+   "UIGridLayout": 1,
+   "BillboardGui": 1
+  },
+  "fonts": {
+   "Nunito Bold": 372,
+   "LuckiestGuy Regular": 150,
+   "SourceSansPro Bold": 50,
+   "Arial Bold": 39,
+   "SourceSansPro Regular": 26,
+   "Nunito Regular": 8,
+   "LegacyArial Regular": 5,
+   "GothamSSm Bold": 3,
+   "FredokaOne Regular": 3
+  },
+  "background_colors": {
+   "#000000": 108,
+   "#27162a": 46,
+   "#ffffff": 28,
+   "#2a781a": 26,
+   "#ec7400": 17,
+   "#ffdb31": 17,
+   "#670000": 15,
+   "#ff0000": 15,
+   "#0349a5": 9,
+   "#0f4100": 3,
+   "#4fff30": 3,
+   "#98ff79": 3,
+   "#1a081d": 2,
+   "#ff0004": 2,
+   "#076b00": 2,
+   "#73470e": 2
+  },
+  "text_colors": {
+   "#ffffff": 431,
+   "#000000": 91,
+   "#ffbf00": 65,
+   "#00fff7": 24,
+   "#00fbff": 9,
+   "#00d0ff": 6,
+   "#1b2a35": 5,
+   "#ff6b6b": 4,
+   "#00ff00": 2,
+   "#83ff75": 2
+  },
+  "stroke_colors": {
+   "#000000": 110,
+   "#323232": 1,
+   "#505050": 1
+  },
+  "image_tints": {
+   "#000000": 29,
+   "#ff4040": 2,
+   "#deceff": 1,
+   "#949494": 1,
+   "#a7a7a7": 1,
+   "#ff6600": 1
+  },
+  "corner_radius": {
+   "{0.0,8}": 145,
+   "{0.0,6}": 60,
+   "{0.0,4}": 60,
+   "{0.5,0}": 19,
+   "{0.0,10}": 7,
+   "{0.2,0}": 1
+  },
+  "stroke_thickness": {
+   "1.0 px": 111,
+   "2.0 px": 1
+  },
+  "text_size_px": {
+   "14": 26,
+   "8": 5,
+   "16": 5
+  },
+  "text_scaled_share": 0.95,
+  "size_mode": {
+   "scale": 1205,
+   "offset": 2,
+   "mixed": 138
+  },
+  "unique_images": 43,
+  "per_100_objects": {
+   "UICorner": 21.7,
+   "UIStroke": 8.3,
+   "UIGradient": 1.8,
+   "UIAspectRatioConstraint": 3.6,
+   "UIListLayout": 1.6,
+   "UIGridLayout": 0.1,
+   "UIPadding": 0.1,
+   "UIScale": 0.0,
+   "UITextSizeConstraint": 8.4,
+   "ImageLabel": 8.3,
+   "ImageButton": 1.1,
+   "TextButton": 3.0
+  }
+ },
+ "map": {
+  "instances": 62915,
+  "parts": 17197,
+  "meshparts": 4358,
+  "unions": 1799,
+  "anchored_share": 0.89,
+  "textures_decals": 131,
+  "surface_appearances": 0,
+  "lights": 610,
+  "emitters": 94,
+  "beams_trails": 0,
+  "sounds": 0,
+  "prompts": 0,
+  "world_guis": 2821,
+  "humanoids": 39,
+  "materials": {
+   "SmoothPlastic": 7061,
+   "Plastic": 3687,
+   "Wood": 1831,
+   "Concrete": 1577,
+   "Metal": 1134,
+   "Fabric": 965,
+   "Neon": 344,
+   "Slate": 204,
+   "Basalt": 162,
+   "Grass": 82,
+   "LeafyGrass": 73,
+   "Glass": 56
+  },
+  "part_colors": {
+   "#a3a2a5": 1494,
+   "#1b2a35": 1397,
+   "#353535": 1356,
+   "#64ff64": 1300,
+   "#b3b7ff": 937,
+   "#111111": 869,
+   "#aa0000": 608,
+   "#00ff00": 544,
+   "#ffffff": 484,
+   "#12eed4": 420,
+   "#351c1c": 416,
+   "#60c481": 416,
+   "#f8f8f8": 366,
+   "#1d6211": 351
+  },
+  "lobby_zones": [],
+  "extent_studs": [
+   516,
+   60,
+   540
+  ],
+  "extent_all_studs": [
+   669,
+   124,
+   561
+  ],
+  "top_classes": {
+   "Pose": 16493,
+   "Part": 10424,
+   "MeshPart": 4358,
+   "CFrameValue": 3366,
+   "Model": 3012,
+   "Attachment": 2656,
+   "Keyframe": 2547,
+   "Vector3Value": 2211,
+   "TextLabel": 2129,
+   "SurfaceGui": 2061,
+   "UnionOperation": 1799,
+   "Folder": 1774,
+   "BillboardGui": 760,
+   "WeldConstraint": 724,
+   "Motor6D": 660
+  }
+ },
+ "lighting": {
+  "Ambient": "#ababab",
+  "Brightness": 1.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 0.0,
+  "EnvironmentSpecularScale": 0.0,
+  "ExposureCompensation": 0.0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 100.0,
+  "GlobalShadows": true,
+  "Intent": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#808080",
+  "Outlines": false,
+  "Quality": 1,
+  "ShadowSoftness": 0.0,
+  "Technology": "Voxel",
+  "TimeOfDay": "06:30:00",
+  "@attributes": {
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#c7c7c7",
+    "Decay": "#6a707d",
+    "DefinesCapabilities": false,
+    "Density": 0.2,
+    "Glare": 0.0,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 0.25
+   }
+  },
+  {
+   "class": "BloomEffect",
+   "name": "Bloom",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Intensity": 1.0,
+    "Name": "Bloom",
+    "Size": 24.0,
+    "Threshold": 2.0
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.01,
+    "Contrast": -0.1,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": 0.2,
+    "TintColor": "#fff0cd"
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Sky",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Sky",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=433330330",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=433331565",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=433330428",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=433330546",
+    "SkyboxRt": "http://www.roblox.com/asset/?id=433331052",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=433331565",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 0,
+  "Anchored": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#838383",
+  "Decoration": false,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": false,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "ShorelinesUpgraded": true,
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 0.3,
+  "WaterWaveSize": 0.15,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 2
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 300
+ },
+ "packs": {
+  "ui": 24,
+  "ui-kit": 1,
+  "map": 1,
+  "audio": 14,
+  "materials": 1,
+  "lighting": 1,
+  "model": 148,
+  "model-set": 27,
+  "animations": 1,
+  "keyframes": 465,
+  "other": 5
+ },
+ "coverage": {
+  "instances": 68247,
+  "packed": 67668,
+  "services": 54,
+  "code_or_empty_folders_not_packed": 522,
+  "not_packed": {
+   "Workspace.Terrain": 1,
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 465,
+ "animation_ids": 417,
+ "sound_ids": 229,
+ "files": 281,
+ "kb": 7696,
+ "category": "Social",
+ "source_file": "Public LvaH.rbxl"
+}

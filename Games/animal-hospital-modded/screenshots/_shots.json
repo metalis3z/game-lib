@@ -1,0 +1,517 @@
+{
+ "viewport": "1215.19995, 708.799988",
+ "slug": "animal-hospital-modded",
+ "shots": [
+  {
+   "panel": "Frame.black",
+   "file": "01_Dialogue__black",
+   "gui": "Dialogue"
+  },
+  {
+   "panel": "Controls.Container",
+   "file": "02_CameraSystem__Container",
+   "gui": "CameraSystem"
+  },
+  {
+   "panel": "Frame",
+   "file": "03_HeartbeatMinigameUI__Frame",
+   "gui": "HeartbeatMinigameUI"
+  },
+  {
+   "panel": "",
+   "file": "04_Sanity",
+   "template": false,
+   "gui": "Sanity"
+  },
+  {
+   "panel": "",
+   "file": "05_Shift",
+   "template": false,
+   "gui": "Shift"
+  },
+  {
+   "panel": "Frame",
+   "file": "06_PlayerDied__Frame",
+   "gui": "PlayerDied"
+  },
+  {
+   "panel": "Frame.paper",
+   "file": "07_RoundStatsDetailed__paper",
+   "gui": "RoundStatsDetailed"
+  },
+  {
+   "panel": "Frame.background",
+   "file": "08_RoundStatsDetailed__background",
+   "gui": "RoundStatsDetailed"
+  },
+  {
+   "panel": "Frame.Info",
+   "file": "09_RoundStatsDetailed__Info",
+   "gui": "RoundStatsDetailed"
+  },
+  {
+   "panel": "Photo",
+   "file": "10_RoundStatsDetailed__Photo",
+   "gui": "RoundStatsDetailed"
+  },
+  {
+   "panel": "Frame",
+   "file": "11_Strikes__Frame",
+   "gui": "Strikes"
+  },
+  {
+   "panel": "",
+   "file": "12_Menu",
+   "template": false,
+   "gui": "Menu"
+  },
+  {
+   "panel": "Selection",
+   "file": "13_CharacterSelection__Selection",
+   "gui": "CharacterSelection"
+  },
+  {
+   "panel": "AnomalySelection",
+   "file": "14_CharacterSelection__AnomalySelection",
+   "gui": "CharacterSelection"
+  },
+  {
+   "panel": "PremadeSelection",
+   "file": "15_CharacterSelection__PremadeSelection",
+   "gui": "CharacterSelection"
+  },
+  {
+   "panel": "",
+   "file": "16_CharacterCreation",
+   "template": false,
+   "gui": "CharacterCreation"
+  },
+  {
+   "panel": "Frame",
+   "file": "17_Shop__Frame",
+   "gui": "Shop"
+  },
+  {
+   "panel": "",
+   "file": "18_Skins",
+   "template": false,
+   "gui": "Skins"
+  },
+  {
+   "panel": "Frame",
+   "file": "19_GiftList__Frame",
+   "gui": "GiftList"
+  },
+  {
+   "panel": "Frame",
+   "file": "20_Classes__Frame",
+   "gui": "Classes"
+  },
+  {
+   "panel": "Info",
+   "file": "21_Classes__Info",
+   "gui": "Classes"
+  },
+  {
+   "panel": "Center",
+   "file": "22_Classes__Center",
+   "gui": "Classes"
+  },
+  {
+   "panel": "",
+   "file": "23_Actions",
+   "template": false,
+   "gui": "Actions"
+  },
+  {
+   "panel": "AdminPanel",
+   "file": "24_AdminPanel__AdminPanel",
+   "gui": "AdminPanel"
+  },
+  {
+   "panel": "",
+   "file": "25_MOBILE_BUTTONS",
+   "template": false,
+   "gui": "MOBILE_BUTTONS"
+  },
+  {
+   "panel": "",
+   "file": "26_P2W",
+   "template": false,
+   "gui": "P2W"
+  },
+  {
+   "panel": "",
+   "file": "27_Troll",
+   "template": false,
+   "gui": "Troll"
+  },
+  {
+   "panel": "PollVoting",
+   "file": "28_MainUI__PollVoting",
+   "gui": "MainUI"
+  },
+  {
+   "panel": "",
+   "file": "29_ExtraPanel",
+   "template": false,
+   "gui": "ExtraPanel"
+  },
+  {
+   "panel": "Main.Header.Select",
+   "file": "30_ExtraPanel__Select",
+   "gui": "ExtraPanel"
+  },
+  {
+   "panel": "",
+   "file": "31_RadioGui",
+   "template": false,
+   "gui": "RadioGui"
+  },
+  {
+   "panel": "MainFrame.Pages",
+   "file": "32_HDAdminGUIs__Pages",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MainFrame.Warnings",
+   "file": "33_HDAdminGUIs__Warnings",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "Notices",
+   "file": "34_HDAdminGUIs__Notices",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "CmdBar",
+   "file": "35_HDAdminGUIs__CmdBar",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template4",
+   "file": "36_HDAdminGUIs__Template4",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template5",
+   "file": "37_HDAdminGUIs__Template5",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template6",
+   "file": "38_HDAdminGUIs__Template6",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template7.MainFrame",
+   "file": "39_HDAdminGUIs__MainFrame",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template7.FinalResult",
+   "file": "40_HDAdminGUIs__FinalResult",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template8",
+   "file": "41_HDAdminGUIs__Template8",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template9.MainFrame",
+   "file": "42_HDAdminGUIs__MainFrame",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template9.FinalResult",
+   "file": "43_HDAdminGUIs__FinalResult",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template10",
+   "file": "44_HDAdminGUIs__Template10",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template11",
+   "file": "45_HDAdminGUIs__Template11",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template12.MainFrame",
+   "file": "46_HDAdminGUIs__MainFrame",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "MenuTemplates.Template12.FinalResult",
+   "file": "47_HDAdminGUIs__FinalResult",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "Templates.Message",
+   "file": "48_HDAdminGUIs__Message",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "Templates.GlobalAnnouncement",
+   "file": "49_HDAdminGUIs__GlobalAnnouncement",
+   "gui": "HDAdminGUIs"
+  },
+  {
+   "panel": "",
+   "file": "50_BTAnchorToolGUI",
+   "template": true,
+   "gui": "BTAnchorToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "51_BTCollisionToolGUI",
+   "template": true,
+   "gui": "BTCollisionToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "52_BTDecorateToolGUI",
+   "template": true,
+   "gui": "BTDecorateToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "53_BTLightingToolGUI",
+   "template": true,
+   "gui": "BTLightingToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "54_BTMaterialToolGUI",
+   "template": true,
+   "gui": "BTMaterialToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "55_BTMeshToolGUI",
+   "template": true,
+   "gui": "BTMeshToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "56_BTMoveToolGUI",
+   "template": true,
+   "gui": "BTMoveToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "57_BTPaintToolGUI",
+   "template": true,
+   "gui": "BTPaintToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "58_BTResizeToolGUI",
+   "template": true,
+   "gui": "BTResizeToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "59_BTRotateToolGUI",
+   "template": true,
+   "gui": "BTRotateToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "60_BTSurfaceToolGUI",
+   "template": true,
+   "gui": "BTSurfaceToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "61_BTTextureToolGUI",
+   "template": true,
+   "gui": "BTTextureToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "62_BTWeldToolGUI",
+   "template": true,
+   "gui": "BTWeldToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "63_ExportDialog",
+   "template": true,
+   "gui": "ExportDialog"
+  },
+  {
+   "panel": "",
+   "file": "64_BTAnchorToolGUI",
+   "template": true,
+   "gui": "BTAnchorToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "65_BTCollisionToolGUI",
+   "template": true,
+   "gui": "BTCollisionToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "66_BTGroupsGUI",
+   "template": true,
+   "gui": "BTGroupsGUI"
+  },
+  {
+   "panel": "",
+   "file": "67_BTDecorateToolGUI",
+   "template": true,
+   "gui": "BTDecorateToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "68_Dock",
+   "template": true,
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.HelpInfo",
+   "file": "69_Dock__HelpInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.PaintInfo",
+   "file": "70_Dock__PaintInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.SurfaceInfo",
+   "file": "71_Dock__SurfaceInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.MaterialInfo",
+   "file": "72_Dock__MaterialInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.AnchorInfo",
+   "file": "73_Dock__AnchorInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.NewPartInfo",
+   "file": "74_Dock__NewPartInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.MeshInfo",
+   "file": "75_Dock__MeshInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.TextureInfo",
+   "file": "76_Dock__TextureInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.LightingInfo",
+   "file": "77_Dock__LightingInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.DecorateInfo",
+   "file": "78_Dock__DecorateInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.WeldInfo",
+   "file": "79_Dock__WeldInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.CollisionInfo",
+   "file": "80_Dock__CollisionInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.MoveInfo",
+   "file": "81_Dock__MoveInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.RotateInfo",
+   "file": "82_Dock__RotateInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "Dock.ToolInformation.ResizeInfo",
+   "file": "83_Dock__ResizeInfo",
+   "gui": "Dock"
+  },
+  {
+   "panel": "",
+   "file": "84_BTLightingToolGUI",
+   "template": true,
+   "gui": "BTLightingToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "85_BTMaterialToolGUI",
+   "template": true,
+   "gui": "BTMaterialToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "86_BTMeshToolGUI",
+   "template": true,
+   "gui": "BTMeshToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "87_BTMoveToolGUI",
+   "template": true,
+   "gui": "BTMoveToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "88_BTNewPartToolGUI",
+   "template": true,
+   "gui": "BTNewPartToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "89_BTPaintToolGUI",
+   "template": true,
+   "gui": "BTPaintToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "90_BTResizeToolGUI",
+   "template": true,
+   "gui": "BTResizeToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "91_BTRotateToolGUI",
+   "template": true,
+   "gui": "BTRotateToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "92_BTSurfaceToolGUI",
+   "template": true,
+   "gui": "BTSurfaceToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "93_BTTextureToolGUI",
+   "template": true,
+   "gui": "BTTextureToolGUI"
+  },
+  {
+   "panel": "",
+   "file": "94_BTHSVColorPicker",
+   "template": true,
+   "gui": "BTHSVColorPicker"
+  }
+ ]
+}

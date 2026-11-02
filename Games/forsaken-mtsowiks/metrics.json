@@ -1,0 +1,513 @@
+{
+ "slug": "forsaken-mtsowiks",
+ "title": "Forsaken (mtsowiks remake)",
+ "genre": "asymmetric horror (killer vs survivors)",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 491,
+  "screen_guis": 26,
+  "classes": {
+   "Frame": 172,
+   "ImageLabel": 151,
+   "TextLabel": 97,
+   "UICorner": 60,
+   "UIStroke": 55,
+   "SurfaceGui": 49,
+   "UIAspectRatioConstraint": 39,
+   "MeshPart": 33,
+   "ImageButton": 29,
+   "ScreenGui": 26,
+   "TextButton": 25,
+   "BillboardGui": 23,
+   "Weld": 22,
+   "Attachment": 19,
+   "Motor6D": 17,
+   "TextBox": 14,
+   "Part": 13,
+   "UIGradient": 12,
+   "UIListLayout": 12,
+   "UIPadding": 11,
+   "ModuleScript": 9,
+   "Script": 8,
+   "Model": 5,
+   "WeldConstraint": 5,
+   "UIScale": 4,
+   "NumberValue": 4,
+   "Folder": 3,
+   "UIGridLayout": 3,
+   "LocalScript": 2,
+   "ViewportFrame": 2
+  },
+  "fonts": {
+   "AccanthisADFStd Bold": 30,
+   "AccanthisADFStd Regular": 28,
+   "SourceSansPro Regular": 23,
+   "Arial Regular": 14,
+   "SourceSansPro Bold": 11,
+   "Guru Light": 7,
+   "Inconsolata Bold": 5,
+   "LegacyArial Regular": 4,
+   "Creepster Regular": 4,
+   "GothamSSm Medium": 3,
+   "SourceSansPro SemiBold": 2,
+   "IndieFlower Regular": 2
+  },
+  "background_colors": {
+   "#000000": 79,
+   "#262626": 10,
+   "#ffffff": 9,
+   "#2a2a2a": 6,
+   "#515151": 5,
+   "#ff4040": 5,
+   "#32ff32": 2,
+   "#64ff35": 2,
+   "#5d5d5d": 1,
+   "#bababa": 1,
+   "#410000": 1,
+   "#121212": 1,
+   "#a3a2a5": 1
+  },
+  "text_colors": {
+   "#ffffff": 119,
+   "#000000": 6,
+   "#1b2a35": 4,
+   "#949494": 3,
+   "#7fff7f": 1,
+   "#7d7d7d": 1,
+   "#b2b2b2": 1,
+   "#c8c8c8": 1
+  },
+  "stroke_colors": {
+   "#ff0000": 18,
+   "#000000": 6,
+   "#ffffff": 5,
+   "#f34eff": 4,
+   "#0084ff": 4,
+   "#a3a2a5": 4,
+   "#ff0004": 3,
+   "#5b8a1d": 2,
+   "#be4fff": 2,
+   "#ffcd06": 2
+  },
+  "image_tints": {
+   "#000000": 5,
+   "#ff0000": 1,
+   "#dbdbdb": 1,
+   "#1e1e1e": 1,
+   "#ff5521": 1,
+   "#ff0509": 1,
+   "#26ff00": 1
+  },
+  "corner_radius": {
+   "{0.0,2}": 34,
+   "{0.2,0}": 15,
+   "{0.5,0}": 4,
+   "{0.0,34}": 3,
+   "{0.05,0}": 1,
+   "{0.043,0}": 1,
+   "{0.0,8}": 1,
+   "{16.0,0}": 1
+  },
+  "stroke_thickness": {
+   "2.0 px": 34,
+   "1.0 px": 13,
+   "1.5 px": 5,
+   "0.0 px": 3
+  },
+  "text_size_px": {
+   "14": 21,
+   "20": 5,
+   "8": 4,
+   "40": 3,
+   "26": 3,
+   "18": 3,
+   "19": 1
+  },
+  "text_scaled_share": 0.71,
+  "size_mode": {
+   "scale": 391,
+   "mixed": 82,
+   "offset": 18
+  },
+  "unique_images": 41,
+  "per_100_objects": {
+   "UICorner": 12.2,
+   "UIStroke": 11.2,
+   "UIGradient": 2.4,
+   "UIAspectRatioConstraint": 7.9,
+   "UIListLayout": 2.4,
+   "UIGridLayout": 0.6,
+   "UIPadding": 2.2,
+   "UIScale": 0.8,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 30.8,
+   "ImageButton": 5.9,
+   "TextButton": 5.1
+  }
+ },
+ "map": {
+  "instances": 226860,
+  "parts": 7593,
+  "meshparts": 2029,
+  "unions": 818,
+  "anchored_share": 0.81,
+  "textures_decals": 2012,
+  "surface_appearances": 144,
+  "lights": 122,
+  "emitters": 639,
+  "beams_trails": 135,
+  "sounds": 37,
+  "prompts": 8,
+  "world_guis": 34,
+  "humanoids": 122,
+  "materials": {
+   "Plastic": 2035,
+   "Wood": 2018,
+   "Metal": 633,
+   "Fabric": 455,
+   "Slate": 337,
+   "WoodPlanks": 319,
+   "Granite": 317,
+   "SmoothPlastic": 305,
+   "Concrete": 195,
+   "Grass": 160,
+   "Neon": 148,
+   "Cobblestone": 107
+  },
+  "part_colors": {
+   "#a3a2a5": 923,
+   "#5a4c42": 496,
+   "#1b2a35": 449,
+   "#564236": 401,
+   "#957977": 339,
+   "#6c584b": 334,
+   "#2c2c2d": 320,
+   "#111111": 251,
+   "#7c5c46": 245,
+   "#635f62": 157,
+   "#564d40": 148,
+   "#f8f8f8": 133,
+   "#464242": 119,
+   "#000000": 111
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Map.Lobby",
+    "parts": 4357,
+    "instances": 6476,
+    "meshparts": 729,
+    "emitters": 35,
+    "lights": 44,
+    "guis": 67,
+    "sounds": 0,
+    "size": [
+     957,
+     418,
+     1190
+    ]
+   }
+  ],
+  "extent_studs": [
+   4496,
+   440,
+   1194
+  ],
+  "extent_all_studs": [
+   5364,
+   7360,
+   16151
+  ],
+  "top_classes": {
+   "Pose": 179806,
+   "Keyframe": 16252,
+   "IntValue": 7895,
+   "Part": 4704,
+   "CFrameValue": 3810,
+   "Attachment": 2446,
+   "MeshPart": 2029,
+   "Texture": 1327,
+   "Model": 990,
+   "Motor6D": 886,
+   "UnionOperation": 818,
+   "SpecialMesh": 763,
+   "Decal": 685,
+   "Folder": 676,
+   "ParticleEmitter": 639
+  }
+ },
+ "lighting": {
+  "Ambient": "#8d594f",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 71.0,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#464646",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "Future",
+  "TimeOfDay": "06:12:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "HealthDesaturation",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "HealthDesaturation",
+    "Saturation": 0.0,
+    "TintColor": "#ffffff"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "EmoteBlur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "EmoteBlur",
+    "Size": 0.0
+   }
+  },
+  {
+   "class": "DepthOfFieldEffect",
+   "name": "DepthOfField",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "FarIntensity": 0.25,
+    "FocusDistance": 73.68,
+    "InFocusRadius": 28.45,
+    "Name": "DepthOfField",
+    "NearIntensity": 0.052
+   }
+  },
+  {
+   "class": "ColorCorrectionEffect",
+   "name": "ColorCorrection",
+   "props": {
+    "Brightness": 0.0,
+    "Contrast": 0.0,
+    "DefinesCapabilities": false,
+    "Enabled": true,
+    "Name": "ColorCorrection",
+    "Saturation": -0.6,
+    "TintColor": "#ffe1b7"
+   }
+  },
+  {
+   "class": "BlurEffect",
+   "name": "Blur",
+   "props": {
+    "DefinesCapabilities": false,
+    "Enabled": false,
+    "Name": "Blur",
+    "Size": 4.0
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#000000",
+    "Decay": "#000000",
+    "DefinesCapabilities": false,
+    "Density": 0.65,
+    "Glare": 3.62,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 0.224
+   }
+  },
+  {
+   "class": "Sky",
+   "name": "Dark night",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Dark night",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=48020371",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=48020144",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=48020234",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=48020211",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "http://www.roblox.com/asset/?id=48020254",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=48020383",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 11,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Materials": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 1.0,
+  "WaterWaveSize": 0.0,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 101678,
+  "file": "map/terrain.rbxl"
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -5000.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "Event_DoubleEXP": true,
+   "ExperimentalHitboxes": true,
+   "ExperimentalReplication": true,
+   "LogLevelClient": "Warning",
+   "RbxLegacyAnimationBlending": true,
+   "Special_Masquerade": true,
+   "Testing": true,
+   "a": 40.0,
+   "b": 2.15,
+   "cl_interp": 9.0
+  }
+ },
+ "packs": {
+  "ui": 314,
+  "ui-kit": 1,
+  "map": 1,
+  "terrain": 1,
+  "audio": 16,
+  "materials": 1,
+  "lighting": 1,
+  "model": 2191,
+  "vfx": 35,
+  "parts": 32,
+  "animations": 21,
+  "model-set": 52,
+  "keyframes": 508,
+  "other": 7
+ },
+ "coverage": {
+  "instances": 860549,
+  "packed": 860472,
+  "services": 52,
+  "code_or_empty_folders_not_packed": 23,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 508,
+ "animation_ids": 444,
+ "sound_ids": 556,
+ "files": 2743,
+ "kb": 85705,
+ "category": "Horror",
+ "source_file": "my best forsaken made by mtsowiks the goat xD!.rbxl"
+}

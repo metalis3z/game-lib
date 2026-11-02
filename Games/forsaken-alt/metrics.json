@@ -1,0 +1,413 @@
+{
+ "slug": "forsaken-alt",
+ "title": "Forsaken (alt copy)",
+ "genre": "asymmetric horror (killer vs survivors)",
+ "provenance": "copy of a live game (saveinstance / decompiled client code)",
+ "ui": {
+  "gui_objects": 132,
+  "screen_guis": 12,
+  "classes": {
+   "Frame": 45,
+   "ImageLabel": 38,
+   "TextLabel": 36,
+   "UICorner": 16,
+   "BillboardGui": 13,
+   "ScreenGui": 12,
+   "SurfaceGui": 12,
+   "UIPadding": 11,
+   "UIStroke": 7,
+   "UIAspectRatioConstraint": 6,
+   "UIListLayout": 6,
+   "TextButton": 5,
+   "TextBox": 4,
+   "NumberValue": 4,
+   "UIScale": 4,
+   "UIGradient": 4,
+   "ImageButton": 3,
+   "Part": 2,
+   "UISizeConstraint": 1,
+   "ViewportFrame": 1,
+   "UIGridLayout": 1
+  },
+  "fonts": {
+   "AccanthisADFStd Regular": 18,
+   "Guru Light": 7,
+   "AccanthisADFStd Bold": 4,
+   "Creepster Regular": 4,
+   "LegacyArial Regular": 4,
+   "GothamSSm Medium": 3,
+   "Arial Regular": 2,
+   "Guru Regular": 2,
+   "Inconsolata Bold": 1
+  },
+  "background_colors": {
+   "#000000": 10,
+   "#ffffff": 5,
+   "#181818": 1,
+   "#686868": 1,
+   "#ff0000": 1,
+   "#121212": 1,
+   "#a3a2a5": 1,
+   "#32ff32": 1
+  },
+  "text_colors": {
+   "#ffffff": 34,
+   "#000000": 4,
+   "#1b2a35": 4,
+   "#c8c8c8": 1,
+   "#b2b2b2": 1,
+   "#7fff7f": 1
+  },
+  "stroke_colors": {
+   "#ffffff": 3,
+   "#000000": 2,
+   "#ff0000": 2
+  },
+  "image_tints": {
+   "#000000": 4,
+   "#ff0000": 1
+  },
+  "corner_radius": {
+   "{0.0,2}": 4,
+   "{0.0,8}": 4,
+   "{0.5,0}": 4,
+   "{0.0,34}": 3,
+   "{16.0,0}": 1
+  },
+  "stroke_thickness": {
+   "2.0 px": 4,
+   "0.0 px": 1,
+   "1.5 px": 1,
+   "1.0 px": 1
+  },
+  "text_size_px": {
+   "8": 4,
+   "18": 3,
+   "26": 3,
+   "40": 3,
+   "14": 2,
+   "20": 1,
+   "19": 1
+  },
+  "text_scaled_share": 0.62,
+  "size_mode": {
+   "scale": 94,
+   "offset": 8,
+   "mixed": 30
+  },
+  "unique_images": 20,
+  "per_100_objects": {
+   "UICorner": 12.1,
+   "UIStroke": 5.3,
+   "UIGradient": 3.0,
+   "UIAspectRatioConstraint": 4.5,
+   "UIListLayout": 4.5,
+   "UIGridLayout": 0.8,
+   "UIPadding": 8.3,
+   "UIScale": 3.0,
+   "UITextSizeConstraint": 0.0,
+   "ImageLabel": 28.8,
+   "ImageButton": 2.3,
+   "TextButton": 3.8
+  }
+ },
+ "map": {
+  "instances": 7150,
+  "parts": 3823,
+  "meshparts": 484,
+  "unions": 577,
+  "anchored_share": 0.97,
+  "textures_decals": 1676,
+  "surface_appearances": 2,
+  "lights": 38,
+  "emitters": 20,
+  "beams_trails": 7,
+  "sounds": 2,
+  "prompts": 18,
+  "world_guis": 22,
+  "humanoids": 15,
+  "materials": {
+   "Wood": 1591,
+   "Plastic": 699,
+   "Metal": 419,
+   "Fabric": 323,
+   "WoodPlanks": 211,
+   "SmoothPlastic": 145,
+   "Rock": 91,
+   "Concrete": 71,
+   "Glass": 51,
+   "Cobblestone": 49,
+   "Slate": 44,
+   "Neon": 32
+  },
+  "part_colors": {
+   "#5a4c42": 456,
+   "#957977": 338,
+   "#564236": 315,
+   "#1b2a35": 309,
+   "#6c584b": 206,
+   "#564d40": 149,
+   "#a3a2a5": 137,
+   "#635f62": 134,
+   "#464242": 119,
+   "#7c5c46": 106,
+   "#f8f8f8": 87,
+   "#4c4944": 79,
+   "#9a8869": 69,
+   "#111111": 62
+  },
+  "lobby_zones": [
+   {
+    "path": "Workspace.Map.Lobby",
+    "parts": 3823,
+    "instances": 7142,
+    "meshparts": 484,
+    "emitters": 27,
+    "lights": 38,
+    "guis": 61,
+    "sounds": 2,
+    "size": [
+     808,
+     515,
+     1284
+    ]
+   }
+  ],
+  "extent_studs": [
+   242,
+   62,
+   233
+  ],
+  "extent_all_studs": [
+   808,
+   515,
+   1284
+  ],
+  "top_classes": {
+   "Part": 2725,
+   "Texture": 1149,
+   "UnionOperation": 577,
+   "Decal": 527,
+   "MeshPart": 484,
+   "Model": 417,
+   "SpecialMesh": 304,
+   "Weld": 192,
+   "Attachment": 168,
+   "Motor6D": 97,
+   "Folder": 73,
+   "ManualWeld": 40,
+   "WedgePart": 36,
+   "PointLight": 34,
+   "Vector3Value": 25
+  }
+ },
+ "lighting": {
+  "Ambient": "#85acff",
+  "Brightness": 3.0,
+  "ColorShift_Bottom": "#000000",
+  "ColorShift_Top": "#000000",
+  "DefinesCapabilities": false,
+  "EnvironmentDiffuseScale": 1.0,
+  "EnvironmentSpecularScale": 1.0,
+  "ExposureCompensation": 0.0,
+  "ExtendLightRangeTo120": 0,
+  "FogColor": "#c0c0c0",
+  "FogEnd": 100000.0,
+  "FogStart": 0.0,
+  "GeographicLatitude": 0.0,
+  "GlobalShadows": true,
+  "LightingStyle": 0,
+  "Name": "Lighting",
+  "OutdoorAmbient": "#464646",
+  "Outlines": false,
+  "PrioritizeLightingQuality": true,
+  "ShadowSoftness": 0.2,
+  "Technology": "Future",
+  "TimeOfDay": "05:36:00",
+  "@attributes": {
+   "RBX_LightingTechnologyUnifiedMigration": true,
+   "RBX_OriginalTechnologyOnFileLoad": "<unknown attr type 0x04>"
+  }
+ },
+ "post": [
+  {
+   "class": "Sky",
+   "name": "Dark night",
+   "props": {
+    "CelestialBodiesShown": false,
+    "DefinesCapabilities": false,
+    "MoonAngularSize": 11.0,
+    "MoonTextureId": "rbxasset://sky/moon.jpg",
+    "Name": "Dark night",
+    "SkyboxBk": "http://www.roblox.com/asset/?id=48020371",
+    "SkyboxDn": "http://www.roblox.com/asset/?id=48020144",
+    "SkyboxFt": "http://www.roblox.com/asset/?id=48020234",
+    "SkyboxLf": "http://www.roblox.com/asset/?id=48020211",
+    "SkyboxOrientation": [
+     0.0,
+     0.0,
+     0.0
+    ],
+    "SkyboxRt": "http://www.roblox.com/asset/?id=48020254",
+    "SkyboxUp": "http://www.roblox.com/asset/?id=48020383",
+    "StarCount": 3000,
+    "SunAngularSize": 21.0,
+    "SunTextureId": "rbxasset://sky/sun.jpg"
+   }
+  },
+  {
+   "class": "Atmosphere",
+   "name": "Atmosphere",
+   "props": {
+    "Color": "#000000",
+    "Decay": "#000000",
+    "DefinesCapabilities": false,
+    "Density": 0.65,
+    "Glare": 3.62,
+    "Haze": 0.0,
+    "Name": "Atmosphere",
+    "Offset": 0.224
+   }
+  }
+ ],
+ "terrain": {
+  "AcquisitionMethod": 2,
+  "Anchored": true,
+  "AudioCanCollide": true,
+  "BackParamA": -0.5,
+  "BackParamB": 0.5,
+  "BackSurface": 0,
+  "BackSurfaceInput": 0,
+  "BottomParamA": -0.5,
+  "BottomParamB": 0.5,
+  "BottomSurface": 4,
+  "BottomSurfaceInput": 0,
+  "CFrame": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "CanCollide": true,
+  "CanQuery": true,
+  "CanTouch": true,
+  "CastShadow": true,
+  "CollisionGroup": "Default",
+  "CollisionGroupId": 0,
+  "Color3uint8": "#a3a2a5",
+  "Decoration": true,
+  "DefinesCapabilities": false,
+  "EnableFluidForces": true,
+  "FrontParamA": -0.5,
+  "FrontParamB": 0.5,
+  "FrontSurface": 0,
+  "FrontSurfaceInput": 0,
+  "GrassLength": 0.7,
+  "LeftParamA": -0.5,
+  "LeftParamB": 0.5,
+  "LeftSurface": 0,
+  "LeftSurfaceInput": 0,
+  "Locked": true,
+  "Massless": false,
+  "Material": 256,
+  "MaterialVariantSerialized": "",
+  "Name": "Terrain",
+  "PivotOffset": {
+   "pos": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "rot": 2
+  },
+  "Reflectance": 0.0,
+  "RightParamA": -0.5,
+  "RightParamB": 0.5,
+  "RightSurface": 0,
+  "RightSurfaceInput": 0,
+  "RootPriority": 0,
+  "RotVelocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "SmoothVoxelsUpgraded": false,
+  "TopParamA": -0.5,
+  "TopParamB": 0.5,
+  "TopSurface": 3,
+  "TopSurfaceInput": 0,
+  "Transparency": 0.0,
+  "Velocity": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "WaterColor": "#0c545c",
+  "WaterReflectance": 1.0,
+  "WaterTransparency": 1.0,
+  "WaterWaveSize": 0.0,
+  "WaterWaveSpeed": 10.0,
+  "size": [
+   2044.0,
+   252.0,
+   2044.0
+  ],
+  "voxel_data_bytes": 925,
+  "file": "map/terrain.rbxl"
+ },
+ "workspace": {
+  "AirDensity": 0.0012,
+  "FallenPartsDestroyHeight": -500.0,
+  "GlobalWind": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Gravity": 196.2,
+  "StreamingEnabled": false,
+  "StreamingMinRadius": 64,
+  "StreamingTargetRadius": 1024,
+  "@attributes": {
+   "LogLevelClient": "Warning",
+   "MapNames": "BrandonWorks|C00lCarnival|GeneratorHell|GeneratorHell2|Area51|GlassHouses|HauntedMansion|HorrorHotel|PlanetVoss|SFOTH|YoricksRestingPlace|TemplateTown|UltimateAssassinGrounds|TheTempest",
+   "RbxLegacyAnimationBlending": true,
+   "ServerType": "Standard",
+   "TotalPlayableMaps": 7.0
+  }
+ },
+ "packs": {
+  "ui": 186,
+  "ui-kit": 1,
+  "map": 1,
+  "terrain": 1,
+  "audio": 16,
+  "materials": 1,
+  "lighting": 1,
+  "model": 611,
+  "parts": 34,
+  "vfx": 9,
+  "model-set": 17,
+  "keyframes": 1,
+  "other": 5
+ },
+ "coverage": {
+  "instances": 81721,
+  "packed": 81644,
+  "services": 53,
+  "code_or_empty_folders_not_packed": 22,
+  "not_packed": {
+   "Workspace.Camera": 1,
+   "InsertService.StringValue": 1
+  },
+  "note": "not_packed should hold only Terrain/Camera and InsertService.InsertionHash; Terrain voxels are in map/terrain.rbxl when the place has terrain"
+ },
+ "keyframe_sequences": 1,
+ "animation_ids": 74,
+ "sound_ids": 740,
+ "files": 824,
+ "kb": 16676,
+ "category": "Horror",
+ "source_file": "Forsaken.rbxl"
+}

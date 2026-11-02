@@ -1,0 +1,26 @@
+-- Saved by UniversalSynSaveInstance (Join to Copy Games) https://discord.gg/wx4ThpAsmw
+
+-- Bytecode (Base64):
+-- BgMQBkNvbG9yMwdmcm9tUkdCB0FtYmllbnQKQnJpZ2h0bmVzcwNuZXcRQ29sb3JTaGlmdF9Cb3R0b20OQ29sb3JTaGlmdF9Ub3AXRW52aXJvbm1lbnREaWZmdXNlU2NhbGUYRW52aXJvbm1lbnRTcGVjdWxhclNjYWxlDk91dGRvb3JBbWJpZW50CUNsb2NrVGltZRJHZW9ncmFwaGljTGF0aXR1ZGUURXhwb3N1cmVDb21wZW5zYXRpb24GRm9nRW5kCEZvZ1N0YXJ0CEZvZ0NvbG9yAAEFAAABAgBEowAAAP8ABQAAAAAApAECAAAEAICMAkYAjANGAIwERgCfAQQCMAEAOgMAAABvAQQAMAEA7QUAAACkAQcAABgAgIwCAACMAwAAjAQAAJ8BBAIwAQABCAAAAKQBBwAAGACAjAIAAIwDAACMBAAAnwEEAjABAI4JAAAAjAEBADABACYKAAAAjAEBADABAHcLAAAApAECAAAEAICMAkYAjANGAIwERgCfAQQCMAEAmwwAAACMAQAAMAEAIA0AAACMAQAAMAEAOQ4AAACMAQAAMAEAYA8AAACMAfQBMAEA4xAAAACMAQAAMAEAmREAAACkAQIAAAQAgIwCAACMAwAAjAQAAJ8BBAIwAQBiEgAAAIIAAgATAwEDAgQABACAAwMCXI/C9Shc3z8DBAMFBAAYAIADBgMHAwgDCQMKAwsDDAMNAw4DDwMQAAEAARgAAQABAAAAAAAAAAEAAAEAAAAAAAAAAQAAAAAAAAABAAABAAABAAAAAAAAAAIAAAEAAAEAAAIAAAEAAAEAAAAAAAAAAAEAAAAAAInIJrAjCa5quwxMJIKQ05Us7/e4PqYLKRUjh3xjGCHDtF495wMEE0M=
+
+-- Decompiler will be improved VERY SOON!
+-- Decompiled with Konstant V2.1, a fast Luau decompiler made in Luau by plusgiant5 (https://discord.gg/brNTY8nX8t)
+-- Decompiled on 2025-11-29 02:15:49
+-- Luau version 6, Types version 3
+-- Time taken: 0.001019 seconds
+
+return {
+	Ambient = Color3.fromRGB(70, 70, 70);
+	Brightness = 0.49;
+	ColorShift_Bottom = Color3.new(0, 0, 0);
+	ColorShift_Top = Color3.new(0, 0, 0);
+	EnvironmentDiffuseScale = 1;
+	EnvironmentSpecularScale = 1;
+	OutdoorAmbient = Color3.fromRGB(70, 70, 70);
+	ClockTime = 0;
+	GeographicLatitude = 0;
+	ExposureCompensation = 0;
+	FogEnd = 500;
+	FogStart = 0;
+	FogColor = Color3.fromRGB(0, 0, 0);
+}
